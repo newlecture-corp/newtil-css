@@ -1422,3 +1422,9 @@
   -webkit-mask-image: url("../icon/youtube_logo_fill.svg");
   mask-image: url("../icon/youtube_logo_fill.svg");
 }
+
+.icon\:airplane_landing::before,
+.icon\:airplane_landing::after {
+  -webkit-mask-image: url("../icon/airplane_landing.svg");
+  mask-image: url("../icon/airplane_landing.svg");
+}
