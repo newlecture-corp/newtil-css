@@ -241,116 +241,159 @@
 }
 
 /* ---- deco-margin ------------------------------------------------- */
-.deco-margin-left\:0::before,         .deco-ml\:0::before,
-.deco-margin-left\:0::after,          .deco-ml\:0::after {
+.deco-margin-left\:0::before,
+.deco-ml\:0::before,
+.deco-margin-left\:0::after,
+.deco-ml\:0::after {
   margin-left: var(--gap-0);
 }
 
-.deco-margin-left\:1::before,         .deco-ml\:1::before,
-.deco-margin-left\:1::after,          .deco-ml\:1::after {
+.deco-margin-left\:1::before,
+.deco-ml\:1::before,
+.deco-margin-left\:1::after,
+.deco-ml\:1::after {
   margin-left: var(--gap-1);
 }
 
-.deco-margin-left\:2::before,         .deco-ml\:2::before,
-.deco-margin-left\:2::after,          .deco-ml\:2::after {
+.deco-margin-left\:2::before,
+.deco-ml\:2::before,
+.deco-margin-left\:2::after,
+.deco-ml\:2::after {
   margin-left: var(--gap-2);
 }
 
-.deco-margin-left\:3::before,         .deco-ml\:3::before,
-.deco-margin-left\:3::after,          .deco-ml\:3::after {
+.deco-margin-left\:3::before,
+.deco-ml\:3::before,
+.deco-margin-left\:3::after,
+.deco-ml\:3::after {
   margin-left: var(--gap-3);
 }
 
-.deco-margin-left\:4::before,         .deco-ml\:4::before,
-.deco-margin-left\:4::after,          .deco-ml\:4::after {
+.deco-margin-left\:4::before,
+.deco-ml\:4::before,
+.deco-margin-left\:4::after,
+.deco-ml\:4::after {
   margin-left: var(--gap-4);
 }
 
-.deco-margin-left\:5::before,         .deco-ml\:5::before,
-.deco-margin-left\:5::after,          .deco-ml\:5::after {
+.deco-margin-left\:5::before,
+.deco-ml\:5::before,
+.deco-margin-left\:5::after,
+.deco-ml\:5::after {
   margin-left: var(--gap-5);
 }
 
-.deco-margin-left\:6::before,         .deco-ml\:6::before,
-.deco-margin-left\:6::after,          .deco-ml\:6::after {
+.deco-margin-left\:6::before,
+.deco-ml\:6::before,
+.deco-margin-left\:6::after,
+.deco-ml\:6::after {
   margin-left: var(--gap-6);
 }
 
-.deco-margin-left\:7::before,         .deco-ml\:7::before,
-.deco-margin-left\:7::after,          .deco-ml\:7::after {
+.deco-margin-left\:7::before,
+.deco-ml\:7::before,
+.deco-margin-left\:7::after,
+.deco-ml\:7::after {
   margin-left: var(--gap-7);
 }
 
-.deco-margin-left\:8::before,         .deco-ml\:8::before,
-.deco-margin-left\:8::after,          .deco-ml\:8::after {
+.deco-margin-left\:8::before,
+.deco-ml\:8::before,
+.deco-margin-left\:8::after,
+.deco-ml\:8::after {
   margin-left: var(--gap-8);
 }
 
-.deco-margin-left\:9::before,         .deco-ml\:9::before,
-.deco-margin-left\:9::after,          .deco-ml\:9::after {
+.deco-margin-left\:9::before,
+.deco-ml\:9::before,
+.deco-margin-left\:9::after,
+.deco-ml\:9::after {
   margin-left: var(--gap-9);
 }
 
-.deco-margin-left\:10::before,         .deco-ml\:10::before,
-.deco-margin-left\:10::after,          .deco-ml\:10::after {
+.deco-margin-left\:10::before,
+.deco-ml\:10::before,
+.deco-margin-left\:10::after,
+.deco-ml\:10::after {
   margin-left: var(--gap-10);
 }
 
-.deco-margin-right\:0::before,         .deco-mr\:0::before,
-.deco-margin-right\:0::after,          .deco-mr\:0::after {
+.deco-margin-right\:0::before,
+.deco-mr\:0::before,
+.deco-margin-right\:0::after,
+.deco-mr\:0::after {
   margin-right: var(--gap-0);
 }
 
-.deco-margin-right\:1::before,         .deco-mr\:1::before,
-.deco-margin-right\:1::after,          .deco-mr\:1::after {
+.deco-margin-right\:1::before,
+.deco-mr\:1::before,
+.deco-margin-right\:1::after,
+.deco-mr\:1::after {
   margin-right: var(--gap-1);
 }
 
-.deco-margin-right\:2::before,         .deco-mr\:2::before,
-.deco-margin-right\:2::after,          .deco-mr\:2::after {
+.deco-margin-right\:2::before,
+.deco-mr\:2::before,
+.deco-margin-right\:2::after,
+.deco-mr\:2::after {
   margin-right: var(--gap-2);
 }
 
-.deco-margin-right\:3::before,         .deco-mr\:3::before,
-.deco-margin-right\:3::after,          .deco-mr\:3::after {
+.deco-margin-right\:3::before,
+.deco-mr\:3::before,
+.deco-margin-right\:3::after,
+.deco-mr\:3::after {
   margin-right: var(--gap-3);
 }
 
-.deco-margin-right\:4::before,         .deco-mr\:4::before,
-.deco-margin-right\:4::after,          .deco-mr\:4::after {
+.deco-margin-right\:4::before,
+.deco-mr\:4::before,
+.deco-margin-right\:4::after,
+.deco-mr\:4::after {
   margin-right: var(--gap-4);
 }
 
-.deco-margin-right\:5::before,         .deco-mr\:5::before,
-.deco-margin-right\:5::after,          .deco-mr\:5::after {
+.deco-margin-right\:5::before,
+.deco-mr\:5::before,
+.deco-margin-right\:5::after,
+.deco-mr\:5::after {
   margin-right: var(--gap-5);
 }
 
-.deco-margin-right\:6::before,         .deco-mr\:6::before,
-.deco-margin-right\:6::after,          .deco-mr\:6::after {
+.deco-margin-right\:6::before,
+.deco-mr\:6::before,
+.deco-margin-right\:6::after,
+.deco-mr\:6::after {
   margin-right: var(--gap-6);
 }
 
-.deco-margin-right\:7::before,         .deco-mr\:7::before,
-.deco-margin-right\:7::after,          .deco-mr\:7::after {
+.deco-margin-right\:7::before,
+.deco-mr\:7::before,
+.deco-margin-right\:7::after,
+.deco-mr\:7::after {
   margin-right: var(--gap-7);
 }
 
-.deco-margin-right\:8::before,         .deco-mr\:8::before,
-.deco-margin-right\:8::after,          .deco-mr\:8::after {
+.deco-margin-right\:8::before,
+.deco-mr\:8::before,
+.deco-margin-right\:8::after,
+.deco-mr\:8::after {
   margin-right: var(--gap-8);
 }
 
-.deco-margin-right\:9::before,         .deco-mr\:9::before,
-.deco-margin-right\:9::after,          .deco-mr\:9::after {
+.deco-margin-right\:9::before,
+.deco-mr\:9::before,
+.deco-margin-right\:9::after,
+.deco-mr\:9::after {
   margin-right: var(--gap-9);
 }
 
-.deco-margin-right\:10::before,         .deco-mr\:10::before,
-.deco-margin-right\:10::after,          .deco-mr\:10::after {
+.deco-margin-right\:10::before,
+.deco-mr\:10::before,
+.deco-margin-right\:10::after,
+.deco-mr\:10::after {
   margin-right: var(--gap-10);
 }
-
 
 /* ---- icon-size ------------------------------------------------- */
 .icon-size\:1 {
@@ -1355,8 +1398,6 @@
   mask-image: url("../icon/trophy.svg");
 }
 
-
-
 .icon\:upload_simple::before,
 .icon\:upload_simple::after {
   -webkit-mask-image: url("../icon/upload_simple.svg");
@@ -1421,4 +1462,10 @@
 .icon\:youtube_logo_fill::after {
   -webkit-mask-image: url("../icon/youtube_logo_fill.svg");
   mask-image: url("../icon/youtube_logo_fill.svg");
+}
+
+.icon\:carrot_fill::before,
+.icon\:carrot_fill::after {
+  -webkit-mask-image: url("../icon/carrot_fill.svg");
+  mask-image: url("../icon/carrot_fill.svg");
 }
