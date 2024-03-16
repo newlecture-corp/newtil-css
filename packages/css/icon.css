@@ -1422,3 +1422,9 @@
   -webkit-mask-image: url("../icon/youtube_logo_fill.svg");
   mask-image: url("../icon/youtube_logo_fill.svg");
 }
+
+.icon\:beer_stein.svg::before,
+.icon\:beer_stein.svg::after {
+  -webkit-mask-image: url("../icon/beer_stein.svg.svg");
+  mask-image: url("../icon/beer_stein.svg.svg");
+}
