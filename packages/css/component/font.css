@@ -8,30 +8,41 @@
  */
 
 .n-font{
-  --font-title-font-size: 32px;
+  --font-title-font-size: 30px;
   --font-title-font-weight: 700;
   --font-title-line-height: 150%;
   --font-title-letter-spacing: -0.02em;
 
-  --font-subtitle-font-size: 20px;
+  --font-subtitle-font-size: 18px;
   --font-subtitle-font-weight: 500;
   --font-subtitle-line-height: 150%;
   --font-subtitle-letter-spacing: -0.02em;
 
-  --font-heading-1-font-size: 26px;
+  --font-heading-1-font-size: 24px;
   --font-heading-1-font-weight: 500;
   --font-heading-1-line-height: 150%;
   --font-heading-1-letter-spacing: -0.02em;
 
-  --font-heading-2-font-size: 22px;
+  --font-heading-2-font-size: 20px;
   --font-heading-2-font-weight: 500;
   --font-heading-2-line-height: 150%;
   --font-heading-2-letter-spacing: -0.02em;
 
-  --font-heading-3-font-size: 18px;
+  --font-heading-3-font-size: 16px;
   --font-heading-3-font-weight: 500;
   --font-heading-3-line-height: 150%;
   --font-heading-3-letter-spacing: -0.02em;
+}
+
+/* ---- md ------------------------------------------------- */
+@media (min-width: 768px) {
+  .n-font{
+    --font-title-font-size: 32px;
+    --font-subtitle-font-size: 20px;
+    --font-heading-1-font-size: 26px;
+    --font-heading-2-font-size: 22px;
+    --font-heading-3-font-size: 18px;
+  }
 }
 
 .n-font,
