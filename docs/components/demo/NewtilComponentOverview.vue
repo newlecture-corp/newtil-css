@@ -275,17 +275,6 @@
   width: 80%;
 }
 
-/* table */
-.n-table tr:last-child {
-  border-bottom-left-radius: 9999px;
-}
-.n-table tr:last-child > :first-child {
-  border-bottom-left-radius: 9999px;
-}
-.n-table tr:last-child > :last-child {
-  border-bottom-right-radius: 9999px;
-}
-
 /* modal */
 .n-modal {
   position: relative;
@@ -297,6 +286,11 @@
 /* panel */
 .top-panel {
   height: 20%;
+}
+
+.n-table > thead > tr,
+.n-table > tbody > tr {
+  height: 32px;
 }
 
 .side-panel {
