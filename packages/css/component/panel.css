@@ -102,12 +102,13 @@
 .n-side-panel {
   position: fixed;
   display: none;
+  align-items: stretch;
 
   width: var(--side-panel-width-md);
   height: 100vh;
   padding: inherit;
   background-color: var(--side-panel-background-color);
-  border: inherit;
+  border: none;
   border-right: var(--side-panel-border-right);
   box-shadow: var(--side-panel-box-shadow);
 }
@@ -136,12 +137,13 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  align-items: stretch;
 
   padding: inherit;
   padding-top: 16px;
   padding-left: 8px;
   padding-right: 8px;
-  border: inherit;
+  border: none;
 
   overflow: auto;
 }
