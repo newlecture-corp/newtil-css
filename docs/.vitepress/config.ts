@@ -16,11 +16,10 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "newtil-css.css": path.resolve(
+        "newtil-css": path.resolve(
           __dirname,
           "../../packages/css/style.css"
         ),
-        "newtil-css": path.resolve(__dirname, "../../packages/js/index.js"),
       },
     },
   },
