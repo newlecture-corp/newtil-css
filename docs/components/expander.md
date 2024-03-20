@@ -1,22 +1,8 @@
 # 익스펜더 (Expander)
 
+익스펜더 컴포넌트는 컨텐츠를 펼치거나 숨길 수 있는 UI 요소입니다.
+
 <QuickLinks :componentName="'Expander'"/>
-
-:::raw
-<ExampleSection class="d:block">
-<template #h="예시"/>
-
-  <section class="n-expander">
-    <h1>
-      <input type="checkbox"/>
-      expander title
-    </h1>
-    <div>
-      <div class="px:2 py3">exapnder content</div>
-    </div>
-  </section>
-</ExampleSection>
-:::
 
 ## Usage
 
