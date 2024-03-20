@@ -10,6 +10,291 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 유틸리티와 컴포넌트에서 사용되는 CSS 변수 목록과 해당 변수들을 오버라이딩하는 방법을 설명합니다.
 
+## Overview
+
+`newtil-css`에서 사용되는 모든 전역 변수는 다음을 확인하세요:
+::: details 변수 목록
+
+```css
+:root {
+  /* color */
+  --color-main-1: #99c842;
+  --color-main-2: #85b132;
+  --color-main-3: #759d2a;
+
+  --rgb-main-1: 153, 200, 66;
+  --rgb-main-2: 133, 177, 50;
+  --rgb-main-3: 117, 157, 42;
+
+  --color-sub-1: #339af0;
+  --color-sub-2: #228be6;
+  --color-sub-3: #1c7ed6;
+
+  --rgb-sub-1: 51, 154, 240;
+  --rgb-sub-2: 34, 139, 230;
+  --rgb-sub-3: 28, 126, 214;
+
+  --color-accent-1: #ff6b6b;
+  --color-accent-2: #fa5252;
+  --color-accent-3: #f03e3e;
+
+  --rgb-accent-1: 255, 107, 107;
+  --rgb-accent-2: 250, 82, 82;
+  --rgb-accent-3: 240, 62, 62;
+
+  --color-base-1: #ffffff;
+  --color-base-2: #e4e7ea;
+  --color-base-3: #dee2e6;
+  --color-base-4: #ced4da;
+  --color-base-5: #adb5bd;
+  --color-base-6: #868e96;
+  --color-base-7: #495057;
+  --color-base-8: #343a40;
+  --color-base-9: #1a1c20;
+  --color-base-10: #000000;
+
+  --rgb-base-1: 255, 255, 255;
+  --rgb-base-2: 228, 231, 234;
+  --rgb-base-3: 222, 226, 230;
+  --rgb-base-4: 206, 212, 218;
+  --rgb-base-5: 173, 181, 189;
+  --rgb-base-6: 134, 142, 150;
+  --rgb-base-7: 73, 80, 87;
+  --rgb-base-8: 52, 58, 64;
+  --rgb-base-9: 26, 28, 32;
+  --rgb-base-10: 0, 0, 0;
+
+  /* gap */
+  --gap-0: 0px;
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 16px;
+  --gap-5: 20px;
+  --gap-6: 24px;
+  --gap-7: 28px;
+  --gap-8: 32px;
+  --gap-9: 36px;
+  --gap-10: 40px;
+  --gap-full: 9999px;
+
+  /* width */
+  --width-0: 0px;
+  --width-1: 50px;
+  --width-2: 100px;
+  --width-3: 150px;
+  --width-4: 200px;
+  --width-5: 250px;
+  --width-6: 300px;
+  --width-7: 350px;
+  --width-8: 400px;
+  --width-9: 450px;
+  --width-10: 500px;
+  --width-percent-1: 10%;
+  --width-percent-2: 20%;
+  --width-percent-3: 30%;
+  --width-percent-4: 40%;
+  --width-percent-5: 50%;
+  --width-percent-6: 60%;
+  --width-percent-7: 70%;
+  --width-percent-8: 80%;
+  --width-percent-9: 90%;
+  --width-percent-10: 100%;
+
+  /* height */
+  --height-0: 0px;
+  --height-1: 50px;
+  --height-2: 100px;
+  --height-3: 150px;
+  --height-4: 200px;
+  --height-5: 250px;
+  --height-6: 300px;
+  --height-7: 350px;
+  --height-8: 400px;
+  --height-9: 450px;
+  --height-10: 500px;
+  --height-percent-1: 10%;
+  --height-percent-2: 20%;
+  --height-percent-3: 30%;
+  --height-percent-4: 40%;
+  --height-percent-5: 50%;
+  --height-percent-6: 60%;
+  --height-percent-7: 70%;
+  --height-percent-8: 80%;
+  --height-percent-9: 90%;
+  --height-percent-10: 100%;
+
+  /* border */
+  --border-color: var(--color-base-3);
+
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
+
+  --border-radius-0: 0;
+  --border-radius-1: 4px;
+  --border-radius-2: 8px;
+  --border-radius-3: 12px;
+  --border-radius-4: 16px;
+  --border-radius-full: 9999px;
+
+  /* font-size */
+  --font-size-1: 12px;
+  --font-size-2: 14px;
+  --font-size-3: 16px;
+  --font-size-4: 18px;
+  --font-size-5: 20px;
+  --font-size-6: 22px;
+  --font-size-7: 26px;
+  --font-size-8: 32px;
+  --font-size-9: 56px;
+
+  /* font-weight */
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 700;
+
+  /* opacity */
+  --opacity-0: 0;
+  --opacity-1: 0.1;
+  --opacity-2: 0.18;
+  --opacity-3: 0.3;
+  --opacity-4: 0.45;
+  --opacity-5: 0.5;
+  --opacity-6: 0.57;
+  --opacity-7: 0.7;
+  --opacity-8: 0.8;
+  --opacity-9: 0.9;
+  --opacity-10: 1;
+
+  /* order */
+  --order-1: -1;
+  --order-2: 2;
+  --order-3: 3;
+  --order-4: 4;
+  --order-5: 5;
+
+  /* box-shadow */
+  --box-shadow-1: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+  --box-shadow-2: 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 1px 1px -0.5px rgba(0, 0, 0, 0.01);
+  --box-shadow-3: 0px 3px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 2px -1px rgba(0, 0, 0, 0.01);
+  --box-shadow-4: 0px 6px 8px -2px rgba(0, 0, 0, 0.08), 0px 2px 3px -2px rgba(0, 0, 0, 0.01);
+  --box-shadow-5: 0px 8px 12px -2px rgba(0, 0, 0, 0.08), 0px 3px 4px -3px rgba(0, 0, 0, 0.01);
+  --box-shadow-6: 0px 16px 20px -4px rgba(0, 0, 0, 0.08), 0px 6px 8px -5px rgba(0, 0, 0, 0.01);
+  --box-shadow-7: 0px 20px 40px -9px rgba(0, 0, 0, 0.17);
+
+  /* z-index */
+  --z-index-1: 1;
+  --z-index-2: 200;
+  --z-index-3: 500;
+  --z-index-4: 1000;
+  --z-index-5: 2000;
+
+  /* icon */
+  --icon-size-1: 12px;
+  --icon-size-2: 16px;
+  --icon-size-3: 18px;
+  --icon-size-4: 20px;
+  --icon-size-5: 24px;
+  --icon-color: var(--color-base-9);
+
+  /* deco */
+  --deco-size-1: 12px;
+  --deco-size-2: 16px;
+  --deco-size-3: 18px;
+  --deco-size-4: 20px;
+  --deco-size-5: 24px;
+  --deco-color: var(--color-base-9);
+
+  /* position */
+  --left-1: 0;
+  --left-2: 100px;
+  --left-3: 200px;
+  --left-4: 300px;
+  --left-5: 400px;
+  --left-6: 500px;
+  --left-7: 600px;
+  --left-8: 700px;
+  --left-9: 800px;
+  --left-10: 900px;
+  --left-percent-1: 10%;
+  --left-percent-2: 20%;
+  --left-percent-3: 30%;
+  --left-percent-4: 40%;
+  --left-percent-5: 50%;
+  --left-percent-6: 60%;
+  --left-percent-7: 70%;
+  --left-percent-8: 80%;
+  --left-percent-9: 90%;
+  --left-percent-10: 100%;
+
+  --top-1: 0;
+  --top-2: 100px;
+  --top-3: 200px;
+  --top-4: 300px;
+  --top-5: 400px;
+  --top-6: 500px;
+  --top-7: 600px;
+  --top-8: 700px;
+  --top-9: 800px;
+  --top-10: 900px;
+  --top-percent-1: 10%;
+  --top-percent-2: 20%;
+  --top-percent-3: 30%;
+  --top-percent-4: 40%;
+  --top-percent-5: 50%;
+  --top-percent-6: 60%;
+  --top-percent-7: 70%;
+  --top-percent-8: 80%;
+  --top-percent-9: 90%;
+  --top-percent-10: 100%;
+
+  --right-1: 0;
+  --right-2: 100px;
+  --right-3: 200px;
+  --right-4: 300px;
+  --right-5: 400px;
+  --right-6: 500px;
+  --right-7: 600px;
+  --right-8: 700px;
+  --right-9: 800px;
+  --right-10: 900px;
+  --right-percent-1: 10%;
+  --right-percent-2: 20%;
+  --right-percent-3: 30%;
+  --right-percent-4: 40%;
+  --right-percent-5: 50%;
+  --right-percent-6: 60%;
+  --right-percent-7: 70%;
+  --right-percent-8: 80%;
+  --right-percent-9: 90%;
+  --right-percent-10: 100%;
+
+  --bottom-1: 0;
+  --bottom-2: 100px;
+  --bottom-3: 200px;
+  --bottom-4: 300px;
+  --bottom-5: 400px;
+  --bottom-6: 500px;
+  --bottom-7: 600px;
+  --bottom-8: 700px;
+  --bottom-9: 800px;
+  --bottom-10: 900px;
+  --bottom-percent-1: 10%;
+  --bottom-percent-2: 20%;
+  --bottom-percent-3: 30%;
+  --bottom-percent-4: 40%;
+  --bottom-percent-5: 50%;
+  --bottom-percent-6: 60%;
+  --bottom-percent-7: 70%;
+  --bottom-percent-8: 80%;
+  --bottom-percent-9: 90%;
+  --bottom-percent-10: 100%;
+}
+```
+
+:::
+
 ## border-color
 
 변수 `var(--border-color)`는 테두리의 기본 색상을 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
@@ -473,14 +758,14 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 변수 `var(--gap)`은 간격 및 크기를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
 | gap-\*                                                                          | margin-\*                                                                                | padding-\*                                                                                  | text-\*                                                                            |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --- |
 | <span class="white-space:nowrap">[gap](../utility/gap/gap)</span>               | <span class="white-space:nowrap">[margin](../utility/margin/margin)</span>               | <span class="white-space:nowrap">[padding](../utility/padding/padding)</span>               | <span class="white-space:nowrap">[text-indent](../utility/text/text-indent)</span> |
-| <span class="white-space:nowrap">[column-gap](../utility/gap/column-gap)</span> | <span class="white-space:nowrap">[margin-top](../utility/margin/margin-top)</span>       | <span class="white-space:nowrap">[padding-top](../utility/padding/padding-top)</span>       |                                                               |
-| <span class="white-space:nowrap">[row-gap](../utility/gap/row-gap)</span>       | <span class="white-space:nowrap">[margin-right](../utility/margin/margin-right)</span>   | <span class="white-space:nowrap">[padding-right](../utility/padding/padding-right)</span>   |                                                               |
-|                                                                                 | <span class="white-space:nowrap">[margin-bottom](../utility/margin/margin-bottom)</span> | <span class="white-space:nowrap">[padding-bottom](../utility/padding/padding-bottom)</span> |                                                                     |
-|                                                                                 | <span class="white-space:nowrap">[margin-left](../utility/margin/margin-left)</span>     | <span class="white-space:nowrap">[padding-left](../utility/padding/padding-left)</span>     |                                                                              |                                                                                    |
-|                                                                                 | <span class="white-space:nowrap">[margin-x](../utility/margin/margin-x)</span>           | <span class="white-space:nowrap">[padding-x](../utility/padding/padding-x)</span>           |                                                                              |                                                                                    |
-|                                                                                 | <span class="white-space:nowrap">[margin-y](../utility/margin/margin-y)</span>           | <span class="white-space:nowrap">[padding-y](../utility/padding/padding-y)</span>           |                                                                              |                                                                                    |
+| <span class="white-space:nowrap">[column-gap](../utility/gap/column-gap)</span> | <span class="white-space:nowrap">[margin-top](../utility/margin/margin-top)</span>       | <span class="white-space:nowrap">[padding-top](../utility/padding/padding-top)</span>       |                                                                                    |
+| <span class="white-space:nowrap">[row-gap](../utility/gap/row-gap)</span>       | <span class="white-space:nowrap">[margin-right](../utility/margin/margin-right)</span>   | <span class="white-space:nowrap">[padding-right](../utility/padding/padding-right)</span>   |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-bottom](../utility/margin/margin-bottom)</span> | <span class="white-space:nowrap">[padding-bottom](../utility/padding/padding-bottom)</span> |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-left](../utility/margin/margin-left)</span>     | <span class="white-space:nowrap">[padding-left](../utility/padding/padding-left)</span>     |                                                                                    |     |
+|                                                                                 | <span class="white-space:nowrap">[margin-x](../utility/margin/margin-x)</span>           | <span class="white-space:nowrap">[padding-x](../utility/padding/padding-x)</span>           |                                                                                    |     |
+|                                                                                 | <span class="white-space:nowrap">[margin-y](../utility/margin/margin-y)</span>           | <span class="white-space:nowrap">[padding-y](../utility/padding/padding-y)</span>           |                                                                                    |     |
 
 <span class="white-space:nowrap"></span>
 
