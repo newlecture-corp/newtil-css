@@ -1422,3 +1422,15 @@
   -webkit-mask-image: url("../icon/youtube_logo_fill.svg");
   mask-image: url("../icon/youtube_logo_fill.svg");
 }
+
+.icon\:bone::before,
+.icon\:bone::after {
+  -webkit-mask-image: url("../icon/bone.svg");
+  mask-image: url("../icon/bone.svg");
+}
+
+.icon\:google_logo::before,
+.icon\:google_logo::after {
+  -webkit-mask-image: url("../icon/google_logo.svg");
+  mask-image: url("../icon/google_logo.svg");
+}
