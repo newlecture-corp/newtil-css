@@ -1,649 +1,657 @@
-import { defineConfig } from 'vitepress';
-import path from 'path';
+import { defineConfig } from "vitepress";
+import path from "path";
 
-const BASE_PATH = '/newtil-css/';
+const BASE_PATH = "/newtil-css/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: false,
   base: BASE_PATH,
-  title: 'Newtil CSS',
-  description: 'Utility based CSS',
+  title: "Newtil CSS",
+  description: "Utility based CSS",
   appearance: false, // darkmode
-  lang: 'ko',
-  head: [['link', { rel: 'icon', href: `${BASE_PATH}favicon.ico` }]],
+  lang: "ko",
+  head: [["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }]],
 
   vite: {
     resolve: {
       alias: {
-        'newtil-css': path.resolve(__dirname, '../../packages/css/style.css')
-      }
-    }
+        "newtil-css.css": path.resolve(
+          __dirname,
+          "../../packages/css/style.css"
+        ),
+        "newtil-css": path.resolve(__dirname, "../../packages/js/index.js"),
+      },
+    },
   },
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
-    logo: { src: '/logo.png', width: 24, height: 24 },
+    logo: { src: "/logo.png", width: 24, height: 24 },
 
     socialLinks: [
       {
-        icon: 'github',
-        link: 'https://github.com/newlecture-corp/newtil-css'
-      }
+        icon: "github",
+        link: "https://github.com/newlecture-corp/newtil-css",
+      },
     ],
 
     search: {
-      provider: 'local'
+      provider: "local",
     },
 
     nav: [
-      { text: '홈', link: '/' },
-      { text: '컴포넌트', link: '/guide/getting-started-component' }
+      { text: "홈", link: "/" },
+      { text: "컴포넌트", link: "/guide/getting-started-component" },
     ],
 
     sidebar: [
-      { text: 'Newtil CSS 소개', link: '/about' },
+      { text: "Newtil CSS 소개", link: "/about" },
       {
-        text: '가이드',
-        base: '/guide',
+        text: "가이드",
+        base: "/guide",
         items: [
-          { text: '시작하기', link: '/getting-started' },
+          { text: "시작하기", link: "/getting-started" },
           {
-            text: '컴포넌트 시작하기',
-            link: '/getting-started-component'
+            text: "컴포넌트 시작하기",
+            link: "/getting-started-component",
           },
           {
-            text: '유틸리티 시작하기',
-            link: '/getting-started-utility'
+            text: "유틸리티 시작하기",
+            link: "/getting-started-utility",
           },
-          { text: '테마 커스터마이징', link: '/customizing' },
-          { text: 'CSS 변수 목록', link: '/css-variable-list' }
-        ]
+          { text: "테마 커스터마이징", link: "/customizing" },
+          { text: "CSS 변수 목록", link: "/css-variable-list" },
+        ],
       },
 
       {
-        text: '컴포넌트',
-        base: '/components',
+        text: "컴포넌트",
+        base: "/components",
         items: [
           {
-            text: 'Button',
-            link: '/button'
+            text: "Button",
+            link: "/button",
           },
           {
-            text: 'Container',
-            link: '/container'
+            text: "Container",
+            link: "/container",
           },
           {
-            text: 'Dropdown',
-            link: '/dropdown'
+            text: "Dropdown",
+            link: "/dropdown",
           },
           {
-            text: 'Font',
-            link: '/font'
+            text: "Expander",
+            link: "/expander",
           },
           {
-            text: 'Form',
-            link: '/form'
+            text: "Font",
+            link: "/font",
           },
           {
-            text: 'Item',
-            link: '/item'
+            text: "Form",
+            link: "/form",
           },
           {
-            text: 'List',
-            link: '/list'
+            text: "Item",
+            link: "/item",
           },
           {
-            text: 'Modal',
-            link: '/modal'
+            text: "List",
+            link: "/list",
           },
           {
-            text: 'Pager',
-            link: '/pager'
+            text: "Modal",
+            link: "/modal",
           },
           {
-            text: 'Panel',
-            link: '/panel'
+            text: "Pager",
+            link: "/pager",
           },
           {
-            text: 'Progress',
-            link: '/progress'
+            text: "Panel",
+            link: "/panel",
           },
           {
-            text: 'Tabbar',
-            link: '/tabbar',
+            text: "Progress",
+            link: "/progress",
           },
           {
-            text: 'Table',
-            link: '/table'
+            text: "Tabbar",
+            link: "/tabbar",
           },
           {
-            text: 'Textbox',
-            link: '/textbox'
+            text: "Table",
+            link: "/table",
           },
           {
-            text: 'Toggle',
-            link: '/toggle'
-          }
-        ]
+            text: "Textbox",
+            link: "/textbox",
+          },
+          {
+            text: "Toggle",
+            link: "/toggle",
+          },
+        ],
       },
 
       {
-        text: '아이콘',
-        base: '/icons',
+        text: "아이콘",
+        base: "/icons",
         items: [
           {
-            text: '아이콘과 데코 시작하기',
-            link: '/getting-started'
+            text: "아이콘과 데코 시작하기",
+            link: "/getting-started",
           },
           {
-            text: '아이콘 목록',
-            link: '/list'
-          }
-        ]
+            text: "아이콘 목록",
+            link: "/list",
+          },
+        ],
       },
 
       {
-        text: '유틸리티',
-        base: '/utility',
+        text: "유틸리티",
+        base: "/utility",
         items: [
           {
-            text: 'align-*',
+            text: "align-*",
             collapsed: true,
             items: [
               {
-                text: 'align-content',
-                link: '/align-style/align-content'
+                text: "align-content",
+                link: "/align-style/align-content",
               },
               {
-                text: 'align-items',
-                link: '/align-style/align-items'
+                text: "align-items",
+                link: "/align-style/align-items",
               },
               {
-                text: 'align-self',
-                link: '/align-style/align-self'
-              }
-            ]
+                text: "align-self",
+                link: "/align-style/align-self",
+              },
+            ],
           },
           {
-            text: 'background-*',
+            text: "background-*",
             collapsed: true,
             items: [
               {
-                text: 'background-attachment',
-                link: '/background/background-attachment'
+                text: "background-attachment",
+                link: "/background/background-attachment",
               },
               {
-                text: 'background-clip',
-                link: '/background/background-clip'
+                text: "background-clip",
+                link: "/background/background-clip",
               },
               {
-                text: 'background-color',
-                link: '/background/background-color'
+                text: "background-color",
+                link: "/background/background-color",
               },
               {
-                text: 'background-origin',
-                link: '/background/background-origin'
+                text: "background-origin",
+                link: "/background/background-origin",
               },
               {
-                text: 'background-position',
-                link: '/background/background-position'
+                text: "background-position",
+                link: "/background/background-position",
               },
               {
-                text: 'background-repeat',
-                link: '/background/background-repeat'
+                text: "background-repeat",
+                link: "/background/background-repeat",
               },
               {
-                text: 'background-size',
-                link: '/background/background-size'
-              }
-            ]
+                text: "background-size",
+                link: "/background/background-size",
+              },
+            ],
           },
           {
-            text: 'border-*',
+            text: "border-*",
             collapsed: true,
             items: [
               {
-                text: 'border',
-                link: '/border/border'
+                text: "border",
+                link: "/border/border",
               },
               {
-                text: 'border-color',
-                link: '/border/border-color'
+                text: "border-color",
+                link: "/border/border-color",
               },
               {
-                text: 'border-radius',
-                link: '/border/border-radius'
+                text: "border-radius",
+                link: "/border/border-radius",
               },
               {
-                text: 'border-style',
-                link: '/border/border-style'
+                text: "border-style",
+                link: "/border/border-style",
               },
               {
-                text: 'border-width',
-                link: '/border/border-width'
-              }
-            ]
+                text: "border-width",
+                link: "/border/border-width",
+              },
+            ],
           },
           {
-            text: 'box-shadow',
-            link: '/box-shadow'
+            text: "box-shadow",
+            link: "/box-shadow",
           },
           {
-            text: 'box-sizing',
-            link: '/box-sizing'
+            text: "box-sizing",
+            link: "/box-sizing",
           },
           {
-            text: 'color',
-            link: '/color'
+            text: "color",
+            link: "/color",
           },
           {
-            text: 'cursor',
-            link: '/cursor'
+            text: "cursor",
+            link: "/cursor",
           },
-          { text: 'display', link: '/display' },
+          { text: "display", link: "/display" },
           {
-            text: 'flex-*',
+            text: "flex-*",
             collapsed: true,
             items: [
               {
-                text: 'flex',
-                link: '/flex/flex'
+                text: "flex",
+                link: "/flex/flex",
               },
               {
-                text: 'flex-basis',
-                link: '/flex/flex-basis'
+                text: "flex-basis",
+                link: "/flex/flex-basis",
               },
               {
-                text: 'flex-direction',
-                link: '/flex/flex-direction'
+                text: "flex-direction",
+                link: "/flex/flex-direction",
               },
               {
-                text: 'flex-flow',
-                link: '/flex/flex-flow'
+                text: "flex-flow",
+                link: "/flex/flex-flow",
               },
               {
-                text: 'flex-grow',
-                link: '/flex/flex-grow'
+                text: "flex-grow",
+                link: "/flex/flex-grow",
               },
               {
-                text: 'flex-shrink',
-                link: '/flex/flex-shrink'
+                text: "flex-shrink",
+                link: "/flex/flex-shrink",
               },
               {
-                text: 'flex-wrap',
-                link: '/flex/flex-wrap'
-              }
-            ]
+                text: "flex-wrap",
+                link: "/flex/flex-wrap",
+              },
+            ],
           },
           {
-            text: 'float',
-            link: '/float'
+            text: "float",
+            link: "/float",
           },
           {
-            text: 'font-*',
+            text: "font-*",
             collapsed: true,
             items: [
               {
-                text: 'font-size',
-                link: '/font/font-size'
+                text: "font-size",
+                link: "/font/font-size",
               },
               {
-                text: 'font-style',
-                link: '/font/font-style'
+                text: "font-style",
+                link: "/font/font-style",
               },
               {
-                text: 'font-weight',
-                link: '/font/font-weight'
-              }
-            ]
+                text: "font-weight",
+                link: "/font/font-weight",
+              },
+            ],
           },
           {
-            text: 'gap-*',
+            text: "gap-*",
             collapsed: true,
             items: [
               {
-                text: 'gap',
-                link: '/gap/gap'
+                text: "gap",
+                link: "/gap/gap",
               },
               {
-                text: 'column-gap',
-                link: '/gap/column-gap'
+                text: "column-gap",
+                link: "/gap/column-gap",
               },
               {
-                text: 'row-gap',
-                link: '/gap/row-gap'
-              }
-            ]
+                text: "row-gap",
+                link: "/gap/row-gap",
+              },
+            ],
           },
           {
-            text: 'grid-*',
+            text: "grid-*",
             collapsed: true,
             items: [
               {
-                text: 'grid-auto-flow',
-                link: '/grid/grid-auto-flow'
+                text: "grid-auto-flow",
+                link: "/grid/grid-auto-flow",
               },
               {
-                text: 'grid-auto-columns',
-                link: '/grid/grid-auto-columns'
+                text: "grid-auto-columns",
+                link: "/grid/grid-auto-columns",
               },
               {
-                text: 'grid-auto-rows',
-                link: '/grid/grid-auto-rows'
+                text: "grid-auto-rows",
+                link: "/grid/grid-auto-rows",
               },
               {
-                text: 'grid-template-columns',
-                link: '/grid/grid-template-columns'
+                text: "grid-template-columns",
+                link: "/grid/grid-template-columns",
               },
               {
-                text: 'grid-template-rows',
-                link: '/grid/grid-template-rows'
+                text: "grid-template-rows",
+                link: "/grid/grid-template-rows",
               },
               {
-                text: 'grid-column',
-                link: '/grid/grid-column'
+                text: "grid-column",
+                link: "/grid/grid-column",
               },
               {
-                text: 'grid-row',
-                link: '/grid/grid-row'
-              }
-            ]
+                text: "grid-row",
+                link: "/grid/grid-row",
+              },
+            ],
           },
           {
-            text: 'height-*',
+            text: "height-*",
             collapsed: true,
             items: [
               {
-                text: 'height',
-                link: '/height/height'
+                text: "height",
+                link: "/height/height",
               },
               {
-                text: 'min-height',
-                link: '/height/min-height'
+                text: "min-height",
+                link: "/height/min-height",
               },
               {
-                text: 'max-height',
-                link: '/height/max-height'
-              }
-            ]
+                text: "max-height",
+                link: "/height/max-height",
+              },
+            ],
           },
           {
-            text: 'justify-*',
+            text: "justify-*",
             collapsed: true,
             items: [
               {
-                text: 'justify-content',
-                link: '/justify-style/justify-content'
+                text: "justify-content",
+                link: "/justify-style/justify-content",
               },
               {
-                text: 'justify-items',
-                link: '/justify-style/justify-items'
+                text: "justify-items",
+                link: "/justify-style/justify-items",
               },
               {
-                text: 'justify-self',
-                link: '/justify-style/justify-self'
-              }
-            ]
+                text: "justify-self",
+                link: "/justify-style/justify-self",
+              },
+            ],
           },
           {
-            text: 'line-height',
-            link: '/line-height'
+            text: "line-height",
+            link: "/line-height",
           },
           {
-            text: 'list-*',
+            text: "list-*",
             collapsed: true,
             items: [
               {
-                text: 'list-style',
-                link: '/list-style/list-style'
+                text: "list-style",
+                link: "/list-style/list-style",
               },
               {
-                text: 'list-style-image',
-                link: '/list-style/list-style-image'
+                text: "list-style-image",
+                link: "/list-style/list-style-image",
               },
               {
-                text: 'list-style-position',
-                link: '/list-style/list-style-position'
+                text: "list-style-position",
+                link: "/list-style/list-style-position",
               },
               {
-                text: 'list-style-type',
-                link: '/list-style/list-style-type'
-              }
-            ]
+                text: "list-style-type",
+                link: "/list-style/list-style-type",
+              },
+            ],
           },
           {
-            text: 'margin-*',
+            text: "margin-*",
             collapsed: true,
             items: [
               {
-                text: 'margin',
-                link: '/margin/margin'
+                text: "margin",
+                link: "/margin/margin",
               },
               {
-                text: 'margin-top',
-                link: '/margin/margin-top'
+                text: "margin-top",
+                link: "/margin/margin-top",
               },
               {
-                text: 'margin-right',
-                link: '/margin/margin-right'
+                text: "margin-right",
+                link: "/margin/margin-right",
               },
               {
-                text: 'margin-bottom',
-                link: '/margin/margin-bottom'
+                text: "margin-bottom",
+                link: "/margin/margin-bottom",
               },
               {
-                text: 'margin-left',
-                link: '/margin/margin-left'
+                text: "margin-left",
+                link: "/margin/margin-left",
               },
               {
-                text: 'margin-x',
-                link: '/margin/margin-x'
+                text: "margin-x",
+                link: "/margin/margin-x",
               },
               {
-                text: 'margin-y',
-                link: '/margin/margin-y'
-              }
-            ]
+                text: "margin-y",
+                link: "/margin/margin-y",
+              },
+            ],
           },
           {
-            text: 'object-fit',
-            link: '/object-fit'
+            text: "object-fit",
+            link: "/object-fit",
           },
           {
-            text: 'opacity',
-            link: '/opacity'
+            text: "opacity",
+            link: "/opacity",
           },
           {
-            text: 'order',
-            link: '/order'
+            text: "order",
+            link: "/order",
           },
           {
-            text: 'overflow-*',
+            text: "overflow-*",
             collapsed: true,
             items: [
               {
-                text: 'overflow',
-                link: '/overflow/overflow'
+                text: "overflow",
+                link: "/overflow/overflow",
               },
               {
-                text: 'overflow-x',
-                link: '/overflow/overflow-x'
+                text: "overflow-x",
+                link: "/overflow/overflow-x",
               },
               {
-                text: 'overflow-y',
-                link: '/overflow/overflow-y'
-              }
-            ]
+                text: "overflow-y",
+                link: "/overflow/overflow-y",
+              },
+            ],
           },
           {
-            text: 'padding-*',
+            text: "padding-*",
             collapsed: true,
             items: [
               {
-                text: 'padding',
-                link: '/padding/padding'
+                text: "padding",
+                link: "/padding/padding",
               },
               {
-                text: 'padding-top',
-                link: '/padding/padding-top'
+                text: "padding-top",
+                link: "/padding/padding-top",
               },
               {
-                text: 'padding-right',
-                link: '/padding/padding-right'
+                text: "padding-right",
+                link: "/padding/padding-right",
               },
               {
-                text: 'padding-bottom',
-                link: '/padding/padding-bottom'
+                text: "padding-bottom",
+                link: "/padding/padding-bottom",
               },
               {
-                text: 'padding-left',
-                link: '/padding/padding-left'
+                text: "padding-left",
+                link: "/padding/padding-left",
               },
               {
-                text: 'padding-x',
-                link: '/padding/padding-x'
+                text: "padding-x",
+                link: "/padding/padding-x",
               },
               {
-                text: 'padding-y',
-                link: '/padding/padding-y'
-              }
-            ]
+                text: "padding-y",
+                link: "/padding/padding-y",
+              },
+            ],
           },
           {
-            text: 'position-*',
+            text: "position-*",
             collapsed: true,
             items: [
               {
-                text: 'position',
-                link: '/position/position'
+                text: "position",
+                link: "/position/position",
               },
               {
-                text: 'top',
-                link: '/position/top'
+                text: "top",
+                link: "/position/top",
               },
               {
-                text: 'right',
-                link: '/position/right'
+                text: "right",
+                link: "/position/right",
               },
               {
-                text: 'bottom',
-                link: '/position/bottom'
+                text: "bottom",
+                link: "/position/bottom",
               },
               {
-                text: 'left',
-                link: '/position/left'
-              }
-            ]
+                text: "left",
+                link: "/position/left",
+              },
+            ],
           },
           {
-            text: 'resize',
-            link: '/resize'
+            text: "resize",
+            link: "/resize",
           },
           {
-            text: 'scroll-*',
+            text: "scroll-*",
             collapsed: true,
             items: [
               {
-                text: 'scroll-behavior',
-                link: '/scroll/scroll-behavior'
+                text: "scroll-behavior",
+                link: "/scroll/scroll-behavior",
               },
               {
-                text: 'scroll-none',
-                link: '/scroll/scroll-none'
-              }
-            ]
+                text: "scroll-none",
+                link: "/scroll/scroll-none",
+              },
+            ],
           },
           {
-            text: 'table-layout',
-            link: '/table-layout'
+            text: "table-layout",
+            link: "/table-layout",
           },
           {
-            text: 'text-*',
+            text: "text-*",
             collapsed: true,
             items: [
               {
-                text: 'hyphens',
-                link: '/text/hyphens'
+                text: "hyphens",
+                link: "/text/hyphens",
               },
               {
-                text: 'line-clamp',
-                link: '/text/line-clamp'
+                text: "line-clamp",
+                link: "/text/line-clamp",
               },
               {
-                text: 'overflow-wrap',
-                link: '/text/overflow-wrap'
+                text: "overflow-wrap",
+                link: "/text/overflow-wrap",
               },
               {
-                text: 'text-align',
-                link: '/text/text-align'
+                text: "text-align",
+                link: "/text/text-align",
               },
               {
-                text: 'text-decoration-line',
-                link: '/text/text-decoration-line'
+                text: "text-decoration-line",
+                link: "/text/text-decoration-line",
               },
               {
-                text: 'text-decoration-style',
-                link: '/text/text-decoration-style'
+                text: "text-decoration-style",
+                link: "/text/text-decoration-style",
               },
               {
-                text: 'text-indent',
-                link: '/text/text-indent'
+                text: "text-indent",
+                link: "/text/text-indent",
               },
               {
-                text: 'text-transform',
-                link: '/text/text-transform'
+                text: "text-transform",
+                link: "/text/text-transform",
               },
               {
-                text: 'white-space',
-                link: '/text/white-space'
+                text: "white-space",
+                link: "/text/white-space",
               },
               {
-                text: 'word-break',
-                link: '/text/word-break'
-              }
-            ]
+                text: "word-break",
+                link: "/text/word-break",
+              },
+            ],
           },
           {
-            text: 'vertical-align',
-            link: '/vertical-align'
+            text: "vertical-align",
+            link: "/vertical-align",
           },
           {
-            text: 'visibility',
-            link: '/visibility'
+            text: "visibility",
+            link: "/visibility",
           },
           {
-            text: 'width-*',
+            text: "width-*",
             collapsed: true,
             items: [
               {
-                text: 'width',
-                link: '/width/width'
+                text: "width",
+                link: "/width/width",
               },
               {
-                text: 'min-width',
-                link: '/width/min-width'
+                text: "min-width",
+                link: "/width/min-width",
               },
               {
-                text: 'max-width',
-                link: '/width/max-width'
-              }
-            ]
+                text: "max-width",
+                link: "/width/max-width",
+              },
+            ],
           },
           {
-            text: 'z-index',
-            link: '/z-index'
-          }
-        ]
+            text: "z-index",
+            link: "/z-index",
+          },
+        ],
       },
     ],
 
     outline: {
-      label: '컨텐츠'
+      label: "컨텐츠",
     },
 
     footer: {
-      copyright: 'Copyright © 2024 newlecture'
-    }
-  }
+      copyright: "Copyright © 2024 newlecture",
+    },
+  },
 });
