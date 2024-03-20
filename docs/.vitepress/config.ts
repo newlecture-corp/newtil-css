@@ -16,10 +16,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "newtil-css": path.resolve(
-          __dirname,
-          "../../packages/css/style.css"
-        ),
+        "newtil-css": path.resolve(__dirname, "../../packages/css/style.css"),
       },
     },
   },
@@ -75,6 +72,10 @@ export default defineConfig({
           {
             text: "Container",
             link: "/container",
+          },
+          {
+            text: "Drawer",
+            link: "/drawer",
           },
           {
             text: "Dropdown",
