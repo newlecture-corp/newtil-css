@@ -18,9 +18,11 @@
   <td><code>ln-clamp:1</code></td>
   <td>
     <span class="code">
-      overflow: hidden;<br>
-      text-overflow: ellipsis;<br>
-      white-space: nowrap !important;
+      display: -webkit-box; <br/>
+      overflow: hidden; <br/>
+      text-overflow: ellipsis; <br/>
+      -webkit-line-clamp: 1; <br/>
+      -webkit-box-orient: vertical;
     </span>
   </td>
 </tr>
@@ -47,7 +49,7 @@
       display: -webkit-box;<br>
       overflow: hidden;<br>
       text-overflow: ellipsis;<br>
-      -webkit-line-clamp: 2;<br>
+      -webkit-line-clamp: 3;<br>
       -webkit-box-orient: vertical;<br>
     </span>
   </td>
