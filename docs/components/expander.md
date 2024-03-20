@@ -81,3 +81,5 @@
   --expander-icon-transform-active: translateY(-30%) rotate(180deg);
 }
 ```
+
+<QuickLinks :componentName="'Expander'"/>
