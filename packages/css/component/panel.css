@@ -22,6 +22,10 @@
 */
 
 .n-panel {
+  --panel-background-color: var(--color-base-1);
+  --panel-border: 1px solid var(--color-base-3);
+  --panel-padding: 8px;
+
   --top-panel-height: 64px;
   --top-panel-background-color: var(--color-base-1);
   --top-panel-border-bottom: 1px solid var(--color-base-3);
@@ -39,6 +43,14 @@
   --main-panel-background-color: var(--color-base-1);
 }
 
+.n-panel {
+  display: flex;
+  align-items: center;
+  background-color: var(--panel-background-color);
+  border: var(--panel-border);
+  padding: var(--panel-padding);
+}
+
 /* top-panel ------------------------------------------------------------- */
 .n-top-panel {
   display: flex;
@@ -48,7 +60,9 @@
 
   width: 100%;
   min-height: var(--top-panel-height);
+  padding: inherit;
   background-color: var(--top-panel-background-color);
+  border: inherit;
   border-bottom: var(--top-panel-border-bottom);
   box-shadow: var(--top-panel-box-shadow);
 
@@ -57,12 +71,14 @@
 
 /* main-panel ------------------------------------------------------------- */
 .n-main-panel {
+  align-items: inherit;
   min-height: var(--main-panel-min-height);
   padding: var(--main-panel-padding) 0;
+  border: inherit;
   background-color: var(--main-panel-background-color);
 
-  will-change: padding;
   transition: padding 0.3s;
+  will-change: padding;
 }
 
 /* main-panel + side-panel  */
@@ -89,7 +105,9 @@
 
   width: var(--side-panel-width-md);
   height: 100vh;
+  padding: inherit;
   background-color: var(--side-panel-background-color);
+  border: inherit;
   border-right: var(--side-panel-border-right);
   box-shadow: var(--side-panel-box-shadow);
 }
@@ -119,9 +137,11 @@
   flex-direction: column;
   flex-grow: 1;
 
+  padding: inherit;
   padding-top: 16px;
   padding-left: 8px;
   padding-right: 8px;
+  border: inherit;
 
   overflow: auto;
 }
