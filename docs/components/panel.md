@@ -58,7 +58,16 @@
 
 ## Usage
 
-패널 컴포넌트는 화면의 주요 영역을 구분하는데 사용됩니다. `n-panel` 클래스와 함께 특정 패널 타입을 지정하는 클래스(`n-top-panel`, `n-side-panel`, `n-menu-panel`, `n-main-panel`)를 사용하여 각 영역을 정의합니다.
+패널 컴포넌트는 `n-panel` 클래스로 기본적인 패널을 나타낼 수 있습니다.
+
+
+
+<ExampleSection class="d:block">
+  <div class="n-panel"> panel </div>
+</ExampleSection>
+
+`n-panel` 클래스와 함께 특정 패널 타입을 지정하는 클래스(`n-top-panel`, `n-side-panel`, `n-menu-panel`, `n-main-panel`)를 사용하여 각 영역을 구분할 수 있습니다.
+
 
 ### 기본 구성
 
