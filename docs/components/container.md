@@ -36,6 +36,11 @@
 /* container.css */
 .n-container {
   --container-max-width: 1440px;
+  --container-padding: 0;
+  --container-border: none;
+  --container-border-radius: 0;
+  --container-background-color: transparent;
+  --container-box-shadow: none;
 }
 
 .n-container {

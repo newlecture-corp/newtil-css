@@ -96,6 +96,10 @@
 ```css
 /* panel.css */
 .n-panel {
+  --panel-background-color: var(--color-base-1); /* panel의 배경색 */
+  --panel-border: 1px solid var(--color-base-3); /* panel의 border */
+  --panel-padding: 8px; /* panel의 padding */
+
   --top-panel-height: 64px; /* top-panel의 높이 */
   --top-panel-background-color: var(--color-base1); /* top-panel의 background-color */
   --top-panel-border-bottom: 1px solid var(--color-base-3); /* top-panel의 border-bottom */
