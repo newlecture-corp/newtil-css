@@ -67,7 +67,8 @@
   gap: 16px;
 }
 
-.n-list > li {
+.n-list > li,
+.n-list > div {
   padding: var(--list-item-padding);
   background-color: var(--color-base-1);
   border-radius: var(--list-item-border-radius);
@@ -187,7 +188,8 @@
   grid-template-columns: repeat(var(--tile-list-column-3), 1fr);
 }
 
-.n-tile-list > li {
+.n-tile-list > li,
+.n-tile-list > div {
   overflow: hidden;
   word-break: break-all;
   
@@ -201,17 +203,20 @@
 }
 
 /* tile size */
-.n-tile-list.n-tile-size\:1 > li {
+.n-tile-list.n-tile-size\:1 > li,
+.n-tile-list.n-tile-size\:1 > div {
   width: var(--tile-size-1);
   height: var(--tile-size-1);
 }
 
-.n-tile-list.n-tile-size\:2 > li {
+.n-tile-list.n-tile-size\:2 > li,
+.n-tile-list.n-tile-size\:2 > div {
   width: var(--tile-size-2);
   height: var(--tile-size-2);
 }
 
-.n-tile-list.n-tile-size\:3 > li {
+.n-tile-list.n-tile-size\:3 > li,
+.n-tile-list.n-tile-size\:3 > div {
   width: var(--tile-size-3);
   height: var(--tile-size-3);
 }
@@ -262,62 +267,86 @@
 
 /* ---- n-list-item-border-radius ------------------------------------------------- */
 .n-list-item-border-radius\:0 > li,
-.n-list-item-bd-radius\:0 > li {
+.n-list-item-bd-radius\:0 > li,
+.n-list-item-border-radius\:0 > div,
+.n-list-item-bd-radius\:0 > div {
   border-radius: var(--list-item-border-radius-0);
 }
 
 .n-list-item-border-radius\:1 > li,
-.n-list-item-bd-radius\:1 > li {
+.n-list-item-bd-radius\:1 > li,
+.n-list-item-border-radius\:1 > div,
+.n-list-item-bd-radius\:1 > div {
   border-radius: var(--list-item-border-radius-1);
 }
 
 .n-list-item-border-radius\:2 > li,
-.n-list-item-bd-radius\:2 > li {
+.n-list-item-bd-radius\:2 > li,
+.n-list-item-border-radius\:2 > div,
+.n-list-item-bd-radius\:2 > div {
   border-radius: var(--list-item-border-radius-2);
 }
 
 .n-list-item-border-radius\:3 > li,
-.n-list-item-bd-radius\:3 > li {
+.n-list-item-bd-radius\:3 > li,
+.n-list-item-border-radius\:3 > div,
+.n-list-item-bd-radius\:3 > div {
   border-radius: var(--list-item-border-radius-3);
 }
 
 .n-list-item-border-radius\:4 > li,
-.n-list-item-bd-radius\:4 > li {
+.n-list-item-bd-radius\:4 > li,
+.n-list-item-border-radius\:4 > div,
+.n-list-item-bd-radius\:4 > div {
   border-radius: var(--list-item-border-radius-4);
 }
 
 .n-list-item-border-radius\:5 > li,
-.n-list-item-bd-radius\:5 > li {
+.n-list-item-bd-radius\:5 > li,
+.n-list-item-border-radius\:5 > div,
+.n-list-item-bd-radius\:5 > div {
   border-radius: var(--list-item-border-radius-5);
 }
 
 .n-list-item-border-radius\:full > li,
-.n-list-item-bd-radius\:full > li {
+.n-list-item-bd-radius\:full > li,
+.n-list-item-border-radius\:full > div,
+.n-list-item-bd-radius\:full > div {
   border-radius: var(--list-item-border-radius-full);
 }
 
 /* ---- n-list-item-padding ------------------------------------------------- */
 .n-list-item-padding\:0 > li,
-.n-list-item-p\:0 > li {
+.n-list-item-p\:0 > li,
+.n-list-item-padding\:0 > div,
+.n-list-item-p\:0 > div {
   padding: var(--list-item-padding-0);
 }
 
 .n-list-item-padding\:1 > li,
-.n-list-item-p\:1 > li {
+.n-list-item-p\:1 > li,
+.n-list-item-padding\:1 > div,
+.n-list-item-p\:1 > div {
   padding: var(--list-item-padding-1);
 }
 
 .n-list-item-padding\:2 > li,
-.n-list-item-p\:2 > li {
+.n-list-item-p\:2 > li,
+.n-list-item-padding\:2 > div,
+.n-list-item-p\:2 > div {
   padding: var(--list-item-padding-2);
 }
 
 .n-list-item-padding\:3 > li,
-.n-list-item-p\:3 > li {
+.n-list-item-p\:3 > li,
+.n-list-item-padding\:3 > div,
+.n-list-item-p\:3 > div {
   padding: var(--list-item-padding-3);
 }
 
 .n-list-item-padding\:4 > li,
-.n-list-item-p\:4 > li {
+.n-list-item-p\:4 > li,
+.n-list-item-padding\:4 > div,
+.n-list-item-p\:4 > div {
   padding: var(--list-item-padding-4);
 }
