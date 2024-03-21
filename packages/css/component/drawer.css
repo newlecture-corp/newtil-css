@@ -1,0 +1,56 @@
+/**
+  <button
+    data-n-toggle="drawer"
+    data-n-target="#drawer"
+  >
+    drawer
+  </button>
+  <div
+    id="drawer"
+    class="n-drawe activer
+    n-drawer-pos:left"
+  >
+    drawer
+  </div>
+*/
+
+.n-drawer {
+  --drawer-width: 288px;
+  --drawer-background-color: var(--color-base-1);
+
+  --drawer-z-index: 1200;
+}
+
+.n-drawer {
+  position: fixed;
+  background-color: var(--drawer-background-color);
+  z-index: var(--drawer-z-index);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.n-drawer, /* default position */
+.n-drawer-position\:right,
+.n-drawer-pos\:right {
+  width: var(--drawer-width);
+  height: 100vh;
+  top: 0;
+  right: 0;
+  box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  transform: translateX(100%);
+}
+.n-drawer.active, /* default position */
+.n-drawer-position\:right.active,
+.n-drawer-pos\:right.active {
+  transform: translateX(0);
+}
+
+.n-drawer-position\:left,
+.n-drawer-pos\:left {
+  width: var(--drawer-width);
+  height: 100vh;
+  top: 0;
+  left: 0;
+  box-shadow: 5px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+}

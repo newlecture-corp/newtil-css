@@ -1,8 +1,18 @@
 .n-container {
   --container-max-width: 1440px;
+  --container-padding: 0;
+  --container-border: none;
+  --container-border-radius: 0;
+  --container-background-color: transparent;
+  --container-box-shadow: none;
 }
 
 .n-container {
   width: 100%;
   max-width: var(--container-max-width);
+  padding: var(--container-padding);
+  border: var(--container-border);
+  border-radius: var(--container-border-radius);
+  background-color: var(--container-background-color);
+  box-shadow: var(--container-box-shadow);
 }

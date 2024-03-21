@@ -1,0 +1,113 @@
+/** 
+<section class="n-expander">
+  <h1>
+    <input type="checkbox"/>
+    expander title
+  </h1>
+  <div>
+    exapnder content
+  </div>
+</section>
+
+<section class="n-expander">
+  <div class="n-expander-title">
+    <input type="checkbox" class="n-expander-trigger"/>
+    expander title
+  </div>
+  <div class="n-expander-content">
+    exapnder content
+  </div>
+</section>
+*/
+
+.n-expander {
+  --expander-background-color: var(--color-base-1);
+  --expander-border-radius: 0px;
+  --expander-border: none;
+
+  --expander-title-padding: 16px 8px;
+
+  /* 우측 icon */
+  --expander-icon-top: 16px;
+  --expander-icon-right: 16px;
+  --expander-icon-size: 16px;
+  --expander-icon-transform-active: translateY(-30%) rotate(180deg);
+}
+
+.n-expander {
+  background-color: var(--expander-background-color);
+  border-radius: var(--expander-border-radius);
+  border: var(--expander-border);
+
+  display: grid;
+  overflow: hidden;
+  transition: grid-template-rows 0.2s;
+  grid-template-rows: auto 0fr; /* 접었을때 expander-content를 0fr */
+}
+.n-expander:has(> h1 > input[type="checkbox"]:checked),
+.n-expander:has(.n-expander-trigger:checked) {
+  grid-template-rows: auto 1fr;
+}
+
+/* expander-title */
+.n-expander > h1,
+.n-expander-title {
+  position: relative;
+  padding: var(--expander-title-padding);
+  grid-column-start: 1;
+  grid-row-start: 1; /* expander-title를 첫번째 행으로 지정*/
+}
+
+/* expander-trigger */
+.n-expander > h1 > input[type="checkbox"],
+.n-expander .n-expander-trigger {
+  position: absolute;
+  display: block;
+  inset: 0;
+  cursor: pointer;
+
+  /* checkbox 기본 모양 제거 */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* expander-content */
+.n-expander > h1 + *,
+.n-expander .n-expander-content {
+  visibility: hidden;
+  grid-column-start: 1;
+  grid-row-start: 2; /** expander-content를 두번째 행으로 지정 */
+  min-height: 0;
+
+  transition: visibility 0.2s, padding 0.2s;
+}
+/* expander-content active */
+.n-expander:has(h1 > input[type="checkbox"]:checked) > h1 + *,
+.n-expander:has(.n-expander-trigger:checked) .n-expander-content {
+  visibility: visible;
+  padding-bottom: 8px;
+}
+
+/* 우측 화살표 아이콘 */
+.n-expander > h1::after,
+.n-expander .n-expander-title::after {
+  content: "";
+  position: absolute;
+  top: var(--expander-icon-top);
+  right: var(--expander-icon-right);
+  display: inline-block;
+  width: var(--expander-icon-size);
+  height: var(--expander-icon-size);
+  background-size: var(--expander-icon-size);
+  background-image: url("../../icon/caret_down_bold.svg");
+
+  pointer-events: none;
+  transition: transform 0.2s ease;
+  will-change: transform;
+  transform-origin: center;
+}
+.n-expander:has(h1 > input[type="checkbox"]:checked) > h1::after,
+.n-expander:has(.n-expander-trigger:checked) .n-expander-title::after {
+  transform: var(--expander-icon-transform-active);
+}

@@ -123,6 +123,8 @@
 .n-item {
   --item-padding: 24px;
   --item-border-radius: 16px;
+  --item-border-color: var(--color-base-3);
+  --item-background-color: var(--color-base-1);
 }
 ```
 

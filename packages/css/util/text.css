@@ -212,9 +212,11 @@
  * ───────────────────────────────────    */     
 .line-clamp\:1,
 .ln-clamp\:1 {
+    display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .line-clamp\:2,
@@ -231,7 +233,7 @@
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
     
@@ -260,7 +262,7 @@
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
 }
@@ -290,7 +292,7 @@
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
 }
