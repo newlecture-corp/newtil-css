@@ -67,6 +67,28 @@
       <span class="code">border-left: 1px solid var(--border-color) !important;</span>
     </td>
   </tr>
+
+  <!-- border:none -->
+  <tr>
+    <td><code>border:none</code></td>
+    <td>
+      <code>bd:none</code>
+    </td>
+    <td>
+      <span class="code">border-style: none !important;</span>
+    </td>
+  </tr>
+
+  <!-- border:0 -->
+  <tr>
+    <td><code>border:0</code></td>
+    <td>
+      <code>bd:0</code>
+    </td>
+    <td>
+      <span class="code">border-style: none !important;</span>
+    </td>
+  </tr>
 </tbody>
 
 </table>
