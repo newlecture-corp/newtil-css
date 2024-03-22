@@ -20,7 +20,7 @@
     <br />
     <code>bd-w:0</code>
   </td>
-  <td><span class="code">border: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
+  <td><span class="code">border-width: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
@@ -30,7 +30,7 @@
     <br />
     <code>bd-w:1</code>
   </td>
-  <td><span class="code">border: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
+  <td><span class="code">border-width: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
 </tr>
 
 <tr>
@@ -40,7 +40,7 @@
     <br />
     <code>bd-w:2</code>
   </td>
-  <td><span class="code">border: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-width: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
 </tr>
 
 <tr>
@@ -50,7 +50,7 @@
     <br />
     <code>bd-w:3</code>
   </td>
-  <td><span class="code">border: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
+  <td><span class="code">border-width: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
 </tr>
 
 <tr>
@@ -60,7 +60,7 @@
     <br />
     <code>bd-w:inherit</code>
   </td>
-  <td><span class="code">border: inherit !important;</span></td>
+  <td><span class="code">border-width: inherit !important;</span></td>
 </tr>
 
 <tr>
@@ -70,7 +70,7 @@
     <br />
     <code>bd-top-w:0</code>
   </td>
-  <td><span class="code">border-top: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
+  <td><span class="code">border-top-width: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
@@ -80,7 +80,7 @@
     <br />
     <code>bd-top-w:1</code>
   </td>
-  <td><span class="code">border-top: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
+  <td><span class="code">border-top-width: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@
     <br />
     <code>bd-top-w:2</code>
   </td>
-  <td><span class="code">border-top: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-top-width: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
 </tr>
 
 <tr>
@@ -100,7 +100,7 @@
     <br />
     <code>bd-top-w:3</code>
   </td>
-  <td><span class="code">border-top: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
+  <td><span class="code">border-top-width: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
 </tr>
 
 <tr>
@@ -110,7 +110,7 @@
     <br />
     <code>bd-top-w:inherit</code>
   </td>
-  <td><span class="code">border-top: inherit !important;</span></td>
+  <td><span class="code">border-top-width: inherit !important;</span></td>
 </tr>
 
 <tr>
@@ -120,7 +120,7 @@
     <br />
     <code>bd-right-w:0</code>
   </td>
-  <td><span class="code">border-right: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
+  <td><span class="code">border-right-width: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
@@ -130,7 +130,7 @@
     <br />
     <code>bd-right-w:1</code>
   </td>
-  <td><span class="code">border-right: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
+  <td><span class="code">border-right-width: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
 </tr>
 
 <tr>
@@ -140,7 +140,7 @@
     <br />
     <code>bd-right-w:2</code>
   </td>
-  <td><span class="code">border-right: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-right-width: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
 </tr>
 
 <tr>
@@ -150,7 +150,7 @@
     <br />
     <code>bd-right-w:3</code>
   </td>
-  <td><span class="code">border-right: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
+  <td><span class="code">border-right-width: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
 </tr>
 
 <tr>
@@ -160,7 +160,7 @@
     <br />
     <code>bd-right-w:inherit</code>
   </td>
-  <td><span class="code">border-right: inherit !important;</span></td>
+  <td><span class="code">border-right-width: inherit !important;</span></td>
 </tr>
 <tr>
   <td><code>border-bottom-width:0</code></td>
@@ -169,7 +169,7 @@
     <br />
     <code>bd-bottom-w:0</code>
   </td>
-  <td><span class="code">border-bottom: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
+  <td><span class="code">border-bottom-width: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
@@ -179,7 +179,7 @@
     <br />
     <code>bd-bottom-w:1</code>
   </td>
-  <td><span class="code">border-bottom: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
+  <td><span class="code">border-bottom-width: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
 </tr>
 
 <tr>
@@ -189,7 +189,7 @@
     <br />
     <code>bd-bottom-w:2</code>
   </td>
-  <td><span class="code">border-bottom: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-bottom-width: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
 </tr>
 
 <tr>
@@ -199,7 +199,7 @@
     <br />
     <code>bd-bottom-w:3</code>
   </td>
-  <td><span class="code">border-bottom: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
+  <td><span class="code">border-bottom-width: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
 </tr>
 
 <tr>
@@ -209,7 +209,7 @@
     <br />
     <code>bd-bottom-w:inherit</code>
   </td>
-  <td><span class="code">border-bottom: inherit !important;</span></td>
+  <td><span class="code">border-bottom-width: inherit !important;</span></td>
 </tr>
 
 <tr>
@@ -219,7 +219,7 @@
     <br />
     <code>bd-left-w:0</code>
   </td>
-  <td><span class="code">border-left: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
+  <td><span class="code">border-left-width: 0 !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
@@ -229,7 +229,7 @@
     <br />
     <code>bd-left-w:1</code>
   </td>
-  <td><span class="code">border-left: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
+  <td><span class="code">border-left-width: var(--border-width-1) !important;</span> <span class="c:weak">/* 1px */</span></td>
 </tr>
 
 <tr>
@@ -239,7 +239,7 @@
     <br />
     <code>bd-left-w:2</code>
   </td>
-  <td><span class="code">border-left: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-left-width: var(--border-width-2) !important;</span> <span class="c:weak">/* 2px */</span></td>
 </tr>
 
 <tr>
@@ -249,7 +249,7 @@
     <br />
     <code>bd-left-w:3</code>
   </td>
-  <td><span class="code">border-left: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
+  <td><span class="code">border-left-width: var(--border-width-3) !important;</span> <span class="c:weak">/* 3px */</span></td>
 </tr>
 
 <tr>
@@ -259,7 +259,7 @@
     <br />
     <code>bd-left-w:inherit</code>
   </td>
-  <td><span class="code">border-left: inherit !important;</span></td>
+  <td><span class="code">border-left-width: inherit !important;</span></td>
 </tr>
 
   </tbody>

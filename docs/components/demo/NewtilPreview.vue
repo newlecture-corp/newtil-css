@@ -25,7 +25,7 @@
               />
             </div>
             <h1 class="mt:6 n-font:h3">가방</h1>
-            <div class="mt:1 n-font:h2 font-weight:3">₩8,9000</div>
+            <div class="mt:1 n-font:h2 font-weight:3">₩89,000</div>
             <div class="mt:6">
               <button class="n-btn n-btn-size:3 w:100p">
                 <span

@@ -212,7 +212,7 @@
         <span class="code">
             .n-toggle { <br/> 
                 --toggle-check-border-color: var(--color-base-3); <br/>
-                --toggle-check-bagkground-color: var(--color-base-1); <br/>
+                --toggle-check-background-color: var(--color-base-1); <br/>
                 --toggle-check-background-color-checked: var(--color-main-2); <br/>
             }
         </span>
