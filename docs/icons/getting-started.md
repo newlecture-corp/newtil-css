@@ -126,6 +126,44 @@
 
 테마 색에 자세한 내용은 [여기](/guide/css-variable-list.html#theme-color)를 참고해주세요
 
+
+## 커스텀 아이콘 사용하기
+
+`--icon` 변수를 재정의하여 커스텀 아이콘을 사용하실 수 있습니다.
+
+```css
+:root {
+  --icon: none;
+}
+```
+
+다음은 `--icon` 변수를 재정의하여 커스텀 아이콘을 사용하는 예시입니다:
+<ExampleSection>
+
+<div class="custom">
+  <button class="icon">커스텀 아이콘</button>
+</div>
+</ExampleSection>
+
+```html
+<div class="custom">
+  <button class="icon">커스텀 아이콘</button>
+</div>
+```
+
+```css
+.custom {
+  /* 프로젝트에 존재하는 icon 파일 경로 또는 인코딩된 값을 넣어주세요 */
+  --icon: url("/arrow_up.svg");
+}
+```
+
+<style scope>
+  .custom {
+      --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23000000' viewBox='0 0 256 256'%3E%3Cpath d='M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z'%3E%3C/path%3E%3C/svg%3E");
+  }
+</style>
+
 ## 데코레이션
 
 데코레이션은 컨텐츠를 꾸며주는 역할을 합니다. `deco` 클래스와 함께 아이콘의 모양을 나타내는 `icon:아이콘_이름`을 사용하여 적용할 수 있습니다.
