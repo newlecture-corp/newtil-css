@@ -13,7 +13,7 @@
 .border-bottom,              .bd-bottom         { border-bottom: 1px solid var(--border-color)!important; }
 .border-left,                .bd-left           { border-left: 1px solid var(--border-color) !important; }
 .border\:none,               .bd\:none,
-.border\:0,                  .bd\:0             { border-style: none; }
+.border\:0,                  .bd\:0             { border-style: none !important; }
 
 @media (min-width: 768px) {
   .md\:border,               .md\:bd            { border: 1px solid var(--border-color) !important; }
@@ -21,8 +21,8 @@
   .md\:border-right,         .md\:.bd-right     { border-right: 1px solid var(--border-color) !important; }
   .md\:border-bottom,        .md\:.bd-bottom    { border-bottom: 1px solid var(--border-color)!important; }
   .md\:border-left,          .md\:.bd-left      { border-left: 1px solid var(--border-color) !important; }
-  .md\:.border\:none,        .md\:.bd\:none,
-  .md\:.border\:0,           .md\:.bd\:0        { border-style: none; }
+  .md\:border\:none,         .md\:bd\:none,
+  .md\:border\:0,            .md\:bd\:0        { border-style: none !important; }
 }
 
 @media (min-width: 1200px) {
@@ -31,8 +31,8 @@
   .lg\:border-right,         .lg\:.bd-right     { border-right: 1px solid var(--border-color) !important; }
   .lg\:border-bottom,        .lg\:.bd-bottom    { border-bottom: 1px solid var(--border-color)!important; }
   .lg\:border-left,          .lg\:.bd-left      { border-left: 1px solid var(--border-color) !important; }
-  .lg\:.border\:none,        .lg\:.bd\:none,
-  .lg\:.border\:0,           .lg\:.bd\:0        { border-style: none; }
+  .lg\:border\:none,         .lg\:bd\:none,
+  .lg\:border\:0,            .lg\:bd\:0        { border-style: none !important; }
 }
 
 /*--- border width ------------------------------------------------------------*/
