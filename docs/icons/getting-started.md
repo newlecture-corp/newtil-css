@@ -196,24 +196,41 @@
 | `deco deco-position:right` | `deco deco-pos:right` |         |
 
 ## 데코레이션 사이즈
-
-데코 사이즈를 변경하려면 데코 사이즈 유틸리티 클래스 `deco-size:값`을 사용하면됩니다. 기본 크기는 `deco-size:5`입니다.
-
-<ExampleSection>
-<template #h>데코레이션 사이즈 예시</template>
-  <button class="deco deco-size:1 icon:check">확인</button>
-  <button class="deco deco-size:2 icon:check">확인</button>
-  <button class="deco deco-size:3 icon:check">확인</button>
-  <button class="deco deco-size:4 icon:check">확인</button>
-  <button class="deco deco-size:5 icon:check">확인</button>
+데코레이션 사이즈는 데코레이션의 박스 크기를 나타냅니다.
+<ExampleSection class="fl-dir:column ai:center gap:4">
+  <div class="deco deco-size-box">👈 이 박스의 크기가 데코레이션의 사이즈입니다</div>
 </ExampleSection>
 
 ```html
-<button class="deco deco-size:1 icon:check">확인</button>
-<button class="deco deco-size:2 icon:check">확인</button>
-<button class="deco deco-size:3 icon:check">확인</button>
-<button class="deco deco-size:4 icon:check">확인</button>
-<button class="deco deco-size:5 icon:check">확인</button>
+  <div class="deco">👈 이 박스의 크기가 데코레이션의 사이즈입니다</div>
+```
+
+<style scope>
+.deco-size-box::before {
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 4px;
+  background: repeating-linear-gradient(135deg, var(--vp-c-brand-1) 0, var(--vp-c-brand-1) 10%, transparent 0, transparent 50%);
+  background-size: 7px 7px;
+}
+</style>
+
+데코 사이즈를 변경하려면 데코 사이즈 유틸리티 클래스 `deco-size:값`을 사용하면됩니다. 기본 크기는 `deco-size:5`입니다.
+
+<ExampleSection class="fl-dir:column ai:center gap:4">
+<template #h>데코레이션 사이즈 예시</template>
+  <button class="deco deco-size:1 deco-size-box">deco-size:1</button>
+  <button class="deco deco-size:2 deco-size-box">deco-size:2</button>
+  <button class="deco deco-size:3 deco-size-box">deco-size:3</button>
+  <button class="deco deco-size:4 deco-size-box">deco-size:4</button>
+  <button class="deco deco-size:5 deco-size-box">deco-size:5</button>
+</ExampleSection>
+
+```html
+  <button class="deco deco-size:1">deco-size:1</button>
+  <button class="deco deco-size:2">deco-size:2</button>
+  <button class="deco deco-size:3">deco-size:3</button>
+  <button class="deco deco-size:4">deco-size:4</button>
+  <button class="deco deco-size:5">deco-size:5</button>
 ```
 
 | 클래스             |
@@ -236,60 +253,33 @@
 }
 ```
 
+
 ## 데코레이션 색
 
-데코레이션의 색을 변경하려면 `deco-color:값`을 사용하면 됩니다. 기본 색은 `deco-color:base-9`입니다.
+데코레이션의 색을 변경하려면 아이콘과 마찬가지로 `icon-color:값`을 사용하면 됩니다.
 
-<ExampleSection>
+<ExampleSection class="fl-dir:column ai:center">
 <template #h>데코레이션 색 예시</template>
-  <button class="deco deco-color:main-1 icon:check">확인</button>
-  <button class="deco deco-color:accent-1 icon:check">확인</button>
-  <button class="deco deco-color:base-5 icon:check">확인</button>
+  <button class="deco icon-color:main-1 icon:check">확인</button>
+  <button class="deco icon-color:accent-1 icon:check">확인</button>
+  <button class="deco icon-color:base-5 icon:check">확인</button>
 </ExampleSection>
 
 ```html
-<button class="deco deco-color:main-1 icon:check">확인</button>
-<button class="deco deco-color:accent-1 icon:check">확인</button>
-<button class="deco deco-color:base-5 icon:check">확인</button>
-```
-
-| 클래스                     |
-| -------------------------- |
-| `deco deco-color:main-1`   |
-| `deco deco-color:main-2`   |
-| `deco deco-color:main-3`   |
-| `deco deco-color:sub-1`    |
-| `deco deco-color:sub-2`    |
-| `deco deco-color:sub-3`    |
-| `deco deco-color:accent-1` |
-| `deco deco-color:accent-2` |
-| `deco deco-color:accent-3` |
-| `deco deco-color:base-1`   |
-| `deco deco-color:base-2`   |
-| `deco deco-color:base-3`   |
-| `deco deco-color:base-4`   |
-| `deco deco-color:base-5`   |
-| `deco deco-color:base-6`   |
-| `deco deco-color:base-7`   |
-| `deco deco-color:base-8`   |
-| `deco deco-color:base-9`   |
-| `deco deco-color:base-10`  |
-
-데코레이션 색에 사용되는 변수는 다음과 같습니다:
-
-```css
-:root {
-  --deco-color: var(--color-base-9);
-}
+<button class="deco icon-color:main-1 icon:check">확인</button>
+<button class="deco icon-color:accent-1 icon:check">확인</button>
+<button class="deco icon-color:base-5 icon:check">확인</button>
 ```
 
 ## 데코레이션 간격
 
 컨텐츠와 데코레이션의 간격 설정이 필요할 때는 `deco-margin-방향:값` 또는 `deco-방향:값`으로 설정할 수 있습니다. 간격은 [`gap`](/guide/css-variable-list.html#theme-color)과 일치합니다.
 
-<ExampleSection>
+<ExampleSection class="fl-dir:column ai:center">
 <template #h>데코레이션 간격 예시</template>
-    <button class="deco deco-margin-left:5 deco-pos:right icon:chats">채팅</button>
+  <button class="deco deco-margin-left:1 deco-pos:right icon:chats">채팅</button>
+  <button class="deco deco-margin-left:3 deco-pos:right icon:chats">채팅</button>
+  <button class="deco deco-margin-left:5 deco-pos:right icon:chats">채팅</button>
 </ExampleSection>
 
 ```html
