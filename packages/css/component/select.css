@@ -1,0 +1,54 @@
+.n-select {
+  --select-height: 36px;
+  --select-padding: 0 12px;
+  --select-border-color: var(--color-base-3);
+  --select-border-radius: 6px;
+  --select-background-color: var(--color-base-1);
+
+  /* 우측 icon */
+  --select-icon: url("../../icon/caret_up_down.svg");
+  --select-icon-top: 10px;
+  --select-icon-right: 14px;
+  --select-icon-size: 14px;
+  --select-icon-transform-active: translateY(-30%) rotate(180deg);
+}
+
+.n-select {
+  position: relative;
+  width: 100%;
+}
+
+.n-select > select,
+.n-select:not(:has(select))
+/* button 또는 input 사용할 때 */ {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--select-height);
+  padding: var(--select-padding);
+  color: rgba(var(--rgb-base-10), 0.85);
+  background-color: var(--select-background-color);
+  border: 1px solid var(--select-border-color);
+  border-radius: var(--select-border-radius);
+  box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+/* 우측 아이콘 */
+.n-select:has(> select):after, /* select 사용할 때 */
+.n-select::after {
+  content: "";
+  position: absolute;
+  top: var(--select-icon-top);
+  right: var(--select-icon-right);
+  display: inline-block;
+  width: var(--select-icon-size);
+  height: var(--select-icon-size);
+  background-size: var(--select-icon-size);
+  background-image: var(--select-icon);
+
+  pointer-events: none;
+  transition: transform 0.2s ease;
+  will-change: transform;
+  transform-origin: center;
+}
