@@ -34,6 +34,7 @@
 
 /* text-decoration-line  */
 .text-decoration-line\:underline, 	  							.text-deco-line\:underline,           		.txt-deco-line\:underline,					.txt-deco-ln\:underline { text-decoration-line: underline !important; }
+.hover\:text-decoration-line\:underline:hover, 	  				    .hover\:text-deco-line\:underline:hover,    .hover\:.txt-deco-line\:underline:hover,    .hover\:txt-deco-ln\:underline:hover { text-decoration-line: underline !important; }
 .text-decoration-line\:line-through, 								.text-deco-line\:line-through,        		.txt-deco-line\:line-through,				.txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
 .text-decoration-line\:overline, 	    							.text-deco-line\:overline,            		.txt-deco-line\:overline,						.txt-deco-ln\:overline { text-decoration-line: underline !important; }
 .text-decoration-line\:none, 	        							.text-deco-line\:none,               			.txt-deco-line\:none,								.txt-deco-ln\:none { text-decoration-line: none !important; }
@@ -98,10 +99,11 @@
     .md\:text-align\:end,       										.md\:txt-align\:end,            					.md\:txt-al\:end { text-align: end !important; }
 
     /* text-decoration-line */
-		.md\:text-decoration-line\:underline, 	  			.md\:text-deco-line\:underline,           .md\:txt-deco-line\:underline,					.md\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
-		.md\:text-decoration-line\:line-through, 				.md\:text-deco-line\:line-through,        .md\:txt-deco-line\:line-through,				.md\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
-		.md\:text-decoration-line\:overline, 	    			.md\:text-deco-line\:overline,            .md\:txt-deco-line\:overline,						.md\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
-		.md\:text-decoration-line\:none, 	        			.md\:text-deco-line\:none,               	.md\:txt-deco-line\:none,								.md\:txt-deco-ln\:none { text-decoration-line: none !important; }
+    .md\:text-decoration-line\:underline, 	  			.md\:text-deco-line\:underline,           .md\:txt-deco-line\:underline,					.md\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
+    .md\:hover\:text-decoration-line\:underline:hover, 	    .md\:hover\:text-deco-line\:underline:hover,    .md\:hover\:.txt-deco-line\:underline:hover,    .md\:hover\:txt-deco-ln\:underline:hover { text-decoration-line: underline !important; }
+    .md\:text-decoration-line\:line-through, 				.md\:text-deco-line\:line-through,        .md\:txt-deco-line\:line-through,				.md\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
+    .md\:text-decoration-line\:overline, 	    			.md\:text-deco-line\:overline,            .md\:txt-deco-line\:overline,						.md\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
+    .md\:text-decoration-line\:none, 	        			.md\:text-deco-line\:none,               	.md\:txt-deco-line\:none,								.md\:txt-deco-ln\:none { text-decoration-line: none !important; }
 
     /* text-decoration-style */
     .md\:text-decoration-style\:solid,     					.md\:text-deco-style\:solid,        		  .md\:txt-deco-style\:solid { text-decoration-style: solid !important; }
@@ -171,11 +173,12 @@
     .lg\:text-decoration-style\:dotted,   					.lg\:text-deco-style\:dotted,        			.lg\:txt-deco-style\:dotted { text-decoration-style: dotted !important; }
     .lg\:text-decoration-style\:wavy,     					.lg\:text-deco-style\:wavy,          			.lg\:txt-deco-style\:wavy { text-decoration-style: wavy !important; }
 
-		/* text-decoration-line */
-		.lg\:text-decoration-line\:underline, 	  			.lg\:text-deco-line\:underline,           .lg\:txt-deco-line\:underline,					.lg\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
-		.lg\:text-decoration-line\:line-through, 				.lg\:text-deco-line\:line-through,        .lg\:txt-deco-line\:line-through,				.lg\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
-		.lg\:text-decoration-line\:overline, 	    			.lg\:text-deco-line\:overline,            .lg\:txt-deco-line\:overline,						.lg\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
-		.lg\:text-decoration-line\:none, 	        			.lg\:text-deco-line\:none,               	.lg\:txt-deco-line\:none,								.lg\:txt-deco-ln\:none { text-decoration-line: none !important; }
+    /* text-decoration-line */
+    .lg\:text-decoration-line\:underline, 	  			.lg\:text-deco-line\:underline,           .lg\:txt-deco-line\:underline,					.lg\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
+    .lg\:hover\:text-decoration-line\:underline:hover, 	    .lg\:hover\:text-deco-line\:underline:hover,    .lg\:hover\:.txt-deco-line\:underline:hover,    .lg\:hover\:txt-deco-ln\:underline:hover { text-decoration-line: underline !important; }
+    .lg\:text-decoration-line\:line-through, 				.lg\:text-deco-line\:line-through,        .lg\:txt-deco-line\:line-through,				.lg\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
+    .lg\:text-decoration-line\:overline, 	    			.lg\:text-deco-line\:overline,            .lg\:txt-deco-line\:overline,						.lg\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
+    .lg\:text-decoration-line\:none, 	        			.lg\:text-deco-line\:none,               	.lg\:txt-deco-line\:none,								.lg\:txt-deco-ln\:none { text-decoration-line: none !important; }
 
     /* text-transform */
     .lg\:text-transform\:lowercase,        					.lg\:txt-transform\:lowercase { text-transform: lowercase !important; }
