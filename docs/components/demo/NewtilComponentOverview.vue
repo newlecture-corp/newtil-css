@@ -22,6 +22,16 @@
       </a>
     </section>
 
+    <!-- Drawer -->
+    <section class="n-item">
+      <a href="../components/drawer">
+        <h1>Drawer</h1>
+        <div class="bg-color:base-3 border of:hidden">
+          <div class="bg-color:base-1 w:1 h:100p box-shadow:5"></div>
+        </div>
+      </a>
+    </section>
+
     <!-- Dropdown -->
     <section class="n-item">
       <a href="../components/dropdown">
@@ -162,6 +172,23 @@
         <div class="d:flex ai:center">
           <div class="n-progress" role="progressbar">
             <div style="width: 25%"></div>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Progress -->
+    <section class="n-item">
+      <a href="../components/select">
+        <h1>Select</h1>
+        <div class="d:flex ai:center">
+          <div class="n-select">
+            <select name="pets" id="pet-select">
+              <option value="">select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
           </div>
         </div>
       </a>

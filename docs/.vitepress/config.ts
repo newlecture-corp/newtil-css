@@ -118,6 +118,10 @@ export default defineConfig({
             link: "/progress",
           },
           {
+            text: "Select",
+            link: "/select"
+          },
+          {
             text: "Tabbar",
             link: "/tabbar",
           },
