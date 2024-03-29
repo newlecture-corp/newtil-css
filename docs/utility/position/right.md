@@ -17,6 +17,14 @@
 
   <tbody>
     <tr>
+      <td><code>right:0</code></td>
+      <td class="blank"></td>
+      <td>
+        <span class="code">right: 0 !important;</span>
+        <span class="c:weak">/* 0 */</span>
+      </td>
+    </tr>
+    <tr>
       <td><code>right:1</code></td>
       <td class="blank"></td>
       <td>
