@@ -1,0 +1,248 @@
+
+.n-header{
+    background-color: var(--color-base-1);
+    height: var(--header-height, 64px);
+    flex-shrink: 0;
+    grid-area: header;
+    border-bottom: var(--border-width, 1px) solid var(--border-color, --color-base-3);
+    padding: 0 var(--header-padding, var(--gap-5));
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    :where() >:is(h1, .title){
+        font-size: 24px;
+        font-weight: 700;
+    }
+    >:is(h1, .title){
+        font-size: 24px;
+        font-weight: 700;
+    }
+       
+    >:is(.nav, nav){
+        right: 0;
+        
+        position: absolute;
+        display: flex;      
+
+        >ul{
+            display: flex;
+            align-items: center;
+        }
+
+        /* ---- menu visibility ------ */
+        >ul.hide{
+            display: none;
+        }
+        >ul.show{
+            display: flex;
+        }
+    }
+
+    /* 
+    >.nav,
+    >nav{
+        right: 0;
+        
+        position: absolute;
+        display: flex;      
+
+        >ul{
+            display: flex;
+            align-items: center;
+        }
+
+        
+        >ul.hide{
+            display: none;
+        }
+        >ul.show{
+            display: flex;
+        }
+    } */
+
+    >.content{
+        position: relative;
+        width: var(--header-content-width, 1200px);
+        margin: 0 auto;            
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        
+        >:is(h1, .title){
+            font-size: 24px;
+            font-weight: 700;
+        }
+        /* 
+        >h1,
+        >.title{
+            font-size: 24px;
+            font-weight: 700;            
+        } */
+        
+        >:is(.nav, nav){
+            right: 0;
+            
+            position: absolute;
+            display: flex;            
+
+            >ul{
+                display: flex;
+                align-items: center;
+            }
+        }
+        /* >.nav,
+        >nav{
+            right: 0;
+            
+            position: absolute;
+            display: flex;            
+
+            >ul{
+                display: flex;
+                align-items: center;
+            }
+        } */
+
+        /* ---- menu visibility ------ */
+        >ul.hide{
+            display: none;
+        }
+        >ul.show{
+            display: flex;
+        }
+    }    
+}
+/* --- type --------------------------------------- */
+.n-header\:sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* ---- menu alignment -------------------------------------------- */
+.n-header-menu\:right{
+
+    >:is(.nav, nav){
+        left:initial;
+        right: 0;
+    }
+    /* >.nav,
+    >nav{
+        left:initial;
+        right: 0;
+    } */
+
+    >.content{
+
+        >:is(.nav, nav){
+            left:initial;
+            right: 0;
+        }
+        /* >.nav,
+        >nav{
+            left:initial;
+            right: 0;
+        } */
+       
+    }
+}
+
+.n-header-menu\:left{
+    >:is(.nav, nav){
+        left: 0;
+        right: initial;
+    }
+    /* >.nav,
+    >nav{
+        left: 0;
+        right: initial;
+    } */
+
+    >.content{
+        >:is(.nav, nav){
+            left: 0;
+            right: initial;
+        }
+        /* >.nav,
+        >nav{
+            left: 0;
+            right: initial;
+        }
+        */
+    }
+}
+
+/* ---- title alignment -------------------------------------------- */
+
+.n-header-title\:left{
+    >.title,
+    >h1{
+        margin: 0 auto 0 0;
+    }
+
+    >.content{
+        >.title,
+        >h1{
+            margin: 0 auto 0 0;
+        }
+       
+    }
+}
+
+.n-header-title\:center{
+    >.title,
+    >h1{
+        margin: 0 auto;
+    }
+
+    >.content{
+        >.title,
+        >h1{
+            margin: 0 auto;
+        }
+       
+    }
+}
+
+.n-header-title\:right{
+    >.title,
+    >h1{
+        margin: 0 0 0 auto;
+    }
+
+    >.content{
+        >.title,
+        >h1{
+            margin: 0 0 0 auto;
+        }       
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .n-header{
+                
+        >.nav,
+        >nav{
+            
+            /* ---- menu visibility ------ */
+            >ul.hide{
+                display: none;
+            }
+            
+            >ul.show{
+                display: flex;
+            }
+        }
+    }
+    
+}

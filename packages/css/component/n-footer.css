@@ -1,0 +1,11 @@
+.n-footer,
+footer{
+    height: var(--footer-height, 100px);
+    flex-shrink: 0;
+
+    border-top: var(--border-width, 1px) solid var(--border-color, --color-base-3);
+    padding: var(--header-padding, var(--gap-5));
+
+    display: flex;
+    flex-direction: column
+}

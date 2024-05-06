@@ -1,0 +1,218 @@
+:root {
+    /* color-scheme: light dark; */
+    /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
+}
+
+@media (prefers-color-scheme: light) {
+    .element {
+        color: black;
+        background-color: white;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .element {
+        color: white;
+        background-color: #242424;
+    }
+}
+
+
+html:has(.n-layout){
+    /* color-scheme: dark; */
+    /* overridable variables */
+    /*
+    --header-height: 64px;
+    --header-padding: var(--gap-5);
+        --header-content-width: var(--content-width, 1200px);
+
+    --footer-height: 100px;
+    --border-width: 1px;
+    --border-color: var(--color-base-3);
+    */
+
+    height: 100%;
+}
+
+body:has(.n-layout){
+    
+    height: 100%;
+}
+
+.n-layout{
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    overflow: hidden;
+
+    >:is(.n-main, main){
+        flex-grow: 1;
+    
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
+.n-layout:has(aside, .n-aside){
+    display: grid;
+    grid-template-rows: var(--header-height, auto) 1fr var(--footer-height, auto);  /* key rule */
+    grid-template-columns: var(--sidebar-width, 250px) 1fr;    
+    
+    >:is(.n-header, header){
+        
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+
+    >:is(.n-aside, aside){
+        
+        grid-row: 2;
+        grid-column: 1 / 2;
+
+        overflow: hidden;
+        border-right: var(--border-width, 1px) solid var(--border-color, --color-base-3);
+        
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+
+        
+        display: flex;
+        flex-direction: column;
+
+        /* aside resizable 설정 */
+        position: relative;
+    }
+
+    >:is(.n-main, main){
+        grid-row: 2;
+        grid-column: 1 / 3;
+    }
+
+    >:is(.n-footer, footer){
+        grid-row: 3;
+        grid-column: 1 / span 2;
+    }
+}
+
+.n-layout-aside-pos\:right:has(aside, .n-aside){
+    grid-template-rows: var(--header-height, auto) 1fr var(--footer-height, auto);  /* key rule */
+    grid-template-columns: 1fr var(--sidebar-width, 250px) ;
+    
+    grid-template-areas: "header header" 
+                            "main aside"
+                        "footer footer";
+
+    >:is(.n-aside, aside){
+        grid-row: 2;
+        grid-column: 2 / 3;
+
+        border-right: none;
+        border-left: var(--border-width, 1px) solid var(--border-color, --color-base-3);
+
+        transform: translateX(100%);
+    }
+
+    >:is(.n-main, main){
+        grid-row: 2;
+        grid-column: 1 / span 2;
+        
+    }
+}
+
+/* aside resizable 설정 */
+.n-layout-aside\:resizable:has(aside, .n-aside){
+    >:is(.n-aside, aside)::after{
+        content: "";
+        display: flex;
+
+        position: absolute;
+
+        right: 0px;
+        width: 2px;
+        height: 100%;
+        background-color: red;
+
+        cursor: col-resize;
+    }
+}
+
+.n-layout-aside-pos\:right.n-layout-aside\:resizable:has(aside, .n-aside){
+    >:is(.n-aside, aside)::after{
+        content: "";
+        display: flex;
+
+        position: absolute;
+
+        left: 0px;
+        width: 2px;
+        height: 100%;
+        background-color: red;
+
+        cursor: col-resize;
+    }
+}
+
+.n-layout-border\:none:has(aside, .n-aside){
+    >:is(.n-header, header){
+        border-bottom: none;
+    }
+
+    >:is(.n-aside, aside){
+        border-left: none;
+        border-right: none;
+    }
+
+    >:is(.n-footer, footer){
+        border-top: none;
+    }    
+}
+
+/* --- sticky -------------------------------------------- */
+
+.n-layout-header\:sticky{
+    >:is(.header, header){
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+
+.n-layout-main-padding\:1{
+
+    >:is(.main, main){
+        padding: var(--gap-1);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .n-layout:has(aside, .n-aside){
+        >:is(.aside, aside){            
+            grid-column: 1 / 2;
+
+            transform: translateX(0%);
+        }
+
+        >:is(.n-main, main){            
+            grid-column: 2 / 3;
+            
+        }
+    }
+
+    .n-layout-aside-pos\:right:has(aside, .n-aside){
+        >:is(.aside, aside){            
+            grid-column: 2 / 3;
+
+            transform: translateX(0%);
+        }
+
+        >:is(.n-main, main){
+            
+            grid-column: 1 / 2;
+            
+        }
+    }    
+}

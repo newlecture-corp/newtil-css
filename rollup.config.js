@@ -3,6 +3,7 @@ import postcssImport from "postcss-import";
 import url from "postcss-url";
 import copy from "rollup-plugin-copy";
 import fs from "fs";
+import { dir } from "console";
 
 function generateIconListFromResource() {
   return {
@@ -29,6 +30,18 @@ export default {
     file: "dist/style.css",
     format: "es",
   },
+  // input: {
+  //   utils: 'packages/css/utils.css',
+  //   components: 'packages/css/components.css',
+  //   // ... (add other CSS files here)
+  // },
+  // output: [
+  //   {
+  //     dir: 'dist',
+  //     format: 'es',
+  //     entryFileNames: '[name].css', // Output filenames will be utils.css and components.css
+  //   },
+  // ],
   plugins: [
     postcss({
       plugins: [

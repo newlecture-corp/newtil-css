@@ -14,8 +14,7 @@
   display: inline-block;
   width: var(--icon-size-5);
   height: var(--icon-size-5);
-  -webkit-mask-size: var(--icon-size-5);
-  mask-size: cover;
+   
   box-sizing: border-box;
   overflow: hidden;
   padding: 0;
@@ -36,8 +35,8 @@
   height: inherit;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-  -webkit-mask-size: inherit;
-  mask-size: inherit;
+  -webkit-mask-size: contain;
+  mask-size: contain;
   -webkit-mask-position: center;
   mask-position: center;
   background-color: var(--icon-color);
@@ -112,144 +111,117 @@
 }
 
 /* ---- deco-size ------------------------------------------------- */
-.deco-size\:1::before,
-.deco-size\:1::after {
+.deco-size\:1::before{
   width: var(--deco-size-1);
   height: var(--deco-size-1);
 }
 
-.deco-size\:2::before,
-.deco-size\:2::after {
+.deco-size\:2::before{
   width: var(--deco-size-2);
   height: var(--deco-size-2);
 }
 
-.deco-size\:3::before,
-.deco-size\:3::after {
+.deco-size\:3::before {
   width: var(--deco-size-3);
   height: var(--deco-size-3);
 }
 
-.deco-size\:4::before,
-.deco-size\:4::after {
+.deco-size\:4::before{
   width: var(--deco-size-4);
   height: var(--deco-size-4);
 }
 
-.deco-size\:5::before,
-.deco-size\:5::after {
+.deco-size\:5::before{
   width: var(--deco-size-5);
   height: var(--deco-size-5);
 }
 
 /* ---- deco-margin ------------------------------------------------- */
-.deco-margin-left\:0::before,         .deco-ml\:0::before,
-.deco-margin-left\:0::after,          .deco-ml\:0::after {
+.deco-margin-left\:0::before,         .deco-ml\:0::before{
   margin-left: var(--gap-0);
 }
 
-.deco-margin-left\:1::before,         .deco-ml\:1::before,
-.deco-margin-left\:1::after,          .deco-ml\:1::after {
+.deco-margin-left\:1::before,         .deco-ml\:1::before{
   margin-left: var(--gap-1);
 }
 
-.deco-margin-left\:2::before,         .deco-ml\:2::before,
-.deco-margin-left\:2::after,          .deco-ml\:2::after {
+.deco-margin-left\:2::before,         .deco-ml\:2::before {
   margin-left: var(--gap-2);
 }
 
-.deco-margin-left\:3::before,         .deco-ml\:3::before,
-.deco-margin-left\:3::after,          .deco-ml\:3::after {
+.deco-margin-left\:3::before,         .deco-ml\:3::before {
   margin-left: var(--gap-3);
 }
 
-.deco-margin-left\:4::before,         .deco-ml\:4::before,
-.deco-margin-left\:4::after,          .deco-ml\:4::after {
+.deco-margin-left\:4::before,         .deco-ml\:4::before {
   margin-left: var(--gap-4);
 }
 
-.deco-margin-left\:5::before,         .deco-ml\:5::before,
-.deco-margin-left\:5::after,          .deco-ml\:5::after {
+.deco-margin-left\:5::before,         .deco-ml\:5::before {
   margin-left: var(--gap-5);
 }
 
-.deco-margin-left\:6::before,         .deco-ml\:6::before,
-.deco-margin-left\:6::after,          .deco-ml\:6::after {
+.deco-margin-left\:6::before,         .deco-ml\:6::before {
   margin-left: var(--gap-6);
 }
 
-.deco-margin-left\:7::before,         .deco-ml\:7::before,
-.deco-margin-left\:7::after,          .deco-ml\:7::after {
+.deco-margin-left\:7::before,         .deco-ml\:7::before{
   margin-left: var(--gap-7);
 }
 
-.deco-margin-left\:8::before,         .deco-ml\:8::before,
-.deco-margin-left\:8::after,          .deco-ml\:8::after {
+.deco-margin-left\:8::before,         .deco-ml\:8::before {
   margin-left: var(--gap-8);
 }
 
-.deco-margin-left\:9::before,         .deco-ml\:9::before,
-.deco-margin-left\:9::after,          .deco-ml\:9::after {
+.deco-margin-left\:9::before,         .deco-ml\:9::before {
   margin-left: var(--gap-9);
 }
 
-.deco-margin-left\:10::before,         .deco-ml\:10::before,
-.deco-margin-left\:10::after,          .deco-ml\:10::after {
+.deco-margin-left\:10::before,         .deco-ml\:10::before {
   margin-left: var(--gap-10);
 }
 
-.deco-margin-right\:0::before,         .deco-mr\:0::before,
-.deco-margin-right\:0::after,          .deco-mr\:0::after {
+.deco-margin-right\:0::before,         .deco-mr\:0::before {
   margin-right: var(--gap-0);
 }
 
-.deco-margin-right\:1::before,         .deco-mr\:1::before,
-.deco-margin-right\:1::after,          .deco-mr\:1::after {
+.deco-margin-right\:1::before,         .deco-mr\:1::before {
   margin-right: var(--gap-1);
 }
 
-.deco-margin-right\:2::before,         .deco-mr\:2::before,
-.deco-margin-right\:2::after,          .deco-mr\:2::after {
+.deco-margin-right\:2::before,         .deco-mr\:2::before {
   margin-right: var(--gap-2);
 }
 
-.deco-margin-right\:3::before,         .deco-mr\:3::before,
-.deco-margin-right\:3::after,          .deco-mr\:3::after {
+.deco-margin-right\:3::before,         .deco-mr\:3::before {
   margin-right: var(--gap-3);
 }
 
-.deco-margin-right\:4::before,         .deco-mr\:4::before,
-.deco-margin-right\:4::after,          .deco-mr\:4::after {
+.deco-margin-right\:4::before,         .deco-mr\:4::before {
   margin-right: var(--gap-4);
 }
 
-.deco-margin-right\:5::before,         .deco-mr\:5::before,
-.deco-margin-right\:5::after,          .deco-mr\:5::after {
+.deco-margin-right\:5::before,         .deco-mr\:5::before {
   margin-right: var(--gap-5);
 }
 
-.deco-margin-right\:6::before,         .deco-mr\:6::before,
-.deco-margin-right\:6::after,          .deco-mr\:6::after {
+.deco-margin-right\:6::before,         .deco-mr\:6::before {
   margin-right: var(--gap-6);
 }
 
-.deco-margin-right\:7::before,         .deco-mr\:7::before,
-.deco-margin-right\:7::after,          .deco-mr\:7::after {
+.deco-margin-right\:7::before,         .deco-mr\:7::before {
   margin-right: var(--gap-7);
 }
 
-.deco-margin-right\:8::before,         .deco-mr\:8::before,
-.deco-margin-right\:8::after,          .deco-mr\:8::after {
+.deco-margin-right\:8::before,         .deco-mr\:8::before {
   margin-right: var(--gap-8);
 }
 
-.deco-margin-right\:9::before,         .deco-mr\:9::before,
-.deco-margin-right\:9::after,          .deco-mr\:9::after {
+.deco-margin-right\:9::before,         .deco-mr\:9::before {
   margin-right: var(--gap-9);
 }
 
-.deco-margin-right\:10::before,         .deco-mr\:10::before,
-.deco-margin-right\:10::after,          .deco-mr\:10::after {
+.deco-margin-right\:10::before,         .deco-mr\:10::before {
   margin-right: var(--gap-10);
 }
 
@@ -280,452 +252,374 @@
 }
 
 /* ---- icon-color ------------------------------------------------- */
-.icon-color\:main-1::before,
-.icon-color\:main-1::after {
+.icon-color\:main-1::before {
   background-color: var(--color-main-1);
 }
 
-.icon-color\:main-2::before,
-.icon-color\:main-2::after {
+.icon-color\:main-2::before{
   background-color: var(--color-main-2);
 }
 
-.icon-color\:main-3::before,
-.icon-color\:main-3::after {
+.icon-color\:main-3::before{
   background-color: var(--color-main-3);
 }
 
-.icon-color\:sub-1::before,
-.icon-color\:sub-1::after {
+.icon-color\:sub-1::before{
   background-color: var(--color-sub-1);
 }
 
-.icon-color\:sub-2::before,
-.icon-color\:sub-2::after {
+.icon-color\:sub-2::before {
   background-color: var(--color-sub-2);
 }
 
-.icon-color\:sub-3::before,
-.icon-color\:sub-3::after {
+.icon-color\:sub-3::before {
   background-color: var(--color-sub-3);
 }
 
-.icon-color\:accent-1::before,
-.icon-color\:accent-1::after {
+.icon-color\:accent-1::before {
   background-color: var(--color-accent-1);
 }
 
-.icon-color\:accent-2::before,
-.icon-color\:accent-2::after {
+.icon-color\:accent-2::before {
   background-color: var(--color-accent-2);
 }
 
-.icon-color\:accent-3::before,
-.icon-color\:accent-3::after {
+.icon-color\:accent-3::before {
   background-color: var(--color-accent-3);
 }
 
-.icon-color\:base-1::before,
-.icon-color\:base-1::after {
+.icon-color\:base-1::before{
   background-color: var(--color-base-1);
 }
 
-.icon-color\:base-2::before,
-.icon-color\:base-2::after {
+.icon-color\:base-2::before{
   background-color: var(--color-base-2);
 }
 
-.icon-color\:base-3::before,
-.icon-color\:base-3::after {
+.icon-color\:base-3::before {
   background-color: var(--color-base-3);
 }
 
-.icon-color\:base-4::before,
-.icon-color\:base-4::after {
+.icon-color\:base-4::before {
   background-color: var(--color-base-4);
 }
 
-.icon-color\:base-5::before,
-.icon-color\:base-5::after {
+.icon-color\:base-5::before {
   background-color: var(--color-base-5);
 }
 
-.icon-color\:base-6::before,
-.icon-color\:base-6::after {
+.icon-color\:base-6::before {
   background-color: var(--color-base-6);
 }
 
-.icon-color\:base-7::before,
-.icon-color\:base-7::after {
+.icon-color\:base-7::before {
   background-color: var(--color-base-7);
 }
 
-.icon-color\:base-8::before,
-.icon-color\:base-8::after {
+.icon-color\:base-8::before {
   background-color: var(--color-base-8);
 }
 
-.icon-color\:base-9::before,
-.icon-color\:base-9::after {
+.icon-color\:base-9::before {
   background-color: var(--color-base-9);
 }
 
-.icon-color\:base-10::before,
-.icon-color\:base-10::after {
+.icon-color\:base-10::before {
   background-color: var(--color-base-10);
 }
 
 /* ---- icon ------------------------------------------------- */
-.icon\:arrow_clockwise_fill::before,
-.icon\:arrow_clockwise_fill::after {
+.icon\:arrow_clockwise_fill::before {
   -webkit-mask-image: url("../icon/arrow_clockwise_fill.svg");
   mask-image: url("../icon/arrow_clockwise_fill.svg");
 }
 
-.icon\:arrow_down::before,
-.icon\:arrow_down::after {
+.icon\:arrow_down::before {
   -webkit-mask-image: url("../icon/arrow_down.svg");
   mask-image: url("../icon/arrow_down.svg");
 }
 
-.icon\:arrow_left::before,
-.icon\:arrow_left::after {
+.icon\:arrow_left::before {
   -webkit-mask-image: url("../icon/arrow_left.svg");
   mask-image: url("../icon/arrow_left.svg");
 }
 
-.icon\:arrow_right::before,
-.icon\:arrow_right::after {
+.icon\:arrow_right::before {
   -webkit-mask-image: url("../icon/arrow_right.svg");
   mask-image: url("../icon/arrow_right.svg");
 }
 
-.icon\:arrow_up::before,
-.icon\:arrow_up::after {
+.icon\:arrow_up::before {
   -webkit-mask-image: url("../icon/arrow_up.svg");
   mask-image: url("../icon/arrow_up.svg");
 }
 
-.icon\:arrow_up_right::before,
-.icon\:arrow_up_right::after {
+.icon\:arrow_up_right::before {
   -webkit-mask-image: url("../icon/arrow_up_right.svg");
   mask-image: url("../icon/arrow_up_right.svg");
 }
 
-.icon\:arrow_up_left::before,
-.icon\:arrow_up_left::after {
+.icon\:arrow_up_left::before {
   -webkit-mask-image: url("../icon/arrow_up_left.svg");
   mask-image: url("../icon/arrow_up_left.svg");
 }
 
-.icon\:arrow_down_right::before,
-.icon\:arrow_down_right::after {
+.icon\:arrow_down_right::before {
   -webkit-mask-image: url("../icon/arrow_down_right.svg");
   mask-image: url("../icon/arrow_down_right.svg");
 }
 
-.icon\:arrow_down_left::before,
-.icon\:arrow_down_left::after {
+.icon\:arrow_down_left::before {
   -webkit-mask-image: url("../icon/arrow_down_left.svg");
   mask-image: url("../icon/arrow_down_left.svg");
 }
 
-.icon\:arrows_clockwise_fill::before,
-.icon\:arrows_clockwise_fill::after {
+.icon\:arrows_clockwise_fill::before {
   -webkit-mask-image: url("../icon/arrows_clockwise_fill.svg");
   mask-image: url("../icon/arrows_clockwise_fill.svg");
 }
 
-.icon\:asterisk::before,
-.icon\:asterisk::after {
+.icon\:asterisk::before {
   -webkit-mask-image: url("../icon/asterisk.svg");
   mask-image: url("../icon/asterisk.svg");
 }
 
-.icon\:asterisk_bold::before,
-.icon\:asterisk_bold::after {
+.icon\:asterisk_bold::before {
   -webkit-mask-image: url("../icon/asterisk_bold.svg");
   mask-image: url("../icon/asterisk_bold.svg");
 }
 
-.icon\:bell::before,
-.icon\:bell::after {
+.icon\:bell::before {
   -webkit-mask-image: url("../icon/bell.svg");
   mask-image: url("../icon/bell.svg");
 }
 
-.icon\:bell_fill::before,
-.icon\:bell_fill::after {
+.icon\:bell_fill::before {
   -webkit-mask-image: url("../icon/bell_fill.svg");
   mask-image: url("../icon/bell_fill.svg");
 }
 
-.icon\:bookmark_simple::before,
-.icon\:bookmark_simple::after {
+.icon\:bookmark_simple::before {
   -webkit-mask-image: url("../icon/bookmark_simple.svg");
   mask-image: url("../icon/bookmark_simple.svg");
 }
 
-.icon\:bookmark_simple_fill::before,
-.icon\:bookmark_simple_fill::after {
+.icon\:bookmark_simple_fill::before {
   -webkit-mask-image: url("../icon/bookmark_simple_fill.svg");
   mask-image: url("../icon/bookmark_simple_fill.svg");
 }
 
-.icon\:calendar_blank::before,
-.icon\:calendar_blank::after {
+.icon\:calendar_blank::before {
   -webkit-mask-image: url("../icon/calendar_blank.svg");
   mask-image: url("../icon/calendar_blank.svg");
 }
 
-.icon\:calendar_check::before,
-.icon\:calendar_check::after {
+.icon\:calendar_check::before {
   -webkit-mask-image: url("../icon/calendar_check.svg");
   mask-image: url("../icon/calendar_check.svg");
 }
 
-.icon\:camera::before,
-.icon\:camera::after {
+.icon\:camera::before {
   -webkit-mask-image: url("../icon/camera.svg");
   mask-image: url("../icon/camera.svg");
 }
 
-.icon\:camera_fill::before,
-.icon\:camera_fill::after {
+.icon\:camera_fill::before {
   -webkit-mask-image: url("../icon/camera_fill.svg");
   mask-image: url("../icon/camera_fill.svg");
 }
 
-.icon\:caret_down::before,
-.icon\:caret_down::after {
+.icon\:caret_down::before {
   -webkit-mask-image: url("../icon/caret_down.svg");
   mask-image: url("../icon/caret_down.svg");
 }
 
-.icon\:caret_down_bold::before,
-.icon\:caret_down_bold::after {
+.icon\:caret_down_bold::before {
   -webkit-mask-image: url("../icon/caret_down_bold.svg");
   mask-image: url("../icon/caret_down_bold.svg");
 }
 
-.icon\:caret_left::before,
-.icon\:caret_left::after {
+.icon\:caret_left::before{
   -webkit-mask-image: url("../icon/caret_left.svg");
   mask-image: url("../icon/caret_left.svg");
 }
 
-.icon\:caret_left_bold::before,
-.icon\:caret_left_bold::after {
+.icon\:caret_left_bold::before{
   -webkit-mask-image: url("../icon/caret_left_bold.svg");
   mask-image: url("../icon/caret_left_bold.svg");
 }
 
-.icon\:caret_right::before,
-.icon\:caret_right::after {
+.icon\:caret_right::before{
   -webkit-mask-image: url("../icon/caret_right.svg");
   mask-image: url("../icon/caret_right.svg");
 }
 
-.icon\:caret_right_bold::before,
-.icon\:caret_right_bold::after {
+.icon\:caret_right_bold::before {
   -webkit-mask-image: url("../icon/caret_right_bold.svg");
   mask-image: url("../icon/caret_right_bold.svg");
 }
 
-.icon\:caret_up::before,
-.icon\:caret_up::after {
+.icon\:caret_up::before {
   -webkit-mask-image: url("../icon/caret_up.svg");
   mask-image: url("../icon/caret_up.svg");
 }
 
-.icon\:caret_up_bold::before,
-.icon\:caret_up_bold::after {
+.icon\:caret_up_bold::before {
   -webkit-mask-image: url("../icon/caret_up_bold.svg");
   mask-image: url("../icon/caret_up_bold.svg");
 }
 
-.icon\:chalkboard_teacher::before,
-.icon\:chalkboard_teacher::after {
+.icon\:chalkboard_teacher::before {
   -webkit-mask-image: url("../icon/chalkboard_teacher.svg");
   mask-image: url("../icon/chalkboard_teacher.svg");
 }
 
-.icon\:chart_line::before,
-.icon\:chart_line::after {
+.icon\:chart_line::before {
   -webkit-mask-image: url("../icon/chart_line.svg");
   mask-image: url("../icon/chart_line.svg");
 }
 
-.icon\:chat::before,
-.icon\:chat::after {
+.icon\:chat::before {
   -webkit-mask-image: url("../icon/chat.svg");
   mask-image: url("../icon/chat.svg");
 }
 
-.icon\:chat_circle::before,
-.icon\:chat_circle::after {
+.icon\:chat_circle::before {
   -webkit-mask-image: url("../icon/chat_circle.svg");
   mask-image: url("../icon/chat_circle.svg");
 }
 
-.icon\:chat_circle_text::before,
-.icon\:chat_circle_text::after {
+.icon\:chat_circle_text::before {
   -webkit-mask-image: url("../icon/chat_circle_text.svg");
   mask-image: url("../icon/chat_circle_text.svg");
 }
 
-.icon\:chats::before,
-.icon\:chats::after {
+.icon\:chats::before {
   -webkit-mask-image: url("../icon/chats.svg");
   mask-image: url("../icon/chats.svg");
 }
 
-.icon\:check::before,
-.icon\:check::after {
+.icon\:check::before {
   -webkit-mask-image: url("../icon/check.svg");
   mask-image: url("../icon/check.svg");
 }
 
-.icon\:check_bold::before,
-.icon\:check_bold::after {
+.icon\:check_bold::before {
   -webkit-mask-image: url("../icon/check_bold.svg");
   mask-image: url("../icon/check_bold.svg");
 }
 
-.icon\:check_circle::before,
-.icon\:check_circle::after {
+.icon\:check_circle::before {
   -webkit-mask-image: url("../icon/check_circle.svg");
   mask-image: url("../icon/check_circle.svg");
 }
 
-.icon\:check_circle_fill::before,
-.icon\:check_circle_fill::after {
+.icon\:check_circle_fill::before {
   -webkit-mask-image: url("../icon/check_circle_fill.svg");
   mask-image: url("../icon/check_circle_fill.svg");
 }
 
-.icon\:clock::before,
-.icon\:clock::after {
+.icon\:clock::before {
   -webkit-mask-image: url("../icon/clock.svg");
   mask-image: url("../icon/clock.svg");
 }
 
-.icon\:code_simple::before,
-.icon\:code_simple::after {
+.icon\:code_simple::before {
   -webkit-mask-image: url("../icon/code_simple.svg");
   mask-image: url("../icon/code_simple.svg");
 }
 
-.icon\:code::before,
-.icon\:code::after {
+.icon\:code::before {
   -webkit-mask-image: url("../icon/code.svg");
   mask-image: url("../icon/code.svg");
 }
 
-.icon\:copy_simple::before,
-.icon\:copy_simple::after {
+.icon\:copy_simple::before {
   -webkit-mask-image: url("../icon/copy_simple.svg");
   mask-image: url("../icon/copy_simple.svg");
 }
 
-.icon\:crop::before,
-.icon\:crop::after {
+.icon\:crop::before {
   -webkit-mask-image: url("../icon/crop.svg");
   mask-image: url("../icon/crop.svg");
 }
 
-.icon\:database::before,
-.icon\:database::after {
+.icon\:database::before {
   -webkit-mask-image: url("../icon/database.svg");
   mask-image: url("../icon/database.svg");
 }
 
-.icon\:dots_six_vertical::before,
-.icon\:dots_six_vertical::after {
+.icon\:dots_six_vertical::before {
   -webkit-mask-image: url("../icon/dots_six_vertical.svg");
   mask-image: url("../icon/dots_six_vertical.svg");
 }
 
-.icon\:dots_six::before,
-.icon\:dots_six::after {
+.icon\:dots_six::before {
   -webkit-mask-image: url("../icon/dots_six.svg");
   mask-image: url("../icon/dots_six.svg");
 }
 
-.icon\:dots_three_outline_vertical_fill::before,
-.icon\:dots_three_outline_vertical_fill::after {
+.icon\:dots_three_outline_vertical_fill::before {
   -webkit-mask-image: url("../icon/dots_three_outline_vertical_fill.svg");
   mask-image: url("../icon/dots_three_outline_vertical_fill.svg");
 }
 
-.icon\:download_simple::before,
-.icon\:download_simple::after {
+.icon\:download_simple::before {
   -webkit-mask-image: url("../icon/download_simple.svg");
   mask-image: url("../icon/download_simple.svg");
 }
 
-.icon\:envelope_simple::before,
-.icon\:envelope_simple::after {
+.icon\:envelope_simple::before {
   -webkit-mask-image: url("../icon/envelope_simple.svg");
   mask-image: url("../icon/envelope_simple.svg");
 }
 
-.icon\:export::before,
-.icon\:export::after {
+.icon\:export::before {
   -webkit-mask-image: url("../icon/export.svg");
   mask-image: url("../icon/export.svg");
 }
 
-.icon\:eye::before,
-.icon\:eye::after {
+.icon\:eye::before {
   -webkit-mask-image: url("../icon/eye.svg");
   mask-image: url("../icon/eye.svg");
 }
 
-.icon\:eye_slash::before,
-.icon\:eye_slash::after {
+.icon\:eye_slash::before {
   -webkit-mask-image: url("../icon/eye_slash.svg");
   mask-image: url("../icon/eye_slash.svg");
 }
 
-.icon\:file::before,
-.icon\:file::after {
+.icon\:file::before {
   -webkit-mask-image: url("../icon/file.svg");
   mask-image: url("../icon/file.svg");
 }
 
-.icon\:file_plus::before,
-.icon\:file_plus::after {
+.icon\:file_plus::before {
   -webkit-mask-image: url("../icon/file_plus.svg");
   mask-image: url("../icon/file_plus.svg");
 }
 
-.icon\:folder::before,
-.icon\:folder::after {
+.icon\:folder::before {
   -webkit-mask-image: url("../icon/folder.svg");
   mask-image: url("../icon/folder.svg");
 }
 
-.icon\:gear_six::before,
-.icon\:gear_six::after {
+.icon\:gear_six::before {
   -webkit-mask-image: url("../icon/gear_six.svg");
   mask-image: url("../icon/gear_six.svg");
 }
 
-.icon\:gear_six_fill::before,
-.icon\:gear_six_fill::after {
+.icon\:gear_six_fill::before {
   -webkit-mask-image: url("../icon/gear_six_fill.svg");
   mask-image: url("../icon/gear_six_fill.svg");
 }
 
-.icon\:gift::before,
-.icon\:gift::after {
+.icon\:gift::before {
   -webkit-mask-image: url("../icon/gift.svg");
   mask-image: url("../icon/gift.svg");
 }
 
-.icon\:globe::before,
-.icon\:globe::after {
+.icon\:globe::before {
   -webkit-mask-image: url("../icon/globe.svg");
   mask-image: url("../icon/globe.svg");
 }

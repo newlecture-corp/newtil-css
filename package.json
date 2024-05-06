@@ -10,7 +10,7 @@
   ],
   "author": "lectureteam",
   "license": "MIT",
-  "scripts": {
+  "scripts": {    
     "build": "rm -rf ./dist && rollup -c",
     "deploy": "npm run build && npm publish",
     "docs:dev": "vitepress dev docs",
