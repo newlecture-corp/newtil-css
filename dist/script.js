@@ -1,4 +1,4 @@
-export default function(){
+function layout(){
     let asidePos = "left";
     let resize = false;
 
@@ -16,7 +16,7 @@ export default function(){
     
     layout.onmousedown = function(e){
         if(asidePos == "left"){
-            let seperatorWidth = parseInt(window.getComputedStyle(aside, '::after').getPropertyValue('width'))        
+            let seperatorWidth = parseInt(window.getComputedStyle(aside, '::after').getPropertyValue('width'));        
             let asideWidth = parseInt(window.getComputedStyle(aside).getPropertyValue('width'));
             
             let left = asideWidth-seperatorWidth;
@@ -25,10 +25,10 @@ export default function(){
             if(left <= e.x && e.x < right)
                 resize = true;
 
-            console.log(resize,left,e.x,right,asideWidth,seperatorWidth)
+            console.log(resize,left,e.x,right,asideWidth,seperatorWidth);
         }
         else if(asidePos == "right"){
-            let seperatorWidth = parseInt(window.getComputedStyle(aside, '::before').getPropertyValue('width'))
+            let seperatorWidth = parseInt(window.getComputedStyle(aside, '::before').getPropertyValue('width'));
             let mainWidth = parseInt(window.getComputedStyle(main).getPropertyValue('width'));
             
             let left = mainWidth;
@@ -37,21 +37,21 @@ export default function(){
             if(left <= e.x && e.x < right)
                 resize = true;
 
-            console.log(resize,left,e.x,right,mainWidth,seperatorWidth)
+            console.log(resize,left,e.x,right,mainWidth,seperatorWidth);
         }
 
 
-    }
+    };
 
     layout.onmouseup = function(){
         resize = false;
-    }
+    };
     
     layout.onmousemove = function(e){
         e.preventDefault();
         // if(e.target !== seperator)
         //     return;
-        let element = document.elementFromPoint(e.x, e.y);
+        document.elementFromPoint(e.x, e.y);
 
 
         
@@ -67,5 +67,10 @@ export default function(){
         // console.log(w, e.x);
         layout.style.gridTemplateColumns = `${e.x+2}px 1fr`;
         // aside.style.width = e.x;
-    }    
+    };    
 }
+
+window.addEventListener("load", function(){
+    layout();
+    
+});

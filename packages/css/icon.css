@@ -1160,56 +1160,53 @@
   mask-image: url("../icon/user_fill.svg");
 }
 
-.icon\:warning::before,
-.icon\:warning::after {
+.icon\:warning::before{
   -webkit-mask-image: url("../icon/warning.svg");
   mask-image: url("../icon/warning.svg");
 }
 
-.icon\:warning_circle::before,
-.icon\:warning_circle::after {
+.icon\:warning_circle::before{
   -webkit-mask-image: url("../icon/warning_circle.svg");
   mask-image: url("../icon/warning_circle.svg");
 }
 
-.icon\:warning_circle_fill::before,
-.icon\:warning_circle_fill::after {
+.icon\:warning_circle_fill::before{
   -webkit-mask-image: url("../icon/warning_circle_fill.svg");
   mask-image: url("../icon/warning_circle_fill.svg");
 }
 
-.icon\:warning_fill::before,
-.icon\:warning_fill::after {
+.icon\:warning_fill::before{
   -webkit-mask-image: url("../icon/warning_fill.svg");
   mask-image: url("../icon/warning_fill.svg");
 }
 
-.icon\:x::before,
-.icon\:x::after {
+.icon\:x::before{
   -webkit-mask-image: url("../icon/x.svg");
   mask-image: url("../icon/x.svg");
 }
 
-.icon\:x_circle_fill::before,
-.icon\:x_circle_fill::after {
+.icon\:x_circle_fill::before{
   -webkit-mask-image: url("../icon/x_circle_fill.svg");
   mask-image: url("../icon/x_circle_fill.svg");
 }
 
-.icon\:youtube_logo_fill::before,
-.icon\:youtube_logo_fill::after {
+.icon\:youtube_logo_fill::before {
   -webkit-mask-image: url("../icon/youtube_logo_fill.svg");
   mask-image: url("../icon/youtube_logo_fill.svg");
 }
 
-.icon\:bone::before,
-.icon\:bone::after {
+.icon\:bone::before{
   -webkit-mask-image: url("../icon/bone.svg");
   mask-image: url("../icon/bone.svg");
 }
 
-.icon\:google_logo::before,
-.icon\:google_logo::after {
+.icon\:google_logo::before{
   -webkit-mask-image: url("../icon/google_logo.svg");
   mask-image: url("../icon/google_logo.svg");
+}
+
+/* --- v0.2.0에 추가된 아이콘-------------------------------------------------------- */
+.icon\:local_cafe::before{
+  -webkit-mask-image: url("../icon/local_cafe_24dp_FILL0_wght400_GRAD0_opsz24.svg");
+  mask-image: url("../icon/local_cafe_24dp_FILL0_wght400_GRAD0_opsz24.svg");
 }

@@ -4,6 +4,8 @@ import url from "postcss-url";
 import copy from "rollup-plugin-copy";
 import fs from "fs";
 import { dir } from "console";
+import { plugin } from "postcss";
+import terser from "@rollup/plugin-terser";
 
 function generateIconListFromResource() {
   return {
@@ -25,23 +27,27 @@ function generateIconListFromResource() {
 }
 
 export default {
-  input: "packages/css/style.css",
-  output: {
-    file: "dist/style.css",
-    format: "es",
-  },
-  // input: {
-  //   utils: 'packages/css/utils.css',
-  //   components: 'packages/css/components.css',
-  //   // ... (add other CSS files here)
+  // input: "packages/css/style.css",
+  // output: {
+  //   // dir: "dist",
+  //   file: "dist/style.min.css",
+  //   format: "es",
   // },
-  // output: [
-  //   {
-  //     dir: 'dist',
-  //     format: 'es',
-  //     entryFileNames: '[name].css', // Output filenames will be utils.css and components.css
-  //   },
-  // ],
+
+  input: "packages/js/script.js",
+  output: [{
+    // dir: "dist",
+    file: "dist/script.js",
+    format: "es",
+    minimize: true
+  },
+  {
+    file: "dist/script.min.js",
+    format: "es",
+    plugins: [terser()] 
+  }],
+
+
   plugins: [
     postcss({
       plugins: [

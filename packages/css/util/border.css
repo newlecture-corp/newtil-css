@@ -7,13 +7,17 @@
  * ───────────────────────────────────    */
 
 /*--- border ------------------------------------------------------------------*/
-.border,                     .bd                { border: 1px solid var(--border-color) !important; }
+.border,                     .bd,
+.border\:1,                  .bd\:1             { border: 1px solid var(--border-color) !important; }
+.border\:2,                  .bd\:2             { border: 2px solid var(--border-color) !important; }
+.border\:3,                  .bd\:3             { border: 3px solid var(--border-color) !important; }
+.border\:none,               .bd\:none,
+.border\:0,                  .bd\:0             { border-style: none !important; }
+
 .border-top,                 .bd-top            { border-top: 1px solid var(--border-color) !important; }
 .border-right,               .bd-right          { border-right: 1px solid var(--border-color) !important; }
 .border-bottom,              .bd-bottom         { border-bottom: 1px solid var(--border-color)!important; }
 .border-left,                .bd-left           { border-left: 1px solid var(--border-color) !important; }
-.border\:none,               .bd\:none,
-.border\:0,                  .bd\:0             { border-style: none !important; }
 
 @media (min-width: 768px) {
   .md\:border,               .md\:bd            { border: 1px solid var(--border-color) !important; }
