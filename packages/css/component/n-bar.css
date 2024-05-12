@@ -27,6 +27,37 @@
     gap:var(--gap-3);
 }
 
+.n-bar.n-bar-item-round\:0{
+    >*{
+        border-radius: 0;        
+    }
+}
+.n-bar.n-bar-item-round\:1{
+    >*{
+        border-radius: var(--gap-1);
+    }
+}
+.n-bar.n-bar-item-round\:2{
+    >*{
+        border-radius: var(--gap-2);
+    }
+}
+.n-bar.n-bar-item-round\:3{
+    >*{
+        border-radius: var(--gap-3);
+    }
+}
+.n-bar.n-bar-item-round\:4{
+    >*{
+        border-radius: var(--gap-4);
+    }
+}
+.n-bar.n-bar-item-round\:5{
+    >*{
+        border-radius: var(--gap-5);
+    }
+}
+
 @media screen and (min-width: 768px) {
     
 
