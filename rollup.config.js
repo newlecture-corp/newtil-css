@@ -27,26 +27,26 @@ function generateIconListFromResource() {
 }
 
 export default {
+  //  --- css -------------------------
   // input: "packages/css/style.css",
   // output: {
   //   // dir: "dist",
   //   file: "dist/style.min.css",
   //   format: "es",
   // },
-
-  input: "packages/js/script.js",
-  output: [{
-    // dir: "dist",
-    file: "dist/script.js",
-    format: "es",
-    minimize: true
-  },
-  {
-    file: "dist/script.min.js",
-    format: "es",
-    plugins: [terser()] 
-  }],
-
+  //  --- js -------------------------
+  // input: "packages/js/script.js",
+  // output: [{
+  //   // dir: "dist",
+  //   file: "dist/script.js",
+  //   format: "es",
+  //   minimize: true
+  // },
+  // {
+  //   file: "dist/script.min.js",
+  //   format: "es",
+  //   plugins: [terser()] 
+  // }],
 
   plugins: [
     postcss({
