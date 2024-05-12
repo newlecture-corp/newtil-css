@@ -10,9 +10,10 @@
 
     <!-- <link rel="stylesheet" type="text/css" href="css/component/n-layout.css" />   
     <link rel="stylesheet" type="text/css" href="css/component/n-header.css" />
-    <link rel="stylesheet" type="text/css" href="css/component/n-bar.css" />
     <link rel="stylesheet" type="text/css" href="css/component/n-footer.css" />
     <link rel="stylesheet" type="text/css" href="css/icon.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../css/component/n-bar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/component/n-panel.css" />
 </head>
 <body class="n-layout n-layout-aside-pos:right! n-layout-aside:resizable n-layout-aside:fixed n-layout-aside:close!">
     <header class="n-header n-header-content-pos:left1 n-header:sticky n-header-title:left n-header-menu:right1 n-header-content:left">
@@ -32,20 +33,20 @@
         aside
     </aside>
     <main>
-        <section class="menu-filter">
+        <section class="menu-filter n-panel">
             <h1>Rland Menu<span class="d:none">검색</span></h1>
     
             <nav class="category-filter">              
                 
                 <h1 class="d:none">카테고리 검색 메뉴 목록</h1>
-                <ul class="n-bar bg-color:base-7 color:base-1 p:2 border-radius:3">
-                    <li><a class="sm:deco md:deco sm:icon-filter_list"                                    
+                <ul class="n-bar n-bar-item-round:2 n-bar-gap:2 bg-color:base-7 color:base-1 p:2 border-radius:3">
+                    <li class="active px:3 py:1"><a class="sm:deco md:deco sm:icon-filter_list"                                    
                             href="list">전체메뉴</a></li>
-                    <li>
+                    <li class="px:3 py:1">
                         <a class="d:none md:d:inline current" href="?c=1" >커피</a></li>
-                    <li>
+                    <li class="px:3 py:1">
                         <a class="d:none md:d:inline current" href="?c=2" >수제청</a></li>
-                    <li>
+                    <li class="px:3 py:1">
                         <a class="d:none md:d:inline current" href="?c=3" >쿠키</a></li>
                 </ul>
             </nav>
