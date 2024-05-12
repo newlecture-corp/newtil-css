@@ -31,6 +31,78 @@
   <td><span class="code">font-weight: var(--font-weight-3) !important;</span> <span class="c:weak">/* 700 */</span></td>
 </tr>
 
+<tr>
+  <td><code>font-weight:bold</code></td>
+  <td><code>fw:bold</code></td>
+  <td><span class="code">font-weight: bold !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:normal</code></td>
+  <td><code>fw:normal</code></td>
+  <td><span class="code">font-weight: normal !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:inherit</code></td>
+  <td><code>fw:inherit</code></td>
+  <td><span class="code">font-weight: inherit !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:100</code></td>
+  <td><code>fw:100</code></td>
+  <td><span class="code">font-weight: 100 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:200</code></td>
+  <td><code>fw:200</code></td>
+  <td><span class="code">font-weight: 200 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:300</code></td>
+  <td><code>fw:300</code></td>
+  <td><span class="code">font-weight: 300 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:400</code></td>
+  <td><code>fw:400</code></td>
+  <td><span class="code">font-weight: 400 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:500</code></td>
+  <td><code>fw:500</code></td>
+  <td><span class="code">font-weight: 500 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:600</code></td>
+  <td><code>fw:600</code></td>
+  <td><span class="code">font-weight: 600 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:700</code></td>
+  <td><code>fw:700</code></td>
+  <td><span class="code">font-weight: 700 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:800</code></td>
+  <td><code>fw:800</code></td>
+  <td><span class="code">font-weight: 800 !important;</span></td>
+</tr>
+
+<tr>
+  <td><code>font-weight:900</code></td>
+  <td><code>fw:900</code></td>
+  <td><span class="code">font-weight: 900 !important;</span></td>
+</tr>
+
   </tbody>
 
 </table>
