@@ -1,11 +1,72 @@
 .n-panel{
     /* --height: 270px; */
-    height: var(--height, auto);
+    /* --bg-img */
+    height: var(--height, auto);    
+    background-image: var(--bg-img, "");
+    
+    /* background-image: url("https://www.newlecture.com/dist/v0.2.1/8.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
 }
+
+.n-panel.n-panel-cover{
+    --cover-opacity: var(--opacity-7);
+    height: var(--height, auto);    
+    background-image:linear-gradient(
+                        rgba(var(--rgb-base-10),var(--cover-opacity))
+                        ,rgba(var(--rgb-base-10),var(--cover-opacity)))
+                    , var(--bg-img, "");
+}
+.n-panel.n-panel-cover\:0{
+    --cover-opacity: var(--opacity-0);    
+}
+.n-panel.n-panel-cover\:1{
+    --cover-opacity: var(--opacity-1);    
+}
+.n-panel.n-panel-cover\:2{
+    --cover-opacity: var(--opacity-2);
+}
+.n-panel.n-panel-cover\:3{
+    --cover-opacity: var(--opacity-3);    
+}
+.n-panel.n-panel-cover\:4{
+    --cover-opacity: var(--opacity-4);    
+}
+.n-panel.n-panel-cover\:5{
+    --cover-opacity: var(--opacity-5);    
+}
+.n-panel.n-panel-cover\:6{
+    --cover-opacity: var(--opacity-6);    
+}
+.n-panel.n-panel-cover\:7{
+    --cover-opacity: var(--opacity-7);
+}
+.n-panel.n-panel-cover\:8{
+    --cover-opacity: var(--opacity-8);
+}
+.n-panel.n-panel-cover\:9{
+    --cover-opacity: var(--opacity-9);
+}
+.n-panel.n-panel-cover\:10{
+    --cover-opacity: var(--opacity-10);
+}
+
+/* .n-panel::after{
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(var(--rgb-base-10), 0.7);
+} */
 
 @media screen and (min-width: 768px) {
     .md\:n-panel{
         height: var(--height, auto);
-    }
-    
+    }    
 }

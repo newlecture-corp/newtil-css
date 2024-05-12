@@ -28,12 +28,12 @@ function generateIconListFromResource() {
 
 export default {
   //  --- css -------------------------
-  // input: "packages/css/style.css",
-  // output: {
-  //   // dir: "dist",
-  //   file: "dist/style.min.css",
-  //   format: "es",
-  // },
+  input: "packages/css/style.css",
+  output: {
+    // dir: "dist",
+    file: "dist/style.min.css",
+    format: "es",
+  },
   //  --- js -------------------------
   // input: "packages/js/script.js",
   // output: [{
