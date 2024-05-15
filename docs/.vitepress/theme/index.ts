@@ -3,6 +3,7 @@ import { h } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import Link from '/components/demo/Link.vue';
+// import Link from ''
 import ComponentQuickLinks from '/components/demo/ComponentQuickLinks.vue';
 import ExampleSection from '/components/demo/ExampleSection.vue';
 import 'newtil-css';

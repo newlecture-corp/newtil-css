@@ -2,10 +2,13 @@ export default function(){
     let asidePos = "left";
     let resize = false;
 
+    if(!layout)
+        return;
+
     const layout = document.querySelector(".n-layout-aside\\:resizable");
-    const aside = document.querySelector(".n-layout-aside\\:resizable>:is(.n-aside, aside)");
-    const main = document.querySelector(".n-layout-aside\\:resizable>:is(.n-main, main)");
-    const seperator = document.querySelector(".n-layout-aside\\:resizable:has(aside, .n-aside)");
+    const aside = layout.querySelector(".n-layout-aside\\:resizable>:is(.n-aside, aside)");
+    const main = layout.querySelector(".n-layout-aside\\:resizable>:is(.n-main, main)");
+    const seperator = layout.querySelector(".n-layout-aside\\:resizable:has(aside, .n-aside)");
 
     if(layout.classList.contains("n-layout-aside-pos:right"))
         asidePos = "right";
