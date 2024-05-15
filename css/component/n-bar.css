@@ -1,0 +1,126 @@
+.n-bar{
+    /* --n-height:60px; */
+    /* --n-bg-color:#333; */
+    /* --n-color:#fff; */
+    /* --n-shadow:0 2px 4px rgba(0,0,0,0.1); */
+
+    display: flex;
+
+    background-color: rgba(var(--bg-active, transparent),1);
+
+    >.active{
+        background-color: var(--bg-active, #fff);
+        color:var(--color-active, #000);
+    }
+}
+
+.n-bar-padding\:1{
+    padding: var(--gap-1);
+}
+.n-bar-padding\:2{
+    padding: var(--gap-2);
+}
+.n-bar-padding\:3{
+    padding: var(--gap-3);
+}
+
+.n-bar.n-bar-dir\:row{
+    flex-direction: row;  
+}
+
+.n-bar.n-bar-dir\:column{
+    flex-direction: column;
+}
+
+.n-bar.n-bar-gap\:1{    
+    gap:var(--gap-1);
+}
+
+.n-bar.n-bar-gap\:2{    
+    gap:var(--gap-2);
+}
+
+.n-bar.n-bar-gap\:3{    
+    gap:var(--gap-3);
+}
+
+.n-bar.n-bar-item-round\:0{
+    >*{
+        border-radius: 0;        
+    }
+}
+.n-bar.n-bar-item-round\:1{
+    >*{
+        border-radius: var(--gap-1);
+    }
+}
+.n-bar.n-bar-item-round\:2{
+    >*{
+        border-radius: var(--gap-2);
+    }
+}
+.n-bar.n-bar-item-round\:3{
+    >*{
+        border-radius: var(--gap-3);
+    }
+}
+.n-bar.n-bar-item-round\:4{
+    >*{
+        border-radius: var(--gap-4);
+    }
+}
+.n-bar.n-bar-item-round\:5{
+    >*{
+        border-radius: var(--gap-5);
+    }
+}
+.n-bar.n-bar-item-round\:6{
+    >*{
+        border-radius: var(--gap-6);
+    }
+}
+.n-bar.n-bar-opacity\:0{
+    --opacity: var(--opacity-0);
+}
+.n-bar.n-bar-opacity\:1{
+    --opacity: var(--opacity-1);
+}
+.n-bar.n-bar-opacity\:2{
+    --opacity: var(--opacity-2);
+}
+.n-bar.n-bar-opacity\:3{
+    --opacity: var(--opacity-3);
+}
+.n-bar.n-bar-opacity\:4{
+    --opacity: var(--opacity-4);
+}
+.n-bar.n-bar-opacity,
+.n-bar.n-bar-opacity\:5{
+    --opacity: var(--opacity-5);
+}
+.n-bar.n-bar-opacity\:6{
+    --opacity: var(--opacity-6);
+}
+.n-bar.n-bar-opacity\:7{
+    --opacity: var(--opacity-7);
+}
+.n-bar.n-bar-opacity\:8{
+    --opacity: var(--opacity-8);
+}
+.n-bar.n-bar-opacity\:9{
+    --opacity: var(--opacity-9); 
+}
+.n-bar.n-bar-opacity\:10{
+    --opacity: var(--opacity-10);
+}
+
+
+@media screen and (min-width: 768px) {
+    
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}

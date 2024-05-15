@@ -1,0 +1,29 @@
+.n-panel{
+    /* --height: 270px; */
+    /* --bg-img */
+    /* --opacity */
+
+    height: var(--height, auto);    
+    
+    /* position: relative; */
+}
+
+
+
+/* .n-panel::after{
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(var(--rgb-base-10), 0.7);
+} */
+
+@media screen and (min-width: 768px) {
+    .md\:n-panel{
+        height: var(--height, auto);
+    }    
+}

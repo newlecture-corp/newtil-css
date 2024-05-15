@@ -11,7 +11,7 @@ function generateIconListFromResource() {
   return {
     name: "generate-icons-list-from-resource",
     buildStart() {
-      const iconListDirectory = "./packages/icon";
+      const iconListDirectory = "./icon";
       const outputPath = "./docs/shared/icon-list.json";
 
       const fileList = fs.readdirSync(iconListDirectory);
@@ -28,14 +28,14 @@ function generateIconListFromResource() {
 
 export default {
   //  --- css -------------------------
-  input: "packages/css/style.css",
+  input: "css/style.css",
   output: {
     // dir: "dist",
     file: "dist/style.min.css",
     format: "es",
   },
   //  --- js -------------------------
-  // input: "packages/js/script.js",
+  // input: "js/script.js",
   // output: [{
   //   // dir: "dist",
   //   file: "dist/script.js",
@@ -63,7 +63,7 @@ export default {
     }),
     generateIconListFromResource(),
     copy({
-      targets: [{ src: "packages/icon/**.svg", dest: "dist/icon" }],
+      targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
     }),
   ],
 };
