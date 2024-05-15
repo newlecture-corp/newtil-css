@@ -16,7 +16,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "newtil-css": path.resolve(__dirname, "../css/style.css"),
+        "newtil-css": path.resolve(__dirname, "./css/style.css"),
       },
     },
   },
