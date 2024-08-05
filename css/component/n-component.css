@@ -1,4 +1,11 @@
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg{
+:is(
+    .n-panel,
+    .n-bar,
+    .n-header,    
+    .n-footer,    
+    .n-aside,
+    aside
+    ).n-bg{
     --opacity: var(--opacity-0);
 
     background-image: linear-gradient(                        
@@ -12,36 +19,36 @@
     background-attachment: fixed, fixed;
     background-position: center, center top;
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:0{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:0{
     --opacity: var(--opacity-0);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:1{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:1{
     --opacity: var(--opacity-1);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:2{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:2{
     --opacity: var(--opacity-2);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:3{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:3{
     --opacity: var(--opacity-3);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:4{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:4{
     --opacity: var(--opacity-4);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:5{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:5{
     --opacity: var(--opacity-5);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:6{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:6{
     --opacity: var(--opacity-6);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:7{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:7{
     --opacity: var(--opacity-7);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:8{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:8{
     --opacity: var(--opacity-8);
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:9{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:9{
     --opacity: var(--opacity-9); 
 }
-:where(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-cover\:10{
+:is(.n-panel,.n-bar,.n-header,header,.n-footer,footer,.n-aside,aside).n-bg-opacity\:10{
     --opacity: var(--opacity-10);
 }

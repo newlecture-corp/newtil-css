@@ -103,6 +103,7 @@
   .md\:font-weight\:bold,    .md\:fw\:bold              { font-weight: bold !important; }
   .md\:font-weight\:normal,  .md\:fw\:normal            { font-weight: normal !important; }
   .md\:font-weight\:inherit, .md\:fw\:inherit           { font-weight: inherit !important; }
+
 }
 
 /* ---- large ------------------------------------------------- */
@@ -156,6 +157,8 @@
   .lg\:font-weight\:inherit, .lg\:fw\:inherit           { font-weight: inherit !important; }
 }
 
+/* === font-size ================================================ */
+
 .font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
 .font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
 .font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
@@ -165,27 +168,49 @@
 .font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
 .font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
 .font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+.font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+.font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+.font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+.font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+.font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+.font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+.font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
 
 @media (min-width: 768px) {
-  .md\:font-size\:1,        .md\:fs\:1 { font-size: var(--font-size-1) !important; }
-  .md\:font-size\:2,        .md\:fs\:2 { font-size: var(--font-size-2) !important; }
-  .md\:font-size\:3,        .md\:fs\:3 { font-size: var(--font-size-3) !important; }
-  .md\:font-size\:4,        .md\:fs\:4 { font-size: var(--font-size-4) !important; }
-  .md\:font-size\:5,        .md\:fs\:5 { font-size: var(--font-size-5) !important; }
-  .md\:font-size\:6,        .md\:fs\:6 { font-size: var(--font-size-6) !important; }
-  .md\:font-size\:7,        .md\:fs\:7 { font-size: var(--font-size-7) !important; }
-  .md\:font-size\:8,        .md\:fs\:8 { font-size: var(--font-size-8) !important; }
-  .md\:font-size\:9,        .md\:fs\:9 { font-size: var(--font-size-9) !important; }
+  .md\:font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
+  .md\:font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
+  .md\:font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
+  .md\:font-size\:4,        .fs\:4 { font-size: var(--font-size-4) !important; }
+  .md\:font-size\:5,        .fs\:5 { font-size: var(--font-size-5) !important; }
+  .md\:font-size\:6,        .fs\:6 { font-size: var(--font-size-6) !important; }
+  .md\:font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
+  .md\:font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
+  .md\:font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+  .md\:font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+  .md\:font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+  .md\:font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+  .md\:font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+  .md\:font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+  .md\:font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+  .md\:font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
 }
 
 @media (min-width: 1200px) {
-  .lg\:font-size\:1,        .lg\:fs\:1 { font-size: var(--font-size-1) !important; }
-  .lg\:font-size\:2,        .lg\:fs\:2 { font-size: var(--font-size-2) !important; }
-  .lg\:font-size\:3,        .lg\:fs\:3 { font-size: var(--font-size-3) !important; }
-  .lg\:font-size\:4,        .lg\:fs\:4 { font-size: var(--font-size-4) !important; }
-  .lg\:font-size\:5,        .lg\:fs\:5 { font-size: var(--font-size-5) !important; }
-  .lg\:font-size\:6,        .lg\:fs\:6 { font-size: var(--font-size-6) !important; }
-  .lg\:font-size\:7,        .lg\:fs\:7 { font-size: var(--font-size-7) !important; }
-  .lg\:font-size\:8,        .lg\:fs\:8 { font-size: var(--font-size-8) !important; }
-  .lg\:font-size\:9,        .lg\:fs\:9 { font-size: var(--font-size-9) !important; }
+  .lg\:font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
+  .lg\:font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
+  .lg\:font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
+  .lg\:font-size\:4,        .fs\:4 { font-size: var(--font-size-4) !important; }
+  .lg\:font-size\:5,        .fs\:5 { font-size: var(--font-size-5) !important; }
+  .lg\:font-size\:6,        .fs\:6 { font-size: var(--font-size-6) !important; }
+  .lg\:font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
+  .lg\:font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
+  .lg\:font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+  .lg\:font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+  .lg\:font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+  .lg\:font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+  .lg\:font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+  .lg\:font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+  .lg\:font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+  .lg\:font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
+  
 }

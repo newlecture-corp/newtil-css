@@ -16,16 +16,16 @@
   --rgb-sub-2: 34, 139, 230;
   --rgb-sub-3: 28, 126, 214;
 
-  --color-accent-1: #ff6b6b;
-  --color-accent-2: #fa5252;
+  --color-accent-1: #feb900;
+  --color-accent-2: #ff9205;
   --color-accent-3: #f03e3e;
 
-  --rgb-accent-1: 255, 107, 107;
-  --rgb-accent-2: 250, 82, 82;
+  --rgb-accent-1: 254, 185, 0;
+  --rgb-accent-2: 255, 146, 5;
   --rgb-accent-3: 240, 62, 62;
 
   --color-base-1: #ffffff;
-  --color-base-2: #e4e7ea;
+  --color-base-2: #f8f8f8;
   --color-base-3: #dee2e6;
   --color-base-4: #ced4da;
   --color-base-5: #adb5bd;
@@ -36,7 +36,7 @@
   --color-base-10: #000000;
 
   --rgb-base-1: 255, 255, 255;
-  --rgb-base-2: 228, 231, 234;
+  --rgb-base-2: 248, 248, 248;
   --rgb-base-3: 222, 226, 230;
   --rgb-base-4: 206, 212, 218;
   --rgb-base-5: 173, 181, 189;
@@ -50,14 +50,19 @@
   --gap-0: 0px;
   --gap-1: 4px;
   --gap-2: 8px;
-  --gap-3: 12px;
-  --gap-4: 16px;
-  --gap-5: 20px;
-  --gap-6: 24px;
-  --gap-7: 28px;
-  --gap-8: 32px;
-  --gap-9: 36px;
+  --gap-3: 10px;
+  --gap-4: 12px;
+  --gap-5: 14px;
+  --gap-6: 16px;
+  --gap-7: 20px;
+  --gap-8: 28px;
+  --gap-9: 34px;
   --gap-10: 40px;
+  --gap-11: 60px;
+  --gap-12: 80px;
+  --gap-13: 100px;
+  --gap-14: 200px;
+  --gap-15: 400px;
   --gap-full: 9999px;
 
   /* width */
@@ -163,20 +168,28 @@
   --border-radius-full: 9999px;
 
   /* font-size */
-  --font-size-1: 12px;
-  --font-size-2: 14px;
-  --font-size-3: 16px;
-  --font-size-4: 18px;
-  --font-size-5: 20px;
-  --font-size-6: 22px;
-  --font-size-7: 26px;
-  --font-size-8: 32px;
-  --font-size-9: 56px;
+  --font-size-1: 8px;
+  --font-size-2: 9px;
+  --font-size-3: 10px;
+  --font-size-4: 11px;
+  --font-size-5: 12px;
+  --font-size-6: 14px;
+  --font-size-7: 16px;
+  --font-size-8: 18px;
+  --font-size-9: 20px;
+  --font-size-10: 22px;
+  --font-size-11: 24px;
+  --font-size-12: 26px;
+  --font-size-13: 28px;
+  --font-size-14: 36px;
+  --font-size-15: 48px;
+  --font-size-16: 72px;
+
 
   /* font-weight */
-  --font-weight-1: 400;
-  --font-weight-2: 500;
-  --font-weight-3: 700;
+  --font-weight-1: notmal;
+  --font-weight-2: bold;
+  --font-weight-3: bolder;
 
   /* opacity */
   --opacity-0: 0;

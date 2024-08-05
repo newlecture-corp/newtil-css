@@ -1,10 +1,46 @@
+/*
+<type>───────────────────────────────────
 
-.n-header{
+.n-header
+.n-header:sticky
+
+<option>───────────────────────────────────
+
+.content-pos:left, center, right
+.menu-pos:left, right
+.logo-pos:left, center, right
+
+<example>───────────────────────────────────
+
+
+<header class="n-header">
+</header>
++-------------------------------------------------------------+
+| Logo                                                        |
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+|| Logo           .content                |                   |
++-------------------------------------------------------------+
+<header class="n-header content-pos\:center">
+</header>
++-------------------------------------------------------------+
+| Logo                                                        |
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+|         | Logo           .content                |          |
++-------------------------------------------------------------+
+*/
+
+:is(
+    .n-header,
+    .n-header\:sticky
+){
     background-color: var(--color-base-1);
     height: var(--header-height, 64px);
     flex-shrink: 0;
     grid-area: header;
-    border-bottom: var(--border-width, 1px) solid var(--border-color, --color-base-3);
+    /* border-bottom: var(--header-border-width, 1px) solid var(--header-border-color, --color-base-3); */
+    box-shadow: 1px 1px 1px var(--header-border-color, --color-base-3);
     padding: 0 var(--header-padding, var(--gap-5));
     
     position: relative;
@@ -13,13 +49,12 @@
     align-items: center;
     justify-content: start;
 
-    
-    >:where(h1, .title){
+    >:is(h1, .title){
         font-size: 24px;
-        font-weight: 700;
+        font-weight: bold;
     }
        
-    >:where(.nav, nav){
+    >:is(.nav, nav){
         right: var(--gap-5);
         
         position: absolute;
@@ -49,7 +84,7 @@
         justify-content: start;
         align-items: center;
         
-        >:where(h1, .title){
+        >:is(h1, .title){
             font-size: 24px;
             font-weight: 700;
         }
@@ -60,7 +95,7 @@
             font-weight: 700;            
         } */
         
-        >:where(.nav, nav){
+        >:is(.nav, nav){
             right: 0;
             
             position: absolute;
@@ -93,23 +128,6 @@
         }
     }    
 }
-.n-header.n-header-content-pos\:left{
-    >.content{        
-        margin: initial;
-    }
-}
-
-.n-header.n-header-content-pos\:center{
-    >.content{
-        margin: 0 auto;
-    }
-}
-
-.n-header.n-header-content-pos\:right{
-    >.content{        
-        margin-left: auto;
-    }
-}
 
 /* --- type --------------------------------------- */
 .n-header\:sticky{
@@ -119,31 +137,53 @@
     z-index: 1000;
 }
 
-/* ---- menu alignment -------------------------------------------- */
-.n-header-menu\:right{
+/* === options ============================================ */
+/* --- content-pos --------------------------------------- */
 
-    >:where(.nav, nav){
+.n-header.content-pos\:left{
+    >.content{        
+        margin: initial;
+    }
+}
+
+.n-header.content-pos\:center{
+    >.content{
+        margin: 0 auto;
+    }
+}
+
+.n-header.content-pos\:right{
+    >.content{        
+        margin-left: auto;
+    }
+}
+
+
+/* ---- menu alignment -------------------------------------------- */
+.n-header.menu-pos\:right{
+
+    >:is(.nav, nav){
         left:initial;
         right: var(--gap-5);
     }
 
     >.content{
 
-        >:where(.nav, nav){
+        >:is(.nav, nav){
             left:initial;
             right: 0;
         }       
     }
 }
 
-.n-header-menu\:left{
-    >:where(.nav, nav){
+.n-header.menu-pos\:left{
+    >:is(.nav, nav){
         left: 0;
         right: initial;
     }
 
     >.content{
-        >:where(.nav, nav){
+        >:is(.nav, nav){
             left: 0;
             right: initial;
         }
@@ -152,35 +192,35 @@
 
 /* ---- title alignment -------------------------------------------- */
 
-.n-header-title\:left{
+.n-header.logo-pos\:left{
     >.title,
     >h1{
         margin: 0 auto 0 0;
     }
 
     >.content{
-        >:where(.title, h1){
+        >:is(.title, h1){
             margin: 0 auto 0 0;
         }
        
     }
 }
 
-.n-header-title\:center{
+.n-header.logo-pos\:center{
     >.title,
     >h1{
         margin: 0 auto;
     }
 
     >.content{
-        >:where(.title, h1){
+        >:is(.title, h1){
             margin: 0 auto;
         }
        
     }
 }
 
-.n-header-title\:right{
+.n-header.logo-pos\:right{
     >.title,
     >h1{
         margin: 0 0 0 auto;
@@ -197,21 +237,8 @@
 
 
 
+
 @media screen and (min-width: 768px) {
 
-    .n-header{
-              
-        >:where(.nav, nav){
-            
-            /* ---- menu visibility ------ */
-            >ul.hide{
-                display: none;
-            }
-            
-            >ul.show{
-                display: flex;
-            }
-        }
-    }
     
 }

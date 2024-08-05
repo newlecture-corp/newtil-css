@@ -1,11 +1,9 @@
-.n-footer,
-footer{
+.n-footer{
     /* --footer-height */
     /* --border-width */
     /* --footer-padding */
 
-
-    height: var(--footer-height, 100px);
+    height: var(--footer-height, auto);
     flex-shrink: 0;
 
     border-top: var(--border-width, 1px) solid var(--border-color, --color-base-3);

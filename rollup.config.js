@@ -28,7 +28,7 @@ function generateIconListFromResource() {
 
 export default {
   //  --- css -------------------------
-  input: "css/style.css",
+  input: "css/bundle.css",
   output: {
     // dir: "dist",
     file: "dist/style.min.css",
