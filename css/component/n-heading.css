@@ -1,0 +1,62 @@
+:is(
+    .heading\:1,
+    .heading\:2,
+    .heading\:3,
+    .heading\:4,
+    .heading\:5,
+    .heading\:6
+){
+    /* display: block; */    
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.heading\:1 {
+    font-size: var(--heading-1_font-size, 2em);
+    font-weight: bold;
+}
+
+.heading\:2 {
+    font-size: var(--heading-2_font-size, 1.5em);
+    font-weight: bold;
+}
+
+.heading\:3 {
+    font-size: var(--heading-2_font-size, 1.33em);
+    font-weight: bold;
+}
+
+.heading\:4 {
+    font-size: var(--heading-2_font-size, 1.17em);
+    font-weight: bold;
+}
+
+.heading\:5 {
+    font-size: var(--heading-2_font-size, 0.83em);
+    font-weight: bold;
+}
+
+.heading\:6 {
+    font-size: var(--heading-2_font-size, 0.67em);
+    font-weight: bold;
+}
+
+/* h1:has(.heading-truncate){
+    width:300px;
+} */
+
+.heading-truncate{  
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+
+    >a{    
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: normal;
+        white-space: nowrap;
+    }
+    
+} 

@@ -1,0 +1,86 @@
+/* font */
+/* 
+  - title : semi-bold
+  - subtitle : medium
+  - heading1 (h1) : medium
+  - heading2 (h2) : medium
+  - heading3 (h3) : medium
+ */
+
+.n-font{
+  --font-title-font-size: 30px;
+  --font-title-font-weight: 700;
+  --font-title-line-height: 150%;
+  --font-title-letter-spacing: -0.02em;
+
+  --font-subtitle-font-size: 18px;
+  --font-subtitle-font-weight: 500;
+  --font-subtitle-line-height: 150%;
+  --font-subtitle-letter-spacing: -0.02em;
+
+  --font-heading-1-font-size: 24px;
+  --font-heading-1-font-weight: 500;
+  --font-heading-1-line-height: 150%;
+  --font-heading-1-letter-spacing: -0.02em;
+
+  --font-heading-2-font-size: 20px;
+  --font-heading-2-font-weight: 500;
+  --font-heading-2-line-height: 150%;
+  --font-heading-2-letter-spacing: -0.02em;
+
+  --font-heading-3-font-size: 16px;
+  --font-heading-3-font-weight: 500;
+  --font-heading-3-line-height: 150%;
+  --font-heading-3-letter-spacing: -0.02em;
+}
+
+/* ---- md ------------------------------------------------- */
+@media (min-width: 768px) {
+  .n-font{
+    --font-title-font-size: 32px;
+    --font-subtitle-font-size: 20px;
+    --font-heading-1-font-size: 26px;
+    --font-heading-2-font-size: 22px;
+    --font-heading-3-font-size: 18px;
+  }
+}
+
+.n-font,
+.n-font.n-font\:title {
+  font-size: var(--font-title-font-size);
+  font-weight: var(--font-title-font-weight);
+  line-height: var(--font-title-line-height);
+  letter-spacing: var(--font-title-letter-spacing);
+}
+
+.n-font.n-font\:subtitle {
+  font-size: var(--font-subtitle-font-size);
+  font-weight: var(--font-subtitle-font-weight);
+  line-height: var(--font-subtitle-line-height);
+  letter-spacing: var(--font-subtitle-letter-spacing);
+}
+
+.n-font.n-font\:heading,
+.n-font.n-font\:heading-1,
+.n-font.n-font\:h1 {
+  font-size: var(--font-heading-1-font-size);
+  font-weight: var(--font-heading-1-font-weight);
+  line-height: var(--font-heading-1-line-height);
+  letter-spacing: var(--font-heading-1-letter-spacing);
+}
+
+.n-font.n-font\:heading-2,
+.n-font.n-font\:h2 {
+  font-size: var(--font-heading-2-font-size);
+  font-weight: var(--font-heading-2-font-weight);
+  line-height: var(--font-heading-2-line-height);
+  letter-spacing: var(--font-heading-2-letter-spacing);
+}
+
+.n-font.n-font\:heading-3,
+.n-font.n-font\:h3 {
+  font-size: var(--font-heading-3-font-size);
+  font-weight: var(--font-heading-3-font-weight);
+  line-height: var(--font-heading-3-line-height);
+  letter-spacing: var(--font-heading-3-letter-spacing);
+}
