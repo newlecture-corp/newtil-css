@@ -57,27 +57,6 @@
     border: none;
     box-sizing: border-box;
 
-    dl>div{
-        display: flex;
-        padding: 10px 0;
-        border-bottom: 1px dashed var(--color-base-3);
-
-        dt {
-            font-weight: bold;
-
-            &::after {
-                content: ":";
-            }
-        }
-
-        dd {
-            margin-left: 5px;
-        }
-    }
-    dl>div:last-child{
-        border-bottom: none;
-    }
-
     &.n-panel\:card-list {
         &>div{
             display: flex;
@@ -148,6 +127,7 @@
 
     }
 }
+
 
 .n-panel\:rounded-shadow,
 .n-frame\:rounded-shadow{

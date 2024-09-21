@@ -1,187 +1,37 @@
-/* 공통 스타일 집중화 */
-:where(
 
-  /* for a list panel with a title and list content */
-  .n-list,
-  .n-list\:ruled,
-  .n-list\:outlined) {
+/* --- ul.n-list ------------------------------------ */
 
-    /* n-list extends from n-panel === */
-    background-color: var(--panel-bg-color, var(--color-base-1));
-    /*padding: var(--list-padding, 20px);*/
-    /* /=== n-list extends from n-panel */
-
-    /* box layout style */
-
-    /* n-list extends from n-panel === */
-    >h1,  
-    >header {
-      width: 100%;
-      
-      display: flex;
-      align-items: center;
-    }
-
-    >h1,
-    >header>h1 {
-      font-size: var(--panel-header-fs, var(--font-size-7, 16px));
-      font-weight: var(--panel-header-fw, var(--font-weight-2, bold));
-    }
-    /* /=== n-list extends from n-panel */
-
-    >:is(table, ul, dl, form, div, .content) {
-      overflow: hidden;
-
-      width: var(--panel-content-width, 100%);
-
-      /* padding-top: 1em; */
-      position: relative;
-      display: flex;
-      flex-direction: var(--content-direction, column);
-      justify-content: var(--content-justify, start);
-      align-items: var(--content-align, start);
-      list-style: var(--list-style, circle);
-
-      >:where(li, dt, dd, .item) {
-        /* line-height: 2em; */
-
-        width: 100%;
-
-         display: flex;
-        flex-direction: row;
-
-
-        padding: 1em 1.5em;
-        flex-direction: column;
-        align-items: start;
-
-      }
-    }
-}
-
-:where(
-
-  /* for a list panel with a title and list content */
-  .n-list,
-  .n-list\:ruled,
-  .n-list\:outlined):has(>h1, >header) {
-    >:is(table, ul, dl, form, div, .content) {
-      padding-top: 1em;
-    }
-  }
-
-/* === option ============================================================================= */
-/* ------------------------------------------------------------  
-n-list-title:underline
-n-list-item:card
-n-list-item-style:circle
-
-
-------------------------------------------------------------- */
-
-
-.list-title\:underline {
-  >h1,
-  >header {
-    border-bottom: 1px solid var(--panel-header-bd-bottom, var(--color-base-3));
-    padding-bottom: 10px;
-  }
-}
-
-.list-item-style\:circle{
-  >:where(table, ul, dl, form, div, .content){
-      list-style: var(--list-style, circle);
-  }
-}
-
-.n-list\:outlined.n-list-item\:card{
-  >:where(table, ul, dl, form, div, .content){
-        
-      >:where(li,dt,dd,section){
-        padding: 1em 1.5em;
-        flex-direction: column;
-        align-items: start;
-      }
-  }
-}
-
-/* === type ============================================================================= */
-
-.n-list\:outlined{
-  >:where(table, ul, dl, form, div, .content){
-      gap: 1em;
-      
-      >:where(li,dt,dd,section){
-
-          padding: 0px 10px;
-
-          display: flex;
-          align-items: center;
-          min-height: 40px;
-          border: 1px solid var(--panel-header-bd-bottom, var(--color-base-3));
-      }
-  }
-}
-
-.n-list\:outlined.outlined-gap\:1{
-  >:where(table, ul, dl, form, div, .content){
-      gap: var(--gap-1, 4px);
-  }
-}
-
-.n-list\:outlined.outlined-gap\:2{
-  >:where(table, ul, dl, form, div, .content){
-      gap: var(--gap-2, 8px);
-  }
-}
-
-/* ==== ruled-list ============================================================================ */
-
-.n-list\:ruled{
-        
-  >:where(table, ul, dl, form, div, .content){
-      
-      >:where(li, dt, dd){
-          position: relative;
-          
-          line-height: 2.5em;
-      }
-
-      >:where(li, dt, dd, section)::after{           
-          display: flex;
-          content: "";
-          height: 1px;
-          width: 100%;
-          background-color: var(--panel-header-bd-bottom, var(--color-base-3));            
-          
-          padding: 0;
-          /* margin: 0 50px; */
-          
-          position: absolute;
-          /* left: -20px; */
-          bottom: 0px;
-          /* transform: translateY(100%); */
-      }
-      
-      >:where(li,dt,dd):last-child::after{
-          min-height: 40px;
-          display: none;
-      }
-      
-  }
-}
-
-.n-list\:ruled:has(section)::before{
-  content: "ruled-list 클래스 박스 안에 section 태그를 포함할 수 없습니다.";
-  color: red;
-  font-weight: bold;
-  width: 100%;
-  padding: 20px 20px 0px 20px;
-  /* height: 100px; */
-  
+:is(ul,ol).n-list\:lined>li{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--color-base-3);
+  
+}
+:is(ul,ol).n-list\:lined>li:last-child{
+  border-bottom: none;
+}
 
+/* --- dl.n-list ------------------------------------ */
+
+dl.n-list\:lined>div{
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--color-base-3);
+
+  dt {
+      font-weight: bold;
+
+      &::after {
+          content: ":";
+      }
+  }
+
+  dd {
+      margin-left: 5px;
+  }
+  
+}
+dl.n-list\:lined>div:last-child{
+  border-bottom: none;
 }
 
