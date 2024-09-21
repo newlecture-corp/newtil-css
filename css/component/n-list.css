@@ -2,15 +2,24 @@
 /* --- ul.n-list ------------------------------------ */
 
 :is(ul,ol).n-list>li,
-:is(ul,ol).n-list\:lined>li{
+:is(ul,ol).n-list\:lined>li,
+:is(ul,ol).n-list\:no-lined>li,
+:is(ul,ol).n-list\:dash-lined>li{
   display: flex;
   padding: 10px 0;
 }
 
-:is(ul,ol).n-list\:lined>li{
+:is(ul,ol).n-list\:dash-lined>li{
   border-bottom: 1px dashed var(--color-base-3);  
 }
 
+:is(ul,ol).n-list>li,
+:is(ul,ol).n-list\:lined>li{
+  border-bottom: 1px solid var(--color-base-3);  
+}
+
+:is(ul,ol).n-list>li:last-child,
+:is(ul,ol).n-list\:dash-lined>li:last-child,
 :is(ul,ol).n-list\:lined>li:last-child{
   border-bottom: none;
 }
@@ -18,11 +27,12 @@
 /* --- dl.n-list ------------------------------------ */
 
 dl.n-list>div,
+dl.n-list\:no-lined>div,
+dl.n-list\:dash-lined>div,
 dl.n-list\:lined>div{
   display: flex;
   padding: 10px 0;
-  border-bottom: 1px dashed var(--color-base-3);
-
+  
   dt {
       font-weight: bold;
 
@@ -36,11 +46,17 @@ dl.n-list\:lined>div{
   }  
 }
 
-dl.n-list\:lined>div{
+dl.n-list\:dash-lined>div{
   border-bottom: 1px dashed var(--color-base-3);
 }
 
+dl.n-list>div,
+dl.n-list\:lined>div{
+  border-bottom: 1px solid var(--color-base-3);
+}
 
+dl.n-list>div:last-child,
+dl.n-list\:dash-lined>div:last-child,
 dl.n-list\:lined>div:last-child{
   border-bottom: none;
 }
