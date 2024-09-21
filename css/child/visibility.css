@@ -1,0 +1,26 @@
+.visibility\:visible,	.vis\:visible { visibility: visible !important; }
+.visibility\:hidden,	.vis\:hidden { visibility: hidden !important; }
+.visibility\:collapse,	.vis\:collapse { visibility: collapse !important; }
+.visibility\:inherit,	.vis\:inherit { visibility: inherit !important; }
+.visibility\:initial,	.vis\:initial { visibility: initial !important; }
+.visibility\:unset,		.vis\:unset { visibility: unset !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:visibility\:visible,   .md\:vis\:visible { visibility: visible !important; }
+    .md\:visibility\:hidden,    .md\:vis\:hidden { visibility: hidden !important; }
+    .md\:visibility\:collapse,  .md\:vis\:collapse { visibility: collapse !important; }
+    .md\:visibility\:inherit,   .md\:vis\:inherit { visibility: inherit !important; }
+    .md\:visibility\:initial,   .md\:vis\:initial { visibility: initial !important; }
+    .md\:visibility\:unset,     .md\:vis\:unset { visibility: unset !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:visibility\:visible,   .lg\:vis\:visible { visibility: visible !important; }
+    .lg\:visibility\:hidden,    .lg\:vis\:hidden { visibility: hidden !important; }
+    .lg\:visibility\:collapse,  .lg\:vis\:collapse { visibility: collapse !important; }
+    .lg\:visibility\:inherit,   .lg\:vis\:inherit { visibility: inherit !important; }
+    .lg\:visibility\:initial,   .lg\:vis\:initial { visibility: initial !important; }
+    .lg\:visibility\:unset,     .lg\:vis\:unset { visibility: unset !important; }
+}

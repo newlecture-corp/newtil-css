@@ -1,0 +1,152 @@
+
+.n-aside-menu{
+
+    width: inherit;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-base-4);
+
+    >h1{
+        font-size: 16px;
+        font-weight: bold;
+
+        height: 40px;
+
+        display: none;
+        align-items: center;
+
+        &.active{
+            background-color: var(--color-sub-3);
+            color: var(--color-base-1);
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        &.active:has(>.n-icon)>::before{
+            background-color: var(--color-base-1);
+        }
+    }
+
+    >ul>*{
+        height: 40px;
+        padding-left: 0;
+        padding-right: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    >ul>*:hover{
+        background-color: var(--color-base-3);
+    }
+
+    >ul>*.active{
+        background-color: rgba(var(--rgb-main-1), 0.7);
+        color:var(--color-base-1);
+    }
+
+    /*li 자식 중에 n-icon이 있다면*/
+    >ul>*.active:has(>.n-icon)>::before {
+        background-color: var(--color-base-1);
+    }
+}
+
+.n-menu-gap\:1{ gap:var(--gap-1); }
+.n-menu-gap\:2{ gap:var(--gap-2); }
+.n-menu-gap\:3{ gap:var(--gap-3); }
+.n-menu-gap\:4{ gap:var(--gap-4); }
+.n-menu-gap\:5{ gap:var(--gap-5); }
+.n-menu-gap\:6{ gap:var(--gap-6); }
+.n-menu-gap\:7{ gap:var(--gap-7); }
+.n-menu-gap\:8{ gap:var(--gap-8); }
+.n-menu-gap\:9{ gap:var(--gap-9); }
+.n-menu-gap\:10{ gap:var(--gap-10); }
+
+
+
+@media screen and (min-width: 576px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+    .lg\:n-aside-menu{
+    /*.n-aside-menu:is(.n-aside-size\:full){*/
+
+        padding: 12px;
+        border-bottom: 1px solid var(--color-base-4);
+
+        >h1{
+            font-size: 16px;
+            font-weight: bold;
+
+            height: 40px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        >ul>:is(li){
+            height: 40px;
+            padding-left: 12px;
+            padding-right: 12px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        >ul>*:hover{
+            background-color: var(--color-base-3);
+        }
+
+        >ul>*.active{
+            background-color: rgba(var(--rgb-main-1), 0.7);
+            color:var(--color-base-1);
+        }
+
+        /*li 자식 중에 n-icon이 있다면*/
+        >ul>*.active:has(>.n-icon)>::before {
+            background-color: var(--color-base-1);
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .xl\:n-aside-menu{
+
+        padding: 12px;
+        border-bottom: 1px solid var(--color-base-4);
+
+        >h1{
+            font-size: 16px;
+            font-weight: bold;
+
+            height: 40px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        >ul>*{
+            height: 40px;
+            padding-left: 12px;
+            padding-right: 12px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        >ul>*:hover,
+        >ul>*.active{
+            background-color: var(--color-base-2);
+        }
+    }
+
+}
+
+

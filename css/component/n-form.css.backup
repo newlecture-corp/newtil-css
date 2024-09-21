@@ -1,0 +1,554 @@
+/**
+ * n-form
+ *
+ * n-form-type:[outline-box, shadow, underline, outline-none]
+ * 
+ * md:n-field-label\:left
+ * lg:n-field-label\:left
+ */
+
+/**
+how to use
+
+<form class="n-form">
+  <div>
+    <label>이건 label / input</label>
+    <input
+      id="search"
+      placeholder="제목을 입력하세요"
+      autocomplete="off"
+      class=""
+      type="text" />
+  </div>
+
+  <div>
+    <label>
+      <span>이건 텍스트 박스</span>
+      <input
+        type="text"
+        class="n-text-box"
+        placeholder="내용을 입력하세요" />
+    </label>
+  </div>
+
+  <!-- checkbox -->
+  <div>
+    <div>이건 체크박스 세트</div>
+
+    <div>
+      <label>
+        <input value="1" type="checkbox" class="check" />
+        공지사항
+      </label>
+      <label>
+        <input value="2" type="checkbox" class="check" />
+        이벤트
+      </label>
+    </div>
+  </div>
+
+  <!-- toggle -->
+  <div>
+    <label>
+      <span>이건 토글</span>
+      <input type="checkbox" class="n-toggle" />
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" class="n-toggle" />
+      <span>이것도 토글이지</span>
+    </label>
+  </div>
+
+  <!-- textarea -->
+  <div>
+    <label>
+      textbox textarea야
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="텍스트를 입력해주세요"></textarea>
+    </label>
+  </div>
+
+  <div>
+    <label>label + textarea야</label>
+    <textarea
+      name=""
+      id=""
+      cols="30"
+      rows="10"
+      class=""
+      placeholder="텍스트를 입력해주세요"></textarea>
+  </div>
+
+  <div>
+    <button class="n-btn">버튼</button>
+    <button class="n-btn">버튼</button>
+  </div>
+</form>
+*/
+
+.n-form {
+  /* form style */
+  --form-border-radius: 16px;
+  --form-padding: 24px;
+
+  background-color: var(--color-base-1);
+  border: 1px solid var(--color-base-3);
+  border-radius: var(--form-border-radius);
+
+  padding: var(--form-padding);
+
+  /* textbox style */
+  /* textbox-size */
+  --textbox-padding-x: 12px;
+  --textbox-input-height: 36px;
+  --textbox-textarea-min-height: 58px;
+
+  /* textbox-border-radius */
+  --textbox-border-radius: 6px;
+
+  /* textbox-border-color */
+  --textbox-border-color: var(--color-base-3);
+
+  /* textbox-border-width */
+  --textbox-underline-border-width: 1.6px;
+
+  /* textbox-status:focus */
+  --textbox-border-color-focus: var(--color-sub-2);
+
+  /* textbox-status:success */
+  --textbox-border-color-success: #37b24d;
+
+  /* textbox-status:warning */
+  --textbox-color-warning: var(--color-accent-1);
+  --textbox-border-color-warning: var(--color-accent-1);
+}
+
+/* gap between fields */
+.n-form > div:not(:first-child) {
+  margin-top: 32px;
+}
+
+/* title */
+.n-form > div > :first-child:is(label, div, span):not(label:has(input)),
+.n-form > div > label > span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.n-form > div > label:not(:has(input)),
+.n-form > div > label > span {
+  line-height: 110%;
+}
+
+/* ------- var [form-type] ---------------------------- */
+/* outline-box (default) */
+.n-form,
+.n-form-type\:outline-box,
+.n-form-type\:outline,
+.n-form\:outline-box,
+.n-form\:outline {
+  border: 1px solid var(--color-base-3);
+}
+
+/* shadow */
+.n-form-type\:shadow,
+.n-form\:shadow {
+  border: none;
+  box-shadow: 0px 0px 3px -1px rgba(22, 26, 32, 0.05),
+    0px 2px 8px -1px rgba(50, 50, 93, 0.13);
+}
+
+/* underline */
+.n-form-type\:underline,
+.n-form\:underline {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--color-base-3);
+}
+
+/* none */
+.n-form-type\:outline-none,
+.n-form\:outline-none {
+  border: none;
+  border-bottom: none;
+}
+
+/* ---- textbox ----------------------------------------- */
+
+/* input, textarea */
+.n-form input[type="email"],
+.n-form input[type="number"],
+.n-form input[type="password"],
+.n-form input[type="search"],
+.n-form input[type="tel"],
+.n-form input[type="text"],
+.n-form input[type="url"],
+.n-form textarea {
+  color: rgba(var(--rgb-base-10), 0.85);
+  line-height: 150%;
+
+  background-color: var(--color-base-1);
+  border: 1px solid var(--textbox-border-color);
+  border-radius: var(--textbox-border-radius);
+  box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+
+  padding: 4px var(--textbox-padding-x);
+  flex-grow: 1;
+
+  transition: border 0.12s;
+}
+
+/* textarea */
+.n-form textarea {
+  height: 100%;
+  width: 100%;
+  min-height: var(--textbox-textarea-min-height);
+  resize: none;
+}
+
+.n-form label:has(textarea) {
+  width: 100%;
+}
+
+/* textbox */
+.n-form > div > label:has(span) {
+  align-items: start;
+}
+
+.n-form > div > label:has(span) > input[type="email"],
+.n-form > div > label:has(span) > input[type="number"],
+.n-form > div > label:has(span) > input[type="password"],
+.n-form > div > label:has(span) > input[type="search"],
+.n-form > div > label:has(span) > input[type="tel"],
+.n-form > div > label:has(span) > input[type="text"],
+.n-form > div > label:has(span) > input[type="url"] {
+  width: 100%;
+}
+
+/* ---- textbox status ------------------------------------------------- */
+.n-form input[type="email"]:focus,
+.n-form input[type="number"]:focus,
+.n-form input[type="password"]:focus,
+.n-form input[type="search"]:focus,
+.n-form input[type="tel"]:focus,
+.n-form input[type="text"]:focus,
+.n-form input[type="url"]:focus,
+.n-form textarea:focus,
+.n-form input[type="email"].n-field-textbox-status\:focus,
+.n-form input[type="number"].n-field-textbox-status\:focus,
+.n-form input[type="password"].n-field-textbox-status\:focus,
+.n-form input[type="search"].n-field-textbox-status\:focus,
+.n-form input[type="tel"].n-field-textbox-status\:focus,
+.n-form input[type="text"].n-field-textbox-status\:focus,
+.n-form input[type="url"].n-field-textbox-status\:focus,
+.n-form textarea.n-field-textbox-status\:focus {
+  border-color: var(--textbox-border-color-focus);
+}
+
+.n-form input[type="email"].n-field-textbox-status\:success,
+.n-form input[type="number"].n-field-textbox-status\:success,
+.n-form input[type="password"].n-field-textbox-status\:success,
+.n-form input[type="search"].n-field-textbox-status\:success,
+.n-form input[type="tel"].n-field-textbox-status\:success,
+.n-form input[type="text"].n-field-textbox-status\:success,
+.n-form input[type="url"].n-field-textbox-status\:success,
+.n-form textarea.n-field-textbox-status\:success {
+  border-color: var(--textbox-border-color-success);
+}
+
+.n-form input[type="email"].n-field-textbox-status\:warning,
+.n-form input[type="number"].n-field-textbox-status\:warning,
+.n-form input[type="password"].n-field-textbox-status\:warning,
+.n-form input[type="search"].n-field-textbox-status\:warning,
+.n-form input[type="tel"].n-field-textbox-status\:warning,
+.n-form input[type="text"].n-field-textbox-status\:warning,
+.n-form input[type="url"].n-field-textbox-status\:warning,
+.n-form textarea.n-field-textbox-status\:warning {
+  color: var(--textbox-color-warning);
+  border-color: var(--textbox-border-color-warning);
+}
+
+.n-form input[type="email"]:disabled,
+.n-form input[type="number"]:disabled,
+.n-form input[type="password"]:disabled,
+.n-form input[type="search"]:disabled,
+.n-form input[type="tel"]:disabled,
+.n-form input[type="text"]:disabled,
+.n-form input[type="url"]:disabled,
+.n-form textarea:disabled,
+.n-form input[type="email"].n-field-textbox-status\:disabled,
+.n-form input[type="number"].n-field-textbox-status\:disabled,
+.n-form input[type="password"].n-field-textbox-status\:disabled,
+.n-form input[type="search"].n-field-textbox-status\:disabled,
+.n-form input[type="tel"].n-field-textbox-status\:disabled,
+.n-form input[type="text"].n-field-textbox-status\:disabled,
+.n-form input[type="url"].n-field-textbox-status\:disabled,
+.n-form textarea.n-field-textbox-status\:disabled {
+  color: rgba(var(--rgb-base-10), 0.27);
+  background-color: rgba(var(--rgb-base-2), 0.6);
+  border-color: var(--color-base-4);
+  cursor: not-allowed;
+}
+
+/* ---- input, textbox placeholder ------------------------------------------------- */
+.n-form input[type="email"]::placeholder,
+.n-form input[type="number"]::placeholder,
+.n-form input[type="password"]::placeholder,
+.n-form input[type="search"]::placeholder,
+.n-form input[type="tel"]::placeholder,
+.n-form input[type="text"]::placeholder,
+.n-form input[type="url"]::placeholder,
+.n-form textarea::placeholder {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--color-base-5);
+  color: var(--color-base-5);
+}
+
+.n-form input[type="email"]:disabled::placeholder,
+.n-form input[type="number"]:disabled::placeholder,
+.n-form input[type="password"]:disabled::placeholder,
+.n-form input[type="search"]:disabled::placeholder,
+.n-form input[type="tel"]:disabled::placeholder,
+.n-form input[type="text"]:disabled::placeholder,
+.n-form input[type="url"]:disabled::placeholder,
+.n-form textarea:disabled::placeholder,
+.n-form input[type="email"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="number"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="password"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="search"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="tel"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="text"].n-field-textbox-status\:disabled::placeholder,
+.n-form input[type="url"].n-field-textbox-status\:disabled::placeholder,
+.n-form textarea.n-field-textbox-status\:disabled::placeholder {
+  color: rgba(var(--rgb-base-10), 0.27);
+}
+
+/* ------- var [textbox-type] ---------------------------- */
+
+/* outline */
+.n-form input[type="email"],
+.n-form input[type="number"],
+.n-form input[type="password"],
+.n-form input[type="search"],
+.n-form input[type="tel"],
+.n-form input[type="text"],
+.n-form input[type="url"],
+.n-form.n-field-textbox-type\:outline input[type="email"],
+.n-form.n-field-textbox-type\:outline input[type="number"],
+.n-form.n-field-textbox-type\:outline input[type="password"],
+.n-form.n-field-textbox-type\:outline input[type="search"],
+.n-form.n-field-textbox-type\:outline input[type="tel"],
+.n-form.n-field-textbox-type\:outline input[type="text"],
+.n-form.n-field-textbox-type\:outline input[type="url"],
+.n-form.n-field-textbox\:outline input[type="email"],
+.n-form.n-field-textbox\:outline input[type="number"],
+.n-form.n-field-textbox\:outline input[type="password"],
+.n-form.n-field-textbox\:outline input[type="search"],
+.n-form.n-field-textbox\:outline input[type="tel"],
+.n-form.n-field-textbox\:outline input[type="text"],
+.n-form.n-field-textbox\:outline input[type="url"] {
+  height: var(--textbox-input-height);
+}
+
+/* underline */
+.n-form.n-field-textbox-type\:underline input[type="email"],
+.n-form.n-field-textbox-type\:underline input[type="number"],
+.n-form.n-field-textbox-type\:underline input[type="password"],
+.n-form.n-field-textbox-type\:underline input[type="search"],
+.n-form.n-field-textbox-type\:underline input[type="tel"],
+.n-form.n-field-textbox-type\:underline input[type="text"],
+.n-form.n-field-textbox-type\:underline input[type="url"],
+.n-form.n-field-textbox\:underline input[type="email"],
+.n-form.n-field-textbox\:underline input[type="number"],
+.n-form.n-field-textbox\:underline input[type="password"],
+.n-form.n-field-textbox\:underline input[type="search"],
+.n-form.n-field-textbox\:underline input[type="tel"],
+.n-form.n-field-textbox\:underline input[type="text"],
+.n-form.n-field-textbox\:underline input[type="url"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: var(--textbox-underline-border-width);
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: transparent;
+
+  transition-property: border-color;
+  transition-duration: 200ms;
+}
+
+/* -------- var [ field label position ] -------------------------------- */
+.n-form > div,
+.n-form > div > label:has(span),
+.n-form > div > label:has(textarea),
+n-form.n-field-label-position\:top > div,
+n-form.n-field-label-position\:top > div > label:has(span),
+n-form.n-field-label-position\:top > div > label:has(textarea),
+n-form.n-field-label\:top > div,
+n-form.n-field-label\:top > div > label:has(span),
+n-form.n-field-label\:top > div > label:has(textarea) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+  /* gap between fields */
+  .n-form.md\:n-field-label-position\:left > div:not(:first-child),
+  .n-form.md\:n-field-label\:left > div:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  /* field-layout */
+  .n-form.md\:n-field-label-position\:left > div:not(:has(textarea)),
+  .n-form.md\:n-field-label\:left > div:not(:has(textarea)),
+  .n-form.md\:n-field-label-position\:left > div > label:has(span),
+  .n-form.md\:n-field-label\:left > div > label:has(span) {
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  /* textbox field width */
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="search"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="tel"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="text"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="url"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="email"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="number"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="password"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="search"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="tel"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="text"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="url"]) {
+    width: 100%;
+  }
+
+  /* textbox input width (label left)*/
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="email"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="number"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="password"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="search"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="tel"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="text"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="url"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="email"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="number"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="password"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="search"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="tel"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="text"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="url"] {
+    width: initial;
+  }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* gap between fields */
+  .n-form.lg\:n-field-label-position\:left > div:not(:first-child),
+  .n-form.lg\:n-field-label\:left > div:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  /* field-layout */
+  .n-form.lg\:n-field-label-position\:left > div:not(:has(textarea)),
+  .n-form.lg\:n-field-label\:left > div:not(:has(textarea)),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span),
+  .n-form.lg\:n-field-label\:left > div > label:has(span) {
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  /* textbox field width */
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="search"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="text"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="url"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="email"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="number"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="password"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="search"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="text"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="url"]) {
+    width: 100%;
+  }
+
+  /* textbox input width (label left)*/
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="email"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="number"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="password"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="search"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="tel"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="text"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="url"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="email"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="number"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="password"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="search"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="tel"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="text"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="url"] {
+    width: initial;
+  }
+}
+
+/* -------- remove autofill style -------------------------------- */
+.n-form input[type="email"]:-webkit-autofill,
+.n-form input[type="email"]:-webkit-autofill:hover,
+.n-form input[type="email"]:-webkit-autofill:focus,
+.n-form input[type="email"]:-webkit-autofill:active,
+.n-form input[type="number"]:-webkit-autofill,
+.n-form input[type="number"]:-webkit-autofill:hover,
+.n-form input[type="number"]:-webkit-autofill:focus,
+.n-form input[type="number"]:-webkit-autofill:active,
+.n-form input[type="password"]:-webkit-autofill,
+.n-form input[type="password"]:-webkit-autofill:hover,
+.n-form input[type="password"]:-webkit-autofill:focus,
+.n-form input[type="password"]:-webkit-autofill:active,
+.n-form input[type="search"]:-webkit-autofill,
+.n-form input[type="search"]:-webkit-autofill:hover,
+.n-form input[type="search"]:-webkit-autofill:focus,
+.n-form input[type="search"]:-webkit-autofill:active,
+.n-form input[type="tel"]:-webkit-autofill,
+.n-form input[type="tel"]:-webkit-autofill:hover,
+.n-form input[type="tel"]:-webkit-autofill:focus,
+.n-form input[type="tel"]:-webkit-autofill:active,
+.n-form input[type="text"]:-webkit-autofill,
+.n-form input[type="text"]:-webkit-autofill:hover,
+.n-form input[type="text"]:-webkit-autofill:focus,
+.n-form input[type="text"]:-webkit-autofill:active,
+.n-form input[type="url"]:-webkit-autofill,
+.n-form input[type="url"]:-webkit-autofill:hover,
+.n-form input[type="url"]:-webkit-autofill:focus,
+.n-form input[type="url"]:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--color-base-1) inset !important;
+}
+
+.n-form input[type="email"]:-webkit-autofill,
+.n-form input[type="number"]:-webkit-autofill,
+.n-form input[type="password"]:-webkit-autofill,
+.n-form input[type="search"]:-webkit-autofill,
+.n-form input[type="tel"]:-webkit-autofill,
+.n-form input[type="text"]:-webkit-autofill,
+.n-form input[type="url"]:-webkit-autofill {
+  -webkit-text-fill-color: var(--color-base-9) !important;
+}

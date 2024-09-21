@@ -1,0 +1,23 @@
+.float\:left { float: left !important; }
+.float\:right { float: right !important; }
+.float\:inline-start { float: inline-start !important; }
+.float\:inline-end { float: inline-end !important; }
+.float\:none { float: none !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:float\:left { float: left !important; }
+    .md\:float\:right { float: right !important; }
+    .md\:float\:inline-start { float: inline-start !important; }
+    .md\:float\:inline-end { float: inline-end !important; }
+    .md\:float\:none { float: none !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:float\:left { float: left !important; }
+    .lg\:float\:right { float: right !important; }
+    .lg\:float\:inline-start { float: inline-start !important; }
+    .lg\:float\:inline-end { float: inline-end !important; }
+    .lg\:float\:none { float: none !important; }
+}

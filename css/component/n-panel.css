@@ -9,14 +9,12 @@
 <type>───────────────────────────────────────
 
 .n-panel
-.n-panel:alert
+.n-panel:frame
+
 .n-panel:outlined-list
 .n-panel:ruled-list
-.n-panel:alert
-.n-panel:static
 
 <option>─────────────────────────────────────
-
 .content-pos:left, center, right
 
 <example>────────────────────────────────────
@@ -44,288 +42,217 @@
 
 */
 /* 공통 스타일 집중화 */
-:is(
-        .n-panel,
-        .n-panel\:outlined-list,
-        .n-panel\:ruled-list,
-        .n-panel\:alert,
-        .n-panel\:static
-    ){
-    
-    font-size: var(--panel-fs, 15px);
-    line-height: 1.67em;
-    color:var(--panel-color, var(--color-base-8));
-    
-    
-    width: 100%;
-    height: var(--panel-height, auto);
-    
-    background-color: var(--item-background-color, var(--color-base-1));
-    border-radius: var(--panel-border-radius, 16px);
-    box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
-    
-    display: flex;
-    flex-direction: var(--panel-direction, column);
-    align-items: var(--panel-align, start);
-   
-    >*
-    {
-        /* margin-bottom: 20px; */
-        /* line-height: 2em; */
-        width: 100%;
-        padding: 16px 24px;
+:where(
+    .n-panel,
+    .n-panel\:rounded-shadow,
+    .n-frame,
+    .n-frame\:rounded-shadow
+){
+    --n-panel-padding: 14px 10px;
+    --n-panel-bg-color: var(--color-base-1);
+    --n-panel-bd-radius: 12px;
+
+    padding: var(--n-panel-padding);
+    background-color: var(--n-panel-bg-color);
+    border: none;
+    box-sizing: border-box;
+
+    dl>div{
+        display: flex;
+        padding: 10px 0;
+        border-bottom: 1px dashed var(--color-base-3);
+
+        dt {
+            font-weight: bold;
+
+            &::after {
+                content: ":";
+            }
+        }
+
+        dd {
+            margin-left: 5px;
+        }
+    }
+    dl>div:last-child{
+        border-bottom: none;
     }
 
-    >header,
-    >h1{
-        
-        border-bottom: 1px solid var(--panel-header-bd-bottom, var(--color-base-3));    
-        
+    &.n-panel\:card-list {
+        &>div{
+            display: flex;
+            gap: 20px; /* 아이템 간 간격 */
+
+            width:100%;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            /*border: 1px solid var(--color-base-3);*/
+            padding: 5px;
+            /*box-shadow: inset 0 0 3px var(--color-base-5);*/
+
+            /*---- 상세 정보를 보여주는 경우의 스타일 ----------------*/
+            >section{
+                /*transform: translateX(-100px);*/
+
+                flex-shrink: 0;
+                width: 250px;
+                padding: 20px;
+                background-color: var(--n-panel-bg-color);
+                border: none;
+                box-sizing: border-box;
+                border-radius: var(--n-panel-bd-radius);
+                box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
+
+                *:has(img){
+                    overflow: hidden;
+                }
+
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+    }
+
+    &.n-panel\:card-grid {
+
+        &>div{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 핵심 */
+            gap: 20px; /* 아이템 간 간격 */
+
+            /*---- 상세 정보를 보여주는 경우의 스타일 ----------------*/
+            section{
+                padding: 20px;
+                background-color: var(--n-panel-bg-color);
+                border: none;
+                box-sizing: border-box;
+                border-radius: var(--n-panel-bd-radius);
+                box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
+
+                *:has(img){
+                    overflow: hidden;
+                }
+
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+
+
+            }
+        }
+
+    }
+}
+
+.n-panel\:rounded-shadow,
+.n-frame\:rounded-shadow{
+    border-radius: var(--n-panel-bd-radius);
+    box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
+}
+
+.n-frame,
+.n-frame\:rounded-shadow{
+
+    /* checkbox 설정을 위한 스타일 */
+    &:has(.n-panel-expander){
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        transition: padding-top .5s ease,
+                    padding-bottom .5s ease;
+    }
+
+
+    &:has(.n-panel-expander:checked){
+        padding: var(--n-panel-padding);
+    }
+
+    >h1,
+    >header{
+        padding: 0 0 16px 0;
+        border-bottom: 1px solid var(--color-base-3);
+
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
 
+        /* checkbox 설정을 위한 스타일 */
+        &:has(.n-panel-expander){
+            padding-bottom: 0;
+            border-bottom: none;
+
+            &+*{
+                display: none;
+            }
+        }
+
+        &:has(.n-panel-expander:checked){
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--color-base-3);
+
+            &+*{
+                display: flex;
+            }
+        }
     }
 
     >h1,
     >header>h1{
-        font-size: var(--panel-header-fs, var(--font-size-7, 16px));
-        font-weight: var(--panel-header-fw, var(--font-weight-2, bold));
-    }
+        font-size: 16px;
+        font-weight: bold;
 
-    >:is(table, ul, dl, form, div, .content){
-        overflow: hidden;
-        
-        width: var(--panel-content-width, 100%);
-        
-        position: relative;
         display: flex;
-        flex-direction: var(--content-direction, column);
-        justify-content: var(--content-justify, start);
-        align-items: var(--content-align, start);
-
-        >:is(li, dt, dd, item){            
-            line-height: 2em; 
-
-            width: 100%;            
-            
-            /* display: flex; */
-            flex-direction: row;
-            align-items: center;
-
-        }
-
+        align-items: center;
     }
-}
 
-/* --- content-pos--------------------------------------------- */
+    /*checkbox 아이콘 스타일 수정*/
+    label:has(.n-panel-expander:not(:checked))::before{
+        --icon: url(../../image/icon/caret_down.svg);
+    }
 
-:is(
-    .n-panel,
-    .n-panel\:outlined-list,
-    .n-panel\:ruled-list,
-    .n-panel\:alert,
-    .n-panel\:static
-).content-pos\:left{
-    >:is(table, ul, dl, form, div, .content){
-        align-self: var(--content-align, start);
+    label:has(.n-panel-expander:checked)::before{
+        --icon: url(../../image/icon/caret_up.svg);
     }
 }
 
 :is(
-    .n-panel, 
-    .n-panel\:outlined-list,
-    .n-panel\:ruled-list,
-    .n-panel\:alert,
-    .n-panel\:static
-).content-pos\:center{
-
-    >h1{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    >:is(table, ul, dl, form, div, .content){
-        align-self: var(--content-align, center);
-    }
-}
-
-:is(
-    .n-panel, 
-    .n-panel\:outlined-list,
-    .n-panel\:ruled-list,
-    .n-panel\:alert,
-    .n-panel\:static
-).content-pos\:right{
-    >:is(table, ul, dl, form, div, .content){
-        align-self: var(--content-align, end);
-    }
-}
-
-/* -------------------------------------------------------------------------- */
-
-:is(
-    .n-panel, 
-    .n-panel\:outlined-list,
-    .n-panel\:ruled-list,
-    .n-panel\:alert,
-    .n-panel\:static
-).content-pos\:right{    
-
-    >:is(table, ul, dl, form, div, .content){
-        margin-left: auto;
-    }
+    .n-frame>h1,
+    .n-frame>header,
+    .n-frame\:rounded-shadow>h1,
+    .n-frame\:rounded-shadow>header
+)+*{
+    margin-top: 24px;
 }
 
 
-/* --- override ------------------------------------------------------------- */
-
-.n-panel\:outlined-list{
-    >:is(table, ul, dl, form, div, .content){
-        gap: 1em;
-        
-        >:is(li,dt,dd){
-
-            padding: 0px 10px;
-
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            min-height: 40px;
-            border: 1px solid var(--panel-header-bd-bottom, var(--color-base-3));
-        }
+/*==== 슈도 패널 ==========================================================*/
+@media screen and (min-width: 576px) {
+    :where(
+        .n-panel,
+        .n-panel\:rounded-shadow,
+        .n-frame,
+        .n-frame\:rounded-shadow
+    ){
+        --n-panel-padding: 24px;
     }
 }
-
-.n-panel\:outlined-list.outlined-gap\:1{
-    >:is(table, ul, dl, form, div, .content){
-        gap: var(--gap-1, 4px);
-    }
-}
-
-.n-panel\:outlined-list.outlined-gap\:2{
-    >:is(table, ul, dl, form, div, .content){
-        gap: var(--gap-2, 8px);
-    }
-}
-
-/* ================================================================================ */
-
-.n-panel\:ruled-list{
-        
-    >:is(table, ul, dl, form, div, .content){
-        
-        >:is(li, dt, dd){
-            position: relative;
-            
-            line-height: 2.5em;
-        }
-
-
-        >:is(li, dt, dd)::after{           
-            display: flex;
-            content: "";
-            height: 1px;
-            width: 100%;
-            background-color: var(--panel-header-bd-bottom, var(--color-base-3));            
-            
-            padding: 0;
-            /* margin: 0 50px; */
-            
-            position: absolute;
-            /* left: -20px; */
-            bottom: 0px;
-            /* transform: translateY(100%); */
-        }
-        
-        >:is(li,dt,dd):last-child::after{
-            min-height: 40px;
-            display: none;
-        }
-        
-    }
-}
-
-.n-panel\:ruled-list:has(section)::before{
-    content: "ruled-list 클래스 박스 안에 section 태그를 포함할 수 없습니다.";
-    color: red;
-    font-weight: bold;
-    width: 100%;
-    padding: 20px 20px 0px 20px;
-    /* height: 100px; */
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-    
-    
-    
-/* ============================================================================= */
-
-.n-panel\:alert{
-    color: var(--panel-color, var(--color-base-1));
-
-    padding: 10px 0;
-    background-color: var(--color-main-2, var(--color-base-1));
-    
-    >:is(h1, h2, h3, h4, h5, h6){
-        margin-bottom: 0px;
-        justify-content: center;
-        line-height: 1em;
-    }
-
-    >:is(table, ul, dl, form, div, .content){
-        width: 100%;
-        padding: 0 var(--gap-2);
-        flex-direction: row;
-        justify-content: var(--content-justify, center);        
-
-        >:is(h1, h2, h3, h4, h5, h6){
-            margin-bottom: 0px;
-            justify-content: center;
-            line-height: 1em;
-        }
-    }
-}
-
-.n-panel\:static{
-    padding: 0;
-    height: 300px;
-    /* aspect-ratio: 16/9; */
-
-    >:is(table, ul, dl, form, div, .content){
-        height: var(--content-height, auto);
-        /* aspect-ratio: 16/9; */
-
-        justify-content: var(--content-justify, center);
-        align-items: var(--content-align, center);
-    }
-}
-
-
-.n-panel\:carousel{
-    
-}
-
 
 @media screen and (min-width: 768px) {
-    .n-panel\:static{    
-        height: 500px;    
-    }
+
+}
+
+@media screen and (min-width: 992px) {
+
 }
 
 
-@media screen and (min-width: 1280px) {
-    :is(
-        .n-panel,
-        .n-panel\:outlined-list,
-        .n-panel\:ruled-list,
-        .n-panel\:alert,
-        .n-panel\:static
-    ){
-    
-        font-size: var(--panel-fs, 14px);
-    }
+@media screen and (min-width: 1200px) {
 
 }
+
+

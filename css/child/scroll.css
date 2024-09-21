@@ -1,0 +1,39 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-none::-webkit-scrollbar,
+.scrl-none::-webkit-scrollbar { 
+    display: none !important; 
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-none, 
+.scrl-none {
+    -ms-overflow-style: none !important; /* IE and Edge */
+    scrollbar-width: none !important; /* Firefox */
+}
+
+/* scroll-behavior */
+.scroll-behavior\:auto,                 .scrl-behavior\:auto,           .scrl-behva\:auto           { scroll-behavior: auto !important; }
+.scroll-behavior\:smooth,               .scrl-behavior\:smooth,         .scrl-behva\:smooth         { scroll-behavior: smooth !important; }
+.scroll-behavior\:inherit,              .scrl-behavior\:inherit,        .scrl-behva\:inherit        { scroll-behavior: inherit !important; }
+.scroll-behavior\:initial,              .scrl-behavior\:initial,        .scrl-behva\:initial        { scroll-behavior: initial !important; }
+.scroll-behavior\:unset,                .scrl-behavior\:unset,          .scrl-behva\:unset          { scroll-behavior: unset !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    /* scroll-behavior */
+    .md\:scroll-behavior\:auto,         .md\:scrl-behavior\:auto,       .md\:scrl-behav\:auto       { scroll-behavior: auto !important; }
+    .md\:scroll-behavior\:smooth,       .md\:scrl-behavior\:smooth,     .md\:scrl-behav\:smooth     { scroll-behavior: smooth !important; }
+    .md\:scroll-behavior\:inherit,      .md\:scrl-behavior\:inherit,    .md\:scrl-behav\:inherit    { scroll-behavior: inherit !important; }
+    .md\:scroll-behavior\:initial,      .md\:scrl-behavior\:initial,    .md\:scrl-behav\:initial    { scroll-behavior: initial !important; }
+    .md\:scroll-behavior\:unset,        .md\:scrl-behavior\:unset,      .md\:scrl-behav\:unset      { scroll-behavior: unset !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    /* scroll-behavior */
+    .lg\:scroll-behavior\:auto,         .lg\:scrl-behavior\:auto,       .lg\:scrl-behav\:auto       { scroll-behavior: auto !important; }
+    .lg\:scroll-behavior\:smooth,       .lg\:scrl-behavior\:smooth,     .lg\:scrl-behav\:smooth     { scroll-behavior: smooth !important; }
+    .lg\:scroll-behavior\:inherit,      .lg\:scrl-behavior\:inherit,    .lg\:scrl-behav\:inherit    { scroll-behavior: inherit !important; }
+    .lg\:scroll-behavior\:initial,      .lg\:scrl-behavior\:initial,    .lg\:scrl-behav\:initial    { scroll-behavior: initial !important; }
+    .lg\:scroll-behavior\:unset,        .lg\:scrl-behavior\:unset,      .lg\:scrl-behav\:unset      { scroll-behavior: unset !important; }
+}

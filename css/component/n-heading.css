@@ -1,62 +1,85 @@
 :is(
-    .heading\:1,
-    .heading\:2,
-    .heading\:3,
-    .heading\:4,
-    .heading\:5,
-    .heading\:6
+    .n-heading\:1,
+    .n-heading\:2,
+    .n-heading\:3,
+    .n-heading\:4,
+    .n-heading\:5,
+    .n-heading\:6,
+    .n-heading\:2em,
+    .n-heading\:1\.5em,
+    .n-heading\:1\.33em,
+    .n-heading\:1em,
+    .n-heading\:0\.83em,
+    .n-heading\:0\.67em
 ){
-    /* display: block; */    
+    /* display: block; */
+
+    --heading-font-size: 2em;
+
+    font-size: var(--heading-font-size);
     font-weight: bold;
     unicode-bidi: isolate;
 }
 
-.heading\:1 {
-    font-size: var(--heading-1_font-size, 2em);
+.n-message\:error-1,
+.n-message\:error-2,
+.n-message\:error-3,
+.n-message\:error-4,
+.n-message\:error-5,
+.n-message\:error-6,
+.n-message\:error-7{
+
+    --heading-font-size: 1em;
+
+    color: var(--color-main-3);
+    font-size: var(--heading-font-size);
     font-weight: bold;
+    unicode-bidi: isolate;
 }
 
-.heading\:2 {
-    font-size: var(--heading-2_font-size, 1.5em);
-    font-weight: bold;
-}
 
-.heading\:3 {
-    font-size: var(--heading-2_font-size, 1.33em);
-    font-weight: bold;
-}
+.n-heading\:1, .n-message\:error-1 {--heading-font-size: 26px; }
+.n-heading\:2, .n-message\:error-2 {--heading-font-size: 24px; }
+.n-heading\:3, .n-message\:error-3 {--heading-font-size: 22px; }
+.n-heading\:4, .n-message\:error-4 {--heading-font-size: 20px; }
+.n-heading\:5, .n-message\:error-5 {--heading-font-size: 18px; }
+.n-heading\:6, .n-message\:error-6 {--heading-font-size: 16px; }
+.n-heading\:7, .n-message\:error-7 {--heading-font-size: 14px; }
+.n-heading\:8, .n-message\:error-8 {--heading-font-size: 12px; }
 
-.heading\:4 {
-    font-size: var(--heading-2_font-size, 1.17em);
-    font-weight: bold;
-}
+.n-heading\:2em,        .n-message\:error-2em {--heading-font-size: 2em; }
+.n-heading\:1\.5em,     .n-message\:error-1\.5em {--heading-font-size: 1.5em; }
+.n-heading\:1\.33em,    .n-message\:error-1\.33em {--heading-font-size: 1.33em; }
+.n-heading\:1\.17em,    .n-message\:error-1\.17em {--heading-font-size: 1.17em; }
+.n-heading\:1em,        .n-message\:error-1em {--heading-font-size: 1em; }
+.n-heading\:0\.83em,    .n-message\:error-0\.83em {--heading-font-size: 0.83em; }
+.n-heading\:0\.67em,    .n-message\:error-0\.67em {--heading-font-size: 0.67em; }
 
-.heading\:5 {
-    font-size: var(--heading-2_font-size, 0.83em);
-    font-weight: bold;
-}
 
-.heading\:6 {
-    font-size: var(--heading-2_font-size, 0.67em);
-    font-weight: bold;
-}
-
-/* h1:has(.heading-truncate){
-    width:300px;
-} */
-
-.heading-truncate{  
+.n-heading-truncate{  
     
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: normal;
     white-space: nowrap;
-
+    text-wrap: nowrap;
+    
     >a{    
         overflow: hidden;
         text-overflow: ellipsis;
         word-wrap: normal;
         white-space: nowrap;
+        text-wrap: nowrap;
     }
     
 } 
+
+.n-heading-overflow-clamp {
+    width: 100%;
+    text-wrap: nowrap;
+    /* this code clamps based on specified lines */
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+ }

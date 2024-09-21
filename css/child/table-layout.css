@@ -1,0 +1,29 @@
+.table-layout\:auto {
+    table-layout: auto !important;
+  }
+  
+.table-layout\:fixed {
+table-layout: fixed !important;
+}
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+.md\:table-layout\:auto {
+    table-layout: auto !important;
+}
+
+.md\:table-layout\:fixed {
+    table-layout: fixed !important;
+}
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+.lg\:table-layout\:auto {
+    table-layout: auto !important;
+}
+
+.lg\:table-layout\:fixed {
+    table-layout: fixed !important;
+}
+}

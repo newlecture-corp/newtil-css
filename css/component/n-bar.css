@@ -1,66 +1,39 @@
-/* 
-<variable>───────────────────────────────────
 
---bar-gap: var(--gap-1)
+.n-bar {
+    --bar-gap: 8px;
 
-<type>───────────────────────────────────────
-
-.n-bar
--- 아래는 미정 ----------
-.n-bar:tab
-.n-bar:status
-
-<option>─────────────────────────────────────
-
-.bar-gap:0,1,2,3,4,5
-.content-pos:left, center, right
-
-<example>──────────────────────────────────── */
-
-.n-bar{
-    /* --n-height:60px; */
-    /* --n-bg-color:#333; */
-    /* --n-color:#fff; */
-    /* --n-shadow:0 2px 4px rgba(0,0,0,0.1); */
-    
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     align-items: center;
+    gap: var(--bar-gap);
 
-    background-color: rgba(var(--bg-active, transparent),1);
-
-    >:is(ul,.list){
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: var(--bar-gap, 4px);
+    > * {
+        /*padding: 4px 8px;*/
+        display: inline-flex;
     }
-}
 
-.bar-gap\:1{
-    >:is(ul,.list){
-        gap:var(--gap-1);
+    > * {
+        transition: transform .5s ease;
     }
-}
 
-.bar-gap\:2{    
-    >:is(ul,.list){
-        gap:var(--gap-2);
+    > *:hover {
+        transform: scale(1.1);
     }
-}
 
-.bar-gap\:3{    
-    >:is(ul,.list){
-        gap:var(--gap-3);
+    .active {
+        background-color: var(--color-main-2);
+        color: #fff;
     }
-}
 
-@media screen and (min-width: 768px) {
-    
+    .active:hover {
+        background-color: var(--color-main-1);
+    }
 
-}
+    .active\:bottom {
+        padding-bottom: 5px;
+        border-bottom: 4px dotted rgba(var(--rgb-accent-1), 0.5);
+    }
 
-
-@media screen and (min-width: 1200px) {
-
+    .active\:border {
+        border: 4px dotted rgba(var(--rgb-accent-1), 0.5);
+    }
 }

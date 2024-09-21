@@ -1,0 +1,32 @@
+.resize\:both { resize: both !important; }
+.resize\:horizontal { resize: horizontal !important; }
+.resize\:vertical { resize: vertical !important; }
+.resize\:none { resize: none !important; }
+.resize\:block { resize: block !important; }
+.resize\:inherit { resize: inherit !important; }
+.resize\:initial { resize: initial !important; }
+.resize\:unset { resize: unset !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:resize\:both { resize: both !important; }
+    .md\:resize\:horizontal { resize: horizontal !important; }
+    .md\:resize\:vertical { resize: vertical !important; }
+    .md\:resize\:none { resize: none !important; }
+    .md\:resize\:block { resize: block !important; }
+    .md\:resize\:inherit { resize: inherit !important; }
+    .md\:resize\:initial { resize: initial !important; }
+    .md\:resize\:unset { resize: unset !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:resize\:both { resize: both !important; }
+    .lg\:resize\:horizontal { resize: horizontal !important; }
+    .lg\:resize\:vertical { resize: vertical !important; }
+    .lg\:resize\:none { resize: none !important; }
+    .lg\:resize\:block { resize: block !important; }
+    .lg\:resize\:inherit { resize: inherit !important; }
+    .lg\:resize\:initial { resize: initial !important; }
+    .lg\:resize\:unset { resize: unset !important; }
+}

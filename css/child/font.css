@@ -1,0 +1,216 @@
+/* ───────────────────────────────────
+ * font-color 
+ * font-style
+ * font-weight
+ * font-size
+ * ───────────────────────────────────    */
+
+/* font-color */
+.color\:main-1                  { color : var(--color-main-1) !important; }
+.color\:main-2                  { color : var(--color-main-2) !important; }
+.color\:main-3                  { color : var(--color-main-3) !important; }
+
+.color\:sub-1                   { color : var(--color-sub-1) !important; }
+.color\:sub-2                   { color : var(--color-sub-2) !important; }
+.color\:sub-3                   { color : var(--color-sub-3) !important; }
+
+.color\:accent-1                { color : var(--color-accent-1) !important; }
+.color\:accent-2                { color : var(--color-accent-2) !important; }
+.color\:accent-3                { color : var(--color-accent-3) !important; }
+
+.color\:base-1                  { color : var(--color-base-1) !important; }
+.color\:base-2                  { color : var(--color-base-2) !important; }
+.color\:base-3                  { color : var(--color-base-3) !important; }
+.color\:base-4                  { color : var(--color-base-4) !important; }
+.color\:base-5                  { color : var(--color-base-5) !important; }
+.color\:base-6                  { color : var(--color-base-6) !important; }
+.color\:base-7                  { color : var(--color-base-7) !important; }
+.color\:base-8                  { color : var(--color-base-8) !important; }
+.color\:base-9                  { color : var(--color-base-9) !important; }
+.color\:base-10                 { color : var(--color-base-10) !important; }
+
+/* font-style */
+.font-style\:normal             { font-style: normal !important; }
+.font-style\:italic             { font-style: italic !important; }
+.font-style\:inherit            { font-style: inherit !important; }
+.font-style\:initial            { font-style: initial !important; }
+.font-style\:unset              { font-style: unset !important; }
+
+/* font-weight */
+.font-weight\:1,       .fw\:1                 { font-weight: var(--font-weight-1) !important; }
+.font-weight\:2,       .fw\:2                 { font-weight: var(--font-weight-2) !important; }
+.font-weight\:3,       .fw\:3                 { font-weight: var(--font-weight-3) !important; }
+.font-weight\:100,     .fw\:100               { font-weight: 100 !important; }
+.font-weight\:200,     .fw\:200               { font-weight: 200 !important; }
+.font-weight\:300,     .fw\:300               { font-weight: 300 !important; }
+.font-weight\:400,     .fw\:400               { font-weight: 400 !important; }
+.font-weight\:500,     .fw\:500               { font-weight: 500 !important; }
+.font-weight\:600,     .fw\:600               { font-weight: 600 !important; }
+.font-weight\:700,     .fw\:700               { font-weight: 700 !important; }
+.font-weight\:800,     .fw\:800               { font-weight: 800 !important; }
+.font-weight\:900,     .fw\:900               { font-weight: 900 !important; }
+.font-weight\:bold,    .fw\:bold              { font-weight: bold !important; }
+.font-weight\:normal,  .fw\:normal            { font-weight: normal !important; }
+.font-weight\:inherit, .fw\:inherit           { font-weight: inherit !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+
+  /* font-color */
+  .md\:color\:main-1    { color : var(--color-main-1) !important; }
+  .md\:color\:main-2    { color : var(--color-main-2) !important; }
+  .md\:color\:main-3    { color : var(--color-main-3) !important; }
+
+  .md\:color\:sub-1     { color : var(--color-sub-1) !important; }
+  .md\:color\:sub-2     { color : var(--color-sub-2) !important; }
+  .md\:color\:sub-3     { color : var(--color-sub-3) !important; }
+
+  .md\:color\:accent-1  { color : var(--color-accent-1) !important; }
+  .md\:color\:accent-2  { color : var(--color-accent-2) !important; }
+  .md\:color\:accent-3  { color : var(--color-accent-3) !important; }
+
+  .md\:color\:base-1    { color : var(--color-base-1) !important; }
+  .md\:color\:base-2    { color : var(--color-base-2) !important; }
+  .md\:color\:base-3    { color : var(--color-base-3) !important; }
+  .md\:color\:base-4    { color : var(--color-base-4) !important; }
+  .md\:color\:base-5    { color : var(--color-base-5) !important; }
+  .md\:color\:base-6    { color : var(--color-base-6) !important; }
+  .md\:color\:base-7    { color : var(--color-base-7) !important; }
+  .md\:color\:base-8    { color : var(--color-base-8) !important; }
+  .md\:color\:base-9    { color : var(--color-base-9) !important; }
+  .md\:color\:base-10   { color : var(--color-base-10) !important; }
+
+  /* font-style */
+  .md\:font-style\:normal        { font-style: normal !important; }
+  .md\:font-style\:italic        { font-style: italic !important; }
+  .md\:font-style\:inherit       { font-style: inherit !important; }
+  .md\:font-style\:initial       { font-style: initial !important; }
+  .md\:font-style\:unset         { font-style: unset !important; }
+
+  /* font-weight */
+  .md\:font-weight\:1,       .md\:fw\:1                 { font-weight: var(--font-weight-1) !important; }
+  .md\:font-weight\:2,       .md\:fw\:2                 { font-weight: var(--font-weight-2) !important; }
+  .md\:font-weight\:3,       .md\:fw\:3                 { font-weight: var(--font-weight-3) !important; }
+  .md\:font-weight\:100,     .md\:fw\:100               { font-weight: 100 !important; }
+  .md\:font-weight\:200,     .md\:fw\:200               { font-weight: 200 !important; }
+  .md\:font-weight\:300,     .md\:fw\:300               { font-weight: 300 !important; }
+  .md\:font-weight\:400,     .md\:fw\:400               { font-weight: 400 !important; }
+  .md\:font-weight\:500,     .md\:fw\:500               { font-weight: 500 !important; }
+  .md\:font-weight\:600,     .md\:fw\:600               { font-weight: 600 !important; }
+  .md\:font-weight\:700,     .md\:fw\:700               { font-weight: 700 !important; }
+  .md\:font-weight\:800,     .md\:fw\:800               { font-weight: 800 !important; }
+  .md\:font-weight\:900,     .md\:fw\:900               { font-weight: 900 !important; }
+  .md\:font-weight\:bold,    .md\:fw\:bold              { font-weight: bold !important; }
+  .md\:font-weight\:normal,  .md\:fw\:normal            { font-weight: normal !important; }
+  .md\:font-weight\:inherit, .md\:fw\:inherit           { font-weight: inherit !important; }
+
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* font-color */
+  .lg\:color\:main-1             { color : var(--color-main-1) !important; }
+  .lg\:color\:main-2             { color : var(--color-main-2) !important; }
+  .lg\:color\:main-3             { color : var(--color-main-3) !important; }
+
+  .lg\:color\:sub-1              { color : var(--color-sub-1) !important; }
+  .lg\:color\:sub-2              { color : var(--color-sub-2) !important; }
+  .lg\:color\:sub-3              { color : var(--color-sub-3) !important; }
+
+  .lg\:color\:accent-1           { color : var(--color-accent-1) !important; }
+  .lg\:color\:accent-2           { color : var(--color-accent-2) !important; }
+  .lg\:color\:accent-3           { color : var(--color-accent-3) !important; }
+
+  .lg\:color\:base-1             { color : var(--color-base-1) !important; }
+  .lg\:color\:base-2             { color : var(--color-base-2) !important; }
+  .lg\:color\:base-3             { color : var(--color-base-3) !important; }
+  .lg\:color\:base-4             { color : var(--color-base-4) !important; }
+  .lg\:color\:base-5             { color : var(--color-base-5) !important; }
+  .lg\:color\:base-6             { color : var(--color-base-6) !important; }
+  .lg\:color\:base-7             { color : var(--color-base-7) !important; }
+  .lg\:color\:base-8             { color : var(--color-base-8) !important; }
+  .lg\:color\:base-9             { color : var(--color-base-9) !important; }
+  .lg\:color\:base-10            { color : var(--color-base-10) !important; }
+
+  /* font-style */
+  .lg\:font-style\:normal        { font-style: normal !important; }
+  .lg\:font-style\:italic        { font-style: italic !important; }
+  .lg\:font-style\:inherit       { font-style: inherit !important; }
+  .lg\:font-style\:initial       { font-style: initial !important; }
+  .lg\:font-style\:unset         { font-style: unset !important; }
+
+  /* font-weight */
+  .lg\:font-weight\:1,       .lg\:fw\:1                 { font-weight: var(--font-weight-1) !important; }
+  .lg\:font-weight\:2,       .lg\:fw\:2                 { font-weight: var(--font-weight-2) !important; }
+  .lg\:font-weight\:3,       .lg\:fw\:3                 { font-weight: var(--font-weight-3) !important; }
+  .lg\:font-weight\:100,     .lg\:fw\:100               { font-weight: 100 !important; }
+  .lg\:font-weight\:200,     .lg\:fw\:200               { font-weight: 200 !important; }
+  .lg\:font-weight\:300,     .lg\:fw\:300               { font-weight: 300 !important; }
+  .lg\:font-weight\:400,     .lg\:fw\:400               { font-weight: 400 !important; }
+  .lg\:font-weight\:500,     .lg\:fw\:500               { font-weight: 500 !important; }
+  .lg\:font-weight\:600,     .lg\:fw\:600               { font-weight: 600 !important; }
+  .lg\:font-weight\:700,     .lg\:fw\:700               { font-weight: 700 !important; }
+  .lg\:font-weight\:800,     .lg\:fw\:800               { font-weight: 800 !important; }
+  .lg\:font-weight\:900,     .lg\:fw\:900               { font-weight: 900 !important; }
+  .lg\:font-weight\:bold,    .lg\:fw\:bold              { font-weight: bold !important; }
+  .lg\:font-weight\:normal,  .lg\:fw\:normal            { font-weight: normal !important; }
+  .lg\:font-weight\:inherit, .lg\:fw\:inherit           { font-weight: inherit !important; }
+}
+
+/* === font-size ================================================ */
+
+.font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
+.font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
+.font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
+.font-size\:4,        .fs\:4 { font-size: var(--font-size-4) !important; }
+.font-size\:5,        .fs\:5 { font-size: var(--font-size-5) !important; }
+.font-size\:6,        .fs\:6 { font-size: var(--font-size-6) !important; }
+.font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
+.font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
+.font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+.font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+.font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+.font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+.font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+.font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+.font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+.font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
+
+@media (min-width: 768px) {
+  .md\:font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
+  .md\:font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
+  .md\:font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
+  .md\:font-size\:4,        .fs\:4 { font-size: var(--font-size-4) !important; }
+  .md\:font-size\:5,        .fs\:5 { font-size: var(--font-size-5) !important; }
+  .md\:font-size\:6,        .fs\:6 { font-size: var(--font-size-6) !important; }
+  .md\:font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
+  .md\:font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
+  .md\:font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+  .md\:font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+  .md\:font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+  .md\:font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+  .md\:font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+  .md\:font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+  .md\:font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+  .md\:font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
+}
+
+@media (min-width: 1200px) {
+  .lg\:font-size\:1,        .fs\:1 { font-size: var(--font-size-1) !important; }
+  .lg\:font-size\:2,        .fs\:2 { font-size: var(--font-size-2) !important; }
+  .lg\:font-size\:3,        .fs\:3 { font-size: var(--font-size-3) !important; }
+  .lg\:font-size\:4,        .fs\:4 { font-size: var(--font-size-4) !important; }
+  .lg\:font-size\:5,        .fs\:5 { font-size: var(--font-size-5) !important; }
+  .lg\:font-size\:6,        .fs\:6 { font-size: var(--font-size-6) !important; }
+  .lg\:font-size\:7,        .fs\:7 { font-size: var(--font-size-7) !important; }
+  .lg\:font-size\:8,        .fs\:8 { font-size: var(--font-size-8) !important; }
+  .lg\:font-size\:9,        .fs\:9 { font-size: var(--font-size-9) !important; }
+  .lg\:font-size\:10,        .fs\:10 { font-size: var(--font-size-10) !important; }
+  .lg\:font-size\:11,        .fs\:11 { font-size: var(--font-size-11) !important; }
+  .lg\:font-size\:12,        .fs\:12 { font-size: var(--font-size-12) !important; }
+  .lg\:font-size\:13,        .fs\:13 { font-size: var(--font-size-13) !important; }
+  .lg\:font-size\:14,        .fs\:14 { font-size: var(--font-size-14) !important; }
+  .lg\:font-size\:15,        .fs\:15 { font-size: var(--font-size-15) !important; }
+  .lg\:font-size\:16,        .fs\:16 { font-size: var(--font-size-16) !important; }
+  
+}

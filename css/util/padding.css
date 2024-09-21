@@ -8,7 +8,6 @@
  * padding-y
  * ───────────────────────────────────    */
 
-.padding\:auto,                 .p\:auto { padding: auto !important; }
 .padding\:0,                    .p\:0 { padding: var(--gap-0) !important; }
 .padding\:1,                    .p\:1 { padding: var(--gap-1) !important; }
 .padding\:2,                    .p\:2 { padding: var(--gap-2) !important; }
@@ -20,9 +19,24 @@
 .padding\:8,                    .p\:8 { padding: var(--gap-8) !important; }
 .padding\:9,                    .p\:9 { padding: var(--gap-9) !important; }
 .padding\:10,                   .p\:10 { padding: var(--gap-10) !important; }
+.padding\:ex,                   .p\:10 { padding: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding\:0,                    .sm\:p\:0 { padding: var(--gap-0) !important; }
+    .sm\:padding\:1,                    .sm\:p\:1 { padding: var(--gap-1) !important; }
+    .sm\:padding\:2,                    .sm\:p\:2 { padding: var(--gap-2) !important; }
+    .sm\:padding\:3,                    .sm\:p\:3 { padding: var(--gap-3) !important; }
+    .sm\:padding\:4,                    .sm\:p\:4 { padding: var(--gap-4) !important; }
+    .sm\:padding\:5,                    .sm\:p\:5 { padding: var(--gap-5) !important; }
+    .sm\:padding\:6,                    .sm\:p\:6 { padding: var(--gap-6) !important; }
+    .sm\:padding\:7,                    .sm\:p\:7 { padding: var(--gap-7) !important; }
+    .sm\:padding\:8,                    .sm\:p\:8 { padding: var(--gap-8) !important; }
+    .sm\:padding\:9,                    .sm\:p\:9 { padding: var(--gap-9) !important; }
+    .sm\:padding\:10,                   .sm\:p\:10 { padding: var(--gap-10) !important; }
+    .sm\:padding\:ex,                   .sm\:p\:10 { padding: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding\:auto,                 .md\:p\:auto { padding: auto !important; }
     .md\:padding\:0,                    .md\:p\:0 { padding: var(--gap-0) !important; }
     .md\:padding\:1,                    .md\:p\:1 { padding: var(--gap-1) !important; }
     .md\:padding\:2,                    .md\:p\:2 { padding: var(--gap-2) !important; }
@@ -34,10 +48,10 @@
     .md\:padding\:8,                    .md\:p\:8 { padding: var(--gap-8) !important; }
     .md\:padding\:9,                    .md\:p\:9 { padding: var(--gap-9) !important; }
     .md\:padding\:10,                   .md\:p\:10 { padding: var(--gap-10) !important; }
+    .md\:padding\:ex,                   .md\:p\:10 { padding: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding\:auto,                 .lg\:p\:auto { padding: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding\:0,                    .lg\:p\:0 { padding: var(--gap-0) !important; }
     .lg\:padding\:1,                    .lg\:p\:1 { padding: var(--gap-1) !important; }
     .lg\:padding\:2,                    .lg\:p\:2 { padding: var(--gap-2) !important; }
@@ -49,10 +63,26 @@
     .lg\:padding\:8,                    .lg\:p\:8 { padding: var(--gap-8) !important; }
     .lg\:padding\:9,                    .lg\:p\:9 { padding: var(--gap-9) !important; }
     .lg\:padding\:10,                   .lg\:p\:10 { padding: var(--gap-10) !important; }
+    .lg\:padding\:ex,                   .lg\:p\:10 { padding: var(--gap-ex) !important; }
 }
 
+@media (min-width: 1200px) {
+    .xl\:padding\:0,                    .xl\:p\:0 { padding: var(--gap-0) !important; }
+    .xl\:padding\:1,                    .xl\:p\:1 { padding: var(--gap-1) !important; }
+    .xl\:padding\:2,                    .xl\:p\:2 { padding: var(--gap-2) !important; }
+    .xl\:padding\:3,                    .xl\:p\:3 { padding: var(--gap-3) !important; }
+    .xl\:padding\:4,                    .xl\:p\:4 { padding: var(--gap-4) !important; }
+    .xl\:padding\:5,                    .xl\:p\:5 { padding: var(--gap-5) !important; }
+    .xl\:padding\:6,                    .xl\:p\:6 { padding: var(--gap-6) !important; }
+    .xl\:padding\:7,                    .xl\:p\:7 { padding: var(--gap-7) !important; }
+    .xl\:padding\:8,                    .xl\:p\:8 { padding: var(--gap-8) !important; }
+    .xl\:padding\:9,                    .xl\:p\:9 { padding: var(--gap-9) !important; }
+    .xl\:padding\:10,                   .xl\:p\:10 { padding: var(--gap-10) !important; }
+    .xl\:padding\:ex,                   .xl\:p\:10 { padding: var(--gap-ex) !important; }
+}
+
+
 /* ---- padding-top ------------------------------------------------- */
-.padding-top\:auto,           .p-top\:auto,   .pt\:auto { padding-top: auto !important; }
 .padding-top\:0,              .p-top\:0,      .pt\:0 { padding-top: var(--gap-0) !important; }
 .padding-top\:1,              .p-top\:1,      .pt\:1 { padding-top: var(--gap-1) !important; }
 .padding-top\:2,              .p-top\:2,      .pt\:2 { padding-top: var(--gap-2) !important; }
@@ -64,9 +94,23 @@
 .padding-top\:8,              .p-top\:8,      .pt\:8 { padding-top: var(--gap-8) !important; }
 .padding-top\:9,              .p-top\:9,      .pt\:9 { padding-top: var(--gap-9) !important; }
 .padding-top\:10,             .p-top\:10,     .pt\:10 { padding-top: var(--gap-10) !important; }
+.padding-top\:ex,             .p-top\:ex,     .pt\:ex { padding-top: var(--gap-ex) !important; }
 
+@media (min-width: 576px) {
+    .sm\:padding-top\:0,              .sm\:p-top\:0,      .sm\:pt\:0 { padding-top: var(--gap-0) !important; }
+    .sm\:padding-top\:1,              .sm\:p-top\:1,      .sm\:pt\:1 { padding-top: var(--gap-1) !important; }
+    .sm\:padding-top\:2,              .sm\:p-top\:2,      .sm\:pt\:2 { padding-top: var(--gap-2) !important; }
+    .sm\:padding-top\:3,              .sm\:p-top\:3,      .sm\:pt\:3 { padding-top: var(--gap-3) !important; }
+    .sm\:padding-top\:4,              .sm\:p-top\:4,      .sm\:pt\:4 { padding-top: var(--gap-4) !important; }
+    .sm\:padding-top\:5,              .sm\:p-top\:5,      .sm\:pt\:5 { padding-top: var(--gap-5) !important; }
+    .sm\:padding-top\:6,              .sm\:p-top\:6,      .sm\:pt\:6 { padding-top: var(--gap-6) !important; }
+    .sm\:padding-top\:7,              .sm\:p-top\:7,      .sm\:pt\:7 { padding-top: var(--gap-7) !important; }
+    .sm\:padding-top\:8,              .sm\:p-top\:8,      .sm\:pt\:8 { padding-top: var(--gap-8) !important; }
+    .sm\:padding-top\:9,              .sm\:p-top\:9,      .sm\:pt\:9 { padding-top: var(--gap-9) !important; }
+    .sm\:padding-top\:10,             .sm\:p-top\:10,     .sm\:pt\:10 { padding-top: var(--gap-10) !important; }
+    .sm\:padding-top\:ex,             .sm\:p-top\:ex,     .sm\:pt\:ex { padding-top: var(--gap-ex) !important; }
+}
 @media (min-width: 768px) {
-    .md\:padding-top\:auto,           .md\:p-top\:auto,   .md\:pt\:auto { padding-top: auto !important; }
     .md\:padding-top\:0,              .md\:p-top\:0,      .md\:pt\:0 { padding-top: var(--gap-0) !important; }
     .md\:padding-top\:1,              .md\:p-top\:1,      .md\:pt\:1 { padding-top: var(--gap-1) !important; }
     .md\:padding-top\:2,              .md\:p-top\:2,      .md\:pt\:2 { padding-top: var(--gap-2) !important; }
@@ -78,10 +122,9 @@
     .md\:padding-top\:8,              .md\:p-top\:8,      .md\:pt\:8 { padding-top: var(--gap-8) !important; }
     .md\:padding-top\:9,              .md\:p-top\:9,      .md\:pt\:9 { padding-top: var(--gap-9) !important; }
     .md\:padding-top\:10,             .md\:p-top\:10,     .md\:pt\:10 { padding-top: var(--gap-10) !important; }
+    .md\:padding-top\:ex,             .md\:p-top\:ex,     .md\:pt\:ex { padding-top: var(--gap-ex) !important; }
 }
-
-@media (min-width: 1200px) {
-    .lg\:padding-top\:auto,           .lg\:p-top\:auto,   .lg\:pt\:auto { padding-top: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-top\:0,              .lg\:p-top\:0,      .lg\:pt\:0 { padding-top: var(--gap-0) !important; }
     .lg\:padding-top\:1,              .lg\:p-top\:1,      .lg\:pt\:1 { padding-top: var(--gap-1) !important; }
     .lg\:padding-top\:2,              .lg\:p-top\:2,      .lg\:pt\:2 { padding-top: var(--gap-2) !important; }
@@ -93,10 +136,24 @@
     .lg\:padding-top\:8,              .lg\:p-top\:8,      .lg\:pt\:8 { padding-top: var(--gap-8) !important; }
     .lg\:padding-top\:9,              .lg\:p-top\:9,      .lg\:pt\:9 { padding-top: var(--gap-9) !important; }
     .lg\:padding-top\:10,             .lg\:p-top\:10,     .lg\:pt\:10 { padding-top: var(--gap-10) !important; }
+    .lg\:padding-top\:ex,             .lg\:p-top\:ex,     .lg\:pt\:ex { padding-top: var(--gap-ex) !important; }
+}
+@media (min-width: 1200px) {
+    .xl\:padding-top\:0,              .xl\:p-top\:0,      .xl\:pt\:0 { padding-top: var(--gap-0) !important; }
+    .xl\:padding-top\:1,              .xl\:p-top\:1,      .xl\:pt\:1 { padding-top: var(--gap-1) !important; }
+    .xl\:padding-top\:2,              .xl\:p-top\:2,      .xl\:pt\:2 { padding-top: var(--gap-2) !important; }
+    .xl\:padding-top\:3,              .xl\:p-top\:3,      .xl\:pt\:3 { padding-top: var(--gap-3) !important; }
+    .xl\:padding-top\:4,              .xl\:p-top\:4,      .xl\:pt\:4 { padding-top: var(--gap-4) !important; }
+    .xl\:padding-top\:5,              .xl\:p-top\:5,      .xl\:pt\:5 { padding-top: var(--gap-5) !important; }
+    .xl\:padding-top\:6,              .xl\:p-top\:6,      .xl\:pt\:6 { padding-top: var(--gap-6) !important; }
+    .xl\:padding-top\:7,              .xl\:p-top\:7,      .xl\:pt\:7 { padding-top: var(--gap-7) !important; }
+    .xl\:padding-top\:8,              .xl\:p-top\:8,      .xl\:pt\:8 { padding-top: var(--gap-8) !important; }
+    .xl\:padding-top\:9,              .xl\:p-top\:9,      .xl\:pt\:9 { padding-top: var(--gap-9) !important; }
+    .xl\:padding-top\:10,             .xl\:p-top\:10,     .xl\:pt\:10 { padding-top: var(--gap-10) !important; }
+    .xl\:padding-top\:ex,             .xl\:p-top\:ex,     .xl\:pt\:ex { padding-top: var(--gap-ex) !important; }
 }
 
 /* ---- padding-right ------------------------------------------------- */
-.padding-right\:auto,           .p-right\:auto,   .pr\:auto { padding-right: auto !important; }
 .padding-right\:0,              .p-right\:0,      .pr\:0 { padding-right: var(--gap-0) !important; }
 .padding-right\:1,              .p-right\:1,      .pr\:1 { padding-right: var(--gap-1) !important; }
 .padding-right\:2,              .p-right\:2,      .pr\:2 { padding-right: var(--gap-2) !important; }
@@ -108,9 +165,24 @@
 .padding-right\:8,              .p-right\:8,      .pr\:8 { padding-right: var(--gap-8) !important; }
 .padding-right\:9,              .p-right\:9,      .pr\:9 { padding-right: var(--gap-9) !important; }
 .padding-right\:10,             .p-right\:10,     .pr\:10 { padding-right: var(--gap-10) !important; }
+.padding-right\:ex,             .p-right\:ex,     .pt\:ex { padding-top: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding-right\:0,              .sm\:p-right\:0,      .sm\:pr\:0 { padding-right: var(--gap-0) !important; }
+    .sm\:padding-right\:1,              .sm\:p-right\:1,      .sm\:pr\:1 { padding-right: var(--gap-1) !important; }
+    .sm\:padding-right\:2,              .sm\:p-right\:2,      .sm\:pr\:2 { padding-right: var(--gap-2) !important; }
+    .sm\:padding-right\:3,              .sm\:p-right\:3,      .sm\:pr\:3 { padding-right: var(--gap-3) !important; }
+    .sm\:padding-right\:4,              .sm\:p-right\:4,      .sm\:pr\:4 { padding-right: var(--gap-4) !important; }
+    .sm\:padding-right\:5,              .sm\:p-right\:5,      .sm\:pr\:5 { padding-right: var(--gap-5) !important; }
+    .sm\:padding-right\:6,              .sm\:p-right\:6,      .sm\:pr\:6 { padding-right: var(--gap-6) !important; }
+    .sm\:padding-right\:7,              .sm\:p-right\:7,      .sm\:pr\:7 { padding-right: var(--gap-7) !important; }
+    .sm\:padding-right\:8,              .sm\:p-right\:8,      .sm\:pr\:8 { padding-right: var(--gap-8) !important; }
+    .sm\:padding-right\:9,              .sm\:p-right\:9,      .sm\:pr\:9 { padding-right: var(--gap-9) !important; }
+    .sm\:padding-right\:10,             .sm\:p-right\:10,     .sm\:pr\:10 { padding-right: var(--gap-10) !important; }
+    .sm\:padding-right\:ex,             .sm\:p-right\:ex,     .sm\:pt\:ex { padding-top: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding-right\:auto,           .md\:p-right\:auto,   .md\:pr\:auto { padding-right: auto !important; }
     .md\:padding-right\:0,              .md\:p-right\:0,      .md\:pr\:0 { padding-right: var(--gap-0) !important; }
     .md\:padding-right\:1,              .md\:p-right\:1,      .md\:pr\:1 { padding-right: var(--gap-1) !important; }
     .md\:padding-right\:2,              .md\:p-right\:2,      .md\:pr\:2 { padding-right: var(--gap-2) !important; }
@@ -122,10 +194,10 @@
     .md\:padding-right\:8,              .md\:p-right\:8,      .md\:pr\:8 { padding-right: var(--gap-8) !important; }
     .md\:padding-right\:9,              .md\:p-right\:9,      .md\:pr\:9 { padding-right: var(--gap-9) !important; }
     .md\:padding-right\:10,             .md\:p-right\:10,     .md\:pr\:10 { padding-right: var(--gap-10) !important; }
+    .md\:padding-right\:ex,             .md\:p-right\:ex,     .md\:pt\:ex { padding-top: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding-right\:auto,           .lg\:p-right\:auto,   .lg\:pr\:auto { padding-right: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-right\:0,              .lg\:p-right\:0,      .lg\:pr\:0 { padding-right: var(--gap-0) !important; }
     .lg\:padding-right\:1,              .lg\:p-right\:1,      .lg\:pr\:1 { padding-right: var(--gap-1) !important; }
     .lg\:padding-right\:2,              .lg\:p-right\:2,      .lg\:pr\:2 { padding-right: var(--gap-2) !important; }
@@ -137,10 +209,26 @@
     .lg\:padding-right\:8,              .lg\:p-right\:8,      .lg\:pr\:8 { padding-right: var(--gap-8) !important; }
     .lg\:padding-right\:9,              .lg\:p-right\:9,      .lg\:pr\:9 { padding-right: var(--gap-9) !important; }
     .lg\:padding-right\:10,             .lg\:p-right\:10,     .lg\:pr\:10 { padding-right: var(--gap-10) !important; }
+    .lg\:padding-right\:ex,             .lg\:p-right\:ex,     .lg\:pt\:ex { padding-top: var(--gap-ex) !important; }
 }
 
+@media (min-width: 1200px) {
+    .xl\:padding-right\:0,              .xl\:p-right\:0,      .xl\:pr\:0 { padding-right: var(--gap-0) !important; }
+    .xl\:padding-right\:1,              .xl\:p-right\:1,      .xl\:pr\:1 { padding-right: var(--gap-1) !important; }
+    .xl\:padding-right\:2,              .xl\:p-right\:2,      .xl\:pr\:2 { padding-right: var(--gap-2) !important; }
+    .xl\:padding-right\:3,              .xl\:p-right\:3,      .xl\:pr\:3 { padding-right: var(--gap-3) !important; }
+    .xl\:padding-right\:4,              .xl\:p-right\:4,      .xl\:pr\:4 { padding-right: var(--gap-4) !important; }
+    .xl\:padding-right\:5,              .xl\:p-right\:5,      .xl\:pr\:5 { padding-right: var(--gap-5) !important; }
+    .xl\:padding-right\:6,              .xl\:p-right\:6,      .xl\:pr\:6 { padding-right: var(--gap-6) !important; }
+    .xl\:padding-right\:7,              .xl\:p-right\:7,      .xl\:pr\:7 { padding-right: var(--gap-7) !important; }
+    .xl\:padding-right\:8,              .xl\:p-right\:8,      .xl\:pr\:8 { padding-right: var(--gap-8) !important; }
+    .xl\:padding-right\:9,              .xl\:p-right\:9,      .xl\:pr\:9 { padding-right: var(--gap-9) !important; }
+    .xl\:padding-right\:10,             .xl\:p-right\:10,     .xl\:pr\:10 { padding-right: var(--gap-10) !important; }
+    .xl\:padding-right\:ex,             .xl\:p-right\:ex,     .xl\:pt\:ex { padding-top: var(--gap-ex) !important; }
+}
+
+
 /* ---- padding-bottom ------------------------------------------------- */
-.padding-bottom\:auto,           .p-bottom\:auto,   .pb\:auto { padding-bottom: auto !important; }
 .padding-bottom\:0,              .p-bottom\:0,      .pb\:0 { padding-bottom: var(--gap-0) !important; }
 .padding-bottom\:1,              .p-bottom\:1,      .pb\:1 { padding-bottom: var(--gap-1) !important; }
 .padding-bottom\:2,              .p-bottom\:2,      .pb\:2 { padding-bottom: var(--gap-2) !important; }
@@ -152,9 +240,24 @@
 .padding-bottom\:8,              .p-bottom\:8,      .pb\:8 { padding-bottom: var(--gap-8) !important; }
 .padding-bottom\:9,              .p-bottom\:9,      .pb\:9 { padding-bottom: var(--gap-9) !important; }
 .padding-bottom\:10,             .p-bottom\:10,     .pb\:10 { padding-bottom: var(--gap-10) !important; }
+.padding-bottom\:ex,             .p-bottom\:ex,     .pb\:ex { padding-bottom: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding-bottom\:0,              .sm\:p-bottom\:0,      .sm\:pb\:0 { padding-bottom: var(--gap-0) !important; }
+    .sm\:padding-bottom\:1,              .sm\:p-bottom\:1,      .sm\:pb\:1 { padding-bottom: var(--gap-1) !important; }
+    .sm\:padding-bottom\:2,              .sm\:p-bottom\:2,      .sm\:pb\:2 { padding-bottom: var(--gap-2) !important; }
+    .sm\:padding-bottom\:3,              .sm\:p-bottom\:3,      .sm\:pb\:3 { padding-bottom: var(--gap-3) !important; }
+    .sm\:padding-bottom\:4,              .sm\:p-bottom\:4,      .sm\:pb\:4 { padding-bottom: var(--gap-4) !important; }
+    .sm\:padding-bottom\:5,              .sm\:p-bottom\:5,      .sm\:pb\:5 { padding-bottom: var(--gap-5) !important; }
+    .sm\:padding-bottom\:6,              .sm\:p-bottom\:6,      .sm\:pb\:6 { padding-bottom: var(--gap-6) !important; }
+    .sm\:padding-bottom\:7,              .sm\:p-bottom\:7,      .sm\:pb\:7 { padding-bottom: var(--gap-7) !important; }
+    .sm\:padding-bottom\:8,              .sm\:p-bottom\:8,      .sm\:pb\:8 { padding-bottom: var(--gap-8) !important; }
+    .sm\:padding-bottom\:9,              .sm\:p-bottom\:9,      .sm\:pb\:9 { padding-bottom: var(--gap-9) !important; }
+    .sm\:padding-bottom\:10,             .sm\:p-bottom\:10,     .sm\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .sm\:padding-bottom\:ex,             .sm\:p-bottom\:ex,     .sm\:pb\:ex { padding-bottom: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding-bottom\:auto,           .md\:p-bottom\:auto,   .md\:pb\:auto { padding-bottom: auto !important; }
     .md\:padding-bottom\:0,              .md\:p-bottom\:0,      .md\:pb\:0 { padding-bottom: var(--gap-0) !important; }
     .md\:padding-bottom\:1,              .md\:p-bottom\:1,      .md\:pb\:1 { padding-bottom: var(--gap-1) !important; }
     .md\:padding-bottom\:2,              .md\:p-bottom\:2,      .md\:pb\:2 { padding-bottom: var(--gap-2) !important; }
@@ -166,10 +269,10 @@
     .md\:padding-bottom\:8,              .md\:p-bottom\:8,      .md\:pb\:8 { padding-bottom: var(--gap-8) !important; }
     .md\:padding-bottom\:9,              .md\:p-bottom\:9,      .md\:pb\:9 { padding-bottom: var(--gap-9) !important; }
     .md\:padding-bottom\:10,             .md\:p-bottom\:10,     .md\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .md\:padding-bottom\:ex,             .md\:p-bottom\:ex,     .md\:pb\:ex { padding-bottom: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding-bottom\:auto,           .lg\:p-bottom\:auto,   .lg\:pb\:auto { padding-bottom: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-bottom\:0,              .lg\:p-bottom\:0,      .lg\:pb\:0 { padding-bottom: var(--gap-0) !important; }
     .lg\:padding-bottom\:1,              .lg\:p-bottom\:1,      .lg\:pb\:1 { padding-bottom: var(--gap-1) !important; }
     .lg\:padding-bottom\:2,              .lg\:p-bottom\:2,      .lg\:pb\:2 { padding-bottom: var(--gap-2) !important; }
@@ -181,10 +284,25 @@
     .lg\:padding-bottom\:8,              .lg\:p-bottom\:8,      .lg\:pb\:8 { padding-bottom: var(--gap-8) !important; }
     .lg\:padding-bottom\:9,              .lg\:p-bottom\:9,      .lg\:pb\:9 { padding-bottom: var(--gap-9) !important; }
     .lg\:padding-bottom\:10,             .lg\:p-bottom\:10,     .lg\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .lg\:padding-bottom\:ex,             .lg\:p-bottom\:ex,     .lg\:pb\:ex { padding-bottom: var(--gap-ex) !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:padding-bottom\:0,              .xl\:p-bottom\:0,      .xl\:pb\:0 { padding-bottom: var(--gap-0) !important; }
+    .xl\:padding-bottom\:1,              .xl\:p-bottom\:1,      .xl\:pb\:1 { padding-bottom: var(--gap-1) !important; }
+    .xl\:padding-bottom\:2,              .xl\:p-bottom\:2,      .xl\:pb\:2 { padding-bottom: var(--gap-2) !important; }
+    .xl\:padding-bottom\:3,              .xl\:p-bottom\:3,      .xl\:pb\:3 { padding-bottom: var(--gap-3) !important; }
+    .xl\:padding-bottom\:4,              .xl\:p-bottom\:4,      .xl\:pb\:4 { padding-bottom: var(--gap-4) !important; }
+    .xl\:padding-bottom\:5,              .xl\:p-bottom\:5,      .xl\:pb\:5 { padding-bottom: var(--gap-5) !important; }
+    .xl\:padding-bottom\:6,              .xl\:p-bottom\:6,      .xl\:pb\:6 { padding-bottom: var(--gap-6) !important; }
+    .xl\:padding-bottom\:7,              .xl\:p-bottom\:7,      .xl\:pb\:7 { padding-bottom: var(--gap-7) !important; }
+    .xl\:padding-bottom\:8,              .xl\:p-bottom\:8,      .xl\:pb\:8 { padding-bottom: var(--gap-8) !important; }
+    .xl\:padding-bottom\:9,              .xl\:p-bottom\:9,      .xl\:pb\:9 { padding-bottom: var(--gap-9) !important; }
+    .xl\:padding-bottom\:10,             .xl\:p-bottom\:10,     .xl\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .xl\:padding-bottom\:ex,             .xl\:p-bottom\:ex,     .xl\:pb\:ex { padding-bottom: var(--gap-ex) !important; }
 }
 
 /* ---- padding-left ------------------------------------------------- */
-.padding-left\:auto,           .p-left\:auto,   .pl\:auto { padding-left: auto !important; }
 .padding-left\:0,              .p-left\:0,      .pl\:0 { padding-left: var(--gap-0) !important; }
 .padding-left\:1,              .p-left\:1,      .pl\:1 { padding-left: var(--gap-1) !important; }
 .padding-left\:2,              .p-left\:2,      .pl\:2 { padding-left: var(--gap-2) !important; }
@@ -196,9 +314,24 @@
 .padding-left\:8,              .p-left\:8,      .pl\:8 { padding-left: var(--gap-8) !important; }
 .padding-left\:9,              .p-left\:9,      .pl\:9 { padding-left: var(--gap-9) !important; }
 .padding-left\:10,             .p-left\:10,     .pl\:10 { padding-left: var(--gap-10) !important; }
+.padding-left\:ex,             .p-left\:ex,     .pl\:10 { padding-left: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding-left\:0,              .sm\:p-left\:0,      .sm\:pl\:0 { padding-left: var(--gap-0) !important; }
+    .sm\:padding-left\:1,              .sm\:p-left\:1,      .sm\:pl\:1 { padding-left: var(--gap-1) !important; }
+    .sm\:padding-left\:2,              .sm\:p-left\:2,      .sm\:pl\:2 { padding-left: var(--gap-2) !important; }
+    .sm\:padding-left\:3,              .sm\:p-left\:3,      .sm\:pl\:3 { padding-left: var(--gap-3) !important; }
+    .sm\:padding-left\:4,              .sm\:p-left\:4,      .sm\:pl\:4 { padding-left: var(--gap-4) !important; }
+    .sm\:padding-left\:5,              .sm\:p-left\:5,      .sm\:pl\:5 { padding-left: var(--gap-5) !important; }
+    .sm\:padding-left\:6,              .sm\:p-left\:6,      .sm\:pl\:6 { padding-left: var(--gap-6) !important; }
+    .sm\:padding-left\:7,              .sm\:p-left\:7,      .sm\:pl\:7 { padding-left: var(--gap-7) !important; }
+    .sm\:padding-left\:8,              .sm\:p-left\:8,      .sm\:pl\:8 { padding-left: var(--gap-8) !important; }
+    .sm\:padding-left\:9,              .sm\:p-left\:9,      .sm\:pl\:9 { padding-left: var(--gap-9) !important; }
+    .sm\:padding-left\:10,             .sm\:p-left\:10,     .sm\:pl\:10 { padding-left: var(--gap-10) !important; }
+    .sm\:padding-left\:ex,             .sm\:p-left\:ex,     .sm\:pl\:ex { padding-left: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding-left\:auto,           .md\:p-left\:auto,   .md\:pl\:auto { padding-left: auto !important; }
     .md\:padding-left\:0,              .md\:p-left\:0,      .md\:pl\:0 { padding-left: var(--gap-0) !important; }
     .md\:padding-left\:1,              .md\:p-left\:1,      .md\:pl\:1 { padding-left: var(--gap-1) !important; }
     .md\:padding-left\:2,              .md\:p-left\:2,      .md\:pl\:2 { padding-left: var(--gap-2) !important; }
@@ -210,10 +343,10 @@
     .md\:padding-left\:8,              .md\:p-left\:8,      .md\:pl\:8 { padding-left: var(--gap-8) !important; }
     .md\:padding-left\:9,              .md\:p-left\:9,      .md\:pl\:9 { padding-left: var(--gap-9) !important; }
     .md\:padding-left\:10,             .md\:p-left\:10,     .md\:pl\:10 { padding-left: var(--gap-10) !important; }
+    .md\:padding-left\:ex,             .md\:p-left\:ex,     .md\:pl\:ex { padding-left: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding-left\:auto,           .lg\:p-left\:auto,   .lg\:pl\:auto { padding-left: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-left\:0,              .lg\:p-left\:0,      .lg\:pl\:0 { padding-left: var(--gap-0) !important; }
     .lg\:padding-left\:1,              .lg\:p-left\:1,      .lg\:pl\:1 { padding-left: var(--gap-1) !important; }
     .lg\:padding-left\:2,              .lg\:p-left\:2,      .lg\:pl\:2 { padding-left: var(--gap-2) !important; }
@@ -225,10 +358,25 @@
     .lg\:padding-left\:8,              .lg\:p-left\:8,      .lg\:pl\:8 { padding-left: var(--gap-8) !important; }
     .lg\:padding-left\:9,              .lg\:p-left\:9,      .lg\:pl\:9 { padding-left: var(--gap-9) !important; }
     .lg\:padding-left\:10,             .lg\:p-left\:10,     .lg\:pl\:10 { padding-left: var(--gap-10) !important; }
+    .lg\:padding-left\:ex,             .lg\:p-left\:ex,     .lg\:pl\:ex { padding-left: var(--gap-ex) !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:padding-left\:0,              .xl\:p-left\:0,      .xl\:pl\:0 { padding-left: var(--gap-0) !important; }
+    .xl\:padding-left\:1,              .xl\:p-left\:1,      .xl\:pl\:1 { padding-left: var(--gap-1) !important; }
+    .xl\:padding-left\:2,              .xl\:p-left\:2,      .xl\:pl\:2 { padding-left: var(--gap-2) !important; }
+    .xl\:padding-left\:3,              .xl\:p-left\:3,      .xl\:pl\:3 { padding-left: var(--gap-3) !important; }
+    .xl\:padding-left\:4,              .xl\:p-left\:4,      .xl\:pl\:4 { padding-left: var(--gap-4) !important; }
+    .xl\:padding-left\:5,              .xl\:p-left\:5,      .xl\:pl\:5 { padding-left: var(--gap-5) !important; }
+    .xl\:padding-left\:6,              .xl\:p-left\:6,      .xl\:pl\:6 { padding-left: var(--gap-6) !important; }
+    .xl\:padding-left\:7,              .xl\:p-left\:7,      .xl\:pl\:7 { padding-left: var(--gap-7) !important; }
+    .xl\:padding-left\:8,              .xl\:p-left\:8,      .xl\:pl\:8 { padding-left: var(--gap-8) !important; }
+    .xl\:padding-left\:9,              .xl\:p-left\:9,      .xl\:pl\:9 { padding-left: var(--gap-9) !important; }
+    .xl\:padding-left\:10,             .xl\:p-left\:10,     .xl\:pl\:10 { padding-left: var(--gap-10) !important; }
+    .xl\:padding-left\:ex,             .xl\:p-left\:ex,     .xl\:pl\:ex { padding-left: var(--gap-ex) !important; }
 }
 
 /* ---- padding-x (left + right) ------------------------------------------------- */
-.padding-x\:auto,           .px\:auto { padding-right: auto !important; padding-left: auto !important; }
 .padding-x\:0,              .px\:0 { padding-right: var(--gap-0) !important; padding-left: var(--gap-0) !important; }
 .padding-x\:1,              .px\:1 { padding-right: var(--gap-1) !important; padding-left: var(--gap-1) !important; }
 .padding-x\:2,              .px\:2 { padding-right: var(--gap-2) !important; padding-left: var(--gap-2) !important; }
@@ -240,9 +388,24 @@
 .padding-x\:8,              .px\:8 { padding-right: var(--gap-8) !important; padding-left: var(--gap-8) !important; }
 .padding-x\:9,              .px\:9 { padding-right: var(--gap-9) !important; padding-left: var(--gap-9) !important; }
 .padding-x\:10,             .px\:10 { padding-right: var(--gap-10) !important; padding-left: var(--gap-10) !important; }
+.padding-x\:ex,             .px\:ex { padding-right: var(--gap-ex) !important; padding-left: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding-x\:0,              .sm\:px\:0 { padding-right: var(--gap-0) !important; padding-left: var(--gap-0) !important; }
+    .sm\:padding-x\:1,              .sm\:px\:1 { padding-right: var(--gap-1) !important; padding-left: var(--gap-1) !important; }
+    .sm\:padding-x\:2,              .sm\:px\:2 { padding-right: var(--gap-2) !important; padding-left: var(--gap-2) !important; }
+    .sm\:padding-x\:3,              .sm\:px\:3 { padding-right: var(--gap-3) !important; padding-left: var(--gap-3) !important; }
+    .sm\:padding-x\:4,              .sm\:px\:4 { padding-right: var(--gap-4) !important; padding-left: var(--gap-4) !important; }
+    .sm\:padding-x\:5,              .sm\:px\:5 { padding-right: var(--gap-5) !important; padding-left: var(--gap-5) !important; }
+    .sm\:padding-x\:6,              .sm\:px\:6 { padding-right: var(--gap-6) !important; padding-left: var(--gap-6) !important; }
+    .sm\:padding-x\:7,              .sm\:px\:7 { padding-right: var(--gap-7) !important; padding-left: var(--gap-7) !important; }
+    .sm\:padding-x\:8,              .sm\:px\:8 { padding-right: var(--gap-8) !important; padding-left: var(--gap-8) !important; }
+    .sm\:padding-x\:9,              .sm\:px\:9 { padding-right: var(--gap-9) !important; padding-left: var(--gap-9) !important; }
+    .sm\:padding-x\:10,             .sm\:px\:10 { padding-right: var(--gap-10) !important; padding-left: var(--gap-10) !important; }
+    .sm\:padding-x\:ex,             .sm\:px\:ex { padding-right: var(--gap-ex) !important; padding-left: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding-x\:auto,           .md\:px\:auto { padding-right: auto !important; padding-left: auto !important; }
     .md\:padding-x\:0,              .md\:px\:0 { padding-right: var(--gap-0) !important; padding-left: var(--gap-0) !important; }
     .md\:padding-x\:1,              .md\:px\:1 { padding-right: var(--gap-1) !important; padding-left: var(--gap-1) !important; }
     .md\:padding-x\:2,              .md\:px\:2 { padding-right: var(--gap-2) !important; padding-left: var(--gap-2) !important; }
@@ -254,10 +417,10 @@
     .md\:padding-x\:8,              .md\:px\:8 { padding-right: var(--gap-8) !important; padding-left: var(--gap-8) !important; }
     .md\:padding-x\:9,              .md\:px\:9 { padding-right: var(--gap-9) !important; padding-left: var(--gap-9) !important; }
     .md\:padding-x\:10,             .md\:px\:10 { padding-right: var(--gap-10) !important; padding-left: var(--gap-10) !important; }
+    .md\:padding-x\:ex,             .md\:px\:ex { padding-right: var(--gap-ex) !important; padding-left: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding-x\:auto,   .lg\:px\:auto { padding-right: auto !important; padding-left: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-x\:0,      .lg\:px\:0 { padding-right: var(--gap-0) !important; padding-left: var(--gap-0) !important; }
     .lg\:padding-x\:1,      .lg\:px\:1 { padding-right: var(--gap-1) !important; padding-left: var(--gap-1) !important; }
     .lg\:padding-x\:2,      .lg\:px\:2 { padding-right: var(--gap-2) !important; padding-left: var(--gap-2) !important; }
@@ -269,10 +432,25 @@
     .lg\:padding-x\:8,      .lg\:px\:8 { padding-right: var(--gap-8) !important; padding-left: var(--gap-8) !important; }
     .lg\:padding-x\:9,      .lg\:px\:9 { padding-right: var(--gap-9) !important; padding-left: var(--gap-9) !important; }
     .lg\:padding-x\:10,     .lg\:px\:10 { padding-right: var(--gap-10) !important; padding-left: var(--gap-10) !important; }
+    .lg\:padding-x\:ex,     .lg\:px\:ex { padding-right: var(--gap-ex) !important; padding-left: var(--gap-ex) !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:padding-x\:0,      .xl\:px\:0 { padding-right: var(--gap-0) !important; padding-left: var(--gap-0) !important; }
+    .xl\:padding-x\:1,      .xl\:px\:1 { padding-right: var(--gap-1) !important; padding-left: var(--gap-1) !important; }
+    .xl\:padding-x\:2,      .xl\:px\:2 { padding-right: var(--gap-2) !important; padding-left: var(--gap-2) !important; }
+    .xl\:padding-x\:3,      .xl\:px\:3 { padding-right: var(--gap-3) !important; padding-left: var(--gap-3) !important; }
+    .xl\:padding-x\:4,      .xl\:px\:4 { padding-right: var(--gap-4) !important; padding-left: var(--gap-4) !important; }
+    .xl\:padding-x\:5,      .xl\:px\:5 { padding-right: var(--gap-5) !important; padding-left: var(--gap-5) !important; }
+    .xl\:padding-x\:6,      .xl\:px\:6 { padding-right: var(--gap-6) !important; padding-left: var(--gap-6) !important; }
+    .xl\:padding-x\:7,      .xl\:px\:7 { padding-right: var(--gap-7) !important; padding-left: var(--gap-7) !important; }
+    .xl\:padding-x\:8,      .xl\:px\:8 { padding-right: var(--gap-8) !important; padding-left: var(--gap-8) !important; }
+    .xl\:padding-x\:9,      .xl\:px\:9 { padding-right: var(--gap-9) !important; padding-left: var(--gap-9) !important; }
+    .xl\:padding-x\:10,     .xl\:px\:10 { padding-right: var(--gap-10) !important; padding-left: var(--gap-10) !important; }
+    .xl\:padding-x\:ex,     .xl\:px\:ex { padding-right: var(--gap-ex) !important; padding-left: var(--gap-ex) !important; }
 }
 
 /* ---- padding-y (top + bottom) ------------------------------------------------- */
-.padding-y\:auto,   .py\:auto { padding-top: auto !important; padding-bottom: auto !important; }
 .padding-y\:0,      .py\:0 { padding-top: var(--gap-0) !important; padding-bottom: var(--gap-0) !important; }
 .padding-y\:1,      .py\:1 { padding-top: var(--gap-1) !important; padding-bottom: var(--gap-1) !important; }
 .padding-y\:2,      .py\:2 { padding-top: var(--gap-2) !important; padding-bottom: var(--gap-2) !important; }
@@ -284,9 +462,24 @@
 .padding-y\:8,      .py\:8 { padding-top: var(--gap-8) !important; padding-bottom: var(--gap-8) !important; }
 .padding-y\:9,      .py\:9 { padding-top: var(--gap-9) !important; padding-bottom: var(--gap-9) !important; }
 .padding-y\:10,     .py\:10 { padding-top: var(--gap-10) !important; padding-bottom: var(--gap-10) !important; }
+.padding-y\:ex,     .py\:ex { padding-top: var(--gap-ex) !important; padding-bottom: var(--gap-ex) !important; }
+
+@media (min-width: 576px) {
+    .sm\:padding-y\:0,      .sm\:py\:0 { padding-top: var(--gap-0) !important; padding-bottom: var(--gap-0) !important; }
+    .sm\:padding-y\:1,      .sm\:py\:1 { padding-top: var(--gap-1) !important; padding-bottom: var(--gap-1) !important; }
+    .sm\:padding-y\:2,      .sm\:py\:2 { padding-top: var(--gap-2) !important; padding-bottom: var(--gap-2) !important; }
+    .sm\:padding-y\:3,      .sm\:py\:3 { padding-top: var(--gap-3) !important; padding-bottom: var(--gap-3) !important; }
+    .sm\:padding-y\:4,      .sm\:py\:4 { padding-top: var(--gap-4) !important; padding-bottom: var(--gap-4) !important; }
+    .sm\:padding-y\:5,      .sm\:py\:5 { padding-top: var(--gap-5) !important; padding-bottom: var(--gap-5) !important; }
+    .sm\:padding-y\:6,      .sm\:py\:6 { padding-top: var(--gap-6) !important; padding-bottom: var(--gap-6) !important; }
+    .sm\:padding-y\:7,      .sm\:py\:7 { padding-top: var(--gap-7) !important; padding-bottom: var(--gap-7) !important; }
+    .sm\:padding-y\:8,      .sm\:py\:8 { padding-top: var(--gap-8) !important; padding-bottom: var(--gap-8) !important; }
+    .sm\:padding-y\:9,      .sm\:py\:9 { padding-top: var(--gap-9) !important; padding-bottom: var(--gap-9) !important; }
+    .sm\:padding-y\:10,     .sm\:py\:10 { padding-top: var(--gap-10) !important; padding-bottom: var(--gap-10) !important; }
+    .sm\:padding-y\:ex,     .sm\:py\:ex { padding-top: var(--gap-ex) !important; padding-bottom: var(--gap-ex) !important; }
+}
 
 @media (min-width: 768px) {
-    .md\:padding-y\:auto,   .md\:py\:auto { padding-top: auto !important; padding-bottom: auto !important; }
     .md\:padding-y\:0,      .md\:py\:0 { padding-top: var(--gap-0) !important; padding-bottom: var(--gap-0) !important; }
     .md\:padding-y\:1,      .md\:py\:1 { padding-top: var(--gap-1) !important; padding-bottom: var(--gap-1) !important; }
     .md\:padding-y\:2,      .md\:py\:2 { padding-top: var(--gap-2) !important; padding-bottom: var(--gap-2) !important; }
@@ -298,10 +491,10 @@
     .md\:padding-y\:8,      .md\:py\:8 { padding-top: var(--gap-8) !important; padding-bottom: var(--gap-8) !important; }
     .md\:padding-y\:9,      .md\:py\:9 { padding-top: var(--gap-9) !important; padding-bottom: var(--gap-9) !important; }
     .md\:padding-y\:10,     .md\:py\:10 { padding-top: var(--gap-10) !important; padding-bottom: var(--gap-10) !important; }
+    .md\:padding-y\:ex,     .md\:py\:ex { padding-top: var(--gap-ex) !important; padding-bottom: var(--gap-ex) !important; }
 }
 
-@media (min-width: 1200px) {
-    .lg\:padding-y\:auto,   .lg\:py\:auto { padding-top: auto !important; padding-bottom: auto !important; }
+@media (min-width: 992px) {
     .lg\:padding-y\:0,      .lg\:py\:0 { padding-top: var(--gap-0) !important; padding-bottom: var(--gap-0) !important; }
     .lg\:padding-y\:1,      .lg\:py\:1 { padding-top: var(--gap-1) !important; padding-bottom: var(--gap-1) !important; }
     .lg\:padding-y\:2,      .lg\:py\:2 { padding-top: var(--gap-2) !important; padding-bottom: var(--gap-2) !important; }
@@ -313,4 +506,20 @@
     .lg\:padding-y\:8,      .lg\:py\:8 { padding-top: var(--gap-8) !important; padding-bottom: var(--gap-8) !important; }
     .lg\:padding-y\:9,      .lg\:py\:9 { padding-top: var(--gap-9) !important; padding-bottom: var(--gap-9) !important; }
     .lg\:padding-y\:10,     .lg\:py\:10 { padding-top: var(--gap-10) !important; padding-bottom: var(--gap-10) !important; }
+    .lg\:padding-y\:ex,     .lg\:py\:ex { padding-top: var(--gap-ex) !important; padding-bottom: var(--gap-ex) !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:padding-y\:0,      .xl\:py\:0 { padding-top: var(--gap-0) !important; padding-bottom: var(--gap-0) !important; }
+    .xl\:padding-y\:1,      .xl\:py\:1 { padding-top: var(--gap-1) !important; padding-bottom: var(--gap-1) !important; }
+    .xl\:padding-y\:2,      .xl\:py\:2 { padding-top: var(--gap-2) !important; padding-bottom: var(--gap-2) !important; }
+    .xl\:padding-y\:3,      .xl\:py\:3 { padding-top: var(--gap-3) !important; padding-bottom: var(--gap-3) !important; }
+    .xl\:padding-y\:4,      .xl\:py\:4 { padding-top: var(--gap-4) !important; padding-bottom: var(--gap-4) !important; }
+    .xl\:padding-y\:5,      .xl\:py\:5 { padding-top: var(--gap-5) !important; padding-bottom: var(--gap-5) !important; }
+    .xl\:padding-y\:6,      .xl\:py\:6 { padding-top: var(--gap-6) !important; padding-bottom: var(--gap-6) !important; }
+    .xl\:padding-y\:7,      .xl\:py\:7 { padding-top: var(--gap-7) !important; padding-bottom: var(--gap-7) !important; }
+    .xl\:padding-y\:8,      .xl\:py\:8 { padding-top: var(--gap-8) !important; padding-bottom: var(--gap-8) !important; }
+    .xl\:padding-y\:9,      .xl\:py\:9 { padding-top: var(--gap-9) !important; padding-bottom: var(--gap-9) !important; }
+    .xl\:padding-y\:10,     .xl\:py\:10 { padding-top: var(--gap-10) !important; padding-bottom: var(--gap-10) !important; }
+    .xl\:padding-y\:ex,     .xl\:py\:ex { padding-top: var(--gap-ex) !important; padding-bottom: var(--gap-ex) !important; }
 }

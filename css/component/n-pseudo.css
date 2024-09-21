@@ -1,0 +1,189 @@
+.\:hover-color\:main-1:hover{
+    background-color: var(--color-main-1);
+}
+
+.\:hover-color\:main-2:hover{
+    background-color: var(--color-main-2);
+}
+
+.\:hover-color\:main-3:hover{
+    background-color: var(--color-main-3);
+}
+
+.\:hover-color\:sub-1:hover{
+    background-color: var(--color-sub-1);
+}
+
+.\:hover-color\:sub-2:hover{
+    background-color: var(--color-sub-2);
+}
+
+.\:hover-color\:sub-3:hover{
+    background-color: var(--color-sub-3);
+}
+
+.\:hover-color\:base-1:hover{
+    background-color: var(--color-base-1);
+}
+
+.\:hover-color\:base-2:hover{
+    background-color: var(--color-base-2);
+}
+
+.\:hover-color\:base-3:hover{
+    background-color: var(--color-base-3);
+}
+
+.\:hover-color\:base-4:hover{
+    background-color: var(--color-base-4);
+}
+
+.\:hover-color\:base-5:hover{
+    background-color: var(--color-base-5);
+}
+
+.\:hover-color\:base-6:hover{
+    background-color: var(--color-base-6);
+}
+
+.\:hover-color\:base-7:hover{
+    background-color: var(--color-base-7);
+}
+
+.\:hover-color\:base-8:hover{
+    background-color: var(--color-base-8);
+}
+
+.\:hover-color\:base-9:hover{
+    background-color: var(--color-base-9);
+}
+.\:hover-color\:base-10:hover{
+    background-color: var(--color-base-10);
+}
+
+
+
+
+
+.\:hover-action\:show .\:hover-target {
+    display: none;
+}
+.\:hover-action\:show:hover .\:hover-target {
+    display: flex;
+}
+
+
+.\:\:before::before{
+    content: '';
+    display: flex;
+    flex-direction: column;
+    height: var(--before-h-1, 30px);
+    background-color: var(--before-bg-color-base-6, transparent);
+}
+
+.\:\:before-h\:2::before{
+    --before-h-1: 60px;
+}
+
+.\:\:before-bg-color\:base-6::before{
+    --before-bg-color-base-6: var(--color-base-6);
+}
+
+
+/*==========================================*/
+
+    /*child*/
+
+/*==========================================*/
+
+
+.\:child-hover-color\:main-1>*:hover{
+    background-color: var(--color-main-1);
+}
+
+.\:child-hover-color\:main-2>*:hover{
+    background-color: var(--color-main-2);
+}
+
+.\:child-hover-color\:main-3>*:hover{
+    background-color: var(--color-main-3);
+}
+
+.\:child-hover-color\:sub-1>*:hover{
+    background-color: var(--color-sub-1);
+}
+
+.\:child-hover-color\:sub-2>*:hover{
+    background-color: var(--color-sub-2);
+}
+
+.\:child-hover-color\:sub-3>*:hover{
+    background-color: var(--color-sub-3);
+}
+
+.\:child-hover-color\:base-1>*:hover{
+    background-color: var(--color-base-1);
+}
+
+.\:child-hover-color\:base-2>*:hover{
+    background-color: var(--color-base-2);
+}
+
+.\:child-hover-color\:base-3>*:hover{
+    background-color: var(--color-base-3);
+}
+
+.\:child-hover-color\:base-4>*:hover{
+    background-color: var(--color-base-4);
+}
+
+.\:child-hover-color\:base-5>*:hover{
+    background-color: var(--color-base-5);
+}
+
+.\:child-hover-color\:base-6>*:hover{
+    background-color: var(--color-base-6);
+}
+
+.\:child-hover-color\:base-7>*:hover{
+    background-color: var(--color-base-7);
+}
+
+.\:child-hover-color\:base-8>*:hover{
+    background-color: var(--color-base-8);
+}
+
+.\:child-hover-color\:base-9>*:hover{
+    background-color: var(--color-base-9);
+}
+.\:child-hover-color\:base-10>*:hover{
+    background-color: var(--color-base-10);
+}
+
+
+
+
+
+.\:child-hover-action\:show .n-hover-target {
+    display: none;
+}
+.\:child-hover-action\:show:hover .n-hover-target {
+    display: flex;
+}
+
+
+.\:\:child-before::before{
+    content: '';
+    display: flex;
+    flex-direction: column;
+    height: var(--before-h-1, 30px);
+    background-color: var(--before-bg-color-base-6, transparent);
+}
+
+.\:\:child-before-h\:2::before{
+    --before-h-1: 60px;
+}
+
+.\:\:child-before-bg-color\:base-6::before{
+    --before-bg-color-base-6: var(--color-base-6);
+}

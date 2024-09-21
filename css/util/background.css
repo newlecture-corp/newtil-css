@@ -8,6 +8,8 @@
  * background-size
  * ───────────────────────────────────    */
 
+.background-image,      .bg-img  { background-image: var(--bg-img) !important; }
+
 /*--- background-attachment ------------------------------------------------------------------*/
 .background-attachment\:fixed,                      .bg-attachment\:fixed,              .bg-attch\:fixed                    { background-attachment: fixed !important; }
 .background-attachment\:local,                      .bg-attachment\:local,              .bg-attch\:local                    { background-attachment: local !important; }
@@ -83,6 +85,83 @@
 .background-color\:base-9,                          .bg-color\:base-9                   { background-color : var(--color-base-9) !important; }
 .background-color\:base-10,                         .bg-color\:base-10                  { background-color : var(--color-base-10) !important; }
 
+.background-color\:main-1a,                          .bg-color\:main-1a                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+.background-color\:main-2a,                          .bg-color\:main-2a                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+.background-color\:main-3a,                          .bg-color\:main-3a                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+.background-color\:sub-1a,                          .bg-color\:sub-1a                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+.background-color\:sub-2a,                          .bg-color\:sub-2a                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+.background-color\:sub-3a,                          .bg-color\:sub-3a                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+.background-color\:accent-1a,                       .bg-color\:accent-1a                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+.background-color\:accent-2a,                       .bg-color\:accent-2a                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+.background-color\:accent-3a,                       .bg-color\:accent-3a                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+.background-color\:base-1a,                          .bg-color\:base-1a                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+.background-color\:base-2a,                          .bg-color\:base-2a                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+.background-color\:base-3a,                          .bg-color\:base-3a                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+.background-color\:base-4a,                          .bg-color\:base-4a                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+.background-color\:base-5a,                          .bg-color\:base-5a                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+.background-color\:base-6a,                          .bg-color\:base-6a                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+.background-color\:base-7a,                          .bg-color\:base-7a                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+.background-color\:base-8a,                          .bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+.background-color\:base-9a,                          .bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+.background-color\:base-10a,                         .bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+.background-color\:ex,                               .bg-color\:ex                      { background-color : var(--rgb-base-ex) !important; }
+.background-color\:exa,                               .bg-color\:exa                      { background-color : rgba(var(--rgb-base-ex),0.3) !important; }
+
+
+/*--- hover ------------------------------------------------------------------------------------*/
+
+.background-color\:transparent\:hover:hover,                     .bg-color\:transparent\:hover:hover              { background-color: transparent !important; }
+
+.background-color\:main-1\:hover:hover,                          .bg-color\:main-1\:hover:hover                   { background-color : var(--color-main-1) !important; }
+.background-color\:main-2\:hover:hover,                          .bg-color\:main-2\:hover:hover                   { background-color : var(--color-main-2) !important; }
+.background-color\:main-3\:hover:hover,                          .bg-color\:main-3\:hover:hover                   { background-color : var(--color-main-3) !important; }
+
+.background-color\:sub-1\:hover:hover,                           .bg-color\:sub-1\:hover:hover                    { background-color : var(--color-sub-1) !important; }
+.background-color\:sub-2\:hover:hover,                           .bg-color\:sub-2\:hover:hover                    { background-color : var(--color-sub-2) !important; }
+.background-color\:sub-3\:hover:hover,                           .bg-color\:sub-3\:hover:hover                    { background-color : var(--color-sub-3) !important; }
+
+.background-color\:accent-1\:hover:hover,                        .bg-color\:accent-1\:hover:hover                 { background-color : var(--color-accent-1) !important; }
+.background-color\:accent-2\:hover:hover,                        .bg-color\:accent-2\:hover:hover                 { background-color : var(--color-accent-2) !important; }
+.background-color\:accent-3\:hover:hover,                        .bg-color\:accent-3\:hover:hover                 { background-color : var(--color-accent-3) !important; }
+
+.background-color\:base-1\:hover:hover,                          .bg-color\:base-1\:hover:hover                   { background-color : var(--color-base-1) !important; }
+.background-color\:base-2\:hover:hover,                          .bg-color\:base-2\:hover:hover                   { background-color : var(--color-base-2) !important; }
+.background-color\:base-3\:hover:hover,                          .bg-color\:base-3\:hover:hover                   { background-color : var(--color-base-3) !important; }
+.background-color\:base-4\:hover:hover,                          .bg-color\:base-4\:hover:hover                   { background-color : var(--color-base-4) !important; }
+.background-color\:base-5\:hover:hover,                          .bg-color\:base-5\:hover:hover                   { background-color : var(--color-base-5) !important; }
+.background-color\:base-6\:hover:hover,                          .bg-color\:base-6\:hover:hover                   { background-color : var(--color-base-6) !important; }
+.background-color\:base-7\:hover:hover,                          .bg-color\:base-7\:hover:hover                   { background-color : var(--color-base-7) !important; }
+.background-color\:base-8\:hover:hover,                          .bg-color\:base-8\:hover:hover                   { background-color : var(--color-base-8) !important; }
+.background-color\:base-9\:hover:hover,                          .bg-color\:base-9\:hover:hover                   { background-color : var(--color-base-9) !important; }
+.background-color\:base-10\:hover:hover,                         .bg-color\:base-10\:hover:hover                  { background-color : var(--color-base-10) !important; }
+
+.background-color\:main-1a\:hover:hover,                          .bg-color\:main-1a\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+.background-color\:main-2a\:hover:hover,                          .bg-color\:main-2a\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+.background-color\:main-3a\:hover:hover,                          .bg-color\:main-3a\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+.background-color\:sub-1a\:hover:hover,                          .bg-color\:sub-1a\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+.background-color\:sub-2a\:hover:hover,                          .bg-color\:sub-2a\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+.background-color\:sub-3a\:hover:hover,                          .bg-color\:sub-3a\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+.background-color\:accent-1a\:hover:hover,                       .bg-color\:accent-1a\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+.background-color\:accent-2a\:hover:hover,                       .bg-color\:accent-2a\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+.background-color\:accent-3a\:hover:hover,                       .bg-color\:accent-3a\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+.background-color\:base-1a\:hover:hover,                          .bg-color\:base-1a\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+.background-color\:base-2a\:hover:hover,                          .bg-color\:base-2a\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+.background-color\:base-3a\:hover:hover,                          .bg-color\:base-3a\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+.background-color\:base-4a\:hover:hover,                          .bg-color\:base-4a\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+.background-color\:base-5a\:hover:hover,                          .bg-color\:base-5a\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+.background-color\:base-6a\:hover:hover,                          .bg-color\:base-6a\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+.background-color\:base-7a\:hover:hover,                          .bg-color\:base-7a\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+.background-color\:base-8a\:hover:hover,                          .bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+.background-color\:base-9a\:hover:hover,                          .bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+.background-color\:base-10a\:hover:hover,                         .bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
 @media (min-width: 768px) {
     .md\:background-color\:transparent,             .md\:bg-color\:transparent          { background-color: transparent !important; }
 
@@ -108,6 +187,80 @@
     .md\:background-color\:base-8,                  .md\:bg-color\:base-8               { background-color : var(--color-base-8) !important; }
     .md\:background-color\:base-9,                  .md\:bg-color\:base-9               { background-color : var(--color-base-9) !important; }
     .md\:background-color\:base-10,                 .md\:bg-color\:base-10              { background-color : var(--color-base-10) !important; }
+
+
+    .md\:background-color\:main-1a,                          .md\:bg-color\:main-1a                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .md\:background-color\:main-2a,                          .md\:bg-color\:main-2a                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .md\:background-color\:main-3a,                          .md\:bg-color\:main-3a                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .md\:background-color\:sub-1a,                          .md\:bg-color\:sub-1a                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .md\:background-color\:sub-2a,                          .md\:bg-color\:sub-2a                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .md\:background-color\:sub-3a,                          .md\:bg-color\:sub-3a                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .md\:background-color\:accent-1a,                       .md\:bg-color\:accent-1a                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .md\:background-color\:accent-2a,                       .md\:bg-color\:accent-2a                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .md\:background-color\:accent-3a,                       .md\:bg-color\:accent-3a                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .md\:background-color\:base-1a,                          .md\:bg-color\:base-1a                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .md\:background-color\:base-2a,                          .md\:bg-color\:base-2a                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .md\:background-color\:base-3a,                          .md\:bg-color\:base-3a                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .md\:background-color\:base-4a,                          .md\:bg-color\:base-4a                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .md\:background-color\:base-5a,                          .md\:bg-color\:base-5a                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .md\:background-color\:base-6a,                          .md\:bg-color\:base-6a                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .md\:background-color\:base-7a,                          .md\:bg-color\:base-7a                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .md\:background-color\:base-8a,                          .md\:bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .md\:background-color\:base-9a,                          .md\:bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .md\:background-color\:base-10a,                         .md\:bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+    /*--- hover ------------------------------------------------------------------------------------*/
+
+    .md\:background-color\:transparent\:hover:hover,                     .md\:bg-color\:transparent\:hover:hover              { background-color: transparent !important; }
+
+    .md\:background-color\:main-1\:hover:hover,                          .md\:bg-color\:main-1\:hover:hover                   { background-color : var(--color-main-1) !important; }
+    .md\:background-color\:main-2\:hover:hover,                          .md\:bg-color\:main-2\:hover:hover                   { background-color : var(--color-main-2) !important; }
+    .md\:background-color\:main-3\:hover:hover,                          .md\:bg-color\:main-3\:hover:hover                   { background-color : var(--color-main-3) !important; }
+
+    .md\:background-color\:sub-1\:hover:hover,                           .md\:bg-color\:sub-1\:hover:hover                    { background-color : var(--color-sub-1) !important; }
+    .md\:background-color\:sub-2\:hover:hover,                           .md\:bg-color\:sub-2\:hover:hover                    { background-color : var(--color-sub-2) !important; }
+    .md\:background-color\:sub-3\:hover:hover,                           .md\:bg-color\:sub-3\:hover:hover                    { background-color : var(--color-sub-3) !important; }
+
+    .background-color\:accent-1\:hover:hover,                        .md\:bg-color\:accent-1\:hover:hover                 { background-color : var(--color-accent-1) !important; }
+    .background-color\:accent-2\:hover:hover,                        .md\:bg-color\:accent-2\:hover:hover                 { background-color : var(--color-accent-2) !important; }
+    .background-color\:accent-3\:hover:hover,                        .md\:bg-color\:accent-3\:hover:hover                 { background-color : var(--color-accent-3) !important; }
+
+    .md\:background-color\:base-1\:hover:hover,                          .md\:bg-color\:base-1\:hover:hover                   { background-color : var(--color-base-1) !important; }
+    .md\:background-color\:base-2\:hover:hover,                          .md\:bg-color\:base-2\:hover:hover                   { background-color : var(--color-base-2) !important; }
+    .md\:background-color\:base-3\:hover:hover,                          .md\:bg-color\:base-3\:hover:hover                   { background-color : var(--color-base-3) !important; }
+    .md\:background-color\:base-4\:hover:hover,                          .md\:bg-color\:base-4\:hover:hover                   { background-color : var(--color-base-4) !important; }
+    .md\:background-color\:base-5\:hover:hover,                          .md\:bg-color\:base-5\:hover:hover                   { background-color : var(--color-base-5) !important; }
+    .md\:background-color\:base-6\:hover:hover,                          .md\:bg-color\:base-6\:hover:hover                   { background-color : var(--color-base-6) !important; }
+    .md\:background-color\:base-7\:hover:hover,                          .md\:bg-color\:base-7\:hover:hover                   { background-color : var(--color-base-7) !important; }
+    .md\:background-color\:base-8\:hover:hover,                          .md\:bg-color\:base-8\:hover:hover                   { background-color : var(--color-base-8) !important; }
+    .md\:background-color\:base-9\:hover:hover,                          .md\:bg-color\:base-9\:hover:hover                   { background-color : var(--color-base-9) !important; }
+    .md\:background-color\:base-10\:hover:hover,                         .md\:bg-color\:base-10\:hover:hover                  { background-color : var(--color-base-10) !important; }
+
+    .md\:background-color\:main-1a\:hover:hover,                          .md\:bg-color\:main-1a\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .md\:background-color\:main-2a\:hover:hover,                          .md\:bg-color\:main-2a\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .md\:background-color\:main-3a\:hover:hover,                          .md\:bg-color\:main-3a\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .md\:background-color\:sub-1a\:hover:hover,                          .md\:bg-color\:sub-1a\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .md\:background-color\:sub-2a\:hover:hover,                          .md\:bg-color\:sub-2a\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .md\:background-color\:sub-3a\:hover:hover,                          .md\:bg-color\:sub-3a\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .md\:background-color\:accent-1a\:hover:hover,                       .md\:bg-color\:accent-1a\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .md\:background-color\:accent-2a\:hover:hover,                       .md\:bg-color\:accent-2a\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .md\:background-color\:accent-3a\:hover:hover,                       .md\:bg-color\:accent-3a\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .md\:background-color\:base-1a\:hover:hover,                          .md\:bg-color\:base-1a\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .md\:background-color\:base-2a\:hover:hover,                          .md\:bg-color\:base-2a\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .md\:background-color\:base-3a\:hover:hover,                          .md\:bg-color\:base-3a\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .md\:background-color\:base-4a\:hover:hover,                          .md\:bg-color\:base-4a\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .md\:background-color\:base-5a\:hover:hover,                          .md\:bg-color\:base-5a\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .md\:background-color\:base-6a\:hover:hover,                          .md\:bg-color\:base-6a\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .md\:background-color\:base-7a\:hover:hover,                          .md\:bg-color\:base-7a\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .md\:background-color\:base-8a\:hover:hover,                          .md\:bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .md\:background-color\:base-9a\:hover:hover,                          .md\:bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .md\:background-color\:base-10a\:hover:hover,                         .md\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
 }
 
 @media (min-width: 1200px) {
@@ -135,6 +288,79 @@
     .lg\:background-color\:base-8,                  .lg\:bg-color\:base-8               { background-color : var(--color-base-8) !important; }
     .lg\:background-color\:base-9,                  .lg\:bg-color\:base-9               { background-color : var(--color-base-9) !important; }
     .lg\:background-color\:base-10,                 .lg\:bg-color\:base-10              { background-color : var(--color-base-10) !important; }
+
+    .lg\:background-color\:main-1a,                          .lg\:bg-color\:main-1a                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .lg\:background-color\:main-2a,                          .lg\:bg-color\:main-2a                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .lg\:background-color\:main-3a,                          .lg\:bg-color\:main-3a                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .lg\:background-color\:sub-1a,                          .lg\:bg-color\:sub-1a                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .lg\:background-color\:sub-2a,                          .lg\:bg-color\:sub-2a                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .lg\:background-color\:sub-3a,                          .lg\:bg-color\:sub-3a                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .lg\:background-color\:accent-1a,                       .lg\:bg-color\:accent-1a                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .lg\:background-color\:accent-2a,                       .lg\:bg-color\:accent-2a                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .lg\:background-color\:accent-3a,                       .lg\:bg-color\:accent-3a                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .lg\:background-color\:base-1a,                          .lg\:bg-color\:base-1a                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .lg\:background-color\:base-2a,                          .lg\:bg-color\:base-2a                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .lg\:background-color\:base-3a,                          .lg\:bg-color\:base-3a                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .lg\:background-color\:base-4a,                          .lg\:bg-color\:base-4a                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .lg\:background-color\:base-5a,                          .lg\:bg-color\:base-5a                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .lg\:background-color\:base-6a,                          .lg\:bg-color\:base-6a                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .lg\:background-color\:base-7a,                          .lg\:bg-color\:base-7a                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .lg\:background-color\:base-8a,                          .lg\:bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .lg\:background-color\:base-9a,                          .lg\:bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .lg\:background-color\:base-10a,                         .lg\:bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+    /*--- hover ------------------------------------------------------------------------------------*/
+
+    .lg\:background-color\:transparent\:hover:hover,                     .lg\:bg-color\:transparent\:hover:hover              { background-color: transparent !important; }
+
+    .lg\:background-color\:main-1\:hover:hover,                          .lg\:bg-color\:main-1\:hover:hover                   { background-color : var(--color-main-1) !important; }
+    .lg\:background-color\:main-2\:hover:hover,                          .lg\:bg-color\:main-2\:hover:hover                   { background-color : var(--color-main-2) !important; }
+    .lg\:background-color\:main-3\:hover:hover,                          .lg\:bg-color\:main-3\:hover:hover                   { background-color : var(--color-main-3) !important; }
+
+    .lg\:background-color\:sub-1\:hover:hover,                           .lg\:bg-color\:sub-1\:hover:hover                    { background-color : var(--color-sub-1) !important; }
+    .lg\:background-color\:sub-2\:hover:hover,                           .lg\:bg-color\:sub-2\:hover:hover                    { background-color : var(--color-sub-2) !important; }
+    .lg\:background-color\:sub-3\:hover:hover,                           .lg\:bg-color\:sub-3\:hover:hover                    { background-color : var(--color-sub-3) !important; }
+
+    .lg\:background-color\:accent-1\:hover:hover,                        .lg\:bg-color\:accent-1\:hover:hover                 { background-color : var(--color-accent-1) !important; }
+    .lg\:background-color\:accent-2\:hover:hover,                        .lg\:bg-color\:accent-2\:hover:hover                 { background-color : var(--color-accent-2) !important; }
+    .lg\:background-color\:accent-3\:hover:hover,                        .lg\:bg-color\:accent-3\:hover:hover                 { background-color : var(--color-accent-3) !important; }
+
+    .lg\:background-color\:base-1\:hover:hover,                          .lg\:bg-color\:base-1\:hover:hover                   { background-color : var(--color-base-1) !important; }
+    .lg\:background-color\:base-2\:hover:hover,                          .lg\:bg-color\:base-2\:hover:hover                   { background-color : var(--color-base-2) !important; }
+    .lg\:background-color\:base-3\:hover:hover,                          .lg\:bg-color\:base-3\:hover:hover                   { background-color : var(--color-base-3) !important; }
+    .lg\:background-color\:base-4\:hover:hover,                          .lg\:bg-color\:base-4\:hover:hover                   { background-color : var(--color-base-4) !important; }
+    .lg\:background-color\:base-5\:hover:hover,                          .lg\:bg-color\:base-5\:hover:hover                   { background-color : var(--color-base-5) !important; }
+    .lg\:background-color\:base-6\:hover:hover,                          .lg\:bg-color\:base-6\:hover:hover                   { background-color : var(--color-base-6) !important; }
+    .lg\:background-color\:base-7\:hover:hover,                          .lg\:bg-color\:base-7\:hover:hover                   { background-color : var(--color-base-7) !important; }
+    .lg\:background-color\:base-8\:hover:hover,                          .lg\:bg-color\:base-8\:hover:hover                   { background-color : var(--color-base-8) !important; }
+    .lg\:background-color\:base-9\:hover:hover,                          .lg\:bg-color\:base-9\:hover:hover                   { background-color : var(--color-base-9) !important; }
+    .lg\:background-color\:base-10\:hover:hover,                         .lg\:bg-color\:base-10\:hover:hover                  { background-color : var(--color-base-10) !important; }
+
+    .lg\:background-color\:main-1a\:hover:hover,                          .lg\:bg-color\:main-1a\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .lg\:background-color\:main-2a\:hover:hover,                          .lg\:bg-color\:main-2a\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .lg\:background-color\:main-3a\:hover:hover,                          .lg\:bg-color\:main-3a\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .lg\:background-color\:sub-1a\:hover:hover,                          .lg\:bg-color\:sub-1a\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .lg\:background-color\:sub-2a\:hover:hover,                          .lg\:bg-color\:sub-2a\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .lg\:background-color\:sub-3a\:hover:hover,                          .lg\:bg-color\:sub-3a\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .lg\:background-color\:accent-1a\:hover:hover,                       .lg\:bg-color\:accent-1a\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .lg\:background-color\:accent-2a\:hover:hover,                       .lg\:bg-color\:accent-2a\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .lg\:background-color\:accent-3a\:hover:hover,                       .lg\:bg-color\:accent-3a\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .lg\:background-color\:base-1a\:hover:hover,                          .lg\:bg-color\:base-1a\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .lg\:background-color\:base-2a\:hover:hover,                          .lg\:bg-color\:base-2a\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .lg\:background-color\:base-3a\:hover:hover,                          .lg\:bg-color\:base-3a\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .lg\:background-color\:base-4a\:hover:hover,                          .lg\:bg-color\:base-4a\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .lg\:background-color\:base-5a\:hover:hover,                          .lg\:bg-color\:base-5a\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .lg\:background-color\:base-6a\:hover:hover,                          .lg\:bg-color\:base-6a\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .lg\:background-color\:base-7a\:hover:hover,                          .lg\:bg-color\:base-7a\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .lg\:background-color\:base-8a\:hover:hover,                          .lg\:bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .lg\:background-color\:base-9a\:hover:hover,                          .lg\:bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .lg\:background-color\:base-10a\:hover:hover,                         .lg\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
 }
 
 /*--- background-origin ------------------------------------------------------------------*/
@@ -172,11 +398,11 @@
     .md\:background-position\:top,                  .md\:bg-position\:top,              .md\:bg-pos\:top { background-position : top !important; }
     .md\:background-position\:bottom,               .md\:bg-position\:bottom,           .md\:bg-pos\:bottom { background-position : bottom !important; }
     .md\:background-position\:left,                 .md\:bg-position\:left,             .md\:bg-pos\:left { background-position : left !important; }
-    .md\:background-position\:left-bottom,          .md\:bg-position\:left-bottom,      .md\:bg-pos\:left-bottom { background-position : left-bottom !important; }
-    .md\:background-position\:left-top,             .md\:bg-position\:left-top,         .md\:bg-pos\:left-top { background-position : left-top !important; }
+    .md\:background-position\:left-bottom,          .md\:bg-position\:left-bottom,      .md\:bg-pos\:left-bottom { background-position : left bottom !important; }
+    .md\:background-position\:left-top,             .md\:bg-position\:left-top,         .md\:bg-pos\:left-top { background-position : left top !important; }
     .md\:background-position\:right,                .md\:bg-position\:right,            .md\:bg-pos\:right { background-position : right !important; }
-    .md\:background-position\:right-bottom,         .md\:bg-position\:right-bottom,     .md\:bg-pos\:right-bottom { background-position : right-bottom !important; }
-    .md\:background-position\:right-top,            .md\:bg-position\:right-top,        .md\:bg-pos\:right-top { background-position : right-top !important; }
+    .md\:background-position\:right-bottom,         .md\:bg-position\:right-bottom,     .md\:bg-pos\:right-bottom { background-position : right bottom !important; }
+    .md\:background-position\:right-top,            .md\:bg-position\:right-top,        .md\:bg-pos\:right-top { background-position : right top !important; }
     .md\:background-position\:center,               .md\:bg-position\:center,           .md\:bg-pos\:center { background-position : center !important; }
     .md\:background-position\:inherit,              .md\:bg-position\:inherit,          .md\:bg-pos\:inherit { background-position : inherit !important; }
     .md\:background-position\:initial,              .md\:bg-position\:initial,          .md\:bg-pos\:initial { background-position : initial !important; }
@@ -187,11 +413,11 @@
     .lg\:background-position\:top,                  .lg\:bg-position\:top,              .lg\:bg-pos\:top { background-position : top !important; }
     .lg\:background-position\:bottom,               .lg\:bg-position\:bottom,           .lg\:bg-pos\:bottom { background-position : bottom !important; }
     .lg\:background-position\:left,                 .lg\:bg-position\:left,             .lg\:bg-pos\:left { background-position : left !important; }
-    .lg\:background-position\:left-bottom,          .lg\:bg-position\:left-bottom,      .lg\:bg-pos\:left-bottom { background-position : left-bottom !important; }
-    .lg\:background-position\:left-top,             .lg\:bg-position\:left-top,         .lg\:bg-pos\:left-top { background-position : left-top !important; }
+    .lg\:background-position\:left-bottom,          .lg\:bg-position\:left-bottom,      .lg\:bg-pos\:left-bottom { background-position : left bottom !important; }
+    .lg\:background-position\:left-top,             .lg\:bg-position\:left-top,         .lg\:bg-pos\:left-top { background-position : left top !important; }
     .lg\:background-position\:right,                .lg\:bg-position\:right,            .lg\:bg-pos\:right { background-position : right !important; }
-    .lg\:background-position\:right-bottom,         .lg\:bg-position\:right-bottom,     .lg\:bg-pos\:right-bottom { background-position : right-bottom !important; }
-    .lg\:background-position\:right-top,            .lg\:bg-position\:right-top,        .lg\:bg-pos\:right-top { background-position : right-top !important; }
+    .lg\:background-position\:right-bottom,         .lg\:bg-position\:right-bottom,     .lg\:bg-pos\:right-bottom { background-position : right bottom !important; }
+    .lg\:background-position\:right-top,            .lg\:bg-position\:right-top,        .lg\:bg-pos\:right-top { background-position : right top !important; }
     .lg\:background-position\:center,               .lg\:bg-position\:center,           .lg\:bg-pos\:center { background-position : center !important; }
     .lg\:background-position\:inherit,              .lg\:bg-position\:inherit,          .lg\:bg-pos\:inherit { background-position : inherit !important; }
     .lg\:background-position\:initial,              .lg\:bg-position\:initial,          .lg\:bg-pos\:initial { background-position : initial !important; }
@@ -229,7 +455,18 @@
 .background-size\:cover,                            .bg-size\:cover                     { background-size: cover !important; }
 .background-size\:contain,                          .bg-size\:contain                   { background-size: contain !important; }
 .background-size\:initial,                          .bg-size\:initial                   { background-size: initial !important; }
-.background-size\:inherit,                          .bg-size\:inherit                   { background-size: inherit !important; }
+.background-size\:1,                                .bg-size\:1                         { background-size: var(--h-1) !important; }
+.background-size\:2,                                .bg-size\:2                         { background-size: var(--h-2) !important; }
+.background-size\:3,                                .bg-size\:3                         { background-size: var(--h-3) !important; }
+.background-size\:4,                                .bg-size\:4                         { background-size: var(--h-4) !important; }
+.background-size\:5,                                .bg-size\:5                         { background-size: var(--h-5) !important; }
+.background-size\:6,                                .bg-size\:6                         { background-size: var(--h-6) !important; }
+.background-size\:7,                                .bg-size\:7                         { background-size: var(--h-7) !important; }
+.background-size\:8,                                .bg-size\:8                         { background-size: var(--h-8) !important; }
+.background-size\:9,                                .bg-size\:9                         { background-size: var(--h-9) !important; }
+.background-size\:10,                                .bg-size\:10                         { background-size: var(--h-10) !important; }
+.background-size\:11,                                .bg-size\:11                         { background-size: var(--h-11) !important; }
+
 
 @media (min-width: 768px) {
     .md\:background-size\:auto,                     .md\:bg-size\:auto                  { background-size: auto !important; }
@@ -237,6 +474,17 @@
     .md\:background-size\:contain,                  .md\:bg-size\:contain               { background-size: contain !important; }
     .md\:background-size\:initial,                  .md\:bg-size\:initial               { background-size: initial !important; }
     .md\:background-size\:inherit,                  .md\:bg-size\:inherit               { background-size: inherit !important; }
+    .md\:background-size\:1,                        .md\:bg-size\:1                     { background-size: var(--h-1) !important; }
+    .md\:background-size\:2,                        .md\:bg-size\:2                     { background-size: var(--h-2) !important; }
+    .md\:background-size\:3,                        .md\:bg-size\:3                     { background-size: var(--h-3) !important; }
+    .md\:background-size\:4,                        .md\:bg-size\:4                     { background-size: var(--h-4) !important; }
+    .md\:background-size\:5,                        .md\:bg-size\:5                     { background-size: var(--h-5) !important; }
+    .md\:background-size\:6,                        .md\:bg-size\:6                     { background-size: var(--h-6) !important; }
+    .md\:background-size\:7,                        .md\:bg-size\:7                     { background-size: var(--h-7) !important; }
+    .md\:background-size\:8,                        .md\:bg-size\:8                     { background-size: var(--h-8) !important; }
+    .md\:background-size\:9,                        .md\:bg-size\:9                     { background-size: var(--h-9) !important; }
+    .md\:background-size\:10,                       .md\:bg-size\:10                    { background-size: var(--h-10) !important; }
+    .md\:background-size\:11,                       .md\:bg-size\:11                    { background-size: var(--h-11) !important; }
 }
 
 @media (min-width: 1200px) {
@@ -245,4 +493,15 @@
     .lg\:background-size\:contain,                  .lg\:bg-size\:contain               { background-size : contain !important; }
     .lg\:background-size\:initial,                  .lg\:bg-size\:initial               { background-size : initial !important; }
     .lg\:background-size\:inherit,                  .lg\:bg-size\:inherit               { background-size : inherit !important; }
+    .lg\:background-size\:1,                        .lg\:bg-size\:1                     { background-size: var(--h-1) !important; }
+    .lg\:background-size\:2,                        .lg\:bg-size\:2                     { background-size: var(--h-2) !important; }
+    .lg\:background-size\:3,                        .lg\:bg-size\:3                     { background-size: var(--h-3) !important; }
+    .lg\:background-size\:4,                        .lg\:bg-size\:4                     { background-size: var(--h-4) !important; }
+    .lg\:background-size\:5,                        .lg\:bg-size\:5                     { background-size: var(--h-5) !important; }
+    .lg\:background-size\:6,                        .lg\:bg-size\:6                     { background-size: var(--h-6) !important; }
+    .lg\:background-size\:7,                        .lg\:bg-size\:7                     { background-size: var(--h-7) !important; }
+    .lg\:background-size\:8,                        .lg\:bg-size\:8                     { background-size: var(--h-8) !important; }
+    .lg\:background-size\:9,                        .lg\:bg-size\:9                     { background-size: var(--h-9) !important; }
+    .lg\:background-size\:10,                       .lg\:bg-size\:10                    { background-size: var(--h-10) !important; }
+    .lg\:background-size\:11,                       .lg\:bg-size\:11                    { background-size: var(--h-11) !important; }
 }

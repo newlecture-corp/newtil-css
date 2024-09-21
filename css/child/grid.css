@@ -1,0 +1,215 @@
+/* ───────────────────────────────────
+ * grid-auto-flow
+ * grid-auto-columns
+ * grid-auto-rows
+ *
+ * grid-template-columns
+ * grid-template-rows
+ *
+ * grid-column-span
+ * grid-row-span
+ * ───────────────────────────────────    */
+
+/* grid-auto-flow */
+.grid-auto-flow\:row                        { grid-auto-flow: row !important; }
+.grid-auto-flow\:column                     { grid-auto-flow: column !important; }
+.grid-auto-flow\:row-dense                  { grid-auto-flow: row dense !important; }
+.grid-auto-flow\:column-dense               { grid-auto-flow: column dense !important; }
+
+/* grid-auto-columns */
+.grid-auto-columns\:auto,                   .grid-auto-column\:auto,                    .grid-auto-col\:auto          {  grid-auto-columns: auto !important; }
+.grid-auto-columns\:min-content,            .grid-auto-column\:min-content,             .grid-auto-col\:min-content   { grid-auto-columns: min-content !important; }
+.grid-auto-columns\:max-content,            .grid-auto-column\:max-content,             .grid-auto-col\:max-content   { grid-auto-columns: max-content !important; }
+.grid-auto-columns\:minmax,                 .grid-auto-column\:minmax,                  .grid-auto-col\:minmax        {  grid-auto-columns: minmax(0, 1fr) !important; }
+
+/* grid-auto-rows */
+.grid-auto-rows\:auto,                      .grid-auto-row\:auto                        { grid-auto-rows: auto !important; }
+.grid-auto-rows\:min-content,               .grid-auto-row\:min-content                 { grid-auto-rows: min-content !important; }
+.grid-auto-rows\:max-content,               .grid-auto-row\:max-content                 { grid-auto-rows: max-content !important; }
+.grid-auto-rows\:minmax,                    .grid-auto-row\:minmax                      { grid-auto-rows: minmax(0, 1fr) !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    /* grid-auto-flow */
+    .md\:grid-auto-flow\:row                { grid-auto-flow: row !important; }
+    .md\:grid-auto-flow\:column             { grid-auto-flow: column !important; }
+    .md\:grid-auto-flow\:row-dense          { grid-auto-flow: row dense !important; }
+    .md\:grid-auto-flow\:column-dense       { grid-auto-flow: column dense !important; }
+
+    /* grid-auto-columns */
+    .md\:grid-auto-columns\:auto,           .md\:grid-auto-column\:auto,                .md\:grid-auto-col\:auto          { grid-auto-columns: auto !important; }
+    .md\:grid-auto-columns\:min-content,    .md\:grid-auto-column\:min-content,         .md\:grid-auto-col\:min-content   { grid-auto-columns: min-content !important; }
+    .md\:grid-auto-columns\:max-content,    .md\:grid-auto-column\:max-content,         .md\:grid-auto-col\:max-content   { grid-auto-columns: max-content !important; }
+    .md\:grid-auto-columns\:minmax,         .md\:grid-auto-column\:minmax,              .md\:grid-auto-col\:minmax        {  grid-auto-columns: minmax(0, 1fr) !important; }
+
+    /* grid-auto-rows */
+    .md\:grid-auto-rows\:auto,              .md\:grid-auto-row\:auto                    { grid-auto-rows: auto !important; }
+    .md\:grid-auto-rows\:min-content,       .md\:grid-auto-row\:min-content             { grid-auto-rows: min-content !important; }
+    .md\:grid-auto-rows\:max-content,       .md\:grid-auto-row\:max-content             { grid-auto-rows: max-content !important; }
+    .md\:grid-auto-rows\:minmax,            .md\:grid-auto-row\:minmax                  { grid-auto-rows: minmax(0, 1fr) !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    /* grid-auto-flow */
+    .lg\:grid-auto-flow\:row                { grid-auto-flow: row !important; }
+    .lg\:grid-auto-flow\:column             { grid-auto-flow: column !important; }
+    .lg\:grid-auto-flow\:row-dense          { grid-auto-flow: row dense !important; }
+    .lg\:grid-auto-flow\:column-dense       { grid-auto-flow: column dense !important; }
+
+    /* grid-auto-columns */
+    .lg\:grid-auto-columns\:auto,           .lg\:grid-auto-column\:auto,                .lg\:grid-auto-col\:auto           { grid-auto-columns: auto !important; }
+    .lg\:grid-auto-columns\:min-content,    .lg\:grid-auto-column\:min-content,         .lg\:grid-auto-col\:min-content    { grid-auto-columns: min-content !important; }
+    .lg\:grid-auto-columns\:max-content,    .lg\:grid-auto-column\:max-content,         .lg\:grid-auto-col\:max-content    { grid-auto-columns: max-content !important; }
+    .lg\:grid-auto-columns\:minmax,         .lg\:grid-auto-column\:minmax,              .lg\:grid-auto-col\:minmax         {  grid-auto-columns: minmax(0, 1fr) !important; }
+
+    /* grid-auto-rows */
+    .lg\:grid-auto-rows\:auto,              .lg\:grid-auto-row\:auto                    { grid-auto-rows: auto !important; }
+    .lg\:grid-auto-rows\:min-content,       .lg\:grid-auto-row\:min-content             { grid-auto-rows: min-content !important; }
+    .lg\:grid-auto-rows\:max-content,       .lg\:grid-auto-row\:max-content             { grid-auto-rows: max-content !important; }
+    .lg\:grid-auto-rows\:minmax,            .lg\:grid-auto-row\:minmax                  { grid-auto-rows: minmax(0, 1fr) !important; }
+}
+
+/* grid-template-columns */
+.grid-template-columns\:0,                  .grid-template-column\:0,                   .grid-template-col\:0,            .grid-templ-col\:0           { grid-template-columns: none !important; }
+.grid-template-columns\:1,                  .grid-template-column\:1,                   .grid-template-col\:1,            .grid-templ-col\:1           { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
+.grid-template-columns\:2,                  .grid-template-column\:2,                   .grid-template-col\:2,            .grid-templ-col\:2           { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.grid-template-columns\:3,                  .grid-template-column\:3,                   .grid-template-col\:3,            .grid-templ-col\:3           { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.grid-template-columns\:4,                  .grid-template-column\:4,                   .grid-template-col\:4,            .grid-templ-col\:4           { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.grid-template-columns\:5,                  .grid-template-column\:5,                   .grid-template-col\:5,            .grid-templ-col\:5           { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:grid-template-columns\:0,          .md\:grid-template-column\:0,               .md\:grid-template-col\:0,        .md\:grid-templ-col\:0       { grid-template-columns: none !important; }
+    .md\:grid-template-columns\:1,          .md\:grid-template-column\:1,               .md\:grid-template-col\:1,        .md\:grid-templ-col\:1       { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
+    .md\:grid-template-columns\:2,          .md\:grid-template-column\:2,               .md\:grid-template-col\:2,        .md\:grid-templ-col\:2       { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    .md\:grid-template-columns\:3,          .md\:grid-template-column\:3,               .md\:grid-template-col\:3,        .md\:grid-templ-col\:3       { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+    .md\:grid-template-columns\:4,          .md\:grid-template-column\:4,               .md\:grid-template-col\:4,        .md\:grid-templ-col\:4       { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+    .md\:grid-template-columns\:5,          .md\:grid-template-column\:5,               .md\:grid-template-col\:5,        .md\:grid-templ-col\:5       { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:grid-template-columns\:0,          .lg\:grid-template-column\:0,               .lg\:grid-template-col\:0,       .lg\:grid-templ-col\:0       { grid-template-columns: none !important; }
+    .lg\:grid-template-columns\:1,          .lg\:grid-template-column\:1,               .lg\:grid-template-col\:1,       .lg\:grid-templ-col\:1       { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-columns\:2,          .lg\:grid-template-column\:2,               .lg\:grid-template-col\:2,       .lg\:grid-templ-col\:2       { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-columns\:3,          .lg\:grid-template-column\:3,               .lg\:grid-template-col\:3,       .lg\:grid-templ-col\:3       { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-columns\:4,          .lg\:grid-template-column\:4,               .lg\:grid-template-col\:4,       .lg\:grid-templ-col\:4       { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-columns\:5,          .lg\:grid-template-column\:5,               .lg\:grid-template-col\:5,       .lg\:grid-templ-col\:5       { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+}
+
+/* grid-template-rows */
+.grid-template-rows\:0,                     .grid-template-row\:0,                      .grid-templ-row\:0                { grid-template-rows: none !important; }
+.grid-template-rows\:1,                     .grid-template-row\:1,                      .grid-templ-row\:1                { grid-template-rows: repeat(1, minmax(0, 1fr)) !important; }
+.grid-template-rows\:2,                     .grid-template-row\:2,                      .grid-templ-row\:2                { grid-template-rows: repeat(2, minmax(0, 1fr)) !important; }
+.grid-template-rows\:3,                     .grid-template-row\:3,                      .grid-templ-row\:3                { grid-template-rows: repeat(3, minmax(0, 1fr)) !important; }
+.grid-template-rows\:4,                     .grid-template-row\:4,                      .grid-templ-row\:4                { grid-template-rows: repeat(4, minmax(0, 1fr)) !important; }
+.grid-template-rows\:5,                     .grid-template-row\:5,                      .grid-templ-row\:5                { grid-template-rows: repeat(5, minmax(0, 1fr)) !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:grid-template-rows\:0,             .md\:grid-template-row\:0,                  .md\:grid-templ-row\:0            { grid-template-rows: none !important; }
+    .md\:grid-template-rows\:1,             .md\:grid-template-row\:1,                  .md\:grid-templ-row\:1            { grid-template-rows: repeat(1, minmax(0, 1fr)) !important; }
+    .md\:grid-template-rows\:2,             .md\:grid-template-row\:2,                  .md\:grid-templ-row\:2            { grid-template-rows: repeat(2, minmax(0, 1fr)) !important; }
+    .md\:grid-template-rows\:3,             .md\:grid-template-row\:3,                  .md\:grid-templ-row\:3            { grid-template-rows: repeat(3, minmax(0, 1fr)) !important; }
+    .md\:grid-template-rows\:4,             .md\:grid-template-row\:4,                  .md\:grid-templ-row\:4            { grid-template-rows: repeat(4, minmax(0, 1fr)) !important; }
+    .md\:grid-template-rows\:5,             .md\:grid-template-row\:5,                  .md\:grid-templ-row\:5            { grid-template-rows: repeat(5, minmax(0, 1fr)) !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:grid-template-rows\:0,             .lg\:grid-template-row\:0,                  .lg\:grid-templ-row\:0            { grid-template-rows: none !important; }
+    .lg\:grid-template-rows\:1,             .lg\:grid-template-row\:1,                  .lg\:grid-templ-row\:1            { grid-template-rows: repeat(1, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-rows\:2,             .lg\:grid-template-row\:2,                  .lg\:grid-templ-row\:2            { grid-template-rows: repeat(2, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-rows\:3,             .lg\:grid-template-row\:3,                  .lg\:grid-templ-row\:3            { grid-template-rows: repeat(3, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-rows\:4,             .lg\:grid-template-row\:4,                  .lg\:grid-templ-row\:4            { grid-template-rows: repeat(4, minmax(0, 1fr)) !important; }
+    .lg\:grid-template-rows\:5,             .lg\:grid-template-row\:5,                  .lg\:grid-templ-row\:5            { grid-template-rows: repeat(5, minmax(0, 1fr)) !important; }
+}
+
+
+/* grid-column-span */
+.grid-column\:auto,                         .grid-col\:auto                             { grid-column: auto !important; }
+.grid-column\:span-1,                       .grid-col\:span-1                           { grid-column: span 1 / span 1 !important; }
+.grid-column\:span-2,                       .grid-col\:span-2                           { grid-column: span 2 / span 2 !important; }
+.grid-column\:span-3,                       .grid-col\:span-3                           { grid-column: span 3 / span 3 !important; }
+.grid-column\:span-4,                       .grid-col\:span-4                           { grid-column: span 4 / span 4 !important; }
+.grid-column\:span-5,                       .grid-col\:span-5                           { grid-column: span 5 / span 5 !important; }
+.grid-column\:span-6,                       .grid-col\:span-6                           { grid-column: span 6 / span 6 !important; }
+.grid-column\:span-7,                       .grid-col\:span-7                           { grid-column: span 7 / span 7 !important; }
+.grid-column\:span-8,                       .grid-col\:span-8                           { grid-column: span 8 / span 8 !important; }
+.grid-column\:span-9,                       .grid-col\:span-9                           { grid-column: span 9 / span 9 !important; }
+.grid-column\:span-10,                      .grid-col\:span-10                          { grid-column: span 10 / span 10 !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:grid-column\:auto,                 .md\:grid-col\:auto                         { grid-column: auto !important; }
+    .md\:grid-column\:span-1,               .md\:grid-col\:span-1                       { grid-column: span 1 / span 1 !important; }
+    .md\:grid-column\:span-2,               .md\:grid-col\:span-2                       { grid-column: span 2 / span 2 !important; }
+    .md\:grid-column\:span-3,               .md\:grid-col\:span-3                       { grid-column: span 3 / span 3 !important; }
+    .md\:grid-column\:span-4,               .md\:grid-col\:span-4                       { grid-column: span 4 / span 4 !important; }
+    .md\:grid-column\:span-5,               .md\:grid-col\:span-5                       { grid-column: span 5 / span 5 !important; }
+    .md\:grid-column\:span-6,               .md\:grid-col\:span-6                       { grid-column: span 6 / span 6 !important; }
+    .md\:grid-column\:span-7,               .md\:grid-col\:span-7                       { grid-column: span 7 / span 7 !important; }
+    .md\:grid-column\:span-8,               .md\:grid-col\:span-8                       { grid-column: span 8 / span 8 !important; }
+    .md\:grid-column\:span-9,               .md\:grid-col\:span-9                       { grid-column: span 9 / span 9 !important; }
+    .md\:grid-column\:span-10,              .md\:grid-col\:span-10                      { grid-column: span 10 / span 10 !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:grid-column\:auto,                 .lg\:grid-col\:auto                         { grid-column: auto !important; }
+    .lg\:grid-column\:span-1,               .lg\:grid-col\:span-1                       { grid-column: span 1 / span 1 !important; }
+    .lg\:grid-column\:span-2,               .lg\:grid-col\:span-2                       { grid-column: span 2 / span 2 !important; }
+    .lg\:grid-column\:span-3,               .lg\:grid-col\:span-3                       { grid-column: span 3 / span 3 !important; }
+    .lg\:grid-column\:span-4,               .lg\:grid-col\:span-4                       { grid-column: span 4 / span 4 !important; }
+    .lg\:grid-column\:span-5,               .lg\:grid-col\:span-5                       { grid-column: span 5 / span 5 !important; }
+    .lg\:grid-column\:span-6,               .lg\:grid-col\:span-6                       { grid-column: span 6 / span 6 !important; }
+    .lg\:grid-column\:span-7,               .lg\:grid-col\:span-7                       { grid-column: span 7 / span 7 !important; }
+    .lg\:grid-column\:span-8,               .lg\:grid-col\:span-8                       { grid-column: span 8 / span 8 !important; }
+    .lg\:grid-column\:span-9,               .lg\:grid-col\:span-9                       { grid-column: span 9 / span 9 !important; }
+    .lg\:grid-column\:span-10,              .lg\:grid-col\:span-10                      { grid-column: span 10 / span 10 !important; }
+}
+
+
+/* grid-row-span */
+.grid-row\:auto                             { grid-row: auto !important; }
+.grid-row\:span-1                           { grid-row: span 1 / span 1 !important; }
+.grid-row\:span-2                           { grid-row: span 2 / span 2 !important; }
+.grid-row\:span-3                           { grid-row: span 3 / span 3 !important; }
+.grid-row\:span-4                           { grid-row: span 4 / span 4 !important; }
+.grid-row\:span-5                           { grid-row: span 5 / span 5 !important; }
+.grid-row\:span-6                           { grid-row: span 6 / span 6 !important; }
+.grid-row\:span-7                           { grid-row: span 7 / span 7 !important; }
+.grid-row\:span-8                           { grid-row: span 8 / span 8 !important; }
+.grid-row\:span-9                           { grid-row: span 9 / span 9 !important; }
+.grid-row\:span-10                          { grid-row: span 10 / span 10 !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:grid-row\:auto                     { grid-row: auto !important; }
+    .md\:grid-row\:span-1                   { grid-row: span 1 / span 1 !important; }
+    .md\:grid-row\:span-2                   { grid-row: span 2 / span 2 !important; }
+    .md\:grid-row\:span-3                   { grid-row: span 3 / span 3 !important; }
+    .md\:grid-row\:span-4                   { grid-row: span 4 / span 4 !important; }
+    .md\:grid-row\:span-5                   { grid-row: span 5 / span 5 !important; }
+    .md\:grid-row\:span-6                   { grid-row: span 6 / span 6 !important; }
+    .md\:grid-row\:span-7                   { grid-row: span 7 / span 7 !important; }
+    .md\:grid-row\:span-8                   { grid-row: span 8 / span 8 !important; }
+    .md\:grid-row\:span-9                   { grid-row: span 9 / span 9 !important; }
+    .md\:grid-row\:span-10                  { grid-row: span 10 / span 10 !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:grid-row\:auto                     { grid-row: auto !important; }
+    .lg\:grid-row\:span-1                   { grid-row: span 1 / span 1 !important; }
+    .lg\:grid-row\:span-2                   { grid-row: span 2 / span 2 !important; }
+    .lg\:grid-row\:span-3                   { grid-row: span 3 / span 3 !important; }
+    .lg\:grid-row\:span-4                   { grid-row: span 4 / span 4 !important; }
+    .lg\:grid-row\:span-5                   { grid-row: span 5 / span 5 !important; }
+    .lg\:grid-row\:span-6                   { grid-row: span 6 / span 6 !important; }
+    .lg\:grid-row\:span-7                   { grid-row: span 7 / span 7 !important; }
+    .lg\:grid-row\:span-8                   { grid-row: span 8 / span 8 !important; }
+    .lg\:grid-row\:span-9                   { grid-row: span 9 / span 9 !important; }
+    .lg\:grid-row\:span-10                  { grid-row: span 10 / span 10 !important; }
+}

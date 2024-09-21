@@ -1,0 +1,24 @@
+/* overflow에 줄임말이 있어 of 사용하지 않음 */
+.object-fit\:fill,                      .obj-fit\:fill          { object-fit: fill !important; }
+.object-fit\:contain,                   .obj-fit\:contain       { object-fit: contain !important; }
+.object-fit\:cover,                     .obj-fit\:cover         { object-fit: cover !important; }
+.object-fit\:none,                      .obj-fit\:none          { object-fit: none !important; }
+.object-fit\:scale-down,                .obj-fit\:scale-down    { object-fit: scale-down !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+  .md\:object-fit\:fill,                .md\:obj-fit\:fill       { object-fit: fill !important; }
+  .md\:object-fit\:contain,             .md\:obj-fit\:contain    { object-fit: contain !important; }
+  .md\:object-fit\:cover,               .md\:obj-fit\:cover      { object-fit: cover !important; }
+  .md\:object-fit\:none,                .md\:obj-fit\:none       { object-fit: none !important; }
+  .md\:object-fit\:scale-down,          .md\:obj-fit\:scale-down { object-fit: scale-down !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  .lg\:object-fit\:fill,                .lg\:obj-fit\:fill       { object-fit: fill !important; }
+  .lg\:object-fit\:contain,             .lg\:obj-fit\:contain    { object-fit: contain !important; }
+  .lg\:object-fit\:cover,               .lg\:obj-fit\:cover      { object-fit: cover !important; }
+  .lg\:object-fit\:none,                .lg\:obj-fit\:none       { object-fit: none !important; }
+  .lg\:object-fit\:scale-down,          .lg\:obj-fit\:scale-down { object-fit: scale-down !important; }
+}

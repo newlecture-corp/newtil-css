@@ -1,0 +1,23 @@
+.child-line-height\:1>*,                .child-line-h\:1>*,                 .child-ln-h\:1>*                { line-height: 1 !important; }
+.child-line-height\:1\.25>*,            .child-line-h\:1\.25>*,             .child-ln-h\:1\.25>*            { line-height: 1.25 !important; }
+.child-line-height\:1\.5>*,             .child-line-h\:1\.5>*,              .child-ln-h\:1\.5>*             { line-height: 1.5 !important; }
+.child-line-height\:1\.75>*,            .child-line-h\:1\.75>*,             .child-ln-h\:1\.75>*            { line-height: 1.75 !important; }
+.child-line-height\:2>*,                .child-line-h\:2>*,                 .child-ln-h\:2>*                { line-height: 2 !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:child-line-height\:1>*,        .md\:child-line-h\:1>*,     	    .md\:child-ln-h\:1>*    		{ line-height: 1 !important; }
+    .md\:child-line-height\:1\.25>*,    .md\:child-line-h\:1\.25>*, 	    .md\:child-ln-h\:1\.25>*		{ line-height: 1.25 !important; }
+    .md\:child-line-height\:1\.5>*,     .md\:child-line-h\:1\.5>*,  	    .md\:child-ln-h\:1\.5>* 		{ line-height: 1.5 !important; }
+    .md\:child-line-height\:1\.75>*,    .md\:child-line-h\:1\.75>*, 	    .md\:child-ln-h\:1\.75>*		{ line-height: 1.75 !important; }
+    .md\:child-line-height\:2>*,        .md\:child-line-h\:2>*,     	    .md\:child-ln-h\:2>*    		{ line-height: 2 !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:child-line-height\:1>*,        .lg\:child-line-h\:1>*,     		.lg\:child-ln-h\:1>*    		{ line-height: 1 !important; }
+    .lg\:child-line-height\:1\.25>*,    .lg\:child-line-h\:1\.25>*, 		.lg\:child-ln-h\:1\.25>*		{ line-height: 1.25 !important; }
+    .lg\:child-line-height\:1\.5>*,     .lg\:child-line-h\:1\.5>*,  		.lg\:child-ln-h\:1\.5>* 		{ line-height: 1.5 !important; }
+    .lg\:child-line-height\:1\.75>*,    .lg\:child-line-h\:1\.75>*, 		.lg\:child-ln-h\:1\.75>*		{ line-height: 1.75 !important; }
+    .lg\:child-line-height\:2>*,        .lg\:child-line-h\:2>*,     		.lg\:child-ln-h\:2>*    		{ line-height: 2 !important; }
+}

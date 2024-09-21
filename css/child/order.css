@@ -1,0 +1,31 @@
+/* order */
+.order\:1 { order: var(--order-1) !important; }
+.order\:2 { order: var(--order-2) !important; }
+.order\:3 { order: var(--order-3) !important; }
+.order\:4 { order: var(--order-4) !important; }
+.order\:5 { order: var(--order-5) !important; }
+.order\:none { order: none !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    /* order */ 
+    .md\:order\:1 { order: var(--order-1) !important; }
+    .md\:order\:2 { order: var(--order-2) !important; }
+    .md\:order\:3 { order: var(--order-3) !important; }
+    .md\:order\:4 { order: var(--order-4) !important; }
+    .md\:order\:5 { order: var(--order-5) !important; }
+    .md\:order\:none { order: none !important; }
+
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    /* order */ 
+    .lg\:order\:1 { order: var(--order-1) !important; }
+    .lg\:order\:2 { order: var(--order-2) !important; }
+    .lg\:order\:3 { order: var(--order-3) !important; }
+    .lg\:order\:4 { order: var(--order-4) !important; }
+    .lg\:order\:5 { order: var(--order-5) !important; }
+    .lg\:order\:none { order: none !important; }
+}
+

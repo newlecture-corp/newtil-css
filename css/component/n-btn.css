@@ -21,274 +21,463 @@
  
 <example>───────────────────────────────────    
 */
-:is(
-    .n-btn
-) {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 
-    padding: var(--btn-padding, 8px 16px);
-    width: initial;
-    height: var(--btn-height, 36px);
-    border: 1px solid var(--btn-border-color, var(--color-base-3));
-    border-radius: var(--btn-border-radius, 8px);
-    background-color: transparent;
+/* ==== button ======================= */
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.n-btn {
+    --btn-font-size: 14px;
+    --btn-border-color: var(--color-base-3);
+    --btn-border-radius: 8px;
+    --btn-bg-hover: var(--color-base-2);
+    --btn-bg-color: transparent;
+    --btn-padding: 8px 16px;
 
     color: inherit;
     font-size: var(--btn-font-size, 14px);
     font-weight: 500;
     font-family: inherit;
+    line-height: 1em;
 
     white-space: nowrap;
     user-select: none;
     cursor: pointer;
 
+    box-sizing: content-box;
+    padding: var(--btn-padding);
+    width: initial;
+    border: 1px solid var(--btn-border-color, var(--color-base-3));
+    border-radius: var(--btn-border-radius, 8px);
+    background-color: transparent;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
     transition: border-color 0.3s, background-color 0.3s;
 }
 
 .n-btn:hover {
-    background-color: var(--btn-background-hover, var(--color-base-2));
+    background-color: var(--btn-bg-hover, var(--color-base-2));
+    text-decoration: none;
 }
 
+.n-btn\:static{
+    cursor: unset;
+}
+
+.n-btn\:rounded{
+    border-radius: 50%;
+    background-color: var(--color-base-1);
+}
+.n-btn\:rounded:hover {
+    border: 1px solid var(--color-base-6);
+}
+
+
 /* <size>------------------------------------ */
+.n-btn-size\:inline{
+    padding: 0;
+
+    line-height: 1em;
+}
+
 .n-btn-size\:small{
-    font-size: 12px;
-    padding: 4px 12px;
+    --btn-font-size: 12px;
+    --btn-padding: 4px 8px;
+
+    line-height: 1em;
+}
+
+.n-btn-size\:1{
+    --btn-font-size: 14px;
+    --btn-padding: 8px 16px;
+}
+
+.n-btn-size\:2{
+    --btn-font-size: 16px;
+    --btn-padding: 10px 18px;
+}
+
+.n-btn-size\:3{
+    --btn-font-size: 18px;
+    --btn-padding: 12px 20px;
+}
+
+/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+.n-btn:is(.n-icon):not(.n-deco){
+    --btn-padding: 4px;
+    text-indent: -999px;
+}
+.n-btn-size\:1:is(.n-icon):not(.n-deco){
+    --btn-padding: 8px;
+}
+
+.n-btn-size\:2:is(.n-icon):not(.n-deco){
+    --btn-padding: 10px;
+}
+
+.n-btn-size\:3:is(.n-icon):not(.n-deco){
+    --btn-padding: 12px;
 }
 
 /* <color>------------------------------------ */
 /* base */
 
-.n-btn-color\:main-1 {
-    background-color: var(--color-main-1);
-    border-color: var(--color-main-1);
-
-    color: var(--color-base-1);
-}
-
-.n-btn-color\:main-1:hover {
-    background-color: var(--btn-background1-hover, var(--color-main-1));
-}
-
-.n-btn-color\:main-2 {
+.n-btn-color\:main {
     background-color: var(--color-main-2);
-    border-color: var(--color-main-1);
+    border-color: var(--color-main-2);
 
     color: var(--color-base-1);
 }
 
-.n-btn-color\:main-2:hover {
-    background-color: var(--btn-background2-hover, var(--color-main-1));
+.n-btn-color\:main:hover {
+    --btn-bg-hover: var(--color-main-1);
 }
 
-.n-btn-color\:main-3 {
-    background-color: var(--color-main-3);
-    border-color: var(--color-main-1);
-
-    color: var(--color-base-1);
+.n-btn-color\:main:is(.n-icon)::before{
+    background-color: var(--color-base-1);
 }
 
-.n-btn-color\:main-3:hover {
-    background-color: var(--btn-background3-hover, var(--color-main-1));
-}
-
-.n-btn-color\:sub-1 {
-    background-color: var(--color-sub-1);
-    border-color: var(--color-sub-1);
-
-    color: var(--color-base-1);
-}
-
-.n-btn-color\:sub-1:hover {
-    background-color: var(--btn-background1-hover, rgba(var(--rgb-sub-1), 0.7));
-}
-
-.n-btn-color\:sub-2 {
+.n-btn-color\:sub {
     background-color: var(--color-sub-2);
-    border-color: var(--color-sub-1);
+    border-color: var(--color-sub-2);
 
     color: var(--color-base-1);
 }
 
-.n-btn-color\:sub-2:hover {
-    background-color: var(--btn-background2-hover, var(--color-sub-1));
+.n-btn-color\:sub:hover {
+    --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
 }
 
-.n-btn-color\:sub-3 {
-    background-color: var(--color-sub-3);
-    border-color: var(--color-sub-1);
-
-    color: var(--color-base-1);
+.n-btn-color\:sub:is(.n-icon)::before{
+    background-color: var(--color-base-1);
 }
 
-.n-btn-color\:sub-3:hover {
-    background-color: var(--btn-background3-hover, var(--color-sub-1));
-}
-
-.n-btn-color\:accent-1 {
-    background-color: var(--color-accent-1);
-    border-color: var(--color-accent-1);
-
-    color: var(--color-base-1);
-}
-
-.n-btn-color\:accent-1:hover {
-    background-color: var(--btn-background1-hover, var(--color-accent-1));
-}
-
-.n-btn-color\:accent-2 {
+.n-btn-color\:accent {
     background-color: var(--color-accent-2);
-    border-color: var(--color-accent-1);
+    border-color: var(--color-accent-2);
 
     color: var(--color-base-1);
 }
 
-.n-btn-color\:accent-2:hover {
-    background-color: var(--btn-background2-hover, var(--color-accent-1));
+.n-btn-color\:accent:hover {
+    --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
 }
 
-.n-btn-color\:accent-3 {
-    background-color: var(--color-accent-3);
-    border-color: var(--color-accent-1);
-
-    color: var(--color-base-1);
+.n-btn-color\:accent:is(.n-icon)::before{
+    background-color: var(--color-base-1);
 }
 
-.n-btn-color\:accent-3:hover {
-    background-color: var(--btn-background3-hover, var(--color-accent-1));
-}
 
-@media screen and (min-width: 768px) {
-    .md\:btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
 
-        padding: var(--btn-padding, 4px 16px);
-        width: initial;
-        height: var(--btn-height, 36px);
-        border: 1px solid var(--btn-border-color, var(--color-base-3));
-        border-radius: var(--btn-border-radius, 8px);
-        background-color: transparent;
+@media screen and (min-width: 480px) {
+    .md\:n-btn {
+
+        --btn-font-size: 14px;
+        --btn-border-color: var(--color-base-3);
+        --btn-border-radius: 8px;
+        --btn-bg-hover: var(--color-base-2);
 
         color: inherit;
         font-size: var(--btn-font-size, 14px);
         font-weight: 500;
         font-family: inherit;
+        line-height: 1em;
 
         white-space: nowrap;
         user-select: none;
         cursor: pointer;
 
+        box-sizing: content-box;
+        padding: var(--btn-padding, 8px 16px);
+        width: initial;
+        border: 1px solid var(--btn-border-color, var(--color-base-3));
+        border-radius: var(--btn-border-radius, 8px);
+        background-color: transparent;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
         transition: border-color 0.3s, background-color 0.3s;
     }
 
-    .md\:btn:hover {
-        background-color: var(--btn-background-hover, var(--rgb-base-2));
+    .md\:n-btn:hover {
+        background-color: var(--btn-bg-hover, var(--color-base-2));
+        text-decoration: none;
     }
+
+    .md\:n-btn\:static{
+        cursor: unset;
+    }
+
+    /* <size>------------------------------------ */
+    .md\:n-btn-size\:inline{
+        padding: 0;
+
+        line-height: 1em;
+    }
+
+    .md\:n-btn-size\:small{
+        --btn-font-size: 12px;
+        padding: var(--btn-padding, 4px 8px);
+
+        line-height: 1em;
+    }
+
+    .md\:n-btn-size\:1{
+        --btn-font-size: 14px;
+        padding: var(--btn-padding, 8px 16px);
+    }
+
+    .md\:n-btn-size\:2{
+        --btn-font-size: 16px;
+        padding: var(--btn-padding, 10px 18px);
+    }
+
+    .md\:n-btn-size\:3{
+        font-size: 18px;
+        padding: var(--btn-padding, 12px 20px);
+    }
+
+    .md\:n-btn-size\:1:is(.n-icon){
+        mask-size: var(--icon-size-1);
+    }
+
+    .md\:n-btn-size\:2:is(.n-icon){
+        mask-size: var(--icon-size-2);
+    }
+
+    .md\:n-btn-size\:3:is(.n-icon){
+        mask-size: var(--icon-size-3);
+    }
+
 
     /* <color>------------------------------------ */
     /* base */
-    .md\:btn-color\:main-1 {
-        background-color: var(--color-main-1);
-        border-color: var(--color-main-1);
 
-        color: var(--color-base-1);
-    }
-
-    .md\:btn-color\:main-1:hover {
-        background-color: var(--btn-background1-hover, rgba(var(--rgb-main-1), 0.7));
-    }
-
-    .md\:btn-color\:main-2 {
+    .md\:n-btn-color\:main {
         background-color: var(--color-main-2);
-        border-color: var(--color-main-1);
+        border-color: var(--color-main-2);
 
         color: var(--color-base-1);
     }
 
-    .md\:btn-color\:main-2:hover {
-        background-color: var(--btn-background2-hover, var(--color-main-1));
+    .md\:n-btn-color\:main:hover {
+        --btn-bg-hover: var(--color-main-1);
     }
 
-    .md\:btn-color\:main-3 {
-        background-color: var(--color-main-3);
-        border-color: var(--color-main-1);
-
-        color: var(--color-base-1);
+    .md\:n-btn-color\:main:is(.n-icon)::before{
+        background-color: var(--color-base-1);
     }
 
-    .md\:btn-color\:main-3:hover {
-        background-color: var(--btn-background3-hover, var(--color-main-1));
-    }
-
-    .md\:btn-color\:sub-1 {
-        background-color: var(--color-sub-1);
-        border-color: var(--color-sub-1);
-
-        color: var(--color-base-1);
-    }
-
-    .md\:btn-color\:sub-1:hover {
-        background-color: var(--btn-background1-hover, rgba(var(--rgb-sub-1), 0.7));
-    }
-
-    .md\:btn-color\:sub-2 {
+    .md\:n-btn-color\:sub {
         background-color: var(--color-sub-2);
-        border-color: var(--color-sub-1);
+        border-color: var(--color-sub-2);
 
         color: var(--color-base-1);
     }
 
-    .md\:btn-color\:sub-2:hover {
-        background-color: var(--btn-background2-hover, var(--color-sub-1));
+    .md\:n-btn-color\:sub:hover {
+        --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
     }
 
-    .md\:btn-color\:sub-3 {
-        background-color: var(--color-sub-3);
-        border-color: var(--color-sub-1);
-
-        color: var(--color-base-1);
+    .md\:n-btn-color\:sub:is(.n-icon)::before{
+        background-color: var(--color-base-1);
     }
 
-    .md\:btn-color\:sub-3:hover {
-        background-color: var(--btn-background3-hover, var(--color-sub-1));
-    }
-
-    .md\:btn-color\:accent-1 {
-        background-color: var(--color-accent-1);
-        border-color: var(--color-accent-1);
-
-        color: var(--color-base-1);
-    }
-
-    .md\:btn-color\:accent-1:hover {
-        background-color: var(--btn-background1-hover, var(--color-accent-1));
-    }
-
-    .md\:btn-color\:accent-2 {
+    .md\:n-btn-color\:accent {
         background-color: var(--color-accent-2);
-        border-color: var(--color-accent-1);
+        border-color: var(--color-accent-2);
 
         color: var(--color-base-1);
     }
 
-    .md\:btn-color\:accent-2:hover {
-        background-color: var(--btn-background2-hover, var(--color-accent-1));
+    .md\:n-btn-color\:accent:hover {
+        --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
     }
 
-    .md\:btn-color\:accent-3 {
-        background-color: var(--color-accent-3);
-        border-color: var(--color-accent-1);
+    .md\:n-btn-color\:accent:is(.n-icon)::before{
+        background-color: var(--color-base-1);
+    }
+
+    /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+    .md\:n-btn:is(.n-icon):not(.n-deco),
+    .md\:n-btn-size\:1:is(.n-icon):not(.n-deco){
+        --btn-padding: 8px;
+        text-indent: -999px;
+    }
+
+    .md\:n-btn-size\:2:is(.n-icon):not(.n-deco){
+        --btn-padding: 10px;
+    }
+
+    .md\:n-btn-size\:3:is(.n-icon):not(.n-deco){
+        --btn-padding: 12px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .lg\:n-btn {
+
+        --btn-font-size: 14px;
+        --btn-border-color: var(--color-base-3);
+        --btn-border-radius: 8px;
+        --btn-bg-hover: var(--color-base-2);
+
+        color: inherit;
+        font-size: var(--btn-font-size, 14px);
+        font-weight: 500;
+        font-family: inherit;
+        line-height: 1em;
+
+        white-space: nowrap;
+        user-select: none;
+        cursor: pointer;
+
+        box-sizing: content-box;
+        padding: var(--btn-padding, 8px 16px);
+        width: initial;
+        border: 1px solid var(--btn-border-color, var(--color-base-3));
+        border-radius: var(--btn-border-radius, 8px);
+        background-color: transparent;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        transition: border-color 0.3s, background-color 0.3s;
+    }
+
+    .lg\:n-btn:hover {
+        background-color: var(--btn-bg-hover, var(--color-base-2));
+        text-decoration: none;
+    }
+
+    .lg\:n-btn\:static{
+        cursor: unset;
+    }
+
+    /* <size>------------------------------------ */
+    .lg\:n-btn-size\:inline{
+        padding: 0;
+
+        line-height: 1em;
+    }
+
+    .lg\:n-btn-size\:small{
+        --btn-font-size: 12px;
+        padding: var(--btn-padding, 4px 8px);
+
+        line-height: 1em;
+    }
+
+    .lg\:n-btn-size\:1{
+        --btn-font-size: 14px;
+        padding: var(--btn-padding, 8px 16px);
+    }
+
+    .lg\:n-btn-size\:2{
+        --btn-font-size: 16px;
+        padding: var(--btn-padding, 10px 18px);
+    }
+
+    .lg\:n-btn-size\:3{
+        font-size: 18px;
+        padding: var(--btn-padding, 12px 20px);
+    }
+
+    .lg\:n-btn-size\:1:is(.n-icon){
+        mask-size: var(--icon-size-1);
+    }
+
+    .lg\:n-btn-size\:2:is(.n-icon){
+        mask-size: var(--icon-size-2);
+    }
+
+    .lg\:n-btn-size\:3:is(.n-icon){
+        mask-size: var(--icon-size-3);
+    }
+
+
+    /* <color>------------------------------------ */
+    /* base */
+
+    .lg\:n-btn-color\:main {
+        background-color: var(--color-main-2);
+        border-color: var(--color-main-2);
 
         color: var(--color-base-1);
     }
 
-    .md\:btn-color\:accent-3:hover {
-        background-color: var(--btn-background3-hover, var(--color-accent-1));
+    .lg\:n-btn-color\:main:hover {
+        --btn-bg-hover: var(--color-main-1);
     }
+
+    .lg\:n-btn-color\:main:is(.n-icon)::before{
+        background-color: var(--color-base-1);
+    }
+
+    .lg\:n-btn-color\:sub {
+        background-color: var(--color-sub-2);
+        border-color: var(--color-sub-2);
+
+        color: var(--color-base-1);
+    }
+
+    .lg\:n-btn-color\:sub:hover {
+        --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+    }
+
+    .lg\:n-btn-color\:sub:is(.n-icon)::before{
+        background-color: var(--color-base-1);
+    }
+
+    .lg\:n-btn-color\:accent {
+        background-color: var(--color-accent-2);
+        border-color: var(--color-accent-2);
+
+        color: var(--color-base-1);
+    }
+
+    .lg\:n-btn-color\:accent:hover {
+        --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
+    }
+
+    .lg\:n-btn-color\:accent:is(.n-icon)::before{
+        background-color: var(--color-base-1);
+    }
+
+    /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+    .lg\:n-btn:is(.n-icon):not(.n-deco),
+    .lg\:n-btn-size\:1:is(.n-icon):not(.n-deco){
+        --btn-padding: 8px;
+        text-indent: -999px;
+    }
+
+    .lg\:n-btn-size\:2:is(.n-icon):not(.n-deco){
+        --btn-padding: 10px;
+    }
+
+    .lg\:n-btn-size\:3:is(.n-icon):not(.n-deco){
+        --btn-padding: 12px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
 
 }

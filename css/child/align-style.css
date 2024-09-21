@@ -1,0 +1,86 @@
+/* align-content */
+.align-content\:start,          .al-content\:start,      .ac\:start { align-content : start !important; }
+.align-content\:center,         .al-content\:center,     .ac\:center { align-content : center !important; }
+.align-content\:end,            .al-content\:end,        .ac\:end { align-content : end !important; }
+.align-content\:flex-start,     .al-content\:flex-start, .ac\:flex-start { align-content: flex-start !important; }
+.align-content\:flex-end, 	    .al-content\:flex-end,   .ac\:flex-end { align-content: flex-end !important; }
+
+/* align-items */
+.align-items\:stretch,          .al-items\:stretch,    .ai\:stretch { align-items : stretch !important; }
+.align-items\:center,           .al-items\:center,     .ai\:center { align-items : center !important; }
+.align-items\:start,            .al-items\:start,      .ai\:start { align-items : start !important; }
+.align-items\:end,              .al-items\:end,        .ai\:end { align-items : end !important; }
+.align-items\:self-start,       .al-items\:start, 	  .ai\:self-start { -ms-flex-align: start !important; align-items: self-start !important; }
+.align-items\:self-end,         .al-items\:self-end,   .ai\:self-end { -ms-flex-align: end !important; align-items: slef-end !important; }
+.align-items\:flex-start,       .al-items\:flex-start, .ai\:flex-start { -ms-flex-align: start !important; align-items: flex-start !important; }
+.align-items\:flex-end,         .al-items\:flex-end,   .ai\:flex-end { -ms-flex-align: end !important; align-items: flex-end !important; }
+
+/* align-self */
+.align-self\:stretch,          .al-self\:stretch,     .as\:stretch { align-self : stretch !important; }
+.align-self\:center,           .al-self\:center,      .as\:center { align-self : center !important; }
+.align-self\:start,            .al-self\:start,       .as\:start { align-self : start !important; }
+.align-self\:end,              .al-self\:end,         .as\:end { align-self : end !important; }
+.align-self\:self-start,       .al-self\:start, 	  .as\:self-start { align-self: self-start !important; }
+.align-self\:self-end,         .al-self\:self-end,    .as\:self-end { align-self: slef-end !important; }
+.align-self\:flex-start,       .al-self\:flex-start,  .as\:flex-start { align-self: flex-start !important; }
+.align-self\:flex-end,         .al-self\:flex-end, 	  .as\:flex-end { align-self: flex-end !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    /* align-content */
+    .md\:align-content\:start,          .md\:al-content\:start,      .md\:ac\:start { align-content : start !important; }
+    .md\:align-content\:center,         .md\:al-content\:center,     .md\:ac\:center { align-content : center !important; }
+    .md\:align-content\:end,            .md\:al-content\:end,        .md\:ac\:end { align-content : end !important; }
+    .md\:align-content\:flex-start,     .md\:al-content\:flex-start, .md\:ac\:flex-start { align-content: flex-start !important; }
+    .md\:align-content\:flex-end, 	    .md\:al-content\:flex-end,   .md\:ac\:flex-end { align-content: flex-end !important; }
+
+    /* align-items */
+    .md\:align-items\:stretch,          .md\:al-items\:stretch,    .md\:ai\:stretch { align-items : stretch !important; }
+    .md\:align-items\:center,           .md\:al-items\:center,     .md\:ai\:center { align-items : center !important; }
+    .md\:align-items\:start,            .md\:al-items\:start,      .md\:ai\:start { align-items : start !important; }
+    .md\:align-items\:end,              .md\:al-items\:end,        .md\:ai\:end { align-items : end !important; }
+    .md\:align-items\:self-start,       .md\:al-items\:start, 	  .md\:ai\:self-start { -ms-flex-align: start !important; align-items: self-start !important; }
+    .md\:align-items\:self-end,         .md\:al-items\:self-end,   .md\:ai\:self-end { -ms-flex-align: end !important; align-items: slef-end !important; }
+    .md\:align-items\:flex-start,       .md\:al-items\:flex-start, .md\:ai\:flex-start { -ms-flex-align: start !important; align-items: flex-start !important; }
+    .md\:align-items\:flex-end,         .md\:al-items\:flex-end,   .md\:ai\:flex-end { -ms-flex-align: end !important; align-items: flex-end !important; }
+
+    /* align-self */
+    .md\:align-self\:stretch,          .md\:al-self\:stretch,     .md\:as\:stretch { align-self : stretch !important; }
+    .md\:align-self\:center,           .md\:al-self\:center,      .md\:as\:center { align-self : center !important; }
+    .md\:align-self\:start,            .md\:al-self\:start,       .md\:as\:start { align-self : start !important; }
+    .md\:align-self\:end,              .md\:al-self\:end,         .md\:as\:end { align-self : end !important; }
+    .md\:align-self\:self-start,       .md\:al-self\:start, 	  .md\:as\:self-start { align-self: self-start !important; }
+    .md\:align-self\:self-end,         .md\:al-self\:self-end,    .md\:as\:self-end { align-self: slef-end !important; }
+    .md\:align-self\:flex-start,       .md\:al-self\:flex-start,  .md\:as\:flex-start { align-self: flex-start !important; }
+    .md\:align-self\:flex-end,         .md\:al-self\:flex-end, 	  .md\:as\:flex-end { align-self: flex-end !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    /* align-content */
+    .lg\:align-content\:start,          .lg\:al-content\:start,      .lg\:ac\:start { align-content : start !important; }
+    .lg\:align-content\:center,         .lg\:al-content\:center,     .lg\:ac\:center { align-content : center !important; }
+    .lg\:align-content\:end,            .lg\:al-content\:end,        .lg\:ac\:end { align-content : end !important; }
+    .lg\:align-content\:flex-start,     .lg\:al-content\:flex-start, .lg\:ac\:flex-start { align-content: flex-start !important; }
+    .lg\:align-content\:flex-end, 	    .lg\:al-content\:flex-end,   .lg\:ac\:flex-end { align-content: flex-end !important; }
+
+    /* align-items */
+    .lg\:align-items\:stretch,          .lg\:al-items\:stretch,    .lg\:ai\:stretch { align-items : stretch !important; }
+    .lg\:align-items\:center,           .lg\:al-items\:center,     .lg\:ai\:center { align-items : center !important; }
+    .lg\:align-items\:start,            .lg\:al-items\:start,      .lg\:ai\:start { align-items : start !important; }
+    .lg\:align-items\:end,              .lg\:al-items\:end,        .lg\:ai\:end { align-items : end !important; }
+    .lg\:align-items\:self-start,       .lg\:al-items\:start, 	  .lg\:ai\:self-start { -ms-flex-align: start !important; align-items: self-start !important; }
+    .lg\:align-items\:self-end,         .lg\:al-items\:self-end,   .lg\:ai\:self-end { -ms-flex-align: end !important; align-items: slef-end !important; }
+    .lg\:align-items\:flex-start,       .lg\:al-items\:flex-start, .lg\:ai\:flex-start { -ms-flex-align: start !important; align-items: flex-start !important; }
+    .lg\:align-items\:flex-end,         .lg\:al-items\:flex-end,   .lg\:ai\:flex-end { -ms-flex-align: end !important; align-items: flex-end !important; }
+
+    /* align-self */
+    .lg\:align-self\:stretch,          .lg\:al-self\:stretch,     .lg\:as\:stretch { align-self : stretch !important; }
+    .lg\:align-self\:center,           .lg\:al-self\:center,      .lg\:as\:center { align-self : center !important; }
+    .lg\:align-self\:start,            .lg\:al-self\:start,       .lg\:as\:start { align-self : start !important; }
+    .lg\:align-self\:end,              .lg\:al-self\:end,         .lg\:as\:end { align-self : end !important; }
+    .lg\:align-self\:self-start,       .lg\:al-self\:start, 	  .lg\:as\:self-start { align-self: self-start !important; }
+    .lg\:align-self\:self-end,         .lg\:al-self\:self-end,    .lg\:as\:self-end { align-self: slef-end !important; }
+    .lg\:align-self\:flex-start,       .lg\:al-self\:flex-start,  .lg\:as\:flex-start { align-self: flex-start !important; }
+    .lg\:align-self\:flex-end,         .lg\:al-self\:flex-end, 	  .lg\:as\:flex-end { align-self: flex-end !important; }
+}
