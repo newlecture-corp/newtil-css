@@ -1,18 +1,23 @@
 
 /* --- ul.n-list ------------------------------------ */
 
+:is(ul,ol).n-list>li,
 :is(ul,ol).n-list\:lined>li{
   display: flex;
   padding: 10px 0;
-  border-bottom: 1px dashed var(--color-base-3);
-  
 }
+
+:is(ul,ol).n-list\:lined>li{
+  border-bottom: 1px dashed var(--color-base-3);  
+}
+
 :is(ul,ol).n-list\:lined>li:last-child{
   border-bottom: none;
 }
 
 /* --- dl.n-list ------------------------------------ */
 
+dl.n-list>div,
 dl.n-list\:lined>div{
   display: flex;
   padding: 10px 0;
@@ -28,9 +33,14 @@ dl.n-list\:lined>div{
 
   dd {
       margin-left: 5px;
-  }
-  
+  }  
 }
+
+dl.n-list\:lined>div{
+  border-bottom: 1px dashed var(--color-base-3);
+}
+
+
 dl.n-list\:lined>div:last-child{
   border-bottom: none;
 }
