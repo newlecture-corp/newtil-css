@@ -169,6 +169,8 @@ n-layout
     >main,>.n-main,
     >div>main,>.n-body>main{
         flex-grow: 1;
+        padding-left: 10px;
+        padding-right: 10px;
 
         display: flex;
         flex-direction: column;
