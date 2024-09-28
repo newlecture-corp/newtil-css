@@ -24,6 +24,16 @@
 
   >:is(thead, tbody)>tr>:is(th,td){
     text-align: center;
+    vertical-align: middle;
+
+    img,
+    input{
+      vertical-align: middle;
+    }
+
+    &:has(img){
+      padding: 8px;
+    }
   }
 
 }
