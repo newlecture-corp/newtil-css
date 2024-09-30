@@ -103,7 +103,8 @@ base 1/2/3/4/5/6/7/8/9/10*/
 /* ---- icon images ----------------------------------------------------- */
 /* ====================================================================== */
 
-.n-icon\:arrow_back_2::before{ --icon: url("../../image/icon/arrow_back_2"); }
+.n-icon\:add_shopping_cart::before{ --icon: url("../../image/icon/add_shopping_cart"); }
+.n-icon\:arrow_back_2::before{ --icon: url("../../image/icon/arrow_back_2.svg"); }
 .n-icon\:arrow_clockwise_fill::before{ --icon:url("../../image/icon/arrow_clockwise_fill.svg"); }
 .n-icon\:arrow_down::before{ --icon:url(../../image/icon/arrow_down.svg); }
 .n-icon\:arrow_left::before{ --icon:url(../../image/icon/arrow_left.svg); }
@@ -202,6 +203,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
 .n-icon\:eye_slash::before { --icon:url(../../image/icon/eye_slash.svg);}
 .n-icon\:fast_forward::before { --icon:url(../../image/icon/fast_forward.svg);}
 .n-icon\:fast_rewind::before { --icon:url(../../image/icon/fast_rewind.svg);}
+.n-icon\:favorite::before { --icon:url(../../image/icon/favorite.svg);}
 .n-icon\:file::before { --icon:url(../../image/icon/file.svg);}
 .n-icon\:file_plus::before { --icon:url(../../image/icon/file_plus.svg);}
 .n-icon\:filter_retrolux::before { --icon:url(../../image/icon/filter_retrolux.svg);}
@@ -367,6 +369,8 @@ base 1/2/3/4/5/6/7/8/9/10*/
 .n-icon\:share_network::before { --icon:url(../../image/icon/share_network.svg);}
 .n-icon\:share_network_fill::before { --icon:url(../../image/icon/share_network_fill.svg);}
 .n-icon\:settings::before { --icon:url(../../image/icon/settings.svg);}
+.n-icon\:shopping_cart::before { --icon:url(../../image/icon/shopping_cart.svg);}
+.n-icon\:shopping_cart_checkout::before { --icon:url(../../image/icon/shopping_cart_checkout.svg);}
 .n-icon\:shopping_cart_simple::before { --icon:url(../../image/icon/shopping_cart_simple.svg);}
 .n-icon\:shopping_cart_simple_fill::before { --icon:url(../../image/icon/shopping_cart_simple_fill.svg);}
 .n-icon\:shuffle_fill::before { --icon:url(../../image/icon/shuffle_fill.svg);}
