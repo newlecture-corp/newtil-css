@@ -56,10 +56,11 @@
     background-color: var(--n-panel-bg-color);
     border: none;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
     &.n-panel\:card-list {
         &>div{
-            display: flex;
             gap: 20px; /* 아이템 간 간격 */
 
             width:100%;
