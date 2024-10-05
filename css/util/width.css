@@ -280,6 +280,12 @@
 }
 .min-width\:ex,    .min-w\:ex { min-width: var(--min-width-ex) !important; }
 
+.min-width\:small,              .min-w\:small { width : 576px !important; }
+.min-width\:medium,             .min-w\:medium { width : 768px !important; }
+.min-width\:large,              .min-w\:large { width : 992px !important; }
+.min-width\:xlarge,             .min-w\:xlarge { width : 1200px !important; }
+.min-width\:ex,                 .min-w\:ex { width : var(--width-ex) !important; }
+
 @media (min-width: 576px) {
     .sm\:min-width\:0,       .sm\:min-w\:0 { min-width: var(--width-0) !important; }
     .sm\:min-width\:1,       .sm\:min-w\:1 { min-width: var(--width-1) !important; }
@@ -306,6 +312,12 @@
         min-width: fit-content !important;
     }
     .sm\:min-width\:ex,    .sm\:min-w\:ex { min-width: var(--min-width-ex) !important; }
+
+    .min-width\:small,              .min-w\:small { width : 576px !important; }
+    .min-width\:medium,             .min-w\:medium { width : 768px !important; }
+    .min-width\:large,              .min-w\:large { width : 992px !important; }
+    .min-width\:xlarge,             .min-w\:xlarge { width : 1200px !important; }
+    .min-width\:ex,                 .min-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 768px) {
@@ -334,6 +346,12 @@
         min-width: fit-content !important;
     }
     .md\:min-width\:ex,    .md\:min-w\:ex { min-width: var(--min-width-ex) !important; }
+
+    .min-width\:small,              .min-w\:small { width : 576px !important; }
+    .min-width\:medium,             .min-w\:medium { width : 768px !important; }
+    .min-width\:large,              .min-w\:large { width : 992px !important; }
+    .min-width\:xlarge,             .min-w\:xlarge { width : 1200px !important; }
+    .min-width\:ex,                 .min-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 992px) {
@@ -362,6 +380,11 @@
         min-width: fit-content !important;
     }
     .lg\:min-width\:ex,    .lg\:min-w\:ex { min-width: var(--min-width-ex) !important; }
+    .min-width\:small,              .min-w\:small { width : 576px !important; }
+    .min-width\:medium,             .min-w\:medium { width : 768px !important; }
+    .min-width\:large,              .min-w\:large { width : 992px !important; }
+    .min-width\:xlarge,             .min-w\:xlarge { width : 1200px !important; }
+    .min-width\:ex,                 .min-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 1200px) {
@@ -390,6 +413,12 @@
         min-width: fit-content !important;
     }
     .xl\:min-width\:ex,    .xl\:min-w\:ex { min-width: var(--min-width-ex) !important; }
+
+    .min-width\:small,              .min-w\:small { width : 576px !important; }
+    .min-width\:medium,             .min-w\:medium { width : 768px !important; }
+    .min-width\:large,              .min-w\:large { width : 992px !important; }
+    .min-width\:xlarge,             .min-w\:xlarge { width : 1200px !important; }
+    .min-width\:ex,                 .min-w\:ex { width : var(--width-ex) !important; }
 }
 
 /* ---- max-width ------------------------------------------------- */
@@ -419,6 +448,12 @@
 }
 .max-width\:ex,    .max-w\:ex { max-width: var(--max-width-ex) !important; }
 
+.max-width\:small,              .max-w\:small { width : 576px !important; }
+.max-width\:medium,             .max-w\:medium { width : 768px !important; }
+.max-width\:large,              .max-w\:large { width : 992px !important; }
+.max-width\:xlarge,             .max-w\:xlarge { width : 1200px !important; }
+.max-width\:ex,                 .max-w\:ex { width : var(--width-ex) !important; }
+
 @media (min-width: 576px) {
     .sm\:max-width\:0,       .sm\:max-w\:0 { max-width: var(--width-0) !important; }
     .sm\:max-width\:1,       .sm\:max-w\:1 { max-width: var(--width-1) !important; }
@@ -445,6 +480,12 @@
         max-width: fit-content !important;
     }
     .sm\:max-width\:ex,    .sm\:max-w\:ex { max-width: var(--max-width-ex) !important; }
+
+    .max-width\:small,              .max-w\:small { width : 576px !important; }
+    .max-width\:medium,             .max-w\:medium { width : 768px !important; }
+    .max-width\:large,              .max-w\:large { width : 992px !important; }
+    .max-width\:xlarge,             .max-w\:xlarge { width : 1200px !important; }
+    .max-width\:ex,                 .max-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 768px) {
@@ -473,6 +514,12 @@
         max-width: fit-content !important;
     }
     .md\:max-width\:ex,    .md\:max-w\:ex { max-width: var(--max-width-ex) !important; }
+
+    .max-width\:small,              .max-w\:small { width : 576px !important; }
+    .max-width\:medium,             .max-w\:medium { width : 768px !important; }
+    .max-width\:large,              .max-w\:large { width : 992px !important; }
+    .max-width\:xlarge,             .max-w\:xlarge { width : 1200px !important; }
+    .max-width\:ex,                 .max-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 992px) {
@@ -501,6 +548,12 @@
         max-width: fit-content !important;
     }
     .lg\:max-width\:ex,    .lg\:max-w\:ex { max-width: var(--max-width-ex) !important; }
+
+    .max-width\:small,              .max-w\:small { width : 576px !important; }
+    .max-width\:medium,             .max-w\:medium { width : 768px !important; }
+    .max-width\:large,              .max-w\:large { width : 992px !important; }
+    .max-width\:xlarge,             .max-w\:xlarge { width : 1200px !important; }
+    .max-width\:ex,                 .max-w\:ex { width : var(--width-ex) !important; }
 }
 
 @media (min-width: 1200px) {
@@ -529,4 +582,10 @@
         max-width: fit-content !important;
     }
     .xl\:max-width\:ex,    .xl\:max-w\:ex { max-width: var(--max-width-ex) !important; }
+
+    .max-width\:small,              .max-w\:small { width : 576px !important; }
+    .max-width\:medium,             .max-w\:medium { width : 768px !important; }
+    .max-width\:large,              .max-w\:large { width : 992px !important; }
+    .max-width\:xlarge,             .max-w\:xlarge { width : 1200px !important; }
+    .max-width\:ex,                 .max-w\:ex { width : var(--width-ex) !important; }
 }
