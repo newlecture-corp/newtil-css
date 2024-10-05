@@ -17,6 +17,14 @@
 .background-attachment\:initial,                    .bg-attachment\:initial,            .bg-attch\:initial                  { background-attachment: initial !important; }
 .background-attachment\:inherit,                    .bg-attachment\:inherit,            .bg-attch\:inherit                  { background-attachment: inherit !important; }
 
+@media (min-width: 576px) {
+    .sm\:background-attachment\:fixed,              .sm\:bg-attachment\:fixed,          .sm\:bg-attch\:fixed                { background-attachment: fixed !important; }
+    .sm\:background-attachment\:local,              .sm\:bg-attachment\:local,          .sm\:bg-attch\:local                { background-attachment: local !important; }
+    .sm\:background-attachment\:scroll,             .sm\:bg-attachment\:scroll,         .sm\:bg-attch\:scroll               { background-attachment: scroll !important; }
+    .sm\:background-attachment\:initial,            .sm\:bg-attachment\:initial,        .sm\:bg-attch\:initial              { background-attachment: initial !important; }
+    .sm\:background-attachment\:inherit,            .sm\:bg-attachment\:inherit,        .sm\:bg-attch\:inherit              { background-attachment: inherit !important; }
+}
+
 @media (min-width: 768px) {
     .md\:background-attachment\:fixed,              .md\:bg-attachment\:fixed,          .md\:bg-attch\:fixed                { background-attachment: fixed !important; }
     .md\:background-attachment\:local,              .md\:bg-attachment\:local,          .md\:bg-attch\:local                { background-attachment: local !important; }
@@ -25,12 +33,20 @@
     .md\:background-attachment\:inherit,            .md\:bg-attachment\:inherit,        .md\:bg-attch\:inherit              { background-attachment: inherit !important; }
 }
 
+@media (min-width: 922px) {
+    .lg\:background-attachment\:fixed,              .lg\:bg-attachment\:fixed,          .lg\:bg-attch\:fixed                { background-attachment: fixed !important; }
+    .lg\:background-attachment\:local,              .lg\:bg-attachment\:local,          .lg\:bg-attch\:local                { background-attachment: local !important; }
+    .lg\:background-attachment\:scroll,             .lg\:bg-attachment\:scroll,         .lg\:bg-attch\:scroll               { background-attachment: scroll !important; }
+    .lg\:background-attachment\:initial,            .lg\:bg-attachment\:initial,        .lg\:bg-attch\:initial              { background-attachment: initial !important; }
+    .lg\:background-attachment\:inherit,            .lg\:bg-attachment\:inherit,        .lg\:bg-attch\:inherit              { background-attachment: inherit !important; }
+}
+
 @media (min-width: 1200px) {
-    .lg\:background-attachment\:fixed,              .lg\:bg-attachment\:fixed,          .lg\:bg-attch\:fixed                { background-attachment : fixed !important; }
-    .lg\:background-attachment\:local,              .lg\:bg-attachment\:local,          .lg\:bg-attch\:local                { background-attachment : local !important; }
-    .lg\:background-attachment\:scroll,             .lg\:bg-attachment\:scroll,         .lg\:bg-attch\:scroll               { background-attachment : scroll !important; }
-    .lg\:background-attachment\:initial,            .lg\:bg-attachment\:initial,        .lg\:bg-attch\:initial              { background-attachment : initial !important; }
-    .lg\:background-attachment\:inherit,            .lg\:bg-attachment\:inherit,        .lg\:bg-attch\:inherit              { background-attachment : inherit !important; }
+    .xl\:background-attachment\:fixed,              .xl\:bg-attachment\:fixed,          .xl\:bg-attch\:fixed                { background-attachment : fixed !important; }
+    .xl\:background-attachment\:local,              .xl\:bg-attachment\:local,          .xl\:bg-attch\:local                { background-attachment : local !important; }
+    .xl\:background-attachment\:scroll,             .xl\:bg-attachment\:scroll,         .xl\:bg-attch\:scroll               { background-attachment : scroll !important; }
+    .xl\:background-attachment\:initial,            .xl\:bg-attachment\:initial,        .xl\:bg-attch\:initial              { background-attachment : initial !important; }
+    .xl\:background-attachment\:inherit,            .xl\:bg-attachment\:inherit,        .xl\:bg-attch\:inherit              { background-attachment : inherit !important; }
 }
 
 /*--- background-clip ------------------------------------------------------------------*/
@@ -41,6 +57,15 @@
 .background-clip\:initial,                          .bg-clip\:initial                   { background-clip: initial !important; }
 .background-clip\:inherit,                          .bg-clip\:inherit                   { background-clip: inherit !important; }
 
+@media (min-width: 576px) {
+    .sm\:background-clip\:border-box,               .sm\:bg-clip\:border-box            { background-clip: border-box !important; }
+    .sm\:background-clip\:padding-box,              .sm\:bg-clip\:padding-box           { background-clip: padding-box !important; }
+    .sm\:background-clip\:content-box,              .sm\:bg-clip\:content-box           { background-clip: content-box !important; }
+    .sm\:background-clip\:text,                     .sm\:bg-clip\:text                  { background-clip: text !important; }
+    .sm\:background-clip\:initial,                  .sm\:bg-clip\:initial               { background-clip: initial !important; }
+    .sm\:background-clip\:inherit,                  .sm\:bg-clip\:inherit               { background-clip: inherit !important; }
+}
+
 @media (min-width: 768px) {
     .md\:background-clip\:border-box,               .md\:bg-clip\:border-box            { background-clip: border-box !important; }
     .md\:background-clip\:padding-box,              .md\:bg-clip\:padding-box           { background-clip: padding-box !important; }
@@ -50,13 +75,22 @@
     .md\:background-clip\:inherit,                  .md\:bg-clip\:inherit               { background-clip: inherit !important; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
     .lg\:background-clip\:border-box,               .lg\:bg-clip\:border-box            { background-clip : border-box !important; }
     .lg\:background-clip\:padding-box,              .lg\:bg-clip\:padding-box           { background-clip : padding-box !important; }
     .lg\:background-clip\:content-box,              .lg\:bg-clip\:content-box           { background-clip : content-box !important; }
     .lg\:background-clip\:text,                     .lg\:bg-clip\:text                  { background-clip : text !important; }
     .lg\:background-clip\:initial,                  .lg\:bg-clip\:initial               { background-clip : initial !important; }
     .lg\:background-clip\:inherit,                  .lg\:bg-clip\:inherit               { background-clip : inherit !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:background-clip\:border-box,               .lg\:bg-clip\:border-box            { background-clip : border-box !important; }
+    .xl\:background-clip\:padding-box,              .lg\:bg-clip\:padding-box           { background-clip : padding-box !important; }
+    .xl\:background-clip\:content-box,              .lg\:bg-clip\:content-box           { background-clip : content-box !important; }
+    .xl\:background-clip\:text,                     .lg\:bg-clip\:text                  { background-clip : text !important; }
+    .xl\:background-clip\:initial,                  .lg\:bg-clip\:initial               { background-clip : initial !important; }
+    .xl\:background-clip\:inherit,                  .lg\:bg-clip\:inherit               { background-clip : inherit !important; }
 }
 
 /*--- background-color ------------------------------------------------------------------*/
@@ -107,6 +141,29 @@
 .background-color\:base-8a,                          .bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
 .background-color\:base-9a,                          .bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
 .background-color\:base-10a,                         .bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+.background-color\:main-1a5,                          .bg-color\:main-1a5                   { background-color : rgba(var(--rgb-main-1),0.5) !important; }
+.background-color\:main-2a5,                          .bg-color\:main-2a5                   { background-color : rgba(var(--rgb-main-2),0.5) !important; }
+.background-color\:main-3a5,                          .bg-color\:main-3a5                   { background-color : rgba(var(--rgb-main-3),0.5) !important; }
+
+.background-color\:sub-1a5,                          .bg-color\:sub-1a5                   { background-color : rgba(var(--rgb-sub-1),0.5) !important; }
+.background-color\:sub-2a5,                          .bg-color\:sub-2a5                   { background-color : rgba(var(--rgb-sub-2),0.5) !important; }
+.background-color\:sub-3a5,                          .bg-color\:sub-3a5                   { background-color : rgba(var(--rgb-sub-3),0.5) !important; }
+
+.background-color\:accent-1a5,                       .bg-color\:accent-1a5                { background-color : rgba(var(--rgb-accent-1),0.5) !important; }
+.background-color\:accent-2a5,                       .bg-color\:accent-2a5                { background-color : rgba(var(--rgb-accent-2),0.5) !important; }
+.background-color\:accent-3a5,                       .bg-color\:accent-3a5                { background-color : rgba(var(--rgb-accent-3),0.5) !important; }
+
+.background-color\:base-1a5,                          .bg-color\:base-1a5                   { background-color : rgba(var(--rgb-base-1),0.5) !important; }
+.background-color\:base-2a5,                          .bg-color\:base-2a5                   { background-color : rgba(var(--rgb-base-2),0.5) !important; }
+.background-color\:base-3a5,                          .bg-color\:base-3a5                   { background-color : rgba(var(--rgb-base-3),0.5) !important; }
+.background-color\:base-4a5,                          .bg-color\:base-4a5                   { background-color : rgba(var(--rgb-base-4),0.5) !important; }
+.background-color\:base-5a5,                          .bg-color\:base-5a5                   { background-color : rgba(var(--rgb-base-5),0.5) !important; }
+.background-color\:base-6a5,                          .bg-color\:base-6a5                   { background-color : rgba(var(--rgb-base-6),0.5) !important; }
+.background-color\:base-7a5,                          .bg-color\:base-7a5                   { background-color : rgba(var(--rgb-base-7),0.5) !important; }
+.background-color\:base-8a5,                          .bg-color\:base-8a5                   { background-color : rgba(var(--rgb-base-8),0.5) !important; }
+.background-color\:base-9a5,                          .bg-color\:base-9a5                   { background-color : rgba(var(--rgb-base-9),0.5) !important; }
+.background-color\:base-10a5,                         .bg-color\:base-10a5                  { background-color : rgba(var(--rgb-base-10),0.5) !important; }
 
 .background-color\:ex,                               .bg-color\:ex                      { background-color : var(--rgb-base-ex) !important; }
 .background-color\:exa,                               .bg-color\:exa                      { background-color : rgba(var(--rgb-base-ex),0.3) !important; }
@@ -161,6 +218,130 @@
 .background-color\:base-8a\:hover:hover,                          .bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
 .background-color\:base-9a\:hover:hover,                          .bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
 .background-color\:base-10a\:hover:hover,                         .bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+.background-color\:main-1a5\:hover:hover,                          .bg-color\:main-1a5\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.5) !important; }
+.background-color\:main-2a5\:hover:hover,                          .bg-color\:main-2a5\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.5) !important; }
+.background-color\:main-3a5\:hover:hover,                          .bg-color\:main-3a5\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.5) !important; }
+
+.background-color\:sub-1a5\:hover:hover,                          .bg-color\:sub-1a5\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.5) !important; }
+.background-color\:sub-2a5\:hover:hover,                          .bg-color\:sub-2a5\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.5) !important; }
+.background-color\:sub-3a5\:hover:hover,                          .bg-color\:sub-3a5\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.5) !important; }
+
+.background-color\:accent-1a5\:hover:hover,                       .bg-color\:accent-1a5\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.5) !important; }
+.background-color\:accent-2a5\:hover:hover,                       .bg-color\:accent-2a5\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.5) !important; }
+.background-color\:accent-3a5\:hover:hover,                       .bg-color\:accent-3a5\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.5) !important; }
+
+.background-color\:base-1a5\:hover:hover,                          .bg-color\:base-1a5\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.5) !important; }
+.background-color\:base-2a5\:hover:hover,                          .bg-color\:base-2a5\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.5) !important; }
+.background-color\:base-3a5\:hover:hover,                          .bg-color\:base-3a5\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.5) !important; }
+.background-color\:base-4a5\:hover:hover,                          .bg-color\:base-4a5\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.5) !important; }
+.background-color\:base-5a5\:hover:hover,                          .bg-color\:base-5a5\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.5) !important; }
+.background-color\:base-6a5\:hover:hover,                          .bg-color\:base-6a5\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.5) !important; }
+.background-color\:base-7a5\:hover:hover,                          .bg-color\:base-7a5\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.5) !important; }
+.background-color\:base-8a5\:hover:hover,                          .bg-color\:base-8a5\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.5) !important; }
+.background-color\:base-9a5\:hover:hover,                          .bg-color\:base-9a5\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.5) !important; }
+.background-color\:base-10a5\:hover:hover,                         .bg-color\:base-10a5\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.5) !important; }
+
+@media (min-width: 576px) {
+    .sm\:background-color\:transparent,             .sm\:bg-color\:transparent          { background-color: transparent !important; }
+
+    .sm\:background-color\:main-1,                  .sm\:bg-color\:main-1               { background-color : var(--color-main-1) !important; }
+    .sm\:background-color\:main-2,                  .sm\:bg-color\:main-2               { background-color : var(--color-main-2) !important; }
+    .sm\:background-color\:main-3,                  .sm\:bg-color\:main-3               { background-color : var(--color-main-3) !important; }
+
+    .sm\:background-color\:sub-1,                   .sm\:bg-color\:sub-1                { background-color : var(--color-sub-1) !important; }
+    .sm\:background-color\:sub-2,                   .sm\:bg-color\:sub-2                { background-color : var(--color-sub-2) !important; }
+    .sm\:background-color\:sub-3,                   .sm\:bg-color\:sub-3                { background-color : var(--color-sub-3) !important; }
+
+    .sm\:background-color\:accent-1,                .sm\:bg-color\:accent-1             { background-color : var(--color-accent-1) !important; }
+    .sm\:background-color\:accent-2,                .sm\:bg-color\:accent-2             { background-color : var(--color-accent-2) !important; }
+    .sm\:background-color\:accent-3,                .sm\:bg-color\:accent-3             { background-color : var(--color-accent-3) !important; }
+
+    .sm\:background-color\:base-1,                  .sm\:bg-color\:base-1               { background-color : var(--color-base-1) !important; }
+    .sm\:background-color\:base-2,                  .sm\:bg-color\:base-2               { background-color : var(--color-base-2) !important; }
+    .sm\:background-color\:base-3,                  .sm\:bg-color\:base-3               { background-color : var(--color-base-3) !important; }
+    .sm\:background-color\:base-4,                  .sm\:bg-color\:base-4               { background-color : var(--color-base-4) !important; }
+    .sm\:background-color\:base-5,                  .sm\:bg-color\:base-5               { background-color : var(--color-base-5) !important; }
+    .sm\:background-color\:base-6,                  .sm\:bg-color\:base-6               { background-color : var(--color-base-6) !important; }
+    .sm\:background-color\:base-7,                  .sm\:bg-color\:base-7               { background-color : var(--color-base-7) !important; }
+    .sm\:background-color\:base-8,                  .sm\:bg-color\:base-8               { background-color : var(--color-base-8) !important; }
+    .sm\:background-color\:base-9,                  .sm\:bg-color\:base-9               { background-color : var(--color-base-9) !important; }
+    .sm\:background-color\:base-10,                 .sm\:bg-color\:base-10              { background-color : var(--color-base-10) !important; }
+
+
+    .sm\:background-color\:main-1a,                          .sm\:bg-color\:main-1a                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .sm\:background-color\:main-2a,                          .sm\:bg-color\:main-2a                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .sm\:background-color\:main-3a,                          .sm\:bg-color\:main-3a                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .sm\:background-color\:sub-1a,                          .sm\:bg-color\:sub-1a                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .sm\:background-color\:sub-2a,                          .sm\:bg-color\:sub-2a                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .sm\:background-color\:sub-3a,                          .sm\:bg-color\:sub-3a                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .sm\:background-color\:accent-1a,                       .sm\:bg-color\:accent-1a                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .sm\:background-color\:accent-2a,                       .sm\:bg-color\:accent-2a                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .sm\:background-color\:accent-3a,                       .sm\:bg-color\:accent-3a                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .sm\:background-color\:base-1a,                          .sm\:bg-color\:base-1a                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .sm\:background-color\:base-2a,                          .sm\:bg-color\:base-2a                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .sm\:background-color\:base-3a,                          .sm\:bg-color\:base-3a                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .sm\:background-color\:base-4a,                          .sm\:bg-color\:base-4a                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .sm\:background-color\:base-5a,                          .sm\:bg-color\:base-5a                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .sm\:background-color\:base-6a,                          .sm\:bg-color\:base-6a                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .sm\:background-color\:base-7a,                          .sm\:bg-color\:base-7a                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .sm\:background-color\:base-8a,                          .sm\:bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .sm\:background-color\:base-9a,                          .sm\:bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .sm\:background-color\:base-10a,                         .sm\:bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+    /*--- hover ------------------------------------------------------------------------------------*/
+
+    .sm\:background-color\:transparent\:hover:hover,                     .sm\:bg-color\:transparent\:hover:hover              { background-color: transparent !important; }
+
+    .sm\:background-color\:main-1\:hover:hover,                          .sm\:bg-color\:main-1\:hover:hover                   { background-color : var(--color-main-1) !important; }
+    .sm\:background-color\:main-2\:hover:hover,                          .sm\:bg-color\:main-2\:hover:hover                   { background-color : var(--color-main-2) !important; }
+    .sm\:background-color\:main-3\:hover:hover,                          .sm\:bg-color\:main-3\:hover:hover                   { background-color : var(--color-main-3) !important; }
+
+    .sm\:background-color\:sub-1\:hover:hover,                           .sm\:bg-color\:sub-1\:hover:hover                    { background-color : var(--color-sub-1) !important; }
+    .sm\:background-color\:sub-2\:hover:hover,                           .sm\:bg-color\:sub-2\:hover:hover                    { background-color : var(--color-sub-2) !important; }
+    .sm\:background-color\:sub-3\:hover:hover,                           .sm\:bg-color\:sub-3\:hover:hover                    { background-color : var(--color-sub-3) !important; }
+
+    .background-color\:accent-1\:hover:hover,                        .sm\:bg-color\:accent-1\:hover:hover                 { background-color : var(--color-accent-1) !important; }
+    .background-color\:accent-2\:hover:hover,                        .sm\:bg-color\:accent-2\:hover:hover                 { background-color : var(--color-accent-2) !important; }
+    .background-color\:accent-3\:hover:hover,                        .sm\:bg-color\:accent-3\:hover:hover                 { background-color : var(--color-accent-3) !important; }
+
+    .sm\:background-color\:base-1\:hover:hover,                          .sm\:bg-color\:base-1\:hover:hover                   { background-color : var(--color-base-1) !important; }
+    .sm\:background-color\:base-2\:hover:hover,                          .sm\:bg-color\:base-2\:hover:hover                   { background-color : var(--color-base-2) !important; }
+    .sm\:background-color\:base-3\:hover:hover,                          .sm\:bg-color\:base-3\:hover:hover                   { background-color : var(--color-base-3) !important; }
+    .sm\:background-color\:base-4\:hover:hover,                          .sm\:bg-color\:base-4\:hover:hover                   { background-color : var(--color-base-4) !important; }
+    .sm\:background-color\:base-5\:hover:hover,                          .sm\:bg-color\:base-5\:hover:hover                   { background-color : var(--color-base-5) !important; }
+    .sm\:background-color\:base-6\:hover:hover,                          .sm\:bg-color\:base-6\:hover:hover                   { background-color : var(--color-base-6) !important; }
+    .sm\:background-color\:base-7\:hover:hover,                          .sm\:bg-color\:base-7\:hover:hover                   { background-color : var(--color-base-7) !important; }
+    .sm\:background-color\:base-8\:hover:hover,                          .sm\:bg-color\:base-8\:hover:hover                   { background-color : var(--color-base-8) !important; }
+    .sm\:background-color\:base-9\:hover:hover,                          .sm\:bg-color\:base-9\:hover:hover                   { background-color : var(--color-base-9) !important; }
+    .sm\:background-color\:base-10\:hover:hover,                         .sm\:bg-color\:base-10\:hover:hover                  { background-color : var(--color-base-10) !important; }
+
+    .sm\:background-color\:main-1a\:hover:hover,                          .sm\:bg-color\:main-1a\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .sm\:background-color\:main-2a\:hover:hover,                          .sm\:bg-color\:main-2a\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .sm\:background-color\:main-3a\:hover:hover,                          .sm\:bg-color\:main-3a\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .sm\:background-color\:sub-1a\:hover:hover,                          .sm\:bg-color\:sub-1a\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .sm\:background-color\:sub-2a\:hover:hover,                          .sm\:bg-color\:sub-2a\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .sm\:background-color\:sub-3a\:hover:hover,                          .sm\:bg-color\:sub-3a\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .sm\:background-color\:accent-1a\:hover:hover,                       .sm\:bg-color\:accent-1a\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .sm\:background-color\:accent-2a\:hover:hover,                       .sm\:bg-color\:accent-2a\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .sm\:background-color\:accent-3a\:hover:hover,                       .sm\:bg-color\:accent-3a\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .sm\:background-color\:base-1a\:hover:hover,                          .sm\:bg-color\:base-1a\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .sm\:background-color\:base-2a\:hover:hover,                          .sm\:bg-color\:base-2a\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .sm\:background-color\:base-3a\:hover:hover,                          .sm\:bg-color\:base-3a\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .sm\:background-color\:base-4a\:hover:hover,                          .sm\:bg-color\:base-4a\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .sm\:background-color\:base-5a\:hover:hover,                          .sm\:bg-color\:base-5a\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .sm\:background-color\:base-6a\:hover:hover,                          .sm\:bg-color\:base-6a\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .sm\:background-color\:base-7a\:hover:hover,                          .sm\:bg-color\:base-7a\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .sm\:background-color\:base-8a\:hover:hover,                          .sm\:bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .sm\:background-color\:base-9a\:hover:hover,                          .sm\:bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .sm\:background-color\:base-10a\:hover:hover,                         .sm\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+}
 
 @media (min-width: 768px) {
     .md\:background-color\:transparent,             .md\:bg-color\:transparent          { background-color: transparent !important; }
@@ -263,7 +444,7 @@
     .md\:background-color\:base-10a\:hover:hover,                         .md\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
     .lg\:background-color\:transparent,             .lg\:bg-color\:transparent          { background-color: transparent !important; }
 
     .lg\:background-color\:main-1,                  .lg\:bg-color\:main-1               { background-color : var(--color-main-1) !important; }
@@ -363,10 +544,117 @@
     .lg\:background-color\:base-10a\:hover:hover,                         .lg\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
 }
 
+@media (min-width: 1200px) {
+    .xl\:background-color\:transparent,             .xl\:bg-color\:transparent          { background-color: transparent !important; }
+
+    .xl\:background-color\:main-1,                  .xl\:bg-color\:main-1               { background-color : var(--color-main-1) !important; }
+    .xl\:background-color\:main-2,                  .xl\:bg-color\:main-2               { background-color : var(--color-main-2) !important; }
+    .xl\:background-color\:main-3,                  .xl\:bg-color\:main-3               { background-color : var(--color-main-3) !important; }
+
+    .xl\:background-color\:sub-1,                   .xl\:bg-color\:sub-1                { background-color : var(--color-sub-1) !important; }
+    .xl\:background-color\:sub-2,                   .xl\:bg-color\:sub-2                { background-color : var(--color-sub-2) !important; }
+    .xl\:background-color\:sub-3,                   .xl\:bg-color\:sub-3                { background-color : var(--color-sub-3) !important; }
+
+    .xl\:background-color\:accent-1,                .xl\:bg-color\:accent-1             { background-color : var(--color-accent-1) !important; }
+    .xl\:background-color\:accent-2,                .xl\:bg-color\:accent-2             { background-color : var(--color-accent-2) !important; }
+    .xl\:background-color\:accent-3,                .xl\:bg-color\:accent-3             { background-color : var(--color-accent-3) !important; }
+
+    .xl\:background-color\:base-1,                  .xl\:bg-color\:base-1               { background-color : var(--color-base-1) !important; }
+    .xl\:background-color\:base-2,                  .xl\:bg-color\:base-2               { background-color : var(--color-base-2) !important; }
+    .xl\:background-color\:base-3,                  .xl\:bg-color\:base-3               { background-color : var(--color-base-3) !important; }
+    .xl\:background-color\:base-4,                  .xl\:bg-color\:base-4               { background-color : var(--color-base-4) !important; }
+    .xl\:background-color\:base-5,                  .xl\:bg-color\:base-5               { background-color : var(--color-base-5) !important; }
+    .xl\:background-color\:base-6,                  .xl\:bg-color\:base-6               { background-color : var(--color-base-6) !important; }
+    .xl\:background-color\:base-7,                  .xl\:bg-color\:base-7               { background-color : var(--color-base-7) !important; }
+    .xl\:background-color\:base-8,                  .xl\:bg-color\:base-8               { background-color : var(--color-base-8) !important; }
+    .xl\:background-color\:base-9,                  .xl\:bg-color\:base-9               { background-color : var(--color-base-9) !important; }
+    .xl\:background-color\:base-10,                 .xl\:bg-color\:base-10              { background-color : var(--color-base-10) !important; }
+
+    .xl\:background-color\:main-1a,                          .xl\:bg-color\:main-1a                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .xl\:background-color\:main-2a,                          .xl\:bg-color\:main-2a                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .xl\:background-color\:main-3a,                          .xl\:bg-color\:main-3a                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .xl\:background-color\:sub-1a,                          .xl\:bg-color\:sub-1a                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .xl\:background-color\:sub-2a,                          .xl\:bg-color\:sub-2a                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .xl\:background-color\:sub-3a,                          .xl\:bg-color\:sub-3a                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .xl\:background-color\:accent-1a,                       .xl\:bg-color\:accent-1a                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .xl\:background-color\:accent-2a,                       .xl\:bg-color\:accent-2a                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .xl\:background-color\:accent-3a,                       .xl\:bg-color\:accent-3a                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .xl\:background-color\:base-1a,                          .xl\:bg-color\:base-1a                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .xl\:background-color\:base-2a,                          .xl\:bg-color\:base-2a                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .xl\:background-color\:base-3a,                          .xl\:bg-color\:base-3a                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .xl\:background-color\:base-4a,                          .xl\:bg-color\:base-4a                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .xl\:background-color\:base-5a,                          .xl\:bg-color\:base-5a                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .xl\:background-color\:base-6a,                          .xl\:bg-color\:base-6a                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .xl\:background-color\:base-7a,                          .xl\:bg-color\:base-7a                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .xl\:background-color\:base-8a,                          .xl\:bg-color\:base-8a                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .xl\:background-color\:base-9a,                          .xl\:bg-color\:base-9a                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .xl\:background-color\:base-10a,                         .xl\:bg-color\:base-10a                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+
+    /*--- hover ------------------------------------------------------------------------------------*/
+
+    .xl\:background-color\:transparent\:hover:hover,                     .xl\:bg-color\:transparent\:hover:hover              { background-color: transparent !important; }
+
+    .xl\:background-color\:main-1\:hover:hover,                          .xl\:bg-color\:main-1\:hover:hover                   { background-color : var(--color-main-1) !important; }
+    .xl\:background-color\:main-2\:hover:hover,                          .xl\:bg-color\:main-2\:hover:hover                   { background-color : var(--color-main-2) !important; }
+    .xl\:background-color\:main-3\:hover:hover,                          .xl\:bg-color\:main-3\:hover:hover                   { background-color : var(--color-main-3) !important; }
+
+    .xl\:background-color\:sub-1\:hover:hover,                           .xl\:bg-color\:sub-1\:hover:hover                    { background-color : var(--color-sub-1) !important; }
+    .xl\:background-color\:sub-2\:hover:hover,                           .xl\:bg-color\:sub-2\:hover:hover                    { background-color : var(--color-sub-2) !important; }
+    .xl\:background-color\:sub-3\:hover:hover,                           .xl\:bg-color\:sub-3\:hover:hover                    { background-color : var(--color-sub-3) !important; }
+
+    .xl\:background-color\:accent-1\:hover:hover,                        .xl\:bg-color\:accent-1\:hover:hover                 { background-color : var(--color-accent-1) !important; }
+    .xl\:background-color\:accent-2\:hover:hover,                        .xl\:bg-color\:accent-2\:hover:hover                 { background-color : var(--color-accent-2) !important; }
+    .xl\:background-color\:accent-3\:hover:hover,                        .xl\:bg-color\:accent-3\:hover:hover                 { background-color : var(--color-accent-3) !important; }
+
+    .xl\:background-color\:base-1\:hover:hover,                          .xl\:bg-color\:base-1\:hover:hover                   { background-color : var(--color-base-1) !important; }
+    .xl\:background-color\:base-2\:hover:hover,                          .xl\:bg-color\:base-2\:hover:hover                   { background-color : var(--color-base-2) !important; }
+    .xl\:background-color\:base-3\:hover:hover,                          .xl\:bg-color\:base-3\:hover:hover                   { background-color : var(--color-base-3) !important; }
+    .xl\:background-color\:base-4\:hover:hover,                          .xl\:bg-color\:base-4\:hover:hover                   { background-color : var(--color-base-4) !important; }
+    .xl\:background-color\:base-5\:hover:hover,                          .xl\:bg-color\:base-5\:hover:hover                   { background-color : var(--color-base-5) !important; }
+    .xl\:background-color\:base-6\:hover:hover,                          .xl\:bg-color\:base-6\:hover:hover                   { background-color : var(--color-base-6) !important; }
+    .xl\:background-color\:base-7\:hover:hover,                          .xl\:bg-color\:base-7\:hover:hover                   { background-color : var(--color-base-7) !important; }
+    .xl\:background-color\:base-8\:hover:hover,                          .xl\:bg-color\:base-8\:hover:hover                   { background-color : var(--color-base-8) !important; }
+    .xl\:background-color\:base-9\:hover:hover,                          .xl\:bg-color\:base-9\:hover:hover                   { background-color : var(--color-base-9) !important; }
+    .xl\:background-color\:base-10\:hover:hover,                         .xl\:bg-color\:base-10\:hover:hover                  { background-color : var(--color-base-10) !important; }
+
+    .xl\:background-color\:main-1a\:hover:hover,                          .xl\:bg-color\:main-1a\:hover:hover                   { background-color : rgba(var(--rgb-main-1),0.3) !important; }
+    .xl\:background-color\:main-2a\:hover:hover,                          .xl\:bg-color\:main-2a\:hover:hover                   { background-color : rgba(var(--rgb-main-2),0.3) !important; }
+    .xl\:background-color\:main-3a\:hover:hover,                          .xl\:bg-color\:main-3a\:hover:hover                   { background-color : rgba(var(--rgb-main-3),0.3) !important; }
+
+    .xl\:background-color\:sub-1a\:hover:hover,                          .xl\:bg-color\:sub-1a\:hover:hover                   { background-color : rgba(var(--rgb-sub-1),0.3) !important; }
+    .xl\:background-color\:sub-2a\:hover:hover,                          .xl\:bg-color\:sub-2a\:hover:hover                   { background-color : rgba(var(--rgb-sub-2),0.3) !important; }
+    .xl\:background-color\:sub-3a\:hover:hover,                          .xl\:bg-color\:sub-3a\:hover:hover                   { background-color : rgba(var(--rgb-sub-3),0.3) !important; }
+
+    .xl\:background-color\:accent-1a\:hover:hover,                       .xl\:bg-color\:accent-1a\:hover:hover                { background-color : rgba(var(--rgb-accent-1),0.3) !important; }
+    .xl\:background-color\:accent-2a\:hover:hover,                       .xl\:bg-color\:accent-2a\:hover:hover                { background-color : rgba(var(--rgb-accent-2),0.3) !important; }
+    .xl\:background-color\:accent-3a\:hover:hover,                       .xl\:bg-color\:accent-3a\:hover:hover                { background-color : rgba(var(--rgb-accent-3),0.3) !important; }
+
+    .xl\:background-color\:base-1a\:hover:hover,                          .xl\:bg-color\:base-1a\:hover:hover                   { background-color : rgba(var(--rgb-base-1),0.3) !important; }
+    .xl\:background-color\:base-2a\:hover:hover,                          .xl\:bg-color\:base-2a\:hover:hover                   { background-color : rgba(var(--rgb-base-2),0.3) !important; }
+    .xl\:background-color\:base-3a\:hover:hover,                          .xl\:bg-color\:base-3a\:hover:hover                   { background-color : rgba(var(--rgb-base-3),0.3) !important; }
+    .xl\:background-color\:base-4a\:hover:hover,                          .xl\:bg-color\:base-4a\:hover:hover                   { background-color : rgba(var(--rgb-base-4),0.3) !important; }
+    .xl\:background-color\:base-5a\:hover:hover,                          .xl\:bg-color\:base-5a\:hover:hover                   { background-color : rgba(var(--rgb-base-5),0.3) !important; }
+    .xl\:background-color\:base-6a\:hover:hover,                          .xl\:bg-color\:base-6a\:hover:hover                   { background-color : rgba(var(--rgb-base-6),0.3) !important; }
+    .xl\:background-color\:base-7a\:hover:hover,                          .xl\:bg-color\:base-7a\:hover:hover                   { background-color : rgba(var(--rgb-base-7),0.3) !important; }
+    .xl\:background-color\:base-8a\:hover:hover,                          .xl\:bg-color\:base-8a\:hover:hover                   { background-color : rgba(var(--rgb-base-8),0.3) !important; }
+    .xl\:background-color\:base-9a\:hover:hover,                          .xl\:bg-color\:base-9a\:hover:hover                   { background-color : rgba(var(--rgb-base-9),0.3) !important; }
+    .xl\:background-color\:base-10a\:hover:hover,                         .xl\:bg-color\:base-10a\:hover:hover                  { background-color : rgba(var(--rgb-base-10),0.3) !important; }
+}
+
+
 /*--- background-origin ------------------------------------------------------------------*/
 .background-origin\:border-box,                     .bg-origin\:border-box              { background-origin: border-box !important; }
 .background-origin\:padding-box,                    .bg-origin\:padding-box             { background-origin: padding-box !important; }
 .background-origin\:content-box,                    .bg-origin\:content-box             { background-origin: content-box !important; }
+
+@media (min-width: 576px) {
+    .sm\:background-origin\:border-box,             .sm\:bg-origin\:border-box          { background-origin: border-box !important; }
+    .sm\:background-origin\:padding-box,            .sm\:bg-origin\:padding-box         { background-origin: padding-box !important; }
+    .sm\:background-origin\:content-box,            .sm\:bg-origin\:content-box         { background-origin: content-box !important; }
+}
 
 @media (min-width: 768px) {
     .md\:background-origin\:border-box,             .md\:bg-origin\:border-box          { background-origin: border-box !important; }
@@ -374,10 +662,16 @@
     .md\:background-origin\:content-box,            .md\:bg-origin\:content-box         { background-origin: content-box !important; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
     .lg\:background-origin\:border-box,             .lg\:bg-origin\:border-box          { background-origin : border-box !important; }
     .lg\:background-origin\:padding-box,            .lg\:bg-origin\:padding-box         { background-origin : padding-box !important; }
     .lg\:background-origin\:content-box,            .lg\:bg-origin\:content-box         { background-origin : content-box !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:background-origin\:border-box,             .xl\:bg-origin\:border-box          { background-origin : border-box !important; }
+    .xl\:background-origin\:padding-box,            .xl\:bg-origin\:padding-box         { background-origin : padding-box !important; }
+    .xl\:background-origin\:content-box,            .xl\:bg-origin\:content-box         { background-origin : content-box !important; }
 }
 
 /*--- background-position ------------------------------------------------------------------*/
@@ -394,6 +688,21 @@
 .background-position\:initial,                      .bg-position\:initial,              .bg-pos\:initial { background-position: initial !important; }
 .background-position\:unset,                        .bg-position\:unset,                .bg-pos\:unset { background-position: unset !important; }
 
+@media (min-width: 576px) {
+    .sm\:background-position\:top,                  .sm\:bg-position\:top,              .sm\:bg-pos\:top { background-position : top !important; }
+    .sm\:background-position\:bottom,               .sm\:bg-position\:bottom,           .sm\:bg-pos\:bottom { background-position : bottom !important; }
+    .sm\:background-position\:left,                 .sm\:bg-position\:left,             .sm\:bg-pos\:left { background-position : left !important; }
+    .sm\:background-position\:left-bottom,          .sm\:bg-position\:left-bottom,      .sm\:bg-pos\:left-bottom { background-position : left bottom !important; }
+    .sm\:background-position\:left-top,             .sm\:bg-position\:left-top,         .sm\:bg-pos\:left-top { background-position : left top !important; }
+    .sm\:background-position\:right,                .sm\:bg-position\:right,            .sm\:bg-pos\:right { background-position : right !important; }
+    .sm\:background-position\:right-bottom,         .sm\:bg-position\:right-bottom,     .sm\:bg-pos\:right-bottom { background-position : right bottom !important; }
+    .sm\:background-position\:right-top,            .sm\:bg-position\:right-top,        .sm\:bg-pos\:right-top { background-position : right top !important; }
+    .sm\:background-position\:center,               .sm\:bg-position\:center,           .sm\:bg-pos\:center { background-position : center !important; }
+    .sm\:background-position\:inherit,              .sm\:bg-position\:inherit,          .sm\:bg-pos\:inherit { background-position : inherit !important; }
+    .sm\:background-position\:initial,              .sm\:bg-position\:initial,          .sm\:bg-pos\:initial { background-position : initial !important; }
+    .sm\:background-position\:unset,                .sm\:bg-position\:unset,            .sm\:bg-pos\:unset { background-position : unset !important; }
+}
+
 @media (min-width: 768px) {
     .md\:background-position\:top,                  .md\:bg-position\:top,              .md\:bg-pos\:top { background-position : top !important; }
     .md\:background-position\:bottom,               .md\:bg-position\:bottom,           .md\:bg-pos\:bottom { background-position : bottom !important; }
@@ -409,7 +718,7 @@
     .md\:background-position\:unset,                .md\:bg-position\:unset,            .md\:bg-pos\:unset { background-position : unset !important; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
     .lg\:background-position\:top,                  .lg\:bg-position\:top,              .lg\:bg-pos\:top { background-position : top !important; }
     .lg\:background-position\:bottom,               .lg\:bg-position\:bottom,           .lg\:bg-pos\:bottom { background-position : bottom !important; }
     .lg\:background-position\:left,                 .lg\:bg-position\:left,             .lg\:bg-pos\:left { background-position : left !important; }
@@ -424,6 +733,21 @@
     .lg\:background-position\:unset,                .lg\:bg-position\:unset,            .lg\:bg-pos\:unset { background-position : unset !important; }
 }
 
+@media (min-width: 1200px) {
+    .xl\:background-position\:top,                  .xl\:bg-position\:top,              .xl\:bg-pos\:top { background-position : top !important; }
+    .xl\:background-position\:bottom,               .xl\:bg-position\:bottom,           .xl\:bg-pos\:bottom { background-position : bottom !important; }
+    .xl\:background-position\:left,                 .xl\:bg-position\:left,             .xl\:bg-pos\:left { background-position : left !important; }
+    .xl\:background-position\:left-bottom,          .xl\:bg-position\:left-bottom,      .xl\:bg-pos\:left-bottom { background-position : left bottom !important; }
+    .xl\:background-position\:left-top,             .xl\:bg-position\:left-top,         .xl\:bg-pos\:left-top { background-position : left top !important; }
+    .xl\:background-position\:right,                .xl\:bg-position\:right,            .xl\:bg-pos\:right { background-position : right !important; }
+    .xl\:background-position\:right-bottom,         .xl\:bg-position\:right-bottom,     .xl\:bg-pos\:right-bottom { background-position : right bottom !important; }
+    .xl\:background-position\:right-top,            .xl\:bg-position\:right-top,        .xl\:bg-pos\:right-top { background-position : right top !important; }
+    .xl\:background-position\:center,               .xl\:bg-position\:center,           .xl\:bg-pos\:center { background-position : center !important; }
+    .xl\:background-position\:inherit,              .xl\:bg-position\:inherit,          .xl\:bg-pos\:inherit { background-position : inherit !important; }
+    .xl\:background-position\:initial,              .xl\:bg-position\:initial,          .xl\:bg-pos\:initial { background-position : initial !important; }
+    .xl\:background-position\:unset,                .xl\:bg-position\:unset,            .xl\:bg-pos\:unset { background-position : unset !important; }
+}
+
 /*--- background-repeat ------------------------------------------------------------------*/
 .background-repeat\:repeat,                         .bg-repeat\:repeat                  { background-repeat: repeat !important; }
 .background-repeat\:no-repeat,                      .bg-repeat\:no-repeat               { background-repeat: no-repeat !important; }
@@ -431,6 +755,15 @@
 .background-repeat\:repeat-y,                       .bg-repeat\:repeat-y                { background-repeat: repeat-y !important; }
 .background-repeat\:space,                          .bg-repeat\:space                   { background-repeat: space !important; }
 .background-repeat\:round,                          .bg-repeat\:round                   { background-repeat: round !important; }
+
+@media (min-width: 576px) {
+    .sm\:background-repeat\:repeat,                 .sm\:bg-repeat\:repeat              { background-repeat: repeat !important; }
+    .sm\:background-repeat\:no-repeat,              .sm\:bg-repeat\:no-repeat           { background-repeat: no-repeat !important; }
+    .sm\:background-repeat\:repeat-x,               .sm\:bg-repeat\:repeat-x            { background-repeat: repeat-x !important; }
+    .sm\:background-repeat\:repeat-y,               .sm\:bg-repeat\:repeat-y            { background-repeat: repeat-y !important; }
+    .sm\:background-repeat\:space,                  .sm\:bg-repeat\:space               { background-repeat: space !important; }
+    .sm\:background-repeat\:round,                  .sm\:bg-repeat\:round               { background-repeat: round !important; }
+}
 
 @media (min-width: 768px) {
     .md\:background-repeat\:repeat,                 .md\:bg-repeat\:repeat              { background-repeat: repeat !important; }
@@ -467,6 +800,24 @@
 .background-size\:10,                                .bg-size\:10                         { background-size: var(--h-10) !important; }
 .background-size\:11,                                .bg-size\:11                         { background-size: var(--h-11) !important; }
 
+@media (min-width: 576px) {
+    .sm\:background-size\:auto,                     .sm\:bg-size\:auto                  { background-size: auto !important; }
+    .sm\:background-size\:cover,                    .sm\:bg-size\:cover                 { background-size: cover !important; }
+    .sm\:background-size\:contain,                  .sm\:bg-size\:contain               { background-size: contain !important; }
+    .sm\:background-size\:initial,                  .sm\:bg-size\:initial               { background-size: initial !important; }
+    .sm\:background-size\:inherit,                  .sm\:bg-size\:inherit               { background-size: inherit !important; }
+    .sm\:background-size\:1,                        .sm\:bg-size\:1                     { background-size: var(--h-1) !important; }
+    .sm\:background-size\:2,                        .sm\:bg-size\:2                     { background-size: var(--h-2) !important; }
+    .sm\:background-size\:3,                        .sm\:bg-size\:3                     { background-size: var(--h-3) !important; }
+    .sm\:background-size\:4,                        .sm\:bg-size\:4                     { background-size: var(--h-4) !important; }
+    .sm\:background-size\:5,                        .sm\:bg-size\:5                     { background-size: var(--h-5) !important; }
+    .sm\:background-size\:6,                        .sm\:bg-size\:6                     { background-size: var(--h-6) !important; }
+    .sm\:background-size\:7,                        .sm\:bg-size\:7                     { background-size: var(--h-7) !important; }
+    .sm\:background-size\:8,                        .sm\:bg-size\:8                     { background-size: var(--h-8) !important; }
+    .sm\:background-size\:9,                        .sm\:bg-size\:9                     { background-size: var(--h-9) !important; }
+    .sm\:background-size\:10,                       .sm\:bg-size\:10                    { background-size: var(--h-10) !important; }
+    .sm\:background-size\:11,                       .sm\:bg-size\:11                    { background-size: var(--h-11) !important; }
+}
 
 @media (min-width: 768px) {
     .md\:background-size\:auto,                     .md\:bg-size\:auto                  { background-size: auto !important; }
@@ -487,7 +838,7 @@
     .md\:background-size\:11,                       .md\:bg-size\:11                    { background-size: var(--h-11) !important; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
     .lg\:background-size\:auto,                     .lg\:bg-size\:auto                  { background-size : auto !important; }
     .lg\:background-size\:cover,                    .lg\:bg-size\:cover                 { background-size : cover !important; }
     .lg\:background-size\:contain,                  .lg\:bg-size\:contain               { background-size : contain !important; }
@@ -504,4 +855,23 @@
     .lg\:background-size\:9,                        .lg\:bg-size\:9                     { background-size: var(--h-9) !important; }
     .lg\:background-size\:10,                       .lg\:bg-size\:10                    { background-size: var(--h-10) !important; }
     .lg\:background-size\:11,                       .lg\:bg-size\:11                    { background-size: var(--h-11) !important; }
+}
+
+@media (min-width: 1200px) {
+    .xl\:background-size\:auto,                     .xl\:bg-size\:auto                  { background-size : auto !important; }
+    .xl\:background-size\:cover,                    .xl\:bg-size\:cover                 { background-size : cover !important; }
+    .xl\:background-size\:contain,                  .xl\:bg-size\:contain               { background-size : contain !important; }
+    .xl\:background-size\:initial,                  .xl\:bg-size\:initial               { background-size : initial !important; }
+    .xl\:background-size\:inherit,                  .xl\:bg-size\:inherit               { background-size : inherit !important; }
+    .xl\:background-size\:1,                        .xl\:bg-size\:1                     { background-size: var(--h-1) !important; }
+    .xl\:background-size\:2,                        .xl\:bg-size\:2                     { background-size: var(--h-2) !important; }
+    .xl\:background-size\:3,                        .xl\:bg-size\:3                     { background-size: var(--h-3) !important; }
+    .xl\:background-size\:4,                        .xl\:bg-size\:4                     { background-size: var(--h-4) !important; }
+    .xl\:background-size\:5,                        .xl\:bg-size\:5                     { background-size: var(--h-5) !important; }
+    .xl\:background-size\:6,                        .xl\:bg-size\:6                     { background-size: var(--h-6) !important; }
+    .xl\:background-size\:7,                        .xl\:bg-size\:7                     { background-size: var(--h-7) !important; }
+    .xl\:background-size\:8,                        .xl\:bg-size\:8                     { background-size: var(--h-8) !important; }
+    .xl\:background-size\:9,                        .xl\:bg-size\:9                     { background-size: var(--h-9) !important; }
+    .xl\:background-size\:10,                       .xl\:bg-size\:10                    { background-size: var(--h-10) !important; }
+    .xl\:background-size\:11,                       .xl\:bg-size\:11                    { background-size: var(--h-11) !important; }
 }
