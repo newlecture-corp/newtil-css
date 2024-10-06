@@ -41,26 +41,26 @@
 
 /* ---- top ------------------------------------------------- */
 .top\:0                   { top: 0 !important; }
-.top\:1                   { top: var(--top-1) !important; }
-.top\:2                   { top: var(--top-2) !important; }
-.top\:3                   { top: var(--top-3) !important; }
-.top\:4                   { top: var(--top-4) !important; }
-.top\:5                   { top: var(--top-5) !important; }
-.top\:6                   { top: var(--top-6) !important; }
-.top\:7                   { top: var(--top-7) !important; }
-.top\:8                   { top: var(--top-8) !important; }
-.top\:9                   { top: var(--top-9) !important; }
-.top\:10                  { top: var(--top-10) !important; }
-.top\:1p                  { top: var(--top-percent-1) !important; }
-.top\:2p                  { top: var(--top-percent-2) !important; }
-.top\:3p                  { top: var(--top-percent-3) !important; }
-.top\:4p                  { top: var(--top-percent-4) !important; }
-.top\:5p                  { top: var(--top-percent-5) !important; }
-.top\:6p                  { top: var(--top-percent-6) !important; }
-.top\:7p                  { top: var(--top-percent-7) !important; }
-.top\:8p                  { top: var(--top-percent-8) !important; }
-.top\:9p                  { top: var(--top-percent-9) !important; }
-.top\:10p                 { top: var(--top-percent-10) !important; }
+.top\:1                   { top: var(--gap-1) !important; }
+.top\:2                   { top: var(--gap-2) !important; }
+.top\:3                   { top: var(--gap-3) !important; }
+.top\:4                   { top: var(--gap-4) !important; }
+.top\:5                   { top: var(--gap-5) !important; }
+.top\:6                   { top: var(--gap-6) !important; }
+.top\:7                   { top: var(--gap-7) !important; }
+.top\:8                   { top: var(--gap-8) !important; }
+.top\:9                   { top: var(--gap-9) !important; }
+.top\:10                  { top: var(--gap-10) !important; }
+.top\:1p                  { top: var(--gap-percent-1) !important; }
+.top\:2p                  { top: var(--gap-percent-2) !important; }
+.top\:3p                  { top: var(--gap-percent-3) !important; }
+.top\:4p                  { top: var(--gap-percent-4) !important; }
+.top\:5p                  { top: var(--gap-percent-5) !important; }
+.top\:6p                  { top: var(--gap-percent-6) !important; }
+.top\:7p                  { top: var(--gap-percent-7) !important; }
+.top\:8p                  { top: var(--gap-percent-8) !important; }
+.top\:9p                  { top: var(--gap-percent-9) !important; }
+.top\:10p                 { top: var(--gap-percent-10) !important; }
 .top\:1\/2                { top: 50% !important; }
 .top\:1\/3                { top: 33% !important; }
 .top\:2\/3                { top: 66% !important; }
@@ -75,26 +75,26 @@
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
     .md\:top\:0                   { top: 0 !important; }
-    .md\:top\:1                   { top: var(--top-1) !important; }
-    .md\:top\:2                   { top: var(--top-2) !important; }
-    .md\:top\:3                   { top: var(--top-3) !important; }
-    .md\:top\:4                   { top: var(--top-4) !important; }
-    .md\:top\:5                   { top: var(--top-5) !important; }
-    .md\:top\:6                   { top: var(--top-6) !important; }
-    .md\:top\:7                   { top: var(--top-7) !important; }
-    .md\:top\:8                   { top: var(--top-8) !important; }
-    .md\:top\:9                   { top: var(--top-9) !important; }
-    .md\:top\:10                  { top: var(--top-10) !important; }
-    .md\:top\:1p                  { top: var(--top-percent-1) !important; }
-    .md\:top\:2p                  { top: var(--top-percent-2) !important; }
-    .md\:top\:3p                  { top: var(--top-percent-3) !important; }
-    .md\:top\:4p                  { top: var(--top-percent-4) !important; }
-    .md\:top\:5p                  { top: var(--top-percent-5) !important; }
-    .md\:top\:6p                  { top: var(--top-percent-6) !important; }
-    .md\:top\:7p                  { top: var(--top-percent-7) !important; }
-    .md\:top\:8p                  { top: var(--top-percent-8) !important; }
-    .md\:top\:9p                  { top: var(--top-percent-9) !important; }
-    .md\:top\:10p                 { top: var(--top-percent-10) !important; }
+    .md\:top\:1                   { top: var(--gap-1) !important; }
+    .md\:top\:2                   { top: var(--gap-2) !important; }
+    .md\:top\:3                   { top: var(--gap-3) !important; }
+    .md\:top\:4                   { top: var(--gap-4) !important; }
+    .md\:top\:5                   { top: var(--gap-5) !important; }
+    .md\:top\:6                   { top: var(--gap-6) !important; }
+    .md\:top\:7                   { top: var(--gap-7) !important; }
+    .md\:top\:8                   { top: var(--gap-8) !important; }
+    .md\:top\:9                   { top: var(--gap-9) !important; }
+    .md\:top\:10                  { top: var(--gap-10) !important; }
+    .md\:top\:1p                  { top: var(--gap-percent-1) !important; }
+    .md\:top\:2p                  { top: var(--gap-percent-2) !important; }
+    .md\:top\:3p                  { top: var(--gap-percent-3) !important; }
+    .md\:top\:4p                  { top: var(--gap-percent-4) !important; }
+    .md\:top\:5p                  { top: var(--gap-percent-5) !important; }
+    .md\:top\:6p                  { top: var(--gap-percent-6) !important; }
+    .md\:top\:7p                  { top: var(--gap-percent-7) !important; }
+    .md\:top\:8p                  { top: var(--gap-percent-8) !important; }
+    .md\:top\:9p                  { top: var(--gap-percent-9) !important; }
+    .md\:top\:10p                 { top: var(--gap-percent-10) !important; }
     .md\:top\:1\/2                { top: 50% !important; }
     .md\:top\:1\/3                { top: 33% !important; }
     .md\:top\:2\/3                { top: 66% !important; }
@@ -110,26 +110,26 @@
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
     .lg\:top\:0                   { top: 0 !important; }
-    .lg\:top\:1                   { top: var(--top-1) !important; }
-    .lg\:top\:2                   { top: var(--top-2) !important; }
-    .lg\:top\:3                   { top: var(--top-3) !important; }
-    .lg\:top\:4                   { top: var(--top-4) !important; }
-    .lg\:top\:5                   { top: var(--top-5) !important; }
-    .lg\:top\:6                   { top: var(--top-6) !important; }
-    .lg\:top\:7                   { top: var(--top-7) !important; }
-    .lg\:top\:8                   { top: var(--top-8) !important; }
-    .lg\:top\:9                   { top: var(--top-9) !important; }
-    .lg\:top\:10                  { top: var(--top-10) !important; }
-    .lg\:top\:1p                  { top: var(--top-percent-1) !important; }
-    .lg\:top\:2p                  { top: var(--top-percent-2) !important; }
-    .lg\:top\:3p                  { top: var(--top-percent-3) !important; }
-    .lg\:top\:4p                  { top: var(--top-percent-4) !important; }
-    .lg\:top\:5p                  { top: var(--top-percent-5) !important; }
-    .lg\:top\:6p                  { top: var(--top-percent-6) !important; }
-    .lg\:top\:7p                  { top: var(--top-percent-7) !important; }
-    .lg\:top\:8p                  { top: var(--top-percent-8) !important; }
-    .lg\:top\:9p                  { top: var(--top-percent-9) !important; }
-    .lg\:top\:10p                 { top: var(--top-percent-10) !important; }
+    .lg\:top\:1                   { top: var(--gap-1) !important; }
+    .lg\:top\:2                   { top: var(--gap-2) !important; }
+    .lg\:top\:3                   { top: var(--gap-3) !important; }
+    .lg\:top\:4                   { top: var(--gap-4) !important; }
+    .lg\:top\:5                   { top: var(--gap-5) !important; }
+    .lg\:top\:6                   { top: var(--gap-6) !important; }
+    .lg\:top\:7                   { top: var(--gap-7) !important; }
+    .lg\:top\:8                   { top: var(--gap-8) !important; }
+    .lg\:top\:9                   { top: var(--gap-9) !important; }
+    .lg\:top\:10                  { top: var(--gap-10) !important; }
+    .lg\:top\:1p                  { top: var(--gap-percent-1) !important; }
+    .lg\:top\:2p                  { top: var(--gap-percent-2) !important; }
+    .lg\:top\:3p                  { top: var(--gap-percent-3) !important; }
+    .lg\:top\:4p                  { top: var(--gap-percent-4) !important; }
+    .lg\:top\:5p                  { top: var(--gap-percent-5) !important; }
+    .lg\:top\:6p                  { top: var(--gap-percent-6) !important; }
+    .lg\:top\:7p                  { top: var(--gap-percent-7) !important; }
+    .lg\:top\:8p                  { top: var(--gap-percent-8) !important; }
+    .lg\:top\:9p                  { top: var(--gap-percent-9) !important; }
+    .lg\:top\:10p                 { top: var(--gap-percent-10) !important; }
     .lg\:top\:1\/2                { top: 50% !important; }
     .lg\:top\:1\/3                { top: 33% !important; }
     .lg\:top\:2\/3                { top: 66% !important; }
@@ -142,26 +142,26 @@
     .lg\:top\:4\/5                { top: 80% !important; }
 }
 
-.top\:-1                   { top: calc(var(--top-1, var(--gap-1)) * -1 )!important; }
-.top\:-2                   { top: calc(var(--top-2, var(--gap-2)) * -1 )!important; }
-.top\:-3                   { top: calc(var(--top-3, var(--gap-3)) * -1 )!important; }
-.top\:-4                   { top: calc(var(--top-4, var(--gap-4)) * -1 )!important; }
-.top\:-5                   { top: calc(var(--top-5, var(--gap-5)) * -1 )!important; }
-.top\:-6                   { top: calc(var(--top-6, var(--gap-6)) * -1 )!important; }
-.top\:-7                   { top: calc(var(--top-7, var(--gap-7)) * -1 )!important; }
-.top\:-8                   { top: calc(var(--top-8, var(--gap-8)) * -1 )!important; }
-.top\:-9                   { top: calc(var(--top-9, var(--gap-9)) * -1 )!important; }
-.top\:-10                  { top: calc(var(--top-10, var(--gap-10)) * -1 )!important; }
-.top\:-1p                  { top: calc(var(--top-percent-1) * -1) !important; }
-.top\:-2p                  { top: calc(var(--top-percent-2) * -1) !important; }
-.top\:-3p                  { top: calc(var(--top-percent-3) * -1) !important; }
-.top\:-4p                  { top: calc(var(--top-percent-4) * -1) !important; }
-.top\:-5p                  { top: calc(var(--top-percent-5) * -1) !important; }
-.top\:-6p                  { top: calc(var(--top-percent-6) * -1) !important; }
-.top\:-7p                  { top: calc(var(--top-percent-7) * -1) !important; }
-.top\:-8p                  { top: calc(var(--top-percent-8) * -1) !important; }
-.top\:-9p                  { top: calc(var(--top-percent-9) * -1) !important; }
-.top\:-10p                 { top: calc(var(--top-percent-10) * -1) !important; }
+.top\:-1                   { top: calc(var(--gap-1, var(--gap-1)) * -1 )!important; }
+.top\:-2                   { top: calc(var(--gap-2, var(--gap-2)) * -1 )!important; }
+.top\:-3                   { top: calc(var(--gap-3, var(--gap-3)) * -1 )!important; }
+.top\:-4                   { top: calc(var(--gap-4, var(--gap-4)) * -1 )!important; }
+.top\:-5                   { top: calc(var(--gap-5, var(--gap-5)) * -1 )!important; }
+.top\:-6                   { top: calc(var(--gap-6, var(--gap-6)) * -1 )!important; }
+.top\:-7                   { top: calc(var(--gap-7, var(--gap-7)) * -1 )!important; }
+.top\:-8                   { top: calc(var(--gap-8, var(--gap-8)) * -1 )!important; }
+.top\:-9                   { top: calc(var(--gap-9, var(--gap-9)) * -1 )!important; }
+.top\:-10                  { top: calc(var(--gap-10, var(--gap-10)) * -1 )!important; }
+.top\:-1p                  { top: calc(var(--gap-percent-1) * -1) !important; }
+.top\:-2p                  { top: calc(var(--gap-percent-2) * -1) !important; }
+.top\:-3p                  { top: calc(var(--gap-percent-3) * -1) !important; }
+.top\:-4p                  { top: calc(var(--gap-percent-4) * -1) !important; }
+.top\:-5p                  { top: calc(var(--gap-percent-5) * -1) !important; }
+.top\:-6p                  { top: calc(var(--gap-percent-6) * -1) !important; }
+.top\:-7p                  { top: calc(var(--gap-percent-7) * -1) !important; }
+.top\:-8p                  { top: calc(var(--gap-percent-8) * -1) !important; }
+.top\:-9p                  { top: calc(var(--gap-percent-9) * -1) !important; }
+.top\:-10p                 { top: calc(var(--gap-percent-10) * -1) !important; }
 .top\:-1\/2                { top: calc(50% * -1) !important; }
 .top\:-1\/3                { top: calc(33% * -1) !important; }
 .top\:-2\/3                { top: calc(66% * -1) !important; }
@@ -175,26 +175,26 @@
 
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
-    .md\:top\:-1                   { top: calc(var(--top-1) * -1 )!important; }
-    .md\:top\:-2                   { top: calc(var(--top-2) * -1 )!important; }
-    .md\:top\:-3                   { top: calc(var(--top-3) * -1 )!important; }
-    .md\:top\:-4                   { top: calc(var(--top-4) * -1 )!important; }
-    .md\:top\:-5                   { top: calc(var(--top-5) * -1 )!important; }
-    .md\:top\:-6                   { top: calc(var(--top-6) * -1 )!important; }
-    .md\:top\:-7                   { top: calc(var(--top-7) * -1 )!important; }
-    .md\:top\:-8                   { top: calc(var(--top-8) * -1 )!important; }
-    .md\:top\:-9                   { top: calc(var(--top-9) * -1 )!important; }
-    .md\:top\:-10                  { top: calc(var(--top-10) * -1 )!important; }
-    .md\:top\:-1p                  { top: calc(var(--top-percent-1) * -1) !important; }
-    .md\:top\:-2p                  { top: calc(var(--top-percent-2) * -1) !important; }
-    .md\:top\:-3p                  { top: calc(var(--top-percent-3) * -1) !important; }
-    .md\:top\:-4p                  { top: calc(var(--top-percent-4) * -1) !important; }
-    .md\:top\:-5p                  { top: calc(var(--top-percent-5) * -1) !important; }
-    .md\:top\:-6p                  { top: calc(var(--top-percent-6) * -1) !important; }
-    .md\:top\:-7p                  { top: calc(var(--top-percent-7) * -1) !important; }
-    .md\:top\:-8p                  { top: calc(var(--top-percent-8) * -1) !important; }
-    .md\:top\:-9p                  { top: calc(var(--top-percent-9) * -1) !important; }
-    .md\:top\:-10p                 { top: calc(var(--top-percent-10) * -1) !important; }
+    .md\:top\:-1                   { top: calc(var(--gap-1) * -1 )!important; }
+    .md\:top\:-2                   { top: calc(var(--gap-2) * -1 )!important; }
+    .md\:top\:-3                   { top: calc(var(--gap-3) * -1 )!important; }
+    .md\:top\:-4                   { top: calc(var(--gap-4) * -1 )!important; }
+    .md\:top\:-5                   { top: calc(var(--gap-5) * -1 )!important; }
+    .md\:top\:-6                   { top: calc(var(--gap-6) * -1 )!important; }
+    .md\:top\:-7                   { top: calc(var(--gap-7) * -1 )!important; }
+    .md\:top\:-8                   { top: calc(var(--gap-8) * -1 )!important; }
+    .md\:top\:-9                   { top: calc(var(--gap-9) * -1 )!important; }
+    .md\:top\:-10                  { top: calc(var(--gap-10) * -1 )!important; }
+    .md\:top\:-1p                  { top: calc(var(--gap-percent-1) * -1) !important; }
+    .md\:top\:-2p                  { top: calc(var(--gap-percent-2) * -1) !important; }
+    .md\:top\:-3p                  { top: calc(var(--gap-percent-3) * -1) !important; }
+    .md\:top\:-4p                  { top: calc(var(--gap-percent-4) * -1) !important; }
+    .md\:top\:-5p                  { top: calc(var(--gap-percent-5) * -1) !important; }
+    .md\:top\:-6p                  { top: calc(var(--gap-percent-6) * -1) !important; }
+    .md\:top\:-7p                  { top: calc(var(--gap-percent-7) * -1) !important; }
+    .md\:top\:-8p                  { top: calc(var(--gap-percent-8) * -1) !important; }
+    .md\:top\:-9p                  { top: calc(var(--gap-percent-9) * -1) !important; }
+    .md\:top\:-10p                 { top: calc(var(--gap-percent-10) * -1) !important; }
     .md\:top\:-1\/2                { top: calc(50% * -1) !important; }
     .md\:top\:-1\/3                { top: calc(33% * -1) !important; }
     .md\:top\:-2\/3                { top: calc(66% * -1) !important; }
@@ -209,26 +209,26 @@
 
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
-    .lg\:top\:-1                   { top: calc(var(--top-1) * -1 )!important; }
-    .lg\:top\:-2                   { top: calc(var(--top-2) * -1 )!important; }
-    .lg\:top\:-3                   { top: calc(var(--top-3) * -1 )!important; }
-    .lg\:top\:-4                   { top: calc(var(--top-4) * -1 )!important; }
-    .lg\:top\:-5                   { top: calc(var(--top-5) * -1 )!important; }
-    .lg\:top\:-6                   { top: calc(var(--top-6) * -1 )!important; }
-    .lg\:top\:-7                   { top: calc(var(--top-7) * -1 )!important; }
-    .lg\:top\:-8                   { top: calc(var(--top-8) * -1 )!important; }
-    .lg\:top\:-9                   { top: calc(var(--top-9) * -1 )!important; }
-    .lg\:top\:-10                  { top: calc(var(--top-10) * -1 )!important; }
-    .lg\:top\:-1p                  { top: calc(var(--top-percent-1) * -1) !important; }
-    .lg\:top\:-2p                  { top: calc(var(--top-percent-2) * -1) !important; }
-    .lg\:top\:-3p                  { top: calc(var(--top-percent-3) * -1) !important; }
-    .lg\:top\:-4p                  { top: calc(var(--top-percent-4) * -1) !important; }
-    .lg\:top\:-5p                  { top: calc(var(--top-percent-5) * -1) !important; }
-    .lg\:top\:-6p                  { top: calc(var(--top-percent-6) * -1) !important; }
-    .lg\:top\:-7p                  { top: calc(var(--top-percent-7) * -1) !important; }
-    .lg\:top\:-8p                  { top: calc(var(--top-percent-8) * -1) !important; }
-    .lg\:top\:-9p                  { top: calc(var(--top-percent-9) * -1) !important; }
-    .lg\:top\:-10p                 { top: calc(var(--top-percent-10) * -1) !important; }
+    .lg\:top\:-1                   { top: calc(var(--gap-1) * -1 )!important; }
+    .lg\:top\:-2                   { top: calc(var(--gap-2) * -1 )!important; }
+    .lg\:top\:-3                   { top: calc(var(--gap-3) * -1 )!important; }
+    .lg\:top\:-4                   { top: calc(var(--gap-4) * -1 )!important; }
+    .lg\:top\:-5                   { top: calc(var(--gap-5) * -1 )!important; }
+    .lg\:top\:-6                   { top: calc(var(--gap-6) * -1 )!important; }
+    .lg\:top\:-7                   { top: calc(var(--gap-7) * -1 )!important; }
+    .lg\:top\:-8                   { top: calc(var(--gap-8) * -1 )!important; }
+    .lg\:top\:-9                   { top: calc(var(--gap-9) * -1 )!important; }
+    .lg\:top\:-10                  { top: calc(var(--gap-10) * -1 )!important; }
+    .lg\:top\:-1p                  { top: calc(var(--gap-percent-1) * -1) !important; }
+    .lg\:top\:-2p                  { top: calc(var(--gap-percent-2) * -1) !important; }
+    .lg\:top\:-3p                  { top: calc(var(--gap-percent-3) * -1) !important; }
+    .lg\:top\:-4p                  { top: calc(var(--gap-percent-4) * -1) !important; }
+    .lg\:top\:-5p                  { top: calc(var(--gap-percent-5) * -1) !important; }
+    .lg\:top\:-6p                  { top: calc(var(--gap-percent-6) * -1) !important; }
+    .lg\:top\:-7p                  { top: calc(var(--gap-percent-7) * -1) !important; }
+    .lg\:top\:-8p                  { top: calc(var(--gap-percent-8) * -1) !important; }
+    .lg\:top\:-9p                  { top: calc(var(--gap-percent-9) * -1) !important; }
+    .lg\:top\:-10p                 { top: calc(var(--gap-percent-10) * -1) !important; }
     .lg\:top\:-1\/2                { top: calc(50% * -1) !important; }
     .lg\:top\:-1\/3                { top: calc(33% * -1) !important; }
     .lg\:top\:-2\/3                { top: calc(66% * -1) !important; }
@@ -243,26 +243,26 @@
 
 /* ---- right ------------------------------------------------- */
 .right\:0                   { right: 0 !important; }
-.right\:1                   { right: var(--right-1) !important; }
-.right\:2                   { right: var(--right-2) !important; }
-.right\:3                   { right: var(--right-3) !important; }
-.right\:4                   { right: var(--right-4) !important; }
-.right\:5                   { right: var(--right-5) !important; }
-.right\:6                   { right: var(--right-6) !important; }
-.right\:7                   { right: var(--right-7) !important; }
-.right\:8                   { right: var(--right-8) !important; }
-.right\:9                   { right: var(--right-9) !important; }
-.right\:10                  { right: var(--right-10) !important; }
-.right\:1p                  { right: var(--right-percent-1) !important; }
-.right\:2p                  { right: var(--right-percent-2) !important; }
-.right\:3p                  { right: var(--right-percent-3) !important; }
-.right\:4p                  { right: var(--right-percent-4) !important; }
-.right\:5p                  { right: var(--right-percent-5) !important; }
-.right\:6p                  { right: var(--right-percent-6) !important; }
-.right\:7p                  { right: var(--right-percent-7) !important; }
-.right\:8p                  { right: var(--right-percent-8) !important; }
-.right\:9p                  { right: var(--right-percent-9) !important; }
-.right\:10p                 { right: var(--right-percent-10) !important; }
+.right\:1                   { right: var(--gap-1) !important; }
+.right\:2                   { right: var(--gap-2) !important; }
+.right\:3                   { right: var(--gap-3) !important; }
+.right\:4                   { right: var(--gap-4) !important; }
+.right\:5                   { right: var(--gap-5) !important; }
+.right\:6                   { right: var(--gap-6) !important; }
+.right\:7                   { right: var(--gap-7) !important; }
+.right\:8                   { right: var(--gap-8) !important; }
+.right\:9                   { right: var(--gap-9) !important; }
+.right\:10                  { right: var(--gap-10) !important; }
+.right\:1p                  { right: var(--gap-percent-1) !important; }
+.right\:2p                  { right: var(--gap-percent-2) !important; }
+.right\:3p                  { right: var(--gap-percent-3) !important; }
+.right\:4p                  { right: var(--gap-percent-4) !important; }
+.right\:5p                  { right: var(--gap-percent-5) !important; }
+.right\:6p                  { right: var(--gap-percent-6) !important; }
+.right\:7p                  { right: var(--gap-percent-7) !important; }
+.right\:8p                  { right: var(--gap-percent-8) !important; }
+.right\:9p                  { right: var(--gap-percent-9) !important; }
+.right\:10p                 { right: var(--gap-percent-10) !important; }
 .right\:1\/2                { right: 50% !important; }
 .right\:1\/3                { right: 33% !important; }
 .right\:2\/3                { right: 66% !important; }
@@ -278,26 +278,26 @@
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
     .md\:right\:0                   { right: 0 !important; }
-    .md\:right\:1                   { right: var(--right-1) !important; }
-    .md\:right\:2                   { right: var(--right-2) !important; }
-    .md\:right\:3                   { right: var(--right-3) !important; }
-    .md\:right\:4                   { right: var(--right-4) !important; }
-    .md\:right\:5                   { right: var(--right-5) !important; }
-    .md\:right\:6                   { right: var(--right-6) !important; }
-    .md\:right\:7                   { right: var(--right-7) !important; }
-    .md\:right\:8                   { right: var(--right-8) !important; }
-    .md\:right\:9                   { right: var(--right-9) !important; }
-    .md\:right\:10                  { right: var(--right-10) !important; }
-    .md\:right\:1p                  { right: var(--right-percent-1) !important; }
-    .md\:right\:2p                  { right: var(--right-percent-2) !important; }
-    .md\:right\:3p                  { right: var(--right-percent-3) !important; }
-    .md\:right\:4p                  { right: var(--right-percent-4) !important; }
-    .md\:right\:5p                  { right: var(--right-percent-5) !important; }
-    .md\:right\:6p                  { right: var(--right-percent-6) !important; }
-    .md\:right\:7p                  { right: var(--right-percent-7) !important; }
-    .md\:right\:8p                  { right: var(--right-percent-8) !important; }
-    .md\:right\:9p                  { right: var(--right-percent-9) !important; }
-    .md\:right\:10p                 { right: var(--right-percent-10) !important; }
+    .md\:right\:1                   { right: var(--gap-1) !important; }
+    .md\:right\:2                   { right: var(--gap-2) !important; }
+    .md\:right\:3                   { right: var(--gap-3) !important; }
+    .md\:right\:4                   { right: var(--gap-4) !important; }
+    .md\:right\:5                   { right: var(--gap-5) !important; }
+    .md\:right\:6                   { right: var(--gap-6) !important; }
+    .md\:right\:7                   { right: var(--gap-7) !important; }
+    .md\:right\:8                   { right: var(--gap-8) !important; }
+    .md\:right\:9                   { right: var(--gap-9) !important; }
+    .md\:right\:10                  { right: var(--gap-10) !important; }
+    .md\:right\:1p                  { right: var(--gap-percent-1) !important; }
+    .md\:right\:2p                  { right: var(--gap-percent-2) !important; }
+    .md\:right\:3p                  { right: var(--gap-percent-3) !important; }
+    .md\:right\:4p                  { right: var(--gap-percent-4) !important; }
+    .md\:right\:5p                  { right: var(--gap-percent-5) !important; }
+    .md\:right\:6p                  { right: var(--gap-percent-6) !important; }
+    .md\:right\:7p                  { right: var(--gap-percent-7) !important; }
+    .md\:right\:8p                  { right: var(--gap-percent-8) !important; }
+    .md\:right\:9p                  { right: var(--gap-percent-9) !important; }
+    .md\:right\:10p                 { right: var(--gap-percent-10) !important; }
     .md\:right\:1\/2                { right: 50% !important; }
     .md\:right\:1\/3                { right: 33% !important; }
     .md\:right\:2\/3                { right: 66% !important; }
@@ -313,26 +313,26 @@
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
     .lg\:right\:0                   { right: 0 !important; }
-    .lg\:right\:1                   { right: var(--right-1) !important; }
-    .lg\:right\:2                   { right: var(--right-2) !important; }
-    .lg\:right\:3                   { right: var(--right-3) !important; }
-    .lg\:right\:4                   { right: var(--right-4) !important; }
-    .lg\:right\:5                   { right: var(--right-5) !important; }
-    .lg\:right\:6                   { right: var(--right-6) !important; }
-    .lg\:right\:7                   { right: var(--right-7) !important; }
-    .lg\:right\:8                   { right: var(--right-8) !important; }
-    .lg\:right\:9                   { right: var(--right-9) !important; }
-    .lg\:right\:10                  { right: var(--right-10) !important; }
-    .lg\:right\:1p                  { right: var(--right-percent-1) !important; }
-    .lg\:right\:2p                  { right: var(--right-percent-2) !important; }
-    .lg\:right\:3p                  { right: var(--right-percent-3) !important; }
-    .lg\:right\:4p                  { right: var(--right-percent-4) !important; }
-    .lg\:right\:5p                  { right: var(--right-percent-5) !important; }
-    .lg\:right\:6p                  { right: var(--right-percent-6) !important; }
-    .lg\:right\:7p                  { right: var(--right-percent-7) !important; }
-    .lg\:right\:8p                  { right: var(--right-percent-8) !important; }
-    .lg\:right\:9p                  { right: var(--right-percent-9) !important; }
-    .lg\:right\:10p                 { right: var(--right-percent-10) !important; }
+    .lg\:right\:1                   { right: var(--gap-1) !important; }
+    .lg\:right\:2                   { right: var(--gap-2) !important; }
+    .lg\:right\:3                   { right: var(--gap-3) !important; }
+    .lg\:right\:4                   { right: var(--gap-4) !important; }
+    .lg\:right\:5                   { right: var(--gap-5) !important; }
+    .lg\:right\:6                   { right: var(--gap-6) !important; }
+    .lg\:right\:7                   { right: var(--gap-7) !important; }
+    .lg\:right\:8                   { right: var(--gap-8) !important; }
+    .lg\:right\:9                   { right: var(--gap-9) !important; }
+    .lg\:right\:10                  { right: var(--gap-10) !important; }
+    .lg\:right\:1p                  { right: var(--gap-percent-1) !important; }
+    .lg\:right\:2p                  { right: var(--gap-percent-2) !important; }
+    .lg\:right\:3p                  { right: var(--gap-percent-3) !important; }
+    .lg\:right\:4p                  { right: var(--gap-percent-4) !important; }
+    .lg\:right\:5p                  { right: var(--gap-percent-5) !important; }
+    .lg\:right\:6p                  { right: var(--gap-percent-6) !important; }
+    .lg\:right\:7p                  { right: var(--gap-percent-7) !important; }
+    .lg\:right\:8p                  { right: var(--gap-percent-8) !important; }
+    .lg\:right\:9p                  { right: var(--gap-percent-9) !important; }
+    .lg\:right\:10p                 { right: var(--gap-percent-10) !important; }
     .lg\:right\:1\/2                { right: 50% !important; }
     .lg\:right\:1\/3                { right: 33% !important; }
     .lg\:right\:2\/3                { right: 66% !important; }
@@ -345,26 +345,26 @@
     .lg\:right\:4\/5                { right: 80% !important; }
 }
 
-.right\:-1                   { right: calc(var(--right-1) * -1 )!important; }
-.right\:-2                   { right: calc(var(--right-2) * -1 )!important; }
-.right\:-3                   { right: calc(var(--right-3) * -1 )!important; }
-.right\:-4                   { right: calc(var(--right-4) * -1 )!important; }
-.right\:-5                   { right: calc(var(--right-5) * -1 )!important; }
-.right\:-6                   { right: calc(var(--right-6) * -1 )!important; }
-.right\:-7                   { right: calc(var(--right-7) * -1 )!important; }
-.right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
-.right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
-.right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
-.right\:-1p                  { right: calc(var(--right-percent-1) * -1) !important; }
-.right\:-2p                  { right: calc(var(--right-percent-2) * -1) !important; }
-.right\:-3p                  { right: calc(var(--right-percent-3) * -1) !important; }
-.right\:-4p                  { right: calc(var(--right-percent-4) * -1) !important; }
-.right\:-5p                  { right: calc(var(--right-percent-5) * -1) !important; }
-.right\:-6p                  { right: calc(var(--right-percent-6) * -1) !important; }
-.right\:-7p                  { right: calc(var(--right-percent-7) * -1) !important; }
-.right\:-8p                  { right: calc(var(--right-percent-8) * -1) !important; }
-.right\:-9p                  { right: calc(var(--right-percent-9) * -1) !important; }
-.right\:-10p                 { right: calc(var(--right-percent-10) * -1) !important; }
+.right\:-1                   { right: calc(var(--gap-1) * -1 )!important; }
+.right\:-2                   { right: calc(var(--gap-2) * -1 )!important; }
+.right\:-3                   { right: calc(var(--gap-3) * -1 )!important; }
+.right\:-4                   { right: calc(var(--gap-4) * -1 )!important; }
+.right\:-5                   { right: calc(var(--gap-5) * -1 )!important; }
+.right\:-6                   { right: calc(var(--gap-6) * -1 )!important; }
+.right\:-7                   { right: calc(var(--gap-7) * -1 )!important; }
+.right\:-8                   { right: calc(var(--gap-8) * -1 )!important; }
+.right\:-9                   { right: calc(var(--gap-9) * -1 )!important; }
+.right\:-10                  { right: calc(var(--gap-10) * -1 )!important; }
+.right\:-1p                  { right: calc(var(--gap-percent-1) * -1) !important; }
+.right\:-2p                  { right: calc(var(--gap-percent-2) * -1) !important; }
+.right\:-3p                  { right: calc(var(--gap-percent-3) * -1) !important; }
+.right\:-4p                  { right: calc(var(--gap-percent-4) * -1) !important; }
+.right\:-5p                  { right: calc(var(--gap-percent-5) * -1) !important; }
+.right\:-6p                  { right: calc(var(--gap-percent-6) * -1) !important; }
+.right\:-7p                  { right: calc(var(--gap-percent-7) * -1) !important; }
+.right\:-8p                  { right: calc(var(--gap-percent-8) * -1) !important; }
+.right\:-9p                  { right: calc(var(--gap-percent-9) * -1) !important; }
+.right\:-10p                 { right: calc(var(--gap-percent-10) * -1) !important; }
 .right\:-1\/2                { right: calc(50% * -1) !important; }
 .right\:-1\/3                { right: calc(33% * -1) !important; }
 .right\:-2\/3                { right: calc(66% * -1) !important; }
@@ -379,26 +379,26 @@
 
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
-    .md\:right\:-1                   { right: calc(var(--right-1) * -1 )!important; }
-    .md\:right\:-2                   { right: calc(var(--right-2) * -1 )!important; }
-    .md\:right\:-3                   { right: calc(var(--right-3) * -1 )!important; }
-    .md\:right\:-4                   { right: calc(var(--right-4) * -1 )!important; }
-    .md\:right\:-5                   { right: calc(var(--right-5) * -1 )!important; }
-    .md\:right\:-6                   { right: calc(var(--right-6) * -1 )!important; }
-    .md\:right\:-7                   { right: calc(var(--right-7) * -1 )!important; }
-    .md\:right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
-    .md\:right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
-    .md\:right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
-    .md\:right\:-1p                  { right: calc(var(--right-percent-1) * -1) !important; }
-    .md\:right\:-2p                  { right: calc(var(--right-percent-2) * -1) !important; }
-    .md\:right\:-3p                  { right: calc(var(--right-percent-3) * -1) !important; }
-    .md\:right\:-4p                  { right: calc(var(--right-percent-4) * -1) !important; }
-    .md\:right\:-5p                  { right: calc(var(--right-percent-5) * -1) !important; }
-    .md\:right\:-6p                  { right: calc(var(--right-percent-6) * -1) !important; }
-    .md\:right\:-7p                  { right: calc(var(--right-percent-7) * -1) !important; }
-    .md\:right\:-8p                  { right: calc(var(--right-percent-8) * -1) !important; }
-    .md\:right\:-9p                  { right: calc(var(--right-percent-9) * -1) !important; }
-    .md\:right\:-10p                 { right: calc(var(--right-percent-10) * -1) !important; }
+    .md\:right\:-1                   { right: calc(var(--gap-1) * -1 )!important; }
+    .md\:right\:-2                   { right: calc(var(--gap-2) * -1 )!important; }
+    .md\:right\:-3                   { right: calc(var(--gap-3) * -1 )!important; }
+    .md\:right\:-4                   { right: calc(var(--gap-4) * -1 )!important; }
+    .md\:right\:-5                   { right: calc(var(--gap-5) * -1 )!important; }
+    .md\:right\:-6                   { right: calc(var(--gap-6) * -1 )!important; }
+    .md\:right\:-7                   { right: calc(var(--gap-7) * -1 )!important; }
+    .md\:right\:-8                   { right: calc(var(--gap-8) * -1 )!important; }
+    .md\:right\:-9                   { right: calc(var(--gap-9) * -1 )!important; }
+    .md\:right\:-10                  { right: calc(var(--gap-10) * -1 )!important; }
+    .md\:right\:-1p                  { right: calc(var(--gap-percent-1) * -1) !important; }
+    .md\:right\:-2p                  { right: calc(var(--gap-percent-2) * -1) !important; }
+    .md\:right\:-3p                  { right: calc(var(--gap-percent-3) * -1) !important; }
+    .md\:right\:-4p                  { right: calc(var(--gap-percent-4) * -1) !important; }
+    .md\:right\:-5p                  { right: calc(var(--gap-percent-5) * -1) !important; }
+    .md\:right\:-6p                  { right: calc(var(--gap-percent-6) * -1) !important; }
+    .md\:right\:-7p                  { right: calc(var(--gap-percent-7) * -1) !important; }
+    .md\:right\:-8p                  { right: calc(var(--gap-percent-8) * -1) !important; }
+    .md\:right\:-9p                  { right: calc(var(--gap-percent-9) * -1) !important; }
+    .md\:right\:-10p                 { right: calc(var(--gap-percent-10) * -1) !important; }
     .md\:right\:-1\/2                { right: calc(50% * -1) !important; }
     .md\:right\:-1\/3                { right: calc(33% * -1) !important; }
     .md\:right\:-2\/3                { right: calc(66% * -1) !important; }
@@ -413,26 +413,26 @@
 
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
-    .lg\:right\:-1                   { right: calc(var(--right-1) * -1 )!important; }
-    .lg\:right\:-2                   { right: calc(var(--right-2) * -1 )!important; }
-    .lg\:right\:-3                   { right: calc(var(--right-3) * -1 )!important; }
-    .lg\:right\:-4                   { right: calc(var(--right-4) * -1 )!important; }
-    .lg\:right\:-5                   { right: calc(var(--right-5) * -1 )!important; }
-    .lg\:right\:-6                   { right: calc(var(--right-6) * -1 )!important; }
-    .lg\:right\:-7                   { right: calc(var(--right-7) * -1 )!important; }
-    .lg\:right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
-    .lg\:right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
-    .lg\:right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
-    .lg\:right\:-1p                  { right: calc(var(--right-percent-1) * -1) !important; }
-    .lg\:right\:-2p                  { right: calc(var(--right-percent-2) * -1) !important; }
-    .lg\:right\:-3p                  { right: calc(var(--right-percent-3) * -1) !important; }
-    .lg\:right\:-4p                  { right: calc(var(--right-percent-4) * -1) !important; }
-    .lg\:right\:-5p                  { right: calc(var(--right-percent-5) * -1) !important; }
-    .lg\:right\:-6p                  { right: calc(var(--right-percent-6) * -1) !important; }
-    .lg\:right\:-7p                  { right: calc(var(--right-percent-7) * -1) !important; }
-    .lg\:right\:-8p                  { right: calc(var(--right-percent-8) * -1) !important; }
-    .lg\:right\:-9p                  { right: calc(var(--right-percent-9) * -1) !important; }
-    .lg\:right\:-10p                 { right: calc(var(--right-percent-10) * -1) !important; }
+    .lg\:right\:-1                   { right: calc(var(--gap-1) * -1 )!important; }
+    .lg\:right\:-2                   { right: calc(var(--gap-2) * -1 )!important; }
+    .lg\:right\:-3                   { right: calc(var(--gap-3) * -1 )!important; }
+    .lg\:right\:-4                   { right: calc(var(--gap-4) * -1 )!important; }
+    .lg\:right\:-5                   { right: calc(var(--gap-5) * -1 )!important; }
+    .lg\:right\:-6                   { right: calc(var(--gap-6) * -1 )!important; }
+    .lg\:right\:-7                   { right: calc(var(--gap-7) * -1 )!important; }
+    .lg\:right\:-8                   { right: calc(var(--gap-8) * -1 )!important; }
+    .lg\:right\:-9                   { right: calc(var(--gap-9) * -1 )!important; }
+    .lg\:right\:-10                  { right: calc(var(--gap-10) * -1 )!important; }
+    .lg\:right\:-1p                  { right: calc(var(--gap-percent-1) * -1) !important; }
+    .lg\:right\:-2p                  { right: calc(var(--gap-percent-2) * -1) !important; }
+    .lg\:right\:-3p                  { right: calc(var(--gap-percent-3) * -1) !important; }
+    .lg\:right\:-4p                  { right: calc(var(--gap-percent-4) * -1) !important; }
+    .lg\:right\:-5p                  { right: calc(var(--gap-percent-5) * -1) !important; }
+    .lg\:right\:-6p                  { right: calc(var(--gap-percent-6) * -1) !important; }
+    .lg\:right\:-7p                  { right: calc(var(--gap-percent-7) * -1) !important; }
+    .lg\:right\:-8p                  { right: calc(var(--gap-percent-8) * -1) !important; }
+    .lg\:right\:-9p                  { right: calc(var(--gap-percent-9) * -1) !important; }
+    .lg\:right\:-10p                 { right: calc(var(--gap-percent-10) * -1) !important; }
     .lg\:right\:-1\/2                { right: calc(50% * -1) !important; }
     .lg\:right\:-1\/3                { right: calc(33% * -1) !important; }
     .lg\:right\:-2\/3                { right: calc(66% * -1) !important; }
@@ -447,26 +447,26 @@
 
 /* ---- bottom ------------------------------------------------- */
 .bottom\:0                   { bottom: 0 !important; }
-.bottom\:1                   { bottom: var(--bottom-1) !important; }
-.bottom\:2                   { bottom: var(--bottom-2) !important; }
-.bottom\:3                   { bottom: var(--bottom-3) !important; }
-.bottom\:4                   { bottom: var(--bottom-4) !important; }
-.bottom\:5                   { bottom: var(--bottom-5) !important; }
-.bottom\:6                   { bottom: var(--bottom-6) !important; }
-.bottom\:7                   { bottom: var(--bottom-7) !important; }
-.bottom\:8                   { bottom: var(--bottom-8) !important; }
-.bottom\:9                   { bottom: var(--bottom-9) !important; }
-.bottom\:10                  { bottom: var(--bottom-10) !important; }
-.bottom\:1p                  { bottom: var(--bottom-percent-1) !important; }
-.bottom\:2p                  { bottom: var(--bottom-percent-2) !important; }
-.bottom\:3p                  { bottom: var(--bottom-percent-3) !important; }
-.bottom\:4p                  { bottom: var(--bottom-percent-4) !important; }
-.bottom\:5p                  { bottom: var(--bottom-percent-5) !important; }
-.bottom\:6p                  { bottom: var(--bottom-percent-6) !important; }
-.bottom\:7p                  { bottom: var(--bottom-percent-7) !important; }
-.bottom\:8p                  { bottom: var(--bottom-percent-8) !important; }
-.bottom\:9p                  { bottom: var(--bottom-percent-9) !important; }
-.bottom\:10p                 { bottom: var(--bottom-percent-10) !important; }
+.bottom\:1                   { bottom: var(--gap-1) !important; }
+.bottom\:2                   { bottom: var(--gap-2) !important; }
+.bottom\:3                   { bottom: var(--gap-3) !important; }
+.bottom\:4                   { bottom: var(--gap-4) !important; }
+.bottom\:5                   { bottom: var(--gap-5) !important; }
+.bottom\:6                   { bottom: var(--gap-6) !important; }
+.bottom\:7                   { bottom: var(--gap-7) !important; }
+.bottom\:8                   { bottom: var(--gap-8) !important; }
+.bottom\:9                   { bottom: var(--gap-9) !important; }
+.bottom\:10                  { bottom: var(--gap-10) !important; }
+.bottom\:1p                  { bottom: var(--gap-percent-1) !important; }
+.bottom\:2p                  { bottom: var(--gap-percent-2) !important; }
+.bottom\:3p                  { bottom: var(--gap-percent-3) !important; }
+.bottom\:4p                  { bottom: var(--gap-percent-4) !important; }
+.bottom\:5p                  { bottom: var(--gap-percent-5) !important; }
+.bottom\:6p                  { bottom: var(--gap-percent-6) !important; }
+.bottom\:7p                  { bottom: var(--gap-percent-7) !important; }
+.bottom\:8p                  { bottom: var(--gap-percent-8) !important; }
+.bottom\:9p                  { bottom: var(--gap-percent-9) !important; }
+.bottom\:10p                 { bottom: var(--gap-percent-10) !important; }
 .bottom\:1\/2                { bottom: 50% !important; }
 .bottom\:1\/3                { bottom: 33% !important; }
 .bottom\:2\/3                { bottom: 66% !important; }
@@ -481,26 +481,26 @@
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
     .md\:bottom\:0                   { bottom: 0 !important; }
-    .md\:bottom\:1                   { bottom: var(--bottom-1) !important; }
-    .md\:bottom\:2                   { bottom: var(--bottom-2) !important; }
-    .md\:bottom\:3                   { bottom: var(--bottom-3) !important; }
-    .md\:bottom\:4                   { bottom: var(--bottom-4) !important; }
-    .md\:bottom\:5                   { bottom: var(--bottom-5) !important; }
-    .md\:bottom\:6                   { bottom: var(--bottom-6) !important; }
-    .md\:bottom\:7                   { bottom: var(--bottom-7) !important; }
-    .md\:bottom\:8                   { bottom: var(--bottom-8) !important; }
-    .md\:bottom\:9                   { bottom: var(--bottom-9) !important; }
-    .md\:bottom\:10                  { bottom: var(--bottom-10) !important; }
-    .md\:bottom\:1p                  { bottom: var(--bottom-percent-1) !important; }
-    .md\:bottom\:2p                  { bottom: var(--bottom-percent-2) !important; }
-    .md\:bottom\:3p                  { bottom: var(--bottom-percent-3) !important; }
-    .md\:bottom\:4p                  { bottom: var(--bottom-percent-4) !important; }
-    .md\:bottom\:5p                  { bottom: var(--bottom-percent-5) !important; }
-    .md\:bottom\:6p                  { bottom: var(--bottom-percent-6) !important; }
-    .md\:bottom\:7p                  { bottom: var(--bottom-percent-7) !important; }
-    .md\:bottom\:8p                  { bottom: var(--bottom-percent-8) !important; }
-    .md\:bottom\:9p                  { bottom: var(--bottom-percent-9) !important; }
-    .md\:bottom\:10p                 { bottom: var(--bottom-percent-10) !important; }
+    .md\:bottom\:1                   { bottom: var(--gap-1) !important; }
+    .md\:bottom\:2                   { bottom: var(--gap-2) !important; }
+    .md\:bottom\:3                   { bottom: var(--gap-3) !important; }
+    .md\:bottom\:4                   { bottom: var(--gap-4) !important; }
+    .md\:bottom\:5                   { bottom: var(--gap-5) !important; }
+    .md\:bottom\:6                   { bottom: var(--gap-6) !important; }
+    .md\:bottom\:7                   { bottom: var(--gap-7) !important; }
+    .md\:bottom\:8                   { bottom: var(--gap-8) !important; }
+    .md\:bottom\:9                   { bottom: var(--gap-9) !important; }
+    .md\:bottom\:10                  { bottom: var(--gap-10) !important; }
+    .md\:bottom\:1p                  { bottom: var(--gap-percent-1) !important; }
+    .md\:bottom\:2p                  { bottom: var(--gap-percent-2) !important; }
+    .md\:bottom\:3p                  { bottom: var(--gap-percent-3) !important; }
+    .md\:bottom\:4p                  { bottom: var(--gap-percent-4) !important; }
+    .md\:bottom\:5p                  { bottom: var(--gap-percent-5) !important; }
+    .md\:bottom\:6p                  { bottom: var(--gap-percent-6) !important; }
+    .md\:bottom\:7p                  { bottom: var(--gap-percent-7) !important; }
+    .md\:bottom\:8p                  { bottom: var(--gap-percent-8) !important; }
+    .md\:bottom\:9p                  { bottom: var(--gap-percent-9) !important; }
+    .md\:bottom\:10p                 { bottom: var(--gap-percent-10) !important; }
     .md\:bottom\:1\/2                { bottom: 50% !important; }
     .md\:bottom\:1\/3                { bottom: 33% !important; }
     .md\:bottom\:2\/3                { bottom: 66% !important; }
@@ -516,26 +516,26 @@
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
     .lg\:bottom\:0                   { bottom: 0 !important; }
-    .lg\:bottom\:1                   { bottom: var(--bottom-1) !important; }
-    .lg\:bottom\:2                   { bottom: var(--bottom-2) !important; }
-    .lg\:bottom\:3                   { bottom: var(--bottom-3) !important; }
-    .lg\:bottom\:4                   { bottom: var(--bottom-4) !important; }
-    .lg\:bottom\:5                   { bottom: var(--bottom-5) !important; }
-    .lg\:bottom\:6                   { bottom: var(--bottom-6) !important; }
-    .lg\:bottom\:7                   { bottom: var(--bottom-7) !important; }
-    .lg\:bottom\:8                   { bottom: var(--bottom-8) !important; }
-    .lg\:bottom\:9                   { bottom: var(--bottom-9) !important; }
-    .lg\:bottom\:10                  { bottom: var(--bottom-10) !important; }
-    .lg\:bottom\:1p                  { bottom: var(--bottom-percent-1) !important; }
-    .lg\:bottom\:2p                  { bottom: var(--bottom-percent-2) !important; }
-    .lg\:bottom\:3p                  { bottom: var(--bottom-percent-3) !important; }
-    .lg\:bottom\:4p                  { bottom: var(--bottom-percent-4) !important; }
-    .lg\:bottom\:5p                  { bottom: var(--bottom-percent-5) !important; }
-    .lg\:bottom\:6p                  { bottom: var(--bottom-percent-6) !important; }
-    .lg\:bottom\:7p                  { bottom: var(--bottom-percent-7) !important; }
-    .lg\:bottom\:8p                  { bottom: var(--bottom-percent-8) !important; }
-    .lg\:bottom\:9p                  { bottom: var(--bottom-percent-9) !important; }
-    .lg\:bottom\:10p                 { bottom: var(--bottom-percent-10) !important; }
+    .lg\:bottom\:1                   { bottom: var(--gap-1) !important; }
+    .lg\:bottom\:2                   { bottom: var(--gap-2) !important; }
+    .lg\:bottom\:3                   { bottom: var(--gap-3) !important; }
+    .lg\:bottom\:4                   { bottom: var(--gap-4) !important; }
+    .lg\:bottom\:5                   { bottom: var(--gap-5) !important; }
+    .lg\:bottom\:6                   { bottom: var(--gap-6) !important; }
+    .lg\:bottom\:7                   { bottom: var(--gap-7) !important; }
+    .lg\:bottom\:8                   { bottom: var(--gap-8) !important; }
+    .lg\:bottom\:9                   { bottom: var(--gap-9) !important; }
+    .lg\:bottom\:10                  { bottom: var(--gap-10) !important; }
+    .lg\:bottom\:1p                  { bottom: var(--gap-percent-1) !important; }
+    .lg\:bottom\:2p                  { bottom: var(--gap-percent-2) !important; }
+    .lg\:bottom\:3p                  { bottom: var(--gap-percent-3) !important; }
+    .lg\:bottom\:4p                  { bottom: var(--gap-percent-4) !important; }
+    .lg\:bottom\:5p                  { bottom: var(--gap-percent-5) !important; }
+    .lg\:bottom\:6p                  { bottom: var(--gap-percent-6) !important; }
+    .lg\:bottom\:7p                  { bottom: var(--gap-percent-7) !important; }
+    .lg\:bottom\:8p                  { bottom: var(--gap-percent-8) !important; }
+    .lg\:bottom\:9p                  { bottom: var(--gap-percent-9) !important; }
+    .lg\:bottom\:10p                 { bottom: var(--gap-percent-10) !important; }
     .lg\:bottom\:1\/2                { bottom: 50% !important; }
     .lg\:bottom\:1\/3                { bottom: 33% !important; }
     .lg\:bottom\:2\/3                { bottom: 66% !important; }
@@ -548,26 +548,26 @@
     .lg\:bottom\:4\/5                { bottom: 80% !important; }
 }
 
-.bottom\:-1                   { bottom: calc(var(--bottom-1) * -1 )!important; }
-.bottom\:-2                   { bottom: calc(var(--bottom-2) * -1 )!important; }
-.bottom\:-3                   { bottom: calc(var(--bottom-3) * -1 )!important; }
-.bottom\:-4                   { bottom: calc(var(--bottom-4) * -1 )!important; }
-.bottom\:-5                   { bottom: calc(var(--bottom-5) * -1 )!important; }
-.bottom\:-6                   { bottom: calc(var(--bottom-6) * -1 )!important; }
-.bottom\:-7                   { bottom: calc(var(--bottom-7) * -1 )!important; }
-.bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
-.bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
-.bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
-.bottom\:-1p                  { bottom: calc(var(--bottom-percent-1) * -1) !important; }
-.bottom\:-2p                  { bottom: calc(var(--bottom-percent-2) * -1) !important; }
-.bottom\:-3p                  { bottom: calc(var(--bottom-percent-3) * -1) !important; }
-.bottom\:-4p                  { bottom: calc(var(--bottom-percent-4) * -1) !important; }
-.bottom\:-5p                  { bottom: calc(var(--bottom-percent-5) * -1) !important; }
-.bottom\:-6p                  { bottom: calc(var(--bottom-percent-6) * -1) !important; }
-.bottom\:-7p                  { bottom: calc(var(--bottom-percent-7) * -1) !important; }
-.bottom\:-8p                  { bottom: calc(var(--bottom-percent-8) * -1) !important; }
-.bottom\:-9p                  { bottom: calc(var(--bottom-percent-9) * -1) !important; }
-.bottom\:-10p                 { bottom: calc(var(--bottom-percent-10) * -1) !important; }
+.bottom\:-1                   { bottom: calc(var(--gap-1) * -1 )!important; }
+.bottom\:-2                   { bottom: calc(var(--gap-2) * -1 )!important; }
+.bottom\:-3                   { bottom: calc(var(--gap-3) * -1 )!important; }
+.bottom\:-4                   { bottom: calc(var(--gap-4) * -1 )!important; }
+.bottom\:-5                   { bottom: calc(var(--gap-5) * -1 )!important; }
+.bottom\:-6                   { bottom: calc(var(--gap-6) * -1 )!important; }
+.bottom\:-7                   { bottom: calc(var(--gap-7) * -1 )!important; }
+.bottom\:-8                   { bottom: calc(var(--gap-8) * -1 )!important; }
+.bottom\:-9                   { bottom: calc(var(--gap-9) * -1 )!important; }
+.bottom\:-10                  { bottom: calc(var(--gap-10) * -1 )!important; }
+.bottom\:-1p                  { bottom: calc(var(--gap-percent-1) * -1) !important; }
+.bottom\:-2p                  { bottom: calc(var(--gap-percent-2) * -1) !important; }
+.bottom\:-3p                  { bottom: calc(var(--gap-percent-3) * -1) !important; }
+.bottom\:-4p                  { bottom: calc(var(--gap-percent-4) * -1) !important; }
+.bottom\:-5p                  { bottom: calc(var(--gap-percent-5) * -1) !important; }
+.bottom\:-6p                  { bottom: calc(var(--gap-percent-6) * -1) !important; }
+.bottom\:-7p                  { bottom: calc(var(--gap-percent-7) * -1) !important; }
+.bottom\:-8p                  { bottom: calc(var(--gap-percent-8) * -1) !important; }
+.bottom\:-9p                  { bottom: calc(var(--gap-percent-9) * -1) !important; }
+.bottom\:-10p                 { bottom: calc(var(--gap-percent-10) * -1) !important; }
 .bottom\:-1\/2                { bottom: calc(50% * -1) !important; }
 .bottom\:-1\/3                { bottom: calc(33% * -1) !important; }
 .bottom\:-2\/3                { bottom: calc(66% * -1) !important; }
@@ -581,26 +581,26 @@
 
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
-    .md\:bottom\:-1                   { bottom: calc(var(--bottom-1) * -1 )!important; }
-    .md\:bottom\:-2                   { bottom: calc(var(--bottom-2) * -1 )!important; }
-    .md\:bottom\:-3                   { bottom: calc(var(--bottom-3) * -1 )!important; }
-    .md\:bottom\:-4                   { bottom: calc(var(--bottom-4) * -1 )!important; }
-    .md\:bottom\:-5                   { bottom: calc(var(--bottom-5) * -1 )!important; }
-    .md\:bottom\:-6                   { bottom: calc(var(--bottom-6) * -1 )!important; }
-    .md\:bottom\:-7                   { bottom: calc(var(--bottom-7) * -1 )!important; }
-    .md\:bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
-    .md\:bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
-    .md\:bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
-    .md\:bottom\:-1p                  { bottom: calc(var(--bottom-percent-1) * -1) !important; }
-    .md\:bottom\:-2p                  { bottom: calc(var(--bottom-percent-2) * -1) !important; }
-    .md\:bottom\:-3p                  { bottom: calc(var(--bottom-percent-3) * -1) !important; }
-    .md\:bottom\:-4p                  { bottom: calc(var(--bottom-percent-4) * -1) !important; }
-    .md\:bottom\:-5p                  { bottom: calc(var(--bottom-percent-5) * -1) !important; }
-    .md\:bottom\:-6p                  { bottom: calc(var(--bottom-percent-6) * -1) !important; }
-    .md\:bottom\:-7p                  { bottom: calc(var(--bottom-percent-7) * -1) !important; }
-    .md\:bottom\:-8p                  { bottom: calc(var(--bottom-percent-8) * -1) !important; }
-    .md\:bottom\:-9p                  { bottom: calc(var(--bottom-percent-9) * -1) !important; }
-    .md\:bottom\:-10p                 { bottom: calc(var(--bottom-percent-10) * -1) !important; }
+    .md\:bottom\:-1                   { bottom: calc(var(--gap-1) * -1 )!important; }
+    .md\:bottom\:-2                   { bottom: calc(var(--gap-2) * -1 )!important; }
+    .md\:bottom\:-3                   { bottom: calc(var(--gap-3) * -1 )!important; }
+    .md\:bottom\:-4                   { bottom: calc(var(--gap-4) * -1 )!important; }
+    .md\:bottom\:-5                   { bottom: calc(var(--gap-5) * -1 )!important; }
+    .md\:bottom\:-6                   { bottom: calc(var(--gap-6) * -1 )!important; }
+    .md\:bottom\:-7                   { bottom: calc(var(--gap-7) * -1 )!important; }
+    .md\:bottom\:-8                   { bottom: calc(var(--gap-8) * -1 )!important; }
+    .md\:bottom\:-9                   { bottom: calc(var(--gap-9) * -1 )!important; }
+    .md\:bottom\:-10                  { bottom: calc(var(--gap-10) * -1 )!important; }
+    .md\:bottom\:-1p                  { bottom: calc(var(--gap-percent-1) * -1) !important; }
+    .md\:bottom\:-2p                  { bottom: calc(var(--gap-percent-2) * -1) !important; }
+    .md\:bottom\:-3p                  { bottom: calc(var(--gap-percent-3) * -1) !important; }
+    .md\:bottom\:-4p                  { bottom: calc(var(--gap-percent-4) * -1) !important; }
+    .md\:bottom\:-5p                  { bottom: calc(var(--gap-percent-5) * -1) !important; }
+    .md\:bottom\:-6p                  { bottom: calc(var(--gap-percent-6) * -1) !important; }
+    .md\:bottom\:-7p                  { bottom: calc(var(--gap-percent-7) * -1) !important; }
+    .md\:bottom\:-8p                  { bottom: calc(var(--gap-percent-8) * -1) !important; }
+    .md\:bottom\:-9p                  { bottom: calc(var(--gap-percent-9) * -1) !important; }
+    .md\:bottom\:-10p                 { bottom: calc(var(--gap-percent-10) * -1) !important; }
     .md\:bottom\:-1\/2                { bottom: calc(50% * -1) !important; }
     .md\:bottom\:-1\/3                { bottom: calc(33% * -1) !important; }
     .md\:bottom\:-2\/3                { bottom: calc(66% * -1) !important; }
@@ -615,26 +615,26 @@
 
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
-    .lg\:bottom\:-1                   { bottom: calc(var(--bottom-1) * -1 )!important; }
-    .lg\:bottom\:-2                   { bottom: calc(var(--bottom-2) * -1 )!important; }
-    .lg\:bottom\:-3                   { bottom: calc(var(--bottom-3) * -1 )!important; }
-    .lg\:bottom\:-4                   { bottom: calc(var(--bottom-4) * -1 )!important; }
-    .lg\:bottom\:-5                   { bottom: calc(var(--bottom-5) * -1 )!important; }
-    .lg\:bottom\:-6                   { bottom: calc(var(--bottom-6) * -1 )!important; }
-    .lg\:bottom\:-7                   { bottom: calc(var(--bottom-7) * -1 )!important; }
-    .lg\:bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
-    .lg\:bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
-    .lg\:bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
-    .lg\:bottom\:-1p                  { bottom: calc(var(--bottom-percent-1) * -1) !important; }
-    .lg\:bottom\:-2p                  { bottom: calc(var(--bottom-percent-2) * -1) !important; }
-    .lg\:bottom\:-3p                  { bottom: calc(var(--bottom-percent-3) * -1) !important; }
-    .lg\:bottom\:-4p                  { bottom: calc(var(--bottom-percent-4) * -1) !important; }
-    .lg\:bottom\:-5p                  { bottom: calc(var(--bottom-percent-5) * -1) !important; }
-    .lg\:bottom\:-6p                  { bottom: calc(var(--bottom-percent-6) * -1) !important; }
-    .lg\:bottom\:-7p                  { bottom: calc(var(--bottom-percent-7) * -1) !important; }
-    .lg\:bottom\:-8p                  { bottom: calc(var(--bottom-percent-8) * -1) !important; }
-    .lg\:bottom\:-9p                  { bottom: calc(var(--bottom-percent-9) * -1) !important; }
-    .lg\:bottom\:-10p                 { bottom: calc(var(--bottom-percent-10) * -1) !important; }
+    .lg\:bottom\:-1                   { bottom: calc(var(--gap-1) * -1 )!important; }
+    .lg\:bottom\:-2                   { bottom: calc(var(--gap-2) * -1 )!important; }
+    .lg\:bottom\:-3                   { bottom: calc(var(--gap-3) * -1 )!important; }
+    .lg\:bottom\:-4                   { bottom: calc(var(--gap-4) * -1 )!important; }
+    .lg\:bottom\:-5                   { bottom: calc(var(--gap-5) * -1 )!important; }
+    .lg\:bottom\:-6                   { bottom: calc(var(--gap-6) * -1 )!important; }
+    .lg\:bottom\:-7                   { bottom: calc(var(--gap-7) * -1 )!important; }
+    .lg\:bottom\:-8                   { bottom: calc(var(--gap-8) * -1 )!important; }
+    .lg\:bottom\:-9                   { bottom: calc(var(--gap-9) * -1 )!important; }
+    .lg\:bottom\:-10                  { bottom: calc(var(--gap-10) * -1 )!important; }
+    .lg\:bottom\:-1p                  { bottom: calc(var(--gap-percent-1) * -1) !important; }
+    .lg\:bottom\:-2p                  { bottom: calc(var(--gap-percent-2) * -1) !important; }
+    .lg\:bottom\:-3p                  { bottom: calc(var(--gap-percent-3) * -1) !important; }
+    .lg\:bottom\:-4p                  { bottom: calc(var(--gap-percent-4) * -1) !important; }
+    .lg\:bottom\:-5p                  { bottom: calc(var(--gap-percent-5) * -1) !important; }
+    .lg\:bottom\:-6p                  { bottom: calc(var(--gap-percent-6) * -1) !important; }
+    .lg\:bottom\:-7p                  { bottom: calc(var(--gap-percent-7) * -1) !important; }
+    .lg\:bottom\:-8p                  { bottom: calc(var(--gap-percent-8) * -1) !important; }
+    .lg\:bottom\:-9p                  { bottom: calc(var(--gap-percent-9) * -1) !important; }
+    .lg\:bottom\:-10p                 { bottom: calc(var(--gap-percent-10) * -1) !important; }
     .lg\:bottom\:-1\/2                { bottom: calc(50% * -1) !important; }
     .lg\:bottom\:-1\/3                { bottom: calc(33% * -1) !important; }
     .lg\:bottom\:-2\/3                { bottom: calc(66% * -1) !important; }
@@ -650,26 +650,26 @@
 
 /* ---- left ------------------------------------------------- */
 .left\:0                   { left: 0 !important; }
-.left\:1                   { left: var(--left-1) !important; }
-.left\:2                   { left: var(--left-2) !important; }
-.left\:3                   { left: var(--left-3) !important; }
-.left\:4                   { left: var(--left-4) !important; }
-.left\:5                   { left: var(--left-5) !important; }
-.left\:6                   { left: var(--left-6) !important; }
-.left\:7                   { left: var(--left-7) !important; }
-.left\:8                   { left: var(--left-8) !important; }
-.left\:9                   { left: var(--left-9) !important; }
-.left\:10                  { left: var(--left-10) !important; }
-.left\:1p                  { left: var(--left-percent-1) !important; }
-.left\:2p                  { left: var(--left-percent-2) !important; }
-.left\:3p                  { left: var(--left-percent-3) !important; }
-.left\:4p                  { left: var(--left-percent-4) !important; }
-.left\:5p                  { left: var(--left-percent-5) !important; }
-.left\:6p                  { left: var(--left-percent-6) !important; }
-.left\:7p                  { left: var(--left-percent-7) !important; }
-.left\:8p                  { left: var(--left-percent-8) !important; }
-.left\:9p                  { left: var(--left-percent-9) !important; }
-.left\:10p                 { left: var(--left-percent-10) !important; }
+.left\:1                   { left: var(--gap-1) !important; }
+.left\:2                   { left: var(--gap-2) !important; }
+.left\:3                   { left: var(--gap-3) !important; }
+.left\:4                   { left: var(--gap-4) !important; }
+.left\:5                   { left: var(--gap-5) !important; }
+.left\:6                   { left: var(--gap-6) !important; }
+.left\:7                   { left: var(--gap-7) !important; }
+.left\:8                   { left: var(--gap-8) !important; }
+.left\:9                   { left: var(--gap-9) !important; }
+.left\:10                  { left: var(--gap-10) !important; }
+.left\:1p                  { left: var(--gap-percent-1) !important; }
+.left\:2p                  { left: var(--gap-percent-2) !important; }
+.left\:3p                  { left: var(--gap-percent-3) !important; }
+.left\:4p                  { left: var(--gap-percent-4) !important; }
+.left\:5p                  { left: var(--gap-percent-5) !important; }
+.left\:6p                  { left: var(--gap-percent-6) !important; }
+.left\:7p                  { left: var(--gap-percent-7) !important; }
+.left\:8p                  { left: var(--gap-percent-8) !important; }
+.left\:9p                  { left: var(--gap-percent-9) !important; }
+.left\:10p                 { left: var(--gap-percent-10) !important; }
 .left\:1\/2                { left: 50% !important; }
 .left\:1\/3                { left: 33.333333% !important; }
 .left\:2\/3                { left: 66.666667% !important; }
@@ -684,26 +684,26 @@
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
     .md\:left\:0                   { left: 0 !important; }
-    .md\:left\:1                   { left: var(--left-1) !important; }
-    .md\:left\:2                   { left: var(--left-2) !important; }
-    .md\:left\:3                   { left: var(--left-3) !important; }
-    .md\:left\:4                   { left: var(--left-4) !important; }
-    .md\:left\:5                   { left: var(--left-5) !important; }
-    .md\:left\:6                   { left: var(--left-6) !important; }
-    .md\:left\:7                   { left: var(--left-7) !important; }
-    .md\:left\:8                   { left: var(--left-8) !important; }
-    .md\:left\:9                   { left: var(--left-9) !important; }
-    .md\:left\:10                  { left: var(--left-10) !important; }
-    .md\:left\:1p                  { left: var(--left-percent-1) !important; }
-    .md\:left\:2p                  { left: var(--left-percent-2) !important; }
-    .md\:left\:3p                  { left: var(--left-percent-3) !important; }
-    .md\:left\:4p                  { left: var(--left-percent-4) !important; }
-    .md\:left\:5p                  { left: var(--left-percent-5) !important; }
-    .md\:left\:6p                  { left: var(--left-percent-6) !important; }
-    .md\:left\:7p                  { left: var(--left-percent-7) !important; }
-    .md\:left\:8p                  { left: var(--left-percent-8) !important; }
-    .md\:left\:9p                  { left: var(--left-percent-9) !important; }
-    .md\:left\:10p                 { left: var(--left-percent-10) !important; }
+    .md\:left\:1                   { left: var(--gap-1) !important; }
+    .md\:left\:2                   { left: var(--gap-2) !important; }
+    .md\:left\:3                   { left: var(--gap-3) !important; }
+    .md\:left\:4                   { left: var(--gap-4) !important; }
+    .md\:left\:5                   { left: var(--gap-5) !important; }
+    .md\:left\:6                   { left: var(--gap-6) !important; }
+    .md\:left\:7                   { left: var(--gap-7) !important; }
+    .md\:left\:8                   { left: var(--gap-8) !important; }
+    .md\:left\:9                   { left: var(--gap-9) !important; }
+    .md\:left\:10                  { left: var(--gap-10) !important; }
+    .md\:left\:1p                  { left: var(--gap-percent-1) !important; }
+    .md\:left\:2p                  { left: var(--gap-percent-2) !important; }
+    .md\:left\:3p                  { left: var(--gap-percent-3) !important; }
+    .md\:left\:4p                  { left: var(--gap-percent-4) !important; }
+    .md\:left\:5p                  { left: var(--gap-percent-5) !important; }
+    .md\:left\:6p                  { left: var(--gap-percent-6) !important; }
+    .md\:left\:7p                  { left: var(--gap-percent-7) !important; }
+    .md\:left\:8p                  { left: var(--gap-percent-8) !important; }
+    .md\:left\:9p                  { left: var(--gap-percent-9) !important; }
+    .md\:left\:10p                 { left: var(--gap-percent-10) !important; }
     .md\:left\:1\/2                { left: 50% !important; }
     .md\:left\:1\/3                { left: 33.333333% !important; }
     .md\:left\:2\/3                { left: 66.666667% !important; }
@@ -719,26 +719,26 @@
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
     .lg\:left\:0                   { left: 0 !important; }
-    .lg\:left\:1                   { left: var(--left-1) !important; }
-    .lg\:left\:2                   { left: var(--left-2) !important; }
-    .lg\:left\:3                   { left: var(--left-3) !important; }
-    .lg\:left\:4                   { left: var(--left-4) !important; }
-    .lg\:left\:5                   { left: var(--left-5) !important; }
-    .lg\:left\:6                   { left: var(--left-6) !important; }
-    .lg\:left\:7                   { left: var(--left-7) !important; }
-    .lg\:left\:8                   { left: var(--left-8) !important; }
-    .lg\:left\:9                   { left: var(--left-9) !important; }
-    .lg\:left\:10                  { left: var(--left-10) !important; }
-    .lg\:left\:1p                  { left: var(--left-percent-1) !important; }
-    .lg\:left\:2p                  { left: var(--left-percent-2) !important; }
-    .lg\:left\:3p                  { left: var(--left-percent-3) !important; }
-    .lg\:left\:4p                  { left: var(--left-percent-4) !important; }
-    .lg\:left\:5p                  { left: var(--left-percent-5) !important; }
-    .lg\:left\:6p                  { left: var(--left-percent-6) !important; }
-    .lg\:left\:7p                  { left: var(--left-percent-7) !important; }
-    .lg\:left\:8p                  { left: var(--left-percent-8) !important; }
-    .lg\:left\:9p                  { left: var(--left-percent-9) !important; }
-    .lg\:left\:10p                 { left: var(--left-percent-10) !important; }
+    .lg\:left\:1                   { left: var(--gap-1) !important; }
+    .lg\:left\:2                   { left: var(--gap-2) !important; }
+    .lg\:left\:3                   { left: var(--gap-3) !important; }
+    .lg\:left\:4                   { left: var(--gap-4) !important; }
+    .lg\:left\:5                   { left: var(--gap-5) !important; }
+    .lg\:left\:6                   { left: var(--gap-6) !important; }
+    .lg\:left\:7                   { left: var(--gap-7) !important; }
+    .lg\:left\:8                   { left: var(--gap-8) !important; }
+    .lg\:left\:9                   { left: var(--gap-9) !important; }
+    .lg\:left\:10                  { left: var(--gap-10) !important; }
+    .lg\:left\:1p                  { left: var(--gap-percent-1) !important; }
+    .lg\:left\:2p                  { left: var(--gap-percent-2) !important; }
+    .lg\:left\:3p                  { left: var(--gap-percent-3) !important; }
+    .lg\:left\:4p                  { left: var(--gap-percent-4) !important; }
+    .lg\:left\:5p                  { left: var(--gap-percent-5) !important; }
+    .lg\:left\:6p                  { left: var(--gap-percent-6) !important; }
+    .lg\:left\:7p                  { left: var(--gap-percent-7) !important; }
+    .lg\:left\:8p                  { left: var(--gap-percent-8) !important; }
+    .lg\:left\:9p                  { left: var(--gap-percent-9) !important; }
+    .lg\:left\:10p                 { left: var(--gap-percent-10) !important; }
     .lg\:left\:1\/2                { left: 50% !important; }
     .lg\:left\:1\/3                { left: 33.333333% !important; }
     .lg\:left\:2\/3                { left: 66.666667% !important; }
@@ -751,26 +751,26 @@
     .lg\:left\:4\/5                { left: 80% !important; }
 }
 
-.left\:-1                   { left: calc(var(--left-1) * -1 )!important; }
-.left\:-2                   { left: calc(var(--left-2) * -1 )!important; }
-.left\:-3                   { left: calc(var(--left-3) * -1 )!important; }
-.left\:-4                   { left: calc(var(--left-4) * -1 )!important; }
-.left\:-5                   { left: calc(var(--left-5) * -1 )!important; }
-.left\:-6                   { left: calc(var(--left-6) * -1 )!important; }
-.left\:-7                   { left: calc(var(--left-7) * -1 )!important; }
-.left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
-.left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
-.left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
-.left\:-1p                  { left: calc(var(--left-percent-1) * -1) !important; }
-.left\:-2p                  { left: calc(var(--left-percent-2) * -1) !important; }
-.left\:-3p                  { left: calc(var(--left-percent-3) * -1) !important; }
-.left\:-4p                  { left: calc(var(--left-percent-4) * -1) !important; }
-.left\:-5p                  { left: calc(var(--left-percent-5) * -1) !important; }
-.left\:-6p                  { left: calc(var(--left-percent-6) * -1) !important; }
-.left\:-7p                  { left: calc(var(--left-percent-7) * -1) !important; }
-.left\:-8p                  { left: calc(var(--left-percent-8) * -1) !important; }
-.left\:-9p                  { left: calc(var(--left-percent-9) * -1) !important; }
-.left\:-10p                 { left: calc(var(--left-percent-10) * -1) !important; }
+.left\:-1                   { left: calc(var(--gap-1) * -1 )!important; }
+.left\:-2                   { left: calc(var(--gap-2) * -1 )!important; }
+.left\:-3                   { left: calc(var(--gap-3) * -1 )!important; }
+.left\:-4                   { left: calc(var(--gap-4) * -1 )!important; }
+.left\:-5                   { left: calc(var(--gap-5) * -1 )!important; }
+.left\:-6                   { left: calc(var(--gap-6) * -1 )!important; }
+.left\:-7                   { left: calc(var(--gap-7) * -1 )!important; }
+.left\:-8                   { left: calc(var(--gap-8) * -1 )!important; }
+.left\:-9                   { left: calc(var(--gap-9) * -1 )!important; }
+.left\:-10                  { left: calc(var(--gap-10) * -1 )!important; }
+.left\:-1p                  { left: calc(var(--gap-percent-1) * -1) !important; }
+.left\:-2p                  { left: calc(var(--gap-percent-2) * -1) !important; }
+.left\:-3p                  { left: calc(var(--gap-percent-3) * -1) !important; }
+.left\:-4p                  { left: calc(var(--gap-percent-4) * -1) !important; }
+.left\:-5p                  { left: calc(var(--gap-percent-5) * -1) !important; }
+.left\:-6p                  { left: calc(var(--gap-percent-6) * -1) !important; }
+.left\:-7p                  { left: calc(var(--gap-percent-7) * -1) !important; }
+.left\:-8p                  { left: calc(var(--gap-percent-8) * -1) !important; }
+.left\:-9p                  { left: calc(var(--gap-percent-9) * -1) !important; }
+.left\:-10p                 { left: calc(var(--gap-percent-10) * -1) !important; }
 .left\:-1\/2                { left: calc(50% * -1) !important; }
 .left\:-1\/3                { left: calc(33% * -1) !important; }
 .left\:-2\/3                { left: calc(66% * -1) !important; }
@@ -784,26 +784,26 @@
 
 /* ---- md ------------------------------------------------- */
 @media (min-width: 768px) {
-    .md\:left\:-1                   { left: calc(var(--left-1) * -1 )!important; }
-    .md\:left\:-2                   { left: calc(var(--left-2) * -1 )!important; }
-    .md\:left\:-3                   { left: calc(var(--left-3) * -1 )!important; }
-    .md\:left\:-4                   { left: calc(var(--left-4) * -1 )!important; }
-    .md\:left\:-5                   { left: calc(var(--left-5) * -1 )!important; }
-    .md\:left\:-6                   { left: calc(var(--left-6) * -1 )!important; }
-    .md\:left\:-7                   { left: calc(var(--left-7) * -1 )!important; }
-    .md\:left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
-    .md\:left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
-    .md\:left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
-    .md\:left\:-1p                  { left: calc(var(--left-percent-1) * -1) !important; }
-    .md\:left\:-2p                  { left: calc(var(--left-percent-2) * -1) !important; }
-    .md\:left\:-3p                  { left: calc(var(--left-percent-3) * -1) !important; }
-    .md\:left\:-4p                  { left: calc(var(--left-percent-4) * -1) !important; }
-    .md\:left\:-5p                  { left: calc(var(--left-percent-5) * -1) !important; }
-    .md\:left\:-6p                  { left: calc(var(--left-percent-6) * -1) !important; }
-    .md\:left\:-7p                  { left: calc(var(--left-percent-7) * -1) !important; }
-    .md\:left\:-8p                  { left: calc(var(--left-percent-8) * -1) !important; }
-    .md\:left\:-9p                  { left: calc(var(--left-percent-9) * -1) !important; }
-    .md\:left\:-10p                 { left: calc(var(--left-percent-10) * -1) !important; }
+    .md\:left\:-1                   { left: calc(var(--gap-1) * -1 )!important; }
+    .md\:left\:-2                   { left: calc(var(--gap-2) * -1 )!important; }
+    .md\:left\:-3                   { left: calc(var(--gap-3) * -1 )!important; }
+    .md\:left\:-4                   { left: calc(var(--gap-4) * -1 )!important; }
+    .md\:left\:-5                   { left: calc(var(--gap-5) * -1 )!important; }
+    .md\:left\:-6                   { left: calc(var(--gap-6) * -1 )!important; }
+    .md\:left\:-7                   { left: calc(var(--gap-7) * -1 )!important; }
+    .md\:left\:-8                   { left: calc(var(--gap-8) * -1 )!important; }
+    .md\:left\:-9                   { left: calc(var(--gap-9) * -1 )!important; }
+    .md\:left\:-10                  { left: calc(var(--gap-10) * -1 )!important; }
+    .md\:left\:-1p                  { left: calc(var(--gap-percent-1) * -1) !important; }
+    .md\:left\:-2p                  { left: calc(var(--gap-percent-2) * -1) !important; }
+    .md\:left\:-3p                  { left: calc(var(--gap-percent-3) * -1) !important; }
+    .md\:left\:-4p                  { left: calc(var(--gap-percent-4) * -1) !important; }
+    .md\:left\:-5p                  { left: calc(var(--gap-percent-5) * -1) !important; }
+    .md\:left\:-6p                  { left: calc(var(--gap-percent-6) * -1) !important; }
+    .md\:left\:-7p                  { left: calc(var(--gap-percent-7) * -1) !important; }
+    .md\:left\:-8p                  { left: calc(var(--gap-percent-8) * -1) !important; }
+    .md\:left\:-9p                  { left: calc(var(--gap-percent-9) * -1) !important; }
+    .md\:left\:-10p                 { left: calc(var(--gap-percent-10) * -1) !important; }
     .md\:left\:-1\/2                { left: calc(50% * -1) !important; }
     .md\:left\:-1\/3                { left: calc(33% * -1) !important; }
     .md\:left\:-2\/3                { left: calc(66% * -1) !important; }
@@ -818,26 +818,26 @@
 
 /* ---- lg ------------------------------------------------- */
 @media (min-width: 1200px) {
-    .lg\:left\:-1                   { left: calc(var(--left-1) * -1 )!important; }
-    .lg\:left\:-2                   { left: calc(var(--left-2) * -1 )!important; }
-    .lg\:left\:-3                   { left: calc(var(--left-3) * -1 )!important; }
-    .lg\:left\:-4                   { left: calc(var(--left-4) * -1 )!important; }
-    .lg\:left\:-5                   { left: calc(var(--left-5) * -1 )!important; }
-    .lg\:left\:-6                   { left: calc(var(--left-6) * -1 )!important; }
-    .lg\:left\:-7                   { left: calc(var(--left-7) * -1 )!important; }
-    .lg\:left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
-    .lg\:left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
-    .lg\:left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
-    .lg\:left\:-1p                  { left: calc(var(--left-percent-1) * -1) !important; }
-    .lg\:left\:-2p                  { left: calc(var(--left-percent-2) * -1) !important; }
-    .lg\:left\:-3p                  { left: calc(var(--left-percent-3) * -1) !important; }
-    .lg\:left\:-4p                  { left: calc(var(--left-percent-4) * -1) !important; }
-    .lg\:left\:-5p                  { left: calc(var(--left-percent-5) * -1) !important; }
-    .lg\:left\:-6p                  { left: calc(var(--left-percent-6) * -1) !important; }
-    .lg\:left\:-7p                  { left: calc(var(--left-percent-7) * -1) !important; }
-    .lg\:left\:-8p                  { left: calc(var(--left-percent-8) * -1) !important; }
-    .lg\:left\:-9p                  { left: calc(var(--left-percent-9) * -1) !important; }
-    .lg\:left\:-10p                 { left: calc(var(--left-percent-10) * -1) !important; }
+    .lg\:left\:-1                   { left: calc(var(--gap-1) * -1 )!important; }
+    .lg\:left\:-2                   { left: calc(var(--gap-2) * -1 )!important; }
+    .lg\:left\:-3                   { left: calc(var(--gap-3) * -1 )!important; }
+    .lg\:left\:-4                   { left: calc(var(--gap-4) * -1 )!important; }
+    .lg\:left\:-5                   { left: calc(var(--gap-5) * -1 )!important; }
+    .lg\:left\:-6                   { left: calc(var(--gap-6) * -1 )!important; }
+    .lg\:left\:-7                   { left: calc(var(--gap-7) * -1 )!important; }
+    .lg\:left\:-8                   { left: calc(var(--gap-8) * -1 )!important; }
+    .lg\:left\:-9                   { left: calc(var(--gap-9) * -1 )!important; }
+    .lg\:left\:-10                  { left: calc(var(--gap-10) * -1 )!important; }
+    .lg\:left\:-1p                  { left: calc(var(--gap-percent-1) * -1) !important; }
+    .lg\:left\:-2p                  { left: calc(var(--gap-percent-2) * -1) !important; }
+    .lg\:left\:-3p                  { left: calc(var(--gap-percent-3) * -1) !important; }
+    .lg\:left\:-4p                  { left: calc(var(--gap-percent-4) * -1) !important; }
+    .lg\:left\:-5p                  { left: calc(var(--gap-percent-5) * -1) !important; }
+    .lg\:left\:-6p                  { left: calc(var(--gap-percent-6) * -1) !important; }
+    .lg\:left\:-7p                  { left: calc(var(--gap-percent-7) * -1) !important; }
+    .lg\:left\:-8p                  { left: calc(var(--gap-percent-8) * -1) !important; }
+    .lg\:left\:-9p                  { left: calc(var(--gap-percent-9) * -1) !important; }
+    .lg\:left\:-10p                 { left: calc(var(--gap-percent-10) * -1) !important; }
     .lg\:left\:-1\/2                { left: calc(50% * -1) !important; }
     .lg\:left\:-1\/3                { left: calc(33% * -1) !important; }
     .lg\:left\:-2\/3                { left: calc(66% * -1) !important; }
