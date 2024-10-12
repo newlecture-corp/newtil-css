@@ -49,11 +49,11 @@
     .n-frame\:rounded-shadow
 ){
     --n-panel-padding: 14px 10px;
-    --n-panel-bg-color: var(--color-base-1);
+    /* --n-panel-bg-color: var(--color-base-1); */
     --n-panel-bd-radius: 12px;
 
     padding: var(--n-panel-padding);
-    background-color: var(--n-panel-bg-color);
+    /* background-color: var(--n-panel-bg-color); */
     border: none;
     box-sizing: border-box;
     display: flex;
