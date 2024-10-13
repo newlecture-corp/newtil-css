@@ -1,6 +1,14 @@
 
 /* --- ul.n-list ------------------------------------ */
 
+:is(ul,ol).n-list,
+:is(ul,ol).n-list\:lined,
+:is(ul,ol).n-list\:no-lined,
+:is(ul,ol).n-list\:dash-lined{
+  display: flex;
+  padding: 10px 0;
+}
+
 :is(ul,ol).n-list>li,
 :is(ul,ol).n-list\:lined>li,
 :is(ul,ol).n-list\:no-lined>li,
