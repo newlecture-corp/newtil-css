@@ -1,3 +1,7 @@
+@container style(--theme-color: dark) {
+  
+}
+
 
 /* --- ul.n-list ------------------------------------ */
 
@@ -30,6 +34,15 @@
 :is(ul,ol).n-list\:dash-lined>li:last-child,
 :is(ul,ol).n-list\:lined>li:last-child{
   border-bottom: none;
+}
+
+:is(ul,ol).n-list>li:hover,
+:is(ul,ol).n-list>li.active{
+  --li-bg-color: var(--color-main-1);
+  --li-color: var(--color-base-1);
+
+  background-color: var(--li-bg-color) !important;
+  color: var(--li-color) !important;
 }
 
 /* --- dl.n-list ------------------------------------ */
