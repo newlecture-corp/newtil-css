@@ -21,7 +21,7 @@ import iconNameList from "../shared/icon-list.json";
     <tr v-for="(iconName, index) in iconNameList" :key="iconName">
       <td>{{index + 1}}</td>
       <td><code>icon icon:{{iconName}}</code></td>
-      <td><span :class="`icon icon:${iconName}`">{{iconName}}</span></td>
+      <td><span :class="`n-icon n-icon:${iconName}`">{{iconName}}</span></td>
     </tr>
   </tbody>
 </table>
