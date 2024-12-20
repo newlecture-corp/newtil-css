@@ -42,12 +42,10 @@
 
 */
 /* 공통 스타일 집중화 */
-:where(
-    .n-panel,
+:where(.n-panel,
     .n-panel\:rounded-shadow,
     .n-frame,
-    .n-frame\:rounded-shadow
-){
+    .n-frame\:rounded-shadow) {
     --n-panel-padding: 14px 10px;
     /* --n-panel-bg-color: var(--color-base-1); */
     --n-panel-bd-radius: 12px;
@@ -60,10 +58,11 @@
     flex-direction: column;
 
     &.n-panel\:card-list {
-        &>div{
-            gap: 20px; /* 아이템 간 간격 */
+        &>div {
+            gap: 20px;
+            /* 아이템 간 간격 */
 
-            width:100%;
+            width: 100%;
             flex-wrap: nowrap;
             overflow: hidden;
             /*border: 1px solid var(--color-base-3);*/
@@ -71,7 +70,7 @@
             /*box-shadow: inset 0 0 3px var(--color-base-5);*/
 
             /*---- 상세 정보를 보여주는 경우의 스타일 ----------------*/
-            >section{
+            >section {
                 /*transform: translateX(-100px);*/
 
                 flex-shrink: 0;
@@ -83,11 +82,11 @@
                 border-radius: var(--n-panel-bd-radius);
                 box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
 
-                *:has(img){
+                *:has(img) {
                     overflow: hidden;
                 }
 
-                img{
+                img {
                     width: 100%;
                     object-fit: cover;
                 }
@@ -98,13 +97,15 @@
 
     &.n-panel\:card-grid {
 
-        &>div{
+        &>div {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 핵심 */
-            gap: 20px; /* 아이템 간 간격 */
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            /* 핵심 */
+            gap: 20px;
+            /* 아이템 간 간격 */
 
             /*---- 상세 정보를 보여주는 경우의 스타일 ----------------*/
-            section{
+            section {
                 padding: 20px;
                 background-color: var(--n-panel-bg-color);
                 border: none;
@@ -112,11 +113,11 @@
                 border-radius: var(--n-panel-bd-radius);
                 box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
 
-                *:has(img){
+                *:has(img) {
                     overflow: hidden;
                 }
 
-                img{
+                img {
                     width: 100%;
                     object-fit: cover;
                 }
@@ -131,30 +132,30 @@
 
 
 .n-panel\:rounded-shadow,
-.n-frame\:rounded-shadow{
+.n-frame\:rounded-shadow {
     border-radius: var(--n-panel-bd-radius);
     box-shadow: 0 1px 3px -1px rgba(22, 26, 32, .05), 0 2px 8px -1px rgba(50, 50, 93, .13);
 }
 
 .n-frame,
-.n-frame\:rounded-shadow{
+.n-frame\:rounded-shadow {
 
     /* checkbox 설정을 위한 스타일 */
-    &:has(.n-panel-expander){
+    &:has(.n-panel-expander) {
         padding-top: 10px;
         padding-bottom: 10px;
 
         transition: padding-top .5s ease,
-                    padding-bottom .5s ease;
+            padding-bottom .5s ease;
     }
 
 
-    &:has(.n-panel-expander:checked){
+    &:has(.n-panel-expander:checked) {
         padding: var(--n-panel-padding);
     }
 
     >h1,
-    >header{
+    >header {
         padding: 0 0 16px 0;
         border-bottom: 1px solid var(--color-base-3);
 
@@ -163,27 +164,27 @@
         flex-wrap: wrap;
 
         /* checkbox 설정을 위한 스타일 */
-        &:has(.n-panel-expander){
+        &:has(.n-panel-expander) {
             padding-bottom: 0;
             border-bottom: none;
 
-            &+*{
+            &+* {
                 display: none;
             }
         }
 
-        &:has(.n-panel-expander:checked){
+        &:has(.n-panel-expander:checked) {
             padding-bottom: 10px;
             border-bottom: 1px solid var(--color-base-3);
 
-            &+*{
+            &+* {
                 display: flex;
             }
         }
     }
 
     >h1,
-    >header>h1{
+    >header>h1 {
         font-size: 16px;
         font-weight: bold;
 
@@ -192,48 +193,37 @@
     }
 
     /*checkbox 아이콘 스타일 수정*/
-    label:has(.n-panel-expander:not(:checked))::before{
-        --icon: url(../../image/icon/caret_down.svg);
+    label:has(.n-panel-expander:not(:checked))::before {
+        --icon: url(./icon/caret_down.svg);
     }
 
-    label:has(.n-panel-expander:checked)::before{
-        --icon: url(../../image/icon/caret_up.svg);
+    label:has(.n-panel-expander:checked)::before {
+        --icon: url(./icon/caret_up.svg);
     }
 }
 
-:is(
-    .n-frame>h1,
+:is(.n-frame>h1,
     .n-frame>header,
     .n-frame\:rounded-shadow>h1,
-    .n-frame\:rounded-shadow>header
-)+*{
+    .n-frame\:rounded-shadow>header)+* {
     margin-top: 24px;
 }
 
 
 /*==== 슈도 패널 ==========================================================*/
 @media screen and (min-width: 576px) {
-    :where(
-        .n-panel,
+
+    :where(.n-panel,
         .n-panel\:rounded-shadow,
         .n-frame,
-        .n-frame\:rounded-shadow
-    ){
+        .n-frame\:rounded-shadow) {
         --n-panel-padding: 24px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {}
 
-}
-
-@media screen and (min-width: 992px) {
-
-}
+@media screen and (min-width: 992px) {}
 
 
-@media screen and (min-width: 1200px) {
-
-}
-
-
+@media screen and (min-width: 1200px) {}
