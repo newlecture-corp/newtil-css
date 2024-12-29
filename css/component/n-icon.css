@@ -9,7 +9,6 @@
  * icon list
  * ───────────────────────────────────    */
 
-
 .n-icon {
 
   /* icon */
@@ -50,8 +49,6 @@
   mask-size: var(--icon-size);
   mask-image: var(--icon);
 }
-
-
 
 /* === color ======================================= */
 /*
@@ -201,7 +198,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
 /* ====================================================================== */
 /* ---- icon images ----------------------------------------------------- */
 /* ====================================================================== */
-
+/* 
 .n-icon\:add::before {
   --icon: url("./icon/add.svg");
 }
@@ -458,7 +455,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
   --icon: url(./icon/clock.svg);
 }
 
-/*== clock_loader_X =============================================*/
+
 .n-icon\:clock_loader_10::before {
   --icon: url(./icon/clock_loader_10.svg);
 }
@@ -1083,7 +1080,6 @@ base 1/2/3/4/5/6/7/8/9/10*/
   --icon: url(./icon/not_stack.svg);
 }
 
-/* --- notifications ----------------------------------------------------------------- */
 .n-icon\:notifications_active::before {
   --icon: url(./icon/notifications_active_24dp_FILL0_wght400_GRAD0_opsz24.svg);
 }
@@ -1563,6 +1559,8 @@ base 1/2/3/4/5/6/7/8/9/10*/
 .n-icon\:youtube_logo_fill::before {
   --icon: url(./icon/youtube_logo_fill.svg);
 }
+
+*/
 
 /* === decoration ========================= */
 .n-deco {
