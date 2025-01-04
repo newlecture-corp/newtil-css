@@ -10,55 +10,54 @@
 
  */
 
-
 .n-active,
-.n-active\:color{
-    color: var(--color-main-3);
-    background-color: rgba(var(--rgb-main-2), 0.12);
+.n-active\:color {
+  color: var(--color-main-3);
+  background-color: rgba(var(--rgb-main-2), 0.12);
 }
 
 .n-active::before,
 .n-active::after,
 .n-active\:color::before,
-.n-active\:color::after{
-    background-color: var(--color-main-3);
+.n-active\:color::after {
+  background-color: var(--color-main-3);
 }
 
 .n-active\:bar {
-    border-bottom: 3px solid var(--color-main-1);
+  border-bottom: 3px solid var(--color-main-1);
 }
 
 /*=== color ===============*/
 /*--- .n-active ----------------------------------*/
 
-.n-active.n-active-color\:sub{
-    color: var(--color-sub-3);
-    background-color: rgba(var(--rgb-sub-2), 0.12);
+.n-active.n-active-color\:sub {
+  color: var(--color-sub-3);
+  background-color: rgba(var(--rgb-sub-2), 0.12);
 }
 
 .n-active.n-active-color\:sub::before,
-.n-active.n-active-color\:sub::after{
-    background-color: var(--color-sub-3);
+.n-active.n-active-color\:sub::after {
+  background-color: var(--color-sub-3);
 }
 
-.n-active.n-active-color\:accent{
-    color: var(--color-accent-3);
-    background-color: rgba(var(--rgb-accent-2), 0.12);
+.n-active.n-active-color\:accent {
+  color: var(--color-accent-3);
+  background-color: rgba(var(--rgb-accent-2), 0.12);
 }
 
 .n-active.n-active-color\:accent::before,
-.n-active.n-active-color\:accent::after{
-    background-color: var(--color-accent-3);
+.n-active.n-active-color\:accent::after {
+  background-color: var(--color-accent-3);
 }
 
 /*--- .n-active ----------------------------------*/
 
-.n-active\:bar.n-active-color\:sub{
-    border-bottom-color: var(--color-sub-2);
+.n-active\:bar.n-active-color\:sub {
+  border-bottom-color: var(--color-sub-2);
 }
 
-.n-active\:bar.n-active-color\:accent{
-    border-bottom-color: var(--color-accent-2);
+.n-active\:bar.n-active-color\:accent {
+  border-bottom-color: var(--color-accent-2);
 }
 
 /*==================*/
@@ -96,29 +95,27 @@
 /*    mask-image: var(--icon);*/
 /*}*/
 
-.n-icon\:expand:has(input[type='checkbox'])::before,
-.n-icon\:expand:has(input[type='checkbox'])::after {
-    --icon: url(../../image/icon/caret_down_bold.svg);
+.n-icon\:expand:has(input[type="checkbox"])::before,
+.n-icon\:expand:has(input[type="checkbox"])::after {
+  /* --icon: url(../../image/icon/caret_down_bold.svg); */
 }
 
-.n-icon\:expand:has(input[type='checkbox']:checked)::before,
-.n-icon\:expand:has(input[type='checkbox']:checked)::after{
-    --icon: url(../../image/icon/caret_up_bold.svg);
+.n-icon\:expand:has(input[type="checkbox"]:checked)::before,
+.n-icon\:expand:has(input[type="checkbox"]:checked)::after {
+  /* --icon: url(../../image/icon/caret_up_bold.svg); */
 }
 
 .expandable .n-expander {
-    --expander-height: 200px;
-    /*height: 0 !important;*/
-    max-height: 0 !important;
-    overflow: hidden;
+  --expander-height: 200px;
+  /*height: 0 !important;*/
+  max-height: 0 !important;
+  overflow: hidden;
 
-    /*background-color: blue !important;*/
-    transition: max-height 1s ease;
-
+  /*background-color: blue !important;*/
+  transition: max-height 1s ease;
 }
 
-.expandable:has(.n-icon\:expand>input:checked) .n-expander{
-    /*height: auto !important;*/
-    max-height: var(--expander-height) !important;
+.expandable:has(.n-icon\:expand > input:checked) .n-expander {
+  /*height: auto !important;*/
+  max-height: var(--expander-height) !important;
 }
-

@@ -10,7 +10,6 @@
  * ───────────────────────────────────    */
 
 .n-icon {
-
   /* icon */
   --icon-size-1: 12px;
   --icon-size-2: 16px;
@@ -36,7 +35,7 @@
 .n-icon::before {
   /*icon 스타일*/
 
-  flex-shrink: 0;
+  /* flex-shrink: 0;
 
   content: "";
   display: inline-flex;
@@ -47,7 +46,26 @@
   background-color: var(--icon-color);
   background-repeat: no-repeat;
   mask-size: var(--icon-size);
-  mask-image: var(--icon);
+  mask-image: var(--icon); */
+
+  content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+  font-family: "Material Symbols Outlined";
+  font-size: var(--icon-size);
+}
+/* ====================================================================== */
+/* ---- icon images ----------------------------------------------------- */
+/* ====================================================================== */
+
+.n-icon\:add::before {
+  content: "\e145"; 
+}
+
+.n-icon\:dashboard::before {
+  content: "\e871"; 
+}
+
+.n-icon\:login::before {
+  content: "\ea77"; 
 }
 
 /* === color ======================================= */
@@ -57,1510 +75,123 @@ sub 1/2/3
 accent 1/2/3
 base 1/2/3/4/5/6/7/8/9/10*/
 
-.n-icon-color\:main-1 {
-  --icon-color: var(--color-main-1, #D86259);
-}
-
-.n-icon-color\:main-2 {
-  --icon-color: var(--color-main-2, #905634);
-}
-
-.n-icon-color\:main-3 {
-  --icon-color: var(--color-main-3, #5E2808);
-}
-
-.n-icon-color\:sub-1 {
-  --icon-color: var(--color-sub-1, #F3E184);
-}
-
-.n-icon-color\:accent-1 {
-  --icon-color: var(--color-accent-1, #334DCF);
-}
-
-/* ---- icon-size ------------------------------------------------- */
-.n-icon-size\:1 {
-  --icon-size: var(--icon-size-1);
-}
-
-.n-icon-size\:2 {
-  --icon-size: var(--icon-size-2);
-}
-
-.n-icon-size\:3 {
-  --icon-size: var(--icon-size-3);
-}
-
-.n-icon-size\:4 {
-  --icon-size: var(--icon-size-4);
-}
-
-.n-icon-size\:5 {
-  --icon-size: var(--icon-size-5);
-}
-
-.n-icon-size\:6 {
-  --icon-size: var(--icon-size-6);
-}
-
-.n-icon-size\:7 {
-  --icon-size: var(--icon-size-7);
-}
-
-.n-icon-size\:8 {
-  --icon-size: var(--icon-size-8);
-}
-
-.n-icon-size\:9 {
-  --icon-size: var(--icon-size-9);
-}
-
-.n-icon-size\:ex {
-  --icon-size: var(--icon-size-ex);
-}
-
-/* ---- icon-color ------------------------------------------------- */
 .n-icon-color\:main-1::before {
-  background-color: var(--color-main-1);
+  color: var(--color-main-1);
 }
 
 .n-icon-color\:main-2::before {
-  background-color: var(--color-main-2);
+  color: var(--color-main-2);
 }
 
 .n-icon-color\:main-3::before {
-  background-color: var(--color-main-3);
+  color: var(--color-main-3);
 }
 
 .n-icon-color\:sub-1::before {
-  background-color: var(--color-sub-1);
+  color: var(--color-sub-1);
 }
 
 .n-icon-color\:sub-2::before {
-  background-color: var(--color-sub-2);
+  color: var(--color-sub-2);
 }
 
 .n-icon-color\:sub-3::before {
-  background-color: var(--color-sub-3);
+  color: var(--color-sub-3);
 }
 
 .n-icon-color\:accent-1::before {
-  background-color: var(--color-accent-1);
+  color: var(--color-accent-1);
 }
 
 .n-icon-color\:accent-2::before {
-  background-color: var(--color-accent-2);
+  color: var(--color-accent-2);
 }
 
 .n-icon-color\:accent-3::before {
-  background-color: var(--color-accent-3);
+  color: var(--color-accent-3);
 }
 
 .n-icon-color\:base-1::before {
-  background-color: var(--color-base-1);
+  color: var(--color-base-1);
 }
 
 .n-icon-color\:base-2::before {
-  background-color: var(--color-base-2);
+  color: var(--color-base-2);
 }
 
 .n-icon-color\:base-3::before {
-  background-color: var(--color-base-3);
+  color: var(--color-base-3);
 }
 
 .n-icon-color\:base-4::before {
-  background-color: var(--color-base-4);
+  color: var(--color-base-4);
 }
 
 .n-icon-color\:base-5::before {
-  background-color: var(--color-base-5);
+  color: var(--color-base-5);
 }
 
 .n-icon-color\:base-6::before {
-  background-color: var(--color-base-6);
+  color: var(--color-base-6);
 }
 
 .n-icon-color\:base-7::before {
-  background-color: var(--color-base-7);
+  color: var(--color-base-7);
 }
 
 .n-icon-color\:base-8::before {
-  background-color: var(--color-base-8);
+  color: var(--color-base-8);
 }
 
 .n-icon-color\:base-9::before {
-  background-color: var(--color-base-9);
+  color: var(--color-base-9);
 }
 
 .n-icon-color\:base-10::before {
-  background-color: var(--color-base-10);
+  color: var(--color-base-10);
 }
 
-/* ====================================================================== */
-/* ---- icon images ----------------------------------------------------- */
-/* ====================================================================== */
-/* 
-.n-icon\:add::before {
-  --icon: url("./icon/add.svg");
+/* ---- icon-size ------------------------------------------------- */
+.n-icon-size\:1::before {
+  font-size: var(--icon-size-1);
 }
 
-.n-icon\:add_shopping_cart::before {
-  --icon: url("./icon/add_shopping_cart");
+.n-icon-size\:2::before {
+  font-size: var(--icon-size-2);
 }
 
-.n-icon\:arrow_back_2::before {
-  --icon: url("./icon/arrow_back_2.svg");
+.n-icon-size\:3::before {
+  font-size: var(--icon-size-3);
 }
 
-.n-icon\:arrow_clockwise_fill::before {
-  --icon: url("./icon/arrow_clockwise_fill.svg");
+.n-icon-size\:4::before {
+  font-size: var(--icon-size-4);
 }
 
-.n-icon\:arrow_down::before {
-  --icon: url(./icon/arrow_down.svg);
+.n-icon-size\:5::before {
+  font-size: var(--icon-size-5);
 }
 
-.n-icon\:arrow_left::before {
-  --icon: url(./icon/arrow_left.svg);
+.n-icon-size\:6::before {
+  /* --icon-size: var(--icon-size-6); */
+  font-size: var(--icon-size-6);
 }
 
-.n-icon\:arrow_right::before {
-  --icon: url(./icon/arrow_right.svg);
+.n-icon-size\:7::before {
+  font-size: var(--icon-size-7);
 }
 
-.n-icon\:arrow_up::before {
-  --icon: url(./icon/arrow_up.svg);
+.n-icon-size\:8::before {
+  font-size: var(--icon-size-8);
 }
 
-.n-icon\:arrow_up_right::before {
-  --icon: url(./icon/arrow_up_right.svg);
+.n-icon-size\:9::before {
+  font-size: var(--icon-size-9);
 }
 
-.n-icon\:arrow_up_left::before {
-  --icon: url(./icon/arrow_up_left.svg);
+.n-icon-size\:ex::before {
+  font-size: var(--icon-size-ex);
 }
-
-.n-icon\:arrow_down_right::before {
-  --icon: url(./icon/arrow_down_right.svg);
-}
-
-.n-icon\:arrow_down_left::before {
-  --icon: url(./icon/arrow_down_left.svg);
-}
-
-.n-icon\:arrows_clockwise_fill::before {
-  --icon: url(./icon/arrows_clockwise_fill.svg);
-}
-
-.n-icon\:attach_file::before {
-  --icon: url(./icon/attach_file.svg);
-}
-
-.n-icon\:attach_file_off::before {
-  --icon: url(./icon/attach_file_off.svg);
-}
-
-.n-icon\:asterisk::before {
-  --icon: url(./icon/asterisk.svg);
-}
-
-.n-icon\:asterisk_bold::before {
-  --icon: url(./icon/asterisk_bold.svg);
-}
-
-.n-icon\:bell::before {
-  --icon: url(./icon/bell.svg);
-}
-
-.n-icon\:bell_fill::before {
-  --icon: url(./icon/bell_fill.svg);
-}
-
-.n-icon\:bookmark_simple::before {
-  --icon: url(./icon/bookmark_simple.svg);
-}
-
-.n-icon\:bookmark_simple_fill::before {
-  --icon: url(./icon/bookmark_simple_fill.svg);
-}
-
-.n-icon\:bookmarks::before {
-  --icon: url(./icon/bookmarks.svg);
-}
-
-.n-icon\:bone::before {
-  --icon: url(./icon/bone.svg);
-}
-
-.n-icon\:border_all::before {
-  --icon: url(./icon/border_all.svg);
-}
-
-.n-icon\:border_bottom::before {
-  --icon: url(./icon/border_bottom.svg);
-}
-
-.n-icon\:border_clear::before {
-  --icon: url(./icon/border_clear.svg);
-}
-
-.n-icon\:border_color::before {
-  --icon: url(./icon/border_color.svg);
-}
-
-.n-icon\:border_horizontal::before {
-  --icon: url(./icon/border_horizontal.svg);
-}
-
-.n-icon\:border_inner::before {
-  --icon: url(./icon/border_inner.svg);
-}
-
-.n-icon\:border_left::before {
-  --icon: url(./icon/border_left.svg);
-}
-
-.n-icon\:border_outer::before {
-  --icon: url(./icon/border_outer.svg);
-}
-
-.n-icon\:border_right::before {
-  --icon: url(./icon/border_right.svg);
-}
-
-.n-icon\:border_style::before {
-  --icon: url(./icon/border_style.svg);
-}
-
-.n-icon\:border_top::before {
-  --icon: url(./icon/border_top.svg);
-}
-
-.n-icon\:border_vertical::before {
-  --icon: url(./icon/border_vertical.svg);
-}
-
-.n-icon\:calculate::before {
-  --icon: url(./icon/calculate.svg);
-}
-
-.n-icon\:calendar_blank::before {
-  --icon: url(./icon/calendar_blank.svg);
-}
-
-.n-icon\:calendar_check::before {
-  --icon: url(./icon/calendar_check.svg);
-}
-
-.n-icon\:camera::before {
-  --icon: url(./icon/camera.svg);
-}
-
-.n-icon\:camera_fill::before {
-  --icon: url(./icon/camera_fill.svg);
-}
-
-.n-icon\:cardio_load::before {
-  --icon: url(./icon/cardio_load.svg);
-}
-
-.n-icon\:caret_down::before {
-  --icon: url(./icon/caret_down.svg);
-}
-
-.n-icon\:caret_down_bold::before {
-  --icon: url(./icon/caret_down_bold.svg);
-}
-
-.n-icon\:caret_left::before {
-  --icon: url(./icon/caret_left.svg);
-}
-
-.n-icon\:caret_left_bold::before {
-  --icon: url(./icon/caret_left_bold.svg);
-}
-
-.n-icon\:caret_right::before {
-  --icon: url(./icon/caret_right.svg);
-}
-
-.n-icon\:caret_right_bold::before {
-  --icon: url(./icon/caret_right_bold.svg);
-}
-
-.n-icon\:caret_up::before {
-  --icon: url(./icon/caret_up.svg);
-}
-
-.n-icon\:caret_up_bold::before {
-  --icon: url(./icon/caret_up_bold.svg);
-}
-
-.n-icon\:cast_pause::before {
-  --icon: url(./icon/cast_pause.svg);
-}
-
-.n-icon\:category::before {
-  --icon: url(./icon/category.svg);
-}
-
-.n-icon\:chalkboard_teacher::before {
-  --icon: url(./icon/chalkboard_teacher.svg);
-}
-
-.n-icon\:chart_line::before {
-  --icon: url(./icon/chart_line.svg);
-}
-
-.n-icon\:chat::before {
-  --icon: url(./icon/chat.svg);
-}
-
-.n-icon\:chat_circle::before {
-  --icon: url(./icon/chat_circle.svg);
-}
-
-.n-icon\:chat_circle_text::before {
-  --icon: url(./icon/chat_circle_text.svg);
-}
-
-.n-icon\:chats::before {
-  --icon: url(./icon/chats.svg);
-}
-
-.n-icon\:check::before {
-  --icon: url(./icon/check.svg);
-}
-
-.n-icon\:check_bold::before {
-  --icon: url(./icon/check_bold.svg);
-}
-
-.n-icon\:check_circle::before {
-  --icon: url(./icon/check_circle.svg);
-}
-
-.n-icon\:check_circle_fill::before {
-  --icon: url(./icon/check_circle_fill.svg);
-}
-
-.n-icon\:checklist::before {
-  --icon: url(./icon/checklist.svg);
-}
-
-.n-icon\:checklist_rtl::before {
-  --icon: url(./icon/checklist_rtl.svg);
-}
-
-.n-icon\:clock::before {
-  --icon: url(./icon/clock.svg);
-}
-
-
-.n-icon\:clock_loader_10::before {
-  --icon: url(./icon/clock_loader_10.svg);
-}
-
-.n-icon\:clock_loader_20::before {
-  --icon: url(./icon/clock_loader_20.svg);
-}
-
-.n-icon\:clock_loader_40::before {
-  --icon: url(./icon/clock_loader_40.svg);
-}
-
-.n-icon\:clock_loader_60::before {
-  --icon: url(./icon/clock_loader_60.svg);
-}
-
-.n-icon\:clock_loader_80::before {
-  --icon: url(./icon/clock_loader_80.svg);
-}
-
-.n-icon\:clock_loader_90::before {
-  --icon: url(./icon/clock_loader_90.svg);
-}
-
-.n-icon\:close::before {
-  --icon: url(./icon/close.svg);
-}
-
-.n-icon\:closed_caption::before {
-  --icon: url(./icon/closed_caption.svg);
-}
-
-.n-icon\:closed_caption_add::before {
-  --icon: url(./icon/closed_caption_add.svg);
-}
-
-.n-icon\:closed_caption_disabled::before {
-  --icon: url(./icon/closed_caption_disabled.svg);
-}
-
-.n-icon\:code_simple::before {
-  --icon: url(./icon/code_simple.svg);
-}
-
-.n-icon\:code::before {
-  --icon: url(./icon/code.svg);
-}
-
-.n-icon\:colors::before {
-  --icon: url(./icon/colors.svg);
-}
-
-.n-icon\:copy_simple::before {
-  --icon: url(./icon/copy_simple.svg);
-}
-
-.n-icon\:credit_card::before {
-  --icon: url(./icon/credit_card.svg);
-}
-
-.n-icon\:crop::before {
-  --icon: url(./icon/crop.svg);
-}
-
-.n-icon\:dashboard::before {
-  --icon: url("./icon/dashboard.svg");
-}
-
-.n-icon\:delete::before {
-  --icon: url(./icon/close.svg);
-}
-
-.n-icon\:description::before {
-  --icon: url(./icon/description.svg);
-}
-
-.n-icon\:database::before {
-  --icon: url(./icon/database.svg);
-}
-
-.n-icon\:dots_six_vertical::before {
-  --icon: url(./icon/dots_six_vertical.svg);
-}
-
-.n-icon\:dots_six::before {
-  --icon: url(./icon/dots_six.svg);
-}
-
-.n-icon\:dots_three_outline_vertical_fill::before {
-  --icon: url(./icon/dots_three_outline_vertical_fill.svg);
-}
-
-.n-icon\:dot::before {
-  --icon: url(./icon/dot.svg);
-}
-
-.n-icon\:dot_outlined::before {
-  --icon: url(./icon/dot_outlined.svg);
-}
-
-.n-icon\:download_simple::before {
-  --icon: url(./icon/download_simple.svg);
-}
-
-.n-icon\:envelope_simple::before {
-  --icon: url(./icon/envelope_simple.svg);
-}
-
-.n-icon\:editor_choice::before {
-  --icon: url(./icon/editor_choice.svg);
-}
-
-.n-icon\:edit_note::before {
-  --icon: url(./icon/edit_note.svg);
-}
-
-.n-icon\:edit_notifications::before {
-  --icon: url(./icon/edit_notifications_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:edit_square::before {
-  --icon: url(./icon/edit_square.svg);
-}
-
-.n-icon\:explicit::before {
-  --icon: url(./icon/explicit.svg);
-}
-
-.n-icon\:export::before {
-  --icon: url(./icon/export.svg);
-}
-
-.n-icon\:eye::before {
-  --icon: url(./icon/eye.svg);
-}
-
-.n-icon\:eye_slash::before {
-  --icon: url(./icon/eye_slash.svg);
-}
-
-.n-icon\:fast_forward::before {
-  --icon: url(./icon/fast_forward.svg);
-}
-
-.n-icon\:fast_rewind::before {
-  --icon: url(./icon/fast_rewind.svg);
-}
-
-.n-icon\:favorite::before {
-  --icon: url(./icon/favorite.svg);
-}
-
-.n-icon\:file::before {
-  --icon: url(./icon/file.svg);
-}
-
-.n-icon\:file_plus::before {
-  --icon: url(./icon/file_plus.svg);
-}
-
-.n-icon\:filter_retrolux::before {
-  --icon: url(./icon/filter_retrolux.svg);
-}
-
-.n-icon\:folder::before {
-  --icon: url(./icon/gear_six_fill.svg);
-}
-
-.n-icon\:format_align_center::before {
-  --icon: url(./icon/format_align_center.svg);
-}
-
-.n-icon\:format_align_justify::before {
-  --icon: url(./icon/format_align_justify.svg);
-}
-
-.n-icon\:format_align_left::before {
-  --icon: url(./icon/format_align_left.svg);
-}
-
-.n-icon\:format_align_right::before {
-  --icon: url(./icon/format_align_right.svg);
-}
-
-.n-icon\:format_bold::before {
-  --icon: url(./icon/format_bold.svg);
-}
-
-.n-icon\:format_clear::before {
-  --icon: url(./icon/format_clear.svg);
-}
-
-.n-icon\:format_color_fill::before {
-  --icon: url(./icon/format_color_fill.svg);
-}
-
-.n-icon\:format_color_reset::before {
-  --icon: url(./icon/format_color_reset.svg);
-}
-
-.n-icon\:format_color_text::before {
-  --icon: url(./icon/format_color_text.svg);
-}
-
-.n-icon\:format_h1::before {
-  --icon: url(./icon/format_h1.svg);
-}
-
-.n-icon\:format_h2::before {
-  --icon: url(./icon/format_h2.svg);
-}
-
-.n-icon\:format_h3::before {
-  --icon: url(./icon/format_h3.svg);
-}
-
-.n-icon\:format_h4::before {
-  --icon: url(./icon/format_h4.svg);
-}
-
-.n-icon\:format_h5::before {
-  --icon: url(./icon/format_h5.svg);
-}
-
-.n-icon\:format_h6::before {
-  --icon: url(./icon/format_h6.svg);
-}
-
-.n-icon\:format_image_left::before {
-  --icon: url(./icon/format_image_left.svg);
-}
-
-.n-icon\:format_image_right::before {
-  --icon: url(./icon/format_image_right.svg);
-}
-
-.n-icon\:format_indent_decrease::before {
-  --icon: url(./icon/format_indent_decrease.svg);
-}
-
-.n-icon\:format_indent_increase::before {
-  --icon: url(./icon/format_indent_increase.svg);
-}
-
-.n-icon\:format_ink_highlighter::before {
-  --icon: url(./icon/format_ink_highlighter.svg);
-}
-
-.n-icon\:format_italic::before {
-  --icon: url(./icon/format_italic.svg);
-}
-
-.n-icon\:format_line_spacing::before {
-  --icon: url(./icon/format_line_spacing.svg);
-}
-
-.n-icon\:format_list_bulleted::before {
-  --icon: url(./icon/format_list_bulleted.svg);
-}
-
-.n-icon\:format_list_bulleted_add::before {
-  --icon: url(./icon/format_list_bulleted_add.svg);
-}
-
-.n-icon\:format_list_numbered::before {
-  --icon: url(./icon/format_list_numbered.svg);
-}
-
-.n-icon\:format_list_numbered_rtl::before {
-  --icon: url(./icon/format_list_numbered_rtl.svg);
-}
-
-.n-icon\:format_overline::before {
-  --icon: url(./icon/format_overline.svg);
-}
-
-.n-icon\:format_paint::before {
-  --icon: url(./icon/format_paint.svg);
-}
-
-.n-icon\:format_paragraph::before {
-  --icon: url(./icon/format_paragraph.svg);
-}
-
-.n-icon\:format_quote::before {
-  --icon: url(./icon/format_quote.svg);
-}
-
-.n-icon\:format_quote_off::before {
-  --icon: url(./icon/format_quote_off.svg);
-}
-
-.n-icon\:format_shapes::before {
-  --icon: url(./icon/format_shapes.svg);
-}
-
-.n-icon\:format_size::before {
-  --icon: url(./icon/format_size.svg);
-}
-
-.n-icon\:format_strikethrough::before {
-  --icon: url(./icon/format_strikethrough.svg);
-}
-
-.n-icon\:format_text_clip::before {
-  --icon: url(./icon/format_text_clip.svg);
-}
-
-.n-icon\:format_text_overflow::before {
-  --icon: url(./icon/format_text_overflow.svg);
-}
-
-.n-icon\:format_text_wrap::before {
-  --icon: url(./icon/format_text_wrap.svg);
-}
-
-.n-icon\:format_textdirection_l_to_r::before {
-  --icon: url(./icon/format_textdirection_l_to_r.svg);
-}
-
-.n-icon\:format_textdirection_r_to_l::before {
-  --icon: url(./icon/format_textdirection_r_to_l.svg);
-}
-
-.n-icon\:format_textdirection_vertical::before {
-  --icon: url(./icon/format_textdirection_vertical.svg);
-}
-
-.n-icon\:format_underlined::before {
-  --icon: url(./icon/format_underlined.svg);
-}
-
-.n-icon\:format_underlined_squiggle::before {
-  --icon: url(./icon/format_underlined_squiggle.svg);
-}
-
-.n-icon\:forward_media::before {
-  --icon: url(./icon/forward_media.svg);
-}
-
-.n-icon\:function::before {
-  --icon: url(./icon/function.svg);
-}
-
-.n-icon\:functions::before {
-  --icon: url(./icon/functions.svg);
-}
-
-.n-icon\:gear_six::before {
-  --icon: url(./icon/gear_six_fill.svg);
-}
-
-.n-icon\:gear_six_fill::before {
-  --icon: url(./icon/gear_six_fill.svg);
-}
-
-.n-icon\:gift::before {
-  --icon: url(./icon/gift.svg);
-}
-
-.n-icon\:globe::before {
-  --icon: url(./icon/globe.svg);
-}
-
-.n-icon\:google_logo::before {
-  --icon: url(./icon/google_logo.svg);
-}
-
-.n-icon\:graduation_cap::before {
-  --icon: url(./icon/hand_coins.svg);
-}
-
-.n-icon\:group::before {
-  --icon: url(./icon/group.svg);
-}
-
-.n-icon\:hand_coins::before {
-  --icon: url(./icon/hand_coins.svg);
-}
-
-.n-icon\:headphones::before {
-  --icon: url(./icon/headphones.svg);
-}
-
-.n-icon\:headphones_fill::before {
-  --icon: url(./icon/headphones_fill.svg);
-}
-
-.n-icon\:headset::before {
-  --icon: url(./icon/headset.svg);
-}
-
-.n-icon\:heart_fill::before {
-  --icon: url(./icon/heart_fill.svg);
-}
-
-.n-icon\:heart::before {
-  --icon: url(./icon/heart.svg);
-}
-
-.n-icon\:height::before {
-  --icon: url(./icon/height.svg);
-}
-
-.n-icon\:highlight::before {
-  --icon: url(./icon/highlight.svg);
-}
-
-.n-icon\:home::before {
-  --icon: url("./icon/home.svg");
-}
-
-.n-icon\:house::before {
-  --icon: url(./icon/house.svg);
-}
-
-.n-icon\:house_fill::before {
-  --icon: url(./icon/house_fill.svg);
-}
-
-.n-icon\:household_supplies::before {
-  --icon: url(./icon/household_supplies.svg);
-}
-
-.n-icon\:image::before {
-  --icon: url(./icon/image.svg);
-}
-
-.n-icon\:image_fill::before {
-  --icon: url(./icon/image_fill.svg);
-}
-
-.n-icon\:info::before {
-  --icon: url(./icon/info.svg);
-}
-
-.n-icon\:info_fill::before {
-  --icon: url(./icon/info_fill.svg);
-}
-
-.n-icon\:ink_eraser::before {
-  --icon: url(./icon/ink_eraser.svg);
-}
-
-.n-icon\:ink_eraser_off::before {
-  --icon: url(./icon/ink_eraser_off.svg);
-}
-
-.n-icon\:ink_highlighter::before {
-  --icon: url(./icon/ink_highlighter.svg);
-}
-
-.n-icon\:ink_highlighter_move::before {
-  --icon: url(./icon/ink_highlighter_move.svg);
-}
-
-.n-icon\:ink_marker::before {
-  --icon: url(./icon/ink_marker.svg);
-}
-
-.n-icon\:ink_pen::before {
-  --icon: url(./icon/ink_pen.svg);
-}
-
-.n-icon\:insert_text::before {
-  --icon: url(./icon/insert_text.svg);
-}
-
-.n-icon\:lasso_select::before {
-  --icon: url(./icon/lasso_select.svg);
-}
-
-.n-icon\:link::before {
-  --icon: url(./icon/link.svg);
-}
-
-.n-icon\:link_off::before {
-  --icon: url(./icon/link_off.svg);
-}
-
-.n-icon\:list_bullets::before {
-  --icon: url(./icon/list_bullets.svg);
-}
-
-.n-icon\:list::before {
-  --icon: url(./icon/list.svg);
-}
-
-.n-icon\:local_cafe::before {
-  --icon: url(./icon/local_cafe_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:lock_simple::before {
-  --icon: url(./icon/lock_simple.svg);
-}
-
-.n-icon\:lock_simple_open::before {
-  --icon: url(./icon/lock_simple_open.svg);
-}
-
-.n-icon\:logo_dev::before {
-  --icon: url(./icon/logo_dev.svg);
-}
-
-.n-icon\:manage::before {
-  --icon: url(./icon/manage.svg);
-}
-
-.n-icon\:magnifying_glass::before {
-  --icon: url(./icon/magnifying_glass.svg);
-}
-
-.n-icon\:magnifying_glass_minus::before {
-  --icon: url(./icon/magnifying_glass_minus.svg);
-}
-
-.n-icon\:magnifying_glass_plus::before {
-  --icon: url(./icon/magnifying_glass_plus.svg);
-}
-
-.n-icon\:map_pin::before {
-  --icon: url(./icon/map_pin.svg);
-}
-
-.n-icon\:map_pin_fill::before {
-  --icon: url(./icon/map_pin_fill.svg);
-}
-
-.n-icon\:map_trifold::before {
-  --icon: url(./icon/map_trifold.svg);
-}
-
-.n-icon\:map_trifold_fill::before {
-  --icon: url(./icon/map_trifold_fill.svg);
-}
-
-.n-icon\:markdown::before {
-  --icon: url(./icon/markdown.svg);
-}
-
-.n-icon\:markdown_copy::before {
-  --icon: url(./icon/markdown_copy.svg);
-}
-
-.n-icon\:markdown_paste::before {
-  --icon: url(./icon/markdown_paste.svg);
-}
-
-.n-icon\:media_bluetooth_on::before {
-  --icon: url(./icon/media_bluetooth_on.svg);
-}
-
-.n-icon\:media_link::before {
-  --icon: url(./icon/media_link.svg);
-}
-
-.n-icon\:media_output::before {
-  --icon: url(./icon/media_output.svg);
-}
-
-.n-icon\:media_output_off::before {
-  --icon: url(./icon/media_output_off.svg);
-}
-
-.n-icon\:mediation::before {
-  --icon: url(./icon/mediation.svg);
-}
-
-.n-icon\:megaphone::before {
-  --icon: url(./icon/megaphone.svg);
-}
-
-.n-icon\:megaphone_fill::before {
-  --icon: url(./icon/megaphone_fill.svg);
-}
-
-.n-icon\:menu::before {
-  --icon: url(./icon/menu.svg);
-}
-
-.n-icon\:mms::before {
-  --icon: url(./icon/mms.svg);
-}
-
-.n-icon\:movie::before {
-  --icon: url(./icon/movie.svg);
-}
-
-.n-icon\:monitor_play::before {
-  --icon: url(./icon/monitor_play.svg);
-}
-
-.n-icon\:monitor_play_fill::before {
-  --icon: url(./icon/monitor_play_fill.svg);
-}
-
-.n-icon\:moon::before {
-  --icon: url(./icon/moon.svg);
-}
-
-.n-icon\:moon_fill::before {
-  --icon: url(./icon/moon_fill.svg);
-}
-
-.n-icon\:navigation_arrow::before {
-  --icon: url(./icon/navigation_arrow.svg);
-}
-
-.n-icon\:newsmode::before {
-  --icon: url(./icon/newsmode.svg);
-}
-
-.n-icon\:newsstand::before {
-  --icon: url(./icon/newsstand.svg);
-}
-
-.n-icon\:not_started::before {
-  --icon: url(./icon/not_started.svg);
-}
-
-.n-icon\:not_stack::before {
-  --icon: url(./icon/not_stack.svg);
-}
-
-.n-icon\:notifications_active::before {
-  --icon: url(./icon/notifications_active_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:notifications::before {
-  --icon: url(./icon/notifications_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:notification_important::before {
-  --icon: url(./icon/notification_important_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:notification_add::before {
-  --icon: url(./icon/notification_add_24dp_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
-.n-icon\:page_control::before {
-  --icon: url(./icon/page_control.svg);
-}
-
-.n-icon\:pause::before {
-  --icon: url(./icon/pause.svg);
-}
-
-.n-icon\:pause_circle::before {
-  --icon: url(./icon/pause_circle.svg);
-}
-
-.n-icon\:play_circle::before {
-  --icon: url(./icon/play_circle.svg);
-}
-
-.n-icon\:play_disabled::before {
-  --icon: url(./icon/play_disabled.svg);
-}
-
-.n-icon\:play_lesson::before {
-  --icon: url(./icon/play_lesson.svg);
-}
-
-.n-icon\:play_pause::before {
-  --icon: url(./icon/play_pause.svg);
-}
-
-.n-icon\:pause_fill::before {
-  --icon: url(./icon/pause_fill.svg);
-}
-
-.n-icon\:pencil_simple::before {
-  --icon: url(./icon/pencil_simple.svg);
-}
-
-.n-icon\:pencil_simple_fill::before {
-  --icon: url(./icon/pencil_simple_fill.svg);
-}
-
-.n-icon\:phone_call::before {
-  --icon: url(./icon/phone_call.svg);
-}
-
-.n-icon\:play_fill::before {
-  --icon: url(./icon/play_fill.svg);
-}
-
-.n-icon\:play_pause_fill::before {
-  --icon: url(./icon/play_pause_fill.svg);
-}
-
-.n-icon\:plus::before {
-  --icon: url(./icon/plus.svg);
-}
-
-.n-icon\:post_add::before {
-  --icon: url(./icon/post_add.svg);
-}
-
-.n-icon\:add_task::before {
-  --icon: url(./icon/add_task.svg);
-}
-
-.n-icon\:preview::before {
-  --icon: url(./icon/preview.svg);
-}
-
-.n-icon\:problem::before {
-  --icon: url(./icon/problem.svg);
-}
-
-.n-icon\:push_pin::before {
-  --icon: url(./icon/push_pin.svg);
-}
-
-.n-icon\:push_pin_fill::before {
-  --icon: url(./icon/push_pin_fill.svg);
-}
-
-.n-icon\:question::before {
-  --icon: url(./icon/question.svg);
-}
-
-.n-icon\:quiz::before {
-  --icon: url(./icon/quiz.svg);
-}
-
-.n-icon\:qr_code::before {
-  --icon: url(./icon/qr_code.svg);
-}
-
-.n-icon\:qr_code_2::before {
-  --icon: url(./icon/qr_code_2.svg);
-}
-
-.n-icon\:qr_code_2_add::before {
-  --icon: url(./icon/qr_code_2_add.svg);
-}
-
-.n-icon\:qr_code_scanner::before {
-  --icon: url(./icon/qr_code_scanner.svg);
-}
-
-.n-icon\:radio::before {
-  --icon: url(./icon/radio.svg);
-}
-
-.n-icon\:radio_button_unchecked::before {
-  --icon: url(./icon/radio_button_unchecked.svg);
-}
-
-.n-icon\:radio_button_checked::before {
-  --icon: url(./icon/radio_button_checked.svg);
-}
-
-.n-icon\:recommend::before {
-  --icon: url(./icon/recommend.svg);
-}
-
-.n-icon\:remove::before {
-  --icon: url(./icon/remove.svg);
-}
-
-.n-icon\:remove_selection::before {
-  --icon: url(./icon/remove_selection.svg);
-}
-
-.n-icon\:repeat::before {
-  --icon: url(./icon/repeat.svg);
-}
-
-.n-icon\:repeat_one_on::before {
-  --icon: url(./icon/repeat_one_on.svg);
-}
-
-.n-icon\:resume::before {
-  --icon: url(./icon/resume.svg);
-}
-
-.n-icon\:save::before {
-  --icon: url(./icon/save.svg);
-}
-
-.n-icon\:search::before {
-  --icon: url(./icon/search.svg);
-}
-
-.n-icon\:share::before {
-  --icon: url(./icon/share.svg);
-}
-
-.n-icon\:share_fat::before {
-  --icon: url(./icon/share_fat.svg);
-}
-
-.n-icon\:share_fat_fill::before {
-  --icon: url(./icon/share_fat_fill.svg);
-}
-
-.n-icon\:share_off::before {
-  --icon: url(./icon/share_off.svg);
-}
-
-.n-icon\:share_network::before {
-  --icon: url(./icon/share_network.svg);
-}
-
-.n-icon\:share_network_fill::before {
-  --icon: url(./icon/share_network_fill.svg);
-}
-
-.n-icon\:settings::before {
-  --icon: url(./icon/settings.svg);
-}
-
-.n-icon\:shopping_bag::before {
-  --icon: url(./icon/shopping_bag.svg);
-}
-
-.n-icon\:shopping_cart::before {
-  --icon: url(./icon/shopping_cart.svg);
-}
-
-.n-icon\:shopping_cart_checkout::before {
-  --icon: url(./icon/shopping_cart_checkout.svg);
-}
-
-.n-icon\:shopping_cart_simple::before {
-  --icon: url(./icon/shopping_cart_simple.svg);
-}
-
-.n-icon\:shopping_cart_simple_fill::before {
-  --icon: url(./icon/shopping_cart_simple_fill.svg);
-}
-
-.n-icon\:shuffle_fill::before {
-  --icon: url(./icon/shuffle_fill.svg);
-}
-
-.n-icon\:sign_in::before {
-  --icon: url(./icon/sign_in.svg);
-}
-
-.n-icon\:sign_out::before {
-  --icon: url(./icon/sign_out.svg);
-}
-
-.n-icon\:skip_back_fill::before {
-  --icon: url(./icon/skip_back_fill.svg);
-}
-
-.n-icon\:skip_forward_fill::before {
-  --icon: url(./icon/skip_forward_fill.svg);
-}
-
-.n-icon\:sliders_horizontal::before {
-  --icon: url(./icon/sliders_horizontal.svg);
-}
-
-.n-icon\:sliders::before {
-  --icon: url(./icon/sliders.svg);
-}
-
-.n-icon\:speaker_simple_high_fill::before {
-  --icon: url(./icon/speaker_simple_high_fill.svg);
-}
-
-.n-icon\:speaker_simple_low_fill::before {
-  --icon: url(./icon/speaker_simple_low_fill.svg);
-}
-
-.n-icon\:speaker_simple_none_fill::before {
-  --icon: url(./icon/speaker_simple_none_fill.svg);
-}
-
-.n-icon\:speaker_simple_slash_fill::before {
-  --icon: url(./icon/speaker_simple_slash_fill.svg);
-}
-
-.n-icon\:squares_four::before {
-  --icon: url(./icon/squares_four.svg);
-}
-
-.n-icon\:squares_four_fill::before {
-  --icon: url(./icon/squares_four_fill.svg);
-}
-
-.n-icon\:star::before {
-  --icon: url(./icon/star.svg);
-}
-
-.n-icon\:star_fill::before {
-  --icon: url(./icon/star_fill.svg);
-}
-
-.n-icon\:stack::before {
-  --icon: url(./icon/stack.svg);
-}
-
-.n-icon\:stock_media::before {
-  --icon: url(./icon/stock_media.svg);
-}
-
-.n-icon\:stop_fill::before {
-  --icon: url(./icon/stop_fill.svg);
-}
-
-.n-icon\:strikethrough_s::before {
-  --icon: url(./icon/strikethrough_s.svg);
-}
-
-.n-icon\:student::before {
-  --icon: url(./icon/student.svg);
-}
-
-.n-icon\:subscript::before {
-  --icon: url(./icon/subscript.svg);
-}
-
-.n-icon\:subscriptions::before {
-  --icon: url(./icon/subscriptions.svg);
-}
-
-.n-icon\:subtitles::before {
-  --icon: url(./icon/subtitles.svg);
-}
-
-.n-icon\:sun::before {
-  --icon: url(./icon/sun.svg);
-}
-
-.n-icon\:sun_fill::before {
-  --icon: url(./icon/sun_fill.svg);
-}
-
-.n-icon\:superscript::before {
-  --icon: url(./icon/superscript.svg);
-}
-
-.n-icon\:tag::before {
-  --icon: url(./icon/tag.svg);
-}
-
-.n-icon\:text_a_underline::before {
-  --icon: url(./icon/text_a_underline.svg);
-}
-
-.n-icon\:text_aa::before {
-  --icon: url(./icon/text_aa.svg);
-}
-
-.n-icon\:text_align_center::before {
-  --icon: url(./icon/text_align_center.svg);
-}
-
-.n-icon\:text_align_justify::before {
-  --icon: url(./icon/text_align_justify.svg);
-}
-
-.n-icon\:text_align_left::before {
-  --icon: url(./icon/text_align_left.svg);
-}
-
-.n-icon\:text_align_right::before {
-  --icon: url(./icon/text_align_right.svg);
-}
-
-.n-icon\:text_b::before {
-  --icon: url(./icon/text_b.svg);
-}
-
-.n-icon\:text_strikethrough::before {
-  --icon: url(./icon/text_strikethrough.svg);
-}
-
-.n-icon\:text_t::before {
-  --icon: url(./icon/text_t.svg);
-}
-
-.n-icon\:text_underline::before {
-  --icon: url(./icon/text_underline.svg);
-}
-
-.n-icon\:thumbs_down::before {
-  --icon: url(./icon/thumbs_down.svg);
-}
-
-.n-icon\:thumbs_up::before {
-  --icon: url(./icon/thumbs_up.svg);
-}
-
-.n-icon\:timer_pause::before {
-  --icon: url(./icon/timer_pause.svg);
-}
-
-.n-icon\:timer_play::before {
-  --icon: url(./icon/timer_play.svg);
-}
-
-.n-icon\:toc::before {
-  --icon: url(./icon/toc.svg);
-}
-
-.n-icon\:toggle::before {
-  --icon: url(./icon/toggle.svg);
-}
-
-.n-icon\:toggle_off::before {
-  --icon: url(./icon/toggle_off.svg);
-}
-
-.n-icon\:topic::before {
-  --icon: url(./icon/topic.svg);
-}
-
-.n-icon\:trash::before {
-  --icon: url(./icon/trash.svg);
-}
-
-.n-icon\:trash_fill::before {
-  --icon: url(./icon/trash_fill.svg);
-}
-
-.n-icon\:trash_simple::before {
-  --icon: url(./icon/trash_simple.svg);
-}
-
-.n-icon\:trash_simple_fill::before {
-  --icon: url(./icon/trash_simple_fill.svg);
-}
-
-.n-icon\:trophy::before {
-  --icon: url(./icon/trophy.svg);
-}
-
-.n-icon\:tune::before {
-  --icon: url(./icon/tune.svg);
-}
-
-.n-icon\:upload_simple::before {
-  --icon: url(./icon/upload_simple.svg);
-}
-
-.n-icon\:user::before {
-  --icon: url(./icon/user.svg);
-}
-
-.n-icon\:user_circle_gear::before {
-  --icon: url(./icon/user_circle_gear.svg);
-}
-
-.n-icon\:user_fill::before {
-  --icon: url(./icon/user_fill.svg);
-}
-
-.n-icon\:vertical_align_bottom::before {
-  --icon: url(./icon/vertical_align_bottom.svg);
-}
-
-.n-icon\:vertical_align_center::before {
-  --icon: url(./icon/vertical_align_center.svg);
-}
-
-.n-icon\:vertical_align_top::before {
-  --icon: url(./icon/vertical_align_top.svg);
-}
-
-.n-icon\:view_list::before {
-  --icon: url(./icon/view_list.svg);
-}
-
-.n-icon\:warning::before {
-  --icon: url(./icon/warning.svg);
-}
-
-.n-icon\:warning_circle::before {
-  --icon: url(./icon/warning_circle.svg);
-}
-
-.n-icon\:warning_circle_fill::before {
-  --icon: url(./icon/warning_circle_fill.svg);
-}
-
-.n-icon\:warning_fill::before {
-  --icon: url(./icon/warning_fill.svg);
-}
-
-.n-icon\:wrap_text::before {
-  --icon: url(./icon/wrap_text.svg);
-}
-
-.n-icon\:x::before {
-  --icon: url(./icon/x.svg);
-}
-
-.n-icon\:x_circle_fill::before {
-  --icon: url(./icon/x_circle_fill.svg);
-}
-
-.n-icon\:youtube_logo_fill::before {
-  --icon: url(./icon/youtube_logo_fill.svg);
-}
-
-*/
 
 /* === decoration ========================= */
 .n-deco {
@@ -1581,8 +212,8 @@ base 1/2/3/4/5/6/7/8/9/10*/
   gap: 0;
 }
 
-:is(li, dt, dd, td, th, div):has(>.n-deco-pos\:top),
-:is(li, dt, dd, td, th, div):has(>.n-deco-pos\:bottom) {
+:is(li, dt, dd, td, th, div):has(> .n-deco-pos\:top),
+:is(li, dt, dd, td, th, div):has(> .n-deco-pos\:bottom) {
   height: auto;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1613,9 +244,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
 }
 
 @media screen and (min-width: 576px) {
-
   .sm\:n-icon {
-
     /* icon */
     --icon-size-1: 12px;
     --icon-size-2: 16px;
@@ -1641,21 +270,23 @@ base 1/2/3/4/5/6/7/8/9/10*/
   .sm\:n-icon::before {
     /*icon 스타일*/
 
-    flex-shrink: 0;
-
+    /* flex-shrink: 0;
+  
     content: "";
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
-
+  
     background-color: var(--icon-color);
     background-repeat: no-repeat;
     mask-size: var(--icon-size);
-    mask-image: var(--icon);
+    mask-image: var(--icon); */
+
+    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+    font-family: "Material Symbols Outlined";
+    font-size: var(--icon-size);
   }
-
-
 
   /* === color ======================================= */
   /*
@@ -1664,152 +295,132 @@ base 1/2/3/4/5/6/7/8/9/10*/
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
 
-  .sm\:n-icon-color\:main-1 {
-    --icon-color: var(--color-main-1, #D86259);
-  }
-
-  .sm\:n-icon-color\:main-2 {
-    --icon-color: var(--color-main-2, #905634);
-  }
-
-  .sm\:n-icon-color\:main-3 {
-    --icon-color: var(--color-main-3, #5E2808);
-  }
-
-  .sm\:n-icon-color\:sub-1 {
-    --icon-color: var(--color-sub-1, #F3E184);
-  }
-
-  .sm\:n-icon-color\:accent-1 {
-    --icon-color: var(--color-accent-1, #334DCF);
-  }
-
-  /* ---- icon-size ------------------------------------------------- */
-  .sm\:n-icon-size\:1 {
-    --icon-size: var(--icon-size-1);
-  }
-
-  .sm\:n-icon-size\:2 {
-    --icon-size: var(--icon-size-2);
-  }
-
-  .sm\:n-icon-size\:3 {
-    --icon-size: var(--icon-size-3);
-  }
-
-  .sm\:n-icon-size\:4 {
-    --icon-size: var(--icon-size-4);
-  }
-
-  .sm\:n-icon-size\:5 {
-    --icon-size: var(--icon-size-5);
-  }
-
-  .sm\:n-icon-size\:6 {
-    --icon-size: var(--icon-size-6);
-  }
-
-  .sm\:n-icon-size\:7 {
-    --icon-size: var(--icon-size-7);
-  }
-
-  .sm\:n-icon-size\:8 {
-    --icon-size: var(--icon-size-8);
-  }
-
-  .sm\:n-icon-size\:9 {
-    --icon-size: var(--icon-size-9);
-  }
-
-  .sm\:n-icon-size\:ex {
-    --icon-size: var(--icon-size-ex);
-  }
-
-  /* ---- icon-color ------------------------------------------------- */
   .sm\:n-icon-color\:main-1::before {
-    background-color: var(--color-main-1);
+    color: var(--color-main-1);
   }
 
   .sm\:n-icon-color\:main-2::before {
-    background-color: var(--color-main-2);
+    color: var(--color-main-2);
   }
 
   .sm\:n-icon-color\:main-3::before {
-    background-color: var(--color-main-3);
+    color: var(--color-main-3);
   }
 
   .sm\:n-icon-color\:sub-1::before {
-    background-color: var(--color-sub-1);
+    color: var(--color-sub-1);
   }
 
   .sm\:n-icon-color\:sub-2::before {
-    background-color: var(--color-sub-2);
+    color: var(--color-sub-2);
   }
 
   .sm\:n-icon-color\:sub-3::before {
-    background-color: var(--color-sub-3);
+    color: var(--color-sub-3);
   }
 
   .sm\:n-icon-color\:accent-1::before {
-    background-color: var(--color-accent-1);
+    color: var(--color-accent-1);
   }
 
   .sm\:n-icon-color\:accent-2::before {
-    background-color: var(--color-accent-2);
+    color: var(--color-accent-2);
   }
 
   .sm\:n-icon-color\:accent-3::before {
-    background-color: var(--color-accent-3);
+    color: var(--color-accent-3);
   }
 
   .sm\:n-icon-color\:base-1::before {
-    background-color: var(--color-base-1);
+    color: var(--color-base-1);
   }
 
   .sm\:n-icon-color\:base-2::before {
-    background-color: var(--color-base-2);
+    color: var(--color-base-2);
   }
 
   .sm\:n-icon-color\:base-3::before {
-    background-color: var(--color-base-3);
+    color: var(--color-base-3);
   }
 
   .sm\:n-icon-color\:base-4::before {
-    background-color: var(--color-base-4);
+    color: var(--color-base-4);
   }
 
   .sm\:n-icon-color\:base-5::before {
-    background-color: var(--color-base-5);
+    color: var(--color-base-5);
   }
 
   .sm\:n-icon-color\:base-6::before {
-    background-color: var(--color-base-6);
+    color: var(--color-base-6);
   }
 
   .sm\:n-icon-color\:base-7::before {
-    background-color: var(--color-base-7);
+    color: var(--color-base-7);
   }
 
   .sm\:n-icon-color\:base-8::before {
-    background-color: var(--color-base-8);
+    color: var(--color-base-8);
   }
 
   .sm\:n-icon-color\:base-9::before {
-    background-color: var(--color-base-9);
+    color: var(--color-base-9);
   }
 
   .sm\:n-icon-color\:base-10::before {
-    background-color: var(--color-base-10);
+    color: var(--color-base-10);
   }
 
+  /* ---- icon-size ------------------------------------------------- */
+  .sm\:n-icon-size\:1::before {
+    font-size: var(--icon-size-1);
+  }
+
+  .sm\:n-icon-size\:2::before {
+    font-size: var(--icon-size-2);
+  }
+
+  .sm\:n-icon-size\:3::before {
+    font-size: var(--icon-size-3);
+  }
+
+  .sm\:n-icon-size\:4::before {
+    font-size: var(--icon-size-4);
+  }
+
+  .sm\:n-icon-size\:5::before {
+    font-size: var(--icon-size-5);
+  }
+
+  .sm\:n-icon-size\:6::before {
+    /* --icon-size: var(--icon-size-6); */
+    font-size: var(--icon-size-6);
+  }
+
+  .sm\:n-icon-size\:7::before {
+    font-size: var(--icon-size-7);
+  }
+
+  .sm\:n-icon-size\:8::before {
+    font-size: var(--icon-size-8);
+  }
+
+  .sm\:n-icon-size\:9::before {
+    font-size: var(--icon-size-9);
+  }
+
+  .sm\:n-icon-size\:ex::before {
+    font-size: var(--icon-size-ex);
+  }
 
   /* === decoration ========================= */
   .sm\:n-deco {
-    --deco-gap: 24px;
+    --deco-gap: 10px;
     --deco-size: 24px;
 
     width: auto;
     text-indent: initial;
+    text-align: center;
     gap: var(--deco-gap);
   }
 
@@ -1821,25 +432,11 @@ base 1/2/3/4/5/6/7/8/9/10*/
     gap: 0;
   }
 
-  .sm\:n-deco-pos\:left,
-  .sm\:n-deco-pos\:right {
-    flex-direction: row;
-    height: auto;
-    width: auto;
-    gap: var(--deco-gap);
-  }
-
-  :is(li, dt, dd, td, th, div):has(>.sm\:n-deco-pos\:top),
-  :is(li, dt, dd, td, th, div):has(>.sm\:n-deco-pos\:bottom) {
+  :is(li, dt, dd, td, th, div):has(> .sm\:n-deco-pos\:top),
+  :is(li, dt, dd, td, th, div):has(> .sm\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-
-  :is(li, dt, dd, td, th, div):has(>.sm\:n-deco-pos\:left),
-  :is(li, dt, dd, td, th, div):has(>.sm\:n-deco-pos\:right) {
-    padding-top: unset;
-    padding-bottom: unset;
   }
 
   .sm\:n-deco-pos\:left::before,
@@ -1865,13 +462,10 @@ base 1/2/3/4/5/6/7/8/9/10*/
   .sm\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
-
 }
-
 
 @media screen and (min-width: 768px) {
   .md\:n-icon {
-
     /* icon */
     --icon-size-1: 12px;
     --icon-size-2: 16px;
@@ -1883,35 +477,26 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-
+  
     --icon-size: 24px;
     --icon-color: #000;
-
+  
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-
+  
   .md\:n-icon::before {
     /*icon 스타일*/
 
-    flex-shrink: 0;
-
-    content: "";
-    display: inline-flex;
-    width: var(--icon-size);
-    height: var(--icon-size);
-    overflow: hidden;
-
-    background-color: var(--icon-color);
-    background-repeat: no-repeat;
-    mask-size: var(--icon-size);
-    mask-image: var(--icon);
+    mask-image: var(--icon); */
+  
+    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+    font-family: "Material Symbols Outlined";
+    font-size: var(--icon-size);
   }
-
-
 
   /* === color ======================================= */
   /*
@@ -1919,156 +504,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-
-  .md\:n-icon-color\:main-1 {
-    --icon-color: var(--color-main-1, #D86259);
-  }
-
-  .md\:n-icon-color\:main-2 {
-    --icon-color: var(--color-main-2, #905634);
-  }
-
-  .md\:n-icon-color\:main-3 {
-    --icon-color: var(--color-main-3, #5E2808);
-  }
-
-  .md\:n-icon-color\:sub-1 {
-    --icon-color: var(--color-sub-1, #F3E184);
-  }
-
-  .md\:n-icon-color\:accent-1 {
-    --icon-color: var(--color-accent-1, #334DCF);
-  }
-
-  /* ---- icon-size ------------------------------------------------- */
-  .md\:n-icon-size\:1 {
-    --icon-size: var(--icon-size-1);
-  }
-
-  .md\:n-icon-size\:2 {
-    --icon-size: var(--icon-size-2);
-  }
-
-  .md\:n-icon-size\:3 {
-    --icon-size: var(--icon-size-3);
-  }
-
-  .md\:n-icon-size\:4 {
-    --icon-size: var(--icon-size-4);
-  }
-
-  .md\:n-icon-size\:5 {
-    --icon-size: var(--icon-size-5);
-  }
-
-  .md\:n-icon-size\:6 {
-    --icon-size: var(--icon-size-6);
-  }
-
-  .md\:n-icon-size\:7 {
-    --icon-size: var(--icon-size-7);
-  }
-
-  .md\:n-icon-size\:8 {
-    --icon-size: var(--icon-size-8);
-  }
-
-  .md\:n-icon-size\:9 {
-    --icon-size: var(--icon-size-9);
-  }
-
-  .md\:n-icon-size\:ex {
-    --icon-size: var(--icon-size-ex);
-  }
-
-  /* ---- icon-color ------------------------------------------------- */
+  
   .md\:n-icon-color\:main-1::before {
-    background-color: var(--color-main-1);
+    color: var(--color-main-1);
   }
-
+  
   .md\:n-icon-color\:main-2::before {
-    background-color: var(--color-main-2);
+    color: var(--color-main-2);
   }
-
+  
   .md\:n-icon-color\:main-3::before {
-    background-color: var(--color-main-3);
+    color: var(--color-main-3);
   }
-
+  
   .md\:n-icon-color\:sub-1::before {
-    background-color: var(--color-sub-1);
+    color: var(--color-sub-1);
   }
-
+  
   .md\:n-icon-color\:sub-2::before {
-    background-color: var(--color-sub-2);
+    color: var(--color-sub-2);
   }
-
+  
   .md\:n-icon-color\:sub-3::before {
-    background-color: var(--color-sub-3);
+    color: var(--color-sub-3);
   }
-
+  
   .md\:n-icon-color\:accent-1::before {
-    background-color: var(--color-accent-1);
+    color: var(--color-accent-1);
   }
-
+  
   .md\:n-icon-color\:accent-2::before {
-    background-color: var(--color-accent-2);
+    color: var(--color-accent-2);
   }
-
+  
   .md\:n-icon-color\:accent-3::before {
-    background-color: var(--color-accent-3);
+    color: var(--color-accent-3);
   }
-
+  
   .md\:n-icon-color\:base-1::before {
-    background-color: var(--color-base-1);
+    color: var(--color-base-1);
   }
-
+  
   .md\:n-icon-color\:base-2::before {
-    background-color: var(--color-base-2);
+    color: var(--color-base-2);
   }
-
+  
   .md\:n-icon-color\:base-3::before {
-    background-color: var(--color-base-3);
+    color: var(--color-base-3);
   }
-
+  
   .md\:n-icon-color\:base-4::before {
-    background-color: var(--color-base-4);
+    color: var(--color-base-4);
   }
-
+  
   .md\:n-icon-color\:base-5::before {
-    background-color: var(--color-base-5);
+    color: var(--color-base-5);
   }
-
+  
   .md\:n-icon-color\:base-6::before {
-    background-color: var(--color-base-6);
+    color: var(--color-base-6);
   }
-
+  
   .md\:n-icon-color\:base-7::before {
-    background-color: var(--color-base-7);
+    color: var(--color-base-7);
   }
-
+  
   .md\:n-icon-color\:base-8::before {
-    background-color: var(--color-base-8);
+    color: var(--color-base-8);
   }
-
+  
   .md\:n-icon-color\:base-9::before {
-    background-color: var(--color-base-9);
+    color: var(--color-base-9);
   }
-
+  
   .md\:n-icon-color\:base-10::before {
-    background-color: var(--color-base-10);
+    color: var(--color-base-10);
   }
-
-
+  
+  /* ---- icon-size ------------------------------------------------- */
+  .md\:n-icon-size\:1::before {
+    font-size: var(--icon-size-1);
+  }
+  
+  .md\:n-icon-size\:2::before {
+    font-size: var(--icon-size-2);
+  }
+  
+  .md\:n-icon-size\:3::before {
+    font-size: var(--icon-size-3);
+  }
+  
+  .md\:n-icon-size\:4::before {
+    font-size: var(--icon-size-4);
+  }
+  
+  .md\:n-icon-size\:5::before {
+    font-size: var(--icon-size-5);
+  }
+  
+  .md\:n-icon-size\:6::before {
+    /* --icon-size: var(--icon-size-6); */
+    font-size: var(--icon-size-6);
+  }
+  
+  .md\:n-icon-size\:7::before {
+    font-size: var(--icon-size-7);
+  }
+  
+  .md\:n-icon-size\:8::before {
+    font-size: var(--icon-size-8);
+  }
+  
+  .md\:n-icon-size\:9::before {
+    font-size: var(--icon-size-9);
+  }
+  
+  .md\:n-icon-size\:ex::before {
+    font-size: var(--icon-size-ex);
+  }
+  
   /* === decoration ========================= */
   .md\:n-deco {
-    --deco-gap: 24px;
+    --deco-gap: 10px;
     --deco-size: 24px;
-
+  
     width: auto;
     text-indent: initial;
+    text-align: center;
     gap: var(--deco-gap);
   }
-
+  
   /* deco-position ------------------------------------------------- */
   .md\:n-deco-pos\:top,
   .md\:n-deco-pos\:bottom {
@@ -2076,48 +641,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-
-  .md\:n-deco-pos\:left,
-  .md\:n-deco-pos\:right {
-    flex-direction: row;
-    height: auto;
-    width: auto;
-    gap: var(--deco-gap);
-  }
-
-  :is(li, dt, dd, td, th, div):has(>.md\:n-deco-pos\:top),
-  :is(li, dt, dd, td, th, div):has(>.md\:n-deco-pos\:bottom) {
+  
+  :is(li, dt, dd, td, th, div):has(> .md\:n-deco-pos\:top),
+  :is(li, dt, dd, td, th, div):has(> .md\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
-  :is(li, dt, dd, td, th, div):has(>.md\:n-deco-pos\:left),
-  :is(li, dt, dd, td, th, div):has(>.md\:n-deco-pos\:right) {
-    padding-top: unset;
-    padding-bottom: unset;
-  }
-
+  
   .md\:n-deco-pos\:left::before,
   .md\:n-deco-pos\:top::before {
     order: unset;
   }
-
+  
   .md\:n-deco-pos\:right::before,
   .md\:n-deco-pos\:bottom::before {
     order: 1;
   }
-
+  
   /* ---- deco-gap ------------------------------------------------- */
-
+  
   .md\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-
+  
   .md\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-
+  
   .md\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
@@ -2125,7 +676,6 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 @media screen and (min-width: 992px) {
   .lg\:n-icon {
-
     /* icon */
     --icon-size-1: 12px;
     --icon-size-2: 16px;
@@ -2137,35 +687,26 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-
+  
     --icon-size: 24px;
     --icon-color: #000;
-
+  
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-
+  
   .lg\:n-icon::before {
     /*icon 스타일*/
 
-    flex-shrink: 0;
-
-    content: "";
-    display: inline-flex;
-    width: var(--icon-size);
-    height: var(--icon-size);
-    overflow: hidden;
-
-    background-color: var(--icon-color);
-    background-repeat: no-repeat;
-    mask-size: var(--icon-size);
-    mask-image: var(--icon);
+    mask-image: var(--icon); */
+  
+    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+    font-family: "Material Symbols Outlined";
+    font-size: var(--icon-size);
   }
-
-
 
   /* === color ======================================= */
   /*
@@ -2173,156 +714,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-
-  .lg\:n-icon-color\:main-1 {
-    --icon-color: var(--color-main-1, #D86259);
-  }
-
-  .lg\:n-icon-color\:main-2 {
-    --icon-color: var(--color-main-2, #905634);
-  }
-
-  .lg\:n-icon-color\:main-3 {
-    --icon-color: var(--color-main-3, #5E2808);
-  }
-
-  .lg\:n-icon-color\:sub-1 {
-    --icon-color: var(--color-sub-1, #F3E184);
-  }
-
-  .lg\:n-icon-color\:accent-1 {
-    --icon-color: var(--color-accent-1, #334DCF);
-  }
-
-  /* ---- icon-size ------------------------------------------------- */
-  .lg\:n-icon-size\:1 {
-    --icon-size: var(--icon-size-1);
-  }
-
-  .lg\:n-icon-size\:2 {
-    --icon-size: var(--icon-size-2);
-  }
-
-  .lg\:n-icon-size\:3 {
-    --icon-size: var(--icon-size-3);
-  }
-
-  .lg\:n-icon-size\:4 {
-    --icon-size: var(--icon-size-4);
-  }
-
-  .lg\:n-icon-size\:5 {
-    --icon-size: var(--icon-size-5);
-  }
-
-  .lg\:n-icon-size\:6 {
-    --icon-size: var(--icon-size-6);
-  }
-
-  .lg\:n-icon-size\:7 {
-    --icon-size: var(--icon-size-7);
-  }
-
-  .lg\:n-icon-size\:8 {
-    --icon-size: var(--icon-size-8);
-  }
-
-  .lg\:n-icon-size\:9 {
-    --icon-size: var(--icon-size-9);
-  }
-
-  .lg\:n-icon-size\:ex {
-    --icon-size: var(--icon-size-ex);
-  }
-
-  /* ---- icon-color ------------------------------------------------- */
+  
   .lg\:n-icon-color\:main-1::before {
-    background-color: var(--color-main-1);
+    color: var(--color-main-1);
   }
-
+  
   .lg\:n-icon-color\:main-2::before {
-    background-color: var(--color-main-2);
+    color: var(--color-main-2);
   }
-
+  
   .lg\:n-icon-color\:main-3::before {
-    background-color: var(--color-main-3);
+    color: var(--color-main-3);
   }
-
+  
   .lg\:n-icon-color\:sub-1::before {
-    background-color: var(--color-sub-1);
+    color: var(--color-sub-1);
   }
-
+  
   .lg\:n-icon-color\:sub-2::before {
-    background-color: var(--color-sub-2);
+    color: var(--color-sub-2);
   }
-
+  
   .lg\:n-icon-color\:sub-3::before {
-    background-color: var(--color-sub-3);
+    color: var(--color-sub-3);
   }
-
+  
   .lg\:n-icon-color\:accent-1::before {
-    background-color: var(--color-accent-1);
+    color: var(--color-accent-1);
   }
-
+  
   .lg\:n-icon-color\:accent-2::before {
-    background-color: var(--color-accent-2);
+    color: var(--color-accent-2);
   }
-
+  
   .lg\:n-icon-color\:accent-3::before {
-    background-color: var(--color-accent-3);
+    color: var(--color-accent-3);
   }
-
+  
   .lg\:n-icon-color\:base-1::before {
-    background-color: var(--color-base-1);
+    color: var(--color-base-1);
   }
-
+  
   .lg\:n-icon-color\:base-2::before {
-    background-color: var(--color-base-2);
+    color: var(--color-base-2);
   }
-
+  
   .lg\:n-icon-color\:base-3::before {
-    background-color: var(--color-base-3);
+    color: var(--color-base-3);
   }
-
+  
   .lg\:n-icon-color\:base-4::before {
-    background-color: var(--color-base-4);
+    color: var(--color-base-4);
   }
-
+  
   .lg\:n-icon-color\:base-5::before {
-    background-color: var(--color-base-5);
+    color: var(--color-base-5);
   }
-
+  
   .lg\:n-icon-color\:base-6::before {
-    background-color: var(--color-base-6);
+    color: var(--color-base-6);
   }
-
+  
   .lg\:n-icon-color\:base-7::before {
-    background-color: var(--color-base-7);
+    color: var(--color-base-7);
   }
-
+  
   .lg\:n-icon-color\:base-8::before {
-    background-color: var(--color-base-8);
+    color: var(--color-base-8);
   }
-
+  
   .lg\:n-icon-color\:base-9::before {
-    background-color: var(--color-base-9);
+    color: var(--color-base-9);
   }
-
+  
   .lg\:n-icon-color\:base-10::before {
-    background-color: var(--color-base-10);
+    color: var(--color-base-10);
   }
-
-
+  
+  /* ---- icon-size ------------------------------------------------- */
+  .lg\:n-icon-size\:1::before {
+    font-size: var(--icon-size-1);
+  }
+  
+  .lg\:n-icon-size\:2::before {
+    font-size: var(--icon-size-2);
+  }
+  
+  .lg\:n-icon-size\:3::before {
+    font-size: var(--icon-size-3);
+  }
+  
+  .lg\:n-icon-size\:4::before {
+    font-size: var(--icon-size-4);
+  }
+  
+  .lg\:n-icon-size\:5::before {
+    font-size: var(--icon-size-5);
+  }
+  
+  .lg\:n-icon-size\:6::before {
+    /* --icon-size: var(--icon-size-6); */
+    font-size: var(--icon-size-6);
+  }
+  
+  .lg\:n-icon-size\:7::before {
+    font-size: var(--icon-size-7);
+  }
+  
+  .lg\:n-icon-size\:8::before {
+    font-size: var(--icon-size-8);
+  }
+  
+  .lg\:n-icon-size\:9::before {
+    font-size: var(--icon-size-9);
+  }
+  
+  .lg\:n-icon-size\:ex::before {
+    font-size: var(--icon-size-ex);
+  }
+  
   /* === decoration ========================= */
   .lg\:n-deco {
-    --deco-gap: 24px;
+    --deco-gap: 10px;
     --deco-size: 24px;
-
+  
     width: auto;
     text-indent: initial;
+    text-align: center;
     gap: var(--deco-gap);
   }
-
+  
   /* deco-position ------------------------------------------------- */
   .lg\:n-deco-pos\:top,
   .lg\:n-deco-pos\:bottom {
@@ -2330,48 +851,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-
-  .lg\:n-deco-pos\:left,
-  .lg\:n-deco-pos\:right {
-    flex-direction: row;
-    height: auto;
-    width: auto;
-    gap: var(--deco-gap);
-  }
-
-  :is(li, dt, dd, td, th, div):has(>.lg\:n-deco-pos\:top),
-  :is(li, dt, dd, td, th, div):has(>.lg\:n-deco-pos\:bottom) {
+  
+  :is(li, dt, dd, td, th, div):has(> .lg\:n-deco-pos\:top),
+  :is(li, dt, dd, td, th, div):has(> .lg\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
-  :is(li, dt, dd, td, th, div):has(>.lg\:n-deco-pos\:left),
-  :is(li, dt, dd, td, th, div):has(>.lg\:n-deco-pos\:right) {
-    padding-top: unset;
-    padding-bottom: unset;
-  }
-
+  
   .lg\:n-deco-pos\:left::before,
   .lg\:n-deco-pos\:top::before {
     order: unset;
   }
-
+  
   .lg\:n-deco-pos\:right::before,
   .lg\:n-deco-pos\:bottom::before {
     order: 1;
   }
-
+  
   /* ---- deco-gap ------------------------------------------------- */
-
+  
   .lg\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-
+  
   .lg\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-
+  
   .lg\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
@@ -2379,7 +886,6 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 @media screen and (min-width: 1200px) {
   .xl\:n-icon {
-
     /* icon */
     --icon-size-1: 12px;
     --icon-size-2: 16px;
@@ -2391,35 +897,26 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-
+  
     --icon-size: 24px;
     --icon-color: #000;
-
+  
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-
+  
   .xl\:n-icon::before {
     /*icon 스타일*/
 
-    flex-shrink: 0;
-
-    content: "";
-    display: inline-flex;
-    width: var(--icon-size);
-    height: var(--icon-size);
-    overflow: hidden;
-
-    background-color: var(--icon-color);
-    background-repeat: no-repeat;
-    mask-size: var(--icon-size);
-    mask-image: var(--icon);
+    mask-image: var(--icon); */
+  
+    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+    font-family: "Material Symbols Outlined";
+    font-size: var(--icon-size);
   }
-
-
 
   /* === color ======================================= */
   /*
@@ -2427,156 +924,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-
-  .xl\:n-icon-color\:main-1 {
-    --icon-color: var(--color-main-1, #D86259);
-  }
-
-  .xl\:n-icon-color\:main-2 {
-    --icon-color: var(--color-main-2, #905634);
-  }
-
-  .xl\:n-icon-color\:main-3 {
-    --icon-color: var(--color-main-3, #5E2808);
-  }
-
-  .xl\:n-icon-color\:sub-1 {
-    --icon-color: var(--color-sub-1, #F3E184);
-  }
-
-  .xl\:n-icon-color\:accent-1 {
-    --icon-color: var(--color-accent-1, #334DCF);
-  }
-
-  /* ---- icon-size ------------------------------------------------- */
-  .xl\:n-icon-size\:1 {
-    --icon-size: var(--icon-size-1);
-  }
-
-  .xl\:n-icon-size\:2 {
-    --icon-size: var(--icon-size-2);
-  }
-
-  .xl\:n-icon-size\:3 {
-    --icon-size: var(--icon-size-3);
-  }
-
-  .xl\:n-icon-size\:4 {
-    --icon-size: var(--icon-size-4);
-  }
-
-  .xl\:n-icon-size\:5 {
-    --icon-size: var(--icon-size-5);
-  }
-
-  .xl\:n-icon-size\:6 {
-    --icon-size: var(--icon-size-6);
-  }
-
-  .xl\:n-icon-size\:7 {
-    --icon-size: var(--icon-size-7);
-  }
-
-  .xl\:n-icon-size\:8 {
-    --icon-size: var(--icon-size-8);
-  }
-
-  .xl\:n-icon-size\:9 {
-    --icon-size: var(--icon-size-9);
-  }
-
-  .xl\:n-icon-size\:ex {
-    --icon-size: var(--icon-size-ex);
-  }
-
-  /* ---- icon-color ------------------------------------------------- */
+  
   .xl\:n-icon-color\:main-1::before {
-    background-color: var(--color-main-1);
+    color: var(--color-main-1);
   }
-
+  
   .xl\:n-icon-color\:main-2::before {
-    background-color: var(--color-main-2);
+    color: var(--color-main-2);
   }
-
+  
   .xl\:n-icon-color\:main-3::before {
-    background-color: var(--color-main-3);
+    color: var(--color-main-3);
   }
-
+  
   .xl\:n-icon-color\:sub-1::before {
-    background-color: var(--color-sub-1);
+    color: var(--color-sub-1);
   }
-
+  
   .xl\:n-icon-color\:sub-2::before {
-    background-color: var(--color-sub-2);
+    color: var(--color-sub-2);
   }
-
+  
   .xl\:n-icon-color\:sub-3::before {
-    background-color: var(--color-sub-3);
+    color: var(--color-sub-3);
   }
-
+  
   .xl\:n-icon-color\:accent-1::before {
-    background-color: var(--color-accent-1);
+    color: var(--color-accent-1);
   }
-
+  
   .xl\:n-icon-color\:accent-2::before {
-    background-color: var(--color-accent-2);
+    color: var(--color-accent-2);
   }
-
+  
   .xl\:n-icon-color\:accent-3::before {
-    background-color: var(--color-accent-3);
+    color: var(--color-accent-3);
   }
-
+  
   .xl\:n-icon-color\:base-1::before {
-    background-color: var(--color-base-1);
+    color: var(--color-base-1);
   }
-
+  
   .xl\:n-icon-color\:base-2::before {
-    background-color: var(--color-base-2);
+    color: var(--color-base-2);
   }
-
+  
   .xl\:n-icon-color\:base-3::before {
-    background-color: var(--color-base-3);
+    color: var(--color-base-3);
   }
-
+  
   .xl\:n-icon-color\:base-4::before {
-    background-color: var(--color-base-4);
+    color: var(--color-base-4);
   }
-
+  
   .xl\:n-icon-color\:base-5::before {
-    background-color: var(--color-base-5);
+    color: var(--color-base-5);
   }
-
+  
   .xl\:n-icon-color\:base-6::before {
-    background-color: var(--color-base-6);
+    color: var(--color-base-6);
   }
-
+  
   .xl\:n-icon-color\:base-7::before {
-    background-color: var(--color-base-7);
+    color: var(--color-base-7);
   }
-
+  
   .xl\:n-icon-color\:base-8::before {
-    background-color: var(--color-base-8);
+    color: var(--color-base-8);
   }
-
+  
   .xl\:n-icon-color\:base-9::before {
-    background-color: var(--color-base-9);
+    color: var(--color-base-9);
   }
-
+  
   .xl\:n-icon-color\:base-10::before {
-    background-color: var(--color-base-10);
+    color: var(--color-base-10);
   }
-
-
+  
+  /* ---- icon-size ------------------------------------------------- */
+  .xl\:n-icon-size\:1::before {
+    font-size: var(--icon-size-1);
+  }
+  
+  .xl\:n-icon-size\:2::before {
+    font-size: var(--icon-size-2);
+  }
+  
+  .xl\:n-icon-size\:3::before {
+    font-size: var(--icon-size-3);
+  }
+  
+  .xl\:n-icon-size\:4::before {
+    font-size: var(--icon-size-4);
+  }
+  
+  .xl\:n-icon-size\:5::before {
+    font-size: var(--icon-size-5);
+  }
+  
+  .xl\:n-icon-size\:6::before {
+    /* --icon-size: var(--icon-size-6); */
+    font-size: var(--icon-size-6);
+  }
+  
+  .xl\:n-icon-size\:7::before {
+    font-size: var(--icon-size-7);
+  }
+  
+  .xl\:n-icon-size\:8::before {
+    font-size: var(--icon-size-8);
+  }
+  
+  .xl\:n-icon-size\:9::before {
+    font-size: var(--icon-size-9);
+  }
+  
+  .xl\:n-icon-size\:ex::before {
+    font-size: var(--icon-size-ex);
+  }
+  
   /* === decoration ========================= */
   .xl\:n-deco {
-    --deco-gap: 24px;
+    --deco-gap: 10px;
     --deco-size: 24px;
-
+  
     width: auto;
     text-indent: initial;
+    text-align: center;
     gap: var(--deco-gap);
   }
-
+  
   /* deco-position ------------------------------------------------- */
   .xl\:n-deco-pos\:top,
   .xl\:n-deco-pos\:bottom {
@@ -2584,48 +1061,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-
-  .xl\:n-deco-pos\:left,
-  .xl\:n-deco-pos\:right {
-    flex-direction: row;
-    height: auto;
-    width: auto;
-    gap: var(--deco-gap);
-  }
-
-  :is(li, dt, dd, td, th, div):has(>.xl\:n-deco-pos\:top),
-  :is(li, dt, dd, td, th, div):has(>.xl\:n-deco-pos\:bottom) {
+  
+  :is(li, dt, dd, td, th, div):has(> .xl\:n-deco-pos\:top),
+  :is(li, dt, dd, td, th, div):has(> .xl\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
-  :is(li, dt, dd, td, th, div):has(>.xl\:n-deco-pos\:left),
-  :is(li, dt, dd, td, th, div):has(>.xl\:n-deco-pos\:right) {
-    padding-top: unset;
-    padding-bottom: unset;
-  }
-
+  
   .xl\:n-deco-pos\:left::before,
   .xl\:n-deco-pos\:top::before {
     order: unset;
   }
-
+  
   .xl\:n-deco-pos\:right::before,
   .xl\:n-deco-pos\:bottom::before {
     order: 1;
   }
-
+  
   /* ---- deco-gap ------------------------------------------------- */
-
+  
   .xl\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-
+  
   .xl\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-
+  
   .xl\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
