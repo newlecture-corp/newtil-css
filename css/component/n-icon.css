@@ -8,6 +8,7 @@
  * icon-color
  * icon list
  * ───────────────────────────────────    */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 .n-icon {
   /* icon */
@@ -30,12 +31,14 @@
   height: var(--icon-size);
   overflow: hidden;
   align-items: center;
+
+  visibility: visible;
 }
 
 .n-icon::before {
   /*icon 스타일*/
 
-  /* flex-shrink: 0;
+  flex-shrink: 0;
 
   content: "";
   display: inline-flex;
@@ -43,12 +46,11 @@
   height: var(--icon-size);
   overflow: hidden;
 
-  background-color: var(--icon-color);
+  /* background-color: var(--icon-color);
   background-repeat: no-repeat;
   mask-size: var(--icon-size);
   mask-image: var(--icon); */
 
-  content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
   font-family: "Material Symbols Outlined";
   font-size: var(--icon-size);
 }
@@ -57,15 +59,41 @@
 /* ====================================================================== */
 
 .n-icon\:add::before {
-  content: "\e145"; 
+  content: "\e145";
 }
 
 .n-icon\:dashboard::before {
-  content: "\e871"; 
+  content: "\e871";
 }
 
 .n-icon\:login::before {
-  content: "\ea77"; 
+  content: "\ea77";
+}
+
+.n-icon\:shopping_cart::before {
+  content: "\e8cc";
+}
+
+.n-icon\:favorite::before {
+  content: "\e87d";
+}
+
+/* === style  =============================== */
+
+.n-icon-style\:outlined::before {
+  font-family: "Material Symbols Outlined";
+}
+
+.n-icon-style\:filled::before {
+  font-variation-settings: "FILL" 1;
+}
+
+.n-icon-style\:rounded::before {
+  font-family: "Material Symbols Rounded";
+}
+
+.n-icon-style\:sharp::before {
+  font-family: "Material Symbols Sharp";
 }
 
 /* === color ======================================= */
@@ -270,19 +298,6 @@ base 1/2/3/4/5/6/7/8/9/10*/
   .sm\:n-icon::before {
     /*icon 스타일*/
 
-    /* flex-shrink: 0;
-  
-    content: "";
-    display: inline-flex;
-    width: var(--icon-size);
-    height: var(--icon-size);
-    overflow: hidden;
-  
-    background-color: var(--icon-color);
-    background-repeat: no-repeat;
-    mask-size: var(--icon-size);
-    mask-image: var(--icon); */
-
     content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: var(--icon-size);
@@ -477,23 +492,20 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-  
+
     --icon-size: 24px;
     --icon-color: #000;
-  
+
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-  
+
   .md\:n-icon::before {
     /*icon 스타일*/
 
-    mask-image: var(--icon); */
-  
-    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: var(--icon-size);
   }
@@ -504,136 +516,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-  
+
   .md\:n-icon-color\:main-1::before {
     color: var(--color-main-1);
   }
-  
+
   .md\:n-icon-color\:main-2::before {
     color: var(--color-main-2);
   }
-  
+
   .md\:n-icon-color\:main-3::before {
     color: var(--color-main-3);
   }
-  
+
   .md\:n-icon-color\:sub-1::before {
     color: var(--color-sub-1);
   }
-  
+
   .md\:n-icon-color\:sub-2::before {
     color: var(--color-sub-2);
   }
-  
+
   .md\:n-icon-color\:sub-3::before {
     color: var(--color-sub-3);
   }
-  
+
   .md\:n-icon-color\:accent-1::before {
     color: var(--color-accent-1);
   }
-  
+
   .md\:n-icon-color\:accent-2::before {
     color: var(--color-accent-2);
   }
-  
+
   .md\:n-icon-color\:accent-3::before {
     color: var(--color-accent-3);
   }
-  
+
   .md\:n-icon-color\:base-1::before {
     color: var(--color-base-1);
   }
-  
+
   .md\:n-icon-color\:base-2::before {
     color: var(--color-base-2);
   }
-  
+
   .md\:n-icon-color\:base-3::before {
     color: var(--color-base-3);
   }
-  
+
   .md\:n-icon-color\:base-4::before {
     color: var(--color-base-4);
   }
-  
+
   .md\:n-icon-color\:base-5::before {
     color: var(--color-base-5);
   }
-  
+
   .md\:n-icon-color\:base-6::before {
     color: var(--color-base-6);
   }
-  
+
   .md\:n-icon-color\:base-7::before {
     color: var(--color-base-7);
   }
-  
+
   .md\:n-icon-color\:base-8::before {
     color: var(--color-base-8);
   }
-  
+
   .md\:n-icon-color\:base-9::before {
     color: var(--color-base-9);
   }
-  
+
   .md\:n-icon-color\:base-10::before {
     color: var(--color-base-10);
   }
-  
+
   /* ---- icon-size ------------------------------------------------- */
   .md\:n-icon-size\:1::before {
     font-size: var(--icon-size-1);
   }
-  
+
   .md\:n-icon-size\:2::before {
     font-size: var(--icon-size-2);
   }
-  
+
   .md\:n-icon-size\:3::before {
     font-size: var(--icon-size-3);
   }
-  
+
   .md\:n-icon-size\:4::before {
     font-size: var(--icon-size-4);
   }
-  
+
   .md\:n-icon-size\:5::before {
     font-size: var(--icon-size-5);
   }
-  
+
   .md\:n-icon-size\:6::before {
     /* --icon-size: var(--icon-size-6); */
     font-size: var(--icon-size-6);
   }
-  
+
   .md\:n-icon-size\:7::before {
     font-size: var(--icon-size-7);
   }
-  
+
   .md\:n-icon-size\:8::before {
     font-size: var(--icon-size-8);
   }
-  
+
   .md\:n-icon-size\:9::before {
     font-size: var(--icon-size-9);
   }
-  
+
   .md\:n-icon-size\:ex::before {
     font-size: var(--icon-size-ex);
   }
-  
+
   /* === decoration ========================= */
   .md\:n-deco {
     --deco-gap: 10px;
     --deco-size: 24px;
-  
+
     width: auto;
     text-indent: initial;
     text-align: center;
     gap: var(--deco-gap);
   }
-  
+
   /* deco-position ------------------------------------------------- */
   .md\:n-deco-pos\:top,
   .md\:n-deco-pos\:bottom {
@@ -641,34 +653,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-  
+
   :is(li, dt, dd, td, th, div):has(> .md\:n-deco-pos\:top),
   :is(li, dt, dd, td, th, div):has(> .md\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
+
   .md\:n-deco-pos\:left::before,
   .md\:n-deco-pos\:top::before {
     order: unset;
   }
-  
+
   .md\:n-deco-pos\:right::before,
   .md\:n-deco-pos\:bottom::before {
     order: 1;
   }
-  
+
   /* ---- deco-gap ------------------------------------------------- */
-  
+
   .md\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-  
+
   .md\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-  
+
   .md\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
@@ -687,23 +699,20 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-  
+
     --icon-size: 24px;
     --icon-color: #000;
-  
+
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-  
+
   .lg\:n-icon::before {
     /*icon 스타일*/
 
-    mask-image: var(--icon); */
-  
-    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: var(--icon-size);
   }
@@ -714,136 +723,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-  
+
   .lg\:n-icon-color\:main-1::before {
     color: var(--color-main-1);
   }
-  
+
   .lg\:n-icon-color\:main-2::before {
     color: var(--color-main-2);
   }
-  
+
   .lg\:n-icon-color\:main-3::before {
     color: var(--color-main-3);
   }
-  
+
   .lg\:n-icon-color\:sub-1::before {
     color: var(--color-sub-1);
   }
-  
+
   .lg\:n-icon-color\:sub-2::before {
     color: var(--color-sub-2);
   }
-  
+
   .lg\:n-icon-color\:sub-3::before {
     color: var(--color-sub-3);
   }
-  
+
   .lg\:n-icon-color\:accent-1::before {
     color: var(--color-accent-1);
   }
-  
+
   .lg\:n-icon-color\:accent-2::before {
     color: var(--color-accent-2);
   }
-  
+
   .lg\:n-icon-color\:accent-3::before {
     color: var(--color-accent-3);
   }
-  
+
   .lg\:n-icon-color\:base-1::before {
     color: var(--color-base-1);
   }
-  
+
   .lg\:n-icon-color\:base-2::before {
     color: var(--color-base-2);
   }
-  
+
   .lg\:n-icon-color\:base-3::before {
     color: var(--color-base-3);
   }
-  
+
   .lg\:n-icon-color\:base-4::before {
     color: var(--color-base-4);
   }
-  
+
   .lg\:n-icon-color\:base-5::before {
     color: var(--color-base-5);
   }
-  
+
   .lg\:n-icon-color\:base-6::before {
     color: var(--color-base-6);
   }
-  
+
   .lg\:n-icon-color\:base-7::before {
     color: var(--color-base-7);
   }
-  
+
   .lg\:n-icon-color\:base-8::before {
     color: var(--color-base-8);
   }
-  
+
   .lg\:n-icon-color\:base-9::before {
     color: var(--color-base-9);
   }
-  
+
   .lg\:n-icon-color\:base-10::before {
     color: var(--color-base-10);
   }
-  
+
   /* ---- icon-size ------------------------------------------------- */
   .lg\:n-icon-size\:1::before {
     font-size: var(--icon-size-1);
   }
-  
+
   .lg\:n-icon-size\:2::before {
     font-size: var(--icon-size-2);
   }
-  
+
   .lg\:n-icon-size\:3::before {
     font-size: var(--icon-size-3);
   }
-  
+
   .lg\:n-icon-size\:4::before {
     font-size: var(--icon-size-4);
   }
-  
+
   .lg\:n-icon-size\:5::before {
     font-size: var(--icon-size-5);
   }
-  
+
   .lg\:n-icon-size\:6::before {
     /* --icon-size: var(--icon-size-6); */
     font-size: var(--icon-size-6);
   }
-  
+
   .lg\:n-icon-size\:7::before {
     font-size: var(--icon-size-7);
   }
-  
+
   .lg\:n-icon-size\:8::before {
     font-size: var(--icon-size-8);
   }
-  
+
   .lg\:n-icon-size\:9::before {
     font-size: var(--icon-size-9);
   }
-  
+
   .lg\:n-icon-size\:ex::before {
     font-size: var(--icon-size-ex);
   }
-  
+
   /* === decoration ========================= */
   .lg\:n-deco {
     --deco-gap: 10px;
     --deco-size: 24px;
-  
+
     width: auto;
     text-indent: initial;
     text-align: center;
     gap: var(--deco-gap);
   }
-  
+
   /* deco-position ------------------------------------------------- */
   .lg\:n-deco-pos\:top,
   .lg\:n-deco-pos\:bottom {
@@ -851,34 +860,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-  
+
   :is(li, dt, dd, td, th, div):has(> .lg\:n-deco-pos\:top),
   :is(li, dt, dd, td, th, div):has(> .lg\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
+
   .lg\:n-deco-pos\:left::before,
   .lg\:n-deco-pos\:top::before {
     order: unset;
   }
-  
+
   .lg\:n-deco-pos\:right::before,
   .lg\:n-deco-pos\:bottom::before {
     order: 1;
   }
-  
+
   /* ---- deco-gap ------------------------------------------------- */
-  
+
   .lg\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-  
+
   .lg\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-  
+
   .lg\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }
@@ -897,23 +906,19 @@ base 1/2/3/4/5/6/7/8/9/10*/
     --icon-size-8: 40px;
     --icon-size-9: 48px;
     --icon-size-ex: 0;
-  
+
     --icon-size: 24px;
     --icon-color: #000;
-  
+
     display: inline-flex;
     width: var(--icon-size);
     height: var(--icon-size);
     overflow: hidden;
     align-items: center;
   }
-  
+
   .xl\:n-icon::before {
     /*icon 스타일*/
-
-    mask-image: var(--icon); */
-  
-    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: var(--icon-size);
   }
@@ -924,136 +929,136 @@ base 1/2/3/4/5/6/7/8/9/10*/
   sub 1/2/3
   accent 1/2/3
   base 1/2/3/4/5/6/7/8/9/10*/
-  
+
   .xl\:n-icon-color\:main-1::before {
     color: var(--color-main-1);
   }
-  
+
   .xl\:n-icon-color\:main-2::before {
     color: var(--color-main-2);
   }
-  
+
   .xl\:n-icon-color\:main-3::before {
     color: var(--color-main-3);
   }
-  
+
   .xl\:n-icon-color\:sub-1::before {
     color: var(--color-sub-1);
   }
-  
+
   .xl\:n-icon-color\:sub-2::before {
     color: var(--color-sub-2);
   }
-  
+
   .xl\:n-icon-color\:sub-3::before {
     color: var(--color-sub-3);
   }
-  
+
   .xl\:n-icon-color\:accent-1::before {
     color: var(--color-accent-1);
   }
-  
+
   .xl\:n-icon-color\:accent-2::before {
     color: var(--color-accent-2);
   }
-  
+
   .xl\:n-icon-color\:accent-3::before {
     color: var(--color-accent-3);
   }
-  
+
   .xl\:n-icon-color\:base-1::before {
     color: var(--color-base-1);
   }
-  
+
   .xl\:n-icon-color\:base-2::before {
     color: var(--color-base-2);
   }
-  
+
   .xl\:n-icon-color\:base-3::before {
     color: var(--color-base-3);
   }
-  
+
   .xl\:n-icon-color\:base-4::before {
     color: var(--color-base-4);
   }
-  
+
   .xl\:n-icon-color\:base-5::before {
     color: var(--color-base-5);
   }
-  
+
   .xl\:n-icon-color\:base-6::before {
     color: var(--color-base-6);
   }
-  
+
   .xl\:n-icon-color\:base-7::before {
     color: var(--color-base-7);
   }
-  
+
   .xl\:n-icon-color\:base-8::before {
     color: var(--color-base-8);
   }
-  
+
   .xl\:n-icon-color\:base-9::before {
     color: var(--color-base-9);
   }
-  
+
   .xl\:n-icon-color\:base-10::before {
     color: var(--color-base-10);
   }
-  
+
   /* ---- icon-size ------------------------------------------------- */
   .xl\:n-icon-size\:1::before {
     font-size: var(--icon-size-1);
   }
-  
+
   .xl\:n-icon-size\:2::before {
     font-size: var(--icon-size-2);
   }
-  
+
   .xl\:n-icon-size\:3::before {
     font-size: var(--icon-size-3);
   }
-  
+
   .xl\:n-icon-size\:4::before {
     font-size: var(--icon-size-4);
   }
-  
+
   .xl\:n-icon-size\:5::before {
     font-size: var(--icon-size-5);
   }
-  
+
   .xl\:n-icon-size\:6::before {
     /* --icon-size: var(--icon-size-6); */
     font-size: var(--icon-size-6);
   }
-  
+
   .xl\:n-icon-size\:7::before {
     font-size: var(--icon-size-7);
   }
-  
+
   .xl\:n-icon-size\:8::before {
     font-size: var(--icon-size-8);
   }
-  
+
   .xl\:n-icon-size\:9::before {
     font-size: var(--icon-size-9);
   }
-  
+
   .xl\:n-icon-size\:ex::before {
     font-size: var(--icon-size-ex);
   }
-  
+
   /* === decoration ========================= */
   .xl\:n-deco {
     --deco-gap: 10px;
     --deco-size: 24px;
-  
+
     width: auto;
     text-indent: initial;
     text-align: center;
     gap: var(--deco-gap);
   }
-  
+
   /* deco-position ------------------------------------------------- */
   .xl\:n-deco-pos\:top,
   .xl\:n-deco-pos\:bottom {
@@ -1061,34 +1066,34 @@ base 1/2/3/4/5/6/7/8/9/10*/
     height: auto;
     gap: 0;
   }
-  
+
   :is(li, dt, dd, td, th, div):has(> .xl\:n-deco-pos\:top),
   :is(li, dt, dd, td, th, div):has(> .xl\:n-deco-pos\:bottom) {
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
+
   .xl\:n-deco-pos\:left::before,
   .xl\:n-deco-pos\:top::before {
     order: unset;
   }
-  
+
   .xl\:n-deco-pos\:right::before,
   .xl\:n-deco-pos\:bottom::before {
     order: 1;
   }
-  
+
   /* ---- deco-gap ------------------------------------------------- */
-  
+
   .xl\:n-deco-gap\:0 {
     --deco-gap: 0px;
   }
-  
+
   .xl\:n-deco-gap\:1 {
     --deco-gap: 5px;
   }
-  
+
   .xl\:n-deco-gap\:2 {
     --deco-gap: 10px;
   }

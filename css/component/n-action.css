@@ -98,11 +98,13 @@
 .n-icon\:expand:has(input[type="checkbox"])::before,
 .n-icon\:expand:has(input[type="checkbox"])::after {
   /* --icon: url(../../image/icon/caret_down_bold.svg); */
+  content: "\e5c5";
 }
 
 .n-icon\:expand:has(input[type="checkbox"]:checked)::before,
 .n-icon\:expand:has(input[type="checkbox"]:checked)::after {
   /* --icon: url(../../image/icon/caret_up_bold.svg); */
+  content: "\e5c7";
 }
 
 .expandable .n-expander {
