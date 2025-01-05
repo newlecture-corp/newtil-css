@@ -1,28 +1,28 @@
 :root {
-    /* color-scheme: light dark; */
-    /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
+  /* color-scheme: light dark; */
+  /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
 }
 
 @media (prefers-color-scheme: light) {
-    .element {
-        color: black;
-        background-color: white;
-    }
+  .element {
+    color: black;
+    background-color: white;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-    .element {
-        color: white;
-        background-color: #242424;
-    }
+  .element {
+    color: white;
+    background-color: #242424;
+  }
 }
 
 html:has(.n-layout) {
-    height: 100%;
+  height: 100%;
 }
 
 body:has(.n-layout) {
-    height: 100%;
+  height: 100%;
 }
 
 /* --- layout ---------------------------------------------------- */
@@ -101,129 +101,120 @@ n-layout
  */
 
 .n-layout {
+  --n-aside-w: 250px;
+  --n-aside-ml: 0;
+  --n-aside-mr: 0;
 
-    --n-aside-w: 250px;
-    --n-aside-ml: 0;
-    --n-aside-mr: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-base-2);
 
-    height: 100%;
+  > header,
+  > .n-header {
+    --n-header-h: 60px;
+    transition: height 0.5s ease;
+
+    flex-shrink: 0;
+    height: var(--n-header-h);
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--color-base-1);
+    border-bottom: 1px solid var(--color-base-3);
+
+    display: flex;
+
+    :is(.n-content) {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  /*div>aside 블록 스타일 ----------------- */
+  > div:has(main, .n-main),
+  > .n-body {
+    flex-grow: 1;
+
+    display: flex;
+    position: relative;
+
+    > aside,
+    > .n-aside {
+      --n-aside-ml: -72px;
+      --n-aside-mr: 0;
+      --n-aside-w: 72px;
+      --deco-gap: 24px;
+
+      transition: margin-left 0.5s ease, margin-right 0.5s ease, width 0.5s ease;
+
+      margin-left: var(--n-aside-ml);
+      /*n-aside-pos:right 를 위한 설정*/
+      margin-right: var(--n-aside-mr);
+      width: var(--n-aside-w);
+
+      /* aside를 floating하기 위한 설정 */
+      /* position: absolute; */
+      left: 0;
+      top: 0;
+      height: 100%;
+      z-index: 888;
+
+      flex-shrink: 0;
+      background-color: var(--color-base-1);
+      border-right: 1px solid var(--color-base-3);
+    }
+  }
+
+  /*main 블록 스타일 ----------------------------*/
+  > main,
+  > .n-main,
+  > div > main,
+  > .n-body > main {
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+
     display: flex;
     flex-direction: column;
-    background-color: var(--color-base-2);
 
-    >header,
-    >.n-header {
-        --n-header-h: 60px;
-        transition: height 0.5s ease;
+    width: calc(100% - var(--n-aside-w));
 
-        flex-shrink: 0;
-        height: var(--n-header-h);
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: var(--color-base-1);
-        border-bottom: 1px solid var(--color-base-3);
+    > section {
+      --main-padding: 15px 0;
+      --main-content-gap: 20px;
+      transition: padding 0.5s ease;
 
-        display: flex;
+      padding: var(--main-padding);
+      display: flex;
+      flex-direction: column;
+      gap: var(--main-content-gap);
 
-        :is(.n-content) {
-            width: 100%;
-            display: flex;
-            align-items: center;
-        }
-
+      > h1,
+      > header > h1 {
+        margin-left: 16px;
+      }
     }
+  }
 
-
-    /*div>aside 블록 스타일 ----------------- */
-    >div:has(main, .n-main),
-    >.n-body {
-        flex-grow: 1;
-
-        display: flex;
-        position: relative;
-
-        >aside,
-        >.n-aside {
-            --n-aside-ml: -72px;
-            --n-aside-mr: 0;
-            --n-aside-w: 72px;
-            --deco-gap: 24px;
-
-            transition: margin-left 0.5s ease,
-                margin-right 0.5s ease,
-                width 0.5s ease;
-
-            margin-left: var(--n-aside-ml);
-            /*n-aside-pos:right 를 위한 설정*/
-            margin-right: var(--n-aside-mr);
-            width: var(--n-aside-w);
-
-            /* aside를 floating하기 위한 설정 */
-            /* position: absolute; */
-            left: 0;
-            top: 0;
-            height: 100%;
-            z-index: 888;
-
-            flex-shrink: 0;
-            background-color: var(--color-base-1);
-            border-right: 1px solid var(--color-base-3);
-        }
-    }
-
-
-    /*main 블록 스타일 ----------------------------*/
-    >main,
-    >.n-main,
-    >div>main,
-    >.n-body>main {
-        flex-grow: 1;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        display: flex;
-        flex-direction: column;
-
-        width: calc(100% - var(--n-aside-w));
-
-        >section {
-            --main-padding: 15px 0;
-            --main-content-gap: 20px;
-            transition: padding 0.5s ease;
-
-            padding: var(--main-padding);
-            display: flex;
-            flex-direction: column;
-            gap: var(--main-content-gap);
-
-            >h1,
-            >header>h1 {
-                margin-left: 16px;
-            }
-        }
-
-    }
-
-    >footer,
-    >.n-footer {
-        flex-shrink: 0;
-        height: 120px;
-        background-color: var(--color-base-8);
-    }
+  > footer,
+  > .n-footer {
+    flex-shrink: 0;
+    height: 120px;
+    background-color: var(--color-base-8);
+  }
 }
 
-.n-layout:has(n-aside-hider:checked)>div:has(main, .n-main),
-.n-layout:has(n-aside-hider:checked)>.n-body {
-
-    >div:has(main, .n-main),
-    >.n-body {
-
-        >aside,
-        >.n-aside {
-            --n-aside-ml: -72px;
-            background-color: red;
-        }
+.n-layout:has(n-aside-hider:checked) > div:has(main, .n-main),
+.n-layout:has(n-aside-hider:checked) > .n-body {
+  > div:has(main, .n-main),
+  > .n-body {
+    > aside,
+    > .n-aside {
+      --n-aside-ml: -72px;
+      background-color: red;
     }
+  }
 }
 
 /* 
@@ -244,27 +235,23 @@ n-layout
 
 } */
 
-
 .n-layout.n-aside-pos\:right {
+  /*div>aside 블록 스타일 */
+  > div:has(main, .n-main),
+  > .n-body {
+    flex-grow: 1;
 
-    /*div>aside 블록 스타일 */
-    >div:has(main, .n-main),
-    >.n-body {
-        flex-grow: 1;
+    display: flex;
+    position: relative;
 
-        display: flex;
-        position: relative;
-
-        >aside,
-        >.n-aside {
-
-            --n-aside-ml: 0;
-            --n-aside-mr: -72px;
-            border-left: 1px solid var(--color-base-3);
-            border-right: none;
-
-        }
+    > aside,
+    > .n-aside {
+      --n-aside-ml: 0;
+      --n-aside-mr: -72px;
+      border-left: 1px solid var(--color-base-3);
+      border-right: none;
     }
+  }
 }
 
 /*
@@ -275,249 +262,218 @@ aside 위치 옵션을 위한 스타일
 
 /*=================================================================*/
 
-
 .n-layout.n-aside-size\:icon {
+  > div:has(main, .n-main),
+  > .n-body {
+    > aside,
+    > .n-aside {
+      --n-aside-ml: 0;
+      --n-aside-mr: 0;
+      --n-aside-w: 72px;
+      flex-shrink: 0;
 
-    >div:has(main, .n-main),
-    >.n-body {
+      .n-aside-menu {
+        padding: 10px 0;
 
-        >aside,
-        >.n-aside {
-            --n-aside-ml: 0;
-            --n-aside-mr: 0;
-            --n-aside-w: 72px;
-            flex-shrink: 0;
-
-            .n-aside-menu {
-
-                padding: 10px 0;
-
-                >h1 {
-                    display: none;
-                }
-
-                >ul>* {
-                    padding-left: 0;
-                    padding-right: 0;
-                }
-
-                /*n-deco를 가지고 있는 자손 엘리먼트가 있을 경우의 스타일*/
-                *>:has(.n-deco) {
-                    height: auto;
-                }
-
-                :is(.n-deco) {
-                    flex-direction: column;
-                    height: auto;
-                    gap: 0;
-
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                }
-            }
+        > h1 {
+          display: none;
         }
-    }
-}
 
+        > ul > * {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        /*n-deco를 가지고 있는 자손 엘리먼트가 있을 경우의 스타일*/
+        * > :has(.n-deco) {
+          height: auto;
+        }
+
+        :is(.n-deco) {
+          flex-direction: column;
+          height: auto;
+          gap: 0;
+
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
 
 .n-layout.n-aside-size\:full {
+  > div:has(main, .n-main),
+  > .n-body {
+    > aside,
+    > .n-aside {
+      --n-aside-w: 250px;
+      --n-aside-ml: 0;
 
-    >div:has(main, .n-main),
-    >.n-body {
+      > .n-aside-menu {
+        padding: 12px;
 
-        >aside,
-        >.n-aside {
+        > h1 {
+          font-size: 16px;
+          font-weight: bold;
 
-            --n-aside-w: 250px;
-            --n-aside-ml: 0;
+          height: 40px;
 
-            >.n-aside-menu {
-
-                padding: 12px;
-
-                >h1 {
-                    font-size: 16px;
-                    font-weight: bold;
-
-                    height: 40px;
-
-                    display: flex;
-                    align-items: center;
-                }
-
-                >ul>:is(li) {
-                    height: 40px;
-                    padding-left: 12px;
-                    padding-right: 12px;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-
-                    >.n-deco {
-                        flex-direction: row;
-                    }
-                }
-
-
-
-                >ul>*:hover {
-                    background-color: var(--color-base-3);
-                }
-
-                >ul>*.active {
-                    background-color: rgba(var(--rgb-main-1), 0.7);
-                    color: var(--color-base-1);
-                }
-
-                /*li 자식 중에 n-icon이 있다면*/
-                >ul>*.active:has(>.n-icon)>::before {
-                    background-color: var(--color-base-1);
-                }
-
-                :is(.n-deco) {
-                    gap: var(--gap-2);
-                }
-            }
+          display: flex;
+          align-items: center;
         }
+
+        > ul > :is(li) {
+          height: 40px;
+          padding-left: 12px;
+          padding-right: 12px;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          > .n-deco {
+            flex-direction: row;
+          }
+        }
+
+        > ul > *:hover {
+          background-color: var(--color-base-3);
+        }
+
+        > ul > *.active {
+          background-color: rgba(var(--rgb-main-1), 0.7);
+          color: var(--color-base-1);
+        }
+
+        /*li 자식 중에 n-icon이 있다면*/
+        /* >ul>*.active:has(>.n-icon)>::before {
+                    background-color: var(--color-base-1);
+                } */
+
+        :is(.n-deco) {
+          gap: var(--gap-2);
+        }
+      }
     }
+  }
 }
 
-
-
 @media screen and (min-width: 576px) {
-    .n-layout {
-
-        >header,
-        >.n-header {
-            --n-header-h: 80px;
-        }
-
-        >div:has(main, .n-main),
-        >.n-body {
-
-            /*aside*/
-
-            >aside,
-            >.n-aside {
-                --n-aside-ml: 0;
-            }
-        }
+  .n-layout {
+    > header,
+    > .n-header {
+      --n-header-h: 80px;
     }
 
-    .n-layout.n-aside-pos\:right {
+    > div:has(main, .n-main),
+    > .n-body {
+      /*aside*/
 
-        >div:has(main, .n-main),
-        >.n-body {
-
-            >aside,
-            >.n-aside {
-
-                --n-aside-mr: 0;
-
-            }
-        }
+      > aside,
+      > .n-aside {
+        --n-aside-ml: 0;
+      }
     }
+  }
 
-
+  .n-layout.n-aside-pos\:right {
+    > div:has(main, .n-main),
+    > .n-body {
+      > aside,
+      > .n-aside {
+        --n-aside-mr: 0;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .n-layout {
+  .n-layout {
+    > main,
+    > .n-main,
+    > div > main,
+    > .n-body > main {
+      > section {
+        --main-padding: 40px;
 
-        >main,
-        >.n-main,
-        >div>main,
-        >.n-body>main {
-
-            >section {
-                --main-padding: 40px;
-
-                >h1,
-                >header>h1 {
-                    margin-left: 0;
-                }
-
-            }
-
+        > h1,
+        > header > h1 {
+          margin-left: 0;
         }
+      }
     }
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .n-layout {
+  .n-layout {
+    > div:has(main, .n-main),
+    > .n-body {
+      > aside,
+      > .n-aside {
+        --n-aside-w: 250px;
 
-        >div:has(main, .n-main),
-        >.n-body {
+        > .n-aside-menu {
+          padding: 12px;
+          border-bottom: 1px solid var(--color-base-4);
 
-            >aside,
-            >.n-aside {
-                --n-aside-w: 250px;
+          > h1 {
+            font-size: 16px;
+            font-weight: bold;
 
-                >.n-aside-menu {
+            height: 40px;
 
-                    padding: 12px;
-                    border-bottom: 1px solid var(--color-base-4);
+            display: flex;
+            align-items: center;
+          }
 
-                    >h1 {
-                        font-size: 16px;
-                        font-weight: bold;
+          > ul > :is(li) {
+            height: 40px;
+            padding-left: 12px;
+            padding-right: 12px;
 
-                        height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
 
-                        display: flex;
-                        align-items: center;
-                    }
+          > ul > *:hover {
+            background-color: var(--color-base-3);
+          }
 
-                    >ul>:is(li) {
-                        height: 40px;
-                        padding-left: 12px;
-                        padding-right: 12px;
+          > ul > *.active {
+            background-color: rgba(var(--rgb-main-1), 0.7);
+            color: var(--color-base-1);
+          }
 
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                    }
-
-                    >ul>*:hover {
-                        background-color: var(--color-base-3);
-                    }
-
-                    >ul>*.active {
-                        background-color: rgba(var(--rgb-main-1), 0.7);
-                        color: var(--color-base-1);
-                    }
-
-                    /*li 자식 중에 n-icon이 있다면*/
-                    >ul>*.active:has(>.n-icon)>::before {
-                        background-color: var(--color-base-1);
-                    }
-                }
-
-            }
+          /*li 자식 중에 n-icon이 있다면*/
+          /* > ul > *.active:has(> .n-icon) > ::before {
+            background-color: var(--color-base-1);
+          } */
         }
+      }
     }
+  }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
 
 /*=== n-aside 동적인 변경을 위한 스타일 =================================================*/
 
 /*--- aside를 사라지게 하는 설정을 위한 클래스 .n-hider가 포함*/
 .n-layout.n-aside-size\:hidden :is(aside, .n-aside),
 .n-layout:has(.n-aside-hider:checked) :is(aside, .n-aside) {
-    margin-left: calc(-1*var(--n-aside-w));
+  margin-left: calc(-1 * var(--n-aside-w));
 }
 
 .n-layout.n-aside-pos\:right.n-aside-size\:hidden :is(aside, .n-aside),
 .n-layout.n-aside-pos\:right:has(.n-aside-hider:checked) :is(aside, .n-aside) {
-    margin-right: calc(-1*var(--n-aside-w));
+  margin-right: calc(-1 * var(--n-aside-w));
 }
 
-
 /*!*--- aside를 사라지게 하는 설정을 위한 클래스 .n-hider가 포함*!*/
-
-
 
 /*== 스크립트 개발을 위한 aside 상태 스타일 =============================================*/
 /*
@@ -525,7 +481,6 @@ n-aside-size:hidden
 n-aside-size:icon
 n-aside-size:full
 */
-
 
 /*.n-layout.n-aside-size\:hidden {*/
 
@@ -549,26 +504,24 @@ n-aside-size:full
 /*    }*/
 /*}*/
 
-
 .n-layout.n-aside-float {
+  > div:has(main, .n-main),
+  > .n-body {
+    > aside,
+    > .n-aside {
+      --n-aside-ml: 0;
+      flex-shrink: 0;
 
-    >div:has(main, .n-main),
-    >.n-body {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      z-index: 888;
 
-        >aside,
-        >.n-aside {
-            --n-aside-ml: 0;
-            flex-shrink: 0;
-
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 100%;
-            z-index: 888;
-
-            .n-aside-menu {}
-        }
+      .n-aside-menu {
+      }
     }
+  }
 }
 
 /* 
@@ -590,28 +543,24 @@ n-aside-size:full
 
 .n-layout.n-aside-pos\:right,
 .n-layout.n-aside-float.n-aside-pos\:right {
-
-    >div:has(main, .n-main),
-    >.n-body {
-
-        >aside,
-        >.n-aside {
-
-            /*--n-aside-w: 250px;*/
-            --n-aside-ml: 0;
-            left: initial;
-            right: 0;
-
-        }
+  > div:has(main, .n-main),
+  > .n-body {
+    > aside,
+    > .n-aside {
+      /*--n-aside-w: 250px;*/
+      --n-aside-ml: 0;
+      left: initial;
+      right: 0;
     }
+  }
 
-    /*main 블록 스타일*/
-    >main,
-    >.n-main,
-    >div>main,
-    >.n-body>main {
-        order: -1;
-    }
+  /*main 블록 스타일*/
+  > main,
+  > .n-main,
+  > div > main,
+  > .n-body > main {
+    order: -1;
+  }
 }
 
 /*.n-layout.n-aside-size\:full.n-aside-pos\:right,*/

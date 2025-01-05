@@ -564,14 +564,22 @@ base 1/2/3/4/5/6/7/8/9/10*/
     padding-bottom: 5px;
   }
 
-  .sm\:n-deco-pos\:left::before,
-  .sm\:n-deco-pos\:top::before {
-    order: unset;
+  .sm\:n-deco-pos\:left,
+  .sm\:n-deco-pos\:top {
+    &::before {
+      order: unset;
+    }
   }
 
   .sm\:n-deco-pos\:right::before,
   .sm\:n-deco-pos\:bottom::before {
     order: 1;
+  }
+
+  .sm\:n-deco-pos\:left,
+  .sm\:n-deco-pos\:right {
+    flex-direction: row;
+    gap: var(--deco-gap);
   }
 
   /* ---- deco-gap ------------------------------------------------- */
@@ -771,14 +779,22 @@ base 1/2/3/4/5/6/7/8/9/10*/
     padding-bottom: 5px;
   }
 
-  .md\:n-deco-pos\:left::before,
-  .md\:n-deco-pos\:top::before {
-    order: unset;
+  .md\:n-deco-pos\:left,
+  .md\:n-deco-pos\:top {
+    &::before {
+      order: unset;
+    }
   }
 
   .md\:n-deco-pos\:right::before,
   .md\:n-deco-pos\:bottom::before {
     order: 1;
+  }
+
+  .md\:n-deco-pos\:left,
+  .md\:n-deco-pos\:right {
+    flex-direction: row;
+    gap: var(--deco-gap);
   }
 
   /* ---- deco-gap ------------------------------------------------- */
@@ -978,14 +994,22 @@ base 1/2/3/4/5/6/7/8/9/10*/
     padding-bottom: 5px;
   }
 
-  .lg\:n-deco-pos\:left::before,
-  .lg\:n-deco-pos\:top::before {
-    order: unset;
+  .lg\:n-deco-pos\:left,
+  .lg\:n-deco-pos\:top {
+    &::before {
+      order: unset;
+    }
   }
 
   .lg\:n-deco-pos\:right::before,
   .lg\:n-deco-pos\:bottom::before {
     order: 1;
+  }
+
+  .lg\:n-deco-pos\:left,
+  .lg\:n-deco-pos\:right {
+    flex-direction: row;
+    gap: var(--deco-gap);
   }
 
   /* ---- deco-gap ------------------------------------------------- */
@@ -1184,14 +1208,22 @@ base 1/2/3/4/5/6/7/8/9/10*/
     padding-bottom: 5px;
   }
 
-  .xl\:n-deco-pos\:left::before,
-  .xl\:n-deco-pos\:top::before {
-    order: unset;
+  .xl\:n-deco-pos\:left,
+  .xl\:n-deco-pos\:top {
+    &::before {
+      order: unset;
+    }
   }
 
   .xl\:n-deco-pos\:right::before,
   .xl\:n-deco-pos\:bottom::before {
     order: 1;
+  }
+
+  .xl\:n-deco-pos\:left,
+  .xl\:n-deco-pos\:right {
+    flex-direction: row;
+    gap: var(--deco-gap);
   }
 
   /* ---- deco-gap ------------------------------------------------- */
