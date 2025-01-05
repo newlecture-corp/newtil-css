@@ -66,6 +66,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  &:hover {
+    --btn-bg-hover: var(--color-base-3);
+  }
 }
 
 .n-btn:hover {
@@ -139,48 +143,35 @@
 /* base */
 
 .n-btn-color\:main {
-  background-color: var(--color-main-2);
+  background-color: var(--color-main-1);
   border-color: var(--color-main-2);
-
   color: var(--color-base-1);
-}
 
-.n-btn-color\:main:hover {
-  --btn-bg-hover: var(--color-main-1);
-}
-
-.n-btn-color\:main:is(.n-icon)::before {
-  background-color: var(--color-base-1);
+  &:hover {
+    --btn-bg-hover: var(--color-main-2);
+  }
 }
 
 .n-btn-color\:sub {
-  background-color: var(--color-sub-2);
+  background-color: var(--color-sub-1);
   border-color: var(--color-sub-2);
 
   color: var(--color-base-1);
-}
 
-.n-btn-color\:sub:hover {
-  --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
-}
-
-.n-btn-color\:sub:is(.n-icon)::before {
-  background-color: var(--color-base-1);
+  &:hover {
+    --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+  }
 }
 
 .n-btn-color\:accent {
-  background-color: var(--color-accent-2);
+  background-color: var(--color-accent-1);
   border-color: var(--color-accent-2);
 
   color: var(--color-base-1);
-}
 
-.n-btn-color\:accent:hover {
-  --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
-}
-
-.n-btn-color\:accent:is(.n-icon)::before {
-  background-color: var(--color-base-1);
+  &:hover {
+    --btn-bg-hover: rgba(var(--rgb-accent-2), 1);
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -213,6 +204,12 @@
     position: relative;
 
     transition: border-color 0.3s, background-color 0.3s;
+
+    &::before {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .md\:n-btn:hover {
@@ -269,7 +266,7 @@
   /* base */
 
   .md\:n-btn-color\:main {
-    background-color: var(--color-main-2);
+    background-color: var(--color-main-1);
     border-color: var(--color-main-2);
 
     color: var(--color-base-1);
@@ -280,11 +277,9 @@
   }
 
   .md\:n-btn-color\:main:is(.n-icon)::before {
-    background-color: var(--color-base-1);
   }
 
   .md\:n-btn-color\:sub {
-    background-color: var(--color-sub-2);
     border-color: var(--color-sub-2);
 
     color: var(--color-base-1);
@@ -295,11 +290,9 @@
   }
 
   .md\:n-btn-color\:sub:is(.n-icon)::before {
-    background-color: var(--color-base-1);
   }
 
   .md\:n-btn-color\:accent {
-    background-color: var(--color-accent-2);
     border-color: var(--color-accent-2);
 
     color: var(--color-base-1);
@@ -359,6 +352,12 @@
     position: relative;
 
     transition: border-color 0.3s, background-color 0.3s;
+
+    &::before {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .lg\:n-btn:hover {
@@ -415,7 +414,6 @@
   /* base */
 
   .lg\:n-btn-color\:main {
-    background-color: var(--color-main-2);
     border-color: var(--color-main-2);
 
     color: var(--color-base-1);
@@ -426,11 +424,9 @@
   }
 
   .lg\:n-btn-color\:main:is(.n-icon)::before {
-    background-color: var(--color-base-1);
   }
 
   .lg\:n-btn-color\:sub {
-    background-color: var(--color-sub-2);
     border-color: var(--color-sub-2);
 
     color: var(--color-base-1);
@@ -441,11 +437,9 @@
   }
 
   .lg\:n-btn-color\:sub:is(.n-icon)::before {
-    background-color: var(--color-base-1);
   }
 
   .lg\:n-btn-color\:accent {
-    background-color: var(--color-accent-2);
     border-color: var(--color-accent-2);
 
     color: var(--color-base-1);
@@ -456,7 +450,6 @@
   }
 
   .lg\:n-btn-color\:accent:is(.n-icon)::before {
-    background-color: var(--color-base-1);
   }
 
   /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
