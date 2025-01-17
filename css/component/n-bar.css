@@ -1,21 +1,25 @@
+.n-bar {
+    --n-bar-gap: 8px;
+    --n-bar-height: 40px;
+    --n-bar-align: stretch;
+}
 
 .n-bar {
-    --bar-gap: 8px;
+    background-color: aqua;
+    width: 100%;
+    height: var(--n-bar-height);
 
-    display: inline-flex;
-    align-items: center;
-    gap: var(--bar-gap);
+    display: flex;
+    align-items: stretch;
 
-    > * {
-        /*padding: 4px 8px;*/
-        display: inline-flex;
+    gap: var(--n-bar-gap);
+
+    >* {
+        flex-grow: 1;
+        text-align: center;
     }
 
-    > * {
-        transition: transform .5s ease;
-    }
-
-    > *:hover {
+    >*:hover {
         transform: scale(1.1);
     }
 
