@@ -67,27 +67,27 @@
 }
 
 .n-btn {
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: relative; */
 
-  padding: var(--btn-padding-2);
+  /* padding: var(--btn-padding-2);
   height: var(--btn-height-2);
   border: 1px solid transparent;
   border-radius: var(--btn-border-radius-2);
-  background-color: transparent;
+  background-color: transparent; */
 
-  color: inherit;
+  /* color: inherit;
   font-size: var(--btn-font-size-2);
   font-weight: 500;
-  font-family: inherit;
+  font-family: inherit; */
 
-  white-space: nowrap;
-  user-select: none;
+  /* white-space: nowrap;
+  user-select: none; */
   cursor: pointer;
 
-  transition: border-color 0.13s, background-color 0.13s;
+  /* transition: border-color 0.13s, background-color 0.13s; */
 }
 
 .n-btn:active {
@@ -126,9 +126,9 @@
 .n-btn,
 .n-btn-type\:filled,
 .n-btn\:filled {
-  background-color: var(--btn-filled-background-color-default);
+  /* background-color: var(--btn-filled-background-color-default); */
 
-  color: var(--btn-filled-color);
+  /* color: var(--btn-filled-color); */
 }
 .n-btn:hover,
 .n-btn-type\:filled:hover,

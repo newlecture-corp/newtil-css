@@ -45,7 +45,7 @@ export default {
   // {
   //   file: "dist/script.min.js",
   //   format: "es",
-  //   plugins: [terser()] 
+  //   plugins: [terser()]
   // }],
 
   plugins: [
@@ -61,9 +61,10 @@ export default {
       extract: true,
       minimize: true,
     }),
-    generateIconListFromResource(),
-    copy({
-      targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
-    }),
+    // 아이콘 복사를 위한 코드
+    // generateIconListFromResource(),
+    // copy({
+    //   targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
+    // }),
   ],
 };
