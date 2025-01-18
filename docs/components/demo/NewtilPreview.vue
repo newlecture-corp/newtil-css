@@ -14,7 +14,7 @@
         <div
           class="n-list n-card-list n-list-item:outline n-list-item-border-rd:4"
         >
-          <section class="n-item p:6 box-shadow:5">
+          <section class="n-panel p:6 box-shadow:5">
             <div>
               <img
                 src="/schoolbag.jpg"
@@ -24,8 +24,8 @@
                 class="h:auto w:100p"
               />
             </div>
-            <h1 class="mt:6 n-font:h3">가방</h1>
-            <div class="mt:1 n-font:h2 font-weight:3">₩89,000</div>
+            <h1 class="mt:6 n-heading:3">가방</h1>
+            <div class="mt:1 n-heading:2">₩89,000</div>
             <div class="mt:6">
               <button class="n-btn n-btn-size:3 w:100p">
                 <span

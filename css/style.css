@@ -1,33 +1,40 @@
+@import url(bundle.css);
 /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"); */
 
 /** {*/
 /*    box-sizing: border-box;*/
 /*}*/
 
-
 /* color */
-:root {
-    --color-main-1: #5e2808;
-    --color-main-2: #944813;
-    --color-main-3: #d48700;
+/* :root {
+  --color-main-1: #5e2808;
+  --color-main-2: #944813;
+  --color-main-3: #d48700;
 
-    --rgb-main-1: 94, 40, 8;
-    --rgb-main-2: 148, 72, 19;
-    --rgb-main-3: 212, 135, 0;
+  --rgb-main-1: 94, 40, 8;
+  --rgb-main-2: 148, 72, 19;
+  --rgb-main-3: 212, 135, 0;
 
-    --color-accent-1: #334dcf;
-    --rgb-accent-1: 51, 77, 207;
-
+  --color-accent-1: #334dcf;
+  --rgb-accent-1: 51, 77, 207;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    font-size: 14px;
-    color: var(--color-base-7);
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 14px;
+  color: var(--color-base-7);
 
-    /*:is(input[type="text"]){*/
-    /*    cursor: default !important;*/
-    /*    caret-color: black !important;*/
-    /*    color:black !important;*/
-    /*}*/
+  /*:is(input[type="text"]){*/
+  /*    cursor: default !important;*/
+  /*    caret-color: black !important;*/
+  /*    color:black !important;*/
+  /*}*/
 }

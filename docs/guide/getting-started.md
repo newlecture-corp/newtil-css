@@ -7,7 +7,11 @@
 HTML 파일의 `<head>` 태그 안에 아래의 CDN 링크를 추가하세요.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/newtil-css@0.1.49/dist/style.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/newtil-css@0.2.13/dist/style.min.css"
+/>
 ```
 
 이 방법은 별도의 설치 과정 없이 빠르게 `Newtil CSS`를 사용할 수 있게 해줍니다.
@@ -21,7 +25,11 @@ HTML 파일의 `<head>` 태그 안에 아래의 CDN 링크를 추가하세요.
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/newtil-css@0.1.49/dist/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/newtil-css@0.2.13/dist/style.min.css"
+    />
   </head>
   <body>
     <!--  -->
