@@ -320,6 +320,123 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 .n-icon-size\:9 {
   --icon-size: var(--icon-size-9);
+<<<<<<< HEAD
+}
+
+.n-icon-size\:ex {
+  --icon-size: var(--icon-size-ex);
+}
+
+/* ---- icon-color ------------------------------------------------- */
+.n-icon-color\:main-1::before {
+  background-color: var(--color-main-1);
+}
+
+.n-icon-color\:main-2::before {
+  background-color: var(--color-main-2);
+}
+
+.n-icon-color\:main-3::before {
+  background-color: var(--color-main-3);
+}
+
+.n-icon-color\:sub-1::before {
+  background-color: var(--color-sub-1);
+}
+
+.n-icon-color\:sub-2::before {
+  background-color: var(--color-sub-2);
+}
+
+.n-icon-color\:sub-3::before {
+  background-color: var(--color-sub-3);
+}
+
+.n-icon-color\:accent-1::before {
+  background-color: var(--color-accent-1);
+}
+
+.n-icon-color\:accent-2::before {
+  background-color: var(--color-accent-2);
+}
+
+.n-icon-color\:accent-3::before {
+  background-color: var(--color-accent-3);
+}
+
+.n-icon-color\:base-1::before {
+  background-color: var(--color-base-1);
+}
+
+.n-icon-color\:base-2::before {
+  background-color: var(--color-base-2);
+}
+
+.n-icon-color\:base-3::before {
+  background-color: var(--color-base-3);
+}
+
+.n-icon-color\:base-4::before {
+  background-color: var(--color-base-4);
+}
+
+.n-icon-color\:base-5::before {
+  background-color: var(--color-base-5);
+}
+
+.n-icon-color\:base-6::before {
+  background-color: var(--color-base-6);
+}
+
+.n-icon-color\:base-7::before {
+  background-color: var(--color-base-7);
+}
+
+.n-icon-color\:base-8::before {
+  background-color: var(--color-base-8);
+}
+
+.n-icon-color\:base-9::before {
+  background-color: var(--color-base-9);
+}
+
+.n-icon-color\:base-10::before {
+  background-color: var(--color-base-10);
+}
+
+/* ====================================================================== */
+/* ---- icon images ----------------------------------------------------- */
+/* ====================================================================== */
+.n-icon\:add::before {
+  content: "\e145";
+}
+
+.n-icon\:credit_card::before {
+  content: "\e870";
+}
+
+.n-icon\:favorite::before {
+  content: "\e87d";
+}
+
+.n-icon\:home::before {
+  content: "\e88a";
+}
+
+.n-icon\:menu::before {
+  content: "\e5d2";
+}
+
+.n-icon\:remove::before {
+  content: "\e15b";
+}
+
+.n-icon\:shopping_cart::before {
+  content: "\e8cc";
+}
+
+
+=======
   --icon-size: var(--icon-size-9);
 
   &::before {
@@ -331,6 +448,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
   font-size: var(--icon-size-ex);
 }
 
+>>>>>>> 79a7e1de76e63406f12b200865a7b81e1f09faf8
 /* === decoration ========================= */
 .n-deco {
   --deco-gap: 10px;
