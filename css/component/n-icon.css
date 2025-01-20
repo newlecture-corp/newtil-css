@@ -54,6 +54,7 @@
   font-family: "Material Symbols Outlined";
   font-size: var(--icon-size);
 }
+
 /* ====================================================================== */
 /* ---- icon images ----------------------------------------------------- */
 /* ====================================================================== */
@@ -61,9 +62,11 @@
 .n-icon\:add::before {
   content: "\e145";
 }
+
 .n-icon\:add_task::before {
   content: "\f23a";
 }
+
 .n-icon\:arrow_back::before {
   content: "\e5c4";
 }
@@ -87,18 +90,23 @@
 .n-icon\:arrow_right::before {
   content: "\e5df";
 }
+
 .n-icon\:bookmarks::before {
   content: "\e98b";
 }
+
 .n-icon\:cancel::before {
   content: "\e5c9";
 }
+
 .n-icon\:cardio_load::before {
   content: "\f4b9";
 }
+
 .n-icon\:credit_card::before {
   content: "\e870";
 }
+
 .n-icon\:dashboard::before {
   content: "\e871";
 }
@@ -106,6 +114,7 @@
 .n-icon\:delete::before {
   content: "\e872";
 }
+
 .n-icon\:delete_forever::before {
   content: "\e92b";
 }
@@ -113,30 +122,41 @@
 .n-icon\:edit_square::before {
   content: "\f88d";
 }
+
 .n-icon\:favorite::before {
   content: "\e87d";
 }
+
 .n-icon\:garage_home::before {
   content: "\e82d";
 }
+
 .n-icon\:group::before {
   content: "\e7ef";
 }
+
 .n-icon\:local_cafe::before {
   content: "\e541";
 }
+
 .n-icon\:login::before {
   content: "\ea77";
 }
+
 .n-icon\:notifications::before {
   content: "\e7f4";
 }
+
 .n-icon\:home::before {
   content: "\e88a";
 }
 
 .n-icon\:remove::before {
   content: "\e15b";
+}
+
+.n-icon\:search::before {
+  content: "\e8b6";
 }
 
 .n-icon\:shopping_cart::before {
@@ -320,7 +340,6 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 .n-icon-size\:9 {
   --icon-size: var(--icon-size-9);
-<<<<<<< HEAD
 }
 
 .n-icon-size\:ex {
@@ -436,19 +455,12 @@ base 1/2/3/4/5/6/7/8/9/10*/
 }
 
 
-=======
-  --icon-size: var(--icon-size-9);
-
-  &::before {
-    font-size: var(--icon-size-9);
-  }
-}
 
 .n-icon-size\:ex::before {
   font-size: var(--icon-size-ex);
 }
 
->>>>>>> 79a7e1de76e63406f12b200865a7b81e1f09faf8
+
 /* === decoration ========================= */
 .n-deco {
   --deco-gap: 10px;
@@ -526,7 +538,8 @@ base 1/2/3/4/5/6/7/8/9/10*/
   .sm\:n-icon::before {
     /*icon 스타일*/
 
-    content: "\e87d"; /* favorite 아이콘의 유니코드 값 */
+    content: "\e87d";
+    /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: var(--icon-size);
   }
