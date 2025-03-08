@@ -4,36 +4,1246 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/newtil-css@0.2.5/dist/style.min.css"
-    /> -->
-
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    /> -->
 
     <link href="./css/bundle.css" rel="stylesheet" />
   </head>
   <body>
     <div>
-      <ul>
-        <li>
-          <span class="material-symbols-outlined"> favorite </span>
-        </li>
-        <li>
-          <span class="n-icon n-icon:favorite n-btn"> arrow_back_2 </span>
-        </li>
-        <li>
-          <span
-            class="n-icon n-icon:favorite n-icon-style:filled n-icon-color:main-1 n-btn n-btn:round bg-color:sub-1 n-deco"
-          >
-            arrow_back_2
-          </span>
-        </li>
-      </ul>
+      <section class="n-panel bd m:5">
+        <h1 class="n-heading:1 bd-bottom pb:5">UI Actions</h1>
+        <ul class="d:flex flex-direction:row gap:5 flex-wrap:wrap mt:5">
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:search n-deco">
+              search
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:home n-deco"> home </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:menu n-deco"> menu </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:close n-deco"> close </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:settings n-deco">
+              settings
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:check_circle n-deco">
+              check_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:favorite n-deco">
+              favorite
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:add n-deco"> add </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:delete n-deco">
+              delete
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_back n-deco">
+              arrow_back</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:star n-deco"> star </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:chevron_right n-deco">
+              chevron_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:logout n-deco">
+              logout
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_forward_ios n-deco">
+              arrow_forward_ios
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:add_circle n-deco">
+              add_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_back_ios n-deco">
+              arrow_back_ios
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_forward n-deco">
+              arrow_forward
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_drop_down n-deco">
+              arrow_drop_down
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:more_vert n-deco">
+              more_vert
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:check n-deco"> check </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:check_box n-deco">
+              check_box
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:open_in_new n-deco">
+              open_in_new
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:toggle_on n-deco">
+              toggle_on
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:refresh n-deco">
+              refresh
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:check_box_outline_blank n-deco"
+            >
+              check_box_outline_blank
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:login n-deco"> login </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:chevron_left n-deco">
+              chevron_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:radio_button_unchecked n-deco"
+            >
+              radio_button_unchecked
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:more_horiz n-deco">
+              more_horiz
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:download n-deco">
+              download
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:apps n-deco"> apps </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_right_alt n-deco">
+              arrow_right_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:radio_button_checked n-deco">
+              radio_button_checked
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:filter_alt n-deco">
+              filter_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:remove n-deco">
+              remove
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:bolt n-deco"> bolt </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_upward n-deco">
+              arrow_upward
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:toggle_off n-deco">
+              toggle_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:filter_list n-deco">
+              filter_list
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:delete_forever n-deco">
+              delete_forever
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:autorenew n-deco">
+              autorenew
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:key n-deco"> key </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:block n-deco"> block</span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sync n-deco"> sync</span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_downward n-deco">
+              arrow_downward
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sort n-deco"> sort </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:add_box n-deco">
+              add_box
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_back_ios_new n-deco">
+              arrow_back_ios_new
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:restart_alt n-deco">
+              restart_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:shopping_cart_checkout n-deco"
+            >
+              shopping_cart_checkout
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:menu_open n-deco">
+              menu_open
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:expand_circle_down n-deco">
+              expand_circle_down
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:undo n-deco"> undo </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:backspace n-deco">
+              backspace
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_circle_right n-deco">
+              arrow_circle_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:done_all n-deco">
+              done_all</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_right n-deco">
+              arrow_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:do_not_disturb_on n-deco">
+              do_not_disturb_on
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:open_in_full n-deco">
+              open_in_full
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:manage_search n-deco">
+              manage_search
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:double_arrow n-deco">
+              double_arrow
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sync_alt n-deco">
+              sync_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:done_outline n-deco">
+              done_outline
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:zoom_in n-deco">
+              zoom_in
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:drag_indicator n-deco">
+              drag_indicator
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:fullscreen n-deco">
+              fullscreen</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:ios_share n-deco">
+              ios_share
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:keyboard_double_arrow_right n-deco"
+            >
+              keyboard_double_arrow_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:star_half n-deco">
+              star_half
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:settings_accessibility n-deco"
+            >
+              settings_accessibility
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:reply n-deco"> reply </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_drop_up n-deco">
+              arrow_drop_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:exit_to_app n-deco">
+              exit_to_app
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:unfold_more n-deco">
+              unfold_more
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:cached n-deco">
+              cached
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:library_add n-deco">
+              library_add
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:terminal n-deco">
+              terminal
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:select_check_box n-deco">
+              select_check_box
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:change_circle n-deco">
+              change_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:disabled_by_default n-deco">
+              disabled_by_default
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swap_horiz n-deco">
+              swap_horiz</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swap_vert n-deco">
+              swap_vert
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:close_fullscreen n-deco">
+              close_fullscreen
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:app_registration n-deco">
+              app_registration
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:dataset n-deco"
+              >dataset
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:download_for_offline n-deco">
+              download_for_offline
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_circle_up n-deco">
+              arrow_circle_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_circle_left n-deco">
+              arrow_circle_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:minimize n-deco">
+              minimize
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:file_open n-deco">
+              file_open
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:open_with n-deco">
+              open_with
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:add_task n-deco">
+              add_task
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:start n-deco"> start </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:keyboard_double_arrow_left n-deco"
+            >
+              keyboard_double_arrow_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:keyboard_double_arrow_down n-deco"
+            >
+              keyboard_double_arrow_down</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:create_new_folder n-deco">
+              create_new_folder
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:upload n-deco">
+              upload
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:forward n-deco">
+              forward
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:downloading n-deco">
+              downloading
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:compare_arrows n-deco"
+              >compare_arrows
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:settings_applications n-deco"
+            >
+              settings_applications
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:redo n-deco"> redo </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:publish n-deco">
+              publish
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:zoom_out n-deco">
+              zoom_out
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_left n-deco">
+              arrow_left
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:token n-deco"> token </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:html n-deco"> html </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:switch_access_shortcut n-deco"
+            >
+              switch_access_shortcut
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:fullscreen_exit n-deco">
+              fullscreen_exit
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_circle_down n-deco">
+              arrow_circle_down
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sort_by_alpha n-deco">
+              sort_by_alpha
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:indeterminate_check_box n-deco"
+            >
+              indeterminate_check_box
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:delete_sweep n-deco">
+              delete_sweep
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:first_page n-deco">
+              first_page
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:view_timeline n-deco">
+              view_timeline
+            </span>
+          </li>
+
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:keyboard_double_arrow_up n-deco"
+            >
+              keyboard_double_arrow_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sync_problem n-deco">
+              sync_problem
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:settings_backup_restore n-deco"
+            >
+              settings_backup_restore
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:assistant_navigation n-deco">
+              assistant_navigation</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:arrow_drop_down_circle n-deco"
+            >
+              arrow_drop_down_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:heart_plus n-deco">
+              heart_plus
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:clear_all n-deco">
+              clear_all
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:expand n-deco">
+              expand
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:density_medium n-deco">
+              density_medium
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_outward n-deco">
+              arrow_outward
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:subdirectory_arrow_right n-deco"
+            >
+              subdirectory_arrow_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:filter_alt_off n-deco">
+              filter_alt_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:last_page n-deco">
+              last_page
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:unfold_less n-deco">
+              unfold_less
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:download_done n-deco">
+              download_done
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:123 n-deco"> 123 </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_left n-deco">
+              swipe_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:saved_search n-deco">
+              saved_search
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:system_update_alt n-deco">
+              system_update_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:output n-deco">
+              output
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:place_item n-deco">
+              place_item
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:search_off n-deco">
+              search_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:javascript n-deco">
+              javascript
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:select_all n-deco">
+              select_all
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:maximize n-deco">
+              maximize
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_up n-deco">
+              swipe_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:fit_screen n-deco">
+              fit_screen
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:check_small n-deco">
+              check_small
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:hide_source n-deco">
+              hide_source
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:dynamic_form n-deco">
+              dynamic_form
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_right n-deco">
+              swipe_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:browse_gallery n-deco">
+              browse_gallery
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:switch_access_shortcut_add n-deco"
+            >
+              switch_access_shortcut_add
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:density_small n-deco">
+              density_small
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:assistant_direction n-deco">
+              assistant_direction</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:css n-deco"> css </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:move_up n-deco">
+              move_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:youtube_searched_for n-deco">
+              youtube_searched_for
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:data_thresholding n-deco">
+              data_thresholding
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:swap_horizontal_circle n-deco"
+            >
+              swap_horizontal_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:install_mobile n-deco">
+              install_mobile
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:abc n-deco"> abc </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:move_down n-deco">
+              move_down
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:dataset_linked n-deco">
+              dataset_linked
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:restore_from_trash n-deco">
+              restore_from_trash
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:browse_activity n-deco">
+              browse_activity
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:enable n-deco">
+              enable
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:install_desktop n-deco">
+              install_desktop
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:keyboard_command_key n-deco">
+              keyboard_command_key
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:view_kanban n-deco">
+              view_kanban
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:reply_all n-deco">
+              reply_all
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:switch_left n-deco">
+              switch_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:compress n-deco">
+              compress</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:star_rate n-deco">
+              star_rate
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_down n-deco">
+              swipe_down
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:apps_outage n-deco">
+              apps_outage
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swap_vertical_circle n-deco">
+              swap_vertical_circle
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:remove_done n-deco">
+              remove_done
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:filter_list_off n-deco">
+              filter_list_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:hide n-deco"> hide </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:sync_disabled n-deco">
+              sync_disabled
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_vertical n-deco">
+              swipe_vertical
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:more_up n-deco">
+              more_up
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:switch_right n-deco">
+              switch_right
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:pinch n-deco"> pinch </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:keyboard_control_key n-deco">
+              keyboard_control_key
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:tab n-deco"> tab </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:eject n-deco"> eject </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:key_off n-deco">
+              key_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:php n-deco"> php </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:view_cozy n-deco">
+              view_cozy</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:subdirectory_arrow_left n-deco"
+            >
+              subdirectory_arrow_left
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:transcribe n-deco">
+              transcribe
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:do_not_disturb_off n-deco">
+              do_not_disturb_off</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:send_time_extension n-deco">
+              send_time_extension
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:progress_activity n-deco">
+              progress_activity
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:width_normal n-deco">
+              width_normal
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:view_comfy_alt n-deco">
+              view_comfy_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:cycle n-deco"> cycle </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:heart_minus n-deco">
+              heart_minus
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:share_reviews n-deco">
+              share_reviews</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:width_full n-deco">
+              width_full
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:file_download_off n-deco">
+              file_download_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:unfold_more_double n-deco">
+              unfold_more_double
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:view_compact_alt n-deco">
+              view_compact_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:extension_off n-deco">
+              extension_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:open_in_new_off n-deco">
+              open_in_new_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span
+              class="min-width:6 n-icon n-icon:check_indeterminate_small n-deco"
+            >
+              check_indeterminate_small
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:more_down n-deco">
+              more_down
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:width_wide n-deco"
+              >width_wide
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:repartition n-deco">
+              repartition
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:expand_content n-deco">
+              expand_content</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:density_large n-deco">
+              density_large
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_left_alt n-deco">
+              swipe_left_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_down_alt n-deco">
+              swipe_down_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_right_alt n-deco">
+              swipe_right_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:unfold_less_double n-deco">
+              unfold_less_double
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:swipe_up_alt n-deco"
+              >swipe_up_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:keyboard_option_key n-deco">
+              keyboard_option_key
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:deployed_code n-deco">
+              deployed_code
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:tab_unselected n-deco">
+              tab_unselected
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:hls n-deco"> hls </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:hls_off n-deco">
+              hls_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:expand_all n-deco">
+              expand_all</span
+            >
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:file_upload_off n-deco">
+              file_upload_off
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:rebase n-deco">
+              rebase
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:quick_reference_all n-deco">
+              quick_reference_all
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:collapse_all n-deco">
+              collapse_all
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:rebase_edit n-deco">
+              rebase_edit
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_split n-deco">
+              arrow_split
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:acute n-deco"> acute </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:stacks n-deco">
+              stacks
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:prompt_suggestion n-deco">
+              prompt_suggestion
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:stat_0 n-deco">stat_0 </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:stack n-deco"> stack </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:data_check n-deco">
+              data_check
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:empty_dashboard n-deco">
+              empty_dashboard
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:collapse_content n-deco">
+              collapse_content
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:clock_loader_60 n-deco">
+              clock_loader_60
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:arrow_upward_alt n-deco">
+              arrow_upward_alt
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:page_info n-deco">
+              page_info
+            </span>
+          </li>
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon:left_click n-deco">
+              left_click
+            </span>
+          </li>
+          <!-- ------------------------------------------------ -->
+
+          <li class="bd-right pd:5 pr:5">
+            <span class="min-width:6 n-icon n-icon: n-deco"> </span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="n-panel bd m:5">
+        <h1 class="n-heading:1 bd-bottom pb:5">Social</h1>
+        <ul class="n-panel">
+          <li>
+            <span class="min-width:6 n-icon n-icon:credit_card n-deco">
+              credit_card
+            </span>
+          </li>
+
+          <li>
+            <span class="min-width:6 n-icon n-icon:remove n-deco">
+              remove
+            </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:shopping_cart n-deco">
+              shopping_cart
+            </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:add"> add </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:add"> add </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:add"> add </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:add"> add </span>
+          </li>
+          <li>
+            <span class="min-width:6 n-icon n-icon:favorite n-btn">
+              arrow_back_2
+            </span>
+          </li>
+          <li>
+            <span
+              class="min-width:6 n-icon n-icon:favorite n-icon-style:filled n-icon-color:main-1 n-btn n-btn:round bg-color:sub-1 n-deco"
+            >
+              arrow_back_2
+            </span>
+          </li>
+        </ul>
+      </section>
     </div>
   </body>
 </html>
