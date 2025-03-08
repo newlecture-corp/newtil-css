@@ -268,74 +268,66 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 .n-icon-size\:1 {
   --icon-size: var(--icon-size-1);
-  --icon-size: var(--icon-size-1);
+}
 
-  &::before {
-    font-size: var(--icon-size-1);
-  }
+.n-icon-size\:1::before {
+  font-size: var(--icon-size-1);
 }
 
 .n-icon-size\:2 {
   --icon-size: var(--icon-size-2);
-  --icon-size: var(--icon-size-2);
+}
 
-  &::before {
-    font-size: var(--icon-size-2);
-  }
+.n-icon-size\:2::before {
+  font-size: var(--icon-size-2);
 }
 
 .n-icon-size\:3 {
   --icon-size: var(--icon-size-3);
-  --icon-size: var(--icon-size-3);
+}
 
-  &::before {
-    font-size: var(--icon-size-3);
-  }
+.n-icon-size\:3::before {
+  font-size: var(--icon-size-3);
 }
 
 .n-icon-size\:4 {
   --icon-size: var(--icon-size-4);
-  --icon-size: var(--icon-size-4);
+}
 
-  &::before {
-    font-size: var(--icon-size-4);
-  }
+.n-icon-size\:4::before {
+  font-size: var(--icon-size-4);
 }
 
 .n-icon-size\:5 {
   --icon-size: var(--icon-size-5);
-  --icon-size: var(--icon-size-5);
+}
 
-  &::before {
-    font-size: var(--icon-size-5);
-  }
+.n-icon-size\:5::before {
+  font-size: var(--icon-size-5);
 }
 
 .n-icon-size\:6 {
   --icon-size: var(--icon-size-6);
-  --icon-size: var(--icon-size-6);
+}
 
-  &::before {
-    font-size: var(--icon-size-6);
-  }
+.n-icon-size\:6::before {
+  font-size: var(--icon-size-6);
 }
 
 .n-icon-size\:7 {
   --icon-size: var(--icon-size-7);
-  --icon-size: var(--icon-size-7);
+}
 
-  &::before {
-    font-size: var(--icon-size-7);
-  }
+.n-icon-size\:7::before {
+  font-size: var(--icon-size-7);
 }
 
 .n-icon-size\:8 {
   --icon-size: var(--icon-size-8);
-  --icon-size: var(--icon-size-8);
+}
 
-  &::before {
-    font-size: var(--icon-size-8);
-  }
+.n-icon-size\:8::before {
+  font-size: var(--icon-size-8);
 }
 
 .n-icon-size\:9 {
@@ -344,6 +336,10 @@ base 1/2/3/4/5/6/7/8/9/10*/
 
 .n-icon-size\:ex {
   --icon-size: var(--icon-size-ex);
+}
+
+.n-icon-size\:ex::before {
+  font-size: var(--icon-size-ex);
 }
 
 /* ---- icon-color ------------------------------------------------- */
@@ -2500,7 +2496,7 @@ base 1/2/3/4/5/6/7/8/9/10*/
     width: auto;
     text-indent: initial;
     text-align: center;
-    gap: var(--deco-gap);
+    gap: var (--deco-gap);
   }
 
   /* deco-position ------------------------------------------------- */
