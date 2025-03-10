@@ -130,11 +130,13 @@
 
   /* color: var(--btn-filled-color); */
 }
+
 .n-btn:hover,
 .n-btn-type\:filled:hover,
 .n-btn\:filled:hover {
   background-color: var(--btn-filled-background-color-hover);
 }
+
 .n-btn:active,
 .n-btn-type\:filled:active,
 .n-btn\:filled:active {
@@ -151,12 +153,14 @@
 
   color: var(--btn-outline-color);
 }
+
 .n-btn-type\:outline-box:hover,
 .n-btn-type\:outline:hover,
 .n-btn\:outline-box:hover,
 .n-btn\:outline:hover {
   background-color: var(--btn-outline-background-color-hover);
 }
+
 .n-btn-type\:outline-box:active,
 .n-btn-type\:outline:active,
 .n-btn\:outline-box:active,
@@ -172,10 +176,12 @@
 
   color: inherit;
 }
+
 .n-btn-type\:void:hover,
 .n-btn\:void:hover {
   background-color: var(--btn-void-background-color-hover);
 }
+
 .n-btn-type\:void:active,
 .n-btn\:void:active {
   background-color: var(--btn-void-background-color-active);
@@ -190,6 +196,7 @@
 
   color: var(--btn-color-base);
 }
+
 .n-btn-color\:base:hover {
   background-color: var(--btn-background-color-base-hover);
   border: var(--btn-border-base-hover);
@@ -202,6 +209,7 @@
 
   color: var(--btn-color-sub);
 }
+
 .n-btn-color\:sub:hover {
   background-color: var(--btn-background-color-sub-hover);
   border: var(--btn-border-sub-hover);
@@ -214,6 +222,7 @@
 
   color: var(--btn-color-accent);
 }
+
 .n-btn-color\:accent:hover {
   background-color: var(--btn-background-color-accent-hover);
   border: var(--btn-border-accent-hover);

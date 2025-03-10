@@ -42,24 +42,27 @@
   display: grid;
   overflow: hidden;
   transition: grid-template-rows 0.2s;
-  grid-template-rows: auto 0fr; /* 접었을때 expander-content를 0fr */
+  grid-template-rows: auto 0fr;
+  /* 접었을때 expander-content를 0fr */
 }
+
 .n-expander:has(> h1 > input[type="checkbox"]:checked),
 .n-expander:has(.n-expander-trigger:checked) {
   grid-template-rows: auto 1fr;
 }
 
 /* expander-title */
-.n-expander > h1,
+.n-expander>h1,
 .n-expander-title {
   position: relative;
   padding: var(--expander-title-padding);
   grid-column-start: 1;
-  grid-row-start: 1; /* expander-title를 첫번째 행으로 지정*/
+  grid-row-start: 1;
+  /* expander-title를 첫번째 행으로 지정*/
 }
 
 /* expander-trigger */
-.n-expander > h1 > input[type="checkbox"],
+.n-expander>h1>input[type="checkbox"],
 .n-expander .n-expander-trigger {
   position: absolute;
   display: block;
@@ -73,24 +76,26 @@
 }
 
 /* expander-content */
-.n-expander > h1 + *,
+.n-expander>h1+*,
 .n-expander .n-expander-content {
   visibility: hidden;
   grid-column-start: 1;
-  grid-row-start: 2; /** expander-content를 두번째 행으로 지정 */
+  grid-row-start: 2;
+  /** expander-content를 두번째 행으로 지정 */
   min-height: 0;
 
   transition: visibility 0.2s, padding 0.2s;
 }
+
 /* expander-content active */
-.n-expander:has(h1 > input[type="checkbox"]:checked) > h1 + *,
+.n-expander:has(h1 > input[type="checkbox"]:checked)>h1+*,
 .n-expander:has(.n-expander-trigger:checked) .n-expander-content {
   visibility: visible;
   padding-bottom: 8px;
 }
 
 /* 우측 화살표 아이콘 */
-.n-expander > h1::after,
+.n-expander>h1::after,
 .n-expander .n-expander-title::after {
   content: "";
   position: absolute;
@@ -107,7 +112,8 @@
   will-change: transform;
   transform-origin: center;
 }
-.n-expander:has(h1 > input[type="checkbox"]:checked) > h1::after,
+
+.n-expander:has(h1 > input[type="checkbox"]:checked)>h1::after,
 .n-expander:has(.n-expander-trigger:checked) .n-expander-title::after {
   transform: var(--expander-icon-transform-active);
 }
