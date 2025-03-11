@@ -31,7 +31,7 @@
 
 .n-btn {
   --btn-font-size: 14px;
-  --btn-border-radius: 8px;  
+  --btn-border-radius: 8px;
   --btn-bg-color: transparent;
   --btn-padding: 8px 16px;
 
@@ -97,6 +97,7 @@
     text-indent: 0;
   }
 }
+
 .n-btn-size\:1:is(.n-icon):not(.n-deco) {
   --btn-padding: 8px;
 }
@@ -145,12 +146,13 @@
   background-color: var(--color-main-1);
   border-color: var(--bd-color-main-1);
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); */
-  transition: all 0.3s ease; /* 부드러운 전환 효과 */
-  
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+
   color: var(--color-base-1);
 
   &:hover {
-    --btn-bg-hover: rgba(var(--rgb-main-1),0.7);
+    --btn-bg-hover: rgba(var(--rgb-main-1), 0.7);
   }
 }
 
@@ -341,8 +343,7 @@
     --btn-bg-hover: var(--color-main-1);
   }
 
-  .md\:n-btn-color\:main:is(.n-icon)::before {
-  }
+  .md\:n-btn-color\:main:is(.n-icon)::before {}
 
   .md\:n-btn-color\:sub {
     border-color: var(--color-sub-2);
@@ -354,8 +355,7 @@
     --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
   }
 
-  .md\:n-btn-color\:sub:is(.n-icon)::before {
-  }
+  .md\:n-btn-color\:sub:is(.n-icon)::before {}
 
   .md\:n-btn-color\:accent {
     border-color: var(--color-accent-2);
@@ -488,8 +488,7 @@
     --btn-bg-hover: var(--color-main-1);
   }
 
-  .lg\:n-btn-color\:main:is(.n-icon)::before {
-  }
+  .lg\:n-btn-color\:main:is(.n-icon)::before {}
 
   .lg\:n-btn-color\:sub {
     border-color: var(--color-sub-2);
@@ -501,8 +500,7 @@
     --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
   }
 
-  .lg\:n-btn-color\:sub:is(.n-icon)::before {
-  }
+  .lg\:n-btn-color\:sub:is(.n-icon)::before {}
 
   .lg\:n-btn-color\:accent {
     border-color: var(--color-accent-2);
@@ -514,8 +512,7 @@
     --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
   }
 
-  .lg\:n-btn-color\:accent:is(.n-icon)::before {
-  }
+  .lg\:n-btn-color\:accent:is(.n-icon)::before {}
 
   /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
   .lg\:n-btn:is(.n-icon):not(.n-deco),
@@ -533,5 +530,4 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}

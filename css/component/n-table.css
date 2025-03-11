@@ -1,4 +1,4 @@
-/* .n-table {
+.n-table {
   --n-table-bg-color: var(--color-base-1);
 
   table-layout: fixed;
@@ -36,9 +36,30 @@
   }
 
   >tbody>tr:nth-child(odd):has(.n-row-expander:checked) label:has(.n-row-expander)::before {
-
     content: "\e5c5";
+    /* favorite 아이콘의 유니코드 값 */
+    font-family: "Material Symbols Outlined";
+    font-size: 24px;
+  }
 
+  >tbody>tr:nth-child(odd):has(.n-row-expander:not(:checked))+tr {
+    display: none;
+  }
+
+  >tbody>tr:nth-child(odd):has(.n-row-expander:not(:checked)) label:has(.n-row-expander)::before {}
+
+  >tbody>tr:nth-child(odd):has(.n-row-expander:checked)+tr {
+    display: table-row;
+  }
+}
+
+.n-table\:expandable {
+
+  /*--- expandable panel hidden -----------------*/
+  >tbody>tr:nth-child(odd):has(.n-row-expander:checked) label:has(.n-row-expander)::before {
+    /* --icon: url(../../image/icon/caret_up.svg); */
+    content: "\e5c5";
+    /* favorite 아이콘의 유니코드 값 */
     font-family: "Material Symbols Outlined";
     font-size: 24px;
   }
@@ -46,10 +67,33 @@
   >tbody>tr:nth-child(odd):has(.n-row-expander:not(:checked))+tr {
     display: none;
 
+    /*애니메니션을 주려고 height를 사용하는 아래 방법을 시도했으나 height에 애니메이션을 주는 것이 문제가 있음*/
 
+    /*!*background-color: blue;*!*/
+    /*height: 0;*/
+    /*!*max-height: 0;*!*/
+    /*border-top: none;*/
+    /*overflow: hidden;*/
+
+    /*transition: all .5s ease;*/
+
+    /*>td{*/
+    /*  height: 0;*/
+    /*  line-height: 0;*/
+    /*  padding: 0;*/
+    /*  overflow: hidden;*/
+    /*  text-align: start;*/
+
+    /*  img{*/
+    /*    height: 0;*/
+    /*  }*/
+    /*}*/
   }
 
-  >tbody>tr:nth-child(odd):has(.n-row-expander:not(:checked)) label:has(.n-row-expander)::before {}
+  /*--- expandable panel show -----------------*/
+  >tbody>tr:nth-child(odd):has(.n-row-expander:not(:checked)) label:has(.n-row-expander)::before {
+    /* --icon: url(./icon/caret_down.svg); */
+  }
 
   >tbody>tr:nth-child(odd):has(.n-row-expander:checked)+tr {
     display: table-row;
@@ -61,5 +105,20 @@
       text-align: start;
     }
 
+    /*애니메니션을 주려고 height를 사용하는 아래 방법을 시도했으나 height에 애니메이션을 주는 것이 문제가 있음*/
+    /*height: 100%;*/
+    /*!*max-height: 200px;*!*/
+    /*border-top: 1px solid var(--n-tr-border-color);*/
+
+    /*>td{*/
+    /*  line-height: initial;*/
+    /*  padding: 10px;*/
+    /*  overflow: initial;*/
+    /*  text-align: start;*/
+
+    /*  img{*/
+    /*    height: initial;*/
+    /*  }*/
+    /*}*/
   }
-} */
+}

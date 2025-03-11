@@ -1,20 +1,20 @@
 :root {
-  /* color-scheme: light dark; */
-  /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
+    /* color-scheme: light dark; */
+    /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
 }
 
 @media (prefers-color-scheme: light) {
-  .element {
-    color: black;
-    background-color: white;
-  }
+    .element {
+        color: black;
+        background-color: white;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-  .element {
-    color: white;
-    background-color: #242424;
-  }
+    .element {
+        color: white;
+        background-color: #242424;
+    }
 }
 
 /* --- 
@@ -23,11 +23,11 @@
     빈 영역을 만들기 위한 높이설정
 ---------------------------------------------------- */
 html:has(.n-layout) {
-  height: 100%;
+    height: 100%;
 }
 
 body:has(.n-layout) {
-  height: 100%;
+    height: 100%;
 }
 
 /* --- layout ---------------------------------------------------- */
@@ -168,12 +168,12 @@ box-sizing = bx-sizing
     flex-direction: column;
     height: 100%;
 
-    >header,
-    >footer {
+    &>header,
+    &>footer {
         flex: 0 0 auto;
     }
 
-    >:where(header, .n-header) {
+    &> :where(header, .n-header) {
         padding: 0 var(--n-layout-p);
         /* background-color: yellow; */
         height: var(--n-header-height);
@@ -187,37 +187,21 @@ box-sizing = bx-sizing
             display: flex;
             align-items: center;
         }
-
-
     }
-    >:where(main, .n-main) {
+
+    &> :where(main, .n-main) {
         padding: var(--n-main-p);
         flex: 1 1 auto;
     }
-  
-    >:where(footer, .n-footer) {
+
+    &> :where(footer, .n-footer) {
         padding: var(--n-footer-p);
         border-top: 1px solid var(--n-layout-bd-color);
         height: var(--n-footer-height);
         /* background-color: lightblue; */
     }
-  }
-
-
-
-
-@media screen and (min-width: 576px) {
-
-    /* .n-layout,
-    .n-layout:vertical {
-        --n-layout-bd-color: var(--color-base-4);
-        --n-layout-p: 16px;
-
-        --n-header-height: 80px;
-        --n-main-p: 20px;
-        --n-footer-height: 100px;
-        --n-footer-p: 16px;
-    } */
 }
+
+@media screen and (min-width: 576px) {}
 
 @media screen and (min-width: 1200px) {}
