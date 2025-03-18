@@ -1,0 +1,207 @@
+:root {
+    /* color-scheme: light dark; */
+    /* https://developer.chrome.com/blog/auto-dark-theme?hl=ko#per-element-opt-out */
+}
+
+@media (prefers-color-scheme: light) {
+    .element {
+        color: black;
+        background-color: white;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .element {
+        color: white;
+        background-color: #242424;
+    }
+}
+
+/* --- 
+    layout 초기설정
+    레이아웃의 헤더와 푸터 이외의 나머지 영역을 메인영역에게 제공하기 위해
+    빈 영역을 만들기 위한 높이설정
+---------------------------------------------------- */
+html:has(.n-layout) {
+    height: 100%;
+}
+
+body:has(.n-layout) {
+    height: 100%;
+}
+
+/* --- layout ---------------------------------------------------- */
+/*
+<div class="n-layout 또는 n-layout:vertical">
+    <header>
+    </header>
+    <main>
+        <section>
+            <h1>메인 제목</h1>
+
+        </section>
+    </main>
+    <footer>
+    </footer>
+</div>
+┌─────────────────────────────────────────────────────────────┐
+│                     header or .n-header                     │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                                                             │
+│                       main or n-main                        │
+│                                                             │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                      footer or .n-footer                    │
+└─────────────────────────────────────────────────────────────┘
+<div class="n-layout 또는 n-layout:vertical">
+    <header>
+    </header>
+    <div>
+        <aside>
+        </aside>
+        <main>
+            <section>
+                <h1>메인 제목</h1>
+
+            </section>
+        </main>
+    </div>
+    <footer>
+    </footer>
+</div>
+┌─────────────────────────────────────────────────────────────┐
+│                     header or .n-header                     │
+├──────────────────┬────<div or .n-body>──────────────────────┤
+│                  │                                          │
+│      aside       │            main or .n-main               │
+│        or        │                                          │
+│    .n-asdie      │                                          │
+│                  │                                          │
+├──────────────────┴──────────────────────────────────────────┤
+│                      footer or .n-footer                    │
+└─────────────────────────────────────────────────────────────┘
+
+<--- style options -------->
+n-layout
++   n-aside-size:icon / hidden / full
++   n-aside-pos:left / right
++   n-aside-float
+
+<div class="n-layout n-aside:right">
+... 위와 동일
+</div>
+┌─────────────────────────────────────────────────────────────┐
+│                     header or .n-header                     │
+├───────────────────────<div or .n-body>─────┬────────────────┤
+│                                            │                │
+│               main or .n-main              │     aside      │
+│                                            │       or       │
+│                                            │    .n-aside    │
+│                                            │                │
+├────────────────────────────────────────────┴────────────────┤
+│                      footer or .n-footer                    │
+└─────────────────────────────────────────────────────────────┘
+ */
+
+
+/*
+변수명 규칙
+color = color
+
+background = bg
+background-color = bg-color
+background-image = bg-image
+background-size = bg-size
+background-position = bg-pos
+background-repeat = bg-repeat
+
+padding = p
+padding-left = p-left
+padding-right = p-right
+padding-top = p-top
+padding-bottom = p-bottom
+padding-left & padding-right = p-x
+padding-top & padding-bottom = p-y
+
+margin = m
+margin-left & margin-right = m-x
+margin-top & margin-bottom = m-y
+height = height
+width = width
+
+font-size = f-size
+font-weight = f-weight
+font-family = f-family
+
+line-height = l-height
+
+border = bd
+border-radius = bd-radius
+border-color = bd-color
+border-width = bd-width
+border-style = bd-style
+
+box-shadow = bx-shadow
+box-sizing = bx-sizing
+
+
+*/
+
+/* 선언된 변수 목록 */
+.n-layout,
+.n-layout:vertical {
+    --n-layout-bd-color: var(--color-base-4);
+    --n-layout-p: 16px;
+
+    --n-header-height: 60px;
+    --n-main-p: 20px;
+    --n-footer-height: 100px;
+    --n-footer-p: 16px;
+}
+
+/* vertical layout 스타일 구현 */
+.n-layout,
+.n-layout:vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &>header,
+    &>footer {
+        flex: 0 0 auto;
+    }
+
+    &> :where(header, .n-header) {
+        padding: 0 var(--n-layout-p);
+        /* background-color: yellow; */
+        height: var(--n-header-height);
+        border-bottom: 1px solid var(--n-layout-bd-color);
+
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+
+        >h1 {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &> :where(main, .n-main) {
+        padding: var(--n-main-p);
+        flex: 1 1 auto;
+    }
+
+    &> :where(footer, .n-footer) {
+        padding: var(--n-footer-p);
+        border-top: 1px solid var(--n-layout-bd-color);
+        height: var(--n-footer-height);
+        /* background-color: lightblue; */
+    }
+}
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width: 1200px) {}
