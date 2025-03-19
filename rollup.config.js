@@ -33,9 +33,9 @@ function generateIconListFromResource() {
 }
 
 export default [
-  // Configuration for JavaScript and TypeScript files
+  // Configuration for JavaScript files
   {
-    input: fs.readdirSync("./js").map((file) => `js/${file}`), // Process all JS and TS files in the js folder
+    input: fs.readdirSync("./js").filter((file) => file.endsWith(".js")).map((file) => `js/${file}`), // Process only JS files
     output: {
       dir: "dist/js", // Output directory for JavaScript files
       format: "es",
@@ -43,10 +43,12 @@ export default [
       plugins: [terser()], // Minify JS files
     },
     plugins: [
-      typescript(), // Add TypeScript support
       generateIconListFromResource(),
       copy({
-        targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
+        targets: [
+          { src: "icon/**.svg", dest: "dist/icon" },
+          { src: "js/**/*.ts", dest: "dist/js" }, // Copy TS files as-is
+        ],
       }),
     ],
   },
