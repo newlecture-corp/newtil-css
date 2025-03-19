@@ -3,8 +3,7 @@ import postcssImport from "postcss-import";
 import url from "postcss-url";
 import copy from "rollup-plugin-copy";
 import fs from "fs";
-import { dir } from "console";
-import { plugin } from "postcss";
+import path from "path";
 import terser from "@rollup/plugin-terser";
 
 function generateIconListFromResource() {
@@ -13,6 +12,12 @@ function generateIconListFromResource() {
     buildStart() {
       const iconListDirectory = "./icon";
       const outputPath = "./docs/shared/icon-list.json";
+
+      // Check if the directory exists
+      if (!fs.existsSync(iconListDirectory)) {
+        console.warn(`Warning: Directory "${iconListDirectory}" does not exist. Skipping icon list generation.`);
+        return;
+      }
 
       const fileList = fs.readdirSync(iconListDirectory);
 
@@ -26,31 +31,40 @@ function generateIconListFromResource() {
   };
 }
 
-export default {
-  //  --- css and js -------------------------
-  input: ["css/bundle.css", "js/script.js"],
-  output: {
-    dir: "dist", // Specify the output directory
-    format: "es",
-    plugins: [terser()], // Minify JS files
+export default [
+  // Configuration for JavaScript files
+  {
+    input: fs.readdirSync("./js").map((file) => `js/${file}`), // Process all JS files in the js folder
+    output: {
+      dir: "dist/js", // Output directory for JavaScript files
+      format: "es",
+      entryFileNames: "[name].js", // Retain original filenames
+      plugins: [terser()], // Minify JS files
+    },
+    plugins: [
+      generateIconListFromResource(),
+      copy({
+        targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
+      }),
+    ],
   },
-  plugins: [
-    postcss({
-      plugins: [
-        postcssImport(),
-        // https://github.com/postcss/postcss-url
-        url({
-          // url("../icon/name.svg") -> url("icon/name.svg")
-          url: (asset) => asset.url.replace(/\.\.\//g, ""),
-        }),
-      ],
-      extract: true,
-      minimize: true,
-    }),
-    // 아이콘 복사를 위한 코드
-    // generateIconListFromResource(),
-    // copy({
-    //   targets: [{ src: "icon/**.svg", dest: "dist/icon" }],
-    // }),
-  ],
-};
+  // Configuration for CSS files
+  {
+    input: "css/bundle.css",
+    output: {
+      dir: "dist", // Output directory for CSS
+    },
+    plugins: [
+      postcss({
+        plugins: [
+          postcssImport(),
+          url({
+            url: (asset) => asset.url.replace(/\.\.\//g, ""),
+          }),
+        ],
+        extract: "bundle.css", // Extract CSS into a single file
+        minimize: true, // Minify CSS
+      }),
+    ],
+  },
+];
