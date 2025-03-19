@@ -1,8 +1,14 @@
 header,
 .n-header {
+    display: flex;
+    align-items: center;
 
-    /* background-color: #fff; */
+    padding-left: 15px;
+    padding-right: 15px;
 
+    > :nth-child(2) {
+        margin-left: auto;
+    }
 
     /* Header 내용이 비어있을 때의 조건처리 */
     &:empty {
