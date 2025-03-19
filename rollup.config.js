@@ -5,6 +5,7 @@ import copy from "rollup-plugin-copy";
 import fs from "fs";
 import path from "path";
 import terser from "@rollup/plugin-terser";
+import typescript from "@rollup/plugin-typescript"; // Add TypeScript plugin
 
 function generateIconListFromResource() {
   return {
@@ -32,9 +33,9 @@ function generateIconListFromResource() {
 }
 
 export default [
-  // Configuration for JavaScript files
+  // Configuration for JavaScript and TypeScript files
   {
-    input: fs.readdirSync("./js").map((file) => `js/${file}`), // Process all JS files in the js folder
+    input: fs.readdirSync("./js").map((file) => `js/${file}`), // Process all JS and TS files in the js folder
     output: {
       dir: "dist/js", // Output directory for JavaScript files
       format: "es",
@@ -42,6 +43,7 @@ export default [
       plugins: [terser()], // Minify JS files
     },
     plugins: [
+      typescript(), // Add TypeScript support
       generateIconListFromResource(),
       copy({
         targets: [{ src: "icon/**.svg", dest: "dist/icon" }],

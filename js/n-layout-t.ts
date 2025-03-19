@@ -1,9 +1,12 @@
-export default function () {
-    const layout = window.document.querySelector(".n-layout");
-    const aside = window.document.querySelector(".n-layout>.n-aside");
+export default function initializeLayout(): void {
+    const layout = window.document.querySelector(".n-layout") as HTMLElement | null;
+    const aside = window.document.querySelector(".n-layout>.n-aside") as HTMLElement | null;
+
+    if (!layout || !aside) return;
+
     let isResizing = false;
 
-    aside.addEventListener("mousedown", (e) => {
+    aside.addEventListener("mousedown", (e: MouseEvent) => {
         if (e.offsetX > aside.offsetWidth - 5) {
             isResizing = true;
             window.document.body.style.cursor = "ew-resize";
@@ -11,7 +14,7 @@ export default function () {
         }
     });
 
-    window.document.addEventListener("mousemove", (e) => {
+    window.document.addEventListener("mousemove", (e: MouseEvent) => {
         if (isResizing) {
             const newWidth = e.clientX - aside.getBoundingClientRect().left;
             aside.style.width = `${Math.max(80, Math.min(newWidth, 500))}px`; // Min 80px, Max 500px
