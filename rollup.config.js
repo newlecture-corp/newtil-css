@@ -35,7 +35,9 @@ function generateIconListFromResource() {
 export default [
   // Configuration for JavaScript and TypeScript files
   {
-    input: fs.readdirSync("./js").map((file) => `js/${file}`), // Process all JS and TS files in the js folder
+    input: fs.readdirSync("./js")
+      .filter((file) => !file.endsWith(".d.ts")) // Exclude .d.ts files
+      .map((file) => `js/${file}`), // Process only JS and TS files
     output: {
       dir: "dist/js", // Output directory for JavaScript files
       format: "es",
@@ -48,10 +50,14 @@ export default [
       copy({
         targets: [
           { src: "icon/**.svg", dest: "dist/icon" },
-          { src: "types/**", dest: "dist/types" } // Include types directory in the build
+          { src: "types/**", dest: "dist/types" }, // Include types directory in the build
+          { src: "js/**/*.ts", dest: "dist/js" }, // Copy .ts files as-is to the output directory
+          { src: "index.js", dest: "dist" }, // Copy index.js to the dist directory
+          { src: "index.d.ts", dest: "dist" }, // Copy index.d.ts to the dist directory
         ],
       }),
     ],
+    external: (id) => id.endsWith(".d.ts"), // Ensure .d.ts files are treated as external
   },
   // Configuration for CSS files
   {
@@ -67,7 +73,7 @@ export default [
             url: (asset) => asset.url.replace(/\.\.\//g, ""),
           }),
         ],
-        extract: "bundle.css", // Extract CSS into a single file
+        extract: "style.css", // Extract CSS into a single file
         minimize: true, // Minify CSS
       }),
     ],
