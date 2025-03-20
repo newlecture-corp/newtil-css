@@ -59,9 +59,28 @@ export default [
     ],
     external: (id) => id.endsWith(".d.ts"), // Ensure .d.ts files are treated as external
   },
-  // Configuration for CSS files
+  // // Configuration for CSS files
+  // {
+  //   input: "css/bundle.css",
+  //   output: {
+  //     dir: "dist", // Output directory for CSS
+  //   },
+  //   plugins: [
+  //     postcss({
+  //       plugins: [
+  //         postcssImport(),
+  //         url({
+  //           url: (asset) => asset.url.replace(/\.\.\//g, ""),
+  //         }),
+  //       ],
+  //       extract: "style.css", // Extract CSS into a single file
+  //       minimize: true, // Minify CSS
+  //     }),
+  //   ],
+  // },
+  // Configuration for utils.css
   {
-    input: "css/bundle.css",
+    input: "css/utils.css",
     output: {
       dir: "dist", // Output directory for CSS
     },
@@ -73,7 +92,26 @@ export default [
             url: (asset) => asset.url.replace(/\.\.\//g, ""),
           }),
         ],
-        extract: "style.css", // Extract CSS into a single file
+        extract: "utils.css", // Extract utils.css into a single file
+        minimize: true, // Minify CSS
+      }),
+    ],
+  },
+  // Configuration for components.css
+  {
+    input: "css/components.css",
+    output: {
+      dir: "dist", // Output directory for CSS
+    },
+    plugins: [
+      postcss({
+        plugins: [
+          postcssImport(),
+          url({
+            url: (asset) => asset.url.replace(/\.\.\//g, ""),
+          }),
+        ],
+        extract: "components.css", // Extract components.css into a single file
         minimize: true, // Minify CSS
       }),
     ],

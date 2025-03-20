@@ -1,3 +1,3 @@
 // index.js
-import './dist/style.css';
-export { default as layout } from "./dist/js/n-layout";
+export { default as initLayout } from "./dist/js/n-layout";
+export { default as initBar } from "./dist/js/n-bar";
