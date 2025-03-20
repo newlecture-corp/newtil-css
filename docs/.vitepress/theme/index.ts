@@ -6,7 +6,8 @@ import Link from '/components/demo/Link.vue';
 // import Link from ''
 import ComponentQuickLinks from '/components/demo/ComponentQuickLinks.vue';
 import ExampleSection from '/components/demo/ExampleSection.vue';
-import 'newtil-css';
+import "newtil-css/dist/utils.css";
+import "newtil-css/dist/components.css";
 
 import './style.css';
 
