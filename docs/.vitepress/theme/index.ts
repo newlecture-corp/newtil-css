@@ -6,8 +6,8 @@ import Link from '/components/demo/Link.vue';
 // import Link from ''
 import ComponentQuickLinks from '/components/demo/ComponentQuickLinks.vue';
 import ExampleSection from '/components/demo/ExampleSection.vue';
-import "/dist/utils.css";
-import "/dist/components.css";
+import "../.././css/utils.css";
+import "../.././css/components.css";
 
 import './style.css';
 
