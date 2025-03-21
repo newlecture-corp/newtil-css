@@ -249,7 +249,9 @@ base 1/2/3/4/5/6/7/8/9/10*/
   gap: var(--deco-gap);
 }
 
+
 /* deco-position ------------------------------------------------- */
+
 .n-deco-pos\:top,
 .n-deco-pos\:bottom {
   flex-direction: column;
@@ -272,6 +274,47 @@ base 1/2/3/4/5/6/7/8/9/10*/
 .n-deco-pos\:right::before,
 .n-deco-pos\:bottom::before {
   order: 1;
+}
+
+.n-deco-pos\:top,
+.n-deco-pos\:bottom {
+  width: auto;
+}
+
+:not(.n-deco).n-deco-pos\:left,
+:not(.n-deco).n-deco-pos\:right,
+:not(.n-deco).n-deco-pos\:top,
+:not(.n-deco).n-deco-pos\:bottom {
+  flex-direction: row;
+  /* height: var(--icon-size);
+  width: var(--icon-size); */
+  position: relative;
+  overflow: visible;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+:not(.n-deco).n-deco-pos\:left::before,
+:not(.n-deco).n-deco-pos\:right::before,
+:not(.n-deco).n-deco-pos\:top::before,
+:not(.n-deco).n-deco-pos\:bottom::before {
+  font-family: Arial, Helvetica, sans-serif;
+  content: "Error: n-deco is missing.";
+  /* content: "에러 데코 클래스가 빠졌습니다."; */
+  display: flex;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  border: 1px solid red;
+  font-size: 12px;
+  color: red;
+
 }
 
 /* ---- deco-gap ------------------------------------------------- */

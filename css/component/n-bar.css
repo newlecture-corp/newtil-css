@@ -3,3 +3,25 @@
     justify-content: flex-end;
     gap: 10px;
 }
+
+.n-bar\:aside {
+    flex-direction: column;
+    display: flex;
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: none;
+    }
+
+    li.active {
+        background-color: var(--color-main-1);
+        color: white;
+    }
+
+    li:hover {
+        background-color: var(--color-base-5);
+        color: white;
+    }
+}
