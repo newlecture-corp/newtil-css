@@ -18,6 +18,53 @@ body:has(.n-layout) {
     height: 100%;
     overflow: hidden;
     /* Add border around the entire layout */
+
+    >header,
+    .n-header {
+        grid-area: header;
+        min-height: 60px;
+        /* Child-defined height */
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    >aside,
+    .n-aside {
+        grid-area: aside;
+        width: var(--aside-width, 250px);
+        /* Default width */
+        position: relative;
+        transition: transform 0.3s ease;
+        /* Smooth animation for transform */
+        resize: horizontal;
+        overflow: auto;
+        /* Allow resizing */
+    }
+
+    >aside::after,
+    .n-aside::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 100%;
+        cursor: ew-resize;
+        background-color: rgba(0, 0, 0, 0.1);
+        /* Draggable handle */
+    }
+
+    main {
+        grid-area: main;
+        /* Automatically take the remaining space */
+    }
+
+    >footer,
+    .n-footer {
+        grid-area: footer;
+        min-height: 100px;
+        /* Child-defined height */
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
 }
 
 .n-layout:not(:has(.n-aside)) {
@@ -45,47 +92,4 @@ body:has(.n-layout) {
     --aside-width: 0;
     /* Collapse aside */
     grid-template-columns: var(--aside-width) 1fr;
-}
-
-.n-header {
-    grid-area: header;
-    min-height: 60px;
-    /* Child-defined height */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.n-aside {
-    grid-area: aside;
-    width: var(--aside-width, 250px);
-    /* Default width */
-    position: relative;
-    transition: transform 0.3s ease;
-    /* Smooth animation for transform */
-    resize: horizontal;
-    overflow: auto;
-    /* Allow resizing */
-}
-
-.n-aside::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1px;
-    height: 100%;
-    cursor: ew-resize;
-    background-color: rgba(0, 0, 0, 0.1);
-    /* Draggable handle */
-}
-
-main {
-    grid-area: main;
-    /* Automatically take the remaining space */
-}
-
-.n-footer {
-    grid-area: footer;
-    min-height: 100px;
-    /* Child-defined height */
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
