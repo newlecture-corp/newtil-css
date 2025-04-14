@@ -1,85 +1,27 @@
-@container style(--theme-color: dark) {
-  
-}
-
-
-/* --- ul.n-list ------------------------------------ */
-
-:is(ul,ol).n-list,
-:is(ul,ol).n-list\:lined,
-:is(ul,ol).n-list\:no-lined,
-:is(ul,ol).n-list\:dash-lined{
+.n-list\:aside-menu {
+  flex-direction: column;
   display: flex;
-  padding: 10px 0;
-}
 
-:is(ul,ol).n-list>li,
-:is(ul,ol).n-list\:lined>li,
-:is(ul,ol).n-list\:no-lined>li,
-:is(ul,ol).n-list\:dash-lined>li{
-  display: flex;
-  padding: 10px 0;
-}
+  overflow: hidden;
 
-:is(ul,ol).n-list\:dash-lined>li{
-  border-bottom: 1px dashed var(--color-base-3);  
-}
+  li {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: none;
 
-:is(ul,ol).n-list>li,
-:is(ul,ol).n-list\:lined>li{
-  border-bottom: 1px solid var(--color-base-3);  
-}
-
-:is(ul,ol).n-list>li:last-child,
-:is(ul,ol).n-list\:dash-lined>li:last-child,
-:is(ul,ol).n-list\:lined>li:last-child{
-  border-bottom: none;
-}
-
-:is(ul,ol).n-list>li:hover,
-:is(ul,ol).n-list>li.active{
-  --li-bg-color: var(--color-main-1);
-  --li-color: var(--color-base-1);
-
-  background-color: var(--li-bg-color) !important;
-  color: var(--li-color) !important;
-}
-
-/* --- dl.n-list ------------------------------------ */
-
-dl.n-list>div,
-dl.n-list\:no-lined>div,
-dl.n-list\:dash-lined>div,
-dl.n-list\:lined>div{
-  display: flex;
-  padding: 10px 0;
-  align-items: center;
-  
-  dt {
-      font-weight: bold;
-
-      &::after {
-          content: ":";
-      }
+      width: 250px;
+      flex-shrink: 0;      
+      overflow: hidden;
   }
 
-  dd {
-      margin-left: 5px;
-  }  
-}
+  li.active {
+      background-color: var(--color-main-1);
+      color: white;
+  }
 
-dl.n-list\:dash-lined>div{
-  border-bottom: 1px dashed var(--color-base-3);
+  li:hover {
+      background-color: var(--color-base-5);
+      color: white;
+  }
 }
-
-dl.n-list>div,
-dl.n-list\:lined>div{
-  border-bottom: 1px solid var(--color-base-3);
-}
-
-dl.n-list>div:last-child,
-dl.n-list\:dash-lined>div:last-child,
-dl.n-list\:lined>div:last-child{
-  border-bottom: none;
-}
-

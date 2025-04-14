@@ -1,6 +1,13 @@
-export default function () {
+export default function layout() {
     const layout = window.document.querySelector(".n-layout");
-    const aside = window.document.querySelector(".n-layout>.n-aside");
+    const aside = window.document.querySelector(".n-layout>aside.resizable, .n-layout>.n-aside.resizable"); // Updated selector
+
+    // Ensure the required elements exist
+    if (!layout || !aside) {
+        //console.warn("n-layout.js: Required elements '.n-layout' or '.n-layout>aside.resizable/.n-layout>.n-aside.resizable' are missing.");
+        return;
+    }
+
     let isResizing = false;
 
     aside.addEventListener("mousedown", (e) => {
@@ -26,4 +33,9 @@ export default function () {
             window.document.body.style.userSelect = ""; // Re-enable text selection
         }
     });
+}
+
+// Automatically invoke the function if not in a module-based environment
+if (typeof window !== "undefined" && !window.module) {
+    window.addEventListener("DOMContentLoaded", layout);
 }

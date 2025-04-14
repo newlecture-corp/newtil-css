@@ -20,7 +20,7 @@ body:has(.n-layout) {
     /* Add border around the entire layout */
 
     >header,
-    .n-header {
+    >.n-header {
         grid-area: header;
         min-height: 60px;
         /* Child-defined height */
@@ -28,9 +28,9 @@ body:has(.n-layout) {
     }
 
     >aside,
-    .n-aside {
+    >.n-aside {
         grid-area: aside;
-        width: var(--aside-width, 250px);
+        width: var(--aside-width, 250px);        
         /* Default width */
         position: relative;
         transition: transform 0.3s ease;
@@ -38,10 +38,38 @@ body:has(.n-layout) {
         resize: horizontal;
         overflow: auto;
         /* Allow resizing */
+
+        &.auto {
+            width: min-content;
+            /* Explicitly override the default width */
+        }
+
+        &.narrow {
+            width: min-content;
+            /* Explicitly override the default width */
+        }
+
+        &.wide {
+            width: min-content;
+            /* Explicitly override the default width */
+        }
+        &.hidden {
+            transform: translateX(-100%);
+            /* Hide the aside by moving it out of view */
+        }
+        &.show {
+            transform: translateX(0);
+            /* Show the aside by moving it back into view */
+        }
+        &.resiable {
+            cursor: ew-resize;
+            /* Change cursor to indicate resizable area */
+        }
     }
 
+    /* Resizing handle for the aside element */
     >aside::after,
-    .n-aside::after {
+    >.n-aside::after {
         content: '';
         position: absolute;
         top: 0;
@@ -53,13 +81,13 @@ body:has(.n-layout) {
         /* Draggable handle */
     }
 
-    main {
+    >main {
         grid-area: main;
         /* Automatically take the remaining space */
     }
 
     >footer,
-    .n-footer {
+    >.n-footer {
         grid-area: footer;
         min-height: 100px;
         /* Child-defined height */
@@ -67,29 +95,11 @@ body:has(.n-layout) {
     }
 }
 
-.n-layout:not(:has(.n-aside)) {
+.n-layout:not(:has(> .n-aside, > aside)) {
     grid-template-columns: 1fr;
     /* Make main take full width when aside is not present */
     grid-template-areas:
         "header"
         "main"
         "footer";
-}
-
-.n-layout.narrow {
-    --aside-width: 80px;
-    /* Narrow aside width */
-    grid-template-columns: var(--aside-width) 1fr;
-}
-
-.n-layout.wide {
-    --aside-width: 250px;
-    /* Wide aside width */
-    grid-template-columns: var(--aside-width) 1fr;
-}
-
-.n-layout.hidden {
-    --aside-width: 0;
-    /* Collapse aside */
-    grid-template-columns: var(--aside-width) 1fr;
 }
