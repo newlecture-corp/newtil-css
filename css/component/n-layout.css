@@ -162,8 +162,6 @@ body:has(.n-layout) {
 @media (max-width: 600px) {
 	.n-layout {
 		& > :where(.n-aside, * > .n-aside) {
-			width: 45px;
-
 			.n-section\:aside-menu {
 				> h1 {
 					display: none;
@@ -177,6 +175,10 @@ body:has(.n-layout) {
 			.n-section\:aside-menu {
 				padding: 0;
 			}
+		}
+
+		& > .n-aside {
+			width: 45px;
 		}
 	}
 }
