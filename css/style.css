@@ -62,7 +62,18 @@ body {
 	/*}*/
 }
 
-.active {
+.n-active,
+.n-active\1 {
 	background-color: var(--color-main-1);
+	color: var(--color-base-1);
+}
+
+.n-active\2 {
+	background-color: var(--color-main-2);
+	color: var(--color-base-1);
+}
+
+.n-active\3 {
+	background-color: var(--color-main-3);
 	color: var(--color-base-1);
 }
