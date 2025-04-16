@@ -16,7 +16,6 @@ body:has(.n-layout) {
 		"aside main"
 		"footer footer";
 	height: 100%;
-	overflow: hidden;
 	/* Add border around the entire layout */
 
 	> :where(.n-header, * > .n-header) {
