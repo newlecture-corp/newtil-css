@@ -24,9 +24,19 @@
 		background-color: var(--color-main-1);
 		color: var(--color-base-1);
 	}
-
+	/* 
 	li:hover {
 		background-color: var(--color-base-5);
 		color: var(--color-base-1);
+	} */
+}
+
+/* hover가 가능한 기기(예: PC)에서만 :hover 스타일 적용 */
+@media (hover: hover) and (pointer: fine) {
+	.n-list\:aside-menu {
+		li:hover {
+			background-color: var(--color-base-5);
+			color: var(--color-base-1);
+		}
 	}
 }
