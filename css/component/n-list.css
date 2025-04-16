@@ -1,27 +1,32 @@
+.n-list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: var(--gap-2);
+}
+
 .n-list\:aside-menu {
-  flex-direction: column;
-  display: flex;
+	flex-direction: column;
+	overflow: hidden;
 
-  overflow: hidden;
+	li {
+		display: flex;
+		align-items: center;
+		padding: 10px;
+		border: none;
 
-  li {
-      display: flex;
-      align-items: center;
-      padding: 10px;
-      border: none;
+		flex-shrink: 0;
+		overflow: hidden;
+	}
 
-      width: 250px;
-      flex-shrink: 0;      
-      overflow: hidden;
-  }
+	li.active {
+		background-color: var(--color-main-1);
+		color: var(--color-base-1);
+	}
 
-  li.active {
-      background-color: var(--color-main-1);
-      color: white;
-  }
-
-  li:hover {
-      background-color: var(--color-base-5);
-      color: white;
-  }
+	li:hover {
+		background-color: var(--color-base-5);
+		color: var(--color-base-1);
+	}
 }

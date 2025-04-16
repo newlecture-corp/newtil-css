@@ -1,0 +1,39 @@
+.n-header {
+	display: flex;
+	align-items: center;
+
+	padding-left: 15px;
+	padding-right: 15px;
+
+	> :nth-child(2) {
+		margin-left: auto;
+	}
+
+	/* Header 내용이 비어있을 때의 조건처리 */
+	&:empty {
+		background-color: white;
+		color: #333;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Arial", sans-serif;
+		font-size: 16px;
+		font-style: italic;
+		position: relative;
+		overflow: visible;
+	}
+
+	/* Header 내용이 비어있을 때의 콘텐츠 */
+	&:empty::before {
+		content: " 😃 .n-layout의 헤더가 비어있습니다.";
+		color: #333;
+		font-family: "Arial", sans-serif;
+		font-size: 16px;
+		font-style: italic;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

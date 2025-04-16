@@ -1,105 +1,155 @@
 html:has(.n-layout) {
-    height: 100%;
+	height: 100%;
 }
 
 body:has(.n-layout) {
-    height: 100%;
+	height: 100%;
 }
 
 .n-layout {
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-    /* Use `min-content` to respect child-defined heights */
-    grid-template-columns: var(--aside-width, 250px) 1fr;
-    grid-template-areas:
-        "header header"
-        "aside main"
-        "footer footer";
-    height: 100%;
-    overflow: hidden;
-    /* Add border around the entire layout */
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
+	/* Use `min-content` to respect child-defined heights */
+	grid-template-columns: var(--aside-width, auto) 1fr;
+	grid-template-areas:
+		"header header"
+		"aside main"
+		"footer footer";
+	height: 100%;
+	overflow: hidden;
+	/* Add border around the entire layout */
 
-    >header,
-    >.n-header {
-        grid-area: header;
-        min-height: 60px;
-        /* Child-defined height */
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
+	> :where(.n-header, * > .n-header) {
+		grid-area: header;
+		min-height: 60px;
+		padding-left: var(--gap-6);
+		padding-right: var(--gap-6);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
-    >aside,
-    >.n-aside {
-        grid-area: aside;
-        width: var(--aside-width, 250px);        
-        /* Default width */
-        position: relative;
-        transition: transform 0.3s ease;
-        /* Smooth animation for transform */
-        resize: horizontal;
-        overflow: auto;
-        /* Allow resizing */
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 
-        &.auto {
-            width: min-content;
-            /* Explicitly override the default width */
-        }
+	/* --------------------------------------------------- */
 
-        &.narrow {
-            width: min-content;
-            /* Explicitly override the default width */
-        }
+	> :where(.n-aside, * > .n-aside) {
+		grid-area: aside;
 
-        &.wide {
-            width: min-content;
-            /* Explicitly override the default width */
-        }
-        &.hidden {
-            transform: translateX(-100%);
-            /* Hide the aside by moving it out of view */
-        }
-        &.show {
-            transform: translateX(0);
-            /* Show the aside by moving it back into view */
-        }
-        &.resiable {
-            cursor: ew-resize;
-            /* Change cursor to indicate resizable area */
-        }
-    }
+		position: relative;
+		transition: transform 0.3s ease;
 
-    /* Resizing handle for the aside element */
-    >aside::after,
-    >.n-aside::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 1px;
-        height: 100%;
-        cursor: ew-resize;
-        background-color: rgba(0, 0, 0, 0.1);
-        /* Draggable handle */
-    }
+		resize: horizontal;
+		overflow: auto;
 
-    >main {
-        grid-area: main;
-        /* Automatically take the remaining space */
-    }
+		transition: width 0.3s ease, transform 0.3s ease;
+		will-change: width, transform;
 
-    >footer,
-    >.n-footer {
-        grid-area: footer;
-        min-height: 100px;
-        /* Child-defined height */
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-    }
+		> :where(header) {
+			height: 50px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			font-weight: 600;
+
+			> * {
+				width: 100%;
+			}
+			&.active {
+				background-color: var(--color-main-1);
+				color: var(--color-base-1);
+			}
+			&:hover {
+				background-color: var(--color-base-5);
+				color: var(--color-base-1);
+			}
+		}
+
+		&.auto {
+			width: min-content;
+		}
+
+		&.narrow {
+			width: min-content;
+		}
+
+		&.wide {
+			width: min-content;
+		}
+		&.hidden {
+			transform: translateX(-100%);
+		}
+		&.show {
+			transform: translateX(0);
+		}
+		&.resizable::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 1px;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.1);
+
+			cursor: ew-resize;
+		}
+	}
+
+	/* ==== main ======================================== */
+
+	> main {
+		grid-area: main;
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* ==== n-footer ==================================== */
+
+	> :where(.n-footer, * > .n-footer) {
+		grid-area: footer;
+		min-height: 100px;
+		/* Child-defined height */
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
 }
 
-.n-layout:not(:has(> .n-aside, > aside)) {
-    grid-template-columns: 1fr;
-    /* Make main take full width when aside is not present */
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
+/* ==== n-layout 상태 스타일 ================================================== */
+
+/* ---- 1. Aside를 가지고 있지 않은 경우의 레이아웃 ------------------------------------ */
+.n-layout:not(:has(> .n-aside)) {
+	grid-template-columns: 1fr;
+	/* Make main take full width when aside is not present */
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+}
+
+/* ==== n-aside 상태 스타일 ================================================== */
+
+/* ---- 1. Toggle Action 스타일(.n-aside-toggle:checked 상태를 이용한) ------------------------------------ */
+.n-layout {
+	> .n-header:has(.n-aside-toggle:checked) ~ :where(.n-aside, * > .n-aside) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		/* width: var(--aside-width, var(--w-6));         */
+		height: 100%;
+		background-color: var(--color-base-1);
+
+		transform: translateX(-100%);
+	}
+}
+
+/* ---- 2. 윈도우 너비 Event 스타일(문서 너비가 좁아지면 Floating) ------------------------------------ */
+@media (max-width: 600px) {
+	.n-layout > :where(.n-aside, * > .n-aside) {
+		width: 45px;
+
+		.n-section\:aside-menu {
+			> h1 {
+				display: none;
+			}
+		}
+	}
 }
