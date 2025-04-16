@@ -114,7 +114,25 @@ body:has(.n-layout) {
 
 /* ==== n-layout 상태 스타일 ================================================== */
 
-/* ---- 1. Aside를 가지고 있지 않은 경우의 레이아웃 ------------------------------------ */
+/* ---- 1. 각 영역에 기분 패팅 주기 ------------------------------------ */
+.n-layout.n-pd {
+	& > :where(.n-header, * > .n-header) {
+		padding-left: var(--gap-6);
+		padding-right: var(--gap-6);
+	}
+
+	& > :where(.n-aside) {
+		.n-section\:aside-menu {
+			padding: var(--gap-4);
+		}
+	}
+
+	& > :where(main) {
+		padding: var(--gap-10);
+	}
+}
+
+/* ---- 2. Aside를 가지고 있지 않은 경우의 레이아웃 ------------------------------------ */
 .n-layout:not(:has(> .n-aside)) {
 	grid-template-columns: 1fr;
 	/* Make main take full width when aside is not present */
@@ -142,12 +160,22 @@ body:has(.n-layout) {
 
 /* ---- 2. 윈도우 너비 Event 스타일(문서 너비가 좁아지면 Floating) ------------------------------------ */
 @media (max-width: 600px) {
-	.n-layout > :where(.n-aside, * > .n-aside) {
-		width: 45px;
+	.n-layout {
+		& > :where(.n-aside, * > .n-aside) {
+			width: 45px;
 
-		.n-section\:aside-menu {
-			> h1 {
-				display: none;
+			.n-section\:aside-menu {
+				> h1 {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.n-layout.n-pd {
+		& > :where(.n-aside, * > .n-aside) {
+			.n-section\:aside-menu {
+				padding: 0;
 			}
 		}
 	}
