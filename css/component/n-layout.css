@@ -132,6 +132,25 @@ body:has(.n-layout) {
 	}
 }
 
+@media (max-width: 600px) {
+	.n-layout.n-pd {
+		& > :where(.n-header, * > .n-header) {
+			padding-left: var(--gap-4);
+			padding-right: var(--gap-4);
+		}
+
+		& > :where(.n-aside) {
+			.n-section\:aside-menu {
+				padding: var(--gap-4);
+			}
+		}
+
+		& > :where(main) {
+			padding: var(--gap-7);
+		}
+	}
+}
+
 /* ---- 2. Aside를 가지고 있지 않은 경우의 레이아웃 ------------------------------------ */
 .n-layout:not(:has(> .n-aside)) {
 	grid-template-columns: 1fr;

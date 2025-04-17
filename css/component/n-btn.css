@@ -30,499 +30,508 @@
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .n-btn {
-  --btn-font-size: 14px;
-  --btn-border-radius: 8px;
-  --btn-bg-color: transparent;
-  --btn-padding: 8px 16px;
+	--btn-font-size: 14px;
+	--btn-border-radius: 8px;
+	--btn-bg-color: transparent;
+	--btn-padding: 8px 16px;
 
-  color: inherit;
-  font-size: var(--btn-font-size, 14px);
-  font-weight: 500;
-  font-family: inherit;
-  line-height: 1em;
+	color: inherit;
+	font-size: var(--btn-font-size, 14px);
+	font-weight: 500;
+	font-family: inherit;
+	line-height: 1em;
 
-  white-space: nowrap;
-  user-select: none;
-  cursor: pointer;
+	white-space: nowrap;
+	user-select: none;
+	cursor: pointer;
 
-  box-sizing: content-box;
-  padding: var(--btn-padding);
-  width: initial;
-  border: 1px solid var(--btn-bd-color, var(--color-base-3));
+	box-sizing: content-box;
+	padding: var(--btn-padding);
+	width: initial;
+	border: 1px solid var(--btn-bd-color, var(--color-base-3));
 
-  background-color: transparent;
+	background-color: transparent;
 
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 
-  transition: border-color 0.3s, background-color 0.3s;
+	transition: border-color 0.3s, background-color 0.3s;
 
-  &::before {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
+	&::before {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-  &:hover {
-    --btn-bg-hover: var(--color-base-3);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-base-3);
+	}
 }
 
 .n-btn:hover {
-  background-color: var(--btn-bg-hover, var(--color-base-2));
-  text-decoration: none;
+	background-color: var(--btn-bg-hover, var(--color-base-2));
+	text-decoration: none;
 }
 
 .n-btn\:static {
-  cursor: unset;
+	cursor: unset;
 }
 
-.n-btn.rounded {
-  border-radius: var(--btn-border-radius, 8px);
+.n-btn.n-rounded {
+	border-radius: var(--btn-border-radius, 8px);
+}
+
+.n-btn.n-circle {
+	border-radius: 50%;
 }
 
 /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
 .n-btn:is(.n-icon):not(.n-deco) {
-  --btn-padding: 4px;
-  text-indent: -999px;
+	--btn-padding: 4px;
+	text-indent: -999px;
 
-  &::before {
-    text-indent: 0;
-  }
+	&::before {
+		text-indent: 0;
+	}
 }
 
 .n-btn-size\:1:is(.n-icon):not(.n-deco) {
-  --btn-padding: 8px;
+	--btn-padding: 8px;
 }
 
 .n-btn-size\:2:is(.n-icon):not(.n-deco) {
-  --btn-padding: 10px;
+	--btn-padding: 10px;
 }
 
 .n-btn-size\:3:is(.n-icon):not(.n-deco) {
-  --btn-padding: 12px;
+	--btn-padding: 12px;
 }
 
 /* <size>------------------------------------ */
 .n-btn-size\:inline {
-  padding: 0;
+	padding: 0;
 
-  line-height: 1em;
+	line-height: 1em;
 }
 
 .n-btn-size\:small {
-  --btn-font-size: 12px;
-  --btn-padding: 4px 8px;
+	--btn-font-size: 12px;
+	--btn-padding: 4px 8px;
 
-  line-height: 1em;
+	line-height: 1em;
 }
 
 .n-btn-size\:1 {
-  --btn-font-size: 14px;
-  --btn-padding: 8px 16px;
+	--btn-font-size: 14px;
+	--btn-padding: 8px 16px;
 }
 
 .n-btn-size\:2 {
-  --btn-font-size: 16px;
-  --btn-padding: 10px 18px;
+	--btn-font-size: 16px;
+	--btn-padding: 10px 18px;
 }
 
 .n-btn-size\:3 {
-  --btn-font-size: 18px;
-  --btn-padding: 12px 20px;
+	--btn-font-size: 18px;
+	--btn-padding: 12px 20px;
 }
 
 /* <color>------------------------------------ */
 /* base */
 
 .n-btn-color\:main-1 {
-  background-color: var(--color-main-1);
-  border-color: var(--bd-color-main-1);
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); */
-  transition: all 0.3s ease;
-  /* 부드러운 전환 효과 */
+	background-color: var(--color-main-1);
+	border-color: var(--bd-color-main-1);
+	/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); */
+	transition: all 0.3s ease;
+	/* 부드러운 전환 효과 */
 
-  color: var(--color-base-1);
+	color: var(--color-base-1);
 
-  &:hover {
-    --btn-bg-hover: rgba(var(--rgb-main-1), 0.7);
-  }
+	&:hover {
+		--btn-bg-hover: rgba(var(--rgb-main-1), 0.7);
+	}
 }
 
 .n-btn-color\:main-2 {
-  background-color: var(--color-main-2);
-  border-color: var(--bd-color-main-2);
-  /* box-shadow: 0 4px 8px rgba(50, 100, 20, 0.3), 0 2px 4px rgba(50, 100, 20, 0.2);   */
-  color: var(--color-base-2);
+	background-color: var(--color-main-2);
+	border-color: var(--bd-color-main-2);
+	/* box-shadow: 0 4px 8px rgba(50, 100, 20, 0.3), 0 2px 4px rgba(50, 100, 20, 0.2);   */
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-main-3);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-main-3);
+	}
 }
 
 .n-btn-color\:main-3 {
-  background-color: var(--color-main-3);
-  border-color: var(--bd-color-main-3);
-  /* box-shadow: 0 4px 8px rgba(60, 80, 30, 0.3), 0 2px 4px rgba(60, 80, 30, 0.2); */
-  color: var(--color-base-2);
+	background-color: var(--color-main-3);
+	border-color: var(--bd-color-main-3);
+	/* box-shadow: 0 4px 8px rgba(60, 80, 30, 0.3), 0 2px 4px rgba(60, 80, 30, 0.2); */
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-main-2);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-main-2);
+	}
 }
 
 .n-btn-color\:sub-1 {
-  background-color: var(--color-sub-1);
-  border-color: var(--color-sub-2);
+	background-color: var(--color-sub-1);
+	border-color: var(--color-sub-2);
 
-  color: var(--color-base-1);
+	color: var(--color-base-1);
 
-  &:hover {
-    --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
-  }
+	&:hover {
+		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+	}
 }
 
 .n-btn-color\:sub-2 {
-  background-color: var(--color-sub-2);
-  border-color: var(--color-sub-3);
-  color: var(--color-base-2);
+	background-color: var(--color-sub-2);
+	border-color: var(--color-sub-3);
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-sub-3);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-sub-3);
+	}
 }
 
 .n-btn-color\:sub-3 {
-  background-color: var(--color-sub-3);
-  border-color: var(--color-sub-1);
-  color: var(--color-base-2);
+	background-color: var(--color-sub-3);
+	border-color: var(--color-sub-1);
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-sub-2);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-sub-2);
+	}
 }
 
-
 .n-btn-color\:accent-1 {
-  background-color: var(--color-accent-1);
-  border-color: var(--bd-color-accent-1);
+	background-color: var(--color-accent-1);
+	border-color: var(--bd-color-accent-1);
 
-  color: var(--color-base-1);
+	color: var(--color-base-1);
 
-  &:hover {
-    --btn-bg-hover: rgba(var(--rgb-accent-2), 1);
-  }
+	&:hover {
+		--btn-bg-hover: rgba(var(--rgb-accent-2), 1);
+	}
 }
 
 .n-btn-color\:accent-2 {
-  background-color: var(--color-accent-2);
-  border-color: var(--bd-color-accent-2);
-  color: var(--color-base-2);
+	background-color: var(--color-accent-2);
+	border-color: var(--bd-color-accent-2);
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-accent-3);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-accent-3);
+	}
 }
 
 .n-btn-color\:accent-3 {
-  background-color: var(--color-accent-3);
-  border-color: var(--bd-color-accent-3);
-  color: var(--color-base-2);
+	background-color: var(--color-accent-3);
+	border-color: var(--bd-color-accent-3);
+	color: var(--color-base-2);
 
-  &:hover {
-    --btn-bg-hover: var(--color-accent-3);
-  }
+	&:hover {
+		--btn-bg-hover: var(--color-accent-3);
+	}
 }
 
 @media screen and (min-width: 480px) {
-  .md\:n-btn {
-    --btn-font-size: 14px;
-    --btn-border-color: var(--color-base-3);
-    --btn-border-radius: 8px;
-    --btn-bg-hover: var(--color-base-2);
+	.md\:n-btn {
+		--btn-font-size: 14px;
+		--btn-border-color: var(--color-base-3);
+		--btn-border-radius: 8px;
+		--btn-bg-hover: var(--color-base-2);
 
-    color: inherit;
-    font-size: var(--btn-font-size, 14px);
-    font-weight: 500;
-    font-family: inherit;
-    line-height: 1em;
+		color: inherit;
+		font-size: var(--btn-font-size, 14px);
+		font-weight: 500;
+		font-family: inherit;
+		line-height: 1em;
 
-    white-space: nowrap;
-    user-select: none;
-    cursor: pointer;
+		white-space: nowrap;
+		user-select: none;
+		cursor: pointer;
 
-    box-sizing: content-box;
-    padding: var(--btn-padding, 8px 16px);
-    width: initial;
-    border: 1px solid var(--btn-border-color, var(--color-base-3));
-    border-radius: var(--btn-border-radius, 8px);
-    background-color: transparent;
+		box-sizing: content-box;
+		padding: var(--btn-padding, 8px 16px);
+		width: initial;
+		border: 1px solid var(--btn-border-color, var(--color-base-3));
+		border-radius: var(--btn-border-radius, 8px);
+		background-color: transparent;
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
 
-    transition: border-color 0.3s, background-color 0.3s;
+		transition: border-color 0.3s, background-color 0.3s;
 
-    &::before {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+		&::before {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 
-  .md\:n-btn:hover {
-    background-color: var(--btn-bg-hover, var(--color-base-2));
-    text-decoration: none;
-  }
+	.md\:n-btn:hover {
+		background-color: var(--btn-bg-hover, var(--color-base-2));
+		text-decoration: none;
+	}
 
-  .md\:n-btn\:static {
-    cursor: unset;
-  }
+	.md\:n-btn\:static {
+		cursor: unset;
+	}
 
-  /* <size>------------------------------------ */
-  .md\:n-btn-size\:inline {
-    padding: 0;
+	/* <size>------------------------------------ */
+	.md\:n-btn-size\:inline {
+		padding: 0;
 
-    line-height: 1em;
-  }
+		line-height: 1em;
+	}
 
-  .md\:n-btn-size\:small {
-    --btn-font-size: 12px;
-    padding: var(--btn-padding, 4px 8px);
+	.md\:n-btn-size\:small {
+		--btn-font-size: 12px;
+		padding: var(--btn-padding, 4px 8px);
 
-    line-height: 1em;
-  }
+		line-height: 1em;
+	}
 
-  .md\:n-btn-size\:1 {
-    --btn-font-size: 14px;
-    padding: var(--btn-padding, 8px 16px);
-  }
+	.md\:n-btn-size\:1 {
+		--btn-font-size: 14px;
+		padding: var(--btn-padding, 8px 16px);
+	}
 
-  .md\:n-btn-size\:2 {
-    --btn-font-size: 16px;
-    padding: var(--btn-padding, 10px 18px);
-  }
+	.md\:n-btn-size\:2 {
+		--btn-font-size: 16px;
+		padding: var(--btn-padding, 10px 18px);
+	}
 
-  .md\:n-btn-size\:3 {
-    font-size: 18px;
-    padding: var(--btn-padding, 12px 20px);
-  }
+	.md\:n-btn-size\:3 {
+		font-size: 18px;
+		padding: var(--btn-padding, 12px 20px);
+	}
 
-  .md\:n-btn-size\:1:is(.n-icon) {
-    mask-size: var(--icon-size-1);
-  }
+	.md\:n-btn-size\:1:is(.n-icon) {
+		mask-size: var(--icon-size-1);
+	}
 
-  .md\:n-btn-size\:2:is(.n-icon) {
-    mask-size: var(--icon-size-2);
-  }
+	.md\:n-btn-size\:2:is(.n-icon) {
+		mask-size: var(--icon-size-2);
+	}
 
-  .md\:n-btn-size\:3:is(.n-icon) {
-    mask-size: var(--icon-size-3);
-  }
+	.md\:n-btn-size\:3:is(.n-icon) {
+		mask-size: var(--icon-size-3);
+	}
 
-  /* <color>------------------------------------ */
-  /* base */
+	/* <color>------------------------------------ */
+	/* base */
 
-  .md\:n-btn-color\:main {
-    background-color: var(--color-main-1);
-    border-color: var(--color-main-2);
+	.md\:n-btn-color\:main {
+		background-color: var(--color-main-1);
+		border-color: var(--color-main-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .md\:n-btn-color\:main:hover {
-    --btn-bg-hover: var(--color-main-1);
-  }
+	.md\:n-btn-color\:main:hover {
+		--btn-bg-hover: var(--color-main-1);
+	}
 
-  .md\:n-btn-color\:main:is(.n-icon)::before {}
+	.md\:n-btn-color\:main:is(.n-icon)::before {
+	}
 
-  .md\:n-btn-color\:sub {
-    border-color: var(--color-sub-2);
+	.md\:n-btn-color\:sub {
+		border-color: var(--color-sub-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .md\:n-btn-color\:sub:hover {
-    --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
-  }
+	.md\:n-btn-color\:sub:hover {
+		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+	}
 
-  .md\:n-btn-color\:sub:is(.n-icon)::before {}
+	.md\:n-btn-color\:sub:is(.n-icon)::before {
+	}
 
-  .md\:n-btn-color\:accent {
-    border-color: var(--color-accent-2);
+	.md\:n-btn-color\:accent {
+		border-color: var(--color-accent-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .md\:n-btn-color\:accent:hover {
-    --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
-  }
+	.md\:n-btn-color\:accent:hover {
+		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
+	}
 
-  .md\:n-btn-color\:accent:is(.n-icon)::before {
-    background-color: var(--color-base-1);
-  }
+	.md\:n-btn-color\:accent:is(.n-icon)::before {
+		background-color: var(--color-base-1);
+	}
 
-  /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
-  .md\:n-btn:is(.n-icon):not(.n-deco),
-  .md\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
-    --btn-padding: 8px;
-    text-indent: -999px;
-  }
+	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+	.md\:n-btn:is(.n-icon):not(.n-deco),
+	.md\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+		--btn-padding: 8px;
+		text-indent: -999px;
+	}
 
-  .md\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
-    --btn-padding: 10px;
-  }
+	.md\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+		--btn-padding: 10px;
+	}
 
-  .md\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
-    --btn-padding: 12px;
-  }
+	.md\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+		--btn-padding: 12px;
+	}
 }
 
 @media screen and (min-width: 768px) {
-  .lg\:n-btn {
-    --btn-font-size: 14px;
-    --btn-border-color: var(--color-base-3);
-    --btn-border-radius: 8px;
-    --btn-bg-hover: var(--color-base-2);
+	.lg\:n-btn {
+		--btn-font-size: 14px;
+		--btn-border-color: var(--color-base-3);
+		--btn-border-radius: 8px;
+		--btn-bg-hover: var(--color-base-2);
 
-    color: inherit;
-    font-size: var(--btn-font-size, 14px);
-    font-weight: 500;
-    font-family: inherit;
-    line-height: 1em;
+		color: inherit;
+		font-size: var(--btn-font-size, 14px);
+		font-weight: 500;
+		font-family: inherit;
+		line-height: 1em;
 
-    white-space: nowrap;
-    user-select: none;
-    cursor: pointer;
+		white-space: nowrap;
+		user-select: none;
+		cursor: pointer;
 
-    box-sizing: content-box;
-    padding: var(--btn-padding, 8px 16px);
-    width: initial;
-    border: 1px solid var(--btn-border-color, var(--color-base-3));
-    border-radius: var(--btn-border-radius, 8px);
-    background-color: transparent;
+		box-sizing: content-box;
+		padding: var(--btn-padding, 8px 16px);
+		width: initial;
+		border: 1px solid var(--btn-border-color, var(--color-base-3));
+		border-radius: var(--btn-border-radius, 8px);
+		background-color: transparent;
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
 
-    transition: border-color 0.3s, background-color 0.3s;
+		transition: border-color 0.3s, background-color 0.3s;
 
-    &::before {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+		&::before {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 
-  .lg\:n-btn:hover {
-    background-color: var(--btn-bg-hover, var(--color-base-2));
-    text-decoration: none;
-  }
+	.lg\:n-btn:hover {
+		background-color: var(--btn-bg-hover, var(--color-base-2));
+		text-decoration: none;
+	}
 
-  .lg\:n-btn\:static {
-    cursor: unset;
-  }
+	.lg\:n-btn\:static {
+		cursor: unset;
+	}
 
-  /* <size>------------------------------------ */
-  .lg\:n-btn-size\:inline {
-    padding: 0;
+	/* <size>------------------------------------ */
+	.lg\:n-btn-size\:inline {
+		padding: 0;
 
-    line-height: 1em;
-  }
+		line-height: 1em;
+	}
 
-  .lg\:n-btn-size\:small {
-    --btn-font-size: 12px;
-    padding: var(--btn-padding, 4px 8px);
+	.lg\:n-btn-size\:small {
+		--btn-font-size: 12px;
+		padding: var(--btn-padding, 4px 8px);
 
-    line-height: 1em;
-  }
+		line-height: 1em;
+	}
 
-  .lg\:n-btn-size\:1 {
-    --btn-font-size: 14px;
-    padding: var(--btn-padding, 8px 16px);
-  }
+	.lg\:n-btn-size\:1 {
+		--btn-font-size: 14px;
+		padding: var(--btn-padding, 8px 16px);
+	}
 
-  .lg\:n-btn-size\:2 {
-    --btn-font-size: 16px;
-    padding: var(--btn-padding, 10px 18px);
-  }
+	.lg\:n-btn-size\:2 {
+		--btn-font-size: 16px;
+		padding: var(--btn-padding, 10px 18px);
+	}
 
-  .lg\:n-btn-size\:3 {
-    font-size: 18px;
-    padding: var(--btn-padding, 12px 20px);
-  }
+	.lg\:n-btn-size\:3 {
+		font-size: 18px;
+		padding: var(--btn-padding, 12px 20px);
+	}
 
-  .lg\:n-btn-size\:1:is(.n-icon) {
-    mask-size: var(--icon-size-1);
-  }
+	.lg\:n-btn-size\:1:is(.n-icon) {
+		mask-size: var(--icon-size-1);
+	}
 
-  .lg\:n-btn-size\:2:is(.n-icon) {
-    mask-size: var(--icon-size-2);
-  }
+	.lg\:n-btn-size\:2:is(.n-icon) {
+		mask-size: var(--icon-size-2);
+	}
 
-  .lg\:n-btn-size\:3:is(.n-icon) {
-    mask-size: var(--icon-size-3);
-  }
+	.lg\:n-btn-size\:3:is(.n-icon) {
+		mask-size: var(--icon-size-3);
+	}
 
-  /* <color>------------------------------------ */
-  /* base */
+	/* <color>------------------------------------ */
+	/* base */
 
-  .lg\:n-btn-color\:main {
-    border-color: var(--color-main-2);
+	.lg\:n-btn-color\:main {
+		border-color: var(--color-main-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .lg\:n-btn-color\:main:hover {
-    --btn-bg-hover: var(--color-main-1);
-  }
+	.lg\:n-btn-color\:main:hover {
+		--btn-bg-hover: var(--color-main-1);
+	}
 
-  .lg\:n-btn-color\:main:is(.n-icon)::before {}
+	.lg\:n-btn-color\:main:is(.n-icon)::before {
+	}
 
-  .lg\:n-btn-color\:sub {
-    border-color: var(--color-sub-2);
+	.lg\:n-btn-color\:sub {
+		border-color: var(--color-sub-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .lg\:n-btn-color\:sub:hover {
-    --btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
-  }
+	.lg\:n-btn-color\:sub:hover {
+		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+	}
 
-  .lg\:n-btn-color\:sub:is(.n-icon)::before {}
+	.lg\:n-btn-color\:sub:is(.n-icon)::before {
+	}
 
-  .lg\:n-btn-color\:accent {
-    border-color: var(--color-accent-2);
+	.lg\:n-btn-color\:accent {
+		border-color: var(--color-accent-2);
 
-    color: var(--color-base-1);
-  }
+		color: var(--color-base-1);
+	}
 
-  .lg\:n-btn-color\:accent:hover {
-    --btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
-  }
+	.lg\:n-btn-color\:accent:hover {
+		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
+	}
 
-  .lg\:n-btn-color\:accent:is(.n-icon)::before {}
+	.lg\:n-btn-color\:accent:is(.n-icon)::before {
+	}
 
-  /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
-  .lg\:n-btn:is(.n-icon):not(.n-deco),
-  .lg\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
-    --btn-padding: 8px;
-    text-indent: -999px;
-  }
+	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+	.lg\:n-btn:is(.n-icon):not(.n-deco),
+	.lg\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+		--btn-padding: 8px;
+		text-indent: -999px;
+	}
 
-  .lg\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
-    --btn-padding: 10px;
-  }
+	.lg\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+		--btn-padding: 10px;
+	}
 
-  .lg\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
-    --btn-padding: 12px;
-  }
+	.lg\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+		--btn-padding: 12px;
+	}
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
