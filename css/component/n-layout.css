@@ -43,6 +43,7 @@ body:has(.n-layout) {
 
 		transition: width 0.3s ease, transform 0.3s ease;
 		will-change: width, transform;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
 
 		> :where(header) {
 			height: 50px;
@@ -98,6 +99,7 @@ body:has(.n-layout) {
 
 	main {
 		grid-area: main;
+
 		display: flex;
 		flex-direction: column;
 	}
@@ -114,39 +116,166 @@ body:has(.n-layout) {
 
 /* ==== n-layout 상태 스타일 ================================================== */
 
-/* ---- 1. 각 영역에 기분 패팅 주기 ------------------------------------ */
-.n-layout.n-pd {
+/* ---- 1. 각 영역에 색 지정하기 ------------------------------------ */
+.n-layout {
+	background-color: var(--color-base-2);
+
+	> :where(.n-header, * > .n-header) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+
+	> :where(.n-aside, * > .n-aside) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+
+	> :where(main) {
+		background-color: var(--color-base-2);
+		color: var(--color-base-7);
+	}
+
+	> :where(.n-footer, * > .n-footer) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+}
+
+.n-layout.layout-color\:base-1 {
+	background-color: var(--color-base-2);
+
+	> :where(.n-header, * > .n-header) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+
+	> :where(.n-aside, * > .n-aside) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+
+	> :where(main) {
+		background-color: var(--color-base-2);
+		color: var(--color-base-7);
+	}
+
+	> :where(.n-footer, * > .n-footer) {
+		background-color: var(--color-base-1);
+		color: var(--color-base-7);
+	}
+}
+
+/* ==== 2. 각 영역에 패팅 설정하기 ================================================== */
+/* ---- 2-1. 기본 패팅 ------------------------------------ */
+.n-layout.layout-pd\:0,
+.n-layout.layout-padding\:0 {
+	& > :where(.n-header, * > .n-header) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	& > :where(.n-aside) {
+		.n-section\:aside-menu {
+			padding: 0;
+		}
+	}
+
+	& > :where(main) {
+		padding: 0;
+	}
+
+	& > :where(.n-footer, * > .n-footer) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.n-layout,
+.n-layout.layout-pd\:1,
+.n-layout.layout-padding\:1 {
 	& > :where(.n-header, * > .n-header) {
 		padding-left: var(--gap-6);
 		padding-right: var(--gap-6);
 	}
 
-	& > :where(.n-aside) {
+	/* & > :where(.n-aside) {
 		.n-section\:aside-menu {
 			padding: var(--gap-4);
 		}
-	}
+	} */
 
 	& > :where(main) {
 		padding: var(--gap-10);
 	}
+
+	& > :where(.n-footer, * > .n-footer) {
+		padding-left: var(--gap-6);
+		padding-right: var(--gap-6);
+	}
+}
+
+/* ---- 2-2. 두번 째 패딩 ------------------------------------ */
+
+.n-layout.layout-pd\:2,
+.n-layout.layout-padding\:2 {
+	& > :where(.n-header, * > .n-header) {
+		padding-left: var(--gap-7);
+		padding-right: var(--gap-7);
+	}
+
+	& > :where(.n-aside) {
+		.n-section\:aside-menu {
+			padding: var(--gap-5);
+		}
+	}
+
+	& > :where(main) {
+		padding: var(--gap-12);
+	}
+
+	& > :where(.n-footer, * > .n-footer) {
+		padding-left: var(--gap-7);
+		padding-right: var(--gap-7);
+	}
 }
 
 @media (max-width: 600px) {
-	.n-layout.n-pd {
+	/* ---- 2-1. 기본 패팅 ------------------------------------ */
+
+	.n-layout,
+	.n-layout.layout-pd\:1,
+	.n-layout.layout-padding\:1 {
 		& > :where(.n-header, * > .n-header) {
 			padding-left: var(--gap-4);
 			padding-right: var(--gap-4);
 		}
 
-		& > :where(.n-aside) {
-			.n-section\:aside-menu {
-				padding: var(--gap-4);
-			}
+		& > :where(main) {
+			padding: var(--gap-7);
+		}
+
+		& > :where(.n-footer, * > .n-footer) {
+			padding-left: var(--gap-4);
+			padding-right: var(--gap-4);
+		}
+	}
+
+	/* ---- 2-2. 두번 째 패딩 ------------------------------------ */
+
+	.n-layout.layout-pd\:2,
+	.n-layout.layout-padding\:2 {
+		& > :where(.n-header, * > .n-header) {
+			padding-left: var(--gap-5);
+			padding-right: var(--gap-5);
 		}
 
 		& > :where(main) {
-			padding: var(--gap-7);
+			padding: var(--gap-8);
+		}
+
+		& > :where(.n-footer, * > .n-footer) {
+			padding-left: var(--gap-8);
+			padding-right: var(--gap-8);
 		}
 	}
 }
@@ -180,16 +309,20 @@ body:has(.n-layout) {
 /* ---- 2. 윈도우 너비 Event 스타일(문서 너비가 좁아지면 Floating) ------------------------------------ */
 @media (max-width: 600px) {
 	.n-layout {
-		& > :where(.n-aside, * > .n-aside) {
+		& > .n-aside {
+			width: 45px;
+		}
+		/* & > :where(.n-aside, * > .n-aside) {
 			.n-section\:aside-menu {
 				> h1 {
 					display: none;
 				}
 			}
-		}
+		} */
 	}
 
-	.n-layout.n-pd {
+	/* .n-layout.layout-pd,
+	.n-layout.layout-padding {
 		& > :where(.n-aside, * > .n-aside) {
 			.n-section\:aside-menu {
 				padding: 0;
@@ -199,5 +332,5 @@ body:has(.n-layout) {
 		& > .n-aside {
 			width: 45px;
 		}
-	}
+	} */
 }

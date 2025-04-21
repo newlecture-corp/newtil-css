@@ -2,9 +2,25 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: var(--gap-2);
+
+	&.n-list\:left {
+		justify-content: flex-start;
+	}
+	&.n-list\:center {
+		justify-content: center;
+	}
+	&.n-list\:right {
+		justify-content: flex-end;
+	}
 }
 
+.n-list\:wrap {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 1rem;
+}
+
+/* --- aside-menu --------------------------------- */
 .n-list\:aside-menu {
 	flex-direction: column;
 	overflow: hidden;
@@ -30,8 +46,40 @@
 	} */
 }
 
+/* --- ruled-data-list --------------------------------- */
+.n-list\:definition-list-ruled {
+	display: flex;
+	flex-direction: column;
+
+	> div {
+		padding: var(--gap-2) 0;
+		border-bottom: 1px dashed var(--color-base-5);
+
+		display: flex;
+		flex-direction: row;
+
+		> dt {
+			font-weight: bold;
+
+			&:after {
+				content: ":";
+			}
+		}
+
+		> dd {
+			margin-left: var(--gap-2);
+			flex-grow: 1;
+		}
+	}
+
+	> div:last-child {
+		border-bottom: none;
+	}
+}
+
 /* hover가 가능한 기기(예: PC)에서만 :hover 스타일 적용 */
 @media (hover: hover) and (pointer: fine) {
+	/* --- aside-menu --------------------------------- */
 	.n-list\:aside-menu {
 		li:hover {
 			background-color: var(--color-base-5);

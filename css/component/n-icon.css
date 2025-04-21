@@ -1,5 +1,8 @@
 /* ───────────────────────────────────
- * icon
+ * n-icon 
+ 	+ n-icon:name:필수
+	+ n-icon:border-* or bd-* 옵션
+ 
  * deco
  * deco-position
  * deco-size
@@ -35,6 +38,8 @@
 
 	visibility: visible;
 
+	transition: all 0.2s ease-in-out;
+
 	&::before {
 		/*icon 스타일*/
 
@@ -48,6 +53,8 @@
 		width: var(--icon-size);
 		height: var(--icon-size);
 		overflow: hidden;
+
+		/* margin-right: 999px; */
 
 		/* background-color: var(--icon-color);
     background-repeat: no-repeat;
@@ -69,22 +76,57 @@
 		}
 	}
 }
+/* === border  =============================== */
+
+.icon-border,
+.icon-bd,
+.icon-border\:circle,
+.icon-bd\:circle,
+.icon-border\:radius,
+.icon-bd\:radius {
+	width: calc(var(--icon-size) + 4px);
+	height: calc(var(--icon-size) + 4px);
+	/* 아이콘 위치 보정 */
+	padding-left: 1px;
+
+	&::before {
+		/* 텍스트를 박스 밖으로 밀어내기 */
+		margin-right: 2px;
+	}
+
+	&:hover {
+		background-color: var(--color-base-3);
+		color: var(--color-main-1);
+	}
+
+	border: 1px solid var(--border-color, var(--color-base-5));
+}
+
+.icon-border\:circle,
+.icon-bd\:circle {
+	border-radius: 50%;
+}
+
+.icon-border\:radius,
+.icon-bd\:radius {
+	border-radius: var(--border-radius, 8px);
+}
 
 /* === style  =============================== */
 
-.n-icon-style\:outlined::before {
+.icon-style\:outlined::before {
 	font-family: "Material Symbols Outlined";
 }
 
-.n-icon-style\:filled::before {
+.icon-style\:filled::before {
 	font-variation-settings: "FILL" 1;
 }
 
-.n-icon-style\:rounded::before {
+.icon-style\:rounded::before {
 	font-family: "Material Symbols Rounded";
 }
 
-.n-icon-style\:sharp::before {
+.icon-style\:sharp::before {
 	font-family: "Material Symbols Sharp";
 }
 
@@ -95,158 +137,248 @@ sub 1/2/3
 accent 1/2/3
 base 1/2/3/4/5/6/7/8/9/10*/
 
-.n-icon-color\:main-1::before {
+.icon-color\:main-1::before {
 	color: var(--color-main-1);
 }
 
-.n-icon-color\:main-2::before {
+.icon-color\:main-2::before {
 	color: var(--color-main-2);
 }
 
-.n-icon-color\:main-3::before {
+.icon-color\:main-3::before {
 	color: var(--color-main-3);
 }
 
-.n-icon-color\:sub-1::before {
+.icon-color\:sub-1::before {
 	color: var(--color-sub-1);
 }
 
-.n-icon-color\:sub-2::before {
+.icon-color\:sub-2::before {
 	color: var(--color-sub-2);
 }
 
-.n-icon-color\:sub-3::before {
+.icon-color\:sub-3::before {
 	color: var(--color-sub-3);
 }
 
-.n-icon-color\:accent-1::before {
+.icon-color\:accent-1::before {
 	color: var(--color-accent-1);
 }
 
-.n-icon-color\:accent-2::before {
+.icon-color\:accent-2::before {
 	color: var(--color-accent-2);
 }
 
-.n-icon-color\:accent-3::before {
+.icon-color\:accent-3::before {
 	color: var(--color-accent-3);
 }
 
-.n-icon-color\:base-1::before {
+.icon-color\:base-1::before {
 	color: var(--color-base-1);
 }
 
-.n-icon-color\:base-2::before {
+.icon-color\:base-2::before {
 	color: var(--color-base-2);
 }
 
-.n-icon-color\:base-3::before {
+.icon-color\:base-3::before {
 	color: var(--color-base-3);
 }
 
-.n-icon-color\:base-4::before {
+.icon-color\:base-4::before {
 	color: var(--color-base-4);
 }
 
-.n-icon-color\:base-5::before {
+.icon-color\:base-5::before {
 	color: var(--color-base-5);
 }
 
-.n-icon-color\:base-6::before {
+.icon-color\:base-6::before {
 	color: var(--color-base-6);
 }
 
-.n-icon-color\:base-7::before {
+.icon-color\:base-7::before {
 	color: var(--color-base-7);
 }
 
-.n-icon-color\:base-8::before {
+.icon-color\:base-8::before {
 	color: var(--color-base-8);
 }
 
-.n-icon-color\:base-9::before {
+.icon-color\:base-9::before {
 	color: var(--color-base-9);
 }
 
-.n-icon-color\:base-10::before {
+.icon-color\:base-10::before {
 	color: var(--color-base-10);
 }
 
 /* ---- icon-size ------------------------------------------------- */
 
-.n-icon-size\:1 {
+.icon-size\:1 {
 	--icon-size: var(--icon-size-1);
 }
 
-.n-icon-size\:1::before {
+.icon-size\:1::before {
 	font-size: var(--icon-size-1);
 }
 
-.n-icon-size\:2 {
+.icon-size\:2 {
 	--icon-size: var(--icon-size-2);
 }
 
-.n-icon-size\:2::before {
+.icon-size\:2::before {
 	font-size: var(--icon-size-2);
 }
 
-.n-icon-size\:3 {
+.icon-size\:3 {
 	--icon-size: var(--icon-size-3);
 }
 
-.n-icon-size\:3::before {
+.icon-size\:3::before {
 	font-size: var(--icon-size-3);
 }
 
-.n-icon-size\:4 {
+.icon-size\:4 {
 	--icon-size: var(--icon-size-4);
 }
 
-.n-icon-size\:4::before {
+.icon-size\:4::before {
 	font-size: var(--icon-size-4);
 }
 
-.n-icon-size\:5 {
+.icon-size\:5 {
 	--icon-size: var(--icon-size-5);
 }
 
-.n-icon-size\:5::before {
+.icon-size\:5::before {
 	font-size: var(--icon-size-5);
 }
 
-.n-icon-size\:6 {
+.icon-size\:6 {
 	--icon-size: var(--icon-size-6);
+	&.icon-border,
+	&.icon-bd,
+	&.icon-border\:circle,
+	&.icon-bd\:circle,
+	&.icon-border\:radius,
+	&.icon-bd\:radius {
+		width: calc(var(--icon-size) + 6px);
+		height: calc(var(--icon-size) + 6px);
+		padding-left: 3px;
+	}
 }
 
-.n-icon-size\:6::before {
+.icon-size\:6::before {
 	font-size: var(--icon-size-6);
+	margin-right: 3px;
 }
 
-.n-icon-size\:7 {
+.icon-size\:7 {
 	--icon-size: var(--icon-size-7);
+	&.icon-border,
+	&.icon-bd,
+	&.icon-border\:circle,
+	&.icon-bd\:circle,
+	&.icon-border\:radius,
+	&.icon-bd\:radius {
+		width: calc(var(--icon-size) + 10px);
+		height: calc(var(--icon-size) + 10px);
+		padding-left: 4px;
+	}
 }
 
-.n-icon-size\:7::before {
+.icon-size\:7::before {
 	font-size: var(--icon-size-7);
+	margin-right: 4px;
 }
 
-.n-icon-size\:8 {
+.icon-size\:8 {
 	--icon-size: var(--icon-size-8);
+
+	&.icon-border,
+	&.icon-bd,
+	&.icon-border\:circle,
+	&.icon-bd\:circle,
+	&.icon-border\:radius,
+	&.icon-bd\:radius {
+		width: calc(var(--icon-size) + 12px);
+		height: calc(var(--icon-size) + 12px);
+		padding-left: 5px;
+	}
+
+	&::before {
+		margin-right: 5px;
+		font-size: var(--icon-size-8);
+	}
 }
 
-.n-icon-size\:8::before {
-	font-size: var(--icon-size-8);
-}
-
-.n-icon-size\:9 {
+.icon-size\:9 {
 	--icon-size: var(--icon-size-9);
 }
 
-.n-icon-size\:ex {
+.icon-size\:ex {
 	--icon-size: var(--icon-size-ex);
 }
 
-.n-icon-size\:ex::before {
+.icon-size\:ex::before {
 	font-size: var(--icon-size-ex);
+}
+
+/* --- icon-padding ------------------------------------ */
+.icon-pd\:1,
+.icon-padding\:1 {
+	width: calc(var(--icon-size) + 8px);
+	height: calc(var(--icon-size) + 8px);
+	padding-left: 3px;
+
+	&::before {
+		margin-right: 3px;
+	}
+}
+
+.icon-pd\:2,
+.icon-padding\:2 {
+	width: calc(var(--icon-size) + 12px);
+	height: calc(var(--icon-size) + 12px);
+	padding-left: 5px;
+
+	&::before {
+		margin-right: 5px;
+	}
+}
+
+.icon-pd\:3,
+.icon-padding\:3 {
+	width: calc(var(--icon-size) + 16px);
+	height: calc(var(--icon-size) + 16px);
+	padding-left: 7px;
+
+	&::before {
+		margin-right: 7px;
+	}
+}
+
+.icon-pd\:4,
+.icon-padding\:4 {
+	width: calc(var(--icon-size) + 20px);
+	height: calc(var(--icon-size) + 20px);
+	padding-left: 9px;
+
+	&::before {
+		margin-right: 9px;
+	}
+}
+
+.icon-pd\:5,
+.icon-padding\:5 {
+	width: calc(var(--icon-size) + 28px);
+	height: calc(var(--icon-size) + 28px);
+	padding-left: 13px;
+
+	&::before {
+		margin-right: 13px;
+	}
 }
 
 /* === decoration ========================= */

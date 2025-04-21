@@ -63,17 +63,27 @@ body {
 }
 
 .n-active,
+.n-active\:1,
+.n-active\:2,
+.n-active\:3 {
+	color: var(--color-base-1);
+	border: none;
+}
+
+.n-active,
 .n-active\:1 {
 	background-color: rgba(var(--rgb-main-1), 0.7);
-	color: var(--color-base-1);
 }
 
 .n-active\:2 {
 	background-color: rgba(var(--rgb-main-2), 0.7);
-	color: var(--color-base-1);
 }
 
 .n-active\:3 {
 	background-color: rgba(var(--rgb-main-3), 0.7);
-	color: var(--color-base-1);
+}
+
+.n-shadow {
+	box-shadow: 0 1px 3px -1px rgba(22, 26, 32, 0.05),
+		0 2px 8px -1px rgba(50, 50, 93, 0.13);
 }

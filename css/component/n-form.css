@@ -1,124 +1,118 @@
-
 .n-form {
-  /* form style */
-  --form-border-radius: 16px;
-  --form-padding: 24px;
+	/* form style */
+	--form-border-radius: 16px;
+	--form-padding: 24px;
 
-  /* textbox style */
-  /* textbox-size */
-  --input-padding-x: 12px;
-  --input-input-height: 36px;
-  --input-textarea-min-height: 58px;
+	/* textbox style */
+	/* textbox-size */
+	--input-padding-x: 12px;
+	--input-input-height: 36px;
+	--input-textarea-min-height: 58px;
 
-  /* textbox-border-radius */
-  --input-border-radius: 6px;
+	/* textbox-border-radius */
+	--input-border-radius: 6px;
 
-  /* textbox-border-color */
-  --input-border-color: var(--color-base-3);
+	/* textbox-border-color */
+	--input-border-color: var(--color-base-3);
 
-  /* textbox-border-width */
-  --input-underline-border-width: 1.6px;
+	/* textbox-border-width */
+	--input-underline-border-width: 1.6px;
 
-  /* textbox-status:focus */
-  --input-border-color-focus: var(--color-sub-2);
+	/* textbox-status:focus */
+	--input-border-color-focus: var(--color-sub-2);
 
-  /* textbox-status:success */
-  --input-border-color-success: #37b24d;
+	/* textbox-status:success */
+	--input-border-color-success: #37b24d;
 
-  /* textbox-status:warning */
-  --input-color-warning: var(--color-accent-1);
-  --input-border-color-warning: var(--color-accent-1);
+	/* textbox-status:warning */
+	--input-color-warning: var(--color-accent-1);
+	--input-border-color-warning: var(--color-accent-1);
 
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-5);
 
+	> div {
+		width: 100%;
+		padding: 5px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
 
-  > div {
-    width: 100%;
-    padding: 5px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+		label {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
 
-    label {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
+			> span {
+				display: inline-flex;
+				width: 100%;
+				font-weight: 500;
+			}
 
+			/* ---- textbox ----------------------------------------- */
+			/* input, textarea */
 
-      > span {
-        display: inline-flex;
-        width: 100%;
-        font-weight: 500;
-      }
+			> input[type="email"],
+			> input[type="number"],
+			> input[type="password"],
+			> input[type="search"],
+			> input[type="tel"],
+			> input[type="text"],
+			> input[type="url"],
+			> textarea {
+				cursor: default;
 
-      /* ---- textbox ----------------------------------------- */
-      /* input, textarea */
+				font-size: 14px;
+				color: rgba(var(--rgb-base-7), 0.85);
+				line-height: 150%;
 
-      > input[type="email"],
-      > input[type="number"],
-      > input[type="password"],
-      > input[type="search"],
-      > input[type="tel"],
-      > input[type="text"],
-      > input[type="url"],
-      > textarea {
-        cursor: default;
+				background-color: var(--color-base-1);
+				border: 1px solid var(--input-border-color);
+				border-radius: var(--input-border-radius);
+				box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
 
-        font-size: 14px;
-        color: rgba(var(--rgb-base-7), 0.85);
-        line-height: 150%;
+				padding: 4px var(--input-padding-x);
+				flex-grow: 1;
 
-        background-color: var(--color-base-1);
-        border: 1px solid var(--input-border-color);
-        border-radius: var(--input-border-radius);
-        box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+				transition: border 0.12s;
+			}
 
-        padding: 4px var(--input-padding-x);
-        flex-grow: 1;
+			> textarea {
+				min-height: 100px; /* 최소 높이 설정 */
+				height: auto; /* 내용에 따라 높이 자동 조절 */
+				overflow-y: auto; /* 세로 스크롤 막기 */
+			}
+		}
+	}
 
-        transition: border 0.12s;
-      }
+	&.n-label-pos\:left {
+		> div {
+			label {
+				flex-direction: row;
+				align-items: center;
+				width: 100%;
 
-      > textarea {
-        min-height: 100px; /* 최소 높이 설정 */
-        height: auto; /* 내용에 따라 높이 자동 조절 */
-        overflow-y: auto; /* 세로 스크롤 막기 */
-      }
-    }
-  }
+				> span {
+					display: inline-flex;
+					width: 20%;
+					justify-content: center;
+					overflow: hidden;
+					text-wrap: nowrap;
+					white-space: nowrap;
+					text-overflow: ellipsis " [..]";
+				}
 
-  &.n-label-pos\:left {
+				> span::after {
+					content: " : ";
+				}
 
-    > div {
-
-      label {
-
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-
-        > span {
-          display: inline-flex;
-          width: 20%;
-          justify-content: center;
-          overflow: hidden;
-          text-wrap: nowrap;
-          white-space: nowrap;
-          text-overflow: ellipsis " [..]";
-        }
-
-        > span::after {
-          content: " : ";
-        }
-
-        input {
-          flex-grow: 1;
-        }
-      }
-
-    }
-  }
+				input {
+					flex-grow: 1;
+				}
+			}
+		}
+	}
 }
 /* ---- mobile ------------------------------------------------- */
 @media (min-width: 576px) {
@@ -134,6 +128,4 @@
 
 /* ---- extra large ------------------------------------------------- */
 @media (min-width: 1200px) {
-
 }
-

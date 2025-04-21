@@ -29,7 +29,10 @@
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-.n-btn {
+.n-btn,
+.n-btn\:static,
+.n-btn\:rounded,
+.n-btn\:circle {
 	--btn-font-size: 14px;
 	--btn-border-radius: 8px;
 	--btn-bg-color: transparent;
@@ -79,11 +82,13 @@
 	cursor: unset;
 }
 
-.n-btn.n-rounded {
+.n-btn\:border-radius,
+.n-btn\:bd-radius {
 	border-radius: var(--btn-border-radius, 8px);
 }
 
-.n-btn.n-circle {
+.n-btn\:border-circle,
+.n-btn\:bd-circle {
 	border-radius: 50%;
 }
 
