@@ -33,7 +33,7 @@
 - [MDN](https://developer.mozilla.org/)
 - [Google Icons](https://fonts.google.com/icons)
 
-### 저작권
+### 저작자
 
 - [뉴렉처](https://www.newlecture.com) (https://www.newlecture.com)
 
