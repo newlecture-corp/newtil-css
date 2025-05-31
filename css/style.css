@@ -41,10 +41,18 @@
 	--color-accent-1: #334dcf;
 	--rgb-accent-1: 51, 77, 207;
 }
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+} */
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	border-color: #e5e7eb;
 }
 
 body {

@@ -46,6 +46,81 @@
 	} */
 }
 
+/* === n-list:tab-1 ================================= */
+
+.n-list\:tab-1 {
+	display: flex;
+	gap: 32px;
+
+	& > :hover::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: var(--color-base-4);
+		position: relative;
+		top: 2px;
+		/* background-color: rgba(var(--rgb-main-3), 0.1); */
+	}
+
+	& > .active::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: var(--color-main-1);
+		position: relative;
+		top: 2px;
+		/* background-color: rgba(var(--rgb-main-3), 0.1); */
+	}
+}
+
+.n-list\:tab-1 {
+	& > .color\:main-1\:active.active::after {
+		background-color: var(--color-main-1);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:main-2\:active.active::after {
+		background-color: var(--color-main-2);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:main-3\:active.active::after {
+		background-color: var(--color-main-3);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:sub-1.active::after {
+		background-color: var(--color-sub-1);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:sub-2\:active.active::after {
+		background-color: var(--color-sub-2);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:sub-3\:active.active::after {
+		background-color: var(--color-sub-3);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:accent-1\:active.active::after {
+		background-color: var(--color-accent-1);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:accent-2\:active.active::after {
+		background-color: var(--color-accent-2);
+	}
+}
+.n-list\:tab-1 {
+	& > .color\:accent-3\:active.active::after {
+		background-color: var(--color-accent-3);
+	}
+}
+
 /* --- ruled-data-list --------------------------------- */
 .n-list\:definition-list-ruled {
 	display: flex;
