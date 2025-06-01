@@ -53,26 +53,30 @@
 		.n-frame\:2,
 		.n-frame\:3
 	) {
-	--n-padding: 12px 14px;
-	/* --n-panel-bg-color: var(--color-base-1); */
+	--n-padding: 24px;
 	--n-bd-radius: 12px;
 
-	padding: var(--n-padding);
-	/* background-color: var(--n-panel-bg-color); */
-	border: none;
 	box-sizing: border-box;
+	padding: var(--n-padding);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+
 	display: flex;
 	flex-direction: column;
-	/* background-color: var(--color-base-1); */
 
 	overflow: hidden;
 }
 
+.n-panel,
 .n-panel\:1,
 .n-frame,
 .n-frame\:1 {
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(var(--rgb-base-1), 0.4);
 	padding: var(--n-padding);
+
+	box-shadow: 0 1px 3px -1px rgba(22, 26, 32, 0.05),
+		0 2px 8px -1px rgba(50, 50, 93, 0.13);
+	border-radius: var(--n-bd-radius);
+	background-color: var(--panel-bg-color, transparent);
 }
 
 .n-panel\:2,
@@ -145,7 +149,7 @@
 	> header ~ * {
 		height: auto;
 		padding: var(--gap-4) var(--gap-6);
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-top: 1px solid rgba(var(--rgb-base-1), 0.3);
 
 		transition: height 0.3s ease, overflow 0.3s ease;
 	}
