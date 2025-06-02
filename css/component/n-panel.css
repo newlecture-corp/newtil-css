@@ -67,16 +67,19 @@
 }
 
 .n-panel,
+.n-frame {
+	padding: var(--n-padding);
+
+	background-color: var(--panel-bg-color, transparent);
+}
+
 .n-panel\:1,
-.n-frame,
 .n-frame\:1 {
 	border: 1px solid rgba(var(--rgb-base-1), 0.4);
-	padding: var(--n-padding);
 
 	box-shadow: 0 1px 3px -1px rgba(22, 26, 32, 0.05),
 		0 2px 8px -1px rgba(50, 50, 93, 0.13);
 	border-radius: var(--n-bd-radius);
-	background-color: var(--panel-bg-color, transparent);
 }
 
 .n-panel\:2,
