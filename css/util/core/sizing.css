@@ -1,0 +1,871 @@
+/* ===== SIZING UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* 혼합 Variables 시스템: spacing, size, 리터럴 값 조합 */
+
+/* ===== WIDTH ===== */
+
+/* width: auto */
+.width\:auto,
+.w\:auto {
+	width: var(--size-auto) !important;
+}
+
+/* width: 0 */
+.width\:0,
+.w\:0 {
+	width: var(--size-0) !important;
+}
+
+/* width: spacing scale (rem 기반) */
+.width\:px,
+.w\:px {
+	width: var(--spacing-px) !important;
+}
+
+.width\:1,
+.w\:1 {
+	width: var(--spacing-1) !important;
+}
+
+.width\:2,
+.w\:2 {
+	width: var(--spacing-2) !important;
+}
+
+.width\:4,
+.w\:4 {
+	width: var(--spacing-4) !important;
+}
+
+.width\:6,
+.w\:6 {
+	width: var(--spacing-6) !important;
+}
+
+.width\:8,
+.w\:8 {
+	width: var(--spacing-8) !important;
+}
+
+.width\:12,
+.w\:12 {
+	width: var(--spacing-12) !important;
+}
+
+.width\:16,
+.w\:16 {
+	width: var(--spacing-16) !important;
+}
+
+.width\:20,
+.w\:20 {
+	width: var(--spacing-20) !important;
+}
+
+.width\:24,
+.w\:24 {
+	width: var(--spacing-24) !important;
+}
+
+/* width: percentage scale */
+.width\:1\/2,
+.w\:1\/2 {
+	width: var(--size-1\/2) !important;
+}
+
+.width\:1\/3,
+.w\:1\/3 {
+	width: var(--size-1\/3) !important;
+}
+
+.width\:2\/3,
+.w\:2\/3 {
+	width: var(--size-2\/3) !important;
+}
+
+.width\:1\/4,
+.w\:1\/4 {
+	width: var(--size-1\/4) !important;
+}
+
+.width\:3\/4,
+.w\:3\/4 {
+	width: var(--size-3\/4) !important;
+}
+
+.width\:1\/5,
+.w\:1\/5 {
+	width: var(--size-1\/5) !important;
+}
+
+.width\:2\/5,
+.w\:2\/5 {
+	width: var(--size-2\/5) !important;
+}
+
+.width\:3\/5,
+.w\:3\/5 {
+	width: var(--size-3\/5) !important;
+}
+
+.width\:4\/5,
+.w\:4\/5 {
+	width: var(--size-4\/5) !important;
+}
+
+.width\:1\/6,
+.w\:1\/6 {
+	width: var(--size-1\/6) !important;
+}
+
+.width\:5\/6,
+.w\:5\/6 {
+	width: var(--size-5\/6) !important;
+}
+
+.width\:1\/12,
+.w\:1\/12 {
+	width: var(--size-1\/12) !important;
+}
+
+.width\:5\/12,
+.w\:5\/12 {
+	width: var(--size-5\/12) !important;
+}
+
+.width\:7\/12,
+.w\:7\/12 {
+	width: var(--size-7\/12) !important;
+}
+
+.width\:11\/12,
+.w\:11\/12 {
+	width: var(--size-11\/12) !important;
+}
+
+.width\:full,
+.w\:full {
+	width: var(--size-full) !important;
+}
+
+/* width: viewport units */
+.width\:25vw,
+.w\:25vw {
+	width: var(--size-25vw) !important;
+}
+
+.width\:50vw,
+.w\:50vw {
+	width: var(--size-50vw) !important;
+}
+
+.width\:75vw,
+.w\:75vw {
+	width: var(--size-75vw) !important;
+}
+
+.width\:100vw,
+.w\:100vw {
+	width: var(--size-100vw) !important;
+}
+
+.width\:screen,
+.w\:screen {
+	width: var(--size-screen) !important;
+}
+
+/* width: content sizing */
+.width\:min,
+.w\:min {
+	width: var(--size-min) !important;
+}
+
+.width\:max,
+.w\:max {
+	width: var(--size-max) !important;
+}
+
+.width\:fit,
+.w\:fit {
+	width: var(--size-fit) !important;
+}
+
+/* width: em-based (relative) */
+.width\:1e,
+.w\:1e {
+	width: var(--spacing-em-1) !important;
+}
+
+.width\:2e,
+.w\:2e {
+	width: var(--spacing-em-2) !important;
+}
+
+.width\:4e,
+.w\:4e {
+	width: var(--spacing-em-4) !important;
+}
+
+.width\:6e,
+.w\:6e {
+	width: var(--spacing-em-6) !important;
+}
+
+.width\:8e,
+.w\:8e {
+	width: var(--spacing-em-8) !important;
+}
+
+.width\:12e,
+.w\:12e {
+	width: var(--spacing-em-12) !important;
+}
+
+.width\:16e,
+.w\:16e {
+	width: var(--spacing-em-16) !important;
+}
+
+.width\:20e,
+.w\:20e {
+	width: var(--spacing-em-20) !important;
+}
+
+/* ===== HEIGHT ===== */
+
+/* height: auto */
+.height\:auto,
+.h\:auto {
+	height: var(--size-auto) !important;
+}
+
+/* height: 0 */
+.height\:0,
+.h\:0 {
+	height: var(--size-0) !important;
+}
+
+/* height: spacing scale (rem 기반) */
+.height\:px,
+.h\:px {
+	height: var(--spacing-px) !important;
+}
+
+.height\:1,
+.h\:1 {
+	height: var(--spacing-1) !important;
+}
+
+.height\:2,
+.h\:2 {
+	height: var(--spacing-2) !important;
+}
+
+.height\:4,
+.h\:4 {
+	height: var(--spacing-4) !important;
+}
+
+.height\:6,
+.h\:6 {
+	height: var(--spacing-6) !important;
+}
+
+.height\:8,
+.h\:8 {
+	height: var(--spacing-8) !important;
+}
+
+.height\:12,
+.h\:12 {
+	height: var(--spacing-12) !important;
+}
+
+.height\:16,
+.h\:16 {
+	height: var(--spacing-16) !important;
+}
+
+.height\:20,
+.h\:20 {
+	height: var(--spacing-20) !important;
+}
+
+.height\:24,
+.h\:24 {
+	height: var(--spacing-24) !important;
+}
+
+/* height: percentage scale */
+.height\:1\/2,
+.h\:1\/2 {
+	height: var(--size-1\/2) !important;
+}
+
+.height\:1\/3,
+.h\:1\/3 {
+	height: var(--size-1\/3) !important;
+}
+
+.height\:2\/3,
+.h\:2\/3 {
+	height: var(--size-2\/3) !important;
+}
+
+.height\:1\/4,
+.h\:1\/4 {
+	height: var(--size-1\/4) !important;
+}
+
+.height\:3\/4,
+.h\:3\/4 {
+	height: var(--size-3\/4) !important;
+}
+
+.height\:1\/5,
+.h\:1\/5 {
+	height: var(--size-1\/5) !important;
+}
+
+.height\:2\/5,
+.h\:2\/5 {
+	height: var(--size-2\/5) !important;
+}
+
+.height\:3\/5,
+.h\:3\/5 {
+	height: var(--size-3\/5) !important;
+}
+
+.height\:4\/5,
+.h\:4\/5 {
+	height: var(--size-4\/5) !important;
+}
+
+.height\:1\/6,
+.h\:1\/6 {
+	height: var(--size-1\/6) !important;
+}
+
+.height\:5\/6,
+.h\:5\/6 {
+	height: var(--size-5\/6) !important;
+}
+
+.height\:full,
+.h\:full {
+	height: var(--size-full) !important;
+}
+
+/* height: viewport units */
+.height\:25vh,
+.h\:25vh {
+	height: var(--size-25vh) !important;
+}
+
+.height\:50vh,
+.h\:50vh {
+	height: var(--size-50vh) !important;
+}
+
+.height\:75vh,
+.h\:75vh {
+	height: var(--size-75vh) !important;
+}
+
+.height\:100vh,
+.h\:100vh {
+	height: var(--size-100vh) !important;
+}
+
+.height\:screen,
+.h\:screen {
+	height: var(--size-100vh) !important;
+}
+
+/* height: content sizing */
+.height\:min,
+.h\:min {
+	height: var(--size-min) !important;
+}
+
+.height\:max,
+.h\:max {
+	height: var(--size-max) !important;
+}
+
+.height\:fit,
+.h\:fit {
+	height: var(--size-fit) !important;
+}
+
+/* height: em-based (relative) */
+.height\:1e,
+.h\:1e {
+	height: var(--spacing-em-1) !important;
+}
+
+.height\:2e,
+.h\:2e {
+	height: var(--spacing-em-2) !important;
+}
+
+.height\:4e,
+.h\:4e {
+	height: var(--spacing-em-4) !important;
+}
+
+.height\:6e,
+.h\:6e {
+	height: var(--spacing-em-6) !important;
+}
+
+.height\:8e,
+.h\:8e {
+	height: var(--spacing-em-8) !important;
+}
+
+.height\:12e,
+.h\:12e {
+	height: var(--spacing-em-12) !important;
+}
+
+.height\:16e,
+.h\:16e {
+	height: var(--spacing-em-16) !important;
+}
+
+.height\:20e,
+.h\:20e {
+	height: var(--spacing-em-20) !important;
+}
+
+/* ===== MIN/MAX WIDTH ===== */
+
+/* min-width */
+.min-width\:0,
+.min-w\:0 {
+	min-width: var(--size-0) !important;
+}
+
+.min-width\:4,
+.min-w\:4 {
+	min-width: var(--spacing-4) !important;
+}
+
+.min-width\:8,
+.min-w\:8 {
+	min-width: var(--spacing-8) !important;
+}
+
+.min-width\:16,
+.min-w\:16 {
+	min-width: var(--spacing-16) !important;
+}
+
+.min-width\:1\/2,
+.min-w\:1\/2 {
+	min-width: var(--size-1\/2) !important;
+}
+
+.min-width\:full,
+.min-w\:full {
+	min-width: var(--size-full) !important;
+}
+
+.min-width\:min,
+.min-w\:min {
+	min-width: var(--size-min) !important;
+}
+
+.min-width\:max,
+.min-w\:max {
+	min-width: var(--size-max) !important;
+}
+
+.min-width\:fit,
+.min-w\:fit {
+	min-width: var(--size-fit) !important;
+}
+
+/* max-width */
+.max-width\:4,
+.max-w\:4 {
+	max-width: var(--spacing-4) !important;
+}
+
+.max-width\:8,
+.max-w\:8 {
+	max-width: var(--spacing-8) !important;
+}
+
+.max-width\:16,
+.max-w\:16 {
+	max-width: var(--spacing-16) !important;
+}
+
+.max-width\:24,
+.max-w\:24 {
+	max-width: var(--spacing-24) !important;
+}
+
+.max-width\:1\/2,
+.max-w\:1\/2 {
+	max-width: var(--size-1\/2) !important;
+}
+
+.max-width\:1\/3,
+.max-w\:1\/3 {
+	max-width: var(--size-1\/3) !important;
+}
+
+.max-width\:2\/3,
+.max-w\:2\/3 {
+	max-width: var(--size-2\/3) !important;
+}
+
+.max-width\:full,
+.max-w\:full {
+	max-width: var(--size-full) !important;
+}
+
+.max-width\:min,
+.max-w\:min {
+	max-width: var(--size-min) !important;
+}
+
+.max-width\:max,
+.max-w\:max {
+	max-width: var(--size-max) !important;
+}
+
+.max-width\:fit,
+.max-w\:fit {
+	max-width: var(--size-fit) !important;
+}
+
+.max-width\:none,
+.max-w\:none {
+	max-width: none !important;
+}
+
+/* ===== MIN/MAX HEIGHT ===== */
+
+/* min-height */
+.min-height\:0,
+.min-h\:0 {
+	min-height: var(--size-0) !important;
+}
+
+.min-height\:4,
+.min-h\:4 {
+	min-height: var(--spacing-4) !important;
+}
+
+.min-height\:8,
+.min-h\:8 {
+	min-height: var(--spacing-8) !important;
+}
+
+.min-height\:16,
+.min-h\:16 {
+	min-height: var(--spacing-16) !important;
+}
+
+.min-height\:1\/2,
+.min-h\:1\/2 {
+	min-height: var(--size-1\/2) !important;
+}
+
+.min-height\:full,
+.min-h\:full {
+	min-height: var(--size-full) !important;
+}
+
+.min-height\:50vh,
+.min-h\:50vh {
+	min-height: var(--size-50vh) !important;
+}
+
+.min-height\:100vh,
+.min-h\:100vh {
+	min-height: var(--size-100vh) !important;
+}
+
+.min-height\:screen,
+.min-h\:screen {
+	min-height: var(--size-100vh) !important;
+}
+
+.min-height\:min,
+.min-h\:min {
+	min-height: var(--size-min) !important;
+}
+
+.min-height\:max,
+.min-h\:max {
+	min-height: var(--size-max) !important;
+}
+
+.min-height\:fit,
+.min-h\:fit {
+	min-height: var(--size-fit) !important;
+}
+
+/* max-height */
+.max-height\:4,
+.max-h\:4 {
+	max-height: var(--spacing-4) !important;
+}
+
+.max-height\:8,
+.max-h\:8 {
+	max-height: var(--spacing-8) !important;
+}
+
+.max-height\:16,
+.max-h\:16 {
+	max-height: var(--spacing-16) !important;
+}
+
+.max-height\:24,
+.max-h\:24 {
+	max-height: var(--spacing-24) !important;
+}
+
+.max-height\:1\/2,
+.max-h\:1\/2 {
+	max-height: var(--size-1\/2) !important;
+}
+
+.max-height\:1\/3,
+.max-h\:1\/3 {
+	max-height: var(--size-1\/3) !important;
+}
+
+.max-height\:2\/3,
+.max-h\:2\/3 {
+	max-height: var(--size-2\/3) !important;
+}
+
+.max-height\:full,
+.max-h\:full {
+	max-height: var(--size-full) !important;
+}
+
+.max-height\:50vh,
+.max-h\:50vh {
+	max-height: var(--size-50vh) !important;
+}
+
+.max-height\:100vh,
+.max-h\:100vh {
+	max-height: var(--size-100vh) !important;
+}
+
+.max-height\:screen,
+.max-h\:screen {
+	max-height: var(--size-100vh) !important;
+}
+
+.max-height\:min,
+.max-h\:min {
+	max-height: var(--size-min) !important;
+}
+
+.max-height\:max,
+.max-h\:max {
+	max-height: var(--size-max) !important;
+}
+
+.max-height\:fit,
+.max-h\:fit {
+	max-height: var(--size-fit) !important;
+}
+
+.max-height\:none,
+.max-h\:none {
+	max-height: none !important;
+}
+
+/* ===== RESPONSIVE SIZING ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:width\:auto,
+	.sm\:w\:auto {
+		width: var(--size-auto) !important;
+	}
+	.sm\:width\:4,
+	.sm\:w\:4 {
+		width: var(--spacing-4) !important;
+	}
+	.sm\:width\:8,
+	.sm\:w\:8 {
+		width: var(--spacing-8) !important;
+	}
+	.sm\:width\:1\/2,
+	.sm\:w\:1\/2 {
+		width: var(--size-1\/2) !important;
+	}
+	.sm\:width\:full,
+	.sm\:w\:full {
+		width: var(--size-full) !important;
+	}
+
+	.sm\:height\:auto,
+	.sm\:h\:auto {
+		height: var(--size-auto) !important;
+	}
+	.sm\:height\:4,
+	.sm\:h\:4 {
+		height: var(--spacing-4) !important;
+	}
+	.sm\:height\:8,
+	.sm\:h\:8 {
+		height: var(--spacing-8) !important;
+	}
+	.sm\:height\:1\/2,
+	.sm\:h\:1\/2 {
+		height: var(--size-1\/2) !important;
+	}
+	.sm\:height\:50vh,
+	.sm\:h\:50vh {
+		height: var(--size-50vh) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:width\:auto,
+	.md\:w\:auto {
+		width: var(--size-auto) !important;
+	}
+	.md\:width\:4,
+	.md\:w\:4 {
+		width: var(--spacing-4) !important;
+	}
+	.md\:width\:8,
+	.md\:w\:8 {
+		width: var(--spacing-8) !important;
+	}
+	.md\:width\:1\/2,
+	.md\:w\:1\/2 {
+		width: var(--size-1\/2) !important;
+	}
+	.md\:width\:full,
+	.md\:w\:full {
+		width: var(--size-full) !important;
+	}
+
+	.md\:height\:auto,
+	.md\:h\:auto {
+		height: var(--size-auto) !important;
+	}
+	.md\:height\:4,
+	.md\:h\:4 {
+		height: var(--spacing-4) !important;
+	}
+	.md\:height\:8,
+	.md\:h\:8 {
+		height: var(--spacing-8) !important;
+	}
+	.md\:height\:1\/2,
+	.md\:h\:1\/2 {
+		height: var(--size-1\/2) !important;
+	}
+	.md\:height\:50vh,
+	.md\:h\:50vh {
+		height: var(--size-50vh) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:width\:auto,
+	.lg\:w\:auto {
+		width: var(--size-auto) !important;
+	}
+	.lg\:width\:4,
+	.lg\:w\:4 {
+		width: var(--spacing-4) !important;
+	}
+	.lg\:width\:8,
+	.lg\:w\:8 {
+		width: var(--spacing-8) !important;
+	}
+	.lg\:width\:1\/2,
+	.lg\:w\:1\/2 {
+		width: var(--size-1\/2) !important;
+	}
+	.lg\:width\:full,
+	.lg\:w\:full {
+		width: var(--size-full) !important;
+	}
+
+	.lg\:height\:auto,
+	.lg\:h\:auto {
+		height: var(--size-auto) !important;
+	}
+	.lg\:height\:4,
+	.lg\:h\:4 {
+		height: var(--spacing-4) !important;
+	}
+	.lg\:height\:8,
+	.lg\:h\:8 {
+		height: var(--spacing-8) !important;
+	}
+	.lg\:height\:1\/2,
+	.lg\:h\:1\/2 {
+		height: var(--size-1\/2) !important;
+	}
+	.lg\:height\:50vh,
+	.lg\:h\:50vh {
+		height: var(--size-50vh) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:width\:auto,
+	.xl\:w\:auto {
+		width: var(--size-auto) !important;
+	}
+	.xl\:width\:4,
+	.xl\:w\:4 {
+		width: var(--spacing-4) !important;
+	}
+	.xl\:width\:8,
+	.xl\:w\:8 {
+		width: var(--spacing-8) !important;
+	}
+	.xl\:width\:1\/2,
+	.xl\:w\:1\/2 {
+		width: var(--size-1\/2) !important;
+	}
+	.xl\:width\:full,
+	.xl\:w\:full {
+		width: var(--size-full) !important;
+	}
+
+	.xl\:height\:auto,
+	.xl\:h\:auto {
+		height: var(--size-auto) !important;
+	}
+	.xl\:height\:4,
+	.xl\:h\:4 {
+		height: var(--spacing-4) !important;
+	}
+	.xl\:height\:8,
+	.xl\:h\:8 {
+		height: var(--spacing-8) !important;
+	}
+	.xl\:height\:1\/2,
+	.xl\:h\:1\/2 {
+		height: var(--size-1\/2) !important;
+	}
+	.xl\:height\:50vh,
+	.xl\:h\:50vh {
+		height: var(--size-50vh) !important;
+	}
+}

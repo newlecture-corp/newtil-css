@@ -1,0 +1,451 @@
+/* ===== TRANSITIONS UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* Transition 속성들: transition, transition-property, transition-duration 등 */
+
+/* ===== TRANSITION PROPERTY ===== */
+
+/* transition: all */
+.transition\:all {
+	transition: all var(--duration-150) ease !important;
+}
+
+.transition {
+	transition: all var(--duration-150) ease !important;
+}
+
+/* transition: none */
+.transition\:none {
+	transition: none !important;
+}
+
+/* transition: colors */
+.transition\:colors,
+.transition\:color {
+	transition: color var(--duration-150) ease,
+		background-color var(--duration-150) ease,
+		border-color var(--duration-150) ease !important;
+}
+
+/* transition: opacity */
+.transition\:opacity {
+	transition: opacity var(--duration-150) ease !important;
+}
+
+/* transition: shadow */
+.transition\:shadow,
+.transition\:box-shadow {
+	transition: box-shadow var(--duration-150) ease !important;
+}
+
+/* transition: transform */
+.transition\:transform {
+	transition: transform var(--duration-150) ease !important;
+}
+
+/* ===== TRANSITION DURATION ===== */
+
+/* transition-duration: 75ms */
+.transition-duration\:75ms,
+.duration\:75 {
+	transition-duration: var(--duration-75) !important;
+}
+
+/* transition-duration: 100ms */
+.transition-duration\:100ms,
+.duration\:100 {
+	transition-duration: var(--duration-100) !important;
+}
+
+/* transition-duration: 150ms */
+.transition-duration\:150ms,
+.duration\:150 {
+	transition-duration: var(--duration-150) !important;
+}
+
+/* transition-duration: 200ms */
+.transition-duration\:200ms,
+.duration\:200 {
+	transition-duration: var(--duration-200) !important;
+}
+
+/* transition-duration: 300ms */
+.transition-duration\:300ms,
+.duration\:300 {
+	transition-duration: var(--duration-300) !important;
+}
+
+/* transition-duration: 500ms */
+.transition-duration\:500ms,
+.duration\:500 {
+	transition-duration: var(--duration-500) !important;
+}
+
+/* transition-duration: 700ms */
+.transition-duration\:700ms,
+.duration\:700 {
+	transition-duration: var(--duration-700) !important;
+}
+
+/* transition-duration: 1000ms */
+.transition-duration\:1000ms,
+.duration\:1000 {
+	transition-duration: var(--duration-1000) !important;
+}
+
+/* ===== TRANSITION TIMING FUNCTION ===== */
+
+/* transition-timing-function: linear */
+.transition-timing-function\:linear,
+.ease\:linear {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+/* transition-timing-function: ease */
+.transition-timing-function\:ease,
+.ease\:ease {
+	transition-timing-function: ease !important;
+}
+
+/* transition-timing-function: ease-in */
+.transition-timing-function\:ease-in,
+.ease\:in {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+/* transition-timing-function: ease-out */
+.transition-timing-function\:ease-out,
+.ease\:out {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+/* transition-timing-function: ease-in-out */
+.transition-timing-function\:ease-in-out,
+.ease\:in-out {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* transition-timing-function: cubic-bezier */
+.transition-timing-function\:cubic-bezier\(0\.4\,0\,0\.6\,1\),
+.ease\:bounce {
+	transition-timing-function: cubic-bezier(0.4, 0, 0.6, 1) !important;
+}
+
+.transition-timing-function\:cubic-bezier\(0\.25\,0\.46\,0\.45\,0\.94\),
+.ease\:smooth {
+	transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+}
+
+/* ===== TRANSITION DELAY ===== */
+
+/* transition-delay: 75ms */
+.transition-delay\:75ms,
+.delay\:75 {
+	transition-delay: var(--duration-75) !important;
+}
+
+/* transition-delay: 100ms */
+.transition-delay\:100ms,
+.delay\:100 {
+	transition-delay: var(--duration-100) !important;
+}
+
+/* transition-delay: 150ms */
+.transition-delay\:150ms,
+.delay\:150 {
+	transition-delay: var(--duration-150) !important;
+}
+
+/* transition-delay: 200ms */
+.transition-delay\:200ms,
+.delay\:200 {
+	transition-delay: var(--duration-200) !important;
+}
+
+/* transition-delay: 300ms */
+.transition-delay\:300ms,
+.delay\:300 {
+	transition-delay: var(--duration-300) !important;
+}
+
+/* transition-delay: 500ms */
+.transition-delay\:500ms,
+.delay\:500 {
+	transition-delay: var(--duration-500) !important;
+}
+
+/* transition-delay: 700ms */
+.transition-delay\:700ms,
+.delay\:700 {
+	transition-delay: var(--duration-700) !important;
+}
+
+/* transition-delay: 1000ms */
+.transition-delay\:1000ms,
+.delay\:1000 {
+	transition-delay: var(--duration-1000) !important;
+}
+
+/* ===== COMBINED TRANSITIONS (자주 사용되는 조합) ===== */
+
+/* 빠른 fade 효과 */
+.transition\:fade-fast {
+	transition: opacity var(--duration-100) var(--ease-out) !important;
+}
+
+/* 중간 fade 효과 */
+.transition\:fade {
+	transition: opacity var(--duration-200) var(--ease-out) !important;
+}
+
+/* 느린 fade 효과 */
+.transition\:fade-slow {
+	transition: opacity var(--duration-500) var(--ease-out) !important;
+}
+
+/* 빠른 scale 효과 */
+.transition\:scale-fast {
+	transition: transform var(--duration-100) var(--ease-out) !important;
+}
+
+/* 중간 scale 효과 */
+.transition\:scale {
+	transition: transform var(--duration-200) var(--ease-out) !important;
+}
+
+/* 느린 scale 효과 */
+.transition\:scale-slow {
+	transition: transform var(--duration-500) var(--ease-out) !important;
+}
+
+/* 빠른 slide 효과 */
+.transition\:slide-fast {
+	transition: transform var(--duration-150) var(--ease-out) !important;
+}
+
+/* 중간 slide 효과 */
+.transition\:slide {
+	transition: transform var(--duration-300) var(--ease-out) !important;
+}
+
+/* 느린 slide 효과 */
+.transition\:slide-slow {
+	transition: transform var(--duration-500) var(--ease-out) !important;
+}
+
+/* 빠른 색상 변화 */
+.transition\:colors-fast {
+	transition: color var(--duration-100) var(--ease-out),
+		background-color var(--duration-100) var(--ease-out),
+		border-color var(--duration-100) var(--ease-out) !important;
+}
+
+/* 중간 색상 변화 */
+.transition\:colors-normal {
+	transition: color var(--duration-200) var(--ease-out),
+		background-color var(--duration-200) var(--ease-out),
+		border-color var(--duration-200) var(--ease-out) !important;
+}
+
+/* 느린 색상 변화 */
+.transition\:colors-slow {
+	transition: color var(--duration-300) var(--ease-out),
+		background-color var(--duration-300) var(--ease-out),
+		border-color var(--duration-300) var(--ease-out) !important;
+}
+
+/* 버튼 호버 효과 */
+.transition\:button {
+	transition: all var(--duration-150) var(--ease-out) !important;
+}
+
+/* 카드 호버 효과 */
+.transition\:card {
+	transition: transform var(--duration-200) var(--ease-out),
+		box-shadow var(--duration-200) var(--ease-out) !important;
+}
+
+/* 모달 등장 효과 */
+.transition\:modal {
+	transition: opacity var(--duration-300) var(--ease-out),
+		transform var(--duration-300) var(--ease-out) !important;
+}
+
+/* 메뉴 슬라이드 효과 */
+.transition\:menu {
+	transition: transform var(--duration-300) var(--ease-in-out) !important;
+}
+
+/* ===== WILL-CHANGE (성능 최적화) ===== */
+
+.will-change\:auto {
+	will-change: auto !important;
+}
+
+.will-change\:scroll {
+	will-change: scroll-position !important;
+}
+
+.will-change\:contents {
+	will-change: contents !important;
+}
+
+.will-change\:transform {
+	will-change: transform !important;
+}
+
+.will-change\:opacity {
+	will-change: opacity !important;
+}
+
+.will-change\:filter {
+	will-change: filter !important;
+}
+
+/* ===== ANIMATION FILL MODE ===== */
+
+.animation-fill-mode\:none,
+.fill\:none {
+	animation-fill-mode: none !important;
+}
+
+.animation-fill-mode\:forwards,
+.fill\:forwards {
+	animation-fill-mode: forwards !important;
+}
+
+.animation-fill-mode\:backwards,
+.fill\:backwards {
+	animation-fill-mode: backwards !important;
+}
+
+.animation-fill-mode\:both,
+.fill\:both {
+	animation-fill-mode: both !important;
+}
+
+/* ===== ANIMATION DIRECTION ===== */
+
+.animation-direction\:normal,
+.anim-dir\:normal {
+	animation-direction: normal !important;
+}
+
+.animation-direction\:reverse,
+.anim-dir\:reverse {
+	animation-direction: reverse !important;
+}
+
+.animation-direction\:alternate,
+.anim-dir\:alternate {
+	animation-direction: alternate !important;
+}
+
+.animation-direction\:alternate-reverse,
+.anim-dir\:alternate-reverse {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ===== ANIMATION ITERATION COUNT ===== */
+
+.animation-iteration-count\:1,
+.iterate\:1 {
+	animation-iteration-count: 1 !important;
+}
+
+.animation-iteration-count\:2,
+.iterate\:2 {
+	animation-iteration-count: 2 !important;
+}
+
+.animation-iteration-count\:3,
+.iterate\:3 {
+	animation-iteration-count: 3 !important;
+}
+
+.animation-iteration-count\:infinite,
+.iterate\:infinite {
+	animation-iteration-count: infinite !important;
+}
+
+/* ===== ANIMATION PLAY STATE ===== */
+
+.animation-play-state\:running,
+.animate\:running {
+	animation-play-state: running !important;
+}
+
+.animation-play-state\:paused,
+.animate\:paused {
+	animation-play-state: paused !important;
+}
+
+/* ===== RESPONSIVE TRANSITIONS ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:transition {
+		transition: all var(--duration-150) ease !important;
+	}
+	.sm\:duration\:200 {
+		transition-duration: var(--duration-200) !important;
+	}
+	.sm\:ease\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:transition {
+		transition: all var(--duration-150) ease !important;
+	}
+	.md\:duration\:200 {
+		transition-duration: var(--duration-200) !important;
+	}
+	.md\:ease\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:transition {
+		transition: all var(--duration-150) ease !important;
+	}
+	.lg\:duration\:200 {
+		transition-duration: var(--duration-200) !important;
+	}
+	.lg\:ease\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:transition {
+		transition: all var(--duration-150) ease !important;
+	}
+	.xl\:duration\:200 {
+		transition-duration: var(--duration-200) !important;
+	}
+	.xl\:ease\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+}
+
+/* ===== MOTION PREFERENCES ===== */
+@media (prefers-reduced-motion: reduce) {
+	.motion-reduce\:transition\:none {
+		transition: none !important;
+	}
+
+	.motion-reduce\:duration\:0 {
+		transition-duration: 0ms !important;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.motion-safe\:transition {
+		transition: all var(--duration-150) ease !important;
+	}
+}

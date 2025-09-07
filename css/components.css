@@ -1,0 +1,47 @@
+/* ===== NEWTIL CSS COMPONENTS ===== */
+/*
+임포트 순서: CSS 적용 우선 순위 기반
+1. Layout & Structure (레이아웃 & 구조)
+2. Form & Input (폼 & 입력)
+3. Navigation & UI (네비게이션 & UI)
+4. Content & Typography (콘텐츠 & 타이포그래피)
+5. Interactive & Actions (상호작용 & 액션)
+*/
+
+/* === 1. LAYOUT & STRUCTURE === */
+@import url("./component/n-layout.css");
+@import url("./component/n-section.css");
+@import url("./component/n-panel.css");
+@import url("./component/n-frame.css");
+
+/* === 2. FORM & INPUT === */
+@import url("./component/n-form.css");
+@import url("./component/n-input.css");
+
+/* === 3. NAVIGATION & UI === */
+@import url("./component/n-header.css");
+@import url("./component/n-footer.css");
+@import url("./component/n-modal.css");
+@import url("./component/n-toggle.css");
+
+/* === 4. CONTENT & TYPOGRAPHY === */
+@import url("./component/n-heading.css");
+@import url("./component/n-table.css");
+@import url("./component/n-list.css");
+@import url("./component/n-board.css");
+
+/* === 5. INTERACTIVE & ACTIONS === */
+@import url("./component/n-icon.css");
+@import url("./component/n-icons-essential.css");
+@import url("./component/n-btn.css");
+@import url("./component/n-action.css");
+
+/* === 6. UTILITIES & HELPERS === */
+@import url("./component/n-deco.css");
+@import url("./component/n-pseudo.css");
+
+/* === 7. LEGACY COMPONENT UTILITIES === */
+/* 주의: 아래 파일들은 새로운 유틸리티 시스템으로 마이그레이션 예정 */
+@import url("./component/n-width.css");
+@import url("./component/n-height.css");
+@import url("./component/n-padding.css");

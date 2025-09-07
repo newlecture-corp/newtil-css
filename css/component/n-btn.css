@@ -1,0 +1,631 @@
+/* 
+<variable>───────────────────────────────────
+
+--btn-padding, 4px 16px
+--btn-height, 36px
+--btn-border-color, var(--color-base-3)
+--btn-border-radius, 8px
+--btn-font-size, 14px
+--btn-background-hover, var(--color-base-2)
+
+<type>──────────────────────────────────────
+
+.n-btn
+.n-btn:active
+.n-btn:disabled
+
+<option>────────────────────────────────────
+
+.btn-size:1 ~ 3
+.btn-color:main-1 ~ 3
+.btn-color:sub-1 ~ 3
+.btn-color:accent-1 ~ 3
+.btn-color:base-1 ~ 3
+ 
+<example>───────────────────────────────────    
+*/
+
+/* ==== button ======================= */
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.n-btn,
+.n-btn\:static,
+.n-btn\:rounded,
+.n-btn\:circle {
+	--btn-font-size: 14px;
+	--btn-border-color: var(--color-base-4);
+	--btn-border-radius: 6px;
+	--btn-bg-color: var(--color-base-1);
+	--btn-text-color: var(--color-base-6);
+	--btn-padding: 8px 16px;
+
+	color: var(--btn-text-color);
+	font-size: var(--btn-font-size, 14px);
+	font-weight: 400;
+	font-family: inherit;
+	line-height: 1.4em;
+
+	white-space: nowrap;
+	user-select: none;
+	cursor: pointer;
+
+	box-sizing: border-box;
+	padding: var(--btn-padding);
+	width: initial;
+	height: initial;
+	border: 1px solid var(--btn-border-color);
+	border-radius: var(--btn-border-radius);
+
+	background-color: var(--btn-bg-color);
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	transition: background-color 0.15s ease, border-color 0.15s ease,
+		color 0.15s ease;
+
+	&::before {
+		/* --- 아이콘을 위한 설정 ---- */
+		font-family: "Material Symbols Outlined";
+		width: var(--icon-size);
+		height: var(--icon-size);
+		overflow: hidden;
+		font-size: var(--icon-size);
+
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&:hover {
+		--btn-bg-color: var(--color-base-2);
+		--btn-border-color: var(--color-base-5);
+		--btn-text-color: var(--color-base-7);
+		text-decoration: none;
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-base-3);
+	}
+
+	&:focus-visible {
+		outline: 2px solid var(--color-main-1, rgba(0, 123, 255, 0.5));
+		outline-offset: 1px;
+	}
+}
+
+.n-btn\:rounded {
+	border-radius: var(--btn-border-radius, 8px);
+}
+
+.n-btn\:circle {
+	border-radius: 50%;
+}
+
+/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+/* n-btn + n-icon 조합에서는 기본적으로 라벨 숨김 */
+.n-btn.n-icon:not(.n-deco) {
+	--btn-padding: 4px;
+	text-indent: -999px;
+
+	&::before {
+		text-indent: 0;
+	}
+}
+
+/* n-btn + n-icon + n-deco 조합에서는 라벨 표시 */
+.n-btn.n-icon.n-deco {
+	text-indent: 0;
+}
+
+.btn-size\:1 {
+	--btn-padding: var(--spacing-1) calc(var(--spacing-1) * 2);
+}
+
+.btn-size\:2 {
+	--btn-padding: var(--spacing-2) calc(var(--spacing-2) * 2);
+}
+
+.btn-size\:3 {
+	--btn-padding: var(--spacing-3) calc(var(--spacing-3) * 2);
+}
+
+.btn-size\:4 {
+	--btn-padding: var(--spacing-4) calc(var(--spacing-4) * 2);
+}
+
+.btn-size\:5 {
+	--btn-padding: var(--spacing-5) calc(var(--spacing-5) * 2);
+}
+
+.btn-size\:6 {
+	--btn-padding: var(--spacing-6) calc(var(--spacing-6) * 2);
+}
+
+.btn-size\:7 {
+	--btn-padding: var(--spacing-7) calc(var(--spacing-7) * 2);
+}
+
+.btn-size\:8 {
+	--btn-padding: var(--spacing-8) calc(var(--spacing-8) * 2);
+}
+
+.btn-size\:9 {
+	--btn-padding: var(--spacing-9) calc(var(--spacing-9) * 2);
+}
+
+.btn-size\:ex {
+	--btn-padding: var(--spacing-20) calc(var(--spacing-20) * 2);
+}
+
+/* <size>------------------------------------ */
+.btn-size\:inline {
+	padding: 0;
+	line-height: 1em;
+}
+
+.btn-size\:small {
+	--btn-font-size: var(--font-size-xs);
+	--btn-padding: var(--spacing-1) var(--spacing-2);
+	line-height: 1em;
+}
+
+/* <color>------------------------------------ */
+/* base */
+
+.btn-color\:main-1 {
+	--btn-bg-color: var(--color-main-1);
+	--btn-border-color: var(--color-main-1);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-main-2);
+		--btn-border-color: var(--color-main-2);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-main-3);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:main-2 {
+	--btn-bg-color: var(--color-main-2);
+	--btn-border-color: var(--color-main-2);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-main-3);
+		--btn-border-color: var(--color-main-3);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-main-1);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:main-3 {
+	--btn-bg-color: var(--color-main-3);
+	--btn-border-color: var(--color-main-3);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-main-1);
+		--btn-border-color: var(--color-main-1);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-main-2);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:sub-1 {
+	--btn-bg-color: var(--color-sub-1);
+	--btn-border-color: var(--color-sub-1);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-sub-2);
+		--btn-border-color: var(--color-sub-2);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-sub-3);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:sub-2 {
+	--btn-bg-color: var(--color-sub-2);
+	--btn-border-color: var(--color-sub-2);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-sub-3);
+		--btn-border-color: var(--color-sub-3);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-sub-1);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:sub-3 {
+	--btn-bg-color: var(--color-sub-3);
+	--btn-border-color: var(--color-sub-3);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-sub-1);
+		--btn-border-color: var(--color-sub-1);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-sub-2);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:accent-1 {
+	--btn-bg-color: var(--color-accent-1);
+	--btn-border-color: var(--color-accent-1);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-accent-2);
+		--btn-border-color: var(--color-accent-2);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-accent-3);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:accent-2 {
+	--btn-bg-color: var(--color-accent-2);
+	--btn-border-color: var(--color-accent-2);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-accent-3);
+		--btn-border-color: var(--color-accent-3);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-accent-1);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+.btn-color\:accent-3 {
+	--btn-bg-color: var(--color-accent-3);
+	--btn-border-color: var(--color-accent-3);
+	--btn-text-color: var(--color-base-1);
+
+	&:hover {
+		--btn-bg-color: var(--color-accent-1);
+		--btn-border-color: var(--color-accent-1);
+		--btn-text-color: var(--color-base-2);
+	}
+
+	&:active {
+		--btn-bg-color: var(--color-accent-2);
+		--btn-text-color: var(--color-base-1);
+	}
+}
+
+@media (min-width: 640px) {
+	.md\:n-btn {
+		--btn-font-size: 14px;
+		--btn-border-color: var(--color-base-3);
+		--btn-border-radius: 8px;
+		--btn-bg-hover: var(--color-base-2);
+
+		color: inherit;
+		font-size: var(--btn-font-size, 14px);
+		font-weight: 500;
+		font-family: inherit;
+		line-height: 1em;
+
+		white-space: nowrap;
+		user-select: none;
+		cursor: pointer;
+
+		box-sizing: content-box;
+		padding: var(--btn-padding, 8px 16px);
+		width: initial;
+		border: 1px solid var(--btn-border-color, var(--color-base-3));
+		border-radius: var(--btn-border-radius, 8px);
+		background-color: transparent;
+
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		transition: border-color 0.3s, background-color 0.3s;
+
+		&::before {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.md\:n-btn:hover {
+		background-color: var(--btn-bg-hover, var(--color-base-2));
+		text-decoration: none;
+	}
+
+	.md\:n-btn\:static {
+		cursor: unset;
+	}
+
+	/* <size>------------------------------------ */
+	.md\:n-btn-size\:inline {
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.md\:n-btn-size\:small {
+		--btn-font-size: 12px;
+		padding: var(--btn-padding, 4px 8px);
+
+		line-height: 1em;
+	}
+
+	.md\:n-btn-size\:1 {
+		--btn-font-size: 14px;
+		padding: var(--btn-padding, 8px 16px);
+	}
+
+	.md\:n-btn-size\:2 {
+		--btn-font-size: 16px;
+		padding: var(--btn-padding, 10px 18px);
+	}
+
+	.md\:n-btn-size\:3 {
+		font-size: 18px;
+		padding: var(--btn-padding, 12px 20px);
+	}
+
+	.md\:n-btn-size\:1:is(.n-icon) {
+		mask-size: var(--icon-size-1);
+	}
+
+	.md\:n-btn-size\:2:is(.n-icon) {
+		mask-size: var(--icon-size-2);
+	}
+
+	.md\:n-btn-size\:3:is(.n-icon) {
+		mask-size: var(--icon-size-3);
+	}
+
+	/* <color>------------------------------------ */
+	/* base */
+
+	.md\:n-btn-color\:main {
+		background-color: var(--color-main-1);
+		border-color: var(--color-main-2);
+
+		color: var(--color-base-1);
+	}
+
+	.md\:n-btn-color\:main:hover {
+		--btn-bg-hover: var(--color-main-1);
+	}
+
+	.md\:n-btn-color\:main:is(.n-icon)::before {
+	}
+
+	.md\:n-btn-color\:sub {
+		border-color: var(--color-sub-2);
+
+		color: var(--color-base-1);
+	}
+
+	.md\:n-btn-color\:sub:hover {
+		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+	}
+
+	.md\:n-btn-color\:sub:is(.n-icon)::before {
+	}
+
+	.md\:n-btn-color\:accent {
+		border-color: var(--color-accent-2);
+
+		color: var(--color-base-1);
+	}
+
+	.md\:n-btn-color\:accent:hover {
+		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
+	}
+
+	.md\:n-btn-color\:accent:is(.n-icon)::before {
+		background-color: var(--color-base-1);
+	}
+
+	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+	.md\:n-btn:is(.n-icon):not(.n-deco),
+	.md\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+		--btn-padding: 8px;
+		text-indent: -999px;
+	}
+
+	.md\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+		--btn-padding: 10px;
+	}
+
+	.md\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+		--btn-padding: 12px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.lg\:n-btn {
+		--btn-font-size: 14px;
+		--btn-border-color: var(--color-base-3);
+		--btn-border-radius: 8px;
+		--btn-bg-hover: var(--color-base-2);
+
+		color: inherit;
+		font-size: var(--btn-font-size, 14px);
+		font-weight: 500;
+		font-family: inherit;
+		line-height: 1em;
+
+		white-space: nowrap;
+		user-select: none;
+		cursor: pointer;
+
+		box-sizing: content-box;
+		padding: var(--btn-padding, 8px 16px);
+		width: initial;
+		border: 1px solid var(--btn-border-color, var(--color-base-3));
+		border-radius: var(--btn-border-radius, 8px);
+		background-color: transparent;
+
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		transition: border-color 0.3s, background-color 0.3s;
+
+		&::before {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.lg\:n-btn:hover {
+		background-color: var(--btn-bg-hover, var(--color-base-2));
+		text-decoration: none;
+	}
+
+	.lg\:n-btn\:static {
+		cursor: unset;
+	}
+
+	/* <size>------------------------------------ */
+	.lg\:n-btn-size\:inline {
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.lg\:n-btn-size\:small {
+		--btn-font-size: 12px;
+		padding: var(--btn-padding, 4px 8px);
+
+		line-height: 1em;
+	}
+
+	.lg\:n-btn-size\:1 {
+		--btn-font-size: 14px;
+		padding: var(--btn-padding, 8px 16px);
+	}
+
+	.lg\:n-btn-size\:2 {
+		--btn-font-size: 16px;
+		padding: var(--btn-padding, 10px 18px);
+	}
+
+	.lg\:n-btn-size\:3 {
+		font-size: 18px;
+		padding: var(--btn-padding, 12px 20px);
+	}
+
+	.lg\:n-btn-size\:1:is(.n-icon) {
+		mask-size: var(--icon-size-1);
+	}
+
+	.lg\:n-btn-size\:2:is(.n-icon) {
+		mask-size: var(--icon-size-2);
+	}
+
+	.lg\:n-btn-size\:3:is(.n-icon) {
+		mask-size: var(--icon-size-3);
+	}
+
+	/* <color>------------------------------------ */
+	/* base */
+
+	.lg\:n-btn-color\:main {
+		border-color: var(--color-main-2);
+
+		color: var(--color-base-1);
+	}
+
+	.lg\:n-btn-color\:main:hover {
+		--btn-bg-hover: var(--color-main-1);
+	}
+
+	.lg\:n-btn-color\:main:is(.n-icon)::before {
+	}
+
+	.lg\:n-btn-color\:sub {
+		border-color: var(--color-sub-2);
+
+		color: var(--color-base-1);
+	}
+
+	.lg\:n-btn-color\:sub:hover {
+		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
+	}
+
+	.lg\:n-btn-color\:sub:is(.n-icon)::before {
+	}
+
+	.lg\:n-btn-color\:accent {
+		border-color: var(--color-accent-2);
+
+		color: var(--color-base-1);
+	}
+
+	.lg\:n-btn-color\:accent:hover {
+		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
+	}
+
+	.lg\:n-btn-color\:accent:is(.n-icon)::before {
+	}
+
+	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+	.lg\:n-btn:is(.n-icon):not(.n-deco),
+	.lg\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+		--btn-padding: 8px;
+		text-indent: -999px;
+	}
+
+	.lg\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+		--btn-padding: 10px;
+	}
+
+	.lg\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+		--btn-padding: 12px;
+	}
+}
+
+@media (min-width: 1280px) {
+	/* XL 브레이크포인트용 스타일 추가 가능 */
+}

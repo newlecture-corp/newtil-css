@@ -1,0 +1,264 @@
+/* ───────────────────────────────────
+ * padding
+ * padding-top
+ * padding-right
+ * padding-bottom
+ * padding-left
+ * padding-x
+ * padding-y
+ * ───────────────────────────────────    */
+
+.n-padding\:0,
+.n-p\:0 {
+	padding: var(--gap-0);
+}
+.n-padding\:1,
+.n-p\:1 {
+	padding: var(--gap-1);
+}
+.n-padding\:2,
+.n-p\:2 {
+	padding: var(--gap-2);
+}
+.n-padding\:3,
+.n-p\:3 {
+	padding: var(--gap-3);
+}
+.n-padding\:4,
+.n-p\:4 {
+	padding: var(--gap-4);
+}
+.n-padding\:5,
+.n-p\:5 {
+	padding: var(--gap-5);
+}
+.n-padding\:6,
+.n-p\:6 {
+	padding: var(--gap-6);
+}
+.n-padding\:7,
+.n-p\:7 {
+	padding: var(--gap-7);
+}
+.n-padding\:8,
+.n-p\:8 {
+	padding: var(--gap-8);
+}
+.n-padding\:9,
+.n-p\:9 {
+	padding: var(--gap-9);
+}
+.n-padding\:10,
+.n-p\:10 {
+	padding: var(--gap-10);
+}
+.n-padding\:ex,
+.n-p\:10 {
+	padding: var(--gap-ex);
+}
+
+@media (min-width: 576px) {
+	.sm\:n-padding\:0,
+	.sm\:n-p\:0 {
+		padding: var(--gap-0);
+	}
+	.sm\:n-padding\:1,
+	.sm\:n-p\:1 {
+		padding: var(--gap-1);
+	}
+	.sm\:n-padding\:2,
+	.sm\:n-p\:2 {
+		padding: var(--gap-2);
+	}
+	.sm\:n-padding\:3,
+	.sm\:n-p\:3 {
+		padding: var(--gap-3);
+	}
+	.sm\:n-padding\:4,
+	.sm\:n-p\:4 {
+		padding: var(--gap-4);
+	}
+	.sm\:n-padding\:5,
+	.sm\:n-p\:5 {
+		padding: var(--gap-5);
+	}
+	.sm\:n-padding\:6,
+	.sm\:n-p\:6 {
+		padding: var(--gap-6);
+	}
+	.sm\:n-padding\:7,
+	.sm\:n-p\:7 {
+		padding: var(--gap-7);
+	}
+	.sm\:n-padding\:8,
+	.sm\:n-p\:8 {
+		padding: var(--gap-8);
+	}
+	.sm\:n-padding\:9,
+	.sm\:n-p\:9 {
+		padding: var(--gap-9);
+	}
+	.sm\:n-padding\:10,
+	.sm\:n-p\:10 {
+		padding: var(--gap-10);
+	}
+	.sm\:n-padding\:ex,
+	.sm\:n-p\:10 {
+		padding: var(--gap-ex);
+	}
+}
+
+@media (min-width: 768px) {
+	.md\:n-padding\:0,
+	.md\:n-p\:0 {
+		padding: var(--gap-0);
+	}
+	.md\:n-padding\:1,
+	.md\:n-p\:1 {
+		padding: var(--gap-1);
+	}
+	.md\:n-padding\:2,
+	.md\:n-p\:2 {
+		padding: var(--gap-2);
+	}
+	.md\:n-padding\:3,
+	.md\:n-p\:3 {
+		padding: var(--gap-3);
+	}
+	.md\:n-padding\:4,
+	.md\:n-p\:4 {
+		padding: var(--gap-4);
+	}
+	.md\:n-padding\:5,
+	.md\:n-p\:5 {
+		padding: var(--gap-5);
+	}
+	.md\:n-padding\:6,
+	.md\:n-p\:6 {
+		padding: var(--gap-6);
+	}
+	.md\:n-padding\:7,
+	.md\:n-p\:7 {
+		padding: var(--gap-7);
+	}
+	.md\:n-padding\:8,
+	.md\:n-p\:8 {
+		padding: var(--gap-8);
+	}
+	.md\:n-padding\:9,
+	.md\:n-p\:9 {
+		padding: var(--gap-9);
+	}
+	.md\:n-padding\:10,
+	.md\:n-p\:10 {
+		padding: var(--gap-10);
+	}
+	.md\:n-padding\:ex,
+	.md\:n-p\:10 {
+		padding: var(--gap-ex);
+	}
+}
+
+@media (min-width: 992px) {
+	.lg\:n-padding\:0,
+	.lg\:n-p\:0 {
+		padding: var(--gap-0);
+	}
+	.lg\:n-padding\:1,
+	.lg\:n-p\:1 {
+		padding: var(--gap-1);
+	}
+	.lg\:n-padding\:2,
+	.lg\:n-p\:2 {
+		padding: var(--gap-2);
+	}
+	.lg\:n-padding\:3,
+	.lg\:n-p\:3 {
+		padding: var(--gap-3);
+	}
+	.lg\:n-padding\:4,
+	.lg\:n-p\:4 {
+		padding: var(--gap-4);
+	}
+	.lg\:n-padding\:5,
+	.lg\:n-p\:5 {
+		padding: var(--gap-5);
+	}
+	.lg\:n-padding\:6,
+	.lg\:n-p\:6 {
+		padding: var(--gap-6);
+	}
+	.lg\:n-padding\:7,
+	.lg\:n-p\:7 {
+		padding: var(--gap-7);
+	}
+	.lg\:n-padding\:8,
+	.lg\:n-p\:8 {
+		padding: var(--gap-8);
+	}
+	.lg\:n-padding\:9,
+	.lg\:n-p\:9 {
+		padding: var(--gap-9);
+	}
+	.lg\:n-padding\:10,
+	.lg\:n-p\:10 {
+		padding: var(--gap-10);
+	}
+	.lg\:n-padding\:ex,
+	.lg\:n-p\:10 {
+		padding: var(--gap-ex);
+	}
+}
+
+@media (min-width: 1200px) {
+	.xl\:n-padding\:0,
+	.xl\:n-p\:0 {
+		padding: var(--gap-0);
+	}
+	.xl\:n-padding\:1,
+	.xl\:n-p\:1 {
+		padding: var(--gap-1);
+	}
+	.xl\:n-padding\:2,
+	.xl\:n-p\:2 {
+		padding: var(--gap-2);
+	}
+	.xl\:n-padding\:3,
+	.xl\:n-p\:3 {
+		padding: var(--gap-3);
+	}
+	.xl\:n-padding\:4,
+	.xl\:n-p\:4 {
+		padding: var(--gap-4);
+	}
+	.xl\:n-padding\:5,
+	.xl\:n-p\:5 {
+		padding: var(--gap-5);
+	}
+	.xl\:n-padding\:6,
+	.xl\:n-p\:6 {
+		padding: var(--gap-6);
+	}
+	.xl\:n-padding\:7,
+	.xl\:n-p\:7 {
+		padding: var(--gap-7);
+	}
+	.xl\:n-padding\:8,
+	.xl\:n-p\:8 {
+		padding: var(--gap-8);
+	}
+	.xl\:n-padding\:9,
+	.xl\:n-p\:9 {
+		padding: var(--gap-9);
+	}
+	.xl\:n-padding\:10,
+	.xl\:n-p\:10 {
+		padding: var(--gap-10);
+	}
+	.xl\:n-padding\:ex,
+	.xl\:n-p\:10 {
+		padding: var(--gap-ex);
+	}
+}
+
+/* Repeat the same pattern for all other selectors */

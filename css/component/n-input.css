@@ -1,0 +1,295 @@
+/*
+<variable>───────────────────────────────────
+
+--input-
+
+<type>───────────────────────────────────────
+
+.n-input
+.n-input:alert
+.n-input:sticky
+
+<option>─────────────────────────────────────
+
+.content-pos:left, center, right
+
+<example>────────────────────────────────────
+
+<section class="n-panel">
+</section>
++-------------------------------------------------------------+
+|                                                           X |
+|                                                             |
+|                                                             |
++-------------------------------------------------------------+
++-------------------------------------------------------------+
+|+-------------------------------------+                    X |
+||             .content                |                      |
+|+-------------------------------------+                      |
++-------------------------------------------------------------+
+
+<section class="n-panel content-pos\:center">
+</section>
++-------------------------------------------------------------+
+|           +-------------------------------------+         X |
+|           |              .content               |           |
+|           +-------------------------------------+           |
++-------------------------------------------------------------+
+
+*/
+/* ───────────────────────────────────
+ n-input,
+
+ * n-textbox-type
+ * n-textbox-status
+    * focus
+    * success
+    * warning
+    * disabled
+ * placehoder      
+ * n-textbox-label  
+ * ───────────────────────────────────    */
+
+/* ----n-textbox ------------------------------------------------- */
+
+.n-input {
+  /* textbox-size */
+  --input-padding-x: 12px;
+  --input-input-height: 36px;
+  --input-textarea-min-height: 58px;
+  
+  /* textbox-border-color */
+  --input-border-color: var(--color-base-3);
+  
+  /* textbox-border-radius */
+  --input-border-radius: 6px;
+
+  /* textbox-border-width */
+  --input-underline-border-width: 1.6px;
+
+  /* textbox-status:focus */
+  --input-border-color-focus: var(--color-sub-2);
+
+  /* textbox-status:success */
+  --input-border-color-success: #37b24d;
+
+  /* textbox-status:warning */
+  --input-color-warning: var(--color-accent-1);
+  --input-border-color-warning: var(--color-accent-1);
+}
+
+.n-input,
+input[type="email"].n-input,
+input[type="number"].n-input,
+input[type="password"].n-input,
+input[type="search"].n-input,
+input[type="tel"].n-input,
+input[type="text"].n-input,
+input[type="url"].n-input,
+textarea.n-input {
+  width: 100%;
+  padding: 4px var(--input-padding-x);
+  color: rgba(var(--rgb-base-10), 0.85);
+  background-color: var(--color-base-1);
+  border: 1px solid var(--input-border-color);
+  border-radius: var(--input-border-radius);
+  box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* ----n-textbox-type ------------------------------------------------- */
+
+.n-input,
+input[type="email"].n-input,
+input[type="number"].n-input,
+input[type="password"].n-input,
+input[type="search"].n-input,
+input[type="tel"].n-input,
+input[type="text"].n-input,
+input[type="url"].n-input,
+.n-input-type\:outline,
+input[type="email"].n-input-type\:outline,
+input[type="number"].n-input-type\:outline,
+input[type="password"].n-input-type\:outline,
+input[type="search"].n-input-type\:outline,
+input[type="tel"].n-input-type\:outline,
+input[type="text"].n-input-type\:outline,
+input[type="url"].n-input-type\:outline,
+.n-input\:outline,
+input[type="email"].n-input\:outline,
+input[type="number"].n-input\:outline,
+input[type="password"].n-input\:outline,
+input[type="search"].n-input\:outline,
+input[type="tel"].n-input\:outline,
+input[type="text"].n-input\:outline,
+input[type="url"].n-input\:outline {
+  height: var(--input-input-height);
+}
+
+.n-input-type\:underline,
+input[type="email"].n-input-type\:underline,
+input[type="number"].n-input-type\:underline,
+input[type="password"].n-input-type\:underline,
+input[type="search"].n-input-type\:underline,
+input[type="tel"].n-input-type\:underline,
+input[type="text"].n-input-type\:underline,
+input[type="url"].n-input-type\:underline,
+.n-input\:underline,
+input[type="email"].n-input\:underline,
+input[type="number"].n-input\:underline,
+input[type="password"].n-input\:underline,
+input[type="search"].n-input\:underline,
+input[type="tel"].n-input\:underline,
+input[type="text"].n-input\:underline,
+input[type="url"].n-input\:underline {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: var(--input-underline-border-width);
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: transparent;
+
+  transition-property: border-color;
+  transition-duration: 200ms;
+}
+
+textarea.n-input {
+  height: 100%;
+  min-height: var(--input-textarea-min-height);
+  resize: none;
+}
+
+/* ----n-textbox-status ------------------------------------------------- */
+
+input[type="email"].n-input:focus,
+input[type="number"].n-input:focus,
+input[type="password"].n-input:focus,
+input[type="search"].n-input:focus,
+input[type="tel"].n-input:focus,
+input[type="text"].n-input:focus,
+input[type="url"].n-input:focus,
+textarea.n-input:focus,
+input[type="email"].n-input.n-input-status\:focus,
+input[type="number"].n-input.n-input-status\:focus,
+input[type="password"].n-input.n-input-status\:focus,
+input[type="search"].n-input.n-input-status\:focus,
+input[type="tel"].n-input.n-input-status\:focus,
+input[type="text"].n-input.n-input-status\:focus,
+input[type="url"].n-input.n-input-status\:focus,
+textarea.n-input.n-input-status\:focus,
+.n-input.n-input-status\:focus {
+  border-color: var(--input-border-color-focus);
+}
+
+
+input[type="email"].n-input.n-input-status\:success,
+input[type="number"].n-input.n-input-status\:success,
+input[type="password"].n-input.n-input-status\:success,
+input[type="search"].n-input.n-input-status\:success,
+input[type="tel"].n-input.n-input-status\:success,
+input[type="text"].n-input.n-input-status\:success,
+input[type="url"].n-input.n-input-status\:success,
+textarea.n-input.n-input-status\:success,
+.n-input.n-input-status\:success {
+  border-color: var(--input-border-color-success);
+}
+
+input[type="email"].n-input.n-input-status\:warning,
+input[type="number"].n-input.n-input-status\:warning,
+input[type="password"].n-input.n-input-status\:warning,
+input[type="search"].n-input.n-input-status\:warning,
+input[type="tel"].n-input.n-input-status\:warning,
+input[type="text"].n-input.n-input-status\:warning,
+input[type="url"].n-input.n-input-status\:warning,
+textarea.n-input.n-input-status\:warning,
+.n-input.n-input-status\:warning {
+  color: var(--input-color-warning);
+  border-color: var(--input-border-color-warning);
+}
+
+input[type="email"].n-input:disabled,
+input[type="number"].n-input:disabled,
+input[type="password"].n-input:disabled,
+input[type="search"].n-input:disabled,
+input[type="tel"].n-input:disabled,
+input[type="text"].n-input:disabled,
+input[type="url"].n-input:disabled,
+input[type="email"].n-input.n-input-status\:disabled,
+input[type="number"].n-input.n-input-status\:disabled,
+input[type="password"].n-input.n-input-status\:disabled,
+input[type="search"].n-input.n-input-status\:disabled,
+input[type="tel"].n-input.n-input-status\:disabled,
+input[type="text"].n-input.n-input-status\:disabled,
+input[type="url"].n-input.n-input-status\:disabled,
+textarea.n-input:disabled,
+textarea.n-input.n-input-status\:disabled,
+.n-input.n-input-status\:disabled {
+  color: rgba(var(--rgb-base-10), 0.27);
+  background-color: rgba(var(--rgb-base-2), 0.6);
+  border-color: var(--color-base-4);
+  cursor: not-allowed;
+}
+
+/* ----placeholder ------------------------------------------------- */
+
+.n-input::placeholder {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--color-base-5);
+}
+
+.n-input:disabled::placeholder,
+.n-input.n-input-status\:disabled::placeholder {
+  color: rgba(var(--rgb-base-10), 0.27);
+}
+
+/* ----n-textbox-label ------------------------------------------------- */
+
+label:has(+ .n-input){
+  display: flex;
+  align-items: center;
+  margin-right: var(--gap-2);
+
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.n-input + label{
+  display: flex;
+  align-items: center;
+  margin-left: var(--gap-2);
+
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+label:has(.n-input){
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2);
+
+  width: 100%;
+
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+label:has(.n-input.n-input-label\:top) {
+  gap: var(--gap-1);
+  flex-direction: column;
+  align-items: start;
+}
+
+label:has(.n-input.n-input-label\:bottom) {
+  gap: var(--gap-1);
+  flex-direction: column-reverse;
+  align-items: start;
+}

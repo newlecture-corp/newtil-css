@@ -1,0 +1,107 @@
+.n-table {
+	--n-table-bg-color: var(--color-base-1);
+
+	table-layout: fixed;
+
+	width: 100%;
+	border-collapse: collapse;
+	background-color: var(--n-table-bg-color);
+
+	> thead {
+		--n-thead-bg-color: var(--color-base-2);
+
+		background-color: var(--n-thead-bg-color);
+	}
+
+	> :is(thead, tbody) > tr {
+		--n-tr-height: 40px;
+		--n-tr-border-color: var(--color-base-3);
+
+		height: var(--n-tr-height);
+		border-top: 1px solid var(--n-tr-border-color);
+
+		position: relative;
+	}
+
+	> :is(thead, tbody) > tr > :is(th, td) {
+		text-align: center;
+		vertical-align: middle;
+
+		img,
+		input {
+			vertical-align: middle;
+		}
+
+		&:has(img) {
+			padding: 8px;
+		}
+	}
+
+	> tbody
+		> tr:nth-child(odd):has(.n-row-expander:checked)
+		label:has(.n-row-expander)::before {
+		content: "\e5c5";
+		/* favorite 아이콘의 유니코드 값 */
+		font-family: "Material Symbols Outlined";
+		font-size: 24px;
+	}
+
+	/* > tbody > tr:nth-child(odd):has(.n-row-expander:not(:checked)) + tr {
+		display: none;
+	} */
+
+	> tbody
+		> tr:nth-child(odd):has(.n-row-expander:not(:checked))
+		label:has(.n-row-expander)::before {
+	}
+
+	> tbody > tr:nth-child(odd):has(.n-row-expander:checked) + tr {
+		display: table-row;
+	}
+}
+
+.n-table\:expandable {
+	> tbody > tr:nth-child(odd):not(:has(.n-row-expander)) > td:last-child:after {
+		color: red;
+		content: "오류 : n-table:expandable은 n-row-expander가 필요합니다.";
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* flex-grow: 1; */
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(var(--rgb-base-1), 0.7);
+	}
+
+	> tbody
+		> tr:nth-child(odd):has(.n-row-expander:checked)
+		label:has(.n-row-expander)::before {
+		content: "\e5c7";
+		font-family: "Material Symbols Outlined";
+		font-size: 24px;
+	}
+
+	> tbody > tr:nth-child(odd):has(.n-row-expander:not(:checked)) + tr {
+		display: none;
+	}
+
+	> tbody
+		> tr:nth-child(odd):has(.n-row-expander:not(:checked))
+		label:has(.n-row-expander)::before {
+		content: "\e5c5";
+	}
+
+	> tbody > tr:nth-child(odd):has(.n-row-expander:checked) + tr {
+		display: table-row;
+
+		> td {
+			line-height: initial;
+			padding: 10px;
+			overflow: hidden;
+			text-align: start;
+		}
+	}
+}
