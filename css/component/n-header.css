@@ -35,13 +35,13 @@
 	--header-height: 64px;
 	--header-border-width: 1px;
 	--header-border-color: var(--color-base-3);
-	--header-padding: var(--spacing-4);
+	--header-padding: var(--space-4);
 
 	height: var(--header-height, 64px);
 	flex-shrink: 0;
 	grid-area: header;
 	box-shadow: 1px 1px 1px var(--header-border-color, --color-base-3);
-	padding: 0 var(--header-padding, var(--spacing-4));
+	padding: 0 var(--header-padding, var(--space-4));
 
 	position: relative;
 	display: flex;
@@ -55,7 +55,7 @@
 	}
 
 	> :is(.nav, nav) {
-		right: var(--spacing-4);
+		right: var(--space-4);
 
 		position: absolute;
 		display: flex;
@@ -159,7 +159,7 @@
 .n-header.menu-pos\:right {
 	> :is(.nav, nav) {
 		left: initial;
-		right: var(--spacing-4);
+		right: var(--space-4);
 	}
 
 	> .content {

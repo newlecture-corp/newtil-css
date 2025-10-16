@@ -119,13 +119,13 @@ n-frame-item-style:circle
 
 .n-frame\:outlined.outlined-gap\:1 {
 	> :where(table, ul, dl, form, div, .content) {
-		gap: var(--gap-1, 4px);
+		gap: var(--space-1, 4px);
 	}
 }
 
 .n-frame\:outlined.outlined-gap\:2 {
 	> :where(table, ul, dl, form, div, .content) {
-		gap: var(--gap-2, 8px);
+		gap: var(--space-2, 8px);
 	}
 }
 

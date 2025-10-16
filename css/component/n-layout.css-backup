@@ -22,7 +22,7 @@ html:has(.n-layout){
     /* overridable variables */
     /*
     --header-height: 64px;
-    --header-padding: var(--gap-5);
+    --header-padding: var(--space-5);
         --header-content-width: var(--content-width, 1200px);
 
     --footer-height: 100px;
@@ -192,7 +192,7 @@ body:has(.n-layout){
 .n-layout-main-padding\:1{
 
     >:where(.main, main){
-        padding: var(--gap-1);
+        padding: var(--space-1);
     }
 }
 

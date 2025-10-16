@@ -33,7 +33,7 @@
   - **값은 축약하지 않음** (예: `.overflow-x:hidden`, `.gap:4`)
 
 - **CSS 변수 시스템**:
-  - `--spacing-*`: 단계별 간격 (4px, 6px, 8px, 12px, 16px, 24px, 32px, 48px, 64px)
+  - `--space-*`: 단계별 간격 (4px, 6px, 8px, 12px, 16px, 24px, 32px, 48px, 64px)
   - `--font-size-*`: 폰트 크기
   - `--color-*`: 테마 기반 색상
   - `--border-radius-*`: 테두리 반경
@@ -41,7 +41,7 @@
 
 ### 2. **컴포넌트 리팩토링**
 
-- **n-btn.css**: CSS 변수 통합 (`--gap-*` → `--spacing-*`)
+- **n-btn.css**: CSS 변수 통합 (`--space-*` → `--space-*`)
 - **n-icon.css**: CSS 변수 통합 (`--icon-size-*` → `--font-size-*`)
 - **반응형 미디어 쿼리 통일**: 640px, 768px, 1024px, 1280px
 

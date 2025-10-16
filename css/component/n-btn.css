@@ -32,10 +32,8 @@
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-.n-btn,
-.n-btn\:static,
-.n-btn\:rounded,
-.n-btn\:circle {
+.n-btn
+{
 	--btn-font-size: 14px;
 	--btn-border-color: var(--color-base-4);
 	--btn-border-radius: 6px;
@@ -43,6 +41,29 @@
 	--btn-text-color: var(--color-base-6);
 	--btn-padding: 8px 16px;
 
+	--btn-active-color: rgba(var(--rgb-main-1), 0.7);
+	--btn-hover-color: rgba(var(--rgb-base-4), 0.7);
+	--btn-sep-color: var(--color-base-7, #333a44);
+	
+}
+
+/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
+
+@media (prefers-color-scheme: dark) {
+	.n-btn {
+		--btn-border-color: var(--color-base-3);
+		
+		--btn-bg-color: var(--color-base-7);
+		--btn-text-color: var(--color-base-2);		
+
+		--btn-active-color: rgba(var(--rgb-main-1), 0.7);
+		
+		--btn-sep-color: var(--color-base-7, #333a44);
+	}
+}
+
+.n-btn {
+	
 	color: var(--btn-text-color);
 	font-size: var(--btn-font-size, 14px);
 	font-weight: 400;
@@ -83,29 +104,23 @@
 		align-items: center;
 	}
 
-	&:hover {
-		--btn-bg-color: var(--color-base-2);
-		--btn-border-color: var(--color-base-5);
-		--btn-text-color: var(--color-base-7);
+	&:hover {		
+		--btn-bg-color: var(--btn-hover-color);
+		/* --btn-border-color: var(--color-base-3); */
+		/* --btn-text-color: var(--btn-text-color); */
 		text-decoration: none;
 	}
 
-	&:active {
-		--btn-bg-color: var(--color-base-3);
+	&:active {		
+		--btn-bg-color: var(--btn-active-color);
+		--btn-border-color: var(--btn-border-color);
+		--btn-text-color: var(--btn-text-color);
 	}
 
 	&:focus-visible {
 		outline: 2px solid var(--color-main-1, rgba(0, 123, 255, 0.5));
 		outline-offset: 1px;
 	}
-}
-
-.n-btn\:rounded {
-	border-radius: var(--btn-border-radius, 8px);
-}
-
-.n-btn\:circle {
-	border-radius: 50%;
 }
 
 /*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
@@ -124,44 +139,55 @@
 	text-indent: 0;
 }
 
+/* ---------- type ---------------------------- */
+
+.btn-type\:rounded {
+	border-radius: var(--btn-border-radius, 8px);
+}
+
+.btn-type\:circle {
+	border-radius: 50%;
+}
+
+
 .btn-size\:1 {
-	--btn-padding: var(--spacing-1) calc(var(--spacing-1) * 2);
+	--btn-padding: var(--space-1) calc(var(--space-1) * 2);
 }
 
 .btn-size\:2 {
-	--btn-padding: var(--spacing-2) calc(var(--spacing-2) * 2);
+	--btn-padding: var(--space-2) calc(var(--space-2) * 2);
 }
 
 .btn-size\:3 {
-	--btn-padding: var(--spacing-3) calc(var(--spacing-3) * 2);
+	--btn-padding: var(--space-3) calc(var(--space-3) * 2);
 }
 
 .btn-size\:4 {
-	--btn-padding: var(--spacing-4) calc(var(--spacing-4) * 2);
+	--btn-padding: var(--space-4) calc(var(--space-4) * 2);
 }
 
 .btn-size\:5 {
-	--btn-padding: var(--spacing-5) calc(var(--spacing-5) * 2);
+	--btn-padding: var(--space-5) calc(var(--space-5) * 2);
 }
 
 .btn-size\:6 {
-	--btn-padding: var(--spacing-6) calc(var(--spacing-6) * 2);
+	--btn-padding: var(--space-6) calc(var(--space-6) * 2);
 }
 
 .btn-size\:7 {
-	--btn-padding: var(--spacing-7) calc(var(--spacing-7) * 2);
+	--btn-padding: var(--space-7) calc(var(--space-7) * 2);
 }
 
 .btn-size\:8 {
-	--btn-padding: var(--spacing-8) calc(var(--spacing-8) * 2);
+	--btn-padding: var(--space-8) calc(var(--space-8) * 2);
 }
 
 .btn-size\:9 {
-	--btn-padding: var(--spacing-9) calc(var(--spacing-9) * 2);
+	--btn-padding: var(--space-9) calc(var(--space-9) * 2);
 }
 
 .btn-size\:ex {
-	--btn-padding: var(--spacing-20) calc(var(--spacing-20) * 2);
+	--btn-padding: var(--space-20) calc(var(--space-20) * 2);
 }
 
 /* <size>------------------------------------ */
@@ -172,7 +198,7 @@
 
 .btn-size\:small {
 	--btn-font-size: var(--font-size-xs);
-	--btn-padding: var(--spacing-1) var(--spacing-2);
+	--btn-padding: var(--space-1) var(--space-2);
 	line-height: 1em;
 }
 
@@ -380,102 +406,102 @@
 	}
 
 	/* <size>------------------------------------ */
-	.md\:n-btn-size\:inline {
+	.md\:btn-size\:inline {
 		padding: 0;
 
 		line-height: 1em;
 	}
 
-	.md\:n-btn-size\:small {
+	.md\:btn-size\:small {
 		--btn-font-size: 12px;
 		padding: var(--btn-padding, 4px 8px);
 
 		line-height: 1em;
 	}
 
-	.md\:n-btn-size\:1 {
+	.md\:btn-size\:1 {
 		--btn-font-size: 14px;
 		padding: var(--btn-padding, 8px 16px);
 	}
 
-	.md\:n-btn-size\:2 {
+	.md\:btn-size\:2 {
 		--btn-font-size: 16px;
 		padding: var(--btn-padding, 10px 18px);
 	}
 
-	.md\:n-btn-size\:3 {
+	.md\:btn-size\:3 {
 		font-size: 18px;
 		padding: var(--btn-padding, 12px 20px);
 	}
 
-	.md\:n-btn-size\:1:is(.n-icon) {
+	.md\:btn-size\:1:is(.n-icon) {
 		mask-size: var(--icon-size-1);
 	}
 
-	.md\:n-btn-size\:2:is(.n-icon) {
+	.md\:btn-size\:2:is(.n-icon) {
 		mask-size: var(--icon-size-2);
 	}
 
-	.md\:n-btn-size\:3:is(.n-icon) {
+	.md\:btn-size\:3:is(.n-icon) {
 		mask-size: var(--icon-size-3);
 	}
 
 	/* <color>------------------------------------ */
 	/* base */
 
-	.md\:n-btn-color\:main {
+	.md\:btn-color\:main {
 		background-color: var(--color-main-1);
 		border-color: var(--color-main-2);
 
 		color: var(--color-base-1);
 	}
 
-	.md\:n-btn-color\:main:hover {
+	.md\:btn-color\:main:hover {
 		--btn-bg-hover: var(--color-main-1);
 	}
 
-	.md\:n-btn-color\:main:is(.n-icon)::before {
+	.md\:btn-color\:main:is(.n-icon)::before {
 	}
 
-	.md\:n-btn-color\:sub {
+	.md\:btn-color\:sub {
 		border-color: var(--color-sub-2);
 
 		color: var(--color-base-1);
 	}
 
-	.md\:n-btn-color\:sub:hover {
+	.md\:btn-color\:sub:hover {
 		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
 	}
 
-	.md\:n-btn-color\:sub:is(.n-icon)::before {
+	.md\:btn-color\:sub:is(.n-icon)::before {
 	}
 
-	.md\:n-btn-color\:accent {
+	.md\:btn-color\:accent {
 		border-color: var(--color-accent-2);
 
 		color: var(--color-base-1);
 	}
 
-	.md\:n-btn-color\:accent:hover {
+	.md\:btn-color\:accent:hover {
 		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
 	}
 
-	.md\:n-btn-color\:accent:is(.n-icon)::before {
+	.md\:btn-color\:accent:is(.n-icon)::before {
 		background-color: var(--color-base-1);
 	}
 
 	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
-	.md\:n-btn:is(.n-icon):not(.n-deco),
-	.md\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+	.md\:btn:is(.n-icon):not(.n-deco),
+	.md\:btn-size\:1:is(.n-icon):not(.n-deco) {
 		--btn-padding: 8px;
 		text-indent: -999px;
 	}
 
-	.md\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+	.md\:btn-size\:2:is(.n-icon):not(.n-deco) {
 		--btn-padding: 10px;
 	}
 
-	.md\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+	.md\:btn-size\:3:is(.n-icon):not(.n-deco) {
 		--btn-padding: 12px;
 	}
 }
@@ -528,100 +554,100 @@
 	}
 
 	/* <size>------------------------------------ */
-	.lg\:n-btn-size\:inline {
+	.lg\:btn-size\:inline {
 		padding: 0;
 
 		line-height: 1em;
 	}
 
-	.lg\:n-btn-size\:small {
+	.lg\:btn-size\:small {
 		--btn-font-size: 12px;
 		padding: var(--btn-padding, 4px 8px);
 
 		line-height: 1em;
 	}
 
-	.lg\:n-btn-size\:1 {
+	.lg\:btn-size\:1 {
 		--btn-font-size: 14px;
 		padding: var(--btn-padding, 8px 16px);
 	}
 
-	.lg\:n-btn-size\:2 {
+	.lg\:btn-size\:2 {
 		--btn-font-size: 16px;
 		padding: var(--btn-padding, 10px 18px);
 	}
 
-	.lg\:n-btn-size\:3 {
+	.lg\:btn-size\:3 {
 		font-size: 18px;
 		padding: var(--btn-padding, 12px 20px);
 	}
 
-	.lg\:n-btn-size\:1:is(.n-icon) {
+	.lg\:btn-size\:1:is(.n-icon) {
 		mask-size: var(--icon-size-1);
 	}
 
-	.lg\:n-btn-size\:2:is(.n-icon) {
+	.lg\:btn-size\:2:is(.n-icon) {
 		mask-size: var(--icon-size-2);
 	}
 
-	.lg\:n-btn-size\:3:is(.n-icon) {
+	.lg\:btn-size\:3:is(.n-icon) {
 		mask-size: var(--icon-size-3);
 	}
 
 	/* <color>------------------------------------ */
 	/* base */
 
-	.lg\:n-btn-color\:main {
+	.lg\:btn-color\:main {
 		border-color: var(--color-main-2);
 
 		color: var(--color-base-1);
 	}
 
-	.lg\:n-btn-color\:main:hover {
+	.lg\:btn-color\:main:hover {
 		--btn-bg-hover: var(--color-main-1);
 	}
 
-	.lg\:n-btn-color\:main:is(.n-icon)::before {
+	.lg\:btn-color\:main:is(.n-icon)::before {
 	}
 
-	.lg\:n-btn-color\:sub {
+	.lg\:btn-color\:sub {
 		border-color: var(--color-sub-2);
 
 		color: var(--color-base-1);
 	}
 
-	.lg\:n-btn-color\:sub:hover {
+	.lg\:btn-color\:sub:hover {
 		--btn-bg-hover: rgba(var(--rgb-sub-1), 0.7);
 	}
 
-	.lg\:n-btn-color\:sub:is(.n-icon)::before {
+	.lg\:btn-color\:sub:is(.n-icon)::before {
 	}
 
-	.lg\:n-btn-color\:accent {
+	.lg\:btn-color\:accent {
 		border-color: var(--color-accent-2);
 
 		color: var(--color-base-1);
 	}
 
-	.lg\:n-btn-color\:accent:hover {
+	.lg\:btn-color\:accent:hover {
 		--btn-bg-hover: rgba(var(--rgb-accent-1), 0.9);
 	}
 
-	.lg\:n-btn-color\:accent:is(.n-icon)::before {
+	.lg\:btn-color\:accent:is(.n-icon)::before {
 	}
 
 	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
 	.lg\:n-btn:is(.n-icon):not(.n-deco),
-	.lg\:n-btn-size\:1:is(.n-icon):not(.n-deco) {
+	.lg\:btn-size\:1:is(.n-icon):not(.n-deco) {
 		--btn-padding: 8px;
 		text-indent: -999px;
 	}
 
-	.lg\:n-btn-size\:2:is(.n-icon):not(.n-deco) {
+	.lg\:btn-size\:2:is(.n-icon):not(.n-deco) {
 		--btn-padding: 10px;
 	}
 
-	.lg\:n-btn-size\:3:is(.n-icon):not(.n-deco) {
+	.lg\:btn-size\:3:is(.n-icon):not(.n-deco) {
 		--btn-padding: 12px;
 	}
 }
@@ -629,3 +655,4 @@
 @media (min-width: 1280px) {
 	/* XL 브레이크포인트용 스타일 추가 가능 */
 }
+

@@ -71,7 +71,7 @@
 
 ```css
 .n-btn {
-	padding: var(--spacing-2) var(--spacing-4);
+	padding: var(--space-2) var(--space-4);
 	font-size: var(--font-size-base);
 	color: var(--color-text-primary);
 	background: var(--color-bg-primary);
@@ -83,13 +83,13 @@
 ```css
 /* 크기 변형 */
 .n-btn.btn-size\:1 {
-	padding: var(--spacing-1) var(--spacing-2);
+	padding: var(--space-1) var(--space-2);
 }
 .n-btn.btn-size\:2 {
-	padding: var(--spacing-2) var(--spacing-4);
+	padding: var(--space-2) var(--space-4);
 }
 .n-btn.btn-size\:3 {
-	padding: var(--spacing-3) var(--spacing-6);
+	padding: var(--space-3) var(--space-6);
 }
 
 /* 색상 변형 */

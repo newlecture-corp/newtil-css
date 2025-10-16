@@ -18,22 +18,22 @@
 
 .clip-path\:inset\(0\.125rem\),
 .clip-path\:inset\(0_5\) {
-	clip-path: inset(var(--spacing-0_5)) !important;
+	clip-path: inset(var(--space-0_5)) !important;
 }
 
 .clip-path\:inset\(0\.25rem\),
 .clip-path\:inset\(1\) {
-	clip-path: inset(var(--spacing-1)) !important;
+	clip-path: inset(var(--space-1)) !important;
 }
 
 .clip-path\:inset\(0\.5rem\),
 .clip-path\:inset\(2\) {
-	clip-path: inset(var(--spacing-2)) !important;
+	clip-path: inset(var(--space-2)) !important;
 }
 
 .clip-path\:inset\(1rem\),
 .clip-path\:inset\(4\) {
-	clip-path: inset(var(--spacing-4)) !important;
+	clip-path: inset(var(--space-4)) !important;
 }
 
 /* clip-path: circle (원형 클립) */
@@ -282,8 +282,8 @@
 		transparent 75%,
 		black 75%
 	) !important;
-	mask-size: var(--spacing-4) var(--spacing-4) !important;
-	-webkit-mask-size: var(--spacing-4) var(--spacing-4) !important;
+	mask-size: var(--space-4) var(--space-4) !important;
+	-webkit-mask-size: var(--space-4) var(--space-4) !important;
 }
 
 /* ===== MASK PROPERTIES ===== */

@@ -26,8 +26,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:0</code></td>
   <td><code>mx:0</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-0) !important;</span> <span class="c:weak"> /* 0px */</span><br>
-    <span class="code">margin-left: var(--gap-0) !important;</span>
+    <span class="code">margin-right: var(--space-0) !important;</span> <span class="c:weak"> /* 0px */</span><br>
+    <span class="code">margin-left: var(--space-0) !important;</span>
   </td>
 </tr>
 
@@ -35,8 +35,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:1</code></td>
   <td><code>mx:1</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-1) !important;</span> <span class="c:weak">/* 4px */</span><br>
-    <span class="code">margin-left: var(--gap-1) !important;</span>
+    <span class="code">margin-right: var(--space-1) !important;</span> <span class="c:weak">/* 4px */</span><br>
+    <span class="code">margin-left: var(--space-1) !important;</span>
   </td>
 </tr>
 
@@ -44,8 +44,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:2</code></td>
   <td><code>mx:2</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-2) !important;</span> <span class="c:weak">/* 8px */</span><br>
-    <span class="code">margin-left: var(--gap-2) !important;</span>
+    <span class="code">margin-right: var(--space-2) !important;</span> <span class="c:weak">/* 8px */</span><br>
+    <span class="code">margin-left: var(--space-2) !important;</span>
   </td>
 </tr>
 
@@ -53,8 +53,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:3</code></td>
   <td><code>mx:3</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-3) !important;</span> <span class="c:weak">/* 12px */</span><br>
-    <span class="code">margin-left: var(--gap-3) !important;</span>
+    <span class="code">margin-right: var(--space-3) !important;</span> <span class="c:weak">/* 12px */</span><br>
+    <span class="code">margin-left: var(--space-3) !important;</span>
   </td>
 </tr>
 
@@ -62,8 +62,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:4</code></td>
   <td><code>mx:4</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-4) !important;</span> <span class="c:weak">/* 16px */</span><br>
-    <span class="code">margin-left: var(--gap-4) !important;</span>
+    <span class="code">margin-right: var(--space-4) !important;</span> <span class="c:weak">/* 16px */</span><br>
+    <span class="code">margin-left: var(--space-4) !important;</span>
   </td>
 </tr>
 
@@ -71,8 +71,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:5</code></td>
   <td><code>mx:5</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-5) !important;</span> <span class="c:weak">/* 20px */</span><br>
-    <span class="code">margin-left: var(--gap-5) !important;</span>
+    <span class="code">margin-right: var(--space-5) !important;</span> <span class="c:weak">/* 20px */</span><br>
+    <span class="code">margin-left: var(--space-5) !important;</span>
   </td>
 </tr>
 
@@ -80,8 +80,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:6</code></td>
   <td><code>mx:6</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-6) !important;</span> <span class="c:weak">/* 24px */</span><br>
-    <span class="code">margin-left: var(--gap-6) !important;</span>
+    <span class="code">margin-right: var(--space-6) !important;</span> <span class="c:weak">/* 24px */</span><br>
+    <span class="code">margin-left: var(--space-6) !important;</span>
   </td>
 </tr>
 
@@ -89,8 +89,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:7</code></td>
   <td><code>mx:7</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-7) !important;</span> <span class="c:weak">/* 28px */</span><br>
-    <span class="code">margin-left: var(--gap-7) !important;</span>
+    <span class="code">margin-right: var(--space-7) !important;</span> <span class="c:weak">/* 28px */</span><br>
+    <span class="code">margin-left: var(--space-7) !important;</span>
   </td>
 </tr>
 
@@ -98,8 +98,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:8</code></td>
   <td><code>mx:8</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-8) !important;</span> <span class="c:weak">/* 32px */</span><br>
-    <span class="code">margin-left: var(--gap-8) !important;</span>
+    <span class="code">margin-right: var(--space-8) !important;</span> <span class="c:weak">/* 32px */</span><br>
+    <span class="code">margin-left: var(--space-8) !important;</span>
   </td>
 </tr>
 
@@ -107,8 +107,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:9</code></td>
   <td><code>mx:9</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-9) !important;</span> <span class="c:weak">/* 36px */</span><br>
-    <span class="code">margin-left: var(--gap-9) !important;</span>
+    <span class="code">margin-right: var(--space-9) !important;</span> <span class="c:weak">/* 36px */</span><br>
+    <span class="code">margin-left: var(--space-9) !important;</span>
   </td>
 </tr>
 
@@ -116,8 +116,8 @@ margin-x 속성에 대한 유틸리티입니다.
   <td><code>margin-x:10</code></td>
   <td><code>mx:10</code></td>
   <td>
-    <span class="code">margin-right: var(--gap-10) !important;</span> <span class="c:weak">/* 40px */</span><br>
-    <span class="code">margin-left: var(--gap-10) !important;</span>
+    <span class="code">margin-right: var(--space-10) !important;</span> <span class="c:weak">/* 40px */</span><br>
+    <span class="code">margin-left: var(--space-10) !important;</span>
   </td>
 </tr>
 
@@ -125,4 +125,4 @@ margin-x 속성에 대한 유틸리티입니다.
 
 </table>
 
-기본 여백 크기 `var(--gap)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#gap)를 참고해주세요.
+기본 여백 크기 `var(--spacing)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#gap)를 참고해주세요.

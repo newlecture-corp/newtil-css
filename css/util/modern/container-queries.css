@@ -231,27 +231,27 @@
 	/* @container card (min-width: 400px) 에서 사용 */
 	display: grid !important;
 	grid-template-columns: auto 1fr !important;
-	gap: var(--spacing-4) !important;
+	gap: var(--space-4) !important;
 }
 
 .card-layout-lg {
 	/* @container card (min-width: 600px) 에서 사용 */
 	display: grid !important;
 	grid-template-columns: 200px 1fr !important;
-	gap: var(--spacing-6) !important;
+	gap: var(--space-6) !important;
 }
 
 /* 사이드바 컴포넌트용 */
 .sidebar-compact {
 	/* @container sidebar (max-width: 200px) 에서 사용 */
 	font-size: var(--font-size-sm) !important;
-	padding: var(--spacing-2) !important;
+	padding: var(--space-2) !important;
 }
 
 .sidebar-expanded {
 	/* @container sidebar (min-width: 300px) 에서 사용 */
 	font-size: var(--font-size-base) !important;
-	padding: var(--spacing-4) !important;
+	padding: var(--space-4) !important;
 }
 
 /* ===== BROWSER SUPPORT & FALLBACKS ===== */
@@ -295,7 +295,7 @@
 	container-name: card !important;
 	border: 1px solid var(--color-base-3) !important;
 	border-radius: var(--radius-md) !important;
-	padding: var(--spacing-4) !important;
+	padding: var(--space-4) !important;
 }
 
 /* 사이드바 컨테이너 설정 */
@@ -311,5 +311,5 @@
 	container-type: size !important;
 	container-name: main !important;
 	flex: 1 !important;
-	padding: var(--spacing-6) !important;
+	padding: var(--space-6) !important;
 }
