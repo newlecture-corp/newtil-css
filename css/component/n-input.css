@@ -250,7 +250,7 @@ textarea.n-input.n-input-status\:disabled,
 label:has(+ .n-input){
   display: flex;
   align-items: center;
-  margin-right: var(--gap-2);
+  margin-right: var(--space-2);
 
   font-size: var(--font-size-2);
   font-weight: var(--font-weight-2);
@@ -261,7 +261,7 @@ label:has(+ .n-input){
 .n-input + label{
   display: flex;
   align-items: center;
-  margin-left: var(--gap-2);
+  margin-left: var(--space-2);
 
   font-size: var(--font-size-2);
   font-weight: var(--font-weight-2);
@@ -272,7 +272,7 @@ label:has(+ .n-input){
 label:has(.n-input){
   display: flex;
   align-items: center;
-  gap: var(--gap-2);
+  gap: var(--space-2);
 
   width: 100%;
 
@@ -283,13 +283,13 @@ label:has(.n-input){
 }
 
 label:has(.n-input.n-input-label\:top) {
-  gap: var(--gap-1);
+  gap: var(--space-1);
   flex-direction: column;
   align-items: start;
 }
 
 label:has(.n-input.n-input-label\:bottom) {
-  gap: var(--gap-1);
+  gap: var(--space-1);
   flex-direction: column-reverse;
   align-items: start;
 }

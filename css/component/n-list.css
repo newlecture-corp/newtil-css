@@ -1,16 +1,469 @@
+/*
+	 n-list 옵션 요약
+	 - 변수: --n-list-gap(기본 var(--space-2)), --n-list-sep-color
+	 - 분리자: .list-sep, .list-seperator, .list-sep:{none|solid|dotted|dot|dashed}
+	 - 간격: .gap:{1|2|3|4|5|6|7|8} → gap 및 --n-list-gap 적용
+	 - 방향: .list-direction:column | .list-dir:column (기본은 row)
+	 - 아이템 폭/줄바꿈: .list-fit:{fill|shrink|content|wrap|nowrap}
+	 - 가로 정렬(row 기준): .list-vertical-align:{left|center|right}
+	 - 세로 정렬(column 아이템): .list-vertical-align:{top|center|bottom} | .list-valign:{top|center|bottom}
+	 - 컬럼에서 가로 정렬: .list-align:{left|center|right}
+	 - 활성화 스타일: .list-active, .list-active:bar, .list-active:color (.active 또는 input:checked 반응)
+	 - 리스트 타입: .list-type:aside-menu (세로 메뉴)
+	 - 데이터 리스트: .n-list:dl + .dl-sperator:{solid|ruled}
+	 - 그리드 래핑 헬퍼: .n-list:wrap (auto-fill 카드형 배열)
+	 - 유틸 상호운용: .w:grow 지원
+	 - 다크모드: prefers-color-scheme: dark에서 --n-list-sep-color 재정의
+	 - 호환 별칭: "list-seperator"(오타) 클래스도 동일 동작
+	 - 참고: 분리자 라인은 --n-list-gap 중앙에 오도록 위치 계산됨
+*/
+
 .n-list {
-	display: flex;
+	/* variables */
+	/* 한 곳에서 gap 정의 */
+	--n-list-gap: var(--space-2);
+	--n-list-sep-color: var(--color-base-5);
+	
+	/* 다크모드 변수 재정의 (prefer dark theme) */
+}
+
+@media (prefers-color-scheme: dark) {
+	.n-list {
+	
+		--n-list-sep-color: var(--color-base-7, #333a44);
+	}
+}
+
+/* 만약 클래스를 통한 다크모드(.dark) 지원도 필요하다면 추가 */
+.dark .n-list {
+	
+}
+
+/* 이하 기존 스타일은 그대로 유지 */
+.n-list {
+
+	/* text */
+	/* white-space: nowrap; */
+	text-overflow: ellipsis;
+	
+	/* boxing */
+
+	/* layout */
+	display: flex;	
+	/* flex-direction: row; */
 	flex-direction: row;
 	align-items: center;
+	/* justify-content: stretch; */
 
-	&.n-list\:left {
+	/* 구분자 공통 설정 */
+	&>* {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-sizing: border-box;
+		position: relative;
+		padding: var(--space-2) var(--space-4);
+		/* border-radius: var(--space-3); */
+	}
+
+	/* ===== DEFAULT SEPARATOR ===== */
+	/*
+	list-sep:none, solid, dotted, dot, dashed
+	list-seperator:none, solid, dotted, dot, dashed
+	*/
+	
+	&.list-sep,
+	&.list-seperator,
+	&.list-sep\:solid,
+	&.list-seperator\:solid,
+	&.list-sep\:dotted,
+	&.list-seperator\:dotted,
+	&.list-sep\:dot,
+	&.list-seperator\:dot,
+	&.list-sep\:dashed,
+	&.list-seperator\:dashed {
+		gap: var(--n-list-gap);
+	}
+	
+	&.list-sep>*+*::before ,
+	&.list-seperator>*+*::before ,
+	&.list-sep\:solid>*+*::before ,
+	&.list-seperator\:solid>*+*::before ,
+	&.list-sep\:dotted>*+*::before,
+	&.list-seperator\:dotted>*+*::before,
+	&.list-sep\:dot>*+*::before,
+	&.list-seperator\:dot>*+*::before,
+	&.list-sep\:dashed>*+*::before,
+	&.list-seperator\:dashed>*+*::before{
+		content: "";
+		position: absolute;
+		/* 아이템의 왼쪽으로 "gap의 절반"만큼 나가서 = gap 중앙에 선이 위치 */
+		
+		left: calc(var(--n-list-gap) * -0.7);
+		top: 25%;
+		bottom: 25%;
+		width: 1px;
+		background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		background-size: 1px 4px;
+		background-repeat: repeat-y;
+		pointer-events: none;
+	}
+	
+	/* ===== SEPARATOR ===== */
+	/*
+	list-sep:none, solid, dotted, dot, dashed
+	list-seperator:none, solid, dotted, dot, dashed
+	*/
+
+	&.list-sep\:none,
+	&.list-seperator\:none {
+		&>*+*::before {
+			display: none;
+		}
+	}
+
+	&.list-sep\:solid,
+	&.list-seperator\:solid {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
+			
+		}
+	}
+
+	&.list-sep\:dotted,
+	&.list-seperator\:dotted {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		}
+	}
+
+	&.list-sep\:dot,
+	&.list-seperator\:dot {
+		&>*+*::before {
+			background-image: radial-gradient(circle, var(--n-list-sep-color) 1.5px, transparent 1.6px);
+			background-size: 3px 9px;
+			background-repeat: no-repeat;
+
+			top: 45%;
+			bottom: 45%;
+			width: 3px;
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			background-size: 3px 4px;
+		}
+	}
+
+	&.list-sep\:dashed,
+	&.list-seperator\:dashed {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		}
+	}	
+
+
+	/* ===== LIST DIRECTION ===== */
+	/*
+	list-direction:row, column
+	list-dir:row, column
+	*/		
+
+	/* ===== LIST FIT ===== */
+	/*
+	list-fit:fill, shrink,wrap, content
+	*/
+
+	&.list-fit\:fill>* {		
+		flex: 1 0 auto;		
+	}
+
+	&.list-fit\:shrink>* {
+		flex: 0 1 auto; 
+		min-width: 0;
+	}
+
+	&.list-fit\:noshrink {
+		overflow: hidden;
+		max-width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	&.list-fit\:noshrink>*,
+	&.list-fit\:content>* {
+		flex: 0 0 auto;		
+	}
+
+	&.list-fit\:wrap>* {
+		flex-wrap: wrap;
+	}
+
+	&.list-fit\:nowrap>* {
+		flex-wrap: nowrap;
+	}
+
+	&.list-vertical-align\:left {
 		justify-content: flex-start;
 	}
-	&.n-list\:center {
+	&.list-vertical-align\:center {
 		justify-content: center;
 	}
-	&.n-list\:right {
+	&.list-vertical-align\:right {
 		justify-content: flex-end;
+	}
+	
+	&.list-sep\:none,
+	&.list-seperator\:none {
+		&>*+*::before {
+			display: none;
+		}
+	}
+
+	&.list-sep\:solid,
+	&.list-seperator\:solid {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
+		}
+	}
+
+	&.list-sep\:dotted,
+	&.list-seperator\:dotted {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		}
+	}
+
+	&.list-sep\:dashed,
+	&.list-seperator\:dashed {
+		&>*+*::before {
+			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		}
+	}
+	
+
+	/* ===== LIST ACTIVE TYPE ===== */
+	/*
+	list-active:aside-menu, bar, color
+	list-active:aside-menu, bar, color
+	*/
+	
+	&.list-active,
+	&.list-active\:bar,
+	&.list-active\:color {
+
+		&>*{
+			cursor: pointer;
+			transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+
+			& label,input{
+				cursor: pointer;			
+			}
+			
+			&.active,
+			&:has(input:checked) {				
+				background-color: var(--color-background-onactive);
+				color: var(--color-text-onactive);								
+			}
+						
+			&:hover {				
+				background-color: var(--color-background-onhover);
+				color: var(--color-text-onhover);
+
+			}			
+		}
+	}
+
+	&.list-active\:bar {
+		&>*{	
+
+			&.active {
+				background-color: transparent;
+				color: var(--color-text-onactive);				
+
+				& .n-icon{								
+					color: var(--color-icon-onactive);
+				}				
+			}
+
+			&:hover {
+				background-color: transparent;
+				/* color: var(--color-text-onhover); */
+				
+				& .n-icon{
+					color: var(--color-icon-onhover);
+				}
+			}
+			
+			&.active::after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 3px;
+				background-color: var(--color-background-onactive);				
+				opacity: 1;
+			}
+
+			&:hover::after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 3px;
+				background-color: var(--color-background-onhover);
+				opacity: 1;
+			}
+
+			&:not(.active):not(:hover)::after {
+				opacity: 0;
+			}
+		}
+	}
+
+
+	
+	/* ===== GAP ===== */
+	/*
+	gap:1, 2, 3, 4, 5, 6, 7, 8
+	*/
+	&.gap\:1 {
+		--n-list-gap: var(--space-1);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:2 {
+		--n-list-gap: var(--space-2);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:3 {
+		--n-list-gap: var(--space-3);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:4 {
+		--n-list-gap: var(--space-4);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:5 {
+		--n-list-gap: var(--space-5);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:6 {
+		--n-list-gap: var(--space-6);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:7 {
+		--n-list-gap: var(--space-7);
+		gap: var(--n-list-gap);
+	}
+	&.gap\:8 {
+		--n-list-gap: var(--space-8);
+		gap: var(--n-list-gap);
+	}
+
+
+
+	/* ===== ROW DIRECTION ===== */
+	/* ===== COLUMN DIRECTION ===== */
+	/*
+	list-direction:row, column
+	list-dir:row, column
+	*/
+
+	&.list-direction\:column,
+	&.list-dir\:column {
+		flex-direction: column;
+		align-items: flex-start;
+		--n-list-gap: 0;
+
+		&>* {
+			display: flex;
+			justify-content: flex-start;
+			width: 100%;
+		}
+
+		/* ===== COLUMN DIRECTION ITEMS ALIGN ===== */
+		/*
+		list-align:left, center, right
+		list-align:left, center, right
+		*/
+
+		&.list-align\:left>* {
+			justify-content: flex-start;
+		}
+		&.list-align\:center>* {
+			justify-content: center;
+		}
+		&.list-align\:right>* {
+			justify-content: flex-end;
+		}
+
+		/* ===== ROW DIRECTION ITEMS VERTICAL ALIGN ===== */
+		/*
+		list-vertical-align:left, center, right
+		list-vertical-align:left, center, right
+		*/
+		
+		
+
+		/* ===== COLUMN DIRECTION ITEMS VERTICAL ALIGN ===== */
+		/*
+		list-vertical-align:left, center, right
+		list-vertical-align:left, center, right
+		*/
+
+		&.list-vertical-align\:top>*,
+		&.list-valign\:top>* {
+			align-items: flex-start;
+		}
+		&.list-vertical-align\:center>*,
+		&.list-valign\:center>* {
+			align-items: center;
+		}
+		&.list-vertical-align\:bottom>*,
+		&.list-valign\:bottom>* {
+			align-items: flex-end;
+		}
+	}
+
+	/* ===== ITEMS ALIGN ===== */
+	/*
+	item-align:left, center, right
+	item-align:left, center, right
+	*/
+	
+	
+	/* util override */
+
+
+	& .w\:grow {
+		flex-grow: 1;
+	}	
+
+	/* ===== ASIDE MENU ===== */
+	/*
+	list-type:aside-menu
+	*/
+	&.list-type\:aside-menu {
+		width: 100%;
+		flex-direction: column;
+		overflow: hidden;
+
+		&>* {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			padding: 10px;
+			border: none;
+
+			flex-shrink: 0;
+			overflow: hidden;
+		}
+
+		
+		/* 
+		&>li:hover {
+			background-color: var(--color-base-5);
+			color: var(--color-base-1);
+		} */
 	}
 }
 
@@ -20,39 +473,17 @@
 	gap: 1rem;
 }
 
-/* --- aside-menu --------------------------------- */
-.n-list\:aside-menu {
-	flex-direction: column;
-	overflow: hidden;
-
-	li {
-		display: flex;
-		align-items: center;
-		padding: 10px;
-		border: none;
-
-		flex-shrink: 0;
-		overflow: hidden;
-	}
-
-	li.active {
-		background-color: rgba(var(--rgb-main-1), 0.7);
-		color: var(--color-base-1);
-	}
-	/* 
-	li:hover {
-		background-color: var(--color-base-5);
-		color: var(--color-base-1);
-	} */
-}
-
-/* --- ruled-data-list --------------------------------- */
+/* ===== RULED DATA LIST ===== */
+/*
+list-type:dl
+dl-sperator:solid, ruled
+*/
 .n-list\:dl {
 	display: flex;
 	flex-direction: column;
 
 	> div {
-		padding: var(--gap-2) 0;
+		padding: var(--space-2) 0;
 		/* border-bottom: 1px dashed var(--color-base-5); */
 
 		display: flex;
@@ -67,7 +498,7 @@
 		}
 
 		> dd {
-			margin-left: var(--gap-2);
+			margin-left: var(--space-2);
 			flex-grow: 1;
 		}
 	}
@@ -89,13 +520,31 @@
 	}
 }
 
-/* hover가 가능한 기기(예: PC)에서만 :hover 스타일 적용 */
+/* ===== HOVER ===== */
+/*
+list-type:aside-menu
+*/
 @media (hover: hover) and (pointer: fine) {
-	/* --- aside-menu --------------------------------- */
-	.n-list\:aside-menu {
-		li:hover {
-			background-color: var(--color-base-5);
-			color: var(--color-base-1);
+	/* ===== ASIDE MENU ===== */
+	/*
+	list-type:aside-menu
+	*/
+	.n-list {
+		&.list-type\:aside-menu {
+			&>li:hover {
+				background-color: var(--color-hover-bg);
+				color: var(--color-hover-text);
+			}
 		}
 	}
+}
+
+/* ===== CARD LIST ===== */
+/*
+list-type:card
+*/
+.n-list\:card {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: var(--space-2);
 }

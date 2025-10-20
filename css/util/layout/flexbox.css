@@ -301,62 +301,62 @@
 
 /* gap: 1 (4px) */
 .gap\:1 {
-	gap: var(--spacing-1) !important;
+	gap: var(--space-1) !important;
 }
 
 /* gap: 1.5 (6px) */
 .gap\:1\.5 {
-	gap: var(--spacing-1\.5) !important;
+	gap: var(--space-1\.5) !important;
 }
 
 /* gap: 2 (8px) */
 .gap\:2 {
-	gap: var(--spacing-2) !important;
+	gap: var(--space-2) !important;
 }
 
 /* gap: 3 (12px) */
 .gap\:3 {
-	gap: var(--spacing-3) !important;
+	gap: var(--space-3) !important;
 }
 
 /* gap: 4 (16px) */
 .gap\:4 {
-	gap: var(--spacing-4) !important;
+	gap: var(--space-4) !important;
 }
 
 /* gap: 5 (20px) */
 .gap\:5 {
-	gap: var(--spacing-5) !important;
+	gap: var(--space-5) !important;
 }
 
 /* gap: 6 (24px) */
 .gap\:6 {
-	gap: var(--spacing-6) !important;
+	gap: var(--space-6) !important;
 }
 
 /* gap: 8 (32px) */
 .gap\:8 {
-	gap: var(--spacing-8) !important;
+	gap: var(--space-8) !important;
 }
 
 /* gap: 10 (40px) */
 .gap\:10 {
-	gap: var(--spacing-10) !important;
+	gap: var(--space-10) !important;
 }
 
 /* gap: 12 (48px) */
 .gap\:12 {
-	gap: var(--spacing-12) !important;
+	gap: var(--space-12) !important;
 }
 
 /* gap: 16 (64px) */
 .gap\:16 {
-	gap: var(--spacing-16) !important;
+	gap: var(--space-16) !important;
 }
 
 /* gap: 20 (80px) */
 .gap\:20 {
-	gap: var(--spacing-20) !important;
+	gap: var(--space-20) !important;
 }
 
 /* ===== ROW GAP ===== */
@@ -370,31 +370,31 @@
 /* row-gap: 1 (4px) */
 .row-gap\:1,
 .rg\:1 {
-	row-gap: var(--spacing-1) !important;
+	row-gap: var(--space-1) !important;
 }
 
 /* row-gap: 2 (8px) */
 .row-gap\:2,
 .rg\:2 {
-	row-gap: var(--spacing-2) !important;
+	row-gap: var(--space-2) !important;
 }
 
 /* row-gap: 4 (16px) */
 .row-gap\:4,
 .rg\:4 {
-	row-gap: var(--spacing-4) !important;
+	row-gap: var(--space-4) !important;
 }
 
 /* row-gap: 6 (24px) */
 .row-gap\:6,
 .rg\:6 {
-	row-gap: var(--spacing-6) !important;
+	row-gap: var(--space-6) !important;
 }
 
 /* row-gap: 8 (32px) */
 .row-gap\:8,
 .rg\:8 {
-	row-gap: var(--spacing-8) !important;
+	row-gap: var(--space-8) !important;
 }
 
 /* ===== COLUMN GAP ===== */
@@ -408,31 +408,31 @@
 /* column-gap: 1 (4px) */
 .column-gap\:1,
 .cg\:1 {
-	column-gap: var(--spacing-1) !important;
+	column-gap: var(--space-1) !important;
 }
 
 /* column-gap: 2 (8px) */
 .column-gap\:2,
 .cg\:2 {
-	column-gap: var(--spacing-2) !important;
+	column-gap: var(--space-2) !important;
 }
 
 /* column-gap: 4 (16px) */
 .column-gap\:4,
 .cg\:4 {
-	column-gap: var(--spacing-4) !important;
+	column-gap: var(--space-4) !important;
 }
 
 /* column-gap: 6 (24px) */
 .column-gap\:6,
 .cg\:6 {
-	column-gap: var(--spacing-6) !important;
+	column-gap: var(--space-6) !important;
 }
 
 /* column-gap: 8 (32px) */
 .column-gap\:8,
 .cg\:8 {
-	column-gap: var(--spacing-8) !important;
+	column-gap: var(--space-8) !important;
 }
 
 /* ===== ORDER ===== */
@@ -526,13 +526,13 @@
 		gap: 0 !important;
 	}
 	.sm\:gap\:2 {
-		gap: var(--spacing-2) !important;
+		gap: var(--space-2) !important;
 	}
 	.sm\:gap\:4 {
-		gap: var(--spacing-4) !important;
+		gap: var(--space-4) !important;
 	}
 	.sm\:gap\:8 {
-		gap: var(--spacing-8) !important;
+		gap: var(--space-8) !important;
 	}
 }
 
@@ -578,13 +578,13 @@
 		gap: 0 !important;
 	}
 	.md\:gap\:2 {
-		gap: var(--spacing-2) !important;
+		gap: var(--space-2) !important;
 	}
 	.md\:gap\:4 {
-		gap: var(--spacing-4) !important;
+		gap: var(--space-4) !important;
 	}
 	.md\:gap\:8 {
-		gap: var(--spacing-8) !important;
+		gap: var(--space-8) !important;
 	}
 }
 
@@ -630,13 +630,13 @@
 		gap: 0 !important;
 	}
 	.lg\:gap\:2 {
-		gap: var(--spacing-2) !important;
+		gap: var(--space-2) !important;
 	}
 	.lg\:gap\:4 {
-		gap: var(--spacing-4) !important;
+		gap: var(--space-4) !important;
 	}
 	.lg\:gap\:8 {
-		gap: var(--spacing-8) !important;
+		gap: var(--space-8) !important;
 	}
 }
 
@@ -682,12 +682,12 @@
 		gap: 0 !important;
 	}
 	.xl\:gap\:2 {
-		gap: var(--spacing-2) !important;
+		gap: var(--space-2) !important;
 	}
 	.xl\:gap\:4 {
-		gap: var(--spacing-4) !important;
+		gap: var(--space-4) !important;
 	}
 	.xl\:gap\:8 {
-		gap: var(--spacing-8) !important;
+		gap: var(--space-8) !important;
 	}
 }

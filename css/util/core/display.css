@@ -121,6 +121,17 @@
 	display: flow-root !important;
 }
 
+
+.display\:initial,
+.d\:initial {
+	display: initial !important;
+}
+
+.display\:revert,
+.d\:none\:revert {
+	display: revert !important;
+}
+
 /* ===== RESPONSIVE DISPLAY ===== */
 
 /* Small screens (640px+) */
@@ -176,6 +187,15 @@
 	.sm\:display\:flow-root,
 	.sm\:d\:flow-root {
 		display: flow-root !important;
+	}
+
+	.sm\:display\:revert,
+	.sm\:d\:revert {
+		display: revert !important;
+	}
+	.sm\:display\:initial,
+	.sm\:d\:initial {
+		display: initial !important;
 	}
 }
 
@@ -233,6 +253,15 @@
 	.md\:d\:flow-root {
 		display: flow-root !important;
 	}
+
+	.md\:display\:revert,
+	.md\:d\:revert {
+		display: revert !important;
+	}
+	.md\:display\:initial,
+	.md\:d\:initial {
+		display: initial !important;
+	}
 }
 
 /* Large screens (1024px+) */
@@ -289,6 +318,15 @@
 	.lg\:d\:flow-root {
 		display: flow-root !important;
 	}
+
+	.lg\:display\:revert,
+	.lg\:d\:revert {
+		display: revert !important;
+	}
+	.lg\:display\:initial,
+	.lg\:d\:initial {
+		display: initial !important;
+	}
 }
 
 /* Extra large screens (1280px+) */
@@ -344,5 +382,14 @@
 	.xl\:display\:flow-root,
 	.xl\:d\:flow-root {
 		display: flow-root !important;
+	}
+
+	.xl\:display\:revert,
+	.xl\:d\:revert {
+		display: revert !important;
+	}
+	.xl\:display\:initial,
+	.xl\:d\:initial {
+		display: initial !important;
 	}
 }

@@ -1,61 +1,111 @@
+
+/* === .n-section 옵션 ====
+
+.n-content-toggle:hide
+
+============================================================== */
+
+.n-section {
+	--padding: var(--space-4);
+	--gap: var(--space-4);
+	--bd-color: var(--color-base-3);
+	--bd-width: 1px;
+	--bd-radius: var(--space-3);
+	--title-color: var(--color-base-7);
+	--title-size: var(--size-8);
+	--title-fw: var(--font-weight-7);
+}
+
+@media (prefers-color-scheme: dark) {
+	.n-section {
+		--title-color: var(--color-base-1);
+		--bd-color: var(--color-base-6);
+		--bd-width: 0.5px;
+	}
+}
+
 .n-section {
 	display: flex;
-}
+	flex-direction: column;	
+	overflow: clip;	
 
-.n-section\:aside-menu {
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	padding: var(--gap-5) 0 var(--gap-3) 0;
-	border-top: 1px solid var(--color-base-5);
+	border: var(--bd-width) solid var(--bd-color);
+	border-radius: var(--bd-radius);
 
-	> h1 {
-		font-size: 1rem;
-		font-weight: 600;
-		margin-bottom: var(--gap-2);
-		padding-left: var(--gap-2);
+	&>h1,
+	&>header {
+		font-size: var(--title-size);
+		font-weight: var(--title-fw);
+		color: var(--title-color);
+
+		overflow: hidden;
+		min-width: 0;
+		max-width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		
+		padding: var(--padding);
+
+		display: flex;
+		align-items: center;		
+		border-bottom: var(--bd-width) solid var(--bd-color);		
 	}
-}
 
-.n-section\:card,
-.n-section\:card-1,
-.n-section\:card-2,
-.n-section\:card-radus,
-.n-section\:card-3,
-.n-section\:card-shadow {
-	background-color: var(--n-bg-color, var(--color-base-1));
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-sizing: border-box;
-	flex-shrink: 0;
-	padding: 20px;
-	width: 100%;
-	max-width: 300px;
-
-	img {
-		object-fit: cover;
-		width: 100%;
+	/* header에 종속된 h1 스타일 */
+	&>header>h1{
+		font-size: var(--title-size);
+		font-weight: var(--title-fw);
+		color: var(--title-color);
+		display: flex;
+		align-items: center;
 	}
-}
 
-.n-section\:card-2,
-.n-section\:card-radus,
-.n-section\:card-3,
-.n-section\:card-shadow {
-	border-radius: var(--n-bd-radius, var(--gap-2));
-}
+	&>h1+*,
+	&>header+* {
+		max-height: 2000px; /* 충분히 큰 값 */
+		overflow: hidden;
+		padding: var(--padding);
+		transition: max-height 0.6s ease, opacity 0.6s ease, padding 0.6s ease;
+		opacity: 1;
+	}
 
-.n-section\:card-3,
-.n-section\:card-shadow {
-	box-shadow: 0 1px 3px -1px rgba(22, 26, 32, 0.05),
-		0 2px 8px -1px rgba(50, 50, 93, 0.13);
-}
+	/* 혹시 n-list 가 포함되어 있고 방향이 column 방향이면 콘텐츠 영역 패딩을 없앰 */
+	&:has(.n-list.list-dir\:column),
+	&:has(.n-list.list-direction\:column)>* {
+		&>h1+*,
+		&>header+* {
+			padding: 0;
+		}
+	}
 
-@media (max-width: 600px) {
-	.n-section\:aside-menu {
-		padding: 0;
+	/* &.content-toggle\:show{
 
-		> h1 {
-			display: none;
+		&>h1,
+		&>header {			
+			border-bottom: var(--bd-width) solid var(--bd-color);		
+		}
+
+		&>h1+*,
+		&>header+* {
+			height: auto;
+			overflow: visible;
+			transition: height 0.3s ease, overflow 0.3s ease;
+			padding: var(--padding);
+		}
+	} */
+
+	&.content-toggle\:hide{
+		&>h1,
+		&>header {
+			border-bottom: none;
+		}
+
+		&>h1+*,
+		&>header+* {
+			max-height: 0;
+			opacity: 0;
+			padding-top: 0;
+			padding-bottom: 0;
 		}
 	}
 }

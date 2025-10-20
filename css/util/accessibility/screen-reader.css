@@ -37,7 +37,7 @@
 	position: static !important;
 	width: auto !important;
 	height: auto !important;
-	padding: var(--spacing-2) var(--spacing-4) !important;
+	padding: var(--space-2) var(--space-4) !important;
 	margin: 0 !important;
 	overflow: visible !important;
 	clip: auto !important;
@@ -130,10 +130,10 @@
 .skip-link {
 	position: absolute !important;
 	top: -40px !important;
-	left: var(--spacing-4) !important;
+	left: var(--space-4) !important;
 	background: var(--color-base-9) !important;
 	color: var(--color-white) !important;
-	padding: var(--spacing-2) var(--spacing-4) !important;
+	padding: var(--space-2) var(--space-4) !important;
 	text-decoration: none !important;
 	border-radius: var(--radius-sm) !important;
 	z-index: var(--z-index-tooltip) !important;
@@ -141,7 +141,7 @@
 }
 
 .skip-link:focus {
-	top: var(--spacing-4) !important;
+	top: var(--space-4) !important;
 }
 
 /* 네비게이션 스킵 링크들 */
@@ -155,18 +155,18 @@
 .skip-links a {
 	position: absolute !important;
 	top: -40px !important;
-	left: var(--spacing-4) !important;
+	left: var(--space-4) !important;
 	background: var(--color-base-9) !important;
 	color: var(--color-white) !important;
-	padding: var(--spacing-2) var(--spacing-4) !important;
+	padding: var(--space-2) var(--space-4) !important;
 	text-decoration: none !important;
 	border-radius: var(--radius-sm) !important;
 	transition: top var(--duration-fast) var(--ease-out) !important;
-	margin-right: var(--spacing-2) !important;
+	margin-right: var(--space-2) !important;
 }
 
 .skip-links a:focus {
-	top: var(--spacing-4) !important;
+	top: var(--space-4) !important;
 }
 
 /* ===== LANDMARK REGIONS (랜드마크 영역) ===== */
@@ -176,7 +176,7 @@ main[role="main"],
 [role="main"],
 .main-content {
 	scroll-margin-top: var(
-		--spacing-20
+		--space-20
 	) !important; /* 고정 헤더를 위한 스크롤 마진 */
 }
 
@@ -237,8 +237,8 @@ aside[role="complementary"],
 	background-color: rgba(var(--rgb-danger-1), 0.1) !important;
 	border: 1px solid var(--color-danger-1) !important;
 	border-radius: var(--radius-sm) !important;
-	padding: var(--spacing-2) var(--spacing-3) !important;
-	margin-top: var(--spacing-1) !important;
+	padding: var(--space-2) var(--space-3) !important;
+	margin-top: var(--space-1) !important;
 	font-size: var(--font-size-sm) !important;
 }
 
@@ -249,8 +249,8 @@ aside[role="complementary"],
 	background-color: rgba(var(--rgb-success-1), 0.1) !important;
 	border: 1px solid var(--color-success-1) !important;
 	border-radius: var(--radius-sm) !important;
-	padding: var(--spacing-2) var(--spacing-3) !important;
-	margin-top: var(--spacing-1) !important;
+	padding: var(--space-2) var(--space-3) !important;
+	margin-top: var(--space-1) !important;
 	font-size: var(--font-size-sm) !important;
 }
 
@@ -261,8 +261,8 @@ aside[role="complementary"],
 	background-color: rgba(var(--rgb-warning-1), 0.1) !important;
 	border: 1px solid var(--color-warning-1) !important;
 	border-radius: var(--radius-sm) !important;
-	padding: var(--spacing-2) var(--spacing-3) !important;
-	margin-top: var(--spacing-1) !important;
+	padding: var(--space-2) var(--space-3) !important;
+	margin-top: var(--space-1) !important;
 	font-size: var(--font-size-sm) !important;
 }
 
@@ -349,7 +349,7 @@ aside[role="complementary"],
 .table-caption,
 caption {
 	text-align: left !important;
-	padding: var(--spacing-2) var(--spacing-4) !important;
+	padding: var(--space-2) var(--space-4) !important;
 	font-weight: var(--font-weight-semibold) !important;
 	background-color: var(--color-base-1) !important;
 	border-bottom: 1px solid var(--color-base-3) !important;
@@ -361,14 +361,14 @@ th {
 	background-color: var(--color-base-2) !important;
 	font-weight: var(--font-weight-semibold) !important;
 	text-align: left !important;
-	padding: var(--spacing-3) var(--spacing-4) !important;
+	padding: var(--space-3) var(--space-4) !important;
 	border-bottom: 2px solid var(--color-base-4) !important;
 }
 
 /* 데이터 셀 스타일링 */
 .table-cell,
 td {
-	padding: var(--spacing-3) var(--spacing-4) !important;
+	padding: var(--space-3) var(--space-4) !important;
 	border-bottom: 1px solid var(--color-base-3) !important;
 	vertical-align: top !important;
 }
@@ -378,13 +378,13 @@ td {
 /* 모바일에서 스크린 리더 최적화 */
 @media (max-width: 767px) {
 	.skip-link {
-		left: var(--spacing-2) !important;
-		padding: var(--spacing-3) var(--spacing-4) !important;
+		left: var(--space-2) !important;
+		padding: var(--space-3) var(--space-4) !important;
 		font-size: var(--font-size-base) !important;
 	}
 
 	.visually-hidden-focusable:focus {
-		padding: var(--spacing-3) var(--spacing-4) !important;
+		padding: var(--space-3) var(--space-4) !important;
 		font-size: var(--font-size-base) !important;
 	}
 }
@@ -392,11 +392,11 @@ td {
 /* 큰 화면에서 스킵 링크 위치 조정 */
 @media (min-width: 1024px) {
 	.skip-link {
-		left: var(--spacing-8) !important;
+		left: var(--space-8) !important;
 	}
 
 	.skip-links a {
-		left: var(--spacing-8) !important;
+		left: var(--space-8) !important;
 	}
 }
 
@@ -421,7 +421,7 @@ td {
 	display: inline-flex !important;
 	align-items: center !important;
 	justify-content: center !important;
-	padding: var(--spacing-2) var(--spacing-4) !important;
+	padding: var(--space-2) var(--space-4) !important;
 	background-color: var(--color-main-1) !important;
 	color: var(--color-white) !important;
 	border: none !important;

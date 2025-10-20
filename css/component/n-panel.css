@@ -94,7 +94,7 @@
 	position: relative;
 
 	.slide-cliper {
-		margin-right: var(--gap-6);
+		margin-right: var(--space-6);
 		height: 100%;
 		overflow: hidden;
 		position: relative;
@@ -133,7 +133,7 @@
 	> header {
 		display: flex;
 		/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-		padding: var(--gap-4) var(--gap-6);
+		padding: var(--space-4) var(--space-6);
 
 		> h1 {
 			display: flex;
@@ -144,7 +144,7 @@
 	> h1 ~ *,
 	> header ~ * {
 		height: auto;
-		padding: var(--gap-4) var(--gap-6);
+		padding: var(--space-4) var(--space-6);
 		border-top: 1px solid currentColor;
 
 		transition: height 0.3s ease, overflow 0.3s ease;
@@ -189,7 +189,7 @@
 	> h1:has(.n-btn\:expander:checked) ~ *,
 	> header:has(.n-btn\:expander:checked) ~ * {
 		height: auto;
-		padding: var(--gap-4) var(--gap-6);
+		padding: var(--space-4) var(--space-6);
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 
 		transition: height 0.3s ease, overflow 0.3s ease;

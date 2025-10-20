@@ -1,3 +1,31 @@
+:root {
+	--shadow-sm: 0 0 2px 0 rgb(0 0 0 / 0.05);
+	--shadow-base: 0 0 3px 0 rgb(0 0 0 / 0.1), 0 0 2px 0 rgb(0 0 0 / 0.1);
+	--shadow-md: 0 0 6px 1px rgb(0 0 0 / 0.1), 0 0 4px 0 rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 0 15px 2px rgb(0 0 0 / 0.1),
+		0 0 6px 1px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 0 25px 3px rgb(0 0 0 / 0.1),
+		0 0 10px 2px rgb(0 0 0 / 0.1);
+	--shadow-2xl: 0 0 50px 5px rgb(0 0 0 / 0.25);
+	--shadow-inner: inset 0 0 4px 0 rgb(0 0 0 / 0.05);
+	--shadow-none: 0 0 #0000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--shadow-sm: 0 0 2px 0 rgb(255 255 255 / 0.05);
+		--shadow-base: 0 0 3px 0 rgb(255 255 255 / 0.1), 0 0 2px 0 rgb(255 255 255 / 0.1);
+		--shadow-md: 0 0 6px 1px rgb(255 255 255 / 0.1), 0 0 4px 0 rgb(255 255 255 / 0.1);
+		--shadow-lg: 0 0 15px 2px rgb(255 255 255 / 0.1),
+		0 0 6px 1px rgb(255 255 255 / 0.1);
+		--shadow-xl: 0 0 25px 3px rgb(255 255 255 / 0.1),
+		0 0 10px 2px rgb(255 255 255 / 0.1);
+		--shadow-2xl: 0 0 50px 5px rgb(255 255 255 / 0.25);
+		--shadow-inner: inset 0 0 4px 0 rgb(255 255 255 / 0.05);
+		--shadow-none: 0 0 #ffffff;
+	}
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 /* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
 /* 혼합 Variables 시스템: shadow, opacity, visibility 등 */
@@ -12,37 +40,49 @@
 
 /* box-shadow: sm */
 .box-shadow\:sm,
-.shadow\:sm {
+.shadow\:sm,
+.box-shadow\:1,
+.shadow\:1 {
 	box-shadow: var(--shadow-sm) !important;
 }
 
 /* box-shadow: base */
 .box-shadow\:base,
-.shadow\:base {
+.shadow\:base,
+.box-shadow\:2,
+.shadow\:2 {
 	box-shadow: var(--shadow-base) !important;
 }
 
 /* box-shadow: md */
 .box-shadow\:md,
-.shadow\:md {
+.shadow\:md,
+.box-shadow\:3,
+.shadow\:3 {
 	box-shadow: var(--shadow-md) !important;
 }
 
 /* box-shadow: lg */
 .box-shadow\:lg,
-.shadow\:lg {
+.shadow\:lg,
+.box-shadow\:4,
+.shadow\:4 {
 	box-shadow: var(--shadow-lg) !important;
 }
 
 /* box-shadow: xl */
 .box-shadow\:xl,
-.shadow\:xl {
+.shadow\:xl,
+.box-shadow\:5,
+.shadow\:5 {
 	box-shadow: var(--shadow-xl) !important;
 }
 
 /* box-shadow: 2xl */
 .box-shadow\:2xl,
-.shadow\:2xl {
+.shadow\:2xl,
+.box-shadow\:6,
+.shadow\:6 {
 	box-shadow: var(--shadow-2xl) !important;
 }
 

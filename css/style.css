@@ -2,7 +2,7 @@
 
 /* Reset & Base */
 @import url("./reset.css");
-@import url("./root.css");
+/* @import url("./root.css"); */
 
 /* Utility System - Component-first + Utility-last 철학 */
 @import url("./util/index.css");
@@ -34,13 +34,24 @@
 } */
 
 /* ===== GLOBAL THEME OVERRIDES ===== */
-/* 유틸리티 시스템의 Variables를 필요시 오버라이드 */
-:root {
-	/* 브랜드 색상 오버라이드 예시 */
-	/* --color-main-1: #your-brand-color; */
 
-	/* 폰트 색상 별칭 (하위 호환성) */
-	--font-color: var(--color-base-7);
+/* 유틸리티 시스템의 Variables를 필요시 오버라이드 */
+:root{
+	--color-text: var(--color-base-7);
+	--color-text-onactive: var(--color-base-1);
+	--color-text-onhover: var(--color-base-1);
+	--color-background: var(--color-base-1);
+	--color-background-onactive: rgba(var(--rgb-main-1), 0.7);
+	--color-background-onhover: rgba(var(--rgb-base-5), 0.7);
+	--color-icon-onactive: rgba(var(--rgb-main-1), 0.7);
+	--color-icon-onhover: rgba(var(--rgb-base-5), 0.7);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root{
+		--color-text: var(--color-base-2);		
+		--color-background: var(--color-base-9);		
+	}
 }
 
 /* ===== GLOBAL RESET ===== */
@@ -51,19 +62,20 @@
 }
 
 /* ===== BASE TYPOGRAPHY ===== */
-body {
+body {	
 	font-family: "Pretendard Variable", Pretendard, -apple-system,
 		BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
 		"Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-	font-size: var(--font-size-sm, 14px);
-	color: var(--color-base-7);
+	font-size: var(--font-size, 14px);
+	color: var(--color-text);
+	background-color: var(--color-background);
 	line-height: var(--line-height-normal, 1.5);
 }
 
 /* ===== LEGACY HELPER CLASSES ===== */
 /* 주의: 새로운 유틸리티 시스템으로 마이그레이션 예정 */
-
+/* 
 .n-active,
 .n-active\:1,
 .n-active\:2,
@@ -87,4 +99,4 @@ body {
 
 .n-shadow {
 	box-shadow: var(--shadow-md);
-}
+} */

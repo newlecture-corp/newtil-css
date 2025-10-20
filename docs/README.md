@@ -55,7 +55,7 @@ npm install newtil-css
 ```css
 :root {
 	/* 간격 조정 */
-	--spacing-4: 20px; /* 기본 16px에서 20px로 */
+	--space-4: 20px; /* 기본 16px에서 20px로 */
 
 	/* 색상 테마 */
 	--color-main-6: #007bff; /* 메인 색상 변경 */
