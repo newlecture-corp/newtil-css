@@ -5,11 +5,13 @@
 /* ===== DROP SHADOW (드롭 섀도우) ===== */
 
 /* filter: drop-shadow() - Variables 사용 */
-.drop-shadow\:sm {
+.drop-shadow\:sm,
+.drop-shadow\:1 {
 	filter: var(--drop-shadow-sm) !important;
 }
 
-.drop-shadow\:base {
+.drop-shadow\:base,
+.drop-shadow\:2 {
 	filter: var(--drop-shadow-base) !important;
 }
 

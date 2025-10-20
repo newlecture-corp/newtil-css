@@ -413,29 +413,17 @@
 	--color-accent-3: #b45309; /* 액센트 컬러 - 어두움 */
 
 	/* 베이스 색상 계열 (회색 스케일) */
-	--color-base-1: #f9fafb; /* 가장 밝은 회색 */
-	--color-base-2: #f3f4f6; /* 매우 밝은 회색 */
+	--color-base-1: #ffffff; /* 가장 밝은 회색 */
+	--color-base-2: #d7d7d7; /* 매우 밝은 회색 */
 	--color-base-3: #e5e7eb; /* 밝은 회색 */
-	--color-base-4: #d1d5db; /* 연한 회색 */
-	--color-base-5: #9ca3af; /* 중간 회색 */
-	--color-base-6: #6b7280; /* 진한 회색 */
-	--color-base-7: #4b5563; /* 어두운 회색 */
-	--color-base-8: #374151; /* 매우 어두운 회색 */
-	--color-base-9: #1f2937; /* 거의 검은 회색 */
-	--color-base-10: #111827; /* 가장 어두운 회색 */
+	--color-base-4: #b3b3b3; /* 연한 회색 */
+	--color-base-5: #9e9e9e; /* 중간 회색 */
+	--color-base-6: #8d8d8d; /* 진한 회색 */
+	--color-base-7: #747474; /* 어두운 회색 */
+	--color-base-8: #585858; /* 매우 어두운 회색 */
+	--color-base-9: #191919; /* 거의 검은 회색 */
+	--color-base-10: #000000; /* 가장 어두운 회색 */
 
-	/* 상태 색상 (성공, 경고, 위험) */
-	--color-success-1: #10b981; /* 성공 - 밝음 */
-	--color-success-2: #059669; /* 성공 - 중간 */
-	--color-success-3: #047857; /* 성공 - 어두움 */
-
-	--color-warning-1: #f59e0b; /* 경고 - 밝음 */
-	--color-warning-2: #d97706; /* 경고 - 중간 */
-	--color-warning-3: #b45309; /* 경고 - 어두움 */
-
-	--color-danger-1: #ef4444; /* 위험 - 밝음 */
-	--color-danger-2: #dc2626; /* 위험 - 중간 */
-	--color-danger-3: #b91c1c; /* 위험 - 어두움 */
 
 	/* Alpha 채널용 RGB 값들 (투명도 적용시 사용) */
 	--rgb-main-1: 140, 186, 53;
@@ -450,28 +438,17 @@
 	--rgb-accent-2: 217, 119, 6;
 	--rgb-accent-3: 180, 83, 9;
 
-	--rgb-base-1: 249, 250, 251;
-	--rgb-base-2: 243, 244, 246;
+	--rgb-base-1: 255, 255, 255;
+	--rgb-base-2: 215, 215, 215;
 	--rgb-base-3: 229, 231, 235;
-	--rgb-base-4: 209, 213, 219;
-	--rgb-base-5: 156, 163, 175;
-	--rgb-base-6: 107, 114, 128;
-	--rgb-base-7: 75, 85, 99;
-	--rgb-base-8: 55, 65, 81;
-	--rgb-base-9: 31, 41, 55;
-	--rgb-base-10: 17, 24, 39;
+	--rgb-base-4: 179, 179, 179;
+	--rgb-base-5: 142, 142, 142;
+	--rgb-base-6: 141, 141, 141;
+	--rgb-base-7: 84, 84, 84;
+	--rgb-base-8: 88, 88, 88;
+	--rgb-base-9: 25, 25, 25;
+	--rgb-base-10: 0, 0, 0;
 
-	--rgb-success-1: 16, 185, 129;
-	--rgb-success-2: 5, 150, 105;
-	--rgb-success-3: 4, 120, 87;
-
-	--rgb-warning-1: 245 158 11;
-	--rgb-warning-2: 217, 119, 6;
-	--rgb-warning-3: 180, 83, 9;
-
-	--rgb-danger-1: 239, 68, 68;
-	--rgb-danger-2: 220, 38, 38;
-	--rgb-danger-3: 185, 28, 28;
 }
 
  :root {
@@ -486,20 +463,14 @@
 	--radius-3xl: 1.5rem;
 	--radius-full: 9999px;
 
-	/* ===== FONT SIZES ===== */
-	--font-size-xs: 0.75rem;
-	--font-size-sm: 0.875rem;
-	--font-size-base: 1rem;
-	--font-size-lg: 1.125rem;
-	--font-size-xl: 1.25rem;
-	--font-size-2xl: 1.5rem;
-	--font-size-3xl: 1.875rem;
-	--font-size-4xl: 2.25rem;
-	--font-size-5xl: 3rem;
-	--font-size-6xl: 3.75rem;
-	--font-size-7xl: 4.5rem;
-	--font-size-8xl: 6rem;
-	--font-size-9xl: 8rem;
+	--radius-1: var(--radius-sm);
+	--radius-2: var(--radius-base);
+	--radius-3: var(--radius-md);
+	--radius-4: var(--radius-lg);
+	--radius-5: var(--radius-xl);
+	--radius-6: var(--radius-2xl);
+	--radius-7: var(--radius-3xl);
+	--radius-8: var(--radius-full);
 
 	/* ===== FONT WEIGHTS ===== */
 	--font-weight-thin: 100;
@@ -511,6 +482,16 @@
 	--font-weight-bold: 700;
 	--font-weight-extrabold: 800;
 	--font-weight-black: 900;
+
+	--font-weight-1: var(--font-weight-thin);
+	--font-weight-2: var(--font-weight-extralight);
+	--font-weight-3: var(--font-weight-light);
+	--font-weight-4: var(--font-weight-normal);
+	--font-weight-5: var(--font-weight-medium);
+	--font-weight-6: var(--font-weight-semibold);
+	--font-weight-7: var(--font-weight-bold);
+	--font-weight-8: var(--font-weight-extrabold);
+	--font-weight-9: var(--font-weight-extrabold);
 
 	/* ===== LINE HEIGHTS ===== */
 	--line-height-none: 1;
@@ -538,17 +519,9 @@
 	--border-width-4: 4px;
 	--border-width-8: 8px;
 
-	/* ===== BOX SHADOWS ===== */
-	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-	--shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-		0 4px 6px -4px rgb(0 0 0 / 0.1);
-	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-		0 8px 10px -6px rgb(0 0 0 / 0.1);
-	--shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-	--shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
-	--shadow-none: 0 0 #0000;
+	
+
+	
 
 	/* ===== Z-INDEX SCALE ===== */	
 	--z-index-0: 0;
@@ -911,23 +884,23 @@
 
 	/* ===== DROP SHADOW VARIABLES ===== */
 	/* 커스터마이징 가능한 드롭 섀도우 시스템 */
-	--drop-shadow-1: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
-	--drop-shadow-2: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07));
-	--drop-shadow-3: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04));
-	--drop-shadow-4: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03));
-	--drop-shadow-5: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.15));
-	--drop-shadow-6: drop-shadow(0 35px 35px rgba(0, 0, 0, 0.25));
+	/* Drop shadows at 225deg (bottom-left direction, x and y positive) */
+	--drop-shadow-1:  -1px 1px 2px rgba(0, 0, 0, 0.1) !important;
+	--drop-shadow-2:  -3px 3px 4px rgba(0, 0, 0, 0.07) !important;
+	--drop-shadow-3:  -7px 7px 10px rgba(0, 0, 0, 0.04) !important;
+	--drop-shadow-4:  -13px 13px 20px rgba(0, 0, 0, 0.03) !important;
+	--drop-shadow-5:  -18px 18px 25px rgba(0, 0, 0, 0.15) !important;
+	--drop-shadow-6:  -25px 25px 35px rgba(0, 0, 0, 0.25) !important;
 
-	/* 컬러 드롭 섀도우 */
-	--drop-shadow-main: drop-shadow(0 4px 8px rgba(var(--rgb-main-1), 0.3));
-	--drop-shadow-sub: drop-shadow(0 4px 8px rgba(var(--rgb-sub-1), 0.3));
-	--drop-shadow-accent: drop-shadow(0 4px 8px rgba(var(--rgb-accent-1), 0.3));
+	/* 컬러 드롭 섀도우 (225deg 밑변 좌측 방향) */
+	--drop-shadow-main:  -3px 3px 8px rgba(var(--rgb-main-1), 0.3) !important;
+	--drop-shadow-sub:   -3px 3px 8px rgba(var(--rgb-sub-1), 0.3) !important;
+	--drop-shadow-accent:-3px 3px 8px rgba(var(--rgb-accent-1), 0.3) !important;
 
-	/* 네온 효과 드롭 섀도우 */
-	--drop-shadow-neon-main: drop-shadow(0 0 10px rgba(var(--rgb-main-1), 0.8));
-	--drop-shadow-neon-accent: drop-shadow(
-		0 0 20px rgba(var(--rgb-accent-1), 0.6)
-	);
+	/* 네온 효과 드롭 섀도우 (여전히 중앙방향, 필요시 조정 가능) */
+	--drop-shadow-neon-main: -1px 1px 10px rgba(var(--rgb-main-1), 0.8) !important;
+	--drop-shadow-neon-accent: -2px 2px 20px rgba(var(--rgb-accent-1), 0.6) !important;
+	;
 
 	/* ===== COMPLEX FILTER EFFECTS ===== */
 	/* 복합 필터 효과 Variables */

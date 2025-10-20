@@ -18,12 +18,10 @@
 	 - 참고: 분리자 라인은 --n-list-gap 중앙에 오도록 위치 계산됨
 */
 
-
-
 .n-list {
 	/* variables */
 	/* 한 곳에서 gap 정의 */
-	--n-list-gap: var(--space-2);	
+	--n-list-gap: var(--space-2);
 	--n-list-sep-color: var(--color-base-5);
 	
 	/* 다크모드 변수 재정의 (prefer dark theme) */
@@ -45,7 +43,9 @@
 .n-list {
 
 	/* text */
-
+	/* white-space: nowrap; */
+	text-overflow: ellipsis;
+	
 	/* boxing */
 
 	/* layout */
@@ -180,16 +180,23 @@
 		min-width: 0;
 	}
 
+	&.list-fit\:noshrink {
+		overflow: hidden;
+		max-width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	&.list-fit\:noshrink>*,
+	&.list-fit\:content>* {
+		flex: 0 0 auto;		
+	}
+
 	&.list-fit\:wrap>* {
 		flex-wrap: wrap;
 	}
 
 	&.list-fit\:nowrap>* {
 		flex-wrap: nowrap;
-	}
-
-	&.list-fit\:content>* {
-		flex: 0 0 auto;
 	}
 
 	&.list-vertical-align\:left {
@@ -366,11 +373,9 @@
 		align-items: flex-start;
 		--n-list-gap: 0;
 
-		
-
 		&>* {
 			display: flex;
-			justify-content: flex-start;			
+			justify-content: flex-start;
 			width: 100%;
 		}
 
@@ -534,3 +539,12 @@ list-type:aside-menu
 	}
 }
 
+/* ===== CARD LIST ===== */
+/*
+list-type:card
+*/
+.n-list\:card {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: var(--space-2);
+}

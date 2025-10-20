@@ -333,7 +333,12 @@
 .border-r\:none,
 .bd-radius\:none,
 .bd-r\:none,
-.rounded\:none {
+.rounded\:none,
+.border-radius\:0,
+.border-r\:0,
+.bd-radius\:0,
+.bd-r\:0,
+.rounded\:0 {
 	border-radius: var(--radius-none) !important;
 }
 
@@ -342,7 +347,12 @@
 .border-r\:sm,
 .bd-radius\:sm,
 .bd-r\:sm,
-.rounded\:sm {
+.rounded\:sm,
+.border-radius\:1,
+.border-r\:1,
+.bd-radius\:1,
+.bd-r\:1,
+.rounded\:1 {
 	border-radius: var(--radius-sm) !important;
 }
 
@@ -351,7 +361,12 @@
 .border-r\:base,
 .bd-radius\:base,
 .bd-r\:base,
-.rounded\:base {
+.rounded\:base,
+.border-radius\:2,
+.border-r\:2,
+.bd-radius\:2,
+.bd-r\:2,
+.rounded\:2 {
 	border-radius: var(--radius-base) !important;
 }
 
@@ -360,7 +375,12 @@
 .border-r\:md,
 .bd-radius\:md,
 .bd-r\:md,
-.rounded\:md {
+.rounded\:md,
+.border-radius\:3,
+.border-r\:3,
+.bd-radius\:3,
+.bd-r\:3,
+.rounded\:3 {
 	border-radius: var(--radius-md) !important;
 }
 
@@ -369,7 +389,12 @@
 .border-r\:lg,
 .bd-radius\:lg,
 .bd-r\:lg,
-.rounded\:lg {
+.rounded\:lg,
+.border-radius\:4,
+.border-r\:4,
+.bd-radius\:4,
+.bd-r\:4,
+.rounded\:4 {
 	border-radius: var(--radius-lg) !important;
 }
 
@@ -378,7 +403,12 @@
 .border-r\:xl,
 .bd-radius\:xl,
 .bd-r\:xl,
-.rounded\:xl {
+.rounded\:xl,
+.border-radius\:5,
+.border-r\:5,
+.bd-radius\:5,
+.bd-r\:5,
+.rounded\:5 {
 	border-radius: var(--radius-xl) !important;
 }
 
@@ -387,7 +417,12 @@
 .border-r\:2xl,
 .bd-radius\:2xl,
 .bd-r\:2xl,
-.rounded\:2xl {
+.rounded\:2xl,
+.border-radius\:6,
+.border-r\:6,
+.bd-radius\:6,
+.bd-r\:6,
+.rounded\:6 {
 	border-radius: var(--radius-2xl) !important;
 }
 
@@ -396,7 +431,12 @@
 .border-r\:3xl,
 .bd-radius\:3xl,
 .bd-r\:3xl,
-.rounded\:3xl {
+.rounded\:3xl,
+.border-radius\:7,
+.border-r\:7,
+.bd-radius\:7,
+.bd-r\:7,
+.rounded\:7 {
 	border-radius: var(--radius-3xl) !important;
 }
 
@@ -405,7 +445,12 @@
 .border-r\:full,
 .bd-radius\:full,
 .bd-r\:full,
-.rounded\:full {
+.rounded\:full,
+.border-radius\:8,
+.border-r\:8,
+.bd-radius\:8,
+.bd-r\:8,
+.rounded\:8 {
 	border-radius: var(--radius-full) !important;
 }
 
@@ -420,174 +465,238 @@
 
 /* 개별 모서리 border-radius */
 .border-top-left-radius\:none,
-.rounded-tl\:none {
+.rounded-tl\:none,
+.border-top-left-radius\:0,
+.rounded-tl\:0 {
 	border-top-left-radius: var(--radius-none) !important;
 }
 
 .border-top-left-radius\:sm,
-.rounded-tl\:sm {
+.rounded-tl\:sm,
+.border-top-left-radius\:1,
+.rounded-tl\:1 {
 	border-top-left-radius: var(--radius-sm) !important;
 }
 
 .border-top-left-radius\:md,
-.rounded-tl\:md {
+.rounded-tl\:md,
+.border-top-left-radius\:3,
+.rounded-tl\:3 {
 	border-top-left-radius: var(--radius-md) !important;
 }
 
 .border-top-left-radius\:lg,
-.rounded-tl\:lg {
+.rounded-tl\:lg,
+.border-top-left-radius\:4,
+.rounded-tl\:4 {
 	border-top-left-radius: var(--radius-lg) !important;
 }
 
 .border-top-left-radius\:full,
-.rounded-tl\:full {
+.rounded-tl\:full,
+.border-top-left-radius\:8,
+.rounded-tl\:8 {
 	border-top-left-radius: var(--radius-full) !important;
 }
 
 .border-top-right-radius\:none,
-.rounded-tr\:none {
+.rounded-tr\:none,
+.border-top-right-radius\:0,
+.rounded-tr\:0 {
 	border-top-right-radius: var(--radius-none) !important;
 }
 
 .border-top-right-radius\:sm,
-.rounded-tr\:sm {
+.rounded-tr\:sm,
+.border-top-right-radius\:1,
+.rounded-tr\:1 {
 	border-top-right-radius: var(--radius-sm) !important;
 }
 
 .border-top-right-radius\:md,
-.rounded-tr\:md {
+.rounded-tr\:md,
+.border-top-right-radius\:3,
+.rounded-tr\:3 {
 	border-top-right-radius: var(--radius-md) !important;
 }
 
 .border-top-right-radius\:lg,
-.rounded-tr\:lg {
+.rounded-tr\:lg,
+.border-top-right-radius\:4,
+.rounded-tr\:4 {
 	border-top-right-radius: var(--radius-lg) !important;
 }
 
 .border-top-right-radius\:full,
-.rounded-tr\:full {
+.rounded-tr\:full,
+.border-top-right-radius\:8,
+.rounded-tr\:8 {
 	border-top-right-radius: var(--radius-full) !important;
 }
 
 .border-bottom-right-radius\:none,
-.rounded-br\:none {
+.rounded-br\:none,
+.border-bottom-right-radius\:0,
+.rounded-br\:0 {
 	border-bottom-right-radius: var(--radius-none) !important;
 }
 
 .border-bottom-right-radius\:sm,
-.rounded-br\:sm {
+.rounded-br\:sm,
+.border-bottom-right-radius\:1,
+.rounded-br\:1 {
 	border-bottom-right-radius: var(--radius-sm) !important;
 }
 
 .border-bottom-right-radius\:md,
-.rounded-br\:md {
+.rounded-br\:md,
+.border-bottom-right-radius\:3,
+.rounded-br\:3 {
 	border-bottom-right-radius: var(--radius-md) !important;
 }
 
 .border-bottom-right-radius\:lg,
-.rounded-br\:lg {
+.rounded-br\:lg,
+.border-bottom-right-radius\:4,
+.rounded-br\:4 {
 	border-bottom-right-radius: var(--radius-lg) !important;
 }
 
 .border-bottom-right-radius\:full,
-.rounded-br\:full {
+.rounded-br\:full,
+.border-bottom-right-radius\:8,
+.rounded-br\:8 {
 	border-bottom-right-radius: var(--radius-full) !important;
 }
 
 .border-bottom-left-radius\:none,
-.rounded-bl\:none {
+.rounded-bl\:none,
+.border-bottom-left-radius\:0,
+.rounded-bl\:0 {
 	border-bottom-left-radius: var(--radius-none) !important;
 }
 
 .border-bottom-left-radius\:sm,
-.rounded-bl\:sm {
+.rounded-bl\:sm,
+.border-bottom-left-radius\:1,
+.rounded-bl\:1 {
 	border-bottom-left-radius: var(--radius-sm) !important;
 }
 
 .border-bottom-left-radius\:md,
-.rounded-bl\:md {
+.rounded-bl\:md,
+.border-bottom-left-radius\:3,
+.rounded-bl\:3 {
 	border-bottom-left-radius: var(--radius-md) !important;
 }
 
 .border-bottom-left-radius\:lg,
-.rounded-bl\:lg {
+.rounded-bl\:lg,
+.border-bottom-left-radius\:4,
+.rounded-bl\:4 {
 	border-bottom-left-radius: var(--radius-lg) !important;
 }
 
 .border-bottom-left-radius\:full,
-.rounded-bl\:full {
+.rounded-bl\:full,
+.border-bottom-left-radius\:8,
+.rounded-bl\:8 {
 	border-bottom-left-radius: var(--radius-full) !important;
 }
 
 /* 상/하, 좌/우 그룹 */
 .border-top-radius\:sm,
-.rounded-t\:sm {
+.rounded-t\:sm,
+.border-top-radius\:1,
+.rounded-t\:1 {
 	border-top-left-radius: var(--radius-sm) !important;
 	border-top-right-radius: var(--radius-sm) !important;
 }
 
 .border-top-radius\:md,
-.rounded-t\:md {
+.rounded-t\:md,
+.border-top-radius\:3,
+.rounded-t\:3 {
 	border-top-left-radius: var(--radius-md) !important;
 	border-top-right-radius: var(--radius-md) !important;
 }
 
 .border-top-radius\:lg,
-.rounded-t\:lg {
+.rounded-t\:lg,
+.border-top-radius\:4,
+.rounded-t\:4 {
 	border-top-left-radius: var(--radius-lg) !important;
 	border-top-right-radius: var(--radius-lg) !important;
 }
 
 .border-bottom-radius\:sm,
-.rounded-b\:sm {
+.rounded-b\:sm,
+.border-bottom-radius\:1,
+.rounded-b\:1 {
 	border-bottom-left-radius: var(--radius-sm) !important;
 	border-bottom-right-radius: var(--radius-sm) !important;
 }
 
 .border-bottom-radius\:md,
-.rounded-b\:md {
+.rounded-b\:md,
+.border-bottom-radius\:3,
+.rounded-b\:3 {
 	border-bottom-left-radius: var(--radius-md) !important;
 	border-bottom-right-radius: var(--radius-md) !important;
 }
 
 .border-bottom-radius\:lg,
-.rounded-b\:lg {
+.rounded-b\:lg,
+.border-bottom-radius\:4,
+.rounded-b\:4 {
 	border-bottom-left-radius: var(--radius-lg) !important;
 	border-bottom-right-radius: var(--radius-lg) !important;
 }
 
 .border-left-radius\:sm,
-.rounded-l\:sm {
+.rounded-l\:sm,
+.border-left-radius\:1,
+.rounded-l\:1 {
 	border-top-left-radius: var(--radius-sm) !important;
 	border-bottom-left-radius: var(--radius-sm) !important;
 }
 
 .border-left-radius\:md,
-.rounded-l\:md {
+.rounded-l\:md,
+.border-left-radius\:3,
+.rounded-l\:3 {
 	border-top-left-radius: var(--radius-md) !important;
 	border-bottom-left-radius: var(--radius-md) !important;
 }
 
 .border-left-radius\:lg,
-.rounded-l\:lg {
+.rounded-l\:lg,
+.border-left-radius\:4,
+.rounded-l\:4 {
 	border-top-left-radius: var(--radius-lg) !important;
 	border-bottom-left-radius: var(--radius-lg) !important;
 }
 
 .border-right-radius\:sm,
-.rounded-r\:sm {
+.rounded-r\:sm,
+.border-right-radius\:1,
+.rounded-r\:1 {
 	border-top-right-radius: var(--radius-sm) !important;
 	border-bottom-right-radius: var(--radius-sm) !important;
 }
 
 .border-right-radius\:md,
-.rounded-r\:md {
+.rounded-r\:md,
+.border-right-radius\:3,
+.rounded-r\:3 {
 	border-top-right-radius: var(--radius-md) !important;
 	border-bottom-right-radius: var(--radius-md) !important;
 }
 
 .border-right-radius\:lg,
-.rounded-r\:lg {
+.rounded-r\:lg,
+.border-right-radius\:4,
+.rounded-r\:4 {
 	border-top-right-radius: var(--radius-lg) !important;
 	border-bottom-right-radius: var(--radius-lg) !important;
 }
