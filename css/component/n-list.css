@@ -1,21 +1,31 @@
 /*
-	 n-list 옵션 요약
-	 - 변수: --n-list-gap(기본 var(--space-2)), --n-list-sep-color
-	 - 분리자: .list-sep, .list-seperator, .list-sep:{none|solid|dotted|dot|dashed}
-	 - 간격: .gap:{1|2|3|4|5|6|7|8} → gap 및 --n-list-gap 적용
-	 - 방향: .list-direction:column | .list-dir:column (기본은 row)
-	 - 아이템 폭/줄바꿈: .list-fit:{fill|shrink|content|wrap|nowrap}
-	 - 가로 정렬(row 기준): .list-vertical-align:{left|center|right}
-	 - 세로 정렬(column 아이템): .list-vertical-align:{top|center|bottom} | .list-valign:{top|center|bottom}
-	 - 컬럼에서 가로 정렬: .list-align:{left|center|right}
-	 - 활성화 스타일: .list-active, .list-active:bar, .list-active:color (.active 또는 input:checked 반응)
-	 - 리스트 타입: .list-type:aside-menu (세로 메뉴)
-	 - 데이터 리스트: .n-list:dl + .dl-sperator:{solid|ruled}
-	 - 그리드 래핑 헬퍼: .n-list:wrap (auto-fill 카드형 배열)
-	 - 유틸 상호운용: .w:grow 지원
-	 - 다크모드: prefers-color-scheme: dark에서 --n-list-sep-color 재정의
-	 - 호환 별칭: "list-seperator"(오타) 클래스도 동일 동작
-	 - 참고: 분리자 라인은 --n-list-gap 중앙에 오도록 위치 계산됨
+	============== n-list 옵션들 ====================
+
+	list-sep:none, solid, dotted, dot, dashed
+	list-seperator:none, solid, dotted, dot, dashed
+
+	list-fit:fill, shrink,wrap, content
+	
+	list-vertical-align:left, center, right
+	list-align:left, center, right
+	list-type:aside-menu
+	list-active:aside-menu, bar, color
+	list-direction:row, column
+	list-dir:row, column
+	list-active:aside-menu, bar, color
+	list-direction:row, column
+	list-dir:row, column
+	list-active:aside-menu, bar, color
+	list-direction:row, column
+	list-dir:row, column
+	list-active:aside-menu, bar, color
+	list-direction:row, column
+	list-dir:row, column
+	list-active:aside-menu, bar, color
+	
+	card-width:1, 2, 3, 4, 5, 6, auto, 100%, 50%, 33%, 25%
+
+	===================================================
 */
 
 .n-list {
@@ -209,34 +219,6 @@
 		justify-content: flex-end;
 	}
 	
-	&.list-sep\:none,
-	&.list-seperator\:none {
-		&>*+*::before {
-			display: none;
-		}
-	}
-
-	&.list-sep\:solid,
-	&.list-seperator\:solid {
-		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
-		}
-	}
-
-	&.list-sep\:dotted,
-	&.list-seperator\:dotted {
-		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
-		}
-	}
-
-	&.list-sep\:dashed,
-	&.list-seperator\:dashed {
-		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
-		}
-	}
-	
 
 	/* ===== LIST ACTIVE TYPE ===== */
 	/*
@@ -379,6 +361,35 @@
 			width: 100%;
 		}
 
+		&.list-sep\:none,
+		&.list-seperator\:none {
+			&>*+*::before {
+				display: none;
+			}
+		}
+	
+		&.list-sep\:solid,
+		&.list-seperator\:solid {
+			&>*+*::before {
+				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
+			}
+		}
+	
+		&.list-sep\:dotted,
+		&.list-seperator\:dotted {
+			&>*+*::before {
+				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			}
+		}
+	
+		&.list-sep\:dashed,
+		&.list-seperator\:dashed {
+			&>*+*::before {
+				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			}
+		}
+
+
 		/* ===== COLUMN DIRECTION ITEMS ALIGN ===== */
 		/*
 		list-align:left, center, right
@@ -421,6 +432,8 @@
 		&.list-valign\:bottom>* {
 			align-items: flex-end;
 		}
+
+
 	}
 
 	/* ===== ITEMS ALIGN ===== */
@@ -543,8 +556,49 @@ list-type:aside-menu
 /*
 list-type:card
 */
-.n-list\:card {
+.n-list\:card{
+
+	--card-width: 300px;
+
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
 	gap: var(--space-2);
+
+
+	&.card-width\:1 {
+		--card-width: 250px;
+	}
+	&.card-width\:2 {
+		--card-width: 300px;
+	}
+	&.card-width\:3 {
+		--card-width: 350px;
+	}
+	&.card-width\:4 {
+		--card-width: 400px;
+	}
+	&.card-width\:5 {
+		--card-width: 450px;
+	}
+	&.card-width\:6 {
+		--card-width: 500px;
+	}
+
+	&.card-width\:auto {
+		--card-width: auto;
+	}
+
+	&.card-width\:100p {
+		--card-width: 100%;
+	}
+	&.card-width\:50p {
+		--card-width: 50%;
+	}
+	&.card-width\:33p {
+		--card-width: 33.33%;
+	}
+	&.card-width\:25p {
+		--card-width: 25%;
+	}
+
 }

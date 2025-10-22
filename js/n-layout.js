@@ -37,11 +37,14 @@ class NLayoutResizer {
 
 		// ESC 키로 resize 중단
 		document.addEventListener("keydown", this.handleKeyDown.bind(this));
+
+		// 마우스 hover 시 커서 변경
+		document.addEventListener("mousemove", this.handleHover.bind(this));
 	}
 
 	handleMouseDown(e) {
 		const aside = this.findResizableAside(e.target);
-		if (aside) {
+		if (aside && this.isInResizeArea(e, aside)) {
 			this.startResize(e.clientX, aside);
 		}
 	}
@@ -52,13 +55,28 @@ class NLayoutResizer {
 		}
 	}
 
+	handleHover(e) {
+		// 리사이징 중이 아닐 때만 커서 변경
+		if (this.isResizing) return;
+
+		const aside = this.findResizableAside(e.target);
+		if (aside && this.isInResizeArea(e, aside)) {
+			document.body.style.cursor = "ew-resize";
+		} else {
+			// 그립퍼 영역이 아니면 기본 커서로 복원
+			if (document.body.style.cursor === "ew-resize") {
+				document.body.style.cursor = "";
+			}
+		}
+	}
+
 	handleMouseUp() {
 		this.stopResize();
 	}
 
 	handleTouchStart(e) {
 		const aside = this.findResizableAside(e.target);
-		if (aside) {
+		if (aside && this.isInResizeArea(e.touches[0], aside)) {
 			e.preventDefault();
 			this.startResize(e.touches[0].clientX, aside);
 		}
@@ -88,17 +106,38 @@ class NLayoutResizer {
 
 		// 부모가 resizable 클래스를 가진 n-layout인지 확인
 		const layout = aside.closest(".n-layout");
-		if (!layout || !layout.classList.contains("aside:resizable")) {
+		if (!layout || !layout.classList.contains("layout-aside-width:resizable")) {
 			return null;
 		}
 
 		// responsive 모드와 resizable 모드가 동시에 적용된 경우 resizable 우선
-		if (layout.classList.contains("aside-width:responsive")) {
+		if (layout.classList.contains("layout-aside-width:responsive")) {
 			// resizable이 우선되므로 responsive 클래스 제거
-			layout.classList.remove("aside-width:responsive");
+			layout.classList.remove("layout-aside-width:responsive");
 		}
 
 		return aside;
+	}
+
+	isInResizeArea(event, aside) {
+		// aside의 위치와 크기 정보 가져오기
+		const rect = aside.getBoundingClientRect();
+		const layout = aside.closest(".n-layout");
+		const isRightSide = layout && layout.classList.contains("layout-aside-pos:right");
+		
+		// 그립퍼 영역의 너비 (::after의 width와 동일하게)
+		const gripperWidth = 4;
+		const clickTolerance = 8; // 클릭 허용 범위를 조금 넓게 (사용성 향상)
+		
+		if (isRightSide) {
+			// 오른쪽에 있을 때: 왼쪽 경계선 영역 체크
+			const distanceFromLeft = event.clientX - rect.left;
+			return distanceFromLeft <= clickTolerance;
+		} else {
+			// 왼쪽에 있을 때: 오른쪽 경계선 영역 체크
+			const distanceFromRight = rect.right - event.clientX;
+			return distanceFromRight <= clickTolerance;
+		}
 	}
 
 	startResize(clientX, aside) {
@@ -123,7 +162,7 @@ class NLayoutResizer {
 
 		// aside가 오른쪽에 있는지 확인
 		const layout = this.currentAside.closest(".n-layout");
-		const isRightSide = layout && layout.classList.contains("aside:right");
+		const isRightSide = layout && layout.classList.contains("layout-aside-pos:right");
 
 		// 오른쪽에 있을 때는 반대 방향으로 조정
 		if (isRightSide) {
@@ -137,10 +176,10 @@ class NLayoutResizer {
 		this.currentAside.style.width = `${newWidth}px`;
 
 		// CSS 변수로 너비 저장 (다른 곳에서 참조 가능)
-		this.currentAside.style.setProperty(
-			"--aside-current-width",
-			`${newWidth}px`
-		);
+		// grid-template-columns가 .n-layout에서 --aside-width를 참조하므로 layout에 설정		
+		if (layout) {
+			layout.style.setProperty("--aside-width", `${newWidth}px`);
+		}
 
 		// 가로 스크롤바 방지를 위한 레이아웃 너비 조정
 		this.preventHorizontalScroll();
