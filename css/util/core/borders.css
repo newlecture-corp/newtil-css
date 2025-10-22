@@ -2,6 +2,277 @@
 /* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
 /* 혼합 Variables 시스템: border-width, radius, 테마 색상 조합 */
 
+.border\:none,
+.bd\:none {
+	border: none !important;
+}
+
+.border\:1,
+.bd\:1{
+	border: var(--border-width-1) solid var(--border-color) !important;
+}
+
+.border\:2,
+.bd\:2{
+	border: var(--border-width-2) solid var(--border-color) !important;
+}
+
+.border\:3,
+.bd\:3{
+	border: var(--border-width-3) solid var(--border-color) !important;
+}
+
+.border\:4,
+.bd\:4{
+	border: var(--border-width-4) solid var(--border-color) !important;
+}
+
+.border\:5,
+.bd\:5{
+	border: var(--border-width-5) solid var(--border-color) !important;
+}
+
+.border\:6,
+.bd\:6{
+	border: var(--border-width-6) solid var(--border-color) !important;
+}
+
+.border\:7,
+.bd\:7{
+	border: var(--border-width-7) solid var(--border-color) !important;
+}
+.border\:8,
+.bd\:8{
+	border: var(--border-width-8) solid var(--border-color) !important;
+}
+.border\:9,
+.bd\:9{
+	border: var(--border-width-9) solid var(--border-color) !important;
+}
+.border\:10,
+.bd\:10{
+	border: var(--border-width-10) solid var(--border-color) !important;
+}
+
+/* ==== BORDER TOP / RIGHT / BOTTOM / LEFT ===== */
+
+/* ==== BORDER TOP ===== */
+
+.border-top\:1,
+.bd-top\:1,
+.bt\:1 {
+	border-top: var(--border-width-1) solid var(--border-color) !important;
+}
+.border-top\:2,
+.bd-top\:2,
+.bt\:2 {
+	border-top: var(--border-width-2) solid var(--border-color) !important;
+}
+.border-top\:3,
+.bd-top\:3,
+.bt\:3 {
+	border-top: var(--border-width-3) solid var(--border-color) !important;
+}
+.border-top\:4,
+.bd-top\:4,
+.bt\:4 {
+	border-top: var(--border-width-4) solid var(--border-color) !important;
+}
+.border-top\:5,
+.bd-top\:5,
+.bt\:5 {
+	border-top: var(--border-width-5) solid var(--border-color) !important;
+}
+.border-top\:6,
+.bd-top\:6,
+.bt\:6 {
+	border-top: var(--border-width-6) solid var(--border-color) !important;
+}
+.border-top\:7,
+.bd-top\:7,
+.bt\:7 {
+	border-top: var(--border-width-7) solid var(--border-color) !important;
+}
+.border-top\:8,
+.bd-top\:8,
+.bt\:8 {
+	border-top: var(--border-width-8) solid var(--border-color) !important;
+}
+.border-top\:9,
+.bd-top\:9,
+.bt\:9 {
+	border-top: var(--border-width-9) solid var(--border-color) !important;
+}
+.border-top\:10,
+.bd-top\:10,
+.bt\:10 {
+	border-top: var(--border-width-10) solid var(--border-color) !important;
+}
+
+/* ==== BORDER RIGHT ===== */
+
+.border-right\:1,
+.bd-right\:1,
+.br\:1 {
+	border-right: var(--border-width-1) solid var(--border-color) !important;
+}
+.border-right\:2,
+.bd-right\:2,
+.br\:2 {
+	border-right: var(--border-width-2) solid var(--border-color) !important;
+}
+
+.border-right\:3,
+.bd-right\:3,
+.br\:3 {
+	border-right: var(--border-width-3) solid var(--border-color) !important;
+}
+.border-right\:4,
+.bd-right\:4,
+.br\:4 {
+	border-right: var(--border-width-4) solid var(--border-color) !important;
+}
+.border-right\:5,
+.bd-right\:5,
+.br\:5 {
+	border-right: var(--border-width-5) solid var(--border-color) !important;
+}
+.border-right\:6,
+.bd-right\:6,
+.br\:6 {
+	border-right: var(--border-width-6) solid var(--border-color) !important;
+}
+.border-right\:7,
+.bd-right\:7,
+.br\:7 {
+	border-right: var(--border-width-7) solid var(--border-color) !important;
+}
+.border-right\:8,
+.bd-right\:8,
+.br\:8 {
+	border-right: var(--border-width-8) solid var(--border-color) !important;
+}
+.border-right\:9,
+.bd-right\:9,
+.br\:9 {
+	border-right: var(--border-width-9) solid var(--border-color) !important;
+}
+.border-right\:10,
+.bd-right\:10,
+.br\:10 {
+	border-right: var(--border-width-10) solid var(--border-color) !important;
+}
+
+/* ==== BORDER BOTTOM ===== */
+
+.border-bottom\:1,
+.bd-bottom\:1,
+.bb\:1 {
+	border-bottom: var(--border-width-1) solid var(--border-color) !important;
+}
+.border-bottom\:2,
+.bd-bottom\:2,
+.bb\:2 {
+	border-bottom: var(--border-width-2) solid var(--border-color) !important;
+}
+.border-bottom\:3,
+.bd-bottom\:3,
+.bb\:3 {
+	border-bottom: var(--border-width-3) solid var(--border-color) !important;
+}
+.border-bottom\:4,
+.bd-bottom\:4,
+.bb\:4 {
+	border-bottom: var(--border-width-4) solid var(--border-color) !important;
+}
+
+.border-bottom\:5,
+.bd-bottom\:5,
+.bb\:5 {
+	border-bottom: var(--border-width-5) solid var(--border-color) !important;
+}
+.border-bottom\:6,
+.bd-bottom\:6,
+.bb\:6 {
+	border-bottom: var(--border-width-6) solid var(--border-color) !important;
+}
+
+.border-bottom\:7,
+.bd-bottom\:7,
+.bb\:7 {
+	border-bottom: var(--border-width-7) solid var(--border-color) !important;
+}
+.border-bottom\:8,
+.bd-bottom\:8,
+.bb\:8 {
+	border-bottom: var(--border-width-8) solid var(--border-color) !important;
+}
+
+.border-bottom\:9,
+.bd-bottom\:9,
+.bb\:9 {
+	border-bottom: var(--border-width-9) solid var(--border-color) !important;
+}
+.border-bottom\:10,
+.bd-bottom\:10,
+.bb\:10 {
+	border-bottom: var(--border-width-10) solid var(--border-color) !important;
+}
+
+/* ==== BORDER LEFT ===== */
+
+.border-left\:1,
+.bd-left\:1,
+.bl\:1 {
+	border-left: var(--border-width-1) solid var(--border-color) !important;
+}
+.border-left\:2,
+.bd-left\:2,
+.bl\:2 {
+	border-left: var(--border-width-2) solid var(--border-color) !important;
+}
+.border-left\:3,
+.bd-left\:3,
+.bl\:3 {
+	border-left: var(--border-width-3) solid var(--border-color) !important;
+}
+.border-left\:4,
+.bd-left\:4,
+.bl\:4 {
+	border-left: var(--border-width-4) solid var(--border-color) !important;
+}
+
+.border-left\:5,
+.bd-left\:5,
+.bl\:5 {
+	border-left: var(--border-width-5) solid var(--border-color) !important;
+}
+.border-left\:6,
+.bd-left\:6,
+.bl\:6 {
+	border-left: var(--border-width-6) solid var(--border-color) !important;
+}
+
+.border-left\:7,
+.bd-left\:7,
+.bl\:7 {
+	border-left: var(--border-width-7) solid var(--border-color) !important;
+}
+.border-left\:8,
+.bd-left\:8,
+.bl\:8 {
+	border-left: var(--border-width-8) solid var(--border-color) !important;
+}
+.border-left\:9,
+.bd-left\:9,
+.bl\:9 {
+	border-left: var(--border-width-9) solid var(--border-color) !important;
+}
+.border-left\:10,
+.bd-left\:10,
+.bl\:10 {
+	border-left: var(--border-width-10) solid var(--border-color) !important;
+}
 /* ===== BORDER WIDTH ===== */
 
 /* border-width: 0 */

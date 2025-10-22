@@ -79,6 +79,25 @@ n-layout aside:slide-out
 </div>
 */
 
+:root {
+	--header-height: 64px;
+	--footer-height: 120px;
+	--aside-width: 250px;
+	--background-color: var(--color-base-1);
+	--text-color: var(--color-base-9);
+	--border-color: var(--color-base-4);
+	--border-width: 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--border-color: var(--color-base-7);
+		--border-width: 0.5px;
+		--background-color: var(--color-base-9);
+		--text-color: var(--color-base-2);
+	}
+}
+
 html:has(.n-layout) {
 	height: 100%;
 }
@@ -104,220 +123,250 @@ body:has(.n-layout) {
 
 	/* ==== header 영역 ======================================== */
 
-	> :where(header, .n-header, * > .n-header) {
+	&> :where(header, .n-header, * > .n-header) {
 		grid-area: header;
 
 		height: var(--header-height, 64px);
-		box-shadow: 1px 1px 1px var(--header-border-color, --color-base-3);
+		box-shadow: 1px 1px 1px var(--border-color, --color-base-3);
 	}
 
 	/* ==== main 영역 ======================================== */
 
-	> :where(main, .n-main, * > .n-main) {
+	&> :where(main, .n-main, * > .n-main) {
 		grid-area: main;
 	}
 
 	/* ==== n-footer 영역 ==================================== */
 
-	> :where(footer, .n-footer, * > .n-footer) {
+	&> :where(footer, .n-footer, * > .n-footer) {
 		grid-area: footer;
 
 		height: var(--footer-height, 120px);
-		border-top: 1px solid var(--color-base-3);
+		border-top: 1px solid var(--border-color, --color-base-3);
 	}
-}
 
-/* 
-==== n-aside를 포함하는 경우의 레이아웃 =========================================
-<div class="n-layout aside:hidden">
-*/
-.n-layout:has(> aside, > .n-aside) {
-	grid-template-columns: var(--aside-width, auto) 1fr;
-	grid-template-areas:
-		"header header"
-		"aside main"
-		"footer footer";
-	/* Grid 컬럼 너비 변화에 대한 부드러운 전환 효과 */
-	transition: grid-template-columns 0.5s ease;
-	transition: grid-template-areas 0.5s ease;
-	will-change: grid-template-columns, grid-template-areas;
-	/* 가로 스크롤바 방지를 위한 overflow 처리 */
-	overflow-x: hidden;
 
-	> :where(aside, .n-aside, * > .n-aside) {
-		grid-area: aside;
+	/* ==== aside 영역 ======================================== */
 
+	/* 	
+	<div class="n-layout layout-aside:hidden">
+	┌────────────────────────────┐
+	│ <header>                   │
+	├─────────┬──────────────────┤
+	│         │                  │
+	│ <aside> │ <main>           │
+	│         │                  │
+	├─────────┴──────────────────┤
+	│ <footer>                   │
+	└────────────────────────────┘
+	</div>
+	*/
+	&:has(> aside, > .n-aside) {
+		/* position: relative를 추가하여 absolute positioned aside의 기준점 설정 */
 		position: relative;
-		/* aside 슬라이드 애니메이션을 위한 transform 전환 설정 */
-		transition: transform 0.5s ease;
-
-		resize: horizontal;
-
-		/* 컨텐츠 너비에 맞춰 자동 조정 */
-		width: 250px;
-		/* transform 속성 변경 시 GPU 가속을 위한 최적화 */
-		will-change: transform;
-
-		border-right: 1px solid var(--color-base-3);
-	}
-
-	&.aside-width\:responsive:not(.aside\:resizable)
-		> :where(aside, .n-aside, * > .n-aside) {
-		width: 100%;
-		transition: width 0.5s ease;
-	}
-
-	&.aside-width\:min-content:not(.aside\:resizable)
-		> :where(aside, .n-aside, * > .n-aside) {
-		width: min-content;
-	}
-
-	/* ==== aside 숨김 애니메이션 ==================================== */
-	&.aside\:slide-out {
-		/* Grid 첫 번째 컬럼(aside 영역)을 0으로 축소하여 공간 제거 */
-		grid-template-columns: 0 1fr;
-		/* Grid 컬럼 변화에 대한 부드러운 전환 효과 */
-		transition: grid-template-columns 0.5s ease;
-		/* 가로 스크롤바 방지를 위한 overflow 처리 */
-		overflow-x: hidden;
-
-		> :where(aside, .n-aside, * > .n-aside) {
-			/* aside를 왼쪽으로 완전히 슬라이드시켜 화면 밖으로 이동 */
-			transform: translateX(-100%);
-			/* 내용이 넘치지 않도록 숨김 처리 */
-			overflow: hidden;
-			/* aside가 레이아웃에 영향을 주지 않도록 처리 */
-			position: absolute;
-			z-index: -1;
-		}
-	}
-
-	/* 오른쪽에 있을 때 aside 숨김 애니메이션 */
-	&.aside\:right.aside\:slide-out {
-		/* Grid 두 번째 컬럼(aside 영역)을 0으로 축소하여 공간 제거 */
-		grid-template-columns: 1fr 0;
-		/* Grid 컬럼 변화에 대한 부드러운 전환 효과 */
-		transition: grid-template-columns 0.5s ease;
-		/* 가로 스크롤바 방지를 위한 overflow 처리 */
-		overflow-x: hidden;
-
-		> :where(aside, .n-aside, * > .n-aside) {
-			/* aside를 오른쪽으로 완전히 슬라이드시켜 화면 밖으로 이동 */
-			transform: translateX(100%);
-			/* 내용이 넘치지 않도록 숨김 처리 */
-			overflow: hidden;
-			/* aside가 레이아웃에 영향을 주지 않도록 처리 */
-			position: absolute;
-			z-index: -1;
-		}
-	}
-
-	&.aside\:right {
-		grid-template-columns: 1fr var(--aside-width, auto);
+		grid-template-columns: var(--aside-width, auto) 1fr;
 		grid-template-areas:
 			"header header"
-			"main aside"
+			"aside main"
 			"footer footer";
+		/* Grid 컬럼 너비 변화에 대한 부드러운 전환 효과 */
+		transition: grid-template-columns 0.5s ease;
+		transition: grid-template-areas 0.5s ease;
+		will-change: grid-template-columns, grid-template-areas;
 		/* 가로 스크롤바 방지를 위한 overflow 처리 */
 		overflow-x: hidden;
 
-		> :where(aside, .n-aside, * > .n-aside) {
+		&> :where(aside, .n-aside, * > .n-aside) {
+			grid-area: aside;
+
+			position: relative;
+			/* aside 슬라이드 애니메이션을 위한 transform 전환 설정 */
+			transition: transform 0.5s ease;
+
+			resize: horizontal;
+
+			/* 컨텐츠 너비에 맞춰 자동 조정 */
+			width: 250px;
+			/* transform 속성 변경 시 GPU 가속을 위한 최적화 */
+			will-change: transform;
+
+			border-right: 1px solid var(--border-color, --color-base-3);
+		}
+
+		/* ==== aside 너비 옵션들 ==================================== */
+
+		&.layout-aside-width\:responsive:not(.layout-aside-width\:resizable)
+			&> :where(aside, .n-aside, * > .n-aside) {
+			width: 100%;
+			transition: width 0.5s ease;
+		}
+
+		&.layout-aside-width\:min-content:not(.layout-aside-width\:resizable)
+			&> :where(aside, .n-aside, * > .n-aside) {
+			width: min-content;
+		}
+
+		&.layout-aside-width\:slide-out {
+			/* Grid 첫 번째 컬럼(aside 영역)을 0으로 축소하여 공간 제거 */
+			grid-template-columns: 0 1fr;
+			/* Grid 컬럼 변화에 대한 부드러운 전환 효과 */
+			transition: grid-template-columns 0.5s ease;
+			/* 가로 스크롤바 방지를 위한 overflow 처리 */
+			overflow-x: hidden;
+
+			&> :where(aside, .n-aside, * > .n-aside) {
+				/* aside를 왼쪽으로 완전히 슬라이드시켜 화면 밖으로 이동 */
+				transform: translateX(-100%);
+				/* 내용이 넘치지 않도록 숨김 처리 */
+				overflow: hidden;
+				/* z-index를 낮춰서 다른 요소 뒤로 배치 */
+				z-index: -1;
+				/* pointer-events를 none으로 설정하여 마우스 이벤트 차단 */
+				pointer-events: none;
+			}
+		}
+
+		&.layout-aside-width\:resizable > :where(aside, .n-aside, * > .n-aside)::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: -2px; /* 약간 바깥쪽으로 배치 */
+			width: 4px; /* 너무 두껍지 않게 */
+			height: 100%;			
+
+			/* 그립퍼 느낌의 이중선 패턴 */
+			background-image: 
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, var(--color-base-4) 0%, var(--color-base-4) 1px);
+			background-size: 1px 8px, 1px 8px, 1px 100%;
+			background-position: 1px 0, 2px 0, 0 0;
+			background-repeat: repeat-y;
+
+			/* 부드러운 전환 효과 */
+			transition: background-image 0.2s ease;
+			cursor: ew-resize;
+
+			/* z-index로 다른 요소 위에 표시 */
+			z-index: 10;
+		}
+
+
+
+		/* 호버시 더 진하게 표시 */
+		&.layout-aside\:resizable > :where(aside, .n-aside, * > .n-aside):hover::after {
+			background-image: 
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, var(--color-base-6) 0%, var(--color-base-6) 1px);
+			background-size: 1px 6px, 1px 6px, 1px 100%;
+			background-position: 1px 0, 2px 0, 0 0;
+			background-repeat: repeat-y;
+		}
+
+		
+
+		/* 드래그 중일 때 스타일 */
+		&.layout-aside\:resizable > :where(aside, .n-aside, * > .n-aside).resizing::after {
+			background-image: 
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, transparent 0%, transparent 1px),
+				linear-gradient(to right, var(--color-main-1) 0%, var(--color-main-1) 1px);
+			background-size: 1px 4px, 1px 4px, 1px 100%;
+			background-position: 1px 0, 2px 0, 0 0;
+			background-repeat: repeat-y;
+		}
+		
+		/* ==== 오른쪽에 있을 때 aside 너비 옵션들 ================================ */
+		&.layout-aside-pos\:right{
+			grid-template-columns: 1fr var(--aside-width, auto);
+			grid-template-areas:
+				"header header"
+				"main aside"
+				"footer footer";
+			/* 가로 스크롤바 방지를 위한 overflow 처리 */
+			overflow-x: hidden;
+
+			&> :where(aside, .n-aside, * > .n-aside) {
+				/* 오른쪽에 있을 때는 왼쪽 경계선에 그립퍼 배치 */
+				border-right: none;
+				border-left: 1px solid var(--border-color, --color-base-3);
+			}
+
+			&.layout-aside-width\:slide-out {
+				/* Grid 두 번째 컬럼(aside 영역)을 0으로 축소하여 공간 제거 */
+				grid-template-columns: 1fr 0;
+				/* Grid 컬럼 변화에 대한 부드러운 전환 효과 */
+				transition: grid-template-columns 0.5s ease;
+				/* 가로 스크롤바 방지를 위한 overflow 처리 */
+				overflow-x: hidden;
+	
+				&> :where(aside, .n-aside, * > .n-aside) {
+					/* aside를 오른쪽으로 완전히 슬라이드시켜 화면 밖으로 이동 */
+					transform: translateX(100%);
+					/* 내용이 넘치지 않도록 숨김 처리 */
+					overflow: hidden;
+					/* z-index를 낮춰서 다른 요소 뒤로 배치 */
+					z-index: -1;
+					/* pointer-events를 none으로 설정하여 마우스 이벤트 차단 */
+					pointer-events: none;
+				}
+			}
+
 			/* 오른쪽에 있을 때는 왼쪽 경계선에 그립퍼 배치 */
-			border-right: none;
-			border-left: 1px solid var(--color-base-3);
+			&.layout-aside-width\:resizable
+				> :where(aside, .n-aside, * > .n-aside)::after {
+				right: auto;
+				left: -2px;
+				/* 왼쪽 그립퍼를 위한 이중선 패턴 */
+				background-image: 
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, var(--color-base-4) 0%, var(--color-base-4) 1px);
+				background-size: 1px 8px, 1px 8px, 1px 100%;
+				background-position: 1px 0, 2px 0, 0 0;
+				background-repeat: repeat-y;
+			}
+
+			/* 오른쪽에 있을 때 호버 효과 */
+			&.layout-aside-width\:resizable
+				> :where(aside, .n-aside, * > .n-aside):hover::after {
+				background-image: 
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, var(--color-base-6) 0%, var(--color-base-6) 1px);
+				background-size: 1px 6px, 1px 6px, 1px 100%;
+				background-position: 1px 0, 2px 0, 0 0;
+				background-repeat: repeat-y;
+			}
+			
+			/* 오른쪽에 있을 때 드래그 중 스타일 */
+			&.layout-aside-width\:resizable
+				> :where(aside, .n-aside, * > .n-aside).resizing::after {
+				background-image: 
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, transparent 0%, transparent 1px),
+					linear-gradient(to left, var(--color-main-1) 0%, var(--color-main-1) 1px);
+				background-size: 1px 4px, 1px 4px, 1px 100%;
+				background-position: 1px 0, 2px 0, 0 0;
+				background-repeat: repeat-y;
+			}
+
 		}
 	}
 
-	&.aside\:resizable > :where(aside, .n-aside, * > .n-aside)::after {
-		content: "";
-		position: absolute;
-		top: 0;
-		right: -2px; /* 약간 바깥쪽으로 배치 */
-		width: 4px; /* 너무 두껍지 않게 */
-		height: 100%;
-
-		/* 세련된 그라데이션 그립퍼 */
-		background: linear-gradient(
-			to right,
-			transparent 0%,
-			rgba(0, 0, 0, 0.05) 50%,
-			rgba(0, 0, 0, 0.1) 100%
-		);
-
-		/* 부드러운 전환 효과 */
-		transition: background 0.2s ease;
-		cursor: ew-resize;
-
-		/* z-index로 다른 요소 위에 표시 */
-		z-index: 10;
-	}
-
-	/* 오른쪽에 있을 때는 왼쪽 경계선에 그립퍼 배치 */
-	&.aside\:right.aside\:resizable
-		> :where(aside, .n-aside, * > .n-aside)::after {
-		right: auto;
-		left: -2px;
-		/* 왼쪽 그립퍼를 위한 그라데이션 방향 변경 */
-		background: linear-gradient(
-			to left,
-			transparent 0%,
-			rgba(0, 0, 0, 0.05) 50%,
-			rgba(0, 0, 0, 0.1) 100%
-		);
-	}
-
-	/* 호버시 더 진하게 표시 */
-	&.aside\:resizable > :where(aside, .n-aside, * > .n-aside):hover::after {
-		background: linear-gradient(
-			to right,
-			transparent 0%,
-			rgba(0, 0, 0, 0.1) 50%,
-			rgba(0, 0, 0, 0.2) 100%
-		);
-	}
-
-	/* 오른쪽에 있을 때 호버 효과 */
-	&.aside\:right.aside\:resizable
-		> :where(aside, .n-aside, * > .n-aside):hover::after {
-		background: linear-gradient(
-			to left,
-			transparent 0%,
-			rgba(0, 0, 0, 0.1) 50%,
-			rgba(0, 0, 0, 0.2) 100%
-		);
-	}
-
-	/* 드래그 중일 때 스타일 */
-	&.aside\:resizable > :where(aside, .n-aside, * > .n-aside).resizing::after {
-		background: linear-gradient(
-			to right,
-			transparent 0%,
-			rgba(var(--rgb-main-1), 0.3) 50%,
-			rgba(var(--rgb-main-1), 0.5) 100%
-		);
-	}
-
-	/* 오른쪽에 있을 때 드래그 중 스타일 */
-	&.aside\:right.aside\:resizable
-		> :where(aside, .n-aside, * > .n-aside).resizing::after {
-		background: linear-gradient(
-			to left,
-			transparent 0%,
-			rgba(var(--rgb-main-1), 0.3) 50%,
-			rgba(var(--rgb-main-1), 0.5) 100%
-		);
-	}
 }
+
 
 @media (max-width: 640px) {
 	.n-layout:has(> aside, > .n-aside) {
-		&.aside-width\:responsive {
+		&.layout-aside-width\:responsive {
 			grid-template-columns: var(--aside-width, 45px) 1fr;
 		}
 	}
 
-	.n-layout:has(> aside, > .n-aside).aside\:right {
-		&.aside-width\:responsive {
+	.n-layout:has(> aside, > .n-aside).layout-aside-pos\:right {
+		&.layout-aside-width\:responsive {
 			grid-template-columns: 1fr var(--aside-width, 45px);
 		}
 	}
@@ -327,14 +376,14 @@ body:has(.n-layout) {
 
 /* ---- 1. Toggle Action 스타일(.n-aside-toggle:checked 상태를 이용한) ------------------------------------ */
 .n-layout {
-	> .n-header:has(.n-aside-toggle:checked)
+	&> .n-header:has(.n-aside-toggle:checked)
 		~ :where(aside, .n-aside, * > aside, * > .n-aside) {
 		position: absolute;
 		top: 0;
 		left: 0;
 		/* width: var(--aside-width, var(--w-6));         */
 		height: 100%;
-		background-color: var(--color-base-1);
+		background-color: var(--background-color, --color-base-1);
 
 		transform: translateX(-100%);
 	}

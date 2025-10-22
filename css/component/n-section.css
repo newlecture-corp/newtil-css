@@ -28,9 +28,23 @@
 	display: flex;
 	flex-direction: column;	
 	overflow: clip;	
+	
+	/* ===== SECTION TYPE ===== */
+	/* TYPE : card, elevated */
+	/* AND 연산 가능한 클래스 조합 가능한 형태로 설계 */
 
-	border: var(--bd-width) solid var(--bd-color);
-	border-radius: var(--bd-radius);
+	&.section\:card{
+		border: var(--bd-width) solid var(--bd-color);	
+		border-radius: var(--bd-radius);
+	}
+
+	&.section\:elevated{
+		box-shadow: var(--shadow-lg);
+	}
+
+	/* ===== 자식 엘리먼트 스타일 ===== 
+	────┰───────────────────────────  
+		┠─── SECTION HEADER */
 
 	&>h1,
 	&>header {
@@ -69,6 +83,11 @@
 		opacity: 1;
 	}
 
+	/* ===== 자식 엘리먼트 스타일 ===== 
+	────┰───────────────────────────  
+		┠─── SECTION HEADER 
+	 	┠─── SECTION CONTENT */
+
 	/* 혹시 n-list 가 포함되어 있고 방향이 column 방향이면 콘텐츠 영역 패딩을 없앰 */
 	&:has(.n-list.list-dir\:column),
 	&:has(.n-list.list-direction\:column)>* {
@@ -78,21 +97,7 @@
 		}
 	}
 
-	/* &.content-toggle\:show{
-
-		&>h1,
-		&>header {			
-			border-bottom: var(--bd-width) solid var(--bd-color);		
-		}
-
-		&>h1+*,
-		&>header+* {
-			height: auto;
-			overflow: visible;
-			transition: height 0.3s ease, overflow 0.3s ease;
-			padding: var(--padding);
-		}
-	} */
+	/* ===== SECTION ACTIONS ===== */
 
 	&.content-toggle\:hide{
 		&>h1,
