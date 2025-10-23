@@ -360,6 +360,43 @@
 			width: 100%;
 		}
 
+		/* Column 방향일 때는 기본적으로 구분선 숨김 */
+		&>*+*::before {
+			display: none;
+		}
+
+		/* list-sep 또는 list-seperator 클래스가 있을 때만 수평 구분선 표시 */
+		&.list-sep,
+		&.list-seperator,
+		&.list-sep\:solid,
+		&.list-seperator\:solid,
+		&.list-sep\:dotted,
+		&.list-seperator\:dotted,
+		&.list-sep\:dot,
+		&.list-seperator\:dot,
+		&.list-sep\:dashed,
+		&.list-seperator\:dashed {
+			&>*+*::before {
+				display: block;
+				content: "";
+				position: absolute;
+				/* 아이템의 위쪽에 수평선 배치 */
+				top: 0;
+				
+				/* 경계선 크기 조절
+				left: 10%;
+				right: 10%; */
+				left: 0;
+				right: 0;
+				height: 1px;
+				width: auto;
+				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-size: 4px 1px;
+				background-repeat: repeat-x;
+				pointer-events: none;
+			}
+		}
+
 		&.list-sep\:none,
 		&.list-seperator\:none {
 			&>*+*::before {
@@ -370,21 +407,24 @@
 		&.list-sep\:solid,
 		&.list-seperator\:solid {
 			&>*+*::before {
-				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
+				background-image: linear-gradient(to right, var(--n-list-sep-color) 100%, transparent 100%);
+				background-size: 100% 1px;
 			}
 		}
 	
 		&.list-sep\:dotted,
 		&.list-seperator\:dotted {
 			&>*+*::before {
-				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-size: 4px 1px;
 			}
 		}
 	
 		&.list-sep\:dashed,
 		&.list-seperator\:dashed {
 			&>*+*::before {
-				background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-size: 8px 1px;
 			}
 		}
 
