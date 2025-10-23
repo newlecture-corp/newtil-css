@@ -8,19 +8,25 @@
 .n-section {
 	--padding: var(--space-4);
 	--gap: var(--space-4);
-	--bd-color: var(--color-base-3);
+	--bd-color: var(--color-base-3);	
+	--bd-color-hover: var(--color-base-4);
 	--bd-width: 1px;
 	--bd-radius: var(--space-3);
 	--title-color: var(--color-base-7);
 	--title-size: var(--size-8);
-	--title-fw: var(--font-weight-7);
+	--title-fw: var(--font-weight-7);	
+	--bg-color-glass: rgba(var(--rgb-base-2), 0.4);
+	--bg-color-glass-hover: rgba(var(--rgb-base-4), 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
 	.n-section {
 		--title-color: var(--color-base-1);
 		--bd-color: var(--color-base-6);
+		--bd-color-hover: var(--color-base-4);
 		--bd-width: 0.5px;
+		--bg-color-glass: rgba(var(--rgb-base-8), 0.4);
+		--bg-color-glass-hover: rgba(var(--rgb-base-8), 0.6);
 	}
 }
 
@@ -30,17 +36,46 @@
 	overflow: clip;	
 	
 	/* ===== SECTION TYPE ===== */
-	/* TYPE : card, elevated */
+	/* TYPE : card, glass, elevated */
 	/* AND 연산 가능한 클래스 조합 가능한 형태로 설계 */
 
-	&.section\:card{
-		border: var(--bd-width) solid var(--bd-color);	
-		border-radius: var(--bd-radius);
+	&.hover:hover{	
+		cursor: pointer;
 	}
 
-	&.section\:elevated{
-		box-shadow: var(--shadow-lg);
+	&.section-type\:card{
+		border: var(--bd-width) solid var(--bd-color);	
+		border-radius: var(--bd-radius);
+		
+		&.hover:hover{
+			border: var(--bd-width) solid var(--bd-color-hover);			
+		}
 	}
+
+	&.section-type\:glass{		
+		background: var(--bg-color-glass);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);		
+
+		transition: background 0.3s ease, backdrop-filter 0.3s ease, border 0.3s ease;
+
+		&.hover:hover{
+			background: var(--bg-color-glass-hover);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);			
+		}
+	}
+
+
+	&.section-type\:elevated{
+		box-shadow: var(--shadow-lg);
+
+		&.hover:hover{
+			box-shadow: var(--shadow-xl);
+		}
+	}
+
+	
 
 	/* ===== 자식 엘리먼트 스타일 ===== 
 	────┰───────────────────────────  
@@ -53,6 +88,7 @@
 		color: var(--title-color);
 
 		overflow: hidden;
+		width: 100%;
 		min-width: 0;
 		max-width: 100%;
 		text-overflow: ellipsis;
@@ -61,8 +97,8 @@
 		padding: var(--padding);
 
 		display: flex;
-		align-items: center;		
-		border-bottom: var(--bd-width) solid var(--bd-color);		
+		align-items: center;
+		border-bottom: var(--bd-width) solid var(--bd-color);
 	}
 
 	/* header에 종속된 h1 스타일 */
