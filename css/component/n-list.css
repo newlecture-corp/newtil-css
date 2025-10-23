@@ -75,6 +75,12 @@
 		padding: var(--space-2) var(--space-4);
 	}
 
+	&.hover >*:hover {			
+		background-color: var(--color-background-onhover);
+		color: var(--color-text-onhover);
+
+	}
+
 	/* ===== DEFAULT SEPARATOR ===== */
 	/*
 	list-sep:none, solid, dotted, dot, dashed
@@ -116,6 +122,7 @@
 		background-size: 1px 4px;
 		background-repeat: repeat-y;
 		pointer-events: none;
+
 	}
 	
 	/* ===== SEPARATOR ===== */
@@ -241,12 +248,6 @@
 			&:has(input:checked) {				
 				background-color: var(--color-background-onactive);
 				color: var(--color-text-onactive);								
-			}
-						
-			&:hover {				
-				background-color: var(--color-background-onhover);
-				color: var(--color-text-onhover);
-
 			}			
 		}
 	}
@@ -591,53 +592,53 @@ list-type:aside-menu
 	}
 }
 
-/* ===== CARD LIST ===== */
+/* ===== COLS LIST ===== */
 /*
-list-type:card
+list-type:cols
 */
-.n-list\:card{
+.list-type\:cols{
 
-	--card-width: 300px;
+	--column-width: 300px;
 
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(var(--column-width), 1fr));
 	gap: var(--space-2);
 
 
-	&.card-width\:1 {
-		--card-width: 250px;
+	&.column-width\:1 {
+		--column-width: 250px;
 	}
-	&.card-width\:2 {
-		--card-width: 300px;
+	&.column-width\:2 {
+		--column-width: 300px;
 	}
-	&.card-width\:3 {
-		--card-width: 350px;
+	&.column-width\:3 {
+		--column-width: 350px;
 	}
-	&.card-width\:4 {
-		--card-width: 400px;
+	&.column-width\:4 {
+		--column-width: 400px;
 	}
-	&.card-width\:5 {
-		--card-width: 450px;
+	&.column-width\:5 {
+		--column-width: 450px;
 	}
-	&.card-width\:6 {
-		--card-width: 500px;
-	}
-
-	&.card-width\:auto {
-		--card-width: auto;
+	&.column-width\:6 {
+		--column-width: 500px;
 	}
 
-	&.card-width\:100p {
-		--card-width: 100%;
+	&.column-width\:auto {
+		--column-width: auto;
 	}
-	&.card-width\:50p {
-		--card-width: 50%;
+
+	&.column-width\:100p {
+		--column-width: 100%;
 	}
-	&.card-width\:33p {
-		--card-width: 33.33%;
+	&.column-width\:50p {
+		--column-width: 50%;
 	}
-	&.card-width\:25p {
-		--card-width: 25%;
+	&.column-width\:33p {
+		--column-width: 33.33%;
+	}
+	&.column-width\:25p {
+		--column-width: 25%;
 	}
 
 }
