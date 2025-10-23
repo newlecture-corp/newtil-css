@@ -81,8 +81,7 @@ n-layout aside:slide-out
 
 :root {
 	--header-height: 64px;
-	--footer-height: 120px;
-	--aside-width: 250px;
+	--footer-height: 120px;	
 	--background-color: var(--color-base-1);
 	--text-color: var(--color-base-9);
 	--border-color: var(--color-base-4);
@@ -164,7 +163,7 @@ body:has(.n-layout) {
 	&:has(> aside, > .n-aside) {
 		/* position: relative를 추가하여 absolute positioned aside의 기준점 설정 */
 		position: relative;
-		grid-template-columns: var(--aside-width, auto) 1fr;
+		grid-template-columns: min-content 1fr;
 		grid-template-areas:
 			"header header"
 			"aside main"
@@ -186,7 +185,7 @@ body:has(.n-layout) {
 			resize: horizontal;
 
 			/* 컨텐츠 너비에 맞춰 자동 조정 */
-			width: 250px;
+			/* width: 250px; */
 			/* transform 속성 변경 시 GPU 가속을 위한 최적화 */
 			will-change: transform;
 
@@ -279,7 +278,7 @@ body:has(.n-layout) {
 		
 		/* ==== 오른쪽에 있을 때 aside 너비 옵션들 ================================ */
 		&.layout-aside-pos\:right{
-			grid-template-columns: 1fr var(--aside-width, auto);
+			grid-template-columns: 1fr min-content;
 			grid-template-areas:
 				"header header"
 				"main aside"
@@ -359,15 +358,21 @@ body:has(.n-layout) {
 
 
 @media (max-width: 640px) {
+	.n-layout.layout-aside-width\:responsive {
+		
+
+	}
+
 	.n-layout:has(> aside, > .n-aside) {
 		&.layout-aside-width\:responsive {
-			grid-template-columns: var(--aside-width, 45px) 1fr;
+			
+			
 		}
 	}
 
 	.n-layout:has(> aside, > .n-aside).layout-aside-pos\:right {
 		&.layout-aside-width\:responsive {
-			grid-template-columns: 1fr var(--aside-width, 45px);
+			
 		}
 	}
 }
@@ -381,7 +386,7 @@ body:has(.n-layout) {
 		position: absolute;
 		top: 0;
 		left: 0;
-		/* width: var(--aside-width, var(--w-6));         */
+		
 		height: 100%;
 		background-color: var(--background-color, --color-base-1);
 
@@ -392,8 +397,12 @@ body:has(.n-layout) {
 /* ---- 2. 윈도우 너비 이벤트 스타일(문서 너비가 좁아지면 떠다니는 형태) ------------------------------------ */
 @media (max-width: 640px) {
 	.n-layout {
-		& > :where(aside, .n-aside) {
-			width: 45px;
+		&.layout-aside-width\:responsive {
+			grid-template-columns:min-content 1fr;
+			grid-template-areas:
+				"header header"
+				"aside main"
+				"footer footer";
 		}
 		/* & > :where(.n-aside, * > .n-aside) {
 			.n-section\:aside-menu {
