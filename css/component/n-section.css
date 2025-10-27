@@ -8,8 +8,8 @@
 .n-section {
 	--padding: var(--space-4);
 	--gap: var(--space-4);
-	--bd-color: var(--color-base-3);	
-	--bd-color-hover: var(--color-base-4);
+	--bd-color: var(--color-base-5);
+	--bd-color-hover: var(--color-base-8);
 	--bd-width: 1px;
 	--bd-radius: var(--space-3);
 	--title-color: var(--color-base-7);
@@ -23,7 +23,7 @@
 	.n-section {
 		--title-color: var(--color-base-1);
 		--bd-color: var(--color-base-6);
-		--bd-color-hover: var(--color-base-4);
+		--bd-color-hover: var(--color-base-2);
 		--bd-width: 0.5px;
 		--bg-color-glass: rgba(var(--rgb-base-8), 0.4);
 		--bg-color-glass-hover: rgba(var(--rgb-base-8), 0.6);
@@ -33,7 +33,7 @@
 .n-section {
 	display: flex;
 	flex-direction: column;	
-	overflow: clip;	
+	overflow: clip;
 	
 	/* ===== SECTION TYPE ===== */
 	/* TYPE : card, glass, elevated */
@@ -43,16 +43,16 @@
 		cursor: pointer;
 	}
 
-	&.section-type\:card{
+	&.section\:card{
 		border: var(--bd-width) solid var(--bd-color);	
 		border-radius: var(--bd-radius);
 		
 		&.hover:hover{
-			border: var(--bd-width) solid var(--bd-color-hover);			
+			border: var(--border-width-1) solid var(--bd-color-hover);			
 		}
 	}
 
-	&.section-type\:glass{		
+	&.section\:glass{		
 		background: var(--bg-color-glass);
 		backdrop-filter: blur(10px);
 		-webkit-backdrop-filter: blur(10px);		
@@ -67,7 +67,7 @@
 	}
 
 
-	&.section-type\:elevated{
+	&.section\:elevated{
 		box-shadow: var(--shadow-lg);
 
 		&.hover:hover{
