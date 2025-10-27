@@ -8,7 +8,7 @@
 	
 	list-vertical-align:left, center, right
 	list-align:left, center, right
-	list-type:aside-menu
+	list:aside-menu
 	list-active:aside-menu, bar, color
 	list-direction:row, column
 	list-dir:row, column
@@ -31,16 +31,18 @@
 .n-list {
 	/* variables */
 	/* 한 곳에서 gap 정의 */
-	--n-list-gap: var(--space-2);
-	--n-list-sep-color: var(--color-base-5);
-	
+	--gap: var(--space-2);
+	--sp-color: var(--color-base-5);
+	--bg-color-hover: rgba(var(--rgb-base-3), 0.7);
+	--text-color-active: var(--color-base-1);
 	/* 다크모드 변수 재정의 (prefer dark theme) */
 }
 
 @media (prefers-color-scheme: dark) {
-	.n-list {
-	
-		--n-list-sep-color: var(--color-base-7, #333a44);
+	.n-list {	
+		--color-separator: var(--color-base-7, #333a44);
+		--bg-color-hover: rgba(var(--rgb-base-8), 0.7);
+		--text-color-active: var(--color-base-2);
 	}
 }
 
@@ -76,8 +78,7 @@
 	}
 
 	&.hover >*:hover {			
-		background-color: var(--color-background-onhover);
-		color: var(--color-text-onhover);
+		background-color: var(--bg-color-hover);
 
 	}
 
@@ -97,7 +98,7 @@
 	&.list-seperator\:dot,
 	&.list-sep\:dashed,
 	&.list-seperator\:dashed {
-		gap: var(--n-list-gap);
+		gap: var(--gap);
 	}
 	
 	&.list-sep>*+*::before ,
@@ -114,11 +115,11 @@
 		position: absolute;
 		/* 아이템의 왼쪽으로 "gap의 절반"만큼 나가서 = gap 중앙에 선이 위치 */
 		
-		left: calc(var(--n-list-gap) * -0.7);
+		left: calc(var(--gap) * -0.7);
 		top: 25%;
 		bottom: 25%;
 		width: 1px;
-		background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+		background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
 		background-size: 1px 4px;
 		background-repeat: repeat-y;
 		pointer-events: none;
@@ -141,7 +142,7 @@
 	&.list-sep\:solid,
 	&.list-seperator\:solid {
 		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 100%, transparent 100%);
+			background-image: linear-gradient(to bottom, var(--color-separator) 100%, transparent 100%);
 			
 		}
 	}
@@ -149,21 +150,21 @@
 	&.list-sep\:dotted,
 	&.list-seperator\:dotted {
 		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
 		}
 	}
 
 	&.list-sep\:dot,
 	&.list-seperator\:dot {
 		&>*+*::before {
-			background-image: radial-gradient(circle, var(--n-list-sep-color) 1.5px, transparent 1.6px);
+			background-image: radial-gradient(circle, var(--color-separator) 1.5px, transparent 1.6px);
 			background-size: 3px 9px;
 			background-repeat: no-repeat;
 
 			top: 45%;
 			bottom: 45%;
 			width: 3px;
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
 			background-size: 3px 4px;
 		}
 	}
@@ -171,7 +172,7 @@
 	&.list-sep\:dashed,
 	&.list-seperator\:dashed {
 		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--n-list-sep-color) 50%, transparent 50%);
+			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
 		}
 	}	
 
@@ -247,7 +248,7 @@
 			&.active,
 			&:has(input:checked) {				
 				background-color: var(--color-background-onactive);
-				color: var(--color-text-onactive);								
+				color: var(--text-color-active);								
 			}			
 		}
 	}
@@ -257,10 +258,10 @@
 
 			&.active {
 				background-color: transparent;
-				color: var(--color-text-onactive);				
+				color: var(--text-color-active);				
 
 				& .n-icon{								
-					color: var(--color-icon-onactive);
+					color: var(--icon-color-active);
 				}				
 			}
 
@@ -269,7 +270,7 @@
 				/* color: var(--color-text-onhover); */
 				
 				& .n-icon{
-					color: var(--color-icon-onhover);
+					color: var(--icon-color-hover);
 				}
 			}
 			
@@ -280,7 +281,7 @@
 				left: 0;
 				right: 0;
 				height: 3px;
-				background-color: var(--color-background-onactive);				
+				background-color: var(--bg-color-active);				
 				opacity: 1;
 			}
 
@@ -291,7 +292,7 @@
 				left: 0;
 				right: 0;
 				height: 3px;
-				background-color: var(--color-background-onhover);
+				background-color: var(--bg-color-hover);
 				opacity: 1;
 			}
 
@@ -299,45 +300,6 @@
 				opacity: 0;
 			}
 		}
-	}
-
-
-	
-	/* ===== GAP ===== */
-	/*
-	gap:1, 2, 3, 4, 5, 6, 7, 8
-	*/
-	&.gap\:1 {
-		--n-list-gap: var(--space-1);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:2 {
-		--n-list-gap: var(--space-2);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:3 {
-		--n-list-gap: var(--space-3);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:4 {
-		--n-list-gap: var(--space-4);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:5 {
-		--n-list-gap: var(--space-5);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:6 {
-		--n-list-gap: var(--space-6);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:7 {
-		--n-list-gap: var(--space-7);
-		gap: var(--n-list-gap);
-	}
-	&.gap\:8 {
-		--n-list-gap: var(--space-8);
-		gap: var(--n-list-gap);
 	}
 
 
@@ -353,7 +315,7 @@
 	&.list-dir\:column {
 		flex-direction: column;
 		align-items: flex-start;
-		--n-list-gap: 0;
+		--gap: 0;
 
 		&>* {
 			display: flex;
@@ -391,7 +353,7 @@
 				right: 0;
 				height: 1px;
 				width: auto;
-				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
 				background-size: 4px 1px;
 				background-repeat: repeat-x;
 				pointer-events: none;
@@ -408,7 +370,7 @@
 		&.list-sep\:solid,
 		&.list-seperator\:solid {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--n-list-sep-color) 100%, transparent 100%);
+				background-image: linear-gradient(to right, var(--color-separator) 100%, transparent 100%);
 				background-size: 100% 1px;
 			}
 		}
@@ -416,7 +378,7 @@
 		&.list-sep\:dotted,
 		&.list-seperator\:dotted {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
 				background-size: 4px 1px;
 			}
 		}
@@ -424,7 +386,7 @@
 		&.list-sep\:dashed,
 		&.list-seperator\:dashed {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--n-list-sep-color) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
 				background-size: 8px 1px;
 			}
 		}
@@ -492,9 +454,9 @@
 
 	/* ===== ASIDE MENU ===== */
 	/*
-	list-type:aside-menu
+	list:aside-menu
 	*/
-	&.list-type\:aside-menu {
+	&.list\:aside-menu {
 		width: 100%;
 		flex-direction: column;
 		overflow: hidden;
@@ -528,7 +490,7 @@
 
 /* ===== RULED DATA LIST ===== */
 /*
-list-type:dl
+list:dl
 dl-sperator:solid, ruled
 */
 .n-list\:dl {
@@ -575,15 +537,15 @@ dl-sperator:solid, ruled
 
 /* ===== HOVER ===== */
 /*
-list-type:aside-menu
+list:aside-menu
 */
 @media (hover: hover) and (pointer: fine) {
 	/* ===== ASIDE MENU ===== */
 	/*
-	list-type:aside-menu
+	list:aside-menu
 	*/
 	.n-list {
-		&.list-type\:aside-menu {
+		&.list\:aside-menu {
 			&>li:hover {
 				background-color: var(--color-hover-bg);
 				color: var(--color-hover-text);
@@ -594,9 +556,9 @@ list-type:aside-menu
 
 /* ===== COLS LIST ===== */
 /*
-list-type:cols
+list:cols
 */
-.list-type\:cols{
+.list\:cols{
 
 	--column-width: 300px;
 

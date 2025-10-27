@@ -18,6 +18,15 @@
 
 :root {
 	--icon-size: 24px;
+	--icon-family: "Material Symbols Outlined";
+	--icon-color: var(--color-base-9);
+	--icon-variation-settings: "FILL" 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--icon-color: var(--color-base-2);
+	}
 }
 
 .n-icon {
@@ -50,17 +59,18 @@
 		/* margin-right: 999px; */
 
 		/* background-color: var(--icon-color);
-    background-repeat: no-repeat;
-    mask-size: var(--icon-size);
-    mask-image: var(--icon); */
+		background-repeat: no-repeat;
+		mask-size: var(--icon-size);
+		mask-image: var(--icon); */
 
-		font-family: "Material Symbols Outlined";
+		color: inherit;
+		font-family: var(--icon-family);
 		font-size: var(--icon-size);
+		font-variation-settings: var(--icon-variation-settings);
 	}
 
-	&.n-hover:not(.n-deco):hover {
+	&.hover:not(.n-deco):hover {
 		border-radius: 50%;
-		/* border: 1px solid var(--color-base-5); */
 		background-color: var(--color-base-3);
 		transform: scale(1.4);
 
@@ -68,124 +78,128 @@
 			transform: scale(0.72);
 		}
 	}
+
+	
+	/* === style  =============================== */
+
+	.icon-style\:outlined::before {
+		--icon-family: "Material Symbols Outlined";
+	}
+
+	.icon-style\:filled::before {
+		--icon-variation-settings: "FILL" 1;
+	}
+
+	.icon-style\:rounded::before {
+		--icon-family: "Material Symbols Rounded";
+	}
+
+	.icon-style\:sharp::before {
+		--icon-family: "Material Symbols Sharp";
+	}
+
+	/* === color ======================================= */
+	/*
+	main 1/2/3
+	sub 1/2/3
+	accent 1/2/3
+	base 1/2/3/4/5/6/7/8/9/10*/
+
+	.icon-color\:main-1::before {
+		--icon-color: var(--color-main-1);
+	}
+
+	.icon-color\:main-2::before {
+		--icon-color: var(--color-main-2);
+	}
+
+	.icon-color\:main-3::before {
+		--icon-color: var(--color-main-3);
+	}
+
+	.icon-color\:sub-1::before {
+		--icon-color: var(--color-sub-1);
+	}
+
+	.icon-color\:sub-2::before {
+		--icon-color: var(--color-sub-2);
+	}
+
+	.icon-color\:sub-3::before {
+		--icon-color: var(--color-sub-3);
+	}
+
+	.icon-color\:accent-1::before {
+		--icon-color: var(--color-accent-1);
+	}
+
+	.icon-color\:accent-2::before {
+		--icon-color: var(--color-accent-2);
+	}
+
+	.icon-color\:accent-3::before {
+		--icon-color: var(--color-accent-3);
+	}
+
+	.icon-color\:base-1::before {
+		--icon-color: var(--color-base-1);
+	}
+
+	.icon-color\:base-2::before {
+		--icon-color: var(--color-base-2);
+	}
+
+	.icon-color\:base-3::before {
+		--icon-color: var(--color-base-3);
+	}
+
+	.icon-color\:base-4::before {
+		--icon-color: var(--color-base-4);
+	}
+
+	.icon-color\:base-5::before {
+		--icon-color: var(--color-base-5);
+	}
+
+	.icon-color\:base-6::before {
+		--icon-color: var(--color-base-6);
+	}
+
+	.icon-color\:base-7::before {
+		--icon-color: var(--color-base-7);
+	}
+
+	.icon-color\:base-8::before {
+		--icon-color: var(--color-base-8);
+	}
+
+	.icon-color\:base-9::before {
+		--icon-color: var(--color-base-9);
+	}
+
+	.icon-color\:base-10::before {
+		--icon-color: var(--color-base-10);
+	}
+
+	/* ---- icon-size ------------------------------------------------- */
+
+	.icon-size\:1 { --icon-size: var(--size-1); }
+	.icon-size\:2 { --icon-size: var(--size-2); }
+	.icon-size\:3 { --icon-size: var(--size-3); }
+	.icon-size\:4 { --icon-size: var(--size-4); }
+	.icon-size\:5 { --icon-size: var(--size-5); }
+	.icon-size\:6 { --icon-size: var(--size-6); }
+	.icon-size\:7 { --icon-size: var(--size-7); }
+	.icon-size\:8 { --icon-size: var(--size-8); }
+	.icon-size\:9 { --icon-size: var(--size-9); }
+	.icon-size\:10 { --icon-size: var(--size-10); }
+	.icon-size\:11 { --icon-size: var(--size-11); }
+	.icon-size\:12 { --icon-size: var(--size-12); }
+	.icon-size\:13 { --icon-size: var(--size-13); }
+
+
+
 }
-
-/* === style  =============================== */
-
-.icon-style\:outlined::before {
-	font-family: "Material Symbols Outlined";
-}
-
-.icon-style\:filled::before {
-	font-variation-settings: "FILL" 1;
-}
-
-.icon-style\:rounded::before {
-	font-family: "Material Symbols Rounded";
-}
-
-.icon-style\:sharp::before {
-	font-family: "Material Symbols Sharp";
-}
-
-/* === color ======================================= */
-/*
-main 1/2/3
-sub 1/2/3
-accent 1/2/3
-base 1/2/3/4/5/6/7/8/9/10*/
-
-.icon-color\:main-1::before {
-	color: var(--color-main-1);
-}
-
-.icon-color\:main-2::before {
-	color: var(--color-main-2);
-}
-
-.icon-color\:main-3::before {
-	color: var(--color-main-3);
-}
-
-.icon-color\:sub-1::before {
-	color: var(--color-sub-1);
-}
-
-.icon-color\:sub-2::before {
-	color: var(--color-sub-2);
-}
-
-.icon-color\:sub-3::before {
-	color: var(--color-sub-3);
-}
-
-.icon-color\:accent-1::before {
-	color: var(--color-accent-1);
-}
-
-.icon-color\:accent-2::before {
-	color: var(--color-accent-2);
-}
-
-.icon-color\:accent-3::before {
-	color: var(--color-accent-3);
-}
-
-.icon-color\:base-1::before {
-	color: var(--color-base-1);
-}
-
-.icon-color\:base-2::before {
-	color: var(--color-base-2);
-}
-
-.icon-color\:base-3::before {
-	color: var(--color-base-3);
-}
-
-.icon-color\:base-4::before {
-	color: var(--color-base-4);
-}
-
-.icon-color\:base-5::before {
-	color: var(--color-base-5);
-}
-
-.icon-color\:base-6::before {
-	color: var(--color-base-6);
-}
-
-.icon-color\:base-7::before {
-	color: var(--color-base-7);
-}
-
-.icon-color\:base-8::before {
-	color: var(--color-base-8);
-}
-
-.icon-color\:base-9::before {
-	color: var(--color-base-9);
-}
-
-.icon-color\:base-10::before {
-	color: var(--color-base-10);
-}
-
-/* ---- icon-size ------------------------------------------------- */
-
-.icon-size\:1 { --icon-size: var(--size-1); }
-.icon-size\:2 { --icon-size: var(--size-2); }
-.icon-size\:3 { --icon-size: var(--size-3); }
-.icon-size\:4 { --icon-size: var(--size-4); }
-.icon-size\:5 { --icon-size: var(--size-5); }
-.icon-size\:6 { --icon-size: var(--size-6); }
-.icon-size\:7 { --icon-size: var(--size-7); }
-.icon-size\:8 { --icon-size: var(--size-8); }
-.icon-size\:9 { --icon-size: var(--size-9); }
-.icon-size\:10 { --icon-size: var(--size-10); }
-.icon-size\:11 { --icon-size: var(--size-11); }
-.icon-size\:12 { --icon-size: var(--size-12); }
-.icon-size\:13 { --icon-size: var(--size-13); }
 
 
 @media (min-width: 640px) {
@@ -195,147 +209,150 @@ base 1/2/3/4/5/6/7/8/9/10*/
 		height: var(--icon-size);
 		overflow: hidden;
 		align-items: center;
-	}
 
-	.sm\:n-icon::before {
-		/*icon 스타일*/
 
-		content: "\e87d";
-		/* favorite 아이콘의 유니코드 값 */
-		font-family: "Material Symbols Outlined";
-		font-size: var(--icon-size);
-	}
+		
+		&::before {
+			/*icon 스타일*/
 
-	/* === color ======================================= */
-	/*
-  main 1/2/3
-  sub 1/2/3
-  accent 1/2/3
-  base 1/2/3/4/5/6/7/8/9/10*/
+			content: "\e87d";
+			/* favorite 아이콘의 유니코드 값 */
+			font-family: "Material Symbols Outlined";
+			font-size: var(--icon-size);
+		}
 
-	.sm\:icon-color\:main-1::before {
-		color: var(--color-main-1);
-	}
+		/* === color ======================================= */
+		/*
+		main 1/2/3
+		sub 1/2/3
+		accent 1/2/3
+		base 1/2/3/4/5/6/7/8/9/10*/
 
-	.sm\:icon-color\:main-2::before {
-		color: var(--color-main-2);
-	}
+		&.icon-color\:main-1::before {
+			color: var(--color-main-1);
+		}
 
-	.sm\:icon-color\:main-3::before {
-		color: var(--color-main-3);
-	}
+		&.icon-color\:main-2::before {
+			color: var(--color-main-2);
+		}
 
-	.sm\:icon-color\:sub-1::before {
-		color: var(--color-sub-1);
-	}
+		&.icon-color\:main-3::before {
+			color: var(--color-main-3);
+		}
 
-	.sm\:icon-color\:sub-2::before {
-		color: var(--color-sub-2);
-	}
+		&.icon-color\:sub-1::before {
+			color: var(--color-sub-1);
+		}
 
-	.sm\:icon-color\:sub-3::before {
-		color: var(--color-sub-3);
-	}
+		&.icon-color\:sub-2::before {
+			color: var(--color-sub-2);
+		}
 
-	.sm\:icon-color\:accent-1::before {
-		color: var(--color-accent-1);
-	}
+		&.icon-color\:sub-3::before {
+			color: var(--color-sub-3);
+		}
 
-	.sm\:icon-color\:accent-2::before {
-		color: var(--color-accent-2);
-	}
+		&.icon-color\:accent-1::before {
+			color: var(--color-accent-1);
+		}
 
-	.sm\:icon-color\:accent-3::before {
-		color: var(--color-accent-3);
-	}
+		&.icon-color\:accent-2::before {
+			color: var(--color-accent-2);
+		}
 
-	.sm\:icon-color\:base-1::before {
-		color: var(--color-base-1);
-	}
+		&.icon-color\:accent-3::before {
+			color: var(--color-accent-3);
+		}
 
-	.sm\:icon-color\:base-2::before {
-		color: var(--color-base-2);
-	}
+		&.icon-color\:base-1::before {
+			color: var(--color-base-1);
+		}
 
-	.sm\:icon-color\:base-3::before {
-		color: var(--color-base-3);
-	}
+		&.icon-color\:base-2::before {
+			color: var(--color-base-2);
+		}
 
-	.sm\:icon-color\:base-4::before {
-		color: var(--color-base-4);
-	}
+		&.icon-color\:base-3::before {
+			color: var(--color-base-3);
+		}
 
-	.sm\:icon-color\:base-5::before {
-		color: var(--color-base-5);
-	}
+		&.icon-color\:base-4::before {
+			color: var(--color-base-4);
+		}
 
-	.sm\:icon-color\:base-6::before {
-		color: var(--color-base-6);
-	}
+		&.icon-color\:base-5::before {
+			color: var(--color-base-5);
+		}
 
-	.sm\:icon-color\:base-7::before {
-		color: var(--color-base-7);
-	}
+		&.icon-color\:base-6::before {
+			color: var(--color-base-6);
+		}
 
-	.sm\:icon-color\:base-8::before {
-		color: var(--color-base-8);
-	}
+		&.icon-color\:base-7::before {
+			color: var(--color-base-7);
+		}
 
-	.sm\:icon-color\:base-9::before {
-		color: var(--color-base-9);
-	}
+		&.icon-color\:base-8::before {
+			color: var(--color-base-8);
+		}
 
-	.sm\:icon-color\:base-10::before {
-		color: var(--color-base-10);
-	}
+		&.icon-color\:base-9::before {
+			color: var(--color-base-9);
+		}
+
+		&.icon-color\:base-10::before {
+			color: var(--color-base-10);
+		}
 
 		/* ---- icon-size (numeric) -------------------------------------- */
-		.sm\:icon-size\:1 { --icon-size: var(--size-1); }
-		.sm\:icon-size\:2 { --icon-size: var(--size-2); }
-		.sm\:icon-size\:3 { --icon-size: var(--size-3); }
-		.sm\:icon-size\:4 { --icon-size: var(--size-4); }
-		.sm\:icon-size\:5 { --icon-size: var(--size-5); }
-		.sm\:icon-size\:6 { --icon-size: var(--size-6); }
-		.sm\:icon-size\:7 { --icon-size: var(--size-7); }
-		.sm\:icon-size\:8 { --icon-size: var(--size-8); }
-		.sm\:icon-size\:9 { --icon-size: var(--size-9); }
-		.sm\:icon-size\:10 { --icon-size: var(--size-10); }
-		.sm\:icon-size\:11 { --icon-size: var(--size-11); }
-		.sm\:icon-size\:12 { --icon-size: var(--size-12); }
-		.sm\:icon-size\:13 { --icon-size: var(--size-13); }
+		&.icon-size\:1 { --icon-size: var(--size-1); }
+		&.icon-size\:2 { --icon-size: var(--size-2); }
+		&.icon-size\:3 { --icon-size: var(--size-3); }
+		&.icon-size\:4 { --icon-size: var(--size-4); }
+		&.icon-size\:5 { --icon-size: var(--size-5); }
+		&.icon-size\:6 { --icon-size: var(--size-6); }
+		&.icon-size\:7 { --icon-size: var(--size-7); }
+		&.icon-size\:8 { --icon-size: var(--size-8); }
+		&.icon-size\:9 { --icon-size: var(--size-9); }
+		&.icon-size\:10 { --icon-size: var(--size-10); }
+		&.icon-size\:11 { --icon-size: var(--size-11); }
+		&.icon-size\:12 { --icon-size: var(--size-12); }
+		&.icon-size\:13 { --icon-size: var(--size-13); }
 
-		/* ---- icon-size ------------------------------------------------- */
-	.sm\:icon-size\:xs::before {
-		font-size: var(--font-size-xs);
+			/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:xs::before {
+			font-size: var(--font-size-xs);
+		}
+
+		&.icon-size\:sm::before {
+			font-size: var(--font-size-sm);
+		}
+
+		&.icon-size\:base::before {
+			font-size: var(--font-size-base);
+		}
+
+		&.icon-size\:lg::before {
+			font-size: var(--font-size-lg);
+		}
+
+		&.icon-size\:xl::before {
+			font-size: var(--font-size-xl);
+		}
+
+		&.icon-size\:2xl::before {
+			font-size: var(--font-size-2xl);
+		}
+
+		&.icon-size\:3xl::before {
+			font-size: var(--font-size-3xl);
+		}
+
+		&.icon-size\:4xl::before {
+			font-size: var(--font-size-4xl);
+		}
 	}
 
-	.sm\:icon-size\:sm::before {
-		font-size: var(--font-size-sm);
-	}
-
-	.sm\:icon-size\:base::before {
-		font-size: var(--font-size-base);
-	}
-
-	.sm\:icon-size\:lg::before {
-		font-size: var(--font-size-lg);
-	}
-
-	.sm\:icon-size\:xl::before {
-		font-size: var(--font-size-xl);
-	}
-
-	.sm\:icon-size\:2xl::before {
-		font-size: var(--font-size-2xl);
-	}
-
-	.sm\:icon-size\:3xl::before {
-		font-size: var(--font-size-3xl);
-	}
-
-	.sm\:icon-size\:4xl::before {
-		font-size: var(--font-size-4xl);
-	}
 }
 
 @media (min-width: 768px) {
@@ -345,28 +362,28 @@ base 1/2/3/4/5/6/7/8/9/10*/
 		height: var(--icon-size);
 		overflow: hidden;
 		align-items: center;
-	}
 
-	/* ---- icon-size (numeric) -------------------------------------- */
-	.md\:icon-size\:1 { --icon-size: var(--size-1); }
-	.md\:icon-size\:2 { --icon-size: var(--size-2); }
-	.md\:icon-size\:3 { --icon-size: var(--size-3); }
-	.md\:icon-size\:4 { --icon-size: var(--size-4); }
-	.md\:icon-size\:5 { --icon-size: var(--size-5); }
-	.md\:icon-size\:6 { --icon-size: var(--size-6); }
-	.md\:icon-size\:7 { --icon-size: var(--size-7); }
-	.md\:icon-size\:8 { --icon-size: var(--size-8); }
-	.md\:icon-size\:9 { --icon-size: var(--size-9); }
-	.md\:icon-size\:10 { --icon-size: var(--size-10); }
-	.md\:icon-size\:11 { --icon-size: var(--size-11); }
-	.md\:icon-size\:12 { --icon-size: var(--size-12); }
-	.md\:icon-size\:13 { --icon-size: var(--size-13); }
+		/* ---- icon-size (numeric) -------------------------------------- */
+		&.icon-size\:1 { --icon-size: var(--size-1); }
+		&.icon-size\:2 { --icon-size: var(--size-2); }
+		&.icon-size\:3 { --icon-size: var(--size-3); }
+		&.icon-size\:4 { --icon-size: var(--size-4); }
+		&.icon-size\:5 { --icon-size: var(--size-5); }
+		&.icon-size\:6 { --icon-size: var(--size-6); }
+		&.icon-size\:7 { --icon-size: var(--size-7); }
+		&.icon-size\:8 { --icon-size: var(--size-8); }
+		&.icon-size\:9 { --icon-size: var(--size-9); }
+		&.icon-size\:10 { --icon-size: var(--size-10); }
+		&.icon-size\:11 { --icon-size: var(--size-11); }
+		&.icon-size\:12 { --icon-size: var(--size-12); }
+		&.icon-size\:13 { --icon-size: var(--size-13); }
 
-	.md\:n-icon::before {
-		/*icon 스타일*/
+		&::before {
+			/*icon 스타일*/
 
-		font-family: "Material Symbols Outlined";
-		font-size: var(--icon-size);
+			font-family: "Material Symbols Outlined";
+			font-size: var(--icon-size);
+		}
 	}
 }
 
@@ -377,145 +394,147 @@ base 1/2/3/4/5/6/7/8/9/10*/
 		height: var(--icon-size);
 		overflow: hidden;
 		align-items: center;
+
+		/* ---- icon-size (numeric) -------------------------------------- */
+		&.icon-size\:1 { --icon-size: var(--size-1); }
+		&.icon-size\:2 { --icon-size: var(--size-2); }
+		&.icon-size\:3 { --icon-size: var(--size-3); }
+		&.icon-size\:4 { --icon-size: var(--size-4); }
+		&.icon-size\:5 { --icon-size: var(--size-5); }
+		&.icon-size\:6 { --icon-size: var(--size-6); }
+		&.icon-size\:7 { --icon-size: var(--size-7); }
+		&.icon-size\:8 { --icon-size: var(--size-8); }
+		&.icon-size\:9 { --icon-size: var(--size-9); }
+		&.icon-size\:10 { --icon-size: var(--size-10); }
+		&.icon-size\:11 { --icon-size: var(--size-11); }
+		&.icon-size\:12 { --icon-size: var(--size-12); }
+		&.icon-size\:13 { --icon-size: var(--size-13); }
+
+		&::before {
+			/*icon 스타일*/
+
+			font-family: "Material Symbols Outlined";
+			font-size: var(--icon-size);
+		}
+
+		/* === color ======================================= */
+		/*
+		main 1/2/3
+		sub 1/2/3
+		accent 1/2/3
+		base 1/2/3/4/5/6/7/8/9/10*/
+
+		&.icon-color\:main-1::before {
+			color: var(--color-main-1);
+		}
+
+		&.icon-color\:main-2::before {
+			color: var(--color-main-2);
+		}
+
+		&.icon-color\:main-3::before {
+			color: var(--color-main-3);
+		}
+
+		&.icon-color\:sub-1::before {
+			color: var(--color-sub-1);
+		}
+
+		&.icon-color\:sub-2::before {
+			color: var(--color-sub-2);
+		}
+
+		&.icon-color\:sub-3::before {
+			color: var(--color-sub-3);
+		}
+
+		&.icon-color\:accent-1::before {
+			color: var(--color-accent-1);
+		}
+
+		&.icon-color\:accent-2::before {
+			color: var(--color-accent-2);
+		}
+
+		&.icon-color\:accent-3::before {
+			color: var(--color-accent-3);
+		}
+
+		&.icon-color\:base-1::before {
+			color: var(--color-base-1);
+		}
+
+		&.icon-color\:base-2::before {
+			color: var(--color-base-2);
+		}
+
+		&.icon-color\:base-3::before {
+			color: var(--color-base-3);
+		}
+
+		&.icon-color\:base-4::before {
+			color: var(--color-base-4);
+		}
+
+		&.icon-color\:base-5::before {
+			color: var(--color-base-5);
+		}
+
+		&.icon-color\:base-6::before {
+			color: var(--color-base-6);
+		}
+
+		&.icon-color\:base-7::before {
+			color: var(--color-base-7);
+		}
+
+		&.icon-color\:base-8::before {
+			color: var(--color-base-8);
+		}
+
+		&.icon-color\:base-9::before {
+			color: var(--color-base-9);
+		}
+
+		&.icon-color\:base-10::before {
+			color: var(--color-base-10);
+		}
+
+		/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:xs::before {
+			font-size: var(--font-size-xs);
+		}
+
+		&.icon-size\:sm::before {
+			font-size: var(--font-size-sm);
+		}
+
+		&.icon-size\:base::before {
+			font-size: var(--font-size-base);
+		}
+
+		&.icon-size\:lg::before {
+			font-size: var(--font-size-lg);
+		}
+
+		&.icon-size\:xl::before {
+			font-size: var(--font-size-xl);
+		}
+
+		&.icon-size\:2xl::before {
+			font-size: var(--font-size-2xl);
+		}
+
+		&.icon-size\:3xl::before {
+			font-size: var(--font-size-3xl);
+		}
+
+		&.icon-size\:4xl::before {
+			font-size: var(--font-size-4xl);
+		}
+
 	}
 
-	/* ---- icon-size (numeric) -------------------------------------- */
-	.lg\:icon-size\:1 { --icon-size: var(--size-1); }
-	.lg\:icon-size\:2 { --icon-size: var(--size-2); }
-	.lg\:icon-size\:3 { --icon-size: var(--size-3); }
-	.lg\:icon-size\:4 { --icon-size: var(--size-4); }
-	.lg\:icon-size\:5 { --icon-size: var(--size-5); }
-	.lg\:icon-size\:6 { --icon-size: var(--size-6); }
-	.lg\:icon-size\:7 { --icon-size: var(--size-7); }
-	.lg\:icon-size\:8 { --icon-size: var(--size-8); }
-	.lg\:icon-size\:9 { --icon-size: var(--size-9); }
-	.lg\:icon-size\:10 { --icon-size: var(--size-10); }
-	.lg\:icon-size\:11 { --icon-size: var(--size-11); }
-	.lg\:icon-size\:12 { --icon-size: var(--size-12); }
-	.lg\:icon-size\:13 { --icon-size: var(--size-13); }
-
-	.lg\:n-icon::before {
-		/*icon 스타일*/
-
-		font-family: "Material Symbols Outlined";
-		font-size: var(--icon-size);
-	}
-
-	/* === color ======================================= */
-	/*
-  main 1/2/3
-  sub 1/2/3
-  accent 1/2/3
-  base 1/2/3/4/5/6/7/8/9/10*/
-
-	.lg\:icon-color\:main-1::before {
-		color: var(--color-main-1);
-	}
-
-	.lg\:icon-color\:main-2::before {
-		color: var(--color-main-2);
-	}
-
-	.lg\:icon-color\:main-3::before {
-		color: var(--color-main-3);
-	}
-
-	.lg\:icon-color\:sub-1::before {
-		color: var(--color-sub-1);
-	}
-
-	.lg\:icon-color\:sub-2::before {
-		color: var(--color-sub-2);
-	}
-
-	.lg\:icon-color\:sub-3::before {
-		color: var(--color-sub-3);
-	}
-
-	.lg\:icon-color\:accent-1::before {
-		color: var(--color-accent-1);
-	}
-
-	.lg\:icon-color\:accent-2::before {
-		color: var(--color-accent-2);
-	}
-
-	.lg\:icon-color\:accent-3::before {
-		color: var(--color-accent-3);
-	}
-
-	.lg\:icon-color\:base-1::before {
-		color: var(--color-base-1);
-	}
-
-	.lg\:icon-color\:base-2::before {
-		color: var(--color-base-2);
-	}
-
-	.lg\:icon-color\:base-3::before {
-		color: var(--color-base-3);
-	}
-
-	.lg\:icon-color\:base-4::before {
-		color: var(--color-base-4);
-	}
-
-	.lg\:icon-color\:base-5::before {
-		color: var(--color-base-5);
-	}
-
-	.lg\:icon-color\:base-6::before {
-		color: var(--color-base-6);
-	}
-
-	.lg\:icon-color\:base-7::before {
-		color: var(--color-base-7);
-	}
-
-	.lg\:icon-color\:base-8::before {
-		color: var(--color-base-8);
-	}
-
-	.lg\:icon-color\:base-9::before {
-		color: var(--color-base-9);
-	}
-
-	.lg\:icon-color\:base-10::before {
-		color: var(--color-base-10);
-	}
-
-	/* ---- icon-size ------------------------------------------------- */
-	.lg\:icon-size\:xs::before {
-		font-size: var(--font-size-xs);
-	}
-
-	.lg\:icon-size\:sm::before {
-		font-size: var(--font-size-sm);
-	}
-
-	.lg\:icon-size\:base::before {
-		font-size: var(--font-size-base);
-	}
-
-	.lg\:icon-size\:lg::before {
-		font-size: var(--font-size-lg);
-	}
-
-	.lg\:icon-size\:xl::before {
-		font-size: var(--font-size-xl);
-	}
-
-	.lg\:icon-size\:2xl::before {
-		font-size: var(--font-size-2xl);
-	}
-
-	.lg\:icon-size\:3xl::before {
-		font-size: var(--font-size-3xl);
-	}
-
-	.lg\:icon-size\:4xl::before {
-		font-size: var(--font-size-4xl);
-	}
 }
 
 @media (min-width: 1280px) {
