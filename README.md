@@ -89,7 +89,7 @@ npm install newtil-css
       <h1>My App</h1>
     </header>
     <main>
-      <section class="n-section section-type:card">
+      <section class="n-section section:card">
         <h1>Welcome</h1>
         <p>Newtil CSS로 빠르게 시작하세요!</p>
       </section>
@@ -115,16 +115,16 @@ npm install newtil-css
 
 ### Section
 ```html
-<section class="n-section section-type:card">
+<section class="n-section section:card">
   <h1>제목</h1>
   <div>내용</div>
 </section>
 ```
 
 **Section Types:**
-- `section-type:card` - 경계선이 있는 카드 스타일
-- `section-type:glass` - Glassmorphism 효과
-- `section-type:elevated` - 그림자 효과
+- `section:card` - 경계선이 있는 카드 스타일
+- `section:glass` - Glassmorphism 효과
+- `section:elevated` - 그림자 효과
 
 ### List
 ```html

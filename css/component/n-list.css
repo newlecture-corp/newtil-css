@@ -33,15 +33,28 @@
 	/* 한 곳에서 gap 정의 */
 	--gap: var(--space-2);
 	--sp-color: var(--color-base-5);
-	--bg-color-hover: rgba(var(--rgb-base-3), 0.7);
+	--sp-bg-image: none;
+	--sp-dot-bg-size: 3px 4px;
+	--sp-dot-width: 3px;
+
+	--icon-color-active: var(--color-main-2);
+	--icon-color-hover: var(--color-base-3);
+	--bar-color-active: var(--color-main-2);
+	--bar-color-hover: var(--color-base-3);
+
+	--bg-color-hover: rgba(var(--rgb-base-2), 0.3);
 	--text-color-active: var(--color-base-1);
 	/* 다크모드 변수 재정의 (prefer dark theme) */
 }
 
 @media (prefers-color-scheme: dark) {
 	.n-list {	
-		--color-separator: var(--color-base-7, #333a44);
-		--bg-color-hover: rgba(var(--rgb-base-8), 0.7);
+		--sp-color: var(--color-base-7, #333a44);
+		--icon-color-active: var(--color-main-2);
+		--icon-color-hover: var(--color-base-3);
+		--bar-color-active: var(--color-main-2);
+		--bar-color-hover: var(--color-base-3);
+		--bg-color-hover: rgba(var(--rgb-base-8), 0.3);
 		--text-color-active: var(--color-base-2);
 	}
 }
@@ -119,7 +132,7 @@
 		top: 25%;
 		bottom: 25%;
 		width: 1px;
-		background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
+		background-image: var(--sp-bg-image);
 		background-size: 1px 4px;
 		background-repeat: repeat-y;
 		pointer-events: none;
@@ -141,38 +154,37 @@
 
 	&.list-sep\:solid,
 	&.list-seperator\:solid {
-		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--color-separator) 100%, transparent 100%);
-			
+		&>*+*::before {			
+			--sp-bg-image: linear-gradient(to bottom, var(--sp-color) 100%, transparent 100%);
 		}
 	}
 
 	&.list-sep\:dotted,
 	&.list-seperator\:dotted {
 		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
+			--sp-bg-image: linear-gradient(to bottom, var(--sp-color) 50%, transparent 50%);
 		}
 	}
 
 	&.list-sep\:dot,
 	&.list-seperator\:dot {
 		&>*+*::before {
-			background-image: radial-gradient(circle, var(--color-separator) 1.5px, transparent 1.6px);
-			background-size: 3px 9px;
+			--sp-bg-image: radial-gradient(circle, var(--sp-color) 1.5px, transparent 1.6px);
+			background-size: var(--sp-dot-bg-size);
 			background-repeat: no-repeat;
 
 			top: 45%;
 			bottom: 45%;
-			width: 3px;
-			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
-			background-size: 3px 4px;
+			width: var(--sp-dot-width);
+			background-image: linear-gradient(to bottom, var(--sp-color) 50%, transparent 50%);
+			background-size: var(--sp-dot-bg-size);
 		}
 	}
 
 	&.list-sep\:dashed,
 	&.list-seperator\:dashed {
 		&>*+*::before {
-			background-image: linear-gradient(to bottom, var(--color-separator) 50%, transparent 50%);
+			background-image: linear-gradient(to bottom, var(--sp-color) 50%, transparent 50%);
 		}
 	}	
 
@@ -205,7 +217,7 @@
 	}
 	&.list-fit\:noshrink>*,
 	&.list-fit\:content>* {
-		flex: 0 0 auto;		
+		flex: 0 0 auto;
 	}
 
 	&.list-fit\:wrap>* {
@@ -233,9 +245,9 @@
 	list-active:aside-menu, bar, color
 	*/
 	
-	&.list-active,
-	&.list-active\:bar,
-	&.list-active\:color {
+	&.active,
+	&.active\:bar,
+	&.active\:color {
 
 		&>*{
 			cursor: pointer;
@@ -253,7 +265,7 @@
 		}
 	}
 
-	&.list-active\:bar {
+	&.active\:bar {
 		&>*{	
 
 			&.active {
@@ -261,7 +273,7 @@
 				color: var(--text-color-active);				
 
 				& .n-icon{								
-					color: var(--icon-color-active);
+					color: var(--icon-color-active);					
 				}				
 			}
 
@@ -273,17 +285,6 @@
 					color: var(--icon-color-hover);
 				}
 			}
-			
-			&.active::after {
-				content: "";
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				height: 3px;
-				background-color: var(--bg-color-active);				
-				opacity: 1;
-			}
 
 			&:hover::after {
 				content: "";
@@ -292,9 +293,20 @@
 				left: 0;
 				right: 0;
 				height: 3px;
-				background-color: var(--bg-color-hover);
+				background-color: var(--bar-color-hover);
 				opacity: 1;
 			}
+			
+			&.active::after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 3px;
+				background-color: var(--bar-color-active);				
+				opacity: 1;
+			}			
 
 			&:not(.active):not(:hover)::after {
 				opacity: 0;
@@ -353,7 +365,7 @@
 				right: 0;
 				height: 1px;
 				width: auto;
-				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--sp-color) 50%, transparent 50%);
 				background-size: 4px 1px;
 				background-repeat: repeat-x;
 				pointer-events: none;
@@ -370,7 +382,7 @@
 		&.list-sep\:solid,
 		&.list-seperator\:solid {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--color-separator) 100%, transparent 100%);
+				background-image: linear-gradient(to right, var(--sp-color) 100%, transparent 100%);
 				background-size: 100% 1px;
 			}
 		}
@@ -378,7 +390,7 @@
 		&.list-sep\:dotted,
 		&.list-seperator\:dotted {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--sp-color) 50%, transparent 50%);
 				background-size: 4px 1px;
 			}
 		}
@@ -386,7 +398,7 @@
 		&.list-sep\:dashed,
 		&.list-seperator\:dashed {
 			&>*+*::before {
-				background-image: linear-gradient(to right, var(--color-separator) 50%, transparent 50%);
+				background-image: linear-gradient(to right, var(--sp-color) 50%, transparent 50%);
 				background-size: 8px 1px;
 			}
 		}
