@@ -372,7 +372,11 @@ body:has(.n-layout) {
 
 	.n-layout:has(> aside, > .n-aside).layout-aside-pos\:right {
 		&.layout-aside-width\:responsive {
-			
+			grid-template-columns: 1fr min-content;
+			grid-template-areas:
+				"header header"
+				"main aside"
+				"footer footer";
 		}
 	}
 }

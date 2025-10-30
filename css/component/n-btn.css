@@ -46,16 +46,16 @@
 
 	--bd-radius: 6px;
 	--bd-color: var(--color-base-4);
-	--bd-color-hover: var(--color-base-6);
+	--bd-color-hover: var(--color-base-8);
 	--bd-color-active: var(--color-main-2);
 
-	--bg-color: rgba(var(--rgb-base-2), 0.2);
+	--bg-color: var(--color-base-3);
 	--bg-color-hover: transparent;
 	--bg-color-active: rgba(var(--rgb-main-2), 0.7);
 
-	--text-color: var(--color-base-6);
+	--text-color: var(--color-base-8);
 	--text-color-hover: var(--color-base-7);
-	--text-color-active: var(--color-base-1);
+	--text-color-active: var(--color-accent-2);
 	--text-indent: -999px;
 
 }
@@ -69,12 +69,12 @@
 		--bd-color-active: var(--color-base-9);
 		
 
-		--bg-color: rgba(var(--rgb-base-7), 0.7);
+		--bg-color: var(--color-base-7);
 		--bg-color-hover: transparent;
 		--bg-color-active: rgba(var(--rgb-main-1), 0.7);
 		--text-color: var(--color-base-2);		
 		--text-color-hover: var(--color-base-2);
-		--text-color-active: var(--color-base-1);	
+		--text-color-active: var(--color-accent-1);	
 	}
 }
 
@@ -122,6 +122,7 @@
 	&:hover {		
 		background-color: var(--bg-color-hover);
 		color: var(--text-color-hover);
+		border-color: var(--bd-color-hover);
 		text-decoration: none;
 
 		transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
@@ -162,12 +163,24 @@
 		--bd-radius: 50%;
 	}
 
-	&.btn\:badge {	
+	&.btn\:badge {
 		--font-size: var(--size-5);
 		--bd-radius: 0.6em;		
-		--padding: 0.2em 0.4em;
-		
+		--padding: 0.2em 0.4em;		
 	}
+	
+	&.disabled {
+		--text-color: var(--color-base-1);
+		--text-color-hover: var(--color-base-5);
+		--text-color-active: var(--color-base-5);
+		--bd-color: var(--color-base-5);
+		--bd-color-hover: var(--color-base-5);
+		--bd-color-active: var(--color-base-5);
+		--bg-color: var(--color-base-4);
+		--bg-color-hover: var(--color-base-3);
+		--bg-color-active: var(--color-base-3);
+	}
+
 
 	&.btn-size\:1 {	
 		--font-size: var(--size-6);
