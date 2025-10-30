@@ -43,7 +43,7 @@
 	--bar-color-hover: var(--color-base-3);
 
 	--bg-color-hover: rgba(var(--rgb-base-2), 0.3);
-	--text-color-active: var(--color-base-1);
+	--text-color-active: inherit;
 	/* 다크모드 변수 재정의 (prefer dark theme) */
 }
 
@@ -55,7 +55,7 @@
 		--bar-color-active: var(--color-main-2);
 		--bar-color-hover: var(--color-base-3);
 		--bg-color-hover: rgba(var(--rgb-base-8), 0.3);
-		--text-color-active: var(--color-base-2);
+		--text-color-active: inherit;
 	}
 }
 
@@ -270,10 +270,10 @@
 
 			&.active {
 				background-color: transparent;
-				color: var(--text-color-active);				
+				color: var(--text-color-active);			
 
 				& .n-icon{								
-					color: var(--icon-color-active);					
+					color: var(--icon-color-active);
 				}				
 			}
 

@@ -55,7 +55,7 @@
 
 	--text-color: var(--color-base-8);
 	--text-color-hover: var(--color-base-7);
-	--text-color-active: var(--color-base-1);
+	--text-color-active: var(--color-accent-2);
 	--text-indent: -999px;
 
 }
@@ -74,7 +74,7 @@
 		--bg-color-active: rgba(var(--rgb-main-1), 0.7);
 		--text-color: var(--color-base-2);		
 		--text-color-hover: var(--color-base-2);
-		--text-color-active: var(--color-base-1);	
+		--text-color-active: var(--color-accent-1);	
 	}
 }
 
@@ -163,12 +163,24 @@
 		--bd-radius: 50%;
 	}
 
-	&.btn\:badge {	
+	&.btn\:badge {
 		--font-size: var(--size-5);
 		--bd-radius: 0.6em;		
-		--padding: 0.2em 0.4em;
-		
+		--padding: 0.2em 0.4em;		
 	}
+	
+	&.disabled {
+		--text-color: var(--color-base-1);
+		--text-color-hover: var(--color-base-5);
+		--text-color-active: var(--color-base-5);
+		--bd-color: var(--color-base-5);
+		--bd-color-hover: var(--color-base-5);
+		--bd-color-active: var(--color-base-5);
+		--bg-color: var(--color-base-4);
+		--bg-color-hover: var(--color-base-3);
+		--bg-color-active: var(--color-base-3);
+	}
+
 
 	&.btn-size\:1 {	
 		--font-size: var(--size-6);
