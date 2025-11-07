@@ -4,7 +4,7 @@ import ModalDomExample from "./demo/ModalDomExample.vue";
 
 # 모달 (Modal)
 
-모달 컴포넌트는 사용자에게 중요한 정보를 표시하거나 사용자 입력을 요구할 때 사용하는 컴포넌트입니다.
+해당 컴포넌트 문서는 준비 중입니다.
 
 <QuickLinks :componentName="'Modal'"/>
 
