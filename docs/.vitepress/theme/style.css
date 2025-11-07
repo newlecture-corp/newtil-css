@@ -49,13 +49,11 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  /* --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3); */
-  --vp-c-brand-1: #8cba35;
-  --vp-c-brand-2: #7ba52b;
-  --vp-c-brand-3: #688f1f;
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  /* Modern Indigo/Violet theme - 세련되고 전문적인 색감 */
+  --vp-c-brand-1: #6366f1;  /* Indigo-500 - 링크, 텍스트 */
+  --vp-c-brand-2: #818cf8;  /* Indigo-400 - hover 상태 */
+  --vp-c-brand-3: #4f46e5;  /* Indigo-600 - 버튼 배경 */
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);  /* 부드러운 Indigo 배경 */
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -72,8 +70,12 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 
-  --vp-code-color: var(--vp-c-brand-2);
-  --vp-code-bg: rgba(142, 150, 170, 0.1);
+  --vp-code-color: #6366f1;
+  --vp-code-bg: rgba(99, 102, 241, 0.08);
+  
+  /* 코드 블록 스타일 */
+  --vp-code-block-bg: #f8f9fa;
+  --vp-code-block-border: rgba(60, 60, 67, 0.12);
 }
 
 /**
@@ -99,14 +101,15 @@
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
-    60deg,
-    #8cba35 40%,
-    #144EED
+    120deg,
+    #6366f1 0%,
+    #8b5cf6 50%,
+    #a855f7 100%
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #144eedc0 50%,
-    #8bba35c0 50%
+    rgba(99, 102, 241, 0.8) 50%,
+    rgba(139, 92, 246, 0.8) 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -145,12 +148,83 @@
 /**
  * Component: Table
  * -------------------------------------------------------------------------- */
+.vp-doc table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* 라이트 모드 - 표 스타일 */
 .vp-doc tr:nth-child(2n) {
-  background-color: var(--vp-c-bg);
+  background-color: #fafafa !important;
 }
 
 .vp-doc td:last-child {
   width: 100%;
+}
+
+/* 표 테두리 스타일 - 라이트 모드 */
+.vp-doc table th,
+.vp-doc table td {
+  border: 1px solid rgba(60, 60, 67, 0.12) !important;
+  padding: 12px 16px !important;
+}
+
+.vp-doc table td {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+.vp-doc table tr:nth-child(2n) td {
+  background-color: #fafafa !important;
+}
+
+/* 라이트 모드에서 첫 번째 행 (헤더) 강제 스타일 */
+.vp-doc table thead th,
+.vp-doc table tr:first-child th,
+.vp-doc table thead tr th,
+.vp-doc table tbody tr:first-child th {
+  background-color: #f5f5f7 !important;
+  color: #1f2937 !important;
+}
+
+/* 모든 th 요소 강제 오버라이드 */
+.vp-doc table th {
+  background-color: #f5f5f7 !important;
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+}
+
+/* 다크 모드에서 표 스타일 */
+.dark .vp-doc tr:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark .vp-doc table th,
+.dark .vp-doc table td {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .vp-doc table th {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  font-weight: 600 !important;
+}
+
+.dark .vp-doc table td {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dark .vp-doc table tr:nth-child(2n) td {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* 다크 모드에서 첫 번째 행 (헤더) 강제 스타일 */
+.dark .vp-doc table thead th,
+.dark .vp-doc table tr:first-child th {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
 }
 
 /**
@@ -171,7 +245,7 @@ th {
  * </td>
  */
 .code {
-  color: #005cc5;
+  color: #6366f1;
   white-space: nowrap;
 }
 
@@ -210,4 +284,160 @@ code, td:last-child {
 
 .shell{
   z-index: var(--z-index-4);
+}
+
+/**
+ * Layout Fixes - 배경 색상, 헤더, 콘텐츠 영역 스타일 수정
+ * -------------------------------------------------------------------------- */
+
+/* 배경 색상 통일 - 흰색으로 설정 */
+body {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+/* VitePress의 메인 콘텐츠 영역 배경 */
+.VPContent,
+.vp-doc,
+main {
+  background-color: #ffffff !important;
+}
+
+/* 헤더 영역 스타일 수정 */
+.VPNavBar,
+.VPNavBar .container {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(60, 60, 67, 0.12) !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+/* 헤더 오른쪽 상단 모서리 처리 */
+.VPNavBar .container {
+  border-top-right-radius: 0 !important;
+}
+
+/* 사이드바 배경 */
+.VPSidebar {
+  background-color: #ffffff !important;
+}
+
+/* 콘텐츠 영역 하단 오버플로우 처리 */
+.VPContent {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+/* 메인 콘텐츠 래퍼 */
+.vp-doc {
+  padding: 24px 32px !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Footer 영역 */
+.VPFooter {
+  background-color: #ffffff !important;
+  border-top: 1px solid rgba(60, 60, 67, 0.12) !important;
+  overflow: hidden !important;
+}
+
+/* Pager (이전/다음 페이지) 스타일 */
+.vp-doc .vp-pager {
+  border-top: 1px solid rgba(60, 60, 67, 0.12) !important;
+  padding-top: 24px !important;
+  margin-top: 48px !important;
+  overflow: visible !important;
+}
+
+/**
+ * Dark Mode Styles - 다크 모드 지원
+ * -------------------------------------------------------------------------- */
+
+.dark {
+  /* 배경 색상 - 다크 모드 */
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #161618;
+  --vp-c-bg-soft: #242424;
+  
+  /* 텍스트 색상 - 다크 모드 */
+  --vp-c-text-1: rgba(255, 255, 255, 0.87);
+  --vp-c-text-2: rgba(255, 255, 255, 0.70);
+  --vp-c-text-3: rgba(255, 255, 255, 0.55);
+  
+  /* Border 색상 - 다크 모드 */
+  --vp-c-divider: rgba(255, 255, 255, 0.12);
+  --vp-c-gutter: rgba(255, 255, 255, 0.12);
+}
+
+.dark body {
+  background-color: #1a1a1a !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dark .VPContent,
+.dark .vp-doc,
+.dark main {
+  background-color: #1a1a1a !important;
+}
+
+.dark .VPNavBar,
+.dark .VPNavBar .container {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .VPSidebar {
+  background-color: #161618 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .VPFooter {
+  background-color: #1a1a1a !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .vp-doc .vp-pager {
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+/* 코드 블록 전체 스타일 개선 */
+.vp-doc pre {
+  background-color: #f8f9fa !important;
+  border: 1px solid rgba(60, 60, 67, 0.12) !important;
+}
+
+.vp-doc code:not(pre code) {
+  background-color: rgba(99, 102, 241, 0.1) !important;
+  color: #6366f1 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+/* 다크 모드에서 코드 블록 스타일 */
+.dark .vp-doc pre {
+  background-color: #1e1e1e !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark code:not(pre code) {
+  background-color: rgba(99, 102, 241, 0.15) !important;
+  color: #a78bfa !important;
+}
+
+.dark .code {
+  color: #a78bfa !important;
+}
+
+.dark pre code {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* 다크 모드에서 링크 색상 */
+.dark a {
+  color: #818cf8 !important;
+}
+
+.dark a:hover {
+  color: #a78bfa !important;
 }

@@ -3,585 +3,384 @@
 
 # 버튼 (Button)
 
-버튼 컴포넌트는 사용자와의 상호작용을 위한 컴포넌트입니다. 주로 사용자의 액션을 나타낼 때 사용됩니다.
+`n-btn` 컴포넌트는 프로젝트 전역에서 일관된 버튼 UI를 제공하기 위한 기본 컴포넌트입니다. 아래 예제들은 `test/components/btn.html` 데모 페이지와 동일한 구성요소를 문서화한 것입니다.
 
-<QuickLinks :componentName="'Button'"/>
+## 1. 버튼 타입
 
-## Overview
-
-### Type {#overview-type}
-
-`filled`, `outline-box`, `void` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
-
-<div class="n-item d:flex jc:center gap:2 mt:4">
-  <button class="n-btn">Button</button>
-  <button class="n-btn n-btn:outline-box">Button</button>
-  <button class="n-btn n-btn:void">Button</button>
-</div>
-
-### Size {#overview-size}
-
-`small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
-
-<div class="n-item d:flex jc:center gap:2 ai:end mt:4">
-  <button type="button" class="n-btn n-btn-size:1">Button</button>
-  <button type="button" class="n-btn n-btn-size:2">Button</button>
-  <button type="button" class="n-btn n-btn-size:3">Button</button>
-</div>
-
-### Color {#overview-color}
-
-`main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#color)를 클릭하세요.
-
-<div class="n-item d:flex jc:center gap:2 mt:4">
-  <button type="button" class="n-btn n-btn-color:main">Button</button>
-  <button type="button" class="n-btn n-btn-color:sub">Button</button>
-  <button type="button" class="n-btn n-btn-color:accent">Button</button>
-  <button type="button" class="n-btn n-btn-color:base">Button</button>
-</div>
-
-### Status
-
-`disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
-
-<div class="n-item d:flex jc:center gap:2 mt:4">
-  <button type="button" class="n-btn" disabled>Button</button>
-</div>
-
-## Usage
-
-버튼 컴포넌트는 요소에 `n-btn` 클래스를 적용하여 사용할 수 있습니다.
-
-<ExampleSection>
-  <button type="button" class="n-btn">Button</button>
-</ExampleSection>
-
-```html
-<button type="button" class="n-btn">Button</button>
-```
-
-## Type
-
-`n-btn-type:타입` 또는 `n-btn:타입` 약어 클래스를 통해 다양한 버튼 타입을 적용할 수 있습니다.
-
-<ExampleSection>
-  <template #h>버튼 타입</template>
-  <div class="d:flex gap:2 jc:center">
-    <button class="n-btn">filled</button>
-    <button class="n-btn n-btn:outline-box">outline</button>
-    <button class="n-btn n-btn:void">void</button>
+<div class="vp-doc">
+  <div class="d:flex gap:2 jc:flex-start wrap">
+    <button class="n-btn btn:elevated">Elevated</button>
+    <button class="n-btn btn:filled">Filled (Default)</button>
+    <button class="n-btn btn:tonal">Tonal</button>
+    <button class="n-btn btn:outlined">Outlined</button>
+    <button class="n-btn btn:text">Text</button>
   </div>
-</ExampleSection>
+</div>
 
 ```html
-<button type="button" class="n-btn n-btn-type:filled">filled</button>
-<button type="button" class="n-btn n-btn-type:outline">outline</button>
-<button type="button" class="n-btn n-btn-type:void">void</button>
+<!-- Elevated 버튼 -->
+<button class="n-btn btn:elevated">Elevated</button>
+
+<!-- Filled 버튼 -->
+<button class="n-btn btn:filled">Filled</button>
+
+<!-- Tonal 버튼 -->
+<button class="n-btn btn:tonal">Tonal</button>
+
+<!-- Outlined 버튼 -->
+<button class="n-btn btn:outlined">Outlined</button>
+
+<!-- Text 버튼 -->
+<button class="n-btn btn:text">Text</button>
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th scope="col">타입</th>
-      <th scope="col">클래스</th>
-      <th scope="col">약어 클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>filled</th>
-      <td>
-        <code>n-btn-type:filled</code>
-      </td>
-      <td>
-        <code>n-btn:filled</code>
-      </td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-filled-background-color-default: var(--color-main-2); <br/>
-            --btn-filled-background-color-hover: var(--color-main-1);
-            <br/>
-            --btn-filled-background-color-active: var(--color-main-3);
-            <br/>
-            --btn-filled-border: 1px solid transparent;
-            <br/>
-            --btn-filled-color: var(--color-base-1); <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>outline-box</th>
-      <td>
-        <code>n-btn-type:outline-box</code> <br/>
-        <code>n-btn-type:outline</code>
-      </td>
-      <td>
-        <code>n-btn:outline-box</code> <br/>
-        <code>n-btn:outline</code> <br/>
-      </td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-outline-background-color-default: var(--color-base-1);
-            <br/>
-            --btn-outline-background-color-hover: rgba(var(--rgb-base-10), 0.05);
-            <br/>
-            --btn-outline-background-color-active: rgba(var(--rgb-base-10), 0.07);
-            <br/>
-            --btn-outline-border: 1px solid var(--color-base-3);
-            <br/>
-            --btn-outline-color: inherit;
-            <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>void</th>
-      <td>
-        <code>n-btn-type:void</code>
-      </td>
-      <td>
-        <code>n-btn:void</code>
-      </td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-void-background-color-default: transparent;
-            <br/>
-            --btn-void-background-color-hover: rgba(var(--rgb-base-10), 0.05);
-            <br/>
-            --btn-void-background-color-active: rgba(var(--rgb-base-10), 0.07);
-            <br/>
-            --btn-void-border: 1px solid transparent;
-            <br/>
-          }
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+## 2. 색상 옵션
 
-## Size
+`btn-color:*` 클래스를 통해 프로젝트에서 정의한 팔레트를 손쉽게 재사용할 수 있습니다.
 
-`n-btn-size:사이즈` 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
-
-<ExampleSection>
-  <template #h>버튼 사이즈</template>
-  <div class="d:flex gap:2 jc:center ai:end">
-    <button class="n-btn n-btn-size:1">Button</button>
-    <button class="n-btn n-btn-size:2">Button</button>
-    <button class="n-btn n-btn-size:3">Button</button>
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn">Default</button>
+    <button class="n-btn btn-color:main-1">main-1</button>
+    <button class="n-btn btn-color:sub-1">sub-1</button>
+    <button class="n-btn btn-color:accent-1">accent-1</button>
   </div>
-</ExampleSection>
+</div>
 
 ```html
-<button type="button" class="n-btn n-btn-size:1">Button</button>
-<button type="button" class="n-btn n-btn-size:2">Button</button>
-<button type="button" class="n-btn n-btn-size:3">Button</button>
+<!-- 색상 옵션 적용 -->
+<button class="n-btn">기본 버튼</button>
+<button class="n-btn btn-color:main-1">main-1</button>
+<button class="n-btn btn-color:sub-1">sub-1</button>
+<button class="n-btn btn-color:accent-1">accent-1</button>
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th scope="col">사이즈</th>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td><code>n-btn-size:1</code></td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-height-1: 28px; <br/>
-            --btn-padding-1: 4px 12px; <br/>
-            --btn-font-size-1: 14px; <br/>
-            --btn-border-radius-1: 8px; <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td><code>n-btn-size:2</code></td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-height-2: 36px; <br/>
-            --btn-padding-2: 4px 16px; <br/>
-            --btn-font-size-2: 14px; <br/>
-            --btn-border-radius-2: 8px; <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td><code>n-btn-size:3</code></td>
-      <td>
-        <span class="code">
-          .n-btn { <br/> 
-            --btn-height-3: 44px; <br/>
-            --btn-padding-3: 4px 20px; <br/>
-            --btn-font-size-3: 16px; <br/>
-            --btn-border-radius-3: 8px; <br/>
-          }
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+### 팔레트 요약
 
-## Color
+| 계열 | 클래스 | 설명 |
+| :--- | :--- | :--- |
+| Main | `btn-color:main-1`, `main-2`, `main-3` | 브랜드 기본 색상 |
+| Sub  | `btn-color:sub-1`, `sub-2`, `sub-3` | 보조 색상 |
+| Accent | `btn-color:accent-1`, `accent-2`, `accent-3` | 강조 색상 |
 
-`n-btn-color:색상` 클래스를 통해 버튼의 색을 변경할 수 있습니다.
+## 3. 색상 커스터마이징
 
-:::raw
-<ExampleSection>
-
-  <ul class="d:flex gap:4">
-    <li>
-      <button type="button" class="n-btn n-btn-color:main" style="width: 70px;">
-        main
-      </button>
-    </li>
-    <li>
-      <button type="button" class="n-btn n-btn-color:sub" style="width: 70px;">
-        sub
-      </button>
-    </li>
-    <li>
-      <button type="button" class="n-btn n-btn-color:accent" style="width: 70px;">
-        accent
-      </button>
-    </li>
-    <li>
-      <button type="button" class="n-btn n-btn-color:base" style="width: 70px;">
-        base
-      </button>
-    </li>
-  </ul>
-</ExampleSection>
-:::
-
-```html
-<button type="button" class="n-btn n-btn-color:main">main</button>
-<button type="button" class="n-btn n-btn-color:sub">sub</button>
-<button type="button" class="n-btn n-btn-color:accent">accent</button>
-<button type="button" class="n-btn n-btn-color:base">base</button>
-```
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">색상</th>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>main</th>
-      <td><code>n-btn-color:main</code></td>
-      <td>
-        <span class="blank">
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>sub</th>
-      <td><code>n-btn-color:sub</code></td>
-      <td>
-        <span class="code">
-          .n-btn {
-              <br/>
-              --btn-background-color-sub-default: var(--color-sub-2);
-              <br/>
-              --btn-background-color-sub-hover: var(--color-sub-2);
-              <br/>
-              --btn-border-sub-default: 1px solid var(--color-sub-1);
-              <br/>
-              --btn-border-sub-hover: 1px solid var(--color-sub-1);
-              <br/>
-              --btn-color-sub: var(--color-base-1);
-              <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>accent</th>
-      <td><code>n-btn-color:accent</code></td>
-      <td>
-        <span class="code">
-          .n-btn {
-              <br/>
-              --btn-background-color-accent-default: var(--color-accent-2);
-              <br/>
-              --btn-background-color-accent-hover: var(--color-accent-2);
-              <br/>
-              --btn-border-accent-default: 1px solid var(--color-accent-1);
-              <br/>
-              --btn-border-accent-hover: 1px solid var(--color-accent-1);
-              <br/>
-              --btn-color-accent: var(--color-base-1);
-              <br/>
-          }
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <th>base</th>
-      <td><code>n-btn-color:base</code></td>
-      <td>
-        <span class="code">
-          .n-btn {
-              <br/>
-              --btn-background-color-base-default: var(--color-base-9);
-              <br/>
-              --btn-background-color-base-hover: var(--color-base-9);
-              <br/>
-              --btn-border-base-default: 1px solid var(--color-base-8);
-              <br/>
-              --btn-border-base-hover: 1px solid var(--color-base-8);
-              <br/>
-              --btn-color-base: var(--color-base-1);
-              <br/>
-          }
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## Disabled {#disabled}
-
-`disabled` 속성을 추가하거나 클래스에 `disabled`를 추가하여 버튼 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
-
-:::raw
-<ExampleSection>
-
-  <ul class="d:flex gap:4">
-    <li>
-      <button type="button" class="n-btn" disabled>filled</button>
-    </li>
-    <li>
-      <button type="button" class="n-btn n-btn:outline disabled">outline</button>
-    </li>
-    <li>
-      <button type="button" class="n-btn n-btn:void" disabled>void</button>
-    </li>
-  </ul>
-</ExampleSection>
-:::
-
-```html
-<button type="button" class="n-btn" disabled>filled</button>
-<button type="button" class="n-btn n-btn:outline disabled">outline</button>
-<button type="button" class="n-btn n-btn:void" disabled>void</button>
-```
-
-## Overriding
-
-버튼 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
+CSS 변수를 재정의하면 커스텀 팔레트를 적용할 수 있습니다.
 
 ```css
-/* button.css */
-.n-btn {
-  /* btn-size:1 */
-  --btn-height-1: 28px;
-  --btn-padding-1: 4px 12px;
-  --btn-font-size-1: 14px;
-  --btn-border-radius-1: 8px;
-
-  /* btn-size:2 */
-  --btn-height-2: 36px;
-  --btn-padding-2: 4px 16px;
-  --btn-font-size-2: 14px;
-  --btn-border-radius-2: 8px;
-
-  /* btn-size:3 */
-  --btn-height-3: 44px;
-  --btn-padding-3: 4px 20px;
-  --btn-font-size-3: 16px;
-  --btn-border-radius-3: 8px;
-
-  /* btn-type:filled */
-  --btn-filled-background-color-default: var(--color-main-2);
-  --btn-filled-background-color-hover: var(--color-main-1);
-  --btn-filled-background-color-active: var(--color-main-3);
-  --btn-filled-border: 1px solid transparent;
-  --btn-filled-color: var(--color-base-1);
-
-  /* btn-type:outline */
-  --btn-outline-background-color-default: var(--color-base-1);
-  --btn-outline-background-color-hover: rgba(var(--rgb-base-10), 0.05);
-  --btn-outline-background-color-active: rgba(var(--rgb-base-10), 0.07);
-  --btn-outline-border: 1px solid var(--color-base-3);
-  --btn-outline-color: inherit;
-
-  /* btn-type:void */
-  --btn-void-background-color-default: transparent;
-  --btn-void-background-color-hover: rgba(var(--rgb-base-10), 0.05);
-  --btn-void-background-color-active: rgba(var(--rgb-base-10), 0.07);
-  --btn-void-border: 1px solid transparent;
-
-  /* btn-color:base */
-  --btn-background-color-base-default: var(--color-base-9);
-  --btn-background-color-base-hover: var(--color-base-9);
-  --btn-border-base-default: 1px solid var(--color-base-8);
-  --btn-border-base-hover: 1px solid var(--color-base-8);
-  --btn-color-base: var(--color-base-1);
-
-  /* btn-color:sub */
-  --btn-background-color-sub-default: var(--color-sub-2);
-  --btn-background-color-sub-hover: var(--color-sub-2);
-  --btn-border-sub-default: 1px solid var(--color-sub-1);
-  --btn-border-sub-hover: 1px solid var(--color-sub-1);
-  --btn-color-sub: var(--color-base-1);
-
-  /* btn-color:accent */
-  --btn-background-color-accent-default: var(--color-accent-2);
-  --btn-background-color-accent-hover: var(--color-accent-2);
-  --btn-border-accent-default: 1px solid var(--color-accent-1);
-  --btn-border-accent-hover: 1px solid var(--color-accent-1);
-  --btn-color-accent: var(--color-base-1);
+:root {
+  --color-main-1: #1976d2;
+  --color-main-2: #1565c0;
+  --color-main-3: #0d47a1;
+  --color-sub-1: #9c27b0;
+  --color-sub-2: #7b1fa2;
+  --color-sub-3: #6a1b9a;
+  --color-accent-1: #ff9800;
+  --color-accent-2: #f57c00;
+  --color-accent-3: #e65100;
 }
 ```
 
-### Example
-
-<ExampleSection class="my:4">
-  <div class="d:flex ai:center gap:2">
-    <button type="button" class="n-btn n-btn:void" style="height:24px; padding: 0 8px; font-size:12px; border-radius:6px;">Button</button>
-    <button type="button" class="n-btn" style="height:32px; padding: 0 12px; font-size:14px; border-radius:6px; background-color:#3182ce; color:#1E293B;">Button</button>
-    <button type="button" class="n-btn n-btn:outline" style="height:40px; padding: 0 16px; font-size:16px; border-radius:6px; border-color:#3182ce; color:#3182ce;">Button</button>
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn-color:main-1">main-1</button>
+    <button class="n-btn btn-color:main-2">main-2</button>
+    <button class="n-btn btn-color:main-3">main-3</button>
+    <button class="n-btn btn-color:sub-1">sub-1</button>
+    <button class="n-btn btn-color:sub-2">sub-2</button>
+    <button class="n-btn btn-color:sub-3">sub-3</button>
+    <button class="n-btn btn-color:accent-1">accent-1</button>
+    <button class="n-btn btn-color:accent-2">accent-2</button>
+    <button class="n-btn btn-color:accent-3">accent-3</button>
   </div>
-</ExampleSection>
-
-```html
-<button type="button" class="n-btn n-btn:void n-btn-size:1">Button</button>
-<button type="button" class="n-btn n-btn:filled n-btn-size:2">Button</button>
-<button type="button" class="n-btn n-btn:outline n-btn-size:3">Button</button>
-```
-
-```css
-/* root.css */
-.n-btn {
-  /* btn-size:1 */
-  --btn-height-1: 24px;
-  --btn-padding-1: 0px 8px;
-  --btn-font-size-1: 12px;
-
-  /* btn-size:2 */
-  --btn-height-2: 32px;
-  --btn-padding-2: 0px 12px;
-  --btn-font-size-2: 14px;
-
-  /* btn-size:2 */
-  --btn-height-3: 40px;
-  --btn-padding-3: 0px 16px;
-  --btn-font-size-3: 16px;
-
-  /* btn-border-radius */
-  --btn-border-radius-1: 6px;
-  --btn-border-radius-2: 6px;
-  --btn-border-radius-3: 6px;
-
-  /* btn-type:filled */
-  --btn-filled-background-color-default: #3182ce;
-  --btn-filled-color: #1e293b;
-
-  /* btn-type:outline */
-  --btn-outline-border: 1px solid #3182ce;
-  --btn-outline-color: #3182ce;
-}
-```
-
-:::tip
-컴포넌트 커스터마이징에 대한 자세한 내용은 [컴포넌트 커스터마이징하기](/guide/getting-started-component#customize-components)에서 확인하실 수 있습니다.
-:::
-
-## Example
-
-<ExampleSection class="mb:4">
-  <div class="d:flex gap:2">
-    <button type="button" class="n-btn n-btn:void">취소</button>
-    <button type="button" class="n-btn">확인</button>
-  </div>
-</ExampleSection>
-
-::: details codes
-
-```html
-<div class="d:flex gap:2">
-  <button type="button" class="n-btn n-btn:void">취소</button>
-  <button type="button" class="n-btn">확인</button>
 </div>
+
+```html
+<button class="n-btn btn-color:main-1">main-1</button>
+<button class="n-btn btn-color:main-2">main-2</button>
+<button class="n-btn btn-color:main-3">main-3</button>
+<button class="n-btn btn-color:sub-1">sub-1</button>
+<button class="n-btn btn-color:sub-2">sub-2</button>
+<button class="n-btn btn-color:sub-3">sub-3</button>
+<button class="n-btn btn-color:accent-1">accent-1</button>
+<button class="n-btn btn-color:accent-2">accent-2</button>
+<button class="n-btn btn-color:accent-3">accent-3</button>
 ```
 
-:::
+## 4. 버튼 모양
 
-<ExampleSection class="mb:4">
-  <div class="d:flex gap:2">
-    <button type="button" class="n-btn n-btn:outline">닫기</button>
-    <button type="button" class="n-btn n-btn-color:accent">삭제</button>
+`btn-shape:*` 클래스로 라운드 값을 손쉽게 변경할 수 있습니다.
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 jc:flex-start wrap">
+    <button class="n-btn btn-shape:round">Round (Default)</button>
+    <button class="n-btn btn-shape:square">Square</button>
+    <button class="n-btn btn-shape:sharp">Sharp</button>
   </div>
-</ExampleSection class="mb:4">
-
-::: details codes
-
-```html
-<div class="d:flex gap:2">
-  <button type="button" class="n-btn n-btn:outline">닫기</button>
-  <button type="button" class="n-btn n-btn-color:accent">삭제</button>
 </div>
-```
-
-:::
-
-<ExampleSection class="mb:4">
-  <button type="button" class="n-btn n-btn:outline px:2">
-    <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">공유</span>
-  </button>
-</ExampleSection>
-
-::: details codes
 
 ```html
-<button type="button" class="n-btn n-btn:outline px:2">
-  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">
-    공유
-  </span>
-</button>
+<button class="n-btn btn-shape:round">Round</button>
+<button class="n-btn btn-shape:square">Square</button>
+<button class="n-btn btn-shape:sharp">Sharp</button>
 ```
 
-:::
+## 5. 버튼 상태
 
-<ExampleSection>
-  <button type="button" class="n-btn n-btn:outline ">
-    <span class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7">삭제</span>
-  </button>
-</ExampleSection>
+상태는 `btn-state:*` 클래스로 제어합니다. 디자인 가이드에 따라 타입별 데모를 제공합니다.
 
-::: details codes
+### Filled 타입 (기본)
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn-state:enabled">Enabled</button>
+    <button class="n-btn btn-state:disabled">Disabled</button>
+    <button class="n-btn btn-state:hover">Hovered</button>
+    <button class="n-btn btn-state:focused">Focused</button>
+    <button class="n-btn btn-state:pressed">Pressed</button>
+  </div>
+</div>
 
 ```html
-<button type="button" class="n-btn n-btn:outline ">
-  <span
-    class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7"
-  >
-    삭제
-  </span>
-</button>
+<button class="n-btn btn-state:enabled">Enabled</button>
+<button class="n-btn btn-state:disabled">Disabled</button>
+<button class="n-btn btn-state:hover">Hovered</button>
+<button class="n-btn btn-state:focused">Focused</button>
+<button class="n-btn btn-state:pressed">Pressed</button>
 ```
 
+### 타입별 상태 예제
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn:tonal btn-state:enabled">Tonal · Enabled</button>
+    <button class="n-btn btn:tonal btn-state:disabled">Tonal · Disabled</button>
+    <button class="n-btn btn:tonal btn-state:hover">Tonal · Hovered</button>
+    <button class="n-btn btn:tonal btn-state:focused">Tonal · Focused</button>
+    <button class="n-btn btn:tonal btn-state:pressed">Tonal · Pressed</button>
+  </div>
+</div>
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn:outlined btn-state:enabled">Outlined · Enabled</button>
+    <button class="n-btn btn:outlined btn-state:disabled">Outlined · Disabled</button>
+    <button class="n-btn btn:outlined btn-state:hover">Outlined · Hovered</button>
+    <button class="n-btn btn:outlined btn-state:focused">Outlined · Focused</button>
+    <button class="n-btn btn:outlined btn-state:pressed">Outlined · Pressed</button>
+  </div>
+</div>
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn:elevated btn-state:enabled">Elevated · Enabled</button>
+    <button class="n-btn btn:elevated btn-state:disabled">Elevated · Disabled</button>
+    <button class="n-btn btn:elevated btn-state:hover">Elevated · Hovered</button>
+    <button class="n-btn btn:elevated btn-state:focused">Elevated · Focused</button>
+    <button class="n-btn btn:elevated btn-state:pressed">Elevated · Pressed</button>
+  </div>
+</div>
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <button class="n-btn btn:text btn-state:enabled">Text · Enabled</button>
+    <button class="n-btn btn:text btn-state:disabled">Text · Disabled</button>
+    <button class="n-btn btn:text btn-state:hover">Text · Hovered</button>
+    <button class="n-btn btn:text btn-state:focused">Text · Focused</button>
+    <button class="n-btn btn:text btn-state:pressed">Text · Pressed</button>
+  </div>
+</div>
+
+## 6. 토글 버튼 타입
+
+토글 버튼은 `label` 요소 안에서 `input[type="checkbox"]`와 함께 사용합니다. `:has()` 기반 상태 스타일을 활용합니다.
+
+### 기본 타입
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <label class="n-btn btn:elevated">
+      <span>Elevated</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn:filled">
+      <span>Filled</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn:tonal">
+      <span>Tonal</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn:outlined">
+      <span>Outlined</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn:text">
+      <span>Text</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+  </div>
+</div>
+
+```html
+<label class="n-btn btn:elevated">
+  <span>Elevated</span>
+  <input type="checkbox" class="n-checkbox d:none">
+</label>
+<!-- Filled / Tonal / Outlined / Text 도 동일한 패턴 -->
+```
+
+### 색상 프리셋 적용
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <label class="n-btn btn-color:main-1 btn:elevated">
+      <span>Elevated</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-color:main-1 btn:filled">
+      <span>Filled</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-color:main-1 btn:tonal">
+      <span>Tonal</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-color:main-1 btn:outlined">
+      <span>Outlined</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-color:main-1 btn:text">
+      <span>Text</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+  </div>
+</div>
+
+### Square 모양 토글 버튼
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap">
+    <label class="n-btn btn-shape:square btn:elevated">
+      <span>Elevated</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-shape:square btn:filled">
+      <span>Filled</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-shape:square btn:tonal">
+      <span>Tonal</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-shape:square btn:outlined">
+      <span>Outlined</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+    <label class="n-btn btn-shape:square btn:text">
+      <span>Text</span>
+      <input type="checkbox" class="n-checkbox d:none">
+    </label>
+  </div>
+</div>
+
+## 7. 버튼 크기
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap ai:center">
+    <button class="n-btn btn-size:1">Extra small</button>
+    <button class="n-btn btn-size:2">Small</button>
+    <button class="n-btn btn-size:3">Medium</button>
+    <button class="n-btn btn-size:4">Large</button>
+    <button class="n-btn btn-size:5">Extra large</button>
+  </div>
+</div>
+
+```html
+<button class="n-btn btn-size:1">Extra small</button>
+<button class="n-btn btn-size:2">Small</button>
+<button class="n-btn btn-size:3">Medium</button>
+<button class="n-btn btn-size:4">Large</button>
+<button class="n-btn btn-size:5">Extra large</button>
+```
+
+`btn-size:*`는 높이, 좌우 패딩, 글꼴 크기를 모두 맞춰 주므로 추가적인 커스터마이징 없이 디자인 가이드 수치를 재현할 수 있습니다.
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap ai:center">
+    <button class="n-btn btn-shape:square btn-size:1">Extra small</button>
+    <button class="n-btn btn-shape:square btn-size:2">Small</button>
+    <button class="n-btn btn-shape:square btn-size:3">Medium</button>
+    <button class="n-btn btn-shape:square btn-size:4">Large</button>
+    <button class="n-btn btn-shape:square btn-size:5">Extra large</button>
+  </div>
+</div>
+
+## 8. 아이콘 버튼
+
+아이콘 전용 버튼(`n-icon`)과 라벨이 함께 있는 버튼(`n-deco`)을 모두 지원합니다.
+
+### 상태 예제 (n-icon)
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap ai:center">
+    <button class="n-btn n-icon icon:home">Enabled</button>
+    <button class="n-btn n-icon icon:home btn-state:disabled">Disabled</button>
+    <button class="n-btn n-icon icon:home btn-state:hover">Hovered</button>
+    <button class="n-btn n-icon icon:home btn-state:focused">Focused</button>
+    <button class="n-btn n-icon icon:home btn-state:pressed">Pressed</button>
+  </div>
+</div>
+
+```html
+<button class="n-btn n-icon icon:home">Enabled</button>
+<button class="n-btn n-icon icon:home btn-state:disabled">Disabled</button>
+<button class="n-btn n-icon icon:home btn-state:hover">Hovered</button>
+<button class="n-btn n-icon icon:home btn-state:focused">Focused</button>
+<button class="n-btn n-icon icon:home btn-state:pressed">Pressed</button>
+```
+
+### 상태 예제 (n-deco)
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap ai:center">
+    <button class="n-btn n-deco icon:home">Enabled</button>
+    <button class="n-btn n-deco icon:home btn-color:main-1">Colored</button>
+    <button class="n-btn n-deco icon:home btn-state:disabled">Disabled</button>
+    <button class="n-btn n-deco icon:home btn-state:hover">Hovered</button>
+    <button class="n-btn n-deco icon:home btn-state:focused">Focused</button>
+    <button class="n-btn n-deco icon:home btn-state:pressed">Pressed</button>
+  </div>
+</div>
+
+### 아이콘 버튼 크기
+
+<div class="vp-doc">
+  <div class="d:flex gap:2 wrap ai:center">
+    <button class="n-btn n-deco icon:home btn-size:1">Size 1</button>
+    <button class="n-btn n-deco icon:home btn-size:2">Size 2</button>
+    <button class="n-btn n-deco icon:home btn-size:3">Size 3</button>
+    <button class="n-btn n-deco icon:home btn-size:4">Size 4</button>
+    <button class="n-btn n-deco icon:home btn-size:5">Size 5</button>
+  </div>
+</div>
+
+```html
+<button class="n-btn n-deco icon:home btn-size:1">Size 1</button>
+<button class="n-btn n-deco icon:home btn-size:2">Size 2</button>
+<button class="n-btn n-deco icon:home btn-size:3">Size 3</button>
+<button class="n-btn n-deco icon:home btn-size:4">Size 4</button>
+<button class="n-btn n-deco icon:home btn-size:5">Size 5</button>
+```
+
+:::tip 아이콘 크기 가이드
+`n-btn`과 `n-icon`을 함께 사용할 때는 `btn-size:*`가 아이콘 크기와 패딩을 함께 조정합니다. `n-deco`는 동일한 `--icon-size` 변수를 사용하므로 텍스트와 아이콘 간 간격도 일관되게 유지됩니다.
 :::
 
-<QuickLinks :componentName="'Button'"/>
+---
+
+### 추가 참고
+
+- 스타일 커스터마이징 변수는 `css/component/n-btn.css` 파일에 정의되어 있습니다.
+- 버튼에 적용되는 글로벌 색상 값은 `css/util/variables.css`에서 확인할 수 있습니다.
+- 디자인 시스템 전반의 규칙과 함께 사용할 때 가장 큰 효과를 얻습니다.

@@ -323,8 +323,7 @@
 	list-dir:row, column
 	*/
 
-	&.list-direction\:column,
-	&.list-dir\:column {
+	&.list-layout\:column{
 		flex-direction: column;
 		align-items: flex-start;
 		--gap: 0;
@@ -494,7 +493,7 @@
 	}
 }
 
-.n-list\:wrap {
+.list\:wrap {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	gap: 1rem;
@@ -505,7 +504,7 @@
 list:dl
 dl-sperator:solid, ruled
 */
-.n-list\:dl {
+.list\:dl {
 	display: flex;
 	flex-direction: column;
 
@@ -533,19 +532,21 @@ dl-sperator:solid, ruled
 	> div:last-child {
 		border-bottom: none;
 	}
+
+	&\:dl.dl-sperator\:solid {
+		> div {
+			border-bottom: 1px solid var(--color-base-5);
+		}
+	}
+	
+	&.dl-sperator\:ruled {
+		> div {
+			border-bottom: 1px dashed var(--color-base-5);
+		}
+	}
+	
 }
 
-.n-list\:dl.dl-sperator\:solid {
-	> div {
-		border-bottom: 1px solid var(--color-base-5);
-	}
-}
-
-.n-list\:dl.dl-sperator\:ruled {
-	> div {
-		border-bottom: 1px dashed var(--color-base-5);
-	}
-}
 
 /* ===== HOVER ===== */
 /*

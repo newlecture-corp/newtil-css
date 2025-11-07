@@ -1,62 +1,67 @@
-/* 
-<variable>───────────────────────────────────
-
---btn-padding, 4px 16px
---btn-height, 36px
---btn-border-color, var(--color-base-3)
---btn-border-radius, 8px
---btn-font-size, 14px
---btn-background-hover, var(--color-base-2)
-
-<type>──────────────────────────────────────
-.btn:rounded
-.btn:circle
-.btn:badge
-.n-btn
-.n-btn:active
-.n-btn:disabled
-
-
-<option>────────────────────────────────────
-
-.btn-size:1 ~ ex
-.btn-color:main-1 ~ accent-1
-.btn-size:inline
-.btn-size:small
- 
-<example>───────────────────────────────────    
-*/
-
-/* ==== button ======================= */
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
 .n-btn
 {
-	--line-height: 1.4em;
-	--font-size: 14px;
-	/*
-		4px ≈ 0.286em (기본 폰트 14px 기준)
-		8px ≈ 0.571em (기본 폰트 14px 기준)
-	*/
-	--padding: 0.3em 0.7em;
+	/* Material Web Buttons 참고: Label Large 14px, min-height 40px, shape medium */
+	--line-height: 1.4286; /* 20/14 ≈ 1.4286 */
+	--font-size: var(--space-8); /* 14px (btn-size:sm과 동일) */
+	--min-height: var(--space-22); /* 40px (btn-size:sm과 동일) */
+	--padding: 0 var(--space-10); /* 수직: 0, 수평: 16px (btn-size:sm과 동일) */
 
-	--bd-radius: 6px;
-	--bd-color: var(--color-base-4);
-	--bd-color-hover: var(--color-base-8);
-	--bd-color-active: var(--color-main-2);
+    /* 모양: 크기 변화에도 일관된 타원형(필) 형태 유지 */
+    --bd-radius: 9999px; /* pill shape */
+	/* 기본 버튼은 Filled 타입: 이미지 가이드 기반 색상 */
+	/* 기본 색상 변수: 이 변수만 변경하면 hover, pressed, disabled 상태 및 다크 모드 색상이 자동으로 계산됩니다 */
+	/* 이미지의 버튼 배경색 (muted dark purple-grey) */
+	--btn-base-color: #6A627A; /* 라이트 모드 기본 배경색 (muted dark purple-grey) */
+	
+	/* State layer 방식으로 상태별 배경색 자동 계산 */
+	--bg-color: var(--btn-base-color);
+	--bg-color-hover: color-mix(in srgb, var(--btn-base-color) 92%, white 8%); /* hover: 8% state layer overlay */
+	--bg-color-active: color-mix(in srgb, var(--btn-base-color) 88%, white 12%); /* pressed: 12% state layer overlay */
+	--bg-color-disabled: color-mix(in srgb, var(--btn-base-color) 90%, black 10%); /* disabled: 10% state layer overlay */
+	
+	--bd-color: var(--bg-color);
+	--bd-color-hover: var(--bg-color-hover);
+	--bd-color-active: var(--bg-color-active);
+	--bd-color-disabled: var(--bg-color-disabled);
 
-	--bg-color: var(--color-base-3);
-	--bg-color-hover: transparent;
-	--bg-color-active: rgba(var(--rgb-main-2), 0.7);
+	/* Focus 테두리 색상: 기본 색상 기반 계산 */
+	--focus-border-color: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 라이트 모드 포커스 테두리 */
 
-	--text-color: var(--color-base-8);
-	--text-color-hover: var(--color-base-7);
-	--text-color-active: var(--color-accent-2);
+	/* 텍스트 색상: 기본 배경색에서 자동 계산 */
+	/* 기본 배경색에 white를 섞어서 밝은 텍스트 색상 생성 */
+	--text-base-color: color-mix(in srgb, var(--btn-base-color) 10%, white 90%); /* 라이트 모드 기본 텍스트 색상 (배경색 기반 계산) */
+	--text-color: var(--text-base-color);
+	--text-color-hover: var(--text-base-color); /* hover 시 텍스트 색 유지 */
+	--text-color-active: var(--text-base-color); /* active 시 텍스트 색 유지 */
+	--text-color-disabled: color-mix(in srgb, var(--text-base-color) 60%, var(--btn-base-color) 40%); /* disabled: 텍스트와 배경의 중간색 */
 	--text-indent: -999px;
+	
+	/* 배경 이미지 및 효과 제어 변수 */
+	--bg-image: none;
+	--bg-blend-mode: normal;
+	/* 기본 버튼 hover 효과용 변수 */
+	--hover-gradient: none;
+	
+	/* 그림자 제어 변수 */
+	--box-shadow: none;
+	--box-shadow-hover: var(--box-shadow);
+	--box-shadow-active: var(--box-shadow);
+	
+	/* 상호작용 제어 변수 */
+	--opacity: 1;
+	--cursor: pointer;
+	--pointer-events: auto;
+	
+	/* Focus outline 변수 */
+	--focus-outline: none;
+	--focus-outline-offset: 0;
+
+	/* Elevated 버튼 그림자 변수 (라이트 모드) */
+	/* Elevated 기본 그림자 강도 상향 (라이트 모드) */
+	--shadow: 0 1px 3px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.10);
+	--shadow-hover: 0 4px 8px rgba(0,0,0,.22), 0 6px 10px rgba(0,0,0,.12);
+	--shadow-active: 0 2px 4px rgba(0,0,0,.20), 0 3px 5px rgba(0,0,0,.12);
+
 
 }
 
@@ -64,243 +69,712 @@
 
 @media (prefers-color-scheme: dark) {
 	.n-btn {
-		--bd-color: var(--color-base-3);
-		--bd-color-hover: var(--color-base-7);
-		--bd-color-active: var(--color-base-9);
+		/* 다크 모드: 이미지 가이드 기반 색상 */
+		/* 이미지의 버튼 배경색 (light muted lavender) */
+		--btn-base-color: #E0D9ED; /* 다크 모드 기본 배경색 (light muted lavender or pale purple) */
 		
-
-		--bg-color: var(--color-base-7);
-		--bg-color-hover: transparent;
-		--bg-color-active: rgba(var(--rgb-main-1), 0.7);
-		--text-color: var(--color-base-2);		
-		--text-color-hover: var(--color-base-2);
-		--text-color-active: var(--color-accent-1);	
+		/* State layer 방식으로 상태별 배경색 자동 계산 (이미지 가이드 기반) */
+		--bg-color: var(--btn-base-color);
+		--bg-color-hover: color-mix(in srgb, var(--btn-base-color) 92%, white 8%); /* hover: 8% state layer overlay */
+		--bg-color-active: color-mix(in srgb, var(--btn-base-color) 88%, black 12%); /* pressed: 12% state layer overlay (어두운 방향) */
+		--bg-color-disabled: color-mix(in srgb, var(--btn-base-color) 90%, black 10%); /* disabled: 10% state layer overlay */
+		
+		--bd-color: var(--bg-color);
+		--bd-color-hover: var(--bg-color-hover);
+		--bd-color-active: var(--bg-color-active);
+		--bd-color-disabled: var(--bg-color-disabled);
+		
+		/* Focus 테두리 색상: 기본 색상 기반 계산 */
+		--focus-border-color: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 다크 모드 포커스 테두리 */
+		
+		/* 다크 모드 텍스트: 기본 배경색에서 자동 계산 */
+		/* 밝은 배경색에 black을 섞어서 어두운 텍스트 색상 생성 */
+		--text-base-color: color-mix(in srgb, var(--btn-base-color) 30%, black 70%); /* 다크 모드 기본 텍스트 색상 (배경색 기반 계산) */
+		--text-color: var(--text-base-color);
+		--text-color-hover: var(--text-base-color); /* hover 시 텍스트 색 유지 */
+		--text-color-active: var(--text-base-color); /* active 시 텍스트 색 유지 */
+		--text-color-disabled: color-mix(in srgb, var(--text-base-color) 60%, var(--btn-base-color) 40%); /* disabled: 텍스트와 배경의 중간색 */			
+		
+		/* Elevated 버튼 그림자 변수 (다크 모드) - 밝은 색 그림자 사용 */
+		/* 기본 상태: 밝은 색 그림자로 다크 모드에서 더 잘 보이도록 */
+		/* 다크 모드 Elevated 그림자 강도 상향 (밝은 그림자) */
+		--shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.45), 0px 2px 3px 1px rgba(255, 255, 255, 0.25);
+		/* Hover 상태: 더 강한 밝은 그림자 */
+		--shadow-hover: 0px 2px 6px 0px rgba(255, 255, 255, 0.55), 0px 6px 8px 1px rgba(255, 255, 255, 0.30);
+		/* Active 상태: 기본보다 약간 낮춘 강도 */
+		--shadow-active: 0px 1px 3px 0px rgba(255, 255, 255, 0.45), 0px 2px 4px 1px rgba(255, 255, 255, 0.25);
+	
 	}
 }
 
 .n-btn {
-	color: var(--text-color);
-	font-size: var(--font-size, 14px);
-	font-weight: 400;
-	font-family: inherit;
+	/* 기본 레이아웃 및 타이포그래피 */
+	font-size: var(--font-size);
 	line-height: var(--line-height);
-
+	font-weight: var(--font-weight-5, 500); /* Medium */
+	font-family: inherit;
+	text-align: center;
 	white-space: nowrap;
+	vertical-align: middle;
 	user-select: none;
-	cursor: pointer;
 
-	box-sizing: border-box;
+	/* 패딩 및 크기 */
 	padding: var(--padding);
-	width: initial;
-	height: initial;
+	min-height: var(--min-height);
+	
+	/* 테두리 및 모양 */
 	border: 1px solid var(--bd-color);
 	border-radius: var(--bd-radius);
 
+	/* 배경 및 텍스트 */
 	background-color: var(--bg-color);
+	color: var(--text-color);
+	
+	/* Focus outline */
+	outline: var(--focus-outline);
+	outline-offset: var(--focus-outline-offset);
+	
+	/* 배경 이미지 및 효과 */
+	background-image: var(--bg-image, none);
+	background-blend-mode: var(--bg-blend-mode, normal);
 
+	/* 그림자 */
+	box-shadow: var(--box-shadow);
+	
+	/* 레이아웃 */
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	gap: var(--space-2, 0.5rem);
+	width: fit-content;
+	
+	/* 커서 및 상호작용 */
+	cursor: var(--cursor);
+	opacity: var(--opacity);
+	pointer-events: var(--pointer-events);
+	transition: 
+		background-color var(--duration-3, 150ms) var(--ease-in-out, cubic-bezier(0.4, 0, 0.2, 1)),
+		border-color var(--duration-3, 150ms) var(--ease-in-out, cubic-bezier(0.4, 0, 0.2, 1)),
+		color var(--duration-3, 150ms) var(--ease-in-out, cubic-bezier(0.4, 0, 0.2, 1)),
+		box-shadow var(--duration-3, 150ms) var(--ease-in-out, cubic-bezier(0.4, 0, 0.2, 1)),
+		border-radius var(--duration-3, 150ms) var(--ease-in-out, cubic-bezier(0.4, 0, 0.2, 1));
+	
+	
+	
 
-	transition: background-color 0.15s ease, border-color 0.15s ease,
-		color 0.15s ease;
+	/* ===== 버튼 옵션들 ========================================================= 
+	/\/\*\*/ 
+	/**
+	 *  ╔════════════════════════════════════════════════════════════════════════╗
+	 *  ║   이 후의 모든 .n-btn 옵션들은 CSS 변수만으로 작동한다!                             ║
+	 *  ║                                                                     ║
+	 *  ║    ┌──────────────────────────────────────────────────────────────┐  ║
+	 *  ║    │  .btn-color\:main-1  →  --btn-base-color: var(--color-main-1); │  ║
+	 *  ║    │  .btn-color\:accent-2 →  --btn-base-color: var(--color-accent-2);│  ║
+	 *  ║    │  .btn-color\:sub-3   →  --btn-base-color: var(--color-sub-3);  │  ║
+	 *  ║    └──────────────────────────────────────────────────────────────┘  ║
+	 *  ║                                                                     ║
+	 *  ║    💡 스타일 속성 직접 오버라이드는 ❌                              ║
+	 *  ║    💡 변수만 바꿔서 모든 스타일이 적용된다!                         ║
+	 *  ╚════════════════════════════════════════════════════════════════════════╝
+	 */
 
-	&::before {
-		/* --- 아이콘을 위한 설정 ---- */
-		font-family: "Material Symbols Outlined";
-		width: var(--icon-size);
-		height: var(--icon-size);
+
+	 
+	/* ════════════════════════════════════════════════════════════════════
+	║                            버튼 모양 옵션                            ║
+	║                        (Button Shape Options)                       ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	/* .btn-shape:round - pill(완전 타원형) - 기본값과 동일하므로 별도 설정 불필요 */
+	
+	/* .btn-shape:square - 둥근 모서리 */
+	&.btn-shape\:square {
+		--bd-radius: var(--bd-radius-square, 0.5em);
+	}
+
+	/* .btn-shape:sharp - 라운드 없는 네모 */
+	&.btn-shape\:sharp {
+		--bd-radius: 0;
+	}
+
+
+	/* 
+	╔════════════════════════════════════════════════════════════════════╗
+	║                               상태 옵션                             ║
+	║                          (Button State Options)                    ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+
+	/* Hover 상태 */
+	&:hover,
+	&.btn-state\:hover {
+		--bg-color: var(--bg-color-hover);
+		--bd-color: var(--bd-color-hover);
+		--text-color: var(--text-color-hover);
+		--box-shadow: var(--box-shadow-hover);
+	}
+	
+	/* Active/Pressed/Selected 상태 */
+	&:active,	
+	&.btn-state\:pressed {
+		/* 눌림 시 모서리를 더 둥글게 (이미지 참조) */
+		--bd-radius: var(--bd-radius-pressed, 0.5rem);
+		/* 옵션처럼 동작: 기본 변수 값을 변경하여 스타일 적용 */
+		--bg-color: var(--bg-color-active);
+		--bd-color: var(--bd-color-active);
+		--text-color: var(--text-color-active);
+		--box-shadow: var(--box-shadow-active);
+		/* 두 톤(하이라이트/섀도) 오버레이: 기본 active 배경색에서 파생 */
+		--bg-image: 
+			radial-gradient(120% 140% at 20% 10%, color-mix(in srgb, var(--bg-color-active) 85%, white 15%) 0%, transparent 60%),
+			radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 70%, black 30%) 0%, transparent 55%);
+	}
+	
+	/* Focus 상태 */
+	&:focus-visible,
+	&.btn-state\:focused {
+		--focus-outline: 2px solid var(--focus-border-color, var(--color-main-1, var(--color-base-9)));
+		--focus-outline-offset: 2px;
+	}
+	
+	/* Disabled 상태 */
+	&:disabled,
+	&.disabled,
+	&.btn-state\:disabled {
+		--bg-color: var(--bg-color-disabled);
+		--bd-color: var(--bd-color-disabled);
+		--text-color: var(--text-color-disabled);
+		--opacity: 0.38;
+		--cursor: not-allowed;
+		--pointer-events: none;
+	}
+
+	/* Selected 상태 */
+	&:has(:not(:checked)),
+	&:has([aria-pressed="false"]) {		
+		--opacity: 0.38;
+	}
+	&:has(:checked),
+	&:has([aria-pressed="true"]){
+		--bd-radius: var(--bd-radius-pressed, 0.5rem);
+		--opacity: 1;	
+		
+		&.btn-shape\:square {
+			--bd-radius: 999px; /* round 모양으로 radius 설정 */
+		}
+	}
+	
+	/*
+	╔════════════════════════════════════════════════════════════════════╗
+	║                            버튼 타입 옵션                            ║
+	║                      (Button Type Options)                         ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	
+	/* Elevated 버튼: 그림자 효과가 있는 버튼 */
+	&.btn\:elevated {
+		/* 기본 배경색과 텍스트 색상은 기본 버튼 설정 사용 */
+		/* 그림자 변수만 설정 - hover/active는 공통 스타일 블록에서 처리 */
+		--box-shadow: var(--shadow);
+		--box-shadow-hover: var(--shadow-hover);
+		--box-shadow-active: var(--shadow-active);
+
+		/* Hover 상태: 약한 음영만 추가 (배경만 살짝 진하게) */
+		&:hover,
+		&.btn-state\:hover {
+			--box-shadow: var(--box-shadow-hover);
+		}
+
+		/* Focus 상태: Elevated는 선명한 포커스 링 표시 */
+		&:focus-visible,
+		&.btn-state\:focused {
+			--focus-outline: 2px solid color-mix(in srgb, var(--btn-base-color) 65%, white 35%);
+			--focus-outline-offset: 2px;
+		}
+
+		/* Disabled 상태: 그림자 제거(평평하게), 나머지 색상은 기본 disabled 변수 사용 */
+		&:disabled,
+		&.disabled,
+		&.btn-state\:disabled {
+			--box-shadow: none;
+		}
+
+	}
+	
+	/* Filled 버튼: 기본 버튼이 이미 Filled 타입이므로 별도 정의 불필요 */
+	
+	/* Tonal 버튼: 연한 배경색, 어두운 텍스트 */
+	&.btn\:tonal {
+		/* 기본 상태: 연한 배경, 테두리 없음, 어두운 텍스트 */
+		--bg-color: color-mix(in srgb, var(--btn-base-color) 16%, transparent);
+		--bg-color-hover: color-mix(in srgb, var(--btn-base-color) 24%, transparent);
+		--bg-color-active: color-mix(in srgb, var(--btn-base-color) 30%, transparent);
+		--bd-color: transparent;
+		--bd-color-hover: transparent;
+		--bd-color-active: transparent;
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--color-base-9);
+		--text-color-active: var(--color-base-9);
+
+		/* Hover 상태: 약한 음영만 추가 (배경만 살짝 진하게) */
+		&:hover,
+		&.btn-state\:hover {
+			--bg-color: var(--bg-color-hover);
+			--bd-color: transparent;
+			--text-color: var(--text-color-hover);
+			--box-shadow: var(--box-shadow); /* Tonal은 그림자 강화 없음 */
+		}
+
+		/* Active/Pressed/Selected 상태: 살짝 더 진한 배경 + 부드러운 이중톤 오버레이 */
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bg-color: var(--bg-color-active);
+			--bd-color: transparent;
+			--text-color: var(--text-color-active);
+			--box-shadow: var(--box-shadow); /* Tonal은 그림자 강화 없음 */
+			--bd-radius: var(--bd-radius-pressed, 0.5rem); /* 이미지 가이드: 살짝 더 둥글게 */
+			/* 더 약한 오버레이(밝/어둠 비율 완만) */
+			--bg-image:
+				radial-gradient(120% 140% at 20% 10%, color-mix(in srgb, var(--bg-color-active) 92%, white 8%) 0%, transparent 60%),
+				radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 80%, black 20%) 0%, transparent 55%);
+
+			&.btn-shape\:square {
+				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+			}
+		}		
+		
+
+		/* Focus 상태: 테두리 링만 표시 (이중 링 효과는 외곽선 오프셋으로) */
+		&:focus-visible,
+		&.btn-state\:focused {
+			--focus-outline: 2px solid color-mix(in srgb, var(--btn-base-color) 65%, black 35%);
+			--focus-outline-offset: 2px;
+		}
+
+		/* Disabled 상태: 연한 배경 유지 + 낮은 대비 텍스트 */
+		&:disabled,
+		&.disabled,
+		&.btn-state\:disabled {
+			--bg-color: color-mix(in srgb, var(--btn-base-color) 16%, transparent);
+			--bd-color: transparent;
+			--text-color: color-mix(in srgb, var(--color-base-9) 55%, var(--btn-base-color) 45%);
+			--opacity: 1; /* 배경이 이미 연하므로 전체 투명도는 유지 */
+			--cursor: not-allowed;
+			--pointer-events: none;
+		}
+	}
+	
+	/* Outlined 버튼: 투명 배경, 테두리만 */
+	&.btn\:outlined {
+		/* 투명 배경 */
+		--bg-color: transparent;
+		--bg-color-hover: color-mix(in srgb, var(--btn-base-color) 8%, transparent);
+		--bg-color-active: color-mix(in srgb, var(--btn-base-color) 12%, transparent);
+		--bg-color-disabled: transparent;
+		/* 테두리 색상: 기본 색상 사용 */
+		/* 경계선은 이미지처럼 더 옅게: 기본은 60% → hover 70% → active 75% */
+		--bd-color: color-mix(in srgb, var(--btn-base-color) 60%, transparent 40%);
+		--bd-color-hover: color-mix(in srgb, var(--btn-base-color) 70%, transparent 30%);
+		--bd-color-active: color-mix(in srgb, var(--btn-base-color) 75%, transparent 25%);
+		--bd-color-disabled: color-mix(in srgb, var(--btn-base-color) 28%, transparent 72%);
+		/* 어두운 텍스트 색상 */
+		--text-color: var(--btn-base-color);
+		--text-color-hover: var(--btn-base-color);
+		--text-color-active: var(--btn-base-color);
+		--text-color-disabled: color-mix(in srgb, var(--btn-base-color) 38%, transparent);
+
+		/* Hover 상태: 배경 약간 채움, 테두리/텍스트는 hover 색상 */
+		&:hover,
+		&.btn-state\:hover {
+			--bg-color: var(--bg-color-hover);
+			--bd-color: var(--bd-color-hover);
+			--text-color: var(--text-color-hover);
+			--box-shadow: var(--box-shadow); /* Outlined는 그림자 강화 없음 */
+		}
+		
+		/* Active/Pressed/Selected 상태: 배경 약간 채움, 테두리/텍스트는 active 색상 */
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bg-color: var(--bg-color-active);
+			--bd-color: var(--bd-color-active);
+			--text-color: var(--text-color-active);
+			--box-shadow: var(--box-shadow); /* Outlined는 그림자 강화 없음 */
+			--bd-radius: var(--bd-radius-pressed, 0.5rem); /* 이미지 가이드: 살짝 더 둥글게 */
+
+			&.btn-shape\:square {
+				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+			}
+		}
+		
+		/* Focus 상태: 아웃라인 표시 */
+		&:focus-visible,
+		&.btn-state\:focused {
+			/* 외곽선도 살짝 옅게 */
+			--focus-outline: 2px solid color-mix(in srgb, var(--btn-base-color) 60%, white 40%);
+			--focus-outline-offset: 2px;
+		}
+		
+		/* Disabled 상태: 투명 배경, 연한 테두리/텍스트 */
+		&:disabled,
+		&.disabled,
+		&.btn-state\:disabled {
+			--bg-color: var(--bg-color-disabled);
+			--bd-color: var(--bd-color-disabled);
+			--text-color: var(--text-color-disabled);
+			--opacity: 1; /* 배경이 이미 투명하므로 전체 투명도는 유지 */
+			--cursor: not-allowed;
+			--pointer-events: none;
+		}
+	}
+	
+	/* Text 버튼: 투명 배경, 테두리 없음 */
+	&.btn\:text {
+		/* 투명 배경 */
+		--bg-color: transparent;
+		--bg-color-hover: color-mix(in srgb, var(--btn-base-color) 10%, transparent);
+		--bg-color-active: color-mix(in srgb, var(--btn-base-color) 14%, transparent);
+		--bg-color-disabled: transparent;
+		/* 테두리 없음 */
+		--bd-color: transparent;
+		--bd-color-hover: transparent;
+		--bd-color-active: transparent;
+		--bd-color-disabled: transparent;
+		/* 어두운 텍스트 색상 */
+		--text-color: var(--btn-base-color);
+		--text-color-hover: var(--btn-base-color);
+		--text-color-active: var(--btn-base-color);
+		--text-color-disabled: color-mix(in srgb, var(--btn-base-color) 38%, transparent);
+
+		/* Hover 상태: 배경 약간 채움, 텍스트는 유지 */
+		&:hover,
+		&.btn-state\:hover {
+			--bg-color: var(--bg-color-hover);
+			--bd-color: transparent;
+			--text-color: var(--text-color-hover);
+			--box-shadow: var(--box-shadow); /* Text는 그림자 없음 */
+		}
+		
+		/* Active/Pressed/Selected 상태: 배경 약간 채움 + 두 톤 효과, 모서리 더 둥글게 */
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-radius: var(--bd-radius-pressed, 0.5rem);
+			--bg-color: var(--bg-color-active);
+			--bd-color: transparent;
+			--text-color: var(--text-color-active);
+			--box-shadow: var(--box-shadow); /* Text는 그림자 없음 */
+			/* 두 톤 효과: Text는 배경이 투명하므로 더 약하게 적용 */
+			--bg-image: 
+				radial-gradient(120% 140% at 20% 10%, color-mix(in srgb, var(--bg-color-active) 92%, white 8%) 0%, transparent 60%),
+				radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 80%, black 20%) 0%, transparent 55%);
+
+			&.btn-shape\:square {
+				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+			}
+		}
+		
+		/* Focus 상태: 포커스 아웃라인 표시 */
+		&:focus-visible,
+		&.btn-state\:focused {
+			--focus-outline: 2px solid color-mix(in srgb, var(--btn-base-color) 70%, white 30%);
+			--focus-outline-offset: 2px;
+		}
+		
+		/* Disabled 상태: 투명 배경 유지, 텍스트만 연하게 */
+		&:disabled,
+		&.disabled,
+		&.btn-state\:disabled {
+			--bg-color: transparent;
+			--bd-color: transparent;
+			--text-color: var(--text-color-disabled);
+			--opacity: 1; /* 배경이 이미 투명하므로 전체 opacity는 유지 */
+			--cursor: not-allowed;
+			--pointer-events: none;
+		}
+	}
+
+
+
+	
+	
+	/*
+	╔════════════════════════════════════════════════════════════════════╗
+	║                             색상 옵션                               ║
+	║                     (Button Color Options)                         ║
+	╠════════════════════════════════════════════════════════════════════╣
+	║  프로젝트 컬러 시스템과 연동,                                          ║
+	║  btn-color:* 클래스로 빠르게 버튼 색상을 변경하세요!                    ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	&.btn-color\:main-1{
+		/* main-1 색상을 기본 색상으로 설정 - 나머지 색상(hover, pressed, disabled, 텍스트)은 기본 블록에서 자동 계산 */
+		--btn-base-color: var(--color-main-1);
+	}
+	&.btn-color\:main-2{
+		--btn-base-color: var(--color-main-2);
+	}
+	&.btn-color\:main-3{
+		--btn-base-color: var(--color-main-3);
+	}
+	&.btn-color\:sub-1{
+		--btn-base-color: var(--color-sub-1);
+	}
+	&.btn-color\:sub-2{
+		--btn-base-color: var(--color-sub-2);
+	}
+	&.btn-color\:sub-3{
+		--btn-base-color: var(--color-sub-3);
+	}
+	&.btn-color\:accent-1{
+		--btn-base-color: var(--color-accent-1);
+	}
+	&.btn-color\:accent-2{
+		--btn-base-color: var(--color-accent-2);
+	}
+	&.btn-color\:accent-3{
+		--btn-base-color: var(--color-accent-3);
+	}
+
+	/* ════════════════════════════════════════════════════════════════════
+	║                            아이콘 옵션                               ║
+	║                          (Icon Options)                             ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	/* n-icon 옵션: 아이콘 버튼 스타일 적용 */
+	/* n-btn과 n-icon이 함께 사용될 때: 텍스트는 숨기고 아이콘만 표시하며 버튼 스타일 적용 */
+	&.n-icon {
+		/* 아이콘 버튼 변수 (Material Design Icon Buttons) */
+		/* n-icon.css의 --icon-size 기본값(24px) 사용, 필요시 icon-size:* 클래스로 오버라이드 */
+		--icon-btn-padding: var(--space-4); /* 8px (아이콘 버튼 기본 패딩) */
+		--icon-btn-size: calc(var(--icon-size, 24px) + (var(--icon-btn-padding) * 2)); /* 아이콘 크기 + 패딩 */
+		
+		/* 텍스트 숨김: 아이콘만 표시 */
+		font-size: 0;
+		line-height: 0;
+		text-indent: 0;
 		overflow: hidden;
-		font-size: var(--icon-size);
-
-		display: inline-flex;
+		white-space: nowrap;
+		
+		/* 아이콘 버튼 크기: 정사각형 (n-icon의 기본 width/height 오버라이드) */
+		width: var(--icon-btn-size);
+		height: var(--icon-btn-size);
+		min-width: var(--icon-btn-size);
+		min-height: var(--icon-btn-size);
+		
+		/* 패딩: 아이콘 버튼 패딩 사용 */
+		padding: var(--icon-btn-padding);
+		
+		/* 아이콘 버튼은 원형 (Material Design 기본) */
+		--bd-radius: 50%;
+		
+		/* 아이콘 색상: 버튼 텍스트 색상과 동일하게 */
+		/* n-icon의 ::before에 color가 상속되므로 별도 설정 불필요 */
+		
+		/* 아이콘 중앙 정렬 */
 		justify-content: center;
 		align-items: center;
-	}
-
-	&:hover {		
-		background-color: var(--bg-color-hover);
-		color: var(--text-color-hover);
-		border-color: var(--bd-color-hover);
-		text-decoration: none;
-
-		transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
-	}
-
-	&:active {		
-		color: var(--text-color-active);
-	}
-
-	&:focus-visible {
-		outline: 2px solid var(--bd-color-active);
-		outline-offset: 1px;
-	}
-
-	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
-	/* n-btn + n-icon 조합에서는 기본적으로 라벨 숨김 */
-	&.n-icon:not(.n-deco) {
-		--padding: 4px;
-		text-indent: -999px;
-	
+		
+		/* n-icon의 ::before가 아이콘을 표시하므로, 버튼 내부 텍스트는 보이지 않음 */
+		/* n-icon의 ::before의 width/height/font-size는 var(--icon-size)로 설정 */
 		&::before {
-			text-indent: 0;
+			/* n-icon.css의 ::before 스타일을 오버라이드하여 아이콘 크기 조정 */
+			/* width, height, font-size 모두 --icon-size 변수 사용 */
+			width: var(--icon-size, 24px);
+			height: var(--icon-size, 24px);
+			font-size: var(--icon-size, 24px);
 		}
 	}
+
+
 	
-	/* n-btn + n-icon + n-deco 조합에서는 라벨 표시 */
-	&.n-icon.n-deco {
-		text-indent: 0;
+	/* 
+	╔════════════════════════════════════════════════════════════════════╗
+	║                            버튼 크기 옵션                            ║
+	║                        (Button Size Options)                       ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	/* 크기 옵션: 이미지 가이드 기반 정확한 치수 설정 */
+	/* Button 1: Height 32px, Horizontal Padding 12px */
+	&.btn-size\:1,
+	&.btn-size\:xs { 
+		--font-size: var(--space-6); /* 12px */
+		--min-height: var(--space-19); /* 32px */
+		--padding: 0 var(--space-6); /* 수직: 0, 수평: 12px */
+		--bd-radius-square: var(--space-6); /* 12px (square 모양) */
+		--bd-radius-pressed: var(--space-4); /* 8px (pressed 상태) */
+
+		&.n-icon {
+			/* 아이콘 버튼 크기별 설정: btn-size:1 (32px) */
+			--icon-size: var(--space-13); /* 20px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 6px = (32-20)/2 */
+			--icon-btn-size: var(--min-height); /* 32px (버튼 높이와 동일) */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
+		&.n-deco {
+			/* n-deco 아이콘 크기별 설정: btn-size:1 (32px) */
+			/* n-deco는 아이콘과 텍스트를 함께 표시하므로, 아이콘 크기와 gap 설정 */
+			--icon-size: var(--space-13); /* 20px */
+			--deco-gap: var(--space-3); /* 4px */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
 	}
+	/* Button 2: Height 40px, Horizontal Padding 16px */
+	&.btn-size\:2,
+	&.btn-size\:sm { 
+		--font-size: var(--space-8); /* 14px */
+		--min-height: var(--space-22); /* 40px */
+		--padding: 0 var(--space-10); /* 수직: 0, 수평: 16px */
+		--bd-radius-square: var(--space-6); /* 12px (square 모양) */
+		--bd-radius-pressed: var(--space-4); /* 8px (pressed 상태) */
 
-	/* ---------- type ---------------------------- */
-
-	&.btn\:rounded {
-		--bd-radius: 8px;
+		&.n-icon {
+			/* 아이콘 버튼 크기별 설정: btn-size:2 (40px) */
+			--icon-size: var(--space-13); /* 20px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 10px = (40-20)/2 */
+			--icon-btn-size: var(--min-height); /* 40px (버튼 높이와 동일) */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
+		&.n-deco {
+			/* n-deco 아이콘 크기별 설정: btn-size:2 (40px) */
+			--icon-size: var(--space-13); /* 20px */
+			--deco-gap: var(--space-4); /* 8px */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
 	}
-
-	&.btn\:circle {
-		--bd-radius: 50%;
-	}
-
-	&.btn\:badge {
-		--font-size: var(--size-5);
-		--bd-radius: 0.6em;		
-		--padding: 0.2em 0.4em;		
-	}
-	
-	&.disabled {
-		--text-color: var(--color-base-1);
-		--text-color-hover: var(--color-base-5);
-		--text-color-active: var(--color-base-5);
-		--bd-color: var(--color-base-5);
-		--bd-color-hover: var(--color-base-5);
-		--bd-color-active: var(--color-base-5);
-		--bg-color: var(--color-base-4);
-		--bg-color-hover: var(--color-base-3);
-		--bg-color-active: var(--color-base-3);
-	}
-
-
-	&.btn-size\:1 {	
-		--font-size: var(--size-6);
-	}
-
-	&.btn-size\:2 {		
-		--font-size: var(--size-7);
-	}
-
-	&.btn-size\:3 {
-		--font-size: var(--size-8);
-	}
-
-	&.btn-size\:4 {
-		--font-size: var(--size-9);
-	}
-
-	&.btn-size\:5 {
-		--font-size: var(--size-10);
-	}
-
-	&.btn-size\:6 {
-		--font-size: var(--size-11);
-	}
-
-	&.btn-size\:7 {
-		--font-size: var(--size-12);
-	}
-
-	&.btn-size\:8 {
-		--font-size: var(--size-13);
-	}
-
-	&.btn-size\:9 {
-		--font-size: var(--size-14);
-	}
-
-	&.btn-size\:ex {
-		--font-size: var(--size-15);
-	}
-
-	/* <size>------------------------------------ */
-	&.btn-size\:inline {
-		--padding: 0;
-		--line-height: 1em;
-	}
-
-	&.btn-size\:small {
-		--font-size: var(--size-1);
-		--padding: 0.1em 0.2em;
-		--line-height: 1em;
-	}
-
-	/* <color>------------------------------------ */
-	/* base */
-
-	&.btn-color\:main-1 {
-		--bg-color: var(--color-main-1);
-		--bd-color: var(--color-main-1);
-		--text-color: var(--color-base-1);
+	/* Button 3: Height 56px, Horizontal Padding 24px */
+	&.btn-size\:3,
+	&.btn-size\:md { 
+		--font-size: var(--space-10); /* 16px */
+		--min-height: var(--space-28); /* 56px */
+		--padding: 0 var(--space-15); /* 수직: 0, 수평: 24px */
+		--bd-radius-square: var(--space-10); /* 16px (square 모양) */
+		--bd-radius-pressed: var(--space-6); /* 12px (pressed 상태) */
 		
-		&:hover {
-			--bg-color-hover: var(--color-main-2);
-			--bd-color-hover: var(--color-main-2);
-			--text-color: var(--color-base-1);
+		&.n-icon {
+			/* 아이콘 버튼 크기별 설정: btn-size:3 (56px) */
+			--icon-size: var(--space-15); /* 24px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 16px = (56-24)/2 */
+			--icon-btn-size: var(--min-height); /* 56px (버튼 높이와 동일) */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
 		}
-
-		&:active {
-			--bg-color: var(--color-main-3);
-			--bd-color: var(--color-main-3);
-			--text-color: var(--color-main-3);
+		&.n-deco {
+			/* n-deco 아이콘 크기별 설정: btn-size:3 (56px) */
+			--icon-size: var(--space-15); /* 24px */
+			--deco-gap: var(--space-4); /* 8px */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
 		}
 	}
-
-	&.btn-color\:sub-1 {
-		--bg-color: var(--color-sub-1);
-		--bd-color: var(--color-sub-1);
-		--text-color: var(--color-base-1);
-
+	/* Button 4: Height 96px, Horizontal Padding 48px */
+	&.btn-size\:4,
+	&.btn-size\:lg { 
+		--font-size: var(--space-15); /* 24px */
+		--min-height: var(--space-32); /* 96px */
+		--padding: 0 var(--space-24); /* 수직: 0, 수평: 48px */
+		--bd-radius-square: var(--space-17); /* 28px (square 모양) */
+		--bd-radius-pressed: var(--space-10); /* 16px (pressed 상태) */
 		
-		&:hover {
-			/* --bg-color-hover: var(--color-sub-1); */
-			--bd-color-hover: var(--color-sub-2);
-			--text-color: var(--color-base-1);
+		&.n-icon {
+			/* 아이콘 버튼 크기별 설정: btn-size:4 (96px) */
+			--icon-size: var(--space-19); /* 32px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 32px = (96-32)/2 */
+			--icon-btn-size: var(--min-height); /* 96px (버튼 높이와 동일) */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
 		}
-
-		&:active {
-			/* --bg-color: var(--color-sub-3); */
-			--bd-color: var(--color-sub-3);
-			--text-color: var(--color-sub-3);
+		&.n-deco {
+			/* n-deco 아이콘 크기별 설정: btn-size:4 (96px) */
+			--icon-size: var(--space-19); /* 32px */
+			--deco-gap: var(--space-6); /* 12px */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
+	}
+	/* Button 5: Height 136px, Horizontal Padding 64px */
+	&.btn-size\:5,
+	&.btn-size\:xl { 
+		--font-size: var(--space-19); /* 32px */
+		--min-height: var(--space-35); /* 136px */
+		--padding: 0 var(--space-29); /* 수직: 0, 수평: 64px */
+		--bd-radius-square: var(--space-17); /* 28px (square 모양) */
+		--bd-radius-pressed: var(--space-10); /* 16px (pressed 상태) */
+		
+		&.n-icon {
+			/* 아이콘 버튼 크기별 설정: btn-size:5 (136px) */
+			--icon-size: var(--space-22); /* 40px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 48px = (136-40)/2 */
+			--icon-btn-size: var(--min-height); /* 136px (버튼 높이와 동일) */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
+		}
+		&.n-deco {
+			/* n-deco 아이콘 크기별 설정: btn-size:5 (136px) */
+			--icon-size: var(--space-22); /* 40px */
+			--deco-gap: var(--space-10); /* 16px */
+			
+			/* ::before 슈도 클래스의 크기 직접 설정 */
+			&::before {
+				width: var(--icon-size);
+				height: var(--icon-size);
+				font-size: var(--icon-size);
+			}
 		}
 	}
 
-	&.btn-color\:accent-1 {
-		--bg-color: var(--color-accent-1);
-		--bd-color: var(--color-accent-1);
-		--text-color: var(--color-base-1);
-		&:hover {
-			/* --bg-color-hover: var(--color-accent-2); */
-			--bd-color-hover: var(--color-accent-2);
-			--text-color: var(--color-base-1);
-		}
-
-		&:active {
-			--bg-color: var(--color-accent-3);
-			--bd-color: var(--color-accent-3);
-			--text-color: var(--color-accent-3);
-		}
-	}
 }
-
-@media (min-width: 640px) {
-
-}
-
-@media (min-width: 1024px) {
-
-}
-
-@media (min-width: 1280px) {
-	/* XL 브레이크포인트용 스타일 추가 가능 */
-}
-

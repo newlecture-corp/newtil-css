@@ -1,0 +1,1160 @@
+
+.n-btn
+{
+	/* Material Web Buttons 참고: Label Large 14px, min-height 40px, shape medium */
+	--line-height: 1.4286; /* 20/14 ≈ 1.4286 */
+	--font-size: 0.875rem; /* 14px = 0.875rem (16px 기준) */
+	/*
+		폰트 크기에 비례한 패딩 (기본 14px 기준)
+		10px = 0.714em, 16px = 1.143em
+		폰트 크기가 변하면 패딩도 자동으로 비례하여 증가
+	*/
+	--padding: 0.714em 1.143em; /* 폰트 크기 기준 비례 패딩 */
+
+    /* 모양: 크기 변화에도 일관된 타원형(필) 형태 유지 */
+    --bd-radius: 9999px; /* pill shape */
+	/* 기본 버튼은 Filled 타입: base-2 계열 고채도 배경 */
+	--bg-color: var(--color-base-2);
+	--bg-color-hover: color-mix(in srgb, var(--bg-color) 88%, black 12%);
+	--bg-color-active: color-mix(in srgb, var(--bg-color) 76%, black 24%);
+	--bd-color: var(--bg-color);
+	--bd-color-hover: color-mix(in srgb, var(--bd-color) 72%, black 28%);
+	--bd-color-active: color-mix(in srgb, var(--bd-color) 60%, black 40%);
+
+	/* 텍스트 색상: 어두운 텍스트 */
+	--text-color: var(--color-base-9);
+	--text-color-hover: var(--text-color); /* hover 시 텍스트 색 유지 */
+	--text-color-active: var(--text-color); /* active 시 텍스트 색 유지 */
+	--text-indent: -999px;
+	
+	/* 토글 상태 변수 (unselected/selected) */
+	--unselected-bg-color: rgba(var(--rgb-base-2), 0.16);
+	--unselected-bd-color: transparent;
+	--unselected-text-color: var(--color-base-9);
+	--selected-bg-color: var(--bg-color);
+	--selected-text-color: var(--text-color);
+	--selected-bd-color: var(--bd-color);
+	--selected-radius: 0.5rem; /* 선택된 상태: 둥근 직사각형 (8px = 0.5rem) */
+	
+	/* 배경 이미지 및 효과 제어 변수 */
+	--bg-image: none;
+	--bg-blend-mode: normal;
+	/* 기본 버튼 hover 효과용 변수 */
+	--hover-gradient: none;
+	
+	/* 그림자 제어 변수 */
+	--box-shadow: none;
+
+	/* 아이콘 버튼 변수 (Material Design Icon Buttons) */
+	--icon-size: 1.5rem; /* 기본 아이콘 크기: 24px (Small) */
+	--icon-btn-height: 2.5rem; /* 기본 아이콘 버튼 높이: 40px (Small, default) */
+	--icon-btn-width: var(--icon-btn-height); /* 기본 너비 (정사각형) */
+	
+	/* 아이콘 버튼 상태별 배경색 (Material Design - Filled 타입 기본) */
+	--icon-btn-bg: transparent; /* Enabled: 투명 배경 */
+	--icon-btn-bg-hover: rgba(var(--rgb-base-10), 0.08); /* Hovered: 8% 투명도 배경 */
+	--icon-btn-bg-active: rgba(var(--rgb-base-10), 0.1); /* Pressed: 10% 투명도 배경 */
+	
+	/* 아이콘 버튼 상태별 테두리 색상 (Material Design - Filled 타입: 테두리 없음) */
+	--icon-btn-bd-color: transparent; /* Enabled: 테두리 없음 */
+	--icon-btn-bd-color-hover: transparent; /* Hovered: 테두리 없음 */
+	--icon-btn-bd-color-active: transparent; /* Pressed: 테두리 없음 */
+	
+	/* 아이콘 버튼 상태별 그림자 (Material Design) */
+	--icon-btn-shadow: none; /* Enabled: 그림자 없음 */
+	--icon-btn-shadow-hover: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.16); /* Hovered: 미세한 그림자 */
+	--icon-btn-shadow-active: 0 2px 6px rgba(0,0,0,.16), 0 2px 4px rgba(0,0,0,.20); /* Pressed: 더 두드러진 그림자 */
+	--icon-btn-shadow-selected: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.16); /* Selected: 미세한 그림자 */
+
+	/* Elevated 버튼 그림자 변수 (라이트 모드) */
+	--elevated-shadow: 0 1px 2px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.08);
+	--elevated-shadow-hover: 0 2px 6px rgba(0,0,0,.16), 0 2px 4px rgba(0,0,0,.10);
+	--elevated-shadow-active: 0 1px 3px rgba(0,0,0,.12);
+
+	/* Elevated 버튼 배경색 변수 (라이트 모드) */
+	--elevated-bg-color: var(--color-base-1);
+	--elevated-bg-color-hover: var(--color-base-1);
+	--elevated-bg-color-active: var(--color-base-2);
+
+}
+
+/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
+
+@media (prefers-color-scheme: dark) {
+	.n-btn {
+		/* 다크 모드 기본 버튼은 Filled 타입: base-2 계열 고채도 배경 */
+		--bg-color: var(--color-base-2);
+		--bg-color-hover: var(--color-base-3);
+		--bg-color-active: var(--color-base-4);
+		--bd-color: var(--bg-color);
+		--bd-color-hover: var(--bg-color-hover);
+		--bd-color-active: var(--bg-color-active);
+		
+		/* 다크 모드 텍스트: 밝은 텍스트 */
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--text-color); /* hover 시 텍스트 색 유지 */
+		--text-color-active: var(--text-color); /* active 시 텍스트 색 유지 */	
+
+		/* 다크 모드 Elevated 그림자 변수 (기본값, 특정 버튼에서 오버라이드 가능) */
+		--elevated-shadow: 0 1px 2px rgba(255,255,255,.12), 0 1px 3px rgba(255,255,255,.08);
+		--elevated-shadow-hover: 0 2px 6px rgba(255,255,255,.18), 0 2px 4px rgba(255,255,255,.12);
+		--elevated-shadow-active: 0 1px 3px rgba(255,255,255,.14);
+
+		/* 다크 모드 Elevated 배경색 변수 (hover/active 시 배경색 유지, shadow만 변경) */
+		--elevated-bg-color: var(--color-base-2);
+		--elevated-bg-color-hover: var(--elevated-bg-color);
+		--elevated-bg-color-active: var(--elevated-bg-color);
+		
+		/* 다크 모드: Tonal 타입 텍스트 색상 */
+		--text-color-dark-tonal: var(--color-base-9);
+		--text-color-hover-dark-tonal: var(--color-base-9);
+		--text-color-active-dark-tonal: var(--color-base-9);
+		
+		/* 다크 모드: Filled 타입 상태별 텍스트 색상 */
+		--text-color-unselected-dark-filled: var(--color-base-9);
+		--text-color-selected-dark-filled: var(--color-base-1);
+		--text-color-hover-dark-filled: var(--color-base-9);
+		
+		/* 다크 모드: Elevated 타입 배경 및 텍스트 */
+		--bg-color-dark-elevated: var(--elevated-bg-color);
+		--bg-color-hover-dark-elevated: var(--elevated-bg-color-hover);
+		--bg-color-active-dark-elevated: var(--elevated-bg-color-active);
+		--text-color-dark-elevated: var(--color-base-9);
+		--elevated-shadow-dark: 0 1px 2px rgba(255,255,255,.12), 0 1px 3px rgba(255,255,255,.08);
+		--elevated-shadow-hover-dark: 0 2px 6px rgba(255,255,255,.18), 0 2px 4px rgba(255,255,255,.12);
+		--elevated-shadow-active-dark: 0 1px 3px rgba(255,255,255,.14);
+		
+		/* 다크 모드: Text 타입 hover 배경 */
+		--bg-color-hover-dark-text: rgba(var(--rgb-base-9), 0.08);
+		--bg-color-active-dark-text: rgba(var(--rgb-base-9), 0.12);
+		
+		/* 다크 모드: 아이콘 버튼 상태 변수 */
+		--icon-btn-bg-dark: transparent;
+		--icon-btn-bg-hover-dark: rgba(var(--rgb-base-9), 0.12);
+		--icon-btn-bg-active-dark: rgba(var(--rgb-base-9), 0.18);
+		--icon-btn-bd-color-dark: transparent;
+		--icon-btn-color-dark: var(--color-base-9);
+		--icon-btn-shadow-hover-dark: 0 1px 3px rgba(255,255,255,.08), 0 1px 2px rgba(255,255,255,.12);
+		--icon-btn-shadow-active-dark: 0 2px 6px rgba(255,255,255,.12), 0 2px 4px rgba(255,255,255,.16);
+	}
+}
+
+/* ==== 변수 정의 영역 끝 ================================================================= */
+
+/* ==== 위의 변수를 이용한 스타일 적용 코드 시작 ================================================================= */
+
+.n-btn {
+	color: var(--text-color);
+	font-size: var(--font-size, 0.875rem); /* 14px = 0.875rem (16px 기준) */
+	font-weight: 500; /* Label Large 권장 굵기 */
+	font-family: inherit;
+	line-height: var(--line-height);
+
+	white-space: nowrap;
+	user-select: none;
+	cursor: pointer;
+
+	box-sizing: border-box;
+	padding: var(--padding);
+	/* 아이콘 버튼이 아닐 때만 width: initial */
+	&:not([class*="icon:"]):not(.n-icon) {
+	width: initial;
+	}
+    /* 폰트/패딩 비례 최소 높이 (기본 14px에서 ≈40px) */
+    /* 아이콘 버튼이 아닐 때만 적용 */
+    &:not([class*="icon:"]):not(.n-icon) {
+    	min-height: calc(var(--line-height) * 1em + 2 * 0.714em);
+    }
+	border: 1px solid var(--bd-color);
+	border-radius: var(--bd-radius);
+
+	background-color: var(--bg-color);
+	
+	/* 토글 미선택 상태: 변수 기반 (각 타입/색상 블록에서 오버라이드 가능) */
+	&:has(input[type="checkbox"]:not(:checked)):not(:has(input[type="checkbox"]:checked)),
+	&:has(input[type="radio"]:not(:checked)):not(:has(input[type="radio"]:checked)),
+	&:has([aria-pressed="false"]):not(:has([aria-pressed="true"])) {
+		--bg-color: var(--unselected-bg-color);
+		--bd-color: var(--unselected-bd-color);
+		--text-color: var(--unselected-text-color);
+	}
+	
+	/* 선택된 상태: 변수 기반 (각 타입/색상 블록에서 오버라이드 가능) */
+	&:has(:checked),
+	&:has([aria-pressed="true"]) {
+		border-radius: var(--selected-radius, var(--bd-radius));
+		--bd-radius: var(--selected-radius, var(--bd-radius));
+		--bg-color: var(--selected-bg-color);
+		--text-color: var(--selected-text-color);
+		--bd-color: var(--selected-bd-color);
+		--box-shadow: var(--selected-box-shadow, var(--box-shadow));
+	}
+	background-image: var(--bg-image, none);
+	background-blend-mode: var(--bg-blend-mode, normal);
+	box-shadow: var(--box-shadow);
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	transition: background-color 0.15s ease, border-color 0.15s ease,
+		color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+
+	/* 다크 모드: 기본 버튼 텍스트 색상 (Filled 타입) */
+	@media (prefers-color-scheme: dark) {
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--text-color);
+		--text-color-active: var(--text-color);
+		color: var(--text-color);
+	}
+
+	&::before {
+		/* --- 아이콘을 위한 설정 ---- */
+		font-family: "Material Symbols Outlined";
+		width: var(--icon-size);
+		height: var(--icon-size);
+		overflow: hidden;
+		font-size: var(--icon-size);
+
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&:hover {
+		/* hover 시 배경색 - 변수를 통해 제어 */
+		background-color: var(--bg-color-hover, var(--bg-color));
+		background-image: var(--bg-image, none);
+		background-blend-mode: var(--bg-blend-mode);
+		color: var(--text-color-hover);
+		border-color: var(--bd-color-hover);
+		text-decoration: none;
+		
+		/* Material 기본: 타입별로 그림자/스케일을 제어. 기본형에서는 그림자/스케일 제거 */
+		box-shadow: none;
+		transform: none;
+
+		transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, filter 0.2s ease;
+	}
+	
+
+    &:active {		
+        color: var(--text-color-active);
+        /* 기본형은 스케일/그림자 제거 */
+        transform: none;
+        box-shadow: none;
+        /* Pressed 모양은 변수로 일괄 제어 (옵션에서 오버라이드) */
+        border-radius: var(--pressed-radius, var(--bd-radius));
+        --bd-radius: var(--pressed-radius, var(--bd-radius));
+        
+        transition: background-color 0.1s ease, border-color 0.1s ease, color 0.1s ease, 
+            transform 0.1s ease, box-shadow 0.1s ease, filter 0.1s ease, border-radius 0.1s ease;
+    }
+	
+/* 사이즈 옵션은 변수만 설정 → 조합형 보장 */
+&.btn-size\:1,
+&.btn-size\:xs { --pressed-radius: 0.75rem; }
+&.btn-size\:2,
+&.btn-size\:sm { --pressed-radius: 1rem; }
+&.btn-size\:3,
+&.btn-size\:md,
+&.btn-size\:4,
+&.btn-size\:lg,
+&.btn-size\:5,
+&.btn-size\:xl { --pressed-radius: 1.75rem; }
+	
+	/* Pressed 상태 모양은 사이즈 규칙으로 일괄 적용 (변수 기반). 색상/타입 조합 셀렉터는 제거. */
+	&:active {
+		&.btn-size\:1,
+		&.btn-size\:xs {
+			border-radius: 0.75rem; /* 12dp */
+			--bd-radius: 0.75rem; /* 변수도 함께 변경 */
+		}
+		&.btn-size\:2,
+		&.btn-size\:sm {
+			border-radius: 1rem; /* 16dp */
+			--bd-radius: 1rem; /* 변수도 함께 변경 */
+		}
+		&.btn-size\:3,
+		&.btn-size\:md,
+		&.btn-size\:4,
+		&.btn-size\:lg,
+		&.btn-size\:5,
+		&.btn-size\:xl {
+			border-radius: 1.75rem; /* 28dp */
+			--bd-radius: 1.75rem; /* 변수도 함께 변경 */
+		}
+		/* btn-size가 지정되지 않은 경우 기본값 (Medium 크기와 동일) */
+		&:not(.btn-size\:1):not(.btn-size\:xs):not(.btn-size\:2):not(.btn-size\:sm):not(.btn-size\:3):not(.btn-size\:md):not(.btn-size\:4):not(.btn-size\:lg):not(.btn-size\:5):not(.btn-size\:xl) {
+			border-radius: 1.75rem; /* 28dp (기본 Medium 크기) */
+			--bd-radius: 1.75rem; /* 변수도 함께 변경 */
+		}
+	}
+
+	
+	/* active 상태: 변수 기반 (각 색상 블록에서 오버라이드 가능) */
+	&:active {
+		background-color: var(--bg-color-active, var(--bg-color));
+	}
+
+	&:focus-visible {
+		outline: 2px solid var(--bd-color-active);
+		outline-offset: 1px;
+	}
+
+	/*== n-icon과 n-deco의 조합관계 설정 ===========================================*/
+	/* n-btn + n-icon 조합에서는 기본적으로 라벨 숨김 */
+	&.n-icon:not(.n-deco),
+	&[class*="icon:"]:not(.n-deco) {
+		--padding: 0;
+		text-indent: -999px;
+		min-height: var(--icon-btn-height);
+		width: var(--icon-btn-width);
+		height: var(--icon-btn-height);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--icon-btn-bg: var(--icon-btn-bg-dark, transparent);
+			--icon-btn-bg-hover: var(--icon-btn-bg-hover-dark, rgba(var(--rgb-base-9), 0.12));
+			--icon-btn-bg-active: var(--icon-btn-bg-active-dark, rgba(var(--rgb-base-9), 0.18));
+			--icon-btn-bd-color: var(--icon-btn-bd-color-dark, transparent);
+			color: var(--icon-btn-color-dark, var(--color-base-9));
+			--icon-btn-shadow-hover: var(--icon-btn-shadow-hover-dark);
+			--icon-btn-shadow-active: var(--icon-btn-shadow-active-dark);
+			
+			/* Selected 상태 변수 오버라이드 */
+			--selected-bg-color: var(--color-base-9);
+			--selected-text-color: var(--color-base-1);
+		}
+		
+		/* Enabled 상태: 기본 Filled 타입 스타일 사용 (배경 채움, 원형) */
+		background-color: var(--bg-color);
+		border-color: transparent;
+		border-width: 0;
+		border-radius: 50%;
+		box-shadow: none;
+		color: var(--text-color);
+		
+		/* Hovered 상태: 기본 버튼 hover 스타일 사용 */
+		&:hover {
+			background-color: var(--bg-color-hover);
+			border-color: var(--bd-color-hover);
+		}
+		
+		/* Pressed 상태: 기본 버튼 active 스타일 사용 */
+		&:active {
+			background-color: var(--bg-color-active);
+			border-color: var(--bd-color-active);
+			border-radius: 0.5rem;
+		}
+		
+		/* Focused 상태: 기본 버튼 focus 스타일 사용 */
+		&:focus-visible {
+			outline: none;
+			box-shadow: 0 0 0 2px rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.10);
+		}
+		/* 다크 모드: 링 색상 기준 변경 */
+		@media (prefers-color-scheme: dark) {
+			&:focus-visible { box-shadow: 0 0 0 2px rgba(var(--rgb-base-9), 0.10); }
+			&:disabled,
+			&.disabled { background-color: rgba(var(--rgb-base-9), 0.10); }
+		}
+		
+		/* Selected 상태 변수 오버라이드 */
+		--selected-radius: 0.5rem;
+		
+		/* btn-shape:square가 있는 경우: Selected 시 round로 변함 */
+		&.btn-shape\:square {
+			/* 기본 square 모양 */
+			border-radius: var(--bd-radius); /* square의 기본 border-radius */
+			/* Selected 상태: round로 변함 (원형) */
+			--selected-radius: 50%;
+		}
+		
+		/* 색상 토큰이 있는 아이콘 버튼: 기본 Filled 타입 스타일 사용 */
+		&.btn-color\:main-1,
+		&.btn-color\:main-2,
+		&.btn-color\:main-3,
+		&.btn-color\:sub-1,
+		&.btn-color\:sub-2,
+		&.btn-color\:sub-3,
+		&.btn-color\:accent-1,
+		&.btn-color\:accent-2,
+		&.btn-color\:accent-3 {
+			/* 색상 토큰 변수 설정 (기본 Filled 타입 적용) */
+			--bg-color: var(--btn-color-bg);
+			--bd-color: var(--btn-color-bg);
+			--text-color: var(--btn-color-text-on);
+			--text-color-hover: var(--btn-color-text-on);
+			--text-color-active: var(--btn-color-text-on);
+			--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			
+			/* Enabled 상태: 색상 토큰의 Filled 스타일 사용 */
+			background-color: var(--bg-color);
+			border-color: var(--bd-color);
+			color: var(--text-color);
+			
+			/* Hovered 상태: 색상 토큰의 hover 스타일 */
+			&:hover {
+				background-color: var(--bg-color-hover);
+				border-color: var(--bd-color-hover);
+			}
+			
+			/* Pressed 상태: 색상 토큰의 active 스타일 */
+			&:active {
+				background-color: var(--bg-color-active);
+				border-color: var(--bd-color-active);
+			}
+			
+			/* Selected 상태 변수 오버라이드 */
+			--selected-radius: 0.5rem;
+		}
+		
+		/* Disabled 상태: 10% state layer + 38% opacity */
+		&:disabled,
+		&.disabled {
+			color: var(--color-base-4);
+			background-color: rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.10);
+			border-color: transparent;
+			border-radius: 50%;
+			opacity: 0.38;
+			cursor: not-allowed;
+			pointer-events: none;
+		}
+		
+		/* Filled 타입 아이콘 버튼: 테두리 없음, 아이콘 색상만 */
+		&.btn\:filled {
+			/* Enabled 상태: 컨테이너 채움(Filled) */
+			background-color: var(--bg-color);
+			border-color: var(--bd-color);
+			color: var(--text-color, var(--color-base-9));
+			
+			/* Hovered 상태: 기본 버튼 hover 스타일 (원형) */
+			&:hover {
+				background-color: var(--bg-color-hover);
+				border-color: var(--bd-color-hover);
+				border-radius: 50%; /* 원형 */
+			}
+			
+			/* Focused 상태: 10% 투명도 테두리 (원형) */
+			&:focus-visible {
+				outline: none;
+				border-radius: 50%; /* 원형 */
+				box-shadow: 0 0 0 2px rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.10);
+			}
+			
+			/* Pressed 상태: 기본 버튼 active 스타일 (둥근 사각형) */
+			&:active {
+				background-color: var(--bg-color-active);
+				border-color: var(--bd-color-active);
+				border-radius: 0.5rem; /* 둥근 사각형 (8px) */
+			}
+			
+			/* Disabled 상태: 아이콘 회색, 38% opacity */
+			&:disabled,
+			&.disabled {
+				color: var(--color-base-4); /* 라이트 모드: #C4C4C4에 가까운 회색 */
+				background-color: rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.10); /* 10% state layer */
+				border-color: transparent;
+				border-radius: 50%;
+				opacity: 0.38;
+			}
+			
+			/* 다크 모드 스타일 */
+				@media (prefers-color-scheme: dark) {
+					color: var(--text-color, var(--btn-color-text-on, var(--color-base-9)));
+				
+				&:hover {
+					background-color: rgba(var(--btn-color-rgb, var(--rgb-base-9)), 0.08);
+				}
+				
+				&:focus-visible {
+					box-shadow: 0 0 0 2px rgba(var(--btn-color-rgb, var(--rgb-base-9)), 0.10);
+				}
+				
+				&:active {
+					background-color: rgba(var(--btn-color-rgb, var(--rgb-base-9)), 0.1);
+				}
+				
+				&:disabled,
+				&.disabled {
+					color: var(--color-base-5); /* 다크 모드: 중간 회색 */
+					background-color: rgba(var(--btn-color-rgb, var(--rgb-base-9)), 0.10);
+				}
+				
+				/* 색상 토큰이 있는 경우 */
+				&.btn-color\:main-1,
+				&.btn-color\:main-2,
+				&.btn-color\:main-3,
+				&.btn-color\:sub-1,
+				&.btn-color\:sub-2,
+				&.btn-color\:sub-3,
+				&.btn-color\:accent-1,
+				&.btn-color\:accent-2,
+					&.btn-color\:accent-3 {
+						color: var(--btn-color-text-on);
+					
+					&:hover {
+						background-color: rgba(var(--btn-color-rgb), 0.08);
+					}
+					
+					&:focus-visible {
+						box-shadow: 0 0 0 2px rgba(var(--btn-color-rgb), 0.10);
+					}
+					
+					&:active {
+						background-color: rgba(var(--btn-color-rgb), 0.1);
+					}
+					
+					/* Disabled 상태: 아이콘 색상을 회색으로 */
+					&:disabled,
+					&.disabled {
+						color: var(--color-base-5); /* 다크 모드: 중간 회색 */
+						background-color: rgba(var(--btn-color-rgb), 0.10);
+					}
+				}
+			}
+			
+			/* 색상 토큰이 있는 Filled 타입 아이콘 버튼 */
+			&.btn-color\:main-1,
+			&.btn-color\:main-2,
+			&.btn-color\:main-3,
+			&.btn-color\:sub-1,
+			&.btn-color\:sub-2,
+			&.btn-color\:sub-3,
+			&.btn-color\:accent-1,
+			&.btn-color\:accent-2,
+			&.btn-color\:accent-3 {
+				/* Enabled: 색상 토큰 Filled */
+				--bg-color: var(--btn-color-bg);
+				--bd-color: var(--btn-color-bg);
+				--text-color: var(--btn-color-text-on);
+				--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+				--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+				--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+				--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			}
+		}
+	
+		&::before {
+			text-indent: 0;
+			font-size: var(--icon-size);
+			width: var(--icon-size);
+			height: var(--icon-size);
+		}
+	}
+	
+	/* n-btn + n-icon + n-deco 조합에서는 라벨 표시 */
+	&.n-icon.n-deco {
+		text-indent: 0;
+	}
+
+
+	/* ===== Material-inspired Types ===== */
+	/* Text button: no border, transparent bg */
+	&.is-text,
+	&.btn\:text {
+		--bg-color: transparent;
+		--bg-color-hover: rgba(var(--rgb-base-10), 0.08);
+		--bg-color-active: rgba(var(--rgb-base-10), 0.12);
+		--bd-color: transparent;
+		--bd-color-hover: transparent;
+		--bd-color-active: transparent;
+		box-shadow: none;
+		
+		/* Text 선택된 상태: 변화 없음 (Material Design 3) */
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--text-color: var(--color-base-9);
+			--text-color-hover: var(--text-color);
+			--text-color-active: var(--text-color);
+			--bg-color-hover: var(--bg-color-hover-dark-text, rgba(var(--rgb-base-9), 0.08));
+			--bg-color-active: var(--bg-color-active-dark-text, rgba(var(--rgb-base-9), 0.12));
+		}
+	}
+
+	/* Outlined button: 1px outline, transparent bg */
+	&.is-outlined,
+	&.btn\:outlined {
+		--bg-color: transparent;
+		--bg-color-hover: rgba(var(--rgb-base-10), 0.02);
+		--bg-color-active: rgba(var(--rgb-base-10), 0.04);
+		--bd-color: var(--color-base-5);
+		--bd-color-hover: var(--color-base-6);
+		--bd-color-active: var(--color-base-7);
+		box-shadow: none;
+		
+		/* Outlined 선택된 상태 변수 오버라이드 */
+		--selected-bg-color: var(--color-base-9);
+		--selected-bd-color: transparent;
+		--selected-text-color: var(--color-base-1);
+		--selected-radius: 0.5rem;
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--text-color: var(--color-base-9);
+			--text-color-hover: var(--text-color);
+			--text-color-active: var(--text-color);
+			--bd-color: var(--color-base-7);
+			--bd-color-hover: var(--color-base-8);
+			--bd-color-active: var(--color-base-9);
+			--bg-color-hover: rgba(var(--rgb-base-9), 0.08);
+			--bg-color-active: rgba(var(--rgb-base-9), 0.12);
+		}
+	}
+
+	/* Filled tonal: secondary container 톤 */
+	&.is-tonal,
+	&.btn\:tonal {
+		/* base-2 기반 투명 톤 */
+		--bg-color: rgba(var(--rgb-base-2), 0.16);
+		--bg-color-hover: rgba(var(--rgb-base-2), 0.22);
+		--bg-color-active: rgba(var(--rgb-base-2), 0.26);
+		--bd-color: transparent;
+		--bd-color-hover: transparent;
+		--bd-color-active: transparent;
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--color-base-9);
+		--text-color-active: var(--color-base-9);
+		box-shadow: none;
+		
+		/* Tonal 선택된 상태 변수 오버라이드 */
+		--selected-bg-color: var(--color-base-9);
+		--selected-text-color: var(--color-base-1);
+		--selected-radius: 0.5rem;
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--bg-color: rgba(var(--rgb-base-9), 0.16);
+			--bg-color-hover: rgba(var(--rgb-base-9), 0.22);
+			--bg-color-active: rgba(var(--rgb-base-9), 0.26);
+			--text-color: var(--text-color-dark-tonal, var(--color-base-9));
+			--text-color-hover: var(--text-color-hover-dark-tonal, var(--color-base-9));
+			--text-color-active: var(--text-color-active-dark-tonal, var(--color-base-9));
+		}
+	}
+
+	/* Filled(primary): prominent container */
+	&.is-filled,
+	&.btn\:filled,
+	&.is-primary { /* 기존 예제 호환 */
+		/* base-2 계열 고채도 배경 */
+		--bg-color: var(--color-base-2);
+		--bg-color-hover: var(--color-base-3);
+		--bg-color-active: var(--color-base-4);
+		--bd-color: var(--bg-color);
+		--bd-color-hover: var(--bg-color-hover);
+		--bd-color-active: var(--bg-color-active);
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--text-color); /* hover 시 텍스트 색 유지 */
+		--text-color-active: var(--text-color); /* active 시 텍스트 색 유지 */
+		
+		/* Filled 토글 상태 변수 오버라이드 */
+		--unselected-bg-color: rgba(var(--rgb-base-2), 0.16);
+		--unselected-bd-color: transparent;
+		--unselected-text-color: var(--color-base-9);
+		--selected-bg-color: var(--bg-color);
+		--selected-text-color: var(--text-color);
+		--selected-bd-color: var(--bd-color);
+		--selected-radius: 0.5rem;
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--unselected-bg-color: rgba(var(--rgb-base-9), 0.16);
+			--unselected-text-color: var(--text-color-unselected-dark-filled, var(--color-base-9));
+			--selected-text-color: var(--text-color-selected-dark-filled, var(--color-base-1));
+			--text-color-hover: var(--text-color-hover-dark-filled, var(--color-base-9));
+		}
+
+		/* Focused 상태 (10% state layer) - :focus-visible 및 .focus 지원 */
+		&:focus-visible,
+		&.focus {
+			outline: none;
+			/* 컨테이너 위 10% 레이어 느낌: 테마 색 기준으로 링 강조 */
+			box-shadow: 0 0 0 2px rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.40) inset,
+				0 0 0 2px rgba(var(--btn-color-rgb, var(--rgb-base-10)), 0.40);
+		}
+
+		/* Disabled 상태 (:disabled, .disabled) - Filled 타입에서도 동일 적용 */
+		&:disabled,
+		&.disabled {
+			opacity: 0.38;
+			cursor: not-allowed;
+			pointer-events: none;
+		}
+	}
+
+	/* Elevated: filled tonal + shadow */
+	&.is-elevated,
+	&.btn\:elevated {
+		--bg-color: var(--elevated-bg-color);
+		--bg-color-hover: var(--elevated-bg-color-hover);
+		--bg-color-active: var(--elevated-bg-color-active);
+		--bd-color: transparent;
+		--bd-color-hover: transparent;
+		--bd-color-active: transparent;
+		/* 텍스트 가독성 강화: hover/active에서도 동일 색 유지 */
+		--text-color: var(--color-base-9);
+		--text-color-hover: var(--text-color);
+		--text-color-active: var(--text-color);
+		--box-shadow: var(--elevated-shadow);
+		&:hover { --box-shadow: var(--elevated-shadow-hover); }
+		&:active { --box-shadow: var(--elevated-shadow-active); }
+		
+		/* Elevated 선택된 상태 변수 오버라이드 */
+		--selected-bg-color: var(--color-base-9);
+		--selected-text-color: var(--color-base-1);
+		--selected-radius: 0.5rem;
+		--selected-box-shadow: var(--elevated-shadow); /* 그림자 유지 */
+		
+		/* 다크 모드 스타일 */
+		@media (prefers-color-scheme: dark) {
+			--bg-color: var(--bg-color-dark-elevated, var(--elevated-bg-color));
+			--bg-color-hover: var(--bg-color-hover-dark-elevated, var(--elevated-bg-color-hover));
+			--bg-color-active: var(--bg-color-active-dark-elevated, var(--elevated-bg-color-active));
+			--text-color: var(--text-color-dark-elevated, var(--color-base-9));
+			--text-color-hover: var(--text-color-dark-elevated, var(--color-base-9));
+			--text-color-active: var(--text-color-dark-elevated, var(--color-base-9));
+			--elevated-shadow: var(--elevated-shadow-dark);
+			--elevated-shadow-hover: var(--elevated-shadow-hover-dark);
+			--elevated-shadow-active: var(--elevated-shadow-active-dark);
+			--box-shadow: var(--elevated-shadow-dark);
+			&:hover { --box-shadow: var(--elevated-shadow-hover-dark); }
+			&:active { --box-shadow: var(--elevated-shadow-active-dark); }
+		}
+	}
+
+	/* Icon + label spacing helper */
+	&.with-icon { gap: 8px; display: inline-flex; align-items: center; }
+
+ 
+	
+	&:disabled,
+	&.disabled {
+		--text-color: var(--color-base-1);
+		--text-color-hover: var(--color-base-5);
+		--text-color-active: var(--color-base-5);
+		--bd-color: var(--color-base-5);
+		--bd-color-hover: var(--color-base-5);
+		--bd-color-active: var(--color-base-5);
+		--bg-color: var(--color-base-4);
+		--bg-color-hover: var(--color-base-3);
+		--bg-color-active: var(--color-base-3);
+		opacity: 0.38;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+
+
+	/* 크기 옵션: 폰트 크기만 정의하면 패딩은 자동으로 비례 증가 */
+	/* 패딩은 --padding 변수(em 단위)가 자동 적용됨 */
+	/* rem 단위 사용 (16px 기준) */
+	&.btn-size\:1,
+	&.btn-size\:xs { --font-size: 0.75rem; } /* Extra small: 12px = 0.75rem */
+	&.btn-size\:2,
+	&.btn-size\:sm { --font-size: 0.875rem; } /* Small: 14px = 0.875rem */
+	&.btn-size\:3,
+	&.btn-size\:md { --font-size: 1rem; } /* Medium: 16px = 1rem */
+	&.btn-size\:4,
+	&.btn-size\:lg { --font-size: 1.5rem; } /* Large: 24px = 1.5rem */
+	&.btn-size\:5,
+	&.btn-size\:xl { --font-size: 1.25rem; } /* Extra large(1~5 구간): 20px = 1.25rem */
+	&.btn-size\:6 { --font-size: 1.5rem; } /* 24px = 1.5rem */
+	&.btn-size\:7 { --font-size: 1.75rem; } /* 28px = 1.75rem */
+	&.btn-size\:8 { --font-size: 2rem; } /* 32px = 2rem */
+	&.btn-size\:9 { --font-size: 2.25rem; } /* 36px = 2.25rem */
+	&.btn-size\:ex { --font-size: 2rem; } /* Extra large: 32px = 2rem */
+
+	/* <size>------------------------------------ */
+	&.btn-size\:inline {
+		--padding: 0;
+		--line-height: 1em;
+	}
+
+	&.btn-size\:small {
+		--font-size: 0.125rem; /* 2px = 0.125rem */
+		--padding: 0.1em 0.2em;
+		--line-height: 1em;
+	}
+
+	/* <shape>------------------------------------ */
+	/* Square button types: 버튼 크기에 따라 border-radius가 변화 (Material Design) */
+	&.btn-shape\:square {
+		/* 기본값: 작은 버튼용 (12px, 14px) - 12dp = 0.75rem */
+		--bd-radius: 0.75rem;
+		
+		/* Medium (16px) - 16dp = 1rem */
+		&.btn-size\:3,
+		&.btn-size\:md {
+			--bd-radius: 1rem;
+		}
+		
+		/* Large / Extra large (20px, 24px, 28px, 32px, 36px) - 28dp = 1.75rem */
+		&.btn-size\:4,
+		&.btn-size\:5,
+		&.btn-size\:lg,
+		&.btn-size\:xl,
+		&.btn-size\:6,
+		&.btn-size\:7,
+		&.btn-size\:8,
+		&.btn-size\:9,
+		&.btn-size\:ex {
+			--bd-radius: 1.75rem;
+		}
+	}
+
+	/* Sharp: 완전한 직각 사각형 */
+	&.btn-shape\:sharp {
+		--bd-radius: 0;
+	}
+
+	/* <icon>------------------------------------ */
+	/* 아이콘 버튼 크기 옵션 (Material Design Icon Buttons) */
+	/* icon:* 클래스가 있을 때만 적용 */
+	&[class*="icon:"] {
+		/* btn-size:1 (xs) - Row A: 높이 32px, 아이콘 20px */
+		&.btn-size\:1,
+		&.btn-size\:xs {
+			--icon-size: 1.25rem; /* 20px */
+			--icon-btn-height: 2rem; /* 32px */
+			--icon-btn-width: var(--icon-btn-height);
+		}
+		
+		/* btn-size:2 (sm) - Row B: 높이 40px, 아이콘 24px */
+		&.btn-size\:2,
+		&.btn-size\:sm {
+			--icon-size: 1.5rem; /* 24px */
+			--icon-btn-height: 2.5rem; /* 40px */
+			--icon-btn-width: var(--icon-btn-height);
+		}
+		
+		/* btn-size:3 (md) - Row C: 높이 56px, 아이콘 24px */
+		&.btn-size\:3,
+		&.btn-size\:md {
+			--icon-size: 1.5rem; /* 24px */
+			--icon-btn-height: 3.5rem; /* 56px */
+			--icon-btn-width: var(--icon-btn-height);
+		}
+		
+		/* btn-size:4 (lg) - Row D: 높이 96px, 아이콘 32px */
+		&.btn-size\:4,
+		&.btn-size\:lg {
+			--icon-size: 2rem; /* 32px */
+			--icon-btn-height: 6rem; /* 96px */
+			--icon-btn-width: var(--icon-btn-height);
+		}
+		
+		/* btn-size:5 (xl) - Row E: 높이 136px, 아이콘 40px */
+		&.btn-size\:5,
+		&.btn-size\:xl {
+			--icon-size: 2.5rem; /* 40px */
+			--icon-btn-height: 8.5rem; /* 136px */
+			--icon-btn-width: var(--icon-btn-height);
+		}
+	}
+
+	/* 아이콘 버튼 너비 옵션 (Material Design Icon Buttons) */
+	&[class*="icon:"] {
+		/* Default width: 정사각형 (높이 = 너비) */
+		&.btn-width\:default,
+		&:not(.btn-width\:narrow):not(.btn-width\:wide) {
+			--icon-btn-width: var(--icon-btn-height);
+		}
+		
+		/* Narrow width: 세로로 긴 직사각형 (너비 < 높이) */
+		&.btn-width\:narrow {
+			&.btn-size\:1,
+			&.btn-size\:xs { --icon-btn-width: 1.75rem; } /* 28px */
+			&.btn-size\:2,
+			&.btn-size\:sm { --icon-btn-width: 2rem; } /* 32px */
+			&.btn-size\:3,
+			&.btn-size\:md { --icon-btn-width: 3rem; } /* 48px */
+			&.btn-size\:4,
+			&.btn-size\:lg { --icon-btn-width: 4rem; } /* 64px */
+			&.btn-size\:5,
+			&.btn-size\:xl { --icon-btn-width: 6.5rem; } /* 104px */
+		}
+		
+		/* Wide width: 가로로 긴 직사각형 (너비 > 높이) */
+		&.btn-width\:wide {
+			&.btn-size\:1,
+			&.btn-size\:xs { --icon-btn-width: 2.5rem; } /* 40px */
+			&.btn-size\:2,
+			&.btn-size\:sm { --icon-btn-width: 3.25rem; } /* 52px */
+			&.btn-size\:3,
+			&.btn-size\:md { --icon-btn-width: 4.5rem; } /* 72px */
+			&.btn-size\:4,
+			&.btn-size\:lg { --icon-btn-width: 8rem; } /* 128px */
+			&.btn-size\:5,
+			&.btn-size\:xl { --icon-btn-width: 11.5rem; } /* 184px */
+		}
+	}
+
+	/* <color>------------------------------------ */
+	/* 색상 토큰과 타입 조합 규칙 (Text / Outlined / Tonal / Filled / Elevated) */
+
+	/* === MAIN (1~3) === */
+	&.btn-color\:main-1,
+	&.btn-color\:main-2,
+	&.btn-color\:main-3 {
+		/* 현재 팔레트 변수 바인딩 */
+		--btn-color-bg: var(--color-main-1);
+		--btn-color-rgb: var(--rgb-main-1);
+		--btn-color-outline: var(--color-main-1);
+		--btn-color-text-on: var(--color-base-1);
+	}
+	&.btn-color\:main-2 { --btn-color-bg: var(--color-main-2); --btn-color-rgb: var(--rgb-main-2); --btn-color-outline: var(--color-main-2); }
+	&.btn-color\:main-3 { --btn-color-bg: var(--color-main-3); --btn-color-rgb: var(--rgb-main-3); --btn-color-outline: var(--color-main-3); }
+
+	&.btn-color\:main-1,&.btn-color\:main-2,&.btn-color\:main-3 {
+		/* 색상 토큰만 있는 경우 (기본 Filled 타입 적용) */
+		--bg-color: var(--btn-color-bg);
+		--bd-color: var(--btn-color-bg);
+		--text-color: var(--btn-color-text-on);
+		--text-color-hover: var(--btn-color-text-on);
+		--text-color-active: var(--btn-color-text-on);
+		--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		/* 토글 상태 변수 오버라이드 */
+		--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+		--unselected-bd-color: transparent;
+		--unselected-text-color: var(--btn-color-outline);
+		--selected-bg-color: var(--btn-color-bg);
+		--selected-text-color: var(--btn-color-text-on);
+		--selected-bd-color: var(--btn-color-bg);
+		--selected-radius: 0.5rem;
+		
+		@media (prefers-color-scheme: dark) {
+			--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 92%, white 8%);
+			--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 92%, white 8%);
+			--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 88%, white 12%);
+			--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 88%, white 12%);
+		}
+		&.btn\:filled {
+			--bg-color: var(--btn-color-bg);
+			--bd-color: var(--btn-color-bg);
+			--text-color: var(--btn-color-text-on);
+			--text-color-hover: var(--btn-color-text-on); /* 유지 */
+			--text-color-active: var(--btn-color-text-on); /* 유지 */
+				/* 더 자연스러운 hover/active
+				   - Light: 원색을 기준으로 어둡게
+				   - Dark: 흰색과 섞어 밝게 */
+				--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+				--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+				--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+				--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+				@media (prefers-color-scheme: dark) {
+					--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 92%, white 8%);
+					--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 92%, white 8%);
+					--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 88%, white 12%);
+					--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 88%, white 12%);
+				}
+			/* Filled 토글 상태 변수 오버라이드 */
+			--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+			--unselected-bd-color: transparent;
+			--unselected-text-color: var(--btn-color-outline);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-bd-color: var(--btn-color-bg);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:tonal {
+			--bg-color: rgba(var(--btn-color-rgb), 0.16);
+			--bg-color-hover: rgba(var(--btn-color-rgb), 0.24);
+			--bg-color-active: rgba(var(--btn-color-rgb), 0.30);
+			--bd-color: transparent;
+			--text-color: var(--color-base-9);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:outlined {
+			--bg-color: transparent;
+			--bd-color: var(--btn-color-outline);
+			--bd-color-hover: var(--btn-color-outline);
+			--text-color: var(--btn-color-outline);
+			--bg-color-hover: rgba(var(--btn-color-rgb), 0.08);
+			--bg-color-active: rgba(var(--btn-color-rgb), 0.12);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-bd-color: transparent;
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:text { --text-color: var(--btn-color-outline); --bg-color-hover: rgba(var(--btn-color-rgb), 0.20); --bg-color-active: rgba(var(--btn-color-rgb), 0.14); }
+		&.btn\:elevated {
+			--text-color: var(--btn-color-outline);
+			--text-color-hover: var(--btn-color-outline);
+			--text-color-active: var(--btn-color-outline);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+			--selected-box-shadow: var(--elevated-shadow); /* 그림자 유지 */
+		}
+	}
+
+	/* === SUB (1~3) === */
+	&.btn-color\:sub-1,
+	&.btn-color\:sub-2,
+	&.btn-color\:sub-3 {
+		--btn-color-bg: var(--color-sub-1);
+		--btn-color-rgb: var(--rgb-sub-1);
+		--btn-color-outline: var(--color-sub-1);
+		--btn-color-text-on: var(--color-base-1);
+	}
+	&.btn-color\:sub-2 { --btn-color-bg: var(--color-sub-2); --btn-color-rgb: var(--rgb-sub-2); --btn-color-outline: var(--color-sub-2); }
+	&.btn-color\:sub-3 { --btn-color-bg: var(--color-sub-3); --btn-color-rgb: var(--rgb-sub-3); --btn-color-outline: var(--color-sub-3); }
+
+	&.btn-color\:sub-1,&.btn-color\:sub-2,&.btn-color\:sub-3 {
+		/* 색상 토큰만 있는 경우 (기본 Filled 타입 적용) */
+		--bg-color: var(--btn-color-bg);
+		--bd-color: var(--btn-color-bg);
+		--text-color: var(--btn-color-text-on);
+		--text-color-hover: var(--btn-color-text-on);
+		--text-color-active: var(--btn-color-text-on);
+		--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		/* 토글 상태 변수 오버라이드 */
+		--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+		--unselected-bd-color: transparent;
+		--unselected-text-color: var(--btn-color-outline);
+		--selected-bg-color: var(--btn-color-bg);
+		--selected-text-color: var(--btn-color-text-on);
+		--selected-bd-color: var(--btn-color-bg);
+		--selected-radius: 0.5rem;
+		
+		&.btn\:filled {
+			--bg-color: var(--btn-color-bg);
+			--bd-color: var(--btn-color-bg);
+			--text-color: var(--btn-color-text-on);
+			--text-color-hover: var(--btn-color-text-on);
+			--text-color-active: var(--btn-color-text-on);
+			--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			/* Filled 토글 상태 변수 오버라이드 */
+			--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+			--unselected-bd-color: transparent;
+			--unselected-text-color: var(--btn-color-outline);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-bd-color: var(--btn-color-bg);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:tonal { --bg-color: rgba(var(--btn-color-rgb), 0.16); --bg-color-hover: rgba(var(--btn-color-rgb), 0.24); --bg-color-active: rgba(var(--btn-color-rgb), 0.30); --bd-color: transparent; --text-color: var(--color-base-9); }
+		&.btn\:outlined { --bg-color: transparent; --bd-color: var(--btn-color-outline); --bd-color-hover: var(--btn-color-outline); --text-color: var(--btn-color-outline); --bg-color-hover: rgba(var(--btn-color-rgb), 0.08); --bg-color-active: rgba(var(--btn-color-rgb), 0.12); }
+		&.btn\:text { --text-color: var(--btn-color-outline); --bg-color-hover: rgba(var(--btn-color-rgb), 0.10); --bg-color-active: rgba(var(--btn-color-rgb), 0.14); }
+		&.btn\:elevated { --text-color: var(--btn-color-outline); }
+	}
+
+	/* === ACCENT (1~3) === */
+	&.btn-color\:accent-1,
+	&.btn-color\:accent-2,
+	&.btn-color\:accent-3 {
+		--btn-color-bg: var(--color-accent-1);
+		--btn-color-rgb: var(--rgb-accent-1);
+		--btn-color-outline: var(--color-accent-1);
+		--btn-color-text-on: var(--color-base-1);
+	}
+	&.btn-color\:accent-2 { --btn-color-bg: var(--color-accent-2); --btn-color-rgb: var(--rgb-accent-2); --btn-color-outline: var(--color-accent-2); }
+	&.btn-color\:accent-3 { --btn-color-bg: var(--color-accent-3); --btn-color-rgb: var(--rgb-accent-3); --btn-color-outline: var(--color-accent-3); }
+
+	&.btn-color\:accent-1,&.btn-color\:accent-2,&.btn-color\:accent-3 {
+		/* 색상 토큰만 있는 경우 (기본 Filled 타입 적용) */
+		--bg-color: var(--btn-color-bg);
+		--bd-color: var(--btn-color-bg);
+		--text-color: var(--btn-color-text-on);
+		--text-color-hover: var(--btn-color-text-on);
+		--text-color-active: var(--btn-color-text-on);
+		--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+		--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+		/* 토글 상태 변수 오버라이드 */
+		--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+		--unselected-bd-color: transparent;
+		--unselected-text-color: var(--btn-color-outline);
+		--selected-bg-color: var(--btn-color-bg);
+		--selected-text-color: var(--btn-color-text-on);
+		--selected-bd-color: var(--btn-color-bg);
+		--selected-radius: 0.5rem;
+		
+		&.btn\:filled {
+			--bg-color: var(--btn-color-bg);
+			--bd-color: var(--btn-color-bg);
+			--text-color: var(--btn-color-text-on);
+			--text-color-hover: var(--btn-color-text-on);
+			--text-color-active: var(--btn-color-text-on);
+			--bg-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bd-color-hover: color-mix(in srgb, var(--btn-color-bg) 90%, black 10%);
+			--bg-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			--bd-color-active: color-mix(in srgb, var(--btn-color-bg) 82%, black 18%);
+			/* Filled 토글 상태 변수 오버라이드 */
+			--unselected-bg-color: rgba(var(--btn-color-rgb), 0.16);
+			--unselected-bd-color: transparent;
+			--unselected-text-color: var(--btn-color-outline);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-bd-color: var(--btn-color-bg);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:tonal {
+			--bg-color: rgba(var(--btn-color-rgb), 0.16);
+			--bg-color-hover: rgba(var(--btn-color-rgb), 0.24);
+			--bg-color-active: rgba(var(--btn-color-rgb), 0.30);
+			--bd-color: transparent;
+			--text-color: var(--color-base-9);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:outlined {
+			--bg-color: transparent;
+			--bd-color: var(--btn-color-outline);
+			--bd-color-hover: var(--btn-color-outline);
+			--text-color: var(--btn-color-outline);
+			--bg-color-hover: rgba(var(--btn-color-rgb), 0.08);
+			--bg-color-active: rgba(var(--btn-color-rgb), 0.12);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-bd-color: transparent;
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+		}
+		&.btn\:text { --text-color: var(--btn-color-outline); --bg-color-hover: rgba(var(--btn-color-rgb), 0.10); --bg-color-active: rgba(var(--btn-color-rgb), 0.14); }
+		&.btn\:elevated {
+			--text-color: var(--btn-color-outline);
+			--selected-bg-color: var(--btn-color-bg);
+			--selected-text-color: var(--btn-color-text-on);
+			--selected-radius: 0.5rem;
+			--selected-box-shadow: var(--elevated-shadow); /* 그림자 유지 */
+		}
+	}
+}
+
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+	/* XL 브레이크포인트용 스타일 추가 가능 */
+}
+
+
+

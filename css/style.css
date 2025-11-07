@@ -67,7 +67,7 @@ body {
 		BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
 		"Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-	font-size: var(--font-size, 14px);
+	font-size: var(--font-size-body, 0.875rem); /* 14px = 0.875rem (16px 기준) */
 	color: var(--color-text);
 	background-color: var(--color-background);
 	line-height: var(--line-height-normal, 1.5);

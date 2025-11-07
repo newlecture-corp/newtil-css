@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import path from "path";
 
-const BASE_PATH = "/newtil-css/";
+const BASE_PATH = "/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,16 +9,21 @@ export default defineConfig({
   base: BASE_PATH,
   title: "Newtil CSS",
   description: "Utility based CSS",
-  appearance: false, // darkmode
+  appearance: true, // 다크 모드 활성화
   lang: "ko",
-  head: [["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }]],
+  head: [
+    ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
+    ["link", { rel: "stylesheet", href: `${BASE_PATH}style.css` }],
+  ],
 
   vite: {
     resolve: {
       alias: {
-        "newtil-css": path.resolve(__dirname, "../../css/style.css"),
+        "newtil-css": path.resolve(__dirname, "../../dist/style.css"),
       },
     },
+    // VitePress는 기본적으로 PostCSS를 지원하므로 
+    // @import 문과 url() 처리가 자동으로 됩니다
   },
 
   // https://vitepress.dev/reference/default-theme-config
