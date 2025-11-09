@@ -7,7 +7,10 @@
 	--padding: 0 var(--space-10); /* 수직: 0, 수평: 16px (btn-size:sm과 동일) */
 
     /* 모양: 크기 변화에도 일관된 타원형(필) 형태 유지 */
-    --bd-radius: 9999px; /* pill shape */
+    --bd-top-left-radius: 9999px; /* pill shape */
+    --bd-top-right-radius: 9999px; /* pill shape */
+    --bd-bottom-left-radius: 9999px; /* pill shape */
+    --bd-bottom-right-radius: 9999px; /* pill shape */
 	/* 기본 버튼은 Filled 타입: 이미지 가이드 기반 색상 */
 	/* 기본 색상 변수: 이 변수만 변경하면 hover, pressed, disabled 상태 및 다크 모드 색상이 자동으로 계산됩니다 */
 	/* 이미지의 버튼 배경색 (muted dark purple-grey) */
@@ -25,7 +28,7 @@
 	--bd-color-disabled: var(--bg-color-disabled);
 
 	/* Focus 테두리 색상: 기본 색상 기반 계산 */
-	--focus-border-color: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 라이트 모드 포커스 테두리 */
+	--bd-color-focus: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 라이트 모드 포커스 테두리 */
 
 	/* 텍스트 색상: 기본 배경색에서 자동 계산 */
 	/* 기본 배경색에 white를 섞어서 밝은 텍스트 색상 생성 */
@@ -85,7 +88,7 @@
 		--bd-color-disabled: var(--bg-color-disabled);
 		
 		/* Focus 테두리 색상: 기본 색상 기반 계산 */
-		--focus-border-color: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 다크 모드 포커스 테두리 */
+		--bd-color-focus: color-mix(in srgb, var(--btn-base-color) 60%, black 40%); /* 다크 모드 포커스 테두리 */
 		
 		/* 다크 모드 텍스트: 기본 배경색에서 자동 계산 */
 		/* 밝은 배경색에 black을 섞어서 어두운 텍스트 색상 생성 */
@@ -124,7 +127,10 @@
 	
 	/* 테두리 및 모양 */
 	border: 1px solid var(--bd-color);
-	border-radius: var(--bd-radius);
+	border-top-left-radius: var(--bd-top-left-radius);
+	border-bottom-left-radius: var(--bd-bottom-left-radius);
+	border-top-right-radius: var(--bd-top-right-radius);
+	border-bottom-right-radius: var(--bd-bottom-right-radius);
 
 	/* 배경 및 텍스트 */
 	background-color: var(--bg-color);
@@ -190,12 +196,18 @@
 	
 	/* .btn-shape:square - 둥근 모서리 */
 	&.btn-shape\:square {
-		--bd-radius: var(--bd-radius-square, 0.5em);
+		--bd-top-left-radius: 12px;
+		--bd-top-right-radius: 12px;
+		--bd-bottom-left-radius: 12px;
+		--bd-bottom-right-radius: 12px;
 	}
 
 	/* .btn-shape:sharp - 라운드 없는 네모 */
 	&.btn-shape\:sharp {
-		--bd-radius: 0;
+		--bd-top-left-radius: 0;
+		--bd-top-right-radius: 0;
+		--bd-bottom-left-radius: 0;
+		--bd-bottom-right-radius: 0;
 	}
 
 
@@ -217,9 +229,13 @@
 	
 	/* Active/Pressed/Selected 상태 */
 	&:active,	
+	&:has([aria-pressed="true"]),
 	&.btn-state\:pressed {
 		/* 눌림 시 모서리를 더 둥글게 (이미지 참조) */
-		--bd-radius: var(--bd-radius-pressed, 0.5rem);
+		--bd-top-left-radius: 8px;
+		--bd-top-right-radius: 8px;
+		--bd-bottom-left-radius: 8px;
+		--bd-bottom-right-radius: 8px;
 		/* 옵션처럼 동작: 기본 변수 값을 변경하여 스타일 적용 */
 		--bg-color: var(--bg-color-active);
 		--bd-color: var(--bd-color-active);
@@ -229,12 +245,19 @@
 		--bg-image: 
 			radial-gradient(120% 140% at 20% 10%, color-mix(in srgb, var(--bg-color-active) 85%, white 15%) 0%, transparent 60%),
 			radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 70%, black 30%) 0%, transparent 55%);
+
+		&.btn-shape\:square {
+			--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
+		}
 	}
 	
 	/* Focus 상태 */
 	&:focus-visible,
 	&.btn-state\:focused {
-		--focus-outline: 2px solid var(--focus-border-color, var(--color-main-1, var(--color-base-9)));
+		--focus-outline: 2px solid var(--bd-color-focus, var(--color-main-1, var(--color-base-9)));
 		--focus-outline-offset: 2px;
 	}
 	
@@ -250,20 +273,6 @@
 		--pointer-events: none;
 	}
 
-	/* Selected 상태 */
-	&:has(:not(:checked)),
-	&:has([aria-pressed="false"]) {		
-		--opacity: 0.38;
-	}
-	&:has(:checked),
-	&:has([aria-pressed="true"]){
-		--bd-radius: var(--bd-radius-pressed, 0.5rem);
-		--opacity: 1;	
-		
-		&.btn-shape\:square {
-			--bd-radius: 999px; /* round 모양으로 radius 설정 */
-		}
-	}
 	
 	/*
 	╔════════════════════════════════════════════════════════════════════╗
@@ -335,14 +344,21 @@
 			--bd-color: transparent;
 			--text-color: var(--text-color-active);
 			--box-shadow: var(--box-shadow); /* Tonal은 그림자 강화 없음 */
-			--bd-radius: var(--bd-radius-pressed, 0.5rem); /* 이미지 가이드: 살짝 더 둥글게 */
+			/* 이미지 가이드: 살짝 더 둥글게 */
+			--bd-top-left-radius: 8px;
+			--bd-top-right-radius: 8px;
+			--bd-bottom-left-radius: 8px;
+			--bd-bottom-right-radius: 8px;
 			/* 더 약한 오버레이(밝/어둠 비율 완만) */
 			--bg-image:
 				radial-gradient(120% 140% at 20% 10%, color-mix(in srgb, var(--bg-color-active) 92%, white 8%) 0%, transparent 60%),
 				radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 80%, black 20%) 0%, transparent 55%);
 
 			&.btn-shape\:square {
-				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}		
 		
@@ -404,10 +420,17 @@
 			--bd-color: var(--bd-color-active);
 			--text-color: var(--text-color-active);
 			--box-shadow: var(--box-shadow); /* Outlined는 그림자 강화 없음 */
-			--bd-radius: var(--bd-radius-pressed, 0.5rem); /* 이미지 가이드: 살짝 더 둥글게 */
+			/* 이미지 가이드: 살짝 더 둥글게 */
+			--bd-top-left-radius: 8px;
+			--bd-top-right-radius: 8px;
+			--bd-bottom-left-radius: 8px;
+			--bd-bottom-right-radius: 8px;
 
 			&.btn-shape\:square {
-				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 		
@@ -464,7 +487,11 @@
 		&:has(:checked),
 		&:has([aria-pressed="true"]),
 		&.btn-state\:pressed {
-			--bd-radius: var(--bd-radius-pressed, 0.5rem);
+			--bd-top-left-radius: 12px;
+			--bd-top-right-radius: 12px;
+			--bd-bottom-left-radius: 12px;
+			--bd-bottom-right-radius: 12px;
+
 			--bg-color: var(--bg-color-active);
 			--bd-color: transparent;
 			--text-color: var(--text-color-active);
@@ -475,7 +502,10 @@
 				radial-gradient(140% 160% at 80% 100%, color-mix(in srgb, var(--bg-color-active) 80%, black 20%) 0%, transparent 55%);
 
 			&.btn-shape\:square {
-				--bd-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 		
@@ -571,7 +601,10 @@
 		padding: var(--icon-btn-padding);
 		
 		/* 아이콘 버튼은 원형 (Material Design 기본) */
-		--bd-radius: 50%;
+		--bd-top-left-radius: 50%;
+		--bd-top-right-radius: 50%;
+		--bd-bottom-left-radius: 50%;
+		--bd-bottom-right-radius: 50%;
 		
 		/* 아이콘 색상: 버튼 텍스트 색상과 동일하게 */
 		/* n-icon의 ::before에 color가 상속되므로 별도 설정 불필요 */
@@ -606,11 +639,18 @@
 		--font-size: var(--space-6); /* 12px */
 		--min-height: var(--space-19); /* 32px */
 		--padding: 0 var(--space-6); /* 수직: 0, 수평: 12px */
-		--bd-radius-square: var(--space-6); /* 12px (square 모양) */
-		--bd-radius-pressed: var(--space-4); /* 8px (pressed 상태) */
+		
+
+		&.btn-shape\:square {
+			--bd-top-left-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 12px; /* round 모양으로 radius 설정 */
+		}
 
 		&.n-icon {
 			/* 아이콘 버튼 크기별 설정: btn-size:1 (32px) */
+			/* 이미지 가이드: 아이콘 크기 20px */
 			--icon-size: var(--space-13); /* 20px */
 			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 6px = (32-20)/2 */
 			--icon-btn-size: var(--min-height); /* 32px (버튼 높이와 동일) */
@@ -625,14 +665,26 @@
 		&.n-deco {
 			/* n-deco 아이콘 크기별 설정: btn-size:1 (32px) */
 			/* n-deco는 아이콘과 텍스트를 함께 표시하므로, 아이콘 크기와 gap 설정 */
+			/* 이미지 가이드: 아이콘과 라벨 사이 간격 4px */
+			/* n-deco.css의 ::before가 var(--icon-size)를 사용하므로 변수만 설정하면 자동 적용 */
 			--icon-size: var(--space-13); /* 20px */
 			--deco-gap: var(--space-3); /* 4px */
-			
-			/* ::before 슈도 클래스의 크기 직접 설정 */
-			&::before {
-				width: var(--icon-size);
-				height: var(--icon-size);
-				font-size: var(--icon-size);
+		}
+
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-top-left-radius: 8px;
+			--bd-top-right-radius: 8px;
+			--bd-bottom-left-radius: 8px;
+			--bd-bottom-right-radius: 8px;
+
+			&.btn-shape\:square {
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 	}
@@ -642,13 +694,19 @@
 		--font-size: var(--space-8); /* 14px */
 		--min-height: var(--space-22); /* 40px */
 		--padding: 0 var(--space-10); /* 수직: 0, 수평: 16px */
-		--bd-radius-square: var(--space-6); /* 12px (square 모양) */
-		--bd-radius-pressed: var(--space-4); /* 8px (pressed 상태) */
+
+		&.btn-shape\:square {
+			--bd-top-left-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 12px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 12px; /* round 모양으로 radius 설정 */
+		}
 
 		&.n-icon {
 			/* 아이콘 버튼 크기별 설정: btn-size:2 (40px) */
-			--icon-size: var(--space-13); /* 20px */
-			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 10px = (40-20)/2 */
+			/* 이미지 가이드: 아이콘 크기 24px */
+			--icon-size: var(--space-15); /* 24px */
+			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 8px = (40-24)/2 */
 			--icon-btn-size: var(--min-height); /* 40px (버튼 높이와 동일) */
 			
 			/* ::before 슈도 클래스의 크기 직접 설정 */
@@ -660,14 +718,26 @@
 		}
 		&.n-deco {
 			/* n-deco 아이콘 크기별 설정: btn-size:2 (40px) */
-			--icon-size: var(--space-13); /* 20px */
+			/* 이미지 가이드: 아이콘 크기 24px, 아이콘과 라벨 사이 간격 8px */
+			/* n-deco.css의 ::before가 var(--icon-size)를 사용하므로 변수만 설정하면 자동 적용 */
+			--icon-size: var(--space-15); /* 24px */
 			--deco-gap: var(--space-4); /* 8px */
-			
-			/* ::before 슈도 클래스의 크기 직접 설정 */
-			&::before {
-				width: var(--icon-size);
-				height: var(--icon-size);
-				font-size: var(--icon-size);
+		}
+
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-top-left-radius: 8px;
+			--bd-top-right-radius: 8px;
+			--bd-bottom-left-radius: 8px;
+			--bd-bottom-right-radius: 8px;
+
+			&.btn-shape\:square {
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 	}
@@ -677,11 +747,17 @@
 		--font-size: var(--space-10); /* 16px */
 		--min-height: var(--space-28); /* 56px */
 		--padding: 0 var(--space-15); /* 수직: 0, 수평: 24px */
-		--bd-radius-square: var(--space-10); /* 16px (square 모양) */
-		--bd-radius-pressed: var(--space-6); /* 12px (pressed 상태) */
+
+		&.btn-shape\:square {
+			--bd-top-left-radius: 16px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 16px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 16px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 16px; /* round 모양으로 radius 설정 */
+		}
 		
 		&.n-icon {
 			/* 아이콘 버튼 크기별 설정: btn-size:3 (56px) */
+			/* 이미지 가이드: 아이콘 크기 24px */
 			--icon-size: var(--space-15); /* 24px */
 			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 16px = (56-24)/2 */
 			--icon-btn-size: var(--min-height); /* 56px (버튼 높이와 동일) */
@@ -695,14 +771,26 @@
 		}
 		&.n-deco {
 			/* n-deco 아이콘 크기별 설정: btn-size:3 (56px) */
+			/* 이미지 가이드: 아이콘 크기 24px, 아이콘과 라벨 사이 간격 8px */
+			/* n-deco.css의 ::before가 var(--icon-size)를 사용하므로 변수만 설정하면 자동 적용 */
 			--icon-size: var(--space-15); /* 24px */
 			--deco-gap: var(--space-4); /* 8px */
-			
-			/* ::before 슈도 클래스의 크기 직접 설정 */
-			&::before {
-				width: var(--icon-size);
-				height: var(--icon-size);
-				font-size: var(--icon-size);
+		}
+
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-top-left-radius: 12px;
+			--bd-top-right-radius: 12px;
+			--bd-bottom-left-radius: 12px;
+			--bd-bottom-right-radius: 12px;
+
+			&.btn-shape\:square {
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 	}
@@ -712,11 +800,16 @@
 		--font-size: var(--space-15); /* 24px */
 		--min-height: var(--space-32); /* 96px */
 		--padding: 0 var(--space-24); /* 수직: 0, 수평: 48px */
-		--bd-radius-square: var(--space-17); /* 28px (square 모양) */
-		--bd-radius-pressed: var(--space-10); /* 16px (pressed 상태) */
+		&.btn-shape\:square {
+			--bd-top-left-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 28px; /* round 모양으로 radius 설정 */
+		}
 		
 		&.n-icon {
 			/* 아이콘 버튼 크기별 설정: btn-size:4 (96px) */
+			/* 이미지 가이드: 아이콘 크기 32px */
 			--icon-size: var(--space-19); /* 32px */
 			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 32px = (96-32)/2 */
 			--icon-btn-size: var(--min-height); /* 96px (버튼 높이와 동일) */
@@ -730,14 +823,26 @@
 		}
 		&.n-deco {
 			/* n-deco 아이콘 크기별 설정: btn-size:4 (96px) */
+			/* 이미지 가이드: 아이콘 크기 32px, 아이콘과 라벨 사이 간격 12px */
+			/* n-deco.css의 ::before가 var(--icon-size)를 사용하므로 변수만 설정하면 자동 적용 */
 			--icon-size: var(--space-19); /* 32px */
 			--deco-gap: var(--space-6); /* 12px */
-			
-			/* ::before 슈도 클래스의 크기 직접 설정 */
-			&::before {
-				width: var(--icon-size);
-				height: var(--icon-size);
-				font-size: var(--icon-size);
+		}
+
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-top-left-radius: 16px;
+			--bd-top-right-radius: 16px;
+			--bd-bottom-left-radius: 16px;
+			--bd-bottom-right-radius: 16px;
+
+			&.btn-shape\:square {
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 	}
@@ -747,11 +852,16 @@
 		--font-size: var(--space-19); /* 32px */
 		--min-height: var(--space-35); /* 136px */
 		--padding: 0 var(--space-29); /* 수직: 0, 수평: 64px */
-		--bd-radius-square: var(--space-17); /* 28px (square 모양) */
-		--bd-radius-pressed: var(--space-10); /* 16px (pressed 상태) */
+		&.btn-shape\:square {
+			--bd-top-left-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-top-right-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-bottom-left-radius: 28px; /* round 모양으로 radius 설정 */
+			--bd-bottom-right-radius: 28px; /* round 모양으로 radius 설정 */
+		}
 		
 		&.n-icon {
 			/* 아이콘 버튼 크기별 설정: btn-size:5 (136px) */
+			/* 이미지 가이드: 아이콘 크기 40px */
 			--icon-size: var(--space-22); /* 40px */
 			--icon-btn-padding: calc((var(--min-height) - var(--icon-size)) / 2); /* 48px = (136-40)/2 */
 			--icon-btn-size: var(--min-height); /* 136px (버튼 높이와 동일) */
@@ -765,14 +875,26 @@
 		}
 		&.n-deco {
 			/* n-deco 아이콘 크기별 설정: btn-size:5 (136px) */
+			/* 이미지 가이드: 아이콘 크기 40px, 아이콘과 라벨 사이 간격 16px */
+			/* n-deco.css의 ::before가 var(--icon-size)를 사용하므로 변수만 설정하면 자동 적용 */
 			--icon-size: var(--space-22); /* 40px */
 			--deco-gap: var(--space-10); /* 16px */
-			
-			/* ::before 슈도 클래스의 크기 직접 설정 */
-			&::before {
-				width: var(--icon-size);
-				height: var(--icon-size);
-				font-size: var(--icon-size);
+		}
+
+		&:active,
+		&:has(:checked),
+		&:has([aria-pressed="true"]),
+		&.btn-state\:pressed {
+			--bd-top-left-radius: 16px;
+			--bd-top-right-radius: 16px;
+			--bd-bottom-left-radius: 16px;
+			--bd-bottom-right-radius: 16px;
+
+			&.btn-shape\:square {
+				--bd-top-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-top-right-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-left-radius: 999px; /* round 모양으로 radius 설정 */
+				--bd-bottom-right-radius: 999px; /* round 모양으로 radius 설정 */
 			}
 		}
 	}

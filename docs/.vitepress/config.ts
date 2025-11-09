@@ -19,7 +19,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "newtil-css": path.resolve(__dirname, "../../dist/style.css"),
+        "newtil-css": path.resolve(__dirname, "../../css/style.css"),
       },
     },
     // VitePress는 기본적으로 PostCSS를 지원하므로 
