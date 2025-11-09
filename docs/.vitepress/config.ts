@@ -28,7 +28,7 @@ export default defineConfig({
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
-    logo: { src: `${BASE_PATH}logo.png`, width: 24, height: 24 },
+    logo: { src: "/logo.png", width: 24, height: 24 },
 
     socialLinks: [
       {
