@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import path from "path";
 
-const BASE_PATH = "/";
+const BASE_PATH = "/newtil-css/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,7 +28,7 @@ export default defineConfig({
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
-    logo: { src: "/logo.png", width: 24, height: 24 },
+    logo: { src: `${BASE_PATH}logo.png`, width: 24, height: 24 },
 
     socialLinks: [
       {
