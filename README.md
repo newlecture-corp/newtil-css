@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://newlecture-corp.github.io/newtil-css/">
     <img
-      src="https://github.com/newlecture-corp/newtil-css/blob/main/docs/public/logo.png"
+      src="docs/public/logo.png"
       alt="newtil-css"
       height="120"
     />
@@ -30,6 +30,9 @@
 
 ## ✨ 주요 특징
 
+### 🎨 Material 3 Design 100% 지원하는 컴포넌트
+Google의 Material Design 3 가이드라인을 완벽하게 반영한 컴포넌트를 제공합니다. 모든 디자인 원칙, 상호작용 패턴, 접근성 가이드라인을 정확히 구현합니다.
+
 ### 🎯 순수 CSS와 100% 동일한 명명 규칙
 CSS 속성을 그대로 클래스명으로 사용하여 학습 곡선을 최소화합니다.
 
@@ -45,6 +48,32 @@ Google Material Icons를 간편하게 사용할 수 있습니다.
 <span class="n-icon icon:home">home</span>
 <span class="n-icon icon:menu">menu</span>
 ```
+
+### 🚨 버튼 컴포넌트 예제
+
+아래는 Newtil CSS 버튼 컴포넌트를 사용하는 간단한 예제입니다.
+
+```html
+<!-- Filled 타입 기본 버튼 -->
+<button class="n-btn">Filled 버튼</button>
+
+<!-- Tonal 타입, 라운드, 아이콘 포함 버튼 -->
+<button class="n-btn btn:tonal btn-shape:round">
+  <span class="n-icon icon:add" aria-hidden="true">add</span>
+  추가하기
+</button>
+
+<!-- Outlined 타입, 아이콘 전용(사각형, 사이즈 2) 버튼 -->
+<button class="n-btn btn:outlined btn-size:2 btn-shape:square n-icon icon:edit" aria-label="수정">
+  edit
+</button>
+
+<!-- Disabled(비활성) 상태 버튼 -->
+<button class="n-btn" disabled>비활성 버튼</button>
+```
+
+> 다양한 버튼 스타일과 상태를 `n-btn`, `btn:tonal`, `btn:outlined`, `btn-shape:round`, `btn-size:2` 등 클래스 조합으로 쉽게 구현할 수 있습니다.
+
 
 ### 🔧 CSS 변수 기반 컴포넌트
 사용자 정의가 쉬운 유연한 컴포넌트 시스템을 제공합니다.
