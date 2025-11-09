@@ -3,9 +3,20 @@
 * ───────────────────────────────────    */
 
 .n-deco {
-	
-	--deco-gap: 4px;
+	/* n-deco 변수 선언 (라이트 모드 기본값) */
+	--deco-gap: var(--space-4); /* 4px */
+}
 
+/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
+@media (prefers-color-scheme: dark) {
+	.n-deco {
+		/* n-deco 변수 (다크 모드) - 라이트 모드와 동일 */
+		--deco-gap: var(--space-4); /* 4px */
+	}
+}
+
+.n-deco {
+	/* n-deco CSS 속성 설정 */
 	width: auto;
 	text-indent: initial;
 	text-align: center;
