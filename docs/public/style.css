@@ -1,16 +1,5 @@
 /* ===== NEWTIL CSS MAIN STYLE ===== */
 
-/* Reset & Base */
-@import url("./reset.css");
-/* @import url("./root.css"); */
-
-/* Utility System - Component-first + Utility-last 철학 */
-@import url("./util/index.css");
-
-/* Component System */
-@import url(components.css);
-/* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"); */
-
 /* @media (prefers-color-scheme: dark) {
 	:root {
 		--color-base-7: #ffffff;

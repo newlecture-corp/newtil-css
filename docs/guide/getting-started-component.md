@@ -90,13 +90,8 @@ NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접�
 ## 사용 가능한 컴포넌트
 
 - [Button](/components/button) - 버튼 컴포넌트
-- [List](/components/list) - 리스트 컴포넌트
-- [Modal](/components/modal) - 모달 다이얼로그
-- [Drawer](/components/drawer) - 사이드 드로어
-- [Form](/components/form) - 폼 요소들
-- [Table](/components/table) - 테이블 컴포넌트
-- [Panel](/components/panel) - 패널 컴포넌트
-- [Container](/components/container) - 컨테이너 컴포넌트
 
-전체 컴포넌트 목록은 [컴포넌트 문서](/components/button)에서 확인하실 수 있습니다.
+다른 컴포넌트 문서는 작성 중입니다. 문서가 추가되면 이 섹션에 링크를 갱신하겠습니다.
+
+버튼 사용 예시는 [컴포넌트 문서](/components/button)에서 확인하실 수 있습니다.
 
