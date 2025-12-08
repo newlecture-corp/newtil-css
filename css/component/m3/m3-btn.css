@@ -1,18 +1,120 @@
-.m3-btn
-{
+.n-btn{
+    /* --- 상수 ----------------------------------- */
+    /* 글씨 */
+    --font-size-base: 14px;
+    --line-height-base: 20px;
+    --font-weight: 500;
+    /* 높이 */
+    --height-xs: 32px;
+    --height-s: 40px;
+    --height-md: 56px;
+    --height-lg: 96px;
+    --height-xl: 136px;
+    /* 패딩 */
+    --padding-xs: 0 12px;
+    --padding-s: 0 16px;
+    --padding-md: 0 24px;
+    --padding-lg: 0 48px;
+    --padding-xl: 0 64px;
+    /* 둥글기 */
+    --radius-1: 12px;
+    --radius-2: 999px;
+    /* 투명도 */
+    --alpha-1: 8%;
+    --alpha-2: 10%;
+    --alpha-3: 62%;
+    --alpha-4: 90%;
 
+    /* 버튼테두리 라인 */
+    --outline-width: 1px;
+    --outline-offset: 1px;
+
+    /* 버튼 그림자 (색상 수정 필요) */
+    --shadow-1 : 1px 1px 1px 1px rgba(0,0,255,0.3);
+    --shadow-2 : 1px 1px 1px 1px rgba(0,255,0,0.3);
+
+    /* --- 변수(기본값) ---------------------------------------------------- */
+    --btn-bg-color: var(--color-main-2);
+    --btn-font-color: var(--color-base-1);
+    --btn-height: var(--height-s);
+    --btn-padding: var(--padding-s);
+    --btn-outline-color: var(--color-main-3);
+    --btn-box-shadow: var(--shadow-1);
+    --btn-border-radius: var(--radius-2);
 
 }
 
-/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
-
-@media (prefers-color-scheme: dark) {
-	.m3-btn {
-		
-	
-	}
+@media (prefers-color-scheme: dark){
+    .n-btn{
+        --btn-bg-color: var(--color-main-1);
+        --btn-outline-color: var(--color-main-2);
+        --btn-box-shadow: var(--shadow-2);
+    }
 }
 
-.m3-btn {
-	
+/* --- 버튼타입 -----------------------------------------------*/
+.btn\:elevated {
+    box-shadow: var(--btn-box-shadow);
+}
+
+.btn\:filled {
+
+}
+
+.btn\:outlined {
+
+}
+
+.n-btn{
+    /* boxing*/
+    height: var(--btn-height);
+    padding: var(--btn-padding);
+    line-height: var(--line-height-base);
+    border-radius: var(--btn-border-radius);  
+    background-color: var(--btn-bg-color);
+    /* content */
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight);
+    color:var(--btn-font-color);
+}
+
+.n-btn:disabled {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-4));
+    color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-3));
+}
+
+.n-btn:hover {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-1));
+}
+
+.n-btn:focus {
+    outline: var(--outline-width) solid var(--btn-outline-color);
+    outline-offset: var(--outline-offset);
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2));
+}
+
+.n-btn:active {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2));
+    border-radius: var(--radius-1);
+}
+
+
+.n-btn.btn-state\:disabled {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-4));
+    color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-3));
+}
+
+.n-btn.btn-state\:hover {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-1));
+}
+
+.n-btn.btn-state\:focus {
+    outline: var(--outline-width) solid var(--btn-outline-color);
+    outline-offset: var(--outline-offset);
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2));
+}
+
+.n-btn.btn-state\:active {
+    background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2a));
+    border-radius: var(--radius-1);
 }
