@@ -1,5 +1,3 @@
-@import url(style.css);
-
 
 .wrap {
     display: flex;
@@ -14,8 +12,8 @@
 
 
 /* 4조 작업물 */
-.n-btn{
-    /* ----------상수변수-------------- */
+.m-btn{
+    /* ----------상수변수------------- -*/
     /* 버튼의 높이 : 32px, 40px, 56px, 96px, 136px; */
     /* 버튼의 패딩 : (0 12px), (0 16px), (0 24px), (0 48px), (0 64px); */
     /* --------------변수---------------- */
@@ -31,12 +29,12 @@
     --btn-outline-color: transparent;
 }
 @media (prefers-color-scheme: dark){
-    .n-btn{
+    .m-btn{
         --btn-background-color: var(--color-main-1);
     }
    
 }
-.n-btn{
+.m-btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,47 +59,47 @@
         padding .5s ease,
         transform .3s ease; */
 }
-.n-btn:enabled, 
-.n-btn.enabled{
+.m-btn:enabled, 
+.m-btn.enabled{
 
 }
 
 /* 상태 별 속성성 */
-.n-btn:disabled{
+.m-btn:disabled{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
     color: rgba(29, 27, 32, 0.38);
 }
-.n-btn:hover{
+.m-btn:hover{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
 }
-.n-btn:focus{
+.m-btn:focus{
     --btn-outline-color: var(--btn-color);
     /* outline: 1px solid var(--btn-background-color); */
     outline-offset:2px;
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
 }
 
-.n-btn:active{
+.m-btn:active{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
     border-radius: var(--btn-radius-pressed);
 }
 
 /* 클래스 별 속성성 */
 
-.n-btn.n-btn\:disabled{
+.m-btn.m-btn\:disabled{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
     color: rgba(29, 27, 32, 0.38);
 }
-.n-btn.n-btn\:hover{
+.m-btn.m-btn\:hover{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
 }
-.n-btn.n-btn\:focus{
+.m-btn.m-btn\:focus{
     --btn-outline-color: var(--btn-background-color);
     outline-offset:2px;
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
 }
 
-.n-btn.n-btn\:active{
+.m-btn.m-btn\:active{
     background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
     border-radius: var(--btn-radius-pressed);
 }
