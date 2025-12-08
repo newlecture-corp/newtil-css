@@ -1,0 +1,568 @@
+/* ===== GRID UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+
+/* ===== GRID TEMPLATE COLUMNS ===== */
+
+/* grid-template-columns: none */
+.grid-template-columns\:none,
+.gtc\:none {
+	grid-template-columns: none !important;
+}
+
+/* grid-template-columns: repeat(1, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(1\,minmax\(0\,1fr\)\),
+.gtc\:1 {
+	grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(2, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(2\,minmax\(0\,1fr\)\),
+.gtc\:2 {
+	grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(3, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(3\,minmax\(0\,1fr\)\),
+.gtc\:3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(4, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(4\,minmax\(0\,1fr\)\),
+.gtc\:4 {
+	grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(5, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(5\,minmax\(0\,1fr\)\),
+.gtc\:5 {
+	grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(6, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(6\,minmax\(0\,1fr\)\),
+.gtc\:6 {
+	grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-columns: repeat(12, minmax(0, 1fr)) */
+.grid-template-columns\:repeat\(12\,minmax\(0\,1fr\)\),
+.gtc\:12 {
+	grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+}
+
+/* ===== GRID TEMPLATE ROWS ===== */
+
+/* grid-template-rows: none */
+.grid-template-rows\:none,
+.gtr\:none {
+	grid-template-rows: none !important;
+}
+
+/* grid-template-rows: repeat(1, minmax(0, 1fr)) */
+.grid-template-rows\:repeat\(1\,minmax\(0\,1fr\)\),
+.gtr\:1 {
+	grid-template-rows: repeat(1, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-rows: repeat(2, minmax(0, 1fr)) */
+.grid-template-rows\:repeat\(2\,minmax\(0\,1fr\)\),
+.gtr\:2 {
+	grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-rows: repeat(3, minmax(0, 1fr)) */
+.grid-template-rows\:repeat\(3\,minmax\(0\,1fr\)\),
+.gtr\:3 {
+	grid-template-rows: repeat(3, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-rows: repeat(4, minmax(0, 1fr)) */
+.grid-template-rows\:repeat\(4\,minmax\(0\,1fr\)\),
+.gtr\:4 {
+	grid-template-rows: repeat(4, minmax(0, 1fr)) !important;
+}
+
+/* grid-template-rows: repeat(6, minmax(0, 1fr)) */
+.grid-template-rows\:repeat\(6\,minmax\(0\,1fr\)\),
+.gtr\:6 {
+	grid-template-rows: repeat(6, minmax(0, 1fr)) !important;
+}
+
+/* ===== GRID COLUMN SPAN ===== */
+
+/* grid-column: auto */
+.grid-column\:auto,
+.gc\:auto {
+	grid-column: auto !important;
+}
+
+/* grid-column: span 1 / span 1 */
+.grid-column\:span\ 1\ \/\ span\ 1,
+.gc\:span1 {
+	grid-column: span 1 / span 1 !important;
+}
+
+/* grid-column: span 2 / span 2 */
+.grid-column\:span\ 2\ \/\ span\ 2,
+.gc\:span2 {
+	grid-column: span 2 / span 2 !important;
+}
+
+/* grid-column: span 3 / span 3 */
+.grid-column\:span\ 3\ \/\ span\ 3,
+.gc\:span3 {
+	grid-column: span 3 / span 3 !important;
+}
+
+/* grid-column: span 4 / span 4 */
+.grid-column\:span\ 4\ \/\ span\ 4,
+.gc\:span4 {
+	grid-column: span 4 / span 4 !important;
+}
+
+/* grid-column: span 5 / span 5 */
+.grid-column\:span\ 5\ \/\ span\ 5,
+.gc\:span5 {
+	grid-column: span 5 / span 5 !important;
+}
+
+/* grid-column: span 6 / span 6 */
+.grid-column\:span\ 6\ \/\ span\ 6,
+.gc\:span6 {
+	grid-column: span 6 / span 6 !important;
+}
+
+/* grid-column: 1 / -1 */
+.grid-column\:1\ \/\ -1,
+.gc\:full {
+	grid-column: 1 / -1 !important;
+}
+
+/* ===== GRID ROW SPAN ===== */
+
+/* grid-row: auto */
+.grid-row\:auto,
+.gr\:auto {
+	grid-row: auto !important;
+}
+
+/* grid-row: span 1 / span 1 */
+.grid-row\:span\ 1\ \/\ span\ 1,
+.gr\:span1 {
+	grid-row: span 1 / span 1 !important;
+}
+
+/* grid-row: span 2 / span 2 */
+.grid-row\:span\ 2\ \/\ span\ 2,
+.gr\:span2 {
+	grid-row: span 2 / span 2 !important;
+}
+
+/* grid-row: span 3 / span 3 */
+.grid-row\:span\ 3\ \/\ span\ 3,
+.gr\:span3 {
+	grid-row: span 3 / span 3 !important;
+}
+
+/* grid-row: span 4 / span 4 */
+.grid-row\:span\ 4\ \/\ span\ 4,
+.gr\:span4 {
+	grid-row: span 4 / span 4 !important;
+}
+
+/* grid-row: span 5 / span 5 */
+.grid-row\:span\ 5\ \/\ span\ 5,
+.gr\:span5 {
+	grid-row: span 5 / span 5 !important;
+}
+
+/* grid-row: span 6 / span 6 */
+.grid-row\:span\ 6\ \/\ span\ 6,
+.gr\:span6 {
+	grid-row: span 6 / span 6 !important;
+}
+
+/* grid-row: 1 / -1 */
+.grid-row\:1\ \/\ -1,
+.gr\:full {
+	grid-row: 1 / -1 !important;
+}
+
+/* ===== GRID AUTO FLOW ===== */
+
+/* grid-auto-flow: row */
+.grid-auto-flow\:row,
+.gaf\:row {
+	grid-auto-flow: row !important;
+}
+
+/* grid-auto-flow: column */
+.grid-auto-flow\:column,
+.gaf\:column {
+	grid-auto-flow: column !important;
+}
+
+/* grid-auto-flow: dense */
+.grid-auto-flow\:dense,
+.gaf\:dense {
+	grid-auto-flow: dense !important;
+}
+
+/* grid-auto-flow: row dense */
+.grid-auto-flow\:row\ dense,
+.gaf\:row-dense {
+	grid-auto-flow: row dense !important;
+}
+
+/* grid-auto-flow: column dense */
+.grid-auto-flow\:column\ dense,
+.gaf\:column-dense {
+	grid-auto-flow: column dense !important;
+}
+
+/* ===== GRID AUTO COLUMNS ===== */
+
+/* grid-auto-columns: auto */
+.grid-auto-columns\:auto,
+.gac\:auto {
+	grid-auto-columns: auto !important;
+}
+
+/* grid-auto-columns: min-content */
+.grid-auto-columns\:min-content,
+.gac\:min {
+	grid-auto-columns: min-content !important;
+}
+
+/* grid-auto-columns: max-content */
+.grid-auto-columns\:max-content,
+.gac\:max {
+	grid-auto-columns: max-content !important;
+}
+
+/* grid-auto-columns: minmax(0, 1fr) */
+.grid-auto-columns\:minmax\(0\,1fr\),
+.gac\:fr {
+	grid-auto-columns: minmax(0, 1fr) !important;
+}
+
+/* ===== GRID AUTO ROWS ===== */
+
+/* grid-auto-rows: auto */
+.grid-auto-rows\:auto,
+.gar\:auto {
+	grid-auto-rows: auto !important;
+}
+
+/* grid-auto-rows: min-content */
+.grid-auto-rows\:min-content,
+.gar\:min {
+	grid-auto-rows: min-content !important;
+}
+
+/* grid-auto-rows: max-content */
+.grid-auto-rows\:max-content,
+.gar\:max {
+	grid-auto-rows: max-content !important;
+}
+
+/* grid-auto-rows: minmax(0, 1fr) */
+.grid-auto-rows\:minmax\(0\,1fr\),
+.gar\:fr {
+	grid-auto-rows: minmax(0, 1fr) !important;
+}
+
+/* ===== JUSTIFY ITEMS ===== */
+
+/* justify-items: start */
+.justify-items\:start,
+.ji\:start {
+	justify-items: start !important;
+}
+
+/* justify-items: end */
+.justify-items\:end,
+.ji\:end {
+	justify-items: end !important;
+}
+
+/* justify-items: center */
+.justify-items\:center,
+.ji\:center {
+	justify-items: center !important;
+}
+
+/* justify-items: stretch */
+.justify-items\:stretch,
+.ji\:stretch {
+	justify-items: stretch !important;
+}
+
+/* ===== JUSTIFY SELF ===== */
+
+/* justify-self: auto */
+.justify-self\:auto,
+.js\:auto {
+	justify-self: auto !important;
+}
+
+/* justify-self: start */
+.justify-self\:start,
+.js\:start {
+	justify-self: start !important;
+}
+
+/* justify-self: end */
+.justify-self\:end,
+.js\:end {
+	justify-self: end !important;
+}
+
+/* justify-self: center */
+.justify-self\:center,
+.js\:center {
+	justify-self: center !important;
+}
+
+/* justify-self: stretch */
+.justify-self\:stretch,
+.js\:stretch {
+	justify-self: stretch !important;
+}
+
+/* ===== PLACE CONTENT ===== */
+
+/* place-content: center */
+.place-content\:center,
+.pc\:center {
+	place-content: center !important;
+}
+
+/* place-content: start */
+.place-content\:start,
+.pc\:start {
+	place-content: start !important;
+}
+
+/* place-content: end */
+.place-content\:end,
+.pc\:end {
+	place-content: end !important;
+}
+
+/* place-content: space-between */
+.place-content\:space-between,
+.pc\:space-between {
+	place-content: space-between !important;
+}
+
+/* place-content: space-around */
+.place-content\:space-around,
+.pc\:space-around {
+	place-content: space-around !important;
+}
+
+/* place-content: space-evenly */
+.place-content\:space-evenly,
+.pc\:space-evenly {
+	place-content: space-evenly !important;
+}
+
+/* place-content: stretch */
+.place-content\:stretch,
+.pc\:stretch {
+	place-content: stretch !important;
+}
+
+/* ===== PLACE ITEMS ===== */
+
+/* place-items: start */
+.place-items\:start,
+.pi\:start {
+	place-items: start !important;
+}
+
+/* place-items: end */
+.place-items\:end,
+.pi\:end {
+	place-items: end !important;
+}
+
+/* place-items: center */
+.place-items\:center,
+.pi\:center {
+	place-items: center !important;
+}
+
+/* place-items: stretch */
+.place-items\:stretch,
+.pi\:stretch {
+	place-items: stretch !important;
+}
+
+/* ===== PLACE SELF ===== */
+
+/* place-self: auto */
+.place-self\:auto,
+.ps\:auto {
+	place-self: auto !important;
+}
+
+/* place-self: start */
+.place-self\:start,
+.ps\:start {
+	place-self: start !important;
+}
+
+/* place-self: end */
+.place-self\:end,
+.ps\:end {
+	place-self: end !important;
+}
+
+/* place-self: center */
+.place-self\:center,
+.ps\:center {
+	place-self: center !important;
+}
+
+/* place-self: stretch */
+.place-self\:stretch,
+.ps\:stretch {
+	place-self: stretch !important;
+}
+
+/* ===== RESPONSIVE GRID ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:grid-template-columns\:repeat\(1\,minmax\(0\,1fr\)\),
+	.sm\:gtc\:1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+	}
+	.sm\:grid-template-columns\:repeat\(2\,minmax\(0\,1fr\)\),
+	.sm\:gtc\:2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}
+	.sm\:grid-template-columns\:repeat\(3\,minmax\(0\,1fr\)\),
+	.sm\:gtc\:3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+	}
+	.sm\:grid-template-columns\:repeat\(4\,minmax\(0\,1fr\)\),
+	.sm\:gtc\:4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+	}
+
+	.sm\:grid-column\:span\ 1\ \/\ span\ 1,
+	.sm\:gc\:span1 {
+		grid-column: span 1 / span 1 !important;
+	}
+	.sm\:grid-column\:span\ 2\ \/\ span\ 2,
+	.sm\:gc\:span2 {
+		grid-column: span 2 / span 2 !important;
+	}
+	.sm\:grid-column\:1\ \/\ -1,
+	.sm\:gc\:full {
+		grid-column: 1 / -1 !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:grid-template-columns\:repeat\(1\,minmax\(0\,1fr\)\),
+	.md\:gtc\:1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+	}
+	.md\:grid-template-columns\:repeat\(2\,minmax\(0\,1fr\)\),
+	.md\:gtc\:2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}
+	.md\:grid-template-columns\:repeat\(3\,minmax\(0\,1fr\)\),
+	.md\:gtc\:3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+	}
+	.md\:grid-template-columns\:repeat\(4\,minmax\(0\,1fr\)\),
+	.md\:gtc\:4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+	}
+
+	.md\:grid-column\:span\ 1\ \/\ span\ 1,
+	.md\:gc\:span1 {
+		grid-column: span 1 / span 1 !important;
+	}
+	.md\:grid-column\:span\ 2\ \/\ span\ 2,
+	.md\:gc\:span2 {
+		grid-column: span 2 / span 2 !important;
+	}
+	.md\:grid-column\:1\ \/\ -1,
+	.md\:gc\:full {
+		grid-column: 1 / -1 !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:grid-template-columns\:repeat\(1\,minmax\(0\,1fr\)\),
+	.lg\:gtc\:1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+	}
+	.lg\:grid-template-columns\:repeat\(2\,minmax\(0\,1fr\)\),
+	.lg\:gtc\:2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}
+	.lg\:grid-template-columns\:repeat\(3\,minmax\(0\,1fr\)\),
+	.lg\:gtc\:3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+	}
+	.lg\:grid-template-columns\:repeat\(4\,minmax\(0\,1fr\)\),
+	.lg\:gtc\:4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+	}
+
+	.lg\:grid-column\:span\ 1\ \/\ span\ 1,
+	.lg\:gc\:span1 {
+		grid-column: span 1 / span 1 !important;
+	}
+	.lg\:grid-column\:span\ 2\ \/\ span\ 2,
+	.lg\:gc\:span2 {
+		grid-column: span 2 / span 2 !important;
+	}
+	.lg\:grid-column\:1\ \/\ -1,
+	.lg\:gc\:full {
+		grid-column: 1 / -1 !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:grid-template-columns\:repeat\(1\,minmax\(0\,1fr\)\),
+	.xl\:gtc\:1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+	}
+	.xl\:grid-template-columns\:repeat\(2\,minmax\(0\,1fr\)\),
+	.xl\:gtc\:2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}
+	.xl\:grid-template-columns\:repeat\(3\,minmax\(0\,1fr\)\),
+	.xl\:gtc\:3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+	}
+	.xl\:grid-template-columns\:repeat\(4\,minmax\(0\,1fr\)\),
+	.xl\:gtc\:4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+	}
+
+	.xl\:grid-column\:span\ 1\ \/\ span\ 1,
+	.xl\:gc\:span1 {
+		grid-column: span 1 / span 1 !important;
+	}
+	.xl\:grid-column\:span\ 2\ \/\ span\ 2,
+	.xl\:gc\:span2 {
+		grid-column: span 2 / span 2 !important;
+	}
+	.xl\:grid-column\:1\ \/\ -1,
+	.xl\:gc\:full {
+		grid-column: 1 / -1 !important;
+	}
+}

@@ -1,0 +1,941 @@
+/* ===== SPACING UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* CSS Variables를 사용하여 커스터마이징 가능 */
+
+/* ===== MARGIN ===== */
+
+/* margin: 0 */
+.margin\:0,
+.m\:0 {
+	margin: var(--space-0) !important;
+}
+
+/* margin: 1px */
+.margin\:px,
+.m\:px {
+	margin: var(--space-px) !important;
+}
+
+/* margin: 0.125rem */
+.margin\:0\.5,
+.m\:0\.5 {
+	margin: var(--space-0_5) !important;
+}
+
+/* margin: 0.25rem */
+.margin\:1,
+.m\:1 {
+	margin: var(--space-1) !important;
+}
+
+/* margin: 0.375rem */
+.margin\:1\.5,
+.m\:1\.5 {
+	margin: var(--space-1_5) !important;
+}
+
+/* margin: 0.5rem */
+.margin\:2,
+.m\:2 {
+	margin: var(--space-2) !important;
+}
+
+/* margin: 0.75rem */
+.margin\:3,
+.m\:3 {
+	margin: var(--space-3) !important;
+}
+
+/* margin: 1rem */
+.margin\:4,
+.m\:4 {
+	margin: var(--space-4) !important;
+}
+
+/* margin: 1.25rem */
+.margin\:5,
+.m\:5 {
+	margin: var(--space-5) !important;
+}
+
+/* margin: 1.5rem */
+.margin\:6,
+.m\:6 {
+	margin: var(--space-6) !important;
+}
+
+/* margin: 2rem */
+.margin\:8,
+.m\:8 {
+	margin: var(--space-8) !important;
+}
+
+/* margin: 2.5rem */
+.margin\:10,
+.m\:10 {
+	margin: var(--space-10) !important;
+}
+
+/* margin: 3rem */
+.margin\:12,
+.m\:12 {
+	margin: var(--space-12) !important;
+}
+
+/* margin: 4rem */
+.margin\:16,
+.m\:16 {
+	margin: var(--space-16) !important;
+}
+
+/* margin: 5rem */
+.margin\:20,
+.m\:20 {
+	margin: var(--space-20) !important;
+}
+
+/* margin: 6rem */
+.margin\:24,
+.m\:24 {
+	margin: var(--space-24) !important;
+}
+
+/* margin: auto */
+.margin\:auto,
+.m\:auto {
+	margin: auto !important;
+}
+
+/* ===== MARGIN X (LEFT + RIGHT) ===== */
+
+/* margin-left + margin-right: 0 */
+.margin-x\:0,
+.mx\:0 {
+	margin-left: var(--space-0) !important;
+	margin-right: var(--space-0) !important;
+}
+
+/* margin-left + margin-right: 0.25rem */
+.margin-x\:1,
+.mx\:1 {
+	margin-left: var(--space-1) !important;
+	margin-right: var(--space-1) !important;
+}
+
+/* margin-left + margin-right: 0.5rem */
+.margin-x\:2,
+.mx\:2 {
+	margin-left: var(--space-2) !important;
+	margin-right: var(--space-2) !important;
+}
+
+/* margin-left + margin-right: 1rem */
+.margin-x\:4,
+.mx\:4 {
+	margin-left: var(--space-4) !important;
+	margin-right: var(--space-4) !important;
+}
+
+/* margin-left + margin-right: 1.5rem */
+.margin-x\:6,
+.mx\:6 {
+	margin-left: var(--space-6) !important;
+	margin-right: var(--space-6) !important;
+}
+
+/* margin-left + margin-right: 2rem */
+.margin-x\:8,
+.mx\:8 {
+	margin-left: var(--space-8) !important;
+	margin-right: var(--space-8) !important;
+}
+
+/* margin-left + margin-right: auto */
+.margin-x\:auto,
+.mx\:auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/* ===== MARGIN Y (TOP + BOTTOM) ===== */
+
+/* margin-top + margin-bottom: 0 */
+.margin-y\:0,
+.my\:0 {
+	margin-top: var(--space-0) !important;
+	margin-bottom: var(--space-0) !important;
+}
+
+/* margin-top + margin-bottom: 0.25rem */
+.margin-y\:1,
+.my\:1 {
+	margin-top: var(--space-1) !important;
+	margin-bottom: var(--space-1) !important;
+}
+
+/* margin-top + margin-bottom: 0.5rem */
+.margin-y\:2,
+.my\:2 {
+	margin-top: var(--space-2) !important;
+	margin-bottom: var(--space-2) !important;
+}
+
+/* margin-top + margin-bottom: 1rem */
+.margin-y\:4,
+.my\:4 {
+	margin-top: var(--space-4) !important;
+	margin-bottom: var(--space-4) !important;
+}
+
+/* margin-top + margin-bottom: 1.5rem */
+.margin-y\:6,
+.my\:6 {
+	margin-top: var(--space-6) !important;
+	margin-bottom: var(--space-6) !important;
+}
+
+/* margin-top + margin-bottom: 2rem */
+.margin-y\:8,
+.my\:8 {
+	margin-top: var(--space-8) !important;
+	margin-bottom: var(--space-8) !important;
+}
+
+/* ===== MARGIN INDIVIDUAL SIDES ===== */
+
+/* margin-top */
+.margin-top\:0,
+.mt\:0 {
+	margin-top: var(--space-0) !important;
+}
+
+.margin-top\:1,
+.mt\:1 {
+	margin-top: var(--space-1) !important;
+}
+
+.margin-top\:2,
+.mt\:2 {
+	margin-top: var(--space-2) !important;
+}
+
+.margin-top\:4,
+.mt\:4 {
+	margin-top: var(--space-4) !important;
+}
+
+.margin-top\:6,
+.mt\:6 {
+	margin-top: var(--space-6) !important;
+}
+
+.margin-top\:8,
+.mt\:8 {
+	margin-top: var(--space-8) !important;
+}
+
+.margin-top\:auto,
+.mt\:auto {
+	margin-top: auto !important;
+}
+
+/* margin-right */
+.margin-right\:0,
+.mr\:0 {
+	margin-right: var(--space-0) !important;
+}
+
+.margin-right\:1,
+.mr\:1 {
+	margin-right: var(--space-1) !important;
+}
+
+.margin-right\:2,
+.mr\:2 {
+	margin-right: var(--space-2) !important;
+}
+
+.margin-right\:4,
+.mr\:4 {
+	margin-right: var(--space-4) !important;
+}
+
+.margin-right\:6,
+.mr\:6 {
+	margin-right: var(--space-6) !important;
+}
+
+.margin-right\:8,
+.mr\:8 {
+	margin-right: var(--space-8) !important;
+}
+
+.margin-right\:auto,
+.mr\:auto {
+	margin-right: auto !important;
+}
+
+/* margin-bottom */
+.margin-bottom\:0,
+.mb\:0 {
+	margin-bottom: var(--space-0) !important;
+}
+
+.margin-bottom\:1,
+.mb\:1 {
+	margin-bottom: var(--space-1) !important;
+}
+
+.margin-bottom\:2,
+.mb\:2 {
+	margin-bottom: var(--space-2) !important;
+}
+
+.margin-bottom\:4,
+.mb\:4 {
+	margin-bottom: var(--space-4) !important;
+}
+
+.margin-bottom\:6,
+.mb\:6 {
+	margin-bottom: var(--space-6) !important;
+}
+
+.margin-bottom\:8,
+.mb\:8 {
+	margin-bottom: var(--space-8) !important;
+}
+
+.margin-bottom\:auto,
+.mb\:auto {
+	margin-bottom: auto !important;
+}
+
+/* margin-left */
+.margin-left\:0,
+.ml\:0 {
+	margin-left: var(--space-0) !important;
+}
+
+.margin-left\:1,
+.ml\:1 {
+	margin-left: var(--space-1) !important;
+}
+
+.margin-left\:2,
+.ml\:2 {
+	margin-left: var(--space-2) !important;
+}
+
+.margin-left\:4,
+.ml\:4 {
+	margin-left: var(--space-4) !important;
+}
+
+.margin-left\:6,
+.ml\:6 {
+	margin-left: var(--space-6) !important;
+}
+
+.margin-left\:8,
+.ml\:8 {
+	margin-left: var(--space-8) !important;
+}
+
+.margin-left\:auto,
+.ml\:auto {
+	margin-left: auto !important;
+}
+
+/* ===== PADDING ===== */
+
+/* padding: 0 */
+.padding\:0,
+.p\:0 {
+	padding: var(--space-0) !important;
+}
+
+/* padding: 1px */
+.padding\:px,
+.p\:px {
+	padding: var(--space-px) !important;
+}
+
+/* padding: 0.125rem */
+.padding\:0\.5,
+.p\:0\.5 {
+	padding: var(--space-0_5) !important;
+}
+
+/* padding: 0.25rem */
+.padding\:1,
+.p\:1 {
+	padding: var(--space-1) !important;
+}
+
+/* padding: 0.375rem */
+.padding\:1\.5,
+.p\:1\.5 {
+	padding: var(--space-1_5) !important;
+}
+
+/* padding: 0.5rem */
+.padding\:2,
+.p\:2 {
+	padding: var(--space-2) !important;
+}
+
+/* padding: 0.75rem */
+.padding\:3,
+.p\:3 {
+	padding: var(--space-3) !important;
+}
+
+/* padding: 1rem */
+.padding\:4,
+.p\:4 {
+	padding: var(--space-4) !important;
+}
+
+/* padding: 1.25rem */
+.padding\:5,
+.p\:5 {
+	padding: var(--space-5) !important;
+}
+
+/* padding: 1.5rem */
+.padding\:6,
+.p\:6 {
+	padding: var(--space-6) !important;
+}
+
+/* padding: 2rem */
+.padding\:8,
+.p\:8 {
+	padding: var(--space-8) !important;
+}
+
+/* padding: 2.5rem */
+.padding\:10,
+.p\:10 {
+	padding: var(--space-10) !important;
+}
+
+/* padding: 3rem */
+.padding\:12,
+.p\:12 {
+	padding: var(--space-12) !important;
+}
+
+/* padding: 4rem */
+.padding\:16,
+.p\:16 {
+	padding: var(--space-16) !important;
+}
+
+/* padding: 5rem */
+.padding\:20,
+.p\:20 {
+	padding: var(--space-20) !important;
+}
+
+/* padding: 6rem */
+.padding\:24,
+.p\:24 {
+	padding: var(--space-24) !important;
+}
+
+/* ===== PADDING X (LEFT + RIGHT) ===== */
+
+/* padding-left + padding-right: 0 */
+.padding-x\:0,
+.px\:0 {
+	padding-left: var(--space-0) !important;
+	padding-right: var(--space-0) !important;
+}
+
+/* padding-left + padding-right: 0.25rem */
+.padding-x\:1,
+.px\:1 {
+	padding-left: var(--space-1) !important;
+	padding-right: var(--space-1) !important;
+}
+
+/* padding-left + padding-right: 0.5rem */
+.padding-x\:2,
+.px\:2 {
+	padding-left: var(--space-2) !important;
+	padding-right: var(--space-2) !important;
+}
+
+/* padding-left + padding-right: 1rem */
+.padding-x\:4,
+.px\:4 {
+	padding-left: var(--space-4) !important;
+	padding-right: var(--space-4) !important;
+}
+
+/* padding-left + padding-right: 1.5rem */
+.padding-x\:6,
+.px\:6 {
+	padding-left: var(--space-6) !important;
+	padding-right: var(--space-6) !important;
+}
+
+/* padding-left + padding-right: 2rem */
+.padding-x\:8,
+.px\:8 {
+	padding-left: var(--space-8) !important;
+	padding-right: var(--space-8) !important;
+}
+
+/* ===== PADDING Y (TOP + BOTTOM) ===== */
+
+/* padding-top + padding-bottom: 0 */
+.padding-y\:0,
+.py\:0 {
+	padding-top: var(--space-0) !important;
+	padding-bottom: var(--space-0) !important;
+}
+
+/* padding-top + padding-bottom: 0.25rem */
+.padding-y\:1,
+.py\:1 {
+	padding-top: var(--space-1) !important;
+	padding-bottom: var(--space-1) !important;
+}
+
+/* padding-top + padding-bottom: 0.5rem */
+.padding-y\:2,
+.py\:2 {
+	padding-top: var(--space-2) !important;
+	padding-bottom: var(--space-2) !important;
+}
+
+/* padding-top + padding-bottom: 1rem */
+.padding-y\:4,
+.py\:4 {
+	padding-top: var(--space-4) !important;
+	padding-bottom: var(--space-4) !important;
+}
+
+/* padding-top + padding-bottom: 1.5rem */
+.padding-y\:6,
+.py\:6 {
+	padding-top: var(--space-6) !important;
+	padding-bottom: var(--space-6) !important;
+}
+
+/* padding-top + padding-bottom: 2rem */
+.padding-y\:8,
+.py\:8 {
+	padding-top: var(--space-8) !important;
+	padding-bottom: var(--space-8) !important;
+}
+
+/* ===== PADDING INDIVIDUAL SIDES ===== */
+
+/* padding-top */
+.padding-top\:0,
+.pt\:0 {
+	padding-top: var(--space-0) !important;
+}
+
+.padding-top\:1,
+.pt\:1 {
+	padding-top: var(--space-1) !important;
+}
+
+.padding-top\:2,
+.pt\:2 {
+	padding-top: var(--space-2) !important;
+}
+
+.padding-top\:4,
+.pt\:4 {
+	padding-top: var(--space-4) !important;
+}
+
+.padding-top\:6,
+.pt\:6 {
+	padding-top: var(--space-6) !important;
+}
+
+.padding-top\:8,
+.pt\:8 {
+	padding-top: var(--space-8) !important;
+}
+
+/* padding-right */
+.padding-right\:0,
+.pr\:0 {
+	padding-right: var(--space-0) !important;
+}
+
+.padding-right\:1,
+.pr\:1 {
+	padding-right: var(--space-1) !important;
+}
+
+.padding-right\:2,
+.pr\:2 {
+	padding-right: var(--space-2) !important;
+}
+
+.padding-right\:4,
+.pr\:4 {
+	padding-right: var(--space-4) !important;
+}
+
+.padding-right\:6,
+.pr\:6 {
+	padding-right: var(--space-6) !important;
+}
+
+.padding-right\:8,
+.pr\:8 {
+	padding-right: var(--space-8) !important;
+}
+
+/* padding-bottom */
+.padding-bottom\:0,
+.pb\:0 {
+	padding-bottom: var(--space-0) !important;
+}
+
+.padding-bottom\:1,
+.pb\:1 {
+	padding-bottom: var(--space-1) !important;
+}
+
+.padding-bottom\:2,
+.pb\:2 {
+	padding-bottom: var(--space-2) !important;
+}
+
+.padding-bottom\:4,
+.pb\:4 {
+	padding-bottom: var(--space-4) !important;
+}
+
+.padding-bottom\:6,
+.pb\:6 {
+	padding-bottom: var(--space-6) !important;
+}
+
+.padding-bottom\:8,
+.pb\:8 {
+	padding-bottom: var(--space-8) !important;
+}
+
+/* padding-left */
+.padding-left\:0,
+.pl\:0 {
+	padding-left: var(--space-0) !important;
+}
+
+.padding-left\:1,
+.pl\:1 {
+	padding-left: var(--space-1) !important;
+}
+
+.padding-left\:2,
+.pl\:2 {
+	padding-left: var(--space-2) !important;
+}
+
+.padding-left\:4,
+.pl\:4 {
+	padding-left: var(--space-4) !important;
+}
+
+.padding-left\:6,
+.pl\:6 {
+	padding-left: var(--space-6) !important;
+}
+
+.padding-left\:8,
+.pl\:8 {
+	padding-left: var(--space-8) !important;
+}
+
+/* ===== RESPONSIVE SPACING ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:margin\:0,
+	.sm\:m\:0 {
+		margin: var(--space-0) !important;
+	}
+	.sm\:margin\:4,
+	.sm\:m\:4 {
+		margin: var(--space-4) !important;
+	}
+	.sm\:margin\:8,
+	.sm\:m\:8 {
+		margin: var(--space-8) !important;
+	}
+
+	.sm\:padding\:0,
+	.sm\:p\:0 {
+		padding: var(--space-0) !important;
+	}
+	.sm\:padding\:4,
+	.sm\:p\:4 {
+		padding: var(--space-4) !important;
+	}
+	.sm\:padding\:8,
+	.sm\:p\:8 {
+		padding: var(--space-8) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:margin\:0,
+	.md\:m\:0 {
+		margin: var(--space-0) !important;
+	}
+	.md\:margin\:4,
+	.md\:m\:4 {
+		margin: var(--space-4) !important;
+	}
+	.md\:margin\:8,
+	.md\:m\:8 {
+		margin: var(--space-8) !important;
+	}
+
+	.md\:padding\:0,
+	.md\:p\:0 {
+		padding: var(--space-0) !important;
+	}
+	.md\:padding\:4,
+	.md\:p\:4 {
+		padding: var(--space-4) !important;
+	}
+	.md\:padding\:8,
+	.md\:p\:8 {
+		padding: var(--space-8) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:margin\:0,
+	.lg\:m\:0 {
+		margin: var(--space-0) !important;
+	}
+	.lg\:margin\:4,
+	.lg\:m\:4 {
+		margin: var(--space-4) !important;
+	}
+	.lg\:margin\:8,
+	.lg\:m\:8 {
+		margin: var(--space-8) !important;
+	}
+
+	.lg\:padding\:0,
+	.lg\:p\:0 {
+		padding: var(--space-0) !important;
+	}
+	.lg\:padding\:4,
+	.lg\:p\:4 {
+		padding: var(--space-4) !important;
+	}
+	.lg\:padding\:8,
+	.lg\:p\:8 {
+		padding: var(--space-8) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:margin\:0,
+	.xl\:m\:0 {
+		margin: var(--space-0) !important;
+	}
+	.xl\:margin\:4,
+	.xl\:m\:4 {
+		margin: var(--space-4) !important;
+	}
+	.xl\:margin\:8,
+	.xl\:m\:8 {
+		margin: var(--space-8) !important;
+	}
+
+	.xl\:padding\:0,
+	.xl\:p\:0 {
+		padding: var(--space-0) !important;
+	}
+	.xl\:padding\:4,
+	.xl\:p\:4 {
+		padding: var(--space-4) !important;
+	}
+	.xl\:padding\:8,
+	.xl\:p\:8 {
+		padding: var(--space-8) !important;
+	}
+}
+
+/* ===== EM-BASED SPACING (RELATIVE TO FONT-SIZE) ===== */
+/* 폰트 크기에 상대적인 spacing - 컴포넌트에서 사용 */
+
+/* margin - em 기반 */
+.margin\:0e,
+.m\:0e {
+	margin: var(--space-em-0) !important;
+}
+
+.margin\:1e,
+.m\:1e {
+	margin: var(--space-em-1) !important;
+}
+
+.margin\:2e,
+.m\:2e {
+	margin: var(--space-em-2) !important;
+}
+
+.margin\:3e,
+.m\:3e {
+	margin: var(--space-em-3) !important;
+}
+
+.margin\:4e,
+.m\:4e {
+	margin: var(--space-em-4) !important;
+}
+
+.margin\:6e,
+.m\:6e {
+	margin: var(--space-em-6) !important;
+}
+
+.margin\:8e,
+.m\:8e {
+	margin: var(--space-em-8) !important;
+}
+
+/* padding - em 기반 */
+.padding\:0e,
+.p\:0e {
+	padding: var(--space-em-0) !important;
+}
+
+.padding\:1e,
+.p\:1e {
+	padding: var(--space-em-1) !important;
+}
+
+.padding\:2e,
+.p\:2e {
+	padding: var(--space-em-2) !important;
+}
+
+.padding\:3e,
+.p\:3e {
+	padding: var(--space-em-3) !important;
+}
+
+.padding\:4e,
+.p\:4e {
+	padding: var(--space-em-4) !important;
+}
+
+.padding\:6e,
+.p\:6e {
+	padding: var(--space-em-6) !important;
+}
+
+.padding\:8e,
+.p\:8e {
+	padding: var(--space-em-8) !important;
+}
+
+/* padding-x - em 기반 */
+.padding-x\:2e,
+.px\:2e {
+	padding-left: var(--space-em-2) !important;
+	padding-right: var(--space-em-2) !important;
+}
+
+.padding-x\:4e,
+.px\:4e {
+	padding-left: var(--space-em-4) !important;
+	padding-right: var(--space-em-4) !important;
+}
+
+.padding-x\:6e,
+.px\:6e {
+	padding-left: var(--space-em-6) !important;
+	padding-right: var(--space-em-6) !important;
+}
+
+/* padding-y - em 기반 */
+.padding-y\:2e,
+.py\:2e {
+	padding-top: var(--space-em-2) !important;
+	padding-bottom: var(--space-em-2) !important;
+}
+
+.padding-y\:4e,
+.py\:4e {
+	padding-top: var(--space-em-4) !important;
+	padding-bottom: var(--space-em-4) !important;
+}
+
+.padding-y\:6e,
+.py\:6e {
+	padding-top: var(--space-em-6) !important;
+	padding-bottom: var(--space-em-6) !important;
+}
+
+/* ===== RESPONSIVE EM-BASED SPACING ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:padding\:2e,
+	.sm\:p\:2e {
+		padding: var(--space-em-2) !important;
+	}
+	.sm\:padding\:4e,
+	.sm\:p\:4e {
+		padding: var(--space-em-4) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:padding\:2e,
+	.md\:p\:2e {
+		padding: var(--space-em-2) !important;
+	}
+	.md\:padding\:4e,
+	.md\:p\:4e {
+		padding: var(--space-em-4) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:padding\:2e,
+	.lg\:p\:2e {
+		padding: var(--space-em-2) !important;
+	}
+	.lg\:padding\:4e,
+	.lg\:p\:4e {
+		padding: var(--space-em-4) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:padding\:2e,
+	.xl\:p\:2e {
+		padding: var(--space-em-2) !important;
+	}
+	.xl\:padding\:4e,
+	.xl\:p\:4e {
+		padding: var(--space-em-4) !important;
+	}
+}

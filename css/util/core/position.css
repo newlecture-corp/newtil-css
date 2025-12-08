@@ -1,0 +1,574 @@
+/* ===== POSITION UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* 혼합 Variables 시스템: spacing, size, 리터럴 값 조합 */
+
+/* ===== POSITION PROPERTY ===== */
+
+/* position: static */
+.position\:static,
+.pos\:static {
+	position: static !important;
+}
+
+/* position: relative */
+.position\:relative,
+.pos\:relative {
+	position: relative !important;
+}
+
+/* position: absolute */
+.position\:absolute,
+.pos\:absolute {
+	position: absolute !important;
+}
+
+/* position: fixed */
+.position\:fixed,
+.pos\:fixed {
+	position: fixed !important;
+}
+
+/* position: sticky */
+.position\:sticky,
+.pos\:sticky {
+	position: sticky !important;
+}
+
+/* ===== TOP PROPERTY ===== */
+
+/* top: auto */
+.top\:auto {
+	top: var(--size-auto) !important;
+}
+
+/* top: 0 */
+.top\:0 {
+	top: var(--size-0) !important;
+}
+
+/* top: spacing scale (rem 기반) */
+.top\:px {
+	top: var(--space-px) !important;
+}
+
+.top\:1 {
+	top: var(--space-1) !important;
+}
+
+.top\:2 {
+	top: var(--space-2) !important;
+}
+
+.top\:4 {
+	top: var(--space-4) !important;
+}
+
+.top\:8 {
+	top: var(--space-8) !important;
+}
+
+.top\:12 {
+	top: var(--space-12) !important;
+}
+
+.top\:16 {
+	top: var(--space-16) !important;
+}
+
+/* top: percentage scale */
+.top\:1\/2 {
+	top: var(--size-1\/2) !important;
+}
+
+.top\:1\/3 {
+	top: var(--size-1\/3) !important;
+}
+
+.top\:2\/3 {
+	top: var(--size-2\/3) !important;
+}
+
+.top\:1\/4 {
+	top: var(--size-1\/4) !important;
+}
+
+.top\:3\/4 {
+	top: var(--size-3\/4) !important;
+}
+
+.top\:full {
+	top: var(--size-full) !important;
+}
+
+/* top: viewport units */
+.top\:25vh {
+	top: var(--size-25vh) !important;
+}
+
+.top\:50vh {
+	top: var(--size-50vh) !important;
+}
+
+.top\:100vh {
+	top: var(--size-100vh) !important;
+}
+
+/* top: em-based (relative) */
+.top\:1e {
+	top: var(--space-em-1) !important;
+}
+
+.top\:2e {
+	top: var(--space-em-2) !important;
+}
+
+.top\:4e {
+	top: var(--space-em-4) !important;
+}
+
+.top\:8e {
+	top: var(--space-em-8) !important;
+}
+
+/* ===== RIGHT PROPERTY ===== */
+
+/* right: auto */
+.right\:auto {
+	right: var(--size-auto) !important;
+}
+
+/* right: 0 */
+.right\:0 {
+	right: var(--size-0) !important;
+}
+
+/* right: spacing scale */
+.right\:px {
+	right: var(--space-px) !important;
+}
+
+.right\:1 {
+	right: var(--space-1) !important;
+}
+
+.right\:2 {
+	right: var(--space-2) !important;
+}
+
+.right\:4 {
+	right: var(--space-4) !important;
+}
+
+.right\:8 {
+	right: var(--space-8) !important;
+}
+
+.right\:12 {
+	right: var(--space-12) !important;
+}
+
+.right\:16 {
+	right: var(--space-16) !important;
+}
+
+/* right: percentage scale */
+.right\:1\/2 {
+	right: var(--size-1\/2) !important;
+}
+
+.right\:1\/3 {
+	right: var(--size-1\/3) !important;
+}
+
+.right\:2\/3 {
+	right: var(--size-2\/3) !important;
+}
+
+.right\:1\/4 {
+	right: var(--size-1\/4) !important;
+}
+
+.right\:3\/4 {
+	right: var(--size-3\/4) !important;
+}
+
+.right\:full {
+	right: var(--size-full) !important;
+}
+
+/* right: em-based */
+.right\:1e {
+	right: var(--space-em-1) !important;
+}
+
+.right\:2e {
+	right: var(--space-em-2) !important;
+}
+
+.right\:4e {
+	right: var(--space-em-4) !important;
+}
+
+/* ===== BOTTOM PROPERTY ===== */
+
+/* bottom: auto */
+.bottom\:auto {
+	bottom: var(--size-auto) !important;
+}
+
+/* bottom: 0 */
+.bottom\:0 {
+	bottom: var(--size-0) !important;
+}
+
+/* bottom: spacing scale */
+.bottom\:px {
+	bottom: var(--space-px) !important;
+}
+
+.bottom\:1 {
+	bottom: var(--space-1) !important;
+}
+
+.bottom\:2 {
+	bottom: var(--space-2) !important;
+}
+
+.bottom\:4 {
+	bottom: var(--space-4) !important;
+}
+
+.bottom\:8 {
+	bottom: var(--space-8) !important;
+}
+
+.bottom\:12 {
+	bottom: var(--space-12) !important;
+}
+
+.bottom\:16 {
+	bottom: var(--space-16) !important;
+}
+
+/* bottom: percentage scale */
+.bottom\:1\/2 {
+	bottom: var(--size-1\/2) !important;
+}
+
+.bottom\:1\/3 {
+	bottom: var(--size-1\/3) !important;
+}
+
+.bottom\:2\/3 {
+	bottom: var(--size-2\/3) !important;
+}
+
+.bottom\:1\/4 {
+	bottom: var(--size-1\/4) !important;
+}
+
+.bottom\:3\/4 {
+	bottom: var(--size-3\/4) !important;
+}
+
+.bottom\:full {
+	bottom: var(--size-full) !important;
+}
+
+/* bottom: em-based */
+.bottom\:1e {
+	bottom: var(--space-em-1) !important;
+}
+
+.bottom\:2e {
+	bottom: var(--space-em-2) !important;
+}
+
+.bottom\:4e {
+	bottom: var(--space-em-4) !important;
+}
+
+/* ===== LEFT PROPERTY ===== */
+
+/* left: auto */
+.left\:auto {
+	left: var(--size-auto) !important;
+}
+
+/* left: 0 */
+.left\:0 {
+	left: var(--size-0) !important;
+}
+
+/* left: spacing scale */
+.left\:px {
+	left: var(--space-px) !important;
+}
+
+.left\:1 {
+	left: var(--space-1) !important;
+}
+
+.left\:2 {
+	left: var(--space-2) !important;
+}
+
+.left\:4 {
+	left: var(--space-4) !important;
+}
+
+.left\:8 {
+	left: var(--space-8) !important;
+}
+
+.left\:12 {
+	left: var(--space-12) !important;
+}
+
+.left\:16 {
+	left: var(--space-16) !important;
+}
+
+/* left: percentage scale */
+.left\:1\/2 {
+	left: var(--size-1\/2) !important;
+}
+
+.left\:1\/3 {
+	left: var(--size-1\/3) !important;
+}
+
+.left\:2\/3 {
+	left: var(--size-2\/3) !important;
+}
+
+.left\:1\/4 {
+	left: var(--size-1\/4) !important;
+}
+
+.left\:3\/4 {
+	left: var(--size-3\/4) !important;
+}
+
+.left\:full {
+	left: var(--size-full) !important;
+}
+
+/* left: em-based */
+.left\:1e {
+	left: var(--space-em-1) !important;
+}
+
+.left\:2e {
+	left: var(--space-em-2) !important;
+}
+
+.left\:4e {
+	left: var(--space-em-4) !important;
+}
+
+/* ===== Z-INDEX ===== */
+
+/* z-index: auto */
+.z-index\:auto,
+.z\:auto {
+	z-index: var(--z-index-auto) !important;
+}
+
+/* z-index: 0 */
+.z-index\:0,
+.z\:0 {
+	z-index: var(--z-index-0) !important;
+}
+
+/* z-index: 10 */
+.z-index\:10,
+.z\:10 {
+	z-index: var(--z-index-10) !important;
+}
+
+/* z-index: 20 */
+.z-index\:20,
+.z\:20 {
+	z-index: var(--z-index-20) !important;
+}
+
+/* z-index: 30 */
+.z-index\:30,
+.z\:30 {
+	z-index: var(--z-index-30) !important;
+}
+
+/* z-index: 40 */
+.z-index\:40,
+.z\:40 {
+	z-index: var(--z-index-40) !important;
+}
+
+/* z-index: 50 */
+.z-index\:50,
+.z\:50 {
+	z-index: var(--z-index-50) !important;
+}
+
+/* z-index: semantic values */
+.z-index\:dropdown,
+.z\:dropdown {
+	z-index: var(--z-index-dropdown) !important;
+}
+
+.z-index\:modal,
+.z\:modal {
+	z-index: var(--z-index-modal) !important;
+}
+
+.z-index\:tooltip,
+.z\:tooltip {
+	z-index: var(--z-index-tooltip) !important;
+}
+
+/* ===== RESPONSIVE POSITION ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:position\:relative,
+	.sm\:pos\:relative {
+		position: relative !important;
+	}
+	.sm\:position\:absolute,
+	.sm\:pos\:absolute {
+		position: absolute !important;
+	}
+
+	.sm\:top\:0 {
+		top: var(--size-0) !important;
+	}
+	.sm\:top\:4 {
+		top: var(--space-4) !important;
+	}
+	.sm\:top\:1\/2 {
+		top: var(--size-1\/2) !important;
+	}
+
+	.sm\:right\:0 {
+		right: var(--size-0) !important;
+	}
+	.sm\:right\:4 {
+		right: var(--space-4) !important;
+	}
+
+	.sm\:z\:10 {
+		z-index: var(--z-index-10) !important;
+	}
+	.sm\:z\:20 {
+		z-index: var(--z-index-20) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:position\:relative,
+	.md\:pos\:relative {
+		position: relative !important;
+	}
+	.md\:position\:absolute,
+	.md\:pos\:absolute {
+		position: absolute !important;
+	}
+
+	.md\:top\:0 {
+		top: var(--size-0) !important;
+	}
+	.md\:top\:4 {
+		top: var(--space-4) !important;
+	}
+	.md\:top\:1\/2 {
+		top: var(--size-1\/2) !important;
+	}
+
+	.md\:right\:0 {
+		right: var(--size-0) !important;
+	}
+	.md\:right\:4 {
+		right: var(--space-4) !important;
+	}
+
+	.md\:z\:10 {
+		z-index: var(--z-index-10) !important;
+	}
+	.md\:z\:20 {
+		z-index: var(--z-index-20) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:position\:relative,
+	.lg\:pos\:relative {
+		position: relative !important;
+	}
+	.lg\:position\:absolute,
+	.lg\:pos\:absolute {
+		position: absolute !important;
+	}
+
+	.lg\:top\:0 {
+		top: var(--size-0) !important;
+	}
+	.lg\:top\:4 {
+		top: var(--space-4) !important;
+	}
+	.lg\:top\:1\/2 {
+		top: var(--size-1\/2) !important;
+	}
+
+	.lg\:right\:0 {
+		right: var(--size-0) !important;
+	}
+	.lg\:right\:4 {
+		right: var(--space-4) !important;
+	}
+
+	.lg\:z\:10 {
+		z-index: var(--z-index-10) !important;
+	}
+	.lg\:z\:20 {
+		z-index: var(--z-index-20) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:position\:relative,
+	.xl\:pos\:relative {
+		position: relative !important;
+	}
+	.xl\:position\:absolute,
+	.xl\:pos\:absolute {
+		position: absolute !important;
+	}
+
+	.xl\:top\:0 {
+		top: var(--size-0) !important;
+	}
+	.xl\:top\:4 {
+		top: var(--space-4) !important;
+	}
+	.xl\:top\:1\/2 {
+		top: var(--size-1\/2) !important;
+	}
+
+	.xl\:right\:0 {
+		right: var(--size-0) !important;
+	}
+	.xl\:right\:4 {
+		right: var(--space-4) !important;
+	}
+
+	.xl\:z\:10 {
+		z-index: var(--z-index-10) !important;
+	}
+	.xl\:z\:20 {
+		z-index: var(--z-index-20) !important;
+	}
+}

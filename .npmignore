@@ -1,0 +1,60 @@
+# Source files (not needed in npm package)
+css/
+js/
+icon/
+types/
+test/
+docs/
+admin/
+internal/
+menu/
+image/
+images/
+
+# Development tools
+.vscode/
+.idea/
+.github/
+.gitignore
+
+# Build tools and configs
+rollup.config.js
+icon_css-gen.js
+*.config.js
+*.config.ts
+
+# Documentation (keep README.md and LICENSE)
+docs/
+
+# Test files
+test/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Development files
+*.log
+.DS_Store
+Thumbs.db
+*.backup
+*.backup2
+*.deleted
+
+# Package files
+*.tgz
+*.tar.gz
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.npm/
+.eslintcache

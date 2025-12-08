@@ -1,0 +1,395 @@
+/* ===== DISPLAY UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+
+/* display: block */
+.display\:block,
+.d\:block {
+	display: block !important;
+}
+
+/* display: inline */
+.display\:inline,
+.d\:inline {
+	display: inline !important;
+}
+
+/* display: inline-block */
+.display\:inline-block,
+.d\:inline-block {
+	display: inline-block !important;
+}
+
+/* display: flex */
+.display\:flex,
+.d\:flex {
+	display: flex !important;
+}
+
+/* display: inline-flex */
+.display\:inline-flex,
+.d\:inline-flex {
+	display: inline-flex !important;
+}
+
+/* display: grid */
+.display\:grid,
+.d\:grid {
+	display: grid !important;
+}
+
+/* display: inline-grid */
+.display\:inline-grid,
+.d\:inline-grid {
+	display: inline-grid !important;
+}
+
+/* display: table */
+.display\:table,
+.d\:table {
+	display: table !important;
+}
+
+/* display: table-cell */
+.display\:table-cell,
+.d\:table-cell {
+	display: table-cell !important;
+}
+
+/* display: table-row */
+.display\:table-row,
+.d\:table-row {
+	display: table-row !important;
+}
+
+/* display: table-column */
+.display\:table-column,
+.d\:table-column {
+	display: table-column !important;
+}
+
+/* display: table-row-group */
+.display\:table-row-group,
+.d\:table-row-group {
+	display: table-row-group !important;
+}
+
+/* display: table-column-group */
+.display\:table-column-group,
+.d\:table-column-group {
+	display: table-column-group !important;
+}
+
+/* display: table-header-group */
+.display\:table-header-group,
+.d\:table-header-group {
+	display: table-header-group !important;
+}
+
+/* display: table-footer-group */
+.display\:table-footer-group,
+.d\:table-footer-group {
+	display: table-footer-group !important;
+}
+
+/* display: table-caption */
+.display\:table-caption,
+.d\:table-caption {
+	display: table-caption !important;
+}
+
+/* display: list-item */
+.display\:list-item,
+.d\:list-item {
+	display: list-item !important;
+}
+
+/* display: none */
+.display\:none,
+.d\:none {
+	display: none !important;
+}
+
+/* display: contents */
+.display\:contents,
+.d\:contents {
+	display: contents !important;
+}
+
+/* display: flow-root */
+.display\:flow-root,
+.d\:flow-root {
+	display: flow-root !important;
+}
+
+
+.display\:initial,
+.d\:initial {
+	display: initial !important;
+}
+
+.display\:revert,
+.d\:none\:revert {
+	display: revert !important;
+}
+
+/* ===== RESPONSIVE DISPLAY ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:display\:block,
+	.sm\:d\:block {
+		display: block !important;
+	}
+	.sm\:display\:inline,
+	.sm\:d\:inline {
+		display: inline !important;
+	}
+	.sm\:display\:inline-block,
+	.sm\:d\:inline-block {
+		display: inline-block !important;
+	}
+	.sm\:display\:flex,
+	.sm\:d\:flex {
+		display: flex !important;
+	}
+	.sm\:display\:inline-flex,
+	.sm\:d\:inline-flex {
+		display: inline-flex !important;
+	}
+	.sm\:display\:grid,
+	.sm\:d\:grid {
+		display: grid !important;
+	}
+	.sm\:display\:inline-grid,
+	.sm\:d\:inline-grid {
+		display: inline-grid !important;
+	}
+	.sm\:display\:table,
+	.sm\:d\:table {
+		display: table !important;
+	}
+	.sm\:display\:table-cell,
+	.sm\:d\:table-cell {
+		display: table-cell !important;
+	}
+	.sm\:display\:table-row,
+	.sm\:d\:table-row {
+		display: table-row !important;
+	}
+	.sm\:display\:none,
+	.sm\:d\:none {
+		display: none !important;
+	}
+	.sm\:display\:contents,
+	.sm\:d\:contents {
+		display: contents !important;
+	}
+	.sm\:display\:flow-root,
+	.sm\:d\:flow-root {
+		display: flow-root !important;
+	}
+
+	.sm\:display\:revert,
+	.sm\:d\:revert {
+		display: revert !important;
+	}
+	.sm\:display\:initial,
+	.sm\:d\:initial {
+		display: initial !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:display\:block,
+	.md\:d\:block {
+		display: block !important;
+	}
+	.md\:display\:inline,
+	.md\:d\:inline {
+		display: inline !important;
+	}
+	.md\:display\:inline-block,
+	.md\:d\:inline-block {
+		display: inline-block !important;
+	}
+	.md\:display\:flex,
+	.md\:d\:flex {
+		display: flex !important;
+	}
+	.md\:display\:inline-flex,
+	.md\:d\:inline-flex {
+		display: inline-flex !important;
+	}
+	.md\:display\:grid,
+	.md\:d\:grid {
+		display: grid !important;
+	}
+	.md\:display\:inline-grid,
+	.md\:d\:inline-grid {
+		display: inline-grid !important;
+	}
+	.md\:display\:table,
+	.md\:d\:table {
+		display: table !important;
+	}
+	.md\:display\:table-cell,
+	.md\:d\:table-cell {
+		display: table-cell !important;
+	}
+	.md\:display\:table-row,
+	.md\:d\:table-row {
+		display: table-row !important;
+	}
+	.md\:display\:none,
+	.md\:d\:none {
+		display: none !important;
+	}
+	.md\:display\:contents,
+	.md\:d\:contents {
+		display: contents !important;
+	}
+	.md\:display\:flow-root,
+	.md\:d\:flow-root {
+		display: flow-root !important;
+	}
+
+	.md\:display\:revert,
+	.md\:d\:revert {
+		display: revert !important;
+	}
+	.md\:display\:initial,
+	.md\:d\:initial {
+		display: initial !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:display\:block,
+	.lg\:d\:block {
+		display: block !important;
+	}
+	.lg\:display\:inline,
+	.lg\:d\:inline {
+		display: inline !important;
+	}
+	.lg\:display\:inline-block,
+	.lg\:d\:inline-block {
+		display: inline-block !important;
+	}
+	.lg\:display\:flex,
+	.lg\:d\:flex {
+		display: flex !important;
+	}
+	.lg\:display\:inline-flex,
+	.lg\:d\:inline-flex {
+		display: inline-flex !important;
+	}
+	.lg\:display\:grid,
+	.lg\:d\:grid {
+		display: grid !important;
+	}
+	.lg\:display\:inline-grid,
+	.lg\:d\:inline-grid {
+		display: inline-grid !important;
+	}
+	.lg\:display\:table,
+	.lg\:d\:table {
+		display: table !important;
+	}
+	.lg\:display\:table-cell,
+	.lg\:d\:table-cell {
+		display: table-cell !important;
+	}
+	.lg\:display\:table-row,
+	.lg\:d\:table-row {
+		display: table-row !important;
+	}
+	.lg\:display\:none,
+	.lg\:d\:none {
+		display: none !important;
+	}
+	.lg\:display\:contents,
+	.lg\:d\:contents {
+		display: contents !important;
+	}
+	.lg\:display\:flow-root,
+	.lg\:d\:flow-root {
+		display: flow-root !important;
+	}
+
+	.lg\:display\:revert,
+	.lg\:d\:revert {
+		display: revert !important;
+	}
+	.lg\:display\:initial,
+	.lg\:d\:initial {
+		display: initial !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:display\:block,
+	.xl\:d\:block {
+		display: block !important;
+	}
+	.xl\:display\:inline,
+	.xl\:d\:inline {
+		display: inline !important;
+	}
+	.xl\:display\:inline-block,
+	.xl\:d\:inline-block {
+		display: inline-block !important;
+	}
+	.xl\:display\:flex,
+	.xl\:d\:flex {
+		display: flex !important;
+	}
+	.xl\:display\:inline-flex,
+	.xl\:d\:inline-flex {
+		display: inline-flex !important;
+	}
+	.xl\:display\:grid,
+	.xl\:d\:grid {
+		display: grid !important;
+	}
+	.xl\:display\:inline-grid,
+	.xl\:d\:inline-grid {
+		display: inline-grid !important;
+	}
+	.xl\:display\:table,
+	.xl\:d\:table {
+		display: table !important;
+	}
+	.xl\:display\:table-cell,
+	.xl\:d\:table-cell {
+		display: table-cell !important;
+	}
+	.xl\:display\:table-row,
+	.xl\:d\:table-row {
+		display: table-row !important;
+	}
+	.xl\:display\:none,
+	.xl\:d\:none {
+		display: none !important;
+	}
+	.xl\:display\:contents,
+	.xl\:d\:contents {
+		display: contents !important;
+	}
+	.xl\:display\:flow-root,
+	.xl\:d\:flow-root {
+		display: flow-root !important;
+	}
+
+	.xl\:display\:revert,
+	.xl\:d\:revert {
+		display: revert !important;
+	}
+	.xl\:display\:initial,
+	.xl\:d\:initial {
+		display: initial !important;
+	}
+}

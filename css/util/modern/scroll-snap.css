@@ -1,0 +1,552 @@
+/* ===== SCROLL SNAP UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* Scroll Snap 속성들: scroll-snap-type, scroll-snap-align, scroll-snap-stop 등 */
+
+/* ===== SCROLL SNAP TYPE (스크롤 스냅 타입) ===== */
+
+/* scroll-snap-type: none */
+.scroll-snap-type\:none,
+.scroll-snap\:none {
+	scroll-snap-type: none !important;
+}
+
+/* scroll-snap-type: x mandatory */
+.scroll-snap-type\:x\ mandatory,
+.scroll-snap\:x-mandatory {
+	scroll-snap-type: x mandatory !important;
+}
+
+/* scroll-snap-type: y mandatory */
+.scroll-snap-type\:y\ mandatory,
+.scroll-snap\:y-mandatory {
+	scroll-snap-type: y mandatory !important;
+}
+
+/* scroll-snap-type: both mandatory */
+.scroll-snap-type\:both\ mandatory,
+.scroll-snap\:both-mandatory {
+	scroll-snap-type: both mandatory !important;
+}
+
+/* scroll-snap-type: x proximity */
+.scroll-snap-type\:x\ proximity,
+.scroll-snap\:x-proximity {
+	scroll-snap-type: x proximity !important;
+}
+
+/* scroll-snap-type: y proximity */
+.scroll-snap-type\:y\ proximity,
+.scroll-snap\:y-proximity {
+	scroll-snap-type: y proximity !important;
+}
+
+/* scroll-snap-type: both proximity */
+.scroll-snap-type\:both\ proximity,
+.scroll-snap\:both-proximity {
+	scroll-snap-type: both proximity !important;
+}
+
+/* ===== SCROLL SNAP ALIGN (스크롤 스냅 정렬) ===== */
+
+/* scroll-snap-align: none */
+.scroll-snap-align\:none,
+.snap\:none {
+	scroll-snap-align: none !important;
+}
+
+/* scroll-snap-align: start */
+.scroll-snap-align\:start,
+.snap\:start {
+	scroll-snap-align: start !important;
+}
+
+/* scroll-snap-align: end */
+.scroll-snap-align\:end,
+.snap\:end {
+	scroll-snap-align: end !important;
+}
+
+/* scroll-snap-align: center */
+.scroll-snap-align\:center,
+.snap\:center {
+	scroll-snap-align: center !important;
+}
+
+/* ===== SCROLL SNAP STOP (스크롤 스냅 정지) ===== */
+
+/* scroll-snap-stop: normal */
+.scroll-snap-stop\:normal,
+.snap-stop\:normal {
+	scroll-snap-stop: normal !important;
+}
+
+/* scroll-snap-stop: always */
+.scroll-snap-stop\:always,
+.snap-stop\:always {
+	scroll-snap-stop: always !important;
+}
+
+/* ===== SCROLL MARGIN (스크롤 마진) ===== */
+
+/* scroll-margin */
+.scroll-margin\:0 {
+	scroll-margin: 0 !important;
+}
+
+.scroll-margin\:1 {
+	scroll-margin: var(--space-1) !important;
+}
+
+.scroll-margin\:2 {
+	scroll-margin: var(--space-2) !important;
+}
+
+.scroll-margin\:4 {
+	scroll-margin: var(--space-4) !important;
+}
+
+.scroll-margin\:8 {
+	scroll-margin: var(--space-8) !important;
+}
+
+/* scroll-margin-top */
+.scroll-margin-top\:0,
+.scroll-mt\:0 {
+	scroll-margin-top: 0 !important;
+}
+
+.scroll-margin-top\:1,
+.scroll-mt\:1 {
+	scroll-margin-top: var(--space-1) !important;
+}
+
+.scroll-margin-top\:2,
+.scroll-mt\:2 {
+	scroll-margin-top: var(--space-2) !important;
+}
+
+.scroll-margin-top\:4,
+.scroll-mt\:4 {
+	scroll-margin-top: var(--space-4) !important;
+}
+
+.scroll-margin-top\:8,
+.scroll-mt\:8 {
+	scroll-margin-top: var(--space-8) !important;
+}
+
+/* scroll-margin-bottom */
+.scroll-margin-bottom\:0,
+.scroll-mb\:0 {
+	scroll-margin-bottom: 0 !important;
+}
+
+.scroll-margin-bottom\:1,
+.scroll-mb\:1 {
+	scroll-margin-bottom: var(--space-1) !important;
+}
+
+.scroll-margin-bottom\:2,
+.scroll-mb\:2 {
+	scroll-margin-bottom: var(--space-2) !important;
+}
+
+.scroll-margin-bottom\:4,
+.scroll-mb\:4 {
+	scroll-margin-bottom: var(--space-4) !important;
+}
+
+.scroll-margin-bottom\:8,
+.scroll-mb\:8 {
+	scroll-margin-bottom: var(--space-8) !important;
+}
+
+/* scroll-margin-left */
+.scroll-margin-left\:0,
+.scroll-ml\:0 {
+	scroll-margin-left: 0 !important;
+}
+
+.scroll-margin-left\:1,
+.scroll-ml\:1 {
+	scroll-margin-left: var(--space-1) !important;
+}
+
+.scroll-margin-left\:2,
+.scroll-ml\:2 {
+	scroll-margin-left: var(--space-2) !important;
+}
+
+.scroll-margin-left\:4,
+.scroll-ml\:4 {
+	scroll-margin-left: var(--space-4) !important;
+}
+
+.scroll-margin-left\:8,
+.scroll-ml\:8 {
+	scroll-margin-left: var(--space-8) !important;
+}
+
+/* scroll-margin-right */
+.scroll-margin-right\:0,
+.scroll-mr\:0 {
+	scroll-margin-right: 0 !important;
+}
+
+.scroll-margin-right\:1,
+.scroll-mr\:1 {
+	scroll-margin-right: var(--space-1) !important;
+}
+
+.scroll-margin-right\:2,
+.scroll-mr\:2 {
+	scroll-margin-right: var(--space-2) !important;
+}
+
+.scroll-margin-right\:4,
+.scroll-mr\:4 {
+	scroll-margin-right: var(--space-4) !important;
+}
+
+.scroll-margin-right\:8,
+.scroll-mr\:8 {
+	scroll-margin-right: var(--space-8) !important;
+}
+
+/* ===== SCROLL PADDING (스크롤 패딩) ===== */
+
+/* scroll-padding */
+.scroll-padding\:0 {
+	scroll-padding: 0 !important;
+}
+
+.scroll-padding\:1 {
+	scroll-padding: var(--space-1) !important;
+}
+
+.scroll-padding\:2 {
+	scroll-padding: var(--space-2) !important;
+}
+
+.scroll-padding\:4 {
+	scroll-padding: var(--space-4) !important;
+}
+
+.scroll-padding\:8 {
+	scroll-padding: var(--space-8) !important;
+}
+
+/* scroll-padding-top */
+.scroll-padding-top\:0,
+.scroll-pt\:0 {
+	scroll-padding-top: 0 !important;
+}
+
+.scroll-padding-top\:1,
+.scroll-pt\:1 {
+	scroll-padding-top: var(--space-1) !important;
+}
+
+.scroll-padding-top\:2,
+.scroll-pt\:2 {
+	scroll-padding-top: var(--space-2) !important;
+}
+
+.scroll-padding-top\:4,
+.scroll-pt\:4 {
+	scroll-padding-top: var(--space-4) !important;
+}
+
+.scroll-padding-top\:8,
+.scroll-pt\:8 {
+	scroll-padding-top: var(--space-8) !important;
+}
+
+/* scroll-padding-bottom */
+.scroll-padding-bottom\:0,
+.scroll-pb\:0 {
+	scroll-padding-bottom: 0 !important;
+}
+
+.scroll-padding-bottom\:1,
+.scroll-pb\:1 {
+	scroll-padding-bottom: var(--space-1) !important;
+}
+
+.scroll-padding-bottom\:2,
+.scroll-pb\:2 {
+	scroll-padding-bottom: var(--space-2) !important;
+}
+
+.scroll-padding-bottom\:4,
+.scroll-pb\:4 {
+	scroll-padding-bottom: var(--space-4) !important;
+}
+
+.scroll-padding-bottom\:8,
+.scroll-pb\:8 {
+	scroll-padding-bottom: var(--space-8) !important;
+}
+
+/* scroll-padding-left */
+.scroll-padding-left\:0,
+.scroll-pl\:0 {
+	scroll-padding-left: 0 !important;
+}
+
+.scroll-padding-left\:1,
+.scroll-pl\:1 {
+	scroll-padding-left: var(--space-1) !important;
+}
+
+.scroll-padding-left\:2,
+.scroll-pl\:2 {
+	scroll-padding-left: var(--space-2) !important;
+}
+
+.scroll-padding-left\:4,
+.scroll-pl\:4 {
+	scroll-padding-left: var(--space-4) !important;
+}
+
+.scroll-padding-left\:8,
+.scroll-pl\:8 {
+	scroll-padding-left: var(--space-8) !important;
+}
+
+/* scroll-padding-right */
+.scroll-padding-right\:0,
+.scroll-pr\:0 {
+	scroll-padding-right: 0 !important;
+}
+
+.scroll-padding-right\:1,
+.scroll-pr\:1 {
+	scroll-padding-right: var(--space-1) !important;
+}
+
+.scroll-padding-right\:2,
+.scroll-pr\:2 {
+	scroll-padding-right: var(--space-2) !important;
+}
+
+.scroll-padding-right\:4,
+.scroll-pr\:4 {
+	scroll-padding-right: var(--space-4) !important;
+}
+
+.scroll-padding-right\:8,
+.scroll-pr\:8 {
+	scroll-padding-right: var(--space-8) !important;
+}
+
+/* ===== SCROLLBAR STYLING (스크롤바 스타일링) ===== */
+
+/* scrollbar-width */
+.scrollbar-width\:auto {
+	scrollbar-width: auto !important;
+}
+
+.scrollbar-width\:thin {
+	scrollbar-width: thin !important;
+}
+
+.scrollbar-width\:none,
+.scrollbar\:none {
+	scrollbar-width: none !important;
+}
+
+/* scrollbar-color */
+.scrollbar-color\:auto {
+	scrollbar-color: auto !important;
+}
+
+.scrollbar-color\:main {
+	scrollbar-color: var(--color-main-1) var(--color-base-2) !important;
+}
+
+.scrollbar-color\:accent {
+	scrollbar-color: var(--color-accent-1) var(--color-base-2) !important;
+}
+
+.scrollbar-color\:dark {
+	scrollbar-color: var(--color-base-7) var(--color-base-3) !important;
+}
+
+/* ===== COMMON SCROLL SNAP PATTERNS ===== */
+
+/* 수평 스크롤 갤러리 */
+.scroll-gallery {
+	display: flex !important;
+	overflow-x: auto !important;
+	scroll-snap-type: x mandatory !important;
+	gap: var(--space-4) !important;
+	padding: var(--space-4) !important;
+	scrollbar-width: thin !important;
+}
+
+.scroll-gallery > * {
+	flex: none !important;
+	scroll-snap-align: start !important;
+}
+
+/* 세로 스크롤 섹션 */
+.scroll-sections {
+	height: 100vh !important;
+	overflow-y: auto !important;
+	scroll-snap-type: y mandatory !important;
+}
+
+.scroll-sections > section {
+	height: 100vh !important;
+	scroll-snap-align: start !important;
+}
+
+/* 카드 슬라이더 */
+.card-slider {
+	display: flex !important;
+	overflow-x: auto !important;
+	scroll-snap-type: x proximity !important;
+	gap: var(--space-6) !important;
+	padding: var(--space-4) var(--space-6) !important;
+}
+
+.card-slider > .card {
+	flex: none !important;
+	width: 280px !important;
+	scroll-snap-align: center !important;
+	scroll-snap-stop: always !important;
+}
+
+/* 이미지 캐러셀 */
+.image-carousel {
+	display: flex !important;
+	overflow-x: auto !important;
+	scroll-snap-type: x mandatory !important;
+	scrollbar-width: none !important;
+}
+
+.image-carousel > img {
+	flex: none !important;
+	width: 100% !important;
+	scroll-snap-align: start !important;
+}
+
+/* 목차 네비게이션 (스크롤에 맞춰 이동) */
+.toc-navigation {
+	scroll-behavior: smooth !important;
+}
+
+.toc-navigation .toc-item {
+	scroll-margin-top: var(--space-20) !important; /* 고정 헤더 높이만큼 */
+}
+
+/* ===== RESPONSIVE SCROLL SNAP ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:scroll-snap\:x-mandatory {
+		scroll-snap-type: x mandatory !important;
+	}
+
+	.sm\:scroll-snap\:y-mandatory {
+		scroll-snap-type: y mandatory !important;
+	}
+
+	.sm\:snap\:start {
+		scroll-snap-align: start !important;
+	}
+
+	.sm\:snap\:center {
+		scroll-snap-align: center !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:scroll-snap\:x-mandatory {
+		scroll-snap-type: x mandatory !important;
+	}
+
+	.md\:scroll-snap\:y-mandatory {
+		scroll-snap-type: y mandatory !important;
+	}
+
+	.md\:snap\:start {
+		scroll-snap-align: start !important;
+	}
+
+	.md\:snap\:center {
+		scroll-snap-align: center !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:scroll-snap\:x-mandatory {
+		scroll-snap-type: x mandatory !important;
+	}
+
+	.lg\:scroll-snap\:y-mandatory {
+		scroll-snap-type: y mandatory !important;
+	}
+
+	.lg\:snap\:start {
+		scroll-snap-align: start !important;
+	}
+
+	.lg\:snap\:center {
+		scroll-snap-align: center !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:scroll-snap\:x-mandatory {
+		scroll-snap-type: x mandatory !important;
+	}
+
+	.xl\:scroll-snap\:y-mandatory {
+		scroll-snap-type: y mandatory !important;
+	}
+
+	.xl\:snap\:start {
+		scroll-snap-align: start !important;
+	}
+
+	.xl\:snap\:center {
+		scroll-snap-align: center !important;
+	}
+}
+
+/* ===== BROWSER SUPPORT & PERFORMANCE ===== */
+
+/* 스크롤 성능 최적화 */
+.scroll-optimized {
+	-webkit-overflow-scrolling: touch !important; /* iOS 부드러운 스크롤 */
+	overscroll-behavior: contain !important; /* 스크롤 체이닝 방지 */
+}
+
+/* 저전력 모드에서 스크롤 효과 비활성화 */
+@media (prefers-reduced-motion: reduce) {
+	.scroll-gallery,
+	.scroll-sections,
+	.card-slider,
+	.image-carousel {
+		scroll-snap-type: none !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* 터치 디바이스 최적화 */
+@media (hover: none) and (pointer: coarse) {
+	.scroll-gallery,
+	.card-slider {
+		gap: var(--space-2) !important; /* 모바일에서 간격 줄임 */
+		padding: var(--space-2) !important;
+	}
+
+	.card-slider > .card {
+		width: 260px !important; /* 모바일에서 카드 크기 조정 */
+	}
+}

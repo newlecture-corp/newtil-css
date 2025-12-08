@@ -1,0 +1,1017 @@
+:root {
+	--shadow-sm: 0 0 2px 0 rgb(0 0 0 / 0.05);
+	--shadow-base: 0 0 3px 0 rgb(0 0 0 / 0.1), 0 0 2px 0 rgb(0 0 0 / 0.1);
+	--shadow-md: 0 0 6px 1px rgb(0 0 0 / 0.1), 0 0 4px 0 rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 0 15px 2px rgb(0 0 0 / 0.1),
+		0 0 6px 1px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 0 25px 3px rgb(0 0 0 / 0.1),
+		0 0 10px 2px rgb(0 0 0 / 0.1);
+	--shadow-2xl: 0 0 50px 5px rgb(0 0 0 / 0.25);
+	--shadow-inner: inset 0 0 4px 0 rgb(0 0 0 / 0.05);
+	--shadow-none: 0 0 #0000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--shadow-sm: 0 0 2px 0 rgb(255 255 255 / 0.05);
+		--shadow-base: 0 0 3px 0 rgb(255 255 255 / 0.1), 0 0 2px 0 rgb(255 255 255 / 0.1);
+		--shadow-md: 0 0 6px 1px rgb(255 255 255 / 0.1), 0 0 4px 0 rgb(255 255 255 / 0.1);
+		--shadow-lg: 0 0 15px 2px rgb(255 255 255 / 0.1),
+		0 0 6px 1px rgb(255 255 255 / 0.1);
+		--shadow-xl: 0 0 25px 3px rgb(255 255 255 / 0.1),
+		0 0 10px 2px rgb(255 255 255 / 0.1);
+		--shadow-2xl: 0 0 50px 5px rgb(255 255 255 / 0.25);
+		--shadow-inner: inset 0 0 4px 0 rgb(255 255 255 / 0.05);
+		--shadow-none: 0 0 #ffffff;
+	}
+}
+
+/* ===== EFFECTS UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* 혼합 Variables 시스템: shadow, opacity, visibility 등 */
+
+/* ===== BOX SHADOW ===== */
+
+/* box-shadow: none */
+.box-shadow\:none,
+.shadow\:none {
+	box-shadow: var(--shadow-none) !important;
+}
+
+/* box-shadow: sm */
+.box-shadow\:sm,
+.shadow\:sm,
+.box-shadow\:1,
+.shadow\:1 {
+	box-shadow: var(--shadow-sm) !important;
+}
+
+/* box-shadow: base */
+.box-shadow\:base,
+.shadow\:base,
+.box-shadow\:2,
+.shadow\:2 {
+	box-shadow: var(--shadow-base) !important;
+}
+
+/* box-shadow: md */
+.box-shadow\:md,
+.shadow\:md,
+.box-shadow\:3,
+.shadow\:3 {
+	box-shadow: var(--shadow-md) !important;
+}
+
+/* box-shadow: lg */
+.box-shadow\:lg,
+.shadow\:lg,
+.box-shadow\:4,
+.shadow\:4 {
+	box-shadow: var(--shadow-lg) !important;
+}
+
+/* box-shadow: xl */
+.box-shadow\:xl,
+.shadow\:xl,
+.box-shadow\:5,
+.shadow\:5 {
+	box-shadow: var(--shadow-xl) !important;
+}
+
+/* box-shadow: 2xl */
+.box-shadow\:2xl,
+.shadow\:2xl,
+.box-shadow\:6,
+.shadow\:6 {
+	box-shadow: var(--shadow-2xl) !important;
+}
+
+/* box-shadow: inner */
+.box-shadow\:inner,
+.shadow\:inner {
+	box-shadow: var(--shadow-inner) !important;
+}
+
+/* ===== OPACITY ===== */
+
+/* opacity: 0 */
+.opacity\:0 {
+	opacity: var(--opacity-0) !important;
+}
+
+/* opacity: 0.05 */
+.opacity\:5 {
+	opacity: var(--opacity-5) !important;
+}
+
+/* opacity: 0.1 */
+.opacity\:10 {
+	opacity: var(--opacity-10) !important;
+}
+
+/* opacity: 0.2 */
+.opacity\:20 {
+	opacity: var(--opacity-20) !important;
+}
+
+/* opacity: 0.25 */
+.opacity\:25 {
+	opacity: var(--opacity-25) !important;
+}
+
+/* opacity: 0.3 */
+.opacity\:30 {
+	opacity: var(--opacity-30) !important;
+}
+
+/* opacity: 0.4 */
+.opacity\:40 {
+	opacity: var(--opacity-40) !important;
+}
+
+/* opacity: 0.5 */
+.opacity\:50 {
+	opacity: var(--opacity-50) !important;
+}
+
+/* opacity: 0.6 */
+.opacity\:60 {
+	opacity: var(--opacity-60) !important;
+}
+
+/* opacity: 0.7 */
+.opacity\:70 {
+	opacity: var(--opacity-70) !important;
+}
+
+/* opacity: 0.75 */
+.opacity\:75 {
+	opacity: var(--opacity-75) !important;
+}
+
+/* opacity: 0.8 */
+.opacity\:80 {
+	opacity: var(--opacity-80) !important;
+}
+
+/* opacity: 0.9 */
+.opacity\:90 {
+	opacity: var(--opacity-90) !important;
+}
+
+/* opacity: 0.95 */
+.opacity\:95 {
+	opacity: var(--opacity-95) !important;
+}
+
+/* opacity: 1 */
+.opacity\:100 {
+	opacity: var(--opacity-100) !important;
+}
+
+/* ===== VISIBILITY ===== */
+
+/* visibility: visible */
+.visibility\:visible,
+.visible {
+	visibility: visible !important;
+}
+
+/* visibility: hidden */
+.visibility\:hidden,
+.invisible {
+	visibility: hidden !important;
+}
+
+/* visibility: collapse */
+.visibility\:collapse {
+	visibility: collapse !important;
+}
+
+/* ===== OVERFLOW ===== */
+
+/* overflow: visible */
+.overflow\:visible {
+	overflow: visible !important;
+}
+
+/* overflow: hidden */
+.overflow\:hidden {
+	overflow: hidden !important;
+}
+
+/* overflow: scroll */
+.overflow\:scroll {
+	overflow: scroll !important;
+}
+
+/* overflow: auto */
+.overflow\:auto {
+	overflow: auto !important;
+}
+
+/* overflow-x */
+.overflow-x\:visible,
+.ovf-x\:visible {
+	overflow-x: visible !important;
+}
+
+.overflow-x\:hidden,
+.ovf-x\:hidden {
+	overflow-x: hidden !important;
+}
+
+.overflow-x\:scroll,
+.ovf-x\:scroll {
+	overflow-x: scroll !important;
+}
+
+.overflow-x\:auto,
+.ovf-x\:auto {
+	overflow-x: auto !important;
+}
+
+/* overflow-y */
+.overflow-y\:visible,
+.ovf-y\:visible {
+	overflow-y: visible !important;
+}
+
+.overflow-y\:hidden,
+.ovf-y\:hidden {
+	overflow-y: hidden !important;
+}
+
+.overflow-y\:scroll,
+.ovf-y\:scroll {
+	overflow-y: scroll !important;
+}
+
+.overflow-y\:auto,
+.ovf-y\:auto {
+	overflow-y: auto !important;
+}
+
+/* ===== CURSOR ===== */
+
+/* cursor: auto */
+.cursor\:auto {
+	cursor: auto !important;
+}
+
+/* cursor: default */
+.cursor\:default {
+	cursor: default !important;
+}
+
+/* cursor: pointer */
+.cursor\:pointer {
+	cursor: pointer !important;
+}
+
+/* cursor: wait */
+.cursor\:wait {
+	cursor: wait !important;
+}
+
+/* cursor: text */
+.cursor\:text {
+	cursor: text !important;
+}
+
+/* cursor: move */
+.cursor\:move {
+	cursor: move !important;
+}
+
+/* cursor: help */
+.cursor\:help {
+	cursor: help !important;
+}
+
+/* cursor: not-allowed */
+.cursor\:not-allowed {
+	cursor: not-allowed !important;
+}
+
+/* cursor: none */
+.cursor\:none {
+	cursor: none !important;
+}
+
+/* cursor: context-menu */
+.cursor\:context-menu {
+	cursor: context-menu !important;
+}
+
+/* cursor: progress */
+.cursor\:progress {
+	cursor: progress !important;
+}
+
+/* cursor: cell */
+.cursor\:cell {
+	cursor: cell !important;
+}
+
+/* cursor: crosshair */
+.cursor\:crosshair {
+	cursor: crosshair !important;
+}
+
+/* cursor: vertical-text */
+.cursor\:vertical-text {
+	cursor: vertical-text !important;
+}
+
+/* cursor: alias */
+.cursor\:alias {
+	cursor: alias !important;
+}
+
+/* cursor: copy */
+.cursor\:copy {
+	cursor: copy !important;
+}
+
+/* cursor: no-drop */
+.cursor\:no-drop {
+	cursor: no-drop !important;
+}
+
+/* cursor: grab */
+.cursor\:grab {
+	cursor: grab !important;
+}
+
+/* cursor: grabbing */
+.cursor\:grabbing {
+	cursor: grabbing !important;
+}
+
+/* cursor: all-scroll */
+.cursor\:all-scroll {
+	cursor: all-scroll !important;
+}
+
+/* cursor: col-resize */
+.cursor\:col-resize {
+	cursor: col-resize !important;
+}
+
+/* cursor: row-resize */
+.cursor\:row-resize {
+	cursor: row-resize !important;
+}
+
+/* cursor: n-resize */
+.cursor\:n-resize {
+	cursor: n-resize !important;
+}
+
+/* cursor: e-resize */
+.cursor\:e-resize {
+	cursor: e-resize !important;
+}
+
+/* cursor: s-resize */
+.cursor\:s-resize {
+	cursor: s-resize !important;
+}
+
+/* cursor: w-resize */
+.cursor\:w-resize {
+	cursor: w-resize !important;
+}
+
+/* cursor: ne-resize */
+.cursor\:ne-resize {
+	cursor: ne-resize !important;
+}
+
+/* cursor: nw-resize */
+.cursor\:nw-resize {
+	cursor: nw-resize !important;
+}
+
+/* cursor: se-resize */
+.cursor\:se-resize {
+	cursor: se-resize !important;
+}
+
+/* cursor: sw-resize */
+.cursor\:sw-resize {
+	cursor: sw-resize !important;
+}
+
+/* cursor: ew-resize */
+.cursor\:ew-resize {
+	cursor: ew-resize !important;
+}
+
+/* cursor: ns-resize */
+.cursor\:ns-resize {
+	cursor: ns-resize !important;
+}
+
+/* cursor: nesw-resize */
+.cursor\:nesw-resize {
+	cursor: nesw-resize !important;
+}
+
+/* cursor: nwse-resize */
+.cursor\:nwse-resize {
+	cursor: nwse-resize !important;
+}
+
+/* cursor: zoom-in */
+.cursor\:zoom-in {
+	cursor: zoom-in !important;
+}
+
+/* cursor: zoom-out */
+.cursor\:zoom-out {
+	cursor: zoom-out !important;
+}
+
+/* ===== USER SELECT ===== */
+
+/* user-select: none */
+.user-select\:none,
+.select\:none {
+	user-select: none !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+}
+
+/* user-select: text */
+.user-select\:text,
+.select\:text {
+	user-select: text !important;
+	-webkit-user-select: text !important;
+	-moz-user-select: text !important;
+	-ms-user-select: text !important;
+}
+
+/* user-select: all */
+.user-select\:all,
+.select\:all {
+	user-select: all !important;
+	-webkit-user-select: all !important;
+	-moz-user-select: all !important;
+	-ms-user-select: all !important;
+}
+
+/* user-select: auto */
+.user-select\:auto,
+.select\:auto {
+	user-select: auto !important;
+	-webkit-user-select: auto !important;
+	-moz-user-select: auto !important;
+	-ms-user-select: auto !important;
+}
+
+/* ===== POINTER EVENTS ===== */
+
+/* pointer-events: none */
+.pointer-events\:none,
+.pointer\:none {
+	pointer-events: none !important;
+}
+
+/* pointer-events: auto */
+.pointer-events\:auto,
+.pointer\:auto {
+	pointer-events: auto !important;
+}
+
+/* ===== RESIZE ===== */
+
+/* resize: none */
+.resize\:none {
+	resize: none !important;
+}
+
+/* resize: both */
+.resize\:both {
+	resize: both !important;
+}
+
+/* resize: horizontal */
+.resize\:horizontal,
+.rsz\:horizontal {
+	resize: horizontal !important;
+}
+
+/* resize: vertical */
+.resize\:vertical,
+.rsz\:vertical {
+	resize: vertical !important;
+}
+
+/* ===== SCROLL BEHAVIOR ===== */
+
+/* scroll-behavior: auto */
+.scroll-behavior\:auto,
+.scroll-b\:auto,
+.scr-b\:auto {
+	scroll-behavior: auto !important;
+}
+
+/* scroll-behavior: smooth */
+.scroll-behavior\:smooth,
+.scroll-b\:smooth,
+.scr-b\:smooth {
+	scroll-behavior: smooth !important;
+}
+
+/* ===== FILTER ===== */
+
+/* filter: none */
+.filter\:none {
+	filter: none !important;
+}
+
+/* filter: blur */
+.filter\:blur-sm {
+	filter: var(--blur-sm) !important;
+}
+
+.filter\:blur-md {
+	filter: var(--blur-md) !important;
+}
+
+.filter\:blur-lg {
+	filter: var(--blur-lg) !important;
+}
+
+.filter\:blur-xl {
+	filter: var(--blur-xl) !important;
+}
+
+.filter\:blur-2xl {
+	filter: var(--blur-2xl) !important;
+}
+
+.filter\:blur-3xl {
+	filter: var(--blur-3xl) !important;
+}
+
+/* filter: brightness */
+.filter\:brightness-0 {
+	filter: var(--brightness-0) !important;
+}
+
+.filter\:brightness-50 {
+	filter: var(--brightness-50) !important;
+}
+
+.filter\:brightness-75 {
+	filter: var(--brightness-75) !important;
+}
+
+.filter\:brightness-90 {
+	filter: var(--brightness-90) !important;
+}
+
+.filter\:brightness-95 {
+	filter: var(--brightness-95) !important;
+}
+
+.filter\:brightness-100 {
+	filter: var(--brightness-100) !important;
+}
+
+.filter\:brightness-105 {
+	filter: var(--brightness-105) !important;
+}
+
+.filter\:brightness-110 {
+	filter: var(--brightness-110) !important;
+}
+
+.filter\:brightness-125 {
+	filter: var(--brightness-125) !important;
+}
+
+.filter\:brightness-150 {
+	filter: var(--brightness-150) !important;
+}
+
+.filter\:brightness-200 {
+	filter: var(--brightness-200) !important;
+}
+
+/* filter: contrast */
+.filter\:contrast-0 {
+	filter: var(--contrast-0) !important;
+}
+
+.filter\:contrast-50 {
+	filter: var(--contrast-50) !important;
+}
+
+.filter\:contrast-75 {
+	filter: var(--contrast-75) !important;
+}
+
+.filter\:contrast-100 {
+	filter: var(--contrast-100) !important;
+}
+
+.filter\:contrast-125 {
+	filter: var(--contrast-125) !important;
+}
+
+.filter\:contrast-150 {
+	filter: var(--contrast-150) !important;
+}
+
+.filter\:contrast-200 {
+	filter: var(--contrast-200) !important;
+}
+
+/* filter: grayscale */
+.filter\:grayscale-0 {
+	filter: var(--grayscale-0) !important;
+}
+
+.filter\:grayscale-50 {
+	filter: var(--grayscale-50) !important;
+}
+
+.filter\:grayscale-100 {
+	filter: var(--grayscale-100) !important;
+}
+
+/* filter: sepia */
+.filter\:sepia-0 {
+	filter: var(--sepia-0) !important;
+}
+
+.filter\:sepia-50 {
+	filter: var(--sepia-50) !important;
+}
+
+.filter\:sepia-100 {
+	filter: var(--sepia-100) !important;
+}
+
+/* filter: saturate */
+.filter\:saturate-0 {
+	filter: var(--saturate-0) !important;
+}
+
+.filter\:saturate-50 {
+	filter: var(--saturate-50) !important;
+}
+
+.filter\:saturate-100 {
+	filter: var(--saturate-100) !important;
+}
+
+.filter\:saturate-150 {
+	filter: var(--saturate-150) !important;
+}
+
+.filter\:saturate-200 {
+	filter: var(--saturate-200) !important;
+}
+
+/* filter: hue-rotate */
+.filter\:hue-rotate-15 {
+	filter: var(--hue-rotate-15) !important;
+}
+
+.filter\:hue-rotate-30 {
+	filter: var(--hue-rotate-30) !important;
+}
+
+.filter\:hue-rotate-60 {
+	filter: var(--hue-rotate-60) !important;
+}
+
+.filter\:hue-rotate-90 {
+	filter: var(--hue-rotate-90) !important;
+}
+
+.filter\:hue-rotate-180 {
+	filter: var(--hue-rotate-180) !important;
+}
+
+/* filter: invert */
+.filter\:invert-0 {
+	filter: var(--invert-0) !important;
+}
+
+.filter\:invert-50 {
+	filter: var(--invert-50) !important;
+}
+
+.filter\:invert-100 {
+	filter: var(--invert-100) !important;
+}
+
+/* ===== BACKDROP FILTER ===== */
+
+/* backdrop-filter: none */
+.backdrop-filter\:none,
+.backdrop\:none {
+	backdrop-filter: none !important;
+}
+
+/* backdrop-filter: blur */
+.backdrop-filter\:blur-sm,
+.backdrop\:blur-sm {
+	backdrop-filter: var(--blur-sm) !important;
+}
+
+.backdrop-filter\:blur-md,
+.backdrop\:blur-md {
+	backdrop-filter: var(--blur-md) !important;
+}
+
+.backdrop-filter\:blur-lg,
+.backdrop\:blur-lg {
+	backdrop-filter: var(--blur-lg) !important;
+}
+
+.backdrop-filter\:blur-xl,
+.backdrop\:blur-xl {
+	backdrop-filter: var(--blur-xl) !important;
+}
+
+.backdrop-filter\:blur-2xl,
+.backdrop\:blur-2xl {
+	backdrop-filter: var(--blur-2xl) !important;
+}
+
+.backdrop-filter\:blur-3xl,
+.backdrop\:blur-3xl {
+	backdrop-filter: var(--blur-3xl) !important;
+}
+
+/* backdrop-filter: brightness */
+.backdrop-filter\:brightness-50,
+.backdrop\:brightness-50 {
+	backdrop-filter: var(--brightness-50) !important;
+}
+
+.backdrop-filter\:brightness-75,
+.backdrop\:brightness-75 {
+	backdrop-filter: var(--brightness-75) !important;
+}
+
+.backdrop-filter\:brightness-90,
+.backdrop\:brightness-90 {
+	backdrop-filter: var(--brightness-90) !important;
+}
+
+.backdrop-filter\:brightness-100,
+.backdrop\:brightness-100 {
+	backdrop-filter: var(--brightness-100) !important;
+}
+
+.backdrop-filter\:brightness-110,
+.backdrop\:brightness-110 {
+	backdrop-filter: var(--brightness-110) !important;
+}
+
+.backdrop-filter\:brightness-125,
+.backdrop\:brightness-125 {
+	backdrop-filter: var(--brightness-125) !important;
+}
+
+.backdrop-filter\:brightness-150,
+.backdrop\:brightness-150 {
+	backdrop-filter: var(--brightness-150) !important;
+}
+
+/* backdrop-filter: contrast */
+.backdrop-filter\:contrast-50,
+.backdrop\:contrast-50 {
+	backdrop-filter: var(--contrast-50) !important;
+}
+
+.backdrop-filter\:contrast-75,
+.backdrop\:contrast-75 {
+	backdrop-filter: var(--contrast-75) !important;
+}
+
+.backdrop-filter\:contrast-100,
+.backdrop\:contrast-100 {
+	backdrop-filter: var(--contrast-100) !important;
+}
+
+.backdrop-filter\:contrast-125,
+.backdrop\:contrast-125 {
+	backdrop-filter: var(--contrast-125) !important;
+}
+
+.backdrop-filter\:contrast-150,
+.backdrop\:contrast-150 {
+	backdrop-filter: var(--contrast-150) !important;
+}
+
+/* backdrop-filter: saturate */
+.backdrop-filter\:saturate-100,
+.backdrop\:saturate-100 {
+	backdrop-filter: var(--saturate-100) !important;
+}
+
+.backdrop-filter\:saturate-150,
+.backdrop\:saturate-150 {
+	backdrop-filter: var(--saturate-150) !important;
+}
+
+.backdrop-filter\:saturate-200,
+.backdrop\:saturate-200 {
+	backdrop-filter: var(--saturate-200) !important;
+}
+
+/* ===== RESPONSIVE EFFECTS ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:shadow\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+	.sm\:shadow\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+	.sm\:shadow\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+	.sm\:shadow\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.sm\:opacity\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+	.sm\:opacity\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+	.sm\:opacity\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	.sm\:overflow\:visible {
+		overflow: visible !important;
+	}
+	.sm\:overflow\:hidden {
+		overflow: hidden !important;
+	}
+	.sm\:overflow\:auto {
+		overflow: auto !important;
+	}
+
+	.sm\:cursor\:default {
+		cursor: default !important;
+	}
+	.sm\:cursor\:pointer {
+		cursor: pointer !important;
+	}
+	.sm\:cursor\:not-allowed {
+		cursor: not-allowed !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:shadow\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+	.md\:shadow\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+	.md\:shadow\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+	.md\:shadow\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.md\:opacity\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+	.md\:opacity\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+	.md\:opacity\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	.md\:overflow\:visible {
+		overflow: visible !important;
+	}
+	.md\:overflow\:hidden {
+		overflow: hidden !important;
+	}
+	.md\:overflow\:auto {
+		overflow: auto !important;
+	}
+
+	.md\:cursor\:default {
+		cursor: default !important;
+	}
+	.md\:cursor\:pointer {
+		cursor: pointer !important;
+	}
+	.md\:cursor\:not-allowed {
+		cursor: not-allowed !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:shadow\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+	.lg\:shadow\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+	.lg\:shadow\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+	.lg\:shadow\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.lg\:opacity\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+	.lg\:opacity\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+	.lg\:opacity\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	.lg\:overflow\:visible {
+		overflow: visible !important;
+	}
+	.lg\:overflow\:hidden {
+		overflow: hidden !important;
+	}
+	.lg\:overflow\:auto {
+		overflow: auto !important;
+	}
+
+	.lg\:cursor\:default {
+		cursor: default !important;
+	}
+	.lg\:cursor\:pointer {
+		cursor: pointer !important;
+	}
+	.lg\:cursor\:not-allowed {
+		cursor: not-allowed !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:shadow\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+	.xl\:shadow\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+	.xl\:shadow\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+	.xl\:shadow\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.xl\:opacity\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+	.xl\:opacity\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+	.xl\:opacity\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	.xl\:overflow\:visible {
+		overflow: visible !important;
+	}
+	.xl\:overflow\:hidden {
+		overflow: hidden !important;
+	}
+	.xl\:overflow\:auto {
+		overflow: auto !important;
+	}
+
+	.xl\:cursor\:default {
+		cursor: default !important;
+	}
+	.xl\:cursor\:pointer {
+		cursor: pointer !important;
+	}
+	.xl\:cursor\:not-allowed {
+		cursor: not-allowed !important;
+	}
+}

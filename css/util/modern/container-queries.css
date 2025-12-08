@@ -1,0 +1,315 @@
+/* ===== CONTAINER QUERIES UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* Container Query 속성들: container-type, container-name, @container 등 */
+
+/* ===== CONTAINER TYPE (컨테이너 타입) ===== */
+
+/* container-type: normal */
+.container-type\:normal {
+	container-type: normal !important;
+}
+
+/* container-type: size */
+.container-type\:size,
+.container\:size {
+	container-type: size !important;
+}
+
+/* container-type: inline-size */
+.container-type\:inline-size,
+.container\:inline-size {
+	container-type: inline-size !important;
+}
+
+/* container-type: block-size */
+.container-type\:block-size,
+.container\:block-size {
+	container-type: block-size !important;
+}
+
+/* ===== CONTAINER NAME (컨테이너 이름) ===== */
+
+/* container-name 설정 */
+.container-name\:sidebar,
+.container\:sidebar {
+	container-name: sidebar !important;
+}
+
+.container-name\:main,
+.container\:main {
+	container-name: main !important;
+}
+
+.container-name\:content,
+.container\:content {
+	container-name: content !important;
+}
+
+.container-name\:card,
+.container\:card {
+	container-name: card !important;
+}
+
+.container-name\:header,
+.container\:header {
+	container-name: header !important;
+}
+
+.container-name\:footer,
+.container\:footer {
+	container-name: footer !important;
+}
+
+/* ===== CONTAINER + NAME 조합 ===== */
+
+/* container-type + container-name 동시 설정 */
+.container\:size-sidebar {
+	container-type: size !important;
+	container-name: sidebar !important;
+}
+
+.container\:inline-size-main {
+	container-type: inline-size !important;
+	container-name: main !important;
+}
+
+.container\:size-card {
+	container-type: size !important;
+	container-name: card !important;
+}
+
+.container\:inline-size-content {
+	container-type: inline-size !important;
+	container-name: content !important;
+}
+
+/* ===== CONTAINER QUERY UNITS (cq 단위 지원) ===== */
+
+/* Container Query 단위를 사용한 크기 설정 */
+
+/* width: container query units */
+.width\:10cqw {
+	width: 10cqw !important;
+}
+
+.width\:25cqw {
+	width: 25cqw !important;
+}
+
+.width\:50cqw {
+	width: 50cqw !important;
+}
+
+.width\:75cqw {
+	width: 75cqw !important;
+}
+
+.width\:100cqw {
+	width: 100cqw !important;
+}
+
+/* height: container query units */
+.height\:10cqh {
+	height: 10cqh !important;
+}
+
+.height\:25cqh {
+	height: 25cqh !important;
+}
+
+.height\:50cqh {
+	height: 50cqh !important;
+}
+
+.height\:75cqh {
+	height: 75cqh !important;
+}
+
+.height\:100cqh {
+	height: 100cqh !important;
+}
+
+/* inline-size: container query units */
+.inline-size\:10cqi {
+	inline-size: 10cqi !important;
+}
+
+.inline-size\:25cqi {
+	inline-size: 25cqi !important;
+}
+
+.inline-size\:50cqi {
+	inline-size: 50cqi !important;
+}
+
+.inline-size\:75cqi {
+	inline-size: 75cqi !important;
+}
+
+.inline-size\:100cqi {
+	inline-size: 100cqi !important;
+}
+
+/* block-size: container query units */
+.block-size\:10cqb {
+	block-size: 10cqb !important;
+}
+
+.block-size\:25cqb {
+	block-size: 25cqb !important;
+}
+
+.block-size\:50cqb {
+	block-size: 50cqb !important;
+}
+
+.block-size\:75cqb {
+	block-size: 75cqb !important;
+}
+
+.block-size\:100cqb {
+	block-size: 100cqb !important;
+}
+
+/* font-size: container query units */
+.font-size\:1cqw {
+	font-size: 1cqw !important;
+}
+
+.font-size\:2cqw {
+	font-size: 2cqw !important;
+}
+
+.font-size\:3cqw {
+	font-size: 3cqw !important;
+}
+
+.font-size\:4cqw {
+	font-size: 4cqw !important;
+}
+
+.font-size\:5cqw {
+	font-size: 5cqw !important;
+}
+
+/* ===== CONTAINER QUERY RESPONSIVE CLASSES ===== */
+/* 실제 @container 규칙은 사용자가 정의해야 하므로 여기서는 일반적인 패턴을 제공 */
+
+/*
+사용 예시:
+
+@container card (min-width: 300px) {
+  .card-responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@container sidebar (max-width: 200px) {
+  .sidebar-compact {
+    font-size: 0.875rem;
+  }
+}
+
+@container main (min-width: 600px) {
+  .main-expanded {
+    padding: 2rem;
+  }
+}
+*/
+
+/* ===== 일반적인 Container Query 브레이크포인트 클래스 ===== */
+
+/* 카드 컴포넌트용 - 일반적인 패턴 */
+.card-layout-sm {
+	/* @container card (min-width: 250px) 에서 사용 */
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.card-layout-md {
+	/* @container card (min-width: 400px) 에서 사용 */
+	display: grid !important;
+	grid-template-columns: auto 1fr !important;
+	gap: var(--space-4) !important;
+}
+
+.card-layout-lg {
+	/* @container card (min-width: 600px) 에서 사용 */
+	display: grid !important;
+	grid-template-columns: 200px 1fr !important;
+	gap: var(--space-6) !important;
+}
+
+/* 사이드바 컴포넌트용 */
+.sidebar-compact {
+	/* @container sidebar (max-width: 200px) 에서 사용 */
+	font-size: var(--font-size-sm) !important;
+	padding: var(--space-2) !important;
+}
+
+.sidebar-expanded {
+	/* @container sidebar (min-width: 300px) 에서 사용 */
+	font-size: var(--font-size-base) !important;
+	padding: var(--space-4) !important;
+}
+
+/* ===== BROWSER SUPPORT & FALLBACKS ===== */
+
+/* Container Queries를 지원하지 않는 브라우저용 fallback */
+@supports not (container-type: inline-size) {
+	.container\:size,
+	.container\:inline-size,
+	.container\:block-size {
+		/* fallback: 기본 블록 레벨 요소로 동작 */
+		display: block;
+		width: 100%;
+	}
+
+	/* CQ 단위 fallback */
+	.width\:50cqw {
+		width: 50% !important;
+	}
+
+	.height\:50cqh {
+		height: 50vh !important;
+	}
+
+	.font-size\:3cqw {
+		font-size: clamp(1rem, 3vw, 2rem) !important;
+	}
+}
+
+/* ===== UTILITY COMBINATIONS ===== */
+
+/* 반응형 컨테이너 설정 */
+.responsive-container {
+	container-type: inline-size !important;
+	container-name: responsive !important;
+	width: 100% !important;
+}
+
+/* 카드 컨테이너 설정 */
+.card-container {
+	container-type: size !important;
+	container-name: card !important;
+	border: 1px solid var(--color-base-3) !important;
+	border-radius: var(--radius-md) !important;
+	padding: var(--space-4) !important;
+}
+
+/* 사이드바 컨테이너 설정 */
+.sidebar-container {
+	container-type: inline-size !important;
+	container-name: sidebar !important;
+	min-height: 100vh !important;
+	background-color: var(--color-base-1) !important;
+}
+
+/* 메인 콘텐츠 컨테이너 설정 */
+.main-container {
+	container-type: size !important;
+	container-name: main !important;
+	flex: 1 !important;
+	padding: var(--space-6) !important;
+}

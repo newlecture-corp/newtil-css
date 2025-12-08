@@ -1,0 +1,460 @@
+/* ===== TYPOGRAPHY UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* CSS Variables를 사용하여 커스터마이징 가능 */
+
+/* ===== FONT SIZE ===== */
+.font-size\:1,
+.fs\:1 {
+	font-size: var(--size-1);
+}
+
+.font-size\:2,
+.fs\:2 {
+	font-size: var(--size-2) !important;
+}
+
+.font-size\:3,
+.fs\:3 {
+	font-size: var(--size-3) !important;
+}
+
+.font-size\:4,
+.fs\:4 {
+	font-size: var(--size-4) !important;
+}
+.font-size\:5,
+.fs\:5 {
+	font-size: var(--size-5) !important;
+}
+.font-size\:6,
+.fs\:6 {
+	font-size: var(--size-6) !important;
+}
+.font-size\:7,
+.fs\:7 {
+	font-size: var(--size-7) !important;
+}
+.font-size\:8,
+.fs\:8 {
+	font-size: var(--size-8) !important;
+}
+.font-size\:9,
+.fs\:9 {
+	font-size: var(--size-9) !important;
+}
+.font-size\:10,
+.fs\:10 {
+	font-size: var(--size-10) !important;
+}
+.font-size\:11,
+.fs\:11 {
+	font-size: var(--size-11) !important;
+}
+.font-size\:12,
+.fs\:12 {
+	font-size: var(--size-12) !important;
+}
+.font-size\:13,
+.fs\:13 {
+	font-size: var(--size-13) !important;
+}
+.font-size\:14,
+.fs\:14 {
+	font-size: var(--size-14) !important;
+}
+.font-size\:15,
+.fs\:15 {
+	font-size: var(--size-15) !important;
+}
+.font-size\:16,
+.fs\:16 {
+	font-size: var(--size-16) !important;
+}
+.font-size\:17,
+.fs\:17 {
+	font-size: var(--size-17) !important;
+}
+.font-size\:18,
+.fs\:18 {
+	font-size: var(--size-18) !important;
+}
+.font-size\:19,
+.fs\:19 {
+	font-size: var(--size-19) !important;
+}
+.font-size\:20,
+.fs\:20 {
+	font-size: var(--size-20) !important;
+}
+
+/* font-weight: 100 */
+.font-weight\:thin,
+.fw\:thin {
+	font-weight: var(--font-weight-thin) !important;
+}
+
+/* font-weight: 200 */
+.font-weight\:extralight,
+.fw\:extralight {
+	font-weight: var(--font-weight-extralight) !important;
+}
+
+/* font-weight: 300 */
+.font-weight\:light,
+.fw\:light {
+	font-weight: var(--font-weight-light) !important;
+}
+
+/* font-weight: 400 */
+.font-weight\:normal,
+.fw\:normal {
+	font-weight: var(--font-weight-normal) !important;
+}
+
+/* font-weight: 500 */
+.font-weight\:medium,
+.fw\:medium {
+	font-weight: var(--font-weight-medium) !important;
+}
+
+/* font-weight: 600 */
+.font-weight\:semibold,
+.fw\:semibold {
+	font-weight: var(--font-weight-semibold) !important;
+}
+
+/* font-weight: 700 */
+.font-weight\:bold,
+.fw\:bold {
+	font-weight: var(--font-weight-bold) !important;
+}
+
+/* font-weight: 800 */
+.font-weight\:extrabold,
+.fw\:extrabold {
+	font-weight: var(--font-weight-extrabold) !important;
+}
+
+/* font-weight: 900 */
+.font-weight\:black,
+.fw\:black {
+	font-weight: var(--font-weight-black) !important;
+}
+
+/* ===== FONT STYLE ===== */
+
+/* font-style: normal */
+.font-style\:normal,
+.fst\:normal {
+	font-style: normal !important;
+}
+
+/* font-style: italic */
+.font-style\:italic,
+.fst\:italic {
+	font-style: italic !important;
+}
+
+/* ===== TEXT ALIGN ===== */
+
+/* text-align: left */
+.text-align\:left,
+.ta\:left {
+	text-align: left !important;
+}
+
+/* text-align: center */
+.text-align\:center,
+.ta\:center {
+	text-align: center !important;
+}
+
+/* text-align: right */
+.text-align\:right,
+.ta\:right {
+	text-align: right !important;
+}
+
+/* text-align: justify */
+.text-align\:justify,
+.ta\:justify {
+	text-align: justify !important;
+}
+
+/* ===== LINE HEIGHT ===== */
+
+/* line-height: 1 */
+.line-height\:none,
+.lh\:none {
+	line-height: var(--line-height-none) !important;
+}
+
+/* line-height: 1.25 */
+.line-height\:tight,
+.lh\:tight {
+	line-height: var(--line-height-tight) !important;
+}
+
+/* line-height: 1.375 */
+.line-height\:snug,
+.lh\:snug {
+	line-height: var(--line-height-snug) !important;
+}
+
+/* line-height: 1.5 */
+.line-height\:normal,
+.lh\:normal {
+	line-height: var(--line-height-normal) !important;
+}
+
+/* line-height: 1.625 */
+.line-height\:relaxed,
+.lh\:relaxed {
+	line-height: var(--line-height-relaxed) !important;
+}
+
+/* line-height: 2 */
+.line-height\:loose,
+.lh\:loose {
+	line-height: var(--line-height-loose) !important;
+}
+
+/* ===== TEXT DECORATION ===== */
+
+/* text-decoration: none */
+.text-decoration\:none,
+.td\:none {
+	text-decoration: none !important;
+}
+
+/* text-decoration: underline */
+.text-decoration\:underline,
+.td\:underline {
+	text-decoration: underline !important;
+}
+
+/* text-decoration: line-through */
+.text-decoration\:line-through,
+.td\:line-through {
+	text-decoration: line-through !important;
+}
+
+/* ===== TEXT TRANSFORM ===== */
+
+/* text-transform: none */
+.text-transform\:none,
+.tt\:none {
+	text-transform: none !important;
+}
+
+/* text-transform: uppercase */
+.text-transform\:uppercase,
+.tt\:uppercase {
+	text-transform: uppercase !important;
+}
+
+/* text-transform: lowercase */
+.text-transform\:lowercase,
+.tt\:lowercase {
+	text-transform: lowercase !important;
+}
+
+/* text-transform: capitalize */
+.text-transform\:capitalize,
+.tt\:capitalize {
+	text-transform: capitalize !important;
+}
+
+/* ===== VERTICAL ALIGN ===== */
+
+/* vertical-align: baseline */
+.vertical-align\:baseline,
+.va\:baseline {
+	vertical-align: baseline !important;
+}
+
+/* vertical-align: top */
+.vertical-align\:top,
+.va\:top {
+	vertical-align: top !important;
+}
+
+/* vertical-align: middle */
+.vertical-align\:middle,
+.va\:middle {
+	vertical-align: middle !important;
+}
+
+/* vertical-align: bottom */
+.vertical-align\:bottom,
+.va\:bottom {
+	vertical-align: bottom !important;
+}
+
+/* ===== WHITE SPACE ===== */
+
+/* white-space: normal */
+.white-space\:normal,
+.ws\:normal {
+	white-space: normal !important;
+}
+
+/* white-space: nowrap */
+.white-space\:nowrap,
+.ws\:nowrap {
+	white-space: nowrap !important;
+}
+
+/* white-space: pre */
+.white-space\:pre,
+.ws\:pre {
+	white-space: pre !important;
+}
+
+/* white-space: pre-line */
+.white-space\:pre-line,
+.ws\:pre-line {
+	white-space: pre-line !important;
+}
+
+/* white-space: pre-wrap */
+.white-space\:pre-wrap,
+.ws\:pre-wrap {
+	white-space: pre-wrap !important;
+}
+
+/* ===== WORD BREAK ===== */
+
+/* word-break: normal */
+.word-break\:normal,
+.wb\:normal {
+	word-break: normal !important;
+}
+
+/* word-break: break-all */
+.word-break\:break-all,
+.wb\:break-all {
+	word-break: break-all !important;
+}
+
+/* word-break: keep-all */
+.word-break\:keep-all,
+.wb\:keep-all {
+	word-break: keep-all !important;
+}
+
+/* ===== TEXT OVERFLOW ===== */
+
+/* text-overflow: clip */
+.text-overflow\:clip,
+.to\:clip {
+	text-overflow: clip !important;
+}
+
+/* text-overflow: ellipsis */
+.text-overflow\:ellipsis,
+.to\:ellipsis {
+	text-overflow: ellipsis !important;
+}
+
+/* ===== RESPONSIVE TYPOGRAPHY ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:font-size\:xs,
+	.sm\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+	.sm\:font-size\:base,
+	.sm\:fs\:base {
+		font-size: var(--font-size-base) !important;
+	}
+	.sm\:font-size\:lg,
+	.sm\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.sm\:text-align\:left,
+	.sm\:ta\:left {
+		text-align: left !important;
+	}
+	.sm\:text-align\:center,
+	.sm\:ta\:center {
+		text-align: center !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:font-size\:xs,
+	.md\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+	.md\:font-size\:base,
+	.md\:fs\:base {
+		font-size: var(--font-size-base) !important;
+	}
+	.md\:font-size\:lg,
+	.md\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.md\:text-align\:left,
+	.md\:ta\:left {
+		text-align: left !important;
+	}
+	.md\:text-align\:center,
+	.md\:ta\:center {
+		text-align: center !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:font-size\:xs,
+	.lg\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+	.lg\:font-size\:base,
+	.lg\:fs\:base {
+		font-size: var(--font-size-base) !important;
+	}
+	.lg\:font-size\:lg,
+	.lg\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.lg\:text-align\:left,
+	.lg\:ta\:left {
+		text-align: left !important;
+	}
+	.lg\:text-align\:center,
+	.lg\:ta\:center {
+		text-align: center !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:font-size\:xs,
+	.xl\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+	.xl\:font-size\:base,
+	.xl\:fs\:base {
+		font-size: var(--font-size-base) !important;
+	}
+	.xl\:font-size\:lg,
+	.xl\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.xl\:text-align\:left,
+	.xl\:ta\:left {
+		text-align: left !important;
+	}
+	.xl\:text-align\:center,
+	.xl\:ta\:center {
+		text-align: center !important;
+	}
+}

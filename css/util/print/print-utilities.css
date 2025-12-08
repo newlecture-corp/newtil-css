@@ -1,0 +1,709 @@
+/* ===== PRINT UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* 프린트 최적화: @media print, page-break, ink saving 등 */
+
+/* ===== PRINT DISPLAY (프린트 표시/숨김) ===== */
+
+/* 프린트 시에만 표시 */
+.print\:block {
+	display: none !important;
+}
+
+@media print {
+	.print\:block {
+		display: block !important;
+	}
+}
+
+.print\:inline {
+	display: none !important;
+}
+
+@media print {
+	.print\:inline {
+		display: inline !important;
+	}
+}
+
+.print\:inline-block {
+	display: none !important;
+}
+
+@media print {
+	.print\:inline-block {
+		display: inline-block !important;
+	}
+}
+
+.print\:flex {
+	display: none !important;
+}
+
+@media print {
+	.print\:flex {
+		display: flex !important;
+	}
+}
+
+/* 프린트 시 숨김 */
+.print\:hidden {
+	display: block !important;
+}
+
+@media print {
+	.print\:hidden {
+		display: none !important;
+	}
+}
+
+/* 화면에서만 표시 (프린트 시 숨김) */
+.screen-only {
+	display: block !important;
+}
+
+@media print {
+	.screen-only {
+		display: none !important;
+	}
+}
+
+/* 프린트에서만 표시 (화면에서 숨김) */
+.print-only {
+	display: none !important;
+}
+
+@media print {
+	.print-only {
+		display: block !important;
+	}
+}
+
+/* ===== PAGE BREAKS (페이지 나누기) ===== */
+
+/* page-break-before */
+.page-break-before\:auto {
+	page-break-before: auto !important;
+}
+
+.page-break-before\:always,
+.break-before\:page {
+	page-break-before: always !important;
+}
+
+.page-break-before\:avoid,
+.break-before\:avoid {
+	page-break-before: avoid !important;
+}
+
+.page-break-before\:left,
+.break-before\:left {
+	page-break-before: left !important;
+}
+
+.page-break-before\:right,
+.break-before\:right {
+	page-break-before: right !important;
+}
+
+/* page-break-after */
+.page-break-after\:auto {
+	page-break-after: auto !important;
+}
+
+.page-break-after\:always,
+.break-after\:page {
+	page-break-after: always !important;
+}
+
+.page-break-after\:avoid,
+.break-after\:avoid {
+	page-break-after: avoid !important;
+}
+
+.page-break-after\:left,
+.break-after\:left {
+	page-break-after: left !important;
+}
+
+.page-break-after\:right,
+.break-after\:right {
+	page-break-after: right !important;
+}
+
+/* page-break-inside */
+.page-break-inside\:auto {
+	page-break-inside: auto !important;
+}
+
+.page-break-inside\:avoid,
+.break-inside\:avoid {
+	page-break-inside: avoid !important;
+}
+
+/* ===== MODERN BREAK PROPERTIES (현대적 나누기 속성) ===== */
+
+/* break-before */
+.break-before\:auto {
+	break-before: auto !important;
+}
+
+.break-before\:avoid {
+	break-before: avoid !important;
+}
+
+.break-before\:page {
+	break-before: page !important;
+}
+
+.break-before\:left {
+	break-before: left !important;
+}
+
+.break-before\:right {
+	break-before: right !important;
+}
+
+.break-before\:column {
+	break-before: column !important;
+}
+
+/* break-after */
+.break-after\:auto {
+	break-after: auto !important;
+}
+
+.break-after\:avoid {
+	break-after: avoid !important;
+}
+
+.break-after\:page {
+	break-after: page !important;
+}
+
+.break-after\:left {
+	break-after: left !important;
+}
+
+.break-after\:right {
+	break-after: right !important;
+}
+
+.break-after\:column {
+	break-after: column !important;
+}
+
+/* break-inside */
+.break-inside\:auto {
+	break-inside: auto !important;
+}
+
+.break-inside\:avoid {
+	break-inside: avoid !important;
+}
+
+.break-inside\:avoid-page {
+	break-inside: avoid-page !important;
+}
+
+.break-inside\:avoid-column {
+	break-inside: avoid-column !important;
+}
+
+/* ===== PRINT COLORS (프린트 색상) ===== */
+
+/* 프린트 시 색상 조정 */
+@media print {
+	.print\:text-black {
+		color: black !important;
+	}
+
+	.print\:bg-white {
+		background-color: white !important;
+	}
+
+	.print\:bg-transparent {
+		background-color: transparent !important;
+	}
+
+	.print\:border-black {
+		border-color: black !important;
+	}
+
+	.print\:border-gray {
+		border-color: #666 !important;
+	}
+}
+
+/* 잉크 절약 모드 */
+.ink-saving {
+	background: white !important;
+	color: black !important;
+	border-color: black !important;
+}
+
+@media print {
+	.ink-saving {
+		background: transparent !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	.ink-saving img {
+		opacity: 0.8 !important;
+		filter: grayscale(100%) !important;
+	}
+}
+
+/* 프린트 시 그래디언트 제거 */
+@media print {
+	.print\:no-gradient {
+		background-image: none !important;
+		background: white !important;
+	}
+}
+
+/* ===== PRINT TYPOGRAPHY (프린트 타이포그래피) ===== */
+
+/* 프린트 시 글꼴 크기 조정 */
+@media print {
+	.print\:text-xs {
+		font-size: 10pt !important;
+	}
+
+	.print\:text-sm {
+		font-size: 11pt !important;
+	}
+
+	.print\:text-base {
+		font-size: 12pt !important;
+	}
+
+	.print\:text-lg {
+		font-size: 14pt !important;
+	}
+
+	.print\:text-xl {
+		font-size: 16pt !important;
+	}
+
+	.print\:text-2xl {
+		font-size: 18pt !important;
+	}
+
+	.print\:text-3xl {
+		font-size: 24pt !important;
+	}
+}
+
+/* 프린트 시 폰트 최적화 */
+@media print {
+	.print-optimized {
+		font-family: "Times New Roman", serif !important;
+		line-height: 1.4 !important;
+		color: black !important;
+	}
+
+	.print-optimized h1,
+	.print-optimized h2,
+	.print-optimized h3,
+	.print-optimized h4,
+	.print-optimized h5,
+	.print-optimized h6 {
+		color: black !important;
+		page-break-after: avoid !important;
+	}
+
+	.print-optimized p {
+		orphans: 3 !important;
+		widows: 3 !important;
+	}
+}
+
+/* ===== PRINT LAYOUT (프린트 레이아웃) ===== */
+
+/* 프린트 시 마진/패딩 조정 */
+@media print {
+	.print\:m-0 {
+		margin: 0 !important;
+	}
+
+	.print\:p-0 {
+		padding: 0 !important;
+	}
+
+	.print\:m-2 {
+		margin: 0.5cm !important;
+	}
+
+	.print\:p-2 {
+		padding: 0.5cm !important;
+	}
+
+	.print\:m-4 {
+		margin: 1cm !important;
+	}
+
+	.print\:p-4 {
+		padding: 1cm !important;
+	}
+}
+
+/* 프린트 시 폭 조정 */
+@media print {
+	.print\:w-full {
+		width: 100% !important;
+	}
+
+	.print\:w-1\/2 {
+		width: 50% !important;
+	}
+
+	.print\:w-1\/3 {
+		width: 33.333333% !important;
+	}
+
+	.print\:w-2\/3 {
+		width: 66.666667% !important;
+	}
+
+	.print\:w-1\/4 {
+		width: 25% !important;
+	}
+
+	.print\:w-3\/4 {
+		width: 75% !important;
+	}
+}
+
+/* ===== PRINT TABLES (프린트 테이블) ===== */
+
+/* 테이블 프린트 최적화 */
+.print-table {
+	width: 100% !important;
+	border-collapse: collapse !important;
+}
+
+@media print {
+	.print-table {
+		page-break-inside: auto !important;
+	}
+
+	.print-table thead {
+		display: table-header-group !important;
+	}
+
+	.print-table tbody {
+		display: table-row-group !important;
+	}
+
+	.print-table tr {
+		page-break-inside: avoid !important;
+	}
+
+	.print-table th,
+	.print-table td {
+		border: 1pt solid black !important;
+		padding: 0.25cm !important;
+		font-size: 10pt !important;
+	}
+
+	.print-table th {
+		background-color: #f0f0f0 !important;
+		font-weight: bold !important;
+	}
+}
+
+/* ===== PRINT LINKS (프린트 링크) ===== */
+
+/* 링크 URL 표시 */
+@media print {
+	.print-urls a:after {
+		content: " (" attr(href) ")" !important;
+		font-size: smaller !important;
+		color: #666 !important;
+	}
+
+	.print-urls a[href^="mailto:"]:after {
+		content: " (" attr(href) ")" !important;
+	}
+
+	.print-urls a[href^="tel:"]:after {
+		content: " (" attr(href) ")" !important;
+	}
+
+	/* 내부 링크는 URL 표시하지 않음 */
+	.print-urls a[href^="#"]:after,
+	.print-urls a[href^="/"]:after {
+		content: "" !important;
+	}
+}
+
+/* 링크 스타일 제거 */
+@media print {
+	.print-no-links a {
+		color: black !important;
+		text-decoration: none !important;
+	}
+}
+
+/* ===== PRINT IMAGES (프린트 이미지) ===== */
+
+/* 이미지 프린트 최적화 */
+@media print {
+	.print-img-optimize img {
+		max-width: 100% !important;
+		height: auto !important;
+		page-break-inside: avoid !important;
+		filter: grayscale(100%) !important; /* 잉크 절약 */
+	}
+
+	.print-img-full img {
+		max-width: 100% !important;
+		height: auto !important;
+		page-break-inside: avoid !important;
+	}
+
+	.print-img-small img {
+		max-width: 50% !important;
+		height: auto !important;
+	}
+
+	.print-img-hide img {
+		display: none !important;
+	}
+}
+
+/* ===== PRINT HEADERS & FOOTERS (프린트 헤더/푸터) ===== */
+
+/* 페이지 헤더/푸터 스타일 */
+@media print {
+	.print-header {
+		position: fixed !important;
+		top: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		height: 1cm !important;
+		background: white !important;
+		border-bottom: 1pt solid black !important;
+		padding: 0.25cm !important;
+		font-size: 10pt !important;
+		text-align: center !important;
+	}
+
+	.print-footer {
+		position: fixed !important;
+		bottom: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		height: 1cm !important;
+		background: white !important;
+		border-top: 1pt solid black !important;
+		padding: 0.25cm !important;
+		font-size: 10pt !important;
+		text-align: center !important;
+	}
+
+	.print-content {
+		margin-top: 1.5cm !important;
+		margin-bottom: 1.5cm !important;
+	}
+}
+
+/* ===== PRINT SECTIONS (프린트 섹션) ===== */
+
+/* 섹션별 페이지 나누기 */
+.print-section {
+	page-break-before: auto !important;
+	page-break-after: avoid !important;
+	page-break-inside: avoid !important;
+}
+
+@media print {
+	.print-section-new-page {
+		page-break-before: always !important;
+	}
+
+	.print-section-avoid-break {
+		page-break-inside: avoid !important;
+	}
+
+	.print-section-keep-together {
+		page-break-before: avoid !important;
+		page-break-after: avoid !important;
+		page-break-inside: avoid !important;
+	}
+}
+
+/* ===== PRINT FORMS (프린트 폼) ===== */
+
+/* 폼 요소 프린트 최적화 */
+@media print {
+	.print-form input,
+	.print-form select,
+	.print-form textarea {
+		border: 1pt solid black !important;
+		background: white !important;
+		color: black !important;
+		padding: 0.1cm !important;
+		font-size: 10pt !important;
+	}
+
+	.print-form input[type="checkbox"],
+	.print-form input[type="radio"] {
+		width: 0.4cm !important;
+		height: 0.4cm !important;
+	}
+
+	.print-form label {
+		font-weight: bold !important;
+		color: black !important;
+	}
+
+	/* 빈 입력 필드에 밑줄 표시 */
+	.print-form input:not([value]),
+	.print-form input[value=""] {
+		border-bottom: 1pt solid black !important;
+		border-top: none !important;
+		border-left: none !important;
+		border-right: none !important;
+		background: transparent !important;
+		min-width: 3cm !important;
+	}
+}
+
+/* ===== PRINT UTILITIES (프린트 유틸리티) ===== */
+
+/* 프린트 최적화 기본 설정 */
+.print-optimized-page {
+	font-size: 12pt !important;
+	line-height: 1.4 !important;
+	color: black !important;
+	background: white !important;
+}
+
+@media print {
+	.print-optimized-page {
+		margin: 2cm !important;
+		font-family: "Times New Roman", serif !important;
+	}
+
+	.print-optimized-page * {
+		color: black !important;
+		background: transparent !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	.print-optimized-page img {
+		max-width: 100% !important;
+		height: auto !important;
+		page-break-inside: avoid !important;
+	}
+
+	.print-optimized-page h1,
+	.print-optimized-page h2,
+	.print-optimized-page h3,
+	.print-optimized-page h4,
+	.print-optimized-page h5,
+	.print-optimized-page h6 {
+		page-break-after: avoid !important;
+		margin-top: 1em !important;
+		margin-bottom: 0.5em !important;
+	}
+
+	.print-optimized-page p,
+	.print-optimized-page li {
+		orphans: 3 !important;
+		widows: 3 !important;
+	}
+
+	.print-optimized-page blockquote,
+	.print-optimized-page pre {
+		page-break-inside: avoid !important;
+		border-left: 2pt solid black !important;
+		padding-left: 0.5cm !important;
+		margin: 1em 0 !important;
+	}
+}
+
+/* QR 코드/바코드용 */
+@media print {
+	.print-qr,
+	.print-barcode {
+		page-break-inside: avoid !important;
+		filter: none !important; /* 그레이스케일 제거 */
+	}
+}
+
+/* 프린트 프리뷰 시 시뮬레이션 */
+.print-preview {
+	background: white !important;
+	color: black !important;
+	font-family: "Times New Roman", serif !important;
+	font-size: 12pt !important;
+	line-height: 1.4 !important;
+	max-width: 21cm !important; /* A4 폭 */
+	margin: 0 auto !important;
+	padding: 2cm !important;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ===== PAGE ORIENTATION (페이지 방향) ===== */
+
+/* 가로 방향 페이지 */
+@page landscape {
+	size: landscape;
+}
+
+.print-landscape {
+	page: landscape !important;
+}
+
+/* 세로 방향 페이지 */
+@page portrait {
+	size: portrait;
+}
+
+.print-portrait {
+	page: portrait !important;
+}
+
+/* ===== PAGE SIZE (페이지 크기) ===== */
+
+@page {
+	margin: 2cm;
+	size: A4;
+}
+
+@page A4 {
+	size: A4;
+	margin: 2cm;
+}
+
+@page letter {
+	size: letter;
+	margin: 1in;
+}
+
+/* ===== PRINT DEBUGGING (프린트 디버깅) ===== */
+
+/* 개발 시 프린트 스타일 확인용 */
+.print-debug {
+	outline: 1px solid red !important;
+}
+
+@media print {
+	.print-debug {
+		outline: 1pt solid black !important;
+	}
+
+	.print-debug::before {
+		content: "PRINT DEBUG" !important;
+		display: block !important;
+		background: yellow !important;
+		color: black !important;
+		font-size: 8pt !important;
+		padding: 2pt !important;
+		margin-bottom: 2pt !important;
+	}
+}

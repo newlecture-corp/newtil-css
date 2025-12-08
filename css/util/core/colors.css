@@ -1,0 +1,536 @@
+/* ===== THEME-BASED COLOR UTILITIES ===== */
+/* CSS 속성명과 값을 그대로 유지하는 NewTil CSS 철학 */
+/* 테마 기반 색상 시스템으로 브랜드 커스터마이징 가능 */
+
+/* ===== TEXT COLOR ===== */
+
+/* 기본 색상 */
+.color\:black,
+.text-color\:black,
+.tc\:black {
+	color: var(--color-black) !important;
+}
+
+.color\:white,
+.text-color\:white,
+.tc\:white {
+	color: var(--color-white) !important;
+}
+
+/* 메인 색상 계열 */
+.color\:main-1,
+.text-color\:main-1,
+.tc\:main-1 {
+	color: var(--color-main-1) !important;
+}
+
+.color\:main-2,
+.text-color\:main-2,
+.tc\:main-2 {
+	color: var(--color-main-2) !important;
+}
+
+.color\:main-3,
+.text-color\:main-3,
+.tc\:main-3 {
+	color: var(--color-main-3) !important;
+}
+
+/* 서브 색상 계열 */
+.color\:sub-1,
+.text-color\:sub-1,
+.tc\:sub-1 {
+	color: var(--color-sub-1) !important;
+}
+
+.color\:sub-2,
+.text-color\:sub-2,
+.tc\:sub-2 {
+	color: var(--color-sub-2) !important;
+}
+
+.color\:sub-3,
+.text-color\:sub-3,
+.tc\:sub-3 {
+	color: var(--color-sub-3) !important;
+}
+
+/* 액센트 색상 계열 */
+.color\:accent-1,
+.text-color\:accent-1,
+.tc\:accent-1 {
+	color: var(--color-accent-1) !important;
+}
+
+.color\:accent-2,
+.text-color\:accent-2,
+.tc\:accent-2 {
+	color: var(--color-accent-2) !important;
+}
+
+.color\:accent-3,
+.text-color\:accent-3,
+.tc\:accent-3 {
+	color: var(--color-accent-3) !important;
+}
+
+/* 베이스 색상 계열 (회색) */
+.color\:base-1,
+.text-color\:base-1,
+.tc\:base-1 {
+	color: var(--color-base-1) !important;
+}
+
+.color\:base-2,
+.text-color\:base-2,
+.tc\:base-2 {
+	color: var(--color-base-2) !important;
+}
+
+.color\:base-3,
+.text-color\:base-3,
+.tc\:base-3 {
+	color: var(--color-base-3) !important;
+}
+
+.color\:base-4,
+.text-color\:base-4,
+.tc\:base-4 {
+	color: var(--color-base-4) !important;
+}
+
+.color\:base-5,
+.text-color\:base-5,
+.tc\:base-5 {
+	color: var(--color-base-5) !important;
+}
+
+.color\:base-6,
+.text-color\:base-6,
+.tc\:base-6 {
+	color: var(--color-base-6) !important;
+}
+
+.color\:base-7,
+.text-color\:base-7,
+.tc\:base-7 {
+	color: var(--color-base-7) !important;
+}
+
+.color\:base-8,
+.text-color\:base-8,
+.tc\:base-8 {
+	color: var(--color-base-8) !important;
+}
+
+.color\:base-9,
+.text-color\:base-9,
+.tc\:base-9 {
+	color: var(--color-base-9) !important;
+}
+
+.color\:base-10,
+.text-color\:base-10,
+.tc\:base-10 {
+	color: var(--color-base-10) !important;
+}
+
+/* 상태 색상 */
+.color\:success-1,
+.text-color\:success-1,
+.tc\:success-1 {
+	color: var(--color-success-1) !important;
+}
+
+.color\:success-2,
+.text-color\:success-2,
+.tc\:success-2 {
+	color: var(--color-success-2) !important;
+}
+
+.color\:success-3,
+.text-color\:success-3,
+.tc\:success-3 {
+	color: var(--color-success-3) !important;
+}
+
+.color\:warning-1,
+.text-color\:warning-1,
+.tc\:warning-1 {
+	color: var(--color-warning-1) !important;
+}
+
+.color\:warning-2,
+.text-color\:warning-2,
+.tc\:warning-2 {
+	color: var(--color-warning-2) !important;
+}
+
+.color\:warning-3,
+.text-color\:warning-3,
+.tc\:warning-3 {
+	color: var(--color-warning-3) !important;
+}
+
+.color\:danger-1,
+.text-color\:danger-1,
+.tc\:danger-1 {
+	color: var(--color-danger-1) !important;
+}
+
+.color\:danger-2,
+.text-color\:danger-2,
+.tc\:danger-2 {
+	color: var(--color-danger-2) !important;
+}
+
+.color\:danger-3,
+.text-color\:danger-3,
+.tc\:danger-3 {
+	color: var(--color-danger-3) !important;
+}
+
+/* ===== BACKGROUND COLOR ===== */
+
+/* 기본 색상 */
+.background-color\:black,
+.bg\:black {
+	background-color: var(--color-black) !important;
+}
+
+.background-color\:white,
+.bg\:white {
+	background-color: var(--color-white) !important;
+}
+
+.background-color\:transparent,
+.bg\:transparent {
+	background-color: var(--color-transparent) !important;
+}
+
+/* 메인 색상 계열 */
+.background-color\:main-1,
+.bg\:main-1 {
+	background-color: var(--color-main-1) !important;
+}
+
+.background-color\:main-2,
+.bg\:main-2 {
+	background-color: var(--color-main-2) !important;
+}
+
+.background-color\:main-3,
+.bg\:main-3 {
+	background-color: var(--color-main-3) !important;
+}
+
+/* 서브 색상 계열 */
+.background-color\:sub-1,
+.bg\:sub-1 {
+	background-color: var(--color-sub-1) !important;
+}
+
+.background-color\:sub-2,
+.bg\:sub-2 {
+	background-color: var(--color-sub-2) !important;
+}
+
+.background-color\:sub-3,
+.bg\:sub-3 {
+	background-color: var(--color-sub-3) !important;
+}
+
+/* 액센트 색상 계열 */
+.background-color\:accent-1,
+.bg\:accent-1 {
+	background-color: var(--color-accent-1) !important;
+}
+
+.background-color\:accent-2,
+.bg\:accent-2 {
+	background-color: var(--color-accent-2) !important;
+}
+
+.background-color\:accent-3,
+.bg\:accent-3 {
+	background-color: var(--color-accent-3) !important;
+}
+
+/* 베이스 색상 계열 */
+.background-color\:base-1,
+.bg\:base-1 {
+	background-color: var(--color-base-1) !important;
+}
+
+.background-color\:base-2,
+.bg\:base-2 {
+	background-color: var(--color-base-2) !important;
+}
+
+.background-color\:base-3,
+.bg\:base-3 {
+	background-color: var(--color-base-3) !important;
+}
+
+.background-color\:base-4,
+.bg\:base-4 {
+	background-color: var(--color-base-4) !important;
+}
+
+.background-color\:base-5,
+.bg\:base-5 {
+	background-color: var(--color-base-5) !important;
+}
+
+.background-color\:base-6,
+.bg\:base-6 {
+	background-color: var(--color-base-6) !important;
+}
+
+.background-color\:base-7,
+.bg\:base-7 {
+	background-color: var(--color-base-7) !important;
+}
+
+.background-color\:base-8,
+.bg\:base-8 {
+	background-color: var(--color-base-8) !important;
+}
+
+.background-color\:base-9,
+.bg\:base-9 {
+	background-color: var(--color-base-9) !important;
+}
+
+.background-color\:base-10,
+.bg\:base-10 {
+	background-color: var(--color-base-10) !important;
+}
+
+/* 상태 색상 */
+.background-color\:success-1,
+.bg\:success-1 {
+	background-color: var(--color-success-1) !important;
+}
+
+.background-color\:success-2,
+.bg\:success-2 {
+	background-color: var(--color-success-2) !important;
+}
+
+.background-color\:success-3,
+.bg\:success-3 {
+	background-color: var(--color-success-3) !important;
+}
+
+.background-color\:warning-1,
+.bg\:warning-1 {
+	background-color: var(--color-warning-1) !important;
+}
+
+.background-color\:warning-2,
+.bg\:warning-2 {
+	background-color: var(--color-warning-2) !important;
+}
+
+.background-color\:warning-3,
+.bg\:warning-3 {
+	background-color: var(--color-warning-3) !important;
+}
+
+.background-color\:danger-1,
+.bg\:danger-1 {
+	background-color: var(--color-danger-1) !important;
+}
+
+.background-color\:danger-2,
+.bg\:danger-2 {
+	background-color: var(--color-danger-2) !important;
+}
+
+.background-color\:danger-3,
+.bg\:danger-3 {
+	background-color: var(--color-danger-3) !important;
+}
+
+/* ===== ALPHA (투명도) 색상 ===== */
+
+/* 메인 색상 + 투명도 */
+.background-color\:main-1\/10,
+.bg\:main-1\/10 {
+	background-color: rgba(var(--rgb-main-1), 0.1) !important;
+}
+
+.background-color\:main-1\/20,
+.bg\:main-1\/20 {
+	background-color: rgba(var(--rgb-main-1), 0.2) !important;
+}
+
+.background-color\:main-1\/30,
+.bg\:main-1\/30 {
+	background-color: rgba(var(--rgb-main-1), 0.3) !important;
+}
+
+.background-color\:main-1\/50,
+.bg\:main-1\/50 {
+	background-color: rgba(var(--rgb-main-1), 0.5) !important;
+}
+
+.background-color\:main-1\/70,
+.bg\:main-1\/70 {
+	background-color: rgba(var(--rgb-main-1), 0.7) !important;
+}
+
+.background-color\:main-1\/90,
+.bg\:main-1\/90 {
+	background-color: rgba(var(--rgb-main-1), 0.9) !important;
+}
+
+/* 서브 색상 + 투명도 */
+.background-color\:sub-1\/10,
+.bg\:sub-1\/10 {
+	background-color: rgba(var(--rgb-sub-1), 0.1) !important;
+}
+
+.background-color\:sub-1\/20,
+.bg\:sub-1\/20 {
+	background-color: rgba(var(--rgb-sub-1), 0.2) !important;
+}
+
+.background-color\:sub-1\/50,
+.bg\:sub-1\/50 {
+	background-color: rgba(var(--rgb-sub-1), 0.5) !important;
+}
+
+/* 액센트 색상 + 투명도 */
+.background-color\:accent-1\/10,
+.bg\:accent-1\/10 {
+	background-color: rgba(var(--rgb-accent-1), 0.1) !important;
+}
+
+.background-color\:accent-1\/20,
+.bg\:accent-1\/20 {
+	background-color: rgba(var(--rgb-accent-1), 0.2) !important;
+}
+
+.background-color\:accent-1\/50,
+.bg\:accent-1\/50 {
+	background-color: rgba(var(--rgb-accent-1), 0.5) !important;
+}
+
+/* 베이스 색상 + 투명도 */
+.background-color\:base-5\/10,
+.bg\:base-5\/10 {
+	background-color: rgba(var(--rgb-base-5), 0.1) !important;
+}
+
+.background-color\:base-5\/20,
+.bg\:base-5\/20 {
+	background-color: rgba(var(--rgb-base-5), 0.2) !important;
+}
+
+.background-color\:base-5\/50,
+.bg\:base-5\/50 {
+	background-color: rgba(var(--rgb-base-5), 0.5) !important;
+}
+
+.background-color\:base-9\/10,
+.bg\:base-9\/10 {
+	background-color: rgba(var(--rgb-base-9), 0.1) !important;
+}
+
+.background-color\:base-9\/20,
+.bg\:base-9\/20 {
+	background-color: rgba(var(--rgb-base-9), 0.2) !important;
+}
+
+.background-color\:base-9\/50,
+.bg\:base-9\/50 {
+	background-color: rgba(var(--rgb-base-9), 0.5) !important;
+}
+
+/* ===== RESPONSIVE COLORS ===== */
+
+/* Small screens (640px+) */
+@media (min-width: 640px) {
+	.sm\:color\:main-1,
+	.sm\:tc\:main-1 {
+		color: var(--color-main-1) !important;
+	}
+	.sm\:color\:base-6,
+	.sm\:tc\:base-6 {
+		color: var(--color-base-6) !important;
+	}
+
+	.sm\:background-color\:white,
+	.sm\:bg\:white {
+		background-color: var(--color-white) !important;
+	}
+	.sm\:background-color\:base-1,
+	.sm\:bg\:base-1 {
+		background-color: var(--color-base-1) !important;
+	}
+}
+
+/* Medium screens (768px+) */
+@media (min-width: 768px) {
+	.md\:color\:main-1,
+	.md\:tc\:main-1 {
+		color: var(--color-main-1) !important;
+	}
+	.md\:color\:base-6,
+	.md\:tc\:base-6 {
+		color: var(--color-base-6) !important;
+	}
+
+	.md\:background-color\:white,
+	.md\:bg\:white {
+		background-color: var(--color-white) !important;
+	}
+	.md\:background-color\:base-1,
+	.md\:bg\:base-1 {
+		background-color: var(--color-base-1) !important;
+	}
+}
+
+/* Large screens (1024px+) */
+@media (min-width: 1024px) {
+	.lg\:color\:main-1,
+	.lg\:tc\:main-1 {
+		color: var(--color-main-1) !important;
+	}
+	.lg\:color\:base-6,
+	.lg\:tc\:base-6 {
+		color: var(--color-base-6) !important;
+	}
+
+	.lg\:background-color\:white,
+	.lg\:bg\:white {
+		background-color: var(--color-white) !important;
+	}
+	.lg\:background-color\:base-1,
+	.lg\:bg\:base-1 {
+		background-color: var(--color-base-1) !important;
+	}
+}
+
+/* Extra large screens (1280px+) */
+@media (min-width: 1280px) {
+	.xl\:color\:main-1,
+	.xl\:tc\:main-1 {
+		color: var(--color-main-1) !important;
+	}
+	.xl\:color\:base-6,
+	.xl\:tc\:base-6 {
+		color: var(--color-base-6) !important;
+	}
+
+	.xl\:background-color\:white,
+	.xl\:bg\:white {
+		background-color: var(--color-white) !important;
+	}
+	.xl\:background-color\:base-1,
+	.xl\:bg\:base-1 {
+		background-color: var(--color-base-1) !important;
+	}
+}

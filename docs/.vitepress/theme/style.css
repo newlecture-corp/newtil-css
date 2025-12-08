@@ -1,0 +1,443 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ * 
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create a accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attched to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  /* Modern Indigo/Violet theme - 세련되고 전문적인 색감 */
+  --vp-c-brand-1: #6366f1;  /* Indigo-500 - 링크, 텍스트 */
+  --vp-c-brand-2: #818cf8;  /* Indigo-400 - hover 상태 */
+  --vp-c-brand-3: #4f46e5;  /* Indigo-600 - 버튼 배경 */
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);  /* 부드러운 Indigo 배경 */
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-code-color: #6366f1;
+  --vp-code-bg: rgba(99, 102, 241, 0.08);
+  
+  /* 코드 블록 스타일 */
+  --vp-code-block-bg: #f8f9fa;
+  --vp-code-block-border: rgba(60, 60, 67, 0.12);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #6366f1 0%,
+    #8b5cf6 50%,
+    #a855f7 100%
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    rgba(99, 102, 241, 0.8) 50%,
+    rgba(139, 92, 246, 0.8) 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/**
+ * Component: Table
+ * -------------------------------------------------------------------------- */
+.vp-doc table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* 라이트 모드 - 표 스타일 */
+.vp-doc tr:nth-child(2n) {
+  background-color: #fafafa !important;
+}
+
+.vp-doc td:last-child {
+  width: 100%;
+}
+
+/* 표 테두리 스타일 - 라이트 모드 */
+.vp-doc table th,
+.vp-doc table td {
+  border: 1px solid rgba(60, 60, 67, 0.12) !important;
+  padding: 12px 16px !important;
+}
+
+.vp-doc table td {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+.vp-doc table tr:nth-child(2n) td {
+  background-color: #fafafa !important;
+}
+
+/* 라이트 모드에서 첫 번째 행 (헤더) 강제 스타일 */
+.vp-doc table thead th,
+.vp-doc table tr:first-child th,
+.vp-doc table thead tr th,
+.vp-doc table tbody tr:first-child th {
+  background-color: #f5f5f7 !important;
+  color: #1f2937 !important;
+}
+
+/* 모든 th 요소 강제 오버라이드 */
+.vp-doc table th {
+  background-color: #f5f5f7 !important;
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+}
+
+/* 다크 모드에서 표 스타일 */
+.dark .vp-doc tr:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark .vp-doc table th,
+.dark .vp-doc table td {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .vp-doc table th {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  font-weight: 600 !important;
+}
+
+.dark .vp-doc table td {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dark .vp-doc table tr:nth-child(2n) td {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* 다크 모드에서 첫 번째 행 (헤더) 강제 스타일 */
+.dark .vp-doc table thead th,
+.dark .vp-doc table tr:first-child th {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/**
+ * 클래스 속성을 설명하는 표의 제목열의 줄바꿈을 방지
+ */
+th {
+  white-space: nowrap;
+}
+
+/**
+ * 클래스 속성을 설명하는 표의 코드 스타일
+ *
+ * @example
+ * <td>
+ *   <span class="code">
+ *     { display: inline-block !important; }
+ *   </span>
+ * </td>
+ */
+.code {
+  color: #6366f1;
+  white-space: nowrap;
+}
+
+/**
+ * 코드 태그의 줄바꿈을 방지
+ */
+code, td:last-child {
+  white-space: nowrap;
+}
+
+/**
+ * 약어 클래스가 없는 속성은 중앙정렬된 대시(-)로 표현
+ */
+.blank {
+  text-align: center;
+}
+.blank::after {
+  content: "-";
+}
+
+/**
+ * 클래스 설명부의 참고용 텍스트, 주석 등에 사용되는 "회색" 폰트 색상
+ *
+ * @example
+ * 항목이 컨테이너의 축을 따라 어떻게 정렬되는지를 설정합니다. 
+ * <span class="c:weak">
+ *   (참고: [<code>justify-items</code>](./justify-items.md))
+ * </span>
+ * 
+ * 
+ */
+.color\:weak,
+.c\:weak {
+  color: var(--color-base-5);
+}
+
+.shell{
+  z-index: var(--z-index-4);
+}
+
+/**
+ * Layout Fixes - 배경 색상, 헤더, 콘텐츠 영역 스타일 수정
+ * -------------------------------------------------------------------------- */
+
+/* 배경 색상 통일 - 흰색으로 설정 */
+body {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+/* VitePress의 메인 콘텐츠 영역 배경 */
+.VPContent,
+.vp-doc,
+main {
+  background-color: #ffffff !important;
+}
+
+/* 헤더 영역 스타일 수정 */
+.VPNavBar,
+.VPNavBar .container {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(60, 60, 67, 0.12) !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+/* 헤더 오른쪽 상단 모서리 처리 */
+.VPNavBar .container {
+  border-top-right-radius: 0 !important;
+}
+
+/* 사이드바 배경 */
+.VPSidebar {
+  background-color: #ffffff !important;
+}
+
+/* 콘텐츠 영역 하단 오버플로우 처리 */
+.VPContent {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+/* 메인 콘텐츠 래퍼 */
+.vp-doc {
+  padding: 24px 32px !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Footer 영역 */
+.VPFooter {
+  background-color: #ffffff !important;
+  border-top: 1px solid rgba(60, 60, 67, 0.12) !important;
+  overflow: hidden !important;
+}
+
+/* Pager (이전/다음 페이지) 스타일 */
+.vp-doc .vp-pager {
+  border-top: 1px solid rgba(60, 60, 67, 0.12) !important;
+  padding-top: 24px !important;
+  margin-top: 48px !important;
+  overflow: visible !important;
+}
+
+/**
+ * Dark Mode Styles - 다크 모드 지원
+ * -------------------------------------------------------------------------- */
+
+.dark {
+  /* 배경 색상 - 다크 모드 */
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #161618;
+  --vp-c-bg-soft: #242424;
+  
+  /* 텍스트 색상 - 다크 모드 */
+  --vp-c-text-1: rgba(255, 255, 255, 0.87);
+  --vp-c-text-2: rgba(255, 255, 255, 0.70);
+  --vp-c-text-3: rgba(255, 255, 255, 0.55);
+  
+  /* Border 색상 - 다크 모드 */
+  --vp-c-divider: rgba(255, 255, 255, 0.12);
+  --vp-c-gutter: rgba(255, 255, 255, 0.12);
+}
+
+.dark body {
+  background-color: #1a1a1a !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dark .VPContent,
+.dark .vp-doc,
+.dark main {
+  background-color: #1a1a1a !important;
+}
+
+.dark .VPNavBar,
+.dark .VPNavBar .container {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .VPSidebar {
+  background-color: #161618 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .VPFooter {
+  background-color: #1a1a1a !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .vp-doc .vp-pager {
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+/* 코드 블록 전체 스타일 개선 */
+.vp-doc pre {
+  background-color: #f8f9fa !important;
+  border: 1px solid rgba(60, 60, 67, 0.12) !important;
+}
+
+.vp-doc code:not(pre code) {
+  background-color: rgba(99, 102, 241, 0.1) !important;
+  color: #6366f1 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+/* 다크 모드에서 코드 블록 스타일 */
+.dark .vp-doc pre {
+  background-color: #1e1e1e !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark code:not(pre code) {
+  background-color: rgba(99, 102, 241, 0.15) !important;
+  color: #a78bfa !important;
+}
+
+.dark .code {
+  color: #a78bfa !important;
+}
+
+.dark pre code {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* 다크 모드에서 링크 색상 */
+.dark a {
+  color: #818cf8 !important;
+}
+
+.dark a:hover {
+  color: #a78bfa !important;
+}
