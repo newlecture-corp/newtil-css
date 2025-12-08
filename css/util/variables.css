@@ -360,6 +360,12 @@
 	--size-50vw: 50vw;
 	--size-75vw: 75vw;
 	--size-100vw: 100vw;
+
+	/* 아이콘 사이즈 */
+	--icon-size-1: 20px;
+    --icon-size-2: 24px;
+    --icon-size-3: 32px;
+    --icon-size-4: 32px;
   }  
 
 
@@ -373,9 +379,18 @@
 	--color-transparent: transparent;
 
 	/* 메인 색상 계열 (브랜드 컬러) */
-	--color-main-1: #8cba35; /* 메인 컬러 - 밝음 (프로젝트 기본값) */
-	--color-main-2: #6a8e29; /* 메인 컬러 - 중간 */
-	--color-main-3: #3d5218; /* 메인 컬러 - 어두움 */
+	/* 메인 컬러 - 밝음 (프로젝트 기본값) */
+	/* --color-main-1: #8cba35; */
+	/* 메인 컬러 - 중간 */
+	/* --color-main-2: #6a8e29; */
+	/* 메인 컬러 - 어두움 */
+	/* --color-main-3: #3d5218; */
+
+	/* 커스텀 메인 색상 계열 */
+	--color-main-1: #d48700;
+    --color-main-2: #944813;
+    --color-main-3: #040303;
+    --color-main-4: #B8672E;
 
 	/* 서브 색상 계열 (메인과 어울리는 보조 색상) */
 	--color-sub-1: #2983d7; /* 서브 컬러 - 밝음 */

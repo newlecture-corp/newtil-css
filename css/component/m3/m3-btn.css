@@ -1,6 +1,58 @@
-.m3-btn
-{
+.m3-btn {
+	/* ----------상수변수-------------- */
+	--btn-height-1: 32px;
+	--btn-height-2: 40px;
+	--btn-height-3: 56px;
+	--btn-height-4: 96px;
+	--btn-height-5: 136px;
+	--btn-padding-1: 0 12px;
+	--btn-padding-2: 0 16px;
+	--btn-padding-3: 0 24px;
+	--btn-padding-4: 0 48px;
+	--btn-padding-5: 0 64px;
+	/* --------------변수---------------- */
+	--btn-color: var(--color-main-2);
+	--btn-size: var(--icon-size-1);
+	--btn-weight: 500;
+	--btn-height: var(--btn-height-2);
+	--btn-padding: var(--btn-padding-2);
+	--btn-fill: 1;
 
+	/* 테마/상태에 따라 바뀌는 값들을 전부 변수로 */
+	--btn-bg-color: var(--color-main-2);
+	/* 기본 배경 */
+	--btn-bg-hover: var(--color-main-4);
+	--btn-bg-focus: var(--color-main-4);
+	--btn-bg-active: var(--color-main-4);
+	--btn-bg-disabled: var(--color-base-3);
+
+	--btn-text-color: var(--color-base-1);
+	--btn-text-color-disabled: var(--color-base-4);
+
+	/* outline 공통 */
+	--btn-outline-color-0: none;
+	--btn-outline-color-1: var(--color-base-4);
+	--btn-outline-color: var(--btn-outline-color-0);
+
+	--btn-outline-width-0: 0px;
+	--btn-outline-width-1: 2px;
+	--btn-outline-width: var(--btn-outline-width-0);
+
+	--btn-outline-offset-0: 0px;
+	--btn-outline-offset-1: 2px;
+	--btn-outline-offset: var(--btn-outline-offset-0);
+
+	/* radius 공통 */
+	--btn-radius-0: 40px;
+	--btn-radius-1: 8px;
+	--btn-radius: var(--btn-radius-0);
+
+	/* 투명도 공통 */
+	--btn-opacity-0: 1;
+	--btn-opacity-1: 0.92;
+	--btn-opacity: var(--btn-opacity-0);
+
+	--btn-shadow: none;
 
 }
 
@@ -8,11 +60,100 @@
 
 @media (prefers-color-scheme: dark) {
 	.m3-btn {
-		
-	
+		--btn-bg-color: var(--color-main-1);
+		--btn-bg-hover: var(--color-main-1);
+		--btn-bg-focus: var(--color-main-1);
+		--btn-bg-active: var(--color-main-1);
+		--btn-bg-disabled: var(--color-base-6);
+
+		--btn-text-color: var(--color-base-1);
+		--btn-text-color-disabled: var(--color-base-4);
+
+		/* 라이트와 다른 포커스 테두리 색 → 토큰만 변경 */
+		--btn-outline-color-1: var(--color-base-2);
+
+		--btn-shadow: 2px 2px ...;
+
 	}
 }
 
 .m3-btn {
-	
+	/* boxing*/
+	height: var(--btn-height);
+	padding: var(--btn-padding);
+	border-radius: var(--btn-radius);
+	border: 0px;
+	background-color: var(--btn-bg-color);
+
+	/* content */
+	font-size: var(--btn-size);
+	font-weight: var(--btn-weight);
+	color: var(--btn-text-color);
+	font-variation-settings: 'FILL' var(--btn-fill);
+
+	/* 버튼타입 변수 */
+	box-shadow: var(--btn-shadow);
+	opacity: var(--btn-opacity);
+
+	outline: var(--btn-outline-width) solid var(--btn-outline-color);
+	outline-offset: var(--btn-outline-offset);
+
+	/* effect */
+	/* 0.3초동안 천천히 바뀔꺼에요 */
+	transition:
+		background-color 0.3s,
+		border-radius 0.3s,
+		opacity 0.3s ease,
+		outline-color 0.3s ease,
+		outline-offset 0.3s ease;
+}
+
+/* pseudo disabled */
+.m3-btn:disabled {
+	--btn-bg-color: var(--btn-bg-disabled);
+	--btn-text-color: var(--btn-text-color-disabled);
+	cursor: not-allowed;
+}
+
+/* disabled에는 적용하지 않겠다 */
+.m3-btn:hover:not(:disabled):not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+}
+
+.m3-btn:focus:not(:disabled):not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+	--btn-outline-color: var(--btn-outline-color-1);
+	--btn-outline-width: var(--btn-outline-width-1);
+	--btn-outline-offset: var(--btn-outline-offset-1);
+}
+
+/* disabled에는 적용하지 않겠다 */
+.m3-btn:active:not(:disabled):not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+	--btn-radius: var(--btn-radius-1);
+}
+
+
+/* 정적 버전 ======================= */
+
+.m3-btn.btn-state\:disabled {
+	--btn-bg-color: var(--btn-bg-disabled);
+	--btn-text-color: var(--btn-text-color-disabled);
+	cursor: not-allowed;
+}
+
+.m3-btn.btn-state\:hover:not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+}
+
+.m3-btn.btn-state\:focus:not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+	--btn-outline-color: var(--btn-outline-color-1);
+	--btn-outline-width: var(--btn-outline-width-1);
+	--btn-outline-offset: var(--btn-outline-offset-1);
+}
+
+.m3-btn.btn-state\:press:not(.btn-state\:disabled) {
+	--btn-opacity: var(--btn-opacity-1);
+	--btn-radius: var(--btn-radius-1);
 }
