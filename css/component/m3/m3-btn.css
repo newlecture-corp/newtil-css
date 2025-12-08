@@ -1,18 +1,107 @@
-.m3-btn
-{
+@import url(style.css);
 
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+
+
+/* 4조 작업물 */
+.n-btn{
+    /* ----------상수변수-------------- */
+    /* 버튼의 높이 : 32px, 40px, 56px, 96px, 136px; */
+    /* 버튼의 패딩 : (0 12px), (0 16px), (0 24px), (0 48px), (0 64px); */
+    /* --------------변수---------------- */
+    --btn-background-color: var(--color-main-2);
+    --btn-color: var(--color-base-1);
+    --btn-size: var(--icon-size-1);
+    --btn-weight: 400;
+    --btn-height: 40px;
+    --btn-padding: 0 16px;
+    --btn-fill: 1;
+    --btn-radius-default: var(--border-radius-full);
+    --btn-radius-pressed: var(--border-radius-pressed-sm);
+    --btn-outline-color: transparent;
+}
+@media (prefers-color-scheme: dark){
+    .n-btn{
+        --btn-background-color: var(--color-main-1);
+    }
+   
+}
+.n-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* boxing*/
+    height: var(--btn-height);
+    padding: var(--btn-padding);
+    border-radius: var(--btn-radius-default);
+    border: 0px;
+    background-color: var(--btn-background-color);
+    /* content */
+    font-size: var(--btn-size-1);
+    font-weight: var(--btn-weight);
+    line-height: 1;
+    color:var(--btn-color);
+    font-variation-settings: 'FILL' var(--btn-fill);
+    /* 버튼 상태 변수 */
+    outline: 1px solid var(--btn-outline-color);
+    outline-offset:2px;
+    /* effect */
+    /* transition:
+        background-color .5s ease,
+        padding .5s ease,
+        transform .3s ease; */
+}
+.n-btn:enabled, 
+.n-btn.enabled{
 
 }
 
-/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
-
-@media (prefers-color-scheme: dark) {
-	.m3-btn {
-		
-	
-	}
+/* 상태 별 속성성 */
+.n-btn:disabled{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
+    color: rgba(29, 27, 32, 0.38);
+}
+.n-btn:hover{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+}
+.n-btn:focus{
+    --btn-outline-color: var(--btn-color);
+    /* outline: 1px solid var(--btn-background-color); */
+    outline-offset:2px;
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
 }
 
-.m3-btn {
-	
+.n-btn:active{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+    border-radius: var(--btn-radius-pressed);
+}
+
+/* 클래스 별 속성성 */
+
+.n-btn.n-btn\:disabled{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
+    color: rgba(29, 27, 32, 0.38);
+}
+.n-btn.n-btn\:hover{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+}
+.n-btn.n-btn\:focus{
+    --btn-outline-color: var(--btn-background-color);
+    outline-offset:2px;
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+}
+
+.n-btn.n-btn\:active{
+    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+    border-radius: var(--btn-radius-pressed);
 }
