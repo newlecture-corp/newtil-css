@@ -1,6 +1,16 @@
+/* 체크박스 변수 */
 .checkBox {
 
 }
+/* -------------- */
+
+
+/* 체크박스 기본값 */
+.checkBox {
+
+}
+/* -------------- */
+
 
 .checkBox:disabled,
 .checkBox.disabled {
@@ -22,6 +32,8 @@
 
 }
 
+
+/* 다크모드 */
 @media (prefers-color-scheme: dark) {
 
     .checkBox:disabled,
@@ -41,6 +53,6 @@
 
     .checkBox:active,
     .checkBox.active {
-        
+
     }
 }
