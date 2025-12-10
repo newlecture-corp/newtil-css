@@ -3,7 +3,6 @@
 	/* 글씨 */
 	--font-size-base: 14px;
 	--line-height-base: 20px;
-	--font-weight: 500;
 	/* 높이 */
 	--height-xs: 32px;
 	--height-s: 40px;
@@ -16,9 +15,7 @@
 	--padding-md: 0 24px;
 	--padding-lg: 0 48px;
 	--padding-xl: 0 64px;
-	/* 둥글기 */
-	--radius-1: 12px;
-	--radius-2: 999px;
+
 	/* 투명도 */
 	--alpha-1: 8%;
 	--alpha-2: 10%;
@@ -29,18 +26,14 @@
 	--outline-width: 1px;
 	--outline-offset: 1px;
 
-	/* 버튼 그림자 (색상 수정 필요) */
-	--shadow-1: 1px 1px 1px 1px rgba(0, 0, 255, 0.3);
-	--shadow-2: 1px 1px 1px 1px rgba(0, 255, 0, 0.3);
-
 	/* --- 변수(기본값) ---------------------------------------------------- */
 	--btn-bg-color: var(--color-main-2);
+	--btn-outline-color: var(--color-main-3);
 	--btn-font-color: var(--color-base-1);
 	--btn-height: var(--height-s);
 	--btn-padding: var(--padding-s);
-	--btn-outline-color: var(--color-main-3);
 	--btn-box-shadow: var(--shadow-1);
-	--btn-border-radius: var(--radius-2);
+	--btn-border-radius: var(--radius-full);
 
 }
 
@@ -52,15 +45,6 @@
 	}
 }
 
-/* --- 버튼타입 -----------------------------------------------*/
-.btn\:elevated {
-	box-shadow: var(--btn-box-shadow);
-}
-
-.btn\:filled {}
-
-.btn\:outlined {}
-
 .n-btn {
 	/* boxing*/
 	height: var(--btn-height);
@@ -70,7 +54,7 @@
 	background-color: var(--btn-bg-color);
 	/* content */
 	font-size: var(--font-size-base);
-	font-weight: var(--font-weight);
+	font-weight: var(--font-weight-medium);
 	color: var(--btn-font-color);
 }
 
@@ -91,7 +75,7 @@
 
 .n-btn:active {
 	background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2));
-	border-radius: var(--radius-1);
+	border-radius: var(--radius-xl);
 }
 
 
@@ -111,6 +95,6 @@
 }
 
 .n-btn.btn-state\:active {
-	background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2a));
-	border-radius: var(--radius-1);
+	background-color: color-mix(in srgb, var(--btn-bg-color), transparent var(--alpha-2));
+	border-radius: var(--radius-xl);
 }
