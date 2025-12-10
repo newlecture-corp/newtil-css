@@ -1,18 +1,126 @@
 .m3-btn
 {
+    /* ----------상수변수-------------- */
+    /* --btn-height: 32px, 40px, 56px, 96px, 136px
+       --btn-padding-1: (0 12px), (0 16px), (0 24px), (0 48px), (0 64px) */
+	   --color-base-1: #ffffff;
+	   --color-base-2: #e9e9e9;
+	   --color-base-3: #c1c1c1;
+	   --color-base-4: #888888;
+	   --color-base-5: #666666;
+	   --color-base-6: #595959;
+	   --color-base-7: #484848;
+	   --color-base-8: #292929;
+	   --color-base-9: #000000;
+	   --color-main-1: #d48700;
+	   --color-main-2: #944813;
+	   --color-main-3: #5e2808;
+	   --color-accent-1: #334DCF;
+   
+	   --font-size-1: 14px;
+	   --font-size-2: 16px;
+	   --font-size-3: 18px;
+	   --font-size-4: 20px;
+	   --font-size-5: 24px;
+	   --font-size-6: 32px;
+	   --font-size-7: 40px;
+	   
+    /* --------------변수---------------- */
+    --btn-size: var(--font-size-1);
+    --btn-weight: 500;
+    --btn-height: 40px;
+    --btn-padding: 0 16px;
+    --btn-fill: 1;
 
+	/* ==========버튼 기본모드================= */
+
+    /* boxing*/
+    background-color: var(--color-main-2);
+    height: var(--btn-height);
+    padding: var(--btn-padding);
+    border-radius: 999px;
+    border: 0px;
+    margin-top: 2px;
+
+    /* content */
+    font-size: var(--btn-size);
+    font-weight: var(--btn-weight);
+    color:var(--color-base-1);
+    font-variation-settings: 'FILL' var(--btn-fill);
+
+    /* effect */
+    transition: background-color 0.3s ease, transform 1s ease;
 
 }
 
 /* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
 
 @media (prefers-color-scheme: dark) {
-	.m3-btn {
-		
-	
-	}
+	body{
+        background-color: #121212;
+        }
+
+        .m3-btn{
+            background-color: var(--color-main-1);
+            color: var(--color-main-3);
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+            background-color: var(--color-main-3);
+            color: var(--color-main-2);
+            opacity: 0.7;
+        }
+
+        .m3-btn:focus,
+        .btn-state\:focus{
+            border: 2px solid var(--color-main-3);
+            outline: 3px solid var(--color-base-2);
+        }
+
+        .m3-btn:hover,
+        .btn-state\:hover{
+            background-color: var(--color-main-2);
+            color: #2b1203;
+        }
+
+        .m3-btn:active,
+        .btn-state\:active{
+            background: radial-gradient(circle at 50% 150%,
+                        var(--color-main-2) 0,
+                        var(--color-main-2) 50%,
+                        var(--color-main-1) 100%);
+            color: #2b1203;
+            border-radius: 10px;
+        }
 }
 
-.m3-btn {
+
+/* =========라이트 모드=============== */
+
+.m3-btn:disabled,
+.btn-state\:disabled{
+    background-color: var(--color-main-1);
+    opacity: 0.2;
+}
+
+.m3-btn:focus,
+.btn-state\:focus{
+    border: 2px solid var(--color-base-1);
+    outline: 3px solid var(--color-main-3);
+}
+
+.m3-btn:hover,
+.btn-state\:hover{
+    background-color: var(--color-main-1);
+}
+
+.m3-btn:active,
+.btn-state\:active{
+    background: radial-gradient(circle at 50% 150%,
+                var(--color-main-2) 0,
+                var(--color-main-2) 50%,
+                var(--color-main-1) 100%);
+    border-radius: 10px;
 	
 }
