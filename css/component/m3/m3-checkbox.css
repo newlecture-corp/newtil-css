@@ -9,8 +9,14 @@
 
 
 /* 체크박스 기본값 */
-.checkBox {
+.checkBox input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
 
+    border: 2px solid var(--color-base-8);
+    appearance: none;
+    
 }
 /* -------------- */
 
