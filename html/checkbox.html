@@ -1,120 +1,30 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/component/m3/m3-checkbox.css">
-</head>
-<body>
-    <div class="checkBox enabled">
-        <label>
-            <input type="checkbox">
-            enabled
-        </label>
-    </div>
-    <div class="checkBox disabled">
-        <label>
-            <input type="checkbox" >
-            disabled
-        </label>
-    </div>
-    <div class="checkBox hover"> 
-        <label>
-            <input type="checkbox" >
-            hover
-        </label>
-    </div>
-    <div class="checkBox focus">
-        <label>
-            <input type="checkbox" >
-            focus
-        </label>
-    </div>
-    <div class="checkBox active">
-        <label>
-            <input type="checkbox" >
-            active
-        </label>
-    </div>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <title>Custom M3-style Checkbox</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check" />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/component/m3/m3-checkbox.css">
   <style>
     /* 체크박스 숨기고 label + ::before/::after 로 커스텀 박스 만들기 */
-    .md3-checkbox {
-      display: inline-flex;
-      align-items: center;
-      cursor: pointer;
-      user-select: none;
-      /* optional: 클릭 가능한 최소 영역 확보 */
-      padding: 8px;
-    }
-    .md3-checkbox input[type="checkbox"] {
-      position: absolute;
-      opacity: 0;
-      pointer-events: none;
-    }
-    .md3-checkbox .box {
-      width: 20px;
-      height: 20px;
-      border: 2px solid #757575; /* default unchecked border color */
-      border-radius: 4px;
-      display: inline-block;
-      position: relative;
-      transition: background-color 0.2s, border-color 0.2s;
-    }
-    .md3-checkbox .box::after {
-      content: "";
-      position: absolute;
-      top: 2px;
-      left: 6px;
-      width: 6px;
-      height: 12px;
-      border: solid white;
-      border-width: 0 2px 2px 0;
-      transform: rotate(45deg);
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-    .md3-checkbox input[type="checkbox"]:checked + .box {
-      background-color: #1e88e5; /* 체크된 색 — 기본 Primary 계열 */
-      border-color: #1e88e5;
-    }
-    .md3-checkbox input[type="checkbox"]:checked + .box::after {
-      opacity: 1;
-    }
-    .md3-checkbox span.label {
-      margin-left: 8px;
-      font-size: 16px;
-      color: #212121;
-    }
-    /* focus 스타일 (접근성) */
-    .md3-checkbox input[type="checkbox"]:focus + .box {
-      outline: 2px solid rgba(30, 136, 229, 0.5);
-      outline-offset: 2px;
-    }
+    
   </style>
 </head>
 <body>
-  <label class="md3-checkbox">
+  <label class="n-checkbox">
     <input type="checkbox" id="cb1">
     <span class="box"></span>
-    <span class="label">체크박스 옵션 1</span>
-  </label>
+    <span class="text">체크박스 옵션 1</span>
 
+  </label>
+  
   <br>
 
-  <label class="md3-checkbox">
+  <label class="n-checkbox">
     <input type="checkbox" id="cb2" checked>
     <span class="box"></span>
-    <span class="label">체크박스 옵션 2 (기본 체크)</span>
+    <span class="text">체크박스 옵션 2 (기본 체크)</span>
   </label>
 </body>
 </html>

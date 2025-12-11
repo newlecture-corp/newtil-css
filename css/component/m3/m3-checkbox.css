@@ -1,69 +1,67 @@
-/* 체크박스 변수 */
-.checkBox {
-    --checkBox-light-main-color: var(--color-main-2);
-    --checkBox-light-icon-color: var(--color-white);
-    --checkBox-dark-main-color: var(--color-main-1);
-    --checkBox-dark-icon-color: var(--color-main-3);
+body{
+    padding: 8px;
 }
+/* 체크박스 변수 */
+.n-checkbox {
+    --checkbox-main-color: var(--color-main-2);
+    --checkbox-icon-color: var(--color-white);
+    --checkbox-border-color: var(--color-base-8);
+}
+
 /* -------------- */
 
 
-/* 체크박스 기본값 */
-.checkBox input[type="checkbox"]{
+.n-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    /* optional: 클릭 가능한 최소 영역 확보 */
+    
+}
+
+.n-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.n-checkbox .box {
     height: 18px;
     width: 18px;
     border-radius: 2px;
-
-    border: 2px solid var(--color-base-8);
-    appearance: none;
-    
-}
-/* -------------- */
-
-
-
-
-.checkBox:disabled,
-.checkBox.disabled {
-
+    border: 2px solid var(--checkbox-border-color);
+    /* default unchecked border color */
+    position: relative;
+    transition: background-color 0.2s, border-color 0.2s;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.checkBox:hover,
-.checkBox.hover {
-
+.n-checkbox .box::after {
+    content: "\e5ca";
+    position: absolute;
+    font-family: "Material Symbols Outlined";
+    font-size: 18px;
+    font-weight: var(--font-weight-medium);
+    color: var(--checkbox-icon-color);
 }
 
-.checkBox:focus,
-.checkBox.focus {
-
+.n-checkbox input[type="checkbox"]:checked+.box {
+    background-color: var(--checkbox-main-color);
+    /* 체크된 색 — 기본 Primary 계열 */
+    border-color: var(--checkbox-main-color);
 }
 
-.checkBox:active,
-.checkBox.active {
-
+.n-checkbox input[type="checkbox"]:checked+.box::after {
+    opacity: 1;
 }
 
-
-/* 다크모드 */
-@media (prefers-color-scheme: dark) {
-
-    .checkBox:disabled,
-    .checkBox.disabled {
-
-    }
-
-    .checkBox:hover,
-    .checkBox.hover {
-
-    }
-
-    .checkBox:focus,
-    .checkBox.focus {
-
-    }
-
-    .checkBox:active,
-    .checkBox.active {
-
-    }
+.n-checkbox span.text {
+    margin-left: 8px;
+    font-size: 16px;
+    color: var(--color-base-8);
 }
