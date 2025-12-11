@@ -1,15 +1,18 @@
 body{
     padding: 8px;
+    /* background-color: black;  */
 }
+
 /* 체크박스 변수 */
 .n-checkbox {
     --checkbox-main-color: var(--color-main-2);
-    --checkbox-icon-color: var(--color-white);
+    --checkbox-icon-color: var(--color-transparent);
     --checkbox-border-color: var(--color-base-8);
     --checkbox-state-container-width: 18px;
     --checkbox-state-container-height: 18px;
 }
 /* -------------- */
+
 .n-checkbox {
     display: inline-flex;
     align-items: center;
@@ -17,6 +20,7 @@ body{
     user-select: none;
     /* optional: 클릭 가능한 최소 영역 확보 */
 }
+
 .n-checkbox input[type="checkbox"] {
     position: absolute;
     width: 48px;
@@ -24,20 +28,17 @@ body{
     opacity: 0;
     pointer-events: none;
 }
+
 .n-checkbox .box {
     height:40px;
     width:40px;
-}
-.n-checkbox .box {
     position: relative;
-    /* width: var(--checkbox-state-container-width);
-    height: var(--checkbox-state-container-height); */
     border-radius: 50%;
     border: 2px solid transparent;
     transition: border 0.3s ease;
 }
+
 .n-checkbox .box::before {
-    content: "\e5ca";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -61,45 +62,47 @@ body{
     border-radius: 2px;
     z-index: 1;
 }
+
+.n-checkbox .box.checked::before{
+    content: "\e5ca"; 
+}  
+
+.n-checkbox .box.indeterminate::before{
+    content: "\f88a";
+}  
+
 .n-checkbox input[type="checkbox"]:checked+.box::before {
+    --checkbox-icon-color: var(--color-white);
     background-color: var(--checkbox-main-color);
     /* 체크된 색 — 기본 Primary 계열 */
     border-color: var(--checkbox-main-color);
 }
-.n-checkbox input[type="checkbox"]:checked+.box::after {
-    opacity: 1;
-}
+
 .n-checkbox span.text {
     margin-left: 8px;
     font-size: 16px;
     color: var(--color-base-8);
 }
-/* focused */
-.n-checkbox.focus {
-    input[type="checkbox"] {
-        + .box {
-            border-color: var(--color-base-9);
-        }
-    }
-}
-.n-checkbox {
-    input[type="checkbox"]:focus {
-        + .box {
-            border-color: var(--color-base-9);
-        }
-    }
+
+/* disabled */
+.n-checkbox input[type="checkbox"]:disabled + .box{  
+    opacity: 0.38;
 }
 
-.n-checkbox input[type="checkbox"]:hover + .box {
+/* hover */
+.n-checkbox input[type="checkbox"]:not(:disabled):hover + .box {
     background-color: color-mix(in srgb, var(--checkbox-main-color), transparent 90%);
 }
 
-/* active */
+/* focused */
+.n-checkbox input[type="checkbox"]:not(:disabled):focus + .box{
+    border-color: var(--color-base-9);
 
-.n-checkbox input[type="checkbox"]:active + .box {
-    background-color: #ffffff;
-    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%,
-     rgba(199, 199, 199, 1) 50%, rgba(158, 158, 158, 1) 100%); 
 }
 
-
+/* active */
+.n-checkbox input[type="checkbox"]:not(:disabled):active + .box {
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
+    opacity: 0.9;
+    border: none;
+}
