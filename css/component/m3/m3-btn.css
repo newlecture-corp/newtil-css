@@ -1,105 +1,217 @@
-
-.wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 30px;
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-
-
-
-/* 4조 작업물 */
-.m-btn{
-    /* ----------상수변수------------- -*/
-    /* 버튼의 높이 : 32px, 40px, 56px, 96px, 136px; */
-    /* 버튼의 패딩 : (0 12px), (0 16px), (0 24px), (0 48px), (0 64px); */
-    /* --------------변수---------------- */
-    --btn-background-color: var(--color-main-2);
-    --btn-color: var(--color-base-1);
-    --btn-size: var(--icon-size-1);
-    --btn-weight: 400;
-    --btn-height: 40px;
-    --btn-padding: 0 16px;
-    --btn-fill: 1;
-    --btn-radius-default: var(--border-radius-full);
-    --btn-radius-pressed: var(--border-radius-pressed-sm);
-    --btn-outline-color: transparent;
-}
-@media (prefers-color-scheme: dark){
-    .m-btn{
-        --btn-background-color: var(--color-main-1);
-    }
-   
-}
-.m-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* boxing*/
-    height: var(--btn-height);
-    padding: var(--btn-padding);
-    border-radius: var(--btn-radius-default);
-    border: 0px;
-    background-color: var(--btn-background-color);
-    /* content */
-    font-size: var(--btn-size-1);
-    font-weight: var(--btn-weight);
-    line-height: 1;
-    color:var(--btn-color);
-    font-variation-settings: 'FILL' var(--btn-fill);
-    /* 버튼 상태 변수 */
-    outline: 1px solid var(--btn-outline-color);
-    outline-offset:2px;
-    /* effect */
-    /* transition:
-        background-color .5s ease,
-        padding .5s ease,
-        transform .3s ease; */
-}
-.m-btn:enabled, 
-.m-btn.enabled{
-
+/* Card Container */
+.card-container {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.3s ease;
 }
 
-/* 상태 별 속성성 */
-.m-btn:disabled{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
-    color: rgba(29, 27, 32, 0.38);
-}
-.m-btn:hover{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
-}
-.m-btn:focus{
-    --btn-outline-color: var(--btn-color);
-    /* outline: 1px solid var(--btn-background-color); */
-    outline-offset:2px;
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+.card-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
 }
 
-.m-btn:active{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
-    border-radius: var(--btn-radius-pressed);
+/* Card Header */
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
 }
 
-/* 클래스 별 속성성 */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #E8DEF8;
+  color: #6750A4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
 
-.m-btn.m-btn\:disabled{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 90%);
-    color: rgba(29, 27, 32, 0.38);
-}
-.m-btn.m-btn\:hover{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
-}
-.m-btn.m-btn\:focus{
-    --btn-outline-color: var(--btn-background-color);
-    outline-offset:2px;
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
+.header-text {
+  flex: 1;
+  min-width: 0;
 }
 
-.m-btn.m-btn\:active{
-    background-color: color-mix(in srgb, var(--btn-background-color), transparent 10%);
-    border-radius: var(--btn-radius-pressed);
+.header-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1C1B1F;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #49454F;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.menu-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #49454F;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.menu-btn:hover {
+  background-color: rgba(73, 69, 79, 0.08);
+}
+
+.menu-btn:active {
+  background-color: rgba(73, 69, 79, 0.12);
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: 200px;
+  background: #F3EDF7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-image svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Card Content */
+.card-content {
+  padding: 16px;
+}
+
+.content-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1C1B1F;
+  line-height: 32px;
+  margin-bottom: 4px;
+  letter-spacing: 0;
+}
+
+.content-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #49454F;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-bottom: 8px;
+}
+
+.content-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #49454F;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin: 0 0 16px 0;
+}
+
+/* Card Actions */
+.card-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding-top: 8px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover::before {
+  opacity: 0.08;
+}
+
+.btn:active::before {
+  opacity: 0.12;
+}
+
+.btn-negative {
+  background: transparent;
+  color: #6750A4;
+  border: 1px solid #79747E;
+}
+
+.btn-negative:hover {
+  background: rgba(103, 80, 164, 0.08);
+  border-color: #6750A4;
+}
+
+.btn-negative:active {
+  background: rgba(103, 80, 164, 0.12);
+}
+
+.btn-positive {
+  background: #6750A4;
+  color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn-positive::before {
+  background: #FFFFFF;
+}
+
+.btn-positive:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.btn-positive:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }

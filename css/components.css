@@ -1,3 +1,5 @@
+@import url("/css/util/variables.css");
+
 /* ===== NEWTIL CSS COMPONENTS ===== */
 
 
@@ -5,3 +7,212 @@
 
 
 
+
+/* === 2. M3 CARD COMPONENT === */
+
+/* Card Container */
+.m3-card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.3s ease;
+}
+
+.m3-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+}
+
+/* Card Header */
+.m3-card__header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+.m3-card__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E8DEF8;
+    color: #6750A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.m3-card__header-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.m3-card__header-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C1B1F;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.m3-card__header-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #49454F;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.m3-card\:menu-btn {
+    content: "\e5d4";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.m3-card\:menu-btn:hover {
+    background-color: rgba(73, 69, 79, 0.08);
+}
+
+.m3-card\:menu-btn:active {
+    background-color: rgba(73, 69, 79, 0.12);
+}
+
+/* ========메인 영역=========== */
+.m3-card\:image {
+    width: 100%;
+    height: 200px;
+    background: #F3EDF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.m3-card\:image svg,
+.m3-card\:image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*======카드 컨텐츠========== */
+.m3-card\:content {
+    padding: 16px;
+}
+
+.m3-card\:title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #1C1B1F;
+    line-height: 32px;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+}
+
+.m3-card\:subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #49454F;
+    line-height: 20px; 
+    letter-spacing: 0.1px;
+    margin-bottom: 8px;
+}
+
+.m3-card\:text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #49454F;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin: 0 0 16px 0;
+}
+
+/*===============버튼 배치 ==============*/
+.m3-btn\:location {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-top: 8px;
+}
+
+/*============== 버튼=================== */
+.m3-btn {
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.m3-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: currentColor;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.m3-btn:hover::before {
+    opacity: 0.08;
+}
+
+.m3-btn:active::before {
+    opacity: 0.12;
+}
+
+.m3-btn--negative {
+    background: transparent;
+    color: #6750A4;
+    border: 1px solid #79747E;
+}
+
+.m3-btn--negative:hover {
+    background: rgba(103, 80, 164, 0.08);
+    border-color: #6750A4;
+}
+
+.m3-btn--negative:active {
+    background: rgba(103, 80, 164, 0.12);
+}
+
+.m3-btn--positive {
+    background: #6750A4;
+    color: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.m3-btn--positive::before {
+    background: #FFFFFF;
+}
+
+.m3-btn--positive:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.m3-btn--positive:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
