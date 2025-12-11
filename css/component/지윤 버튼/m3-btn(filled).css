@@ -62,6 +62,12 @@
     --btn-letter-spacing-2: 0.15px;
     --btn-letter-spacing-3: 0px;
 
+ /* border-radius */
+    --btn-border-radius-1: 8px;
+    --btn-border-radius-2: 12px;
+    --btn-border-radius-3: 16px;
+    --btn-border-radius-4: 28px;
+
     
  /* --------------변수---------------- */
 
@@ -133,7 +139,7 @@
         var(--color-main-2) 0,
         var(--color-main-2) 50%,
         var(--color-main-1) 100%); */
-        border-radius: 10px;   
+        border-radius: 12px;   
 }
 
 
@@ -172,16 +178,16 @@
                 rgba(217, 119, 6, 1) 65%,
                 rgba(245, 158, 11, 1) 66%
                 );
-            border-radius: 10px;
+            border-radius: 12px;
         }
     }
 
 
 
 
-/* =============버튼 사이즈============ */
+/* =============버튼 사이즈(Round)============ */
 
-.btn-size\:1{
+.btn-round-size\:1{
 
     /* boxing */
     height: var(--btn-height-1);
@@ -195,7 +201,8 @@
 
 }
 
-.btn-size\:2{
+
+.btn-round-size\:2{
     
     /* boxing */
     height: var(--btn-height-2);
@@ -209,7 +216,7 @@
 
 }
 
-.btn-size\:3{
+.btn-round-size\:3{
     
     /* boxing */
     height: var(--btn-height-3);
@@ -223,7 +230,7 @@
 
 }
 
-.btn-size\:4{
+.btn-round-size\:4{
     
     /* boxing */
     height: var(--btn-height-4);
@@ -237,11 +244,88 @@
 
 }
 
-.btn-size\:5{
+.btn-round-size\:5{
     
     /* boxing */
     height: var(--btn-height-5);
     padding: var(--btn-padding-5);
+
+    /* content */
+    font-size: var(--btn-font-size-4);
+    font-weight: 400;
+    line-height: var(--btn-line-height-4);
+    letter-spacing: var(--btn-letter-spacing-3);
+
+}
+
+/* =============버튼 사이즈(Square)============ */
+
+.btn-square-size\:1{
+
+    /* boxing */
+    height: var(--btn-height-1);
+    padding: var(--btn-padding-1);
+    border-radius: var(--btn-border-radius-2);
+
+    /* content */
+    font-size: var(--btn-font-size-1);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height-1);
+    letter-spacing: var(--btn-letter-spacing-1);
+
+}
+
+.btn-square-size\:2{
+    
+    /* boxing */
+    height: var(--btn-height-2);
+    padding: var(--btn-padding-2);
+    border-radius: var(--btn-border-radius-2);
+
+    /* content */
+    font-size: var(--btn-font-size-1);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height-1);
+    letter-spacing: var(--btn-letter-spacing-1);
+
+}
+
+.btn-square-size\:3{
+    
+    /* boxing */
+    height: var(--btn-height-3);
+    padding: var(--btn-padding-3);
+    border-radius: var(--btn-border-radius-3);
+
+    /* content */
+    font-size: var(--btn-font-size-2);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height-2);
+    letter-spacing: var(--btn-letter-spacing-2);
+
+}
+
+.btn-square-size\:4{
+    
+    /* boxing */
+    height: var(--btn-height-4);
+    padding: var(--btn-padding-4);
+    border-radius: var(--btn-border-radius-4);
+
+    /* content */
+    font-size: var(--btn-font-size-3);
+    font-weight: 400;
+    line-height: var(--btn-line-height-3);
+    letter-spacing: var(--btn-letter-spacing-3);
+
+}
+
+.btn-square-size\:5{
+    
+    /* boxing */
+    height: var(--btn-height-5);
+    padding: var(--btn-padding-5);
+    border-radius: var(--btn-border-radius-4);
 
     /* content */
     font-size: var(--btn-font-size-4);
