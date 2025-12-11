@@ -1,0 +1,102 @@
+:root {
+    --md3-radio-size: 20px;
+    --md3-touch-size: 48px;
+    --md3-stroke-width: 2px;
+    --md3-inner-dot-size: 10px;
+    --md3-spacing-label: 12px;
+
+    --md3-primary: var(--color-main-2);
+    --md3-on-surface: var(--color-base-9);
+    --md3-disabled: var(--color-base-7);
+    --md3-focus-ring: 3px;
+}
+
+.n-radio {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--md3-spacing-label);
+    cursor: pointer;
+    user-select: none;
+}
+
+.n-radio input[type="radio"] {
+    appearance: none;
+    width: var(--md3-touch-size);
+    height: var(--md3-touch-size);
+    margin: 0;
+    border: none;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+}
+
+.n-radio input[type="radio"]::before,
+.n-radio input[type="radio"]::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-sizing: border-box;
+    transition: all 180ms cubic-bezier(.2, .8, .2, 1);
+}
+
+/* outer ring */
+.n-radio input[type="radio"]::before {
+    width: var(--md3-radio-size);
+    height: var(--md3-radio-size);
+    border-radius: 50%;
+    border: var(--md3-stroke-width) solid rgba(106, 142, 41, 0.36);
+}
+
+/* inner dot */
+.n-radio input[type="radio"]::after {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: var(--md3-primary);
+    opacity: 0;
+}
+
+/* checked */
+.n-radio input[type="radio"]:checked::before {
+    border-color: var(--md3-primary);
+}
+
+.n-radio input[type="radio"]:checked::after {
+    width: var(--md3-inner-dot-size);
+    height: var(--md3-inner-dot-size);
+    opacity: 1;
+    transition-duration: 120ms;
+}
+
+/* hover */
+.n-radio input[type="radio"]:hover::before {
+    border-color: rgb(106, 142, 41, 0.85);
+}
+
+/* focus ring */
+.n-radio input[type="radio"]:focus-visible::before {
+    box-shadow: 0 0 0 var(--md3-focus-ring) rgba(103, 80, 164, 0.12),
+        0 0 0 calc(var(--md3-focus-ring) + 1px) rgba(103, 80, 164, 0.06);
+}
+
+/* disabled */
+.n-radio input[type="radio"]:disabled {
+    cursor: not-allowed;
+}
+
+.n-radio input[type="radio"]:disabled::before {
+    border-color: var(--md3-disabled);
+}
+
+.n-radio input[type="radio"]:disabled::after {
+    background: var(--md3-disabled);
+    opacity: 0.6;
+}
+
+.n-radio .n-radio-label {
+    font-size: 14px;
+    color: var(--md3-on-surface);
+}
