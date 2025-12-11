@@ -42,6 +42,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.2s ease;
     font-size: 16px;
     font-weight: 500;
     flex-shrink: 0;
@@ -94,7 +95,12 @@
 .m3-card\:menu-btn:active {
     background-color: rgba(73, 69, 79, 0.12);
 }
-
+.m3-card.drag {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25),
+                0 6px 12px rgba(0,0,0,0.30);
+    transform: scale(1.02);
+    background: rgba(0,0,0,0.05);
+  }
 /* ========메인 영역=========== */
 .m3-card\:image {
     width: 100%;
