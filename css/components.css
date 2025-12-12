@@ -18,7 +18,8 @@
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: box-shadow 0.3s ease;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
+    cursor: grab;
 }
 
 .m3-card:hover {
@@ -99,7 +100,8 @@
     background-color: rgba(73, 69, 79, 0.12);
 }
 
-.m3-card.drag {
+.m3-card.drag,
+.m3-card-horizontal.drag {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
         0 6px 12px rgba(0, 0, 0, 0.30);
     transform: scale(1.02);
@@ -233,7 +235,7 @@
 }
 
 /* ========================================
-   3. HORIZONTAL CARD VARIANT
+                   가로형 카드
    ======================================== */
 
 .m3-card-horizontal {
@@ -245,6 +247,7 @@
     transition: box-shadow 0.3s ease;
     display: flex;
     align-items: stretch;
+    cursor: grab;
 }
 
 .m3-card-horizontal:hover {
@@ -253,6 +256,7 @@
 
 /* 왼쪽 컨텐츠 영역 */
 .m3-card-horizontal\:content {
+    width: 280px;
     flex: 1;
     display: flex;
     align-items: center;
@@ -317,4 +321,18 @@
 .m3-card-horizontal\:icon-area .icon:hover {
     transform: scale(1.15);
     opacity: 1 !important;
+}
+
+/* ========================================
+   Drag State Styles
+   ======================================== */
+
+.m3-card.drag,
+.m3-card-horizontal.drag {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
+        0 6px 12px rgba(0, 0, 0, 0.30) !important;
+    transform: scale(1.02) !important;
+    background: rgba(0, 0, 0, 0.05) !important;
+    opacity: 0.9;
+    cursor: grabbing !important;
 }
