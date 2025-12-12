@@ -69,7 +69,7 @@
     --btn-border-radius-4: 28px;
 
     
- /* --------------변수---------------- */
+ /* --------------Variable---------------- */
 
  --btn-color: var(--btn-color-3);
  --btn-height: var(--btn-height-3);
@@ -82,113 +82,192 @@
  --btn-fill: 1;
 }
 
+
+/* =======Button Type============ */
 .m3-btn
 {
-/* ==========Filled Type================= */
-
+/* --------Base Type----------- */
     /* boxing*/
-    background-color: var(--btn-color);
-    height: var(--btn-height);
-    padding: var(--btn-padding);
-    border-radius: var(--btn-border-radius);
     border: 0px;
     margin-top: 5px;
-
+    gap: 2px;
+    
     /* content */
     font-family: roboto;
-    font-size: var(--btn-font-size);
-    font-weight: var(--btn-font-weight);
-    color: var(--btn-color-base-1);
-    line-height: var(--btn-line-height);
-    letter-spacing: var(--btn-letter-spacing);
     font-variation-settings: 'FILL' var(--btn-fill);
-
+    
     /* effect */
-    transition: background-color 0.3s ease, transform 1s ease;
+    transition: background-color 0.3s ease, transform 1s ease;    
+}
+
+/* -------Elevated Type---------- */
+.btn-type\:elevated{
+
+    background: rgba(245, 158, 11, 0.1);
+    box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
+    color: var(--btn-color-5);
 
 }
 
-.btn-type-filled-round{
-    border-radius: var(--btn-border-radius);
+/* -------Filled Type------------ */
+.btn-type\:filled{
+
+    background-color: var(--btn-color);
+    color: var(--btn-color-base-1);
+
 }
 
-.btn-type-filled-square{
-    border-radius: var(--btn-border-radius-3);
-}
 
 
-/* =========라이트 모드=============== */
+/* =========Button State=============== */
+/* -------Elevate Type State------ */
+.elevated-round-btn,.elevated-square-btn{
+    
+    .m3-btn:disabled,
+    .btn-state\:disabled{
 
-.m3-btn:disabled,
-.btn-state\:disabled{
-    background: rgba(217, 119, 6, 0.1);
-    color: rgba(94, 40, 8, 0.38);
-}
+            background: rgba(217, 119, 6, 0.1);
+            color: rgba(94, 40, 8, 0.38);
+            box-shadow: none;
+        
+    }
 
-.m3-btn:focus:not(:active),
-.btn-state\:focus:not(:active){
-    border: 2px solid var(--btn-color-base-1);
-    outline: 3px solid var(--btn-color-5);
-}
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active){
 
-.m3-btn:hover,
-.btn-state\:hover{
-    background-color: var(--btn-color-1);
-}
+        border: 2px solid var(--btn-color-4);
+        outline:0.3px solid var(--btn-color-3);
+        outline-offset: -4px;
+        box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
 
-.m3-btn:active,
-.btn-state\:active{
-    background: radial-gradient(
-        107% 112% at 65% 103%,
-        rgba(217, 119, 6, 1) 65%,
-        rgba(245, 158, 11, 1) 66%
-        );
-        /* background: radial-gradient(circle at 50% 150%,
-        var(--color-main-2) 0,
-        var(--color-main-2) 50%,
-        var(--color-main-1) 100%); */
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover{
+
+        background: rgba(245, 158, 11, 0.25);
+        box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
+        color: var(--btn-color-5);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active{
+
+        background: radial-gradient(
+            107% 112% at 65% 103%,
+            rgba(217, 119, 6, 0.4) 65%,
+            rgba(245, 158, 11, 0.25) 66%
+            );
+            /* background: radial-gradient(circle at 50% 150%,
+            var(--color-main-2) 0,
+            var(--color-main-2) 50%,
+            var(--color-main-1) 100%); */
         border-radius: 12px;   
+
+    }
+
+
 }
+
+
+/* -------Filled Type State------ */
+.filled-round-btn,.filled-square-btn{
+    
+    .m3-btn:disabled,
+    .btn-state\:disabled{
+
+        background: rgba(217, 119, 6, 0.1);
+        color: rgba(94, 40, 8, 0.38);
+
+    }
+
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active){
+
+        border: 2px solid var(--btn-color-base-1);
+        outline: 2px solid var(--btn-color-5);
+
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover{
+
+        background-color: var(--btn-color-1);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active{
+
+        background: radial-gradient(
+            107% 112% at 65% 103%,
+            rgba(217, 119, 6, 1) 65%,
+            rgba(245, 158, 11, 1) 66%
+            );
+            /* background: radial-gradient(circle at 50% 150%,
+            var(--color-main-2) 0,
+            var(--color-main-2) 50%,
+            var(--color-main-1) 100%); */
+            border-radius: 12px;   
+
+    }
+
+}
+
 
 
 /* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
         
 @media (prefers-color-scheme: dark) {
-    body{
+
+        body{
+
         background-color: var(--btn-color-base-9);
         color: var(--btn-color-base-4);
 
-    }
+        }
+
         .m3-btn{
+
             background-color: var(--btn-color-2);
             color: var(--btn-color-6);
             font-weight: 600;
+
         }
 
         .m3-btn:disabled,
         .btn-state\:disabled{
+
             opacity: 0.3;
+
         }
 
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
-            border: 3px solid var(--btn-color-6);
-            outline: 3px solid var(--btn-color-2);
+
+            border: 2px solid var(--btn-color-6);
+            outline: 2px solid var(--btn-color-2);
+
         }
 
         .m3-btn:hover,
         .btn-state\:hover{
+
             background-color: var(--btn-color-1);
+
         }
 
         .m3-btn:active,
         .btn-state\:active{
+
             background: radial-gradient(
                 107% 112% at 65% 103%,
                 rgba(212, 135, 0, 1) 65%,
                 rgba(245, 158, 11, 1) 66%
                 );
             border-radius: 12px;
+
         }
     }
 
@@ -252,7 +331,6 @@
 
     /* content */
     font-size: var(--btn-font-size-3);
-    font-weight: 400;
     line-height: var(--btn-line-height-3);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -267,7 +345,6 @@
 
     /* content */
     font-size: var(--btn-font-size-4);
-    font-weight: 400;
     line-height: var(--btn-line-height-4);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -329,7 +406,6 @@
 
     /* content */
     font-size: var(--btn-font-size-3);
-    font-weight: 400;
     line-height: var(--btn-line-height-3);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -344,7 +420,6 @@
 
     /* content */
     font-size: var(--btn-font-size-4);
-    font-weight: 400;
     line-height: var(--btn-line-height-4);
     letter-spacing: var(--btn-letter-spacing-3);
 
