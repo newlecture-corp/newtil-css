@@ -103,9 +103,11 @@
 .m3-card.drag,
 .m3-card-horizontal.drag {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
-        0 6px 12px rgba(0, 0, 0, 0.30);
-    transform: scale(1.02);
-    background: rgba(0, 0, 0, 0.05);
+        0 6px 12px rgba(0, 0, 0, 0.30) !important;
+    transform: scale(1.02) !important;
+    background: rgba(0, 0, 0, 0.05) !important;
+    opacity: 0.9;
+    cursor: grabbing !important;
 }
 
 /* ========메인 영역=========== */
@@ -262,7 +264,7 @@
     align-items: center;
     padding: 20px;
     gap: 16px;
-    background: #ffffff;
+    background: transparent;
 }
 
 .m3-card-horizontal\:avatar {
@@ -321,18 +323,4 @@
 .m3-card-horizontal\:icon-area .icon:hover {
     transform: scale(1.15);
     opacity: 1 !important;
-}
-
-/* ========================================
-   Drag State Styles
-   ======================================== */
-
-.m3-card.drag,
-.m3-card-horizontal.drag {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
-        0 6px 12px rgba(0, 0, 0, 0.30) !important;
-    transform: scale(1.02) !important;
-    background: rgba(0, 0, 0, 0.05) !important;
-    opacity: 0.9;
-    cursor: grabbing !important;
 }
