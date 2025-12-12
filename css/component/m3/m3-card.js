@@ -9,3 +9,13 @@ card.addEventListener('dragstart', () => {
 card.addEventListener('dragend', () => {
   card.classList.remove('drag');
 });
+
+
+const card2 = document.querySelector('.m3-card-horizontal');
+card2.addEventListener('dragstart', () => {
+  card2.classList.add('drag');
+});
+card2.addEventListener('dragend', () => {
+  card2.classList.remove('drag');
+});
+

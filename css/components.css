@@ -12,12 +12,13 @@
 
 /* Card Container */
 .m3-card {
-    width: 320px;
+    width: 360px;
     background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: box-shadow 0.3s ease;
+    margin-bottom: 32px;
 }
 
 .m3-card:hover {
@@ -82,12 +83,14 @@
     transition: background-color 0.2s ease;
     flex-shrink: 0;
 }
+
 .m3-card\:menu-btn::before {
     content: "\e5d4";
     font-family: "Material Symbols Outlined";
     font-size: 30px;
     font-weight: 100px;
 }
+
 .m3-card\:menu-btn:hover {
     background-color: rgba(73, 69, 79, 0.08);
 }
@@ -95,12 +98,14 @@
 .m3-card\:menu-btn:active {
     background-color: rgba(73, 69, 79, 0.12);
 }
+
 .m3-card.drag {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.25),
-                0 6px 12px rgba(0,0,0,0.30);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
+        0 6px 12px rgba(0, 0, 0, 0.30);
     transform: scale(1.02);
-    background: rgba(0,0,0,0.05);
-  }
+    background: rgba(0, 0, 0, 0.05);
+}
+
 /* ========메인 영역=========== */
 .m3-card\:image {
     width: 100%;
@@ -137,7 +142,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #49454F;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 0.1px;
     margin-bottom: 8px;
 }
@@ -225,4 +230,91 @@
 
 .m3-btn\:positive:active {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================
+   3. HORIZONTAL CARD VARIANT
+   ======================================== */
+
+.m3-card-horizontal {
+    width: 360px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: stretch;
+}
+
+.m3-card-horizontal:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+}
+
+/* 왼쪽 컨텐츠 영역 */
+.m3-card-horizontal\:content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+    background: #ffffff;
+}
+
+.m3-card-horizontal\:avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E8DEF8;
+    color: #6750A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.m3-card-horizontal\:text {
+    flex: 1;
+    min-width: 0;
+}
+
+.m3-card-horizontal\:title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1C1B1F;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin-bottom: 2px;
+}
+
+.m3-card-horizontal\:subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #49454F;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+/* 오른쪽 아이콘 영역역 */
+.m3-card-horizontal\:icon-area {
+    width: 80px;
+    background: #E8DEF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 16px;
+    flex-shrink: 1;
+}
+
+.m3-card-horizontal\:icon-area .icon {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.m3-card-horizontal\:icon-area .icon:hover {
+    transform: scale(1.15);
+    opacity: 1 !important;
 }
