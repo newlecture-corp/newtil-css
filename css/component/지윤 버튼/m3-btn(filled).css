@@ -84,14 +84,14 @@
 
 .m3-btn
 {
-/* ==========버튼 Filled state================= */
+/* ==========Filled Type================= */
 
     /* boxing*/
     background-color: var(--btn-color);
     height: var(--btn-height);
     padding: var(--btn-padding);
-    border: 0px;
     border-radius: var(--btn-border-radius);
+    border: 0px;
     margin-top: 5px;
 
     /* content */
@@ -108,13 +108,21 @@
 
 }
 
+.btn-type-filled-round{
+    border-radius: var(--btn-border-radius);
+}
+
+.btn-type-filled-square{
+    border-radius: var(--btn-border-radius-3);
+}
+
 
 /* =========라이트 모드=============== */
 
 .m3-btn:disabled,
 .btn-state\:disabled{
-    background: rgba(25,25,25,0.1);
-    color: rgba(25,25,25,0.38);
+    background: rgba(217, 119, 6, 0.1);
+    color: rgba(94, 40, 8, 0.38);
 }
 
 .m3-btn:focus:not(:active),
@@ -148,6 +156,7 @@
 @media (prefers-color-scheme: dark) {
     body{
         background-color: var(--btn-color-base-9);
+        color: var(--btn-color-base-4);
 
     }
         .m3-btn{
@@ -157,12 +166,12 @@
 
         .m3-btn:disabled,
         .btn-state\:disabled{
-            opacity: 0.1;
+            opacity: 0.3;
         }
 
-        .m3-btn:focus,
-        .btn-state\:focus{
-            border: 2px solid var(--btn-color-6);
+        .m3-btn:focus:not(:active),
+        .btn-state\:focus:not(:active){
+            border: 3px solid var(--btn-color-6);
             outline: 3px solid var(--btn-color-2);
         }
 
@@ -175,7 +184,7 @@
         .btn-state\:active{
             background: radial-gradient(
                 107% 112% at 65% 103%,
-                rgba(217, 119, 6, 1) 65%,
+                rgba(212, 135, 0, 1) 65%,
                 rgba(245, 158, 11, 1) 66%
                 );
             border-radius: 12px;
@@ -192,6 +201,7 @@
     /* boxing */
     height: var(--btn-height-1);
     padding: var(--btn-padding-1);
+    border-radius: var(--btn-border-radius);
 
     /* content */
     font-size: var(--btn-font-size-1);
@@ -207,6 +217,7 @@
     /* boxing */
     height: var(--btn-height-2);
     padding: var(--btn-padding-2);
+    border-radius: var(--btn-border-radius);
 
     /* content */
     font-size: var(--btn-font-size-1);
@@ -221,6 +232,7 @@
     /* boxing */
     height: var(--btn-height-3);
     padding: var(--btn-padding-3);
+    border-radius: var(--btn-border-radius);
 
     /* content */
     font-size: var(--btn-font-size-2);
@@ -235,6 +247,7 @@
     /* boxing */
     height: var(--btn-height-4);
     padding: var(--btn-padding-4);
+    border-radius: var(--btn-border-radius);
 
     /* content */
     font-size: var(--btn-font-size-3);
@@ -249,6 +262,7 @@
     /* boxing */
     height: var(--btn-height-5);
     padding: var(--btn-padding-5);
+    border-radius: var(--btn-border-radius);
 
     /* content */
     font-size: var(--btn-font-size-4);
