@@ -1,162 +1,18 @@
 .m3-btn
 {
-    /* ------------btn size별 스펙--------- */
-    /* --btn-size: x-small, small, medium, large, x-large
-    --btn-height: 32px, 40px, 56px, 96px, 136px
-    --btn-width: 59px, 67px, 88px, 155px, 206px
-    --btn-padding: (6px 12px), (10px 16px), (16px 24px), (32px 48px), (48px 64px)
-    --btn-font-style: roboto
-    --btn-font-size: 14px, 14px, 16px, 24px, 32px
-    --btn-font-weight: medium, medium, medium, regular, regular
-    --btn-font-leading: 20px, 20px, 24px, 32px, 40px  //행간
-    --btn-font-tracking: 0.1, 0.1, 0.15, 0, 0 //자간 */
-    
-    /* ----------상수변수-------------- */
-    /* 버튼 색색 */
-	   --btn-color-1: #d48700;
-	   --btn-color-2: #944813;
-	   --btn-color-3: #5e2808;
 
-    /* 버튼 높이이 */
-       --btn-height-1: 32px;
-       --btn-height-2: 40px;
-       --btn-height-3: 56px;
-       --btn-height-4: 96px;
-       --btn-height-5: 136px;
-
-    /* 버튼 너비 */
-       --btn-width-1: 59px;
-       --btn-width-2: 67px;
-       --btn-width-3: 88px;
-       --btn-width-4: 155px;
-       --btn-width-5: 206px;
-
-    /* 버튼 패딩 */
-       --btn-padding-1: 6px 12px;
-       --btn-padding-2: 10px 16px;
-       --btn-padding-3: 16px 24px;
-       --btn-padding-4: 32px 48px;
-       --btn-padding-5: 48px 64px;
-    
-    /* 버튼 폰트사이즈 */
-       --btn-font-size-1: 14px;
-       --btn-font-size-2: 16px;
-       --btn-font-size-3: 24px;
-       --btn-font-size-4: 32px;
-
-    /* 버튼 폰트행간 */
-       --btn-font-leading-1: 20px;
-       --btn-font-leading-2: 24px;
-       --btn-font-leading-3: 32px;
-       --btn-font-leading-4: 40px; 
-
-    /* 버튼 폰트자간 */
-       --btn-font-tracking-1: 0.1;
-       --btn-font-tracking-2: 0.15;
-       --btn-font-tracking-3: 0;
-   
-	   
-    /* --------------변수---------------- */
-    --btn-size: var(--font-size-1);
-    --btn-weight: 500;
-    --btn-height: 40px;
-    --btn-padding: 0 16px;
-    --btn-fill: 1;
-
-
-	/* ==========버튼 기본모드================= */
-
-    /* boxing*/
-    background-color: var(--color-main-2);
-    height: var(--btn-height);
-    padding: var(--btn-padding);
-    border-radius: 999px;
-    border: 0px;
-    margin-top: 5px;
-
-    /* content */
-    font-size: var(--btn-size);
-    font-weight: var(--btn-weight);
-    color:var(--color-base-1);
-    font-variation-settings: 'FILL' var(--btn-fill);
-
-    /* effect */
-    transition: background-color 0.3s ease, transform 1s ease;
 
 }
 
 /* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
 
 @media (prefers-color-scheme: dark) {
-	body{
-        background-color: #121212;
-        }
-
-        .m3-btn{
-            background-color: var(--color-main-1);
-            color: var(--color-main-3);
-        }
-
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-            background-color: var(--color-main-3);
-            color: var(--color-main-2);
-            opacity: 0.7;
-        }
-
-        .m3-btn:focus,
-        .btn-state\:focus{
-            border: 2px solid var(--color-main-3);
-            outline: 3px solid var(--color-base-2);
-        }
-
-        .m3-btn:hover,
-        .btn-state\:hover{
-            background-color: var(--color-main-2);
-            color: #2b1203;
-        }
-
-        .m3-btn:active,
-        .btn-state\:active{
-            background: radial-gradient(circle at 50% 150%,
-                        var(--color-main-2) 0,
-                        var(--color-main-2) 50%,
-                        var(--color-main-1) 100%);
-            color: #2b1203;
-            border-radius: 10px;
-        }
+	.m3-btn {
+		
+	
+	}
 }
 
-
-/* =========라이트 모드=============== */
-
-.m3-btn:disabled,
-.btn-state\:disabled{
-    background-color: var(--color-main-1);
-    opacity: 0.3;
-}
-
-.m3-btn:focus,
-.btn-state\:focus{
-    border: 2px solid var(--color-base-1);
-    outline: 3px solid var(--color-main-3);
-}
-
-.m3-btn:hover,
-.btn-state\:hover{
-    background-color: var(--color-main-1);
-}
-
-.m3-btn:active,
-.btn-state\:active{
-    background: radial-gradient(
-        144% 97% at 74% 88%,
-        rgba(148, 72, 19, 0.8) 54%,
-        rgba(212, 135, 0, 1) 55%);
-    /* background: radial-gradient(circle at 50% 150%,
-                var(--color-main-2) 0,
-                var(--color-main-2) 50%,
-                var(--color-main-1) 100%); */
-    border-radius: 10px;
+.m3-btn {
 	
 }
