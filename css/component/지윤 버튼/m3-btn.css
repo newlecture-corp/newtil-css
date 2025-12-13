@@ -365,14 +365,8 @@ h1{
     body{
         background-color: var(--btn-color-base-9);
 
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
-
-        }
     }
+    
 
     
     /* -------Elevate Type----------- */
@@ -382,6 +376,14 @@ h1{
 
             background-color: var(--btn-color-8);
             color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
 
         }
 
@@ -426,6 +428,14 @@ h1{
 
         }
 
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
@@ -462,6 +472,14 @@ h1{
 
             background-color: var(--btn-color-7);
             color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
 
         }
 
@@ -505,6 +523,14 @@ h1{
 
         }
 
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
@@ -542,6 +568,14 @@ h1{
 
             background-color: transparent;
             color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
 
         }
 
