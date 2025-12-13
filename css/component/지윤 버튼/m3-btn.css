@@ -68,24 +68,30 @@
     --btn-border-radius-2: 12px;
     --btn-border-radius-3: 16px;
     --btn-border-radius-4: 28px;
+    --btn-border-radius-5: 999px;
 
     
  /* --------------Variable---------------- */
 
- --btn-color: var(--btn-color-3);
- --btn-height: var(--btn-height-3);
- --btn-padding: var(--btn-padding-3);
- --btn-border-radius: 999px;
- --btn-font-size: var(--btn-font-size-2);
+
+ --btn-border-radius: var(--btn-border-radius-5);
  --btn-font-weight: 500;
- --btn-line-height: var(--btn-line-height-2);
- --btn-letter-spacing: var(--btn-letter-spacing-2);
  --btn-fill: 1;
 }
 
+main>section{
+    margin-bottom: 50px;
+}
+
+main>section>h1{
+    font-size: var(--btn-font-size-3);
+}
+
 h1{
-    font-size: 16px;
+    font-size: var(--btn-font-size-);
     color:var(--btn-color-base-7);
+    padding: 5px 0px;
+    margin: 0px;
 }
 
 
@@ -123,7 +129,7 @@ h1{
 .btn-type\:filled{
 
     /* boxing */
-    background-color: var(--btn-color);
+    background-color: var(--btn-color-3);
 
     /* content */
     color: var(--btn-color-base-1);
@@ -211,7 +217,7 @@ h1{
             rgba(94, 40, 8, 0.17) 65%,
             rgba(81, 58, 44, 0.13) 66%
             );
-        border-radius: 12px;   
+        border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -247,7 +253,7 @@ h1{
             var(--color-main-2) 0,
             var(--color-main-2) 50%,
             var(--color-main-1) 100%); */
-            border-radius: 12px;   
+            border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -279,7 +285,7 @@ h1{
             rgba(255, 162, 0, 1) 65%,
             rgba(255, 162, 0, 0.8) 66%
             );
-            border-radius: 12px;   
+            border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -312,7 +318,7 @@ h1{
             rgba(94, 40, 8, 0.18) 65%,
             rgba(81, 58, 44, 0.1) 66%
             );
-            border-radius: 12px;   
+            border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -345,7 +351,7 @@ h1{
             rgba(94, 40, 8, 0.18) 65%,
             rgba(81, 58, 44, 0.1) 66%
             );
-            border-radius: 12px;   
+            border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -403,7 +409,7 @@ h1{
                 rgba(54, 36, 24, 1) 65%,
                 rgba(81, 58, 44, 1) 66%
                 );
-            border-radius: 12px;
+            border-radius: var(--btn-border-radius-2);
 
         }
     }
@@ -443,7 +449,7 @@ h1{
                 rgba(212, 135, 0, 1) 65%,
                 rgba(245, 158, 11, 1) 66%
                 );
-            border-radius: 12px;
+            border-radius: var(--btn-border-radius-2);
 
         }
     }
@@ -482,7 +488,7 @@ h1{
                 rgba(54, 36, 24, 0.8) 65%,
                 rgba(81, 58, 44, 0.8) 66%
                 );
-            border-radius: 12px;
+            border-radius: var(--btn-border-radius-2);
 
         }
     }
@@ -523,7 +529,7 @@ h1{
                 rgba(81, 58, 44, 0.8) 65%,
                 rgba(81, 58, 44, 0.4) 66%
                 );
-            border-radius: 12px;
+            border-radius: var(--btn-border-radius-2);
 
         }
     }
@@ -563,7 +569,7 @@ h1{
                 rgba(81, 58, 44, 0.8) 65%,
                 rgba(81, 58, 44, 0.4) 66%
                 );
-            border-radius: 12px;
+            border-radius: var(--btn-border-radius-2);
 
         }
     }
@@ -629,6 +635,7 @@ h1{
 
     /* content */
     font-size: var(--btn-font-size-3);
+    font-weight: 600;
     line-height: var(--btn-line-height-3);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -643,6 +650,7 @@ h1{
 
     /* content */
     font-size: var(--btn-font-size-4);
+    font-weight: 600;
     line-height: var(--btn-line-height-4);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -704,6 +712,7 @@ h1{
 
     /* content */
     font-size: var(--btn-font-size-3);
+    font-weight: 600;
     line-height: var(--btn-line-height-3);
     letter-spacing: var(--btn-letter-spacing-3);
 
@@ -718,6 +727,7 @@ h1{
 
     /* content */
     font-size: var(--btn-font-size-4);
+    font-weight: 600;
     line-height: var(--btn-line-height-4);
     letter-spacing: var(--btn-letter-spacing-3);
 
