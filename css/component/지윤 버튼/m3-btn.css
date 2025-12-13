@@ -9,16 +9,17 @@
     --btn-font-weight: medium, medium, medium, regular, regular
     --btn-line-height: 20px, 20px, 24px, 32px, 40px  //행간
     --btn-letter-spacing: 0.1, 0.1, 0.15, 0, 0 //자간 */
-    
+
     /* ----------상수변수-------------- */
     /* 버튼 색 */
-    --btn-color-1: #f59e0b; 
-    --btn-color-2: #d48700;
-    --btn-color-3: #d97706; 
-    --btn-color-4: #944813;
-    --btn-color-5: #b45309; 
-    --btn-color-6: #5e2808;
-
+    --btn-color-1: #f59e0b;     /*rgba(245, 158, 11, 1)*/
+    --btn-color-2: #d48700;     /*rgba(212, 135, 0, 1)*/
+    --btn-color-3: #d97706;     /*rgba(217, 119, 6, 1)*/
+    --btn-color-4: #b45309;     /*rgba(180, 83, 9, 1)*/
+    --btn-color-5: #944813;     /*rgba(148, 72, 19, 1)*/
+    --btn-color-6: #5e2808;     /*rgba(94, 40, 8, 1)*/
+    --btn-color-7: #513a2c;     /*rgba(81, 58, 44, 1)*/
+    --btn-color-8: #362418;     /*rgba(54, 36, 24, 1)*/
 
     --btn-color-base-1: #ffffff; /* 가장 밝은 회색 */
     --btn-color-base-2: #d7d7d7; /* 매우 밝은 회색 */
@@ -82,11 +83,17 @@
  --btn-fill: 1;
 }
 
+h1{
+    font-size: 16px;
+    color:var(--btn-color-base-7);
+}
 
-/* =======Button Type============ */
-.m3-btn
-{
+
+
+/* =================Button Type===================================== */
+
 /* --------Base Type----------- */
+.m3-btn{    
     /* boxing*/
     border: 0px;
     margin-top: 5px;
@@ -100,34 +107,78 @@
     transition: background-color 0.3s ease, transform 1s ease;    
 }
 
+
 /* -------Elevated Type---------- */
 .btn-type\:elevated{
 
-    background: rgba(245, 158, 11, 0.1);
-    box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
-    color: var(--btn-color-5);
+    /* boxing */
+    background: rgba(81, 58, 44, 0.05);
+    box-shadow: 0px 0.7px 2px 0.5px rgba(0, 0, 0, 0.5);
+
+    /* content */
+    color: var(--btn-color-4);
 
 }
+
 
 /* -------Filled Type------------ */
 .btn-type\:filled{
 
+    /* boxing */
     background-color: var(--btn-color);
+
+    /* content */
     color: var(--btn-color-base-1);
 
 }
 
 
+/* -------Tone Type-------------- */
+.btn-type\:tonal{
 
-/* =========Button State=============== */
-/* -------Elevate Type State------ */
+    /* boxing */
+
+
+    /* content */
+
+
+}
+
+/* -------Outlined Type---------- */
+.btn-type\:Outlined{
+    
+    /* boxing */
+
+
+    /* content */
+
+
+}
+
+/* -------Text Type-------------- */
+.btn-type\:Text{
+    
+    /* boxing */
+
+
+    /* content */
+
+
+}
+
+
+
+
+/* ===========Button State(Light Mode)============================== */
+
+/* -------Elevate Type----------- */
 .elevated-round-btn,.elevated-square-btn{
     
     .m3-btn:disabled,
     .btn-state\:disabled{
 
-            background: rgba(217, 119, 6, 0.1);
-            color: rgba(94, 40, 8, 0.38);
+            background: rgba(81, 58, 44, 0.1);
+            color: rgba(81, 58, 44, 0.3);
             box-shadow: none;
         
     }
@@ -135,19 +186,17 @@
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
-        border: 2px solid var(--btn-color-4);
-        outline:0.3px solid var(--btn-color-3);
+        border: 2px solid var(--btn-color-5);
+        outline:0.3px solid rgba(180, 83, 9, 0.5);
         outline-offset: -4px;
-        box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
 
     }
 
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background: rgba(245, 158, 11, 0.25);
-        box-shadow: 0px 1px 1.5px 0.5px rgba(0, 0, 0, 0.5);
-        color: var(--btn-color-5);
+        background: rgba(81, 58, 44, 0.15);
+        color: var(--btn-color-4);
 
     }
 
@@ -156,8 +205,8 @@
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(217, 119, 6, 0.4) 65%,
-            rgba(245, 158, 11, 0.25) 66%
+            rgba(94, 40, 8, 0.17) 65%,
+            rgba(81, 58, 44, 0.13) 66%
             );
             /* background: radial-gradient(circle at 50% 150%,
             var(--color-main-2) 0,
@@ -171,14 +220,14 @@
 }
 
 
-/* -------Filled Type State------ */
+/* -------Filled Type----------- */
 .filled-round-btn,.filled-square-btn{
     
     .m3-btn:disabled,
     .btn-state\:disabled{
 
-        background: rgba(217, 119, 6, 0.1);
-        color: rgba(94, 40, 8, 0.38);
+        background: rgba(81, 58, 44, 0.1);
+        color: rgba(81, 58, 44, 0.3);
 
     }
 
@@ -202,8 +251,8 @@
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(217, 119, 6, 1) 65%,
-            rgba(245, 158, 11, 1) 66%
+            rgba(245, 158, 11, 1) 65%,
+            rgba(217, 119, 6, 1) 66%
             );
             /* background: radial-gradient(circle at 50% 150%,
             var(--color-main-2) 0,
@@ -216,17 +265,72 @@
 }
 
 
+/* -------Tone Type-------------- */
 
-/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
-        
+/* -------Outlined Type---------- */
+
+/* -------Text Type-------------- */
+
+
+
+
+/* ===========Button State(Dark Mode)================================ */
 @media (prefers-color-scheme: dark) {
 
-        body{
+    body{
+    background-color: var(--btn-color-base-9);
+    }
 
-        background-color: var(--btn-color-base-9);
-        color: var(--btn-color-base-4);
+
+/* -------Elevate Type----------- */
+    .elevated-round-btn,.elevated-square-btn{
+
+        .m3-btn{
+
+            background-color: var(--btn-color-8);
+            color: var(--btn-color-2);
 
         }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
+        .m3-btn:focus:not(:active),
+        .btn-state\:focus:not(:active){
+
+            border: 2px solid var(--btn-color-8);
+            outline: 2px solid var(--btn-color-2);
+
+        }
+
+        .m3-btn:hover,
+        .btn-state\:hover{
+
+            background-color: var(--btn-color-7);
+            color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:active,
+        .btn-state\:active{
+
+            background: radial-gradient(
+                107% 112% at 65% 103%,
+                rgba(54, 36, 24, 1) 65%,
+                rgba(81, 58, 44, 1) 66%
+                );
+            border-radius: 12px;
+
+        }
+    }
+
+/* -------Filled Type------------ */
+    .filled-round-btn,.filled-square-btn{
 
         .m3-btn{
 
@@ -239,7 +343,8 @@
         .m3-btn:disabled,
         .btn-state\:disabled{
 
-            opacity: 0.3;
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
 
         }
 
@@ -270,11 +375,20 @@
 
         }
     }
+}
+
+
+/* -------Tone Type-------------- */
+
+/* -------Outlined Type---------- */
+
+/* -------Text Type-------------- */
 
 
 
 
-/* =============버튼 사이즈(Round)============ */
+
+/* =============버튼 사이즈(Round)========================================= */
 
 .btn-round-size\:1{
 
@@ -350,7 +464,7 @@
 
 }
 
-/* =============버튼 사이즈(Square)============ */
+/* =============버튼 사이즈(Square)=================================== */
 
 .btn-square-size\:1{
 
