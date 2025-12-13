@@ -12,7 +12,7 @@
 
     /* ----------상수변수-------------- */
     /* 버튼 색 */
-    --btn-color-1: #f59e0b;     /*rgba(245, 158, 11, 1)*/
+    --btn-color-1: #ffbf50;     /*rgba(245, 158, 11, 1)*/
     --btn-color-2: #d48700;     /*rgba(212, 135, 0, 1)*/
     --btn-color-3: #d97706;     /*rgba(217, 119, 6, 1)*/
     --btn-color-4: #b45309;     /*rgba(180, 83, 9, 1)*/
@@ -137,10 +137,10 @@ h1{
 .btn-type\:tonal{
 
     /* boxing */
-
+    background: rgba(255, 162, 0, 0.8);
 
     /* content */
-
+    color: var(--btn-color-5);
 
 }
 
@@ -148,10 +148,11 @@ h1{
 .btn-type\:Outlined{
     
     /* boxing */
-
+    background-color: transparent;
+    border: 1px solid rgba(81, 58, 44, 0.2);
 
     /* content */
-
+    color: rgba(81, 58, 44, 0.8);
 
 }
 
@@ -159,10 +160,10 @@ h1{
 .btn-type\:Text{
     
     /* boxing */
-
+    background-color: transparent;
 
     /* content */
-
+    color: var(--btn-color-5);
 
 }
 
@@ -208,10 +209,6 @@ h1{
             rgba(94, 40, 8, 0.17) 65%,
             rgba(81, 58, 44, 0.13) 66%
             );
-            /* background: radial-gradient(circle at 50% 150%,
-            var(--color-main-2) 0,
-            var(--color-main-2) 50%,
-            var(--color-main-1) 100%); */
         border-radius: 12px;   
 
     }
@@ -235,14 +232,14 @@ h1{
     .btn-state\:focus:not(:active){
 
         border: 2px solid var(--btn-color-base-1);
-        outline: 2px solid var(--btn-color-5);
+        outline: 2.5px solid var(--btn-color-5);
 
     }
 
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background-color: var(--btn-color-1);
+        background: rgba(245, 158, 11, 1);
 
     }
 
@@ -266,10 +263,127 @@ h1{
 
 
 /* -------Tone Type-------------- */
+.tonal-round-btn,.tonal-square-btn{
+    
+    .m3-btn:disabled,
+    .btn-state\:disabled{
+
+        background: rgba(81, 58, 44, 0.1);
+        color: rgba(81, 58, 44, 0.3);
+
+    }
+
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active){
+
+        border: 2px solid var(--btn-color-base-1);
+        outline: 2.5px solid var(--btn-color-5);
+
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover{
+
+        background: rgba(255, 162, 0, 1);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active{
+
+        background: radial-gradient(
+            107% 112% at 65% 103%,
+            rgba(255, 162, 0, 1) 65%,
+            rgba(255, 162, 0, 0.8) 66%
+            );
+            border-radius: 12px;   
+
+    }
+
+}
+
 
 /* -------Outlined Type---------- */
+.outlined-round-btn,.outlined-square-btn{
+    
+    .m3-btn:disabled,
+    .btn-state\:disabled{
+
+        background: rgba(81, 58, 44, 0.1);
+        color: rgba(81, 58, 44, 0.3);
+
+    }
+
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active){
+
+        border: 2px solid var(--btn-color-7);
+        outline:0.3px solid rgba(81, 58, 44, 0.3);
+        outline-offset: -4px;
+
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover{
+
+        background: rgba(81, 58, 44, 0.15);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active{
+
+        background: radial-gradient(
+            107% 112% at 65% 103%,
+            rgba(94, 40, 8, 0.18) 65%,
+            rgba(81, 58, 44, 0.1) 66%
+            );
+            border-radius: 12px;   
+
+    }
+
+}
 
 /* -------Text Type-------------- */
+.text-round-btn,.text-square-btn{
+    
+    .m3-btn:disabled,
+    .btn-state\:disabled{
+
+        background: rgba(81, 58, 44, 0.1);
+        color: rgba(81, 58, 44, 0.3);
+
+    }
+
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active){
+
+        border: 2px solid var(--btn-color-7);
+        outline:0.3px solid rgba(81, 58, 44, 0.3);
+        outline-offset: -4px;
+
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover{
+
+        background: rgba(81, 58, 44, 0.15);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active{
+
+        background: radial-gradient(
+            107% 112% at 65% 103%,
+            rgba(94, 40, 8, 0.18) 65%,
+            rgba(81, 58, 44, 0.1) 66%
+            );
+            border-radius: 12px;   
+
+    }
+
+}
 
 
 
@@ -375,15 +489,152 @@ h1{
 
         }
     }
-}
+
 
 
 /* -------Tone Type-------------- */
+    .tonal-round-btn,.tonal-square-btn{
+
+        .m3-btn{
+
+            background-color: var(--btn-color-7);
+            color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
+        .m3-btn:focus:not(:active),
+        .btn-state\:focus:not(:active){
+
+            border: 2px solid var(--btn-color-8);
+            outline: 2px solid var(--btn-color-2);
+
+        }
+
+        .m3-btn:hover,
+        .btn-state\:hover{
+
+            background: rgba(81, 58, 44, 0.7);
+
+        }
+
+        .m3-btn:active,
+        .btn-state\:active{
+
+            background: radial-gradient(
+                107% 112% at 65% 103%,
+                rgba(54, 36, 24, 0.8) 65%,
+                rgba(81, 58, 44, 0.8) 66%
+                );
+            border-radius: 12px;
+
+        }
+    }
 
 /* -------Outlined Type---------- */
+    .outlined-round-btn,.outlined-square-btn{
+        
+        .m3-btn{
+
+            background-color: transparent;
+            color: var(--btn-color-2);
+            outline: 1px solied var(--btn-color-1);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
+        .m3-btn:focus:not(:active),
+        .btn-state\:focus:not(:active){
+
+            border: 2px solid var(--btn-color-2);
+            outline:0.1px solid rgba(245, 158, 11, 0.3);
+            outline-offset: -5px;
+
+        }
+
+        .m3-btn:hover,
+        .btn-state\:hover{
+
+            background: rgba(81, 58, 44, 0.4);
+
+        }
+
+        .m3-btn:active,
+        .btn-state\:active{
+
+            background: radial-gradient(
+                107% 112% at 65% 103%,
+                rgba(81, 58, 44, 0.8) 65%,
+                rgba(81, 58, 44, 0.4) 66%
+                );
+            border-radius: 12px;
+
+        }
+
+    }
 
 /* -------Text Type-------------- */
+    .text-round-btn,.text-square-btn{
+            
+        .m3-btn{
 
+            background-color: transparent;
+            color: var(--btn-color-2);
+
+        }
+
+        .m3-btn:disabled,
+        .btn-state\:disabled{
+
+            background: rgba(81, 58, 44, 0.3);
+            color: rgba(217, 119, 6, 0.2);
+
+        }
+
+        .m3-btn:focus:not(:active),
+        .btn-state\:focus:not(:active){
+
+            border: 2px solid var(--btn-color-2);
+            outline:0.1px solid rgba(245, 158, 11, 0.3);
+            outline-offset: -5px;
+
+        }
+
+        .m3-btn:hover,
+        .btn-state\:hover{
+
+            background: rgba(81, 58, 44, 0.4);
+
+        }
+
+        .m3-btn:active,
+        .btn-state\:active{
+
+            background: radial-gradient(
+                107% 112% at 65% 103%,
+                rgba(81, 58, 44, 0.8) 65%,
+                rgba(81, 58, 44, 0.4) 66%
+                );
+            border-radius: 12px;
+
+        }
+
+    }
+}
 
 
 
