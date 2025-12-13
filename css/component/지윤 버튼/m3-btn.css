@@ -107,7 +107,6 @@ h1{
     transition: background-color 0.3s ease, transform 1s ease;    
 }
 
-
 /* -------Elevated Type---------- */
 .btn-type\:elevated{
 
@@ -120,7 +119,6 @@ h1{
 
 }
 
-
 /* -------Filled Type------------ */
 .btn-type\:filled{
 
@@ -131,7 +129,6 @@ h1{
     color: var(--btn-color-base-1);
 
 }
-
 
 /* -------Tone Type-------------- */
 .btn-type\:tonal{
@@ -169,8 +166,15 @@ h1{
 
 
 
-
 /* ===========Button State(Light Mode)============================== */
+
+.m3-btn:disabled,
+.btn-state\:disabled{
+
+        background: rgba(81, 58, 44, 0.1);
+        color: rgba(81, 58, 44, 0.3);
+    
+}
 
 /* -------Elevate Type----------- */
 .elevated-round-btn,.elevated-square-btn{
@@ -178,8 +182,6 @@ h1{
     .m3-btn:disabled,
     .btn-state\:disabled{
 
-            background: rgba(81, 58, 44, 0.1);
-            color: rgba(81, 58, 44, 0.3);
             box-shadow: none;
         
     }
@@ -212,22 +214,12 @@ h1{
         border-radius: 12px;   
 
     }
-
-
 }
 
 
 /* -------Filled Type----------- */
 .filled-round-btn,.filled-square-btn{
     
-    .m3-btn:disabled,
-    .btn-state\:disabled{
-
-        background: rgba(81, 58, 44, 0.1);
-        color: rgba(81, 58, 44, 0.3);
-
-    }
-
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
@@ -258,20 +250,11 @@ h1{
             border-radius: 12px;   
 
     }
-
 }
 
 
 /* -------Tone Type-------------- */
 .tonal-round-btn,.tonal-square-btn{
-    
-    .m3-btn:disabled,
-    .btn-state\:disabled{
-
-        background: rgba(81, 58, 44, 0.1);
-        color: rgba(81, 58, 44, 0.3);
-
-    }
 
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
@@ -299,20 +282,11 @@ h1{
             border-radius: 12px;   
 
     }
-
 }
 
 
 /* -------Outlined Type---------- */
 .outlined-round-btn,.outlined-square-btn{
-    
-    .m3-btn:disabled,
-    .btn-state\:disabled{
-
-        background: rgba(81, 58, 44, 0.1);
-        color: rgba(81, 58, 44, 0.3);
-
-    }
 
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
@@ -341,19 +315,11 @@ h1{
             border-radius: 12px;   
 
     }
-
 }
+
 
 /* -------Text Type-------------- */
 .text-round-btn,.text-square-btn{
-    
-    .m3-btn:disabled,
-    .btn-state\:disabled{
-
-        background: rgba(81, 58, 44, 0.1);
-        color: rgba(81, 58, 44, 0.3);
-
-    }
 
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
@@ -382,7 +348,6 @@ h1{
             border-radius: 12px;   
 
     }
-
 }
 
 
@@ -392,25 +357,25 @@ h1{
 @media (prefers-color-scheme: dark) {
 
     body{
-    background-color: var(--btn-color-base-9);
-    }
-
-
-/* -------Elevate Type----------- */
-    .elevated-round-btn,.elevated-square-btn{
-
-        .m3-btn{
-
-            background-color: var(--btn-color-8);
-            color: var(--btn-color-2);
-
-        }
+        background-color: var(--btn-color-base-9);
 
         .m3-btn:disabled,
         .btn-state\:disabled{
 
             background: rgba(81, 58, 44, 0.3);
             color: rgba(217, 119, 6, 0.2);
+
+        }
+    }
+
+    
+    /* -------Elevate Type----------- */
+    .elevated-round-btn,.elevated-square-btn{
+
+        .m3-btn{
+
+            background-color: var(--btn-color-8);
+            color: var(--btn-color-2);
 
         }
 
@@ -443,7 +408,8 @@ h1{
         }
     }
 
-/* -------Filled Type------------ */
+
+    /* -------Filled Type------------ */
     .filled-round-btn,.filled-square-btn{
 
         .m3-btn{
@@ -451,14 +417,6 @@ h1{
             background-color: var(--btn-color-2);
             color: var(--btn-color-6);
             font-weight: 600;
-
-        }
-
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
 
         }
 
@@ -491,22 +449,13 @@ h1{
     }
 
 
-
-/* -------Tone Type-------------- */
+    /* -------Tone Type-------------- */
     .tonal-round-btn,.tonal-square-btn{
 
         .m3-btn{
 
             background-color: var(--btn-color-7);
             color: var(--btn-color-2);
-
-        }
-
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
 
         }
 
@@ -538,7 +487,8 @@ h1{
         }
     }
 
-/* -------Outlined Type---------- */
+
+    /* -------Outlined Type---------- */
     .outlined-round-btn,.outlined-square-btn{
         
         .m3-btn{
@@ -549,14 +499,6 @@ h1{
 
         }
 
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
-
-        }
-
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
@@ -584,10 +526,10 @@ h1{
             border-radius: 12px;
 
         }
-
     }
 
-/* -------Text Type-------------- */
+
+    /* -------Text Type-------------- */
     .text-round-btn,.text-square-btn{
             
         .m3-btn{
@@ -597,14 +539,6 @@ h1{
 
         }
 
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
-
-        }
-
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
@@ -632,7 +566,6 @@ h1{
             border-radius: 12px;
 
         }
-
     }
 }
 
