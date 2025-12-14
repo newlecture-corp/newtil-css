@@ -88,7 +88,7 @@ main>section>h1{
 }
 
 h1{
-    font-size: var(--btn-font-size-);
+    font-size: var(--btn-font-size-1);
     color:var(--btn-color-base-7);
     padding: 5px 0px;
     margin: 0px;
@@ -100,6 +100,7 @@ h1{
 
 /* --------Base Type----------- */
 .m3-btn{    
+
     /* boxing*/
     border: 0px;
     margin-top: 5px;
@@ -110,7 +111,8 @@ h1{
     font-variation-settings: 'FILL' var(--btn-fill);
     
     /* effect */
-    transition: background-color 0.3s ease, transform 1s ease;    
+    transition: background-color 0.3s ease, transform 0.3s ease;  
+
 }
 
 /* -------Elevated Type---------- */
@@ -121,7 +123,7 @@ h1{
         161deg,
         rgba(255, 255, 255, 0.17) 0%,
         rgba(0, 0, 0, 0.12) 100%
-      );
+        );
     box-shadow: 0px 0.7px 2px 0.5px rgba(0, 0, 0, 0.5);
 
     /* content */
@@ -140,7 +142,7 @@ h1{
 
 }
 
-/* -------Tone Type-------------- */
+/* -------Tonal Type-------------- */
 .btn-type\:tonal{
 
     /* boxing */
@@ -148,7 +150,7 @@ h1{
         161deg,
         rgba(255, 200, 0, 1) 8%,
         rgba(255, 176, 5, 1) 81%
-      );
+        );
 
     /* content */
     color: var(--btn-color-5);
@@ -172,6 +174,8 @@ h1{
     
     /* boxing */
     background-color: transparent;
+    border: none;
+    outline: none;
 
     /* content */
     color: var(--btn-color-base-7);
@@ -204,7 +208,7 @@ h1{
     .btn-state\:focus:not(:active){
 
         border: 2px solid var(--btn-color-base-8);
-        outline:0.3px solid rgba(81, 58, 44, 0.5);
+        outline:0.3px solid rgba(0, 0, 0, 0.3);
         outline-offset: -4px;
 
     }
@@ -213,11 +217,10 @@ h1{
     .btn-state\:hover{
 
         background: linear-gradient(
-        161deg,
-        rgba(255, 255, 255, 0.27) 0%,
-        rgba(0, 0, 0, 0.25) 100%
-      );
-        color: var(--btn-color-base-7);
+            161deg,
+            rgba(255, 255, 255, 0.27) 0%,
+            rgba(0, 0, 0, 0.25) 100%
+            );
 
     }
 
@@ -261,11 +264,7 @@ h1{
             rgba(245, 158, 11, 1) 65%,
             rgba(217, 119, 6, 1) 66%
             );
-            /* background: radial-gradient(circle at 50% 150%,
-            var(--color-main-2) 0,
-            var(--color-main-2) 50%,
-            var(--color-main-1) 100%); */
-            border-radius: var(--btn-border-radius-2);   
+        border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -289,7 +288,7 @@ h1{
             161deg,
             rgba(255, 200, 0, 1) 8%,
             rgba(255, 176, 5, 0.7) 81%
-          );
+            );
 
     }
 
@@ -301,20 +300,23 @@ h1{
             rgba(255, 176, 0, 1) 65%,
             rgba(255, 176, 0, 0.8) 66%
             );
-            border-radius: var(--btn-border-radius-2);   
+        border-radius: var(--btn-border-radius-2);   
 
     }
 }
 
 
-/* -------Outlined Type---------- */
-.outlined-round-btn,.outlined-square-btn{
+/* -------Outlined & Text Type---------- */
+.outlined-round-btn,
+.outlined-square-btn,
+.text-round-btn,
+.text-square-btn{
 
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
         border: 2px solid var(--btn-color-base-8);
-        outline:0.3px solid rgba(81, 58, 44, 0.3);
+        outline:0.3px solid rgba(0, 0, 0, 0.3);
         outline-offset: -4px;
 
     }
@@ -340,41 +342,6 @@ h1{
 }
 
 
-/* -------Text Type-------------- */
-.text-round-btn,.text-square-btn{
-
-    .m3-btn:focus:not(:active),
-    .btn-state\:focus:not(:active){
-
-        border: 2px solid var(--btn-color-base-8);
-        outline:0.3px solid rgba(81, 58, 44, 0.3);
-        outline-offset: -4px;
-
-    }
-
-    .m3-btn:hover,
-    .btn-state\:hover{
-
-        background:rgba(0, 0, 0, 0.08);
-
-    }
-
-    .m3-btn:active,
-    .btn-state\:active{
-
-        background: radial-gradient(
-            107% 112% at 65% 103%,
-            rgba(0, 0, 0, 0.19) 65%,
-            rgba(0, 0, 0, 0.1) 66%
-            );
-        border-radius: var(--btn-border-radius-2);   
-
-    }
-}
-
-
-
-
 /* ===========Button State(Dark Mode)================================ */
 @media (prefers-color-scheme: dark) {
 
@@ -389,10 +356,10 @@ h1{
         .m3-btn{
 
             background: linear-gradient(
-            161deg,
-            rgba(81, 58, 44, 1) 0%,
-            rgba(81, 58, 44, 0.1) 100%
-             );
+                161deg,
+                rgba(81, 58, 44, 1) 0%,
+                rgba(81, 58, 44, 0.1) 100%
+                );
             box-shadow: 0px 0.7px 3px 0.5px rgba(245, 158, 11, 0.12);
             color: var(--btn-color-2);
 
@@ -409,8 +376,8 @@ h1{
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
-            border: 2px solid var(--btn-color-8);
             outline: 2px solid var(--btn-color-2);
+            border: 3px solid var(--btn-color-7);
 
         }
 
@@ -418,11 +385,10 @@ h1{
         .btn-state\:hover{
 
             background: linear-gradient(
-            161deg,
-            rgba(81, 58, 44, 0.7) 0%,
-            rgba(81, 58, 44, 0.1) 100%
-             );
-            color: var(--btn-color-2);
+                161deg,
+                rgba(81, 58, 44, 0.7) 0%,
+                rgba(81, 58, 44, 0.1) 100%
+                );
 
         }
 
@@ -470,7 +436,7 @@ h1{
         .m3-btn:hover,
         .btn-state\:hover{
 
-            background-color: var(--btn-color-1);
+            background: rgba(240, 155, 20, 1);
 
         }
 
@@ -509,8 +475,8 @@ h1{
         .m3-btn:focus:not(:active),
         .btn-state\:focus:not(:active){
 
-            border: 2px solid var(--btn-color-8);
-            outline: 2px solid var(--btn-color-2);
+            border: 2px solid var(--btn-color-2);
+            outline: 3px solid var(--btn-color-7);
 
         }
 
@@ -535,62 +501,17 @@ h1{
     }
 
 
-    /* -------Outlined Type---------- */
-    .outlined-round-btn,.outlined-square-btn{
+    /* -------Outlined & Text Type---------- */
+    .outlined-round-btn,
+    .outlined-square-btn,
+    .text-round-btn,
+    .text-square-btn{
         
         .m3-btn{
 
             background-color: transparent;
             color: var(--btn-color-2);
             outline: 1px solied var(--btn-color-1);
-
-        }
-
-        .m3-btn:disabled,
-        .btn-state\:disabled{
-
-            background: rgba(81, 58, 44, 0.3);
-            color: rgba(217, 119, 6, 0.2);
-
-        }
-
-        .m3-btn:focus:not(:active),
-        .btn-state\:focus:not(:active){
-
-            border: 2px solid var(--btn-color-2);
-            outline:0.1px solid rgba(245, 158, 11, 0.3);
-            outline-offset: -5px;
-
-        }
-
-        .m3-btn:hover,
-        .btn-state\:hover{
-
-            background: rgba(81, 58, 44, 0.4);
-
-        }
-
-        .m3-btn:active,
-        .btn-state\:active{
-
-            background: radial-gradient(
-                107% 112% at 65% 103%,
-                rgba(81, 58, 44, 0.6) 65%,
-                rgba(81, 58, 44, 0.3) 66%
-                );
-            border-radius: var(--btn-border-radius-2);
-
-        }
-    }
-
-
-    /* -------Text Type-------------- */
-    .text-round-btn,.text-square-btn{
-            
-        .m3-btn{
-
-            background-color: transparent;
-            color: var(--btn-color-2);
 
         }
 
