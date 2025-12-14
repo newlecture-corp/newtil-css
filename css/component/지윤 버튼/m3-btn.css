@@ -388,7 +388,12 @@ h1{
 
         .m3-btn{
 
-            background-color: var(--btn-color-8);
+            background: linear-gradient(
+            161deg,
+            rgba(81, 58, 44, 1) 0%,
+            rgba(81, 58, 44, 0.1) 100%
+             );
+            box-shadow: 0px 0.7px 3px 0.5px rgba(245, 158, 11, 0.12);
             color: var(--btn-color-2);
 
         }
@@ -412,7 +417,11 @@ h1{
         .m3-btn:hover,
         .btn-state\:hover{
 
-            background-color: var(--btn-color-7);
+            background: linear-gradient(
+            161deg,
+            rgba(81, 58, 44, 0.7) 0%,
+            rgba(81, 58, 44, 0.1) 100%
+             );
             color: var(--btn-color-2);
 
         }
@@ -422,8 +431,8 @@ h1{
 
             background: radial-gradient(
                 107% 112% at 65% 103%,
-                rgba(54, 36, 24, 1) 65%,
-                rgba(81, 58, 44, 1) 66%
+                rgba(54, 36, 24, 0.7) 65%,
+                rgba(81, 58, 44, 0.7) 66%
                 );
             border-radius: var(--btn-border-radius-2);
 
@@ -484,7 +493,7 @@ h1{
 
         .m3-btn{
 
-            background-color: var(--btn-color-7);
+            background: rgba(81, 58, 44, 1);
             color: var(--btn-color-2);
 
         }
@@ -517,8 +526,8 @@ h1{
 
             background: radial-gradient(
                 107% 112% at 65% 103%,
-                rgba(54, 36, 24, 0.8) 65%,
-                rgba(81, 58, 44, 0.8) 66%
+                rgba(54, 36, 24, 0.7) 65%,
+                rgba(81, 58, 44, 0.7) 66%
                 );
             border-radius: var(--btn-border-radius-2);
 
@@ -566,8 +575,8 @@ h1{
 
             background: radial-gradient(
                 107% 112% at 65% 103%,
-                rgba(81, 58, 44, 0.8) 65%,
-                rgba(81, 58, 44, 0.4) 66%
+                rgba(81, 58, 44, 0.6) 65%,
+                rgba(81, 58, 44, 0.3) 66%
                 );
             border-radius: var(--btn-border-radius-2);
 
@@ -614,8 +623,8 @@ h1{
 
             background: radial-gradient(
                 107% 112% at 65% 103%,
-                rgba(81, 58, 44, 0.8) 65%,
-                rgba(81, 58, 44, 0.4) 66%
+                rgba(81, 58, 44, 0.6) 65%,
+                rgba(81, 58, 44, 0.3) 66%
                 );
             border-radius: var(--btn-border-radius-2);
 
