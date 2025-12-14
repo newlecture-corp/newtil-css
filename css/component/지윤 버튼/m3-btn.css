@@ -117,11 +117,15 @@ h1{
 .btn-type\:elevated{
 
     /* boxing */
-    background: rgba(81, 58, 44, 0.05);
+    background: linear-gradient(
+        161deg,
+        rgba(255, 255, 255, 0.17) 0%,
+        rgba(0, 0, 0, 0.12) 100%
+      );
     box-shadow: 0px 0.7px 2px 0.5px rgba(0, 0, 0, 0.5);
 
     /* content */
-    color: var(--btn-color-4);
+    color: var(--btn-color-base-7);
 
 }
 
@@ -140,7 +144,11 @@ h1{
 .btn-type\:tonal{
 
     /* boxing */
-    background: rgba(255, 162, 0, 0.8);
+    background: linear-gradient(
+        161deg,
+        rgba(255, 200, 0, 1) 8%,
+        rgba(255, 176, 5, 1) 81%
+      );
 
     /* content */
     color: var(--btn-color-5);
@@ -155,7 +163,7 @@ h1{
     border: 1px solid rgba(81, 58, 44, 0.2);
 
     /* content */
-    color: rgba(81, 58, 44, 0.8);
+    color: var(--btn-color-base-7);
 
 }
 
@@ -166,7 +174,7 @@ h1{
     background-color: transparent;
 
     /* content */
-    color: var(--btn-color-5);
+    color: var(--btn-color-base-7);
 
 }
 
@@ -177,8 +185,8 @@ h1{
 .m3-btn:disabled,
 .btn-state\:disabled{
 
-        background: rgba(81, 58, 44, 0.1);
-        color: rgba(81, 58, 44, 0.3);
+    background:rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.2);
     
 }
 
@@ -195,8 +203,8 @@ h1{
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
-        border: 2px solid var(--btn-color-5);
-        outline:0.3px solid rgba(180, 83, 9, 0.5);
+        border: 2px solid var(--btn-color-base-8);
+        outline:0.3px solid rgba(81, 58, 44, 0.5);
         outline-offset: -4px;
 
     }
@@ -204,8 +212,12 @@ h1{
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background: rgba(81, 58, 44, 0.15);
-        color: var(--btn-color-4);
+        background: linear-gradient(
+        161deg,
+        rgba(255, 255, 255, 0.27) 0%,
+        rgba(0, 0, 0, 0.25) 100%
+      );
+        color: var(--btn-color-base-7);
 
     }
 
@@ -214,8 +226,8 @@ h1{
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(94, 40, 8, 0.17) 65%,
-            rgba(81, 58, 44, 0.13) 66%
+            rgba(0, 0, 0, 0.19) 65%,
+            rgba(0, 0, 0, 0.1) 66%
             );
         border-radius: var(--btn-border-radius-2);   
 
@@ -273,7 +285,11 @@ h1{
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background: rgba(255, 162, 0, 1);
+        background: linear-gradient(
+            161deg,
+            rgba(255, 200, 0, 1) 8%,
+            rgba(255, 176, 5, 0.7) 81%
+          );
 
     }
 
@@ -282,8 +298,8 @@ h1{
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(255, 162, 0, 1) 65%,
-            rgba(255, 162, 0, 0.8) 66%
+            rgba(255, 176, 0, 1) 65%,
+            rgba(255, 176, 0, 0.8) 66%
             );
             border-radius: var(--btn-border-radius-2);   
 
@@ -297,7 +313,7 @@ h1{
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
-        border: 2px solid var(--btn-color-7);
+        border: 2px solid var(--btn-color-base-8);
         outline:0.3px solid rgba(81, 58, 44, 0.3);
         outline-offset: -4px;
 
@@ -306,7 +322,7 @@ h1{
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background: rgba(81, 58, 44, 0.15);
+       background:rgba(0, 0, 0, 0.08);
 
     }
 
@@ -315,10 +331,10 @@ h1{
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(94, 40, 8, 0.18) 65%,
-            rgba(81, 58, 44, 0.1) 66%
+            rgba(0, 0, 0, 0.19) 65%,
+            rgba(0, 0, 0, 0.1) 66%
             );
-            border-radius: var(--btn-border-radius-2);   
+        border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -330,7 +346,7 @@ h1{
     .m3-btn:focus:not(:active),
     .btn-state\:focus:not(:active){
 
-        border: 2px solid var(--btn-color-7);
+        border: 2px solid var(--btn-color-base-8);
         outline:0.3px solid rgba(81, 58, 44, 0.3);
         outline-offset: -4px;
 
@@ -339,7 +355,7 @@ h1{
     .m3-btn:hover,
     .btn-state\:hover{
 
-        background: rgba(81, 58, 44, 0.15);
+        background:rgba(0, 0, 0, 0.08);
 
     }
 
@@ -348,10 +364,10 @@ h1{
 
         background: radial-gradient(
             107% 112% at 65% 103%,
-            rgba(94, 40, 8, 0.18) 65%,
-            rgba(81, 58, 44, 0.1) 66%
+            rgba(0, 0, 0, 0.19) 65%,
+            rgba(0, 0, 0, 0.1) 66%
             );
-            border-radius: var(--btn-border-radius-2);   
+        border-radius: var(--btn-border-radius-2);   
 
     }
 }
@@ -366,9 +382,7 @@ h1{
         background-color: var(--btn-color-base-9);
 
     }
-    
-
-    
+        
     /* -------Elevate Type----------- */
     .elevated-round-btn,.elevated-square-btn{
 
