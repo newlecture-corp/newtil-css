@@ -36,7 +36,7 @@
 /* ===== GLOBAL THEME OVERRIDES ===== */
 
 /* 유틸리티 시스템의 Variables를 필요시 오버라이드 */
-:root{
+:root {
 	--color-text: var(--color-base-7);
 	--color-text-onactive: var(--color-base-1);
 	--color-text-onhover: var(--color-base-1);
@@ -48,9 +48,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	:root{
-		--color-text: var(--color-base-2);		
-		--color-background: var(--color-base-9);		
+	:root {
+		--color-text: var(--color-base-2);
+		--color-background: var(--color-base-9);
 	}
 }
 
@@ -62,12 +62,13 @@
 }
 
 /* ===== BASE TYPOGRAPHY ===== */
-body {	
+body {
 	font-family: "Pretendard Variable", Pretendard, -apple-system,
 		BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
 		"Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-	font-size: var(--font-size-body, 0.875rem); /* 14px = 0.875rem (16px 기준) */
+	font-size: var(--font-size-body, 0.875rem);
+	/* 14px = 0.875rem (16px 기준) */
 	color: var(--color-text);
 	background-color: var(--color-background);
 	line-height: var(--line-height-normal, 1.5);
