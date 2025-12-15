@@ -2,6 +2,7 @@
     --md3-radio-size: 20px;
     --md3-touch-size: 48px;
     --md3-stroke-width: 2px;
+    --md3-inner-stroke-width: 5px;
     --md3-inner-dot-size: 10px;
     --md3-spacing-label: 12px;
 
@@ -9,6 +10,14 @@
     --md3-on-surface: var(--color-base-9);
     --md3-disabled: var(--color-base-7);
     --md3-focus-ring: 2px;
+    --md3-select-primary: var(--color-main-2);
+    --md3-unselect-primary: var(--color-base-9);
+    --md3-focus-ring: 3px;
+
+    --alpha-1: 8%;
+    --alpha-2: 10%;
+    --alpha-3: 62%;
+
 }
 
 .n-radio {
@@ -41,6 +50,7 @@
     pointer-events: none;
     box-sizing: border-box;
     transition: all 180ms cubic-bezier(.2, .8, .2, 1);
+    transition: all 180ms ease;
 }
 
 /* outer ring  */
@@ -49,6 +59,7 @@
     height: var(--md3-radio-size);
     border-radius: 50%;
     border: var(--md3-stroke-width) solid var(--color-main-3);
+    border: var(--md3-stroke-width) solid var(--md3-unselect-primary);
 }
 
 /* inner dot */
@@ -57,41 +68,54 @@
     height: 0;
     border-radius: 50%;
     background: var(--color-main-3);
+    border: var(--md3-inner-stroke-width) solid var(--md3-select-primary);
     opacity: 0;
 }
 
 /* checked */
 .n-radio input[type="radio"]:checked::before {
-    border-color: var(--color-main-3);
+    border-color: var(--md3-select-primary);
 }
 
 .n-radio input[type="radio"]:checked::after {
-    width: var(--md3-inner-dot-size);
-    height: var(--md3-inner-dot-size);
     opacity: 1;
     transition-duration: 120ms;
 }
 
 /* hover */
 .n-radio input[type="radio"]:hover::before {
-    border-color: rgb(106, 142, 41, 0.85);
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 92%);
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
 }
 
+/* hover */
+.n-radio input[type="radio"]:checked:hover::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 92%);
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+}
 
+/* press */
+.n-radio input[type="radio"]:active::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
+}
 
+.n-radio input[type="radio"]:checked:active::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+}
 
 
 /* focus ring */
 .n-radio input[type="radio"]:focus::before {
-    outline: var(--md3-focus-ring) solid var(--color-main-1);
-    outline-offset: 4px;
-    opacity: 10%;
+    outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent 10%);
+    outline-offset: 5px;
 }
 
-
-
-
-
+.n-radio input[type="radio"]:checked:focus::before {
+    outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent 10%);
+    outline-offset: 5px;
+}
 
 /* disabled */
 .n-radio input[type="radio"]:disabled {
@@ -99,15 +123,16 @@
 }
 
 .n-radio input[type="radio"]:disabled::before {
-    border-color: var(--md3-disabled);
+    border-color: var(--color-base-9);
+    opacity: 0.38;
 }
 
 .n-radio input[type="radio"]:disabled::after {
-    background: var(--md3-disabled);
-    opacity: 0.6;
+    border-color: var(--color-base-9);
+    opacity: 0.38;
 }
 
 .n-radio .n-radio-label {
     font-size: 14px;
-    color: var(--md3-on-surface);
+    color: var(--color-base-9);
 }
