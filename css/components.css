@@ -27,14 +27,14 @@
 }
 
 /* Card Header */
-.m3-card\:header {
+.m3-card .header {
     display: flex;
     align-items: center;
     padding: 16px;
     gap: 16px;
 }
 
-.m3-card\:avatar {
+.m3-card .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -50,12 +50,12 @@
     flex-shrink: 0;
 }
 
-.m3-card\:header-text {
+.m3-card .header-text {
     flex: 1;
     min-width: 0;
 }
 
-.m3-card\:header-title {
+.m3-card .header-title {
     font-size: 16px;
     font-weight: 500;
     color: #1C1B1F;
@@ -63,7 +63,7 @@
     letter-spacing: 0.1px;
 }
 
-.m3-card\:header-subtitle {
+.m3-card .header-subtitle {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -71,7 +71,7 @@
     letter-spacing: 0.25px;
 }
 
-.m3-card\:menu-btn {
+.m3-card .menu-btn {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -85,23 +85,23 @@
     flex-shrink: 0;
 }
 
-.m3-card\:menu-btn::before {
+.m3-card .menu-btn::before {
     content: "\e5d4";
     font-family: "Material Symbols Outlined";
     font-size: 30px;
     font-weight: 100px;
 }
 
-.m3-card\:menu-btn:hover {
+.m3-card .menu-btn:hover {
     background-color: rgba(73, 69, 79, 0.08);
 }
 
-.m3-card\:menu-btn:active {
+.m3-card .menu-btn:active {
     background-color: rgba(73, 69, 79, 0.12);
 }
 
 .m3-card.drag,
-.m3-card-horizontal.drag {
+.horizontal.drag {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
         0 6px 12px rgba(0, 0, 0, 0.30) !important;
     transform: scale(1.02) !important;
@@ -111,7 +111,7 @@
 }
 
 /* ========메인 영역=========== */
-.m3-card\:image {
+.m3-card .image {
     width: 100%;
     height: 200px;
     background: #F3EDF7;
@@ -122,18 +122,18 @@
     box-sizing: border-box;
 }
 
-.m3-card\:image svg,
-.m3-card\:image img {
+.m3-card .image svg,
+.m3-card .image img {
     max-width: 100%;
     max-height: 100%;
 }
 
 /*======카드 컨텐츠========== */
-.m3-card\:content {
+.m3-card .content {
     padding: 16px;
 }
 
-.m3-card\:title {
+.m3-card .Headline {
     font-size: 24px;
     font-weight: 400;
     color: #1C1B1F;
@@ -142,7 +142,7 @@
     letter-spacing: 0;
 }
 
-.m3-card\:subtitle {
+.m3-card .Subhead {
     font-size: 14px;
     font-weight: 500;
     color: #49454F;
@@ -151,7 +151,7 @@
     margin-bottom: 8px;
 }
 
-.m3-card\:text {
+.m3-card .Text {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -161,7 +161,7 @@
 }
 
 /*===============버튼 배치 ==============*/
-.m3-btn\:location {
+.m3-card .m3-btn {
     display: flex;
     gap: 8px;
     justify-content: flex-end;
@@ -169,7 +169,7 @@
 }
 
 /*============== 버튼=================== */
-.m3-btn {
+.m3-card .m3-btn button {
     padding: 10px 24px;
     border-radius: 20px;
     border: none;
@@ -183,7 +183,7 @@
     overflow: hidden;
 }
 
-.m3-btn::before {
+.m3-card .m3-btn button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -195,44 +195,44 @@
     transition: opacity 0.2s ease;
 }
 
-.m3-btn:hover::before {
+.m3-card .m3-btn button:hover::before {
     opacity: 0.08;
 }
 
-.m3-btn:active::before {
+.m3-card .m3-btn button:active::before {
     opacity: 0.12;
 }
 
-.m3-btn\:negative {
+.m3-card .m3-btn .negative {
     background: transparent;
     color: #6750A4;
     border: 1px solid #79747E;
 }
 
-.m3-btn\:negative:hover {
+.m3-card .m3-btn .negative:hover {
     background: rgba(103, 80, 164, 0.08);
     border-color: #6750A4;
 }
 
-.m3-btn\:negative:active {
+.m3-card .m3-btn .negative:active {
     background: rgba(103, 80, 164, 0.12);
 }
 
-.m3-btn\:positive {
+.m3-card .m3-btn .positive {
     background: #6750A4;
     color: #FFFFFF;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.m3-btn\:positive::before {
+.m3-card .m3-btn .positive::before {
     background: #FFFFFF;
 }
 
-.m3-btn\:positive:hover {
+.m3-card .m3-btn .positive:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.m3-btn\:positive:active {
+.m3-card .m3-btn .positive:active {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -240,7 +240,7 @@
                    가로형 카드
    ======================================== */
 
-.m3-card-horizontal {
+.horizontal {
     width: 360px;
     background: #ffffff;
     border-radius: 16px;
@@ -252,12 +252,12 @@
     cursor: grab;
 }
 
-.m3-card-horizontal:hover {
+.horizontal:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
 }
 
 /* 왼쪽 컨텐츠 영역 */
-.m3-card-horizontal\:content {
+.horizontal .content {
     width: 280px;
     flex: 1;
     display: flex;
@@ -267,7 +267,7 @@
     background: transparent;
 }
 
-.m3-card-horizontal\:avatar {
+.horizontal .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -281,12 +281,12 @@
     flex-shrink: 0;
 }
 
-.m3-card-horizontal\:text {
+.horizontal .text {
     flex: 1;
     min-width: 0;
 }
 
-.m3-card-horizontal\:title {
+.horizontal .title {
     font-size: 20px;
     font-weight: 500;
     color: #1C1B1F;
@@ -295,7 +295,7 @@
     margin-bottom: 2px;
 }
 
-.m3-card-horizontal\:subtitle {
+.horizontal .subtitle {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -304,7 +304,7 @@
 }
 
 /* 오른쪽 아이콘 영역역 */
-.m3-card-horizontal\:icon-area {
+.horizontal\:icon-area {
     width: 80px;
     background: #E8DEF8;
     display: flex;
@@ -315,12 +315,12 @@
     flex-shrink: 1;
 }
 
-.m3-card-horizontal\:icon-area .icon {
+.horizontal\:icon-area .icon {
     transition: transform 0.2s ease, opacity 0.2s ease;
     cursor: pointer;
 }
 
-.m3-card-horizontal\:icon-area .icon:hover {
+.horizontal\:icon-area .icon:hover {
     transform: scale(1.15);
     opacity: 1 !important;
 }

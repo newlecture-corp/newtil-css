@@ -12,28 +12,29 @@ body {
 }
 
 /* Card Container */
-.card-container {
-    width: 320px;
+.m3-card {
+    width: 360px;
     background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: box-shadow 0.3s ease;
+    cursor: grab;
 }
 
-.card-container:hover {
+.m3-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
 }
 
 /* Card Header */
-.card-header {
+.m3-card .header {
     display: flex;
     align-items: center;
     padding: 16px;
     gap: 16px;
 }
 
-.avatar {
+.m3-card .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -49,12 +50,12 @@ body {
     flex-shrink: 0;
 }
 
-.header-text {
+.m3-card .header-text {
     flex: 1;
     min-width: 0;
 }
 
-.header-title {
+.m3-card .header-title {
     font-size: 16px;
     font-weight: 500;
     color: #1C1B1F;
@@ -62,7 +63,7 @@ body {
     letter-spacing: 0.1px;
 }
 
-.header-subtitle {
+.m3-card .header-subtitle {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -70,9 +71,9 @@ body {
     letter-spacing: 0.25px;
 }
 
-.menu-btn {
-    width: 40px;
-    height: 40px;
+.m3-card .menu-btn {
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     background: transparent;
     border: none;
@@ -85,27 +86,36 @@ body {
     flex-shrink: 0;
 }
 
-.menu-btn:hover::before {
+.m3-card .menu-btn::before {
+    content: "\e5d4";
+    font-family: "Material Symbols Outlined";
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+.m3-card .menu-btn:hover {
     background-color: rgba(73, 69, 79, 0.08);
 }
 
-.menu-btn:active::before {
+.m3-card .menu-btn:active {
     background-color: rgba(73, 69, 79, 0.12);
 }
 
 .m3-card.drag,
-.m3-card-horizontal.drag{
+.horizontal.drag {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
         0 6px 12px rgba(0, 0, 0, 0.30);
     transform: scale(1.02);
     background: rgba(0, 0, 0, 0.05);
+    opacity: 0.9;
+    cursor: grabbing !important;
 }
 
 /* Card Image */
-.card-image {
+.m3-card .image {
     width: 100%;
     height: 200px;
-    background: #6750A4;
+    background: #F3EDF7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,17 +123,18 @@ body {
     box-sizing: border-box;
 }
 
-.card-image svg {
+.m3-card .image svg,
+.m3-card .image img {
     max-width: 100%;
     max-height: 100%;
 }
 
 /* Card Content */
-.card-content {
+.m3-card .content {
     padding: 16px;
 }
 
-.content-title {
+.m3-card .Headline {
     font-size: 24px;
     font-weight: 400;
     color: #1C1B1F;
@@ -132,7 +143,7 @@ body {
     letter-spacing: 0;
 }
 
-.content-subtitle {
+.m3-card .Subhead {
     font-size: 14px;
     font-weight: 500;
     color: #49454F;
@@ -141,7 +152,7 @@ body {
     margin-bottom: 8px;
 }
 
-.content-text {
+.m3-card .Text {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -151,7 +162,7 @@ body {
 }
 
 /* Card Actions */
-.card-actions {
+.m3-card .m3-btn {
     display: flex;
     gap: 8px;
     justify-content: flex-end;
@@ -159,7 +170,7 @@ body {
 }
 
 /* Buttons */
-.btn {
+.m3-card .m3-btn button {
     padding: 10px 24px;
     border-radius: 20px;
     border: none;
@@ -173,7 +184,7 @@ body {
     overflow: hidden;
 }
 
-.btn::before {
+.m3-card .m3-btn button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -185,44 +196,44 @@ body {
     transition: opacity 0.2s ease;
 }
 
-.btn:hover::before {
+.m3-card .m3-btn button:hover::before {
     opacity: 0.08;
 }
 
-.btn:active::before {
+.m3-card .m3-btn button:active::before {
     opacity: 0.12;
 }
 
-.btn-negative {
+.m3-card .m3-btn .negative {
     background: transparent;
     color: #6750A4;
     border: 1px solid #79747E;
 }
 
-.btn-negative:hover {
+.m3-card .m3-btn .negative:hover {
     background: rgba(103, 80, 164, 0.08);
     border-color: #6750A4;
 }
 
-.btn-negative:active {
+.m3-card .m3-btn .negative:active {
     background: rgba(103, 80, 164, 0.12);
 }
 
-.btn-positive {
+.m3-card .m3-btn .positive {
     background: #6750A4;
     color: #FFFFFF;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.btn-positive::before {
+.m3-card .m3-btn .positive::before {
     background: #FFFFFF;
 }
 
-.btn-positive:hover {
+.m3-card .m3-btn .positive:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.btn-positive:active {
+.m3-card .m3-btn .positive:active {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -230,7 +241,7 @@ body {
    Horizontal Card Variant
    ======================================== */
 
-.m3-card-horizontal {
+.horizontal {
     width: 360px;
     background: #ffffff;
     border-radius: 16px;
@@ -239,14 +250,15 @@ body {
     transition: box-shadow 0.3s ease;
     display: flex;
     align-items: stretch;
+    cursor: grab;
 }
 
-.m3-card-horizontal:hover {
+.horizontal:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
 }
 
 /* Left Content Area */
-.m3-card-horizontal\:content {
+.horizontal .content {
     flex: 1;
     display: flex;
     align-items: center;
@@ -255,7 +267,7 @@ body {
     background: #ffffff;
 }
 
-.m3-card-horizontal\:avatar {
+.horizontal .avatar {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -269,12 +281,12 @@ body {
     flex-shrink: 0;
 }
 
-.m3-card-horizontal\:text {
+.horizontal .text {
     flex: 1;
     min-width: 0;
 }
 
-.m3-card-horizontal\:title {
+.horizontal .title {
     font-size: 20px;
     font-weight: 500;
     color: #1C1B1F;
@@ -283,7 +295,7 @@ body {
     margin-bottom: 2px;
 }
 
-.m3-card-horizontal\:subtitle {
+.horizontal .subtitle {
     font-size: 14px;
     font-weight: 400;
     color: #49454F;
@@ -292,9 +304,9 @@ body {
 }
 
 /* Right Icon Area */
-.m3-card-horizontal\:icon-area {
+.horizontal\:icon-area {
     width: 140px;
-    background: #6750A4;
+    background: #E8DEF8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,12 +314,12 @@ body {
     flex-shrink: 0;
 }
 
-.m3-card-horizontal\:icon-area .icon {
+.horizontal\:icon-area .icon {
     transition: transform 0.2s ease, opacity 0.2s ease;
     cursor: pointer;
 }
 
-.m3-card-horizontal\:icon-area .icon:hover {
+.horizontal\:icon-area .icon:hover {
     transform: scale(1.15);
     opacity: 1 !important;
 }
