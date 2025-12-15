@@ -28,10 +28,13 @@
     user-select: none;
 }
 
-.n-radio input[type="radio"] {
+.n-radio input[type="radio"],
+.t-radio input[type="radio"] {
     appearance: none;
     width: var(--md3-touch-size);
     height: var(--md3-touch-size);
+    padding: 4px;
+    border-radius: 50%;
     margin: 0;
     border: none;
     position: relative;
@@ -53,7 +56,7 @@
     transition: all 180ms ease;
 }
 
-/* outer ring  */
+/* outer ring */
 .n-radio input[type="radio"]::before {
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
@@ -72,6 +75,12 @@
     opacity: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #585858;
+    }
+}
+
 /* checked */
 .n-radio input[type="radio"]:checked::before {
     border-color: var(--md3-select-primary);
@@ -81,6 +90,17 @@
     opacity: 1;
     transition-duration: 120ms;
 }
+
+@media (prefers-color-scheme: dark) {
+    .n-radio input[type="radio"]:checked::before {
+        border-color: var(--md3-primary-dark);
+    }
+
+    .n-radio input[type="radio"]:checked::after {
+        background-color: var(--md3-primary-dark);
+    }
+}
+
 
 /* hover */
 .n-radio input[type="radio"]:hover::before {
