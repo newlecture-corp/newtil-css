@@ -4,6 +4,7 @@ function onEdit() {
 
 const cards = document.querySelectorAll('.m3-card, .horizontal');
 cards.forEach(function (card) {
+  card.setAttribute("draggable", "true");
   card.addEventListener('dragstart', function () {
     card.classList.add('drag');
   });
