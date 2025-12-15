@@ -2,27 +2,21 @@
     --md3-radio-size: 20px;
     --md3-touch-size: 48px;
     --md3-stroke-width: 2px;
+    --md3-inner-stroke-width: 5px;
     --md3-inner-dot-size: 10px;
     --md3-spacing-label: 12px;
 
-    --md3-primary: var(--color-main-2);
-    --md3-primary-dark: var(--color-main-1);
-    --md3-on-surface: var(--color-base-8);
-    --md3-disabled: var(--color-base-7);
+    --md3-select-primary: var(--color-main-2);
+    --md3-unselect-primary: var(--color-base-9);
     --md3-focus-ring: 3px;
+
+    --alpha-1: 8%;
+    --alpha-2: 10%;
+    --alpha-3: 62%;
+
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --md3-primary: var(--color-main-1);
-        /* --md3-on-surface: var(--color-base-1); */
-    }
-}
-
-
-
-.n-radio,
-.t-radio {
+.n-radio {
     display: inline-flex;
     align-items: center;
     gap: var(--md3-spacing-label);
@@ -53,7 +47,7 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     box-sizing: border-box;
-    transition: all 180ms cubic-bezier(.2, .8, .2, 1);
+    transition: all 180ms ease;
 }
 
 /* outer ring */
@@ -61,7 +55,7 @@
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
     border-radius: 50%;
-    border: var(--md3-stroke-width) solid var(--md3-on-surface);
+    border: var(--md3-stroke-width) solid var(--md3-unselect-primary);
 }
 
 /* inner dot */
@@ -69,7 +63,7 @@
     width: 0;
     height: 0;
     border-radius: 50%;
-    background-color: var(--md3-primary);
+    border: var(--md3-inner-stroke-width) solid var(--md3-select-primary);
     opacity: 0;
 }
 
@@ -80,13 +74,11 @@
 }
 
 /* checked */
-.n-radio input[type="radio"]:checked::before {
-    border-color: var(--md3-primary);
+.n-radio input[type="radio"]:checked::before{
+    border-color: var(--md3-select-primary);
 }
 
-.n-radio input[type="radio"]:checked::after {
-    width: var(--md3-inner-dot-size);
-    height: var(--md3-inner-dot-size);
+.n-radio input[type="radio"]:checked::after{
     opacity: 1;
     transition-duration: 120ms;
 }
@@ -103,49 +95,38 @@
 
 
 /* hover */
-.n-radio input[type="radio"]:hover {
-    background: color-mix(in srgb, var(--md3-on-surface), transparent 92%);
-    background-clip: content-box;
+.n-radio input[type="radio"]:hover::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 92%);
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
 }
 
-.n-radio input[type="radio"]:hover::before {
-
+/* hover */
+.n-radio input[type="radio"]:checked:hover::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 92%);
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
 }
 
-.n-radio input[type="radio"]:checked:hover {
-    background: color-mix(in srgb, var(--md3-primary), transparent 92%);
-    /* background-clip: content-box; */
+/* press */
+.n-radio input[type="radio"]:active::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
 }
 
-.n-radio input[type="radio"]:checked:hover::before {
-    border-color: var(--md3-primary);
+.n-radio input[type="radio"]:checked:active::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
 }
-
-/* @media (prefers-color-scheme: dark) {
-    .n-radio input[type="radio"]:hover {
-        background: color-mix(in srgb, var(--md3-on-surface), transparent 92%);
-    }
-
-    .n-radio input[type="radio"]:hover::before {
-        border-color: color-mix(in srgb, var(--md3-on-surface), transparent 108%);
-    }
-
-    .n-radio input[type="radio"]:checked:hover {
-        background: color-mix(in srgb, var(--md3-primary-dark), transparent 92%);
-        background-clip: content-box;
-    }
-
-    .n-radio input[type="radio"]:checked:hover::before {
-        border-color: var(--md3-primary-dark);
-    }
-} */
-
 
 
 /* focus ring */
-.n-radio input[type="radio"]:focus-visible::before {
-    box-shadow: 0 0 0 var(--md3-focus-ring) rgba(103, 80, 164, 0.12),
-        0 0 0 calc(var(--md3-focus-ring) + 1px) rgba(103, 80, 164, 0.06);
+.n-radio input[type="radio"]:focus::before{
+    outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent 10%);
+    outline-offset: 5px;
+}
+
+.n-radio input[type="radio"]:checked:focus::before{
+    outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent 10%);
+    outline-offset: 5px;
 }
 
 /* disabled */
@@ -153,21 +134,18 @@
     cursor: not-allowed;
 }
 
-.n-radio input[type="radio"]:disabled:hover {
-    background: transparent;
+.n-radio input[type="radio"]:disabled::before{
+    border-color: var(--color-base-9);
+    opacity: 0.38;
 }
 
-.n-radio input[type="radio"]:disabled::before {
-    border-color: var(--md3-disabled);
-}
-
-.n-radio input[type="radio"]:disabled::after {
-    background: var(--md3-disabled);
-    opacity: 0.6;
+.n-radio input[type="radio"]:disabled::after{
+    border-color: var(--color-base-9);
+    opacity: 0.38;
 }
 
 .n-radio .n-radio-label {
     font-size: 14px;
-    color: var(--md3-on-surface);
+    color: var(--color-base-9);
 }
 
