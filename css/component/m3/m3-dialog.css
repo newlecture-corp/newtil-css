@@ -36,28 +36,6 @@
     --dialog-opacity-1: 0.08;
     --dialog-opacity-2: 0.1;
 
-    /* elevation */
-    /* 
-    첫 번째 그림자
-        0px 4px 8px 3px rgba(0, 0, 0, 0.15)
-        X축 이동: 0px (좌우로 이동 없음)
-        Y축 이동: 4px (아래쪽으로 4px 떨어뜨림 → 그림자가 아래로)
-        Blur: 8px (그림자 가장자리 부드러움)
-        Spread: 3px (그림자 크기가 3px 만큼 퍼짐 → 더 넓어진 그림자)
-        Color: rgba(0,0,0,0.15) → 연한 그림자
-        ➡ 넓게 퍼진 부드러운 그림자
-
-    두 번째 그림자
-        0px 1px 3px 0px rgba(0, 0, 0, 0.3)
-        X축: 0px
-        Y축: 1px (아주 약간 아래)
-        Blur: 3px (조금만 흐림)
-        Spread: 0px
-        Color: rgba(0,0,0,0.3) → 더 진한 그림자
-        ➡ 모달의 가장자리 아래에 가까운 짙고 작은 그림자
-    */
-    --dialog-elevation-1: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
-
     /* padding */
     --dialog-padding-1: 24px;
     --dialog-padding-2: 16px;
@@ -75,6 +53,8 @@
     --dialog-line-height-1: 20px;
 
 
+
+
     /* 변수 */
     /* 여기서만 수정한다 */
     --modal-bg: var(--dialog-bg);
@@ -82,7 +62,6 @@
     --modal-padding: var(--dialog-padding-1);
     --modal-min-width: var(--dialog-min-width);
     --modal-max-width: var(--dialog-max-width);
-    --modal-elevation: var(--dialog-elevation-1);
 
     --modal-color: var(--dialog-content-font-color);
 
@@ -141,7 +120,6 @@
         width: auto;
         min-width: var(--modal-min-width);
         max-width: var(--modal-max-width);
-        box-shadow: var(--modal-elevation);
 
         color: var(--modal-color);
 

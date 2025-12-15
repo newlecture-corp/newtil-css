@@ -19,30 +19,3 @@ modal.onclick = (e) => {
         modal.classList.remove("open");
     }
 }
-
-
-// dialog 태그 사용시
-// Open Dialog
-// openBtn.onclick = () => {
-//     // dialog.show(); // backdrop 없음
-//     modal.showModal(); // backdrop 있음
-// };
-
-// // Close Dialog
-// closeBtn.onclick = () => {
-//     modal.close();
-// };
-
-// // Confirm Action
-// confirmBtn.onclick = () => {
-//     // Action logic here...
-//     console.log("Confirmed!");
-//     modal.close();
-// };
-
-// // Backdrop Click Close
-// modal.onclick = (event) => {
-//     if (event.target === modal) {
-//         modal.close();
-//     }
-// };
