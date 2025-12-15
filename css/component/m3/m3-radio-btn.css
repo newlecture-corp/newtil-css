@@ -1,4 +1,4 @@
-:root {
+:root{
     --md3-radio-size: 20px;
     --md3-touch-size: 48px;
     --md3-stroke-width: 2px;
@@ -6,10 +6,6 @@
     --md3-inner-dot-size: 10px;
     --md3-spacing-label: 12px;
 
-    --md3-primary: var(--color-main-2);
-    --md3-on-surface: var(--color-base-9);
-    --md3-disabled: var(--color-base-7);
-    --md3-focus-ring: 2px;
     --md3-select-primary: var(--color-main-2);
     --md3-unselect-primary: var(--color-base-9);
     --md3-focus-ring: 3px;
@@ -37,7 +33,6 @@
     position: relative;
     background: transparent;
     cursor: pointer;
-    border-radius: 50%;
 }
 
 .n-radio input[type="radio"]::before,
@@ -49,7 +44,6 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     box-sizing: border-box;
-    transition: all 180ms cubic-bezier(.2, .8, .2, 1);
     transition: all 180ms ease;
 }
 
@@ -58,7 +52,6 @@
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
     border-radius: 50%;
-    border: var(--md3-stroke-width) solid var(--color-main-3);
     border: var(--md3-stroke-width) solid var(--md3-unselect-primary);
 }
 
@@ -67,52 +60,51 @@
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: var(--color-main-3);
     border: var(--md3-inner-stroke-width) solid var(--md3-select-primary);
     opacity: 0;
 }
 
 /* checked */
-.n-radio input[type="radio"]:checked::before {
+.n-radio input[type="radio"]:checked::before{
     border-color: var(--md3-select-primary);
 }
 
-.n-radio input[type="radio"]:checked::after {
+.n-radio input[type="radio"]:checked::after{
     opacity: 1;
     transition-duration: 120ms;
 }
 
 /* hover */
-.n-radio input[type="radio"]:hover::before {
+.n-radio input[type="radio"]:hover::before{
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 92%);
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
 }
 
 /* hover */
-.n-radio input[type="radio"]:checked:hover::before {
+.n-radio input[type="radio"]:checked:hover::before{
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 92%);
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
 }
 
 /* press */
-.n-radio input[type="radio"]:active::before {
+.n-radio input[type="radio"]:active::before{
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
 }
 
-.n-radio input[type="radio"]:checked:active::before {
+.n-radio input[type="radio"]:checked:active::before{
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 90%);
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
 }
 
 
 /* focus ring */
-.n-radio input[type="radio"]:focus::before {
+.n-radio input[type="radio"]:focus::before{
     outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent 10%);
     outline-offset: 5px;
 }
 
-.n-radio input[type="radio"]:checked:focus::before {
+.n-radio input[type="radio"]:checked:focus::before{
     outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent 10%);
     outline-offset: 5px;
 }
@@ -122,12 +114,12 @@
     cursor: not-allowed;
 }
 
-.n-radio input[type="radio"]:disabled::before {
+.n-radio input[type="radio"]:disabled::before{
     border-color: var(--color-base-9);
     opacity: 0.38;
 }
 
-.n-radio input[type="radio"]:disabled::after {
+.n-radio input[type="radio"]:disabled::after{
     border-color: var(--color-base-9);
     opacity: 0.38;
 }
