@@ -10,11 +10,11 @@
 
 /* === 2. M3 CARD COMPONENT === */
 
-/* Card Container */
+/* 카드 컨테이너 영역 */
 .m3-card {
     width: 360px;
     background: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radius-xl);
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: box-shadow 0.3s ease;
@@ -26,7 +26,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
 }
 
-/* Card Header */
+/* 카드 해더 영역 */
 .m3-card .header {
     display: flex;
     align-items: center;
@@ -35,8 +35,8 @@
 }
 
 .m3-card .avatar {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background: #E8DEF8;
     color: #6750A4;
@@ -72,8 +72,8 @@
 }
 
 .m3-card .menu-btn {
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background: none;
     border: none;
