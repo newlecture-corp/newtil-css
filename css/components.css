@@ -2,124 +2,142 @@
 
 /* ===== NEWTIL CSS COMPONENTS ===== */
 
+/* === M3 CARD COMPONENT === */
 
-/* === 1. n-btn & STRUCTURE === */
-
-
-
-
-/* === 2. M3 CARD COMPONENT === */
-
-/* 카드 컨테이너 영역 */
-.m3-card {
-    width: 360px;
-    background: #ffffff;
-    border-radius: var(--radius-xl);
+/* 공통 카드 스타일 */
+.m3-card,
+.horizontal {
+    width: var(--size-36);
+    background: var(--color-white);
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: box-shadow 0.3s ease;
-    margin-bottom: 0px;
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-10)), 
+                0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-25));
+    transition: box-shadow var(--duration-5) var(--ease-out);
     cursor: grab;
 }
 
-.m3-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+.m3-card {
+    border-radius: var(--radius-xl);
 }
 
-/* 카드 해더 영역 */
-.m3-card .header {
+.horizontal {
+    border-radius: var(--radius-2xl);
     display: flex;
-    align-items: center;
-    padding: 16px;
-    gap: 16px;
+    align-items: stretch;
 }
 
-.m3-card .avatar {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: #E8DEF8;
-    color: #6750A4;
+.m3-card:hover,
+.horizontal:hover {
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16), 
+                0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
+}
+
+.m3-card.drag,
+.horizontal.drag {
+    box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--opacity-25)), 
+                0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--opacity-30)) !important;
+    transform: scale(1.02) !important;
+    background: rgba(0, 0, 0, var(--opacity-5)) !important;
+    opacity: var(--opacity-90);
+    cursor: grabbing !important;
+}
+
+/* 공통 Avatar 스타일 */
+.m3-card .avatar,
+.horizontal .avatar {
+    border-radius: var(--radius-full);
+    background: #e8def8;
+    color: #6750a4;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: var(--size-10);
+    font-weight: var(--font-weight-medium);
     flex-shrink: 0;
 }
 
-.m3-card .header-text {
+.m3-card .avatar {
+    width: var(--size-15);
+    height: var(--size-15);
+    cursor: pointer;
+    transition: all var(--duration-4) var(--ease-out);
+}
+
+.horizontal .avatar {
+    width: var(--size-22);
+    height: var(--size-22);
+}
+
+/* 공통 텍스트 컨테이너 */
+.m3-card .header-text,
+.horizontal .text {
     flex: 1;
     min-width: 0;
 }
 
+/* M3 Card - Header */
+.m3-card .header {
+    display: flex;
+    align-items: center;
+    padding: var(--space-10);
+    gap: var(--space-10);
+}
+
 .m3-card .header-title {
-    font-size: 16px;
-    font-weight: 500;
-    color: #1C1B1F;
-    line-height: 24px;
+    font-size: var(--size-10);
+    font-weight: var(--font-weight-medium);
+    color: #1c1b1f;
+    line-height: var(--size-15);
     letter-spacing: 0.1px;
 }
 
-.m3-card .header-subtitle {
-    font-size: 14px;
-    font-weight: 400;
-    color: #49454F;
-    line-height: 20px;
+.m3-card .header-subtitle,
+.m3-card .Text,
+.horizontal .subtitle {
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-normal);
+    color: #49454f;
+    line-height: var(--size-13);
     letter-spacing: 0.25px;
 }
 
 .m3-card .menu-btn {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
+    width: var(--size-15);
+    height: var(--size-15);
+    border-radius: var(--radius-full);
     background: none;
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.2s ease;
+    transition: background-color var(--duration-4) var(--ease-out);
     flex-shrink: 0;
 }
 
 .m3-card .menu-btn::before {
     content: "\e5d4";
     font-family: "Material Symbols Outlined";
-    font-size: 30px;
-    font-weight: 100px;
+    font-size: var(--size-17);
 }
 
 .m3-card .menu-btn:hover {
-    background-color: rgba(73, 69, 79, 0.08);
+    background-color: rgba(73, 69, 79, var(--opacity-10));
 }
 
 .m3-card .menu-btn:active {
     background-color: rgba(73, 69, 79, 0.12);
 }
 
-.m3-card.drag,
-.horizontal.drag {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25),
-        0 6px 12px rgba(0, 0, 0, 0.30) !important;
-    transform: scale(1.02) !important;
-    background: rgba(0, 0, 0, 0.05) !important;
-    opacity: 0.9;
-    cursor: grabbing !important;
-}
-
-/* ========메인 영역=========== */
+/* M3 Card - Image */
 .m3-card .image {
     width: 100%;
-    height: 200px;
-    background: #F3EDF7;
+    height: var(--size-37);
+    background: #f3edf7;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: var(--space-13);
 }
 
 .m3-card .image svg,
@@ -128,75 +146,65 @@
     max-height: 100%;
 }
 
-/*======카드 컨텐츠========== */
+/* M3 Card - Content */
 .m3-card .content {
-    padding: 16px;
+    padding: var(--space-10);
 }
 
 .m3-card .Headline {
-    font-size: 24px;
-    font-weight: 400;
-    color: #1C1B1F;
-    line-height: 32px;
-    margin-bottom: 4px;
-    letter-spacing: 0;
+    font-size: var(--size-15);
+    font-weight: var(--font-weight-normal);
+    color: #1c1b1f;
+    line-height: var(--size-19);
+    margin-bottom: var(--space-3);
 }
 
 .m3-card .Subhead {
-    font-size: 14px;
-    font-weight: 500;
-    color: #49454F;
-    line-height: 20px;
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
+    color: #49454f;
+    line-height: var(--size-13);
     letter-spacing: 0.1px;
-    margin-bottom: 8px;
+    margin-bottom: var(--space-4);
 }
 
 .m3-card .Text {
-    font-size: 14px;
-    font-weight: 400;
-    color: #49454F;
-    line-height: 20px;
-    letter-spacing: 0.25px;
-    margin: 0 0 16px 0;
+    margin-bottom: var(--space-10);
 }
 
-/*===============버튼 배치 ==============*/
+/* M3 Card - Buttons */
 .m3-card .m3-btn {
     display: flex;
-    gap: 8px;
+    gap: var(--space-4);
     justify-content: flex-end;
-    padding-top: 8px;
+    padding-top: var(--space-4);
 }
 
-/*============== 버튼=================== */
 .m3-card .m3-btn button {
-    padding: 10px 24px;
-    border-radius: 20px;
+    padding: var(--space-5) var(--space-15);
+    border-radius: var(--radius-xl);
     border: none;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
     letter-spacing: 0.1px;
+    line-height: var(--size-13);
     cursor: pointer;
-    transition: all 0.2s ease;
-    line-height: 20px;
+    transition: all var(--duration-4) var(--ease-out);
     position: relative;
     overflow: hidden;
 }
 
 .m3-card .m3-btn button::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background: currentColor;
     opacity: 0;
-    transition: opacity 0.2s ease;
+    transition: opacity var(--duration-4) var(--ease-out);
 }
 
 .m3-card .m3-btn button:hover::before {
-    opacity: 0.08;
+    opacity: var(--opacity-10);
 }
 
 .m3-card .m3-btn button:active::before {
@@ -205,13 +213,13 @@
 
 .m3-card .m3-btn .negative {
     background: transparent;
-    color: #6750A4;
-    border: 1px solid #79747E;
+    color: #6750a4;
+    border: var(--border-width-1) solid #79747e;
 }
 
 .m3-card .m3-btn .negative:hover {
-    background: rgba(103, 80, 164, 0.08);
-    border-color: #6750A4;
+    background: rgba(103, 80, 164, var(--opacity-10));
+    border-color: #6750a4;
 }
 
 .m3-card .m3-btn .negative:active {
@@ -219,108 +227,59 @@
 }
 
 .m3-card .m3-btn .positive {
-    background: #6750A4;
-    color: #FFFFFF;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background: #6750a4;
+    color: var(--color-white);
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-30));
 }
 
 .m3-card .m3-btn .positive::before {
-    background: #FFFFFF;
+    background: var(--color-white);
 }
 
 .m3-card .m3-btn .positive:hover {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-40));
 }
 
 .m3-card .m3-btn .positive:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-30));
 }
 
-/* ========================================
-                   가로형 카드
-   ======================================== */
-
-.horizontal {
-    width: 360px;
-    background: #ffffff;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: box-shadow 0.3s ease;
-    display: flex;
-    align-items: stretch;
-    cursor: grab;
-}
-
-.horizontal:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
-}
-
-/* 왼쪽 컨텐츠 영역 */
+/* Horizontal Card */
 .horizontal .content {
-    width: 280px;
+    width: var(--size-17);
     flex: 1;
     display: flex;
     align-items: center;
-    padding: 20px;
-    gap: 16px;
-    background: transparent;
-}
-
-.horizontal .avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #E8DEF8;
-    color: #6750A4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 500;
-    flex-shrink: 0;
-}
-
-.horizontal .text {
-    flex: 1;
-    min-width: 0;
+    padding: var(--space-13);
+    gap: var(--space-10);
 }
 
 .horizontal .title {
-    font-size: 20px;
-    font-weight: 500;
-    color: #1C1B1F;
-    line-height: 28px;
-    letter-spacing: 0;
-    margin-bottom: 2px;
+    font-size: var(--size-13);
+    font-weight: var(--font-weight-medium);
+    color: #1c1b1f;
+    line-height: var(--size-17);
+    margin-bottom: var(--space-2);
 }
 
-.horizontal .subtitle {
-    font-size: 14px;
-    font-weight: 400;
-    color: #49454F;
-    line-height: 20px;
-    letter-spacing: 0.25px;
-}
-
-/* 오른쪽 아이콘 영역역 */
 .horizontal\:icon-area {
-    width: 80px;
-    background: #E8DEF8;
+    width: var(--size-31);
+    background: #e8def8;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    padding: 20px 16px;
+    gap: var(--space-6);
+    padding: var(--space-13) var(--space-10);
     flex-shrink: 1;
 }
 
 .horizontal\:icon-area .icon {
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: transform var(--duration-4) var(--ease-out), 
+                opacity var(--duration-4) var(--ease-out);
     cursor: pointer;
 }
 
 .horizontal\:icon-area .icon:hover {
     transform: scale(1.15);
-    opacity: 1 !important;
+    opacity: var(--opacity-100) !important;
 }

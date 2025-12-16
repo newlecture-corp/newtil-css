@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>M3 Card</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=more_vert"
+        />
+        <link rel="stylesheet" href="m3-card.css" />
+        <link rel="stylesheet" href="../../components.css" />
+        <script src="m3-card.js" defer></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M3 Card</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=more_vert" />
-    <link rel="stylesheet" href="m3-card.css" />
-    <link rel="stylesheet" href="../../components.css">
-    <script src="m3-card.js" defer></script>
-</head>
+    <body>
+        <div class="m3-card">
+            <!-- 헤더 영역 -->
+            <!-- <div class="header">
+                <div class="avatar">Admin</div>
+                <div class="header-text">
+                    <div class="header-title">Header</div>
+                    <div class="header-subtitle">Subhead</div>
+                </div>
+                <button class="menu-btn"></button>
+            </div> -->
 
-<body>
-    <div class="m3-card">
+            <!-- 메인; 이미지 영역 -->
+            <div class="image"></div>
 
-        <!-- 헤더 영역 -->
-        <div class="header">
-            <div class="avatar">Admin</div>
-            <div class="header-text">
-                <div class="header-title">Header</div>
-                <div class="header-subtitle">Subhead</div>
+            <!-- 컨텐츠 영역역 -->
+            <div class="content">
+                <div class="Headline">Title</div>
+                <div class="Subhead">Subtitle</div>
+                <p class="Text">text</p>
+
+                <!---------- 버튼 ----------->
+                <div class="m3-btn">
+                    <button class="negative">아니요</button>
+                    <button class="positive">예</button>
+                </div>
             </div>
-            <button class="menu-btn"></button>
         </div>
-
-        <!-- 메인; 이미지 영역 -->
-        <div class="image"></div>
-
-        <!-- 컨텐츠 영역역 -->
-        <div class="content">
-            <div class="Headline">Title</div>
-            <div class="Subhead">Subtitle</div>
-            <p class="Text">text</p>
-
-            <!---------- 버튼 ----------->
-            <div class="m3-btn">
-                <button class="negative">아니요</button>
-                <button class="positive">예</button>
-            </div>
-        </div>
-    </div>
-    <!-- 가로형 카드 -->
-    <!-- <div class="horizontal" draggable="true">
+        <!-- 가로형 카드 -->
+        <!-- <div class="horizontal" draggable="true">
 
         <div class="content">
             <div class="avatar">A</div>
@@ -53,6 +53,5 @@
         </div>
         <div class="horizontal:icon-area"></div> 
     </div>-->
-</body>
-
+    </body>
 </html>
