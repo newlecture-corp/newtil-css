@@ -7,11 +7,11 @@
 /* 공통 카드 스타일 */
 .m3-card,
 .horizontal {
-    width: var(--size-36);
+    width: var(transparent);
     background: var(--color-white);
     overflow: hidden;
-    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-10)), 
-                0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-25));
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-10)),
+        0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-25));
     transition: box-shadow var(--duration-5) var(--ease-out);
     cursor: grab;
 }
@@ -28,14 +28,14 @@
 
 .m3-card:hover,
 .horizontal:hover {
-    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16), 
-                0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
 }
 
 .m3-card.drag,
 .horizontal.drag {
-    box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--opacity-25)), 
-                0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--opacity-30)) !important;
+    box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--opacity-25)),
+        0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--opacity-30)) !important;
     transform: scale(1.02) !important;
     background: rgba(0, 0, 0, var(--opacity-5)) !important;
     opacity: var(--opacity-90);
@@ -274,8 +274,8 @@
 }
 
 .horizontal\:icon-area .icon {
-    transition: transform var(--duration-4) var(--ease-out), 
-                opacity var(--duration-4) var(--ease-out);
+    transition: transform var(--duration-4) var(--ease-out),
+        opacity var(--duration-4) var(--ease-out);
     cursor: pointer;
 }
 
