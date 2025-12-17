@@ -17,9 +17,9 @@
     --transparent-1: 10%;
     --transparent-2: 90%;
     --transparent-3: 92%;
+    --transparent-disabled: 62%;
 
     --outline-offset: 5px;
-    --opacity-disabled: calc(var(--opacity-30) + 0.08);
 }
 
 .n-radio {
@@ -129,11 +129,11 @@
 
 
 .n-radio input[type="radio"]:disabled::before {
-    border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--opacity-disabled));
+    border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-disabled));
 }
 
 .n-radio input[type="radio"]:disabled::after {
-    border-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--opacity-disabled));
+    border-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-disabled));
 }
 
 .n-radio .n-radio-label {
