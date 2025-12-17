@@ -1,6 +1,5 @@
 body{
     padding: 30px;
-    /* background-color: black;  */
 }
 
 /* 체크박스 변수 */
@@ -14,6 +13,12 @@ body{
     --checkbox-icon-content: var("");
 }
 /* -------------- */
+
+.m3-checkbox,
+.m3-checkbox input[type="checkbox"]::after,
+.m3-checkbox input[type="checkbox"]::before {
+    transition: all 0.3s ease;
+}
 
 .m3-checkbox {
     display: inline-flex;
