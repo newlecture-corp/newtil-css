@@ -10,7 +10,7 @@
   <h1>Newtil CSS</h1>
   
   <p>
-    <strong>유틸리티 중심의 현대적인 CSS 라이브러리</strong>
+    <strong>유틸리티 중심의 현대적인 CSS 라이브러리!</strong>
   </p>
 
   <p>
