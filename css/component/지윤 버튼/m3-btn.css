@@ -1,4 +1,3 @@
-:root {
     /* ------------btn size별 스펙--------- */
     /* --btn-size: x-small, small, medium, large, x-large
     --btn-height: 32px, 40px, 56px, 96px, 136px
@@ -10,28 +9,71 @@
     --btn-line-height: 20px, 20px, 24px, 32px, 40px  //행간
     --btn-letter-spacing: 0.1, 0.1, 0.15, 0, 0 //자간 */
 
+
+
+main>section {
+    margin-bottom: 50px;
+}
+
+main>section>h1 {
+    font-size: var(--btn-font-size-3);
+}
+
+h1 {
+    font-size: var(--btn-font-size-1);
+    color: var(--btn-rgb-base-7);
+    padding: 2px 0px;
+    margin: 0px;
+}
+
+--btn-border-radius-5: 999px;
+
+
+/* =================Button Type & State (Light Mode)===================================== */
+
+/* ----------------------------Base Type------------------------------ */
+.m3-btn {
     /* ----------상수변수-------------- */
     /* 버튼 색 */
-    --btn-rgb-0: var(--color-transparent);      /*투명*/
-    --btn-rgb-1: var(--rgb-accent-1);           /*rgba(245, 158, 11, 1)*/
-    --btn-rgb-2: 212, 135, 0;                     /*rgba(212, 135, 0, 1)*/
-    --btn-rgb-3: var(--rgb-accent-2);           /*rgba(217, 119, 6, 1)*/
-    --btn-rgb-4: var(--rgb-accent-3);           /*rgba(180, 83, 9, 1)*/
-    --btn-rgb-5: 148, 72, 19;                     /*rgba(148, 72, 19, 1)*/
-    --btn-rgb-6: 94, 40, 8;                     /*rgba(94, 40, 8, 1)*/
-    --btn-rgb-7: 81, 58, 44;                     /*rgba(81, 58, 44, 1)*/
-    --btn-rgb-8: 54, 36, 24;                     /*rgba(54, 36, 24, 1)*/
+    --btn-rgb-0: var(--color-transparent);
+    /*투명*/
+    --btn-rgb-1: var(--rgb-accent-1);
+    /*rgba(245, 158, 11, 1)*/
+    --btn-rgb-2: 212, 135, 0;
+    /*rgba(212, 135, 0, 1)*/
+    --btn-rgb-3: var(--rgb-accent-2);
+    /*rgba(217, 119, 6, 1)*/
+    --btn-rgb-4: var(--rgb-accent-3);
+    /*rgba(180, 83, 9, 1)*/
+    --btn-rgb-5: 148, 72, 19;
+    /*rgba(148, 72, 19, 1)*/
+    --btn-rgb-6: 94, 40, 8;
+    /*rgba(94, 40, 8, 1)*/
+    --btn-rgb-7: 81, 58, 44;
+    /*rgba(81, 58, 44, 1)*/
+    --btn-rgb-8: 54, 36, 24;
+    /*rgba(54, 36, 24, 1)*/
 
-    --btn-rgb-base-1: var(--rgb-base-1);        /* 가장 밝은 회색 */
-    --btn-rgb-base-2: var(--rgb-base-2);        /* 매우 밝은 회색 */
-    --btn-rgb-base-3: var(--rgb-base-3);        /* 밝은 회색 */
-    --btn-rgb-base-4: var(--rgb-base-4);        /* 연한 회색 */
-    --btn-rgb-base-5: var(--rgb-base-5);        /* 중간 회색 */
-    --btn-rgb-base-6: var(--rgb-base-6);        /* 진한 회색 */
-    --btn-rgb-base-7: var(--rgb-base-7);        /* 어두운 회색 */
-    --btn-rgb-base-8: var(--rgb-base-8);        /* 매우 어두운 회색 */
-    --btn-rgb-base-9: var(--rgb-base-9);        /* 거의 검은 회색 */
-    --btn-rgb-base-10: var(--rgb-base-10);      /* 가장 어두운 회색 */
+    --btn-rgb-base-1: var(--rgb-base-1);
+    /* 가장 밝은 회색 */
+    --btn-rgb-base-2: var(--rgb-base-2);
+    /* 매우 밝은 회색 */
+    --btn-rgb-base-3: var(--rgb-base-3);
+    /* 밝은 회색 */
+    --btn-rgb-base-4: var(--rgb-base-4);
+    /* 연한 회색 */
+    --btn-rgb-base-5: var(--rgb-base-5);
+    /* 중간 회색 */
+    --btn-rgb-base-6: var(--rgb-base-6);
+    /* 진한 회색 */
+    --btn-rgb-base-7: var(--rgb-base-7);
+    /* 어두운 회색 */
+    --btn-rgb-base-8: var(--rgb-base-8);
+    /* 매우 어두운 회색 */
+    --btn-rgb-base-9: var(--rgb-base-9);
+    /* 거의 검은 회색 */
+    --btn-rgb-base-10: var(--rgb-base-10);
+    /* 가장 어두운 회색 */
 
     /* 버튼 높이 */
     --btn-height-1: var(--space-19);
@@ -69,38 +111,12 @@
     --btn-border-radius-2: var(--border-radius-5);
     --btn-border-radius-3: var(--border-radius-6);
     --btn-border-radius-4: var(--space-17);
-    --btn-border-radius-5: var(--border-radius-8);
-
-
+    --btn-border-radius-5: 999px;
     /* --------------Variable---------------- */
-
-
     --btn-border-radius: var(--btn-border-radius-5);
     --btn-font-weight: 500;
     --btn-fill: 1;
-}
 
-main>section {
-    margin-bottom: 50px;
-}
-
-main>section>h1 {
-    font-size: var(--btn-font-size-3);
-}
-
-h1 {
-    font-size: var(--btn-font-size-1);
-    color: var(--btn-rgb-base-7);
-    padding: 2px 0px;
-    margin: 0px;
-}
-
-
-
-/* =================Button Type & State (Light Mode)===================================== */
-
-/* ----------------------------Base Type------------------------------ */
-.m3-btn {
 
     /* boxing*/
     border: 0px;
@@ -116,7 +132,6 @@ h1 {
 
 }
 
-/* ---------------------------Elevated Type & State----------------------------- */
 .btn-type\:elevated {
 
     /* boxing */
@@ -128,6 +143,43 @@ h1 {
     /* content */
     color: rgb(var(--btn-rgb-base-7));
 }
+
+.btn-type\:filled {
+
+    /* boxing */
+    background-color: rgb(var(--btn-rgb-3));
+    /* background-color: color-mix(in srgb, #5e2808, transparent #944813); */
+
+    /* content */
+    color: rgb(var(--btn-rgb-base-1));
+
+}
+
+.btn-type\:tonal {
+
+    /* boxing */
+    background: linear-gradient(161deg,
+            rgba(255, 200, 0, 1) 8%,
+            rgba(255, 176, 5, 1) 81%);
+
+    /* content */
+    color: rgb(var(--btn-rgb-5));
+
+}
+
+.btn-type\:outlined {
+
+    /* boxing */
+    background-color: rgb(var(--btn-rgb-0));
+    border: 1px solid rgba(var(--btn-rgb-7), 0.2);
+
+    /* content */
+    color: rgb(var(--btn-rgb-base-7));
+
+}
+
+/* ---------------------------Elevated Type & State----------------------------- */
+
 
 .btn-type\:elevated:disabled,
 .btn-type\:elevated.btn-state\:disabled {
@@ -168,16 +220,7 @@ h1 {
 
 
 /* ---------------------------Filled Type & State----------------------------- */
-.btn-type\:filled {
 
-    /* boxing */
-    background-color: rgb(var(--btn-rgb-3));
-    /* background-color: color-mix(in srgb, #5e2808, transparent #944813); */
-
-    /* content */
-    color: rgb(var(--btn-rgb-base-1));
-
-}
 
 .btn-type\:filled:disabled,
 .btn-type\:filled.btn-state\:disabled {
@@ -214,17 +257,7 @@ h1 {
 
 
 /* ---------------------------Tonal Type & State----------------------------- */
-.btn-type\:tonal {
 
-    /* boxing */
-    background: linear-gradient(161deg,
-            rgba(255, 200, 0, 1) 8%,
-            rgba(255, 176, 5, 1) 81%);
-
-    /* content */
-    color: rgb(var(--btn-rgb-5));
-
-}
 
 .btn-type\:tonal:disabled,
 .btn-type\:tonal.btn-state\:disabled {
@@ -262,16 +295,7 @@ h1 {
 }
 
 /* ---------------------------Outlined Type & State----------------------------- */
-.btn-type\:outlined {
 
-    /* boxing */
-    background-color: rgb(var(--btn-rgb-0));
-    border: 1px solid rgba(var(--btn-rgb-7), 0.2);
-
-    /* content */
-    color: rgb(var(--btn-rgb-base-7));
-
-}
 
 .btn-type\:outlined:disabled,
 .btn-type\:outlined.btn-state\:disabled {
@@ -368,7 +392,7 @@ h1 {
 
     /* ---------------------------Elevated Type & State----------------------------- */
 
-    .btn-type\:elevated{
+    .btn-type\:elevated {
 
         background: linear-gradient(161deg,
                 rgba(var(--btn-rgb-7), 1) 0%,
