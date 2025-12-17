@@ -1,4 +1,4 @@
-var modal = document.querySelector(".m-dialog");
+var modal = document.querySelector(".m3-dialog");
 var openBtn = document.querySelector(".openBtn");
 var closeBtn = modal.querySelector(".close-btn");
 var confirmBtn = modal.querySelector(".confirm-btn");
