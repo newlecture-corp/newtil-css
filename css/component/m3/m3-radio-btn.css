@@ -19,7 +19,7 @@
     --transparent-3: 92%;
 
     --outline-offset: 5px;
-
+    --opacity-disabled: calc(var(--opacity-30) + 0.08);
 }
 
 .n-radio {
@@ -34,7 +34,7 @@
     appearance: none;
     width: var(--md3-touch-size);
     height: var(--md3-touch-size);
-    margin: 0;
+    margin: var(--scale-0);
     border: none;
     position: relative;
     background: transparent;
@@ -57,7 +57,7 @@
 .n-radio input[type="radio"]::before {
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
-    border-radius: 50%;
+    border-radius: var(--radius-8);
     border: var(--md3-stroke-width) solid var(--md3-unselect-primary);
 }
 
@@ -65,9 +65,9 @@
 .n-radio input[type="radio"]::after {
     width: 0;
     height: 0;
-    border-radius: 50%;
+    border-radius: var(--radius-8);
     border: var(--md3-inner-stroke-width) solid var(--md3-select-primary);
-    opacity: 0;
+    opacity: var(--opacity-0);
 }
 
 /* checked */
@@ -76,31 +76,31 @@
 }
 
 .n-radio input[type="radio"]:checked::after {
-    opacity: 1;
+    opacity: var(--opacity-100);
     transition-duration: 120ms;
 }
 
 /* hover */
 .n-radio input[type="radio"]:hover::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
 /* hover */
 .n-radio input[type="radio"]:checked:hover::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 /* press */
 .n-radio input[type="radio"]:active::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
-    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
 .n-radio input[type="radio"]:checked:active::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
-    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 
@@ -118,16 +118,22 @@
 /* disabled */
 .n-radio input[type="radio"]:disabled {
     cursor: not-allowed;
+    box-shadow: none;
 }
 
+/* disabled
+.n-radio input[type="radio"]:checked:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+} */
+
+
 .n-radio input[type="radio"]:disabled::before {
-    border-color: var(--md3-unselect-primary);
-    opacity: calc(var(--opacity-30) + 0.08);
+    border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--opacity-disabled));
 }
 
 .n-radio input[type="radio"]:disabled::after {
-    border-color: var(--md3-unselect-primary);
-    opacity: calc(var(--opacity-30) + 0.08);
+    border-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--opacity-disabled));
 }
 
 .n-radio .n-radio-label {
