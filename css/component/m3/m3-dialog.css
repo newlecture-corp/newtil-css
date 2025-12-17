@@ -4,41 +4,35 @@
     /* color */
 
 
-    --dialog-primary-color-1: #1d1b20;
-    --dialog-primary-color-2: #2B2930;
-    --dialog-primary-color-3: #49454F;
-    --dialog-primary-color-4: #6750A4;
-    --dialog-primary-color-5: #D0BCFF;
-    --dialog-primary-color-6: #CAC4D0;
-    --dialog-primary-color-7: #E6E0E9;
-    --dialog-primary-color-8: #ECE6F0;
+    /* --dialog-primary-color-1: var(--color-base-10);
+    --dialog-primary-color-2: var(--color-base-9);
+    --dialog-primary-color-3: var(--color-base-8);
+    --dialog-primary-color-4: var(--color-sub-2);
+    --dialog-primary-color-5: var(--color-sub-1);
+    --dialog-primary-color-6: var(--color-base-4);
+    --dialog-primary-color-7: var(--color-base-2);
+    --dialog-primary-color-8: var(--color-base-3); */
 
     /* font size */
-    --dialog-size-1: var(--space-15);
+    /* --dialog-size-1: var(--space-15);
     --dialog-size-2: var(--space-8);
 
 
     --dialog-weight-1: var(--font-weight-4);
-    --dialog-weight-2: var(--font-weight-5);
+    --dialog-weight-2: var(--font-weight-5); */
 
-    /* width, height */
-    /* 이거 문서에 최소, 최대 넓이로 나와있어서 수정함 */
-    --dialog-min-width: 280px;
-    --dialog-max-width: 560px;
 
-    --dialog-btn-content-height: 88px;
-    --dialog-btn-width: 85px;
-    --dialog-btn-height: var(--space-24);
+    /* --dialog-btn-height: var(--space-24); */
 
     /* radius */
-    --dialog-radius: var(--space-17);
+    /* --dialog-radius: var(--space-17); */
 
     /* opacity */
-    --dialog-opacity-1: 0.08;
-    --dialog-opacity-2: var(--opacity-10);
+    /* --dialog-opacity-1: 0.08;
+    --dialog-opacity-2: var(--opacity-10); */
 
     /* padding */
-    --dialog-padding-1: var(--space-15);
+    /* --dialog-padding-1: var(--space-15);
     --dialog-padding-2: var(--space-14);
     --dialog-padding-3: var(--space-13);
     --dialog-padding-4: var(--space-12);
@@ -49,11 +43,11 @@
     --dialog-padding-9: var(--space-4);
     --dialog-padding-10: var(--space-3);
     --dialog-padding-11: var(--space-2);
-    --dialog-padding-12: var(--space-1);
+    --dialog-padding-12: var(--space-1); */
 
 
     /* margin */
-    --dialog-margin-1: var(--space-15);
+    /* --dialog-margin-1: var(--space-15);
     --dialog-margin-2: var(--space-14);
     --dialog-margin-3: var(--space-13);
     --dialog-margin-4: var(--space-12);
@@ -64,45 +58,52 @@
     --dialog-margin-9: var(--space-4);
     --dialog-margin-10: var(--space-3);
     --dialog-margin-11: var(--space-2);
-    --dialog-margin-12: var(--space-1);
+    --dialog-margin-12: var(--space-1); */
 
     /* gap */
-    --dialog-gap-1: var(--space-4);
+    /* --dialog-gap-1: var(--space-4);
     --dialog-gap-2: var(--space-3);
     --dialog-gap-3: var(--space-2);
-    --dialog-gap-4: var(--space-1);
+    --dialog-gap-4: var(--space-1); */
 
     /* line height */
-    --dialog-line-height-1: var(--space-13);
+    /* --dialog-line-height-1: var(--space-13);
     --dialog-line-height-2: var(--space-10);
     --dialog-line-height-3: var(--space-6);
     --dialog-line-height-4: var(--space-4);
-    --dialog-line-height-5: var(--space-3);
+    --dialog-line-height-5: var(--space-3); */
 
+    /* width, height */
+    /* 이거 문서에 최소, 최대 넓이로 나와있어서 수정함 */
+    --dialog-min-width: 280px;
+    --dialog-max-width: 560px;
+
+    --dialog-btn-content-height: 88px;
+    --dialog-btn-width: 85px;
 
     /* 변수 */
     /* 여기서만 수정한다 */
-    --modal-bg: var(--dialog-primary-color-8);
+    --modal-bg: var(--color-base-3);
     --modal-radius: var(--space-17);
     --modal-padding: var(--space-15);
     --modal-min-width: var(--dialog-min-width);
     --modal-max-width: var(--dialog-max-width);
 
-    --modal-color: var(--dialog-primary-color-3);
+    --modal-color: var(--color-base-8);
 
-    --modal-headline-font-color: var(--dialog-primary-color-1);
+    --modal-headline-font-color: var(--color-base-10);
     --modal-headline-font-size: var(--space-15);
     --modal-headline-font-weight: var(--font-weight-4);
     --modal-headline-margin-bottom: var(--space-14);
 
-    --modal-content-font-color: var(--dialog-primary-color-3);
+    --modal-content-font-color: var(--color-base-8);
     --modal-content-font-size: var(--space-8);
     --modal-content-margin-bottom: var(--space-15);
     --modal-content-line-height: var(--space-13);
 
     --modal-actions-gap: var(--dialog-gap-1);
 
-    --modal-btn-color: var(--dialog-primary-color-4);
+    --modal-btn-color: var(--color-sub-2);
     --modal-btn-padding: var(--space-12) var(--space-10);
 
     /* Text Button specific */
@@ -114,10 +115,10 @@
 
 @media (prefers-color-scheme: dark) {
     .m3-dialog {
-        --modal-bg: var(--dialog-primary-color-2);
-        --modal-headline-font-color: var(--dialog-primary-color-7);
-        --modal-content-font-color: var(--dialog-primary-color-6);
-        --modal-btn-color: var(--dialog-primary-color-5);
+        --modal-bg: var(--color-base-2);
+        --modal-headline-font-color: var(--color-base-7);
+        --modal-content-font-color: var(--color-base-6);
+        --modal-btn-color: var(--color-sub-5);
     }
 }
 
@@ -134,24 +135,24 @@
     position: fixed;
     /* top, right, bottom, left 값을 한 번에 지정하는 속성 */
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
 
-    .modal-container {
-        background: var(--modal-bg);
-        padding: var(--modal-padding);
-        border-radius: var(--modal-radius);
-        width: auto;
-        min-width: var(--modal-min-width);
-        max-width: var(--modal-max-width);
-        box-sizing: border-box;
+    /* backdrop */
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
 
-        color: var(--modal-color);
+    /* moved from .modal-container */
+    background: var(--modal-bg);
+    padding: var(--modal-padding);
+    border-radius: var(--modal-radius);
+    min-width: var(--modal-min-width);
+    max-width: var(--modal-max-width);
+    box-sizing: border-box;
 
-        display: flex;
-        flex-direction: column;
-    }
+    color: var(--modal-color);
+
+    flex-direction: column;
 
     .modal-headline {
         margin: 0 0 var(--modal-headline-margin-bottom) 0;
@@ -160,7 +161,7 @@
         font-weight: var(--modal-headline-font-weight);
     }
 
-    .modal-text {
+    .modal-content {
         margin: 0 0 var(--modal-content-margin-bottom) 0;
         color: var(--modal-content-font-color);
         font-size: var(--modal-content-font-size);
