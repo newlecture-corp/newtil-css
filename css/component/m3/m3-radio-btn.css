@@ -127,8 +127,14 @@
     box-shadow: none;
 } */
 
+/* .n-radio input[type="radio"]:disabled:hover::before {
+    box-shadow: none;
+    background-color: transparent;
+} */
 
 .n-radio input[type="radio"]:disabled::before {
+    background-color: transparent;
+    box-shadow: none;
     border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-disabled));
 }
 
