@@ -1,4 +1,4 @@
-:root{
+:root {
     --md3-radio-size: 20px;
     --md3-touch-size: 48px;
     --md3-stroke-width: 2px;
@@ -14,6 +14,12 @@
     --alpha-2: 10%;
     --alpha-3: 62%;
 
+    --transparent-1: 10%;
+    --transparent-2: 90%;
+    --transparent-3: 92%;
+
+    --outline-offset: 5px;
+    --opacity-disabled: calc(var(--opacity-30) + 0.08);
 }
 
 .n-radio {
@@ -24,11 +30,11 @@
     user-select: none;
 }
 
-.n-radio input[type="radio"]{
+.n-radio input[type="radio"] {
     appearance: none;
     width: var(--md3-touch-size);
     height: var(--md3-touch-size);
-    margin: 0;
+    margin: var(--scale-0);
     border: none;
     position: relative;
     background: transparent;
@@ -36,7 +42,7 @@
 }
 
 .n-radio input[type="radio"]::before,
-.n-radio input[type="radio"]::after{
+.n-radio input[type="radio"]::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -48,83 +54,89 @@
 }
 
 /* outer ring */
-.n-radio input[type="radio"]::before{
+.n-radio input[type="radio"]::before {
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
-    border-radius: 50%;
+    border-radius: var(--radius-8);
     border: var(--md3-stroke-width) solid var(--md3-unselect-primary);
 }
 
 /* inner dot */
-.n-radio input[type="radio"]::after{
+.n-radio input[type="radio"]::after {
     width: 0;
     height: 0;
-    border-radius: 50%;
+    border-radius: var(--radius-8);
     border: var(--md3-inner-stroke-width) solid var(--md3-select-primary);
-    opacity: 0;
+    opacity: var(--opacity-0);
 }
 
 /* checked */
-.n-radio input[type="radio"]:checked::before{
+.n-radio input[type="radio"]:checked::before {
     border-color: var(--md3-select-primary);
 }
 
-.n-radio input[type="radio"]:checked::after{
-    opacity: 1;
+.n-radio input[type="radio"]:checked::after {
+    opacity: var(--opacity-100);
     transition-duration: 120ms;
 }
 
 /* hover */
-.n-radio input[type="radio"]:hover::before{
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 92%);
-    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
+.n-radio input[type="radio"]:hover::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
 /* hover */
-.n-radio input[type="radio"]:checked:hover::before{
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 92%);
-    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+.n-radio input[type="radio"]:checked:hover::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 /* press */
-.n-radio input[type="radio"]:active::before{
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
-    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent 90%);
+.n-radio input[type="radio"]:active::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
-.n-radio input[type="radio"]:checked:active::before{
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent 90%);
-    background-color: color-mix(in srgb, var(--md3-select-primary), transparent 90%);
+.n-radio input[type="radio"]:checked:active::before {
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 
 /* focus ring */
-.n-radio input[type="radio"]:focus::before{
-    outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent 10%);
-    outline-offset: 5px;
+.n-radio input[type="radio"]:focus::before {
+    outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
+    outline-offset: var(--outline-offset);
 }
 
-.n-radio input[type="radio"]:checked:focus::before{
-    outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent 10%);
-    outline-offset: 5px;
+.n-radio input[type="radio"]:checked:focus::before {
+    outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
+    outline-offset: var(--outline-offset);
 }
 
 /* disabled */
-.n-radio input[type="radio"]:disabled{
+.n-radio input[type="radio"]:disabled {
     cursor: not-allowed;
+    box-shadow: none;
 }
 
-.n-radio input[type="radio"]:disabled::before{
-    border-color: var(--color-base-9);
-    opacity: 0.38;
+/* disabled
+.n-radio input[type="radio"]:checked:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+} */
+
+
+.n-radio input[type="radio"]:disabled::before {
+    border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--opacity-disabled));
 }
 
-.n-radio input[type="radio"]:disabled::after{
-    border-color: var(--color-base-9);
-    opacity: 0.38;
+.n-radio input[type="radio"]:disabled::after {
+    border-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--opacity-disabled));
 }
 
-.n-radio .n-radio-label{
+.n-radio .n-radio-label {
     font-size: 14px;
-    color: var(--color-base-9);
+    color: var(--md3-unselect-primary);
 }
