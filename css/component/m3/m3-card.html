@@ -9,49 +9,84 @@
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=more_vert"
         />
         <link rel="stylesheet" href="m3-card.css" />
-        <link rel="stylesheet" href="../../components.css" />
         <script src="m3-card.js" defer></script>
     </head>
 
     <body>
-        <div class="m3-card">
-            <!-- 헤더 영역 -->
-            <!-- <div class="header">
-                <div class="avatar">Admin</div>
-                <div class="header-text">
-                    <div class="header-title">Header</div>
-                    <div class="header-subtitle">Subhead</div>
-                </div>
-                <button class="menu-btn"></button>
-            </div> -->
-
-            <!-- 메인; 이미지 영역 -->
-            <div class="image"></div>
-
-            <!-- 컨텐츠 영역역 -->
+        <!---------------------- 기본 상태 ------------------>
+        <div class="m3-card enabled">
             <div class="content">
-                <div class="Headline">Title</div>
-                <div class="Subhead">Subtitle</div>
-                <p class="Text">text</p>
+                <div class="Headline">
+                    Play
+                    relaxing songs
+                </div>
+                <div class="Subhead">From your recent favorites</div>
 
                 <!---------- 버튼 ----------->
                 <div class="m3-btn">
-                    <button class="negative">아니요</button>
-                    <button class="positive">예</button>
+                    <button class="Play">Get started</button>
                 </div>
             </div>
         </div>
-        <!-- 가로형 카드 -->
-        <!-- <div class="horizontal" draggable="true">
+        <!---------------------- 비활성화 상태 ------------------>
+        <div class="m3-card disabled">
+            <div class="content">
+                <div class="Headline">
+                    Play
+                    relaxing songs
+                </div>
+                <div class="Subhead">From your recent favorites</div>
 
-        <div class="content">
-            <div class="avatar">A</div>
-            <div class="text">
-                <div class="title">Header</div>
-                <div class="subtitle">Subhead</div>
+                <!---------- 버튼 ----------->
+                <div class="m3-btn">
+                    <button class="Play">Get started</button>
+                </div>
+            </div>
+        </div>        
+        <!---------------------- 호버 상태 ------------------>
+        <div class="m3-card hovered">
+            <div class="content">
+                <div class="Headline">
+                    Play
+                    relaxing songs
+                </div>
+                <div class="Subhead">From your recent favorites</div>
+
+                <!---------- 버튼 ----------->
+                <div class="m3-btn">
+                    <button class="Play">Get started</button>
+                </div>
+            </div>
+        </div>        
+        <!---------------------- 포커스 상태 ------------------>
+        <div class="m3-card focused">
+            <div class="content">
+                <div class="Headline">
+                    Play
+                    relaxing songs
+                </div>
+                <div class="Subhead">From your recent favorites</div>
+
+                <!---------- 버튼 ----------->
+                <div class="m3-btn">
+                    <button class="Play">Get started</button>
+                </div>
+            </div>
+        </div>        
+        <!---------------------- 드래그 상태 ------------------>
+        <div class="m3-card dragged">
+            <div class="content">
+                <div class="Headline">
+                    Play
+                    relaxing songs
+                </div>
+                <div class="Subhead">From your recent favorites</div>
+
+                <!---------- 버튼 ----------->
+                <div class="m3-btn">
+                    <button class="Play">Get started</button>
+                </div>
             </div>
         </div>
-        <div class="horizontal:icon-area"></div> 
-    </div>-->
     </body>
 </html>
