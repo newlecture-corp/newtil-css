@@ -21,7 +21,7 @@ body{
     padding: 15px;
     cursor: pointer;
     user-select: none;
-    font-size: var(--font-size);
+    font-size: 16px;
     color: var(--chckbox-text-color);
 }
      /* (variables.css에서 :root --font-size 변수명 확인해야) */
@@ -115,12 +115,12 @@ body{
     --checkbox-opacity: var(--opacity-90);
 }
 
-.m3-checkbox .checkbox-mode\:indeterminate input[type="checkbox"]::after{
+.m3-checkbox.checkbox-mode\:indeterminate input[type="checkbox"]::after{
     --checkbox-icon-content: "\f88a" !important;
 }
 
 /* ⬇️확인을 위해 임의로 반복하는 구간 */
-.m3-checkbox .checkbox-state\:enabled::after{
+.m3-checkbox.checkbox-state\:enabled input[type="checkbox"]::after{
     --checkbox-icon-content: "\e5ca";
     --checkbox-opacity: var(--opacity-100)
 }
@@ -133,24 +133,24 @@ body{
     --checkbox-opacity: 0.38;
 } */
 
-.m3-checkbox .checkbox-state\:unselected-disabled{
+.m3-checkbox.checkbox-state\:unselected-disabled input[type="checkbox"]{
     --checkbox-border-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
     --chckbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
 }
 
-.m3-checkbox .checkbox-state\:hovered::before{
+.m3-checkbox.checkbox-state\:hovered input[type="checkbox"]::before{
     --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 92%);
     --checkbox-opacity: var(--opacity-100)
 }
 
-.m3-checkbox .checkbox-state\:focused::before{
+.m3-checkbox.checkbox-state\:focused input[type="checkbox"]::before{
     --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 0%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-opacity: var(--opacity-100)
 }
 
-.m3-checkbox .checkbox-state\:pressed::before{
+.m3-checkbox.checkbox-state\:pressed input[type="checkbox"]::before{
     --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
     --checkbox-opacity: var(--opacity-90);
