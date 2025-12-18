@@ -10,25 +10,42 @@
     --btn-letter-spacing: 0.1, 0.1, 0.15, 0, 0 //자간 */
 
 /* ---------------상수변수------------------ */
+
     /* color */
     --btn-background-color-filled: rgb(var(--rgb-accent-2));
     --btn-background-color-elevated: linear-gradient(161deg, rgba(var(--rgb-base-1), 0.17) 0%, rgba(var(--rgb-base-10), 0.12) 100%);
     --btn-background-color-tonal: linear-gradient(161deg,rgba(255, 200, 0, 1) 8%, rgba(255, 176, 5, 1) 81%);
     --btn-background-color-transparent: transparent;
-    --btn-font-color-1: var(--rgb-base-1);        
-    --btn-font-color-2: var(--rgb-base-7);
-    --btn-font-color-3: 148, 72, 19;
+
+    --btn-background-color-filled-state-disabled: rgba(var(--rgb-base-10), 0.08);
+    --btn-background-color-filled-state-hovered: rgba(var(--rgb-accent-1), 1);
+    --btn-background-color-filled-state-active: radial-gradient(107% 112% at 65% 103%, rgba(var(--rgb-accent-1), 1) 65%, rgba(var(--rgb-accent-2), 1) 66%);
+
+    --btn-background-color-elevated-state-hovered: linear-gradient(161deg, rgba(var(--rgb-base-1), 0.27) 0%, rgba(var(--rgb-base-10), 0.25) 100%);;
+    --btn-background-color-elevated-state-active: radial-gradient(107% 112% at 65% 103%, rgba(var(--rgb-base-10), 0.19) 65%, rgba(var(--rgb-base-10), 0.1) 66%);
+
+    --btn-background-color-tonal-state-hovered: linear-gradient(161deg, rgba(255, 200, 0, 1) 8%, rgba(255, 176, 5, 0.7) 81%);
+    --btn-background-color-tonal-state-active: radial-gradient(107% 112% at 65% 103%, rgba(255, 176, 0, 1) 65%,rgba(255, 176, 0, 0.8) 66%);
+
+    --btn-font-color-1: var(--rgb-base-1);                      /* white */
+    --btn-font-color-2: var(--rgb-base-7);                      /* gray  */
+    --btn-font-color-3: 148, 72, 19;                            /* brown */
+    --btn-font-color-disabled: rgba(var(--rgb-base-10), 0.2);         
 
     /* shape */
     --btn-border-shape-round: 9999px;
     --btn-border-shape-square: 12px;   
 
-    /* layout */
+    /* boxing */
     --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
-    --btn-border: 1px solid rgba(81, 58, 44, 0.2);
-    --btn-outline: 2.5px solid rgba(var(--btn-font-color), 1);
 
+    --btn-border-brown: 2px solid rgb(var(--rgb-base-1));
+    --btn-border-gray: 2px solid rgb(var(--rgb-base-8));
+    --btn-border-gray-thin: 0.3px solid rgba(var(--rgb-base-8), 0.3);
 
+    --btn-outline-brown: 2.5px solid rgba(var(--btn-font-color-3), 1);
+    --btn-outline-gray: 0.2px solid rgba(var(--rgb-base-10), 0.3);
+ 
 
     /* size */
     --btn-height: 56px;                     
@@ -96,7 +113,7 @@
 
     /* boxing */
     background-color: var(--btn-background-color-transparent);
-    border: var(--btn-border);
+    border: var(--btn-border-gray-thin);
 
     /* content */
     color: rgb(var(--btn-font-color-2));
@@ -118,11 +135,12 @@
 
 /* ===========================Button State======================================== */
 
+/* --------------------------공통적용-------------------------- */
 .m3-btn:disabled,
 .btn-state\:disabled {
 
-    background: rgba(var(--rgb-base-10), 0.08);
-    color: rgba(var(--rgb-base-10), 0.2);
+    background: var(--btn-background-color-filled-state-disabled);
+    color: var(--btn-font-color-disabled);
     box-shadow: none;
 
 }
@@ -132,8 +150,8 @@
 .btn-type\:elevated:focus:not(:active),
 .btn-type\:elevated.btn-state\:focus:not(:active) {
 
-    border: 2px solid rgb(var(--rgb-base-8));
-    outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
+    border: var(--btn-border-gray);
+    outline: var(--btn-outline-gray);
     outline-offset: -4px;
 
 }
@@ -141,18 +159,14 @@
 .btn-type\:elevated:hover,
 .btn-type\:elevated.btn-state\:hover {
 
-    background: linear-gradient(161deg,
-            rgba(var(--rgb-base-1), 0.27) 0%,
-            rgba(var(--rgb-base-10), 0.25) 100%);
+    background: var(--btn-background-color-elevated-state-hovered);
 
 }
 
 .btn-type\:elevated:active,
 .btn-type\:elevated.btn-state\:active {
 
-    background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
+    background: var(--btn-background-color-elevated-state-active);
     border-radius: var(--btn-border-shape-square);
 
 }
@@ -160,154 +174,85 @@
 
 /* ----------------Filled State----------------------------- */
 
-
-.btn-type\:filled:disabled,
-.btn-type\:filled.btn-state\:disabled {
-
-    background: rgba(var(--rgb-base-10), 0.08);
-    color: rgba(var(--rgb-base-10), 0.2);
-
-}
-
 .btn-type\:filled:focus:not(:active),
 .btn-type\:filled.btn-state\:focus:not(:active) {
 
-    border: 2px solid rgba(var(--rgb-base-1), 1);
-    outline: 2.5px solid rgba(var(--btn-font-color-3), 1);
+    border: var(--btn-border-brown);
+    outline: var(--btn-outline-brown);
 
 }
 
 .btn-type\:filled:hover,
 .btn-type\:filled.btn-state\:hover {
 
-    background: rgba(var(--rgb-accent-1), 1);
+    background: var(--btn-background-color-filled-state-hovered);
 
 }
 
 .btn-type\:filled:active,
 .btn-type\:filled.btn-state\:active {
 
-    background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-accent-1), 1) 65%,
-            rgba(var(--rgb-accent-2), 1) 66%);
+    background: var(--btn-background-color-filled-state-active);
     border-radius: var(--btn-border-shape-square);
 
 }
 
-
 /* -----------------Tonal State----------------------------- */
-
-
-.btn-type\:tonal:disabled,
-.btn-type\:tonal.btn-state\:disabled {
-
-    background: rgba(var(--rgb-base-10), 0.08);
-    color: rgba(var(--rgb-base-10), 0.2);
-
-}
 
 .btn-type\:tonal:focus:not(:active),
 .btn-type\:tonal.btn-state\:focus:not(:active) {
 
-    border: 2px solid rgb(var(--rgb-base-1));
-    outline: 2.5px solid rgb(var(--btn-font-color-3));
+    border: var(--btn-border-brown);
+    outline: var(--btn-outline-brown);
 
 }
 
 .btn-type\:tonal:hover,
 .btn-type\:tonal.btn-state\:hover {
 
-    background: linear-gradient(161deg,
-            rgba(255, 200, 0, 1) 8%,
-            rgba(255, 176, 5, 0.7) 81%);
+    background: var(--btn-background-color-tonal-state-hovered);
 
 }
 
 .btn-type\:tonal:active,
 .btn-type\:tonal.btn-state\:active {
 
-    background: radial-gradient(107% 112% at 65% 103%,
-            rgba(255, 176, 0, 1) 65%,
-            rgba(255, 176, 0, 0.8) 66%);
+    background: var(--btn-background-color-tonal-state-active);
     border-radius: var(--btn-border-shape-square);
 
 }
 
-/* --------------Outlined State----------------------------- */
-
-
-.btn-type\:outlined:disabled,
-.btn-type\:outlined.btn-state\:disabled {
-
-    background: rgba(var(--rgb-base-10), 0.08);
-    color: rgba(var(--rgb-base-10), 0.2);
-
-}
+/* --------------Outlined & Text State----------------------------- */
 
 .btn-type\:outlined:focus:not(:active),
-.btn-type\:outlined.btn-state\:focus:not(:active) {
+.btn-type\:outlined.btn-state\:focus:not(:active),
+.btn-type\:text:focus:not(:active),
+.btn-type\:text.btn-state\:focus:not(:active) {
 
-    border: 2px solid rgb(var(--rgb-base-8));
-    outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
+    border: var(--btn-border-gray);
+    outline: var(--btn-outline-gray);
     outline-offset: -4px;
 
 }
 
 .btn-type\:outlined:hover,
-.btn-type\:outlined.btn-state\:hover {
+.btn-type\:outlined.btn-state\:hover,
+.btn-type\:text:hover,
+.btn-type\:text.btn-state\:hover {
 
-    background: rgba(var(--rgb-base-10), 0.08);
+    background: var(--btn-background-color-elevated-state-hovered);
 
 }
 
 .btn-type\:outlined:active,
-.btn-type\:outlined.btn-state\:active {
-
-    background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
-    border-radius: var(--btn-border-shape-square);
-
-}
-
-/* ----------------Text State----------------------------- */
-
-
-.btn-type\:text:disabled,
-.btn-type\:text.btn-state\:disabled {
-
-    background: rgba(var(--rgb-base-10), 0.08);
-    color: rgba(var(--rgb-base-10), 0.2);
-
-}
-
-.btn-type\:text:focus:not(:active),
-.btn-type\:text.btn-state\:focus:not(:active) {
-
-    border: 2px solid rgb(var(--rgb-base-8));
-    outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
-    outline-offset: -4px;
-
-}
-
-.btn-type\:text:hover,
-.btn-type\:text.btn-state\:hover {
-
-    background: rgba(var(--rgb-base-10), 0.08);
-
-}
-
+.btn-type\:outlined.btn-state\:active,
 .btn-type\:text:active,
 .btn-type\:text.btn-state\:active {
 
-    background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
+    background: var(--btn-background-color-elevated-state-active);
     border-radius: var(--btn-border-shape-square);
 
 }
-
-
 
 
 /* ===================Button Type & State (Dark Mode)================================ */
@@ -507,8 +452,6 @@
 
     }
 }
-
-
 
 
 /* ===========================Button Size=========================================== */
