@@ -1,646 +1,680 @@
 .m3-btn {
-		/* gap과 margin */
-		--btn-gap: 2px;
-		--btn-margin-top: 5px;
-        --btn-fill: 1;
 
-		/* 색깔 */
-		--btn-background-color: transparent;
-		--btn-background: var(--btn-background-color);
-		--btn-color: inherit;
-		--btn-box-shadow: none;
+    /* gap과 margin */
+    --btn-gap: 2px;
+    --btn-margin-top: 5px;
+    --btn-fill: 1;
 
-		--btn-border: 0;
-		--btn-outline: none;
-		--btn-outline-offset: 0px;
-        --btn-border-radius: 999px;
+    /* 색깔 */
+    --btn-background: rgba(var(--rgb-main-2), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+    --btn-box-shadow: none;
+    --btn-border: 0;
+    --btn-outline: none;
+    --btn-outline-offset: 0px;
+    --btn-border-radius: 999px;
 
-		/* 사이즈 */
-		--btn-height: var(--space-28);
-		--btn-padding: 0 var(--space-15);
+    /* 사이즈 */
+    --btn-height: var(--space-22);
+    --btn-padding: 0 var(--space-10);
 
-		/* 폰트 */
-		--btn-font-size: var(--space-10);
-		--btn-font-weight: 500;
-		--btn-line-height: var(--space-15);
-		--btn-letter-spacing: 0.15px;
+    /* 폰트 */
+    --btn-font-size: var(--space-8);
+    --btn-font-weight: var(--font-weight-medium);
+    --btn-line-height: var(--space-13);
+    --btn-letter-spacing: 0.1px;
 }
 
-/* ================================Button Type & State (Dark Mode)================================== */
 
 @media (prefers-color-scheme: dark) {
 
     body {
-        --btn-background-color: rgb(var(--rgb-base-9));
+        background-color: #000000;
+    }
+
+    .m3-btn {
+        /* 색깔 */
+        --btn-background: rgba(var(--rgb-main-1), 1);
+        --btn-color: rgb(var(--rgb-main-3));
+    }
+
+
+    .btn\:filled {
+
+        --btn-background: rgba(var(--rgb-main-1), 1);
+        --btn-color: rgb(var(--rgb-main-3));
 
     }
 
-    /* ---------------------------Elevated Type & State----------------------------- */
+    .m3-btn:disabled,
+    .m3-btn.btn-state\:disabled {
 
-    .btn-type-elevated {
-
-        --btn-background: linear-gradient(161deg,
-                rgba(81, 58, 44, 1) 0%,
-                rgba(81, 58, 44, 0.1) 100%);
-        --btn-box-shadow: 0px 0.7px 3px 0.5px rgba(var(--rgb-accent-1), 0.12);
-        --btn-color: rgb(212, 135, 0);
+        --btn-background: rgba(var(--rgb-main-3), 0.3);
+        --btn-color: rgba(var(--rgb-main-1), 0.3);
 
     }
 
-    .btn-type-elevated:disabled,
-    .btn-type-elevated.btn-state\:disabled {
+    .m3-btn:focus:not(:active),
+    .m3-btn.btn-state\:focus:not(:active) {
 
-        --btn-background: rgba(81, 58, 44, 0.3);
-        --btn-color: rgba(var(--rgb-accent-2), 0.2);
-
-    }
-
-    .btn-type-elevated:focus:not(:active),
-    .btn-type-elevated.btn-state\:focus:not(:active) {
-
-        --btn-outline: 2px solid rgb(212, 135, 0);
-        --btn-border: 3px solid rgb(81, 58, 44);
+        --btn-border: 2px solid rgb(var(--rgb-main-3));
+        --btn-outline: 2px solid rgb(var(--rgb-main-1));
 
     }
 
-    .btn-type-elevated:hover,
-    .btn-type-elevated.btn-state\:hover {
+    .m3-btn:hover,
+    .m3-btn.btn-state\:hover {
 
-        --btn-background: linear-gradient(161deg,
-                rgba(81, 58, 44, 0.7) 0%,
-                rgba(81, 58, 44, 0.1) 100%);
+        --btn-background-color: none;
+        --btn-background: rgba(var(--rgb-main-1), 0.9);
 
     }
 
-    .btn-type-elevated:active,
-    .btn-type-elevated.btn-state\:active {
+    .m3-btn:active,
+    .m3-btn.btn-state\:active {
 
         --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(54, 36, 24, 0.7) 65%,
-                rgba(81, 58, 44, 0.7) 66%);
-        --btn-border-radius: var(--border-radius-5);
+                rgba(var(--rgb-main-2), 1) 65%,
+                rgba(var(--rgb-main-1), 1) 66%);
+        --btn-border-radius: var(--radius-lg);
 
     }
 
-    /* ---------------------------Filled Type & State----------------------------- */
-
-    .btn-type-filled {
-
-        --btn-background-color: rgb(212, 135, 0);
-        --btn-color: rgb(94, 40, 8);
-        --btn-font-weight: 600;
-
-    }
-
-    .btn-type-filled:disabled,
-    .btn-type-filled.btn-state\:disabled {
-
-        --btn-background: rgba(81, 58, 44, 0.3);
-        --btn-color: rgba(var(--rgb-accent-2), 0.2);
-
-    }
-
-    .btn-type-filled:focus:not(:active),
-    .btn-type-filled.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(94, 40, 8);
-        --btn-outline: 2px solid rgb(212, 135, 0);
-
-    }
-
-    .btn-type-filled:hover,
-    .btn-type-filled.btn-state\:hover {
-
-        --btn-background: rgba(240, 155, 20, 1);
-
-    }
-
-    .btn-type-filled:active,
-    .btn-type-filled.btn-state\:active {
+    #btn-toggle:checked+.m3-btn {
 
         --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(212, 135, 0, 1) 65%,
-                rgba(var(--rgb-accent-1), 1) 66%);
+                rgba(var(--rgb-main-2), 1) 65%,
+                rgba(var(--rgb-main-1), 1) 66%);
         --btn-border-radius: var(--border-radius-5);
+    }
+
+    .btn\:elevated {
+
+        /* boxing */
+        --btn-background: rgba(var(--rgb-main-3), 0.3);
+        --btn-box-shadow: 0px 0.7px 0.5px 1px rgba(var(--rgb-base-10), 1);
+
+        /* content */
+        --btn-color: rgb(var(--rgb-main-1));
+    }
+
+    .btn\:tonal {
+        --btn-background: rgba(var(--rgb-main-3), 0.7);
+        --btn-color: rgb(var(--rgb-main-1));
 
     }
 
-    /* ---------------------------Tonal Type & State----------------------------- */
+    .btn\:outlined {
 
-
-    .btn-type-tonal {
-
-        --btn-background: rgba(81, 58, 44, 1);
-        --btn-color: rgb(212, 135, 0);
+        --btn-background: none;
+        --btn-color: rgb(var(--rgb-main-1));
+        --btn-outline: 0.1px solid rgb(var(--rgb-main-3));
 
     }
 
-    .btn-type-tonal:disabled,
-    .btn-type-tonal.btn-state\:disabled {
+    .btn\:text {
 
-        --btn-background: rgba(81, 58, 44, 0.3);
-        --btn-color: rgba(var(--rgb-accent-2), 0.2);
-
-    }
-
-    .btn-type-tonal:focus:not(:active),
-    .btn-type-tonal.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(212, 135, 0);
-        --btn-outline: 3px solid rgb(81, 58, 44);
+        --btn-background: none;
+        --btn-color: rgb(var(--rgb-main-2));
 
     }
 
-    .btn-type-tonal:hover,
-    .btn-type-tonal.btn-state\:hover {
 
-        --btn-background: rgba(81, 58, 44, 0.7);
+    /* ---------------------------Elevated State----------------------------- */
+
+
+    .btn\:elevated:focus:not(:active),
+    .btn\:elevated.btn-state\:focus:not(:active) {
+
+        --btn-outline: 2px solid rgb(var(--rgb-main-3));
+        --btn-border: 2px solid rgb(var(--rgb-base-1));
 
     }
 
-    .btn-type-tonal:active,
-    .btn-type-tonal.btn-state\:active {
+    .btn\:elevated:hover,
+    .btn\:elevated.btn-state\:hover {
+
+        --btn-background: rgba(var(--rgb-main-3), 0.7);
+
+    }
+
+    .btn\:elevated:active,
+    .btn\:elevated.btn-state\:active {
+
+        --btn-background: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-3), 0.7) 65%,
+                rgba(var(--rgb-main-3), 1) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.btn\:elevated {
+
+        --btn-background: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-3), 0.7) 65%,
+                rgba(var(--rgb-main-3), 1) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+    /* ---------------------------Tonal State----------------------------- */
+
+    .btn\:tonal:focus:not(:active),
+    .btn\:tonal.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-base-1));
+        --btn-outline: 3px solid rgb(var(--rgb-main-3));
+
+    }
+
+    .btn\:tonal:hover,
+    .btn\:tonal.btn-state\:hover {
+
+        --btn-background: rgba(var(--rgb-main-3), 0.7);
+
+    }
+
+    .btn\:tonal:active,
+    .btn\:tonal.btn-state\:active {
 
         --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(54, 36, 24, 0.7) 65%,
-                rgba(81, 58, 44, 0.7) 66%);
-        --btn-border-radius: var(--border-radius-5);
+                rgba(var(--rgb-main-2), 0.7) 65%,
+                rgba(var(--rgb-main-3), 0.7) 66%);
+        --btn-border-radius: var(--radius-lg);
 
     }
 
+    #btn-toggle:checked+.btn\:tonal {
 
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-2), 0.7) 65%,
+                rgba(var(--rgb-main-3), 0.7) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
 
     /* ---------------------------Outlined and Text Type & State----------------------------- */
 
-    .btn-type-outlined,
-    .btn-type-text {
+    .btn\:outlined:focus:not(:active),
+    .btn\:outlined.btn-state\:focus:not(:active) {
 
-        --btn-background-color: var(--color-transparent);
-        --btn-color: rgb(212, 135, 0);
-        --btn-outline: 1px solid rgb(var(--rgb-accent-1));
-
-    }
-
-    .btn-type-outlined:disabled,
-    .btn-type-outlined.btn-state\:disabled,
-    .btn-type-text:disabled,
-    .btn-type-text.btn-state\:disabled {
-
-        --btn-background: rgba(81, 58, 44, 0.3);
-        --btn-color: rgba(var(--rgb-accent-2), 0.2);
-
-    }
-
-    .btn-type-outlined:focus:not(:active),
-    .btn-type-outlined.btn-state\:focus:not(:active),
-    .btn-type-text:focus:not(:active),
-    .btn-type-text.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(212, 135, 0);
-        --btn-outline: 0.1px solid rgba(var(--rgb-accent-1), 0.3);
+        --btn-border: 2px solid rgb(var(--rgb-main-1));
+        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.3);
         --btn-outline-offset: -5px;
 
     }
 
-    .btn-type-outlined:hover,
-    .btn-type-outlined.btn-state\:hover,
-    .btn-type-text:hover,
-    .btn-type-text.btn-state\:hover {
+    .btn\:outlined:hover,
+    .btn\:outlined.btn-state\:hover {
 
-        --btn-background: rgba(81, 58, 44, 0.4);
+        --btn-background: rgba(var(--rgb-main-3), 0.5);
 
     }
 
-    .btn-type-outlined:active,
-    .btn-type-outlined.btn-state\:active,
-    .btn-type-text:active,
-    .btn-type-text.btn-state\:active {
+    .btn\:outlined:active,
+    .btn\:outlined.btn-state\:active {
 
         --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(81, 58, 44, 0.6) 65%,
-                rgba(81, 58, 44, 0.3) 66%);
-        --btn-border-radius: var(--border-radius-5);
+                rgba(var(--rgb-main-2), 0.5) 65%,
+                rgba(var(--rgb-main-2), 0.3) 66%);
+        --btn-border-radius: var(--radius-lg);
 
     }
+
+    #btn-toggle:checked+.btn\:outlined {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-2), 0.5) 65%,
+                rgba(var(--rgb-main-2), 0.3) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+
+    /* ---------------------------Text State----------------------------- */
+
+    .btn\:text:focus:not(:active),
+    .btn\:text.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-main-1));
+        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.3);
+        --btn-outline-offset: -5px;
+
+    }
+
+    .btn\:text:hover,
+    .btn\:text.btn-state\:hover {
+
+        --btn-background: rgba(var(--rgb-main-3), 0.5);
+
+    }
+
+    .btn\:text:active,
+    .btn\:text.btn-state\:active {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-2), 0.5) 65%,
+                rgba(var(--rgb-main-2), 0.3) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.btn\:text {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-2), 0.5) 65%,
+                rgba(var(--rgb-main-2), 0.3) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
 }
+
 /* ----------------------------Base Type------------------------------ */
 
-.m3-btn{
-	/* ----------box---------- */
-	border: var(--btn-border);
-	border-radius: var(--btn-border-radius);
-	height: var(--btn-height);
-	padding: var(--btn-padding);
+.m3-btn {
+    /* ----------box---------- */
+    border: var(--btn-border);
+    border-radius: var(--btn-border-radius);
+    height: var(--btn-height);
+    padding: var(--btn-padding);
 
 
-	/* 색깔 */
-	background-color: var(--btn-background-color);
-	background: var(--btn-background);
+    /* 색깔 */
+    background: var(--btn-background);
+    color: var(--btn-color);
+    box-shadow: var(--btn-box-shadow);
 
-	color: var(--btn-color);
-	box-shadow: var(--btn-box-shadow);
+    outline: var(--btn-outline);
+    outline-offset: var(--btn-outline-offset);
 
-	outline: var(--btn-outline);
-	outline-offset: var(--btn-outline-offset);
+    /* 폰트 */
+    font-family: roboto;
+    font-variation-settings: 'FILL' var(--btn-fill);
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height);
+    letter-spacing: var(--btn-letter-spacing);
 
-	/* 폰트 */
-	font-family: roboto;
-	font-variation-settings: 'FILL' var(--btn-fill);
-	font-size: var(--btn-font-size);
-	font-weight: var(--btn-font-weight);
-	line-height: var(--btn-line-height);
-	letter-spacing: var(--btn-letter-spacing);
+    margin-top: var(--btn-margin-top);
+    gap: var(--btn-gap);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
-	margin-top: var(--btn-margin-top);
-	gap: var(--btn-gap);
-	transition: background-color 0.3s ease, transform 0.3s ease;
-
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-type-elevated {
+@media(prefers-color-scheme: light) {
+    .btn\:filled {
 
+        /* boxing */
+        --btn-background: rgba(var(--rgb-main-2), 1);
+
+        /* content */
+        --btn-color: rgb(var(--rgb-base-1));
+
+    }
+
+    .m3-btn:disabled,
+    .btn-state\:disabled {
+
+        --btn-background: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+
+    }
+
+    .m3-btn:focus:not(:active),
+    .btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+
+    }
+
+    .m3-btn:hover,
+    .btn-state\:hover {
+
+        --btn-background: rgba(var(--rgb-main-2), 0.7);
+
+    }
+
+    .m3-btn:active,
+    .btn-state\:active {
+
+        --btn-background: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-2), 0.7) 65%,
+                rgba(var(--rgb-main-2), 1) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.m3-btn {
+
+        --btn-background: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-2), 0.7) 65%,
+                rgba(var(--rgb-main-2), 1) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+
+    .btn\:elevated {
+
+        /* boxing */
+        --btn-background: linear-gradient(161deg,
+                rgba(var(--rgb-main-1), 0.01) 0%,
+                rgba(var(--rgb-main-1), 0.2) 100%);
+        --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
+
+        /* content */
+        --btn-color: rgb(var(--rgb-main-2));
+    }
+
+    .btn\:tonal {
+
+        /* boxing */
+        --btn-background: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-1), 1) 0%,
+                rgba(var(--rgb-main-1), 0.7) 100%);
+
+        /* content */
+        --btn-color: rgb(var(--rgb-main-3));
+
+    }
+
+    .btn\:outlined {
+
+        /* boxing */
+        --btn-background: none;
+        --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
+
+        /* content */
+        --btn-color: rgb(var(--rgb-main-3));
+
+    }
+
+    .btn\:text {
+
+        /* boxing */
+        --btn-background: none;
+        --btn-border: none;
+        --btn-outline: none;
+
+        /* content */
+        --btn-color: rgb(var(--rgb-main-2));
+
+    }
+
+
+
+    /* -----------Elevated State------------ */
+
+
+    .btn\:elevated:disabled,
+    .btn\:elevated.btn-state\:disabled {
+
+        --btn-background: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+        --btn-box-shadow: none;
+
+    }
+
+    .btn\:elevated:focus:not(:active),
+    .btn\:elevated.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-main-3));
+        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+        --btn-outline-offset: -4px;
+
+    }
+
+    .btn\:elevated:hover,
+    .btn\:elevated.btn-state\:hover {
+
+        --btn-background: linear-gradient(161deg,
+                rgba(var(--rgb-main-1), 0.1) 0%,
+                rgba(var(--rgb-main-1), 0.5) 100%);
+
+    }
+
+    .btn\:elevated:active,
+    .btn\:elevated.btn-state\:active {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+
+    }
+
+    #btn-toggle:checked+.btn\:elevated {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+
+    /* -------Tonal State------------- */
+
+
+    .btn\:tonal:disabled,
+    .btn\:tonal.btn-state\:disabled {
+
+        --btn-background: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+
+    }
+
+    .btn\:tonal:focus:not(:active),
+    .btn\:tonal.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-base-1));
+        --btn-outline: 2.5px solid rgb(var(--rgb-main-2));
+
+    }
+
+    .btn\:tonal:hover,
+    .btn\:tonal.btn-state\:hover {
+
+        --btn-background: linear-gradient(161deg,
+                rgba(var(--rgb-main-1), 0.5) 8%,
+                rgba(var(--rgb-main-1), 0.6) 81%);
+
+    }
+
+    .btn\:tonal:active,
+    .btn\:tonal.btn-state\:active {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 1) 65%,
+                rgba(var(--rgb-main-1), 0.8) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.btn\:tonal {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 1) 65%,
+                rgba(var(--rgb-main-1), 0.8) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+
+    /* ----------Outlined State---------- */
+
+
+    .btn\:outlined:disabled,
+    .btn\:outlined.btn-state\:disabled {
+
+        --btn-background: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+
+    }
+
+    .btn\:outlined:focus:not(:active),
+    .btn\:outlined.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-main-3));
+        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+        --btn-outline-offset: -4px;
+
+    }
+
+    .btn\:outlined:hover,
+    .btn\:outlined.btn-state\:hover {
+
+        --btn-background: linear-gradient(161deg,
+                rgba(var(--rgb-main-1), 0.01) 0%,
+                rgba(var(--rgb-main-1), 0.2) 100%);
+
+    }
+
+    .btn\:outlined:active,
+    .btn\:outlined.btn-state\:active {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.btn\:outlined {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+
+    /* -------Text State----------- */
+
+    .btn\:text:disabled,
+    .btn\:text.btn-state\:disabled {
+
+        --btn-background: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+
+    }
+
+    .btn\:text:focus:not(:active),
+    .btn\:text.btn-state\:focus:not(:active) {
+
+        --btn-border: 2px solid rgb(var(--rgb-main-3));
+        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+        --btn-outline-offset: -4px;
+
+    }
+
+    .btn\:text:hover,
+    .btn\:text.btn-state\:hover {
+
+        --btn-background: linear-gradient(161deg,
+                rgba(var(--rgb-main-1), 0.01) 0%,
+                rgba(var(--rgb-main-1), 0.2) 100%);
+
+    }
+
+    .btn\:text:active,
+    .btn\:text.btn-state\:active {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+
+    }
+
+    #btn-toggle:checked+.btn\:text {
+
+        --btn-background: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-1), 0.4) 65%,
+                rgba(var(--rgb-main-1), 0.2) 66%);
+        --btn-border-radius: var(--radius-lg);
+    }
+}
+
+/* ================Button Size================*/
+
+.btn-shape\:square {
+    --btn-border-radius: 12px;
+}
+
+.btn-size\:1 {
     /* boxing */
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-base-1), 0.17) 0%,
-            rgba(var(--rgb-base-10), 0.12) 100%);
-    --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
-
-    
+    --btn-height: var(--space-19);
+    --btn-padding: 0 var(--space-6);
 
     /* content */
-    --btn-color: rgb(var(--rgb-base-7));
+    --btn-font-size: var(--space-8);
+    --btn-font-weight: var(--font-weight-medium);
+    --btn-line-height: var(--space-13);
+    --btn-letter-spacing: 0.1px;
 }
 
-.btn-type-filled {
+.btn-size\:1.btn-shape\:square {
+    --btn-border-radius: 12px;
+}
 
+.btn-size\:2 {
     /* boxing */
-    --btn-background-color: rgb(var(--rgb-accent-2));
-    /* background-color: color-mix(in srgb, #5e2808, transparent #944813); */
+    --btn-height: var(--space-22);
+    --btn-padding: 0 var(--space-10);
 
     /* content */
-    --btn-color: rgb(var(--rgb-base-1));
-
+    --btn-font-size: var(--space-8);
+    --btn-font-weight: var(--font-weight-medium);
+    --btn-line-height: var(--space-13);
+    --btn-letter-spacing: 0.1px;
 }
 
-.btn-type-tonal {
+.btn-size\:2.btn-shape\:square {
+    --btn-border-radius: 12px;
+}
 
+.btn-size\:3 {
     /* boxing */
-    --btn-background: linear-gradient(161deg,
-            rgba(255, 200, 0, 1) 8%,
-            rgba(255, 176, 5, 1) 81%);
+    --btn-height: var(--space-28);
+    --btn-padding: 0 var(--space-15);
 
     /* content */
-    --btn-color: rgb(148, 72, 19);
-
+    --btn-font-size: var(--space-10);
+    --btn-font-weight: var(--font-weight-medium);
+    --btn-line-height: var(--space-15);
+    --btn-letter-spacing: 0.15px;
 }
 
-.btn-type-outlined {
+.btn-size\:3.btn-shape\:square {
+    --btn-border-radius: 16px;
+}
 
+.btn-size\:4 {
     /* boxing */
-    --btn-background-color: rgb(var(--color-transparent));
-    --btn-border: 1px solid rgba(81, 58, 44, 0.2);
+    --btn-height: var(--space-32);
+    --btn-padding: 0 var(--space-24);
 
     /* content */
-    --btn-color: rgb(var(--rgb-base-7));
-
+    --btn-font-size: var(--space-15);
+    --btn-font-weight: 600;
+    --btn-line-height: var(--space-19);
+    --btn-letter-spacing: 0px;
 }
 
-/* ---------------------------Elevated Type & State----------------------------- */
-
-
-.btn-type-elevated:disabled,
-.btn-type-elevated.btn-state\:disabled {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-    --btn-box-shadow: none;
-
+.btn-size\:4.btn-shape\:square {
+    --btn-border-radius: 28px;
 }
 
-.btn-type-elevated:focus:not(:active),
-.btn-type-elevated.btn-state\:focus:not(:active) {
-
-    --btn-border: 2px solid rgb(var(--rgb-base-8));
-    --btn-outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
-    --btn-outline-offset: -4px;
-
-}
-
-.btn-type-elevated:hover,
-.btn-type-elevated.btn-state\:hover {
-
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-base-1), 0.27) 0%,
-            rgba(var(--rgb-base-10), 0.25) 100%);
-
-}
-
-.btn-type-elevated:active,
-.btn-type-elevated.btn-state\:active {
-
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
-    --btn-border-radius: var(--border-radius-5);
-
-}
-
-
-/* ---------------------------Filled Type & State----------------------------- */
-
-
-.btn-type-filled:disabled,
-.btn-type-filled.btn-state\:disabled {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-}
-
-.btn-type-filled:focus:not(:active),
-.btn-type-filled.btn-state\:focus:not(:active) {
-
-    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
-    --btn-outline: 2.5px solid rgba(148, 72, 19, 1);
-
-}
-
-.btn-type-filled:hover,
-.btn-type-filled.btn-state\:hover {
-
-    --btn-background: rgba(var(--rgb-accent-1), 1);
-
-}
-
-.btn-type-filled:active,
-.btn-type-filled.btn-state\:active {
-
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-accent-1), 1) 65%,
-            rgba(var(--rgb-accent-2), 1) 66%);
-    --btn-border-radius: var(--border-radius-5);
-
-}
-
-
-/* ---------------------------Tonal Type & State----------------------------- */
-
-
-.btn-type-tonal:disabled,
-.btn-type-tonal.btn-state\:disabled {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-}
-
-.btn-type-tonal:focus:not(:active),
-.btn-type-tonal.btn-state\:focus:not(:active) {
-
-    --btn-border: 2px solid rgb(var(--rgb-base-1));
-    --btn-outline: 2.5px solid rgb(148, 72, 19);
-
-}
-
-.btn-type-tonal:hover,
-.btn-type-tonal.btn-state\:hover {
-
-    --btn-background: linear-gradient(161deg,
-            rgba(255, 200, 0, 1) 8%,
-            rgba(255, 176, 5, 0.7) 81%);
-
-}
-
-.btn-type-tonal:active,
-.btn-type-tonal.btn-state\:active {
-
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(255, 176, 0, 1) 65%,
-            rgba(255, 176, 0, 0.8) 66%);
-    --btn-border-radius: var(--border-radius-5);
-
-}
-
-/* ---------------------------Outlined Type & State----------------------------- */
-
-
-.btn-type-outlined:disabled,
-.btn-type-outlined.btn-state\:disabled {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-}
-
-.btn-type-outlined:focus:not(:active),
-.btn-type-outlined.btn-state\:focus:not(:active) {
-
-    --btn-border: 2px solid rgb(var(--rgb-base-8));
-    --btn-outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
-    --btn-outline-offset: -4px;
-
-}
-
-.btn-type-outlined:hover,
-.btn-type-outlined.btn-state\:hover {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-
-}
-
-.btn-type-outlined:active,
-.btn-type-outlined.btn-state\:active {
-
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
-    --btn-border-radius: var(--border-radius-5);
-
-}
-
-/* ---------------------------Text Type & State----------------------------- */
-.btn-type-text {
-
+.btn-size\:5 {
     /* boxing */
-    --btn-background-color: rgb(var(--color-transparent));
-    --btn-border: none;
-    --btn-outline: none;
+    --btn-height: var(--space-35);
+    --btn-padding: 0 var(--space-29);
 
     /* content */
-    --btn-color: rgb(var(--rgb-base-7));
-
+    --btn-font-size: var(--space-19);
+    --btn-font-weight: 600;
+    --btn-line-height: var(--space-22);
+    --btn-letter-spacing: 0px;
 }
 
-.btn-type-text:disabled,
-.btn-type-text.btn-state\:disabled {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-
+.btn-size\:5.btn-shape\:square {
+    --btn-border-radius: 28px;
 }
-
-.btn-type-text:focus:not(:active),
-.btn-type-text.btn-state\:focus:not(:active) {
-
-    --btn-border: 2px solid rgb(var(--rgb-base-8));
-    --btn-outline: 0.3px solid rgba(var(--rgb-base-10), 0.3);
-    --btn-outline-offset: -4px;
-
-}
-
-.btn-type-text:hover,
-.btn-type-text.btn-state\:hover {
-
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-
-}
-
-.btn-type-text:active,
-.btn-type-text.btn-state\:active {
-
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-base-10), 0.19) 65%,
-            rgba(var(--rgb-base-10), 0.1) 66%);
-    --btn-border-radius: var(--border-radius-5);
-
-}
-
-/* =============================Button Size========================================================= */
-
-/* ----------------------Round------------------------------------- */
-
-.btn-round-size-1 {
-	/* boxing */
-	--btn-height: var(--space-19);
-	--btn-padding: 0 var(--space-6);
-	--btn-border-radius: 999px;
-  
-	/* content */
-	--btn-font-size: var(--space-8);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-13);
-	--btn-letter-spacing: 0.1px;
-  }
-  
-  
-  .btn-round-size-2 {
-	/* boxing */
-	--btn-height: var(--space-22);
-	--btn-padding: 0 var(--space-10);
-	--btn-border-radius: 999px;
-  
-	/* content */
-	--btn-font-size: var(--space-8);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-13);
-	--btn-letter-spacing: 0.1px;
-  }
-  
-  .btn-round-size-3 {
-	/* boxing */
-	--btn-height: var(--space-28);
-	--btn-padding: 0 var(--space-15);
-	--btn-border-radius: 999px;
-  
-	/* content */
-	--btn-font-size: var(--space-10);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-15);
-	--btn-letter-spacing: 0.15px;
-  }
-  
-  .btn-round-size-4 {
-	/* boxing */
-	--btn-height: var(--space-32);
-	--btn-padding: 0 var(--space-24);
-	--btn-border-radius: 999px;
-  
-	/* content */
-	--btn-font-size: var(--space-15);
-	--btn-font-weight: 600;
-	--btn-line-height: var(--space-19);
-	--btn-letter-spacing: 0px;
-  }
-  
-  .btn-round-size-5 {
-	/* boxing */
-	--btn-height: var(--space-35);
-	--btn-padding: 0 var(--space-29);
-	--btn-border-radius: 999px;
-  
-	/* content */
-	--btn-font-size: var(--space-19);
-	--btn-font-weight: 600;
-	--btn-line-height: var(--space-22);
-	--btn-letter-spacing: 0px;
-  }
-  
-  /* ----------------------Square------------------------------------- */
-  
-  .btn-square-size-1 {
-	/* boxing */
-	--btn-height: var(--space-19);
-	--btn-padding: 0 var(--space-6);
-	--btn-border-radius: var(--border-radius-5);
-  
-	/* content */
-	--btn-font-size: var(--space-8);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-13);
-	--btn-letter-spacing: 0.1px;
-  }
-  
-  .btn-square-size-2 {
-	/* boxing */
-	--btn-height: var(--space-22);
-	--btn-padding: 0 var(--space-10);
-	--btn-border-radius: var(--border-radius-5);
-  
-	/* content */
-	--btn-font-size: var(--space-8);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-13);
-	--btn-letter-spacing: 0.1px;
-  }
-  
-  .btn-square-size-3 {
-	/* boxing */
-	--btn-height: var(--space-28);
-	--btn-padding: 0 var(--space-15);
-	--btn-border-radius: var(--border-radius-6);
-  
-	/* content */
-	--btn-font-size: var(--space-10);
-	--btn-font-weight: 500;
-	--btn-line-height: var(--space-15);
-	--btn-letter-spacing: 0.15px;
-  }
-  
-  .btn-square-size-4 {
-	/* boxing */
-	--btn-height: var(--space-32);
-	--btn-padding: 0 var(--space-24);
-	--btn-border-radius: var(--space-17);
-  
-	/* content */
-	--btn-font-size: var(--space-15);
-	--btn-font-weight: 600;
-	--btn-line-height: var(--space-19);
-	--btn-letter-spacing: 0px;
-  }
-  
-  .btn-square-size-5 {
-	/* boxing */
-	--btn-height: var(--space-35);
-	--btn-padding: 0 var(--space-29);
-	--btn-border-radius: var(--space-17);
-  
-	/* content */
-	--btn-font-size: var(--space-19);
-	--btn-font-weight: 600;
-	--btn-line-height: var(--space-22);
-	--btn-letter-spacing: 0px;
-  } 
