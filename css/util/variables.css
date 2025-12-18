@@ -2,76 +2,56 @@
 /* NewTil CSS 커스터마이징을 위한 CSS Variables 시스템 */
 /* 사용자가 이 값들을 재정의하여 전체 디자인 시스템을 커스터마이징할 수 있습니다 */
 
-:root {
+ :root {
 	/* 루트 폰트 크기 설정 (Material Design 호환성) */
 	font-size: 16px;
-
+	
 	/* Body 폰트 크기 변수 */
 	--font-size-body: 14px;
-
+	
 	/* 단위 인자 (root 16px 기준) */
 	--u-px: 1px;
-	--u-rem: 0.0625rem;
-	/* 1px */
-	--u-em: 0.0625em;
-	/* 1px (로컬 font-size 기준) */
+	--u-rem: 0.0625rem; /* 1px */
+	--u-em:  0.0625em;  /* 1px (로컬 font-size 기준) */
 
 	/* 1) 통합 스케일 시스템 (단위 비중립, px 숫자값) */
 	/* spacing (padding, margin, gap)과 size (width, height) 모두 이 스케일을 사용합니다. */
 	/* 이미지 가이드의 모든 수치를 포함하도록 조정되었습니다. */
 	--scale-0: 0;
-	--scale-1: 1;
-	/* 1px */
-	--scale-2: 2;
-	/* 이미지: 간격 2 */
+	--scale-1: 1;   /* 1px */
+	--scale-2: 2;   /* 이미지: 간격 2 */
 	--scale-3: 4;
 	--scale-4: 8;
-	--scale-5: 10;
-	/* 이미지: 간격 10 */
+	--scale-5: 10;  /* 이미지: 간격 10 */
 	--scale-6: 12;
-	--scale-7: 13;
-	/* 이미지: 간격 13 */
-	--scale-8: 14;
-	/* 이미지: 간격 14 */
-	--scale-9: 15;
-	/* 이미지: 간격 15 */
+	--scale-7: 13;  /* 이미지: 간격 13 */
+	--scale-8: 14;  /* 이미지: 간격 14 */
+	--scale-9: 15;  /* 이미지: 간격 15 */
 	--scale-10: 16;
-	--scale-11: 17;
-	/* 이미지: 간격 17 */
-	--scale-12: 18;
-	/* 이미지: 간격 18 */
+	--scale-11: 17; /* 이미지: 간격 17 */
+	--scale-12: 18; /* 이미지: 간격 18 */
 	--scale-13: 20;
-	--scale-14: 22;
-	/* 이미지: 간격 22 */
+	--scale-14: 22; /* 이미지: 간격 22 */
 	--scale-15: 24;
-	--scale-16: 26;
-	/* 이미지: 간격 26 */
+	--scale-16: 26; /* 이미지: 간격 26 */
 	--scale-17: 28;
-	--scale-18: 29;
-	/* 이미지: 간격 29 */
+	--scale-18: 29; /* 이미지: 간격 29 */
 	--scale-19: 32;
-	--scale-20: 37;
-	/* 이미지: 간격 37 */
-	--scale-21: 38;
-	/* 이미지: 간격 38 */
+	--scale-20: 37; /* 이미지: 간격 37 */
+	--scale-21: 38; /* 이미지: 간격 38 */
 	--scale-22: 40;
-	--scale-23: 43;
-	/* 이미지: 간격 43 */
+	--scale-23: 43; /* 이미지: 간격 43 */
 	--scale-24: 48;
-	--scale-25: 49;
-	/* 이미지: 간격 49 */
-	--scale-26: 50;
-	/* 이미지: 간격 50 */
-	--scale-27: 52;
-	/* 이미지: 간격 52 */
+	--scale-25: 49; /* 이미지: 간격 49 */
+	--scale-26: 50; /* 이미지: 간격 50 */
+	--scale-27: 52; /* 이미지: 간격 52 */
 	--scale-28: 56;
 	--scale-29: 64;
 	--scale-30: 72;
 	--scale-31: 80;
 	--scale-32: 96;
 	--scale-33: 104;
-	--scale-34: 128;
-	/* 이미지: 간격 128 */
+	--scale-34: 128; /* 이미지: 간격 128 */
 	--scale-35: 136;
 	--scale-36: 184;
 	--scale-37: 200;
@@ -82,16 +62,16 @@
 
 	/* 2) px 별칭: --space-N (접미사 없음) */
 	/* spacing (padding, margin, gap)과 size (width, height) 모두 이 변수를 사용합니다. */
-	--space-0: calc(var(--scale-0) * var(--u-px));
-	--space-1: calc(var(--scale-1) * var(--u-px));
-	--space-2: calc(var(--scale-2) * var(--u-px));
-	--space-3: calc(var(--scale-3) * var(--u-px));
-	--space-4: calc(var(--scale-4) * var(--u-px));
-	--space-5: calc(var(--scale-5) * var(--u-px));
-	--space-6: calc(var(--scale-6) * var(--u-px));
-	--space-7: calc(var(--scale-7) * var(--u-px));
-	--space-8: calc(var(--scale-8) * var(--u-px));
-	--space-9: calc(var(--scale-9) * var(--u-px));
+	--space-0:  calc(var(--scale-0)  * var(--u-px));
+	--space-1:  calc(var(--scale-1)  * var(--u-px));
+	--space-2:  calc(var(--scale-2)  * var(--u-px));
+	--space-3:  calc(var(--scale-3)  * var(--u-px));
+	--space-4:  calc(var(--scale-4)  * var(--u-px));
+	--space-5:  calc(var(--scale-5)  * var(--u-px));
+	--space-6:  calc(var(--scale-6)  * var(--u-px));
+	--space-7:  calc(var(--scale-7)  * var(--u-px));
+	--space-8:  calc(var(--scale-8)  * var(--u-px));
+	--space-9:  calc(var(--scale-9)  * var(--u-px));
 	--space-10: calc(var(--scale-10) * var(--u-px));
 	--space-11: calc(var(--scale-11) * var(--u-px));
 	--space-12: calc(var(--scale-12) * var(--u-px));
@@ -126,16 +106,16 @@
 	--space-41: calc(var(--scale-41) * var(--u-px));
 
 	/* 3) rem 별칭: --space-N-rem */
-	--space-0-rem: calc(var(--scale-0) * var(--u-rem));
-	--space-1-rem: calc(var(--scale-1) * var(--u-rem));
-	--space-2-rem: calc(var(--scale-2) * var(--u-rem));
-	--space-3-rem: calc(var(--scale-3) * var(--u-rem));
-	--space-4-rem: calc(var(--scale-4) * var(--u-rem));
-	--space-5-rem: calc(var(--scale-5) * var(--u-rem));
-	--space-6-rem: calc(var(--scale-6) * var(--u-rem));
-	--space-7-rem: calc(var(--scale-7) * var(--u-rem));
-	--space-8-rem: calc(var(--scale-8) * var(--u-rem));
-	--space-9-rem: calc(var(--scale-9) * var(--u-rem));
+	--space-0-rem:  calc(var(--scale-0)  * var(--u-rem));
+	--space-1-rem:  calc(var(--scale-1)  * var(--u-rem));
+	--space-2-rem:  calc(var(--scale-2)  * var(--u-rem));
+	--space-3-rem:  calc(var(--scale-3)  * var(--u-rem));
+	--space-4-rem:  calc(var(--scale-4)  * var(--u-rem));
+	--space-5-rem:  calc(var(--scale-5)  * var(--u-rem));
+	--space-6-rem:  calc(var(--scale-6)  * var(--u-rem));
+	--space-7-rem:  calc(var(--scale-7)  * var(--u-rem));
+	--space-8-rem:  calc(var(--scale-8)  * var(--u-rem));
+	--space-9-rem:  calc(var(--scale-9)  * var(--u-rem));
 	--space-10-rem: calc(var(--scale-10) * var(--u-rem));
 	--space-11-rem: calc(var(--scale-11) * var(--u-rem));
 	--space-12-rem: calc(var(--scale-12) * var(--u-rem));
@@ -170,16 +150,16 @@
 	--space-41-rem: calc(var(--scale-41) * var(--u-rem));
 
 	/* 4) em 별칭: --space-N-em */
-	--space-0-em: calc(var(--scale-0) * var(--u-em));
-	--space-1-em: calc(var(--scale-1) * var(--u-em));
-	--space-2-em: calc(var(--scale-2) * var(--u-em));
-	--space-3-em: calc(var(--scale-3) * var(--u-em));
-	--space-4-em: calc(var(--scale-4) * var(--u-em));
-	--space-5-em: calc(var(--scale-5) * var(--u-em));
-	--space-6-em: calc(var(--scale-6) * var(--u-em));
-	--space-7-em: calc(var(--scale-7) * var(--u-em));
-	--space-8-em: calc(var(--scale-8) * var(--u-em));
-	--space-9-em: calc(var(--scale-9) * var(--u-em));
+	--space-0-em:  calc(var(--scale-0)  * var(--u-em));
+	--space-1-em:  calc(var(--scale-1)  * var(--u-em));
+	--space-2-em:  calc(var(--scale-2)  * var(--u-em));
+	--space-3-em:  calc(var(--scale-3)  * var(--u-em));
+	--space-4-em:  calc(var(--scale-4)  * var(--u-em));
+	--space-5-em:  calc(var(--scale-5)  * var(--u-em));
+	--space-6-em:  calc(var(--scale-6)  * var(--u-em));
+	--space-7-em:  calc(var(--scale-7)  * var(--u-em));
+	--space-8-em:  calc(var(--scale-8)  * var(--u-em));
+	--space-9-em:  calc(var(--scale-9)  * var(--u-em));
 	--space-10-em: calc(var(--scale-10) * var(--u-em));
 	--space-11-em: calc(var(--scale-11) * var(--u-em));
 	--space-12-em: calc(var(--scale-12) * var(--u-em));
@@ -214,27 +194,25 @@
 	--space-41-em: calc(var(--scale-41) * var(--u-em));
 }
 
-:root {
+ :root {
 	/* 단위 인자 (root 16px 기준) */
 	--u-px: 1px;
-	--u-rem: 0.0625rem;
-	/* 1px */
-	--u-em: 0.0625em;
-	/* 1px (요소 font-size 기준) */
-
+	--u-rem: 0.0625rem; /* 1px */
+	--u-em:  0.0625em;  /* 1px (요소 font-size 기준) */
+  
 	/* ===== SIZE VARIABLES (별칭: --space-*와 동일) ===== */
 	/* --size-*는 --space-*의 별칭입니다. spacing과 size 모두 동일한 스케일을 사용합니다. */
 	/* px 기본 별칭 (접미사 없음) */
-	--size-0: var(--space-0);
-	--size-1: var(--space-1);
-	--size-2: var(--space-2);
-	--size-3: var(--space-3);
-	--size-4: var(--space-4);
-	--size-5: var(--space-5);
-	--size-6: var(--space-6);
-	--size-7: var(--space-7);
-	--size-8: var(--space-8);
-	--size-9: var(--space-9);
+	--size-0:  var(--space-0);
+	--size-1:  var(--space-1);
+	--size-2:  var(--space-2);
+	--size-3:  var(--space-3);
+	--size-4:  var(--space-4);
+	--size-5:  var(--space-5);
+	--size-6:  var(--space-6);
+	--size-7:  var(--space-7);
+	--size-8:  var(--space-8);
+	--size-9:  var(--space-9);
 	--size-10: var(--space-10);
 	--size-11: var(--space-11);
 	--size-12: var(--space-12);
@@ -267,18 +245,18 @@
 	--size-39: var(--space-39);
 	--size-40: var(--space-40);
 	--size-41: var(--space-41);
-
+  
 	/* rem 별칭 */
-	--size-0-rem: var(--space-0-rem);
-	--size-1-rem: var(--space-1-rem);
-	--size-2-rem: var(--space-2-rem);
-	--size-3-rem: var(--space-3-rem);
-	--size-4-rem: var(--space-4-rem);
-	--size-5-rem: var(--space-5-rem);
-	--size-6-rem: var(--space-6-rem);
-	--size-7-rem: var(--space-7-rem);
-	--size-8-rem: var(--space-8-rem);
-	--size-9-rem: var(--space-9-rem);
+	--size-0-rem:  var(--space-0-rem);
+	--size-1-rem:  var(--space-1-rem);
+	--size-2-rem:  var(--space-2-rem);
+	--size-3-rem:  var(--space-3-rem);
+	--size-4-rem:  var(--space-4-rem);
+	--size-5-rem:  var(--space-5-rem);
+	--size-6-rem:  var(--space-6-rem);
+	--size-7-rem:  var(--space-7-rem);
+	--size-8-rem:  var(--space-8-rem);
+	--size-9-rem:  var(--space-9-rem);
 	--size-10-rem: var(--space-10-rem);
 	--size-11-rem: var(--space-11-rem);
 	--size-12-rem: var(--space-12-rem);
@@ -311,18 +289,18 @@
 	--size-39-rem: var(--space-39-rem);
 	--size-40-rem: var(--space-40-rem);
 	--size-41-rem: var(--space-41-rem);
-
+  
 	/* em 별칭 */
-	--size-0-em: var(--space-0-em);
-	--size-1-em: var(--space-1-em);
-	--size-2-em: var(--space-2-em);
-	--size-3-em: var(--space-3-em);
-	--size-4-em: var(--space-4-em);
-	--size-5-em: var(--space-5-em);
-	--size-6-em: var(--space-6-em);
-	--size-7-em: var(--space-7-em);
-	--size-8-em: var(--space-8-em);
-	--size-9-em: var(--space-9-em);
+	--size-0-em:  var(--space-0-em);
+	--size-1-em:  var(--space-1-em);
+	--size-2-em:  var(--space-2-em);
+	--size-3-em:  var(--space-3-em);
+	--size-4-em:  var(--space-4-em);
+	--size-5-em:  var(--space-5-em);
+	--size-6-em:  var(--space-6-em);
+	--size-7-em:  var(--space-7-em);
+	--size-8-em:  var(--space-8-em);
+	--size-9-em:  var(--space-9-em);
 	--size-10-em: var(--space-10-em);
 	--size-11-em: var(--space-11-em);
 	--size-12-em: var(--space-12-em);
@@ -382,7 +360,7 @@
 	--size-50vw: 50vw;
 	--size-75vw: 75vw;
 	--size-100vw: 100vw;
-}
+  }  
 
 
 :root {
@@ -395,75 +373,47 @@
 	--color-transparent: transparent;
 
 	/* 메인 색상 계열 (브랜드 컬러) */
-	--color-main-1: #8cba35;
-	/* 메인 컬러 - 밝음 (프로젝트 기본값) */
-	--color-main-2: #6a8e29;
-	/* 메인 컬러 - 중간 */
-	--color-main-3: #3d5218;
-	/* 메인 컬러 - 어두움 */
+	--color-main-1: #8cba35; /* 메인 컬러 - 밝음 (프로젝트 기본값) */
+	--color-main-2: #6a8e29; /* 메인 컬러 - 중간 */
+	--color-main-3: #3d5218; /* 메인 컬러 - 어두움 */
 
 	/* 서브 색상 계열 (메인과 어울리는 보조 색상) */
-	--color-sub-1: #2983d7;
-	/* 서브 컬러 - 밝음 */
-	--color-sub-2: #2570b6;
-	/* 서브 컬러 - 중간 */
-	--color-sub-3: #1b5790;
-	/* 서브 컬러 - 어두움 */
+	--color-sub-1: #2983d7; /* 서브 컬러 - 밝음 */
+	--color-sub-2: #2570b6; /* 서브 컬러 - 중간 */
+	--color-sub-3: #1b5790; /* 서브 컬러 - 어두움 */
 
 	/* 액센트 색상 계열 (강조용, 눈에 띄는 색상) */
-	--color-accent-1: #f59e0b;
-	/* 액센트 컬러 - 밝음 */
-	--color-accent-2: #d97706;
-	/* 액센트 컬러 - 중간 */
-	--color-accent-3: #b45309;
-	/* 액센트 컬러 - 어두움 */
+	--color-accent-1: #f59e0b; /* 액센트 컬러 - 밝음 */
+	--color-accent-2: #d97706; /* 액센트 컬러 - 중간 */
+	--color-accent-3: #b45309; /* 액센트 컬러 - 어두움 */
 
 	/* 베이스 색상 계열 (회색 스케일) */
-	--color-base-1: #ffffff;
-	/* 가장 밝은 회색 */
-	--color-base-2: #d7d7d7;
-	/* 매우 밝은 회색 */
-	--color-base-3: #e5e7eb;
-	/* 밝은 회색 */
-	--color-base-4: #b3b3b3;
-	/* 연한 회색 */
-	--color-base-5: #9e9e9e;
-	/* 중간 회색 */
-	--color-base-6: #8d8d8d;
-	/* 진한 회색 */
-	--color-base-7: #747474;
-	/* 어두운 회색 */
-	--color-base-8: #585858;
-	/* 매우 어두운 회색 */
-	--color-base-9: #191919;
-	/* 거의 검은 회색 */
-	--color-base-10: #000000;
-	/* 가장 어두운 회색 */
+	--color-base-1: #ffffff; /* 가장 밝은 회색 */
+	--color-base-2: #d7d7d7; /* 매우 밝은 회색 */
+	--color-base-3: #e5e7eb; /* 밝은 회색 */
+	--color-base-4: #b3b3b3; /* 연한 회색 */
+	--color-base-5: #9e9e9e; /* 중간 회색 */
+	--color-base-6: #8d8d8d; /* 진한 회색 */
+	--color-base-7: #747474; /* 어두운 회색 */
+	--color-base-8: #585858; /* 매우 어두운 회색 */
+	--color-base-9: #191919; /* 거의 검은 회색 */
+	--color-base-10: #000000; /* 가장 어두운 회색 */
 
 	/* 상태 색상 계열 (성공, 경고, 위험) */
-	--color-success-1: #10b981;
-	/* 성공 - 밝음 */
-	--color-success-2: #059669;
-	/* 성공 - 중간 */
-	--color-success-3: #047857;
-	/* 성공 - 어두움 */
+	--color-success-1: #10b981; /* 성공 - 밝음 */
+	--color-success-2: #059669; /* 성공 - 중간 */
+	--color-success-3: #047857; /* 성공 - 어두움 */
 
-	--color-warning-1: #f59e0b;
-	/* 경고 - 밝음 */
-	--color-warning-2: #d97706;
-	/* 경고 - 중간 */
-	--color-warning-3: #b45309;
-	/* 경고 - 어두움 */
+	--color-warning-1: #f59e0b; /* 경고 - 밝음 */
+	--color-warning-2: #d97706; /* 경고 - 중간 */
+	--color-warning-3: #b45309; /* 경고 - 어두움 */
 
-	--color-danger-1: #ef4444;
-	/* 위험 - 밝음 */
-	--color-danger-2: #dc2626;
-	/* 위험 - 중간 */
-	--color-danger-3: #b91c1c;
-	/* 위험 - 어두움 */
+	--color-danger-1: #ef4444; /* 위험 - 밝음 */
+	--color-danger-2: #dc2626; /* 위험 - 중간 */
+	--color-danger-3: #b91c1c; /* 위험 - 어두움 */
 
 
-	/* Alpha 채널용 RGB 값들 (투명도 적용시 사용) */
+	/* Alpha 채널용 RGB 값들 (투명도 적용시 사용) */	
 	/* 사용 방식 rgba(var(--rgb-main-1), 0.1) */
 	/* === 향후 버전 문제가 해결되면 지울 예졍 ==== */
 
@@ -475,8 +425,7 @@
 	/* Firefox 113+ (2023년 5월) */
 	/* Safari 16.2+ (2022년 12월) */
 	/* 구형 브라우저에서는 동작하지 않을 수 있음*/
-	--rgb-main-1: 140, 186, 53;
-	/* #8cba35 */
+	--rgb-main-1: 140, 186, 53; /* #8cba35 */
 	--rgb-main-2: 106, 142, 41;
 	--rgb-main-3: 61, 82, 24;
 
@@ -499,24 +448,21 @@
 	--rgb-base-9: 25, 25, 25;
 	--rgb-base-10: 0, 0, 0;
 
-	--rgb-success-1: 16, 185, 129;
-	/* #10b981 */
+	--rgb-success-1: 16, 185, 129; /* #10b981 */
 	--rgb-success-2: 5, 150, 105;
 	--rgb-success-3: 4, 120, 87;
 
-	--rgb-warning-1: 245, 158, 11;
-	/* #f59e0b */
+	--rgb-warning-1: 245, 158, 11; /* #f59e0b */
 	--rgb-warning-2: 217, 119, 6;
 	--rgb-warning-3: 180, 83, 9;
 
-	--rgb-danger-1: 239, 68, 68;
-	/* #ef4444 */
+	--rgb-danger-1: 239, 68, 68; /* #ef4444 */
 	--rgb-danger-2: 220, 38, 38;
 	--rgb-danger-3: 185, 28, 28;
 
 }
 
-:root {
+ :root {
 	/* ===== BORDER RADIUS SCALE ===== */
 	--radius-none: 0;
 	--radius-sm: 2px;
@@ -569,22 +515,14 @@
 	--line-height-extra: 3;
 
 	/* 일련번호 형식 */
-	--line-height-1: 1;
-	/* none */
-	--line-height-2: 1.25;
-	/* tight */
-	--line-height-3: 1.375;
-	/* snug */
-	--line-height-4: 1.5;
-	/* normal */
-	--line-height-5: 1.625;
-	/* relaxed */
-	--line-height-6: 2;
-	/* loose */
-	--line-height-7: 2.5;
-	/* moreloose */
-	--line-height-8: 3;
-	/* extra */
+	--line-height-1: 1;         /* none */
+	--line-height-2: 1.25;      /* tight */
+	--line-height-3: 1.375;     /* snug */
+	--line-height-4: 1.5;       /* normal */
+	--line-height-5: 1.625;     /* relaxed */
+	--line-height-6: 2;         /* loose */
+	--line-height-7: 2.5;       /* moreloose */
+	--line-height-8: 3;         /* extra */
 
 	/* ===== BORDER RADIUS ===== */
 	--border-radius-none: 0;
@@ -621,8 +559,8 @@
 	--border-width-9: 9px;
 	--border-width-10: 10px;
 
-
-	/* ===== Z-INDEX SCALE ===== */
+	
+	/* ===== Z-INDEX SCALE ===== */	
 	--z-index-0: 0;
 	--z-index-1: 10;
 	--z-index-2: 20;
@@ -759,168 +697,236 @@
 	/* 커스터마이징 가능한 그래디언트 시스템 */
 
 	/* Linear Gradients - 메인 색상 계열 */
-	--gradient-main: linear-gradient(to right,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-main-vertical: linear-gradient(to bottom,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-sub: linear-gradient(to right,
-			var(--color-sub-1),
-			var(--color-sub-3));
-	--gradient-accent: linear-gradient(to right,
-			var(--color-accent-1),
-			var(--color-accent-3));
+	--gradient-main: linear-gradient(
+		to right,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-main-vertical: linear-gradient(
+		to bottom,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-sub: linear-gradient(
+		to right,
+		var(--color-sub-1),
+		var(--color-sub-3)
+	);
+	--gradient-accent: linear-gradient(
+		to right,
+		var(--color-accent-1),
+		var(--color-accent-3)
+	);
 
 	/* Linear Gradients - 베이스 색상 계열 */
-	--gradient-base: linear-gradient(to bottom,
-			var(--color-base-1),
-			var(--color-base-3));
-	--gradient-dark: linear-gradient(to bottom,
-			var(--color-base-7),
-			var(--color-base-9));
+	--gradient-base: linear-gradient(
+		to bottom,
+		var(--color-base-1),
+		var(--color-base-3)
+	);
+	--gradient-dark: linear-gradient(
+		to bottom,
+		var(--color-base-7),
+		var(--color-base-9)
+	);
 
 	/* Linear Gradients - 혼합 색상 */
-	--gradient-main-accent: linear-gradient(45deg,
-			var(--color-main-1),
-			var(--color-accent-1));
-	--gradient-sub-accent: linear-gradient(135deg,
-			var(--color-sub-1),
-			var(--color-accent-1));
+	--gradient-main-accent: linear-gradient(
+		45deg,
+		var(--color-main-1),
+		var(--color-accent-1)
+	);
+	--gradient-sub-accent: linear-gradient(
+		135deg,
+		var(--color-sub-1),
+		var(--color-accent-1)
+	);
 
 	/* Fade Gradients - 투명도 */
-	--gradient-fade-right: linear-gradient(to right,
-			var(--color-main-1),
-			transparent);
-	--gradient-fade-left: linear-gradient(to left,
-			var(--color-main-1),
-			transparent);
-	--gradient-fade-bottom: linear-gradient(to bottom,
-			var(--color-main-1),
-			transparent);
-	--gradient-fade-top: linear-gradient(to top,
-			var(--color-main-1),
-			transparent);
+	--gradient-fade-right: linear-gradient(
+		to right,
+		var(--color-main-1),
+		transparent
+	);
+	--gradient-fade-left: linear-gradient(
+		to left,
+		var(--color-main-1),
+		transparent
+	);
+	--gradient-fade-bottom: linear-gradient(
+		to bottom,
+		var(--color-main-1),
+		transparent
+	);
+	--gradient-fade-top: linear-gradient(
+		to top,
+		var(--color-main-1),
+		transparent
+	);
 
 	/* Overlay Gradients - 오버레이 */
-	--gradient-overlay-dark: linear-gradient(to bottom,
-			rgba(0, 0, 0, 0.5),
-			transparent);
-	--gradient-overlay-light: linear-gradient(to bottom,
-			rgba(255, 255, 255, 0.5),
-			transparent);
+	--gradient-overlay-dark: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0.5),
+		transparent
+	);
+	--gradient-overlay-light: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0.5),
+		transparent
+	);
 
 	/* Radial Gradients - 원형 */
-	--gradient-radial-main: radial-gradient(circle,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-radial-sub: radial-gradient(circle,
-			var(--color-sub-1),
-			var(--color-sub-3));
-	--gradient-radial-accent: radial-gradient(circle,
-			var(--color-accent-1),
-			var(--color-accent-3));
-	--gradient-radial-ellipse: radial-gradient(ellipse,
-			var(--color-main-1),
-			var(--color-main-3));
+	--gradient-radial-main: radial-gradient(
+		circle,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-radial-sub: radial-gradient(
+		circle,
+		var(--color-sub-1),
+		var(--color-sub-3)
+	);
+	--gradient-radial-accent: radial-gradient(
+		circle,
+		var(--color-accent-1),
+		var(--color-accent-3)
+	);
+	--gradient-radial-ellipse: radial-gradient(
+		ellipse,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
 
 	/* Radial Gradients - 위치별 */
-	--gradient-radial-top: radial-gradient(circle at top,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-radial-bottom: radial-gradient(circle at bottom,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-radial-left: radial-gradient(circle at left,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-radial-right: radial-gradient(circle at right,
-			var(--color-main-1),
-			var(--color-main-3));
+	--gradient-radial-top: radial-gradient(
+		circle at top,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-radial-bottom: radial-gradient(
+		circle at bottom,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-radial-left: radial-gradient(
+		circle at left,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-radial-right: radial-gradient(
+		circle at right,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
 
 	/* Conic Gradients - 원뿔형 */
-	--gradient-conic-rainbow: conic-gradient(from 0deg,
-			var(--color-main-1),
-			var(--color-sub-1),
-			var(--color-accent-1),
-			var(--color-main-1));
-	--gradient-conic-main: conic-gradient(from 90deg at 50% 50%,
-			var(--color-main-1),
-			var(--color-main-3));
-	--gradient-conic-spinner: conic-gradient(from 0deg,
-			transparent 0deg,
-			var(--color-main-1) 90deg,
-			transparent 90deg);
+	--gradient-conic-rainbow: conic-gradient(
+		from 0deg,
+		var(--color-main-1),
+		var(--color-sub-1),
+		var(--color-accent-1),
+		var(--color-main-1)
+	);
+	--gradient-conic-main: conic-gradient(
+		from 90deg at 50% 50%,
+		var(--color-main-1),
+		var(--color-main-3)
+	);
+	--gradient-conic-spinner: conic-gradient(
+		from 0deg,
+		transparent 0deg,
+		var(--color-main-1) 90deg,
+		transparent 90deg
+	);
 
 	/* Multi-Color Gradients - 다중 색상 */
-	--gradient-triple: linear-gradient(45deg,
-			var(--color-main-1) 0%,
-			var(--color-sub-1) 50%,
-			var(--color-accent-1) 100%);
-	--gradient-quad: linear-gradient(45deg,
-			var(--color-main-1) 0%,
-			var(--color-sub-1) 33%,
-			var(--color-accent-1) 66%,
-			var(--color-main-3) 100%);
-	--gradient-rainbow: linear-gradient(90deg,
-			#ff0000 0%,
-			#ff8000 12.5%,
-			#ffff00 25%,
-			#80ff00 37.5%,
-			#00ff00 50%,
-			#00ff80 62.5%,
-			#00ffff 75%,
-			#0080ff 87.5%,
-			#0000ff 100%);
+	--gradient-triple: linear-gradient(
+		45deg,
+		var(--color-main-1) 0%,
+		var(--color-sub-1) 50%,
+		var(--color-accent-1) 100%
+	);
+	--gradient-quad: linear-gradient(
+		45deg,
+		var(--color-main-1) 0%,
+		var(--color-sub-1) 33%,
+		var(--color-accent-1) 66%,
+		var(--color-main-3) 100%
+	);
+	--gradient-rainbow: linear-gradient(
+		90deg,
+		#ff0000 0%,
+		#ff8000 12.5%,
+		#ffff00 25%,
+		#80ff00 37.5%,
+		#00ff00 50%,
+		#00ff80 62.5%,
+		#00ffff 75%,
+		#0080ff 87.5%,
+		#0000ff 100%
+	);
 
 	/* Special Effect Gradients - 특수 효과 */
-	--gradient-glass: linear-gradient(135deg,
-			rgba(255, 255, 255, 0.1),
-			rgba(255, 255, 255, 0));
-	--gradient-neon: linear-gradient(45deg,
-			var(--color-accent-1),
-			var(--color-main-1),
-			var(--color-accent-1));
-	--gradient-stripes: linear-gradient(45deg,
-			var(--color-main-1) 25%,
-			var(--color-sub-1) 25%,
-			var(--color-sub-1) 50%,
-			var(--color-main-1) 50%,
-			var(--color-main-1) 75%,
-			var(--color-sub-1) 75%);
+	--gradient-glass: linear-gradient(
+		135deg,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0)
+	);
+	--gradient-neon: linear-gradient(
+		45deg,
+		var(--color-accent-1),
+		var(--color-main-1),
+		var(--color-accent-1)
+	);
+	--gradient-stripes: linear-gradient(
+		45deg,
+		var(--color-main-1) 25%,
+		var(--color-sub-1) 25%,
+		var(--color-sub-1) 50%,
+		var(--color-main-1) 50%,
+		var(--color-main-1) 75%,
+		var(--color-sub-1) 75%
+	);
 
 	/* Text Gradients - 텍스트용 */
-	--gradient-text-main: linear-gradient(to right,
-			var(--color-main-1),
-			var(--color-accent-1));
-	--gradient-text-colorful: linear-gradient(45deg,
-			var(--color-sub-1),
-			var(--color-accent-1));
-	--gradient-text-rainbow: linear-gradient(90deg,
-			#ff0000,
-			#ff8000,
-			#ffff00,
-			#80ff00,
-			#00ff00,
-			#00ff80,
-			#00ffff,
-			#0080ff,
-			#0000ff);
+	--gradient-text-main: linear-gradient(
+		to right,
+		var(--color-main-1),
+		var(--color-accent-1)
+	);
+	--gradient-text-colorful: linear-gradient(
+		45deg,
+		var(--color-sub-1),
+		var(--color-accent-1)
+	);
+	--gradient-text-rainbow: linear-gradient(
+		90deg,
+		#ff0000,
+		#ff8000,
+		#ffff00,
+		#80ff00,
+		#00ff00,
+		#00ff80,
+		#00ffff,
+		#0080ff,
+		#0000ff
+	);
 
 	/* ===== DROP SHADOW VARIABLES ===== */
 	/* 커스터마이징 가능한 드롭 섀도우 시스템 */
 	/* Drop shadows at 225deg (bottom-left direction, x and y positive) */
-	--drop-shadow-1: -1px 1px 2px rgba(0, 0, 0, 0.1) !important;
-	--drop-shadow-2: -3px 3px 4px rgba(0, 0, 0, 0.07) !important;
-	--drop-shadow-3: -7px 7px 10px rgba(0, 0, 0, 0.04) !important;
-	--drop-shadow-4: -13px 13px 20px rgba(0, 0, 0, 0.03) !important;
-	--drop-shadow-5: -18px 18px 25px rgba(0, 0, 0, 0.15) !important;
-	--drop-shadow-6: -25px 25px 35px rgba(0, 0, 0, 0.25) !important;
+	--drop-shadow-1:  -1px 1px 2px rgba(0, 0, 0, 0.1) !important;
+	--drop-shadow-2:  -3px 3px 4px rgba(0, 0, 0, 0.07) !important;
+	--drop-shadow-3:  -7px 7px 10px rgba(0, 0, 0, 0.04) !important;
+	--drop-shadow-4:  -13px 13px 20px rgba(0, 0, 0, 0.03) !important;
+	--drop-shadow-5:  -18px 18px 25px rgba(0, 0, 0, 0.15) !important;
+	--drop-shadow-6:  -25px 25px 35px rgba(0, 0, 0, 0.25) !important;
 
 	/* 컬러 드롭 섀도우 (225deg 밑변 좌측 방향) */
-	--drop-shadow-main: -3px 3px 8px rgba(var(--rgb-main-1), 0.3) !important;
-	--drop-shadow-sub: -3px 3px 8px rgba(var(--rgb-sub-1), 0.3) !important;
-	--drop-shadow-accent: -3px 3px 8px rgba(var(--rgb-accent-1), 0.3) !important;
+	--drop-shadow-main:  -3px 3px 8px rgba(var(--rgb-main-1), 0.3) !important;
+	--drop-shadow-sub:   -3px 3px 8px rgba(var(--rgb-sub-1), 0.3) !important;
+	--drop-shadow-accent:-3px 3px 8px rgba(var(--rgb-accent-1), 0.3) !important;
 
 	/* 네온 효과 드롭 섀도우 (여전히 중앙방향, 필요시 조정 가능) */
 	--drop-shadow-neon-main: -1px 1px 10px rgba(var(--rgb-main-1), 0.8) !important;
@@ -937,11 +943,15 @@
 	--filter-dreamy: blur(1px) brightness(1.1) saturate(1.3);
 	--filter-cinematic: contrast(1.2) saturate(0.8) sepia(0.1);
 	--filter-retro: sepia(0.5) hue-rotate(-30deg) saturate(1.4) contrast(0.9);
-	--filter-glow-main: brightness(1.2) drop-shadow(0 0 20px rgba(var(--rgb-main-1), 0.6));
-	--filter-glow-accent: brightness(1.2) drop-shadow(0 0 20px rgba(var(--rgb-accent-1), 0.6));
-	--filter-hologram: hue-rotate(180deg) saturate(2) brightness(1.3) contrast(1.2);
+	--filter-glow-main: brightness(1.2)
+		drop-shadow(0 0 20px rgba(var(--rgb-main-1), 0.6));
+	--filter-glow-accent: brightness(1.2)
+		drop-shadow(0 0 20px rgba(var(--rgb-accent-1), 0.6));
+	--filter-hologram: hue-rotate(180deg) saturate(2) brightness(1.3)
+		contrast(1.2);
 	--filter-xray: invert(1) hue-rotate(180deg) saturate(0.5) contrast(2);
-	--filter-night-vision: hue-rotate(60deg) saturate(3) brightness(0.8) contrast(1.5);
+	--filter-night-vision: hue-rotate(60deg) saturate(3) brightness(0.8)
+		contrast(1.5);
 	--filter-old-tv: contrast(1.5) saturate(0.7) sepia(0.2) brightness(0.9);
 	--filter-blur-shadow: blur(2px) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 	--filter-psychedelic: saturate(2) hue-rotate(90deg) contrast(1.5);
@@ -952,25 +962,16 @@
 /* 다크 모드에서는 base 팔레트를 반대로 사용합니다 */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-base-1: #191919;
-		/* 가장 어두운 회색 (라이트 모드의 base-9) */
-		--color-base-2: #2d2d2d;
-		/* 매우 어두운 회색 */
-		--color-base-3: #3a3a3a;
-		/* 어두운 회색 */
-		--color-base-4: #4a4a4a;
-		/* 중간 어두운 회색 */
-		--color-base-5: #5a5a5a;
-		/* 중간 회색 */
-		--color-base-6: #6a6a6a;
-		/* 중간 밝은 회색 */
-		--color-base-7: #7a7a7a;
-		/* 밝은 회색 */
-		--color-base-8: #8a8a8a;
-		/* 매우 밝은 회색 */
-		--color-base-9: #ffffff;
-		/* 가장 밝은 회색 (라이트 모드의 base-1) */
-		--color-base-10: #ffffff;
-		/* 가장 밝은 회색 */
+		--color-base-1: #191919; /* 가장 어두운 회색 (라이트 모드의 base-9) */
+		--color-base-2: #2d2d2d; /* 매우 어두운 회색 */
+		--color-base-3: #3a3a3a; /* 어두운 회색 */
+		--color-base-4: #4a4a4a; /* 중간 어두운 회색 */
+		--color-base-5: #5a5a5a; /* 중간 회색 */
+		--color-base-6: #6a6a6a; /* 중간 밝은 회색 */
+		--color-base-7: #7a7a7a; /* 밝은 회색 */
+		--color-base-8: #8a8a8a; /* 매우 밝은 회색 */
+		--color-base-9: #ffffff; /* 가장 밝은 회색 (라이트 모드의 base-1) */
+		--color-base-10: #ffffff; /* 가장 밝은 회색 */
 	}
 }
+
