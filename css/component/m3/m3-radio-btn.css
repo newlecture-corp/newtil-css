@@ -24,7 +24,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .m3-radio{
+    .m3-radio {
         --md3-select-primary: var(--color-main-1);
     }
 }
@@ -144,34 +144,33 @@
     color: var(--md3-unselect-primary);
 }
 
-.radio\:hover input[type="radio"]::before{
+.radio\:hover input[type="radio"]::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-3));
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
 
-.radio\:hover input[type="radio"]:checked::before{
+.radio\:hover input[type="radio"]:checked::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-3));
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
-.radio\:press input[type="radio"]::before{
+.radio\:press input[type="radio"]::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
-.radio\:press input[type="radio"]:checked::before{
+.radio\:press input[type="radio"]:checked::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
-.radio\:focus input[type="radio"]::before{
+.radio\:focus input[type="radio"]::before {
     outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
     outline-offset: var(--outline-offset);
 }
 
-.radio\:focus input[type="radio"]:checked::before{
+.radio\:focus input[type="radio"]:checked::before {
     outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
     outline-offset: var(--outline-offset);
 }
-
