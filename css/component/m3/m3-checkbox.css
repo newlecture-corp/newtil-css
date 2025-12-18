@@ -4,7 +4,7 @@
     --checkbox-icon-color: var(--color-white);
     --checkbox-border-color: var(--color-base-8);
     --checkbox-outline-color: var(--color-main-2);
-    --chckbox-text-color: var(--color-base-8);
+    --checkbox-text-color: var(--color-base-8);
     --checkbox-opacity: var(--opacity-0);
     --checkbox-icon-content: var("");
     --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
@@ -35,7 +35,7 @@
     cursor: pointer;
     user-select: none;
     font-size: 16px;
-    color: var(--chckbox-text-color);
+    color: var(--checkbox-text-color);
 }
 
 .m3-checkbox input[type="checkbox"] {
@@ -97,7 +97,7 @@
 
 .m3-checkbox input[type="checkbox"]:disabled {
     --checkbox-border-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
-    --chckbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
+    --checkbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
 }
 
 .m3-checkbox input[type="checkbox"]:not(:disabled):hover::before {
@@ -122,7 +122,7 @@
     --checkbox-icon-content: "\f88a" !important;
 }
 
-/* ⬇️확인을 위해 임의로 반복하는 구간 */
+/* ⬇️각 상태를 기본으로 하는  정적인 상태의 체크박스 */
 .m3-checkbox.checkbox-state\:enabled input[type="checkbox"]::after {
     --checkbox-icon-content: "\e5ca";
     --checkbox-opacity: var(--opacity-100);
@@ -130,7 +130,7 @@
 
 .m3-checkbox.checkbox-state\:unselected-disabled input[type="checkbox"] {
     --checkbox-border-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
-    --chckbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
+    --checkbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
 }
 
 .m3-checkbox.checkbox-state\:hovered input[type="checkbox"]::before {
