@@ -28,6 +28,13 @@
     --radio-pointer: none;
     --radio-box-sizing: border-box;
     --radio-transition: all 180ms ease;
+
+    /* 액션 스타일 hover, press, focus */
+    --radio-box-shadow: none;
+    --radio-background-color: transparent;
+    --radio-outline: none;
+    --radio-outline-offset: 0;
+    --radio-outline-offset-focus: 5px;
     
     /* 투명도 (Opacity) */
     --alpha-1: 8%;
@@ -39,9 +46,8 @@
     --transparent-2: 90%;
     --transparent-3: 92%;
     --transparent-disabled: 62%;
-
-    /* 기타 */
-    --outline-offset: 5px;
+    
+    
 }
 
 /* 다크 모드 오버라이드 */
@@ -74,7 +80,7 @@
     border: none;
     position: relative;
     background: transparent;
-    cursor: pointer;
+    cursor: var(--radio-cursor);
 }
 
 /* =========================================
@@ -101,6 +107,10 @@
     height: var(--radio-size);
     border-radius: var(--radius-8); /* 원형 */
     border: var(--radio-stroke-width) solid var(--radio-unselect-primary);
+    box-shadow: var(--radio-box-shadow);
+    background-color: var(--radio-background-color);
+    outline: var(--radio-outline);
+    outline-offset: var(--radio-outline-offset);
 }
 
 /* 내부 점 (Hidden by default) */
@@ -132,13 +142,13 @@
    ========================================= */
 .m3-radio input[type="radio"]:hover::before {
     /* box-shadow로 Ripple 효과 구현 */
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-3));
-    background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-3));
+    --radio-background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
 }
 
 .m3-radio input[type="radio"]:checked:hover::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-3));
-    background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-3));
+    --radio-background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
 }
 
 /* =========================================
@@ -146,13 +156,13 @@
    눌렀을 때 진한 Ripple 표시
    ========================================= */
 .m3-radio input[type="radio"]:active::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
 }
 
 .m3-radio input[type="radio"]:checked:active::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
 }
 
 /* =========================================
@@ -160,13 +170,13 @@
    키보드 접근성 등을 위한 포커스 링
    ========================================= */
 .m3-radio input[type="radio"]:focus::before {
-    outline: 1px solid color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-1));
-    outline-offset: var(--outline-offset);
+    --radio-outline: 1px solid color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-1));
+    --radio-outline-offset: var(--radio-outline-offset-focus);
 }
 
 .m3-radio input[type="radio"]:checked:focus::before {
-    outline: 1px solid color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-1));
-    outline-offset: var(--outline-offset);
+    --radio-outline: 1px solid color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-1));
+    --radio-outline-offset: var(--radio-outline-offset-focus);
 }
 
 /* =========================================
@@ -202,33 +212,33 @@
 
 /* Hover Force */
 .radio\:hover input[type="radio"]::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-3));
-    background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-3));
+    --radio-background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
 }
 
 .radio\:hover input[type="radio"]:checked::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-3));
-    background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-3));
+    --radio-background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
 }
 
 /* Press Force */
 .radio\:press input[type="radio"]::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
+    --radio-background-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-2));
 }
 
 .radio\:press input[type="radio"]:checked::before {
-    box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
-    background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-box-shadow: 0 0 0 10px color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
+    --radio-background-color: color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-2));
 }
 
 /* Focus Force */
 .radio\:focus input[type="radio"]::before {
-    outline: 1px solid color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-1));
-    outline-offset: var(--outline-offset);
+    --radio-outline: 1px solid color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-1));
+    --radio-outline-offset: var(--radio-outline-offset-focus);
 }
 
 .radio\:focus input[type="radio"]:checked::before {
-    outline: 1px solid color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-1));
-    outline-offset: var(--outline-offset);
+    --radio-outline: 1px solid color-mix(in srgb, var(--radio-select-primary), transparent var(--transparent-1));
+    --radio-outline-offset: var(--radio-outline-offset-focus);
 }
