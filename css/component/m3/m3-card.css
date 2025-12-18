@@ -1,293 +1,140 @@
-@import url("../../util/variables.css");
-
 .m3-card {
-    /* 색상 변수 */
-    --m3-card-color-white: var(--color-white);
-    --m3-card-color-base-1: var(--color-base-1);
-    --m3-card-color-base-2: var(--color-base-2);
-    --m3-card-color-base-7: var(--color-base-7);
-    --m3-card-color-base-8: var(--color-base-8);
-    --m3-card-color-base-10: var(--color-base-10);
-    --m3-card-color-accent-1: var(--color-accent-1);
-    --m3-card-color-accent-2: var(--color-accent-2);
-
-    /* 간격 변수 */
-    --m3-card-space-0: var(--space-0);
-    --m3-card-space-1: var(--space-1);
-    --m3-card-space-2: var(--space-2);
-    --m3-card-space-3: var(--space-3);
-    --m3-card-space-4: var(--space-4);
-    --m3-card-space-5: var(--space-5);
-    --m3-card-space-6: var(--space-6);
-    --m3-card-space-10: var(--space-10);
-    --m3-card-space-13: var(--space-13);
-    --m3-card-space-15: var(--space-15);
-
-    /* 크기 변수 */
-    --m3-card-size-8: var(--size-8);
-    --m3-card-size-13: var(--size-13);
-    --m3-card-size-15: var(--size-15);
-    --m3-card-size-19: var(--size-19);
-    --m3-card-size-100vh: var(--size-100vh);
-
-    /* 둥근 모서리 */
-    --m3-card-radius-xl: var(--radius-xl);
-
-    /* 테두리 너비 */
-    --m3-card-border-width-2: var(--border-width-2);
-
-    /* 투명도 */
-    --m3-card-opacity-10: var(--opacity-10);
-    --m3-card-opacity-25: var(--opacity-25);
-    --m3-card-opacity-30: var(--opacity-30);
-    --m3-card-opacity-40: var(--opacity-40);
-    --m3-card-opacity-50: var(--opacity-50);
-    --m3-card-opacity-60: var(--opacity-60);
-    --m3-card-opacity-90: var(--opacity-90);
-    --m3-card-opacity-100: var(--opacity-100);
-
-    /* 지속 시간 */
-    --m3-card-duration-4: var(--duration-4);
-    --m3-card-duration-5: var(--duration-5);
-
-    /* 가속도 */
-    --m3-card-ease-out: var(--ease-out);
-
-    /* 폰트 굵기 */
-    --m3-card-font-weight-normal: var(--font-weight-normal);
-    --m3-card-font-weight-medium: var(--font-weight-medium);
+    /* 테마/상태에 따라 바뀌는 값들을 전부 변수로 */
+    --bg: var(--color-white);
+    --shadow-rest-1: var(--opacity-10);
+    --shadow-rest-2: var(--opacity-25);
+    --shadow-hover-1: 0.16;
+    --shadow-hover-2: 0.23;
+    --shadow-drag-1: var(--opacity-25);
+    --shadow-drag-2: var(--opacity-30);
+    --headline-color: #1C1B1F;
+    --subhead-color: #49454F;
+    --outline-color: var(--color-base-8);
+    --play-bg: var(--color-accent-1);
+    --play-color: var(--color-white);
+    --play-shadow: var(--opacity-30);
+    --play-shadow-hover: var(--opacity-40);
+    --play-shadow-active: var(--opacity-30);
+    --play-before-bg: var(--color-white);
 }
 
-/* ====== 다크 모드 ====== */
-
+/* 다크 모드 지원 */
 @media (prefers-color-scheme: dark) {
 
-    /* 카드 컨테이너 */
     .m3-card {
-        width: 360px;
-        background: var(--m3-card-color-base-2);
-        border-radius: var(--m3-card-radius-xl);
-        overflow: hidden;
-        box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-3) rgba(0, 0, 0, var(--m3-card-opacity-40)),
-            0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-50));
-        transition: box-shadow var(--m3-card-duration-5) var(--m3-card-ease-out),
-            transform var(--m3-card-duration-5) var(--m3-card-ease-out),
-            opacity var(--m3-card-duration-5) var(--m3-card-ease-out);
-        cursor: grab;
-    }
-
-    /* 카드 상태 */
-    .m3-card.enabled {
-        opacity: var(--m3-card-opacity-100);
-    }
-
-    .m3-card.disabled {
-        opacity: var(--m3-card-opacity-40);
-        cursor: not-allowed;
-    }
-
-    .m3-card.disabled button {
-        cursor: not-allowed;
-        opacity: var(--m3-card-opacity-40);
-    }
-
-    .m3-card.hovered {
-        box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-4) rgba(0, 0, 0, var(--m3-card-opacity-40)),
-            0 var(--m3-card-space-2) var(--m3-card-space-4) rgba(0, 0, 0, var(--m3-card-opacity-50));
-    }
-
-    .m3-card.focused {
-        box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-4) rgba(0, 0, 0, var(--m3-card-opacity-40)),
-            0 var(--m3-card-space-2) var(--m3-card-space-4) rgba(0, 0, 0, var(--m3-card-opacity-50));
-        outline: var(--m3-card-border-width-2) solid var(--m3-card-color-accent-2);
-        outline-offset: var(--m3-card-space-2);
-    }
-
-    .m3-card.dragged {
-        box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-10) rgba(0, 0, 0, var(--m3-card-opacity-50)),
-            0 var(--m3-card-space-6) var(--m3-card-space-6) rgba(0, 0, 0, var(--m3-card-opacity-60));
-        transform: scale(1.02);
-        opacity: var(--m3-card-opacity-90);
-        cursor: grabbing;
-    }
-
-    /* 카드 컨텐츠 */
-    .m3-card .content {
-        padding: var(--m3-card-space-10);
-    }
-
-    .m3-card .Headline {
-        font-size: var(--m3-card-size-15);
-        font-weight: var(--m3-card-font-weight-normal);
-        color: var(--m3-card-color-base-10);
-        line-height: var(--m3-card-size-19);
-        margin-bottom: var(--m3-card-space-3);
-        letter-spacing: 0;
-        white-space: pre-line;
-    }
-
-    .m3-card .Subhead {
-        font-size: var(--m3-card-size-8);
-        font-weight: var(--m3-card-font-weight-medium);
-        color: var(--m3-card-color-base-7);
-        line-height: var(--m3-card-size-13);
-        letter-spacing: 0.1px;
-        margin-bottom: var(--m3-card-space-4);
-    }
-
-    /* 카드 액션 */
-    .m3-card .m3-btn {
-        display: flex;
-        gap: var(--m3-card-space-4);
-        justify-content: flex-end;
-        padding-top: var(--m3-card-space-4);
-    }
-
-    /* 버튼 */
-    .m3-card .m3-btn button {
-        padding: var(--m3-card-space-5) var(--m3-card-space-15);
-        border-radius: var(--m3-card-radius-xl);
-        border: none;
-        font-size: var(--m3-card-size-8);
-        font-weight: var(--m3-card-font-weight-medium);
-        letter-spacing: 0.1px;
-        cursor: pointer;
-        transition: all var(--m3-card-duration-4) var(--m3-card-ease-out);
-        line-height: var(--m3-card-size-13);
-        position: relative;
-        overflow: hidden;
-    }
-
-    .m3-card .m3-btn button::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background: currentColor;
-        opacity: 0;
-        transition: opacity var(--m3-card-duration-4) var(--m3-card-ease-out);
-    }
-
-    .m3-card .m3-btn button:hover::before {
-        opacity: var(--m3-card-opacity-10);
-    }
-
-    .m3-card .m3-btn button:active::before {
-        opacity: 0.12;
-    }
-
-    .m3-card .m3-btn .Play {
-        background: var(--m3-card-color-accent-2);
-        color: var(--m3-card-color-base-1);
-        box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-50));
-    }
-
-    .m3-card .m3-btn .Play::before {
-        background: var(--m3-card-color-base-1);
-    }
-
-    .m3-card .m3-btn .Play:hover {
-        box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-3) rgba(0, 0, 0, var(--m3-card-opacity-60));
-    }
-
-    .m3-card .m3-btn .Play:active {
-        box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-50));
+        --bg: var(--color-base-2);
+        --shadow-rest-1: var(--opacity-40);
+        --shadow-rest-2: var(--opacity-50);
+        --shadow-hover-1: var(--opacity-40);
+        --shadow-hover-2: var(--opacity-50);
+        --shadow-drag-1: var(--opacity-50);
+        --shadow-drag-2: var(--opacity-60);
+        --headline-color: var(--color-base-10);
+        --subhead-color: var(--color-base-7);
+        --outline-color: var(--color-accent-2);
+        --play-bg: var(--color-accent-2);
+        --play-color: var(--color-base-1);
+        --play-shadow: var(--opacity-50);
+        --play-shadow-hover: var(--opacity-60);
+        --play-shadow-active: var(--opacity-50);
+        --play-before-bg: var(--color-base-1);
     }
 }
-
-/* ====== LIGHT MODE (Default) ====== */
 
 /* 카드 컨테이너 */
 .m3-card {
+    display: flex;
+    flex-direction: column;
     width: 360px;
-    background: var(--m3-card-color-white);
-    border-radius: var(--m3-card-radius-xl);
+    background: var(--bg);
+    border-radius: var(--radius-xl);
     overflow: hidden;
-    box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-3) rgba(0, 0, 0, var(--m3-card-opacity-10)),
-        0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-25));
-    transition: box-shadow var(--m3-card-duration-5) var(--m3-card-ease-out),
-        transform var(--m3-card-duration-5) var(--m3-card-ease-out),
-        opacity var(--m3-card-duration-5) var(--m3-card-ease-out);
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--shadow-rest-1)),
+        0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--shadow-rest-2));
+    transition: box-shadow var(--duration-5) var(--ease-out),
+        transform var(--duration-5) var(--ease-out),
+        opacity var(--duration-5) var(--ease-out);
     cursor: grab;
 }
 
 /* 카드 상태 */
 .m3-card.enabled {
-    opacity: var(--m3-card-opacity-100);
+    opacity: var(--opacity-100);
 }
 
 .m3-card.disabled {
-    opacity: var(--m3-card-opacity-40);
+    opacity: var(--opacity-40);
     cursor: not-allowed;
 }
 
 .m3-card.disabled button {
     cursor: not-allowed;
-    opacity: var(--m3-card-opacity-40);
+    opacity: var(--opacity-40);
 }
 
 .m3-card.hovered {
-    box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-4) rgba(0, 0, 0, 0.16),
-        0 var(--m3-card-space-2) var(--m3-card-space-4) rgba(0, 0, 0, 0.23);
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-1)),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-2));
 }
 
 .m3-card.focused {
-    box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-4) rgba(0, 0, 0, 0.16),
-        0 var(--m3-card-space-2) var(--m3-card-space-4) rgba(0, 0, 0, 0.23);
-    outline: var(--m3-card-border-width-2) solid var(--m3-card-color-base-8);
-    outline-offset: var(--m3-card-space-2);
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-1)),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-2));
+    outline: var(--border-width-2) solid var(--outline-color);
+    outline-offset: var(--space-2);
 }
 
 .m3-card.dragged {
-    box-shadow: 0 var(--m3-card-space-4) var(--m3-card-space-10) rgba(0, 0, 0, var(--m3-card-opacity-25)),
-        0 var(--m3-card-space-6) var(--m3-card-space-6) rgba(0, 0, 0, var(--m3-card-opacity-30));
+    box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--shadow-drag-1)),
+        0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--shadow-drag-2));
     transform: scale(1.02);
-    opacity: var(--m3-card-opacity-90);
-    cursor: grabbing;
+    opacity: var(--opacity-90);
+
 }
 
 /* 카드 컨텐츠 */
 .m3-card .content {
-    padding: var(--m3-card-space-10);
+    padding: var(--space-10);
 }
 
-.m3-card .Headline {
-    font-size: var(--m3-card-size-15);
-    font-weight: var(--m3-card-font-weight-normal);
-    color: #1C1B1F;
-    line-height: var(--m3-card-size-19);
-    margin-bottom: var(--m3-card-space-3);
+.m3-card .headline {
+    font-size: var(--size-15);
+    font-weight: var(--font-weight-normal);
+    color: var(--headline-color);
+    line-height: var(--size-19);
+    margin-bottom: var(--space-3);
     letter-spacing: 0;
     white-space: pre-line;
 }
 
 .m3-card .Subhead {
-    font-size: var(--m3-card-size-8);
-    font-weight: var(--m3-card-font-weight-medium);
-    color: #49454F;
-    line-height: var(--m3-card-size-13);
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
+    color: var(--subhead-color);
+    line-height: var(--size-13);
     letter-spacing: 0.1px;
-    margin-bottom: var(--m3-card-space-4);
+    margin-bottom: var(--space-4);
 }
 
 /* 카드 액션 */
 .m3-card .m3-btn {
     display: flex;
-    gap: var(--m3-card-space-4);
+    gap: var(--space-4);
     justify-content: flex-end;
-    padding-top: var(--m3-card-space-4);
+    padding-top: var(--space-4);
 }
 
 /* 버튼 */
 .m3-card .m3-btn button {
-    padding: var(--m3-card-space-5) var(--m3-card-space-15);
-    border-radius: var(--m3-card-radius-xl);
+    padding: var(--space-5) var(--space-15);
+    border-radius: var(--radius-xl);
     border: none;
-    font-size: var(--m3-card-size-8);
-    font-weight: var(--m3-card-font-weight-medium);
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
     letter-spacing: 0.1px;
     cursor: pointer;
-    transition: all var(--m3-card-duration-4) var(--m3-card-ease-out);
-    line-height: var(--m3-card-size-13);
+    transition: all var(--duration-4) var(--ease-out);
+    line-height: var(--size-13);
     position: relative;
     overflow: hidden;
 }
@@ -298,11 +145,11 @@
     inset: 0;
     background: currentColor;
     opacity: 0;
-    transition: opacity var(--m3-card-duration-4) var(--m3-card-ease-out);
+    transition: opacity var(--duration-4) var(--ease-out);
 }
 
 .m3-card .m3-btn button:hover::before {
-    opacity: var(--m3-card-opacity-10);
+    opacity: var(--opacity-10);
 }
 
 .m3-card .m3-btn button:active::before {
@@ -310,19 +157,19 @@
 }
 
 .m3-card .m3-btn .Play {
-    background: var(--m3-card-color-accent-1);
-    color: var(--m3-card-color-white);
-    box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-30));
+    background: var(--play-bg);
+    color: var(--play-color);
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--play-shadow));
 }
 
 .m3-card .m3-btn .Play::before {
-    background: var(--m3-card-color-white);
+    background: var(--play-before-bg);
 }
 
 .m3-card .m3-btn .Play:hover {
-    box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-3) rgba(0, 0, 0, var(--m3-card-opacity-40));
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--play-shadow-hover));
 }
 
 .m3-card .m3-btn .Play:active {
-    box-shadow: 0 var(--m3-card-space-1) var(--m3-card-space-2) rgba(0, 0, 0, var(--m3-card-opacity-30));
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--play-shadow-active));
 }
