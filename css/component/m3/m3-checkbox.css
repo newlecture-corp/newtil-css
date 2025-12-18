@@ -1,18 +1,25 @@
-body{
-    padding: 30px;
-}
-
 /* 체크박스 변수 */
 .m3-checkbox {
     --checkbox-main-color: var(--color-main-2);
     --checkbox-icon-color: var(--color-white);
     --checkbox-border-color: var(--color-base-8);
-    --checkbox-ouline-color: var(--color-main-2);
+    --checkbox-outline-color: var(--color-main-2);
     --chckbox-text-color: var(--color-base-8);
     --checkbox-opacity: var(--opacity-0);
     --checkbox-icon-content: var("");
 }
 /* -------------- */
+
+@media (prefers-color-scheme: dark){
+    .m3-checkbox {
+        --checkbox-main-color: var(--color-main-1);
+        --checkbox-icon-color: var(--color-main-3);
+        --color-main-2: var(--color-main-1);
+
+    }
+    
+}
+
 
 .m3-checkbox,
 .m3-checkbox input[type="checkbox"]::after,
@@ -29,8 +36,7 @@ body{
     font-size: 16px;
     color: var(--chckbox-text-color);
 }
-     /* (variables.css에서 :root --font-size 변수명 확인해야) */
-     /* (input type 기입 필요한가?) */
+   
 .m3-checkbox input[type="checkbox"] {
     appearance: none;
     position: relative;
@@ -77,8 +83,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    outline: 3px solid var(--checkbox-ouline-color);
-    background-color: var(--checkbox-main-color);
+    outline: 3px solid var(--checkbox-outline-color);
+    /* background-color: var(--checkbox-main-color); */
     background: var(--checkbox-main-color);
     opacity: var(--checkbox-opacity);
 }
@@ -89,33 +95,25 @@ body{
     --checkbox-opacity: var(--opacity-100)
 }
 
-/* .m3-checkbox input[type="checkbox"]:checked:disabled::after
-.state\:selected-disabled
-{
-    --checkbox-icon-content: "\e5ca";
-    --checkbox-main-color: var(--color-base-8);
-    --checkbox-opacity: 0.38;
-} */
-
 .m3-checkbox input[type="checkbox"]:disabled{
     --checkbox-border-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
     --chckbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
 }
 
 .m3-checkbox input[type="checkbox"]:not(:disabled):hover::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 92%);
     --checkbox-opacity: var(--opacity-100)
 }
 
 .m3-checkbox input[type="checkbox"]:not(:disabled):focus::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 0%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 0%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-opacity: var(--opacity-100)
 }
 
 .m3-checkbox input[type="checkbox"]:not(:disabled):active::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
     --checkbox-opacity: var(--opacity-90);
 }
@@ -130,59 +128,26 @@ body{
     --checkbox-opacity: var(--opacity-100)
 }
 
-/* .m3-checkbox input[type="checkbox"]:checked:disabled::after
-.state\:selected-disabled
-{
-    --checkbox-icon-content: "\e5ca";
-    --checkbox-main-color: var(--color-base-8);
-    --checkbox-opacity: 0.38;
-} */
-
 .m3-checkbox.checkbox-state\:unselected-disabled input[type="checkbox"]{
     --checkbox-border-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
     --chckbox-text-color: color-mix(in srgb, var(--color-base-8), transparent 38%);
 }
 
 .m3-checkbox.checkbox-state\:hovered input[type="checkbox"]::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 92%);
     --checkbox-opacity: var(--opacity-100)
 }
 
 .m3-checkbox.checkbox-state\:focused input[type="checkbox"]::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 0%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 0%);
     --checkbox-main-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-opacity: var(--opacity-100)
 }
 
 .m3-checkbox.checkbox-state\:pressed input[type="checkbox"]::before{
-    --checkbox-ouline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
+    --checkbox-outline-color: color-mix(in srgb, var(--color-main-2), transparent 100%);
     --checkbox-main-color: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
     --checkbox-opacity: var(--opacity-90);
 }
 
-
-@media (prefers-color-scheme: dark){
-    body{
-        background-color: black;
-    } 
-    .m3-checkbox input[type="checkbox"]::after{
-        --checkbox-icon-color: var(--color-main-3);
-        --checkbox-main-color: var(--color-main-1);
-    }
-    .m3-checkbox input[type="checkbox"]:not(:disabled):hover::before,
-    .checkbox-state\:hovered input[type="checkbox"]::before{
-        --checkbox-ouline-color: color-mix(in srgb, var(--color-main-1), transparent 100%);
-        --checkbox-main-color: color-mix(in srgb, var(--color-main-1), transparent 92%);
-    }
-    .m3-checkbox input[type="checkbox"]:not(:disabled):focus::before,
-    .checkbox-state\:focused input[type="checkbox"]::before{
-        --checkbox-ouline-color: color-mix(in srgb, var(--color-main-1), transparent 0%);
-        --checkbox-main-color: color-mix(in srgb, var(--color-main-1), transparent 100%);
-    }
-    .m3-checkbox input[type="checkbox"]:not(:disabled):active::before,
-    .checkbox-state\:pressed input[type="checkbox"]::before{
-        --checkbox-main-color: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%,
-         rgba(140, 186, 53, 0.3) 50%, rgba(140, 186, 53, 0.5) 100%);
-    }
-}
