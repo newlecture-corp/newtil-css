@@ -1,0 +1,175 @@
+.m3-card {
+    /* 테마/상태에 따라 바뀌는 값들을 전부 변수로 */
+    --bg: var(--color-white);
+    --shadow-rest-1: var(--opacity-10);
+    --shadow-rest-2: var(--opacity-25);
+    --shadow-hover-1: 0.16;
+    --shadow-hover-2: 0.23;
+    --shadow-drag-1: var(--opacity-25);
+    --shadow-drag-2: var(--opacity-30);
+    --headline-color: #1C1B1F;
+    --subhead-color: #49454F;
+    --outline-color: var(--color-base-8);
+    --play-bg: var(--color-accent-1);
+    --play-color: var(--color-white);
+    --play-shadow: var(--opacity-30);
+    --play-shadow-hover: var(--opacity-40);
+    --play-shadow-active: var(--opacity-30);
+    --play-before-bg: var(--color-white);
+}
+
+/* 다크 모드 지원 */
+@media (prefers-color-scheme: dark) {
+
+    .m3-card {
+        --bg: var(--color-base-2);
+        --shadow-rest-1: var(--opacity-40);
+        --shadow-rest-2: var(--opacity-50);
+        --shadow-hover-1: var(--opacity-40);
+        --shadow-hover-2: var(--opacity-50);
+        --shadow-drag-1: var(--opacity-50);
+        --shadow-drag-2: var(--opacity-60);
+        --headline-color: var(--color-base-10);
+        --subhead-color: var(--color-base-7);
+        --outline-color: var(--color-accent-2);
+        --play-bg: var(--color-accent-2);
+        --play-color: var(--color-base-1);
+        --play-shadow: var(--opacity-50);
+        --play-shadow-hover: var(--opacity-60);
+        --play-shadow-active: var(--opacity-50);
+        --play-before-bg: var(--color-base-1);
+    }
+}
+
+/* 카드 컨테이너 */
+.m3-card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background: var(--bg);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--shadow-rest-1)),
+        0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--shadow-rest-2));
+    transition: box-shadow var(--duration-5) var(--ease-out),
+        transform var(--duration-5) var(--ease-out),
+        opacity var(--duration-5) var(--ease-out);
+    cursor: grab;
+}
+
+/* 카드 상태 */
+.m3-card.enabled {
+    opacity: var(--opacity-100);
+}
+
+.m3-card.disabled {
+    opacity: var(--opacity-40);
+    cursor: not-allowed;
+}
+
+.m3-card.disabled button {
+    cursor: not-allowed;
+    opacity: var(--opacity-40);
+}
+
+.m3-card.hovered {
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-1)),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-2));
+}
+
+.m3-card.focused {
+    box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-1)),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, var(--shadow-hover-2));
+    outline: var(--border-width-2) solid var(--outline-color);
+    outline-offset: var(--space-2);
+}
+
+.m3-card.dragged {
+    box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--shadow-drag-1)),
+        0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--shadow-drag-2));
+    transform: scale(1.02);
+    opacity: var(--opacity-90);
+
+}
+
+/* 카드 컨텐츠 */
+.m3-card .content {
+    padding: var(--space-10);
+}
+
+.m3-card .headline {
+    font-size: var(--size-15);
+    font-weight: var(--font-weight-normal);
+    color: var(--headline-color);
+    line-height: var(--size-19);
+    margin-bottom: var(--space-3);
+    letter-spacing: 0;
+    white-space: pre-line;
+}
+
+.m3-card .Subhead {
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
+    color: var(--subhead-color);
+    line-height: var(--size-13);
+    letter-spacing: 0.1px;
+    margin-bottom: var(--space-4);
+}
+
+/* 카드 액션 */
+.m3-card .m3-btn {
+    display: flex;
+    gap: var(--space-4);
+    justify-content: flex-end;
+    padding-top: var(--space-4);
+}
+
+/* 버튼 */
+.m3-card .m3-btn button {
+    padding: var(--space-5) var(--space-15);
+    border-radius: var(--radius-xl);
+    border: none;
+    font-size: var(--size-8);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    transition: all var(--duration-4) var(--ease-out);
+    line-height: var(--size-13);
+    position: relative;
+    overflow: hidden;
+}
+
+.m3-card .m3-btn button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: currentColor;
+    opacity: 0;
+    transition: opacity var(--duration-4) var(--ease-out);
+}
+
+.m3-card .m3-btn button:hover::before {
+    opacity: var(--opacity-10);
+}
+
+.m3-card .m3-btn button:active::before {
+    opacity: 0.12;
+}
+
+.m3-card .m3-btn .Play {
+    background: var(--play-bg);
+    color: var(--play-color);
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--play-shadow));
+}
+
+.m3-card .m3-btn .Play::before {
+    background: var(--play-before-bg);
+}
+
+.m3-card .m3-btn .Play:hover {
+    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--play-shadow-hover));
+}
+
+.m3-card .m3-btn .Play:active {
+    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--play-shadow-active));
+}
