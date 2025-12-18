@@ -135,7 +135,8 @@
 
 /* ===========================Button State======================================== */
 
-/* --------------------------공통적용-------------------------- */
+/* -----------disabled------------------- */
+
 .m3-btn:disabled,
 .btn-state\:disabled {
 
@@ -145,40 +146,41 @@
 
 }
 
-/* -------------------Elevated State--------------------------- */
+/* -----------focus------------------- */
 
 .btn-type\:elevated:focus:not(:active),
-.btn-type\:elevated.btn-state\:focus:not(:active) {
+.btn-type\:elevated.btn-state\:focus:not(:active),
+.btn-type\:outlined:focus:not(:active),
+.btn-type\:outlined.btn-state\:focus:not(:active),
+.btn-type\:text:focus:not(:active),
+.btn-type\:text.btn-state\:focus:not(:active)  {
 
     border: var(--btn-border-gray);
     outline: var(--btn-outline-gray);
     outline-offset: -4px;
-
+    
 }
-
-.btn-type\:elevated:hover,
-.btn-type\:elevated.btn-state\:hover {
-
-    background: var(--btn-background-color-elevated-state-hovered);
-
-}
-
-.btn-type\:elevated:active,
-.btn-type\:elevated.btn-state\:active {
-
-    background: var(--btn-background-color-elevated-state-active);
-    border-radius: var(--btn-border-shape-square);
-
-}
-
-
-/* ----------------Filled State----------------------------- */
 
 .btn-type\:filled:focus:not(:active),
-.btn-type\:filled.btn-state\:focus:not(:active) {
+.btn-type\:filled.btn-state\:focus:not(:active),
+.btn-type\:tonal:focus:not(:active),
+.btn-type\:tonal.btn-state\:focus:not(:active) {
 
     border: var(--btn-border-brown);
     outline: var(--btn-outline-brown);
+
+}
+
+/* -----------hover------------------- */
+
+.btn-type\:elevated:hover,
+.btn-type\:elevated.btn-state\:hover,
+.btn-type\:outlined:hover,
+.btn-type\:outlined.btn-state\:hover,
+.btn-type\:text:hover,
+.btn-type\:text.btn-state\:hover {
+
+    background: var(--btn-background-color-elevated-state-hovered);
 
 }
 
@@ -186,6 +188,27 @@
 .btn-type\:filled.btn-state\:hover {
 
     background: var(--btn-background-color-filled-state-hovered);
+
+}
+
+.btn-type\:tonal:hover,
+.btn-type\:tonal.btn-state\:hover {
+
+    background: var(--btn-background-color-tonal-state-hovered);
+
+}
+
+/* -----------active------------------- */
+
+.btn-type\:elevated:active,
+.btn-type\:elevated.btn-state\:active,
+.btn-type\:outlined:active,
+.btn-type\:outlined.btn-state\:active,
+.btn-type\:text:active,
+.btn-type\:text.btn-state\:active {
+
+    background: var(--btn-background-color-elevated-state-active);
+    border-radius: var(--btn-border-shape-square);
 
 }
 
@@ -197,23 +220,6 @@
 
 }
 
-/* -----------------Tonal State----------------------------- */
-
-.btn-type\:tonal:focus:not(:active),
-.btn-type\:tonal.btn-state\:focus:not(:active) {
-
-    border: var(--btn-border-brown);
-    outline: var(--btn-outline-brown);
-
-}
-
-.btn-type\:tonal:hover,
-.btn-type\:tonal.btn-state\:hover {
-
-    background: var(--btn-background-color-tonal-state-hovered);
-
-}
-
 .btn-type\:tonal:active,
 .btn-type\:tonal.btn-state\:active {
 
@@ -222,37 +228,7 @@
 
 }
 
-/* --------------Outlined & Text State----------------------------- */
 
-.btn-type\:outlined:focus:not(:active),
-.btn-type\:outlined.btn-state\:focus:not(:active),
-.btn-type\:text:focus:not(:active),
-.btn-type\:text.btn-state\:focus:not(:active) {
-
-    border: var(--btn-border-gray);
-    outline: var(--btn-outline-gray);
-    outline-offset: -4px;
-
-}
-
-.btn-type\:outlined:hover,
-.btn-type\:outlined.btn-state\:hover,
-.btn-type\:text:hover,
-.btn-type\:text.btn-state\:hover {
-
-    background: var(--btn-background-color-elevated-state-hovered);
-
-}
-
-.btn-type\:outlined:active,
-.btn-type\:outlined.btn-state\:active,
-.btn-type\:text:active,
-.btn-type\:text.btn-state\:active {
-
-    background: var(--btn-background-color-elevated-state-active);
-    border-radius: var(--btn-border-shape-square);
-
-}
 
 
 /* ===================Button Type & State (Dark Mode)================================ */
