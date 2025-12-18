@@ -10,78 +10,114 @@
         />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="m3-card.css" />
+            <style>
+                body {
+                    margin: 0;
+                    padding: 40px 20px;
+                    min-height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background: var(--color-base-3);
+                }
+                
+                .container {
+                    max-width: 1400px;
+                    width: 100%;
+                }
+                
+                h1 {
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                
+                .card-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+                    gap: 32px;
+                    justify-items: center;
+                }
+            </style>
     </head>
     <body>
-        
         <!---------------------- 기본 상태 ------------------>
-        <div class="m3-card enabled">
-            <div class="content">
+        <div class="m3-card card-state:enabled">
+            <div class="container">
                 <div class="headline">
                     Play
                     relaxing songs
                 </div>
                 <div class="subhead">From your recent favorites</div>
-
+                <div class="supporting-text">supporting-text</div>
                 <!---------- 버튼 ----------->
                 <div class="m3-btn">
                     <button class="Play">Get started</button>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <!---------------------- 비활성화 상태 ------------------>
-        <div class="m3-card disabled">
-            <div class="content">
+        <div class="m3-card card-state:disabled">
+            <div class="container">
                 <div class="headline">
                     Play
                     relaxing songs
                 </div>
                 <div class="subhead">From your recent favorites</div>
-
+                <div class="supporting-text">supporting-text</div>
                 <!---------- 버튼 ----------->
-                <div class="m3-btn">
+                <div class="m3-btn card-state:disabled button">
                     <button class="Play">Get started</button>
                 </div>
             </div>
-        </div>        
+        </div>
+        <br>   
+        <br>     
         <!---------------------- 호버 상태 ------------------>
-        <div class="m3-card hovered">
-            <div class="content">
+        <div class="m3-card card-state:hovered">
+            <div class="container">
                 <div class="headline">
                     Play
                     relaxing songs
                 </div>
                 <div class="subhead">From your recent favorites</div>
-
+                <div class="supporting-text">supporting-text</div>
                 <!---------- 버튼 ----------->
                 <div class="m3-btn">
                     <button class="Play">Get started</button>
                 </div>
             </div>
-        </div>        
+        </div>      
+        <br>
+        <br>  
         <!---------------------- 포커스 상태 ------------------>
-        <div class="m3-card focused">
-            <div class="content">
+        <div class="m3-card card-state:focused">
+            <div class="container">
                 <div class="headline">
                     Play
                     relaxing songs
                 </div>
                 <div class="subhead">From your recent favorites</div>
-
+                <div class="supporting-text">supporting-text</div>
                 <!---------- 버튼 ----------->
                 <div class="m3-btn">
                     <button class="Play">Get started</button>
                 </div>
             </div>
-        </div>        
+        </div>      
+        <br>  
+        <br>
         <!---------------------- 드래그 상태 ------------------>
-        <div class="m3-card dragged">
-            <div class="content">
+        <div class="m3-card card-state:dragged">
+            <div class="container">
                 <div class="headline">
                     Play
                     relaxing songs
                 </div>
                 <div class="subhead">From your recent favorites</div>
-
+                <div class="supporting-text">supporting-text</div>
                 <!---------- 버튼 ----------->
                 <div class="m3-btn">
                     <button class="Play">Get started</button>
