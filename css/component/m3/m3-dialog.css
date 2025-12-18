@@ -65,60 +65,53 @@
 
     /* width, height */
     /* 이거 문서에 최소, 최대 넓이로 나와있어서 수정함 */
-    --dialog-min-width: 280px;
-    --dialog-max-width: 560px;
+    --dialog-spec-min-width: 280px;
+    --dialog-spec-max-width: 560px;
 
     /* 변수 */
     /* 여기서만 수정한다 */
-    --modal-bg: var(--color-base-3);
-    --modal-radius: var(--space-17);
-    --modal-padding: var(--space-15);
-    --modal-min-width: var(--dialog-min-width);
-    --modal-max-width: var(--dialog-max-width);
+    --dialog-bg-color: var(--color-base-3);
+    --dialog-radius: var(--space-17);
+    --dialog-padding: var(--space-15);
+    --dialog-min-width: var(--dialog-spec-min-width);
+    --dialog-max-width: var(--dialog-spec-max-width);
 
-    --modal-color: var(--color-base-8);
+    --dialog-color: var(--color-base-8);
 
-    --modal-headline-font-color: var(--color-base-10);
-    --modal-headline-font-size: var(--space-15);
-    --modal-headline-font-weight: var(--font-weight-4);
-    --modal-headline-margin-bottom: var(--space-14);
+    --dialog-headline-font-color: var(--color-base-10);
+    --dialog-headline-font-size: var(--space-15);
+    --dialog-headline-font-weight: var(--font-weight-4);
+    --dialog-headline-margin-bottom: var(--space-14);
 
-    --modal-content-font-color: var(--color-base-8);
-    --modal-content-font-size: var(--space-8);
-    --modal-content-margin-bottom: var(--space-15);
-    --modal-content-line-height: var(--space-13);
+    --dialog-content-font-color: var(--color-base-8);
+    --dialog-content-font-size: var(--space-8);
+    --dialog-content-margin-bottom: var(--space-15);
+    --dialog-content-line-height: var(--space-13);
 
-    --modal-actions-gap: var(--space-4);
+    --dialog-actions-gap: var(--space-4);
 
-    --modal-btn-color: var(--color-sub-2);
-    --modal-btn-padding: var(--space-12) var(--space-10);
+    --dialog-btn-color: var(--color-sub-2);
+    --dialog-btn-padding: var(--space-12) var(--space-10);
 
     /* Text Button specific */
     /* --dialog-opacity-1: 0.08 -> 8% */
-    --modal-hovered-bg: color-mix(in srgb, var(--modal-btn-color) 8%, transparent);
-    --modal-focused-bg: color-mix(in srgb, var(--modal-btn-color) 10%, transparent);
-    --modal-pressed-bg: color-mix(in srgb, var(--modal-btn-color) 10%, transparent);
+    --dialog-hovered-bg: color-mix(in srgb, var(--dialog-btn-color) 8%, transparent);
+    --dialog-focused-bg: color-mix(in srgb, var(--dialog-btn-color) 10%, transparent);
+    --dialog-pressed-bg: color-mix(in srgb, var(--dialog-btn-color) 10%, transparent);
 }
 
 @media (prefers-color-scheme: dark) {
     .m3-dialog {
-        --modal-bg: var(--color-base-2);
-        --modal-headline-font-color: var(--color-base-7);
-        --modal-content-font-color: var(--color-base-6);
-        --modal-btn-color: var(--color-sub-5);
+        --dialog-bg-color: var(--color-base-2);
+        --dialog-headline-font-color: var(--color-base-7);
+        --dialog-content-font-color: var(--color-base-6);
+        --dialog-btn-color: var(--color-sub-5);
     }
 }
 
 
-/* css 가 동적으로 생성됨 */
-.m3-dialog.open {
-    display: flex;
-}
-
 /*  */
 .m3-dialog {
-    /* 처음에는 안보여야되니까 */
-    display: none;
     position: fixed;
     /* top, right, bottom, left 값을 한 번에 지정하는 속성 */
     inset: 0;
@@ -130,45 +123,47 @@
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
 
     /* moved from .modal-container */
-    background: var(--modal-bg);
-    padding: var(--modal-padding);
-    border-radius: var(--modal-radius);
-    min-width: var(--modal-min-width);
-    max-width: var(--modal-max-width);
+    background: var(--dialog-bg-color);
+    padding: var(--dialog-padding);
+    border-radius: var(--dialog-radius);
+    min-width: var(--dialog-min-width);
+    max-width: var(--dialog-max-width);
     box-sizing: border-box;
 
-    color: var(--modal-color);
-    /* 폰트 reset.css에서 덮어져서 적용 안됨 위로 올려도 안됨 */
+    color: var(--dialog-color);
     font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
     flex-direction: column;
 
-    .header {
-        margin: 0 0 var(--modal-headline-margin-bottom) 0;
-        color: var(--modal-headline-font-color);
-        font-size: var(--modal-headline-font-size);
-        font-weight: var(--modal-headline-font-weight);
+    .header,
+    > :first-child {
+        margin: 0 0 var(--dialog-headline-margin-bottom) 0;
+        color: var(--dialog-headline-font-color);
+        font-size: var(--dialog-headline-font-size);
+        font-weight: var(--dialog-headline-font-weight);
     }
 
-    .content {
-        margin: 0 0 var(--modal-content-margin-bottom) 0;
-        color: var(--modal-content-font-color);
-        font-size: var(--modal-content-font-size);
-        line-height: var(--modal-content-line-height);
+    .content,
+    > :nth-child(2) {
+        margin: 0 0 var(--dialog-content-margin-bottom) 0;
+        color: var(--dialog-content-font-color);
+        font-size: var(--dialog-content-font-size);
+        line-height: var(--dialog-content-line-height);
     }
 
-    .actions {
+    .actions,
+    > :nth-child(3) {
         display: flex;
         justify-content: flex-end;
-        gap: var(--modal-actions-gap);
+        gap: var(--dialog-actions-gap);
 
         /* 공통으로 바꿀시 삭제 */
         .m3-btn {
             background-color: transparent;
-            color: var(--modal-btn-color);
+            color: var(--dialog-btn-color);
             border: none;
-            border-radius: var(--modal-radius);
-            padding: var(--modal-btn-padding);
+            border-radius: var(--dialog-radius);
+            padding: var(--dialog-btn-padding);
 
             /* effect */
             transition: background-color 0.2s ease;
@@ -177,15 +172,15 @@
 
         /* hover, focus, active */
         .m3-btn:hover {
-            background-color: var(--modal-hovered-bg);
+            background-color: var(--dialog-hovered-bg);
         }
 
         .m3-btn:focus {
-            background-color: var(--modal-focused-bg);
+            background-color: var(--dialog-focused-bg);
         }
 
         .m3-btn:active {
-            background-color: var(--modal-pressed-bg);
+            background-color: var(--dialog-pressed-bg);
         }
 
     }
