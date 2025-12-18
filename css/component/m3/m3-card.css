@@ -22,6 +22,9 @@
     --card-outline-offset: 0;
     --card-transform: none;
     
+    /* 상태별 변수 */
+    --card-focused-outline-color: var(--color-base-8);
+    
     /* overlay */
     --card-overflow: var(--overflow-hidden);
 
@@ -81,7 +84,7 @@
     }
 
     .m3-card.card-state\:focused {
-        --card-outline: 3px solid var(--color-accent-2);
+        --card-focused-outline-color: var(--color-accent-2);
     }
 }
 
@@ -130,7 +133,7 @@
 .m3-card.card-state\:focused {
     --card-box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16),
         0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
-    --card-outline: 3px solid var(--color-base-8);
+    --card-outline: 3px solid var(--card-focused-outline-color);
     --card-outline-offset: var(--space-2);
     --card-opacity: var(--opacity-90);
 }
