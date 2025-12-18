@@ -102,15 +102,14 @@
 
 @media (prefers-color-scheme: dark) {
     .m3-dialog {
-        --dialog-bg-color: var(--color-base-2);
-        --dialog-headline-font-color: var(--color-base-7);
-        --dialog-content-font-color: var(--color-base-6);
-        --dialog-btn-color: var(--color-sub-5);
+        --dialog-bg-color: var(--color-base-3);
+        --dialog-headline-font-color: var(--color-base-10);
+        --dialog-content-font-color: var(--color-base-8);
+        --dialog-btn-color: var(--color-sub-2);
     }
 }
 
 
-/*  */
 .m3-dialog {
     position: fixed;
     /* top, right, bottom, left 값을 한 번에 지정하는 속성 */
