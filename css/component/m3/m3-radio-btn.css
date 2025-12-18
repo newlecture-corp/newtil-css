@@ -1,10 +1,11 @@
-:root {
+.m3-radio {
     --md3-radio-size: 20px;
     --md3-touch-size: 48px;
     --md3-stroke-width: 2px;
     --md3-inner-stroke-width: 5px;
     --md3-inner-dot-size: 10px;
-    --md3-spacing-label: 12px;
+    --md3-spacing-label: 15px;
+    --md3-label-size: 15px;
 
     --md3-select-primary: var(--color-main-2);
     --md3-unselect-primary: var(--color-base-9);
@@ -22,7 +23,13 @@
     --outline-offset: 5px;
 }
 
-.n-radio {
+@media (prefers-color-scheme: dark) {
+    .m3-radio{
+
+    }
+}
+
+.m3-radio {
     display: inline-flex;
     align-items: center;
     gap: var(--md3-spacing-label);
@@ -30,7 +37,7 @@
     user-select: none;
 }
 
-.n-radio input[type="radio"] {
+.m3-radio input[type="radio"] {
     appearance: none;
     width: var(--md3-touch-size);
     height: var(--md3-touch-size);
@@ -41,8 +48,8 @@
     cursor: pointer;
 }
 
-.n-radio input[type="radio"]::before,
-.n-radio input[type="radio"]::after {
+.m3-radio input[type="radio"]::before,
+.m3-radio input[type="radio"]::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -54,7 +61,7 @@
 }
 
 /* outer ring */
-.n-radio input[type="radio"]::before {
+.m3-radio input[type="radio"]::before {
     width: var(--md3-radio-size);
     height: var(--md3-radio-size);
     border-radius: var(--radius-8);
@@ -62,7 +69,7 @@
 }
 
 /* inner dot */
-.n-radio input[type="radio"]::after {
+.m3-radio input[type="radio"]::after {
     width: 0;
     height: 0;
     border-radius: var(--radius-8);
@@ -71,72 +78,100 @@
 }
 
 /* checked */
-.n-radio input[type="radio"]:checked::before {
+.m3-radio input[type="radio"]:checked::before {
     border-color: var(--md3-select-primary);
 }
 
-.n-radio input[type="radio"]:checked::after {
+.m3-radio input[type="radio"]:checked::after {
     opacity: var(--opacity-100);
     transition-duration: 120ms;
 }
 
 /* hover */
-.n-radio input[type="radio"]:hover::before {
+.m3-radio input[type="radio"]:hover::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-3));
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
 /* hover */
-.n-radio input[type="radio"]:checked:hover::before {
+.m3-radio input[type="radio"]:checked:hover::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-3));
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 /* press */
-.n-radio input[type="radio"]:active::before {
+.m3-radio input[type="radio"]:active::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
     background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
 }
 
-.n-radio input[type="radio"]:checked:active::before {
+.m3-radio input[type="radio"]:checked:active::before {
     box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
     background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
 }
 
 
 /* focus ring */
-.n-radio input[type="radio"]:focus::before {
+.m3-radio input[type="radio"]:focus::before {
     outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
     outline-offset: var(--outline-offset);
 }
 
-.n-radio input[type="radio"]:checked:focus::before {
+.m3-radio input[type="radio"]:checked:focus::before {
     outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
     outline-offset: var(--outline-offset);
 }
 
 /* disabled */
-.n-radio input[type="radio"]:disabled {
+.m3-radio input[type="radio"]:disabled {
     cursor: not-allowed;
     box-shadow: none;
 }
 
-/* disabled
-.n-radio input[type="radio"]:checked:disabled {
-    cursor: not-allowed;
-    box-shadow: none;
-} */
+/* disabled */
 
-.n-radio input[type="radio"]:checked:disabled::before,
-.n-radio input[type="radio"]:checked:disabled::after,
-.n-radio input[type="radio"]:disabled::before,
-.n-radio input[type="radio"]:disabled::after {
+.m3-radio input[type="radio"]:checked:disabled::before,
+.m3-radio input[type="radio"]:checked:disabled::after,
+.m3-radio input[type="radio"]:disabled::before,
+.m3-radio input[type="radio"]:disabled::after {
     border-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-disabled));
     background-color: transparent;
     box-shadow: none;
 }
 
-.n-radio .n-radio-label {
-    font-size: 14px;
+.m3-radio .m3-radio-label {
+    font-size: var(--md3-label-size);
     color: var(--md3-unselect-primary);
 }
+
+.radio\:hover input[type="radio"]::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
+}
+
+
+.radio\:hover input[type="radio"]:checked::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-3));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
+}
+
+.radio\:press input[type="radio"]::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-2));
+}
+
+.radio\:press input[type="radio"]:checked::before{
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
+    background-color: color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-2));
+}
+
+.radio\:focus input[type="radio"]::before{
+    outline: 1px solid color-mix(in srgb, var(--md3-unselect-primary), transparent var(--transparent-1));
+    outline-offset: var(--outline-offset);
+}
+
+.radio\:focus input[type="radio"]:checked::before{
+    outline: 1px solid color-mix(in srgb, var(--md3-select-primary), transparent var(--transparent-1));
+    outline-offset: var(--outline-offset);
+}
+
