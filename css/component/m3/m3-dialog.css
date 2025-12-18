@@ -1,85 +1,72 @@
 .m3-dialog {
-    /* 공통 상수 초기화 */
-    /* 공통 상수는 --dialog 로 시작하고, 변수는 --modal 로 시작한다 */
+    /* 공통 상수 variables.css에서 정의 어떤값 사용했는지 주석으로 표시 */
     /* color */
-
-
-    /* --dialog-primary-color-1: var(--color-base-10);
-    --dialog-primary-color-2: var(--color-base-9);
-    --dialog-primary-color-3: var(--color-base-8);
-    --dialog-primary-color-4: var(--color-sub-2);
-    --dialog-primary-color-5: var(--color-sub-1);
-    --dialog-primary-color-6: var(--color-base-4);
-    --dialog-primary-color-7: var(--color-base-2);
-    --dialog-primary-color-8: var(--color-base-3); */
+    /* --color-base-10: #000000;
+    --color-base-9: #191919;
+    --color-base-8: #585858;
+    --color-sub-2: #2570b6;
+    --color-sub-1: #2983d7;
+    --color-base-4: #b3b3b3;
+    --color-base-2: #d7d7d7;
+    --color-base-3: #e5e7eb; */
 
     /* font size */
-    /* --dialog-size-1: var(--space-15);
-    --dialog-size-2: var(--space-8);
-
-
-    --dialog-weight-1: var(--font-weight-4);
-    --dialog-weight-2: var(--font-weight-5); */
-
-
-    /* --dialog-btn-height: var(--space-24); */
+    /* --space-15: 24px;
+    --space-8: 14px;
+     */
 
     /* radius */
-    /* --dialog-radius: var(--space-17); */
+    /* --space-17: 28px; */
 
     /* opacity */
-    /* --dialog-opacity-1: 0.08;
-    --dialog-opacity-2: var(--opacity-10); */
+    /* --opacity-10: 0.1; */
 
     /* padding */
-    /* --dialog-padding-1: var(--space-15);
-    --dialog-padding-2: var(--space-14);
-    --dialog-padding-3: var(--space-13);
-    --dialog-padding-4: var(--space-12);
-    --dialog-padding-5: var(--space-10);
-    --dialog-padding-6: var(--space-8);
-    --dialog-padding-7: var(--space-6);
-    --dialog-padding-8: var(--space-5);
-    --dialog-padding-9: var(--space-4);
-    --dialog-padding-10: var(--space-3);
-    --dialog-padding-11: var(--space-2);
-    --dialog-padding-12: var(--space-1); */
+    /* --space-15: 24px;
+    --space-14: 22px;
+    --space-13: 20px;
+    --space-12: 18px;
+    --space-10: 16px;
+    --space-8: 14px;
+    --space-6: 12px;
+    --space-5: 10px;
+    --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
 
 
     /* margin */
-    /* --dialog-margin-1: var(--space-15);
-    --dialog-margin-2: var(--space-14);
-    --dialog-margin-3: var(--space-13);
-    --dialog-margin-4: var(--space-12);
-    --dialog-margin-5: var(--space-10);
-    --dialog-margin-6: var(--space-8);
-    --dialog-margin-7: var(--space-6);
-    --dialog-margin-8: var(--space-5);
-    --dialog-margin-9: var(--space-4);
-    --dialog-margin-10: var(--space-3);
-    --dialog-margin-11: var(--space-2);
-    --dialog-margin-12: var(--space-1); */
+    /* --space-15: 24px;
+    --space-14: 22px;
+    --space-13: 20px;
+    --space-12: 18px;
+    --space-10: 16px;
+    --space-8: 14px;
+    --space-6: 12px;
+    --space-5: 10px;
+    --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
 
     /* gap */
-    /* --dialog-gap-1: var(--space-4);
-    --dialog-gap-2: var(--space-3);
-    --dialog-gap-3: var(--space-2);
-    --dialog-gap-4: var(--space-1); */
+    /* --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
 
     /* line height */
-    /* --dialog-line-height-1: var(--space-13);
-    --dialog-line-height-2: var(--space-10);
-    --dialog-line-height-3: var(--space-6);
-    --dialog-line-height-4: var(--space-4);
-    --dialog-line-height-5: var(--space-3); */
+    /* --space-13: 20px;
+    --space-10: 16px;
+    --space-6: 12px;
+    --space-4: 8px;
+    --space-3: 4px; */
 
     /* width, height */
     /* 이거 문서에 최소, 최대 넓이로 나와있어서 수정함 */
     --dialog-min-width: 280px;
     --dialog-max-width: 560px;
-
-    --dialog-btn-content-height: 88px;
-    --dialog-btn-width: 85px;
 
     /* 변수 */
     /* 여기서만 수정한다 */
@@ -101,7 +88,7 @@
     --modal-content-margin-bottom: var(--space-15);
     --modal-content-line-height: var(--space-13);
 
-    --modal-actions-gap: var(--dialog-gap-1);
+    --modal-actions-gap: var(--space-4);
 
     --modal-btn-color: var(--color-sub-2);
     --modal-btn-padding: var(--space-12) var(--space-10);
@@ -151,47 +138,53 @@
     box-sizing: border-box;
 
     color: var(--modal-color);
+    /* 폰트 reset.css에서 덮어져서 적용 안됨 위로 올려도 안됨 */
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
     flex-direction: column;
 
-    .modal-headline {
+    .header {
         margin: 0 0 var(--modal-headline-margin-bottom) 0;
         color: var(--modal-headline-font-color);
         font-size: var(--modal-headline-font-size);
         font-weight: var(--modal-headline-font-weight);
     }
 
-    .modal-content {
+    .content {
         margin: 0 0 var(--modal-content-margin-bottom) 0;
         color: var(--modal-content-font-color);
         font-size: var(--modal-content-font-size);
         line-height: var(--modal-content-line-height);
     }
 
-    .modal-actions {
+    .actions {
         display: flex;
         justify-content: flex-end;
         gap: var(--modal-actions-gap);
 
-        .n-btn {
+        /* 공통으로 바꿀시 삭제 */
+        .m3-btn {
             background-color: transparent;
             color: var(--modal-btn-color);
             border: none;
             border-radius: var(--modal-radius);
             padding: var(--modal-btn-padding);
+
+            /* effect */
+            transition: background-color 0.2s ease;
         }
 
 
         /* hover, focus, active */
-        .n-btn:hover {
+        .m3-btn:hover {
             background-color: var(--modal-hovered-bg);
         }
 
-        .n-btn:focus {
+        .m3-btn:focus {
             background-color: var(--modal-focused-bg);
         }
 
-        .n-btn:active {
+        .m3-btn:active {
             background-color: var(--modal-pressed-bg);
         }
 
