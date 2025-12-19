@@ -28,7 +28,8 @@
     --radio-pointer: none;
     --radio-box-sizing: border-box;
     --radio-transition: all 180ms ease;
-
+    --radio-border-color: var(--radio-unselect-primary);
+    --radio-background-color: transparent;
     /* 액션 스타일 hover, press, focus */
     --radio-box-shadow: none;
     --radio-background-color: transparent;
@@ -79,7 +80,7 @@
     margin: var(--scale-0);
     border: none;
     position: relative;
-    background: transparent;
+    background-color: var(--radio-background-color);
     cursor: var(--radio-cursor);
 }
 
@@ -127,13 +128,12 @@
    ========================================= */
 /* 체크 시 외부 링 색상 변경 */
 .m3-radio input[type="radio"]:checked::before {
-    border-color: var(--radio-select-primary);
+    border-color: var(--radio-border-color);
 }
 
 /* 체크 시 내부 점 표시 */
 .m3-radio input[type="radio"]:checked::after {
     opacity: var(--opacity-100);
-    transition-duration: 120ms;
 }
 
 /* =========================================
@@ -191,7 +191,7 @@
 .m3-radio input[type="radio"]:checked:disabled::after,
 .m3-radio input[type="radio"]:disabled::before,
 .m3-radio input[type="radio"]:disabled::after {
-    border-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-disabled));
+    --radio-border-color: color-mix(in srgb, var(--radio-unselect-primary), transparent var(--transparent-disabled));
     background-color: transparent;
     box-shadow: none;
 }
