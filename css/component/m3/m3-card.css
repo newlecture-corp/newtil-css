@@ -8,7 +8,7 @@
 
     /* ========== 카드의 변수 선언(기본값) ========== */
     /* boxing */
-    --card-background: var(--color-base-2);
+    --card-background: var(--color-base-1);
     --card-width: 360px;
     --card-height: auto;
     --card-padding: var(--space-10);
@@ -57,7 +57,7 @@
     /* font */
     --card-subhead-font-size: var(--size-10);
     --card-subhead-font-weight: var(--font-weight-normal);
-    --card-subhead-color: var(--color-base-1);
+    --card-subhead-color: var(--color-base-8);
     --card-subhead-line-height: var(--size-13);
     --card-subhead-letter-spacing: 0;
     --card-subhead-white-space: pre-line;
@@ -65,7 +65,7 @@
     /* font */
     --card-supporting-text-font-size: var(--size-6);
     --card-supporting-text-font-weight: var(--font-weight-normal);
-    --card-supporting-text-color: var(--color-base-1);
+    --card-supporting-text-color: var(--color-base-10);
     --card-supporting-text-line-height: var(--size-9);
     --card-supporting-text-margin-bottom: var(--space-2);
     --card-supporting-text-letter-spacing: 0;
@@ -79,8 +79,8 @@
         /* 다크모드에서 변경되는 변수들만 재정의 */
         --card-background: var(--color-base-2);
         --card-headline-color: var(--color-base-10);
-        --card-subhead-color: var(--color-base-7);
-        --card-supporting-text-color: var(--color-base-6);
+        --card-subhead-color: var(--color-base-8);
+        --card-supporting-text-color: var(--color-base-9);
     }
 
     .m3-card.card-state\:focused {
@@ -222,7 +222,7 @@
 }
 
 .m3-card .m3-btn .Play {
-    background: var(--color-accent-1);
+    background: var(--color-main-1);
     color: var(--color-white);
     box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-30));
 }
