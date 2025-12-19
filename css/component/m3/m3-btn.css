@@ -265,7 +265,9 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
         --btn-background: rgba(var(--rgb-base-10), 0.08);
         --btn-color: rgba(var(--rgb-base-10), 0.2);
-
+        --btn-box-shadow: none;
+        --btn-outline: none;
+        
     }
 
     .m3-btn:focus:not(:active),
@@ -342,15 +344,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* -----------Elevated State------------ */
 
-    .btn\:elevated:disabled,
-    .btn\:elevated.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-        --btn-box-shadow: none;
-
-    }
-
     .btn\:elevated:focus:not(:active),
     .btn\:elevated.btn-state\:focus:not(:active) {
 
@@ -381,14 +374,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* ---------Tonal State------------- */
 
-    .btn\:tonal:disabled,
-    .btn\:tonal.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
     .btn\:tonal:focus:not(:active),
     .btn\:tonal.btn-state\:focus:not(:active) {
 
@@ -417,14 +402,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     }
 
     /* ----------Outlined State---------- */
-
-    .btn\:outlined:disabled,
-    .btn\:outlined.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
 
     .btn\:outlined:focus:not(:active),
     .btn\:outlined.btn-state\:focus:not(:active) {
@@ -456,14 +433,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* -------Text State----------- */
 
-    .btn\:text:disabled,
-    .btn\:text.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
     .btn\:text:focus:not(:active),
     .btn\:text.btn-state\:focus:not(:active) {
 
@@ -491,7 +460,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
         --btn-border-radius: var(--radius-lg);
 
     }
-
 }
 
 /* ================Button Size====================*/
