@@ -35,7 +35,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 @media (prefers-color-scheme: dark) {
 
     .m3-btn {
-        /* 색깔 */
+        
         --btn-background-dark: rgba(var(--rgb-main-1), 1);
         --btn-color: rgb(var(--rgb-main-3));
     }
@@ -86,6 +86,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     }
 
     .btn\:tonal {
+        
         --btn-background: rgba(var(--rgb-main-3), 0.7);
         --btn-color: rgb(var(--rgb-main-1));
 
@@ -225,7 +226,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 .m3-btn {
 
-    /* 박스스 */
+    /* 박스 */
     border: var(--btn-border);
     border-radius: var(--btn-border-radius);
     height: var(--btn-height);
@@ -378,7 +379,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     }
 
-    /* -------Tonal State------------- */
+    /* ---------Tonal State------------- */
 
     .btn\:tonal:disabled,
     .btn\:tonal.btn-state\:disabled {
@@ -451,14 +452,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
                 rgba(var(--rgb-main-1), 0.2) 66%);
         --btn-border-radius: var(--radius-lg);
 
-    }
-
-    #btn-toggle:checked+.btn\:outlined {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
     }
 
     /* -------Text State----------- */
