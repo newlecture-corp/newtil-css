@@ -28,7 +28,8 @@
     --radio-pointer: none;
     --radio-box-sizing: border-box;
     --radio-transition: all 180ms ease;
-    --radio-border-color: var(--radio-select-primary);
+    --radio-border-color: var(--radio-unselect-primary);
+    --radio-border-color-checked: var(--radio-select-primary);
     --radio-background-color: transparent;
     /* 액션 스타일 hover, press, focus */
     --radio-box-shadow: none;
@@ -128,7 +129,7 @@
    ========================================= */
 /* 체크 시 외부 링 색상 변경 */
 .m3-radio input[type="radio"]:checked::before {
-    border-color: var(--radio-border-color);
+    border-color: var(--radio-border-color-checked);
 }
 
 /* 체크 시 내부 점 표시 */
