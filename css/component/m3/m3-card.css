@@ -9,7 +9,7 @@
     /* ========== 카드의 변수 선언(기본값) ========== */
     /* boxing */
     --card-background: var(--color-base-1);
-    --card-width: 360px;
+    --card-width: auto;
     --card-height: auto;
     --card-padding: var(--space-10);
     --card-border: none;
@@ -48,7 +48,6 @@
     --card-headline-color: var(--color-base-10);
     --card-headline-line-height: var(--size-19);
     --card-headline-letter-spacing: 0;
-    --card-headline-white-space: pre-line;
 
     /* ========== 카드 내부 서브헤드의 변수 선언(기본값) ========== */
     /* boxing */
@@ -60,7 +59,6 @@
     --card-subhead-color: var(--color-base-8);
     --card-subhead-line-height: var(--size-13);
     --card-subhead-letter-spacing: 0;
-    --card-subhead-white-space: pre-line;
 
     /* font */
     --card-supporting-text-font-size: var(--size-6);
@@ -69,7 +67,6 @@
     --card-supporting-text-line-height: var(--size-9);
     --card-supporting-text-margin-bottom: var(--space-2);
     --card-supporting-text-letter-spacing: 0;
-    --card-supporting-text-white-space: pre-line;
 }
 
 /* ====== 다크 모드 ====== */
@@ -159,7 +156,6 @@
     line-height: var(--card-headline-line-height);
     margin-bottom: var(--card-headline-margin-bottom);
     letter-spacing: var(--card-headline-letter-spacing);
-    white-space: var(--card-headline-white-space);
 }
 
 .m3-card .subhead {
@@ -169,7 +165,6 @@
     line-height: var(--card-subhead-line-height);
     margin-bottom: var(--card-subhead-margin-bottom);
     letter-spacing: var(--card-subhead-letter-spacing);
-    white-space: var(--card-subhead-white-space);
 }
 .m3-card .supporting-text {
     font-size: var(--card-supporting-text-font-size);
@@ -178,63 +173,4 @@
     line-height: var(--card-supporting-text-line-height);
     margin-bottom: var(--card-supporting-text-margin-bottom);
     letter-spacing: var(--card-supporting-text-letter-spacing);
-    white-space: var(--card-supporting-text-white-space);
 }   
-
-/* 카드 액션 */
-.m3-card .m3-btn {
-    display: flex;
-    gap: var(--space-4);
-    justify-content: flex-end;
-    padding-top: var(--space-4);
-}
-
-/* 버튼 */
-.m3-card .m3-btn button {
-    padding: var(--space-5) var(--space-15);
-    border-radius: var(--radius-xl);
-    border: none;
-    font-size: var(--size-8);
-    font-weight: var(--font-weight-medium);
-    letter-spacing: 0.1px;
-    cursor: pointer;
-    transition: all var(--duration-4) var(--ease-out);
-    line-height: var(--size-13);
-    position: relative;
-    overflow: hidden;
-}
-
-.m3-card .m3-btn button::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: currentColor;
-    opacity: 0;
-    transition: opacity var(--duration-4) var(--ease-out);
-}
-
-.m3-card .m3-btn button:hover::before {
-    opacity: var(--opacity-10);
-}
-
-.m3-card .m3-btn button:active::before {
-    opacity: 0.12;
-}
-
-.m3-card .m3-btn .Play {
-    background: var(--color-main-1);
-    color: var(--color-white);
-    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-30));
-}
-
-.m3-card .m3-btn .Play::before {
-    background: var(--color-white);
-}
-
-.m3-card .m3-btn .Play:hover {
-    box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-40));
-}
-
-.m3-card .m3-btn .Play:active {
-    box-shadow: 0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-30));
-}
