@@ -1,5 +1,5 @@
 .m3-dialog {
-    /* 공통 상수 variables.css에서 정의 어떤값 사용했는지 주석으로 표시 */
+    /* =====공통 상수 variables.css에서 정의 어떤값 사용했는지 주석으로 표시 ===== */
     /* color */
     /* --color-base-10: #000000;
     --color-base-9: #191919;
@@ -64,11 +64,11 @@
     --space-3: 4px; */
 
     /* width, height */
-    /* 이거 문서에 최소, 최대 넓이로 나와있어서 수정함 */
+    /* 문서에는 최소, 최대 넓이로 나와있어서 수정하였음 */
     --dialog-spec-min-width: 280px;
     --dialog-spec-max-width: 560px;
 
-    /* 변수 */
+    /*======================= 변수 =======================*/
     /* 여기서만 수정한다 */
     --dialog-bg-color: var(--color-base-3);
     --dialog-radius: var(--space-17);
@@ -100,6 +100,7 @@
     --dialog-pressed-bg: color-mix(in srgb, var(--dialog-btn-color) 10%, transparent);
 }
 
+/* ====다크모드 테마==== */
 @media (prefers-color-scheme: dark) {
     .m3-dialog {
         --dialog-bg-color: var(--color-base-3);
@@ -109,7 +110,7 @@
     }
 }
 
-
+/* ====기본 테마==== */
 .m3-dialog {
     position: fixed;
     /* top, right, bottom, left 값을 한 번에 지정하는 속성 */
@@ -156,20 +157,19 @@
         justify-content: flex-end;
         gap: var(--dialog-actions-gap);
 
-        /* 공통으로 바꿀시 삭제 */
-        .m3-btn {
+        /* .m3-btn {
             background-color: transparent;
             color: var(--dialog-btn-color);
             border: none;
             border-radius: var(--dialog-radius);
             padding: var(--dialog-btn-padding);
 
-            /* effect */
+            effect
             transition: background-color 0.2s ease;
         }
 
 
-        /* hover, focus, active */
+        hover, focus, active
         .m3-btn:hover {
             background-color: var(--dialog-hovered-bg);
         }
@@ -180,7 +180,7 @@
 
         .m3-btn:active {
             background-color: var(--dialog-pressed-bg);
-        }
+        }*/
 
     }
 }
