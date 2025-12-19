@@ -28,23 +28,10 @@
 
 @media (prefers-color-scheme: dark) {
 
-    body {
-        background-color: #000000;    /*확인용 나중에 삭제예정*/
-    }
-
-
     .m3-btn {
         /* 색깔 */
         --btn-background-dark: rgba(var(--rgb-main-1), 1);
         --btn-color: rgb(var(--rgb-main-3));
-    }
-
-
-    .btn\:filled {
-
-        --btn-background: rgba(var(--rgb-main-1), 1);
-        --btn-color: rgb(var(--rgb-main-3));
-
     }
 
     .m3-btn:disabled,
@@ -52,6 +39,7 @@
 
         --btn-background: rgba(var(--rgb-main-3), 0.3);
         --btn-color: rgba(var(--rgb-main-1), 0.3);
+        --btn-outline: none;
 
     }
 
@@ -81,14 +69,6 @@
 
     }
 
-    #btn-toggle:checked+.m3-btn {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 1) 65%,
-                rgba(var(--rgb-main-1), 1) 66%);
-        --btn-border-radius: var(--border-radius-5);
-    }
-
     .btn\:elevated {
 
         /* boxing */
@@ -109,7 +89,7 @@
 
         --btn-background: none;
         --btn-color: rgb(var(--rgb-main-1));
-        --btn-outline: 0.1px solid rgb(var(--rgb-main-3));
+        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.7);
 
     }
 
@@ -120,8 +100,7 @@
 
     }
 
-
-    /* ---------------------------Elevated State----------------------------- */
+   /* -----------Elevated State------------ */
 
 
     .btn\:elevated:focus:not(:active),
@@ -149,15 +128,8 @@
 
     }
 
-    #btn-toggle:checked+.btn\:elevated {
 
-        --btn-background: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-3), 0.7) 65%,
-                rgba(var(--rgb-main-3), 1) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
-    /* ---------------------------Tonal State----------------------------- */
+ /* -----------tonal State---------------- */
 
     .btn\:tonal:focus:not(:active),
     .btn\:tonal.btn-state\:focus:not(:active) {
@@ -184,15 +156,8 @@
 
     }
 
-    #btn-toggle:checked+.btn\:tonal {
 
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.7) 65%,
-                rgba(var(--rgb-main-3), 0.7) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
-    /* ---------------------------Outlined and Text Type & State----------------------------- */
+     /* -----------Outlined State---------------- */
 
     .btn\:outlined:focus:not(:active),
     .btn\:outlined.btn-state\:focus:not(:active) {
@@ -220,16 +185,7 @@
 
     }
 
-    #btn-toggle:checked+.btn\:outlined {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.5) 65%,
-                rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
-
-    /* ---------------------------Text State----------------------------- */
+    /* -----------text State--------------------- */
 
     .btn\:text:focus:not(:active),
     .btn\:text.btn-state\:focus:not(:active) {
@@ -257,19 +213,13 @@
 
     }
 
-    #btn-toggle:checked+.btn\:text {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.5) 65%,
-                rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
 }
 
-/* ----------------------------Base Type------------------------------ */
+/* -----------------------Base Type-------------------------- */
 
 .m3-btn {
-    /* ----------box---------- */
+
+    /* 박스스 */
     border: var(--btn-border);
     border-radius: var(--btn-border-radius);
     height: var(--btn-height);
@@ -302,15 +252,6 @@
 }
 
 @media(prefers-color-scheme: light) {
-    .btn\:filled {
-
-        /* boxing */
-        --btn-background: rgba(var(--rgb-main-2), 1);
-
-        /* content */
-        --btn-color: rgb(var(--rgb-base-1));
-
-    }
 
     .m3-btn:disabled,
     .btn-state\:disabled {
@@ -344,15 +285,6 @@
         --btn-border-radius: var(--radius-lg);
 
     }
-
-    #btn-toggle:checked+.m3-btn {
-
-        --btn-background: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-2), 0.7) 65%,
-                rgba(var(--rgb-main-2), 1) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
 
     .btn\:elevated {
 
@@ -401,10 +333,7 @@
 
     }
 
-
-
     /* -----------Elevated State------------ */
-
 
     .btn\:elevated:disabled,
     .btn\:elevated.btn-state\:disabled {
@@ -441,20 +370,9 @@
                 rgba(var(--rgb-main-1), 0.2) 66%);
         --btn-border-radius: var(--radius-lg);
 
-
     }
-
-    #btn-toggle:checked+.btn\:elevated {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
 
     /* -------Tonal State------------- */
-
 
     .btn\:tonal:disabled,
     .btn\:tonal.btn-state\:disabled {
@@ -491,17 +409,7 @@
 
     }
 
-    #btn-toggle:checked+.btn\:tonal {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 1) 65%,
-                rgba(var(--rgb-main-1), 0.8) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
-
     /* ----------Outlined State---------- */
-
 
     .btn\:outlined:disabled,
     .btn\:outlined.btn-state\:disabled {
@@ -585,22 +493,15 @@
 
     }
 
-    #btn-toggle:checked+.btn\:text {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
 }
 
-/* ================Button Size================*/
+/* ================Button Size====================*/
 
 .btn-shape\:square {
     --btn-border-radius: 12px;
 }
 
-.btn-size\:1 {
+.btn-size\:xs {
     /* boxing */
     --btn-height: var(--space-19);
     --btn-padding: 0 var(--space-6);
@@ -612,27 +513,11 @@
     --btn-letter-spacing: 0.1px;
 }
 
-.btn-size\:1.btn-shape\:square {
+.btn-size\:xs.btn-shape\:square {
     --btn-border-radius: 12px;
 }
 
-.btn-size\:2 {
-    /* boxing */
-    --btn-height: var(--space-22);
-    --btn-padding: 0 var(--space-10);
-
-    /* content */
-    --btn-font-size: var(--space-8);
-    --btn-font-weight: var(--font-weight-medium);
-    --btn-line-height: var(--space-13);
-    --btn-letter-spacing: 0.1px;
-}
-
-.btn-size\:2.btn-shape\:square {
-    --btn-border-radius: 12px;
-}
-
-.btn-size\:3 {
+.btn-size\:m {
     /* boxing */
     --btn-height: var(--space-28);
     --btn-padding: 0 var(--space-15);
@@ -644,11 +529,11 @@
     --btn-letter-spacing: 0.15px;
 }
 
-.btn-size\:3.btn-shape\:square {
+.btn-size\:m.btn-shape\:square {
     --btn-border-radius: 16px;
 }
 
-.btn-size\:4 {
+.btn-size\:l {
     /* boxing */
     --btn-height: var(--space-32);
     --btn-padding: 0 var(--space-24);
@@ -660,11 +545,11 @@
     --btn-letter-spacing: 0px;
 }
 
-.btn-size\:4.btn-shape\:square {
+.btn-size\:l.btn-shape\:square {
     --btn-border-radius: 28px;
 }
 
-.btn-size\:5 {
+.btn-size\:xl {
     /* boxing */
     --btn-height: var(--space-35);
     --btn-padding: 0 var(--space-29);
@@ -676,6 +561,6 @@
     --btn-letter-spacing: 0px;
 }
 
-.btn-size\:5.btn-shape\:square {
+.btn-size\:xl.btn-shape\:square {
     --btn-border-radius: 28px;
 }
