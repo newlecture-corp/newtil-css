@@ -156,31 +156,5 @@
         display: flex;
         justify-content: flex-end;
         gap: var(--dialog-actions-gap);
-
-        /* .m3-btn {
-            background-color: transparent;
-            color: var(--dialog-btn-color);
-            border: none;
-            border-radius: var(--dialog-radius);
-            padding: var(--dialog-btn-padding);
-
-            effect
-            transition: background-color 0.2s ease;
-        }
-
-
-        hover, focus, active
-        .m3-btn:hover {
-            background-color: var(--dialog-hovered-bg);
-        }
-
-        .m3-btn:focus {
-            background-color: var(--dialog-focused-bg);
-        }
-
-        .m3-btn:active {
-            background-color: var(--dialog-pressed-bg);
-        }*/
-
     }
 }
