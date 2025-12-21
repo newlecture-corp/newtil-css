@@ -1,0 +1,160 @@
+.m3-dialog {
+    /* =====공통 상수 variables.css에서 정의 어떤값 사용했는지 주석으로 표시 ===== */
+    /* color */
+    /* --color-base-10: #000000;
+    --color-base-9: #191919;
+    --color-base-8: #585858;
+    --color-sub-2: #2570b6;
+    --color-sub-1: #2983d7;
+    --color-base-4: #b3b3b3;
+    --color-base-2: #d7d7d7;
+    --color-base-3: #e5e7eb; */
+
+    /* font size */
+    /* --space-15: 24px;
+    --space-8: 14px;
+     */
+
+    /* radius */
+    /* --space-17: 28px; */
+
+    /* opacity */
+    /* --opacity-10: 0.1; */
+
+    /* padding */
+    /* --space-15: 24px;
+    --space-14: 22px;
+    --space-13: 20px;
+    --space-12: 18px;
+    --space-10: 16px;
+    --space-8: 14px;
+    --space-6: 12px;
+    --space-5: 10px;
+    --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
+
+
+    /* margin */
+    /* --space-15: 24px;
+    --space-14: 22px;
+    --space-13: 20px;
+    --space-12: 18px;
+    --space-10: 16px;
+    --space-8: 14px;
+    --space-6: 12px;
+    --space-5: 10px;
+    --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
+
+    /* gap */
+    /* --space-4: 8px;
+    --space-3: 4px;
+    --space-2: 2px;
+    --space-1: 1px; */
+
+    /* line height */
+    /* --space-13: 20px;
+    --space-10: 16px;
+    --space-6: 12px;
+    --space-4: 8px;
+    --space-3: 4px; */
+
+    /* width, height */
+    /* 문서에는 최소, 최대 넓이로 나와있어서 수정하였음 */
+    --dialog-spec-min-width: 280px;
+    --dialog-spec-max-width: 560px;
+
+    /*======================= 변수 =======================*/
+    /* 여기서만 수정한다 */
+    --dialog-bg-color: var(--color-base-3);
+    --dialog-radius: var(--space-17);
+    --dialog-padding: var(--space-15);
+    --dialog-min-width: var(--dialog-spec-min-width);
+    --dialog-max-width: var(--dialog-spec-max-width);
+
+    --dialog-color: var(--color-base-8);
+
+    --dialog-headline-font-color: var(--color-base-10);
+    --dialog-headline-font-size: var(--space-15);
+    --dialog-headline-font-weight: var(--font-weight-4);
+    --dialog-headline-margin-bottom: var(--space-14);
+
+    --dialog-content-font-color: var(--color-base-8);
+    --dialog-content-font-size: var(--space-8);
+    --dialog-content-margin-bottom: var(--space-15);
+    --dialog-content-line-height: var(--space-13);
+
+    --dialog-actions-gap: var(--space-4);
+
+    --dialog-btn-color: var(--color-sub-2);
+    --dialog-btn-padding: var(--space-12) var(--space-10);
+
+    /* Text Button specific */
+    /* --dialog-opacity-1: 0.08 -> 8% */
+    --dialog-hovered-bg: color-mix(in srgb, var(--dialog-btn-color) 8%, transparent);
+    --dialog-focused-bg: color-mix(in srgb, var(--dialog-btn-color) 10%, transparent);
+    --dialog-pressed-bg: color-mix(in srgb, var(--dialog-btn-color) 10%, transparent);
+}
+
+/* ====다크모드 테마==== */
+@media (prefers-color-scheme: dark) {
+    .m3-dialog {
+        --dialog-bg-color: var(--color-base-3);
+        --dialog-headline-font-color: var(--color-base-10);
+        --dialog-content-font-color: var(--color-base-8);
+        --dialog-btn-color: var(--color-sub-2);
+    }
+}
+
+/* ====기본 테마==== */
+.m3-dialog {
+    position: fixed;
+    /* top, right, bottom, left 값을 한 번에 지정하는 속성 */
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+
+    /* backdrop */
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
+
+    /* moved from .modal-container */
+    background: var(--dialog-bg-color);
+    padding: var(--dialog-padding);
+    border-radius: var(--dialog-radius);
+    min-width: var(--dialog-min-width);
+    max-width: var(--dialog-max-width);
+    box-sizing: border-box;
+
+    color: var(--dialog-color);
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    flex-direction: column;
+
+    .header,
+    > :first-child {
+        margin: 0 0 var(--dialog-headline-margin-bottom) 0;
+        color: var(--dialog-headline-font-color);
+        font-size: var(--dialog-headline-font-size);
+        font-weight: var(--dialog-headline-font-weight);
+    }
+
+    .content,
+    > :nth-child(2) {
+        margin: 0 0 var(--dialog-content-margin-bottom) 0;
+        color: var(--dialog-content-font-color);
+        font-size: var(--dialog-content-font-size);
+        line-height: var(--dialog-content-line-height);
+    }
+
+    .actions,
+    > :nth-child(3) {
+        display: flex;
+        justify-content: flex-end;
+        gap: var(--dialog-actions-gap);
+    }
+}
