@@ -1,0 +1,176 @@
+.m3-card {
+    /* 추가 변수 선언 */
+    --overflow-hidden: hidden;
+    --cursor-pointer: pointer;
+    --cursor-grab: grab;
+    --cursor-not-allowed: not-allowed;
+
+
+    /* ========== 카드의 변수 선언(기본값) ========== */
+    /* boxing */
+    --card-background: var(--color-base-1);
+    --card-width: auto;
+    --card-height: auto;
+    --card-padding: var(--space-10);
+    --card-border: none;
+    /* --card-border: var(--border-width-2) solid var(--color-base-2); */
+    --card-border-radius: var(--radius-xl);
+    --card-box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, var(--opacity-40)),
+        0 var(--space-1) var(--space-2) rgba(0, 0, 0, var(--opacity-50));
+    --card-opacity: var(--opacity-100);
+    --card-outline: none;
+    --card-outline-offset: 0;
+    --card-transform: none;
+    
+    /* 상태별 변수 */
+    --card-focused-outline-color: var(--color-base-8);
+    
+    /* overlay */
+    --card-overflow: var(--overflow-hidden);
+
+    /* effect */
+    --card-cursor: var(--cursor-pointer);
+    --card-transition: box-shadow var(--duration-5) var(--ease-out),
+        transform var(--duration-5) var(--ease-out),
+        opacity var(--duration-5) var(--ease-out);
+
+    /* ========== 카드 내부 컨텐츠의 변수 선언(기본값) ========== */
+    /* boxing */
+    --card-content-padding: var(--space-10);
+    
+    /* ========== 카드 내부 헤드라인의 변수 선언(기본값) ========== */
+    /* boxing */
+    --card-headline-margin-bottom: var(--space-3);
+
+    /* font */
+    --card-headline-font-size: var(--size-15);
+    --card-headline-font-weight: var(--font-weight-semibold);
+    --card-headline-color: var(--color-base-10);
+    --card-headline-line-height: var(--size-19);
+    --card-headline-letter-spacing: 0;
+
+    /* ========== 카드 내부 서브헤드의 변수 선언(기본값) ========== */
+    /* boxing */
+    --card-subhead-margin-bottom: var(--space-3);
+
+    /* font */
+    --card-subhead-font-size: var(--size-10);
+    --card-subhead-font-weight: var(--font-weight-normal);
+    --card-subhead-color: var(--color-base-8);
+    --card-subhead-line-height: var(--size-13);
+    --card-subhead-letter-spacing: 0;
+
+    /* font */
+    --card-supporting-text-font-size: var(--size-6);
+    --card-supporting-text-font-weight: var(--font-weight-normal);
+    --card-supporting-text-color: var(--color-base-10);
+    --card-supporting-text-line-height: var(--size-9);
+    --card-supporting-text-margin-bottom: var(--space-2);
+    --card-supporting-text-letter-spacing: 0;
+}
+
+/* ====== 다크 모드 ====== */
+
+@media (prefers-color-scheme: dark) {
+    .m3-card {
+        /* 다크모드에서 변경되는 변수들만 재정의 */
+        --card-background: var(--color-base-2);
+        --card-headline-color: var(--color-base-10);
+        --card-subhead-color: var(--color-base-8);
+        --card-supporting-text-color: var(--color-base-9);
+    }
+
+    .m3-card.card-state\:focused {
+        --card-focused-outline-color: var(--color-accent-2);
+    }
+}
+
+/* ====== LIGHT MODE (Default) ====== */
+
+/* 카드 컨테이너 */
+.m3-card {
+    /* boxing */
+    background: var(--card-background);
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: var(--card-padding);
+    border: var(--card-border);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-box-shadow);
+    opacity: var(--card-opacity);
+    outline: var(--card-outline);
+    outline-offset: var(--card-outline-offset);
+    transform: var(--card-transform);
+    /* layout */
+    overflow: var(--card-overflow);
+
+    /* effect */
+    cursor: var(--card-cursor);
+    transition: var(--card-transition);
+}
+
+/* 카드 상태 */
+.m3-card.card-state\:enabled {
+    --card-opacity: var(--opacity-100);
+    --card-box-shadow: 0px solid black;
+}
+
+.m3-card.card-state\:disabled,
+.m3-card.card-state\:disabled button {
+    --card-opacity: var(--opacity-60);
+    --card-cursor: var(--cursor-not-allowed);
+}
+
+.m3-card.card-state\:hovered {
+    --card-box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
+    --card-opacity: var(--opacity-90);
+}
+
+.m3-card.card-state\:focused {
+    --card-box-shadow: 0 var(--space-4) var(--space-4) rgba(0, 0, 0, 0.16),
+        0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.23);
+    --card-outline: 3px solid var(--card-focused-outline-color);
+    --card-outline-offset: var(--space-2);
+    --card-opacity: var(--opacity-90);
+}
+
+.m3-card.card-state\:dragged {
+    --card-box-shadow: 0 var(--space-4) var(--space-10) rgba(0, 0, 0, var(--opacity-25)),
+        0 var(--space-6) var(--space-6) rgba(0, 0, 0, var(--opacity-30));
+    --card-transform: scale(1.02);
+    --card-opacity: var(--opacity-80);
+    --card-cursor: var(--cursor-grap);
+}
+
+/* 카드 컨텐츠 */
+.m3-card .content {
+    padding: var(--card-content-padding);
+    
+}
+
+.m3-card .headline {
+    font-size: var(--card-headline-font-size);
+    font-weight: var(--card-headline-font-semibold);
+    color: var(--card-headline-color);
+    line-height: var(--card-headline-line-height);
+    margin-bottom: var(--card-headline-margin-bottom);
+    letter-spacing: var(--card-headline-letter-spacing);
+}
+
+.m3-card .subhead {
+    font-size: var(--card-subhead-font-size);
+    font-weight: var(--card-subhead-font-weight);
+    color: var(--card-subhead-color);
+    line-height: var(--card-subhead-line-height);
+    margin-bottom: var(--card-subhead-margin-bottom);
+    letter-spacing: var(--card-subhead-letter-spacing);
+}
+.m3-card .supporting-text {
+    font-size: var(--card-supporting-text-font-size);
+    font-weight: var(--card-supporting-text-font-weight);
+    color: var(--card-supporting-text-color);
+    line-height: var(--card-supporting-text-line-height);
+    margin-bottom: var(--card-supporting-text-margin-bottom);
+    letter-spacing: var(--card-supporting-text-letter-spacing);
+}   
