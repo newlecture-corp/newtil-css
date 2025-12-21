@@ -1,5 +1,8 @@
 /* ===== NEWTIL CSS MAIN STYLE ===== */
 
+/* CSS Layer 순서 정의 - reset이 가장 먼저 적용되도록 */
+@layer reset, base, utilities, components;
+
 /* Reset & Base */
 @import url("./reset.css");
 /* @import url("./root.css"); */
