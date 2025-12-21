@@ -7,10 +7,12 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 /* ================Variable=====================*/
 .m3-btn {
     /* boxing */
+    /* boxing */
     --btn-gap: 2px;
     --btn-margin-top: 5px;
     --btn-fill: 1;
 
+    /* color */
     /* color */
     --btn-background: rgba(var(--rgb-main-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -21,9 +23,11 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     --btn-border-radius: 999px;
 
     /* size */
+    /* size */
     --btn-height: var(--space-22);
     --btn-padding: 0 var(--space-10);
 
+    /* content */
     /* content */
     --btn-font-size: var(--space-8);
     --btn-font-weight: var(--font-weight-medium);
@@ -181,6 +185,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 /* ================Base Type====================*/
 .m3-btn {
     /* boxing */
+    /* boxing */
     border-radius: var(--btn-border-radius);
     height: var(--btn-height);
     padding: var(--btn-padding);
@@ -200,6 +205,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     outline: var(--btn-outline-dark, var(--btn-outline));
     outline-offset: var(--btn-outline-offset);
 
+    /* content */
     /* content */
     font-family: roboto;
     font-variation-settings: 'FILL' var(--btn-fill);
