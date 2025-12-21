@@ -4,14 +4,14 @@ Shape : Round (default) | Square
 Color : Filled (default) | Elevated | Tonal | Outlined | Text 
 State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
+/* ================Variable=====================*/
 .m3-btn {
-
-    /* gap과 margin */
+    /* boxing */
     --btn-gap: 2px;
     --btn-margin-top: 5px;
     --btn-fill: 1;
 
-    /* 색깔 */
+    /* color */
     --btn-background: rgba(var(--rgb-main-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
     --btn-box-shadow: none;
@@ -20,227 +20,187 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     --btn-outline-offset: 0px;
     --btn-border-radius: 999px;
 
-    /* 사이즈 */
+    /* size */
     --btn-height: var(--space-22);
     --btn-padding: 0 var(--space-10);
 
-    /* 폰트 */
+    /* content */
     --btn-font-size: var(--space-8);
     --btn-font-weight: var(--font-weight-medium);
     --btn-line-height: var(--space-13);
     --btn-letter-spacing: 0.1px;
 }
 
-
+/* ================Dark Mode===================*/
 @media (prefers-color-scheme: dark) {
-
     .m3-btn {
-        /* 색깔 */
-        --btn-background-dark: rgba(var(--rgb-main-1), 1);
-        --btn-color: rgb(var(--rgb-main-3));
+        /* color - default dark mode variables */
+        --btn-background-dark: rgba(var(--rgb-main-2), 1);
+        --btn-color-dark: rgb(var(--rgb-base-1));
+        --btn-box-shadow-dark: none;
+        --btn-border-dark: 0;
+        --btn-outline-dark: none;
     }
 
     .m3-btn:disabled,
     .m3-btn.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-main-3), 0.3);
-        --btn-color: rgba(var(--rgb-main-1), 0.3);
-        --btn-outline: none;
-
+        --btn-background-dark: rgba(var(--rgb-main-3), 0.3);
+        --btn-color-dark: rgba(var(--rgb-main-1), 0.3);
+        --btn-box-shadow-dark: none;
+        --btn-border-dark: 0;
+        --btn-outline-dark: none;
     }
 
     .m3-btn:focus:not(:active),
     .m3-btn.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-3));
-        --btn-outline: 2px solid rgb(var(--rgb-main-1));
-
+        --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
+        --btn-outline-dark: 2px solid rgb(var(--rgb-main-2));
     }
 
     .m3-btn:hover,
     .m3-btn.btn-state\:hover {
-
-        --btn-background-color: none;
-        --btn-background: rgba(var(--rgb-main-1), 0.9);
-
+        --btn-background-dark: rgba(var(--rgb-main-1), 1);
     }
 
     .m3-btn:active,
     .m3-btn.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
+        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 1) 65%,
                 rgba(var(--rgb-main-1), 1) 66%);
-        --btn-border-radius: var(--radius-lg);
-
+        --btn-border-radius-dark: var(--radius-lg);
     }
 
     .btn\:elevated {
-
         /* boxing */
-        --btn-background: rgba(var(--rgb-main-3), 0.3);
-        --btn-box-shadow: 0px 0.7px 0.5px 1px rgba(var(--rgb-base-10), 1);
+        --btn-background-dark: rgba(var(--rgb-main-3), 0.3);
+        --btn-box-shadow-dark: 0px 1px 2px 0.5px rgba(var(--rgb-base-10), 1);
 
         /* content */
-        --btn-color: rgb(var(--rgb-main-1));
+        --btn-color-dark: rgb(var(--rgb-main-1));
     }
 
     .btn\:tonal {
-        --btn-background: rgba(var(--rgb-main-3), 0.7);
-        --btn-color: rgb(var(--rgb-main-1));
-
+        --btn-background-dark: rgba(var(--rgb-main-2), 0.5);
+        --btn-color-dark: rgb(var(--rgb-main-1));
     }
 
     .btn\:outlined {
-
-        --btn-background: none;
-        --btn-color: rgb(var(--rgb-main-1));
-        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.7);
-
+        --btn-background-dark: none;
+        --btn-color-dark: rgb(var(--rgb-main-1));
+        --btn-outline-dark: 0.2px solid rgba(var(--rgb-main-3), 0.7);
     }
 
     .btn\:text {
-
-        --btn-background: none;
-        --btn-color: rgb(var(--rgb-main-2));
-
+        --btn-background-dark: none;
+        --btn-color-dark: rgb(var(--rgb-main-2));
     }
 
-   /* -----------Elevated State------------ */
-
-
+    /* ----------Elevated State------------ */
     .btn\:elevated:focus:not(:active),
     .btn\:elevated.btn-state\:focus:not(:active) {
-
-        --btn-outline: 2px solid rgb(var(--rgb-main-3));
-        --btn-border: 2px solid rgb(var(--rgb-base-1));
-
+        --btn-border-dark: 2px solid rgb(var(--rgb-main-3));
+        --btn-outline-dark: 2px solid rgb(var(--rgb-base-1));
     }
 
     .btn\:elevated:hover,
     .btn\:elevated.btn-state\:hover {
-
-        --btn-background: rgba(var(--rgb-main-3), 0.7);
-
+        --btn-background-dark: rgba(var(--rgb-main-2), 0.3);
     }
 
     .btn\:elevated:active,
     .btn\:elevated.btn-state\:active {
-
-        --btn-background: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-3), 0.7) 65%,
+        --btn-background-dark: radial-gradient(144% 100% at 80% 94%,
+                rgba(var(--rgb-main-3), 0.5) 65%,
                 rgba(var(--rgb-main-3), 1) 66%);
-        --btn-border-radius: var(--radius-lg);
-
+        --btn-border-radius-dark: var(--radius-lg);
     }
 
-
- /* -----------tonal State---------------- */
-
+    /* ----------Tonal State---------------- */
     .btn\:tonal:focus:not(:active),
     .btn\:tonal.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-base-1));
-        --btn-outline: 3px solid rgb(var(--rgb-main-3));
-
+        --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
+        --btn-outline-dark: 3px solid rgba(var(--rgb-main-2), 0.5);
     }
 
     .btn\:tonal:hover,
     .btn\:tonal.btn-state\:hover {
-
-        --btn-background: rgba(var(--rgb-main-3), 0.7);
-
+        --btn-background-dark: rgba(var(--rgb-main-3), 0.7);
     }
 
     .btn\:tonal:active,
     .btn\:tonal.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.7) 65%,
+        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
+                rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-3), 0.7) 66%);
-        --btn-border-radius: var(--radius-lg);
-
+        --btn-border-radius-dark: var(--radius-lg);
     }
 
-
-     /* -----------Outlined State---------------- */
-
+    /* ----------Outlined State------------ */
     .btn\:outlined:focus:not(:active),
     .btn\:outlined.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-1));
-        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.3);
-        --btn-outline-offset: -5px;
-
+        --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
+        --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
+        --btn-outline-offset-dark: -5px;
     }
 
     .btn\:outlined:hover,
     .btn\:outlined.btn-state\:hover {
-
-        --btn-background: rgba(var(--rgb-main-3), 0.5);
-
+        --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
     }
 
     .btn\:outlined:active,
     .btn\:outlined.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
+        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius: var(--radius-lg);
-
+        --btn-border-radius-dark: var(--radius-lg);
     }
 
-    /* -----------text State--------------------- */
-
+    /* ----------Text State----------------- */
     .btn\:text:focus:not(:active),
     .btn\:text.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-1));
-        --btn-outline: 0.1px solid rgba(var(--rgb-main-3), 0.3);
-        --btn-outline-offset: -5px;
-
+        --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
+        --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
+        --btn-outline-offset-dark: -5px;
     }
 
     .btn\:text:hover,
     .btn\:text.btn-state\:hover {
-
-        --btn-background: rgba(var(--rgb-main-3), 0.5);
-
+        --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
     }
 
     .btn\:text:active,
     .btn\:text.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
+        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius: var(--radius-lg);
-
+        --btn-border-radius-dark: var(--radius-lg);
     }
-
 }
 
-/* -----------------------Base Type-------------------------- */
-
+/* ================Base Type====================*/
 .m3-btn {
-
-    /* 박스스 */
-    border: var(--btn-border);
+    /* boxing */
     border-radius: var(--btn-border-radius);
     height: var(--btn-height);
     padding: var(--btn-padding);
+    margin-top: var(--btn-margin-top);
+    gap: var(--btn-gap);
 
+    /* layout */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
-    /* 색깔 */
-    background: var(--btn-background);
-    color: var(--btn-color);
-    box-shadow: var(--btn-box-shadow);
-
-    outline: var(--btn-outline);
+    /* color */
+    background: var(--btn-background-dark, var(--btn-background));
+    color: var(--btn-color-dark, var(--btn-color));
+    box-shadow: var(--btn-box-shadow-dark, var(--btn-box-shadow));
+    border: var(--btn-border-dark, var(--btn-border));
+    outline: var(--btn-outline-dark, var(--btn-outline));
     outline-offset: var(--btn-outline-offset);
 
-    /* 폰트 */
+    /* content */
     font-family: roboto;
     font-variation-settings: 'FILL' var(--btn-fill);
     font-size: var(--btn-font-size);
@@ -248,261 +208,173 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     line-height: var(--btn-line-height);
     letter-spacing: var(--btn-letter-spacing);
 
-    margin-top: var(--btn-margin-top);
-    gap: var(--btn-gap);
+    /* effect */
     transition: background-color 0.3s ease, transform 0.3s ease;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
-@media(prefers-color-scheme: light) {
-
-    .m3-btn:disabled,
-    .btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
-    .m3-btn:focus:not(:active),
-    .btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
-        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
-
-    }
-
-    .m3-btn:hover,
-    .btn-state\:hover {
-
-        --btn-background: rgba(var(--rgb-main-2), 0.7);
-
-    }
-
-    .m3-btn:active,
-    .btn-state\:active {
-
-        --btn-background: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-2), 0.7) 65%,
-                rgba(var(--rgb-main-2), 1) 66%);
-        --btn-border-radius: var(--radius-lg);
-
-    }
-
-    .btn\:elevated {
-
-        /* boxing */
-        --btn-background: linear-gradient(161deg,
-                rgba(var(--rgb-main-1), 0.01) 0%,
-                rgba(var(--rgb-main-1), 0.2) 100%);
-        --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
-
-        /* content */
-        --btn-color: rgb(var(--rgb-main-2));
-    }
-
-    .btn\:tonal {
-
-        /* boxing */
-        --btn-background: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-1), 1) 0%,
-                rgba(var(--rgb-main-1), 0.7) 100%);
-
-        /* content */
-        --btn-color: rgb(var(--rgb-main-3));
-
-    }
-
-    .btn\:outlined {
-
-        /* boxing */
-        --btn-background: none;
-        --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
-
-        /* content */
-        --btn-color: rgb(var(--rgb-main-3));
-
-    }
-
-    .btn\:text {
-
-        /* boxing */
-        --btn-background: none;
-        --btn-border: none;
-        --btn-outline: none;
-
-        /* content */
-        --btn-color: rgb(var(--rgb-main-2));
-
-    }
-
-    /* -----------Elevated State------------ */
-
-    .btn\:elevated:disabled,
-    .btn\:elevated.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-        --btn-box-shadow: none;
-
-    }
-
-    .btn\:elevated:focus:not(:active),
-    .btn\:elevated.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-3));
-        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-        --btn-outline-offset: -4px;
-
-    }
-
-    .btn\:elevated:hover,
-    .btn\:elevated.btn-state\:hover {
-
-        --btn-background: linear-gradient(161deg,
-                rgba(var(--rgb-main-1), 0.1) 0%,
-                rgba(var(--rgb-main-1), 0.5) 100%);
-
-    }
-
-    .btn\:elevated:active,
-    .btn\:elevated.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-
-    }
-
-    /* -------Tonal State------------- */
-
-    .btn\:tonal:disabled,
-    .btn\:tonal.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
-    .btn\:tonal:focus:not(:active),
-    .btn\:tonal.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-base-1));
-        --btn-outline: 2.5px solid rgb(var(--rgb-main-2));
-
-    }
-
-    .btn\:tonal:hover,
-    .btn\:tonal.btn-state\:hover {
-
-        --btn-background: linear-gradient(161deg,
-                rgba(var(--rgb-main-1), 0.5) 8%,
-                rgba(var(--rgb-main-1), 0.6) 81%);
-
-    }
-
-    .btn\:tonal:active,
-    .btn\:tonal.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 1) 65%,
-                rgba(var(--rgb-main-1), 0.8) 66%);
-        --btn-border-radius: var(--radius-lg);
-
-    }
-
-    /* ----------Outlined State---------- */
-
-    .btn\:outlined:disabled,
-    .btn\:outlined.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
-    .btn\:outlined:focus:not(:active),
-    .btn\:outlined.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-3));
-        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-        --btn-outline-offset: -4px;
-
-    }
-
-    .btn\:outlined:hover,
-    .btn\:outlined.btn-state\:hover {
-
-        --btn-background: linear-gradient(161deg,
-                rgba(var(--rgb-main-1), 0.01) 0%,
-                rgba(var(--rgb-main-1), 0.2) 100%);
-
-    }
-
-    .btn\:outlined:active,
-    .btn\:outlined.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-
-    }
-
-    #btn-toggle:checked+.btn\:outlined {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-    }
-
-    /* -------Text State----------- */
-
-    .btn\:text:disabled,
-    .btn\:text.btn-state\:disabled {
-
-        --btn-background: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
-
-    }
-
-    .btn\:text:focus:not(:active),
-    .btn\:text.btn-state\:focus:not(:active) {
-
-        --btn-border: 2px solid rgb(var(--rgb-main-3));
-        --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-        --btn-outline-offset: -4px;
-
-    }
-
-    .btn\:text:hover,
-    .btn\:text.btn-state\:hover {
-
-        --btn-background: linear-gradient(161deg,
-                rgba(var(--rgb-main-1), 0.01) 0%,
-                rgba(var(--rgb-main-1), 0.2) 100%);
-
-    }
-
-    .btn\:text:active,
-    .btn\:text.btn-state\:active {
-
-        --btn-background: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-1), 0.4) 65%,
-                rgba(var(--rgb-main-1), 0.2) 66%);
-        --btn-border-radius: var(--radius-lg);
-
-    }
-
+/* ================Light Mode===================*/
+.m3-btn:disabled,
+.m3-btn.btn-state\:disabled {
+    --btn-background: rgba(var(--rgb-base-10), 0.08);
+    --btn-color: rgba(var(--rgb-base-10), 0.2);
+    --btn-box-shadow: none;
+    --btn-border: none;
+    --btn-outline: none;
 }
 
-/* ================Button Size====================*/
+.m3-btn:focus:not(:active),
+.btn-state\:focus:not(:active) {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+}
 
+.m3-btn:hover,
+.btn-state\:hover {
+    --btn-background: rgba(var(--rgb-main-2), 0.7);
+}
+
+.m3-btn:active,
+.btn-state\:active {
+    --btn-background: radial-gradient(144% 100% at 80% 94%,
+            rgba(var(--rgb-main-2), 0.7) 65%,
+            rgba(var(--rgb-main-2), 1) 66%);
+    --btn-border-radius: var(--radius-lg);
+}
+
+.btn\:elevated {
+    /* boxing */
+    --btn-background: linear-gradient(161deg,
+            rgba(var(--rgb-main-1), 0.01) 0%,
+            rgba(var(--rgb-main-1), 0.2) 100%);
+    --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
+
+    /* content */
+    --btn-color: rgb(var(--rgb-main-2));
+}
+
+.btn\:tonal {
+    /* boxing */
+    --btn-background: radial-gradient(144% 100% at 80% 94%,
+            rgba(var(--rgb-main-1), 1) 0%,
+            rgba(var(--rgb-main-1), 0.7) 100%);
+
+    /* content */
+    --btn-color: rgb(var(--rgb-main-3));
+}
+
+.btn\:outlined {
+    /* boxing */
+    --btn-background: none;
+    --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
+
+    /* content */
+    --btn-color: rgb(var(--rgb-main-3));
+}
+
+.btn\:text {
+    /* boxing */
+    --btn-background: none;
+    --btn-border: none;
+    --btn-outline: none;
+
+    /* content */
+    --btn-color: rgb(var(--rgb-main-2));
+}
+
+/* ----------Elevated State------------ */
+.btn\:elevated:focus:not(:active),
+.btn\:elevated.btn-state\:focus:not(:active) {
+    --btn-border: 2px solid rgb(var(--rgb-main-3));
+    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+    --btn-outline-offset: -4px;
+}
+
+.btn\:elevated:hover,
+.btn\:elevated.btn-state\:hover {
+    --btn-background: linear-gradient(161deg,
+            rgba(var(--rgb-main-1), 0.1) 0%,
+            rgba(var(--rgb-main-1), 0.5) 100%);
+}
+
+.btn\:elevated:active,
+.btn\:elevated.btn-state\:active {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-1), 0.4) 65%,
+            rgba(var(--rgb-main-1), 0.2) 66%);
+    --btn-border-radius: var(--radius-lg);
+}
+
+/* ----------Tonal State---------------- */
+.btn\:tonal:focus:not(:active),
+.btn\:tonal.btn-state\:focus:not(:active) {
+    --btn-border: 2px solid rgb(var(--rgb-base-1));
+    --btn-outline: 2.5px solid rgb(var(--rgb-main-2));
+}
+
+.btn\:tonal:hover,
+.btn\:tonal.btn-state\:hover {
+    --btn-background: linear-gradient(161deg,
+            rgba(var(--rgb-main-1), 0.5) 8%,
+            rgba(var(--rgb-main-1), 0.6) 81%);
+}
+
+.btn\:tonal:active,
+.btn\:tonal.btn-state\:active {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-1), 1) 65%,
+            rgba(var(--rgb-main-1), 0.8) 66%);
+    --btn-border-radius: var(--radius-lg);
+}
+
+/* ----------Outlined State------------ */
+.btn\:outlined:focus:not(:active),
+.btn\:outlined.btn-state\:focus:not(:active) {
+    --btn-border: 2px solid rgb(var(--rgb-main-3));
+    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+    --btn-outline-offset: -4px;
+}
+
+.btn\:outlined:hover,
+.btn\:outlined.btn-state\:hover {
+    --btn-background: linear-gradient(161deg,
+            rgba(var(--rgb-main-1), 0.01) 0%,
+            rgba(var(--rgb-main-1), 0.2) 100%);
+}
+
+.btn\:outlined:active,
+.btn\:outlined.btn-state\:active {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-1), 0.4) 65%,
+            rgba(var(--rgb-main-1), 0.2) 66%);
+    --btn-border-radius: var(--radius-lg);
+}
+
+/* ----------Text State----------------- */
+.btn\:text:focus:not(:active),
+.btn\:text.btn-state\:focus:not(:active) {
+    --btn-border: 2px solid rgb(var(--rgb-main-3));
+    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
+    --btn-outline-offset: -4px;
+}
+
+.btn\:text:hover,
+.btn\:text.btn-state\:hover {
+    --btn-background: linear-gradient(161deg,
+            rgba(var(--rgb-main-1), 0.01) 0%,
+            rgba(var(--rgb-main-1), 0.2) 100%);
+}
+
+.btn\:text:active,
+.btn\:text.btn-state\:active {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-1), 0.4) 65%,
+            rgba(var(--rgb-main-1), 0.2) 66%);
+    --btn-border-radius: var(--radius-lg);
+}
+
+
+
+/* ================Button Size===================*/
 .btn-shape\:square {
     --btn-border-radius: 12px;
 }
