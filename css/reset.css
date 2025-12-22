@@ -1,55 +1,41 @@
 @charset "utf-8";
 
-/* 요소(element) 여백 초기화  */
-:where(
-  html,
-  body,
-  div,
-  span,
-  dl,
-  dt,
-  dd,
-  ul,
-  ol,
-  li,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  blockquote,
-  p,
-  address,
-  pre,
-  cite,
-  form,
-  fieldset,
-  input,
-  textarea,
-  select,
-  table,
-  th,
-  td,
-  button,
-  a
-) {
+@layer reset {
+/* 
+ * m3- 또는 n-로 시작하는 클래스를 가진 컴포넌트와 그 내부 요소들에만 reset 적용
+ * 
+ * 선택자 설명:
+ * - [class^="m3-"]: 클래스 속성이 "m3-"로 시작하는 경우 (예: class="m3-btn")
+ * - [class*=" m3-"]: 클래스 속성에 공백 후 "m3-"가 포함된 경우 (예: class="button m3-btn")
+ * 
+ * 두 가지를 함께 사용하는 이유:
+ * [class*="m3-"]만 사용하면 "my-m3-button" 같은 의도하지 않은 클래스도 매칭됩니다.
+ * [class^="m3-"]만 사용하면 "button m3-btn"처럼 첫 번째 클래스가 아닌 경우를 놓칩니다.
+ * 따라서 두 가지를 함께 사용하여 정확하게 "m3-" 또는 "n-"로 시작하는 클래스만 매칭합니다.
+ */
+:where([class*=" m3-"], [class^="m3-"]),
+:where([class*=" m3-"] *, [class^="m3-"] *),
+:where([class*=" n-"], [class^="n-"]),
+:where([class*=" n-"] *, [class^="n-"] *) {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
 }
 
 /* 제목요소 */
-:where(
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6
-){
+:where([class*=" m3-"] h1, [class^="m3-"] h1),
+:where([class*=" m3-"] h2, [class^="m3-"] h2),
+:where([class*=" m3-"] h3, [class^="m3-"] h3),
+:where([class*=" m3-"] h4, [class^="m3-"] h4),
+:where([class*=" m3-"] h5, [class^="m3-"] h5),
+:where([class*=" m3-"] h6, [class^="m3-"] h6),
+:where([class*=" n-"] h1, [class^="n-"] h1),
+:where([class*=" n-"] h2, [class^="n-"] h2),
+:where([class*=" n-"] h3, [class^="n-"] h3),
+:where([class*=" n-"] h4, [class^="n-"] h4),
+:where([class*=" n-"] h5, [class^="n-"] h5),
+:where([class*=" n-"] h6, [class^="n-"] h6){
   font-size: 100%;
   font-weight: normal;
   margin: 0;
@@ -57,159 +43,171 @@
 }
 
 /* 테두리 없애기 */
-:where(
-  fieldset,
-  img,
-  abbr,
-  acronym
-){
+:where([class*=" m3-"], [class^="m3-"] fieldset),
+:where([class*=" m3-"], [class^="m3-"] img),
+:where([class*=" m3-"], [class^="m3-"] abbr),
+:where([class*=" m3-"], [class^="m3-"] acronym),
+:where([class*=" n-"], [class^="n-"] fieldset),
+:where([class*=" n-"], [class^="n-"] img),
+:where([class*=" n-"], [class^="n-"] abbr),
+:where([class*=" n-"], [class^="n-"] acronym){
   border: 0 none;
 }
 
 /* 목록 */
-:where(
-  ol,
-  ul
-){
+:where([class*=" m3-"], [class^="m3-"] ol),
+:where([class*=" m3-"], [class^="m3-"] ul),
+:where([class*=" n-"], [class^="n-"] ol),
+:where([class*=" n-"], [class^="n-"] ul){
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 /* 테이블 - 마크업에 'cellspacing="0"' 지정 함께 필요 */
-:where(
-  table
-){
+:where([class*=" m3-"], [class^="m3-"] table),
+:where([class*=" n-"], [class^="n-"] table){
   border-collapse: separate;
   border-spacing: 0;
   border: 0 none;
 }
 
-:where(
-  caption,
-  th,
-  td
-){
+:where([class*=" m3-"], [class^="m3-"] caption),
+:where([class*=" m3-"], [class^="m3-"] th),
+:where([class*=" m3-"], [class^="m3-"] td),
+:where([class*=" n-"], [class^="n-"] caption),
+:where([class*=" n-"], [class^="n-"] th),
+:where([class*=" n-"], [class^="n-"] td){
   text-align: left;
   font-weight: normal;
 }
 
 /* 텍스트 관련 요소 초기화 */
-:where(
-  address,
-  caption,
-  strong,
-  em,
-  cite
-){
+:where([class*=" m3-"], [class^="m3-"] address),
+:where([class*=" m3-"], [class^="m3-"] caption),
+:where([class*=" m3-"], [class^="m3-"] strong),
+:where([class*=" m3-"], [class^="m3-"] em),
+:where([class*=" m3-"], [class^="m3-"] cite),
+:where([class*=" n-"], [class^="n-"] address),
+:where([class*=" n-"], [class^="n-"] caption),
+:where([class*=" n-"], [class^="n-"] strong),
+:where([class*=" n-"], [class^="n-"] em),
+:where([class*=" n-"], [class^="n-"] cite){
   font-weight: normal;
   font-style: normal;
 }
 
-:where(
-  ins
-){
+:where([class*=" m3-"], [class^="m3-"] ins),
+:where([class*=" n-"], [class^="n-"] ins){
   text-decoration: none;
 }
-:where(
-  del
-){
+:where([class*=" m3-"], [class^="m3-"] del),
+:where([class*=" n-"], [class^="n-"] del){
   text-decoration: line-through;
 }
 
 /* 인용문 */
-:where(
-  blockquote:before,
-  blockquote:after,
-  q:before,
-  q:after
-){
+:where([class*=" m3-"], [class^="m3-"] blockquote:before),
+:where([class*=" m3-"], [class^="m3-"] blockquote:after),
+:where([class*=" m3-"], [class^="m3-"] q:before),
+:where([class*=" m3-"], [class^="m3-"] q:after),
+:where([class*=" n-"], [class^="n-"] blockquote:before),
+:where([class*=" n-"], [class^="n-"] blockquote:after),
+:where([class*=" n-"], [class^="n-"] q:before),
+:where([class*=" n-"], [class^="n-"] q:after){
   content: "";
 }
 
-:where(
-  blockquote,
-  q
-){
+:where([class*=" m3-"], [class^="m3-"] blockquote),
+:where([class*=" m3-"], [class^="m3-"] q),
+:where([class*=" n-"], [class^="n-"] blockquote),
+:where([class*=" n-"], [class^="n-"] q){
   quotes: "" "";
 }
 
 /* 수평선*/
-:where(
-  hr
-){
+:where([class*=" m3-"], [class^="m3-"] hr),
+:where([class*=" n-"], [class^="n-"] hr){
   display: none;
 }
 
 /* 하이퍼링크*/
-:where(
-  a
-){
+:where([class*=" m3-"], [class^="m3-"] a),
+:where([class*=" n-"], [class^="n-"] a){
   text-decoration: none;
   color: inherit;
 }
 
-:where(
-  input
-) {
+:where([class*=" m3-"], [class^="m3-"] input),
+:where([class*=" n-"], [class^="n-"] input) {
   border: none;
 }
 
-:where(
-  textarea:focus,
-  input:focus
-){
+:where([class*=" m3-"], [class^="m3-"] textarea:focus),
+:where([class*=" m3-"], [class^="m3-"] input:focus),
+:where([class*=" n-"], [class^="n-"] textarea:focus),
+:where([class*=" n-"], [class^="n-"] input:focus){
   outline: none;
 }
 
-:where(
-  label,
-  legend,
-  fieldset
-){
+:where([class*=" m3-"], [class^="m3-"] label),
+:where([class*=" m3-"], [class^="m3-"] legend),
+:where([class*=" m3-"], [class^="m3-"] fieldset),
+:where([class*=" n-"], [class^="n-"] label),
+:where([class*=" n-"], [class^="n-"] legend),
+:where([class*=" n-"], [class^="n-"] fieldset){
   border: 0; /* 1 */
   padding: 0; /* 2 */
 }
 
-:where(
-  input[type="checkbox"]
-){
+:where([class*=" m3-"], [class^="m3-"] input[type="checkbox"]),
+:where([class*=" n-"], [class^="n-"] input[type="checkbox"]){
   margin: 0;
 }
 
-:where(
-  input:focus,
-  select:focus,
-  option:focus,
-  textarea:focus,
-  button:focus
-){
+:where([class*=" m3-"], [class^="m3-"] input:focus),
+:where([class*=" m3-"], [class^="m3-"] select:focus),
+:where([class*=" m3-"], [class^="m3-"] option:focus),
+:where([class*=" m3-"], [class^="m3-"] textarea:focus),
+:where([class*=" m3-"], [class^="m3-"] button:focus),
+:where([class*=" n-"], [class^="n-"] input:focus),
+:where([class*=" n-"], [class^="n-"] select:focus),
+:where([class*=" n-"], [class^="n-"] option:focus),
+:where([class*=" n-"], [class^="n-"] textarea:focus),
+:where([class*=" n-"], [class^="n-"] button:focus){
   outline: none;
 }
 
-:where(
-  input[type="button"],
-  input[type="checkbox"],
-  input[type="radio"],
-  textarea,
-  select,
-  option
-){
-  /*-webkit-appearance: none;
+/* appearance 속성 제거는 필요시 개별 컴포넌트에서 처리 */
+/* :where([class*=" m3-"], [class^="m3-"] input[type="button"]),
+:where([class*=" m3-"], [class^="m3-"] input[type="checkbox"]),
+:where([class*=" m3-"], [class^="m3-"] input[type="radio"]),
+:where([class*=" m3-"], [class^="m3-"] textarea),
+:where([class*=" m3-"], [class^="m3-"] select),
+:where([class*=" m3-"], [class^="m3-"] option),
+:where([class*=" n-"], [class^="n-"] input[type="button"]),
+:where([class*=" n-"], [class^="n-"] input[type="checkbox"]),
+:where([class*=" n-"], [class^="n-"] input[type="radio"]),
+:where([class*=" n-"], [class^="n-"] textarea),
+:where([class*=" n-"], [class^="n-"] select),
+:where([class*=" n-"], [class^="n-"] option){
+  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;*/
-}
+  appearance: none;
+} */
 
-:where(
-  button
-){
+:where([class*=" m3-"], [class^="m3-"] button),
+:where([class*=" n-"], [class^="n-"] button){
   background-color: transparent;
 }
 
-:where(
-  *,
-  *:before,
-  *:after
-){
+:where([class*=" m3-"], [class^="m3-"] *),
+:where([class*=" m3-"], [class^="m3-"] *:before),
+:where([class*=" m3-"], [class^="m3-"] *:after),
+:where([class*=" n-"], [class^="n-"] *),
+:where([class*=" n-"], [class^="n-"] *:before),
+:where([class*=" n-"], [class^="n-"] *:after){
   box-sizing: border-box;
 }
+
+} /* @layer reset 종료 */
