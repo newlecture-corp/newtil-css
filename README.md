@@ -33,13 +33,17 @@
 ### 🎨 Material 3 Design 100% 지원하는 컴포넌트
 Google의 Material Design 3 가이드라인을 완벽하게 반영한 컴포넌트를 제공합니다. 모든 디자인 원칙, 상호작용 패턴, 접근성 가이드라인을 정확히 구현합니다.
 
+
+
 ### 🎯 순수 CSS와 100% 동일한 명명 규칙
 CSS 속성을 그대로 클래스명으로 사용하여 학습 곡선을 최소화합니다.
 
 ```html
-<!-- CSS: display: flex; justify-content: center; -->
+<div style="display: flex; justify-content: center;">...</div>
 <div class="d:flex jc:center">...</div>
 ```
+
+위 예제에서 아래 클래스 표현(`d:flex jc:center`)은 위의 인라인 스타일(`display: flex; justify-content: center;`)의 축약 표현입니다.
 
 ### 🎨 Google Icons 완벽 지원
 Google Material Icons를 간편하게 사용할 수 있습니다.
