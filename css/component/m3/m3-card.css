@@ -47,13 +47,13 @@
         --card-font-color: var(--color-base-10);
     }
 
-    .card\:elevated.card\:focused{
+    .card\:elevated.card-state\:focused{
         --card-focused-outline-color: var(--color-base-10);
     }
-    .card\:filled.card\:focused{
+    .card\:filled.card-state\:focused{
         --card-focused-outline-color: var(--color-base-10);
     }
-    .card\:outlined.card\:focused {
+    .card\:outlined.card-state\:focused {
         --card-border: 1px solid var(--card-border-outline-color);
         --card-outlined-color: var(--color-base-10);
         --card-outline: 3px solid var(--card-outlined-color);
@@ -87,25 +87,25 @@
 
 /* ================ Elevated-type ================ */
 
-.card\:elevated.card\:enabled {
+.card\:elevated.card-state\:enabled {
     --card-opacity: var(--opacity-100);
     --card-box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12),
         0 var(--space-1) var(--space-2) rgba(0, 0, 0, 0.14);
 }
 
-.card\:elevated.card\:disabled {
+.card\:elevated.card-state\:disabled {
     --card-opacity: 0.38;
     --card-box-shadow: 0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.14);
     --card-cursor: var(--cursor-not-allowed);
 }
 
-.card\:elevated.card\:hovered {
+.card\:elevated.card-state\:hovered {
     --card-box-shadow: 0 var(--space-2) var(--space-4) rgba(0, 0, 0, 0.14),
         0 var(--space-3) var(--space-4) rgba(0, 0, 0, 0.12);
     filter: brightness(0.92);
 }
 
-.card\:elevated.card\:focused {
+.card\:elevated.card-state\:focused {
     --card-box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12),
         0 var(--space-1) var(--space-2) rgba(0, 0, 0, 0.14);
     --card-outline: 2px solid var(--card-focused-outline-color);
@@ -113,7 +113,7 @@
     filter: brightness(0.90);
 }
 
-.card\:elevated.card\:dragged {
+.card\:elevated.card-state\:dragged {
     --card-box-shadow: 0 var(--space-6) var(--space-10) rgba(0, 0, 0, 0.14),
         0 var(--space-4) var(--space-5) rgba(0, 0, 0, 0.12);
     --card-transform: scale(1.02);
@@ -123,31 +123,31 @@
 
 /* ================  Filled-type ================ */
 
-.card\:filled.card\:enabled {
+.card\:filled.card-state\:enabled {
     --card-opacity: var(--opacity-100);
     --card-box-shadow: none;
 }
 
-.card\:filled.card\:disabled {
+.card\:filled.card-state\:disabled {
     --card-opacity: 0.38;
     --card-box-shadow: none;
     --card-cursor: var(--cursor-not-allowed);
 }
 
-.card\:filled.card\:hovered {
+.card\:filled.card-state\:hovered {
     --card-box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12),
         0 var(--space-1) var(--space-2) rgba(0, 0, 0, 0.14);
     filter: brightness(0.92);
 }
 
-.card\:filled.card\:focused {
+.card\:filled.card-state\:focused {
     --card-box-shadow: none;
     --card-outline: 2px solid var(--card-focused-outline-color);
     --card-outline-offset: var(--space-2);
     filter: brightness(0.90);
 }
 
-.card\:filled.card\:dragged {
+.card\:filled.card-state\:dragged {
     --card-box-shadow: 0 var(--space-4) var(--space-8) rgba(0, 0, 0, 0.14),
         0 var(--space-3) var(--space-4) rgba(0, 0, 0, 0.12);
     --card-transform: scale(1.02);
@@ -157,27 +157,27 @@
 
 /* ================ Outlined-type ================ */
 
-.card\:outlined.card\:enabled {
+.card\:outlined.card-state\:enabled {
     --card-opacity: var(--opacity-100);
     --card-box-shadow: none;
     --card-border: 1px solid var(--card-border-outline-color);
 }
 
-.card\:outlined.card\:disabled {
+.card\:outlined.card-state\:disabled {
     --card-opacity: 0.38;
     --card-box-shadow: none;
     --card-border: 1px solid var(--card-border-outline-color);
     --card-cursor: var(--cursor-not-allowed);
 }
 
-.card\:outlined.card\:hovered {
+.card\:outlined.card-state\:hovered {
     --card-box-shadow: 0 var(--space-1) var(--space-3) rgba(0, 0, 0, 0.12),
         0 var(--space-1) var(--space-2) rgba(0, 0, 0, 0.14);
     --card-border: 1px solid var(--card-border-outline-color);
     filter: brightness(0.92);
 }
 
-.card\:outlined.card\:focused {
+.card\:outlined.card-state\:focused {
     --card-box-shadow: none;
     --card-border: 1px solid var(--card-focused-outline-color);
     --card-outline: 2px solid var(--card-focused-outline-color);
@@ -186,7 +186,7 @@
 }
 
 
-.card\:outlined.card\:dragged {
+.card\:outlined.card-state\:dragged {
     --card-box-shadow: 0 var(--space-6) var(--space-10) rgba(0, 0, 0, 0.14),
         0 var(--space-4) var(--space-5) rgba(0, 0, 0, 0.12);
     --card-border: 1px solid var(--card-border-outline-color);
