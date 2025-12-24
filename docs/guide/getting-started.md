@@ -56,6 +56,69 @@ import 'newtil-css/dist/components.css'
 import 'newtil-css/dist/utils.css'
 ```
 
+#### Next.js 사용 시 주의사항
+
+Next.js에서 아이콘이 표시되지 않는 경우, Material Symbols 폰트를 직접 로드해야 합니다:
+
+**app/layout.jsx 또는 pages/_app.js:**
+```javascript
+import 'newtil-css'
+import Head from 'next/head'
+
+export default function Layout({ children }) {
+  return (
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+      </Head>
+      {children}
+    </>
+  )
+}
+```
+
+또는 **app/layout.jsx (App Router):**
+```javascript
+import 'newtil-css'
+
+export const metadata = {
+  // ...
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ko">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  )
+}
+```
+
 ### 방법 3: CDN 사용
 
 npm을 사용하지 않는 경우 CDN을 통해 사용할 수 있습니다:

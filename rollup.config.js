@@ -6,6 +6,7 @@ import fs from "fs";
 import path from "path";
 import terser from "@rollup/plugin-terser";
 
+
 function generateIconListFromResource() {
 	return {
 		name: "generate-icons-list-from-resource",
@@ -52,10 +53,23 @@ export default [
 				targets: [
 					{ src: "icon/**.svg", dest: "dist/icon" },
 					{ src: "types/**", dest: "dist/types" }, // Include types directory in the build
-					{ src: "index.js", dest: "dist" }, // Copy index.js to the dist directory
 					{ src: "index.d.ts", dest: "dist" }, // Copy index.d.ts to the dist directory
 				],
 			}),
+			// index.js를 복사하고 CSS import 경로를 수정
+			{
+				name: "copy-and-fix-index-js",
+				writeBundle() {
+					const indexJsPath = path.join(process.cwd(), "index.js");
+					const distIndexJsPath = path.join(process.cwd(), "dist", "index.js");
+					if (fs.existsSync(indexJsPath)) {
+						let content = fs.readFileSync(indexJsPath, "utf8");
+						// dist 폴더 안에 있으므로 ./dist/가 아닌 ./로 시작해야 함
+						content = content.replace(/import\s+["']\.\/dist\//g, 'import "./');
+						fs.writeFileSync(distIndexJsPath, content, "utf8");
+					}
+				},
+			},
 		],
 		external: (id) => id.endsWith(".d.ts"), // Ensure .d.ts files are treated as external
 	},
@@ -68,13 +82,24 @@ export default [
 		plugins: [
 			postcss({
 				plugins: [
-					postcssImport(),
+					postcssImport({
+						// 외부 URL은 그대로 유지
+						filter: (id) => {
+							// 외부 URL은 import하지 않고 그대로 유지
+							return !id.startsWith("http://") && !id.startsWith("https://");
+						},
+					}),
 					url({
 						url: (asset) => asset.url.replace(/\.\.\//g, ""),
 					}),
 				],
 				extract: "style.css", // Extract CSS into a single file
-				minimize: true, // Minify CSS
+				minimize: {
+					preset: ["default", {
+						discardComments: { removeAll: true },
+						normalizeWhitespace: true,
+					}],
+				},
 			}),
 		],
 	},
@@ -87,13 +112,23 @@ export default [
 		plugins: [
 			postcss({
 				plugins: [
-					postcssImport(),
+					postcssImport({
+						// 외부 URL은 그대로 유지
+						filter: (id) => {
+							return !id.startsWith("http://") && !id.startsWith("https://");
+						},
+					}),
 					url({
 						url: (asset) => asset.url.replace(/\.\.\//g, ""),
 					}),
 				],
 				extract: "utils.css", // Extract utils.css into a single file
-				minimize: true, // Minify CSS
+				minimize: {
+					preset: ["default", {
+						discardComments: { removeAll: true },
+						normalizeWhitespace: true,
+					}],
+				},
 			}),
 		],
 	},
@@ -106,13 +141,23 @@ export default [
 		plugins: [
 			postcss({
 				plugins: [
-					postcssImport(),
+					postcssImport({
+						// 외부 URL은 그대로 유지
+						filter: (id) => {
+							return !id.startsWith("http://") && !id.startsWith("https://");
+						},
+					}),
 					url({
 						url: (asset) => asset.url.replace(/\.\.\//g, ""),
 					}),
 				],
 				extract: "components.css", // Extract components.css into a single file
-				minimize: true, // Minify CSS
+				minimize: {
+					preset: ["default", {
+						discardComments: { removeAll: true },
+						normalizeWhitespace: true,
+					}],
+				},
 			}),
 		],
 	},
