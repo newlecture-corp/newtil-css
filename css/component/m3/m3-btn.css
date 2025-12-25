@@ -2,7 +2,7 @@
 Size : Small (default) | XS | M | L | XL 
 Shape : Round (default) | Square 
 Type : Filled (default) | Elevated | Tonal | Outlined | Text 
-Color : main-2(default) | main-1~3 | sub-1~3 | accent-1~3 | base-1~10 | 
+Color : Main-2(default) | Main-1~3 | Sub-1~3 | Accent-1~3 | Base-1~10 | 
 State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ================Variable=====================*/
@@ -452,7 +452,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 }
 
 /* ================Button Color==================*/
-/* -----------main-1----------- */
+/* -----------Main-1----------- */
 .m3-btn.btn-color\:main-1{
     --btn-background: rgba(var(--rgb-main-1), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -473,7 +473,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-main-1), 1) 66%);
 }
 
-/* -----------main-2----------- */
+/* -----------Main-2----------- */
 .m3-btn.btn-color\:main-2{
     --btn-background: rgba(var(--rgb-main-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -494,7 +494,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-main-2), 1) 66%);
 }
 
-/* -----------main-3----------- */
+/* -----------Main-3----------- */
 .m3-btn.btn-color\:main-3{
     --btn-background: rgba(var(--rgb-main-3), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -515,7 +515,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-main-3), 1) 66%);
 }
 
-/* -----------sub-1----------- */
+/* -----------Sub-1----------- */
 .m3-btn.btn-color\:sub-1{
     --btn-background: rgba(var(--rgb-sub-1), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -536,7 +536,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-sub-1), 1) 66%);
 }
 
-/* -----------sub-2----------- */
+/* -----------Sub-2----------- */
 .m3-btn.btn-color\:sub-2{
     --btn-background: rgba(var(--rgb-sub-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -557,7 +557,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-sub-2), 1) 66%);
 }
 
-/* -----------sub-3----------- */
+/* -----------Sub-3----------- */
 .m3-btn.btn-color\:sub-3{
     --btn-background: rgba(var(--rgb-sub-3), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -578,7 +578,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-sub-3), 1) 66%);
 }
 
-/* -----------accent-1----------- */
+/* -----------Accent-1----------- */
 .m3-btn.btn-color\:accent-1{
     --btn-background: rgba(var(--rgb-accent-1), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -599,7 +599,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-accent-1), 1) 66%);
 }
 
-/* -----------accent-2----------- */
+/* -----------Accent-2----------- */
 .m3-btn.btn-color\:accent-2{
     --btn-background: rgba(var(--rgb-accent-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -620,7 +620,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-accent-2), 1) 66%);
 }
 
-/* -----------accent-3----------- */
+/* -----------Accent-3----------- */
 .m3-btn.btn-color\:accent-3{
     --btn-background: rgba(var(--rgb-accent-3), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -641,7 +641,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-accent-3), 1) 66%);
 }
 
-/* -----------base-1----------- */
+/* -----------Base-1----------- */
 .m3-btn.btn-color\:base-1{
     --btn-background: rgba(var(--rgb-base-1), 1);
     --btn-color: rgb(var(--rgb-base-7));
@@ -662,7 +662,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-1), 1) 66%);
 }
 
-/* -----------base-2----------- */
+/* -----------Base-2----------- */
 .m3-btn.btn-color\:base-2{
     --btn-background: rgba(var(--rgb-base-2), 1);
     --btn-color: rgb(var(--rgb-base-7));
@@ -683,7 +683,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-2), 1) 66%);
 }
 
-/* -----------base-3----------- */
+/* -----------Base-3----------- */
 .m3-btn.btn-color\:base-3{
     --btn-background: rgba(var(--rgb-base-3), 1);
     --btn-color: rgb(var(--rgb-base-8));
@@ -704,7 +704,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-3), 1) 66%);
 }
 
-/* -----------base-4----------- */
+/* -----------Base-4----------- */
 .m3-btn.btn-color\:base-4{
     --btn-background: rgba(var(--rgb-base-4), 1);
     --btn-color: rgb(var(--rgb-base-8));
@@ -725,7 +725,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-4), 1) 66%);
 }
 
-/* -----------base-5----------- */
+/* -----------Base-5----------- */
 .m3-btn.btn-color\:base-5{
     --btn-background: rgba(var(--rgb-base-5), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -746,7 +746,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-5), 1) 66%);
 }
 
-/* -----------base-6----------- */
+/* -----------Base-6----------- */
 .m3-btn.btn-color\:base-6{
     --btn-background: rgba(var(--rgb-base-6), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -767,7 +767,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-6), 1) 66%);
 }
 
-/* -----------base-7----------- */
+/* -----------Base-7----------- */
 .m3-btn.btn-color\:base-7{
     --btn-background: rgba(var(--rgb-base-7), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -788,7 +788,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-7), 1) 66%);
 }
 
-/* -----------base-8----------- */
+/* -----------Base-8----------- */
 .m3-btn.btn-color\:base-8{
     --btn-background: rgba(var(--rgb-base-8), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -809,7 +809,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-8), 1) 66%);
 }
 
-/* -----------base-9----------- */
+/* -----------Base-9----------- */
 .m3-btn.btn-color\:base-9{
     --btn-background: rgba(var(--rgb-base-9), 1);
     --btn-color: rgb(var(--rgb-base-1));
@@ -830,7 +830,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
             rgba(var(--rgb-base-9), 1) 66%);
 }
 
-/* -----------base-10----------- */
+/* -----------Base-10----------- */
 .m3-btn.btn-color\:base-10{
     --btn-background: rgba(var(--rgb-base-10), 1);
     --btn-color: rgb(var(--rgb-base-1));
