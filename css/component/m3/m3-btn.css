@@ -2,8 +2,7 @@
 Size : Small (default) | XS | M | L | XL 
 Shape : Round (default) | Square 
 Type : Filled (default) | Elevated | Tonal | Outlined | Text 
-Color(Light Mode) : Sub-1(default) | Sub-2 | Sub-3 | Sub-4 | Sub-5 | 
-Color(Dark Mode) : Sub-6(default) | Sub-7 | Sub-8 | Sub-9 | Sub-10 | 
+Color : main-2(default) | main-1~3 | sub-1~3 | accent-1~3 | base-1~10 | 
 State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ================Variable=====================*/
@@ -35,8 +34,7 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ================Dark Mode===================*/
 @media (prefers-color-scheme: dark) {
-    .m3-btn,
-    .m3-btn.btn-color\:sub-6 {
+    .m3-btn {
         /* color - default dark mode variables */
         --btn-background-dark: rgba(var(--rgb-main-2), 1);
         --btn-color-dark: rgb(var(--rgb-base-1));
@@ -55,29 +53,25 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     }
 
     [tabindex].m3-btn:focus:not(:active),
-    .m3-btn.btn-state\:focus:not(:active),
-    [tabindex].m3-btn:focus:not(:active).btn-color\:sub-6 {
+    .m3-btn.btn-state\:focus:not(:active) {
         --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
         --btn-outline-dark: 2px solid rgb(var(--rgb-main-2));
     }
 
     .m3-btn:hover,
-    .m3-btn.btn-state\:hover,
-    .m3-btn:hover.btn-color\:sub-6 {
+    .m3-btn.btn-state\:hover {
         --btn-background-dark: rgba(var(--rgb-main-1), 1);
     }
 
     .m3-btn:active,
-    .m3-btn.btn-state\:active,
-    .m3-btn:active.btn-color\:sub-6 {
+    .m3-btn.btn-state\:active {
         --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 1) 65%,
                 rgba(var(--rgb-main-1), 1) 66%);
         --btn-border-radius-dark: var(--radius-lg);
     }
 
-    .btn\:elevated,
-    .m3-btn.btn-color\:sub-7 {
+    .btn\:elevated {
         /* boxing */
         --btn-background-dark: rgba(var(--rgb-main-3), 0.3);
         --btn-box-shadow-dark: 0px 1px 2px 0.5px rgba(var(--rgb-base-10), 1);
@@ -86,42 +80,36 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
         --btn-color-dark: rgb(var(--rgb-main-1));
     }
 
-    .btn\:tonal,
-    .m3-btn.btn-color\:sub-8 {
+    .btn\:tonal {
         --btn-background-dark: rgba(var(--rgb-main-2), 0.5);
         --btn-color-dark: rgb(var(--rgb-main-1));
     }
 
-    .btn\:outlined,
-    .m3-btn.btn-color\:sub-9 {
+    .btn\:outlined {
         --btn-background-dark: none;
         --btn-color-dark: rgb(var(--rgb-main-1));
         --btn-outline-dark: 0.2px solid rgba(var(--rgb-main-3), 0.7);
     }
 
-    .btn\:text,
-    .m3-btn.btn-color\:sub-10 {
+    .btn\:text {
         --btn-background-dark: none;
         --btn-color-dark: rgb(var(--rgb-main-1));
     }
 
     /* ----------Elevated State------------ */
     [tabindex].btn\:elevated:focus:not(:active),
-    .btn\:elevated.btn-state\:focus:not(:active),
-    [tabindex].m3-btn:focus:not(:active).btn-color\:sub-7 {
+    .btn\:elevated.btn-state\:focus:not(:active) {
         --btn-border-dark: 2px solid rgb(var(--rgb-main-3));
         --btn-outline-dark: 2px solid rgb(var(--rgb-base-1));
     }
 
     .btn\:elevated:hover,
-    .btn\:elevated.btn-state\:hover,
-    .m3-btn:hover.btn-color\:sub-7 {
+    .btn\:elevated.btn-state\:hover {
         --btn-background-dark: rgba(var(--rgb-main-2), 0.3);
     }
 
     .btn\:elevated:active,
-    .btn\:elevated.btn-state\:active,
-    .m3-btn:active.btn-color\:sub-7 {
+    .btn\:elevated.btn-state\:active {
         --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-3), 0.5) 65%,
                 rgba(var(--rgb-main-3), 1) 66%);
@@ -130,21 +118,18 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* ----------Tonal State---------------- */
     [tabindex].btn\:tonal:focus:not(:active),
-    .btn\:tonal.btn-state\:focus:not(:active),
-    [tabindex].m3-btn:focus:not(:active).btn-color\:sub-8 {
+    .btn\:tonal.btn-state\:focus:not(:active) {
         --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
         --btn-outline-dark: 3px solid rgba(var(--rgb-main-2), 0.5);
     }
 
     .btn\:tonal:hover,
-    .btn\:tonal.btn-state\:hover,
-    .m3-btn:hover.btn-color\:sub-8 {
+    .btn\:tonal.btn-state\:hover {
         --btn-background-dark: rgba(var(--rgb-main-3), 0.7);
     }
 
     .btn\:tonal:active,
-    .btn\:tonal.btn-state\:active,
-    .m3-btn:active.btn-color\:sub-8 {
+    .btn\:tonal.btn-state\:active {
         --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-3), 0.7) 66%);
@@ -153,22 +138,19 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* ----------Outlined State------------ */
     [tabindex].btn\:outlined:focus:not(:active),
-    .btn\:outlined.btn-state\:focus:not(:active),
-    [tabindex].m3-btn:focus:not(:active).btn-color\:sub-9 {
+    .btn\:outlined.btn-state\:focus:not(:active) {
         --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
         --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
         --btn-outline-offset-dark: -5px;
     }
 
     .btn\:outlined:hover,
-    .btn\:outlined.btn-state\:hover,
-    .m3-btn:hover.btn-color\:sub-9 {
+    .btn\:outlined.btn-state\:hover {
         --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
     }
 
     .btn\:outlined:active,
-    .btn\:outlined.btn-state\:active,
-    .m3-btn:active.btn-color\:sub-9 {
+    .btn\:outlined.btn-state\:active {
         --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-2), 0.3) 66%);
@@ -177,22 +159,19 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     /* ----------Text State----------------- */
     [tabindex].btn\:text:focus:not(:active),
-    .btn\:text.btn-state\:focus:not(:active),
-    [tabindex].m3-btn:focus:not(:active).btn-color\:sub-10 {
+    .btn\:text.btn-state\:focus:not(:active) {
         --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
         --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
         --btn-outline-offset-dark: -5px;
     }
 
     .btn\:text:hover,
-    .btn\:text.btn-state\:hover,
-    .m3-btn:hover.btn-color\:sub-10 {
+    .btn\:text.btn-state\:hover {
         --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
     }
 
     .btn\:text:active,
-    .btn\:text.btn-state\:active,
-    .m3-btn:active.btn-color\:sub-10 {
+    .btn\:text.btn-state\:active {
         --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
                 rgba(var(--rgb-main-2), 0.5) 65%,
                 rgba(var(--rgb-main-2), 0.3) 66%);
@@ -245,22 +224,19 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 }
 
 [tabindex].m3-btn:focus:not(:active),
-.m3-btn.btn-state\:focus:not(:active),
-[tabindex].m3-btn:focus:not(:active).btn-color\:sub-1 {
+.m3-btn.btn-state\:focus:not(:active) {
     --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
     --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
     --btn-outline-offset: none;
 }
 
 .m3-btn:hover,
-.m3-btn.btn-state\:hover,
-.m3-btn:hover.btn-color\:sub-1 {
+.m3-btn.btn-state\:hover {
     --btn-background: rgba(var(--rgb-main-2), 0.9);
 }
 
 .m3-btn:active,
-.m3-btn.btn-state\:active,
-.m3-btn:active.btn-color\:sub-1 {
+.m3-btn.btn-state\:active {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
             rgba(var(--rgb-main-2), 0.9) 65%,
             rgba(var(--rgb-main-2), 1) 66%);
@@ -309,21 +285,21 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ----------Elevated State------------ */
 [tabindex].btn\:elevated:focus:not(:active),
-[tabindex].m3-btn:focus:not(:active).btn-color\:sub-2 {
+.btn\:elevated.btn-state\:focus:not(:active) {
     --btn-border: 2px solid rgb(var(--rgb-main-3));
     --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
     --btn-outline-offset: -4px;
 }
 
 .btn\:elevated:hover,
-.m3-btn:hover.btn-color\:sub-2 {
+.btn\:elevated.btn-state\:hover {
     --btn-background: linear-gradient(161deg,
             rgba(var(--rgb-main-1), 0.1) 0%,
             rgba(var(--rgb-main-1), 0.5) 100%);
 }
 
 .btn\:elevated:active,
-.m3-btn:active.btn-color\:sub-2 {
+.btn\:elevated.btn-state\:active {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
             rgba(var(--rgb-main-1), 0.4) 65%,
             rgba(var(--rgb-main-1), 0.2) 66%);
@@ -332,20 +308,20 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ----------Tonal State---------------- */
 [tabindex].btn\:tonal:focus:not(:active),
-[tabindex].m3-btn:focus:not(:active).btn-color\:sub-3 {
+.btn\:tonal.btn-state\:focus:not(:active) {
     --btn-border: 2px solid rgb(var(--rgb-base-1));
     --btn-outline: 2.5px solid rgb(var(--rgb-main-2));
 }
 
 .btn\:tonal:hover,
-.m3-btn:hover.btn-color\:sub-3 {
+.btn\:tonal.btn-state\:hover {
     --btn-background: linear-gradient(161deg,
             rgba(var(--rgb-main-1), 0.5) 8%,
             rgba(var(--rgb-main-1), 0.6) 81%);
 }
 
 .btn\:tonal:active,
-.m3-btn:active.btn-color\:sub-3 {
+.btn\:tonal.btn-state\:active {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
             rgba(var(--rgb-main-1), 1) 65%,
             rgba(var(--rgb-main-1), 0.8) 66%);
@@ -354,21 +330,21 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ----------Outlined State------------ */
 [tabindex].btn\:outlined:focus:not(:active),
-[tabindex].m3-btn:focus:not(:active).btn-color\:sub-4 {
+.btn\:outlined.btn-state\:focus:not(:active) {
     --btn-border: 2px solid rgb(var(--rgb-main-3));
     --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
     --btn-outline-offset: -4px;
 }
 
 .btn\:outlined:hover,
-.m3-btn:hover.btn-color\:sub-4 {
+.btn\:outlined.btn-state\:hover {
     --btn-background: linear-gradient(161deg,
             rgba(var(--rgb-main-1), 0.01) 0%,
             rgba(var(--rgb-main-1), 0.2) 100%);
 }
 
 .btn\:outlined:active,
-.m3-btn:active.btn-color\:sub-4 {
+.btn\:outlined.btn-state\:active {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
             rgba(var(--rgb-main-1), 0.4) 65%,
             rgba(var(--rgb-main-1), 0.2) 66%);
@@ -377,21 +353,21 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ----------Text State----------------- */
 [tabindex].btn\:text:focus:not(:active),
-[tabindex].m3-btn:focus:not(:active).btn-color\:sub-5 {
+.btn\:text.btn-state\:focus:not(:active) {
     --btn-border: 2px solid rgb(var(--rgb-main-3));
     --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
     --btn-outline-offset: -4px;
 }
 
 .btn\:text:hover,
-.m3-btn:hover.btn-color\:sub-5 {
+.btn\:text.btn-state\:hover {
     --btn-background: linear-gradient(161deg,
             rgba(var(--rgb-main-1), 0.01) 0%,
             rgba(var(--rgb-main-1), 0.2) 100%);
 }
 
 .btn\:text:active,
-.m3-btn:active.btn-color\:sub-5 {
+.btn\:text.btn-state\:active {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
             rgba(var(--rgb-main-1), 0.4) 65%,
             rgba(var(--rgb-main-1), 0.2) 66%);
@@ -476,37 +452,401 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 }
 
 /* ================Button Color==================*/
+/* -----------main-1----------- */
+.m3-btn.btn-color\:main-1{
+    --btn-background: rgba(var(--rgb-main-1), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
 
-/* -----------sub-1----------- */
-.m3-btn.btn-color\:sub-1{
+[tabindex].m3-btn:focus:not(:active).btn-color\:main-1 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-main-1), 1);
+}
+
+.m3-btn:hover.btn-color\:main-1 {
+    --btn-background: rgba(var(--rgb-main-1), 0.9);
+}
+
+.m3-btn:active.btn-color\:main-1 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-1), 0.9) 65%,
+            rgba(var(--rgb-main-1), 1) 66%);
+}
+
+/* -----------main-2----------- */
+.m3-btn.btn-color\:main-2{
     --btn-background: rgba(var(--rgb-main-2), 1);
     --btn-color: rgb(var(--rgb-base-1));
 }
 
+[tabindex].m3-btn:focus:not(:active).btn-color\:main-2 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+}
+
+.m3-btn:hover.btn-color\:main-2 {
+    --btn-background: rgba(var(--rgb-main-2), 0.9);
+}
+
+.m3-btn:active.btn-color\:main-2 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-2), 0.9) 65%,
+            rgba(var(--rgb-main-2), 1) 66%);
+}
+
+/* -----------main-3----------- */
+.m3-btn.btn-color\:main-3{
+    --btn-background: rgba(var(--rgb-main-3), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:main-3 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-main-3), 1);
+}
+
+.m3-btn:hover.btn-color\:main-3 {
+    --btn-background: rgba(var(--rgb-main-3), 0.9);
+}
+
+.m3-btn:active.btn-color\:main-3 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-main-3), 0.9) 65%,
+            rgba(var(--rgb-main-3), 1) 66%);
+}
+
+/* -----------sub-1----------- */
+.m3-btn.btn-color\:sub-1{
+    --btn-background: rgba(var(--rgb-sub-1), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:sub-1 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-sub-1), 1);
+}
+
+.m3-btn:hover.btn-color\:sub-1 {
+    --btn-background: rgba(var(--rgb-sub-1), 0.9);
+}
+
+.m3-btn:active.btn-color\:sub-1 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-sub-1), 0.9) 65%,
+            rgba(var(--rgb-sub-1), 1) 66%);
+}
+
 /* -----------sub-2----------- */
-.m3-btn.btn-color\:sub-2 {
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.01) 0%,
-            rgba(var(--rgb-main-1), 0.2) 100%);
-    --btn-color: rgb(var(--rgb-main-2));
+.m3-btn.btn-color\:sub-2{
+    --btn-background: rgba(var(--rgb-sub-2), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:sub-2 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-sub-2), 1);
+}
+
+.m3-btn:hover.btn-color\:sub-2 {
+    --btn-background: rgba(var(--rgb-sub-2), 0.9);
+}
+
+.m3-btn:active.btn-color\:sub-2 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-sub-2), 0.9) 65%,
+            rgba(var(--rgb-sub-2), 1) 66%);
 }
 
 /* -----------sub-3----------- */
-.m3-btn.btn-color\:sub-3 {
+.m3-btn.btn-color\:sub-3{
+    --btn-background: rgba(var(--rgb-sub-3), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:sub-3 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-sub-3), 1);
+}
+
+.m3-btn:hover.btn-color\:sub-3 {
+    --btn-background: rgba(var(--rgb-sub-3), 0.9);
+}
+
+.m3-btn:active.btn-color\:sub-3 {
     --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-main-1), 1) 0%,
-            rgba(var(--rgb-main-1), 0.7) 100%);
-    --btn-color: rgb(var(--rgb-main-3));
+            rgba(var(--rgb-sub-3), 0.9) 65%,
+            rgba(var(--rgb-sub-3), 1) 66%);
 }
 
-/* -----------sub-4----------- */
-.m3-btn.btn-color\:sub-4 {
-    --btn-background: none;
-    --btn-color: rgb(var(--rgb-main-3));
+/* -----------accent-1----------- */
+.m3-btn.btn-color\:accent-1{
+    --btn-background: rgba(var(--rgb-accent-1), 1);
+    --btn-color: rgb(var(--rgb-base-1));
 }
 
-/* -----------sub-5----------- */
-.m3-btn.btn-color\:sub-5 {
-    --btn-background: none;
-    --btn-color: rgb(var(--rgb-main-2));
+[tabindex].m3-btn:focus:not(:active).btn-color\:accent-1 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-accent-1), 1);
+}
+
+.m3-btn:hover.btn-color\:accent-1 {
+    --btn-background: rgba(var(--rgb-accent-1), 0.9);
+}
+
+.m3-btn:active.btn-color\:accent-1 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-accent-1), 0.9) 65%,
+            rgba(var(--rgb-accent-1), 1) 66%);
+}
+
+/* -----------accent-2----------- */
+.m3-btn.btn-color\:accent-2{
+    --btn-background: rgba(var(--rgb-accent-2), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:accent-2 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-accent-2), 1);
+}
+
+.m3-btn:hover.btn-color\:accent-2 {
+    --btn-background: rgba(var(--rgb-accent-2), 0.9);
+}
+
+.m3-btn:active.btn-color\:accent-2 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-accent-2), 0.9) 65%,
+            rgba(var(--rgb-accent-2), 1) 66%);
+}
+
+/* -----------accent-3----------- */
+.m3-btn.btn-color\:accent-3{
+    --btn-background: rgba(var(--rgb-accent-3), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:accent-3 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-accent-3), 1);
+}
+
+.m3-btn:hover.btn-color\:accent-3 {
+    --btn-background: rgba(var(--rgb-accent-3), 0.9);
+}
+
+.m3-btn:active.btn-color\:accent-3 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-accent-3), 0.9) 65%,
+            rgba(var(--rgb-accent-3), 1) 66%);
+}
+
+/* -----------base-1----------- */
+.m3-btn.btn-color\:base-1{
+    --btn-background: rgba(var(--rgb-base-1), 1);
+    --btn-color: rgb(var(--rgb-base-7));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-1 {
+    --btn-border: 2px solid rgba(var(--rgb-base-5), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-1), 1);
+}
+
+.m3-btn:hover.btn-color\:base-1 {
+    --btn-background: rgba(var(--rgb-base-1), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-1 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-1), 0.9) 65%,
+            rgba(var(--rgb-base-1), 1) 66%);
+}
+
+/* -----------base-2----------- */
+.m3-btn.btn-color\:base-2{
+    --btn-background: rgba(var(--rgb-base-2), 1);
+    --btn-color: rgb(var(--rgb-base-7));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-2 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-2), 1);
+}
+
+.m3-btn:hover.btn-color\:base-2 {
+    --btn-background: rgba(var(--rgb-base-2), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-2 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-2), 0.9) 65%,
+            rgba(var(--rgb-base-2), 1) 66%);
+}
+
+/* -----------base-3----------- */
+.m3-btn.btn-color\:base-3{
+    --btn-background: rgba(var(--rgb-base-3), 1);
+    --btn-color: rgb(var(--rgb-base-8));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-3 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-3), 1);
+}
+
+.m3-btn:hover.btn-color\:base-3 {
+    --btn-background: rgba(var(--rgb-base-3), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-3 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-3), 0.9) 65%,
+            rgba(var(--rgb-base-3), 1) 66%);
+}
+
+/* -----------base-4----------- */
+.m3-btn.btn-color\:base-4{
+    --btn-background: rgba(var(--rgb-base-4), 1);
+    --btn-color: rgb(var(--rgb-base-8));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-4 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-4), 1);
+}
+
+.m3-btn:hover.btn-color\:base-4 {
+    --btn-background: rgba(var(--rgb-base-4), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-4 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-4), 0.9) 65%,
+            rgba(var(--rgb-base-4), 1) 66%);
+}
+
+/* -----------base-5----------- */
+.m3-btn.btn-color\:base-5{
+    --btn-background: rgba(var(--rgb-base-5), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-5 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-5), 1);
+}
+
+.m3-btn:hover.btn-color\:base-5 {
+    --btn-background: rgba(var(--rgb-base-5), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-5 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-5), 0.9) 65%,
+            rgba(var(--rgb-base-5), 1) 66%);
+}
+
+/* -----------base-6----------- */
+.m3-btn.btn-color\:base-6{
+    --btn-background: rgba(var(--rgb-base-6), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-6 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-6), 1);
+}
+
+.m3-btn:hover.btn-color\:base-6 {
+    --btn-background: rgba(var(--rgb-base-6), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-6 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-6), 0.9) 65%,
+            rgba(var(--rgb-base-6), 1) 66%);
+}
+
+/* -----------base-7----------- */
+.m3-btn.btn-color\:base-7{
+    --btn-background: rgba(var(--rgb-base-7), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-7 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-7), 1);
+}
+
+.m3-btn:hover.btn-color\:base-7 {
+    --btn-background: rgba(var(--rgb-base-7), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-7 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-7), 0.9) 65%,
+            rgba(var(--rgb-base-7), 1) 66%);
+}
+
+/* -----------base-8----------- */
+.m3-btn.btn-color\:base-8{
+    --btn-background: rgba(var(--rgb-base-8), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-8 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-8), 1);
+}
+
+.m3-btn:hover.btn-color\:base-8 {
+    --btn-background: rgba(var(--rgb-base-8), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-8 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-8), 0.9) 65%,
+            rgba(var(--rgb-base-8), 1) 66%);
+}
+
+/* -----------base-9----------- */
+.m3-btn.btn-color\:base-9{
+    --btn-background: rgba(var(--rgb-base-9), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-9 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-9), 1);
+}
+
+.m3-btn:hover.btn-color\:base-9 {
+    --btn-background: rgba(var(--rgb-base-9), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-9 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-9), 0.9) 65%,
+            rgba(var(--rgb-base-9), 1) 66%);
+}
+
+/* -----------base-10----------- */
+.m3-btn.btn-color\:base-10{
+    --btn-background: rgba(var(--rgb-base-10), 1);
+    --btn-color: rgb(var(--rgb-base-1));
+}
+
+[tabindex].m3-btn:focus:not(:active).btn-color\:base-10 {
+    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+    --btn-outline: 2.5px solid rgba(var(--rgb-base-10), 1);
+}
+
+.m3-btn:hover.btn-color\:base-10 {
+    --btn-background: rgba(var(--rgb-base-10), 0.9);
+}
+
+.m3-btn:active.btn-color\:base-10 {
+    --btn-background: radial-gradient(107% 112% at 65% 103%,
+            rgba(var(--rgb-base-10), 0.9) 65%,
+            rgba(var(--rgb-base-10), 1) 66%);
 }
