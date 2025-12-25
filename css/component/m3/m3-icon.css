@@ -128,17 +128,252 @@
 
 
 @media (min-width: 640px) {
-	
+	.sm\:m3-icon {
+		/* === style  =============================== */
+		&.icon-style\:outlined::before { --icon-family: "Material Symbols Outlined"; }
+		&.icon-style\:rounded::before { --icon-family: "Material Symbols Rounded"; }
+		&.icon-style\:sharp::before { --icon-family: "Material Symbols Sharp"; }
+
+		/* ==== variation/filled =============================== */
+		&.icon-filled\:0::before { --icon-fill: 0; }
+		&.icon-filled\:1::before { --icon-fill: 1; }
+
+		/* ==== variation/weight =============================== */
+		&.icon-weight\:100::before { --icon-weight: 100; }
+		&.icon-weight\:200::before { --icon-weight: 200; }
+		&.icon-weight\:300::before { --icon-weight: 300; }
+		&.icon-weight\:400::before { --icon-weight: 400; }
+		&.icon-weight\:500::before { --icon-weight: 500; }
+		&.icon-weight\:600::before { --icon-weight: 600; }
+		&.icon-weight\:700::before { --icon-weight: 700; }
+
+		/* ==== variation/grade =============================== */
+		&.icon-grade\:-25::before { --icon-grade: -25; }
+		&.icon-grade\:0::before { --icon-grade: 0; }
+		&.icon-grade\:200::before { --icon-grade: 200; }
+
+		/* ==== variation/optical-size =============================== */
+		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
+		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
+		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
+		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+
+
+		/* === color ======================================= */ 
+		&.icon-color\:main-1::before { color: var(--color-main-1); }
+		&.icon-color\:main-2::before { color: var(--color-main-2); }
+		&.icon-color\:main-3::before { color: var(--color-main-3); }
+		&.icon-color\:sub-1::before { color: var(--color-sub-1); }
+		&.icon-color\:sub-2::before { color: var(--color-sub-2); }
+		&.icon-color\:sub-3::before { color: var(--color-sub-3); }
+		&.icon-color\:accent-1::before { color: var(--color-accent-1); }
+		&.icon-color\:accent-2::before { color: var(--color-accent-2); }
+		&.icon-color\:accent-3::before { color: var(--color-accent-3); }
+		&.icon-color\:base-1::before { color: var(--color-base-1); }
+		&.icon-color\:base-2::before { color: var(--color-base-2); }
+		&.icon-color\:base-3::before { color: var(--color-base-3); }
+		&.icon-color\:base-4::before { color: var(--color-base-4); }
+		&.icon-color\:base-5::before { color: var(--color-base-5); }
+		&.icon-color\:base-6::before { color: var(--color-base-6); }
+		&.icon-color\:base-7::before { color: var(--color-base-7); }
+		&.icon-color\:base-8::before { color: var(--color-base-8); }
+		&.icon-color\:base-9::before { color: var(--color-base-9); }
+		&.icon-color\:base-10::before { color: var(--color-base-10); }
+
+
+		/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:20 { --icon-size: 20px; }
+		&.icon-size\:24 { --icon-size: 24px; }
+		&.icon-size\:40 { --icon-size: 40px; }
+		&.icon-size\:48 { --icon-size: 48px; }
+	}
 }
 
 @media (min-width: 768px) {
 	
+	.md\:m3-icon {
+		/* === style  =============================== */
+		&.icon-style\:outlined::before { --icon-family: "Material Symbols Outlined"; }
+		&.icon-style\:rounded::before { --icon-family: "Material Symbols Rounded"; }
+		&.icon-style\:sharp::before { --icon-family: "Material Symbols Sharp"; }
+
+		/* ==== variation/filled =============================== */
+		&.icon-filled\:0::before { --icon-fill: 0; }
+		&.icon-filled\:1::before { --icon-fill: 1; }
+
+		/* ==== variation/weight =============================== */
+		&.icon-weight\:100::before { --icon-weight: 100; }
+		&.icon-weight\:200::before { --icon-weight: 200; }
+		&.icon-weight\:300::before { --icon-weight: 300; }
+		&.icon-weight\:400::before { --icon-weight: 400; }
+		&.icon-weight\:500::before { --icon-weight: 500; }
+		&.icon-weight\:600::before { --icon-weight: 600; }
+		&.icon-weight\:700::before { --icon-weight: 700; }
+
+		/* ==== variation/grade =============================== */
+		&.icon-grade\:-25::before { --icon-grade: -25; }
+		&.icon-grade\:0::before { --icon-grade: 0; }
+		&.icon-grade\:200::before { --icon-grade: 200; }
+
+		/* ==== variation/optical-size =============================== */
+		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
+		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
+		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
+		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+
+
+		/* === color ======================================= */ 
+		&.icon-color\:main-1::before { color: var(--color-main-1); }
+		&.icon-color\:main-2::before { color: var(--color-main-2); }
+		&.icon-color\:main-3::before { color: var(--color-main-3); }
+		&.icon-color\:sub-1::before { color: var(--color-sub-1); }
+		&.icon-color\:sub-2::before { color: var(--color-sub-2); }
+		&.icon-color\:sub-3::before { color: var(--color-sub-3); }
+		&.icon-color\:accent-1::before { color: var(--color-accent-1); }
+		&.icon-color\:accent-2::before { color: var(--color-accent-2); }
+		&.icon-color\:accent-3::before { color: var(--color-accent-3); }
+		&.icon-color\:base-1::before { color: var(--color-base-1); }
+		&.icon-color\:base-2::before { color: var(--color-base-2); }
+		&.icon-color\:base-3::before { color: var(--color-base-3); }
+		&.icon-color\:base-4::before { color: var(--color-base-4); }
+		&.icon-color\:base-5::before { color: var(--color-base-5); }
+		&.icon-color\:base-6::before { color: var(--color-base-6); }
+		&.icon-color\:base-7::before { color: var(--color-base-7); }
+		&.icon-color\:base-8::before { color: var(--color-base-8); }
+		&.icon-color\:base-9::before { color: var(--color-base-9); }
+		&.icon-color\:base-10::before { color: var(--color-base-10); }
+
+
+		/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:20 { --icon-size: 20px; }
+		&.icon-size\:24 { --icon-size: 24px; }
+		&.icon-size\:40 { --icon-size: 40px; }
+		&.icon-size\:48 { --icon-size: 48px; }
+	}
 }
 
 @media (min-width: 1024px) {
 
+	.lg\:m3-icon {
+		/* === style  =============================== */
+		&.icon-style\:outlined::before { --icon-family: "Material Symbols Outlined"; }
+		&.icon-style\:rounded::before { --icon-family: "Material Symbols Rounded"; }
+		&.icon-style\:sharp::before { --icon-family: "Material Symbols Sharp"; }
+
+		/* ==== variation/filled =============================== */
+		&.icon-filled\:0::before { --icon-fill: 0; }
+		&.icon-filled\:1::before { --icon-fill: 1; }
+
+		/* ==== variation/weight =============================== */
+		&.icon-weight\:100::before { --icon-weight: 100; }
+		&.icon-weight\:200::before { --icon-weight: 200; }
+		&.icon-weight\:300::before { --icon-weight: 300; }
+		&.icon-weight\:400::before { --icon-weight: 400; }
+		&.icon-weight\:500::before { --icon-weight: 500; }
+		&.icon-weight\:600::before { --icon-weight: 600; }
+		&.icon-weight\:700::before { --icon-weight: 700; }
+
+		/* ==== variation/grade =============================== */
+		&.icon-grade\:-25::before { --icon-grade: -25; }
+		&.icon-grade\:0::before { --icon-grade: 0; }
+		&.icon-grade\:200::before { --icon-grade: 200; }
+
+		/* ==== variation/optical-size =============================== */
+		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
+		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
+		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
+		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+
+
+		/* === color ======================================= */ 
+		&.icon-color\:main-1::before { color: var(--color-main-1); }
+		&.icon-color\:main-2::before { color: var(--color-main-2); }
+		&.icon-color\:main-3::before { color: var(--color-main-3); }
+		&.icon-color\:sub-1::before { color: var(--color-sub-1); }
+		&.icon-color\:sub-2::before { color: var(--color-sub-2); }
+		&.icon-color\:sub-3::before { color: var(--color-sub-3); }
+		&.icon-color\:accent-1::before { color: var(--color-accent-1); }
+		&.icon-color\:accent-2::before { color: var(--color-accent-2); }
+		&.icon-color\:accent-3::before { color: var(--color-accent-3); }
+		&.icon-color\:base-1::before { color: var(--color-base-1); }
+		&.icon-color\:base-2::before { color: var(--color-base-2); }
+		&.icon-color\:base-3::before { color: var(--color-base-3); }
+		&.icon-color\:base-4::before { color: var(--color-base-4); }
+		&.icon-color\:base-5::before { color: var(--color-base-5); }
+		&.icon-color\:base-6::before { color: var(--color-base-6); }
+		&.icon-color\:base-7::before { color: var(--color-base-7); }
+		&.icon-color\:base-8::before { color: var(--color-base-8); }
+		&.icon-color\:base-9::before { color: var(--color-base-9); }
+		&.icon-color\:base-10::before { color: var(--color-base-10); }
+
+
+		/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:20 { --icon-size: 20px; }
+		&.icon-size\:24 { --icon-size: 24px; }
+		&.icon-size\:40 { --icon-size: 40px; }
+		&.icon-size\:48 { --icon-size: 48px; }
+	}
 }
 
 @media (min-width: 1280px) {
 
+	.xl\:m3-icon {
+		/* === style  =============================== */
+		&.icon-style\:outlined::before { --icon-family: "Material Symbols Outlined"; }
+		&.icon-style\:rounded::before { --icon-family: "Material Symbols Rounded"; }
+		&.icon-style\:sharp::before { --icon-family: "Material Symbols Sharp"; }
+
+		/* ==== variation/filled =============================== */
+		&.icon-filled\:0::before { --icon-fill: 0; }
+		&.icon-filled\:1::before { --icon-fill: 1; }
+
+		/* ==== variation/weight =============================== */
+		&.icon-weight\:100::before { --icon-weight: 100; }
+		&.icon-weight\:200::before { --icon-weight: 200; }
+		&.icon-weight\:300::before { --icon-weight: 300; }
+		&.icon-weight\:400::before { --icon-weight: 400; }
+		&.icon-weight\:500::before { --icon-weight: 500; }
+		&.icon-weight\:600::before { --icon-weight: 600; }
+		&.icon-weight\:700::before { --icon-weight: 700; }
+
+		/* ==== variation/grade =============================== */
+		&.icon-grade\:-25::before { --icon-grade: -25; }
+		&.icon-grade\:0::before { --icon-grade: 0; }
+		&.icon-grade\:200::before { --icon-grade: 200; }
+
+		/* ==== variation/optical-size =============================== */
+		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
+		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
+		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
+		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+
+
+		/* === color ======================================= */ 
+		&.icon-color\:main-1::before { color: var(--color-main-1); }
+		&.icon-color\:main-2::before { color: var(--color-main-2); }
+		&.icon-color\:main-3::before { color: var(--color-main-3); }
+		&.icon-color\:sub-1::before { color: var(--color-sub-1); }
+		&.icon-color\:sub-2::before { color: var(--color-sub-2); }
+		&.icon-color\:sub-3::before { color: var(--color-sub-3); }
+		&.icon-color\:accent-1::before { color: var(--color-accent-1); }
+		&.icon-color\:accent-2::before { color: var(--color-accent-2); }
+		&.icon-color\:accent-3::before { color: var(--color-accent-3); }
+		&.icon-color\:base-1::before { color: var(--color-base-1); }
+		&.icon-color\:base-2::before { color: var(--color-base-2); }
+		&.icon-color\:base-3::before { color: var(--color-base-3); }
+		&.icon-color\:base-4::before { color: var(--color-base-4); }
+		&.icon-color\:base-5::before { color: var(--color-base-5); }
+		&.icon-color\:base-6::before { color: var(--color-base-6); }
+		&.icon-color\:base-7::before { color: var(--color-base-7); }
+		&.icon-color\:base-8::before { color: var(--color-base-8); }
+		&.icon-color\:base-9::before { color: var(--color-base-9); }
+		&.icon-color\:base-10::before { color: var(--color-base-10); }
+
+
+		/* ---- icon-size ------------------------------------------------- */
+		&.icon-size\:20 { --icon-size: 20px; }
+		&.icon-size\:24 { --icon-size: 24px; }
+		&.icon-size\:40 { --icon-size: 40px; }
+		&.icon-size\:48 { --icon-size: 48px; }
+	}
 }
