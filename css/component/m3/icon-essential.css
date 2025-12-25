@@ -1,0 +1,206 @@
+/*
+=== Google Material Icons - Essential 버전 ===
+총 60개 핵심 아이콘
+크기: ~3180바이트 (압축 전)
+
+실제 프로젝트에서 자주 사용하는 핵심 아이콘들만 선별했습니다.
+더 많은 아이콘이 필요하면 material-icons-github.css를 사용하세요.
+
+사용법:
+<i class="n-icon icon:home"></i>
+<button class="n-btn n-icon icon:search">검색</button>
+*/
+
+/* Material Icons 폰트 로드 */
+
+/* === NAVIGATION === */
+.icon\:home::before {
+	content: "\e88a";
+}
+.icon\:menu::before {
+	content: "\e5d2";
+}
+.icon\:close::before {
+	content: "\e5cd";
+}
+.icon\:arrow_back::before {
+	content: "\e5c4";
+}
+.icon\:arrow_forward::before {
+	content: "\e5c8";
+}
+.icon\:expand_more::before {
+	content: "\e5cf";
+}
+.icon\:expand_less::before {
+	content: "\e5ce";
+}
+.icon\:chevron_left::before {
+	content: "\e5cb";
+}
+.icon\:chevron_right::before {
+	content: "\e5cc";
+}
+.icon\:more_vert::before {
+	content: "\e5d4";
+}
+.icon\:more_horiz::before {
+	content: "\e5d3";
+}
+.icon\:refresh::before {
+	content: "\e5d5";
+}
+.icon\:settings::before {
+	content: "\e8b8";
+}
+.icon\:apps::before {
+	content: "\e5c3";
+}
+.icon\:launch::before {
+	content: "\e895";
+}
+
+/* === ACTIONS === */
+.icon\:add::before {
+	content: "\e145";
+}
+.icon\:remove::before {
+	content: "\e15b";
+}
+.icon\:edit::before {
+	content: "\e3c9";
+}
+.icon\:delete::before {
+	content: "\e872";
+}
+.icon\:save::before {
+	content: "\e161";
+}
+.icon\:check::before {
+	content: "\e5ca";
+}
+.icon\:clear::before {
+	content: "\e14c";
+}
+.icon\:cancel::before {
+	content: "\e5c9";
+}
+.icon\:done::before {
+	content: "\e876";
+}
+.icon\:search::before {
+	content: "\e8b6";
+}
+.icon\:share::before {
+	content: "\e80d";
+}
+.icon\:download::before {
+	content: "\e2c4";
+}
+.icon\:upload::before {
+	content: "\e2c6";
+}
+.icon\:copy::before {
+	content: "\e14d";
+}
+.icon\:visibility::before {
+	content: "\e8f4";
+}
+.icon\:visibility_off::before {
+	content: "\e8f5";
+}
+.icon\:lock::before {
+	content: "\e897";
+}
+.icon\:lock_open::before {
+	content: "\e898";
+}
+.icon\:sync::before {
+	content: "\e627";
+}
+.icon\:info::before {
+	content: "\e88e";
+}
+
+/* === COMMUNICATION === */
+.icon\:email::before {
+	content: "\e0be";
+}
+.icon\:phone::before {
+	content: "\e0cd";
+}
+.icon\:chat::before {
+	content: "\e0b7";
+}
+.icon\:notifications::before {
+	content: "\e7f4";
+}
+.icon\:send::before {
+	content: "\e163";
+}
+.icon\:reply::before {
+	content: "\e15e";
+}
+.icon\:help::before {
+	content: "\e887";
+}
+.icon\:feedback::before {
+	content: "\e87f";
+}
+
+/* === MEDIA === */
+.icon\:play_arrow::before {
+	content: "\e037";
+}
+.icon\:pause::before {
+	content: "\e034";
+}
+.icon\:stop::before {
+	content: "\e047";
+}
+.icon\:volume_up::before {
+	content: "\e050";
+}
+.icon\:volume_off::before {
+	content: "\e04f";
+}
+.icon\:mic::before {
+	content: "\e029";
+}
+.icon\:mic_off::before {
+	content: "\e02b";
+}
+
+/* === FILES === */
+.icon\:folder::before {
+	content: "\e2c7";
+}
+.icon\:folder_open::before {
+	content: "\e2c8";
+}
+.icon\:attach_file::before {
+	content: "\e226";
+}
+.icon\:cloud::before {
+	content: "\e2bd";
+}
+.icon\:description::before {
+	content: "\e873";
+}
+
+/* === SOCIAL === */
+.icon\:person::before {
+	content: "\e7fd";
+}
+.icon\:people::before {
+	content: "\e7fb";
+}
+.icon\:favorite::before {
+	content: "\e87d";
+}
+.icon\:star::before {
+	content: "\e838";
+}
+.icon\:thumb_up::before {
+	content: "\e8dc";
+}
