@@ -71,8 +71,24 @@ export default defineConfig({
         base: "/components",
         items: [
           {
-            text: "Button",
+            text: "아이콘",
+            link: "/icon",
+          },
+          {
+            text: "버튼",
             link: "/button",
+          },
+          {
+            text: "체크박스 버튼",
+            link: "/checkbox",
+          },
+          {
+            text: "라디오 버튼",
+            link: "/radio",
+          },
+          {
+            text: "선택 상자",
+            link: "/select",
           },
         ],
       },

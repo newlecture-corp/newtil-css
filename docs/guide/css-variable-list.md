@@ -127,9 +127,12 @@ NewTil CSS는 모든 스타일 값을 CSS 변수로 관리합니다. 이 변수�
   --font-size-4: 18px;
   --font-size-5: 20px;
   --font-size-6: 22px;
-  --font-size-7: 26px;
-  --font-size-8: 32px;
-  --font-size-9: 56px;
+  --font-size-7: 24px;
+  --font-size-8: 26px;
+  --font-size-9: 32px;
+  --font-size-10: 40px;
+  --font-size-11: 48px;
+  --font-size-12: 52px;
 }
 ```
 

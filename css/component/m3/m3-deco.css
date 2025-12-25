@@ -1,0 +1,39 @@
+.n-deco {
+	/* n-deco 변수 선언 (라이트 모드 기본값) */
+	--deco-gap: var(--space-4); /* 4px */
+}
+
+/* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
+@media (prefers-color-scheme: dark) {
+	.n-deco {	
+		
+	}
+}
+
+.n-deco {
+	/* n-deco CSS 속성 설정 */
+	width: auto;
+	text-indent: initial;
+	text-align: center;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	gap: var(--deco-gap);
+
+	&::before {
+		/* --- 아이콘을 위한 설정 ---- */
+		font-family: "Material Symbols Outlined";
+		font-size: var(--icon-size);
+
+		width: var(--icon-size);
+		height: var(--icon-size);
+		overflow: hidden;
+
+		display: inline-flex;
+		flex-shrink: 0;
+		justify-content: center;
+		align-items: center;
+	}
+}
