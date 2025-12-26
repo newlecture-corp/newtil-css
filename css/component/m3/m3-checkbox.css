@@ -11,7 +11,10 @@
     --checkbox-transparent-38: transparent 38%;
     --checkbox-transparent-92: transparent 92%;
     --checkbox-transparent-100: transparent 100%;
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(106, 142, 41, 0.3) 50%, rgba(106, 142, 41, 0.5) 100%);
+    --background-gradient: linear-gradient(180deg, 
+    var(--color-white) 0%, 
+    color-mix(in srgb, var(--color-main-2) 30%, transparent) 50%, 
+    color-mix(in srgb, var(--color-main-2) 50%, transparent) 100%);
 }
 
 /* 다크모드 */
@@ -158,75 +161,75 @@
 .checkbox-color\:main-1 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-main-1);
     --color-main-2: var(--color-main-1);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(140, 186, 53, 0.3) 50%, rgba(140, 186, 53, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(140, 186, 53, 0.3) 50%, rgba(140, 186, 53, 0.5) 100%); */
 }
 .checkbox-color\:main-3 input[type="checkbox"],
 .checkbox-color\:main-3 input[type="checkbox"]::after,
 .checkbox-color\:main-3 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-main-3);
     --color-main-2: var(--color-main-3);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(61, 82, 24, 0.3) 50%, rgba(61, 82, 24, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(61, 82, 24, 0.3) 50%, rgba(61, 82, 24, 0.5) 100%); */
 }
 .checkbox-color\:sub-1 input[type="checkbox"],
 .checkbox-color\:sub-1 input[type="checkbox"]::after,
 .checkbox-color\:sub-1 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-sub-1);
     --color-main-2: var(--color-sub-1);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(41, 131, 215, 0.3) 50%, rgba(41, 131, 215, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(41, 131, 215, 0.3) 50%, rgba(41, 131, 215, 0.5) 100%); */
 }
 .checkbox-color\:sub-2 input[type="checkbox"],
 .checkbox-color\:sub-2 input[type="checkbox"]::after,
 .checkbox-color\:sub-2 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-sub-2);
     --color-main-2: var(--color-sub-2);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(37, 112, 182, 0.3) 50%, rgba(37, 112, 182, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(37, 112, 182, 0.3) 50%, rgba(37, 112, 182, 0.5) 100%); */
 }
 .checkbox-color\:sub-3 input[type="checkbox"],
 .checkbox-color\:sub-3 input[type="checkbox"]::after,
 .checkbox-color\:sub-3 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-sub-3);
     --color-main-2: var(--color-sub-3);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(27, 87, 144, 0.3) 50%, rgba(27, 87, 144, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(27, 87, 144, 0.3) 50%, rgba(27, 87, 144, 0.5) 100%); */
 }
 .checkbox-color\:danger-1 input[type="checkbox"],
 .checkbox-color\:danger-1 input[type="checkbox"]::after,
 .checkbox-color\:danger-1 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-danger-1);
     --color-main-2: var(--color-danger-1);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(239, 68, 68, 0.3) 50%, rgba(239, 68, 68, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(239, 68, 68, 0.3) 50%, rgba(239, 68, 68, 0.5) 100%); */
 }
 .checkbox-color\:danger-2 input[type="checkbox"],
 .checkbox-color\:danger-2 input[type="checkbox"]::after,
 .checkbox-color\:danger-2 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-danger-2);
     --color-main-2: var(--color-danger-2);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(220, 38, 38, 0.3) 50%, rgba(220, 38, 38, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(220, 38, 38, 0.3) 50%, rgba(220, 38, 38, 0.5) 100%); */
 }
 .checkbox-color\:danger-3 input[type="checkbox"],
 .checkbox-color\:danger-3 input[type="checkbox"]::after,
 .checkbox-color\:danger-3 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-danger-3);
     --color-main-2: var(--color-danger-3);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(185, 28, 28, 0.3) 50%, rgba(185, 28, 28, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(185, 28, 28, 0.3) 50%, rgba(185, 28, 28, 0.5) 100%); */
 }
 .checkbox-color\:accent-1 input[type="checkbox"],
 .checkbox-color\:accent-1 input[type="checkbox"]::after,
 .checkbox-color\:accent-1 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-accent-1);
     --color-main-2: var(--color-accent-1);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 158, 11, 0.3) 50%, rgba(245, 158, 11, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 158, 11, 0.3) 50%, rgba(245, 158, 11, 0.5) 100%); */
 }
 .checkbox-color\:accent-2 input[type="checkbox"],
 .checkbox-color\:accent-2 input[type="checkbox"]::after,
 .checkbox-color\:accent-2 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-accent-2);
     --color-main-2: var(--color-accent-2);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 119, 6, 0.3) 50%, rgba(217, 119, 6, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 119, 6, 0.3) 50%, rgba(217, 119, 6, 0.5) 100%); */
 }
 .checkbox-color\:accent-3 input[type="checkbox"],
 .checkbox-color\:accent-3 input[type="checkbox"]::after,
 .checkbox-color\:accent-3 input[type="checkbox"]::before{
     --checkbox-main-color: var(--color-accent-3);
     --color-main-2: var(--color-accent-3);
-    --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(180, 83, 9, 0.3) 50%, rgba(180, 83, 9, 0.5) 100%);
+    /* --background-gradient: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(180, 83, 9, 0.3) 50%, rgba(180, 83, 9, 0.5) 100%); */
 }
