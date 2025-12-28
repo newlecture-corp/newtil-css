@@ -75,6 +75,10 @@ export default defineConfig({
             link: "/icon",
           },
           {
+            text: "데코",
+            link: "/deco",
+          },
+          {
             text: "버튼",
             link: "/button",
           },
