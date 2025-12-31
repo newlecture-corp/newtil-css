@@ -1,444 +1,484 @@
 /* ====== M3 Button options (spec overview) =====================
-Size : Small (default) | XS | M | L | XL 
+Size :  XS | Small (default) | M | L | XL 
 Shape : Round (default) | Square 
-Color : Filled (default) | Elevated | Tonal | Outlined | Text 
+Type : Filled (default) | Elevated | Tonal | Outlined | Text 
 State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
 /* ================Variable=====================*/
 .m3-btn {
+    
+    /* content */
+    --btn-font-size: var(--font-size-2);
+    --btn-font-weight: var(--font-weight-medium);
+    /* --btn-line-height: var(--space-22); */
+    --btn-letter-spacing: 0.1px;
+
     /* boxing */
+    --btn-height: var(--space-22);
+    --btn-padding: 0 var(--space-10);
+
     --btn-gap: 2px;
     --btn-margin-top: 5px;
-    --btn-fill: 1;
-
-    /* color */
-    --btn-background: rgba(var(--rgb-main-2), 1);
-    --btn-color: rgb(var(--rgb-base-1));
+    --btn-background-color: var(--color-main-1);
+    --btn-color: var(--color-base-1);
+    --btn-background-image: none;
     --btn-box-shadow: none;
     --btn-border: 0;
     --btn-outline: none;
     --btn-outline-offset: 0px;
     --btn-border-radius: 999px;
 
-    /* size */
-    --btn-height: var(--space-22);
-    --btn-padding: 0 var(--space-10);
+    /* layout */
 
-    /* content */
-    --btn-font-size: var(--space-8);
-    --btn-font-weight: var(--font-weight-medium);
-    --btn-line-height: var(--space-13);
-    --btn-letter-spacing: 0.1px;
 }
 
 /* ================Dark Mode===================*/
 @media (prefers-color-scheme: dark) {
     .m3-btn {
-        /* color - default dark mode variables */
-        --btn-background-dark: rgba(var(--rgb-main-2), 1);
-        --btn-color-dark: rgb(var(--rgb-base-1));
-        --btn-box-shadow-dark: none;
-        --btn-border-dark: 0;
-        --btn-outline-dark: none;
-    }
-
-    .m3-btn:disabled,
-    .m3-btn.btn-state\:disabled {
-        --btn-background-dark: rgba(var(--rgb-main-3), 0.3);
-        --btn-color-dark: rgba(var(--rgb-main-1), 0.3);
-        --btn-box-shadow-dark: none;
-        --btn-border-dark: 0;
-        --btn-outline-dark: none;
-    }
-
-    .m3-btn:focus:not(:active),
-    .m3-btn.btn-state\:focus:not(:active) {
-        --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
-        --btn-outline-dark: 2px solid rgb(var(--rgb-main-2));
-    }
-
-    .m3-btn:hover,
-    .m3-btn.btn-state\:hover {
-        --btn-background-dark: rgba(var(--rgb-main-1), 1);
-    }
-
-    .m3-btn:active,
-    .m3-btn.btn-state\:active {
-        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 1) 65%,
-                rgba(var(--rgb-main-1), 1) 66%);
-        --btn-border-radius-dark: var(--radius-lg);
-    }
-
-    .btn\:elevated {
-        /* boxing */
-        --btn-background-dark: rgba(var(--rgb-main-3), 0.3);
-        --btn-box-shadow-dark: 0px 1px 2px 0.5px rgba(var(--rgb-base-10), 1);
-
-        /* content */
-        --btn-color-dark: rgb(var(--rgb-main-1));
-    }
-
-    .btn\:tonal {
-        --btn-background-dark: rgba(var(--rgb-main-2), 0.5);
-        --btn-color-dark: rgb(var(--rgb-main-1));
-    }
-
-    .btn\:outlined {
-        --btn-background-dark: none;
-        --btn-color-dark: rgb(var(--rgb-main-1));
-        --btn-outline-dark: 0.2px solid rgba(var(--rgb-main-3), 0.7);
-    }
-
-    .btn\:text {
-        --btn-background-dark: none;
-        --btn-color-dark: rgb(var(--rgb-main-2));
-    }
-
-    /* ----------Elevated State------------ */
-    .btn\:elevated:focus:not(:active),
-    .btn\:elevated.btn-state\:focus:not(:active) {
-        --btn-border-dark: 2px solid rgb(var(--rgb-main-3));
-        --btn-outline-dark: 2px solid rgb(var(--rgb-base-1));
-    }
-
-    .btn\:elevated:hover,
-    .btn\:elevated.btn-state\:hover {
-        --btn-background-dark: rgba(var(--rgb-main-2), 0.3);
-    }
-
-    .btn\:elevated:active,
-    .btn\:elevated.btn-state\:active {
-        --btn-background-dark: radial-gradient(144% 100% at 80% 94%,
-                rgba(var(--rgb-main-3), 0.5) 65%,
-                rgba(var(--rgb-main-3), 1) 66%);
-        --btn-border-radius-dark: var(--radius-lg);
-    }
-
-    /* ----------Tonal State---------------- */
-    .btn\:tonal:focus:not(:active),
-    .btn\:tonal.btn-state\:focus:not(:active) {
-        --btn-border-dark: 2px solid rgb(var(--rgb-base-1));
-        --btn-outline-dark: 3px solid rgba(var(--rgb-main-2), 0.5);
-    }
-
-    .btn\:tonal:hover,
-    .btn\:tonal.btn-state\:hover {
-        --btn-background-dark: rgba(var(--rgb-main-3), 0.7);
-    }
-
-    .btn\:tonal:active,
-    .btn\:tonal.btn-state\:active {
-        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.5) 65%,
-                rgba(var(--rgb-main-3), 0.7) 66%);
-        --btn-border-radius-dark: var(--radius-lg);
-    }
-
-    /* ----------Outlined State------------ */
-    .btn\:outlined:focus:not(:active),
-    .btn\:outlined.btn-state\:focus:not(:active) {
-        --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
-        --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
-        --btn-outline-offset-dark: -5px;
-    }
-
-    .btn\:outlined:hover,
-    .btn\:outlined.btn-state\:hover {
-        --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
-    }
-
-    .btn\:outlined:active,
-    .btn\:outlined.btn-state\:active {
-        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.5) 65%,
-                rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius-dark: var(--radius-lg);
-    }
-
-    /* ----------Text State----------------- */
-    .btn\:text:focus:not(:active),
-    .btn\:text.btn-state\:focus:not(:active) {
-        --btn-border-dark: 2px solid rgb(var(--rgb-main-1));
-        --btn-outline-dark: 0.1px solid rgba(var(--rgb-main-1), 0.5);
-        --btn-outline-offset-dark: -5px;
-    }
-
-    .btn\:text:hover,
-    .btn\:text.btn-state\:hover {
-        --btn-background-dark: rgba(var(--rgb-main-3), 0.5);
-    }
-
-    .btn\:text:active,
-    .btn\:text.btn-state\:active {
-        --btn-background-dark: radial-gradient(107% 112% at 65% 103%,
-                rgba(var(--rgb-main-2), 0.5) 65%,
-                rgba(var(--rgb-main-2), 0.3) 66%);
-        --btn-border-radius-dark: var(--radius-lg);
+        --btn-background-color: color-mix(in srgb, var(--color-main-1) 80%, white 20%);
+        --btn-color: var(--color-base-9);
     }
 }
 
 /* ================Base Type====================*/
-.m3-btn {
+/* btn type : filled (default) */
+.m3-btn {    
+    
+    /* content */    
+    /* font-family: roboto;     */
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height);
+    letter-spacing: var(--btn-letter-spacing);
+    cursor: pointer;
+    
     /* boxing */
     border-radius: var(--btn-border-radius);
     height: var(--btn-height);
     padding: var(--btn-padding);
     margin-top: var(--btn-margin-top);
     gap: var(--btn-gap);
-
+    background-color: var(--btn-background-color);
+    background-image: var(--btn-background-image);
+    color: var(--btn-color);
+    box-shadow: var(--btn-box-shadow);
+    border: var(--btn-border);
+    outline: var(--btn-outline);
+    outline-offset: var(--btn-outline-offset);
+    
     /* layout */
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-
-    /* color */
-    background: var(--btn-background-dark, var(--btn-background));
-    color: var(--btn-color-dark, var(--btn-color));
-    box-shadow: var(--btn-box-shadow-dark, var(--btn-box-shadow));
-    border: var(--btn-border-dark, var(--btn-border));
-    outline: var(--btn-outline-dark, var(--btn-outline));
-    outline-offset: var(--btn-outline-offset);
-
-    /* content */
-    font-family: roboto;
-    font-variation-settings: 'FILL' var(--btn-fill);
-    font-size: var(--btn-font-size);
-    font-weight: var(--btn-font-weight);
-    line-height: var(--btn-line-height);
-    letter-spacing: var(--btn-letter-spacing);
-
+    justify-content: center;       
+    
     /* effect */
     transition: background-color 0.3s ease, transform 0.3s ease;
-}
 
-/* ================Light Mode===================*/
-.m3-btn:disabled,
-.m3-btn.btn-state\:disabled {
-    --btn-background: rgba(var(--rgb-base-10), 0.08);
-    --btn-color: rgba(var(--rgb-base-10), 0.2);
-    --btn-box-shadow: none;
-    --btn-border: none;
-    --btn-outline: none;
-}
+    /* === btn type ======================== */
+    &.btn\:elevated {
+        /* content */
+        --btn-color: var(--color-main-2);
 
-.m3-btn:focus:not(:active),
-.btn-state\:focus:not(:active) {
-    --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
-    --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
-}
+        /* boxing */
+        --btn-background-color: color-mix(in srgb, var(--color-main-1) 10%, transparent 90%);
+        --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
+    }
 
-.m3-btn:hover,
-.btn-state\:hover {
-    --btn-background: rgba(var(--rgb-main-2), 0.7);
-}
+    &.btn\:tonal {        
+        /* content */
+        --btn-color: var(--color-main-1);
 
-.m3-btn:active,
-.btn-state\:active {
-    --btn-background: radial-gradient(144% 100% at 80% 94%,
-            rgba(var(--rgb-main-2), 0.7) 65%,
-            rgba(var(--rgb-main-2), 1) 66%);
-    --btn-border-radius: var(--radius-lg);
-}
+        /* boxing */
+        --btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
+    }
 
-.btn\:elevated {
-    /* boxing */
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.01) 0%,
-            rgba(var(--rgb-main-1), 0.2) 100%);
-    --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
+    &.btn\:outlined {
+        /* content */
+        --btn-color: rgb(var(--rgb-main-3));
 
-    /* content */
-    --btn-color: rgb(var(--rgb-main-2));
-}
+        /* boxing */
+        --btn-background-color: none;
+        --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
+    }
 
-.btn\:tonal {
-    /* boxing */
-    --btn-background: radial-gradient(144% 100% at 80% 94%,
-            rgba(var(--rgb-main-1), 1) 0%,
-            rgba(var(--rgb-main-1), 0.7) 100%);
+    &.btn\:text {
+        
+        /* content */
+        --btn-color: rgb(var(--rgb-main-2));
 
-    /* content */
-    --btn-color: rgb(var(--rgb-main-3));
-}
+        /* boxing */
+        --btn-background-color: none;
+        --btn-border: none;
+        --btn-outline: none;
+    }
 
-.btn\:outlined {
-    /* boxing */
-    --btn-background: none;
-    --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
+    
+    /* ==== btn state ======================== */
+    &:disabled {
+        --btn-background-color: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+        --btn-box-shadow: none;
+        --btn-border: none;
+        --btn-outline: none;
+    }
 
-    /* content */
-    --btn-color: rgb(var(--rgb-main-3));
-}
+    &:focus[tabindex] {
+        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+    }
 
-.btn\:text {
-    /* boxing */
-    --btn-background: none;
-    --btn-border: none;
-    --btn-outline: none;
+    &:hover {
+        --btn-background-color: rgba(var(--rgb-main-2), 0.7);
+    }
 
-    /* content */
-    --btn-color: rgb(var(--rgb-main-2));
-}
+    &:active {
+        --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);           
 
-/* ----------Elevated State------------ */
-.btn\:elevated:focus:not(:active),
-.btn\:elevated.btn-state\:focus:not(:active) {
-    --btn-border: 2px solid rgb(var(--rgb-main-3));
-    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-    --btn-outline-offset: -4px;
-}
-
-.btn\:elevated:hover,
-.btn\:elevated.btn-state\:hover {
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.1) 0%,
-            rgba(var(--rgb-main-1), 0.5) 100%);
-}
-
-.btn\:elevated:active,
-.btn\:elevated.btn-state\:active {
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-main-1), 0.4) 65%,
-            rgba(var(--rgb-main-1), 0.2) 66%);
-    --btn-border-radius: var(--radius-lg);
-}
-
-/* ----------Tonal State---------------- */
-.btn\:tonal:focus:not(:active),
-.btn\:tonal.btn-state\:focus:not(:active) {
-    --btn-border: 2px solid rgb(var(--rgb-base-1));
-    --btn-outline: 2.5px solid rgb(var(--rgb-main-2));
-}
-
-.btn\:tonal:hover,
-.btn\:tonal.btn-state\:hover {
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.5) 8%,
-            rgba(var(--rgb-main-1), 0.6) 81%);
-}
-
-.btn\:tonal:active,
-.btn\:tonal.btn-state\:active {
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-main-1), 1) 65%,
-            rgba(var(--rgb-main-1), 0.8) 66%);
-    --btn-border-radius: var(--radius-lg);
-}
-
-/* ----------Outlined State------------ */
-.btn\:outlined:focus:not(:active),
-.btn\:outlined.btn-state\:focus:not(:active) {
-    --btn-border: 2px solid rgb(var(--rgb-main-3));
-    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-    --btn-outline-offset: -4px;
-}
-
-.btn\:outlined:hover,
-.btn\:outlined.btn-state\:hover {
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.01) 0%,
-            rgba(var(--rgb-main-1), 0.2) 100%);
-}
-
-.btn\:outlined:active,
-.btn\:outlined.btn-state\:active {
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-main-1), 0.4) 65%,
-            rgba(var(--rgb-main-1), 0.2) 66%);
-    --btn-border-radius: var(--radius-lg);
-}
-
-/* ----------Text State----------------- */
-.btn\:text:focus:not(:active),
-.btn\:text.btn-state\:focus:not(:active) {
-    --btn-border: 2px solid rgb(var(--rgb-main-3));
-    --btn-outline: 0.3px solid rgba(var(--rgb-main-3), 0.3);
-    --btn-outline-offset: -4px;
-}
-
-.btn\:text:hover,
-.btn\:text.btn-state\:hover {
-    --btn-background: linear-gradient(161deg,
-            rgba(var(--rgb-main-1), 0.01) 0%,
-            rgba(var(--rgb-main-1), 0.2) 100%);
-}
-
-.btn\:text:active,
-.btn\:text.btn-state\:active {
-    --btn-background: radial-gradient(107% 112% at 65% 103%,
-            rgba(var(--rgb-main-1), 0.4) 65%,
-            rgba(var(--rgb-main-1), 0.2) 66%);
-    --btn-border-radius: var(--radius-lg);
-}
+        --btn-border-radius: 8px;
+    }
 
 
 
-/* ================Button Size===================*/
-.btn-shape\:square {
-    --btn-border-radius: 12px;
-}
+    /* === btn state (static) ======================== */
+    &.btn-state\:disabled {
+        --btn-background-color: rgba(var(--rgb-base-10), 0.08);
+        --btn-color: rgba(var(--rgb-base-10), 0.2);
+        --btn-box-shadow: none;
+        --btn-border: none;
+        --btn-outline: none;
+    }
+    
+    &.btn-state\:focus {
+        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
+        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+    }
 
-.btn-size\:xs {
-    /* boxing */
-    --btn-height: var(--space-19);
-    --btn-padding: 0 var(--space-6);
+    &.btn-state\:hover {
+        --btn-background-color: rgba(var(--rgb-main-2), 0.7);
+    }
 
-    /* content */
-    --btn-font-size: var(--space-8);
-    --btn-font-weight: var(--font-weight-medium);
-    --btn-line-height: var(--space-13);
-    --btn-letter-spacing: 0.1px;
-}
+    &.btn-state\:active {
+        --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);        
 
-.btn-size\:xs.btn-shape\:square {
-    --btn-border-radius: 12px;
-}
+        --btn-border-radius: 8px;
+    }
 
-.btn-size\:m {
-    /* boxing */
-    --btn-height: var(--space-28);
-    --btn-padding: 0 var(--space-15);
+    /* ==== btn color ======================== */
 
-    /* content */
-    --btn-font-size: var(--space-10);
-    --btn-font-weight: var(--font-weight-medium);
-    --btn-line-height: var(--space-15);
-    --btn-letter-spacing: 0.15px;
-}
+    &.btn-color\:main-1 {
+        --btn-background-color: var(--color-main-1);                
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:main-2 {
+        --btn-background-color: var(--color-main-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:main-3 {
+        --btn-background-color: var(--color-main-3);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:sub-1 {
+        --btn-background-color: var(--color-sub-1);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:sub-2 {
+        --btn-background-color: var(--color-sub-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:sub-3 {
+        --btn-background-color: var(--color-sub-3);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:accent-1 {
+        --btn-background-color: var(--color-accent-1);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:accent-2 {
+        --btn-background-color: var(--color-accent-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:accent-3 {
+        --btn-background-color: var(--color-accent-3);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-1 {
+        --btn-background-color: var(--color-base-1);
+        --btn-color: var(--color-base-8);
+    }
+    &.btn-color\:base-2 {
+        --btn-background-color: var(--color-base-2);
+        --btn-color: var(--color-base-8);
+    }
+    &.btn-color\:base-3 {
+        --btn-background-color: var(--color-base-3);
+        --btn-color: var(--color-base-8);
+    }
+    &.btn-color\:base-4 {
+        --btn-background-color: var(--color-base-4);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-5 {
+        --btn-background-color: var(--color-base-5);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-6 {
+        --btn-background-color: var(--color-base-6);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-7 {
+        --btn-background-color: var(--color-base-7);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-8 {
+        --btn-background-color: var(--color-base-8);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-9 {
+        --btn-background-color: var(--color-base-9);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:base-10 {
+        --btn-background-color: var(--color-base-10);
+        --btn-color: var(--color-base-1);
+    }
 
-.btn-size\:m.btn-shape\:square {
-    --btn-border-radius: 16px;
-}
+    &.btn-color\:success-1 {
+        --btn-background-color: var(--color-success-1);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:success-2 {
+        --btn-background-color: var(--color-success-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:success-3 {
+        --btn-background-color: var(--color-success-3);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:warning-1 {
+        --btn-background-color: var(--color-warning-1);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:warning-2 {
+        --btn-background-color: var(--color-warning-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:warning-3 {
+        --btn-background-color: var(--color-warning-3);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:danger-1 {
+        --btn-background-color: var(--color-danger-1);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:danger-2 {
+        --btn-background-color: var(--color-danger-2);
+        --btn-color: var(--color-base-1);
+    }
+    &.btn-color\:danger-3 {
+        --btn-background-color: var(--color-danger-3);
+        --btn-color: var(--color-base-1);
+    }    
 
-.btn-size\:l {
-    /* boxing */
-    --btn-height: var(--space-32);
-    --btn-padding: 0 var(--space-24);
+    /* ================Button Size===================*/
 
-    /* content */
-    --btn-font-size: var(--space-15);
-    --btn-font-weight: 600;
-    --btn-line-height: var(--space-19);
-    --btn-letter-spacing: 0px;
-}
+    &.btn-size\:xs,
+    &.btn-size\:1 {
+        /* boxing */
+        --btn-height: var(--space-19); /* 32px (레퍼런스: Size 1) */
+        --btn-padding: 0 var(--space-6); /* 12px (레퍼런스: Size 1) */
 
-.btn-size\:l.btn-shape\:square {
-    --btn-border-radius: 28px;
-}
+        /* content */
+        --btn-font-size: var(--font-size-2);
+        --btn-font-weight: var(--font-weight-medium);
+        --btn-line-height: var(--space-13);
+        --btn-letter-spacing: 0.1px;
 
-.btn-size\:xl {
-    /* boxing */
-    --btn-height: var(--space-35);
-    --btn-padding: 0 var(--space-29);
+        /* Pressed state: 8dp (레퍼런스) */
+        &:active {
+            --btn-border-radius: 8px;
+        }
 
-    /* content */
-    --btn-font-size: var(--space-19);
-    --btn-font-weight: 600;
-    --btn-line-height: var(--space-22);
-    --btn-letter-spacing: 0px;
-}
+        &.btn-state\:active {
+            --btn-border-radius: 8px;
+        }
+    }
 
-.btn-size\:xl.btn-shape\:square {
-    --btn-border-radius: 28px;
+    &.btn-size\:sm,
+    &.btn-size\:2 {
+        /* boxing */
+        --btn-height: var(--space-22); /* 40px (레퍼런스: Size 2) */
+        --btn-padding: 0 var(--space-10); /* 16px (레퍼런스: Size 2) */
+
+        /* content */
+        --btn-font-size: var(--font-size-2);
+        --btn-font-weight: var(--font-weight-medium);
+        --btn-line-height: var(--space-15);
+        --btn-letter-spacing: 0.15px;
+
+        /* Pressed state: 8dp (레퍼런스) */
+        &:active {
+            --btn-border-radius: 8px;
+        }
+
+        &.btn-state\:active {
+            --btn-border-radius: 8px;
+        }
+    }
+
+    &.btn-size\:md,
+    &.btn-size\:3 {
+        /* boxing */
+        --btn-height: var(--space-28); /* 56px (레퍼런스: Size 3) */
+        --btn-padding: 0 var(--space-15); /* 24px (레퍼런스: Size 3) */
+
+        /* content */
+        --btn-font-size: var(--font-size-3);
+        --btn-font-weight: 600;
+        --btn-line-height: var(--space-19);
+        --btn-letter-spacing: 0px;
+
+        /* Pressed state: 12dp (레퍼런스) */
+        &:active {
+            --btn-border-radius: 12px;
+        }
+
+        &.btn-state\:active {
+            --btn-border-radius: 12px;
+        }
+    }
+
+    &.btn-size\:lg,
+    &.btn-size\:4 {
+        /* boxing */
+        --btn-height: var(--space-32);
+        --btn-padding: 0 var(--space-24);
+
+        /* content */
+        --btn-font-size: var(--font-size-7);
+        --btn-font-weight: 600;
+        --btn-line-height: var(--space-19);
+        --btn-letter-spacing: 0px;
+
+        /* Pressed state: 16dp (레퍼런스) */
+        &:active {
+            --btn-border-radius: 16px;
+        }
+
+        &.btn-state\:active {
+            --btn-border-radius: 16px;
+        }
+    }
+
+    &.btn-size\:xl,
+    &.btn-size\:5 {
+        /* boxing */
+        --btn-height: var(--space-35);
+        --btn-padding: 0 var(--space-29);
+
+        /* content */
+        --btn-font-size: var(--font-size-9);
+        --btn-font-weight: 600;
+        --btn-line-height: var(--space-22);
+        --btn-letter-spacing: 0px;
+
+        /* Pressed state: 16dp (레퍼런스) */
+        &:active {
+            --btn-border-radius: 16px;
+        }
+
+        &.btn-state\:active {
+            --btn-border-radius: 16px;
+        }
+    }
+
+    /* === btn shape ======================== */
+    &.btn-shape\:square {
+        --btn-border-radius: 12px;
+
+        &:active {
+            --btn-border-radius: 8px;
+        }
+
+        &.btn-state\:active {
+            --btn-border-radius: 8px;
+        }
+
+        /* ==== btn size of square   ======================== */
+        
+        &.btn-size\:xs,
+        &.btn-size\:1 {
+            --btn-border-radius: 12px;
+
+            /* Pressed state: 8dp (레퍼런스) */
+            &:active {
+                --btn-border-radius: 8px;
+            }
+
+            &.btn-state\:active {
+                --btn-border-radius: 8px;
+            }
+        }
+
+        &.btn-size\:sm,
+        &.btn-size\:2 {
+            --btn-border-radius: 12px; /* 레퍼런스: S = 12dp */
+
+            /* Pressed state: 8dp (레퍼런스) */
+            &:active {
+                --btn-border-radius: 8px;
+            }
+
+            &.btn-state\:active {
+                --btn-border-radius: 8px;
+            }
+        }
+
+        &.btn-size\:md,
+        &.btn-size\:3 {
+            --btn-border-radius: 16px;
+
+            /* Pressed state: 12dp (레퍼런스) */
+            &:active {
+                --btn-border-radius: 12px;
+            }
+
+            &.btn-state\:active {
+                --btn-border-radius: 12px;
+            }
+        }
+
+        &.btn-size\:lg,
+        &.btn-size\:4 {
+            --btn-border-radius: 28px;
+
+            /* Pressed state: 16dp (레퍼런스) */
+            &:active {
+                --btn-border-radius: 16px;
+            }
+
+            &.btn-state\:active {
+                --btn-border-radius: 16px;
+            }
+        }
+
+        &.btn-size\:xl,
+        &.btn-size\:5 {
+            --btn-border-radius: 28px;
+
+            /* Pressed state: 16dp (레퍼런스) */
+            &:active {
+                --btn-border-radius: 16px;
+            }
+
+            &.btn-state\:active {
+                --btn-border-radius: 16px;
+            }
+        }
+    }
+
+
 }

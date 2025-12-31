@@ -210,4 +210,195 @@
   box-sizing: border-box;
 }
 
+/* ===== RESET UTILITIES ===== */
+/* Util 클래스만 사용할 때 태그의 기본 스타일을 reset하는 유틸리티 */
+/* 컨테이너나 섹션에 .reset 또는 .r 클래스를 추가하면 내부 모든 요소가 reset됩니다 */
+
+.reset,
+.r {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	font: inherit !important;
+	box-sizing: border-box !important;
+}
+
+.reset *,
+.reset *::before,
+.reset *::after,
+.r *,
+.r *::before,
+.r *::after {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	font: inherit !important;
+	box-sizing: border-box !important;
+}
+
+/* 제목 요소 Reset */
+.reset h1,
+.reset h2,
+.reset h3,
+.reset h4,
+.reset h5,
+.reset h6,
+.r h1,
+.r h2,
+.r h3,
+.r h4,
+.r h5,
+.r h6 {
+	font-size: 100% !important;
+	font-weight: normal !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* 목록 Reset */
+.reset ul,
+.reset ol,
+.r ul,
+.r ol {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* 링크 Reset */
+.reset a,
+.r a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+/* 버튼 Reset */
+.reset button,
+.r button {
+	background-color: transparent !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	font: inherit !important;
+	cursor: pointer !important;
+}
+
+.reset button:focus,
+.r button:focus {
+	outline: none !important;
+}
+
+/* 폼 요소 Reset */
+.reset input,
+.reset textarea,
+.reset select,
+.r input,
+.r textarea,
+.r select {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	font: inherit !important;
+	box-sizing: border-box !important;
+}
+
+.reset input:focus,
+.reset textarea:focus,
+.reset select:focus,
+.r input:focus,
+.r textarea:focus,
+.r select:focus {
+	outline: none !important;
+}
+
+.reset label,
+.reset legend,
+.reset fieldset,
+.r label,
+.r legend,
+.r fieldset {
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.reset input[type="checkbox"],
+.r input[type="checkbox"] {
+	margin: 0 !important;
+}
+
+/* 테이블 Reset */
+.reset table,
+.r table {
+	border-collapse: separate !important;
+	border-spacing: 0 !important;
+	border: 0 none !important;
+}
+
+.reset caption,
+.reset th,
+.reset td,
+.r caption,
+.r th,
+.r td {
+	text-align: left !important;
+	font-weight: normal !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* 이미지 Reset */
+.reset img,
+.r img {
+	border: 0 none !important;
+}
+
+/* 텍스트 요소 Reset */
+.reset strong,
+.reset em,
+.reset cite,
+.r strong,
+.r em,
+.r cite {
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+
+.reset ins,
+.r ins {
+	text-decoration: none !important;
+}
+
+.reset del,
+.r del {
+	text-decoration: line-through !important;
+}
+
+/* 인용문 Reset */
+.reset blockquote,
+.reset q,
+.r blockquote,
+.r q {
+	quotes: "" "" !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.reset blockquote::before,
+.reset blockquote::after,
+.reset q::before,
+.reset q::after,
+.r blockquote::before,
+.r blockquote::after,
+.r q::before,
+.r q::after {
+	content: "" !important;
+}
+
+/* 수평선 Reset */
+.reset hr,
+.r hr {
+	display: none !important;
+}
+
 } /* @layer reset 종료 */

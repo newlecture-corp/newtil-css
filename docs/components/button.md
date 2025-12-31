@@ -5,17 +5,20 @@
 
 `n-btn` 컴포넌트는 프로젝트 전역에서 일관된 버튼 UI를 제공하기 위한 기본 컴포넌트입니다. 아래 예제들은 `test/components/btn.html` 데모 페이지와 동일한 구성요소를 문서화한 것입니다.
 
+
+
 ## 1. 버튼 타입
 
-<div class="vp-doc">
-  <div class="d:flex gap:2 jc:flex-start wrap">
-    <button class="n-btn btn:elevated">Elevated</button>
-    <button class="n-btn btn:filled">Filled (Default)</button>
-    <button class="n-btn btn:tonal">Tonal</button>
-    <button class="n-btn btn:outlined">Outlined</button>
-    <button class="n-btn btn:text">Text</button>
-  </div>
+<div class="d:flex gap:5">
+    <button class="m3-btn">default</button>
+    <button class="m3-btn btn:elevated">Elevated</button>
+    <button class="m3-btn btn:filled">Filled(default)</button>
+    <button class="m3-btn btn:tonal">Tonal</button>
+    <button class="m3-btn btn:outlined">Outlined</button>
+    <button class="m3-btn btn:text">Text</button>
 </div>
+
+### 1-1. 버튼 타입 설정하기
 
 ```html
 <!-- Elevated 버튼 -->

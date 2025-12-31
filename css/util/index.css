@@ -35,6 +35,7 @@ Variables 커스터마이징:
 @import url("./variables.css");
 
 /* ===== CORE FEATURES (핵심 기능) ===== */
+/* Reset utilities는 css/reset.css에 통합되어 있습니다 */
 @import url("./core/display.css");
 @import url("./core/position.css");
 @import url("./core/spacing.css");
@@ -49,32 +50,17 @@ Variables 커스터마이징:
 @import url("./layout/grid.css");
 @import url("./layout/logical-properties.css");
 
-/* ===== INTERACTIONS (상호작용) ===== */
-@import url("./interactions/states.css");
-@import url("./interactions/transforms.css");
-@import url("./interactions/transitions.css");
-@import url("./interactions/animations.css");
-
-/* ===== ADVANCED DESIGN (고급 디자인) ===== */
-@import url("./design/gradients.css");
-@import url("./design/masks.css");
-@import url("./design/filters.css");
-
 /* ===== MODERN CSS (현대적 CSS) ===== */
 @import url("./modern/container-queries.css");
 @import url("./modern/aspect-ratio.css");
 @import url("./modern/scroll-snap.css");
 
 /* ===== ACCESSIBILITY (접근성) ===== */
-@import url("./accessibility/screen-reader.css");
 @import url("./accessibility/focus.css");
-@import url("./accessibility/high-contrast.css");
 
 /* ===== PRINT SUPPORT (프린트 지원) ===== */
 @import url("./print/print-utilities.css");
 
-/* ===== BROWSER COMPATIBILITY (브라우저 호환성) ===== */
-@import url("./browser/browser-support.css");
 
 /* ===== RESPONSIVE BREAKPOINTS ===== */
 /* 

@@ -3,11 +3,6 @@
 /* 사용자가 이 값들을 재정의하여 전체 디자인 시스템을 커스터마이징할 수 있습니다 */
 
 :root {
-    /* 루트 폰트 크기 설정 (Material Design 호환성) */
-    font-size: 16px;
-
-    /* Body 폰트 크기 변수 */
-    --font-size-body: 14px;
 
     /* 단위 인자 (root 16px 기준) */
     --u-px: 1px;
@@ -388,8 +383,8 @@
 
     /* 베이스 색상 계열 (회색 스케일) */
     --color-base-1: #ffffff; /* 가장 밝은 회색 */
-    --color-base-2: #d7d7d7; /* 매우 밝은 회색 */
-    --color-base-3: #e5e7eb; /* 밝은 회색 */
+    --color-base-2: #e5e7eb; /* 매우 밝은 회색 */
+    --color-base-3: #d7d7d7; /* 밝은 회색 */
     --color-base-4: #b3b3b3; /* 연한 회색 */
     --color-base-5: #9e9e9e; /* 중간 회색 */
     --color-base-6: #8d8d8d; /* 진한 회색 */
@@ -479,6 +474,20 @@
     --radius-6: var(--radius-2xl);
     --radius-7: var(--radius-3xl);
     --radius-8: var(--radius-full);
+
+    /* ==== font size ===== */        
+    --font-size-1: var(--size-6);  /* 12px */
+    --font-size-2: var(--size-8);  /* 14px */
+    --font-size-3: var(--size-10); /* 16px */
+    --font-size-4: var(--size-12); /* 18px */
+    --font-size-5: var(--size-13); /* 20px */
+    --font-size-6: var(--size-14); /* 22px */
+    --font-size-7: var(--size-15); /* 24px */
+    --font-size-8: var(--size-16); /* 26px */
+    --font-size-9: var(--size-19); /* 32px */
+    --font-size-10: var(--size-22); /* 40px */
+    --font-size-11: var(--size-24); /* 48px */
+    --font-size-12: var(--size-27); /* 52px */
 
     /* ===== FONT WEIGHTS ===== */
     --font-weight-thin: 100;
@@ -804,21 +813,4 @@
     --filter-blur-shadow: blur(2px) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
     --filter-psychedelic: saturate(2) hue-rotate(90deg) contrast(1.5);
     --filter-high-contrast: brightness(0.5) contrast(2) saturate(0);
-}
-
-/* 다크 모드 색상 변수 */
-/* 다크 모드에서는 base 팔레트를 반대로 사용합니다 */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-base-1: #191919; /* 가장 어두운 회색 (라이트 모드의 base-9) */
-        --color-base-2: #2d2d2d; /* 매우 어두운 회색 */
-        --color-base-3: #3a3a3a; /* 어두운 회색 */
-        --color-base-4: #4a4a4a; /* 중간 어두운 회색 */
-        --color-base-5: #5a5a5a; /* 중간 회색 */
-        --color-base-6: #6a6a6a; /* 중간 밝은 회색 */
-        --color-base-7: #7a7a7a; /* 밝은 회색 */
-        --color-base-8: #8a8a8a; /* 매우 밝은 회색 */
-        --color-base-9: #ffffff; /* 가장 밝은 회색 (라이트 모드의 base-1) */
-        --color-base-10: #ffffff; /* 가장 밝은 회색 */
-    }
 }

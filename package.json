@@ -1,19 +1,28 @@
 {
 	"name": "newtil-css",
-	"version": "0.2.88",
+	"version": "0.3.02",
 	"description": "Utility based CSS",
-	"main": "index.js",
-	"types": "index.d.ts",
-	"style": "dist/style.css",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"style": "./dist/style.css",
 	"type": "module",
 	"exports": {
 		".": {
-			"import": "./index.js",
-			"types": "./index.d.ts"
+			"import": "./dist/index.js",
+			"require": "./dist/index.js",
+			"default": "./dist/index.js",
+			"types": "./dist/index.d.ts"
 		},
-		"./style.css": "./dist/style.css",
-		"./utils.css": "./dist/utils.css",
-		"./components.css": "./dist/components.css",
+		"./style.css": {
+			"default": "./dist/style.css"
+		},
+		"./utils.css": {
+			"default": "./dist/utils.css"
+		},
+		"./components.css": {
+			"default": "./dist/components.css"
+		},
 		"./package.json": "./package.json"
 	},
 	"keywords": [
