@@ -49,8 +49,8 @@ CSS 속성을 그대로 클래스명으로 사용하여 학습 곡선을 최소�
 Google Material Icons를 간편하게 사용할 수 있습니다.
 
 ```html
-<span class="n-icon icon:home">home</span>
-<span class="n-icon icon:menu">menu</span>
+<span class="m3-icon icon:home">home</span>
+<span class="m3-icon icon:menu">menu</span>
 ```
 
 ### 🚨 버튼 컴포넌트 예제
@@ -59,31 +59,31 @@ Google Material Icons를 간편하게 사용할 수 있습니다.
 
 ```html
 <!-- Filled 타입 기본 버튼 -->
-<button class="n-btn">Filled 버튼</button>
+<button class="m3-btn">Filled 버튼</button>
 
 <!-- Tonal 타입, 라운드, 아이콘 포함 버튼 -->
-<button class="n-btn btn:tonal btn-shape:round">
-  <span class="n-icon icon:add" aria-hidden="true">add</span>
+<button class="m3-btn btn:tonal btn-shape:round">
+  <span class="m3-icon icon:add" aria-hidden="true">add</span>
   추가하기
 </button>
 
 <!-- Outlined 타입, 아이콘 전용(사각형, 사이즈 2) 버튼 -->
-<button class="n-btn btn:outlined btn-size:2 btn-shape:square n-icon icon:edit" aria-label="수정">
+<button class="m3-btn btn:outlined btn-size:2 btn-shape:square m3-icon icon:edit" aria-label="수정">
   edit
 </button>
 
 <!-- Disabled(비활성) 상태 버튼 -->
-<button class="n-btn" disabled>비활성 버튼</button>
+<button class="m3-btn" disabled>비활성 버튼</button>
 ```
 
-> 다양한 버튼 스타일과 상태를 `n-btn`, `btn:tonal`, `btn:outlined`, `btn-shape:round`, `btn-size:2` 등 클래스 조합으로 쉽게 구현할 수 있습니다.
+> 다양한 버튼 스타일과 상태를 `m3-btn`, `btn:tonal`, `btn:outlined`, `btn-shape:round`, `btn-size:2` 등 클래스 조합으로 쉽게 구현할 수 있습니다.
 
 
 ### 🔧 CSS 변수 기반 컴포넌트
 사용자 정의가 쉬운 유연한 컴포넌트 시스템을 제공합니다.
 
 ```css
-.n-section {
+.m3-section {
   --padding: var(--space-4);
   --bd-radius: var(--space-3);
 }
@@ -118,12 +118,12 @@ npm install newtil-css
   <link href="path/to/newtil-css/style.css" rel="stylesheet" />
 </head>
 <body>
-  <div class="n-layout">
-    <header class="n-header">
+  <div class="m3-layout">
+    <header class="m3-header">
       <h1>My App</h1>
     </header>
     <main>
-      <section class="n-section section:card">
+      <section class="m3-section section:card">
         <h1>Welcome</h1>
         <p>Newtil CSS로 빠르게 시작하세요!</p>
       </section>
@@ -139,8 +139,8 @@ npm install newtil-css
 
 ### Layout
 ```html
-<div class="n-layout">
-  <header class="n-header">...</header>
+<div class="m3-layout">
+  <header class="m3-header">...</header>
   <aside>...</aside>
   <main>...</main>
   <footer>...</footer>
@@ -149,7 +149,7 @@ npm install newtil-css
 
 ### Section
 ```html
-<section class="n-section section:card">
+<section class="m3-section section:card">
   <h1>제목</h1>
   <div>내용</div>
 </section>
@@ -162,7 +162,7 @@ npm install newtil-css
 
 ### List
 ```html
-<ul class="n-list list-sep:solid list-dir:column">
+<ul class="m3-list list-sep:solid list-dir:column">
   <li>항목 1</li>
   <li>항목 2</li>
   <li>항목 3</li>
@@ -171,15 +171,15 @@ npm install newtil-css
 
 ### Button
 ```html
-<button class="n-btn btn-color:main btn-style:fill">
+<button class="m3-btn btn-color:main btn-style:fill">
   클릭하세요
 </button>
 ```
 
 ### Form
 ```html
-<input class="n-input" type="text" placeholder="입력하세요" />
-<select class="n-select">
+<input class="m3-input" type="text" placeholder="입력하세요" />
+<select class="m3-select">
   <option>옵션 1</option>
 </select>
 ```
