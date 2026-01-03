@@ -132,11 +132,11 @@ NewTil CSS의 유틸리티 클래스는 다음 패턴을 따릅니다:
 컴포넌트에 유틸리티 클래스를 추가하여 세부 조정을 할 수 있습니다.
 
 ```html
-<button class="n-btn btn-size:2 btn-color:main m:4 p:6">
+<button class="m3-btn btn-size:2 btn-color:main-1 m:4 p:6">
   버튼
 </button>
 
-<ul class="n-list gap:2 p:4">
+<ul class="d:flex fd:column gap:2 p:4">
   <li>항목 1</li>
   <li>항목 2</li>
 </ul>

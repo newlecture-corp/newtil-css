@@ -220,15 +220,15 @@ NewTil CSS는 모든 스타일 값을 CSS 변수로 관리합니다. 이 변수�
 ### 버튼 변수 예시
 
 ```css
-.n-btn {
+.m3-btn {
   /* 사이즈 */
-  --btn-height-1: 28px;
-  --btn-height-2: 36px;
-  --btn-height-3: 44px;
+  --btn-height: var(--space-22); /* 40px */
+  --btn-padding: 0 var(--space-10); /* 0 16px */
+  --btn-font-size: var(--font-size-2); /* 14px */
   
   /* 색상 */
-  --btn-filled-background-color-default: var(--color-main-2);
-  --btn-filled-color: var(--color-base-1);
+  --btn-background-color: var(--color-main-1);
+  --btn-color: var(--color-base-1);
 }
 ```
 
@@ -239,14 +239,15 @@ NewTil CSS는 모든 스타일 값을 CSS 변수로 관리합니다. 이 변수�
 ```css
 :root {
   /* 메인 색상 변경 */
-  --color-main-2: #3182ce;
+  --color-main-1: #3182ce;
   
   /* 간격 조정 */
-  --gap-4: 20px; /* 기본 16px에서 20px로 */
+  --scale-13: 20px; /* --space-13을 20px로 */
   
   /* 폰트 크기 변경 */
-  --font-size-base: 18px;
+  --font-size-4: var(--size-13); /* 20px */
 }
+```
 ```
 
 더 자세한 내용은 [테마 커스터마이징 가이드](./customizing)를 참조하세요.

@@ -380,7 +380,7 @@ Material Symbols는 세 가지 스타일을 제공합니다. 기본값은 `outli
 
 ## 9. 호버 효과
 
-`hover` 클래스를 추가하면 호버 시 원형 배경과 확대 효과가 적용됩니다. 이 효과는 `n-deco` 클래스와 함께 사용할 때는 적용되지 않습니다.
+`hover` 클래스를 추가하면 호버 시 원형 배경과 확대 효과가 적용됩니다. 이 효과는 `m3-deco` 클래스와 함께 사용할 때는 적용되지 않습니다.
 
 <div class="vp-doc">
   <div class="d:flex gap:4 wrap ai:center">
@@ -396,7 +396,7 @@ Material Symbols는 세 가지 스타일을 제공합니다. 기본값은 `outli
 ```
 
 :::tip 호버 효과 주의사항
-`hover` 클래스는 `n-deco` 클래스와 함께 사용할 때는 적용되지 않습니다. 버튼 내부의 아이콘에는 버튼 자체의 호버 효과를 사용하는 것이 좋습니다.
+`hover` 클래스는 `m3-deco` 클래스와 함께 사용할 때는 적용되지 않습니다. 버튼 내부의 아이콘에는 버튼 자체의 호버 효과를 사용하는 것이 좋습니다.
 :::
 
 
@@ -406,7 +406,7 @@ Material Symbols는 세 가지 스타일을 제공합니다. 기본값은 `outli
 
 ```css
 /* .icon-hover에 커스텀 호버 효과 적용 예시 */
-.icon-hover:not(.n-deco):hover {
+.icon-hover:not(.m3-deco):hover {
   /* 호버 시 색상 변경 (직접 지정) */
   color: red;
 

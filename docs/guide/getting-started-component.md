@@ -4,7 +4,7 @@ NewTil CSS의 컴포넌트 사용법을 배워보세요.
 
 ## 컴포넌트란?
 
-NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접두사를 사용하여 다른 CSS 프레임워크와의 충돌을 방지합니다.
+NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `m3-` 접두사를 사용하여 다른 CSS 프레임워크와의 충돌을 방지합니다.
 
 ## 기본 사용법
 
@@ -13,17 +13,7 @@ NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접�
 ### 버튼 컴포넌트
 
 ```html
-<button class="n-btn">버튼</button>
-```
-
-### 리스트 컴포넌트
-
-```html
-<ul class="n-list">
-  <li>항목 1</li>
-  <li>항목 2</li>
-  <li>항목 3</li>
-</ul>
+<button class="m3-btn">버튼</button>
 ```
 
 ## 컴포넌트 변형 (Variants)
@@ -34,30 +24,32 @@ NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접�
 
 ```html
 <!-- Filled 버튼 (기본) -->
-<button class="n-btn">Filled</button>
+<button class="m3-btn">Filled</button>
 
 <!-- Outline 버튼 -->
-<button class="n-btn n-btn:outline">Outline</button>
+<button class="m3-btn btn:outlined">Outline</button>
 
-<!-- Void 버튼 -->
-<button class="n-btn n-btn:void">Void</button>
+<!-- Text 버튼 -->
+<button class="m3-btn btn:text">Text</button>
 ```
 
 ### 버튼 사이즈
 
 ```html
-<button class="n-btn btn-size:1">Small</button>
-<button class="n-btn btn-size:2">Medium</button>
-<button class="n-btn btn-size:3">Large</button>
+<button class="m3-btn btn-size:1">Size 1</button>
+<button class="m3-btn btn-size:2">Size 2</button>
+<button class="m3-btn btn-size:3">Size 3</button>
+<button class="m3-btn btn-size:4">Size 4</button>
+<button class="m3-btn btn-size:5">Size 5</button>
 ```
 
 ### 버튼 색상
 
 ```html
-<button class="n-btn btn-color:main">Main</button>
-<button class="n-btn btn-color:sub">Sub</button>
-<button class="n-btn btn-color:accent">Accent</button>
-<button class="n-btn btn-color:base">Base</button>
+<button class="m3-btn btn-color:main-1">Main-1</button>
+<button class="m3-btn btn-color:main-2">Main-2</button>
+<button class="m3-btn btn-color:sub-1">Sub-1</button>
+<button class="m3-btn btn-color:accent-1">Accent-1</button>
 ```
 
 ## 컴포넌트 조합
@@ -65,7 +57,7 @@ NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접�
 여러 클래스를 조합하여 원하는 스타일을 만들 수 있습니다.
 
 ```html
-<button class="n-btn btn-size:3 btn-color:main n-btn:outline">
+<button class="m3-btn btn-size:3 btn-color:main-1 btn:outlined">
   큰 아웃라인 메인 버튼
 </button>
 ```
@@ -77,11 +69,11 @@ NewTil CSS의 컴포넌트는 재사용 가능한 UI 요소입니다. `n-` 접�
 ```css
 :root {
   /* 버튼 높이 조정 */
-  --btn-height-2: 40px;
+  --btn-height: var(--space-22); /* 40px */
   
   /* 버튼 색상 변경 */
-  --btn-filled-background-color-default: #3182ce;
-  --btn-filled-color: #ffffff;
+  --btn-background-color: var(--color-main-1);
+  --btn-color: var(--color-base-1);
 }
 ```
 
