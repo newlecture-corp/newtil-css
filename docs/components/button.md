@@ -27,7 +27,7 @@
 - `btn-size:1|2|3|4|5` - 버튼 크기 조절
 - `btn-color:*` - 버튼 색상 설정
 - `btn-shape:round|square|sharp` - 버튼 모양 설정
-- `btn-state:enabled|disabled|hover|focus|active` - 버튼 상태 설정
+- `btn-state:disabled|hover|focus|active` - 버튼 상태 설정
 
 <div class="vp-doc">
   <div class="d:flex gap:4 wrap ai:center">
@@ -71,8 +71,8 @@
       <small>tonal</small>
     </div>
     <div class="d:flex fd:column gap:2 ai:center">
-      <button class="m3-btn btn:outlined">Outlined</button>
-      <small>outlined</small>
+      <button class="m3-btn btn:outlined btn-color:accent-1">Outlined</button>
+      <small>outlined1</small>
     </div>
     <div class="d:flex fd:column gap:2 ai:center">
       <button class="m3-btn btn:text">Text</button>
@@ -205,39 +205,37 @@
 
 ## 5. 모양 옵션 (Shape)
 
-`btn-shape:*` 클래스를 사용하여 버튼의 모서리 모양을 설정할 수 있습니다. 기본값은 `btn-shape:round`입니다.
+`btn-shape:*` 클래스를 사용하여 버튼의 모서리 모양을 설정할 수 있습니다. 기본값은 둥근 모서리(`border-radius: 999px`)입니다.
 
 <div class="vp-doc">
   <div class="d:flex gap:4 wrap ai:center">
     <div class="d:flex fd:column gap:2 ai:center">
-      <button class="m3-btn btn-shape:round">Round</button>
+      <button class="m3-btn">Round</button>
       <small class="color:accent-2 fw:bold">round (기본값)</small>
     </div>
     <div class="d:flex fd:column gap:2 ai:center">
       <button class="m3-btn btn-shape:square">Square</button>
       <small>square</small>
     </div>
-    <div class="d:flex fd:column gap:2 ai:center">
-      <button class="m3-btn btn-shape:sharp">Sharp</button>
-      <small>sharp</small>
-    </div>
   </div>
 </div>
 
 ```html
 <!-- 모양 옵션 -->
-<button class="m3-btn btn-shape:round">Round</button>
+<button class="m3-btn">Round (기본값)</button>
 <button class="m3-btn btn-shape:square">Square</button>
-<button class="m3-btn btn-shape:sharp">Sharp</button>
 ```
 
 ### 모양 옵션 설명
 
 | 모양 | 클래스 | 설명 |
 | :--- | :--- | :--- |
-| Round | `btn-shape:round` | 둥근 모서리 (기본값) |
-| Square | `btn-shape:square` | 사각형 모서리 |
-| Sharp | `btn-shape:sharp` | 날카로운 모서리 |
+| Round | (기본값, 클래스 없음) | 둥근 모서리 (`border-radius: 999px`) |
+| Square | `btn-shape:square` | 사각형 모서리 (`border-radius: 12px`) |
+
+:::info Sharp 옵션
+`btn-shape:sharp`는 반응형 미디어 쿼리에서만 사용 가능합니다 (`sm:btn-shape:sharp`, `md:btn-shape:sharp`, `lg:btn-shape:sharp`, `xl:btn-shape:sharp`).
+:::
 
 ## 6. 상태 옵션 (State)
 
@@ -246,8 +244,8 @@
 <div class="vp-doc">
   <div class="d:flex gap:4 wrap ai:center">
     <div class="d:flex fd:column gap:2 ai:center">
-      <button class="m3-btn btn-state:enabled">Enabled</button>
-      <small>enabled</small>
+      <button class="m3-btn">Enabled</button>
+      <small>기본 상태 (enabled)</small>
     </div>
     <div class="d:flex fd:column gap:2 ai:center">
       <button class="m3-btn btn-state:disabled">Disabled</button>
@@ -270,7 +268,7 @@
 
 ```html
 <!-- 상태 옵션 -->
-<button class="m3-btn btn-state:enabled">Enabled</button>
+<button class="m3-btn">Enabled (기본 상태)</button>
 <button class="m3-btn btn-state:disabled">Disabled</button>
 <button class="m3-btn btn-state:hover">Hover</button>
 <button class="m3-btn btn-state:focus">Focus</button>
@@ -281,11 +279,14 @@
 
 | 상태 | 클래스 | 설명 |
 | :--- | :--- | :--- |
-| Enabled | `btn-state:enabled` | 활성화된 상태 (기본값) |
 | Disabled | `btn-state:disabled` | 비활성화된 상태 |
 | Hover | `btn-state:hover` | 호버 상태 |
 | Focus | `btn-state:focus` | 포커스 상태 |
 | Active | `btn-state:active` | 눌린 상태 (Pressed) |
+
+:::info Enabled 상태
+`btn-state:enabled` 클래스는 존재하지 않습니다. 버튼은 기본적으로 활성화된 상태이며, 별도의 클래스가 필요하지 않습니다.
+:::
 
 ## 7. 아이콘과 함께 사용
 
@@ -350,13 +351,25 @@
 
 ```css
 .m3-btn {
-  --btn-font-size: var(--font-size-2); /* 기본 폰트 크기 */
-  --btn-font-weight: var(--font-weight-medium); /* 기본 폰트 두께 */
+  /* content */
+  --btn-font-size: var(--font-size-2);
+  --btn-font-weight: var(--font-weight-medium);
+  --btn-letter-spacing: 0.1px;
+  
+  /* boxing */
   --btn-height: var(--space-22); /* 기본 높이 (40px) */
-  --btn-padding: 0 var(--space-10); /* 기본 패딩 */
-  --btn-background-color: var(--color-main-1); /* 기본 배경색 */
-  --btn-color: var(--color-base-1); /* 기본 텍스트 색상 */
-  --btn-border-radius: 999px; /* 기본 모서리 둥글기 */
+  --btn-padding: 0 var(--space-10);
+  --btn-background-color: var(--color-main-1);
+  --btn-background-color-hover: color-mix(in srgb, var(--btn-background-color) 80%, transparent);
+  --btn-background-color-active: color-mix(in srgb, var(--btn-background-color) 70%, transparent);
+  --btn-color: var(--color-base-1);
+  --btn-border-width: 0;
+  --btn-border-color: transparent;
+  --btn-border-style: solid;
+  --btn-border-radius: 999px;
+  --btn-box-shadow: none;
+  --btn-outline: none;
+  --btn-outline-offset: 0px;
 }
 ```
 

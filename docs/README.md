@@ -22,12 +22,12 @@ npm install newtil-css
   <link rel="stylesheet" href="node_modules/newtil-css/dist/style.css">
 </head>
 <body>
-  <div class="n-layout">
-    <header class="n-header">
+  <div class="d:flex fd:column min-h:100vh">
+    <header class="p:4 border-bottom:1 solid base-3">
       <h1>제목</h1>
     </header>
-    <main>
-      <button class="n-btn btn-size:2 btn-color:main">버튼</button>
+    <main class="flex:1 p:4">
+      <button class="m3-btn btn-size:2 btn-color:main-1">버튼</button>
     </main>
   </div>
 </body>

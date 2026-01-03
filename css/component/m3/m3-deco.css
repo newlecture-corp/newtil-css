@@ -64,7 +64,7 @@
 				background-color: color-mix(in srgb, var(--deco-color) 80%, transparent);
 			}
 		}
-		&.deco-active:pressed {
+		&.deco-active:active {
 			&::before {
 				background-color: color-mix(in srgb, var(--deco-color) 70%, transparent);
 			}
@@ -104,7 +104,7 @@
 			&.deco-active:hover {
 				background-color: color-mix(in srgb, var(--deco-color) 80%, transparent);			
 			}
-			&.deco-active:pressed {
+			&.deco-active:active {
 				background-color: color-mix(in srgb, var(--deco-color) 70%, transparent);			
 			}
 		}
