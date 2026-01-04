@@ -71,8 +71,16 @@ export default defineConfig({
         base: "/components",
         items: [
           {
+            text: "컴포넌트 설계 가이드라인",
+            link: "/aa",
+          },
+          {
             text: "아이콘",
             link: "/icon",
+          },
+          {
+            text: "데코",
+            link: "/deco",
           },
           {
             text: "버튼",

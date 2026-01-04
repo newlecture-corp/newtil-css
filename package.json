@@ -1,6 +1,6 @@
 {
 	"name": "newtil-css",
-	"version": "0.3.02",
+	"version": "0.3.05",
 	"description": "Utility based CSS",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
@@ -37,7 +37,7 @@
 		"build": "rm -rf ./dist && rollup -c",
 		"deploy": "npm run build && npm publish",
 		"prepublishOnly": "npm run build",
-		"docs:dev": "vitepress dev docs",
+		"docs:dev": "vitepress dev docs --host",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
 	},

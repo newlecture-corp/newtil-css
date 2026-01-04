@@ -72,7 +72,7 @@ NewTil CSS는 **컴포넌트 우선(Component-First) + 유틸리티 보조(Utili
 
 ```html
 <!-- 필요시에만 유틸리티 추가 -->
-<button class="n-btn btn-size:2 btn-color:main m:4 p:6">
+<button class="m3-btn btn-size:2 btn-color:main m:4 p:6">
   버튼
 </button>
 ```
@@ -162,7 +162,7 @@ NewTil CSS는 사용자의 선호도와 상황에 맞춰 선택할 수 있도록
 
 ### NewTil CSS의 해결책
 
-1. **의미 있는 컴포넌트**: `n-btn`, `n-list`, `n-modal` 등 직관적인 컴포넌트
+1. **의미 있는 컴포넌트**: `m3-btn`, `m3-list`, `m3-modal` 등 직관적인 컴포넌트
 2. **간결한 유틸리티**: `d:flex`, `p:4`, `gap:2` 등 짧고 명확한 클래스명
 3. **쉬운 커스터마이징**: CSS 변수만으로 모든 스타일 제어 가능
 4. **빠른 개발**: 컴포넌트 사용으로 빠른 프로토타이핑

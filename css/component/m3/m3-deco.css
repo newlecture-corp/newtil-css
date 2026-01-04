@@ -1,39 +1,598 @@
-.n-deco {
+/* ───────────────────────────────────
+
+* ───────────────────────────────────    */
+
+.m3-deco {
 	/* n-deco 변수 선언 (라이트 모드 기본값) */
 	--deco-gap: var(--space-4); /* 4px */
+	--deco-flex-direction: row;
+	--deco-order: 0;
+	--deco-width: auto;
+	--deco-color: var(--color-main-1);
+	--deco-font-size: var(--font-size-2); /* 14px - 기본값 */
 }
 
 /* 다크 모드 지원을 위한 미디어쿼리 스타일 추가 */
 @media (prefers-color-scheme: dark) {
-	.n-deco {	
-		
+	.m3-deco {
+		/* n-deco 변수 (다크 모드) - 라이트 모드와 동일 */
+		--deco-gap: var(--space-4); /* 8px */
+		--deco-color: var(--color-main-1);
 	}
 }
 
-.n-deco {
+.m3-deco {
 	/* n-deco CSS 속성 설정 */
-	width: auto;
+	width: var(--deco-width);
+	height: auto;
 	text-indent: initial;
 	text-align: center;
+	font-size: var(--deco-font-size);
 
 	display: inline-flex;
+	flex-direction: var(--deco-flex-direction);
+		
 	align-items: center;
 	justify-content: center;
 
 	gap: var(--deco-gap);
 
-	&::before {
-		/* --- 아이콘을 위한 설정 ---- */
-		font-family: "Material Symbols Outlined";
-		font-size: var(--icon-size);
 
-		width: var(--icon-size);
-		height: var(--icon-size);
-		overflow: hidden;
+	/* deco-position ------------------------------------------------- */
+	&.deco-pos\:top,
+	&.deco-pos\:bottom {
+		--deco-flex-direction: column;	
+		--deco-height: 32px; /* 기본값 (deco-active에서 사용) */
+		--deco-gap: var(--space-3);
+		--deco-width: auto;
 
-		display: inline-flex;
-		flex-shrink: 0;
-		justify-content: center;
-		align-items: center;
+		&.deco-active {		
+			&::before {
+				height: var(--deco-height, 32px);
+				width: calc(var(--icon-size) + 16px * 2);
+				background-color: var(--deco-color);
+				border-radius: calc(var(--deco-height, 32px) / 2);
+
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+
+		&.deco-active:hover {
+			&::before {
+				background-color: color-mix(in srgb, var(--deco-color) 80%, transparent);
+			}
+		}
+		&.deco-active:active {
+			&::before {
+				background-color: color-mix(in srgb, var(--deco-color) 70%, transparent);
+			}
+		}
+	}
+
+	/* :is(li, dt, dd, td, th, div):has(> .deco-pos\:top),
+	:is(li, dt, dd, td, th, div):has(> .deco-pos\:bottom) {
+		height: auto;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	} */
+
+	&.deco-pos\:left::before,
+	&.deco-pos\:top::before {
+		--deco-order: unset;
+	}
+
+	&.deco-pos\:right::before,
+	&.deco-pos\:bottom::before {
+		--deco-order: 1;
+	}
+
+	&.deco-pos\:left,
+	&.deco-pos\:right {
+		--deco-height: 40px; /* 기본값 (deco-active에서 사용) */
+		--deco-padding: 0 20px; /* 기본값 (deco-active에서 사용) */
+		
+		&.deco-active {		
+			height: var(--deco-height, 40px);
+			/* width: calc(var(--icon-size) + 20px * 2); */
+			padding: var(--deco-padding, 0 20px);
+			border-radius: calc(var(--deco-height, 40px) / 2);
+			/* gap: var(--space-3); */
+			background-color: var(--deco-color);
+			
+			&.deco-active:hover {
+				background-color: color-mix(in srgb, var(--deco-color) 80%, transparent);			
+			}
+			&.deco-active:active {
+				background-color: color-mix(in srgb, var(--deco-color) 70%, transparent);			
+			}
+		}
+	}
+
+	
+
+	/* ---- deco-gap ------------------------------------------------- */
+
+	&.deco-gap\:0 {
+		--deco-gap: 0px;
+	}
+
+	&.deco-gap\:1 {
+		--deco-gap: var(--space-3);
+	}
+
+	&.deco-gap\:2 {
+		--deco-gap: var(--space-4);
+	}
+
+	&.deco-gap\:3 {
+		--deco-gap: var(--space-6); /* 12px */
+	}
+
+	&.deco-gap\:4 {
+		--deco-gap: var(--space-10); /* 16px */
+	}
+
+	&.deco-gap\:5 {
+		--deco-gap: var(--space-13); /* 20px */
+	}
+
+	/* ---- deco-color ------------------------------------------------- */
+	&.deco-color\:main-1 { --deco-color: var(--color-main-1); }
+	&.deco-color\:main-2 { --deco-color: var(--color-main-2); }
+	&.deco-color\:main-3 { --deco-color: var(--color-main-3); }
+	&.deco-color\:sub-1 { --deco-color: var(--color-sub-1); }
+	&.deco-color\:sub-2 { --deco-color: var(--color-sub-2); }
+	&.deco-color\:sub-3 { --deco-color: var(--color-sub-3); }
+	&.deco-color\:accent-1 { --deco-color: var(--color-accent-1); }
+	&.deco-color\:accent-2 { --deco-color: var(--color-accent-2); }
+	&.deco-color\:accent-3 { --deco-color: var(--color-accent-3); }
+	&.deco-color\:base-1 { --deco-color: var(--color-base-1); }
+	&.deco-color\:base-2 { --deco-color: var(--color-base-2); }
+	&.deco-color\:base-3 { --deco-color: var(--color-base-3); }
+	&.deco-color\:base-4 { --deco-color: var(--color-base-4); }
+	&.deco-color\:base-5 { --deco-color: var(--color-base-5); }
+	&.deco-color\:base-6 { --deco-color: var(--color-base-6); }
+	&.deco-color\:base-7 { --deco-color: var(--color-base-7); }
+	&.deco-color\:base-8 { --deco-color: var(--color-base-8); }
+	&.deco-color\:base-9 { --deco-color: var(--color-base-9); }
+	&.deco-color\:base-10 { --deco-color: var(--color-base-10); }
+	&.deco-color\:warning-1 { --deco-color: var(--color-warning-1); }
+	&.deco-color\:warning-2 { --deco-color: var(--color-warning-2); }
+	&.deco-color\:warning-3 { --deco-color: var(--color-warning-3); }
+	&.deco-color\:danger-1 { --deco-color: var(--color-danger-1); }
+	&.deco-color\:danger-2 { --deco-color: var(--color-danger-2); }
+	&.deco-color\:danger-3 { --deco-color: var(--color-danger-3); }
+
+	/* ---- deco-size ------------------------------------------------- */
+	/* 크기 옵션: 아이콘 크기, gap, 텍스트 크기, 높이, padding을 함께 조절 */
+	&.deco-size\:1 {
+		--deco-height: var(--space-19); /* 32px (레퍼런스: Size 1) */
+		--deco-padding: 0 var(--space-6); /* 12px (레퍼런스: Size 1) */
+		--icon-size: 20px;
+		--deco-gap: var(--space-3); /* 4px */
+		--deco-font-size: var(--font-size-2); /* 14px - btn-size:xs와 유사 */
+	}
+
+	&.deco-size\:2 {
+		--deco-height: var(--space-22); /* 40px (레퍼런스: Size 2) */
+		--deco-padding: 0 var(--space-10); /* 16px (레퍼런스: Size 2) */
+		--icon-size: 24px;
+		--deco-gap: var(--space-4); /* 8px */
+		--deco-font-size: var(--font-size-2); /* 14px - btn-size:sm과 유사 */
+	}
+
+	&.deco-size\:3 {
+		--deco-height: var(--space-28); /* 56px (레퍼런스: Size 3) */
+		--deco-padding: 0 var(--space-15); /* 24px (레퍼런스: Size 3) */
+		--icon-size: 40px;
+		--deco-gap: var(--space-4); /* 8px */
+		--deco-font-size: var(--font-size-3); /* 16px - btn-size:md와 유사 */
+	}
+
+	&.deco-size\:4 {
+		--deco-height: var(--space-32); /* 64px (레퍼런스: Size 4) */
+		--deco-padding: 0 var(--space-24); /* 48px (레퍼런스: Size 4) */
+		--icon-size: 48px;
+		--deco-gap: var(--space-6); /* 12px */
+		--deco-font-size: var(--font-size-7); /* 24px - btn-size:lg와 유사 */
+	}
+
+	&.deco-size\:5 {
+		--deco-height: var(--space-35); /* 70px (레퍼런스: Size 5) */
+		--deco-padding: 0 var(--space-29); /* 64px (레퍼런스: Size 5) */
+		--icon-size: 48px;
+		--deco-gap: var(--space-10); /* 16px */
+		--deco-font-size: var(--font-size-9); /* 32px - btn-size:xl과 유사 */
+	}
+
+	/* ==== variation/filled =============================== */
+	&.icon-filled\:0::before { --icon-fill: 0; }
+	&.icon-filled\:1::before { --icon-fill: 1; }
+
+}
+
+@media screen and (min-width: 576px) {
+	
+	.sm\:m3-deco {
+		/* ---- deco-position ------------------------------------------------- */
+		&.deco-pos\:top,
+		&.deco-pos\:bottom {
+			--deco-flex-direction: column;	
+			--deco-height: 32px;
+			--deco-gap: var(--space-3);
+			--deco-width: auto;
+		}
+
+		&.deco-pos\:left,
+		&.deco-pos\:right {
+			--deco-height: 40px;
+			--deco-padding: 0 20px;
+		}
+
+		/* ---- deco-gap ------------------------------------------------- */
+		&.deco-gap\:0 { --deco-gap: 0px; }
+		&.deco-gap\:1 { --deco-gap: var(--space-3); }
+		&.deco-gap\:2 { --deco-gap: var(--space-4); }
+		&.deco-gap\:3 { --deco-gap: var(--space-6); /* 12px */ }
+		&.deco-gap\:4 { --deco-gap: var(--space-10); /* 16px */ }
+		&.deco-gap\:5 { --deco-gap: var(--space-13); /* 20px */ }
+
+		/* ---- deco-color ------------------------------------------------- */
+		&.deco-color\:main-1 { --deco-color: var(--color-main-1); }
+		&.deco-color\:main-2 { --deco-color: var(--color-main-2); }
+		&.deco-color\:main-3 { --deco-color: var(--color-main-3); }
+		&.deco-color\:sub-1 { --deco-color: var(--color-sub-1); }
+		&.deco-color\:sub-2 { --deco-color: var(--color-sub-2); }
+		&.deco-color\:sub-3 { --deco-color: var(--color-sub-3); }
+		&.deco-color\:accent-1 { --deco-color: var(--color-accent-1); }
+		&.deco-color\:accent-2 { --deco-color: var(--color-accent-2); }
+		&.deco-color\:accent-3 { --deco-color: var(--color-accent-3); }
+		&.deco-color\:base-1 { --deco-color: var(--color-base-1); }
+		&.deco-color\:base-2 { --deco-color: var(--color-base-2); }
+		&.deco-color\:base-3 { --deco-color: var(--color-base-3); }
+		&.deco-color\:base-4 { --deco-color: var(--color-base-4); }
+		&.deco-color\:base-5 { --deco-color: var(--color-base-5); }
+		&.deco-color\:base-6 { --deco-color: var(--color-base-6); }
+		&.deco-color\:base-7 { --deco-color: var(--color-base-7); }
+		&.deco-color\:base-8 { --deco-color: var(--color-base-8); }
+		&.deco-color\:base-9 { --deco-color: var(--color-base-9); }
+		&.deco-color\:base-10 { --deco-color: var(--color-base-10); }
+		&.deco-color\:warning-1 { --deco-color: var(--color-warning-1); }
+		&.deco-color\:warning-2 { --deco-color: var(--color-warning-2); }
+		&.deco-color\:warning-3 { --deco-color: var(--color-warning-3); }
+		&.deco-color\:danger-1 { --deco-color: var(--color-danger-1); }
+		&.deco-color\:danger-2 { --deco-color: var(--color-danger-2); }
+		&.deco-color\:danger-3 { --deco-color: var(--color-danger-3); }
+
+		/* ---- deco-size ------------------------------------------------- */
+		&.deco-size\:1 {
+			--deco-height: var(--space-19); /* 32px */
+			--deco-padding: 0 var(--space-6); /* 12px */
+			--icon-size: 20px;
+			--deco-gap: var(--space-3); /* 4px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:2 {
+			--deco-height: var(--space-22); /* 40px */
+			--deco-padding: 0 var(--space-10); /* 16px */
+			--icon-size: 24px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:3 {
+			--deco-height: var(--space-28); /* 56px */
+			--deco-padding: 0 var(--space-15); /* 24px */
+			--icon-size: 40px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-3); /* 16px */
+		}
+
+		&.deco-size\:4 {
+			--deco-height: var(--space-32); /* 64px */
+			--deco-padding: 0 var(--space-24); /* 48px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-6); /* 12px */
+			--deco-font-size: var(--font-size-7); /* 24px */
+		}
+
+		&.deco-size\:5 {
+			--deco-height: var(--space-35); /* 70px */
+			--deco-padding: 0 var(--space-29); /* 64px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-10); /* 16px */
+			--deco-font-size: var(--font-size-9); /* 32px */
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.md\:m3-deco {
+		/* ---- deco-position ------------------------------------------------- */
+		&.deco-pos\:top,
+		&.deco-pos\:bottom {
+			--deco-flex-direction: column;	
+			--deco-height: 32px;
+			--deco-gap: var(--space-3);
+			--deco-width: auto;
+		}
+
+		&.deco-pos\:left,
+		&.deco-pos\:right {
+			--deco-height: 40px;
+			--deco-padding: 0 20px;
+		}
+
+		/* ---- deco-gap ------------------------------------------------- */
+		&.deco-gap\:0 { --deco-gap: 0px; }
+		&.deco-gap\:1 { --deco-gap: var(--space-3); }
+		&.deco-gap\:2 { --deco-gap: var(--space-4); }
+		&.deco-gap\:3 { --deco-gap: var(--space-6); /* 12px */ }
+		&.deco-gap\:4 { --deco-gap: var(--space-10); /* 16px */ }
+		&.deco-gap\:5 { --deco-gap: var(--space-13); /* 20px */ }
+
+		/* ---- deco-color ------------------------------------------------- */
+		&.deco-color\:main-1 { --deco-color: var(--color-main-1); }
+		&.deco-color\:main-2 { --deco-color: var(--color-main-2); }
+		&.deco-color\:main-3 { --deco-color: var(--color-main-3); }
+		&.deco-color\:sub-1 { --deco-color: var(--color-sub-1); }
+		&.deco-color\:sub-2 { --deco-color: var(--color-sub-2); }
+		&.deco-color\:sub-3 { --deco-color: var(--color-sub-3); }
+		&.deco-color\:accent-1 { --deco-color: var(--color-accent-1); }
+		&.deco-color\:accent-2 { --deco-color: var(--color-accent-2); }
+		&.deco-color\:accent-3 { --deco-color: var(--color-accent-3); }
+		&.deco-color\:base-1 { --deco-color: var(--color-base-1); }
+		&.deco-color\:base-2 { --deco-color: var(--color-base-2); }
+		&.deco-color\:base-3 { --deco-color: var(--color-base-3); }
+		&.deco-color\:base-4 { --deco-color: var(--color-base-4); }
+		&.deco-color\:base-5 { --deco-color: var(--color-base-5); }
+		&.deco-color\:base-6 { --deco-color: var(--color-base-6); }
+		&.deco-color\:base-7 { --deco-color: var(--color-base-7); }
+		&.deco-color\:base-8 { --deco-color: var(--color-base-8); }
+		&.deco-color\:base-9 { --deco-color: var(--color-base-9); }
+		&.deco-color\:base-10 { --deco-color: var(--color-base-10); }
+		&.deco-color\:warning-1 { --deco-color: var(--color-warning-1); }
+		&.deco-color\:warning-2 { --deco-color: var(--color-warning-2); }
+		&.deco-color\:warning-3 { --deco-color: var(--color-warning-3); }
+		&.deco-color\:danger-1 { --deco-color: var(--color-danger-1); }
+		&.deco-color\:danger-2 { --deco-color: var(--color-danger-2); }
+		&.deco-color\:danger-3 { --deco-color: var(--color-danger-3); }
+
+		/* ---- deco-size ------------------------------------------------- */
+		&.deco-size\:1 {
+			--deco-height: var(--space-19); /* 32px */
+			--deco-padding: 0 var(--space-6); /* 12px */
+			--icon-size: 20px;
+			--deco-gap: var(--space-3); /* 4px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:2 {
+			--deco-height: var(--space-22); /* 40px */
+			--deco-padding: 0 var(--space-10); /* 16px */
+			--icon-size: 24px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:3 {
+			--deco-height: var(--space-28); /* 56px */
+			--deco-padding: 0 var(--space-15); /* 24px */
+			--icon-size: 40px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-3); /* 16px */
+		}
+
+		&.deco-size\:4 {
+			--deco-height: var(--space-32); /* 64px */
+			--deco-padding: 0 var(--space-24); /* 48px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-6); /* 12px */
+			--deco-font-size: var(--font-size-7); /* 24px */
+		}
+
+		&.deco-size\:5 {
+			--deco-height: var(--space-35); /* 70px */
+			--deco-padding: 0 var(--space-29); /* 64px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-10); /* 16px */
+			--deco-font-size: var(--font-size-9); /* 32px */
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	
+	.lg\:m3-deco {
+		/* ---- deco-position ------------------------------------------------- */
+		&.deco-pos\:top,
+		&.deco-pos\:bottom {
+			--deco-flex-direction: column;	
+			--deco-height: 32px;
+			--deco-gap: var(--space-3);
+			--deco-width: auto;
+		}
+
+		&.deco-pos\:left,
+		&.deco-pos\:right {
+			--deco-height: 40px;
+			--deco-padding: 0 20px;
+		}
+
+		/* ---- deco-gap ------------------------------------------------- */
+		&.deco-gap\:0 { --deco-gap: 0px; }
+		&.deco-gap\:1 { --deco-gap: var(--space-3); }
+		&.deco-gap\:2 { --deco-gap: var(--space-4); }
+		&.deco-gap\:3 { --deco-gap: var(--space-6); /* 12px */ }
+		&.deco-gap\:4 { --deco-gap: var(--space-10); /* 16px */ }
+		&.deco-gap\:5 { --deco-gap: var(--space-13); /* 20px */ }
+
+		/* ---- deco-color ------------------------------------------------- */
+		&.deco-color\:main-1 { --deco-color: var(--color-main-1); }
+		&.deco-color\:main-2 { --deco-color: var(--color-main-2); }
+		&.deco-color\:main-3 { --deco-color: var(--color-main-3); }
+		&.deco-color\:sub-1 { --deco-color: var(--color-sub-1); }
+		&.deco-color\:sub-2 { --deco-color: var(--color-sub-2); }
+		&.deco-color\:sub-3 { --deco-color: var(--color-sub-3); }
+		&.deco-color\:accent-1 { --deco-color: var(--color-accent-1); }
+		&.deco-color\:accent-2 { --deco-color: var(--color-accent-2); }
+		&.deco-color\:accent-3 { --deco-color: var(--color-accent-3); }
+		&.deco-color\:base-1 { --deco-color: var(--color-base-1); }
+		&.deco-color\:base-2 { --deco-color: var(--color-base-2); }
+		&.deco-color\:base-3 { --deco-color: var(--color-base-3); }
+		&.deco-color\:base-4 { --deco-color: var(--color-base-4); }
+		&.deco-color\:base-5 { --deco-color: var(--color-base-5); }
+		&.deco-color\:base-6 { --deco-color: var(--color-base-6); }
+		&.deco-color\:base-7 { --deco-color: var(--color-base-7); }
+		&.deco-color\:base-8 { --deco-color: var(--color-base-8); }
+		&.deco-color\:base-9 { --deco-color: var(--color-base-9); }
+		&.deco-color\:base-10 { --deco-color: var(--color-base-10); }
+		&.deco-color\:warning-1 { --deco-color: var(--color-warning-1); }
+		&.deco-color\:warning-2 { --deco-color: var(--color-warning-2); }
+		&.deco-color\:warning-3 { --deco-color: var(--color-warning-3); }
+		&.deco-color\:danger-1 { --deco-color: var(--color-danger-1); }
+		&.deco-color\:danger-2 { --deco-color: var(--color-danger-2); }
+		&.deco-color\:danger-3 { --deco-color: var(--color-danger-3); }
+
+		/* ---- deco-size ------------------------------------------------- */
+		&.deco-size\:1 {
+			--deco-height: var(--space-19); /* 32px */
+			--deco-padding: 0 var(--space-6); /* 12px */
+			--icon-size: 20px;
+			--deco-gap: var(--space-3); /* 4px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:2 {
+			--deco-height: var(--space-22); /* 40px */
+			--deco-padding: 0 var(--space-10); /* 16px */
+			--icon-size: 24px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:3 {
+			--deco-height: var(--space-28); /* 56px */
+			--deco-padding: 0 var(--space-15); /* 24px */
+			--icon-size: 40px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-3); /* 16px */
+		}
+
+		&.deco-size\:4 {
+			--deco-height: var(--space-32); /* 64px */
+			--deco-padding: 0 var(--space-24); /* 48px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-6); /* 12px */
+			--deco-font-size: var(--font-size-7); /* 24px */
+		}
+
+		&.deco-size\:5 {
+			--deco-height: var(--space-35); /* 70px */
+			--deco-padding: 0 var(--space-29); /* 64px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-10); /* 16px */
+			--deco-font-size: var(--font-size-9); /* 32px */
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.xl\:m3-deco {
+		/* ---- deco-position ------------------------------------------------- */
+		&.deco-pos\:top,
+		&.deco-pos\:bottom {
+			--deco-flex-direction: column;	
+			--deco-height: 32px;
+			--deco-gap: var(--space-3);
+			--deco-width: auto;
+		}
+
+		&.deco-pos\:left,
+		&.deco-pos\:right {
+			--deco-height: 40px;
+			--deco-padding: 0 20px;
+		}
+
+		/* ---- deco-gap ------------------------------------------------- */
+		&.deco-gap\:0 { --deco-gap: 0px; }
+		&.deco-gap\:1 { --deco-gap: var(--space-3); }
+		&.deco-gap\:2 { --deco-gap: var(--space-4); }
+		&.deco-gap\:3 { --deco-gap: var(--space-6); /* 12px */ }
+		&.deco-gap\:4 { --deco-gap: var(--space-10); /* 16px */ }
+		&.deco-gap\:5 { --deco-gap: var(--space-13); /* 20px */ }
+
+		/* ---- deco-color ------------------------------------------------- */
+		&.deco-color\:main-1 { --deco-color: var(--color-main-1); }
+		&.deco-color\:main-2 { --deco-color: var(--color-main-2); }
+		&.deco-color\:main-3 { --deco-color: var(--color-main-3); }
+		&.deco-color\:sub-1 { --deco-color: var(--color-sub-1); }
+		&.deco-color\:sub-2 { --deco-color: var(--color-sub-2); }
+		&.deco-color\:sub-3 { --deco-color: var(--color-sub-3); }
+		&.deco-color\:accent-1 { --deco-color: var(--color-accent-1); }
+		&.deco-color\:accent-2 { --deco-color: var(--color-accent-2); }
+		&.deco-color\:accent-3 { --deco-color: var(--color-accent-3); }
+		&.deco-color\:base-1 { --deco-color: var(--color-base-1); }
+		&.deco-color\:base-2 { --deco-color: var(--color-base-2); }
+		&.deco-color\:base-3 { --deco-color: var(--color-base-3); }
+		&.deco-color\:base-4 { --deco-color: var(--color-base-4); }
+		&.deco-color\:base-5 { --deco-color: var(--color-base-5); }
+		&.deco-color\:base-6 { --deco-color: var(--color-base-6); }
+		&.deco-color\:base-7 { --deco-color: var(--color-base-7); }
+		&.deco-color\:base-8 { --deco-color: var(--color-base-8); }
+		&.deco-color\:base-9 { --deco-color: var(--color-base-9); }
+		&.deco-color\:base-10 { --deco-color: var(--color-base-10); }
+		&.deco-color\:warning-1 { --deco-color: var(--color-warning-1); }
+		&.deco-color\:warning-2 { --deco-color: var(--color-warning-2); }
+		&.deco-color\:warning-3 { --deco-color: var(--color-warning-3); }
+		&.deco-color\:danger-1 { --deco-color: var(--color-danger-1); }
+		&.deco-color\:danger-2 { --deco-color: var(--color-danger-2); }
+		&.deco-color\:danger-3 { --deco-color: var(--color-danger-3); }
+
+		/* ---- deco-size ------------------------------------------------- */
+		&.deco-size\:1 {
+			--deco-height: var(--space-19); /* 32px */
+			--deco-padding: 0 var(--space-6); /* 12px */
+			--icon-size: 20px;
+			--deco-gap: var(--space-3); /* 4px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:2 {
+			--deco-height: var(--space-22); /* 40px */
+			--deco-padding: 0 var(--space-10); /* 16px */
+			--icon-size: 24px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-2); /* 14px */
+		}
+
+		&.deco-size\:3 {
+			--deco-height: var(--space-28); /* 56px */
+			--deco-padding: 0 var(--space-15); /* 24px */
+			--icon-size: 40px;
+			--deco-gap: var(--space-4); /* 8px */
+			--deco-font-size: var(--font-size-3); /* 16px */
+		}
+
+		&.deco-size\:4 {
+			--deco-height: var(--space-32); /* 64px */
+			--deco-padding: 0 var(--space-24); /* 48px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-6); /* 12px */
+			--deco-font-size: var(--font-size-7); /* 24px */
+		}
+
+		&.deco-size\:5 {
+			--deco-height: var(--space-35); /* 70px */
+			--deco-padding: 0 var(--space-29); /* 64px */
+			--icon-size: 48px;
+			--deco-gap: var(--space-10); /* 16px */
+			--deco-font-size: var(--font-size-9); /* 32px */
+		}
 	}
 }

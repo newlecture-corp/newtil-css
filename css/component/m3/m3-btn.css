@@ -19,14 +19,18 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
     --btn-gap: 2px;
     --btn-margin-top: 5px;
-    --btn-background-color: var(--color-main-1);
     --btn-color: var(--color-base-1);
+    --btn-background-color: var(--color-main-1);
+    --btn-background-color-hover: color-mix(in srgb, var(--btn-background-color) 80%, transparent);
+    --btn-background-color-active: color-mix(in srgb, var(--btn-background-color) 70%, transparent);
     --btn-background-image: none;
     --btn-box-shadow: none;
-    --btn-border: 0;
+    --btn-border-width: 0;
+    --btn-border-color: transparent;
+    --btn-border-style: solid;
+    --btn-border-radius: 999px;
     --btn-outline: none;
     --btn-outline-offset: 0px;
-    --btn-border-radius: 999px;
 
     /* layout */
 
@@ -35,8 +39,11 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 /* ================Dark Mode===================*/
 @media (prefers-color-scheme: dark) {
     .m3-btn {
-        --btn-background-color: color-mix(in srgb, var(--color-main-1) 80%, white 20%);
         --btn-color: var(--color-base-9);
+        --btn-background-color: var(--color-main-1);
+        --btn-background-color-hover: color-mix(in srgb, var(--btn-background-color) 80%, transparent);
+        --btn-background-color-active: color-mix(in srgb, var(--btn-background-color) 70%, transparent);
+        --btn-border-color: var(--color-base-9);
     }
 }
 
@@ -44,17 +51,21 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 /* btn type : filled (default) */
 .m3-btn {    
     
-    /* content */    
-    /* font-family: roboto;     */
+    /* content */
     font-size: var(--btn-font-size);
     font-weight: var(--btn-font-weight);
     line-height: var(--btn-line-height);
     letter-spacing: var(--btn-letter-spacing);
+    white-space: nowrap;
     cursor: pointer;
     
     /* boxing */
     border-radius: var(--btn-border-radius);
+    border-style: var(--btn-border-style);
+    border-width: var(--btn-border-width);
+    border-color: var(--btn-border-color);
     height: var(--btn-height);
+    width: auto;
     padding: var(--btn-padding);
     margin-top: var(--btn-margin-top);
     gap: var(--btn-gap);
@@ -62,7 +73,6 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     background-image: var(--btn-background-image);
     color: var(--btn-color);
     box-shadow: var(--btn-box-shadow);
-    border: var(--btn-border);
     outline: var(--btn-outline);
     outline-offset: var(--btn-outline-offset);
     
@@ -72,63 +82,30 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     justify-content: center;       
     
     /* effect */
-    transition: background-color 0.3s ease, transform 0.3s ease;
-
-    /* === btn type ======================== */
-    &.btn\:elevated {
-        /* content */
-        --btn-color: var(--color-main-2);
-
-        /* boxing */
-        --btn-background-color: color-mix(in srgb, var(--color-main-1) 10%, transparent 90%);
-        --btn-box-shadow: 0px 0.7px 2px 0.5px rgba(var(--rgb-base-10), 0.5);
-    }
-
-    &.btn\:tonal {        
-        /* content */
-        --btn-color: var(--color-main-1);
-
-        /* boxing */
-        --btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
-    }
-
-    &.btn\:outlined {
-        /* content */
-        --btn-color: rgb(var(--rgb-main-3));
-
-        /* boxing */
-        --btn-background-color: none;
-        --btn-border: 1px solid rgba(var(--rgb-main-3), 0.2);
-    }
-
-    &.btn\:text {
-        
-        /* content */
-        --btn-color: rgb(var(--rgb-main-2));
-
-        /* boxing */
-        --btn-background-color: none;
-        --btn-border: none;
-        --btn-outline: none;
-    }
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 
     
+    /***************************************
+     /* == 버튼 옵션 종류 시작 == */
     /* ==== btn state ======================== */
     &:disabled {
-        --btn-background-color: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
+        --btn-background-color: color-mix(in srgb, var(--color-base-10) 8%, transparent);
+        --btn-color: color-mix(in srgb, var(--color-base-10) 20%, transparent);
         --btn-box-shadow: none;
-        --btn-border: none;
+        --btn-border-width: 0;
+        --btn-border-color: transparent;
         --btn-outline: none;
     }
 
     &:focus[tabindex] {
-        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
-        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+        --btn-border-width: 2px;
+        --btn-border-color: var(--color-base-1);
+        --btn-outline: 2.5px solid color-mix(in srgb, var(--color-main-1) 80%, black);
     }
 
     &:hover {
-        --btn-background-color: rgba(var(--rgb-main-2), 0.7);
+        --btn-background-color: color-mix(in srgb, var(--color-main-1) 80%, transparent);
+        --btn-background-image: none;
     }
 
     &:active {
@@ -139,24 +116,24 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
         --btn-border-radius: 8px;
     }
 
-
-
-    /* === btn state (static) ======================== */
+    /* === btn filled state (static) ======================== */
     &.btn-state\:disabled {
-        --btn-background-color: rgba(var(--rgb-base-10), 0.08);
-        --btn-color: rgba(var(--rgb-base-10), 0.2);
+        --btn-background-color: color-mix(in srgb, var(--color-base-10) 8%, transparent);
+        --btn-color: color-mix(in srgb, var(--color-base-10) 20%, transparent);
         --btn-box-shadow: none;
-        --btn-border: none;
+        --btn-border-width: 0;
+        --btn-border-color: transparent;
         --btn-outline: none;
     }
     
     &.btn-state\:focus {
-        --btn-border: 2px solid rgba(var(--rgb-base-1), 1);
-        --btn-outline: 2.5px solid rgba(var(--rgb-main-2), 1);
+        --btn-border-width: 2px;
+        --btn-border-color: var(--color-base-1);
+        --btn-outline: 2.5px solid color-mix(in srgb, var(--btn-background-color) 80%, black);
     }
 
     &.btn-state\:hover {
-        --btn-background-color: rgba(var(--rgb-main-2), 0.7);
+        --btn-background-color: var(var(--btn-background-color-hover));
     }
 
     &.btn-state\:active {
@@ -166,6 +143,204 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
 
         --btn-border-radius: 8px;
     }
+     
+
+    /* === btn elevated type ======================== */
+    &.btn\:elevated {
+        /* content */
+        --btn-color: color-mix(in srgb, var(--btn-background-color) 80%, black);
+
+        
+        /* boxing */
+        --btn-background-color: #F7F2FA;
+        --btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+
+        /* ==== btn state ======================== */
+        &:disabled {
+            --btn-background-color: color-mix(in srgb, var(--color-base-10) 8%, transparent);
+            --btn-color: color-mix(in srgb, var(--color-base-10) 20%, transparent);
+            --btn-box-shadow: none;
+            --btn-border-width: 0;
+            --btn-border-color: transparent;
+            --btn-outline: none;
+        }
+
+        &:focus[tabindex] {
+            --btn-border-width: 2px;
+            --btn-border-color: var(--color-base-1);
+            --btn-outline: 2.5px solid color-mix(in srgb, var(--btn-background-color) 80%, black);
+        }
+
+        &:hover {
+            --btn-background-color: var(var(--btn-background-color-hover));
+            --btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+        }
+
+        &:active {
+            --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);           
+
+            --btn-border-radius: 8px;
+        }
+
+
+
+        /* === btn state (static) ======================== */
+        &.btn-state\:disabled {
+            --btn-background-color: color-mix(in srgb, var(--color-base-10) 8%, transparent);
+            --btn-color: color-mix(in srgb, var(--color-base-10) 20%, transparent);
+            --btn-box-shadow: none;
+            --btn-border-width: 0;
+            --btn-border-color: transparent;
+            --btn-outline: none;
+        }
+        
+        &.btn-state\:focus {
+            --btn-border-width: 2px;
+            --btn-border-color: var(--color-base-1);
+            --btn-outline: 2.5px solid color-mix(in srgb, var(--btn-background-color) 80%, black);
+        }
+
+        &.btn-state\:hover {
+            --btn-background-color: var(var(--btn-background-color-hover));
+        }
+
+        &.btn-state\:active {
+            --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);        
+
+            --btn-border-radius: 8px;
+        }
+    }
+
+    &.btn\:tonal {
+        /* content */
+        --btn-color: var(--color-base-1);
+
+        /* boxing */
+        /* --btn-background-color: var(--btn-background-color-); */
+
+        &:disabled {
+        }
+
+        &:focus[tabindex] {
+        }
+
+        &:hover {
+            --btn-border-color: var(--color-base-8);
+            --btn-background-color: var(--color-main-1);
+            --btn-box-shadow: 0px 2px 4px 0px color-mix(in srgb, var(--color-base-10) 15%, transparent);
+        }
+
+        &:active {
+            --btn-box-shadow: none;
+        }
+
+        /* === btn state (static) ======================== */
+        &.btn-state\:disabled {
+        }
+        
+        &.btn-state\:focus {
+        }
+
+        &.btn-state\:hover {
+        }
+
+        &.btn-state\:active {
+        }
+    }
+
+    /* === btn tonal type ======================== */
+    &.btn\:outlined {
+        /* boxing */
+        --btn-color: var(--color-base-7);
+        --btn-background-color: none;
+        --btn-background-color-image: none;
+        --btn-border-width: 1px;
+        --btn-border-color: var(--color-base-3);
+
+        &:disabled {
+        }
+
+        &:focus[tabindex] {
+        }
+
+        &:hover {
+            --btn-background-color: var(--color-base-2);
+        }
+
+        &:active {            
+            --btn-background-color: color-mix(in srgb, var(--color-base-2) 70%, transparent);
+            --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);
+        }
+
+        /* === btn state (static) ======================== */
+        &.btn-state\:disabled {
+        }
+        
+        &.btn-state\:focus {
+        }
+
+        &.btn-state\:hover {
+        }
+
+        &.btn-state\:active {
+            --btn-background-color-active:var(--color-base-3);
+        }
+    }
+
+    &.btn\:text {
+        
+        /* content */
+        --btn-color: var(--btn-color);
+
+        /* boxing */
+        --btn-background-color: none;
+        --btn-border-width: 0;
+        --btn-border-color: transparent;
+        --btn-outline: none;
+        &:disabled {
+        }
+
+        &:focus[tabindex] {
+        }
+
+        &:hover {
+            --btn-background-color: var(--color-base-2);
+        }
+
+        &:active {
+            --btn-background-color: color-mix(in srgb, var(--color-base-2) 70%, transparent);
+            --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);
+        }
+
+        /* === btn state (static) ======================== */
+        &.btn-state\:disabled {
+        }
+        
+        &.btn-state\:focus {
+        }
+
+        &.btn-state\:hover {
+            --btn-background-color: var(--color-base-2);
+        }
+
+        &.btn-state\:active {
+            --btn-background-color: color-mix(in srgb, var(--color-base-2) 70%, transparent);
+            --btn-background-image: radial-gradient(144% 100% at 80% 94%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, transparent) 65%,
+                    color-mix(in srgb, var(--btn-background-color) 70%, var(--btn-color)) 66%);
+        }
+    }
+
+    
+    
 
     /* ==== btn color ======================== */
 
@@ -281,7 +456,9 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
     &.btn-color\:danger-3 {
         --btn-background-color: var(--color-danger-3);
         --btn-color: var(--color-base-1);
-    }    
+    }
+    
+    
 
     /* ================Button Size===================*/
 
@@ -480,5 +657,545 @@ State : Enabled (default) | Disabled | Hover | Focus | Active(Pressed)  */
         }
     }
 
+    /* ════════════════════════════════════════════════════════════════════
+	║                            아이콘 옵션                               ║
+	║                          (Icon Options)                             ║
+	╚════════════════════════════════════════════════════════════════════╝
+	*/
+	
+	/* icon:* 클래스가 있을 때 m3-icon 스타일 적용 */
+	/* &[class*="icon:"] {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: var(--btn-gap);
 
+		&::before {
+			content: "";
+			display: inline-flex;
+			align-items: center;
+			width: var(--icon-size, 24px);
+			height: var(--icon-size, 24px);
+			color: inherit;
+			font-family: var(--icon-family, "Material Symbols Outlined");
+			font-size: var(--icon-size, 24px);
+			font-variation-settings: 
+				"FILL" var(--icon-fill, 0), 
+				"wght" var(--icon-weight, 400), 
+				"GRAD" var(--icon-grade, 0), 
+				"OPSZ" var(--icon-optical-size, 24);
+		}
+		
+	} */
+
+}
+
+/* ════════════════════════════════════════════════════════════════════
+║                        반응형 미디어 쿼리                              ║
+║                    (Responsive Media Queries)                        ║
+╚════════════════════════════════════════════════════════════════════╝
+*/
+
+@media screen and (min-width: 576px) {
+	
+	.m3-btn {
+		/* === btn size ======================== */
+		&.sm\:btn-size\:xs,
+		&.sm\:btn-size\:1 {
+			--btn-height: var(--space-19);
+			--btn-padding: 0 var(--space-6);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-13);
+			--btn-letter-spacing: 0.1px;
+		}
+
+		&.sm\:btn-size\:sm,
+		&.sm\:btn-size\:2 {
+			--btn-height: var(--space-22);
+			--btn-padding: 0 var(--space-10);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-15);
+			--btn-letter-spacing: 0.15px;
+		}
+
+		&.sm\:btn-size\:md,
+		&.sm\:btn-size\:3 {
+			--btn-height: var(--space-28);
+			--btn-padding: 0 var(--space-15);
+			--btn-font-size: var(--font-size-3);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.sm\:btn-size\:lg,
+		&.sm\:btn-size\:4 {
+			--btn-height: var(--space-32);
+			--btn-padding: 0 var(--space-24);
+			--btn-font-size: var(--font-size-7);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.sm\:btn-size\:xl,
+		&.sm\:btn-size\:5 {
+			--btn-height: var(--space-35);
+			--btn-padding: 0 var(--space-29);
+			--btn-font-size: var(--font-size-9);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-22);
+			--btn-letter-spacing: 0px;
+		}
+
+		/* ==== btn color ======================== */
+		&.sm\:btn-color\:main-1 { --btn-background-color: var(--color-main-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:main-2 { --btn-background-color: var(--color-main-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:main-3 { --btn-background-color: var(--color-main-3); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:sub-1 { --btn-background-color: var(--color-sub-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:sub-2 { --btn-background-color: var(--color-sub-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:sub-3 { --btn-background-color: var(--color-sub-3); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:accent-1 { --btn-background-color: var(--color-accent-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:accent-2 { --btn-background-color: var(--color-accent-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:accent-3 { --btn-background-color: var(--color-accent-3); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-1 { --btn-background-color: var(--color-base-1); --btn-color: var(--color-base-8); }
+		&.sm\:btn-color\:base-2 { --btn-background-color: var(--color-base-2); --btn-color: var(--color-base-8); }
+		&.sm\:btn-color\:base-3 { --btn-background-color: var(--color-base-3); --btn-color: var(--color-base-8); }
+		&.sm\:btn-color\:base-4 { --btn-background-color: var(--color-base-4); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-5 { --btn-background-color: var(--color-base-5); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-6 { --btn-background-color: var(--color-base-6); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-7 { --btn-background-color: var(--color-base-7); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-8 { --btn-background-color: var(--color-base-8); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-9 { --btn-background-color: var(--color-base-9); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:base-10 { --btn-background-color: var(--color-base-10); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:success-1 { --btn-background-color: var(--color-success-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:success-2 { --btn-background-color: var(--color-success-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:success-3 { --btn-background-color: var(--color-success-3); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:warning-1 { --btn-background-color: var(--color-warning-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:warning-2 { --btn-background-color: var(--color-warning-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:warning-3 { --btn-background-color: var(--color-warning-3); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:danger-1 { --btn-background-color: var(--color-danger-1); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:danger-2 { --btn-background-color: var(--color-danger-2); --btn-color: var(--color-base-1); }
+		&.sm\:btn-color\:danger-3 { --btn-background-color: var(--color-danger-3); --btn-color: var(--color-base-1); }
+
+		/* === btn type ======================== */
+		&.sm\:btn\:elevated {
+			--btn-color: color-mix(in srgb, var(--color-main-1) 85%, transparent);
+			--btn-background-color: #F7F2FA;
+			--btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+		}
+
+		&.sm\:btn\:tonal {
+			--btn-color: var(--color-main-1);
+			--btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
+		}
+
+		&.sm\:btn\:outlined {
+			--btn-color: rgb(var(--rgb-main-1));
+			--btn-background-color: none;
+			--btn-border: 1px solid color-mix(in srgb, var(--color-main-1) 20%, transparent);
+		}
+
+		&.sm\:btn\:text {
+			--btn-color: rgb(var(--rgb-main-2));
+			--btn-background-color: none;
+			--btn-border: none;
+			--btn-outline: none;
+		}
+
+		/* === btn shape ======================== */
+		&.sm\:btn-shape\:square {
+			--btn-border-radius: 12px;
+		}
+
+		&.sm\:btn-shape\:sharp {
+			--btn-border-radius: 0px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.m3-btn {
+		/* === btn size ======================== */
+		&.md\:btn-size\:xs,
+		&.md\:btn-size\:1 {
+			--btn-height: var(--space-19);
+			--btn-padding: 0 var(--space-6);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-13);
+			--btn-letter-spacing: 0.1px;
+		}
+
+		&.md\:btn-size\:sm,
+		&.md\:btn-size\:2 {
+			--btn-height: var(--space-22);
+			--btn-padding: 0 var(--space-10);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-15);
+			--btn-letter-spacing: 0.15px;
+		}
+
+		&.md\:btn-size\:md,
+		&.md\:btn-size\:3 {
+			--btn-height: var(--space-28);
+			--btn-padding: 0 var(--space-15);
+			--btn-font-size: var(--font-size-3);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.md\:btn-size\:lg,
+		&.md\:btn-size\:4 {
+			--btn-height: var(--space-32);
+			--btn-padding: 0 var(--space-24);
+			--btn-font-size: var(--font-size-7);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.md\:btn-size\:xl,
+		&.md\:btn-size\:5 {
+			--btn-height: var(--space-35);
+			--btn-padding: 0 var(--space-29);
+			--btn-font-size: var(--font-size-9);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-22);
+			--btn-letter-spacing: 0px;
+		}
+
+		/* ==== btn color ======================== */
+		&.md\:btn-color\:main-1 { --btn-background-color: var(--color-main-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:main-2 { --btn-background-color: var(--color-main-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:main-3 { --btn-background-color: var(--color-main-3); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:sub-1 { --btn-background-color: var(--color-sub-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:sub-2 { --btn-background-color: var(--color-sub-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:sub-3 { --btn-background-color: var(--color-sub-3); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:accent-1 { --btn-background-color: var(--color-accent-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:accent-2 { --btn-background-color: var(--color-accent-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:accent-3 { --btn-background-color: var(--color-accent-3); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-1 { --btn-background-color: var(--color-base-1); --btn-color: var(--color-base-8); }
+		&.md\:btn-color\:base-2 { --btn-background-color: var(--color-base-2); --btn-color: var(--color-base-8); }
+		&.md\:btn-color\:base-3 { --btn-background-color: var(--color-base-3); --btn-color: var(--color-base-8); }
+		&.md\:btn-color\:base-4 { --btn-background-color: var(--color-base-4); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-5 { --btn-background-color: var(--color-base-5); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-6 { --btn-background-color: var(--color-base-6); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-7 { --btn-background-color: var(--color-base-7); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-8 { --btn-background-color: var(--color-base-8); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-9 { --btn-background-color: var(--color-base-9); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:base-10 { --btn-background-color: var(--color-base-10); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:success-1 { --btn-background-color: var(--color-success-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:success-2 { --btn-background-color: var(--color-success-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:success-3 { --btn-background-color: var(--color-success-3); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:warning-1 { --btn-background-color: var(--color-warning-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:warning-2 { --btn-background-color: var(--color-warning-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:warning-3 { --btn-background-color: var(--color-warning-3); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:danger-1 { --btn-background-color: var(--color-danger-1); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:danger-2 { --btn-background-color: var(--color-danger-2); --btn-color: var(--color-base-1); }
+		&.md\:btn-color\:danger-3 { --btn-background-color: var(--color-danger-3); --btn-color: var(--color-base-1); }
+
+		/* === btn type ======================== */
+		&.md\:btn\:elevated {
+			--btn-color: color-mix(in srgb, var(--color-main-1) 85%, transparent);
+			--btn-background-color: #F7F2FA;
+			--btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+		}
+
+		&.md\:btn\:tonal {
+			--btn-color: var(--color-main-1);
+			--btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
+		}
+
+		&.md\:btn\:outlined {
+			--btn-color: rgb(var(--rgb-main-3));
+			--btn-background-color: none;
+			--btn-border: 1px solid color-mix(in srgb, var(--color-main-1) 20%, transparent);
+		}
+
+		&.md\:btn\:text {
+			--btn-color: rgb(var(--rgb-main-2));
+			--btn-background-color: none;
+			--btn-border: none;
+			--btn-outline: none;
+		}
+
+		/* === btn shape ======================== */
+		&.md\:btn-shape\:square {
+			--btn-border-radius: 12px;
+		}
+
+		&.md\:btn-shape\:sharp {
+			--btn-border-radius: 0px;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	
+	.m3-btn {
+		/* === btn type ======================== */
+		&.lg\:btn\:elevated {
+			/* content */
+			--btn-color: color-mix(in srgb, var(--color-main-1) 80%, black);
+
+			/* boxing */
+			--btn-background-color: #F7F2FA;
+			--btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+		}
+
+		&.lg\:btn\:tonal {
+			/* content */
+			--btn-color: var(--color-main-1);
+
+			/* boxing */
+			--btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
+		}
+
+		&.lg\:btn\:outlined {
+			/* content */
+			--btn-color: color-mix(in srgb, var(--color-main-1) 80%, black);
+
+			/* boxing */
+			--btn-background-color: none;
+			--btn-border: 1px solid color-mix(in srgb, var(--color-main-1) 20%, transparent);
+		}
+
+		&.lg\:btn\:text {
+			/* content */
+			--btn-color: rgb(var(--rgb-main-2));
+
+			/* boxing */
+			--btn-background-color: none;
+			--btn-border: none;
+			--btn-outline: none;
+		}
+
+		/* ==== btn color ======================== */
+		&.lg\:btn-color\:main-1 { --btn-background-color: var(--color-main-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:main-2 { --btn-background-color: var(--color-main-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:main-3 { --btn-background-color: var(--color-main-3); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:sub-1 { --btn-background-color: var(--color-sub-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:sub-2 { --btn-background-color: var(--color-sub-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:sub-3 { --btn-background-color: var(--color-sub-3); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:accent-1 { --btn-background-color: var(--color-accent-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:accent-2 { --btn-background-color: var(--color-accent-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:accent-3 { --btn-background-color: var(--color-accent-3); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-1 { --btn-background-color: var(--color-base-1); --btn-color: var(--color-base-8); }
+		&.lg\:btn-color\:base-2 { --btn-background-color: var(--color-base-2); --btn-color: var(--color-base-8); }
+		&.lg\:btn-color\:base-3 { --btn-background-color: var(--color-base-3); --btn-color: var(--color-base-8); }
+		&.lg\:btn-color\:base-4 { --btn-background-color: var(--color-base-4); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-5 { --btn-background-color: var(--color-base-5); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-6 { --btn-background-color: var(--color-base-6); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-7 { --btn-background-color: var(--color-base-7); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-8 { --btn-background-color: var(--color-base-8); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-9 { --btn-background-color: var(--color-base-9); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:base-10 { --btn-background-color: var(--color-base-10); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:success-1 { --btn-background-color: var(--color-success-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:success-2 { --btn-background-color: var(--color-success-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:success-3 { --btn-background-color: var(--color-success-3); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:warning-1 { --btn-background-color: var(--color-warning-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:warning-2 { --btn-background-color: var(--color-warning-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:warning-3 { --btn-background-color: var(--color-warning-3); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:danger-1 { --btn-background-color: var(--color-danger-1); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:danger-2 { --btn-background-color: var(--color-danger-2); --btn-color: var(--color-base-1); }
+		&.lg\:btn-color\:danger-3 { --btn-background-color: var(--color-danger-3); --btn-color: var(--color-base-1); }
+
+		/* === btn size ======================== */
+		&.lg\:btn-size\:xs,
+		&.lg\:btn-size\:1 {
+			--btn-height: var(--space-19);
+			--btn-padding: 0 var(--space-6);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-13);
+			--btn-letter-spacing: 0.1px;
+		}
+
+		&.lg\:btn-size\:sm,
+		&.lg\:btn-size\:2 {
+			--btn-height: var(--space-22);
+			--btn-padding: 0 var(--space-10);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-15);
+			--btn-letter-spacing: 0.15px;
+		}
+
+		&.lg\:btn-size\:md,
+		&.lg\:btn-size\:3 {
+			--btn-height: var(--space-28);
+			--btn-padding: 0 var(--space-15);
+			--btn-font-size: var(--font-size-3);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.lg\:btn-size\:lg,
+		&.lg\:btn-size\:4 {
+			--btn-height: var(--space-32);
+			--btn-padding: 0 var(--space-24);
+			--btn-font-size: var(--font-size-7);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.lg\:btn-size\:xl,
+		&.lg\:btn-size\:5 {
+			--btn-height: var(--space-35);
+			--btn-padding: 0 var(--space-29);
+			--btn-font-size: var(--font-size-9);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-22);
+			--btn-letter-spacing: 0px;
+		}
+
+		/* === btn shape ======================== */
+		&.lg\:btn-shape\:square {
+			--btn-border-radius: 12px;
+		}
+
+		&.lg\:btn-shape\:sharp {
+			--btn-border-radius: 0px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.m3-btn {
+		/* === btn type ======================== */
+		&.xl\:btn\:elevated {
+			/* content */
+			--btn-color: color-mix(in srgb, var(--color-main-1) 85%, transparent);
+
+			/* boxing */
+			--btn-background-color: #F7F2FA;
+			--btn-box-shadow: 0px 0.7px 2px 0.5px color-mix(in srgb, var(--color-base-10) 50%, transparent);
+		}
+
+		&.xl\:btn\:tonal {
+			/* content */
+			--btn-color: var(--color-main-1);
+
+			/* boxing */
+			--btn-background-color: color-mix(in srgb, var(--color-main-1) 40%, transparent 60%);
+		}
+
+		&.xl\:btn\:outlined {
+			/* content */
+			--btn-color: color-mix(in srgb, var(--color-main-1) 85%, transparent);
+
+			/* boxing */
+			--btn-background-color: none;
+			--btn-border: 1px solid color-mix(in srgb, var(--color-main-1) 20%, transparent);
+		}
+
+		&.xl\:btn\:text {
+			/* content */
+			--btn-color: rgb(var(--rgb-main-2));
+
+			/* boxing */
+			--btn-background-color: none;
+			--btn-border: none;
+			--btn-outline: none;
+		}
+
+		/* ==== btn color ======================== */
+		&.xl\:btn-color\:main-1 { --btn-background-color: var(--color-main-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:main-2 { --btn-background-color: var(--color-main-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:main-3 { --btn-background-color: var(--color-main-3); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:sub-1 { --btn-background-color: var(--color-sub-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:sub-2 { --btn-background-color: var(--color-sub-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:sub-3 { --btn-background-color: var(--color-sub-3); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:accent-1 { --btn-background-color: var(--color-accent-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:accent-2 { --btn-background-color: var(--color-accent-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:accent-3 { --btn-background-color: var(--color-accent-3); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-1 { --btn-background-color: var(--color-base-1); --btn-color: var(--color-base-8); }
+		&.xl\:btn-color\:base-2 { --btn-background-color: var(--color-base-2); --btn-color: var(--color-base-8); }
+		&.xl\:btn-color\:base-3 { --btn-background-color: var(--color-base-3); --btn-color: var(--color-base-8); }
+		&.xl\:btn-color\:base-4 { --btn-background-color: var(--color-base-4); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-5 { --btn-background-color: var(--color-base-5); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-6 { --btn-background-color: var(--color-base-6); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-7 { --btn-background-color: var(--color-base-7); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-8 { --btn-background-color: var(--color-base-8); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-9 { --btn-background-color: var(--color-base-9); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:base-10 { --btn-background-color: var(--color-base-10); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:success-1 { --btn-background-color: var(--color-success-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:success-2 { --btn-background-color: var(--color-success-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:success-3 { --btn-background-color: var(--color-success-3); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:warning-1 { --btn-background-color: var(--color-warning-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:warning-2 { --btn-background-color: var(--color-warning-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:warning-3 { --btn-background-color: var(--color-warning-3); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:danger-1 { --btn-background-color: var(--color-danger-1); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:danger-2 { --btn-background-color: var(--color-danger-2); --btn-color: var(--color-base-1); }
+		&.xl\:btn-color\:danger-3 { --btn-background-color: var(--color-danger-3); --btn-color: var(--color-base-1); }
+
+		/* === btn size ======================== */
+		&.xl\:btn-size\:xs,
+		&.xl\:btn-size\:1 {
+			--btn-height: var(--space-19);
+			--btn-padding: 0 var(--space-6);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-13);
+			--btn-letter-spacing: 0.1px;
+		}
+
+		&.xl\:btn-size\:sm,
+		&.xl\:btn-size\:2 {
+			--btn-height: var(--space-22);
+			--btn-padding: 0 var(--space-10);
+			--btn-font-size: var(--font-size-2);
+			--btn-font-weight: var(--font-weight-medium);
+			--btn-line-height: var(--space-15);
+			--btn-letter-spacing: 0.15px;
+		}
+
+		&.xl\:btn-size\:md,
+		&.xl\:btn-size\:3 {
+			--btn-height: var(--space-28);
+			--btn-padding: 0 var(--space-15);
+			--btn-font-size: var(--font-size-3);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.xl\:btn-size\:lg,
+		&.xl\:btn-size\:4 {
+			--btn-height: var(--space-32);
+			--btn-padding: 0 var(--space-24);
+			--btn-font-size: var(--font-size-7);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-19);
+			--btn-letter-spacing: 0px;
+		}
+
+		&.xl\:btn-size\:xl,
+		&.xl\:btn-size\:5 {
+			--btn-height: var(--space-35);
+			--btn-padding: 0 var(--space-29);
+			--btn-font-size: var(--font-size-9);
+			--btn-font-weight: 600;
+			--btn-line-height: var(--space-22);
+			--btn-letter-spacing: 0px;
+		}
+
+		/* === btn shape ======================== */
+		&.xl\:btn-shape\:square {
+			--btn-border-radius: 12px;
+		}
+
+		&.xl\:btn-shape\:sharp {
+			--btn-border-radius: 0px;
+		}
+	}
 }

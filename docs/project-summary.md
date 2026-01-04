@@ -7,7 +7,7 @@
 ## 🎯 핵심 철학
 
 - **Component-first + Utility-last**: 컴포넌트를 기본으로 하고, 유틸리티는 보조적으로 사용
-- **n- 접두사**: 컴포넌트 클래스 충돌 방지를 위한 `n-` 접두사 사용
+- **m3- 접두사**: 컴포넌트 클래스 충돌 방지를 위한 `m3-` 접두사 사용
 - **CSS 변수 기반**: 모든 커스터마이징 가능한 값은 CSS 변수로 관리
 
 ## ✅ 완료된 주요 작업
@@ -33,19 +33,21 @@
   - **값은 축약하지 않음** (예: `.overflow-x:hidden`, `.gap:4`)
 
 - **CSS 변수 시스템**:
-  - `--space-*`: 단계별 간격 (4px, 6px, 8px, 12px, 16px, 24px, 32px, 48px, 64px)
-  - `--font-size-*`: 폰트 크기
+  - `--scale-*`: 기본 스케일 값 (0~41)
+  - `--space-*`: 간격 변수 (`calc(var(--scale-*) * 1px)`)
+  - `--size-*`: 크기 변수 (`--space-*`의 별칭)
+  - `--font-size-*`: 폰트 크기 (`var(--size-*)` 기반)
   - `--color-*`: 테마 기반 색상
   - `--border-radius-*`: 테두리 반경
   - `--shadow-*`: 그림자 효과
 
 ### 2. **컴포넌트 리팩토링**
 
-- **n-btn.css**: CSS 변수 통합 (`--space-*` → `--space-*`)
-- **n-icon.css**: CSS 변수 통합 (`--icon-size-*` → `--font-size-*`)
+- **m3-btn.css**: CSS 변수 통합 (`--space-*`, `--font-size-*` 사용)
+- **m3-icon.css**: CSS 변수 통합 (`--font-size-*` 사용)
 - **반응형 미디어 쿼리 통일**: 640px, 768px, 1024px, 1280px
 
-### 3. **n-layout 컴포넌트**
+### 3. **레이아웃 컴포넌트 (JavaScript)**
 
 - **기본 레이아웃**: header, main, footer, aside
 - **Aside 위치 변경**: `aside:right` 클래스로 오른쪽 배치
@@ -85,9 +87,12 @@ newtil-css/
 │   ├── style.css          # 메인 진입점
 │   ├── components.css     # 컴포넌트 진입점
 │   ├── component/         # 컴포넌트 스타일
-│   │   ├── n-layout.css  # 레이아웃 컴포넌트
-│   │   ├── n-btn.css     # 버튼 컴포넌트
-│   │   └── n-icon.css    # 아이콘 컴포넌트
+│   │   └── m3/           # Material 3 컴포넌트
+│   │       ├── m3-btn.css     # 버튼 컴포넌트
+│   │       ├── m3-icon.css    # 아이콘 컴포넌트
+│   │       ├── m3-card.css    # 카드 컴포넌트
+│   │       ├── m3-checkbox.css # 체크박스 컴포넌트
+│   │       └── ...            # 기타 컴포넌트
 │   ├── util/             # 유틸리티 CSS
 │   │   ├── index.css     # 유틸리티 진입점
 │   │   ├── core/         # 핵심 유틸리티
@@ -95,7 +100,7 @@ newtil-css/
 │   │   └── ...           # 기타 카테고리
 │   └── variables.css     # CSS 변수 정의
 ├── js/
-│   └── n-layout.js       # 레이아웃 JavaScript
+│   └── n-layout.js       # 레이아웃 JavaScript (별도)
 ├── test/
 │   └── layout-resizable.html  # 레이아웃 테스트
 └── docs/                 # 프로젝트 문서 (Git 제외)

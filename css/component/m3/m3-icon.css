@@ -1,9 +1,6 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
-
-:root {
+.m3-deco,
+.m3-btn,
+.m3-icon {
 	--icon-size: 24px;
 	--icon-family: "Material Symbols Outlined";
 	--icon-color: var(--color-base-9);
@@ -14,20 +11,26 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
+	.m3-deco,
+	.m3-btn,
+	.m3-icon {
 		--icon-color: var(--color-base-2);
 	}
 }
 
+.m3-deco,
+.m3-btn,
 .m3-icon {
-	display: inline-flex;
 	width: var(--icon-size);
 	height: var(--icon-size);
 	overflow: hidden;
-	align-items: center;
-	/* justify-content: center; */
-
+	
 	visibility: visible;
+	
+	/* layout */
+	display: inline-flex;
+	align-items: center;
+	vertical-align: top;
 
 	transition: all 0.2s ease-in-out;
 
@@ -51,16 +54,17 @@
 			"FILL" var(--icon-fill, 0), 
 			"wght" var(--icon-weight, 400), 
 			"GRAD" var(--icon-grade, 0), 
-			"OPSZ" var(--icon-optical-size, 24);
+			"OPSZ" var(--icon-optical-size, 24);	
+
 	}
 
-	&.hover:not(.n-deco):hover {
-		border-radius: 50%;
-		background-color: var(--color-base-3);
+
+	&.icon-hover:not(.n-deco):hover {
+		border-radius: 50%;		
 		transform: scale(1.4);
 
 		&::before {
-			transform: scale(0.72);
+			transform: scale(0.8);
 		}
 	}
 
@@ -84,15 +88,15 @@
 	&.icon-weight\:700::before { --icon-weight: 700; }
 
 	/* ==== variation/grade =============================== */
-	&.icon-grade\:-25::before { --icon-grade: -25; }
-	&.icon-grade\:0::before { --icon-grade: 0; }
-	&.icon-grade\:200::before { --icon-grade: 200; }
+	&.icon-grade\:1::before { --icon-grade: -25; }
+	&.icon-grade\:2::before { --icon-grade: 0; }
+	&.icon-grade\:3::before { --icon-grade: 200; }
 
 	/* ==== variation/optical-size =============================== */
-	&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
-	&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
-	&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
-	&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+	&.icon-optical-size\:1::before { --icon-optical-size: 20; }
+	&.icon-optical-size\:2::before { --icon-optical-size: 24; }
+	&.icon-optical-size\:3::before { --icon-optical-size: 40; }
+	&.icon-optical-size\:4::before { --icon-optical-size: 48; }
 
 
     /* === color ======================================= */ 
@@ -115,16 +119,46 @@
     &.icon-color\:base-8::before { color: var(--color-base-8); }
     &.icon-color\:base-9::before { color: var(--color-base-9); }
     &.icon-color\:base-10::before { color: var(--color-base-10); }
+    &.icon-color\:warning-1::before { color: var(--color-warning-1); }
+    &.icon-color\:warning-2::before { color: var(--color-warning-2); }
+    &.icon-color\:warning-3::before { color: var(--color-warning-3); }
+    &.icon-color\:danger-1::before { color: var(--color-danger-1); }
+    &.icon-color\:danger-2::before { color: var(--color-danger-2); }
+    &.icon-color\:danger-3::before { color: var(--color-danger-3); }
 
 
 	/* ---- icon-size ------------------------------------------------- */
-	&.icon-size\:20 { --icon-size: 20px; }
-	&.icon-size\:24 { --icon-size: 24px; }
-	&.icon-size\:40 { --icon-size: 40px; }
-	&.icon-size\:48 { --icon-size: 48px; }
-    
+	&.icon-size\:1 { --icon-size: 20px; }
+	&.icon-size\:2 { --icon-size: 24px; }
+	&.icon-size\:3 { --icon-size: 40px; }
+	&.icon-size\:4 { --icon-size: 48px; }
 
 }
+
+/* .m3-deco 지원을 위한 스타일 */
+/* .m3-deco::before {
+
+	flex-shrink: 0;
+
+	display: inline-flex;
+	align-items: center;
+	vertical-align: top;
+
+	width: var(--icon-size);
+	height: var(--icon-size);
+	overflow: hidden;
+
+
+	color: inherit;
+	font-family: var(--icon-family);
+	font-size: var(--icon-size);
+	font-variation-settings: 
+		"FILL" var(--icon-fill, 0), 
+		"wght" var(--icon-weight, 400), 
+		"GRAD" var(--icon-grade, 0), 
+		"OPSZ" var(--icon-optical-size, 24);	
+
+} */
 
 
 @media (min-width: 640px) {
@@ -148,15 +182,15 @@
 		&.icon-weight\:700::before { --icon-weight: 700; }
 
 		/* ==== variation/grade =============================== */
-		&.icon-grade\:-25::before { --icon-grade: -25; }
-		&.icon-grade\:0::before { --icon-grade: 0; }
-		&.icon-grade\:200::before { --icon-grade: 200; }
+		&.icon-grade\:1::before { --icon-grade: -25; }
+		&.icon-grade\:2::before { --icon-grade: 0; }
+		&.icon-grade\:3::before { --icon-grade: 200; }
 
 		/* ==== variation/optical-size =============================== */
-		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
-		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
-		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
-		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+		&.icon-optical-size\:1::before { --icon-optical-size: 20; }
+		&.icon-optical-size\:2::before { --icon-optical-size: 24; }
+		&.icon-optical-size\:3::before { --icon-optical-size: 40; }
+		&.icon-optical-size\:4::before { --icon-optical-size: 48; }
 
 
 		/* === color ======================================= */ 
@@ -179,13 +213,19 @@
 		&.icon-color\:base-8::before { color: var(--color-base-8); }
 		&.icon-color\:base-9::before { color: var(--color-base-9); }
 		&.icon-color\:base-10::before { color: var(--color-base-10); }
+		&.icon-color\:warning-1::before { color: var(--color-warning-1); }
+		&.icon-color\:warning-2::before { color: var(--color-warning-2); }
+		&.icon-color\:warning-3::before { color: var(--color-warning-3); }
+		&.icon-color\:danger-1::before { color: var(--color-danger-1); }
+		&.icon-color\:danger-2::before { color: var(--color-danger-2); }
+		&.icon-color\:danger-3::before { color: var(--color-danger-3); }
 
 
 		/* ---- icon-size ------------------------------------------------- */
-		&.icon-size\:20 { --icon-size: 20px; }
-		&.icon-size\:24 { --icon-size: 24px; }
-		&.icon-size\:40 { --icon-size: 40px; }
-		&.icon-size\:48 { --icon-size: 48px; }
+		&.icon-size\:1 { --icon-size: 20px; }
+		&.icon-size\:2 { --icon-size: 24px; }
+		&.icon-size\:3 { --icon-size: 40px; }
+		&.icon-size\:4 { --icon-size: 48px; }
 	}
 }
 
@@ -211,15 +251,15 @@
 		&.icon-weight\:700::before { --icon-weight: 700; }
 
 		/* ==== variation/grade =============================== */
-		&.icon-grade\:-25::before { --icon-grade: -25; }
-		&.icon-grade\:0::before { --icon-grade: 0; }
-		&.icon-grade\:200::before { --icon-grade: 200; }
+		&.icon-grade\:1::before { --icon-grade: -25; }
+		&.icon-grade\:2::before { --icon-grade: 0; }
+		&.icon-grade\:3::before { --icon-grade: 200; }
 
 		/* ==== variation/optical-size =============================== */
-		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
-		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
-		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
-		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+		&.icon-optical-size\:1::before { --icon-optical-size: 20; }
+		&.icon-optical-size\:2::before { --icon-optical-size: 24; }
+		&.icon-optical-size\:3::before { --icon-optical-size: 40; }
+		&.icon-optical-size\:4::before { --icon-optical-size: 48; }
 
 
 		/* === color ======================================= */ 
@@ -242,13 +282,19 @@
 		&.icon-color\:base-8::before { color: var(--color-base-8); }
 		&.icon-color\:base-9::before { color: var(--color-base-9); }
 		&.icon-color\:base-10::before { color: var(--color-base-10); }
+		&.icon-color\:warning-1::before { color: var(--color-warning-1); }
+		&.icon-color\:warning-2::before { color: var(--color-warning-2); }
+		&.icon-color\:warning-3::before { color: var(--color-warning-3); }
+		&.icon-color\:danger-1::before { color: var(--color-danger-1); }
+		&.icon-color\:danger-2::before { color: var(--color-danger-2); }
+		&.icon-color\:danger-3::before { color: var(--color-danger-3); }
 
 
 		/* ---- icon-size ------------------------------------------------- */
-		&.icon-size\:20 { --icon-size: 20px; }
-		&.icon-size\:24 { --icon-size: 24px; }
-		&.icon-size\:40 { --icon-size: 40px; }
-		&.icon-size\:48 { --icon-size: 48px; }
+		&.icon-size\:1 { --icon-size: 20px; }
+		&.icon-size\:2 { --icon-size: 24px; }
+		&.icon-size\:3 { --icon-size: 40px; }
+		&.icon-size\:4 { --icon-size: 48px; }
 	}
 }
 
@@ -274,15 +320,15 @@
 		&.icon-weight\:700::before { --icon-weight: 700; }
 
 		/* ==== variation/grade =============================== */
-		&.icon-grade\:-25::before { --icon-grade: -25; }
-		&.icon-grade\:0::before { --icon-grade: 0; }
-		&.icon-grade\:200::before { --icon-grade: 200; }
+		&.icon-grade\:1::before { --icon-grade: -25; }
+		&.icon-grade\:2::before { --icon-grade: 0; }
+		&.icon-grade\:3::before { --icon-grade: 200; }
 
 		/* ==== variation/optical-size =============================== */
-		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
-		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
-		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
-		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+		&.icon-optical-size\:1::before { --icon-optical-size: 20; }
+		&.icon-optical-size\:2::before { --icon-optical-size: 24; }
+		&.icon-optical-size\:3::before { --icon-optical-size: 40; }
+		&.icon-optical-size\:4::before { --icon-optical-size: 48; }
 
 
 		/* === color ======================================= */ 
@@ -305,13 +351,19 @@
 		&.icon-color\:base-8::before { color: var(--color-base-8); }
 		&.icon-color\:base-9::before { color: var(--color-base-9); }
 		&.icon-color\:base-10::before { color: var(--color-base-10); }
+		&.icon-color\:warning-1::before { color: var(--color-warning-1); }
+		&.icon-color\:warning-2::before { color: var(--color-warning-2); }
+		&.icon-color\:warning-3::before { color: var(--color-warning-3); }
+		&.icon-color\:danger-1::before { color: var(--color-danger-1); }
+		&.icon-color\:danger-2::before { color: var(--color-danger-2); }
+		&.icon-color\:danger-3::before { color: var(--color-danger-3); }
 
 
 		/* ---- icon-size ------------------------------------------------- */
-		&.icon-size\:20 { --icon-size: 20px; }
-		&.icon-size\:24 { --icon-size: 24px; }
-		&.icon-size\:40 { --icon-size: 40px; }
-		&.icon-size\:48 { --icon-size: 48px; }
+		&.icon-size\:1 { --icon-size: 20px; }
+		&.icon-size\:2 { --icon-size: 24px; }
+		&.icon-size\:3 { --icon-size: 40px; }
+		&.icon-size\:4 { --icon-size: 48px; }
 	}
 }
 
@@ -337,15 +389,15 @@
 		&.icon-weight\:700::before { --icon-weight: 700; }
 
 		/* ==== variation/grade =============================== */
-		&.icon-grade\:-25::before { --icon-grade: -25; }
-		&.icon-grade\:0::before { --icon-grade: 0; }
-		&.icon-grade\:200::before { --icon-grade: 200; }
+		&.icon-grade\:1::before { --icon-grade: -25; }
+		&.icon-grade\:2::before { --icon-grade: 0; }
+		&.icon-grade\:3::before { --icon-grade: 200; }
 
 		/* ==== variation/optical-size =============================== */
-		&.icon-optical-size\:20::before { --icon-optical-size: 20px; }
-		&.icon-optical-size\:24::before { --icon-optical-size: 24px; }
-		&.icon-optical-size\:40::before { --icon-optical-size: 40px; }
-		&.icon-optical-size\:48::before { --icon-optical-size: 48px; }
+		&.icon-optical-size\:1::before { --icon-optical-size: 20; }
+		&.icon-optical-size\:2::before { --icon-optical-size: 24; }
+		&.icon-optical-size\:3::before { --icon-optical-size: 40; }
+		&.icon-optical-size\:4::before { --icon-optical-size: 48; }
 
 
 		/* === color ======================================= */ 
@@ -368,12 +420,18 @@
 		&.icon-color\:base-8::before { color: var(--color-base-8); }
 		&.icon-color\:base-9::before { color: var(--color-base-9); }
 		&.icon-color\:base-10::before { color: var(--color-base-10); }
+		&.icon-color\:warning-1::before { color: var(--color-warning-1); }
+		&.icon-color\:warning-2::before { color: var(--color-warning-2); }
+		&.icon-color\:warning-3::before { color: var(--color-warning-3); }
+		&.icon-color\:danger-1::before { color: var(--color-danger-1); }
+		&.icon-color\:danger-2::before { color: var(--color-danger-2); }
+		&.icon-color\:danger-3::before { color: var(--color-danger-3); }
 
 
 		/* ---- icon-size ------------------------------------------------- */
-		&.icon-size\:20 { --icon-size: 20px; }
-		&.icon-size\:24 { --icon-size: 24px; }
-		&.icon-size\:40 { --icon-size: 40px; }
-		&.icon-size\:48 { --icon-size: 48px; }
+		&.icon-size\:1 { --icon-size: 20px; }
+		&.icon-size\:2 { --icon-size: 24px; }
+		&.icon-size\:3 { --icon-size: 40px; }
+		&.icon-size\:4 { --icon-size: 48px; }
 	}
 }

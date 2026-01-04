@@ -12,31 +12,37 @@ CSS 변수는 `:root`에서 정의합니다:
 
 ```css
 :root {
-  /* 간격 시스템 */
+  /* 간격 시스템 (--scale-* 기반) */
   --space-0: 0px;
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 24px;
-  --space-6: 32px;
-  --space-7: 48px;
-  --space-8: 64px;
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-3: 4px;
+  --space-4: 8px;
+  --space-5: 10px;
+  --space-6: 12px;
+  --space-7: 13px;
+  --space-8: 14px;
+  --space-10: 16px;
+  --space-13: 20px;
+  --space-15: 24px;
+  --space-19: 32px;
+  --space-24: 48px;
+  --space-29: 64px;
 
   /* 색상 시스템 */
-  --color-main-1: #4a5568;
-  --color-main-2: #3182ce;
-  --color-main-3: #2c5282;
+  --color-main-1: #8cba35;
+  --color-main-2: #6a8e29;
+  --color-main-3: #3d5218;
   /* ... */
 
-  /* 폰트 크기 */
-  --font-size-base: 16px;
-  --font-size-1: 12px;
-  --font-size-2: 14px;
-  --font-size-3: 16px;
-  --font-size-4: 18px;
-  --font-size-5: 20px;
-  --font-size-6: 24px;
+  /* 폰트 크기 (--size-* 기반) */
+  --font-size-1: var(--size-6);  /* 12px */
+  --font-size-2: var(--size-8);  /* 14px */
+  --font-size-3: var(--size-10); /* 16px */
+  --font-size-4: var(--size-12); /* 18px */
+  --font-size-5: var(--size-13); /* 20px */
+  --font-size-6: var(--size-14); /* 22px */
+  --font-size-7: var(--size-15); /* 24px */
 }
 ```
 
@@ -47,28 +53,18 @@ CSS 변수는 `:root`에서 정의합니다:
 ```css
 :root {
   /* 버튼 사이즈 */
-  --btn-height-2: 36px;
-  --btn-padding-2: 4px 16px;
-  --btn-font-size-2: 14px;
-  --btn-border-radius-2: 8px;
+  --btn-height: var(--space-22); /* 40px */
+  --btn-padding: 0 var(--space-10); /* 0 16px */
+  --btn-font-size: var(--font-size-2); /* 14px */
+  --btn-border-radius: 999px;
 
   /* 버튼 색상 */
-  --btn-filled-background-color-default: var(--color-main-2);
-  --btn-filled-background-color-hover: var(--color-main-1);
-  --btn-filled-color: var(--color-base-1);
+  --btn-background-color: var(--color-main-1);
+  --btn-background-color-hover: color-mix(in srgb, var(--btn-background-color) 80%, transparent);
+  --btn-color: var(--color-base-1);
 }
 ```
 
-### 리스트 커스터마이징
-
-```css
-:root {
-  /* 리스트 간격 */
-  --list-gap: 16px;
-  --list-item-padding: 24px;
-  --list-item-border-radius: 16px;
-}
-```
 
 ## 색상 테마 변경
 
@@ -94,15 +90,16 @@ CSS 변수는 `:root`에서 정의합니다:
 
 ```css
 :root {
-  /* 기본 간격 크기 조정 */
-  --space-1: 4px;   /* 작은 간격 */
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;  /* 기본 간격 */
-  --space-5: 24px;
-  --space-6: 32px;
-  --space-7: 48px;
-  --space-8: 64px;  /* 큰 간격 */
+  /* 기본 간격 크기 조정 (--scale-* 값 변경) */
+  --scale-3: 4px;   /* --space-3 */
+  --scale-4: 8px;  /* --space-4 */
+  --scale-6: 12px; /* --space-6 */
+  --scale-10: 16px; /* --space-10 (기본 간격) */
+  --scale-13: 20px; /* --space-13 */
+  --scale-15: 24px; /* --space-15 */
+  --scale-19: 32px; /* --space-19 */
+  --scale-24: 48px; /* --space-24 */
+  --scale-29: 64px; /* --space-29 */
 }
 ```
 
@@ -110,18 +107,15 @@ CSS 변수는 `:root`에서 정의합니다:
 
 ```css
 :root {
-  /* 기본 폰트 크기 */
-  --font-size-base: 16px;
-
-  /* 폰트 크기 스케일 */
-  --font-size-1: 12px;
-  --font-size-2: 14px;
-  --font-size-3: 16px;
-  --font-size-4: 18px;
-  --font-size-5: 20px;
-  --font-size-6: 24px;
-  --font-size-7: 28px;
-  --font-size-8: 32px;
+  /* 폰트 크기 스케일 (--size-* 기반) */
+  --font-size-1: var(--size-6);  /* 12px */
+  --font-size-2: var(--size-8);  /* 14px */
+  --font-size-3: var(--size-10); /* 16px */
+  --font-size-4: var(--size-12); /* 18px */
+  --font-size-5: var(--size-13); /* 20px */
+  --font-size-6: var(--size-14); /* 22px */
+  --font-size-7: var(--size-15); /* 24px */
+  --font-size-9: var(--size-19); /* 32px */
 
   /* 폰트 패밀리 */
   --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -136,19 +130,19 @@ CSS 변수는 `:root`에서 정의합니다:
 ```css
 :root {
   /* 색상 테마 */
-  --color-main-1: #4a5568;
-  --color-main-2: #3182ce;
-  --color-main-3: #2c5282;
+  --color-main-1: #8cba35;
+  --color-main-2: #6a8e29;
+  --color-main-3: #3d5218;
 
   /* 간격 */
-  --space-4: 20px; /* 기본 16px에서 20px로 변경 */
+  --scale-13: 20px; /* --space-13을 20px로 변경 */
 
   /* 폰트 */
-  --font-size-base: 18px;
+  --font-size-4: var(--size-13); /* 20px로 변경 */
 
   /* 버튼 */
-  --btn-border-radius-2: 12px; /* 더 둥글게 */
-  --btn-height-2: 40px; /* 더 높게 */
+  --btn-border-radius: 12px; /* 더 둥글게 */
+  --btn-height: var(--space-22); /* 40px */
 }
 ```
 
@@ -159,12 +153,12 @@ CSS 변수는 `:root`에서 정의합니다:
 ```css
 /* 특정 버튼에만 스타일 적용 */
 .my-custom-button {
-  --btn-height-2: 48px;
-  --btn-filled-background-color-default: #ff6b6b;
+  --btn-height: var(--space-27); /* 52px */
+  --btn-background-color: #ff6b6b;
 }
 
 /* 사용 */
-<button class="n-btn btn-size:2 my-custom-button">
+<button class="m3-btn btn-size:2 my-custom-button">
   커스텀 버튼
 </button>
 ```

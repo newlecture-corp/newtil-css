@@ -22,12 +22,12 @@ npm install newtil-css
   <link rel="stylesheet" href="node_modules/newtil-css/dist/style.css">
 </head>
 <body>
-  <div class="n-layout">
-    <header class="n-header">
+  <div>
+    <header>
       <h1>제목</h1>
     </header>
     <main>
-      <button class="n-btn btn-size:2 btn-color:main">버튼</button>
+      <button class="m3-btn btn-size:2 btn-color:main">버튼</button>
     </main>
   </div>
 </body>
@@ -47,4 +47,3 @@ npm install newtil-css
 - [시작하기 가이드](/guide/getting-started)
 - [컴포넌트 문서](/components/button)
 - [유틸리티 클래스](/utility/display)
-
