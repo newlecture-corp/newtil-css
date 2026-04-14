@@ -2,7 +2,7 @@
   <a href="https://newlecture-corp.github.io/newtil-css/">
     <img
       src="docs/public/logo.png"
-      alt="newtil-css"
+      alt="Newtil CSS"
       height="120"
     />
   </a>
@@ -25,6 +25,20 @@
     </a>
   </p>
 </div>
+
+---
+
+> ### 📢 패키지 이전 안내 (Package Moved)
+>
+> 이 패키지는 **`newtil-css`** 에서 **`@newtil/css`** 로 이전되었습니다.
+> `@newtil/*` 네임스페이스 하에 제품군(예: `@newtil/editor`)을 통합하기 위함입니다.
+>
+> **새 설치 명령:**
+> ```bash
+> npm install @newtil/css
+> ```
+>
+> 기존 `newtil-css` 패키지는 더 이상 업데이트되지 않으며 [deprecated 처리](https://docs.npmjs.com/cli/v10/commands/npm-deprecate)되었습니다. 자세한 이전 방법은 [MIGRATION.md](./MIGRATION.md) 를 참고하세요.
 
 ---
 
@@ -101,13 +115,13 @@ Google Material Icons를 간편하게 사용할 수 있습니다.
 
 ### CDN으로 설치
 ```html
-<link href="https://unpkg.com/newtil-css@latest/dist/style.css" rel="stylesheet" />
-<script src="https://unpkg.com/newtil-css@latest/dist/script.js"></script>    
+<link href="https://unpkg.com/@newtil/css@latest/dist/style.css" rel="stylesheet" />
+<script src="https://unpkg.com/@newtil/css@latest/dist/script.js"></script>
 ```
 
 ### npm으로 설치
 ```bash
-npm install newtil-css
+npm install @newtil/css
 ```
 
 ### 기본 사용법
@@ -115,7 +129,7 @@ npm install newtil-css
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <link href="path/to/newtil-css/style.css" rel="stylesheet" />
+  <link href="path/to/@newtil/css/style.css" rel="stylesheet" />
 </head>
 <body>
   <div class="m3-layout">

@@ -513,14 +513,14 @@ Material Symbols는 세 가지 스타일을 제공합니다. 기본값은 `outli
 
 ```css
 :root{
-  /* newtil-css 의 기본 색상 팔레트를 자신의 테마에 맞게 재정의하고 싶다면 */
+  /* @newtil/css 의 기본 색상 팔레트를 자신의 테마에 맞게 재정의하고 싶다면 */
   --color-main-1:red;
   --color-main-2:pink;
   --color-main-2:purple;
   --color-sub-1:...;    
 }
 
-/* newtil-css 가 제공하지 않는 아이콘을 추가하려면 */
+/* @newtil/css 가 제공하지 않는 아이콘을 추가하려면 */
 .icon\:myicon::before {
   /* 아이콘의 코드 값은 위에서 알려준 Material 2 icons 링크를 통해서 확인할 수 있습니다. */
 	content: "\e88a"; 

@@ -454,7 +454,7 @@ Indeterminate 상태는 주로 부모-자식 관계의 체크박스에서 사용
 
 ```css
 :root {
-  /* newtil-css 의 기본 색상 팔레트를 자신의 테마에 맞게 재정의하고 싶다면 */
+  /* @newtil/css 의 기본 색상 팔레트를 자신의 테마에 맞게 재정의하고 싶다면 */
   --color-main-1: #4caf50;
   --color-main-2: #8bc34a;
   --color-main-3: #689f38;

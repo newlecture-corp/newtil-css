@@ -7,7 +7,7 @@
 ### 설치
 
 ```bash
-npm install newtil-css
+npm install @newtil/css
 ```
 
 ### 기본 사용법
@@ -19,7 +19,7 @@ npm install newtil-css
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NewTil CSS 예제</title>
-  <link rel="stylesheet" href="node_modules/newtil-css/dist/style.css">
+  <link rel="stylesheet" href="node_modules/@newtil/css/dist/style.css">
 </head>
 <body>
   <div>
