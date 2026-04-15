@@ -1,0 +1,1887 @@
+/* ===== OUTLINE UTILITIES ===== */
+
+/* OUTLINE-WIDTH */
+
+.outline-width\:0,
+.olw\:0 {
+	outline-width: var(--border-width-0) !important;
+}
+
+.outline-width\:1,
+.olw\:1 {
+	outline-width: var(--border-width-1) !important;
+}
+
+.outline-width\:2,
+.olw\:2 {
+	outline-width: var(--border-width-2) !important;
+}
+
+.outline-width\:3,
+.olw\:3 {
+	outline-width: var(--border-width-3) !important;
+}
+
+.outline-width\:4,
+.olw\:4 {
+	outline-width: var(--border-width-4) !important;
+}
+
+/* OUTLINE-STYLE */
+
+.outline-style\:none,
+.ols\:none {
+	outline-style: none !important;
+}
+
+.outline-style\:solid,
+.ols\:solid {
+	outline-style: solid !important;
+}
+
+.outline-style\:dashed,
+.ols\:dashed {
+	outline-style: dashed !important;
+}
+
+.outline-style\:dotted,
+.ols\:dotted {
+	outline-style: dotted !important;
+}
+
+.outline-style\:double,
+.ols\:double {
+	outline-style: double !important;
+}
+
+/* OUTLINE-COLOR */
+
+.outline-color\:transparent,
+.olc\:transparent {
+	outline-color: transparent !important;
+}
+
+.outline-color\:current,
+.olc\:current {
+	outline-color: currentColor !important;
+}
+
+.outline-color\:white,
+.olc\:white {
+	outline-color: #ffffff !important;
+}
+
+.outline-color\:black,
+.olc\:black {
+	outline-color: #000000 !important;
+}
+
+.outline-color\:primary,
+.olc\:primary {
+	outline-color: var(--color-primary) !important;
+}
+
+.outline-color\:primary-hover,
+.olc\:primary-hover {
+	outline-color: var(--color-primary-hover) !important;
+}
+
+.outline-color\:primary-active,
+.olc\:primary-active {
+	outline-color: var(--color-primary-active) !important;
+}
+
+.outline-color\:primary-subtle,
+.olc\:primary-subtle {
+	outline-color: var(--color-primary-subtle) !important;
+}
+
+.outline-color\:on-primary,
+.olc\:on-primary {
+	outline-color: var(--color-on-primary) !important;
+}
+
+.outline-color\:secondary,
+.olc\:secondary {
+	outline-color: var(--color-secondary) !important;
+}
+
+.outline-color\:secondary-hover,
+.olc\:secondary-hover {
+	outline-color: var(--color-secondary-hover) !important;
+}
+
+.outline-color\:secondary-active,
+.olc\:secondary-active {
+	outline-color: var(--color-secondary-active) !important;
+}
+
+.outline-color\:secondary-subtle,
+.olc\:secondary-subtle {
+	outline-color: var(--color-secondary-subtle) !important;
+}
+
+.outline-color\:on-secondary,
+.olc\:on-secondary {
+	outline-color: var(--color-on-secondary) !important;
+}
+
+.outline-color\:tertiary,
+.olc\:tertiary {
+	outline-color: var(--color-tertiary) !important;
+}
+
+.outline-color\:tertiary-hover,
+.olc\:tertiary-hover {
+	outline-color: var(--color-tertiary-hover) !important;
+}
+
+.outline-color\:tertiary-active,
+.olc\:tertiary-active {
+	outline-color: var(--color-tertiary-active) !important;
+}
+
+.outline-color\:tertiary-subtle,
+.olc\:tertiary-subtle {
+	outline-color: var(--color-tertiary-subtle) !important;
+}
+
+.outline-color\:on-tertiary,
+.olc\:on-tertiary {
+	outline-color: var(--color-on-tertiary) !important;
+}
+
+.outline-color\:surface,
+.olc\:surface {
+	outline-color: var(--color-surface) !important;
+}
+
+.outline-color\:surface-subtle,
+.olc\:surface-subtle {
+	outline-color: var(--color-surface-subtle) !important;
+}
+
+.outline-color\:surface-muted,
+.olc\:surface-muted {
+	outline-color: var(--color-surface-muted) !important;
+}
+
+.outline-color\:surface-inverse,
+.olc\:surface-inverse {
+	outline-color: var(--color-surface-inverse) !important;
+}
+
+.outline-color\:on-surface,
+.olc\:on-surface {
+	outline-color: var(--color-on-surface) !important;
+}
+
+.outline-color\:on-surface-inverse,
+.olc\:on-surface-inverse {
+	outline-color: var(--color-on-surface-inverse) !important;
+}
+
+.outline-color\:text,
+.olc\:text {
+	outline-color: var(--color-text) !important;
+}
+
+.outline-color\:text-muted,
+.olc\:text-muted {
+	outline-color: var(--color-text-muted) !important;
+}
+
+.outline-color\:text-subtle,
+.olc\:text-subtle {
+	outline-color: var(--color-text-subtle) !important;
+}
+
+.outline-color\:text-inverse,
+.olc\:text-inverse {
+	outline-color: var(--color-text-inverse) !important;
+}
+
+.outline-color\:border,
+.olc\:border {
+	outline-color: var(--color-border) !important;
+}
+
+.outline-color\:border-strong,
+.olc\:border-strong {
+	outline-color: var(--color-border-strong) !important;
+}
+
+.outline-color\:border-subtle,
+.olc\:border-subtle {
+	outline-color: var(--color-border-subtle) !important;
+}
+
+.outline-color\:success,
+.olc\:success {
+	outline-color: var(--color-success) !important;
+}
+
+.outline-color\:success-hover,
+.olc\:success-hover {
+	outline-color: var(--color-success-hover) !important;
+}
+
+.outline-color\:success-active,
+.olc\:success-active {
+	outline-color: var(--color-success-active) !important;
+}
+
+.outline-color\:success-subtle,
+.olc\:success-subtle {
+	outline-color: var(--color-success-subtle) !important;
+}
+
+.outline-color\:on-success,
+.olc\:on-success {
+	outline-color: var(--color-on-success) !important;
+}
+
+.outline-color\:warning,
+.olc\:warning {
+	outline-color: var(--color-warning) !important;
+}
+
+.outline-color\:warning-hover,
+.olc\:warning-hover {
+	outline-color: var(--color-warning-hover) !important;
+}
+
+.outline-color\:warning-active,
+.olc\:warning-active {
+	outline-color: var(--color-warning-active) !important;
+}
+
+.outline-color\:warning-subtle,
+.olc\:warning-subtle {
+	outline-color: var(--color-warning-subtle) !important;
+}
+
+.outline-color\:on-warning,
+.olc\:on-warning {
+	outline-color: var(--color-on-warning) !important;
+}
+
+.outline-color\:danger,
+.olc\:danger {
+	outline-color: var(--color-danger) !important;
+}
+
+.outline-color\:danger-hover,
+.olc\:danger-hover {
+	outline-color: var(--color-danger-hover) !important;
+}
+
+.outline-color\:danger-active,
+.olc\:danger-active {
+	outline-color: var(--color-danger-active) !important;
+}
+
+.outline-color\:danger-subtle,
+.olc\:danger-subtle {
+	outline-color: var(--color-danger-subtle) !important;
+}
+
+.outline-color\:on-danger,
+.olc\:on-danger {
+	outline-color: var(--color-on-danger) !important;
+}
+
+.outline-color\:focus-ring,
+.olc\:focus-ring {
+	outline-color: var(--color-focus-ring) !important;
+}
+
+/* OUTLINE-OFFSET */
+
+.outline-offset\:0,
+.olo\:0 {
+	outline-offset: var(--space-0) !important;
+}
+
+.outline-offset\:1,
+.olo\:1 {
+	outline-offset: var(--space-1) !important;
+}
+
+.outline-offset\:2,
+.olo\:2 {
+	outline-offset: var(--space-2) !important;
+}
+
+.outline-offset\:3,
+.olo\:3 {
+	outline-offset: var(--space-3) !important;
+}
+
+.outline-offset\:4,
+.olo\:4 {
+	outline-offset: var(--space-4) !important;
+}
+
+.outline-offset\:5,
+.olo\:5 {
+	outline-offset: var(--space-5) !important;
+}
+
+.outline-offset\:6,
+.olo\:6 {
+	outline-offset: var(--space-6) !important;
+}
+
+.outline-offset\:7,
+.olo\:7 {
+	outline-offset: var(--space-7) !important;
+}
+
+.outline-offset\:8,
+.olo\:8 {
+	outline-offset: var(--space-8) !important;
+}
+
+.outline-offset\:9,
+.olo\:9 {
+	outline-offset: var(--space-9) !important;
+}
+
+.outline-offset\:10,
+.olo\:10 {
+	outline-offset: var(--space-10) !important;
+}
+
+.outline-offset\:11,
+.olo\:11 {
+	outline-offset: var(--space-11) !important;
+}
+
+.outline-offset\:12,
+.olo\:12 {
+	outline-offset: var(--space-12) !important;
+}
+
+.outline-offset\:13,
+.olo\:13 {
+	outline-offset: var(--space-13) !important;
+}
+
+.outline-offset\:14,
+.olo\:14 {
+	outline-offset: var(--space-14) !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== OUTLINE UTILITIES ===== */
+
+	/* OUTLINE-WIDTH */
+
+	.sm\:outline-width\:0,
+	.sm\:olw\:0 {
+		outline-width: var(--border-width-0) !important;
+	}
+
+	.sm\:outline-width\:1,
+	.sm\:olw\:1 {
+		outline-width: var(--border-width-1) !important;
+	}
+
+	.sm\:outline-width\:2,
+	.sm\:olw\:2 {
+		outline-width: var(--border-width-2) !important;
+	}
+
+	.sm\:outline-width\:3,
+	.sm\:olw\:3 {
+		outline-width: var(--border-width-3) !important;
+	}
+
+	.sm\:outline-width\:4,
+	.sm\:olw\:4 {
+		outline-width: var(--border-width-4) !important;
+	}
+
+	/* OUTLINE-STYLE */
+
+	.sm\:outline-style\:none,
+	.sm\:ols\:none {
+		outline-style: none !important;
+	}
+
+	.sm\:outline-style\:solid,
+	.sm\:ols\:solid {
+		outline-style: solid !important;
+	}
+
+	.sm\:outline-style\:dashed,
+	.sm\:ols\:dashed {
+		outline-style: dashed !important;
+	}
+
+	.sm\:outline-style\:dotted,
+	.sm\:ols\:dotted {
+		outline-style: dotted !important;
+	}
+
+	.sm\:outline-style\:double,
+	.sm\:ols\:double {
+		outline-style: double !important;
+	}
+
+	/* OUTLINE-COLOR */
+
+	.sm\:outline-color\:transparent,
+	.sm\:olc\:transparent {
+		outline-color: transparent !important;
+	}
+
+	.sm\:outline-color\:current,
+	.sm\:olc\:current {
+		outline-color: currentColor !important;
+	}
+
+	.sm\:outline-color\:white,
+	.sm\:olc\:white {
+		outline-color: #ffffff !important;
+	}
+
+	.sm\:outline-color\:black,
+	.sm\:olc\:black {
+		outline-color: #000000 !important;
+	}
+
+	.sm\:outline-color\:primary,
+	.sm\:olc\:primary {
+		outline-color: var(--color-primary) !important;
+	}
+
+	.sm\:outline-color\:primary-hover,
+	.sm\:olc\:primary-hover {
+		outline-color: var(--color-primary-hover) !important;
+	}
+
+	.sm\:outline-color\:primary-active,
+	.sm\:olc\:primary-active {
+		outline-color: var(--color-primary-active) !important;
+	}
+
+	.sm\:outline-color\:primary-subtle,
+	.sm\:olc\:primary-subtle {
+		outline-color: var(--color-primary-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-primary,
+	.sm\:olc\:on-primary {
+		outline-color: var(--color-on-primary) !important;
+	}
+
+	.sm\:outline-color\:secondary,
+	.sm\:olc\:secondary {
+		outline-color: var(--color-secondary) !important;
+	}
+
+	.sm\:outline-color\:secondary-hover,
+	.sm\:olc\:secondary-hover {
+		outline-color: var(--color-secondary-hover) !important;
+	}
+
+	.sm\:outline-color\:secondary-active,
+	.sm\:olc\:secondary-active {
+		outline-color: var(--color-secondary-active) !important;
+	}
+
+	.sm\:outline-color\:secondary-subtle,
+	.sm\:olc\:secondary-subtle {
+		outline-color: var(--color-secondary-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-secondary,
+	.sm\:olc\:on-secondary {
+		outline-color: var(--color-on-secondary) !important;
+	}
+
+	.sm\:outline-color\:tertiary,
+	.sm\:olc\:tertiary {
+		outline-color: var(--color-tertiary) !important;
+	}
+
+	.sm\:outline-color\:tertiary-hover,
+	.sm\:olc\:tertiary-hover {
+		outline-color: var(--color-tertiary-hover) !important;
+	}
+
+	.sm\:outline-color\:tertiary-active,
+	.sm\:olc\:tertiary-active {
+		outline-color: var(--color-tertiary-active) !important;
+	}
+
+	.sm\:outline-color\:tertiary-subtle,
+	.sm\:olc\:tertiary-subtle {
+		outline-color: var(--color-tertiary-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-tertiary,
+	.sm\:olc\:on-tertiary {
+		outline-color: var(--color-on-tertiary) !important;
+	}
+
+	.sm\:outline-color\:surface,
+	.sm\:olc\:surface {
+		outline-color: var(--color-surface) !important;
+	}
+
+	.sm\:outline-color\:surface-subtle,
+	.sm\:olc\:surface-subtle {
+		outline-color: var(--color-surface-subtle) !important;
+	}
+
+	.sm\:outline-color\:surface-muted,
+	.sm\:olc\:surface-muted {
+		outline-color: var(--color-surface-muted) !important;
+	}
+
+	.sm\:outline-color\:surface-inverse,
+	.sm\:olc\:surface-inverse {
+		outline-color: var(--color-surface-inverse) !important;
+	}
+
+	.sm\:outline-color\:on-surface,
+	.sm\:olc\:on-surface {
+		outline-color: var(--color-on-surface) !important;
+	}
+
+	.sm\:outline-color\:on-surface-inverse,
+	.sm\:olc\:on-surface-inverse {
+		outline-color: var(--color-on-surface-inverse) !important;
+	}
+
+	.sm\:outline-color\:text,
+	.sm\:olc\:text {
+		outline-color: var(--color-text) !important;
+	}
+
+	.sm\:outline-color\:text-muted,
+	.sm\:olc\:text-muted {
+		outline-color: var(--color-text-muted) !important;
+	}
+
+	.sm\:outline-color\:text-subtle,
+	.sm\:olc\:text-subtle {
+		outline-color: var(--color-text-subtle) !important;
+	}
+
+	.sm\:outline-color\:text-inverse,
+	.sm\:olc\:text-inverse {
+		outline-color: var(--color-text-inverse) !important;
+	}
+
+	.sm\:outline-color\:border,
+	.sm\:olc\:border {
+		outline-color: var(--color-border) !important;
+	}
+
+	.sm\:outline-color\:border-strong,
+	.sm\:olc\:border-strong {
+		outline-color: var(--color-border-strong) !important;
+	}
+
+	.sm\:outline-color\:border-subtle,
+	.sm\:olc\:border-subtle {
+		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:outline-color\:success,
+	.sm\:olc\:success {
+		outline-color: var(--color-success) !important;
+	}
+
+	.sm\:outline-color\:success-hover,
+	.sm\:olc\:success-hover {
+		outline-color: var(--color-success-hover) !important;
+	}
+
+	.sm\:outline-color\:success-active,
+	.sm\:olc\:success-active {
+		outline-color: var(--color-success-active) !important;
+	}
+
+	.sm\:outline-color\:success-subtle,
+	.sm\:olc\:success-subtle {
+		outline-color: var(--color-success-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-success,
+	.sm\:olc\:on-success {
+		outline-color: var(--color-on-success) !important;
+	}
+
+	.sm\:outline-color\:warning,
+	.sm\:olc\:warning {
+		outline-color: var(--color-warning) !important;
+	}
+
+	.sm\:outline-color\:warning-hover,
+	.sm\:olc\:warning-hover {
+		outline-color: var(--color-warning-hover) !important;
+	}
+
+	.sm\:outline-color\:warning-active,
+	.sm\:olc\:warning-active {
+		outline-color: var(--color-warning-active) !important;
+	}
+
+	.sm\:outline-color\:warning-subtle,
+	.sm\:olc\:warning-subtle {
+		outline-color: var(--color-warning-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-warning,
+	.sm\:olc\:on-warning {
+		outline-color: var(--color-on-warning) !important;
+	}
+
+	.sm\:outline-color\:danger,
+	.sm\:olc\:danger {
+		outline-color: var(--color-danger) !important;
+	}
+
+	.sm\:outline-color\:danger-hover,
+	.sm\:olc\:danger-hover {
+		outline-color: var(--color-danger-hover) !important;
+	}
+
+	.sm\:outline-color\:danger-active,
+	.sm\:olc\:danger-active {
+		outline-color: var(--color-danger-active) !important;
+	}
+
+	.sm\:outline-color\:danger-subtle,
+	.sm\:olc\:danger-subtle {
+		outline-color: var(--color-danger-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-danger,
+	.sm\:olc\:on-danger {
+		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:outline-color\:focus-ring,
+	.sm\:olc\:focus-ring {
+		outline-color: var(--color-focus-ring) !important;
+	}
+
+	/* OUTLINE-OFFSET */
+
+	.sm\:outline-offset\:0,
+	.sm\:olo\:0 {
+		outline-offset: var(--space-0) !important;
+	}
+
+	.sm\:outline-offset\:1,
+	.sm\:olo\:1 {
+		outline-offset: var(--space-1) !important;
+	}
+
+	.sm\:outline-offset\:2,
+	.sm\:olo\:2 {
+		outline-offset: var(--space-2) !important;
+	}
+
+	.sm\:outline-offset\:3,
+	.sm\:olo\:3 {
+		outline-offset: var(--space-3) !important;
+	}
+
+	.sm\:outline-offset\:4,
+	.sm\:olo\:4 {
+		outline-offset: var(--space-4) !important;
+	}
+
+	.sm\:outline-offset\:5,
+	.sm\:olo\:5 {
+		outline-offset: var(--space-5) !important;
+	}
+
+	.sm\:outline-offset\:6,
+	.sm\:olo\:6 {
+		outline-offset: var(--space-6) !important;
+	}
+
+	.sm\:outline-offset\:7,
+	.sm\:olo\:7 {
+		outline-offset: var(--space-7) !important;
+	}
+
+	.sm\:outline-offset\:8,
+	.sm\:olo\:8 {
+		outline-offset: var(--space-8) !important;
+	}
+
+	.sm\:outline-offset\:9,
+	.sm\:olo\:9 {
+		outline-offset: var(--space-9) !important;
+	}
+
+	.sm\:outline-offset\:10,
+	.sm\:olo\:10 {
+		outline-offset: var(--space-10) !important;
+	}
+
+	.sm\:outline-offset\:11,
+	.sm\:olo\:11 {
+		outline-offset: var(--space-11) !important;
+	}
+
+	.sm\:outline-offset\:12,
+	.sm\:olo\:12 {
+		outline-offset: var(--space-12) !important;
+	}
+
+	.sm\:outline-offset\:13,
+	.sm\:olo\:13 {
+		outline-offset: var(--space-13) !important;
+	}
+
+	.sm\:outline-offset\:14,
+	.sm\:olo\:14 {
+		outline-offset: var(--space-14) !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== OUTLINE UTILITIES ===== */
+
+	/* OUTLINE-WIDTH */
+
+	.md\:outline-width\:0,
+	.md\:olw\:0 {
+		outline-width: var(--border-width-0) !important;
+	}
+
+	.md\:outline-width\:1,
+	.md\:olw\:1 {
+		outline-width: var(--border-width-1) !important;
+	}
+
+	.md\:outline-width\:2,
+	.md\:olw\:2 {
+		outline-width: var(--border-width-2) !important;
+	}
+
+	.md\:outline-width\:3,
+	.md\:olw\:3 {
+		outline-width: var(--border-width-3) !important;
+	}
+
+	.md\:outline-width\:4,
+	.md\:olw\:4 {
+		outline-width: var(--border-width-4) !important;
+	}
+
+	/* OUTLINE-STYLE */
+
+	.md\:outline-style\:none,
+	.md\:ols\:none {
+		outline-style: none !important;
+	}
+
+	.md\:outline-style\:solid,
+	.md\:ols\:solid {
+		outline-style: solid !important;
+	}
+
+	.md\:outline-style\:dashed,
+	.md\:ols\:dashed {
+		outline-style: dashed !important;
+	}
+
+	.md\:outline-style\:dotted,
+	.md\:ols\:dotted {
+		outline-style: dotted !important;
+	}
+
+	.md\:outline-style\:double,
+	.md\:ols\:double {
+		outline-style: double !important;
+	}
+
+	/* OUTLINE-COLOR */
+
+	.md\:outline-color\:transparent,
+	.md\:olc\:transparent {
+		outline-color: transparent !important;
+	}
+
+	.md\:outline-color\:current,
+	.md\:olc\:current {
+		outline-color: currentColor !important;
+	}
+
+	.md\:outline-color\:white,
+	.md\:olc\:white {
+		outline-color: #ffffff !important;
+	}
+
+	.md\:outline-color\:black,
+	.md\:olc\:black {
+		outline-color: #000000 !important;
+	}
+
+	.md\:outline-color\:primary,
+	.md\:olc\:primary {
+		outline-color: var(--color-primary) !important;
+	}
+
+	.md\:outline-color\:primary-hover,
+	.md\:olc\:primary-hover {
+		outline-color: var(--color-primary-hover) !important;
+	}
+
+	.md\:outline-color\:primary-active,
+	.md\:olc\:primary-active {
+		outline-color: var(--color-primary-active) !important;
+	}
+
+	.md\:outline-color\:primary-subtle,
+	.md\:olc\:primary-subtle {
+		outline-color: var(--color-primary-subtle) !important;
+	}
+
+	.md\:outline-color\:on-primary,
+	.md\:olc\:on-primary {
+		outline-color: var(--color-on-primary) !important;
+	}
+
+	.md\:outline-color\:secondary,
+	.md\:olc\:secondary {
+		outline-color: var(--color-secondary) !important;
+	}
+
+	.md\:outline-color\:secondary-hover,
+	.md\:olc\:secondary-hover {
+		outline-color: var(--color-secondary-hover) !important;
+	}
+
+	.md\:outline-color\:secondary-active,
+	.md\:olc\:secondary-active {
+		outline-color: var(--color-secondary-active) !important;
+	}
+
+	.md\:outline-color\:secondary-subtle,
+	.md\:olc\:secondary-subtle {
+		outline-color: var(--color-secondary-subtle) !important;
+	}
+
+	.md\:outline-color\:on-secondary,
+	.md\:olc\:on-secondary {
+		outline-color: var(--color-on-secondary) !important;
+	}
+
+	.md\:outline-color\:tertiary,
+	.md\:olc\:tertiary {
+		outline-color: var(--color-tertiary) !important;
+	}
+
+	.md\:outline-color\:tertiary-hover,
+	.md\:olc\:tertiary-hover {
+		outline-color: var(--color-tertiary-hover) !important;
+	}
+
+	.md\:outline-color\:tertiary-active,
+	.md\:olc\:tertiary-active {
+		outline-color: var(--color-tertiary-active) !important;
+	}
+
+	.md\:outline-color\:tertiary-subtle,
+	.md\:olc\:tertiary-subtle {
+		outline-color: var(--color-tertiary-subtle) !important;
+	}
+
+	.md\:outline-color\:on-tertiary,
+	.md\:olc\:on-tertiary {
+		outline-color: var(--color-on-tertiary) !important;
+	}
+
+	.md\:outline-color\:surface,
+	.md\:olc\:surface {
+		outline-color: var(--color-surface) !important;
+	}
+
+	.md\:outline-color\:surface-subtle,
+	.md\:olc\:surface-subtle {
+		outline-color: var(--color-surface-subtle) !important;
+	}
+
+	.md\:outline-color\:surface-muted,
+	.md\:olc\:surface-muted {
+		outline-color: var(--color-surface-muted) !important;
+	}
+
+	.md\:outline-color\:surface-inverse,
+	.md\:olc\:surface-inverse {
+		outline-color: var(--color-surface-inverse) !important;
+	}
+
+	.md\:outline-color\:on-surface,
+	.md\:olc\:on-surface {
+		outline-color: var(--color-on-surface) !important;
+	}
+
+	.md\:outline-color\:on-surface-inverse,
+	.md\:olc\:on-surface-inverse {
+		outline-color: var(--color-on-surface-inverse) !important;
+	}
+
+	.md\:outline-color\:text,
+	.md\:olc\:text {
+		outline-color: var(--color-text) !important;
+	}
+
+	.md\:outline-color\:text-muted,
+	.md\:olc\:text-muted {
+		outline-color: var(--color-text-muted) !important;
+	}
+
+	.md\:outline-color\:text-subtle,
+	.md\:olc\:text-subtle {
+		outline-color: var(--color-text-subtle) !important;
+	}
+
+	.md\:outline-color\:text-inverse,
+	.md\:olc\:text-inverse {
+		outline-color: var(--color-text-inverse) !important;
+	}
+
+	.md\:outline-color\:border,
+	.md\:olc\:border {
+		outline-color: var(--color-border) !important;
+	}
+
+	.md\:outline-color\:border-strong,
+	.md\:olc\:border-strong {
+		outline-color: var(--color-border-strong) !important;
+	}
+
+	.md\:outline-color\:border-subtle,
+	.md\:olc\:border-subtle {
+		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:outline-color\:success,
+	.md\:olc\:success {
+		outline-color: var(--color-success) !important;
+	}
+
+	.md\:outline-color\:success-hover,
+	.md\:olc\:success-hover {
+		outline-color: var(--color-success-hover) !important;
+	}
+
+	.md\:outline-color\:success-active,
+	.md\:olc\:success-active {
+		outline-color: var(--color-success-active) !important;
+	}
+
+	.md\:outline-color\:success-subtle,
+	.md\:olc\:success-subtle {
+		outline-color: var(--color-success-subtle) !important;
+	}
+
+	.md\:outline-color\:on-success,
+	.md\:olc\:on-success {
+		outline-color: var(--color-on-success) !important;
+	}
+
+	.md\:outline-color\:warning,
+	.md\:olc\:warning {
+		outline-color: var(--color-warning) !important;
+	}
+
+	.md\:outline-color\:warning-hover,
+	.md\:olc\:warning-hover {
+		outline-color: var(--color-warning-hover) !important;
+	}
+
+	.md\:outline-color\:warning-active,
+	.md\:olc\:warning-active {
+		outline-color: var(--color-warning-active) !important;
+	}
+
+	.md\:outline-color\:warning-subtle,
+	.md\:olc\:warning-subtle {
+		outline-color: var(--color-warning-subtle) !important;
+	}
+
+	.md\:outline-color\:on-warning,
+	.md\:olc\:on-warning {
+		outline-color: var(--color-on-warning) !important;
+	}
+
+	.md\:outline-color\:danger,
+	.md\:olc\:danger {
+		outline-color: var(--color-danger) !important;
+	}
+
+	.md\:outline-color\:danger-hover,
+	.md\:olc\:danger-hover {
+		outline-color: var(--color-danger-hover) !important;
+	}
+
+	.md\:outline-color\:danger-active,
+	.md\:olc\:danger-active {
+		outline-color: var(--color-danger-active) !important;
+	}
+
+	.md\:outline-color\:danger-subtle,
+	.md\:olc\:danger-subtle {
+		outline-color: var(--color-danger-subtle) !important;
+	}
+
+	.md\:outline-color\:on-danger,
+	.md\:olc\:on-danger {
+		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:outline-color\:focus-ring,
+	.md\:olc\:focus-ring {
+		outline-color: var(--color-focus-ring) !important;
+	}
+
+	/* OUTLINE-OFFSET */
+
+	.md\:outline-offset\:0,
+	.md\:olo\:0 {
+		outline-offset: var(--space-0) !important;
+	}
+
+	.md\:outline-offset\:1,
+	.md\:olo\:1 {
+		outline-offset: var(--space-1) !important;
+	}
+
+	.md\:outline-offset\:2,
+	.md\:olo\:2 {
+		outline-offset: var(--space-2) !important;
+	}
+
+	.md\:outline-offset\:3,
+	.md\:olo\:3 {
+		outline-offset: var(--space-3) !important;
+	}
+
+	.md\:outline-offset\:4,
+	.md\:olo\:4 {
+		outline-offset: var(--space-4) !important;
+	}
+
+	.md\:outline-offset\:5,
+	.md\:olo\:5 {
+		outline-offset: var(--space-5) !important;
+	}
+
+	.md\:outline-offset\:6,
+	.md\:olo\:6 {
+		outline-offset: var(--space-6) !important;
+	}
+
+	.md\:outline-offset\:7,
+	.md\:olo\:7 {
+		outline-offset: var(--space-7) !important;
+	}
+
+	.md\:outline-offset\:8,
+	.md\:olo\:8 {
+		outline-offset: var(--space-8) !important;
+	}
+
+	.md\:outline-offset\:9,
+	.md\:olo\:9 {
+		outline-offset: var(--space-9) !important;
+	}
+
+	.md\:outline-offset\:10,
+	.md\:olo\:10 {
+		outline-offset: var(--space-10) !important;
+	}
+
+	.md\:outline-offset\:11,
+	.md\:olo\:11 {
+		outline-offset: var(--space-11) !important;
+	}
+
+	.md\:outline-offset\:12,
+	.md\:olo\:12 {
+		outline-offset: var(--space-12) !important;
+	}
+
+	.md\:outline-offset\:13,
+	.md\:olo\:13 {
+		outline-offset: var(--space-13) !important;
+	}
+
+	.md\:outline-offset\:14,
+	.md\:olo\:14 {
+		outline-offset: var(--space-14) !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== OUTLINE UTILITIES ===== */
+
+	/* OUTLINE-WIDTH */
+
+	.lg\:outline-width\:0,
+	.lg\:olw\:0 {
+		outline-width: var(--border-width-0) !important;
+	}
+
+	.lg\:outline-width\:1,
+	.lg\:olw\:1 {
+		outline-width: var(--border-width-1) !important;
+	}
+
+	.lg\:outline-width\:2,
+	.lg\:olw\:2 {
+		outline-width: var(--border-width-2) !important;
+	}
+
+	.lg\:outline-width\:3,
+	.lg\:olw\:3 {
+		outline-width: var(--border-width-3) !important;
+	}
+
+	.lg\:outline-width\:4,
+	.lg\:olw\:4 {
+		outline-width: var(--border-width-4) !important;
+	}
+
+	/* OUTLINE-STYLE */
+
+	.lg\:outline-style\:none,
+	.lg\:ols\:none {
+		outline-style: none !important;
+	}
+
+	.lg\:outline-style\:solid,
+	.lg\:ols\:solid {
+		outline-style: solid !important;
+	}
+
+	.lg\:outline-style\:dashed,
+	.lg\:ols\:dashed {
+		outline-style: dashed !important;
+	}
+
+	.lg\:outline-style\:dotted,
+	.lg\:ols\:dotted {
+		outline-style: dotted !important;
+	}
+
+	.lg\:outline-style\:double,
+	.lg\:ols\:double {
+		outline-style: double !important;
+	}
+
+	/* OUTLINE-COLOR */
+
+	.lg\:outline-color\:transparent,
+	.lg\:olc\:transparent {
+		outline-color: transparent !important;
+	}
+
+	.lg\:outline-color\:current,
+	.lg\:olc\:current {
+		outline-color: currentColor !important;
+	}
+
+	.lg\:outline-color\:white,
+	.lg\:olc\:white {
+		outline-color: #ffffff !important;
+	}
+
+	.lg\:outline-color\:black,
+	.lg\:olc\:black {
+		outline-color: #000000 !important;
+	}
+
+	.lg\:outline-color\:primary,
+	.lg\:olc\:primary {
+		outline-color: var(--color-primary) !important;
+	}
+
+	.lg\:outline-color\:primary-hover,
+	.lg\:olc\:primary-hover {
+		outline-color: var(--color-primary-hover) !important;
+	}
+
+	.lg\:outline-color\:primary-active,
+	.lg\:olc\:primary-active {
+		outline-color: var(--color-primary-active) !important;
+	}
+
+	.lg\:outline-color\:primary-subtle,
+	.lg\:olc\:primary-subtle {
+		outline-color: var(--color-primary-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-primary,
+	.lg\:olc\:on-primary {
+		outline-color: var(--color-on-primary) !important;
+	}
+
+	.lg\:outline-color\:secondary,
+	.lg\:olc\:secondary {
+		outline-color: var(--color-secondary) !important;
+	}
+
+	.lg\:outline-color\:secondary-hover,
+	.lg\:olc\:secondary-hover {
+		outline-color: var(--color-secondary-hover) !important;
+	}
+
+	.lg\:outline-color\:secondary-active,
+	.lg\:olc\:secondary-active {
+		outline-color: var(--color-secondary-active) !important;
+	}
+
+	.lg\:outline-color\:secondary-subtle,
+	.lg\:olc\:secondary-subtle {
+		outline-color: var(--color-secondary-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-secondary,
+	.lg\:olc\:on-secondary {
+		outline-color: var(--color-on-secondary) !important;
+	}
+
+	.lg\:outline-color\:tertiary,
+	.lg\:olc\:tertiary {
+		outline-color: var(--color-tertiary) !important;
+	}
+
+	.lg\:outline-color\:tertiary-hover,
+	.lg\:olc\:tertiary-hover {
+		outline-color: var(--color-tertiary-hover) !important;
+	}
+
+	.lg\:outline-color\:tertiary-active,
+	.lg\:olc\:tertiary-active {
+		outline-color: var(--color-tertiary-active) !important;
+	}
+
+	.lg\:outline-color\:tertiary-subtle,
+	.lg\:olc\:tertiary-subtle {
+		outline-color: var(--color-tertiary-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-tertiary,
+	.lg\:olc\:on-tertiary {
+		outline-color: var(--color-on-tertiary) !important;
+	}
+
+	.lg\:outline-color\:surface,
+	.lg\:olc\:surface {
+		outline-color: var(--color-surface) !important;
+	}
+
+	.lg\:outline-color\:surface-subtle,
+	.lg\:olc\:surface-subtle {
+		outline-color: var(--color-surface-subtle) !important;
+	}
+
+	.lg\:outline-color\:surface-muted,
+	.lg\:olc\:surface-muted {
+		outline-color: var(--color-surface-muted) !important;
+	}
+
+	.lg\:outline-color\:surface-inverse,
+	.lg\:olc\:surface-inverse {
+		outline-color: var(--color-surface-inverse) !important;
+	}
+
+	.lg\:outline-color\:on-surface,
+	.lg\:olc\:on-surface {
+		outline-color: var(--color-on-surface) !important;
+	}
+
+	.lg\:outline-color\:on-surface-inverse,
+	.lg\:olc\:on-surface-inverse {
+		outline-color: var(--color-on-surface-inverse) !important;
+	}
+
+	.lg\:outline-color\:text,
+	.lg\:olc\:text {
+		outline-color: var(--color-text) !important;
+	}
+
+	.lg\:outline-color\:text-muted,
+	.lg\:olc\:text-muted {
+		outline-color: var(--color-text-muted) !important;
+	}
+
+	.lg\:outline-color\:text-subtle,
+	.lg\:olc\:text-subtle {
+		outline-color: var(--color-text-subtle) !important;
+	}
+
+	.lg\:outline-color\:text-inverse,
+	.lg\:olc\:text-inverse {
+		outline-color: var(--color-text-inverse) !important;
+	}
+
+	.lg\:outline-color\:border,
+	.lg\:olc\:border {
+		outline-color: var(--color-border) !important;
+	}
+
+	.lg\:outline-color\:border-strong,
+	.lg\:olc\:border-strong {
+		outline-color: var(--color-border-strong) !important;
+	}
+
+	.lg\:outline-color\:border-subtle,
+	.lg\:olc\:border-subtle {
+		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:outline-color\:success,
+	.lg\:olc\:success {
+		outline-color: var(--color-success) !important;
+	}
+
+	.lg\:outline-color\:success-hover,
+	.lg\:olc\:success-hover {
+		outline-color: var(--color-success-hover) !important;
+	}
+
+	.lg\:outline-color\:success-active,
+	.lg\:olc\:success-active {
+		outline-color: var(--color-success-active) !important;
+	}
+
+	.lg\:outline-color\:success-subtle,
+	.lg\:olc\:success-subtle {
+		outline-color: var(--color-success-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-success,
+	.lg\:olc\:on-success {
+		outline-color: var(--color-on-success) !important;
+	}
+
+	.lg\:outline-color\:warning,
+	.lg\:olc\:warning {
+		outline-color: var(--color-warning) !important;
+	}
+
+	.lg\:outline-color\:warning-hover,
+	.lg\:olc\:warning-hover {
+		outline-color: var(--color-warning-hover) !important;
+	}
+
+	.lg\:outline-color\:warning-active,
+	.lg\:olc\:warning-active {
+		outline-color: var(--color-warning-active) !important;
+	}
+
+	.lg\:outline-color\:warning-subtle,
+	.lg\:olc\:warning-subtle {
+		outline-color: var(--color-warning-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-warning,
+	.lg\:olc\:on-warning {
+		outline-color: var(--color-on-warning) !important;
+	}
+
+	.lg\:outline-color\:danger,
+	.lg\:olc\:danger {
+		outline-color: var(--color-danger) !important;
+	}
+
+	.lg\:outline-color\:danger-hover,
+	.lg\:olc\:danger-hover {
+		outline-color: var(--color-danger-hover) !important;
+	}
+
+	.lg\:outline-color\:danger-active,
+	.lg\:olc\:danger-active {
+		outline-color: var(--color-danger-active) !important;
+	}
+
+	.lg\:outline-color\:danger-subtle,
+	.lg\:olc\:danger-subtle {
+		outline-color: var(--color-danger-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-danger,
+	.lg\:olc\:on-danger {
+		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:outline-color\:focus-ring,
+	.lg\:olc\:focus-ring {
+		outline-color: var(--color-focus-ring) !important;
+	}
+
+	/* OUTLINE-OFFSET */
+
+	.lg\:outline-offset\:0,
+	.lg\:olo\:0 {
+		outline-offset: var(--space-0) !important;
+	}
+
+	.lg\:outline-offset\:1,
+	.lg\:olo\:1 {
+		outline-offset: var(--space-1) !important;
+	}
+
+	.lg\:outline-offset\:2,
+	.lg\:olo\:2 {
+		outline-offset: var(--space-2) !important;
+	}
+
+	.lg\:outline-offset\:3,
+	.lg\:olo\:3 {
+		outline-offset: var(--space-3) !important;
+	}
+
+	.lg\:outline-offset\:4,
+	.lg\:olo\:4 {
+		outline-offset: var(--space-4) !important;
+	}
+
+	.lg\:outline-offset\:5,
+	.lg\:olo\:5 {
+		outline-offset: var(--space-5) !important;
+	}
+
+	.lg\:outline-offset\:6,
+	.lg\:olo\:6 {
+		outline-offset: var(--space-6) !important;
+	}
+
+	.lg\:outline-offset\:7,
+	.lg\:olo\:7 {
+		outline-offset: var(--space-7) !important;
+	}
+
+	.lg\:outline-offset\:8,
+	.lg\:olo\:8 {
+		outline-offset: var(--space-8) !important;
+	}
+
+	.lg\:outline-offset\:9,
+	.lg\:olo\:9 {
+		outline-offset: var(--space-9) !important;
+	}
+
+	.lg\:outline-offset\:10,
+	.lg\:olo\:10 {
+		outline-offset: var(--space-10) !important;
+	}
+
+	.lg\:outline-offset\:11,
+	.lg\:olo\:11 {
+		outline-offset: var(--space-11) !important;
+	}
+
+	.lg\:outline-offset\:12,
+	.lg\:olo\:12 {
+		outline-offset: var(--space-12) !important;
+	}
+
+	.lg\:outline-offset\:13,
+	.lg\:olo\:13 {
+		outline-offset: var(--space-13) !important;
+	}
+
+	.lg\:outline-offset\:14,
+	.lg\:olo\:14 {
+		outline-offset: var(--space-14) !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== OUTLINE UTILITIES ===== */
+
+	/* OUTLINE-WIDTH */
+
+	.xl\:outline-width\:0,
+	.xl\:olw\:0 {
+		outline-width: var(--border-width-0) !important;
+	}
+
+	.xl\:outline-width\:1,
+	.xl\:olw\:1 {
+		outline-width: var(--border-width-1) !important;
+	}
+
+	.xl\:outline-width\:2,
+	.xl\:olw\:2 {
+		outline-width: var(--border-width-2) !important;
+	}
+
+	.xl\:outline-width\:3,
+	.xl\:olw\:3 {
+		outline-width: var(--border-width-3) !important;
+	}
+
+	.xl\:outline-width\:4,
+	.xl\:olw\:4 {
+		outline-width: var(--border-width-4) !important;
+	}
+
+	/* OUTLINE-STYLE */
+
+	.xl\:outline-style\:none,
+	.xl\:ols\:none {
+		outline-style: none !important;
+	}
+
+	.xl\:outline-style\:solid,
+	.xl\:ols\:solid {
+		outline-style: solid !important;
+	}
+
+	.xl\:outline-style\:dashed,
+	.xl\:ols\:dashed {
+		outline-style: dashed !important;
+	}
+
+	.xl\:outline-style\:dotted,
+	.xl\:ols\:dotted {
+		outline-style: dotted !important;
+	}
+
+	.xl\:outline-style\:double,
+	.xl\:ols\:double {
+		outline-style: double !important;
+	}
+
+	/* OUTLINE-COLOR */
+
+	.xl\:outline-color\:transparent,
+	.xl\:olc\:transparent {
+		outline-color: transparent !important;
+	}
+
+	.xl\:outline-color\:current,
+	.xl\:olc\:current {
+		outline-color: currentColor !important;
+	}
+
+	.xl\:outline-color\:white,
+	.xl\:olc\:white {
+		outline-color: #ffffff !important;
+	}
+
+	.xl\:outline-color\:black,
+	.xl\:olc\:black {
+		outline-color: #000000 !important;
+	}
+
+	.xl\:outline-color\:primary,
+	.xl\:olc\:primary {
+		outline-color: var(--color-primary) !important;
+	}
+
+	.xl\:outline-color\:primary-hover,
+	.xl\:olc\:primary-hover {
+		outline-color: var(--color-primary-hover) !important;
+	}
+
+	.xl\:outline-color\:primary-active,
+	.xl\:olc\:primary-active {
+		outline-color: var(--color-primary-active) !important;
+	}
+
+	.xl\:outline-color\:primary-subtle,
+	.xl\:olc\:primary-subtle {
+		outline-color: var(--color-primary-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-primary,
+	.xl\:olc\:on-primary {
+		outline-color: var(--color-on-primary) !important;
+	}
+
+	.xl\:outline-color\:secondary,
+	.xl\:olc\:secondary {
+		outline-color: var(--color-secondary) !important;
+	}
+
+	.xl\:outline-color\:secondary-hover,
+	.xl\:olc\:secondary-hover {
+		outline-color: var(--color-secondary-hover) !important;
+	}
+
+	.xl\:outline-color\:secondary-active,
+	.xl\:olc\:secondary-active {
+		outline-color: var(--color-secondary-active) !important;
+	}
+
+	.xl\:outline-color\:secondary-subtle,
+	.xl\:olc\:secondary-subtle {
+		outline-color: var(--color-secondary-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-secondary,
+	.xl\:olc\:on-secondary {
+		outline-color: var(--color-on-secondary) !important;
+	}
+
+	.xl\:outline-color\:tertiary,
+	.xl\:olc\:tertiary {
+		outline-color: var(--color-tertiary) !important;
+	}
+
+	.xl\:outline-color\:tertiary-hover,
+	.xl\:olc\:tertiary-hover {
+		outline-color: var(--color-tertiary-hover) !important;
+	}
+
+	.xl\:outline-color\:tertiary-active,
+	.xl\:olc\:tertiary-active {
+		outline-color: var(--color-tertiary-active) !important;
+	}
+
+	.xl\:outline-color\:tertiary-subtle,
+	.xl\:olc\:tertiary-subtle {
+		outline-color: var(--color-tertiary-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-tertiary,
+	.xl\:olc\:on-tertiary {
+		outline-color: var(--color-on-tertiary) !important;
+	}
+
+	.xl\:outline-color\:surface,
+	.xl\:olc\:surface {
+		outline-color: var(--color-surface) !important;
+	}
+
+	.xl\:outline-color\:surface-subtle,
+	.xl\:olc\:surface-subtle {
+		outline-color: var(--color-surface-subtle) !important;
+	}
+
+	.xl\:outline-color\:surface-muted,
+	.xl\:olc\:surface-muted {
+		outline-color: var(--color-surface-muted) !important;
+	}
+
+	.xl\:outline-color\:surface-inverse,
+	.xl\:olc\:surface-inverse {
+		outline-color: var(--color-surface-inverse) !important;
+	}
+
+	.xl\:outline-color\:on-surface,
+	.xl\:olc\:on-surface {
+		outline-color: var(--color-on-surface) !important;
+	}
+
+	.xl\:outline-color\:on-surface-inverse,
+	.xl\:olc\:on-surface-inverse {
+		outline-color: var(--color-on-surface-inverse) !important;
+	}
+
+	.xl\:outline-color\:text,
+	.xl\:olc\:text {
+		outline-color: var(--color-text) !important;
+	}
+
+	.xl\:outline-color\:text-muted,
+	.xl\:olc\:text-muted {
+		outline-color: var(--color-text-muted) !important;
+	}
+
+	.xl\:outline-color\:text-subtle,
+	.xl\:olc\:text-subtle {
+		outline-color: var(--color-text-subtle) !important;
+	}
+
+	.xl\:outline-color\:text-inverse,
+	.xl\:olc\:text-inverse {
+		outline-color: var(--color-text-inverse) !important;
+	}
+
+	.xl\:outline-color\:border,
+	.xl\:olc\:border {
+		outline-color: var(--color-border) !important;
+	}
+
+	.xl\:outline-color\:border-strong,
+	.xl\:olc\:border-strong {
+		outline-color: var(--color-border-strong) !important;
+	}
+
+	.xl\:outline-color\:border-subtle,
+	.xl\:olc\:border-subtle {
+		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:outline-color\:success,
+	.xl\:olc\:success {
+		outline-color: var(--color-success) !important;
+	}
+
+	.xl\:outline-color\:success-hover,
+	.xl\:olc\:success-hover {
+		outline-color: var(--color-success-hover) !important;
+	}
+
+	.xl\:outline-color\:success-active,
+	.xl\:olc\:success-active {
+		outline-color: var(--color-success-active) !important;
+	}
+
+	.xl\:outline-color\:success-subtle,
+	.xl\:olc\:success-subtle {
+		outline-color: var(--color-success-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-success,
+	.xl\:olc\:on-success {
+		outline-color: var(--color-on-success) !important;
+	}
+
+	.xl\:outline-color\:warning,
+	.xl\:olc\:warning {
+		outline-color: var(--color-warning) !important;
+	}
+
+	.xl\:outline-color\:warning-hover,
+	.xl\:olc\:warning-hover {
+		outline-color: var(--color-warning-hover) !important;
+	}
+
+	.xl\:outline-color\:warning-active,
+	.xl\:olc\:warning-active {
+		outline-color: var(--color-warning-active) !important;
+	}
+
+	.xl\:outline-color\:warning-subtle,
+	.xl\:olc\:warning-subtle {
+		outline-color: var(--color-warning-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-warning,
+	.xl\:olc\:on-warning {
+		outline-color: var(--color-on-warning) !important;
+	}
+
+	.xl\:outline-color\:danger,
+	.xl\:olc\:danger {
+		outline-color: var(--color-danger) !important;
+	}
+
+	.xl\:outline-color\:danger-hover,
+	.xl\:olc\:danger-hover {
+		outline-color: var(--color-danger-hover) !important;
+	}
+
+	.xl\:outline-color\:danger-active,
+	.xl\:olc\:danger-active {
+		outline-color: var(--color-danger-active) !important;
+	}
+
+	.xl\:outline-color\:danger-subtle,
+	.xl\:olc\:danger-subtle {
+		outline-color: var(--color-danger-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-danger,
+	.xl\:olc\:on-danger {
+		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:outline-color\:focus-ring,
+	.xl\:olc\:focus-ring {
+		outline-color: var(--color-focus-ring) !important;
+	}
+
+	/* OUTLINE-OFFSET */
+
+	.xl\:outline-offset\:0,
+	.xl\:olo\:0 {
+		outline-offset: var(--space-0) !important;
+	}
+
+	.xl\:outline-offset\:1,
+	.xl\:olo\:1 {
+		outline-offset: var(--space-1) !important;
+	}
+
+	.xl\:outline-offset\:2,
+	.xl\:olo\:2 {
+		outline-offset: var(--space-2) !important;
+	}
+
+	.xl\:outline-offset\:3,
+	.xl\:olo\:3 {
+		outline-offset: var(--space-3) !important;
+	}
+
+	.xl\:outline-offset\:4,
+	.xl\:olo\:4 {
+		outline-offset: var(--space-4) !important;
+	}
+
+	.xl\:outline-offset\:5,
+	.xl\:olo\:5 {
+		outline-offset: var(--space-5) !important;
+	}
+
+	.xl\:outline-offset\:6,
+	.xl\:olo\:6 {
+		outline-offset: var(--space-6) !important;
+	}
+
+	.xl\:outline-offset\:7,
+	.xl\:olo\:7 {
+		outline-offset: var(--space-7) !important;
+	}
+
+	.xl\:outline-offset\:8,
+	.xl\:olo\:8 {
+		outline-offset: var(--space-8) !important;
+	}
+
+	.xl\:outline-offset\:9,
+	.xl\:olo\:9 {
+		outline-offset: var(--space-9) !important;
+	}
+
+	.xl\:outline-offset\:10,
+	.xl\:olo\:10 {
+		outline-offset: var(--space-10) !important;
+	}
+
+	.xl\:outline-offset\:11,
+	.xl\:olo\:11 {
+		outline-offset: var(--space-11) !important;
+	}
+
+	.xl\:outline-offset\:12,
+	.xl\:olo\:12 {
+		outline-offset: var(--space-12) !important;
+	}
+
+	.xl\:outline-offset\:13,
+	.xl\:olo\:13 {
+		outline-offset: var(--space-13) !important;
+	}
+
+	.xl\:outline-offset\:14,
+	.xl\:olo\:14 {
+		outline-offset: var(--space-14) !important;
+	}
+
+}

@@ -1,0 +1,142 @@
+/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
+
+/* BOX-SIZING */
+
+.box-sizing\:border-box,
+.bs\:border-box {
+	box-sizing: border-box !important;
+}
+
+.box-sizing\:content-box,
+.bs\:content-box {
+	box-sizing: content-box !important;
+}
+
+/* BOX-DECORATION-BREAK */
+
+.box-decoration-break\:slice,
+.bdb\:slice {
+	box-decoration-break: slice !important;
+}
+
+.box-decoration-break\:clone,
+.bdb\:clone {
+	box-decoration-break: clone !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
+
+	/* BOX-SIZING */
+
+	.sm\:box-sizing\:border-box,
+	.sm\:bs\:border-box {
+		box-sizing: border-box !important;
+	}
+
+	.sm\:box-sizing\:content-box,
+	.sm\:bs\:content-box {
+		box-sizing: content-box !important;
+	}
+
+	/* BOX-DECORATION-BREAK */
+
+	.sm\:box-decoration-break\:slice,
+	.sm\:bdb\:slice {
+		box-decoration-break: slice !important;
+	}
+
+	.sm\:box-decoration-break\:clone,
+	.sm\:bdb\:clone {
+		box-decoration-break: clone !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
+
+	/* BOX-SIZING */
+
+	.md\:box-sizing\:border-box,
+	.md\:bs\:border-box {
+		box-sizing: border-box !important;
+	}
+
+	.md\:box-sizing\:content-box,
+	.md\:bs\:content-box {
+		box-sizing: content-box !important;
+	}
+
+	/* BOX-DECORATION-BREAK */
+
+	.md\:box-decoration-break\:slice,
+	.md\:bdb\:slice {
+		box-decoration-break: slice !important;
+	}
+
+	.md\:box-decoration-break\:clone,
+	.md\:bdb\:clone {
+		box-decoration-break: clone !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
+
+	/* BOX-SIZING */
+
+	.lg\:box-sizing\:border-box,
+	.lg\:bs\:border-box {
+		box-sizing: border-box !important;
+	}
+
+	.lg\:box-sizing\:content-box,
+	.lg\:bs\:content-box {
+		box-sizing: content-box !important;
+	}
+
+	/* BOX-DECORATION-BREAK */
+
+	.lg\:box-decoration-break\:slice,
+	.lg\:bdb\:slice {
+		box-decoration-break: slice !important;
+	}
+
+	.lg\:box-decoration-break\:clone,
+	.lg\:bdb\:clone {
+		box-decoration-break: clone !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
+
+	/* BOX-SIZING */
+
+	.xl\:box-sizing\:border-box,
+	.xl\:bs\:border-box {
+		box-sizing: border-box !important;
+	}
+
+	.xl\:box-sizing\:content-box,
+	.xl\:bs\:content-box {
+		box-sizing: content-box !important;
+	}
+
+	/* BOX-DECORATION-BREAK */
+
+	.xl\:box-decoration-break\:slice,
+	.xl\:bdb\:slice {
+		box-decoration-break: slice !important;
+	}
+
+	.xl\:box-decoration-break\:clone,
+	.xl\:bdb\:clone {
+		box-decoration-break: clone !important;
+	}
+
+}

@@ -265,45 +265,6 @@
 	overflow-y: clip !important;
 }
 
-/* TRANSITION-DURATION */
-
-.transition-duration\:fast,
-.tdur\:fast {
-	transition-duration: var(--duration-fast) !important;
-}
-
-.transition-duration\:normal,
-.tdur\:normal {
-	transition-duration: var(--duration-normal) !important;
-}
-
-.transition-duration\:slow,
-.tdur\:slow {
-	transition-duration: var(--duration-slow) !important;
-}
-
-/* TRANSITION-TIMING-FUNCTION */
-
-.transition-timing-function\:linear,
-.ttf\:linear {
-	transition-timing-function: var(--ease-linear) !important;
-}
-
-.transition-timing-function\:in,
-.ttf\:in {
-	transition-timing-function: var(--ease-in) !important;
-}
-
-.transition-timing-function\:out,
-.ttf\:out {
-	transition-timing-function: var(--ease-out) !important;
-}
-
-.transition-timing-function\:in-out,
-.ttf\:in-out {
-	transition-timing-function: var(--ease-in-out) !important;
-}
-
 
 @media (min-width: 640px) {
 	/* ===== EFFECTS UTILITIES ===== */
@@ -571,45 +532,6 @@
 	.sm\:overflow-y\:clip,
 	.sm\:ofy\:clip {
 		overflow-y: clip !important;
-	}
-
-	/* TRANSITION-DURATION */
-
-	.sm\:transition-duration\:fast,
-	.sm\:tdur\:fast {
-		transition-duration: var(--duration-fast) !important;
-	}
-
-	.sm\:transition-duration\:normal,
-	.sm\:tdur\:normal {
-		transition-duration: var(--duration-normal) !important;
-	}
-
-	.sm\:transition-duration\:slow,
-	.sm\:tdur\:slow {
-		transition-duration: var(--duration-slow) !important;
-	}
-
-	/* TRANSITION-TIMING-FUNCTION */
-
-	.sm\:transition-timing-function\:linear,
-	.sm\:ttf\:linear {
-		transition-timing-function: var(--ease-linear) !important;
-	}
-
-	.sm\:transition-timing-function\:in,
-	.sm\:ttf\:in {
-		transition-timing-function: var(--ease-in) !important;
-	}
-
-	.sm\:transition-timing-function\:out,
-	.sm\:ttf\:out {
-		transition-timing-function: var(--ease-out) !important;
-	}
-
-	.sm\:transition-timing-function\:in-out,
-	.sm\:ttf\:in-out {
-		transition-timing-function: var(--ease-in-out) !important;
 	}
 
 }
@@ -882,45 +804,6 @@
 		overflow-y: clip !important;
 	}
 
-	/* TRANSITION-DURATION */
-
-	.md\:transition-duration\:fast,
-	.md\:tdur\:fast {
-		transition-duration: var(--duration-fast) !important;
-	}
-
-	.md\:transition-duration\:normal,
-	.md\:tdur\:normal {
-		transition-duration: var(--duration-normal) !important;
-	}
-
-	.md\:transition-duration\:slow,
-	.md\:tdur\:slow {
-		transition-duration: var(--duration-slow) !important;
-	}
-
-	/* TRANSITION-TIMING-FUNCTION */
-
-	.md\:transition-timing-function\:linear,
-	.md\:ttf\:linear {
-		transition-timing-function: var(--ease-linear) !important;
-	}
-
-	.md\:transition-timing-function\:in,
-	.md\:ttf\:in {
-		transition-timing-function: var(--ease-in) !important;
-	}
-
-	.md\:transition-timing-function\:out,
-	.md\:ttf\:out {
-		transition-timing-function: var(--ease-out) !important;
-	}
-
-	.md\:transition-timing-function\:in-out,
-	.md\:ttf\:in-out {
-		transition-timing-function: var(--ease-in-out) !important;
-	}
-
 }
 
 @media (min-width: 1024px) {
@@ -1191,45 +1074,6 @@
 		overflow-y: clip !important;
 	}
 
-	/* TRANSITION-DURATION */
-
-	.lg\:transition-duration\:fast,
-	.lg\:tdur\:fast {
-		transition-duration: var(--duration-fast) !important;
-	}
-
-	.lg\:transition-duration\:normal,
-	.lg\:tdur\:normal {
-		transition-duration: var(--duration-normal) !important;
-	}
-
-	.lg\:transition-duration\:slow,
-	.lg\:tdur\:slow {
-		transition-duration: var(--duration-slow) !important;
-	}
-
-	/* TRANSITION-TIMING-FUNCTION */
-
-	.lg\:transition-timing-function\:linear,
-	.lg\:ttf\:linear {
-		transition-timing-function: var(--ease-linear) !important;
-	}
-
-	.lg\:transition-timing-function\:in,
-	.lg\:ttf\:in {
-		transition-timing-function: var(--ease-in) !important;
-	}
-
-	.lg\:transition-timing-function\:out,
-	.lg\:ttf\:out {
-		transition-timing-function: var(--ease-out) !important;
-	}
-
-	.lg\:transition-timing-function\:in-out,
-	.lg\:ttf\:in-out {
-		transition-timing-function: var(--ease-in-out) !important;
-	}
-
 }
 
 @media (min-width: 1280px) {
@@ -1498,45 +1342,6 @@
 	.xl\:overflow-y\:clip,
 	.xl\:ofy\:clip {
 		overflow-y: clip !important;
-	}
-
-	/* TRANSITION-DURATION */
-
-	.xl\:transition-duration\:fast,
-	.xl\:tdur\:fast {
-		transition-duration: var(--duration-fast) !important;
-	}
-
-	.xl\:transition-duration\:normal,
-	.xl\:tdur\:normal {
-		transition-duration: var(--duration-normal) !important;
-	}
-
-	.xl\:transition-duration\:slow,
-	.xl\:tdur\:slow {
-		transition-duration: var(--duration-slow) !important;
-	}
-
-	/* TRANSITION-TIMING-FUNCTION */
-
-	.xl\:transition-timing-function\:linear,
-	.xl\:ttf\:linear {
-		transition-timing-function: var(--ease-linear) !important;
-	}
-
-	.xl\:transition-timing-function\:in,
-	.xl\:ttf\:in {
-		transition-timing-function: var(--ease-in) !important;
-	}
-
-	.xl\:transition-timing-function\:out,
-	.xl\:ttf\:out {
-		transition-timing-function: var(--ease-out) !important;
-	}
-
-	.xl\:transition-timing-function\:in-out,
-	.xl\:ttf\:in-out {
-		transition-timing-function: var(--ease-in-out) !important;
 	}
 
 }

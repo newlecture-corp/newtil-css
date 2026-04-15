@@ -1,0 +1,1017 @@
+/* ===== BACKGROUND UTILITIES (image / position / size / repeat / attachment / clip / origin) ===== */
+
+/* BACKGROUND-IMAGE — linear gradient with direction (uses --color-primary) */
+
+.background-image\:none,
+.bgi\:none {
+	background-image: none !important;
+}
+
+.background-image\:linear-to-t,
+.bgi\:linear-to-t {
+	background-image: linear-gradient(to top, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-tr,
+.bgi\:linear-to-tr {
+	background-image: linear-gradient(to top right, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-r,
+.bgi\:linear-to-r {
+	background-image: linear-gradient(to right, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-br,
+.bgi\:linear-to-br {
+	background-image: linear-gradient(to bottom right, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-b,
+.bgi\:linear-to-b {
+	background-image: linear-gradient(to bottom, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-bl,
+.bgi\:linear-to-bl {
+	background-image: linear-gradient(to bottom left, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-l,
+.bgi\:linear-to-l {
+	background-image: linear-gradient(to left, var(--color-primary), transparent) !important;
+}
+
+.background-image\:linear-to-tl,
+.bgi\:linear-to-tl {
+	background-image: linear-gradient(to top left, var(--color-primary), transparent) !important;
+}
+
+/* BACKGROUND-POSITION */
+
+.background-position\:center,
+.bgp\:center {
+	background-position: center !important;
+}
+
+.background-position\:top,
+.bgp\:top {
+	background-position: top !important;
+}
+
+.background-position\:top-right,
+.bgp\:top-right {
+	background-position: top right !important;
+}
+
+.background-position\:right,
+.bgp\:right {
+	background-position: right !important;
+}
+
+.background-position\:bottom-right,
+.bgp\:bottom-right {
+	background-position: bottom right !important;
+}
+
+.background-position\:bottom,
+.bgp\:bottom {
+	background-position: bottom !important;
+}
+
+.background-position\:bottom-left,
+.bgp\:bottom-left {
+	background-position: bottom left !important;
+}
+
+.background-position\:left,
+.bgp\:left {
+	background-position: left !important;
+}
+
+.background-position\:top-left,
+.bgp\:top-left {
+	background-position: top left !important;
+}
+
+/* BACKGROUND-SIZE */
+
+.background-size\:auto,
+.bgs\:auto {
+	background-size: auto !important;
+}
+
+.background-size\:cover,
+.bgs\:cover {
+	background-size: cover !important;
+}
+
+.background-size\:contain,
+.bgs\:contain {
+	background-size: contain !important;
+}
+
+/* BACKGROUND-REPEAT */
+
+.background-repeat\:repeat,
+.bgr\:repeat {
+	background-repeat: repeat !important;
+}
+
+.background-repeat\:no-repeat,
+.bgr\:no-repeat {
+	background-repeat: no-repeat !important;
+}
+
+.background-repeat\:repeat-x,
+.bgr\:repeat-x {
+	background-repeat: repeat-x !important;
+}
+
+.background-repeat\:repeat-y,
+.bgr\:repeat-y {
+	background-repeat: repeat-y !important;
+}
+
+.background-repeat\:round,
+.bgr\:round {
+	background-repeat: round !important;
+}
+
+.background-repeat\:space,
+.bgr\:space {
+	background-repeat: space !important;
+}
+
+/* BACKGROUND-ATTACHMENT */
+
+.background-attachment\:fixed,
+.bga\:fixed {
+	background-attachment: fixed !important;
+}
+
+.background-attachment\:local,
+.bga\:local {
+	background-attachment: local !important;
+}
+
+.background-attachment\:scroll,
+.bga\:scroll {
+	background-attachment: scroll !important;
+}
+
+/* BACKGROUND-CLIP */
+
+.background-clip\:border-box,
+.bgc\:border-box {
+	background-clip: border-box !important;
+}
+
+.background-clip\:padding-box,
+.bgc\:padding-box {
+	background-clip: padding-box !important;
+}
+
+.background-clip\:content-box,
+.bgc\:content-box {
+	background-clip: content-box !important;
+}
+
+.background-clip\:text,
+.bgc\:text {
+	background-clip: text !important;
+}
+
+/* BACKGROUND-ORIGIN */
+
+.background-origin\:border-box,
+.bgo\:border-box {
+	background-origin: border-box !important;
+}
+
+.background-origin\:padding-box,
+.bgo\:padding-box {
+	background-origin: padding-box !important;
+}
+
+.background-origin\:content-box,
+.bgo\:content-box {
+	background-origin: content-box !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== BACKGROUND UTILITIES (image / position / size / repeat / attachment / clip / origin) ===== */
+
+	/* BACKGROUND-IMAGE — linear gradient with direction (uses --color-primary) */
+
+	.sm\:background-image\:none,
+	.sm\:bgi\:none {
+		background-image: none !important;
+	}
+
+	.sm\:background-image\:linear-to-t,
+	.sm\:bgi\:linear-to-t {
+		background-image: linear-gradient(to top, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-tr,
+	.sm\:bgi\:linear-to-tr {
+		background-image: linear-gradient(to top right, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-r,
+	.sm\:bgi\:linear-to-r {
+		background-image: linear-gradient(to right, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-br,
+	.sm\:bgi\:linear-to-br {
+		background-image: linear-gradient(to bottom right, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-b,
+	.sm\:bgi\:linear-to-b {
+		background-image: linear-gradient(to bottom, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-bl,
+	.sm\:bgi\:linear-to-bl {
+		background-image: linear-gradient(to bottom left, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-l,
+	.sm\:bgi\:linear-to-l {
+		background-image: linear-gradient(to left, var(--color-primary), transparent) !important;
+	}
+
+	.sm\:background-image\:linear-to-tl,
+	.sm\:bgi\:linear-to-tl {
+		background-image: linear-gradient(to top left, var(--color-primary), transparent) !important;
+	}
+
+	/* BACKGROUND-POSITION */
+
+	.sm\:background-position\:center,
+	.sm\:bgp\:center {
+		background-position: center !important;
+	}
+
+	.sm\:background-position\:top,
+	.sm\:bgp\:top {
+		background-position: top !important;
+	}
+
+	.sm\:background-position\:top-right,
+	.sm\:bgp\:top-right {
+		background-position: top right !important;
+	}
+
+	.sm\:background-position\:right,
+	.sm\:bgp\:right {
+		background-position: right !important;
+	}
+
+	.sm\:background-position\:bottom-right,
+	.sm\:bgp\:bottom-right {
+		background-position: bottom right !important;
+	}
+
+	.sm\:background-position\:bottom,
+	.sm\:bgp\:bottom {
+		background-position: bottom !important;
+	}
+
+	.sm\:background-position\:bottom-left,
+	.sm\:bgp\:bottom-left {
+		background-position: bottom left !important;
+	}
+
+	.sm\:background-position\:left,
+	.sm\:bgp\:left {
+		background-position: left !important;
+	}
+
+	.sm\:background-position\:top-left,
+	.sm\:bgp\:top-left {
+		background-position: top left !important;
+	}
+
+	/* BACKGROUND-SIZE */
+
+	.sm\:background-size\:auto,
+	.sm\:bgs\:auto {
+		background-size: auto !important;
+	}
+
+	.sm\:background-size\:cover,
+	.sm\:bgs\:cover {
+		background-size: cover !important;
+	}
+
+	.sm\:background-size\:contain,
+	.sm\:bgs\:contain {
+		background-size: contain !important;
+	}
+
+	/* BACKGROUND-REPEAT */
+
+	.sm\:background-repeat\:repeat,
+	.sm\:bgr\:repeat {
+		background-repeat: repeat !important;
+	}
+
+	.sm\:background-repeat\:no-repeat,
+	.sm\:bgr\:no-repeat {
+		background-repeat: no-repeat !important;
+	}
+
+	.sm\:background-repeat\:repeat-x,
+	.sm\:bgr\:repeat-x {
+		background-repeat: repeat-x !important;
+	}
+
+	.sm\:background-repeat\:repeat-y,
+	.sm\:bgr\:repeat-y {
+		background-repeat: repeat-y !important;
+	}
+
+	.sm\:background-repeat\:round,
+	.sm\:bgr\:round {
+		background-repeat: round !important;
+	}
+
+	.sm\:background-repeat\:space,
+	.sm\:bgr\:space {
+		background-repeat: space !important;
+	}
+
+	/* BACKGROUND-ATTACHMENT */
+
+	.sm\:background-attachment\:fixed,
+	.sm\:bga\:fixed {
+		background-attachment: fixed !important;
+	}
+
+	.sm\:background-attachment\:local,
+	.sm\:bga\:local {
+		background-attachment: local !important;
+	}
+
+	.sm\:background-attachment\:scroll,
+	.sm\:bga\:scroll {
+		background-attachment: scroll !important;
+	}
+
+	/* BACKGROUND-CLIP */
+
+	.sm\:background-clip\:border-box,
+	.sm\:bgc\:border-box {
+		background-clip: border-box !important;
+	}
+
+	.sm\:background-clip\:padding-box,
+	.sm\:bgc\:padding-box {
+		background-clip: padding-box !important;
+	}
+
+	.sm\:background-clip\:content-box,
+	.sm\:bgc\:content-box {
+		background-clip: content-box !important;
+	}
+
+	.sm\:background-clip\:text,
+	.sm\:bgc\:text {
+		background-clip: text !important;
+	}
+
+	/* BACKGROUND-ORIGIN */
+
+	.sm\:background-origin\:border-box,
+	.sm\:bgo\:border-box {
+		background-origin: border-box !important;
+	}
+
+	.sm\:background-origin\:padding-box,
+	.sm\:bgo\:padding-box {
+		background-origin: padding-box !important;
+	}
+
+	.sm\:background-origin\:content-box,
+	.sm\:bgo\:content-box {
+		background-origin: content-box !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== BACKGROUND UTILITIES (image / position / size / repeat / attachment / clip / origin) ===== */
+
+	/* BACKGROUND-IMAGE — linear gradient with direction (uses --color-primary) */
+
+	.md\:background-image\:none,
+	.md\:bgi\:none {
+		background-image: none !important;
+	}
+
+	.md\:background-image\:linear-to-t,
+	.md\:bgi\:linear-to-t {
+		background-image: linear-gradient(to top, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-tr,
+	.md\:bgi\:linear-to-tr {
+		background-image: linear-gradient(to top right, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-r,
+	.md\:bgi\:linear-to-r {
+		background-image: linear-gradient(to right, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-br,
+	.md\:bgi\:linear-to-br {
+		background-image: linear-gradient(to bottom right, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-b,
+	.md\:bgi\:linear-to-b {
+		background-image: linear-gradient(to bottom, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-bl,
+	.md\:bgi\:linear-to-bl {
+		background-image: linear-gradient(to bottom left, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-l,
+	.md\:bgi\:linear-to-l {
+		background-image: linear-gradient(to left, var(--color-primary), transparent) !important;
+	}
+
+	.md\:background-image\:linear-to-tl,
+	.md\:bgi\:linear-to-tl {
+		background-image: linear-gradient(to top left, var(--color-primary), transparent) !important;
+	}
+
+	/* BACKGROUND-POSITION */
+
+	.md\:background-position\:center,
+	.md\:bgp\:center {
+		background-position: center !important;
+	}
+
+	.md\:background-position\:top,
+	.md\:bgp\:top {
+		background-position: top !important;
+	}
+
+	.md\:background-position\:top-right,
+	.md\:bgp\:top-right {
+		background-position: top right !important;
+	}
+
+	.md\:background-position\:right,
+	.md\:bgp\:right {
+		background-position: right !important;
+	}
+
+	.md\:background-position\:bottom-right,
+	.md\:bgp\:bottom-right {
+		background-position: bottom right !important;
+	}
+
+	.md\:background-position\:bottom,
+	.md\:bgp\:bottom {
+		background-position: bottom !important;
+	}
+
+	.md\:background-position\:bottom-left,
+	.md\:bgp\:bottom-left {
+		background-position: bottom left !important;
+	}
+
+	.md\:background-position\:left,
+	.md\:bgp\:left {
+		background-position: left !important;
+	}
+
+	.md\:background-position\:top-left,
+	.md\:bgp\:top-left {
+		background-position: top left !important;
+	}
+
+	/* BACKGROUND-SIZE */
+
+	.md\:background-size\:auto,
+	.md\:bgs\:auto {
+		background-size: auto !important;
+	}
+
+	.md\:background-size\:cover,
+	.md\:bgs\:cover {
+		background-size: cover !important;
+	}
+
+	.md\:background-size\:contain,
+	.md\:bgs\:contain {
+		background-size: contain !important;
+	}
+
+	/* BACKGROUND-REPEAT */
+
+	.md\:background-repeat\:repeat,
+	.md\:bgr\:repeat {
+		background-repeat: repeat !important;
+	}
+
+	.md\:background-repeat\:no-repeat,
+	.md\:bgr\:no-repeat {
+		background-repeat: no-repeat !important;
+	}
+
+	.md\:background-repeat\:repeat-x,
+	.md\:bgr\:repeat-x {
+		background-repeat: repeat-x !important;
+	}
+
+	.md\:background-repeat\:repeat-y,
+	.md\:bgr\:repeat-y {
+		background-repeat: repeat-y !important;
+	}
+
+	.md\:background-repeat\:round,
+	.md\:bgr\:round {
+		background-repeat: round !important;
+	}
+
+	.md\:background-repeat\:space,
+	.md\:bgr\:space {
+		background-repeat: space !important;
+	}
+
+	/* BACKGROUND-ATTACHMENT */
+
+	.md\:background-attachment\:fixed,
+	.md\:bga\:fixed {
+		background-attachment: fixed !important;
+	}
+
+	.md\:background-attachment\:local,
+	.md\:bga\:local {
+		background-attachment: local !important;
+	}
+
+	.md\:background-attachment\:scroll,
+	.md\:bga\:scroll {
+		background-attachment: scroll !important;
+	}
+
+	/* BACKGROUND-CLIP */
+
+	.md\:background-clip\:border-box,
+	.md\:bgc\:border-box {
+		background-clip: border-box !important;
+	}
+
+	.md\:background-clip\:padding-box,
+	.md\:bgc\:padding-box {
+		background-clip: padding-box !important;
+	}
+
+	.md\:background-clip\:content-box,
+	.md\:bgc\:content-box {
+		background-clip: content-box !important;
+	}
+
+	.md\:background-clip\:text,
+	.md\:bgc\:text {
+		background-clip: text !important;
+	}
+
+	/* BACKGROUND-ORIGIN */
+
+	.md\:background-origin\:border-box,
+	.md\:bgo\:border-box {
+		background-origin: border-box !important;
+	}
+
+	.md\:background-origin\:padding-box,
+	.md\:bgo\:padding-box {
+		background-origin: padding-box !important;
+	}
+
+	.md\:background-origin\:content-box,
+	.md\:bgo\:content-box {
+		background-origin: content-box !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== BACKGROUND UTILITIES (image / position / size / repeat / attachment / clip / origin) ===== */
+
+	/* BACKGROUND-IMAGE — linear gradient with direction (uses --color-primary) */
+
+	.lg\:background-image\:none,
+	.lg\:bgi\:none {
+		background-image: none !important;
+	}
+
+	.lg\:background-image\:linear-to-t,
+	.lg\:bgi\:linear-to-t {
+		background-image: linear-gradient(to top, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-tr,
+	.lg\:bgi\:linear-to-tr {
+		background-image: linear-gradient(to top right, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-r,
+	.lg\:bgi\:linear-to-r {
+		background-image: linear-gradient(to right, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-br,
+	.lg\:bgi\:linear-to-br {
+		background-image: linear-gradient(to bottom right, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-b,
+	.lg\:bgi\:linear-to-b {
+		background-image: linear-gradient(to bottom, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-bl,
+	.lg\:bgi\:linear-to-bl {
+		background-image: linear-gradient(to bottom left, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-l,
+	.lg\:bgi\:linear-to-l {
+		background-image: linear-gradient(to left, var(--color-primary), transparent) !important;
+	}
+
+	.lg\:background-image\:linear-to-tl,
+	.lg\:bgi\:linear-to-tl {
+		background-image: linear-gradient(to top left, var(--color-primary), transparent) !important;
+	}
+
+	/* BACKGROUND-POSITION */
+
+	.lg\:background-position\:center,
+	.lg\:bgp\:center {
+		background-position: center !important;
+	}
+
+	.lg\:background-position\:top,
+	.lg\:bgp\:top {
+		background-position: top !important;
+	}
+
+	.lg\:background-position\:top-right,
+	.lg\:bgp\:top-right {
+		background-position: top right !important;
+	}
+
+	.lg\:background-position\:right,
+	.lg\:bgp\:right {
+		background-position: right !important;
+	}
+
+	.lg\:background-position\:bottom-right,
+	.lg\:bgp\:bottom-right {
+		background-position: bottom right !important;
+	}
+
+	.lg\:background-position\:bottom,
+	.lg\:bgp\:bottom {
+		background-position: bottom !important;
+	}
+
+	.lg\:background-position\:bottom-left,
+	.lg\:bgp\:bottom-left {
+		background-position: bottom left !important;
+	}
+
+	.lg\:background-position\:left,
+	.lg\:bgp\:left {
+		background-position: left !important;
+	}
+
+	.lg\:background-position\:top-left,
+	.lg\:bgp\:top-left {
+		background-position: top left !important;
+	}
+
+	/* BACKGROUND-SIZE */
+
+	.lg\:background-size\:auto,
+	.lg\:bgs\:auto {
+		background-size: auto !important;
+	}
+
+	.lg\:background-size\:cover,
+	.lg\:bgs\:cover {
+		background-size: cover !important;
+	}
+
+	.lg\:background-size\:contain,
+	.lg\:bgs\:contain {
+		background-size: contain !important;
+	}
+
+	/* BACKGROUND-REPEAT */
+
+	.lg\:background-repeat\:repeat,
+	.lg\:bgr\:repeat {
+		background-repeat: repeat !important;
+	}
+
+	.lg\:background-repeat\:no-repeat,
+	.lg\:bgr\:no-repeat {
+		background-repeat: no-repeat !important;
+	}
+
+	.lg\:background-repeat\:repeat-x,
+	.lg\:bgr\:repeat-x {
+		background-repeat: repeat-x !important;
+	}
+
+	.lg\:background-repeat\:repeat-y,
+	.lg\:bgr\:repeat-y {
+		background-repeat: repeat-y !important;
+	}
+
+	.lg\:background-repeat\:round,
+	.lg\:bgr\:round {
+		background-repeat: round !important;
+	}
+
+	.lg\:background-repeat\:space,
+	.lg\:bgr\:space {
+		background-repeat: space !important;
+	}
+
+	/* BACKGROUND-ATTACHMENT */
+
+	.lg\:background-attachment\:fixed,
+	.lg\:bga\:fixed {
+		background-attachment: fixed !important;
+	}
+
+	.lg\:background-attachment\:local,
+	.lg\:bga\:local {
+		background-attachment: local !important;
+	}
+
+	.lg\:background-attachment\:scroll,
+	.lg\:bga\:scroll {
+		background-attachment: scroll !important;
+	}
+
+	/* BACKGROUND-CLIP */
+
+	.lg\:background-clip\:border-box,
+	.lg\:bgc\:border-box {
+		background-clip: border-box !important;
+	}
+
+	.lg\:background-clip\:padding-box,
+	.lg\:bgc\:padding-box {
+		background-clip: padding-box !important;
+	}
+
+	.lg\:background-clip\:content-box,
+	.lg\:bgc\:content-box {
+		background-clip: content-box !important;
+	}
+
+	.lg\:background-clip\:text,
+	.lg\:bgc\:text {
+		background-clip: text !important;
+	}
+
+	/* BACKGROUND-ORIGIN */
+
+	.lg\:background-origin\:border-box,
+	.lg\:bgo\:border-box {
+		background-origin: border-box !important;
+	}
+
+	.lg\:background-origin\:padding-box,
+	.lg\:bgo\:padding-box {
+		background-origin: padding-box !important;
+	}
+
+	.lg\:background-origin\:content-box,
+	.lg\:bgo\:content-box {
+		background-origin: content-box !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== BACKGROUND UTILITIES (image / position / size / repeat / attachment / clip / origin) ===== */
+
+	/* BACKGROUND-IMAGE — linear gradient with direction (uses --color-primary) */
+
+	.xl\:background-image\:none,
+	.xl\:bgi\:none {
+		background-image: none !important;
+	}
+
+	.xl\:background-image\:linear-to-t,
+	.xl\:bgi\:linear-to-t {
+		background-image: linear-gradient(to top, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-tr,
+	.xl\:bgi\:linear-to-tr {
+		background-image: linear-gradient(to top right, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-r,
+	.xl\:bgi\:linear-to-r {
+		background-image: linear-gradient(to right, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-br,
+	.xl\:bgi\:linear-to-br {
+		background-image: linear-gradient(to bottom right, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-b,
+	.xl\:bgi\:linear-to-b {
+		background-image: linear-gradient(to bottom, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-bl,
+	.xl\:bgi\:linear-to-bl {
+		background-image: linear-gradient(to bottom left, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-l,
+	.xl\:bgi\:linear-to-l {
+		background-image: linear-gradient(to left, var(--color-primary), transparent) !important;
+	}
+
+	.xl\:background-image\:linear-to-tl,
+	.xl\:bgi\:linear-to-tl {
+		background-image: linear-gradient(to top left, var(--color-primary), transparent) !important;
+	}
+
+	/* BACKGROUND-POSITION */
+
+	.xl\:background-position\:center,
+	.xl\:bgp\:center {
+		background-position: center !important;
+	}
+
+	.xl\:background-position\:top,
+	.xl\:bgp\:top {
+		background-position: top !important;
+	}
+
+	.xl\:background-position\:top-right,
+	.xl\:bgp\:top-right {
+		background-position: top right !important;
+	}
+
+	.xl\:background-position\:right,
+	.xl\:bgp\:right {
+		background-position: right !important;
+	}
+
+	.xl\:background-position\:bottom-right,
+	.xl\:bgp\:bottom-right {
+		background-position: bottom right !important;
+	}
+
+	.xl\:background-position\:bottom,
+	.xl\:bgp\:bottom {
+		background-position: bottom !important;
+	}
+
+	.xl\:background-position\:bottom-left,
+	.xl\:bgp\:bottom-left {
+		background-position: bottom left !important;
+	}
+
+	.xl\:background-position\:left,
+	.xl\:bgp\:left {
+		background-position: left !important;
+	}
+
+	.xl\:background-position\:top-left,
+	.xl\:bgp\:top-left {
+		background-position: top left !important;
+	}
+
+	/* BACKGROUND-SIZE */
+
+	.xl\:background-size\:auto,
+	.xl\:bgs\:auto {
+		background-size: auto !important;
+	}
+
+	.xl\:background-size\:cover,
+	.xl\:bgs\:cover {
+		background-size: cover !important;
+	}
+
+	.xl\:background-size\:contain,
+	.xl\:bgs\:contain {
+		background-size: contain !important;
+	}
+
+	/* BACKGROUND-REPEAT */
+
+	.xl\:background-repeat\:repeat,
+	.xl\:bgr\:repeat {
+		background-repeat: repeat !important;
+	}
+
+	.xl\:background-repeat\:no-repeat,
+	.xl\:bgr\:no-repeat {
+		background-repeat: no-repeat !important;
+	}
+
+	.xl\:background-repeat\:repeat-x,
+	.xl\:bgr\:repeat-x {
+		background-repeat: repeat-x !important;
+	}
+
+	.xl\:background-repeat\:repeat-y,
+	.xl\:bgr\:repeat-y {
+		background-repeat: repeat-y !important;
+	}
+
+	.xl\:background-repeat\:round,
+	.xl\:bgr\:round {
+		background-repeat: round !important;
+	}
+
+	.xl\:background-repeat\:space,
+	.xl\:bgr\:space {
+		background-repeat: space !important;
+	}
+
+	/* BACKGROUND-ATTACHMENT */
+
+	.xl\:background-attachment\:fixed,
+	.xl\:bga\:fixed {
+		background-attachment: fixed !important;
+	}
+
+	.xl\:background-attachment\:local,
+	.xl\:bga\:local {
+		background-attachment: local !important;
+	}
+
+	.xl\:background-attachment\:scroll,
+	.xl\:bga\:scroll {
+		background-attachment: scroll !important;
+	}
+
+	/* BACKGROUND-CLIP */
+
+	.xl\:background-clip\:border-box,
+	.xl\:bgc\:border-box {
+		background-clip: border-box !important;
+	}
+
+	.xl\:background-clip\:padding-box,
+	.xl\:bgc\:padding-box {
+		background-clip: padding-box !important;
+	}
+
+	.xl\:background-clip\:content-box,
+	.xl\:bgc\:content-box {
+		background-clip: content-box !important;
+	}
+
+	.xl\:background-clip\:text,
+	.xl\:bgc\:text {
+		background-clip: text !important;
+	}
+
+	/* BACKGROUND-ORIGIN */
+
+	.xl\:background-origin\:border-box,
+	.xl\:bgo\:border-box {
+		background-origin: border-box !important;
+	}
+
+	.xl\:background-origin\:padding-box,
+	.xl\:bgo\:padding-box {
+		background-origin: padding-box !important;
+	}
+
+	.xl\:background-origin\:content-box,
+	.xl\:bgo\:content-box {
+		background-origin: content-box !important;
+	}
+
+}

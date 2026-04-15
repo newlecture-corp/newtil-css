@@ -1,0 +1,372 @@
+/* ===== ASPECT-RATIO UTILITIES ===== */
+
+.aspect-ratio\:auto,
+.ar\:auto {
+	aspect-ratio: auto !important;
+}
+
+.aspect-ratio\:square,
+.ar\:square {
+	aspect-ratio: 1 / 1 !important;
+}
+
+.aspect-ratio\:1-1,
+.ar\:1-1 {
+	aspect-ratio: 1 / 1 !important;
+}
+
+.aspect-ratio\:video,
+.ar\:video {
+	aspect-ratio: 16 / 9 !important;
+}
+
+.aspect-ratio\:16-9,
+.ar\:16-9 {
+	aspect-ratio: 16 / 9 !important;
+}
+
+.aspect-ratio\:4-3,
+.ar\:4-3 {
+	aspect-ratio: 4 / 3 !important;
+}
+
+.aspect-ratio\:3-2,
+.ar\:3-2 {
+	aspect-ratio: 3 / 2 !important;
+}
+
+.aspect-ratio\:2-1,
+.ar\:2-1 {
+	aspect-ratio: 2 / 1 !important;
+}
+
+.aspect-ratio\:1-2,
+.ar\:1-2 {
+	aspect-ratio: 1 / 2 !important;
+}
+
+.aspect-ratio\:portrait,
+.ar\:portrait {
+	aspect-ratio: 3 / 4 !important;
+}
+
+.aspect-ratio\:3-4,
+.ar\:3-4 {
+	aspect-ratio: 3 / 4 !important;
+}
+
+.aspect-ratio\:9-16,
+.ar\:9-16 {
+	aspect-ratio: 9 / 16 !important;
+}
+
+.aspect-ratio\:cinemascope,
+.ar\:cinemascope {
+	aspect-ratio: 21 / 9 !important;
+}
+
+.aspect-ratio\:21-9,
+.ar\:21-9 {
+	aspect-ratio: 21 / 9 !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== ASPECT-RATIO UTILITIES ===== */
+
+	.sm\:aspect-ratio\:auto,
+	.sm\:ar\:auto {
+		aspect-ratio: auto !important;
+	}
+
+	.sm\:aspect-ratio\:square,
+	.sm\:ar\:square {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.sm\:aspect-ratio\:1-1,
+	.sm\:ar\:1-1 {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.sm\:aspect-ratio\:video,
+	.sm\:ar\:video {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.sm\:aspect-ratio\:16-9,
+	.sm\:ar\:16-9 {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.sm\:aspect-ratio\:4-3,
+	.sm\:ar\:4-3 {
+		aspect-ratio: 4 / 3 !important;
+	}
+
+	.sm\:aspect-ratio\:3-2,
+	.sm\:ar\:3-2 {
+		aspect-ratio: 3 / 2 !important;
+	}
+
+	.sm\:aspect-ratio\:2-1,
+	.sm\:ar\:2-1 {
+		aspect-ratio: 2 / 1 !important;
+	}
+
+	.sm\:aspect-ratio\:1-2,
+	.sm\:ar\:1-2 {
+		aspect-ratio: 1 / 2 !important;
+	}
+
+	.sm\:aspect-ratio\:portrait,
+	.sm\:ar\:portrait {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.sm\:aspect-ratio\:3-4,
+	.sm\:ar\:3-4 {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.sm\:aspect-ratio\:9-16,
+	.sm\:ar\:9-16 {
+		aspect-ratio: 9 / 16 !important;
+	}
+
+	.sm\:aspect-ratio\:cinemascope,
+	.sm\:ar\:cinemascope {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+	.sm\:aspect-ratio\:21-9,
+	.sm\:ar\:21-9 {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== ASPECT-RATIO UTILITIES ===== */
+
+	.md\:aspect-ratio\:auto,
+	.md\:ar\:auto {
+		aspect-ratio: auto !important;
+	}
+
+	.md\:aspect-ratio\:square,
+	.md\:ar\:square {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.md\:aspect-ratio\:1-1,
+	.md\:ar\:1-1 {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.md\:aspect-ratio\:video,
+	.md\:ar\:video {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.md\:aspect-ratio\:16-9,
+	.md\:ar\:16-9 {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.md\:aspect-ratio\:4-3,
+	.md\:ar\:4-3 {
+		aspect-ratio: 4 / 3 !important;
+	}
+
+	.md\:aspect-ratio\:3-2,
+	.md\:ar\:3-2 {
+		aspect-ratio: 3 / 2 !important;
+	}
+
+	.md\:aspect-ratio\:2-1,
+	.md\:ar\:2-1 {
+		aspect-ratio: 2 / 1 !important;
+	}
+
+	.md\:aspect-ratio\:1-2,
+	.md\:ar\:1-2 {
+		aspect-ratio: 1 / 2 !important;
+	}
+
+	.md\:aspect-ratio\:portrait,
+	.md\:ar\:portrait {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.md\:aspect-ratio\:3-4,
+	.md\:ar\:3-4 {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.md\:aspect-ratio\:9-16,
+	.md\:ar\:9-16 {
+		aspect-ratio: 9 / 16 !important;
+	}
+
+	.md\:aspect-ratio\:cinemascope,
+	.md\:ar\:cinemascope {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+	.md\:aspect-ratio\:21-9,
+	.md\:ar\:21-9 {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== ASPECT-RATIO UTILITIES ===== */
+
+	.lg\:aspect-ratio\:auto,
+	.lg\:ar\:auto {
+		aspect-ratio: auto !important;
+	}
+
+	.lg\:aspect-ratio\:square,
+	.lg\:ar\:square {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.lg\:aspect-ratio\:1-1,
+	.lg\:ar\:1-1 {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.lg\:aspect-ratio\:video,
+	.lg\:ar\:video {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.lg\:aspect-ratio\:16-9,
+	.lg\:ar\:16-9 {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.lg\:aspect-ratio\:4-3,
+	.lg\:ar\:4-3 {
+		aspect-ratio: 4 / 3 !important;
+	}
+
+	.lg\:aspect-ratio\:3-2,
+	.lg\:ar\:3-2 {
+		aspect-ratio: 3 / 2 !important;
+	}
+
+	.lg\:aspect-ratio\:2-1,
+	.lg\:ar\:2-1 {
+		aspect-ratio: 2 / 1 !important;
+	}
+
+	.lg\:aspect-ratio\:1-2,
+	.lg\:ar\:1-2 {
+		aspect-ratio: 1 / 2 !important;
+	}
+
+	.lg\:aspect-ratio\:portrait,
+	.lg\:ar\:portrait {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.lg\:aspect-ratio\:3-4,
+	.lg\:ar\:3-4 {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.lg\:aspect-ratio\:9-16,
+	.lg\:ar\:9-16 {
+		aspect-ratio: 9 / 16 !important;
+	}
+
+	.lg\:aspect-ratio\:cinemascope,
+	.lg\:ar\:cinemascope {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+	.lg\:aspect-ratio\:21-9,
+	.lg\:ar\:21-9 {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== ASPECT-RATIO UTILITIES ===== */
+
+	.xl\:aspect-ratio\:auto,
+	.xl\:ar\:auto {
+		aspect-ratio: auto !important;
+	}
+
+	.xl\:aspect-ratio\:square,
+	.xl\:ar\:square {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.xl\:aspect-ratio\:1-1,
+	.xl\:ar\:1-1 {
+		aspect-ratio: 1 / 1 !important;
+	}
+
+	.xl\:aspect-ratio\:video,
+	.xl\:ar\:video {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.xl\:aspect-ratio\:16-9,
+	.xl\:ar\:16-9 {
+		aspect-ratio: 16 / 9 !important;
+	}
+
+	.xl\:aspect-ratio\:4-3,
+	.xl\:ar\:4-3 {
+		aspect-ratio: 4 / 3 !important;
+	}
+
+	.xl\:aspect-ratio\:3-2,
+	.xl\:ar\:3-2 {
+		aspect-ratio: 3 / 2 !important;
+	}
+
+	.xl\:aspect-ratio\:2-1,
+	.xl\:ar\:2-1 {
+		aspect-ratio: 2 / 1 !important;
+	}
+
+	.xl\:aspect-ratio\:1-2,
+	.xl\:ar\:1-2 {
+		aspect-ratio: 1 / 2 !important;
+	}
+
+	.xl\:aspect-ratio\:portrait,
+	.xl\:ar\:portrait {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.xl\:aspect-ratio\:3-4,
+	.xl\:ar\:3-4 {
+		aspect-ratio: 3 / 4 !important;
+	}
+
+	.xl\:aspect-ratio\:9-16,
+	.xl\:ar\:9-16 {
+		aspect-ratio: 9 / 16 !important;
+	}
+
+	.xl\:aspect-ratio\:cinemascope,
+	.xl\:ar\:cinemascope {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+	.xl\:aspect-ratio\:21-9,
+	.xl\:ar\:21-9 {
+		aspect-ratio: 21 / 9 !important;
+	}
+
+}

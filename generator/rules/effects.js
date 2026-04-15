@@ -105,29 +105,7 @@ export default {
 			);
 		}
 
-		// transition-duration
-		out.push(emit.sub("TRANSITION-DURATION"));
-		for (const [key, value] of Object.entries(catalog.duration)) {
-			out.push(
-				emit.rule({
-					selectors: emit.classPair(["transition-duration", "tdur"], key),
-					property: "transition-duration",
-					value,
-				})
-			);
-		}
-
-		// transition-timing-function
-		out.push(emit.sub("TRANSITION-TIMING-FUNCTION"));
-		for (const [key, value] of Object.entries(catalog.ease)) {
-			out.push(
-				emit.rule({
-					selectors: emit.classPair(["transition-timing-function", "ttf"], key),
-					property: "transition-timing-function",
-					value,
-				})
-			);
-		}
+		// (transition utilities moved to transition.js for full coverage)
 
 		return out.join("\n\n") + "\n";
 	},

@@ -1,0 +1,107 @@
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.container-type\:normal,
+.ct\:normal {
+	container-type: normal !important;
+}
+
+.container-type\:size,
+.ct\:size {
+	container-type: size !important;
+}
+
+.container-type\:inline-size,
+.ct\:inline-size {
+	container-type: inline-size !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:container-type\:normal,
+	.sm\:ct\:normal {
+		container-type: normal !important;
+	}
+
+	.sm\:container-type\:size,
+	.sm\:ct\:size {
+		container-type: size !important;
+	}
+
+	.sm\:container-type\:inline-size,
+	.sm\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:container-type\:normal,
+	.md\:ct\:normal {
+		container-type: normal !important;
+	}
+
+	.md\:container-type\:size,
+	.md\:ct\:size {
+		container-type: size !important;
+	}
+
+	.md\:container-type\:inline-size,
+	.md\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:container-type\:normal,
+	.lg\:ct\:normal {
+		container-type: normal !important;
+	}
+
+	.lg\:container-type\:size,
+	.lg\:ct\:size {
+		container-type: size !important;
+	}
+
+	.lg\:container-type\:inline-size,
+	.lg\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:container-type\:normal,
+	.xl\:ct\:normal {
+		container-type: normal !important;
+	}
+
+	.xl\:container-type\:size,
+	.xl\:ct\:size {
+		container-type: size !important;
+	}
+
+	.xl\:container-type\:inline-size,
+	.xl\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+}

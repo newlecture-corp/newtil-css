@@ -1,0 +1,1827 @@
+/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
+
+/* TRANSLATE-X */
+
+.translate-x\:0,
+.trx\:0 {
+	translate: var(--space-0) 0 !important;
+}
+
+.translate-x\:1,
+.trx\:1 {
+	translate: var(--space-1) 0 !important;
+}
+
+.translate-x\:2,
+.trx\:2 {
+	translate: var(--space-2) 0 !important;
+}
+
+.translate-x\:3,
+.trx\:3 {
+	translate: var(--space-3) 0 !important;
+}
+
+.translate-x\:4,
+.trx\:4 {
+	translate: var(--space-4) 0 !important;
+}
+
+.translate-x\:5,
+.trx\:5 {
+	translate: var(--space-5) 0 !important;
+}
+
+.translate-x\:6,
+.trx\:6 {
+	translate: var(--space-6) 0 !important;
+}
+
+.translate-x\:7,
+.trx\:7 {
+	translate: var(--space-7) 0 !important;
+}
+
+.translate-x\:8,
+.trx\:8 {
+	translate: var(--space-8) 0 !important;
+}
+
+.translate-x\:9,
+.trx\:9 {
+	translate: var(--space-9) 0 !important;
+}
+
+.translate-x\:10,
+.trx\:10 {
+	translate: var(--space-10) 0 !important;
+}
+
+.translate-x\:11,
+.trx\:11 {
+	translate: var(--space-11) 0 !important;
+}
+
+.translate-x\:12,
+.trx\:12 {
+	translate: var(--space-12) 0 !important;
+}
+
+.translate-x\:13,
+.trx\:13 {
+	translate: var(--space-13) 0 !important;
+}
+
+.translate-x\:14,
+.trx\:14 {
+	translate: var(--space-14) 0 !important;
+}
+
+/* TRANSLATE-Y */
+
+.translate-y\:0,
+.try\:0 {
+	translate: 0 var(--space-0) !important;
+}
+
+.translate-y\:1,
+.try\:1 {
+	translate: 0 var(--space-1) !important;
+}
+
+.translate-y\:2,
+.try\:2 {
+	translate: 0 var(--space-2) !important;
+}
+
+.translate-y\:3,
+.try\:3 {
+	translate: 0 var(--space-3) !important;
+}
+
+.translate-y\:4,
+.try\:4 {
+	translate: 0 var(--space-4) !important;
+}
+
+.translate-y\:5,
+.try\:5 {
+	translate: 0 var(--space-5) !important;
+}
+
+.translate-y\:6,
+.try\:6 {
+	translate: 0 var(--space-6) !important;
+}
+
+.translate-y\:7,
+.try\:7 {
+	translate: 0 var(--space-7) !important;
+}
+
+.translate-y\:8,
+.try\:8 {
+	translate: 0 var(--space-8) !important;
+}
+
+.translate-y\:9,
+.try\:9 {
+	translate: 0 var(--space-9) !important;
+}
+
+.translate-y\:10,
+.try\:10 {
+	translate: 0 var(--space-10) !important;
+}
+
+.translate-y\:11,
+.try\:11 {
+	translate: 0 var(--space-11) !important;
+}
+
+.translate-y\:12,
+.try\:12 {
+	translate: 0 var(--space-12) !important;
+}
+
+.translate-y\:13,
+.try\:13 {
+	translate: 0 var(--space-13) !important;
+}
+
+.translate-y\:14,
+.try\:14 {
+	translate: 0 var(--space-14) !important;
+}
+
+/* ROTATE */
+
+.rotate\:0,
+.rot\:0 {
+	rotate: 0 !important;
+}
+
+.rotate\:45,
+.rot\:45 {
+	rotate: 45deg !important;
+}
+
+.rotate\:90,
+.rot\:90 {
+	rotate: 90deg !important;
+}
+
+.rotate\:180,
+.rot\:180 {
+	rotate: 180deg !important;
+}
+
+.rotate\:-45,
+.rot\:-45 {
+	rotate: -45deg !important;
+}
+
+.rotate\:-90,
+.rot\:-90 {
+	rotate: -90deg !important;
+}
+
+.rotate\:-180,
+.rot\:-180 {
+	rotate: -180deg !important;
+}
+
+/* SCALE (uniform) */
+
+.scale\:0,
+.scl\:0 {
+	scale: 0 !important;
+}
+
+.scale\:50,
+.scl\:50 {
+	scale: 0.5 !important;
+}
+
+.scale\:75,
+.scl\:75 {
+	scale: 0.75 !important;
+}
+
+.scale\:90,
+.scl\:90 {
+	scale: 0.9 !important;
+}
+
+.scale\:95,
+.scl\:95 {
+	scale: 0.95 !important;
+}
+
+.scale\:100,
+.scl\:100 {
+	scale: 1 !important;
+}
+
+.scale\:105,
+.scl\:105 {
+	scale: 1.05 !important;
+}
+
+.scale\:110,
+.scl\:110 {
+	scale: 1.1 !important;
+}
+
+.scale\:125,
+.scl\:125 {
+	scale: 1.25 !important;
+}
+
+.scale\:150,
+.scl\:150 {
+	scale: 1.5 !important;
+}
+
+/* SKEW-X / SKEW-Y (uses transform shorthand) */
+
+.skew-x\:0,
+.skx\:0 {
+	transform: skewX(0deg) !important;
+}
+
+.skew-x\:1,
+.skx\:1 {
+	transform: skewX(1deg) !important;
+}
+
+.skew-x\:2,
+.skx\:2 {
+	transform: skewX(2deg) !important;
+}
+
+.skew-x\:3,
+.skx\:3 {
+	transform: skewX(3deg) !important;
+}
+
+.skew-x\:6,
+.skx\:6 {
+	transform: skewX(6deg) !important;
+}
+
+.skew-x\:12,
+.skx\:12 {
+	transform: skewX(12deg) !important;
+}
+
+.skew-y\:0,
+.sky\:0 {
+	transform: skewY(0deg) !important;
+}
+
+.skew-y\:1,
+.sky\:1 {
+	transform: skewY(1deg) !important;
+}
+
+.skew-y\:2,
+.sky\:2 {
+	transform: skewY(2deg) !important;
+}
+
+.skew-y\:3,
+.sky\:3 {
+	transform: skewY(3deg) !important;
+}
+
+.skew-y\:6,
+.sky\:6 {
+	transform: skewY(6deg) !important;
+}
+
+.skew-y\:12,
+.sky\:12 {
+	transform: skewY(12deg) !important;
+}
+
+/* TRANSFORM-ORIGIN */
+
+.transform-origin\:center,
+.tro\:center {
+	transform-origin: center !important;
+}
+
+.transform-origin\:top,
+.tro\:top {
+	transform-origin: top !important;
+}
+
+.transform-origin\:top-right,
+.tro\:top-right {
+	transform-origin: top right !important;
+}
+
+.transform-origin\:right,
+.tro\:right {
+	transform-origin: right !important;
+}
+
+.transform-origin\:bottom-right,
+.tro\:bottom-right {
+	transform-origin: bottom right !important;
+}
+
+.transform-origin\:bottom,
+.tro\:bottom {
+	transform-origin: bottom !important;
+}
+
+.transform-origin\:bottom-left,
+.tro\:bottom-left {
+	transform-origin: bottom left !important;
+}
+
+.transform-origin\:left,
+.tro\:left {
+	transform-origin: left !important;
+}
+
+.transform-origin\:top-left,
+.tro\:top-left {
+	transform-origin: top left !important;
+}
+
+/* TRANSFORM (reset) */
+
+.transform\:none {
+	translate: none !important;
+	rotate: none !important;
+	scale: none !important;
+	transform: none !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
+
+	/* TRANSLATE-X */
+
+	.sm\:translate-x\:0,
+	.sm\:trx\:0 {
+		translate: var(--space-0) 0 !important;
+	}
+
+	.sm\:translate-x\:1,
+	.sm\:trx\:1 {
+		translate: var(--space-1) 0 !important;
+	}
+
+	.sm\:translate-x\:2,
+	.sm\:trx\:2 {
+		translate: var(--space-2) 0 !important;
+	}
+
+	.sm\:translate-x\:3,
+	.sm\:trx\:3 {
+		translate: var(--space-3) 0 !important;
+	}
+
+	.sm\:translate-x\:4,
+	.sm\:trx\:4 {
+		translate: var(--space-4) 0 !important;
+	}
+
+	.sm\:translate-x\:5,
+	.sm\:trx\:5 {
+		translate: var(--space-5) 0 !important;
+	}
+
+	.sm\:translate-x\:6,
+	.sm\:trx\:6 {
+		translate: var(--space-6) 0 !important;
+	}
+
+	.sm\:translate-x\:7,
+	.sm\:trx\:7 {
+		translate: var(--space-7) 0 !important;
+	}
+
+	.sm\:translate-x\:8,
+	.sm\:trx\:8 {
+		translate: var(--space-8) 0 !important;
+	}
+
+	.sm\:translate-x\:9,
+	.sm\:trx\:9 {
+		translate: var(--space-9) 0 !important;
+	}
+
+	.sm\:translate-x\:10,
+	.sm\:trx\:10 {
+		translate: var(--space-10) 0 !important;
+	}
+
+	.sm\:translate-x\:11,
+	.sm\:trx\:11 {
+		translate: var(--space-11) 0 !important;
+	}
+
+	.sm\:translate-x\:12,
+	.sm\:trx\:12 {
+		translate: var(--space-12) 0 !important;
+	}
+
+	.sm\:translate-x\:13,
+	.sm\:trx\:13 {
+		translate: var(--space-13) 0 !important;
+	}
+
+	.sm\:translate-x\:14,
+	.sm\:trx\:14 {
+		translate: var(--space-14) 0 !important;
+	}
+
+	/* TRANSLATE-Y */
+
+	.sm\:translate-y\:0,
+	.sm\:try\:0 {
+		translate: 0 var(--space-0) !important;
+	}
+
+	.sm\:translate-y\:1,
+	.sm\:try\:1 {
+		translate: 0 var(--space-1) !important;
+	}
+
+	.sm\:translate-y\:2,
+	.sm\:try\:2 {
+		translate: 0 var(--space-2) !important;
+	}
+
+	.sm\:translate-y\:3,
+	.sm\:try\:3 {
+		translate: 0 var(--space-3) !important;
+	}
+
+	.sm\:translate-y\:4,
+	.sm\:try\:4 {
+		translate: 0 var(--space-4) !important;
+	}
+
+	.sm\:translate-y\:5,
+	.sm\:try\:5 {
+		translate: 0 var(--space-5) !important;
+	}
+
+	.sm\:translate-y\:6,
+	.sm\:try\:6 {
+		translate: 0 var(--space-6) !important;
+	}
+
+	.sm\:translate-y\:7,
+	.sm\:try\:7 {
+		translate: 0 var(--space-7) !important;
+	}
+
+	.sm\:translate-y\:8,
+	.sm\:try\:8 {
+		translate: 0 var(--space-8) !important;
+	}
+
+	.sm\:translate-y\:9,
+	.sm\:try\:9 {
+		translate: 0 var(--space-9) !important;
+	}
+
+	.sm\:translate-y\:10,
+	.sm\:try\:10 {
+		translate: 0 var(--space-10) !important;
+	}
+
+	.sm\:translate-y\:11,
+	.sm\:try\:11 {
+		translate: 0 var(--space-11) !important;
+	}
+
+	.sm\:translate-y\:12,
+	.sm\:try\:12 {
+		translate: 0 var(--space-12) !important;
+	}
+
+	.sm\:translate-y\:13,
+	.sm\:try\:13 {
+		translate: 0 var(--space-13) !important;
+	}
+
+	.sm\:translate-y\:14,
+	.sm\:try\:14 {
+		translate: 0 var(--space-14) !important;
+	}
+
+	/* ROTATE */
+
+	.sm\:rotate\:0,
+	.sm\:rot\:0 {
+		rotate: 0 !important;
+	}
+
+	.sm\:rotate\:45,
+	.sm\:rot\:45 {
+		rotate: 45deg !important;
+	}
+
+	.sm\:rotate\:90,
+	.sm\:rot\:90 {
+		rotate: 90deg !important;
+	}
+
+	.sm\:rotate\:180,
+	.sm\:rot\:180 {
+		rotate: 180deg !important;
+	}
+
+	.sm\:rotate\:-45,
+	.sm\:rot\:-45 {
+		rotate: -45deg !important;
+	}
+
+	.sm\:rotate\:-90,
+	.sm\:rot\:-90 {
+		rotate: -90deg !important;
+	}
+
+	.sm\:rotate\:-180,
+	.sm\:rot\:-180 {
+		rotate: -180deg !important;
+	}
+
+	/* SCALE (uniform) */
+
+	.sm\:scale\:0,
+	.sm\:scl\:0 {
+		scale: 0 !important;
+	}
+
+	.sm\:scale\:50,
+	.sm\:scl\:50 {
+		scale: 0.5 !important;
+	}
+
+	.sm\:scale\:75,
+	.sm\:scl\:75 {
+		scale: 0.75 !important;
+	}
+
+	.sm\:scale\:90,
+	.sm\:scl\:90 {
+		scale: 0.9 !important;
+	}
+
+	.sm\:scale\:95,
+	.sm\:scl\:95 {
+		scale: 0.95 !important;
+	}
+
+	.sm\:scale\:100,
+	.sm\:scl\:100 {
+		scale: 1 !important;
+	}
+
+	.sm\:scale\:105,
+	.sm\:scl\:105 {
+		scale: 1.05 !important;
+	}
+
+	.sm\:scale\:110,
+	.sm\:scl\:110 {
+		scale: 1.1 !important;
+	}
+
+	.sm\:scale\:125,
+	.sm\:scl\:125 {
+		scale: 1.25 !important;
+	}
+
+	.sm\:scale\:150,
+	.sm\:scl\:150 {
+		scale: 1.5 !important;
+	}
+
+	/* SKEW-X / SKEW-Y (uses transform shorthand) */
+
+	.sm\:skew-x\:0,
+	.sm\:skx\:0 {
+		transform: skewX(0deg) !important;
+	}
+
+	.sm\:skew-x\:1,
+	.sm\:skx\:1 {
+		transform: skewX(1deg) !important;
+	}
+
+	.sm\:skew-x\:2,
+	.sm\:skx\:2 {
+		transform: skewX(2deg) !important;
+	}
+
+	.sm\:skew-x\:3,
+	.sm\:skx\:3 {
+		transform: skewX(3deg) !important;
+	}
+
+	.sm\:skew-x\:6,
+	.sm\:skx\:6 {
+		transform: skewX(6deg) !important;
+	}
+
+	.sm\:skew-x\:12,
+	.sm\:skx\:12 {
+		transform: skewX(12deg) !important;
+	}
+
+	.sm\:skew-y\:0,
+	.sm\:sky\:0 {
+		transform: skewY(0deg) !important;
+	}
+
+	.sm\:skew-y\:1,
+	.sm\:sky\:1 {
+		transform: skewY(1deg) !important;
+	}
+
+	.sm\:skew-y\:2,
+	.sm\:sky\:2 {
+		transform: skewY(2deg) !important;
+	}
+
+	.sm\:skew-y\:3,
+	.sm\:sky\:3 {
+		transform: skewY(3deg) !important;
+	}
+
+	.sm\:skew-y\:6,
+	.sm\:sky\:6 {
+		transform: skewY(6deg) !important;
+	}
+
+	.sm\:skew-y\:12,
+	.sm\:sky\:12 {
+		transform: skewY(12deg) !important;
+	}
+
+	/* TRANSFORM-ORIGIN */
+
+	.sm\:transform-origin\:center,
+	.sm\:tro\:center {
+		transform-origin: center !important;
+	}
+
+	.sm\:transform-origin\:top,
+	.sm\:tro\:top {
+		transform-origin: top !important;
+	}
+
+	.sm\:transform-origin\:top-right,
+	.sm\:tro\:top-right {
+		transform-origin: top right !important;
+	}
+
+	.sm\:transform-origin\:right,
+	.sm\:tro\:right {
+		transform-origin: right !important;
+	}
+
+	.sm\:transform-origin\:bottom-right,
+	.sm\:tro\:bottom-right {
+		transform-origin: bottom right !important;
+	}
+
+	.sm\:transform-origin\:bottom,
+	.sm\:tro\:bottom {
+		transform-origin: bottom !important;
+	}
+
+	.sm\:transform-origin\:bottom-left,
+	.sm\:tro\:bottom-left {
+		transform-origin: bottom left !important;
+	}
+
+	.sm\:transform-origin\:left,
+	.sm\:tro\:left {
+		transform-origin: left !important;
+	}
+
+	.sm\:transform-origin\:top-left,
+	.sm\:tro\:top-left {
+		transform-origin: top left !important;
+	}
+
+	/* TRANSFORM (reset) */
+
+	.sm\:transform\:none {
+		translate: none !important;
+		rotate: none !important;
+		scale: none !important;
+		transform: none !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
+
+	/* TRANSLATE-X */
+
+	.md\:translate-x\:0,
+	.md\:trx\:0 {
+		translate: var(--space-0) 0 !important;
+	}
+
+	.md\:translate-x\:1,
+	.md\:trx\:1 {
+		translate: var(--space-1) 0 !important;
+	}
+
+	.md\:translate-x\:2,
+	.md\:trx\:2 {
+		translate: var(--space-2) 0 !important;
+	}
+
+	.md\:translate-x\:3,
+	.md\:trx\:3 {
+		translate: var(--space-3) 0 !important;
+	}
+
+	.md\:translate-x\:4,
+	.md\:trx\:4 {
+		translate: var(--space-4) 0 !important;
+	}
+
+	.md\:translate-x\:5,
+	.md\:trx\:5 {
+		translate: var(--space-5) 0 !important;
+	}
+
+	.md\:translate-x\:6,
+	.md\:trx\:6 {
+		translate: var(--space-6) 0 !important;
+	}
+
+	.md\:translate-x\:7,
+	.md\:trx\:7 {
+		translate: var(--space-7) 0 !important;
+	}
+
+	.md\:translate-x\:8,
+	.md\:trx\:8 {
+		translate: var(--space-8) 0 !important;
+	}
+
+	.md\:translate-x\:9,
+	.md\:trx\:9 {
+		translate: var(--space-9) 0 !important;
+	}
+
+	.md\:translate-x\:10,
+	.md\:trx\:10 {
+		translate: var(--space-10) 0 !important;
+	}
+
+	.md\:translate-x\:11,
+	.md\:trx\:11 {
+		translate: var(--space-11) 0 !important;
+	}
+
+	.md\:translate-x\:12,
+	.md\:trx\:12 {
+		translate: var(--space-12) 0 !important;
+	}
+
+	.md\:translate-x\:13,
+	.md\:trx\:13 {
+		translate: var(--space-13) 0 !important;
+	}
+
+	.md\:translate-x\:14,
+	.md\:trx\:14 {
+		translate: var(--space-14) 0 !important;
+	}
+
+	/* TRANSLATE-Y */
+
+	.md\:translate-y\:0,
+	.md\:try\:0 {
+		translate: 0 var(--space-0) !important;
+	}
+
+	.md\:translate-y\:1,
+	.md\:try\:1 {
+		translate: 0 var(--space-1) !important;
+	}
+
+	.md\:translate-y\:2,
+	.md\:try\:2 {
+		translate: 0 var(--space-2) !important;
+	}
+
+	.md\:translate-y\:3,
+	.md\:try\:3 {
+		translate: 0 var(--space-3) !important;
+	}
+
+	.md\:translate-y\:4,
+	.md\:try\:4 {
+		translate: 0 var(--space-4) !important;
+	}
+
+	.md\:translate-y\:5,
+	.md\:try\:5 {
+		translate: 0 var(--space-5) !important;
+	}
+
+	.md\:translate-y\:6,
+	.md\:try\:6 {
+		translate: 0 var(--space-6) !important;
+	}
+
+	.md\:translate-y\:7,
+	.md\:try\:7 {
+		translate: 0 var(--space-7) !important;
+	}
+
+	.md\:translate-y\:8,
+	.md\:try\:8 {
+		translate: 0 var(--space-8) !important;
+	}
+
+	.md\:translate-y\:9,
+	.md\:try\:9 {
+		translate: 0 var(--space-9) !important;
+	}
+
+	.md\:translate-y\:10,
+	.md\:try\:10 {
+		translate: 0 var(--space-10) !important;
+	}
+
+	.md\:translate-y\:11,
+	.md\:try\:11 {
+		translate: 0 var(--space-11) !important;
+	}
+
+	.md\:translate-y\:12,
+	.md\:try\:12 {
+		translate: 0 var(--space-12) !important;
+	}
+
+	.md\:translate-y\:13,
+	.md\:try\:13 {
+		translate: 0 var(--space-13) !important;
+	}
+
+	.md\:translate-y\:14,
+	.md\:try\:14 {
+		translate: 0 var(--space-14) !important;
+	}
+
+	/* ROTATE */
+
+	.md\:rotate\:0,
+	.md\:rot\:0 {
+		rotate: 0 !important;
+	}
+
+	.md\:rotate\:45,
+	.md\:rot\:45 {
+		rotate: 45deg !important;
+	}
+
+	.md\:rotate\:90,
+	.md\:rot\:90 {
+		rotate: 90deg !important;
+	}
+
+	.md\:rotate\:180,
+	.md\:rot\:180 {
+		rotate: 180deg !important;
+	}
+
+	.md\:rotate\:-45,
+	.md\:rot\:-45 {
+		rotate: -45deg !important;
+	}
+
+	.md\:rotate\:-90,
+	.md\:rot\:-90 {
+		rotate: -90deg !important;
+	}
+
+	.md\:rotate\:-180,
+	.md\:rot\:-180 {
+		rotate: -180deg !important;
+	}
+
+	/* SCALE (uniform) */
+
+	.md\:scale\:0,
+	.md\:scl\:0 {
+		scale: 0 !important;
+	}
+
+	.md\:scale\:50,
+	.md\:scl\:50 {
+		scale: 0.5 !important;
+	}
+
+	.md\:scale\:75,
+	.md\:scl\:75 {
+		scale: 0.75 !important;
+	}
+
+	.md\:scale\:90,
+	.md\:scl\:90 {
+		scale: 0.9 !important;
+	}
+
+	.md\:scale\:95,
+	.md\:scl\:95 {
+		scale: 0.95 !important;
+	}
+
+	.md\:scale\:100,
+	.md\:scl\:100 {
+		scale: 1 !important;
+	}
+
+	.md\:scale\:105,
+	.md\:scl\:105 {
+		scale: 1.05 !important;
+	}
+
+	.md\:scale\:110,
+	.md\:scl\:110 {
+		scale: 1.1 !important;
+	}
+
+	.md\:scale\:125,
+	.md\:scl\:125 {
+		scale: 1.25 !important;
+	}
+
+	.md\:scale\:150,
+	.md\:scl\:150 {
+		scale: 1.5 !important;
+	}
+
+	/* SKEW-X / SKEW-Y (uses transform shorthand) */
+
+	.md\:skew-x\:0,
+	.md\:skx\:0 {
+		transform: skewX(0deg) !important;
+	}
+
+	.md\:skew-x\:1,
+	.md\:skx\:1 {
+		transform: skewX(1deg) !important;
+	}
+
+	.md\:skew-x\:2,
+	.md\:skx\:2 {
+		transform: skewX(2deg) !important;
+	}
+
+	.md\:skew-x\:3,
+	.md\:skx\:3 {
+		transform: skewX(3deg) !important;
+	}
+
+	.md\:skew-x\:6,
+	.md\:skx\:6 {
+		transform: skewX(6deg) !important;
+	}
+
+	.md\:skew-x\:12,
+	.md\:skx\:12 {
+		transform: skewX(12deg) !important;
+	}
+
+	.md\:skew-y\:0,
+	.md\:sky\:0 {
+		transform: skewY(0deg) !important;
+	}
+
+	.md\:skew-y\:1,
+	.md\:sky\:1 {
+		transform: skewY(1deg) !important;
+	}
+
+	.md\:skew-y\:2,
+	.md\:sky\:2 {
+		transform: skewY(2deg) !important;
+	}
+
+	.md\:skew-y\:3,
+	.md\:sky\:3 {
+		transform: skewY(3deg) !important;
+	}
+
+	.md\:skew-y\:6,
+	.md\:sky\:6 {
+		transform: skewY(6deg) !important;
+	}
+
+	.md\:skew-y\:12,
+	.md\:sky\:12 {
+		transform: skewY(12deg) !important;
+	}
+
+	/* TRANSFORM-ORIGIN */
+
+	.md\:transform-origin\:center,
+	.md\:tro\:center {
+		transform-origin: center !important;
+	}
+
+	.md\:transform-origin\:top,
+	.md\:tro\:top {
+		transform-origin: top !important;
+	}
+
+	.md\:transform-origin\:top-right,
+	.md\:tro\:top-right {
+		transform-origin: top right !important;
+	}
+
+	.md\:transform-origin\:right,
+	.md\:tro\:right {
+		transform-origin: right !important;
+	}
+
+	.md\:transform-origin\:bottom-right,
+	.md\:tro\:bottom-right {
+		transform-origin: bottom right !important;
+	}
+
+	.md\:transform-origin\:bottom,
+	.md\:tro\:bottom {
+		transform-origin: bottom !important;
+	}
+
+	.md\:transform-origin\:bottom-left,
+	.md\:tro\:bottom-left {
+		transform-origin: bottom left !important;
+	}
+
+	.md\:transform-origin\:left,
+	.md\:tro\:left {
+		transform-origin: left !important;
+	}
+
+	.md\:transform-origin\:top-left,
+	.md\:tro\:top-left {
+		transform-origin: top left !important;
+	}
+
+	/* TRANSFORM (reset) */
+
+	.md\:transform\:none {
+		translate: none !important;
+		rotate: none !important;
+		scale: none !important;
+		transform: none !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
+
+	/* TRANSLATE-X */
+
+	.lg\:translate-x\:0,
+	.lg\:trx\:0 {
+		translate: var(--space-0) 0 !important;
+	}
+
+	.lg\:translate-x\:1,
+	.lg\:trx\:1 {
+		translate: var(--space-1) 0 !important;
+	}
+
+	.lg\:translate-x\:2,
+	.lg\:trx\:2 {
+		translate: var(--space-2) 0 !important;
+	}
+
+	.lg\:translate-x\:3,
+	.lg\:trx\:3 {
+		translate: var(--space-3) 0 !important;
+	}
+
+	.lg\:translate-x\:4,
+	.lg\:trx\:4 {
+		translate: var(--space-4) 0 !important;
+	}
+
+	.lg\:translate-x\:5,
+	.lg\:trx\:5 {
+		translate: var(--space-5) 0 !important;
+	}
+
+	.lg\:translate-x\:6,
+	.lg\:trx\:6 {
+		translate: var(--space-6) 0 !important;
+	}
+
+	.lg\:translate-x\:7,
+	.lg\:trx\:7 {
+		translate: var(--space-7) 0 !important;
+	}
+
+	.lg\:translate-x\:8,
+	.lg\:trx\:8 {
+		translate: var(--space-8) 0 !important;
+	}
+
+	.lg\:translate-x\:9,
+	.lg\:trx\:9 {
+		translate: var(--space-9) 0 !important;
+	}
+
+	.lg\:translate-x\:10,
+	.lg\:trx\:10 {
+		translate: var(--space-10) 0 !important;
+	}
+
+	.lg\:translate-x\:11,
+	.lg\:trx\:11 {
+		translate: var(--space-11) 0 !important;
+	}
+
+	.lg\:translate-x\:12,
+	.lg\:trx\:12 {
+		translate: var(--space-12) 0 !important;
+	}
+
+	.lg\:translate-x\:13,
+	.lg\:trx\:13 {
+		translate: var(--space-13) 0 !important;
+	}
+
+	.lg\:translate-x\:14,
+	.lg\:trx\:14 {
+		translate: var(--space-14) 0 !important;
+	}
+
+	/* TRANSLATE-Y */
+
+	.lg\:translate-y\:0,
+	.lg\:try\:0 {
+		translate: 0 var(--space-0) !important;
+	}
+
+	.lg\:translate-y\:1,
+	.lg\:try\:1 {
+		translate: 0 var(--space-1) !important;
+	}
+
+	.lg\:translate-y\:2,
+	.lg\:try\:2 {
+		translate: 0 var(--space-2) !important;
+	}
+
+	.lg\:translate-y\:3,
+	.lg\:try\:3 {
+		translate: 0 var(--space-3) !important;
+	}
+
+	.lg\:translate-y\:4,
+	.lg\:try\:4 {
+		translate: 0 var(--space-4) !important;
+	}
+
+	.lg\:translate-y\:5,
+	.lg\:try\:5 {
+		translate: 0 var(--space-5) !important;
+	}
+
+	.lg\:translate-y\:6,
+	.lg\:try\:6 {
+		translate: 0 var(--space-6) !important;
+	}
+
+	.lg\:translate-y\:7,
+	.lg\:try\:7 {
+		translate: 0 var(--space-7) !important;
+	}
+
+	.lg\:translate-y\:8,
+	.lg\:try\:8 {
+		translate: 0 var(--space-8) !important;
+	}
+
+	.lg\:translate-y\:9,
+	.lg\:try\:9 {
+		translate: 0 var(--space-9) !important;
+	}
+
+	.lg\:translate-y\:10,
+	.lg\:try\:10 {
+		translate: 0 var(--space-10) !important;
+	}
+
+	.lg\:translate-y\:11,
+	.lg\:try\:11 {
+		translate: 0 var(--space-11) !important;
+	}
+
+	.lg\:translate-y\:12,
+	.lg\:try\:12 {
+		translate: 0 var(--space-12) !important;
+	}
+
+	.lg\:translate-y\:13,
+	.lg\:try\:13 {
+		translate: 0 var(--space-13) !important;
+	}
+
+	.lg\:translate-y\:14,
+	.lg\:try\:14 {
+		translate: 0 var(--space-14) !important;
+	}
+
+	/* ROTATE */
+
+	.lg\:rotate\:0,
+	.lg\:rot\:0 {
+		rotate: 0 !important;
+	}
+
+	.lg\:rotate\:45,
+	.lg\:rot\:45 {
+		rotate: 45deg !important;
+	}
+
+	.lg\:rotate\:90,
+	.lg\:rot\:90 {
+		rotate: 90deg !important;
+	}
+
+	.lg\:rotate\:180,
+	.lg\:rot\:180 {
+		rotate: 180deg !important;
+	}
+
+	.lg\:rotate\:-45,
+	.lg\:rot\:-45 {
+		rotate: -45deg !important;
+	}
+
+	.lg\:rotate\:-90,
+	.lg\:rot\:-90 {
+		rotate: -90deg !important;
+	}
+
+	.lg\:rotate\:-180,
+	.lg\:rot\:-180 {
+		rotate: -180deg !important;
+	}
+
+	/* SCALE (uniform) */
+
+	.lg\:scale\:0,
+	.lg\:scl\:0 {
+		scale: 0 !important;
+	}
+
+	.lg\:scale\:50,
+	.lg\:scl\:50 {
+		scale: 0.5 !important;
+	}
+
+	.lg\:scale\:75,
+	.lg\:scl\:75 {
+		scale: 0.75 !important;
+	}
+
+	.lg\:scale\:90,
+	.lg\:scl\:90 {
+		scale: 0.9 !important;
+	}
+
+	.lg\:scale\:95,
+	.lg\:scl\:95 {
+		scale: 0.95 !important;
+	}
+
+	.lg\:scale\:100,
+	.lg\:scl\:100 {
+		scale: 1 !important;
+	}
+
+	.lg\:scale\:105,
+	.lg\:scl\:105 {
+		scale: 1.05 !important;
+	}
+
+	.lg\:scale\:110,
+	.lg\:scl\:110 {
+		scale: 1.1 !important;
+	}
+
+	.lg\:scale\:125,
+	.lg\:scl\:125 {
+		scale: 1.25 !important;
+	}
+
+	.lg\:scale\:150,
+	.lg\:scl\:150 {
+		scale: 1.5 !important;
+	}
+
+	/* SKEW-X / SKEW-Y (uses transform shorthand) */
+
+	.lg\:skew-x\:0,
+	.lg\:skx\:0 {
+		transform: skewX(0deg) !important;
+	}
+
+	.lg\:skew-x\:1,
+	.lg\:skx\:1 {
+		transform: skewX(1deg) !important;
+	}
+
+	.lg\:skew-x\:2,
+	.lg\:skx\:2 {
+		transform: skewX(2deg) !important;
+	}
+
+	.lg\:skew-x\:3,
+	.lg\:skx\:3 {
+		transform: skewX(3deg) !important;
+	}
+
+	.lg\:skew-x\:6,
+	.lg\:skx\:6 {
+		transform: skewX(6deg) !important;
+	}
+
+	.lg\:skew-x\:12,
+	.lg\:skx\:12 {
+		transform: skewX(12deg) !important;
+	}
+
+	.lg\:skew-y\:0,
+	.lg\:sky\:0 {
+		transform: skewY(0deg) !important;
+	}
+
+	.lg\:skew-y\:1,
+	.lg\:sky\:1 {
+		transform: skewY(1deg) !important;
+	}
+
+	.lg\:skew-y\:2,
+	.lg\:sky\:2 {
+		transform: skewY(2deg) !important;
+	}
+
+	.lg\:skew-y\:3,
+	.lg\:sky\:3 {
+		transform: skewY(3deg) !important;
+	}
+
+	.lg\:skew-y\:6,
+	.lg\:sky\:6 {
+		transform: skewY(6deg) !important;
+	}
+
+	.lg\:skew-y\:12,
+	.lg\:sky\:12 {
+		transform: skewY(12deg) !important;
+	}
+
+	/* TRANSFORM-ORIGIN */
+
+	.lg\:transform-origin\:center,
+	.lg\:tro\:center {
+		transform-origin: center !important;
+	}
+
+	.lg\:transform-origin\:top,
+	.lg\:tro\:top {
+		transform-origin: top !important;
+	}
+
+	.lg\:transform-origin\:top-right,
+	.lg\:tro\:top-right {
+		transform-origin: top right !important;
+	}
+
+	.lg\:transform-origin\:right,
+	.lg\:tro\:right {
+		transform-origin: right !important;
+	}
+
+	.lg\:transform-origin\:bottom-right,
+	.lg\:tro\:bottom-right {
+		transform-origin: bottom right !important;
+	}
+
+	.lg\:transform-origin\:bottom,
+	.lg\:tro\:bottom {
+		transform-origin: bottom !important;
+	}
+
+	.lg\:transform-origin\:bottom-left,
+	.lg\:tro\:bottom-left {
+		transform-origin: bottom left !important;
+	}
+
+	.lg\:transform-origin\:left,
+	.lg\:tro\:left {
+		transform-origin: left !important;
+	}
+
+	.lg\:transform-origin\:top-left,
+	.lg\:tro\:top-left {
+		transform-origin: top left !important;
+	}
+
+	/* TRANSFORM (reset) */
+
+	.lg\:transform\:none {
+		translate: none !important;
+		rotate: none !important;
+		scale: none !important;
+		transform: none !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
+
+	/* TRANSLATE-X */
+
+	.xl\:translate-x\:0,
+	.xl\:trx\:0 {
+		translate: var(--space-0) 0 !important;
+	}
+
+	.xl\:translate-x\:1,
+	.xl\:trx\:1 {
+		translate: var(--space-1) 0 !important;
+	}
+
+	.xl\:translate-x\:2,
+	.xl\:trx\:2 {
+		translate: var(--space-2) 0 !important;
+	}
+
+	.xl\:translate-x\:3,
+	.xl\:trx\:3 {
+		translate: var(--space-3) 0 !important;
+	}
+
+	.xl\:translate-x\:4,
+	.xl\:trx\:4 {
+		translate: var(--space-4) 0 !important;
+	}
+
+	.xl\:translate-x\:5,
+	.xl\:trx\:5 {
+		translate: var(--space-5) 0 !important;
+	}
+
+	.xl\:translate-x\:6,
+	.xl\:trx\:6 {
+		translate: var(--space-6) 0 !important;
+	}
+
+	.xl\:translate-x\:7,
+	.xl\:trx\:7 {
+		translate: var(--space-7) 0 !important;
+	}
+
+	.xl\:translate-x\:8,
+	.xl\:trx\:8 {
+		translate: var(--space-8) 0 !important;
+	}
+
+	.xl\:translate-x\:9,
+	.xl\:trx\:9 {
+		translate: var(--space-9) 0 !important;
+	}
+
+	.xl\:translate-x\:10,
+	.xl\:trx\:10 {
+		translate: var(--space-10) 0 !important;
+	}
+
+	.xl\:translate-x\:11,
+	.xl\:trx\:11 {
+		translate: var(--space-11) 0 !important;
+	}
+
+	.xl\:translate-x\:12,
+	.xl\:trx\:12 {
+		translate: var(--space-12) 0 !important;
+	}
+
+	.xl\:translate-x\:13,
+	.xl\:trx\:13 {
+		translate: var(--space-13) 0 !important;
+	}
+
+	.xl\:translate-x\:14,
+	.xl\:trx\:14 {
+		translate: var(--space-14) 0 !important;
+	}
+
+	/* TRANSLATE-Y */
+
+	.xl\:translate-y\:0,
+	.xl\:try\:0 {
+		translate: 0 var(--space-0) !important;
+	}
+
+	.xl\:translate-y\:1,
+	.xl\:try\:1 {
+		translate: 0 var(--space-1) !important;
+	}
+
+	.xl\:translate-y\:2,
+	.xl\:try\:2 {
+		translate: 0 var(--space-2) !important;
+	}
+
+	.xl\:translate-y\:3,
+	.xl\:try\:3 {
+		translate: 0 var(--space-3) !important;
+	}
+
+	.xl\:translate-y\:4,
+	.xl\:try\:4 {
+		translate: 0 var(--space-4) !important;
+	}
+
+	.xl\:translate-y\:5,
+	.xl\:try\:5 {
+		translate: 0 var(--space-5) !important;
+	}
+
+	.xl\:translate-y\:6,
+	.xl\:try\:6 {
+		translate: 0 var(--space-6) !important;
+	}
+
+	.xl\:translate-y\:7,
+	.xl\:try\:7 {
+		translate: 0 var(--space-7) !important;
+	}
+
+	.xl\:translate-y\:8,
+	.xl\:try\:8 {
+		translate: 0 var(--space-8) !important;
+	}
+
+	.xl\:translate-y\:9,
+	.xl\:try\:9 {
+		translate: 0 var(--space-9) !important;
+	}
+
+	.xl\:translate-y\:10,
+	.xl\:try\:10 {
+		translate: 0 var(--space-10) !important;
+	}
+
+	.xl\:translate-y\:11,
+	.xl\:try\:11 {
+		translate: 0 var(--space-11) !important;
+	}
+
+	.xl\:translate-y\:12,
+	.xl\:try\:12 {
+		translate: 0 var(--space-12) !important;
+	}
+
+	.xl\:translate-y\:13,
+	.xl\:try\:13 {
+		translate: 0 var(--space-13) !important;
+	}
+
+	.xl\:translate-y\:14,
+	.xl\:try\:14 {
+		translate: 0 var(--space-14) !important;
+	}
+
+	/* ROTATE */
+
+	.xl\:rotate\:0,
+	.xl\:rot\:0 {
+		rotate: 0 !important;
+	}
+
+	.xl\:rotate\:45,
+	.xl\:rot\:45 {
+		rotate: 45deg !important;
+	}
+
+	.xl\:rotate\:90,
+	.xl\:rot\:90 {
+		rotate: 90deg !important;
+	}
+
+	.xl\:rotate\:180,
+	.xl\:rot\:180 {
+		rotate: 180deg !important;
+	}
+
+	.xl\:rotate\:-45,
+	.xl\:rot\:-45 {
+		rotate: -45deg !important;
+	}
+
+	.xl\:rotate\:-90,
+	.xl\:rot\:-90 {
+		rotate: -90deg !important;
+	}
+
+	.xl\:rotate\:-180,
+	.xl\:rot\:-180 {
+		rotate: -180deg !important;
+	}
+
+	/* SCALE (uniform) */
+
+	.xl\:scale\:0,
+	.xl\:scl\:0 {
+		scale: 0 !important;
+	}
+
+	.xl\:scale\:50,
+	.xl\:scl\:50 {
+		scale: 0.5 !important;
+	}
+
+	.xl\:scale\:75,
+	.xl\:scl\:75 {
+		scale: 0.75 !important;
+	}
+
+	.xl\:scale\:90,
+	.xl\:scl\:90 {
+		scale: 0.9 !important;
+	}
+
+	.xl\:scale\:95,
+	.xl\:scl\:95 {
+		scale: 0.95 !important;
+	}
+
+	.xl\:scale\:100,
+	.xl\:scl\:100 {
+		scale: 1 !important;
+	}
+
+	.xl\:scale\:105,
+	.xl\:scl\:105 {
+		scale: 1.05 !important;
+	}
+
+	.xl\:scale\:110,
+	.xl\:scl\:110 {
+		scale: 1.1 !important;
+	}
+
+	.xl\:scale\:125,
+	.xl\:scl\:125 {
+		scale: 1.25 !important;
+	}
+
+	.xl\:scale\:150,
+	.xl\:scl\:150 {
+		scale: 1.5 !important;
+	}
+
+	/* SKEW-X / SKEW-Y (uses transform shorthand) */
+
+	.xl\:skew-x\:0,
+	.xl\:skx\:0 {
+		transform: skewX(0deg) !important;
+	}
+
+	.xl\:skew-x\:1,
+	.xl\:skx\:1 {
+		transform: skewX(1deg) !important;
+	}
+
+	.xl\:skew-x\:2,
+	.xl\:skx\:2 {
+		transform: skewX(2deg) !important;
+	}
+
+	.xl\:skew-x\:3,
+	.xl\:skx\:3 {
+		transform: skewX(3deg) !important;
+	}
+
+	.xl\:skew-x\:6,
+	.xl\:skx\:6 {
+		transform: skewX(6deg) !important;
+	}
+
+	.xl\:skew-x\:12,
+	.xl\:skx\:12 {
+		transform: skewX(12deg) !important;
+	}
+
+	.xl\:skew-y\:0,
+	.xl\:sky\:0 {
+		transform: skewY(0deg) !important;
+	}
+
+	.xl\:skew-y\:1,
+	.xl\:sky\:1 {
+		transform: skewY(1deg) !important;
+	}
+
+	.xl\:skew-y\:2,
+	.xl\:sky\:2 {
+		transform: skewY(2deg) !important;
+	}
+
+	.xl\:skew-y\:3,
+	.xl\:sky\:3 {
+		transform: skewY(3deg) !important;
+	}
+
+	.xl\:skew-y\:6,
+	.xl\:sky\:6 {
+		transform: skewY(6deg) !important;
+	}
+
+	.xl\:skew-y\:12,
+	.xl\:sky\:12 {
+		transform: skewY(12deg) !important;
+	}
+
+	/* TRANSFORM-ORIGIN */
+
+	.xl\:transform-origin\:center,
+	.xl\:tro\:center {
+		transform-origin: center !important;
+	}
+
+	.xl\:transform-origin\:top,
+	.xl\:tro\:top {
+		transform-origin: top !important;
+	}
+
+	.xl\:transform-origin\:top-right,
+	.xl\:tro\:top-right {
+		transform-origin: top right !important;
+	}
+
+	.xl\:transform-origin\:right,
+	.xl\:tro\:right {
+		transform-origin: right !important;
+	}
+
+	.xl\:transform-origin\:bottom-right,
+	.xl\:tro\:bottom-right {
+		transform-origin: bottom right !important;
+	}
+
+	.xl\:transform-origin\:bottom,
+	.xl\:tro\:bottom {
+		transform-origin: bottom !important;
+	}
+
+	.xl\:transform-origin\:bottom-left,
+	.xl\:tro\:bottom-left {
+		transform-origin: bottom left !important;
+	}
+
+	.xl\:transform-origin\:left,
+	.xl\:tro\:left {
+		transform-origin: left !important;
+	}
+
+	.xl\:transform-origin\:top-left,
+	.xl\:tro\:top-left {
+		transform-origin: top left !important;
+	}
+
+	/* TRANSFORM (reset) */
+
+	.xl\:transform\:none {
+		translate: none !important;
+		rotate: none !important;
+		scale: none !important;
+		transform: none !important;
+	}
+
+}

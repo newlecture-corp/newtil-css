@@ -3,15 +3,47 @@
  * 토큰 참조는 모두 @newtil/design-tokens에서 옴 (style.css가 import).
  */
 
-/* CORE */
+/* CORE — display, position, spacing, sizing */
 @import "./core/display.css";
 @import "./core/position.css";
 @import "./core/spacing.css";
 @import "./core/sizing.css";
+
+/* CORE — color, typography, border, outline */
 @import "./core/colors.css";
 @import "./core/typography.css";
 @import "./core/borders.css";
+@import "./core/outline.css";
+
+/* CORE — effects, transform, transition */
 @import "./core/effects.css";
+@import "./core/transform.css";
+@import "./core/transition.css";
+
+/* CORE — visual / media */
+@import "./core/filter.css";
+@import "./core/backdrop-filter.css";
+@import "./core/aspect-ratio.css";
+@import "./core/object.css";
+@import "./core/background.css";
+
+/* CORE — text extras / font-family / scroll / container-queries / box */
+@import "./core/text-extras.css";
+@import "./core/font-family.css";
+@import "./core/scroll.css";
+@import "./core/container-queries.css";
+@import "./core/box.css";
+
+/* CORE — lists / tables / animation / interaction / blend / columns / svg / legacy / logical */
+@import "./core/lists.css";
+@import "./core/tables.css";
+@import "./core/animation.css";
+@import "./core/interaction.css";
+@import "./core/blend.css";
+@import "./core/columns.css";
+@import "./core/svg.css";
+@import "./core/legacy.css";
+@import "./core/logical.css";
 
 /* LAYOUT */
 @import "./layout/flexbox.css";

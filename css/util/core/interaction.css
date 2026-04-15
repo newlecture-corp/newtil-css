@@ -1,0 +1,562 @@
+/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
+
+/* RESIZE */
+
+.resize\:none,
+.rs\:none {
+	resize: none !important;
+}
+
+.resize\:both,
+.rs\:both {
+	resize: both !important;
+}
+
+.resize\:horizontal,
+.rs\:horizontal {
+	resize: horizontal !important;
+}
+
+.resize\:vertical,
+.rs\:vertical {
+	resize: vertical !important;
+}
+
+/* USER-SELECT */
+
+.user-select\:none,
+.us\:none {
+	user-select: none !important;
+}
+
+.user-select\:text,
+.us\:text {
+	user-select: text !important;
+}
+
+.user-select\:all,
+.us\:all {
+	user-select: all !important;
+}
+
+.user-select\:auto,
+.us\:auto {
+	user-select: auto !important;
+}
+
+/* POINTER-EVENTS */
+
+.pointer-events\:none,
+.pe\:none {
+	pointer-events: none !important;
+}
+
+.pointer-events\:auto,
+.pe\:auto {
+	pointer-events: auto !important;
+}
+
+/* TOUCH-ACTION */
+
+.touch-action\:auto,
+.ta\:auto {
+	touch-action: auto !important;
+}
+
+.touch-action\:none,
+.ta\:none {
+	touch-action: none !important;
+}
+
+.touch-action\:pan-x,
+.ta\:pan-x {
+	touch-action: pan-x !important;
+}
+
+.touch-action\:pan-y,
+.ta\:pan-y {
+	touch-action: pan-y !important;
+}
+
+.touch-action\:pan-left,
+.ta\:pan-left {
+	touch-action: pan-left !important;
+}
+
+.touch-action\:pan-right,
+.ta\:pan-right {
+	touch-action: pan-right !important;
+}
+
+.touch-action\:pan-up,
+.ta\:pan-up {
+	touch-action: pan-up !important;
+}
+
+.touch-action\:pan-down,
+.ta\:pan-down {
+	touch-action: pan-down !important;
+}
+
+.touch-action\:pinch-zoom,
+.ta\:pinch-zoom {
+	touch-action: pinch-zoom !important;
+}
+
+.touch-action\:manipulation,
+.ta\:manipulation {
+	touch-action: manipulation !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
+
+	/* RESIZE */
+
+	.sm\:resize\:none,
+	.sm\:rs\:none {
+		resize: none !important;
+	}
+
+	.sm\:resize\:both,
+	.sm\:rs\:both {
+		resize: both !important;
+	}
+
+	.sm\:resize\:horizontal,
+	.sm\:rs\:horizontal {
+		resize: horizontal !important;
+	}
+
+	.sm\:resize\:vertical,
+	.sm\:rs\:vertical {
+		resize: vertical !important;
+	}
+
+	/* USER-SELECT */
+
+	.sm\:user-select\:none,
+	.sm\:us\:none {
+		user-select: none !important;
+	}
+
+	.sm\:user-select\:text,
+	.sm\:us\:text {
+		user-select: text !important;
+	}
+
+	.sm\:user-select\:all,
+	.sm\:us\:all {
+		user-select: all !important;
+	}
+
+	.sm\:user-select\:auto,
+	.sm\:us\:auto {
+		user-select: auto !important;
+	}
+
+	/* POINTER-EVENTS */
+
+	.sm\:pointer-events\:none,
+	.sm\:pe\:none {
+		pointer-events: none !important;
+	}
+
+	.sm\:pointer-events\:auto,
+	.sm\:pe\:auto {
+		pointer-events: auto !important;
+	}
+
+	/* TOUCH-ACTION */
+
+	.sm\:touch-action\:auto,
+	.sm\:ta\:auto {
+		touch-action: auto !important;
+	}
+
+	.sm\:touch-action\:none,
+	.sm\:ta\:none {
+		touch-action: none !important;
+	}
+
+	.sm\:touch-action\:pan-x,
+	.sm\:ta\:pan-x {
+		touch-action: pan-x !important;
+	}
+
+	.sm\:touch-action\:pan-y,
+	.sm\:ta\:pan-y {
+		touch-action: pan-y !important;
+	}
+
+	.sm\:touch-action\:pan-left,
+	.sm\:ta\:pan-left {
+		touch-action: pan-left !important;
+	}
+
+	.sm\:touch-action\:pan-right,
+	.sm\:ta\:pan-right {
+		touch-action: pan-right !important;
+	}
+
+	.sm\:touch-action\:pan-up,
+	.sm\:ta\:pan-up {
+		touch-action: pan-up !important;
+	}
+
+	.sm\:touch-action\:pan-down,
+	.sm\:ta\:pan-down {
+		touch-action: pan-down !important;
+	}
+
+	.sm\:touch-action\:pinch-zoom,
+	.sm\:ta\:pinch-zoom {
+		touch-action: pinch-zoom !important;
+	}
+
+	.sm\:touch-action\:manipulation,
+	.sm\:ta\:manipulation {
+		touch-action: manipulation !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
+
+	/* RESIZE */
+
+	.md\:resize\:none,
+	.md\:rs\:none {
+		resize: none !important;
+	}
+
+	.md\:resize\:both,
+	.md\:rs\:both {
+		resize: both !important;
+	}
+
+	.md\:resize\:horizontal,
+	.md\:rs\:horizontal {
+		resize: horizontal !important;
+	}
+
+	.md\:resize\:vertical,
+	.md\:rs\:vertical {
+		resize: vertical !important;
+	}
+
+	/* USER-SELECT */
+
+	.md\:user-select\:none,
+	.md\:us\:none {
+		user-select: none !important;
+	}
+
+	.md\:user-select\:text,
+	.md\:us\:text {
+		user-select: text !important;
+	}
+
+	.md\:user-select\:all,
+	.md\:us\:all {
+		user-select: all !important;
+	}
+
+	.md\:user-select\:auto,
+	.md\:us\:auto {
+		user-select: auto !important;
+	}
+
+	/* POINTER-EVENTS */
+
+	.md\:pointer-events\:none,
+	.md\:pe\:none {
+		pointer-events: none !important;
+	}
+
+	.md\:pointer-events\:auto,
+	.md\:pe\:auto {
+		pointer-events: auto !important;
+	}
+
+	/* TOUCH-ACTION */
+
+	.md\:touch-action\:auto,
+	.md\:ta\:auto {
+		touch-action: auto !important;
+	}
+
+	.md\:touch-action\:none,
+	.md\:ta\:none {
+		touch-action: none !important;
+	}
+
+	.md\:touch-action\:pan-x,
+	.md\:ta\:pan-x {
+		touch-action: pan-x !important;
+	}
+
+	.md\:touch-action\:pan-y,
+	.md\:ta\:pan-y {
+		touch-action: pan-y !important;
+	}
+
+	.md\:touch-action\:pan-left,
+	.md\:ta\:pan-left {
+		touch-action: pan-left !important;
+	}
+
+	.md\:touch-action\:pan-right,
+	.md\:ta\:pan-right {
+		touch-action: pan-right !important;
+	}
+
+	.md\:touch-action\:pan-up,
+	.md\:ta\:pan-up {
+		touch-action: pan-up !important;
+	}
+
+	.md\:touch-action\:pan-down,
+	.md\:ta\:pan-down {
+		touch-action: pan-down !important;
+	}
+
+	.md\:touch-action\:pinch-zoom,
+	.md\:ta\:pinch-zoom {
+		touch-action: pinch-zoom !important;
+	}
+
+	.md\:touch-action\:manipulation,
+	.md\:ta\:manipulation {
+		touch-action: manipulation !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
+
+	/* RESIZE */
+
+	.lg\:resize\:none,
+	.lg\:rs\:none {
+		resize: none !important;
+	}
+
+	.lg\:resize\:both,
+	.lg\:rs\:both {
+		resize: both !important;
+	}
+
+	.lg\:resize\:horizontal,
+	.lg\:rs\:horizontal {
+		resize: horizontal !important;
+	}
+
+	.lg\:resize\:vertical,
+	.lg\:rs\:vertical {
+		resize: vertical !important;
+	}
+
+	/* USER-SELECT */
+
+	.lg\:user-select\:none,
+	.lg\:us\:none {
+		user-select: none !important;
+	}
+
+	.lg\:user-select\:text,
+	.lg\:us\:text {
+		user-select: text !important;
+	}
+
+	.lg\:user-select\:all,
+	.lg\:us\:all {
+		user-select: all !important;
+	}
+
+	.lg\:user-select\:auto,
+	.lg\:us\:auto {
+		user-select: auto !important;
+	}
+
+	/* POINTER-EVENTS */
+
+	.lg\:pointer-events\:none,
+	.lg\:pe\:none {
+		pointer-events: none !important;
+	}
+
+	.lg\:pointer-events\:auto,
+	.lg\:pe\:auto {
+		pointer-events: auto !important;
+	}
+
+	/* TOUCH-ACTION */
+
+	.lg\:touch-action\:auto,
+	.lg\:ta\:auto {
+		touch-action: auto !important;
+	}
+
+	.lg\:touch-action\:none,
+	.lg\:ta\:none {
+		touch-action: none !important;
+	}
+
+	.lg\:touch-action\:pan-x,
+	.lg\:ta\:pan-x {
+		touch-action: pan-x !important;
+	}
+
+	.lg\:touch-action\:pan-y,
+	.lg\:ta\:pan-y {
+		touch-action: pan-y !important;
+	}
+
+	.lg\:touch-action\:pan-left,
+	.lg\:ta\:pan-left {
+		touch-action: pan-left !important;
+	}
+
+	.lg\:touch-action\:pan-right,
+	.lg\:ta\:pan-right {
+		touch-action: pan-right !important;
+	}
+
+	.lg\:touch-action\:pan-up,
+	.lg\:ta\:pan-up {
+		touch-action: pan-up !important;
+	}
+
+	.lg\:touch-action\:pan-down,
+	.lg\:ta\:pan-down {
+		touch-action: pan-down !important;
+	}
+
+	.lg\:touch-action\:pinch-zoom,
+	.lg\:ta\:pinch-zoom {
+		touch-action: pinch-zoom !important;
+	}
+
+	.lg\:touch-action\:manipulation,
+	.lg\:ta\:manipulation {
+		touch-action: manipulation !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
+
+	/* RESIZE */
+
+	.xl\:resize\:none,
+	.xl\:rs\:none {
+		resize: none !important;
+	}
+
+	.xl\:resize\:both,
+	.xl\:rs\:both {
+		resize: both !important;
+	}
+
+	.xl\:resize\:horizontal,
+	.xl\:rs\:horizontal {
+		resize: horizontal !important;
+	}
+
+	.xl\:resize\:vertical,
+	.xl\:rs\:vertical {
+		resize: vertical !important;
+	}
+
+	/* USER-SELECT */
+
+	.xl\:user-select\:none,
+	.xl\:us\:none {
+		user-select: none !important;
+	}
+
+	.xl\:user-select\:text,
+	.xl\:us\:text {
+		user-select: text !important;
+	}
+
+	.xl\:user-select\:all,
+	.xl\:us\:all {
+		user-select: all !important;
+	}
+
+	.xl\:user-select\:auto,
+	.xl\:us\:auto {
+		user-select: auto !important;
+	}
+
+	/* POINTER-EVENTS */
+
+	.xl\:pointer-events\:none,
+	.xl\:pe\:none {
+		pointer-events: none !important;
+	}
+
+	.xl\:pointer-events\:auto,
+	.xl\:pe\:auto {
+		pointer-events: auto !important;
+	}
+
+	/* TOUCH-ACTION */
+
+	.xl\:touch-action\:auto,
+	.xl\:ta\:auto {
+		touch-action: auto !important;
+	}
+
+	.xl\:touch-action\:none,
+	.xl\:ta\:none {
+		touch-action: none !important;
+	}
+
+	.xl\:touch-action\:pan-x,
+	.xl\:ta\:pan-x {
+		touch-action: pan-x !important;
+	}
+
+	.xl\:touch-action\:pan-y,
+	.xl\:ta\:pan-y {
+		touch-action: pan-y !important;
+	}
+
+	.xl\:touch-action\:pan-left,
+	.xl\:ta\:pan-left {
+		touch-action: pan-left !important;
+	}
+
+	.xl\:touch-action\:pan-right,
+	.xl\:ta\:pan-right {
+		touch-action: pan-right !important;
+	}
+
+	.xl\:touch-action\:pan-up,
+	.xl\:ta\:pan-up {
+		touch-action: pan-up !important;
+	}
+
+	.xl\:touch-action\:pan-down,
+	.xl\:ta\:pan-down {
+		touch-action: pan-down !important;
+	}
+
+	.xl\:touch-action\:pinch-zoom,
+	.xl\:ta\:pinch-zoom {
+		touch-action: pinch-zoom !important;
+	}
+
+	.xl\:touch-action\:manipulation,
+	.xl\:ta\:manipulation {
+		touch-action: manipulation !important;
+	}
+
+}

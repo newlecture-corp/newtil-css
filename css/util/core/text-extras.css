@@ -1,0 +1,1452 @@
+/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
+
+/* TEXT-SHADOW */
+
+.text-shadow\:none,
+.tsh\:none {
+	text-shadow: none !important;
+}
+
+.text-shadow\:sm,
+.tsh\:sm {
+	text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.text-shadow\:md,
+.tsh\:md {
+	text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.text-shadow\:lg,
+.tsh\:lg {
+	text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.text-shadow\:xl,
+.tsh\:xl {
+	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+
+/* TEXT-INDENT */
+
+.text-indent\:0,
+.ti\:0 {
+	text-indent: var(--space-0) !important;
+}
+
+.text-indent\:1,
+.ti\:1 {
+	text-indent: var(--space-1) !important;
+}
+
+.text-indent\:2,
+.ti\:2 {
+	text-indent: var(--space-2) !important;
+}
+
+.text-indent\:3,
+.ti\:3 {
+	text-indent: var(--space-3) !important;
+}
+
+.text-indent\:4,
+.ti\:4 {
+	text-indent: var(--space-4) !important;
+}
+
+.text-indent\:5,
+.ti\:5 {
+	text-indent: var(--space-5) !important;
+}
+
+.text-indent\:6,
+.ti\:6 {
+	text-indent: var(--space-6) !important;
+}
+
+.text-indent\:7,
+.ti\:7 {
+	text-indent: var(--space-7) !important;
+}
+
+.text-indent\:8,
+.ti\:8 {
+	text-indent: var(--space-8) !important;
+}
+
+.text-indent\:9,
+.ti\:9 {
+	text-indent: var(--space-9) !important;
+}
+
+.text-indent\:10,
+.ti\:10 {
+	text-indent: var(--space-10) !important;
+}
+
+.text-indent\:11,
+.ti\:11 {
+	text-indent: var(--space-11) !important;
+}
+
+.text-indent\:12,
+.ti\:12 {
+	text-indent: var(--space-12) !important;
+}
+
+.text-indent\:13,
+.ti\:13 {
+	text-indent: var(--space-13) !important;
+}
+
+.text-indent\:14,
+.ti\:14 {
+	text-indent: var(--space-14) !important;
+}
+
+/* TEXT-OVERFLOW */
+
+.text-overflow\:clip,
+.to\:clip {
+	text-overflow: clip !important;
+}
+
+.text-overflow\:ellipsis,
+.to\:ellipsis {
+	text-overflow: ellipsis !important;
+}
+
+/* VERTICAL-ALIGN */
+
+.vertical-align\:baseline,
+.va\:baseline {
+	vertical-align: baseline !important;
+}
+
+.vertical-align\:top,
+.va\:top {
+	vertical-align: top !important;
+}
+
+.vertical-align\:middle,
+.va\:middle {
+	vertical-align: middle !important;
+}
+
+.vertical-align\:bottom,
+.va\:bottom {
+	vertical-align: bottom !important;
+}
+
+.vertical-align\:text-top,
+.va\:text-top {
+	vertical-align: text-top !important;
+}
+
+.vertical-align\:text-bottom,
+.va\:text-bottom {
+	vertical-align: text-bottom !important;
+}
+
+.vertical-align\:sub,
+.va\:sub {
+	vertical-align: sub !important;
+}
+
+.vertical-align\:super,
+.va\:super {
+	vertical-align: super !important;
+}
+
+/* WORD-SPACING */
+
+.word-spacing\:0,
+.wsp\:0 {
+	word-spacing: var(--space-0) !important;
+}
+
+.word-spacing\:1,
+.wsp\:1 {
+	word-spacing: var(--space-1) !important;
+}
+
+.word-spacing\:2,
+.wsp\:2 {
+	word-spacing: var(--space-2) !important;
+}
+
+.word-spacing\:3,
+.wsp\:3 {
+	word-spacing: var(--space-3) !important;
+}
+
+.word-spacing\:4,
+.wsp\:4 {
+	word-spacing: var(--space-4) !important;
+}
+
+.word-spacing\:5,
+.wsp\:5 {
+	word-spacing: var(--space-5) !important;
+}
+
+.word-spacing\:6,
+.wsp\:6 {
+	word-spacing: var(--space-6) !important;
+}
+
+.word-spacing\:7,
+.wsp\:7 {
+	word-spacing: var(--space-7) !important;
+}
+
+.word-spacing\:8,
+.wsp\:8 {
+	word-spacing: var(--space-8) !important;
+}
+
+.word-spacing\:9,
+.wsp\:9 {
+	word-spacing: var(--space-9) !important;
+}
+
+.word-spacing\:10,
+.wsp\:10 {
+	word-spacing: var(--space-10) !important;
+}
+
+.word-spacing\:11,
+.wsp\:11 {
+	word-spacing: var(--space-11) !important;
+}
+
+.word-spacing\:12,
+.wsp\:12 {
+	word-spacing: var(--space-12) !important;
+}
+
+.word-spacing\:13,
+.wsp\:13 {
+	word-spacing: var(--space-13) !important;
+}
+
+.word-spacing\:14,
+.wsp\:14 {
+	word-spacing: var(--space-14) !important;
+}
+
+/* TEXT-WRAP */
+
+.text-wrap\:wrap,
+.tw\:wrap {
+	text-wrap: wrap !important;
+}
+
+.text-wrap\:nowrap,
+.tw\:nowrap {
+	text-wrap: nowrap !important;
+}
+
+.text-wrap\:balance,
+.tw\:balance {
+	text-wrap: balance !important;
+}
+
+.text-wrap\:pretty,
+.tw\:pretty {
+	text-wrap: pretty !important;
+}
+
+/* HYPHENS */
+
+.hyphens\:none,
+.hy\:none {
+	hyphens: none !important;
+}
+
+.hyphens\:manual,
+.hy\:manual {
+	hyphens: manual !important;
+}
+
+.hyphens\:auto,
+.hy\:auto {
+	hyphens: auto !important;
+}
+
+/* DIRECTION */
+
+.direction\:ltr,
+.dir\:ltr {
+	direction: ltr !important;
+}
+
+.direction\:rtl,
+.dir\:rtl {
+	direction: rtl !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
+
+	/* TEXT-SHADOW */
+
+	.sm\:text-shadow\:none,
+	.sm\:tsh\:none {
+		text-shadow: none !important;
+	}
+
+	.sm\:text-shadow\:sm,
+	.sm\:tsh\:sm {
+		text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15) !important;
+	}
+
+	.sm\:text-shadow\:md,
+	.sm\:tsh\:md {
+		text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.sm\:text-shadow\:lg,
+	.sm\:tsh\:lg {
+		text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+	}
+
+	.sm\:text-shadow\:xl,
+	.sm\:tsh\:xl {
+		text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+	}
+
+	/* TEXT-INDENT */
+
+	.sm\:text-indent\:0,
+	.sm\:ti\:0 {
+		text-indent: var(--space-0) !important;
+	}
+
+	.sm\:text-indent\:1,
+	.sm\:ti\:1 {
+		text-indent: var(--space-1) !important;
+	}
+
+	.sm\:text-indent\:2,
+	.sm\:ti\:2 {
+		text-indent: var(--space-2) !important;
+	}
+
+	.sm\:text-indent\:3,
+	.sm\:ti\:3 {
+		text-indent: var(--space-3) !important;
+	}
+
+	.sm\:text-indent\:4,
+	.sm\:ti\:4 {
+		text-indent: var(--space-4) !important;
+	}
+
+	.sm\:text-indent\:5,
+	.sm\:ti\:5 {
+		text-indent: var(--space-5) !important;
+	}
+
+	.sm\:text-indent\:6,
+	.sm\:ti\:6 {
+		text-indent: var(--space-6) !important;
+	}
+
+	.sm\:text-indent\:7,
+	.sm\:ti\:7 {
+		text-indent: var(--space-7) !important;
+	}
+
+	.sm\:text-indent\:8,
+	.sm\:ti\:8 {
+		text-indent: var(--space-8) !important;
+	}
+
+	.sm\:text-indent\:9,
+	.sm\:ti\:9 {
+		text-indent: var(--space-9) !important;
+	}
+
+	.sm\:text-indent\:10,
+	.sm\:ti\:10 {
+		text-indent: var(--space-10) !important;
+	}
+
+	.sm\:text-indent\:11,
+	.sm\:ti\:11 {
+		text-indent: var(--space-11) !important;
+	}
+
+	.sm\:text-indent\:12,
+	.sm\:ti\:12 {
+		text-indent: var(--space-12) !important;
+	}
+
+	.sm\:text-indent\:13,
+	.sm\:ti\:13 {
+		text-indent: var(--space-13) !important;
+	}
+
+	.sm\:text-indent\:14,
+	.sm\:ti\:14 {
+		text-indent: var(--space-14) !important;
+	}
+
+	/* TEXT-OVERFLOW */
+
+	.sm\:text-overflow\:clip,
+	.sm\:to\:clip {
+		text-overflow: clip !important;
+	}
+
+	.sm\:text-overflow\:ellipsis,
+	.sm\:to\:ellipsis {
+		text-overflow: ellipsis !important;
+	}
+
+	/* VERTICAL-ALIGN */
+
+	.sm\:vertical-align\:baseline,
+	.sm\:va\:baseline {
+		vertical-align: baseline !important;
+	}
+
+	.sm\:vertical-align\:top,
+	.sm\:va\:top {
+		vertical-align: top !important;
+	}
+
+	.sm\:vertical-align\:middle,
+	.sm\:va\:middle {
+		vertical-align: middle !important;
+	}
+
+	.sm\:vertical-align\:bottom,
+	.sm\:va\:bottom {
+		vertical-align: bottom !important;
+	}
+
+	.sm\:vertical-align\:text-top,
+	.sm\:va\:text-top {
+		vertical-align: text-top !important;
+	}
+
+	.sm\:vertical-align\:text-bottom,
+	.sm\:va\:text-bottom {
+		vertical-align: text-bottom !important;
+	}
+
+	.sm\:vertical-align\:sub,
+	.sm\:va\:sub {
+		vertical-align: sub !important;
+	}
+
+	.sm\:vertical-align\:super,
+	.sm\:va\:super {
+		vertical-align: super !important;
+	}
+
+	/* WORD-SPACING */
+
+	.sm\:word-spacing\:0,
+	.sm\:wsp\:0 {
+		word-spacing: var(--space-0) !important;
+	}
+
+	.sm\:word-spacing\:1,
+	.sm\:wsp\:1 {
+		word-spacing: var(--space-1) !important;
+	}
+
+	.sm\:word-spacing\:2,
+	.sm\:wsp\:2 {
+		word-spacing: var(--space-2) !important;
+	}
+
+	.sm\:word-spacing\:3,
+	.sm\:wsp\:3 {
+		word-spacing: var(--space-3) !important;
+	}
+
+	.sm\:word-spacing\:4,
+	.sm\:wsp\:4 {
+		word-spacing: var(--space-4) !important;
+	}
+
+	.sm\:word-spacing\:5,
+	.sm\:wsp\:5 {
+		word-spacing: var(--space-5) !important;
+	}
+
+	.sm\:word-spacing\:6,
+	.sm\:wsp\:6 {
+		word-spacing: var(--space-6) !important;
+	}
+
+	.sm\:word-spacing\:7,
+	.sm\:wsp\:7 {
+		word-spacing: var(--space-7) !important;
+	}
+
+	.sm\:word-spacing\:8,
+	.sm\:wsp\:8 {
+		word-spacing: var(--space-8) !important;
+	}
+
+	.sm\:word-spacing\:9,
+	.sm\:wsp\:9 {
+		word-spacing: var(--space-9) !important;
+	}
+
+	.sm\:word-spacing\:10,
+	.sm\:wsp\:10 {
+		word-spacing: var(--space-10) !important;
+	}
+
+	.sm\:word-spacing\:11,
+	.sm\:wsp\:11 {
+		word-spacing: var(--space-11) !important;
+	}
+
+	.sm\:word-spacing\:12,
+	.sm\:wsp\:12 {
+		word-spacing: var(--space-12) !important;
+	}
+
+	.sm\:word-spacing\:13,
+	.sm\:wsp\:13 {
+		word-spacing: var(--space-13) !important;
+	}
+
+	.sm\:word-spacing\:14,
+	.sm\:wsp\:14 {
+		word-spacing: var(--space-14) !important;
+	}
+
+	/* TEXT-WRAP */
+
+	.sm\:text-wrap\:wrap,
+	.sm\:tw\:wrap {
+		text-wrap: wrap !important;
+	}
+
+	.sm\:text-wrap\:nowrap,
+	.sm\:tw\:nowrap {
+		text-wrap: nowrap !important;
+	}
+
+	.sm\:text-wrap\:balance,
+	.sm\:tw\:balance {
+		text-wrap: balance !important;
+	}
+
+	.sm\:text-wrap\:pretty,
+	.sm\:tw\:pretty {
+		text-wrap: pretty !important;
+	}
+
+	/* HYPHENS */
+
+	.sm\:hyphens\:none,
+	.sm\:hy\:none {
+		hyphens: none !important;
+	}
+
+	.sm\:hyphens\:manual,
+	.sm\:hy\:manual {
+		hyphens: manual !important;
+	}
+
+	.sm\:hyphens\:auto,
+	.sm\:hy\:auto {
+		hyphens: auto !important;
+	}
+
+	/* DIRECTION */
+
+	.sm\:direction\:ltr,
+	.sm\:dir\:ltr {
+		direction: ltr !important;
+	}
+
+	.sm\:direction\:rtl,
+	.sm\:dir\:rtl {
+		direction: rtl !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
+
+	/* TEXT-SHADOW */
+
+	.md\:text-shadow\:none,
+	.md\:tsh\:none {
+		text-shadow: none !important;
+	}
+
+	.md\:text-shadow\:sm,
+	.md\:tsh\:sm {
+		text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15) !important;
+	}
+
+	.md\:text-shadow\:md,
+	.md\:tsh\:md {
+		text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.md\:text-shadow\:lg,
+	.md\:tsh\:lg {
+		text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+	}
+
+	.md\:text-shadow\:xl,
+	.md\:tsh\:xl {
+		text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+	}
+
+	/* TEXT-INDENT */
+
+	.md\:text-indent\:0,
+	.md\:ti\:0 {
+		text-indent: var(--space-0) !important;
+	}
+
+	.md\:text-indent\:1,
+	.md\:ti\:1 {
+		text-indent: var(--space-1) !important;
+	}
+
+	.md\:text-indent\:2,
+	.md\:ti\:2 {
+		text-indent: var(--space-2) !important;
+	}
+
+	.md\:text-indent\:3,
+	.md\:ti\:3 {
+		text-indent: var(--space-3) !important;
+	}
+
+	.md\:text-indent\:4,
+	.md\:ti\:4 {
+		text-indent: var(--space-4) !important;
+	}
+
+	.md\:text-indent\:5,
+	.md\:ti\:5 {
+		text-indent: var(--space-5) !important;
+	}
+
+	.md\:text-indent\:6,
+	.md\:ti\:6 {
+		text-indent: var(--space-6) !important;
+	}
+
+	.md\:text-indent\:7,
+	.md\:ti\:7 {
+		text-indent: var(--space-7) !important;
+	}
+
+	.md\:text-indent\:8,
+	.md\:ti\:8 {
+		text-indent: var(--space-8) !important;
+	}
+
+	.md\:text-indent\:9,
+	.md\:ti\:9 {
+		text-indent: var(--space-9) !important;
+	}
+
+	.md\:text-indent\:10,
+	.md\:ti\:10 {
+		text-indent: var(--space-10) !important;
+	}
+
+	.md\:text-indent\:11,
+	.md\:ti\:11 {
+		text-indent: var(--space-11) !important;
+	}
+
+	.md\:text-indent\:12,
+	.md\:ti\:12 {
+		text-indent: var(--space-12) !important;
+	}
+
+	.md\:text-indent\:13,
+	.md\:ti\:13 {
+		text-indent: var(--space-13) !important;
+	}
+
+	.md\:text-indent\:14,
+	.md\:ti\:14 {
+		text-indent: var(--space-14) !important;
+	}
+
+	/* TEXT-OVERFLOW */
+
+	.md\:text-overflow\:clip,
+	.md\:to\:clip {
+		text-overflow: clip !important;
+	}
+
+	.md\:text-overflow\:ellipsis,
+	.md\:to\:ellipsis {
+		text-overflow: ellipsis !important;
+	}
+
+	/* VERTICAL-ALIGN */
+
+	.md\:vertical-align\:baseline,
+	.md\:va\:baseline {
+		vertical-align: baseline !important;
+	}
+
+	.md\:vertical-align\:top,
+	.md\:va\:top {
+		vertical-align: top !important;
+	}
+
+	.md\:vertical-align\:middle,
+	.md\:va\:middle {
+		vertical-align: middle !important;
+	}
+
+	.md\:vertical-align\:bottom,
+	.md\:va\:bottom {
+		vertical-align: bottom !important;
+	}
+
+	.md\:vertical-align\:text-top,
+	.md\:va\:text-top {
+		vertical-align: text-top !important;
+	}
+
+	.md\:vertical-align\:text-bottom,
+	.md\:va\:text-bottom {
+		vertical-align: text-bottom !important;
+	}
+
+	.md\:vertical-align\:sub,
+	.md\:va\:sub {
+		vertical-align: sub !important;
+	}
+
+	.md\:vertical-align\:super,
+	.md\:va\:super {
+		vertical-align: super !important;
+	}
+
+	/* WORD-SPACING */
+
+	.md\:word-spacing\:0,
+	.md\:wsp\:0 {
+		word-spacing: var(--space-0) !important;
+	}
+
+	.md\:word-spacing\:1,
+	.md\:wsp\:1 {
+		word-spacing: var(--space-1) !important;
+	}
+
+	.md\:word-spacing\:2,
+	.md\:wsp\:2 {
+		word-spacing: var(--space-2) !important;
+	}
+
+	.md\:word-spacing\:3,
+	.md\:wsp\:3 {
+		word-spacing: var(--space-3) !important;
+	}
+
+	.md\:word-spacing\:4,
+	.md\:wsp\:4 {
+		word-spacing: var(--space-4) !important;
+	}
+
+	.md\:word-spacing\:5,
+	.md\:wsp\:5 {
+		word-spacing: var(--space-5) !important;
+	}
+
+	.md\:word-spacing\:6,
+	.md\:wsp\:6 {
+		word-spacing: var(--space-6) !important;
+	}
+
+	.md\:word-spacing\:7,
+	.md\:wsp\:7 {
+		word-spacing: var(--space-7) !important;
+	}
+
+	.md\:word-spacing\:8,
+	.md\:wsp\:8 {
+		word-spacing: var(--space-8) !important;
+	}
+
+	.md\:word-spacing\:9,
+	.md\:wsp\:9 {
+		word-spacing: var(--space-9) !important;
+	}
+
+	.md\:word-spacing\:10,
+	.md\:wsp\:10 {
+		word-spacing: var(--space-10) !important;
+	}
+
+	.md\:word-spacing\:11,
+	.md\:wsp\:11 {
+		word-spacing: var(--space-11) !important;
+	}
+
+	.md\:word-spacing\:12,
+	.md\:wsp\:12 {
+		word-spacing: var(--space-12) !important;
+	}
+
+	.md\:word-spacing\:13,
+	.md\:wsp\:13 {
+		word-spacing: var(--space-13) !important;
+	}
+
+	.md\:word-spacing\:14,
+	.md\:wsp\:14 {
+		word-spacing: var(--space-14) !important;
+	}
+
+	/* TEXT-WRAP */
+
+	.md\:text-wrap\:wrap,
+	.md\:tw\:wrap {
+		text-wrap: wrap !important;
+	}
+
+	.md\:text-wrap\:nowrap,
+	.md\:tw\:nowrap {
+		text-wrap: nowrap !important;
+	}
+
+	.md\:text-wrap\:balance,
+	.md\:tw\:balance {
+		text-wrap: balance !important;
+	}
+
+	.md\:text-wrap\:pretty,
+	.md\:tw\:pretty {
+		text-wrap: pretty !important;
+	}
+
+	/* HYPHENS */
+
+	.md\:hyphens\:none,
+	.md\:hy\:none {
+		hyphens: none !important;
+	}
+
+	.md\:hyphens\:manual,
+	.md\:hy\:manual {
+		hyphens: manual !important;
+	}
+
+	.md\:hyphens\:auto,
+	.md\:hy\:auto {
+		hyphens: auto !important;
+	}
+
+	/* DIRECTION */
+
+	.md\:direction\:ltr,
+	.md\:dir\:ltr {
+		direction: ltr !important;
+	}
+
+	.md\:direction\:rtl,
+	.md\:dir\:rtl {
+		direction: rtl !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
+
+	/* TEXT-SHADOW */
+
+	.lg\:text-shadow\:none,
+	.lg\:tsh\:none {
+		text-shadow: none !important;
+	}
+
+	.lg\:text-shadow\:sm,
+	.lg\:tsh\:sm {
+		text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15) !important;
+	}
+
+	.lg\:text-shadow\:md,
+	.lg\:tsh\:md {
+		text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.lg\:text-shadow\:lg,
+	.lg\:tsh\:lg {
+		text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+	}
+
+	.lg\:text-shadow\:xl,
+	.lg\:tsh\:xl {
+		text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+	}
+
+	/* TEXT-INDENT */
+
+	.lg\:text-indent\:0,
+	.lg\:ti\:0 {
+		text-indent: var(--space-0) !important;
+	}
+
+	.lg\:text-indent\:1,
+	.lg\:ti\:1 {
+		text-indent: var(--space-1) !important;
+	}
+
+	.lg\:text-indent\:2,
+	.lg\:ti\:2 {
+		text-indent: var(--space-2) !important;
+	}
+
+	.lg\:text-indent\:3,
+	.lg\:ti\:3 {
+		text-indent: var(--space-3) !important;
+	}
+
+	.lg\:text-indent\:4,
+	.lg\:ti\:4 {
+		text-indent: var(--space-4) !important;
+	}
+
+	.lg\:text-indent\:5,
+	.lg\:ti\:5 {
+		text-indent: var(--space-5) !important;
+	}
+
+	.lg\:text-indent\:6,
+	.lg\:ti\:6 {
+		text-indent: var(--space-6) !important;
+	}
+
+	.lg\:text-indent\:7,
+	.lg\:ti\:7 {
+		text-indent: var(--space-7) !important;
+	}
+
+	.lg\:text-indent\:8,
+	.lg\:ti\:8 {
+		text-indent: var(--space-8) !important;
+	}
+
+	.lg\:text-indent\:9,
+	.lg\:ti\:9 {
+		text-indent: var(--space-9) !important;
+	}
+
+	.lg\:text-indent\:10,
+	.lg\:ti\:10 {
+		text-indent: var(--space-10) !important;
+	}
+
+	.lg\:text-indent\:11,
+	.lg\:ti\:11 {
+		text-indent: var(--space-11) !important;
+	}
+
+	.lg\:text-indent\:12,
+	.lg\:ti\:12 {
+		text-indent: var(--space-12) !important;
+	}
+
+	.lg\:text-indent\:13,
+	.lg\:ti\:13 {
+		text-indent: var(--space-13) !important;
+	}
+
+	.lg\:text-indent\:14,
+	.lg\:ti\:14 {
+		text-indent: var(--space-14) !important;
+	}
+
+	/* TEXT-OVERFLOW */
+
+	.lg\:text-overflow\:clip,
+	.lg\:to\:clip {
+		text-overflow: clip !important;
+	}
+
+	.lg\:text-overflow\:ellipsis,
+	.lg\:to\:ellipsis {
+		text-overflow: ellipsis !important;
+	}
+
+	/* VERTICAL-ALIGN */
+
+	.lg\:vertical-align\:baseline,
+	.lg\:va\:baseline {
+		vertical-align: baseline !important;
+	}
+
+	.lg\:vertical-align\:top,
+	.lg\:va\:top {
+		vertical-align: top !important;
+	}
+
+	.lg\:vertical-align\:middle,
+	.lg\:va\:middle {
+		vertical-align: middle !important;
+	}
+
+	.lg\:vertical-align\:bottom,
+	.lg\:va\:bottom {
+		vertical-align: bottom !important;
+	}
+
+	.lg\:vertical-align\:text-top,
+	.lg\:va\:text-top {
+		vertical-align: text-top !important;
+	}
+
+	.lg\:vertical-align\:text-bottom,
+	.lg\:va\:text-bottom {
+		vertical-align: text-bottom !important;
+	}
+
+	.lg\:vertical-align\:sub,
+	.lg\:va\:sub {
+		vertical-align: sub !important;
+	}
+
+	.lg\:vertical-align\:super,
+	.lg\:va\:super {
+		vertical-align: super !important;
+	}
+
+	/* WORD-SPACING */
+
+	.lg\:word-spacing\:0,
+	.lg\:wsp\:0 {
+		word-spacing: var(--space-0) !important;
+	}
+
+	.lg\:word-spacing\:1,
+	.lg\:wsp\:1 {
+		word-spacing: var(--space-1) !important;
+	}
+
+	.lg\:word-spacing\:2,
+	.lg\:wsp\:2 {
+		word-spacing: var(--space-2) !important;
+	}
+
+	.lg\:word-spacing\:3,
+	.lg\:wsp\:3 {
+		word-spacing: var(--space-3) !important;
+	}
+
+	.lg\:word-spacing\:4,
+	.lg\:wsp\:4 {
+		word-spacing: var(--space-4) !important;
+	}
+
+	.lg\:word-spacing\:5,
+	.lg\:wsp\:5 {
+		word-spacing: var(--space-5) !important;
+	}
+
+	.lg\:word-spacing\:6,
+	.lg\:wsp\:6 {
+		word-spacing: var(--space-6) !important;
+	}
+
+	.lg\:word-spacing\:7,
+	.lg\:wsp\:7 {
+		word-spacing: var(--space-7) !important;
+	}
+
+	.lg\:word-spacing\:8,
+	.lg\:wsp\:8 {
+		word-spacing: var(--space-8) !important;
+	}
+
+	.lg\:word-spacing\:9,
+	.lg\:wsp\:9 {
+		word-spacing: var(--space-9) !important;
+	}
+
+	.lg\:word-spacing\:10,
+	.lg\:wsp\:10 {
+		word-spacing: var(--space-10) !important;
+	}
+
+	.lg\:word-spacing\:11,
+	.lg\:wsp\:11 {
+		word-spacing: var(--space-11) !important;
+	}
+
+	.lg\:word-spacing\:12,
+	.lg\:wsp\:12 {
+		word-spacing: var(--space-12) !important;
+	}
+
+	.lg\:word-spacing\:13,
+	.lg\:wsp\:13 {
+		word-spacing: var(--space-13) !important;
+	}
+
+	.lg\:word-spacing\:14,
+	.lg\:wsp\:14 {
+		word-spacing: var(--space-14) !important;
+	}
+
+	/* TEXT-WRAP */
+
+	.lg\:text-wrap\:wrap,
+	.lg\:tw\:wrap {
+		text-wrap: wrap !important;
+	}
+
+	.lg\:text-wrap\:nowrap,
+	.lg\:tw\:nowrap {
+		text-wrap: nowrap !important;
+	}
+
+	.lg\:text-wrap\:balance,
+	.lg\:tw\:balance {
+		text-wrap: balance !important;
+	}
+
+	.lg\:text-wrap\:pretty,
+	.lg\:tw\:pretty {
+		text-wrap: pretty !important;
+	}
+
+	/* HYPHENS */
+
+	.lg\:hyphens\:none,
+	.lg\:hy\:none {
+		hyphens: none !important;
+	}
+
+	.lg\:hyphens\:manual,
+	.lg\:hy\:manual {
+		hyphens: manual !important;
+	}
+
+	.lg\:hyphens\:auto,
+	.lg\:hy\:auto {
+		hyphens: auto !important;
+	}
+
+	/* DIRECTION */
+
+	.lg\:direction\:ltr,
+	.lg\:dir\:ltr {
+		direction: ltr !important;
+	}
+
+	.lg\:direction\:rtl,
+	.lg\:dir\:rtl {
+		direction: rtl !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
+
+	/* TEXT-SHADOW */
+
+	.xl\:text-shadow\:none,
+	.xl\:tsh\:none {
+		text-shadow: none !important;
+	}
+
+	.xl\:text-shadow\:sm,
+	.xl\:tsh\:sm {
+		text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15) !important;
+	}
+
+	.xl\:text-shadow\:md,
+	.xl\:tsh\:md {
+		text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.xl\:text-shadow\:lg,
+	.xl\:tsh\:lg {
+		text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25) !important;
+	}
+
+	.xl\:text-shadow\:xl,
+	.xl\:tsh\:xl {
+		text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+	}
+
+	/* TEXT-INDENT */
+
+	.xl\:text-indent\:0,
+	.xl\:ti\:0 {
+		text-indent: var(--space-0) !important;
+	}
+
+	.xl\:text-indent\:1,
+	.xl\:ti\:1 {
+		text-indent: var(--space-1) !important;
+	}
+
+	.xl\:text-indent\:2,
+	.xl\:ti\:2 {
+		text-indent: var(--space-2) !important;
+	}
+
+	.xl\:text-indent\:3,
+	.xl\:ti\:3 {
+		text-indent: var(--space-3) !important;
+	}
+
+	.xl\:text-indent\:4,
+	.xl\:ti\:4 {
+		text-indent: var(--space-4) !important;
+	}
+
+	.xl\:text-indent\:5,
+	.xl\:ti\:5 {
+		text-indent: var(--space-5) !important;
+	}
+
+	.xl\:text-indent\:6,
+	.xl\:ti\:6 {
+		text-indent: var(--space-6) !important;
+	}
+
+	.xl\:text-indent\:7,
+	.xl\:ti\:7 {
+		text-indent: var(--space-7) !important;
+	}
+
+	.xl\:text-indent\:8,
+	.xl\:ti\:8 {
+		text-indent: var(--space-8) !important;
+	}
+
+	.xl\:text-indent\:9,
+	.xl\:ti\:9 {
+		text-indent: var(--space-9) !important;
+	}
+
+	.xl\:text-indent\:10,
+	.xl\:ti\:10 {
+		text-indent: var(--space-10) !important;
+	}
+
+	.xl\:text-indent\:11,
+	.xl\:ti\:11 {
+		text-indent: var(--space-11) !important;
+	}
+
+	.xl\:text-indent\:12,
+	.xl\:ti\:12 {
+		text-indent: var(--space-12) !important;
+	}
+
+	.xl\:text-indent\:13,
+	.xl\:ti\:13 {
+		text-indent: var(--space-13) !important;
+	}
+
+	.xl\:text-indent\:14,
+	.xl\:ti\:14 {
+		text-indent: var(--space-14) !important;
+	}
+
+	/* TEXT-OVERFLOW */
+
+	.xl\:text-overflow\:clip,
+	.xl\:to\:clip {
+		text-overflow: clip !important;
+	}
+
+	.xl\:text-overflow\:ellipsis,
+	.xl\:to\:ellipsis {
+		text-overflow: ellipsis !important;
+	}
+
+	/* VERTICAL-ALIGN */
+
+	.xl\:vertical-align\:baseline,
+	.xl\:va\:baseline {
+		vertical-align: baseline !important;
+	}
+
+	.xl\:vertical-align\:top,
+	.xl\:va\:top {
+		vertical-align: top !important;
+	}
+
+	.xl\:vertical-align\:middle,
+	.xl\:va\:middle {
+		vertical-align: middle !important;
+	}
+
+	.xl\:vertical-align\:bottom,
+	.xl\:va\:bottom {
+		vertical-align: bottom !important;
+	}
+
+	.xl\:vertical-align\:text-top,
+	.xl\:va\:text-top {
+		vertical-align: text-top !important;
+	}
+
+	.xl\:vertical-align\:text-bottom,
+	.xl\:va\:text-bottom {
+		vertical-align: text-bottom !important;
+	}
+
+	.xl\:vertical-align\:sub,
+	.xl\:va\:sub {
+		vertical-align: sub !important;
+	}
+
+	.xl\:vertical-align\:super,
+	.xl\:va\:super {
+		vertical-align: super !important;
+	}
+
+	/* WORD-SPACING */
+
+	.xl\:word-spacing\:0,
+	.xl\:wsp\:0 {
+		word-spacing: var(--space-0) !important;
+	}
+
+	.xl\:word-spacing\:1,
+	.xl\:wsp\:1 {
+		word-spacing: var(--space-1) !important;
+	}
+
+	.xl\:word-spacing\:2,
+	.xl\:wsp\:2 {
+		word-spacing: var(--space-2) !important;
+	}
+
+	.xl\:word-spacing\:3,
+	.xl\:wsp\:3 {
+		word-spacing: var(--space-3) !important;
+	}
+
+	.xl\:word-spacing\:4,
+	.xl\:wsp\:4 {
+		word-spacing: var(--space-4) !important;
+	}
+
+	.xl\:word-spacing\:5,
+	.xl\:wsp\:5 {
+		word-spacing: var(--space-5) !important;
+	}
+
+	.xl\:word-spacing\:6,
+	.xl\:wsp\:6 {
+		word-spacing: var(--space-6) !important;
+	}
+
+	.xl\:word-spacing\:7,
+	.xl\:wsp\:7 {
+		word-spacing: var(--space-7) !important;
+	}
+
+	.xl\:word-spacing\:8,
+	.xl\:wsp\:8 {
+		word-spacing: var(--space-8) !important;
+	}
+
+	.xl\:word-spacing\:9,
+	.xl\:wsp\:9 {
+		word-spacing: var(--space-9) !important;
+	}
+
+	.xl\:word-spacing\:10,
+	.xl\:wsp\:10 {
+		word-spacing: var(--space-10) !important;
+	}
+
+	.xl\:word-spacing\:11,
+	.xl\:wsp\:11 {
+		word-spacing: var(--space-11) !important;
+	}
+
+	.xl\:word-spacing\:12,
+	.xl\:wsp\:12 {
+		word-spacing: var(--space-12) !important;
+	}
+
+	.xl\:word-spacing\:13,
+	.xl\:wsp\:13 {
+		word-spacing: var(--space-13) !important;
+	}
+
+	.xl\:word-spacing\:14,
+	.xl\:wsp\:14 {
+		word-spacing: var(--space-14) !important;
+	}
+
+	/* TEXT-WRAP */
+
+	.xl\:text-wrap\:wrap,
+	.xl\:tw\:wrap {
+		text-wrap: wrap !important;
+	}
+
+	.xl\:text-wrap\:nowrap,
+	.xl\:tw\:nowrap {
+		text-wrap: nowrap !important;
+	}
+
+	.xl\:text-wrap\:balance,
+	.xl\:tw\:balance {
+		text-wrap: balance !important;
+	}
+
+	.xl\:text-wrap\:pretty,
+	.xl\:tw\:pretty {
+		text-wrap: pretty !important;
+	}
+
+	/* HYPHENS */
+
+	.xl\:hyphens\:none,
+	.xl\:hy\:none {
+		hyphens: none !important;
+	}
+
+	.xl\:hyphens\:manual,
+	.xl\:hy\:manual {
+		hyphens: manual !important;
+	}
+
+	.xl\:hyphens\:auto,
+	.xl\:hy\:auto {
+		hyphens: auto !important;
+	}
+
+	/* DIRECTION */
+
+	.xl\:direction\:ltr,
+	.xl\:dir\:ltr {
+		direction: ltr !important;
+	}
+
+	.xl\:direction\:rtl,
+	.xl\:dir\:rtl {
+		direction: rtl !important;
+	}
+
+}

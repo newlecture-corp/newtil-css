@@ -1,0 +1,647 @@
+/* ===== TABLE UTILITIES ===== */
+
+/* TABLE-LAYOUT */
+
+.table-layout\:auto,
+.tl\:auto {
+	table-layout: auto !important;
+}
+
+.table-layout\:fixed,
+.tl\:fixed {
+	table-layout: fixed !important;
+}
+
+/* BORDER-COLLAPSE */
+
+.border-collapse\:collapse,
+.bdc\:collapse {
+	border-collapse: collapse !important;
+}
+
+.border-collapse\:separate,
+.bdc\:separate {
+	border-collapse: separate !important;
+}
+
+/* BORDER-SPACING */
+
+.border-spacing\:0,
+.bdsp\:0 {
+	border-spacing: var(--space-0) !important;
+}
+
+.border-spacing\:1,
+.bdsp\:1 {
+	border-spacing: var(--space-1) !important;
+}
+
+.border-spacing\:2,
+.bdsp\:2 {
+	border-spacing: var(--space-2) !important;
+}
+
+.border-spacing\:3,
+.bdsp\:3 {
+	border-spacing: var(--space-3) !important;
+}
+
+.border-spacing\:4,
+.bdsp\:4 {
+	border-spacing: var(--space-4) !important;
+}
+
+.border-spacing\:5,
+.bdsp\:5 {
+	border-spacing: var(--space-5) !important;
+}
+
+.border-spacing\:6,
+.bdsp\:6 {
+	border-spacing: var(--space-6) !important;
+}
+
+.border-spacing\:7,
+.bdsp\:7 {
+	border-spacing: var(--space-7) !important;
+}
+
+.border-spacing\:8,
+.bdsp\:8 {
+	border-spacing: var(--space-8) !important;
+}
+
+.border-spacing\:9,
+.bdsp\:9 {
+	border-spacing: var(--space-9) !important;
+}
+
+.border-spacing\:10,
+.bdsp\:10 {
+	border-spacing: var(--space-10) !important;
+}
+
+.border-spacing\:11,
+.bdsp\:11 {
+	border-spacing: var(--space-11) !important;
+}
+
+.border-spacing\:12,
+.bdsp\:12 {
+	border-spacing: var(--space-12) !important;
+}
+
+.border-spacing\:13,
+.bdsp\:13 {
+	border-spacing: var(--space-13) !important;
+}
+
+.border-spacing\:14,
+.bdsp\:14 {
+	border-spacing: var(--space-14) !important;
+}
+
+/* CAPTION-SIDE */
+
+.caption-side\:top,
+.cs\:top {
+	caption-side: top !important;
+}
+
+.caption-side\:bottom,
+.cs\:bottom {
+	caption-side: bottom !important;
+}
+
+/* EMPTY-CELLS */
+
+.empty-cells\:show,
+.ec\:show {
+	empty-cells: show !important;
+}
+
+.empty-cells\:hide,
+.ec\:hide {
+	empty-cells: hide !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== TABLE UTILITIES ===== */
+
+	/* TABLE-LAYOUT */
+
+	.sm\:table-layout\:auto,
+	.sm\:tl\:auto {
+		table-layout: auto !important;
+	}
+
+	.sm\:table-layout\:fixed,
+	.sm\:tl\:fixed {
+		table-layout: fixed !important;
+	}
+
+	/* BORDER-COLLAPSE */
+
+	.sm\:border-collapse\:collapse,
+	.sm\:bdc\:collapse {
+		border-collapse: collapse !important;
+	}
+
+	.sm\:border-collapse\:separate,
+	.sm\:bdc\:separate {
+		border-collapse: separate !important;
+	}
+
+	/* BORDER-SPACING */
+
+	.sm\:border-spacing\:0,
+	.sm\:bdsp\:0 {
+		border-spacing: var(--space-0) !important;
+	}
+
+	.sm\:border-spacing\:1,
+	.sm\:bdsp\:1 {
+		border-spacing: var(--space-1) !important;
+	}
+
+	.sm\:border-spacing\:2,
+	.sm\:bdsp\:2 {
+		border-spacing: var(--space-2) !important;
+	}
+
+	.sm\:border-spacing\:3,
+	.sm\:bdsp\:3 {
+		border-spacing: var(--space-3) !important;
+	}
+
+	.sm\:border-spacing\:4,
+	.sm\:bdsp\:4 {
+		border-spacing: var(--space-4) !important;
+	}
+
+	.sm\:border-spacing\:5,
+	.sm\:bdsp\:5 {
+		border-spacing: var(--space-5) !important;
+	}
+
+	.sm\:border-spacing\:6,
+	.sm\:bdsp\:6 {
+		border-spacing: var(--space-6) !important;
+	}
+
+	.sm\:border-spacing\:7,
+	.sm\:bdsp\:7 {
+		border-spacing: var(--space-7) !important;
+	}
+
+	.sm\:border-spacing\:8,
+	.sm\:bdsp\:8 {
+		border-spacing: var(--space-8) !important;
+	}
+
+	.sm\:border-spacing\:9,
+	.sm\:bdsp\:9 {
+		border-spacing: var(--space-9) !important;
+	}
+
+	.sm\:border-spacing\:10,
+	.sm\:bdsp\:10 {
+		border-spacing: var(--space-10) !important;
+	}
+
+	.sm\:border-spacing\:11,
+	.sm\:bdsp\:11 {
+		border-spacing: var(--space-11) !important;
+	}
+
+	.sm\:border-spacing\:12,
+	.sm\:bdsp\:12 {
+		border-spacing: var(--space-12) !important;
+	}
+
+	.sm\:border-spacing\:13,
+	.sm\:bdsp\:13 {
+		border-spacing: var(--space-13) !important;
+	}
+
+	.sm\:border-spacing\:14,
+	.sm\:bdsp\:14 {
+		border-spacing: var(--space-14) !important;
+	}
+
+	/* CAPTION-SIDE */
+
+	.sm\:caption-side\:top,
+	.sm\:cs\:top {
+		caption-side: top !important;
+	}
+
+	.sm\:caption-side\:bottom,
+	.sm\:cs\:bottom {
+		caption-side: bottom !important;
+	}
+
+	/* EMPTY-CELLS */
+
+	.sm\:empty-cells\:show,
+	.sm\:ec\:show {
+		empty-cells: show !important;
+	}
+
+	.sm\:empty-cells\:hide,
+	.sm\:ec\:hide {
+		empty-cells: hide !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== TABLE UTILITIES ===== */
+
+	/* TABLE-LAYOUT */
+
+	.md\:table-layout\:auto,
+	.md\:tl\:auto {
+		table-layout: auto !important;
+	}
+
+	.md\:table-layout\:fixed,
+	.md\:tl\:fixed {
+		table-layout: fixed !important;
+	}
+
+	/* BORDER-COLLAPSE */
+
+	.md\:border-collapse\:collapse,
+	.md\:bdc\:collapse {
+		border-collapse: collapse !important;
+	}
+
+	.md\:border-collapse\:separate,
+	.md\:bdc\:separate {
+		border-collapse: separate !important;
+	}
+
+	/* BORDER-SPACING */
+
+	.md\:border-spacing\:0,
+	.md\:bdsp\:0 {
+		border-spacing: var(--space-0) !important;
+	}
+
+	.md\:border-spacing\:1,
+	.md\:bdsp\:1 {
+		border-spacing: var(--space-1) !important;
+	}
+
+	.md\:border-spacing\:2,
+	.md\:bdsp\:2 {
+		border-spacing: var(--space-2) !important;
+	}
+
+	.md\:border-spacing\:3,
+	.md\:bdsp\:3 {
+		border-spacing: var(--space-3) !important;
+	}
+
+	.md\:border-spacing\:4,
+	.md\:bdsp\:4 {
+		border-spacing: var(--space-4) !important;
+	}
+
+	.md\:border-spacing\:5,
+	.md\:bdsp\:5 {
+		border-spacing: var(--space-5) !important;
+	}
+
+	.md\:border-spacing\:6,
+	.md\:bdsp\:6 {
+		border-spacing: var(--space-6) !important;
+	}
+
+	.md\:border-spacing\:7,
+	.md\:bdsp\:7 {
+		border-spacing: var(--space-7) !important;
+	}
+
+	.md\:border-spacing\:8,
+	.md\:bdsp\:8 {
+		border-spacing: var(--space-8) !important;
+	}
+
+	.md\:border-spacing\:9,
+	.md\:bdsp\:9 {
+		border-spacing: var(--space-9) !important;
+	}
+
+	.md\:border-spacing\:10,
+	.md\:bdsp\:10 {
+		border-spacing: var(--space-10) !important;
+	}
+
+	.md\:border-spacing\:11,
+	.md\:bdsp\:11 {
+		border-spacing: var(--space-11) !important;
+	}
+
+	.md\:border-spacing\:12,
+	.md\:bdsp\:12 {
+		border-spacing: var(--space-12) !important;
+	}
+
+	.md\:border-spacing\:13,
+	.md\:bdsp\:13 {
+		border-spacing: var(--space-13) !important;
+	}
+
+	.md\:border-spacing\:14,
+	.md\:bdsp\:14 {
+		border-spacing: var(--space-14) !important;
+	}
+
+	/* CAPTION-SIDE */
+
+	.md\:caption-side\:top,
+	.md\:cs\:top {
+		caption-side: top !important;
+	}
+
+	.md\:caption-side\:bottom,
+	.md\:cs\:bottom {
+		caption-side: bottom !important;
+	}
+
+	/* EMPTY-CELLS */
+
+	.md\:empty-cells\:show,
+	.md\:ec\:show {
+		empty-cells: show !important;
+	}
+
+	.md\:empty-cells\:hide,
+	.md\:ec\:hide {
+		empty-cells: hide !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== TABLE UTILITIES ===== */
+
+	/* TABLE-LAYOUT */
+
+	.lg\:table-layout\:auto,
+	.lg\:tl\:auto {
+		table-layout: auto !important;
+	}
+
+	.lg\:table-layout\:fixed,
+	.lg\:tl\:fixed {
+		table-layout: fixed !important;
+	}
+
+	/* BORDER-COLLAPSE */
+
+	.lg\:border-collapse\:collapse,
+	.lg\:bdc\:collapse {
+		border-collapse: collapse !important;
+	}
+
+	.lg\:border-collapse\:separate,
+	.lg\:bdc\:separate {
+		border-collapse: separate !important;
+	}
+
+	/* BORDER-SPACING */
+
+	.lg\:border-spacing\:0,
+	.lg\:bdsp\:0 {
+		border-spacing: var(--space-0) !important;
+	}
+
+	.lg\:border-spacing\:1,
+	.lg\:bdsp\:1 {
+		border-spacing: var(--space-1) !important;
+	}
+
+	.lg\:border-spacing\:2,
+	.lg\:bdsp\:2 {
+		border-spacing: var(--space-2) !important;
+	}
+
+	.lg\:border-spacing\:3,
+	.lg\:bdsp\:3 {
+		border-spacing: var(--space-3) !important;
+	}
+
+	.lg\:border-spacing\:4,
+	.lg\:bdsp\:4 {
+		border-spacing: var(--space-4) !important;
+	}
+
+	.lg\:border-spacing\:5,
+	.lg\:bdsp\:5 {
+		border-spacing: var(--space-5) !important;
+	}
+
+	.lg\:border-spacing\:6,
+	.lg\:bdsp\:6 {
+		border-spacing: var(--space-6) !important;
+	}
+
+	.lg\:border-spacing\:7,
+	.lg\:bdsp\:7 {
+		border-spacing: var(--space-7) !important;
+	}
+
+	.lg\:border-spacing\:8,
+	.lg\:bdsp\:8 {
+		border-spacing: var(--space-8) !important;
+	}
+
+	.lg\:border-spacing\:9,
+	.lg\:bdsp\:9 {
+		border-spacing: var(--space-9) !important;
+	}
+
+	.lg\:border-spacing\:10,
+	.lg\:bdsp\:10 {
+		border-spacing: var(--space-10) !important;
+	}
+
+	.lg\:border-spacing\:11,
+	.lg\:bdsp\:11 {
+		border-spacing: var(--space-11) !important;
+	}
+
+	.lg\:border-spacing\:12,
+	.lg\:bdsp\:12 {
+		border-spacing: var(--space-12) !important;
+	}
+
+	.lg\:border-spacing\:13,
+	.lg\:bdsp\:13 {
+		border-spacing: var(--space-13) !important;
+	}
+
+	.lg\:border-spacing\:14,
+	.lg\:bdsp\:14 {
+		border-spacing: var(--space-14) !important;
+	}
+
+	/* CAPTION-SIDE */
+
+	.lg\:caption-side\:top,
+	.lg\:cs\:top {
+		caption-side: top !important;
+	}
+
+	.lg\:caption-side\:bottom,
+	.lg\:cs\:bottom {
+		caption-side: bottom !important;
+	}
+
+	/* EMPTY-CELLS */
+
+	.lg\:empty-cells\:show,
+	.lg\:ec\:show {
+		empty-cells: show !important;
+	}
+
+	.lg\:empty-cells\:hide,
+	.lg\:ec\:hide {
+		empty-cells: hide !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== TABLE UTILITIES ===== */
+
+	/* TABLE-LAYOUT */
+
+	.xl\:table-layout\:auto,
+	.xl\:tl\:auto {
+		table-layout: auto !important;
+	}
+
+	.xl\:table-layout\:fixed,
+	.xl\:tl\:fixed {
+		table-layout: fixed !important;
+	}
+
+	/* BORDER-COLLAPSE */
+
+	.xl\:border-collapse\:collapse,
+	.xl\:bdc\:collapse {
+		border-collapse: collapse !important;
+	}
+
+	.xl\:border-collapse\:separate,
+	.xl\:bdc\:separate {
+		border-collapse: separate !important;
+	}
+
+	/* BORDER-SPACING */
+
+	.xl\:border-spacing\:0,
+	.xl\:bdsp\:0 {
+		border-spacing: var(--space-0) !important;
+	}
+
+	.xl\:border-spacing\:1,
+	.xl\:bdsp\:1 {
+		border-spacing: var(--space-1) !important;
+	}
+
+	.xl\:border-spacing\:2,
+	.xl\:bdsp\:2 {
+		border-spacing: var(--space-2) !important;
+	}
+
+	.xl\:border-spacing\:3,
+	.xl\:bdsp\:3 {
+		border-spacing: var(--space-3) !important;
+	}
+
+	.xl\:border-spacing\:4,
+	.xl\:bdsp\:4 {
+		border-spacing: var(--space-4) !important;
+	}
+
+	.xl\:border-spacing\:5,
+	.xl\:bdsp\:5 {
+		border-spacing: var(--space-5) !important;
+	}
+
+	.xl\:border-spacing\:6,
+	.xl\:bdsp\:6 {
+		border-spacing: var(--space-6) !important;
+	}
+
+	.xl\:border-spacing\:7,
+	.xl\:bdsp\:7 {
+		border-spacing: var(--space-7) !important;
+	}
+
+	.xl\:border-spacing\:8,
+	.xl\:bdsp\:8 {
+		border-spacing: var(--space-8) !important;
+	}
+
+	.xl\:border-spacing\:9,
+	.xl\:bdsp\:9 {
+		border-spacing: var(--space-9) !important;
+	}
+
+	.xl\:border-spacing\:10,
+	.xl\:bdsp\:10 {
+		border-spacing: var(--space-10) !important;
+	}
+
+	.xl\:border-spacing\:11,
+	.xl\:bdsp\:11 {
+		border-spacing: var(--space-11) !important;
+	}
+
+	.xl\:border-spacing\:12,
+	.xl\:bdsp\:12 {
+		border-spacing: var(--space-12) !important;
+	}
+
+	.xl\:border-spacing\:13,
+	.xl\:bdsp\:13 {
+		border-spacing: var(--space-13) !important;
+	}
+
+	.xl\:border-spacing\:14,
+	.xl\:bdsp\:14 {
+		border-spacing: var(--space-14) !important;
+	}
+
+	/* CAPTION-SIDE */
+
+	.xl\:caption-side\:top,
+	.xl\:cs\:top {
+		caption-side: top !important;
+	}
+
+	.xl\:caption-side\:bottom,
+	.xl\:cs\:bottom {
+		caption-side: bottom !important;
+	}
+
+	/* EMPTY-CELLS */
+
+	.xl\:empty-cells\:show,
+	.xl\:ec\:show {
+		empty-cells: show !important;
+	}
+
+	.xl\:empty-cells\:hide,
+	.xl\:ec\:hide {
+		empty-cells: hide !important;
+	}
+
+}

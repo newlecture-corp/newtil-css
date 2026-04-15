@@ -1,0 +1,1122 @@
+/* ===== COLUMNS UTILITIES — multi-column + break ===== */
+
+/* COLUMN-COUNT */
+
+.column-count\:1,
+.cc\:1 {
+	column-count: 1 !important;
+}
+
+.column-count\:2,
+.cc\:2 {
+	column-count: 2 !important;
+}
+
+.column-count\:3,
+.cc\:3 {
+	column-count: 3 !important;
+}
+
+.column-count\:4,
+.cc\:4 {
+	column-count: 4 !important;
+}
+
+.column-count\:5,
+.cc\:5 {
+	column-count: 5 !important;
+}
+
+.column-count\:6,
+.cc\:6 {
+	column-count: 6 !important;
+}
+
+.column-count\:auto,
+.cc\:auto {
+	column-count: auto !important;
+}
+
+/* COLUMN-GAP */
+
+.column-gap-len\:0,
+.cgl\:0 {
+	column-gap: var(--space-0) !important;
+}
+
+.column-gap-len\:1,
+.cgl\:1 {
+	column-gap: var(--space-1) !important;
+}
+
+.column-gap-len\:2,
+.cgl\:2 {
+	column-gap: var(--space-2) !important;
+}
+
+.column-gap-len\:3,
+.cgl\:3 {
+	column-gap: var(--space-3) !important;
+}
+
+.column-gap-len\:4,
+.cgl\:4 {
+	column-gap: var(--space-4) !important;
+}
+
+.column-gap-len\:5,
+.cgl\:5 {
+	column-gap: var(--space-5) !important;
+}
+
+.column-gap-len\:6,
+.cgl\:6 {
+	column-gap: var(--space-6) !important;
+}
+
+.column-gap-len\:7,
+.cgl\:7 {
+	column-gap: var(--space-7) !important;
+}
+
+.column-gap-len\:8,
+.cgl\:8 {
+	column-gap: var(--space-8) !important;
+}
+
+.column-gap-len\:9,
+.cgl\:9 {
+	column-gap: var(--space-9) !important;
+}
+
+.column-gap-len\:10,
+.cgl\:10 {
+	column-gap: var(--space-10) !important;
+}
+
+.column-gap-len\:11,
+.cgl\:11 {
+	column-gap: var(--space-11) !important;
+}
+
+.column-gap-len\:12,
+.cgl\:12 {
+	column-gap: var(--space-12) !important;
+}
+
+.column-gap-len\:13,
+.cgl\:13 {
+	column-gap: var(--space-13) !important;
+}
+
+.column-gap-len\:14,
+.cgl\:14 {
+	column-gap: var(--space-14) !important;
+}
+
+/* BREAK-INSIDE */
+
+.break-inside\:auto,
+.bri\:auto {
+	break-inside: auto !important;
+}
+
+.break-inside\:avoid,
+.bri\:avoid {
+	break-inside: avoid !important;
+}
+
+.break-inside\:avoid-page,
+.bri\:avoid-page {
+	break-inside: avoid-page !important;
+}
+
+.break-inside\:avoid-column,
+.bri\:avoid-column {
+	break-inside: avoid-column !important;
+}
+
+/* BREAK-BEFORE */
+
+.break-before\:auto,
+.brb\:auto {
+	break-before: auto !important;
+}
+
+.break-before\:avoid,
+.brb\:avoid {
+	break-before: avoid !important;
+}
+
+.break-before\:all,
+.brb\:all {
+	break-before: all !important;
+}
+
+.break-before\:avoid-page,
+.brb\:avoid-page {
+	break-before: avoid-page !important;
+}
+
+.break-before\:page,
+.brb\:page {
+	break-before: page !important;
+}
+
+.break-before\:left,
+.brb\:left {
+	break-before: left !important;
+}
+
+.break-before\:right,
+.brb\:right {
+	break-before: right !important;
+}
+
+.break-before\:column,
+.brb\:column {
+	break-before: column !important;
+}
+
+/* BREAK-AFTER */
+
+.break-after\:auto,
+.bra\:auto {
+	break-after: auto !important;
+}
+
+.break-after\:avoid,
+.bra\:avoid {
+	break-after: avoid !important;
+}
+
+.break-after\:all,
+.bra\:all {
+	break-after: all !important;
+}
+
+.break-after\:avoid-page,
+.bra\:avoid-page {
+	break-after: avoid-page !important;
+}
+
+.break-after\:page,
+.bra\:page {
+	break-after: page !important;
+}
+
+.break-after\:left,
+.bra\:left {
+	break-after: left !important;
+}
+
+.break-after\:right,
+.bra\:right {
+	break-after: right !important;
+}
+
+.break-after\:column,
+.bra\:column {
+	break-after: column !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
+
+	/* COLUMN-COUNT */
+
+	.sm\:column-count\:1,
+	.sm\:cc\:1 {
+		column-count: 1 !important;
+	}
+
+	.sm\:column-count\:2,
+	.sm\:cc\:2 {
+		column-count: 2 !important;
+	}
+
+	.sm\:column-count\:3,
+	.sm\:cc\:3 {
+		column-count: 3 !important;
+	}
+
+	.sm\:column-count\:4,
+	.sm\:cc\:4 {
+		column-count: 4 !important;
+	}
+
+	.sm\:column-count\:5,
+	.sm\:cc\:5 {
+		column-count: 5 !important;
+	}
+
+	.sm\:column-count\:6,
+	.sm\:cc\:6 {
+		column-count: 6 !important;
+	}
+
+	.sm\:column-count\:auto,
+	.sm\:cc\:auto {
+		column-count: auto !important;
+	}
+
+	/* COLUMN-GAP */
+
+	.sm\:column-gap-len\:0,
+	.sm\:cgl\:0 {
+		column-gap: var(--space-0) !important;
+	}
+
+	.sm\:column-gap-len\:1,
+	.sm\:cgl\:1 {
+		column-gap: var(--space-1) !important;
+	}
+
+	.sm\:column-gap-len\:2,
+	.sm\:cgl\:2 {
+		column-gap: var(--space-2) !important;
+	}
+
+	.sm\:column-gap-len\:3,
+	.sm\:cgl\:3 {
+		column-gap: var(--space-3) !important;
+	}
+
+	.sm\:column-gap-len\:4,
+	.sm\:cgl\:4 {
+		column-gap: var(--space-4) !important;
+	}
+
+	.sm\:column-gap-len\:5,
+	.sm\:cgl\:5 {
+		column-gap: var(--space-5) !important;
+	}
+
+	.sm\:column-gap-len\:6,
+	.sm\:cgl\:6 {
+		column-gap: var(--space-6) !important;
+	}
+
+	.sm\:column-gap-len\:7,
+	.sm\:cgl\:7 {
+		column-gap: var(--space-7) !important;
+	}
+
+	.sm\:column-gap-len\:8,
+	.sm\:cgl\:8 {
+		column-gap: var(--space-8) !important;
+	}
+
+	.sm\:column-gap-len\:9,
+	.sm\:cgl\:9 {
+		column-gap: var(--space-9) !important;
+	}
+
+	.sm\:column-gap-len\:10,
+	.sm\:cgl\:10 {
+		column-gap: var(--space-10) !important;
+	}
+
+	.sm\:column-gap-len\:11,
+	.sm\:cgl\:11 {
+		column-gap: var(--space-11) !important;
+	}
+
+	.sm\:column-gap-len\:12,
+	.sm\:cgl\:12 {
+		column-gap: var(--space-12) !important;
+	}
+
+	.sm\:column-gap-len\:13,
+	.sm\:cgl\:13 {
+		column-gap: var(--space-13) !important;
+	}
+
+	.sm\:column-gap-len\:14,
+	.sm\:cgl\:14 {
+		column-gap: var(--space-14) !important;
+	}
+
+	/* BREAK-INSIDE */
+
+	.sm\:break-inside\:auto,
+	.sm\:bri\:auto {
+		break-inside: auto !important;
+	}
+
+	.sm\:break-inside\:avoid,
+	.sm\:bri\:avoid {
+		break-inside: avoid !important;
+	}
+
+	.sm\:break-inside\:avoid-page,
+	.sm\:bri\:avoid-page {
+		break-inside: avoid-page !important;
+	}
+
+	.sm\:break-inside\:avoid-column,
+	.sm\:bri\:avoid-column {
+		break-inside: avoid-column !important;
+	}
+
+	/* BREAK-BEFORE */
+
+	.sm\:break-before\:auto,
+	.sm\:brb\:auto {
+		break-before: auto !important;
+	}
+
+	.sm\:break-before\:avoid,
+	.sm\:brb\:avoid {
+		break-before: avoid !important;
+	}
+
+	.sm\:break-before\:all,
+	.sm\:brb\:all {
+		break-before: all !important;
+	}
+
+	.sm\:break-before\:avoid-page,
+	.sm\:brb\:avoid-page {
+		break-before: avoid-page !important;
+	}
+
+	.sm\:break-before\:page,
+	.sm\:brb\:page {
+		break-before: page !important;
+	}
+
+	.sm\:break-before\:left,
+	.sm\:brb\:left {
+		break-before: left !important;
+	}
+
+	.sm\:break-before\:right,
+	.sm\:brb\:right {
+		break-before: right !important;
+	}
+
+	.sm\:break-before\:column,
+	.sm\:brb\:column {
+		break-before: column !important;
+	}
+
+	/* BREAK-AFTER */
+
+	.sm\:break-after\:auto,
+	.sm\:bra\:auto {
+		break-after: auto !important;
+	}
+
+	.sm\:break-after\:avoid,
+	.sm\:bra\:avoid {
+		break-after: avoid !important;
+	}
+
+	.sm\:break-after\:all,
+	.sm\:bra\:all {
+		break-after: all !important;
+	}
+
+	.sm\:break-after\:avoid-page,
+	.sm\:bra\:avoid-page {
+		break-after: avoid-page !important;
+	}
+
+	.sm\:break-after\:page,
+	.sm\:bra\:page {
+		break-after: page !important;
+	}
+
+	.sm\:break-after\:left,
+	.sm\:bra\:left {
+		break-after: left !important;
+	}
+
+	.sm\:break-after\:right,
+	.sm\:bra\:right {
+		break-after: right !important;
+	}
+
+	.sm\:break-after\:column,
+	.sm\:bra\:column {
+		break-after: column !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
+
+	/* COLUMN-COUNT */
+
+	.md\:column-count\:1,
+	.md\:cc\:1 {
+		column-count: 1 !important;
+	}
+
+	.md\:column-count\:2,
+	.md\:cc\:2 {
+		column-count: 2 !important;
+	}
+
+	.md\:column-count\:3,
+	.md\:cc\:3 {
+		column-count: 3 !important;
+	}
+
+	.md\:column-count\:4,
+	.md\:cc\:4 {
+		column-count: 4 !important;
+	}
+
+	.md\:column-count\:5,
+	.md\:cc\:5 {
+		column-count: 5 !important;
+	}
+
+	.md\:column-count\:6,
+	.md\:cc\:6 {
+		column-count: 6 !important;
+	}
+
+	.md\:column-count\:auto,
+	.md\:cc\:auto {
+		column-count: auto !important;
+	}
+
+	/* COLUMN-GAP */
+
+	.md\:column-gap-len\:0,
+	.md\:cgl\:0 {
+		column-gap: var(--space-0) !important;
+	}
+
+	.md\:column-gap-len\:1,
+	.md\:cgl\:1 {
+		column-gap: var(--space-1) !important;
+	}
+
+	.md\:column-gap-len\:2,
+	.md\:cgl\:2 {
+		column-gap: var(--space-2) !important;
+	}
+
+	.md\:column-gap-len\:3,
+	.md\:cgl\:3 {
+		column-gap: var(--space-3) !important;
+	}
+
+	.md\:column-gap-len\:4,
+	.md\:cgl\:4 {
+		column-gap: var(--space-4) !important;
+	}
+
+	.md\:column-gap-len\:5,
+	.md\:cgl\:5 {
+		column-gap: var(--space-5) !important;
+	}
+
+	.md\:column-gap-len\:6,
+	.md\:cgl\:6 {
+		column-gap: var(--space-6) !important;
+	}
+
+	.md\:column-gap-len\:7,
+	.md\:cgl\:7 {
+		column-gap: var(--space-7) !important;
+	}
+
+	.md\:column-gap-len\:8,
+	.md\:cgl\:8 {
+		column-gap: var(--space-8) !important;
+	}
+
+	.md\:column-gap-len\:9,
+	.md\:cgl\:9 {
+		column-gap: var(--space-9) !important;
+	}
+
+	.md\:column-gap-len\:10,
+	.md\:cgl\:10 {
+		column-gap: var(--space-10) !important;
+	}
+
+	.md\:column-gap-len\:11,
+	.md\:cgl\:11 {
+		column-gap: var(--space-11) !important;
+	}
+
+	.md\:column-gap-len\:12,
+	.md\:cgl\:12 {
+		column-gap: var(--space-12) !important;
+	}
+
+	.md\:column-gap-len\:13,
+	.md\:cgl\:13 {
+		column-gap: var(--space-13) !important;
+	}
+
+	.md\:column-gap-len\:14,
+	.md\:cgl\:14 {
+		column-gap: var(--space-14) !important;
+	}
+
+	/* BREAK-INSIDE */
+
+	.md\:break-inside\:auto,
+	.md\:bri\:auto {
+		break-inside: auto !important;
+	}
+
+	.md\:break-inside\:avoid,
+	.md\:bri\:avoid {
+		break-inside: avoid !important;
+	}
+
+	.md\:break-inside\:avoid-page,
+	.md\:bri\:avoid-page {
+		break-inside: avoid-page !important;
+	}
+
+	.md\:break-inside\:avoid-column,
+	.md\:bri\:avoid-column {
+		break-inside: avoid-column !important;
+	}
+
+	/* BREAK-BEFORE */
+
+	.md\:break-before\:auto,
+	.md\:brb\:auto {
+		break-before: auto !important;
+	}
+
+	.md\:break-before\:avoid,
+	.md\:brb\:avoid {
+		break-before: avoid !important;
+	}
+
+	.md\:break-before\:all,
+	.md\:brb\:all {
+		break-before: all !important;
+	}
+
+	.md\:break-before\:avoid-page,
+	.md\:brb\:avoid-page {
+		break-before: avoid-page !important;
+	}
+
+	.md\:break-before\:page,
+	.md\:brb\:page {
+		break-before: page !important;
+	}
+
+	.md\:break-before\:left,
+	.md\:brb\:left {
+		break-before: left !important;
+	}
+
+	.md\:break-before\:right,
+	.md\:brb\:right {
+		break-before: right !important;
+	}
+
+	.md\:break-before\:column,
+	.md\:brb\:column {
+		break-before: column !important;
+	}
+
+	/* BREAK-AFTER */
+
+	.md\:break-after\:auto,
+	.md\:bra\:auto {
+		break-after: auto !important;
+	}
+
+	.md\:break-after\:avoid,
+	.md\:bra\:avoid {
+		break-after: avoid !important;
+	}
+
+	.md\:break-after\:all,
+	.md\:bra\:all {
+		break-after: all !important;
+	}
+
+	.md\:break-after\:avoid-page,
+	.md\:bra\:avoid-page {
+		break-after: avoid-page !important;
+	}
+
+	.md\:break-after\:page,
+	.md\:bra\:page {
+		break-after: page !important;
+	}
+
+	.md\:break-after\:left,
+	.md\:bra\:left {
+		break-after: left !important;
+	}
+
+	.md\:break-after\:right,
+	.md\:bra\:right {
+		break-after: right !important;
+	}
+
+	.md\:break-after\:column,
+	.md\:bra\:column {
+		break-after: column !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
+
+	/* COLUMN-COUNT */
+
+	.lg\:column-count\:1,
+	.lg\:cc\:1 {
+		column-count: 1 !important;
+	}
+
+	.lg\:column-count\:2,
+	.lg\:cc\:2 {
+		column-count: 2 !important;
+	}
+
+	.lg\:column-count\:3,
+	.lg\:cc\:3 {
+		column-count: 3 !important;
+	}
+
+	.lg\:column-count\:4,
+	.lg\:cc\:4 {
+		column-count: 4 !important;
+	}
+
+	.lg\:column-count\:5,
+	.lg\:cc\:5 {
+		column-count: 5 !important;
+	}
+
+	.lg\:column-count\:6,
+	.lg\:cc\:6 {
+		column-count: 6 !important;
+	}
+
+	.lg\:column-count\:auto,
+	.lg\:cc\:auto {
+		column-count: auto !important;
+	}
+
+	/* COLUMN-GAP */
+
+	.lg\:column-gap-len\:0,
+	.lg\:cgl\:0 {
+		column-gap: var(--space-0) !important;
+	}
+
+	.lg\:column-gap-len\:1,
+	.lg\:cgl\:1 {
+		column-gap: var(--space-1) !important;
+	}
+
+	.lg\:column-gap-len\:2,
+	.lg\:cgl\:2 {
+		column-gap: var(--space-2) !important;
+	}
+
+	.lg\:column-gap-len\:3,
+	.lg\:cgl\:3 {
+		column-gap: var(--space-3) !important;
+	}
+
+	.lg\:column-gap-len\:4,
+	.lg\:cgl\:4 {
+		column-gap: var(--space-4) !important;
+	}
+
+	.lg\:column-gap-len\:5,
+	.lg\:cgl\:5 {
+		column-gap: var(--space-5) !important;
+	}
+
+	.lg\:column-gap-len\:6,
+	.lg\:cgl\:6 {
+		column-gap: var(--space-6) !important;
+	}
+
+	.lg\:column-gap-len\:7,
+	.lg\:cgl\:7 {
+		column-gap: var(--space-7) !important;
+	}
+
+	.lg\:column-gap-len\:8,
+	.lg\:cgl\:8 {
+		column-gap: var(--space-8) !important;
+	}
+
+	.lg\:column-gap-len\:9,
+	.lg\:cgl\:9 {
+		column-gap: var(--space-9) !important;
+	}
+
+	.lg\:column-gap-len\:10,
+	.lg\:cgl\:10 {
+		column-gap: var(--space-10) !important;
+	}
+
+	.lg\:column-gap-len\:11,
+	.lg\:cgl\:11 {
+		column-gap: var(--space-11) !important;
+	}
+
+	.lg\:column-gap-len\:12,
+	.lg\:cgl\:12 {
+		column-gap: var(--space-12) !important;
+	}
+
+	.lg\:column-gap-len\:13,
+	.lg\:cgl\:13 {
+		column-gap: var(--space-13) !important;
+	}
+
+	.lg\:column-gap-len\:14,
+	.lg\:cgl\:14 {
+		column-gap: var(--space-14) !important;
+	}
+
+	/* BREAK-INSIDE */
+
+	.lg\:break-inside\:auto,
+	.lg\:bri\:auto {
+		break-inside: auto !important;
+	}
+
+	.lg\:break-inside\:avoid,
+	.lg\:bri\:avoid {
+		break-inside: avoid !important;
+	}
+
+	.lg\:break-inside\:avoid-page,
+	.lg\:bri\:avoid-page {
+		break-inside: avoid-page !important;
+	}
+
+	.lg\:break-inside\:avoid-column,
+	.lg\:bri\:avoid-column {
+		break-inside: avoid-column !important;
+	}
+
+	/* BREAK-BEFORE */
+
+	.lg\:break-before\:auto,
+	.lg\:brb\:auto {
+		break-before: auto !important;
+	}
+
+	.lg\:break-before\:avoid,
+	.lg\:brb\:avoid {
+		break-before: avoid !important;
+	}
+
+	.lg\:break-before\:all,
+	.lg\:brb\:all {
+		break-before: all !important;
+	}
+
+	.lg\:break-before\:avoid-page,
+	.lg\:brb\:avoid-page {
+		break-before: avoid-page !important;
+	}
+
+	.lg\:break-before\:page,
+	.lg\:brb\:page {
+		break-before: page !important;
+	}
+
+	.lg\:break-before\:left,
+	.lg\:brb\:left {
+		break-before: left !important;
+	}
+
+	.lg\:break-before\:right,
+	.lg\:brb\:right {
+		break-before: right !important;
+	}
+
+	.lg\:break-before\:column,
+	.lg\:brb\:column {
+		break-before: column !important;
+	}
+
+	/* BREAK-AFTER */
+
+	.lg\:break-after\:auto,
+	.lg\:bra\:auto {
+		break-after: auto !important;
+	}
+
+	.lg\:break-after\:avoid,
+	.lg\:bra\:avoid {
+		break-after: avoid !important;
+	}
+
+	.lg\:break-after\:all,
+	.lg\:bra\:all {
+		break-after: all !important;
+	}
+
+	.lg\:break-after\:avoid-page,
+	.lg\:bra\:avoid-page {
+		break-after: avoid-page !important;
+	}
+
+	.lg\:break-after\:page,
+	.lg\:bra\:page {
+		break-after: page !important;
+	}
+
+	.lg\:break-after\:left,
+	.lg\:bra\:left {
+		break-after: left !important;
+	}
+
+	.lg\:break-after\:right,
+	.lg\:bra\:right {
+		break-after: right !important;
+	}
+
+	.lg\:break-after\:column,
+	.lg\:bra\:column {
+		break-after: column !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
+
+	/* COLUMN-COUNT */
+
+	.xl\:column-count\:1,
+	.xl\:cc\:1 {
+		column-count: 1 !important;
+	}
+
+	.xl\:column-count\:2,
+	.xl\:cc\:2 {
+		column-count: 2 !important;
+	}
+
+	.xl\:column-count\:3,
+	.xl\:cc\:3 {
+		column-count: 3 !important;
+	}
+
+	.xl\:column-count\:4,
+	.xl\:cc\:4 {
+		column-count: 4 !important;
+	}
+
+	.xl\:column-count\:5,
+	.xl\:cc\:5 {
+		column-count: 5 !important;
+	}
+
+	.xl\:column-count\:6,
+	.xl\:cc\:6 {
+		column-count: 6 !important;
+	}
+
+	.xl\:column-count\:auto,
+	.xl\:cc\:auto {
+		column-count: auto !important;
+	}
+
+	/* COLUMN-GAP */
+
+	.xl\:column-gap-len\:0,
+	.xl\:cgl\:0 {
+		column-gap: var(--space-0) !important;
+	}
+
+	.xl\:column-gap-len\:1,
+	.xl\:cgl\:1 {
+		column-gap: var(--space-1) !important;
+	}
+
+	.xl\:column-gap-len\:2,
+	.xl\:cgl\:2 {
+		column-gap: var(--space-2) !important;
+	}
+
+	.xl\:column-gap-len\:3,
+	.xl\:cgl\:3 {
+		column-gap: var(--space-3) !important;
+	}
+
+	.xl\:column-gap-len\:4,
+	.xl\:cgl\:4 {
+		column-gap: var(--space-4) !important;
+	}
+
+	.xl\:column-gap-len\:5,
+	.xl\:cgl\:5 {
+		column-gap: var(--space-5) !important;
+	}
+
+	.xl\:column-gap-len\:6,
+	.xl\:cgl\:6 {
+		column-gap: var(--space-6) !important;
+	}
+
+	.xl\:column-gap-len\:7,
+	.xl\:cgl\:7 {
+		column-gap: var(--space-7) !important;
+	}
+
+	.xl\:column-gap-len\:8,
+	.xl\:cgl\:8 {
+		column-gap: var(--space-8) !important;
+	}
+
+	.xl\:column-gap-len\:9,
+	.xl\:cgl\:9 {
+		column-gap: var(--space-9) !important;
+	}
+
+	.xl\:column-gap-len\:10,
+	.xl\:cgl\:10 {
+		column-gap: var(--space-10) !important;
+	}
+
+	.xl\:column-gap-len\:11,
+	.xl\:cgl\:11 {
+		column-gap: var(--space-11) !important;
+	}
+
+	.xl\:column-gap-len\:12,
+	.xl\:cgl\:12 {
+		column-gap: var(--space-12) !important;
+	}
+
+	.xl\:column-gap-len\:13,
+	.xl\:cgl\:13 {
+		column-gap: var(--space-13) !important;
+	}
+
+	.xl\:column-gap-len\:14,
+	.xl\:cgl\:14 {
+		column-gap: var(--space-14) !important;
+	}
+
+	/* BREAK-INSIDE */
+
+	.xl\:break-inside\:auto,
+	.xl\:bri\:auto {
+		break-inside: auto !important;
+	}
+
+	.xl\:break-inside\:avoid,
+	.xl\:bri\:avoid {
+		break-inside: avoid !important;
+	}
+
+	.xl\:break-inside\:avoid-page,
+	.xl\:bri\:avoid-page {
+		break-inside: avoid-page !important;
+	}
+
+	.xl\:break-inside\:avoid-column,
+	.xl\:bri\:avoid-column {
+		break-inside: avoid-column !important;
+	}
+
+	/* BREAK-BEFORE */
+
+	.xl\:break-before\:auto,
+	.xl\:brb\:auto {
+		break-before: auto !important;
+	}
+
+	.xl\:break-before\:avoid,
+	.xl\:brb\:avoid {
+		break-before: avoid !important;
+	}
+
+	.xl\:break-before\:all,
+	.xl\:brb\:all {
+		break-before: all !important;
+	}
+
+	.xl\:break-before\:avoid-page,
+	.xl\:brb\:avoid-page {
+		break-before: avoid-page !important;
+	}
+
+	.xl\:break-before\:page,
+	.xl\:brb\:page {
+		break-before: page !important;
+	}
+
+	.xl\:break-before\:left,
+	.xl\:brb\:left {
+		break-before: left !important;
+	}
+
+	.xl\:break-before\:right,
+	.xl\:brb\:right {
+		break-before: right !important;
+	}
+
+	.xl\:break-before\:column,
+	.xl\:brb\:column {
+		break-before: column !important;
+	}
+
+	/* BREAK-AFTER */
+
+	.xl\:break-after\:auto,
+	.xl\:bra\:auto {
+		break-after: auto !important;
+	}
+
+	.xl\:break-after\:avoid,
+	.xl\:bra\:avoid {
+		break-after: avoid !important;
+	}
+
+	.xl\:break-after\:all,
+	.xl\:bra\:all {
+		break-after: all !important;
+	}
+
+	.xl\:break-after\:avoid-page,
+	.xl\:bra\:avoid-page {
+		break-after: avoid-page !important;
+	}
+
+	.xl\:break-after\:page,
+	.xl\:bra\:page {
+		break-after: page !important;
+	}
+
+	.xl\:break-after\:left,
+	.xl\:bra\:left {
+		break-after: left !important;
+	}
+
+	.xl\:break-after\:right,
+	.xl\:bra\:right {
+		break-after: right !important;
+	}
+
+	.xl\:break-after\:column,
+	.xl\:bra\:column {
+		break-after: column !important;
+	}
+
+}

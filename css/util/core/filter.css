@@ -1,0 +1,1347 @@
+/* ===== FILTER UTILITIES — single-function (no composition yet) ===== */
+
+.filter\:none {
+	filter: none !important;
+}
+
+/* BLUR */
+
+.blur\:none,
+.blr\:none {
+	filter: blur(0) !important;
+}
+
+.blur\:sm,
+.blr\:sm {
+	filter: blur(4px) !important;
+}
+
+.blur\:md,
+.blr\:md {
+	filter: blur(8px) !important;
+}
+
+.blur\:lg,
+.blr\:lg {
+	filter: blur(12px) !important;
+}
+
+.blur\:xl,
+.blr\:xl {
+	filter: blur(16px) !important;
+}
+
+.blur\:2xl,
+.blr\:2xl {
+	filter: blur(24px) !important;
+}
+
+.blur\:3xl,
+.blr\:3xl {
+	filter: blur(40px) !important;
+}
+
+/* BRIGHTNESS */
+
+.brightness\:0,
+.brt\:0 {
+	filter: brightness(0) !important;
+}
+
+.brightness\:50,
+.brt\:50 {
+	filter: brightness(0.5) !important;
+}
+
+.brightness\:75,
+.brt\:75 {
+	filter: brightness(0.75) !important;
+}
+
+.brightness\:90,
+.brt\:90 {
+	filter: brightness(0.9) !important;
+}
+
+.brightness\:100,
+.brt\:100 {
+	filter: brightness(1) !important;
+}
+
+.brightness\:110,
+.brt\:110 {
+	filter: brightness(1.1) !important;
+}
+
+.brightness\:125,
+.brt\:125 {
+	filter: brightness(1.25) !important;
+}
+
+.brightness\:150,
+.brt\:150 {
+	filter: brightness(1.5) !important;
+}
+
+.brightness\:200,
+.brt\:200 {
+	filter: brightness(2) !important;
+}
+
+/* CONTRAST */
+
+.contrast\:0,
+.cnt\:0 {
+	filter: contrast(0) !important;
+}
+
+.contrast\:50,
+.cnt\:50 {
+	filter: contrast(0.5) !important;
+}
+
+.contrast\:75,
+.cnt\:75 {
+	filter: contrast(0.75) !important;
+}
+
+.contrast\:90,
+.cnt\:90 {
+	filter: contrast(0.9) !important;
+}
+
+.contrast\:100,
+.cnt\:100 {
+	filter: contrast(1) !important;
+}
+
+.contrast\:110,
+.cnt\:110 {
+	filter: contrast(1.1) !important;
+}
+
+.contrast\:125,
+.cnt\:125 {
+	filter: contrast(1.25) !important;
+}
+
+.contrast\:150,
+.cnt\:150 {
+	filter: contrast(1.5) !important;
+}
+
+.contrast\:200,
+.cnt\:200 {
+	filter: contrast(2) !important;
+}
+
+/* SATURATE */
+
+.saturate\:0,
+.sat\:0 {
+	filter: saturate(0) !important;
+}
+
+.saturate\:50,
+.sat\:50 {
+	filter: saturate(0.5) !important;
+}
+
+.saturate\:75,
+.sat\:75 {
+	filter: saturate(0.75) !important;
+}
+
+.saturate\:90,
+.sat\:90 {
+	filter: saturate(0.9) !important;
+}
+
+.saturate\:100,
+.sat\:100 {
+	filter: saturate(1) !important;
+}
+
+.saturate\:110,
+.sat\:110 {
+	filter: saturate(1.1) !important;
+}
+
+.saturate\:125,
+.sat\:125 {
+	filter: saturate(1.25) !important;
+}
+
+.saturate\:150,
+.sat\:150 {
+	filter: saturate(1.5) !important;
+}
+
+.saturate\:200,
+.sat\:200 {
+	filter: saturate(2) !important;
+}
+
+/* GRAYSCALE */
+
+.grayscale\:0,
+.gray\:0 {
+	filter: grayscale(0) !important;
+}
+
+.grayscale\:50,
+.gray\:50 {
+	filter: grayscale(0.5) !important;
+}
+
+.grayscale\:100,
+.gray\:100 {
+	filter: grayscale(1) !important;
+}
+
+/* SEPIA */
+
+.sepia\:0,
+.sep\:0 {
+	filter: sepia(0) !important;
+}
+
+.sepia\:50,
+.sep\:50 {
+	filter: sepia(0.5) !important;
+}
+
+.sepia\:100,
+.sep\:100 {
+	filter: sepia(1) !important;
+}
+
+/* INVERT */
+
+.invert\:0,
+.inv\:0 {
+	filter: invert(0) !important;
+}
+
+.invert\:50,
+.inv\:50 {
+	filter: invert(0.5) !important;
+}
+
+.invert\:100,
+.inv\:100 {
+	filter: invert(1) !important;
+}
+
+/* HUE-ROTATE */
+
+.hue-rotate\:0,
+.hue\:0 {
+	filter: hue-rotate(0deg) !important;
+}
+
+.hue-rotate\:15,
+.hue\:15 {
+	filter: hue-rotate(15deg) !important;
+}
+
+.hue-rotate\:30,
+.hue\:30 {
+	filter: hue-rotate(30deg) !important;
+}
+
+.hue-rotate\:60,
+.hue\:60 {
+	filter: hue-rotate(60deg) !important;
+}
+
+.hue-rotate\:90,
+.hue\:90 {
+	filter: hue-rotate(90deg) !important;
+}
+
+.hue-rotate\:180,
+.hue\:180 {
+	filter: hue-rotate(180deg) !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== FILTER UTILITIES — single-function (no composition yet) ===== */
+
+	.sm\:filter\:none {
+		filter: none !important;
+	}
+
+	/* BLUR */
+
+	.sm\:blur\:none,
+	.sm\:blr\:none {
+		filter: blur(0) !important;
+	}
+
+	.sm\:blur\:sm,
+	.sm\:blr\:sm {
+		filter: blur(4px) !important;
+	}
+
+	.sm\:blur\:md,
+	.sm\:blr\:md {
+		filter: blur(8px) !important;
+	}
+
+	.sm\:blur\:lg,
+	.sm\:blr\:lg {
+		filter: blur(12px) !important;
+	}
+
+	.sm\:blur\:xl,
+	.sm\:blr\:xl {
+		filter: blur(16px) !important;
+	}
+
+	.sm\:blur\:2xl,
+	.sm\:blr\:2xl {
+		filter: blur(24px) !important;
+	}
+
+	.sm\:blur\:3xl,
+	.sm\:blr\:3xl {
+		filter: blur(40px) !important;
+	}
+
+	/* BRIGHTNESS */
+
+	.sm\:brightness\:0,
+	.sm\:brt\:0 {
+		filter: brightness(0) !important;
+	}
+
+	.sm\:brightness\:50,
+	.sm\:brt\:50 {
+		filter: brightness(0.5) !important;
+	}
+
+	.sm\:brightness\:75,
+	.sm\:brt\:75 {
+		filter: brightness(0.75) !important;
+	}
+
+	.sm\:brightness\:90,
+	.sm\:brt\:90 {
+		filter: brightness(0.9) !important;
+	}
+
+	.sm\:brightness\:100,
+	.sm\:brt\:100 {
+		filter: brightness(1) !important;
+	}
+
+	.sm\:brightness\:110,
+	.sm\:brt\:110 {
+		filter: brightness(1.1) !important;
+	}
+
+	.sm\:brightness\:125,
+	.sm\:brt\:125 {
+		filter: brightness(1.25) !important;
+	}
+
+	.sm\:brightness\:150,
+	.sm\:brt\:150 {
+		filter: brightness(1.5) !important;
+	}
+
+	.sm\:brightness\:200,
+	.sm\:brt\:200 {
+		filter: brightness(2) !important;
+	}
+
+	/* CONTRAST */
+
+	.sm\:contrast\:0,
+	.sm\:cnt\:0 {
+		filter: contrast(0) !important;
+	}
+
+	.sm\:contrast\:50,
+	.sm\:cnt\:50 {
+		filter: contrast(0.5) !important;
+	}
+
+	.sm\:contrast\:75,
+	.sm\:cnt\:75 {
+		filter: contrast(0.75) !important;
+	}
+
+	.sm\:contrast\:90,
+	.sm\:cnt\:90 {
+		filter: contrast(0.9) !important;
+	}
+
+	.sm\:contrast\:100,
+	.sm\:cnt\:100 {
+		filter: contrast(1) !important;
+	}
+
+	.sm\:contrast\:110,
+	.sm\:cnt\:110 {
+		filter: contrast(1.1) !important;
+	}
+
+	.sm\:contrast\:125,
+	.sm\:cnt\:125 {
+		filter: contrast(1.25) !important;
+	}
+
+	.sm\:contrast\:150,
+	.sm\:cnt\:150 {
+		filter: contrast(1.5) !important;
+	}
+
+	.sm\:contrast\:200,
+	.sm\:cnt\:200 {
+		filter: contrast(2) !important;
+	}
+
+	/* SATURATE */
+
+	.sm\:saturate\:0,
+	.sm\:sat\:0 {
+		filter: saturate(0) !important;
+	}
+
+	.sm\:saturate\:50,
+	.sm\:sat\:50 {
+		filter: saturate(0.5) !important;
+	}
+
+	.sm\:saturate\:75,
+	.sm\:sat\:75 {
+		filter: saturate(0.75) !important;
+	}
+
+	.sm\:saturate\:90,
+	.sm\:sat\:90 {
+		filter: saturate(0.9) !important;
+	}
+
+	.sm\:saturate\:100,
+	.sm\:sat\:100 {
+		filter: saturate(1) !important;
+	}
+
+	.sm\:saturate\:110,
+	.sm\:sat\:110 {
+		filter: saturate(1.1) !important;
+	}
+
+	.sm\:saturate\:125,
+	.sm\:sat\:125 {
+		filter: saturate(1.25) !important;
+	}
+
+	.sm\:saturate\:150,
+	.sm\:sat\:150 {
+		filter: saturate(1.5) !important;
+	}
+
+	.sm\:saturate\:200,
+	.sm\:sat\:200 {
+		filter: saturate(2) !important;
+	}
+
+	/* GRAYSCALE */
+
+	.sm\:grayscale\:0,
+	.sm\:gray\:0 {
+		filter: grayscale(0) !important;
+	}
+
+	.sm\:grayscale\:50,
+	.sm\:gray\:50 {
+		filter: grayscale(0.5) !important;
+	}
+
+	.sm\:grayscale\:100,
+	.sm\:gray\:100 {
+		filter: grayscale(1) !important;
+	}
+
+	/* SEPIA */
+
+	.sm\:sepia\:0,
+	.sm\:sep\:0 {
+		filter: sepia(0) !important;
+	}
+
+	.sm\:sepia\:50,
+	.sm\:sep\:50 {
+		filter: sepia(0.5) !important;
+	}
+
+	.sm\:sepia\:100,
+	.sm\:sep\:100 {
+		filter: sepia(1) !important;
+	}
+
+	/* INVERT */
+
+	.sm\:invert\:0,
+	.sm\:inv\:0 {
+		filter: invert(0) !important;
+	}
+
+	.sm\:invert\:50,
+	.sm\:inv\:50 {
+		filter: invert(0.5) !important;
+	}
+
+	.sm\:invert\:100,
+	.sm\:inv\:100 {
+		filter: invert(1) !important;
+	}
+
+	/* HUE-ROTATE */
+
+	.sm\:hue-rotate\:0,
+	.sm\:hue\:0 {
+		filter: hue-rotate(0deg) !important;
+	}
+
+	.sm\:hue-rotate\:15,
+	.sm\:hue\:15 {
+		filter: hue-rotate(15deg) !important;
+	}
+
+	.sm\:hue-rotate\:30,
+	.sm\:hue\:30 {
+		filter: hue-rotate(30deg) !important;
+	}
+
+	.sm\:hue-rotate\:60,
+	.sm\:hue\:60 {
+		filter: hue-rotate(60deg) !important;
+	}
+
+	.sm\:hue-rotate\:90,
+	.sm\:hue\:90 {
+		filter: hue-rotate(90deg) !important;
+	}
+
+	.sm\:hue-rotate\:180,
+	.sm\:hue\:180 {
+		filter: hue-rotate(180deg) !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== FILTER UTILITIES — single-function (no composition yet) ===== */
+
+	.md\:filter\:none {
+		filter: none !important;
+	}
+
+	/* BLUR */
+
+	.md\:blur\:none,
+	.md\:blr\:none {
+		filter: blur(0) !important;
+	}
+
+	.md\:blur\:sm,
+	.md\:blr\:sm {
+		filter: blur(4px) !important;
+	}
+
+	.md\:blur\:md,
+	.md\:blr\:md {
+		filter: blur(8px) !important;
+	}
+
+	.md\:blur\:lg,
+	.md\:blr\:lg {
+		filter: blur(12px) !important;
+	}
+
+	.md\:blur\:xl,
+	.md\:blr\:xl {
+		filter: blur(16px) !important;
+	}
+
+	.md\:blur\:2xl,
+	.md\:blr\:2xl {
+		filter: blur(24px) !important;
+	}
+
+	.md\:blur\:3xl,
+	.md\:blr\:3xl {
+		filter: blur(40px) !important;
+	}
+
+	/* BRIGHTNESS */
+
+	.md\:brightness\:0,
+	.md\:brt\:0 {
+		filter: brightness(0) !important;
+	}
+
+	.md\:brightness\:50,
+	.md\:brt\:50 {
+		filter: brightness(0.5) !important;
+	}
+
+	.md\:brightness\:75,
+	.md\:brt\:75 {
+		filter: brightness(0.75) !important;
+	}
+
+	.md\:brightness\:90,
+	.md\:brt\:90 {
+		filter: brightness(0.9) !important;
+	}
+
+	.md\:brightness\:100,
+	.md\:brt\:100 {
+		filter: brightness(1) !important;
+	}
+
+	.md\:brightness\:110,
+	.md\:brt\:110 {
+		filter: brightness(1.1) !important;
+	}
+
+	.md\:brightness\:125,
+	.md\:brt\:125 {
+		filter: brightness(1.25) !important;
+	}
+
+	.md\:brightness\:150,
+	.md\:brt\:150 {
+		filter: brightness(1.5) !important;
+	}
+
+	.md\:brightness\:200,
+	.md\:brt\:200 {
+		filter: brightness(2) !important;
+	}
+
+	/* CONTRAST */
+
+	.md\:contrast\:0,
+	.md\:cnt\:0 {
+		filter: contrast(0) !important;
+	}
+
+	.md\:contrast\:50,
+	.md\:cnt\:50 {
+		filter: contrast(0.5) !important;
+	}
+
+	.md\:contrast\:75,
+	.md\:cnt\:75 {
+		filter: contrast(0.75) !important;
+	}
+
+	.md\:contrast\:90,
+	.md\:cnt\:90 {
+		filter: contrast(0.9) !important;
+	}
+
+	.md\:contrast\:100,
+	.md\:cnt\:100 {
+		filter: contrast(1) !important;
+	}
+
+	.md\:contrast\:110,
+	.md\:cnt\:110 {
+		filter: contrast(1.1) !important;
+	}
+
+	.md\:contrast\:125,
+	.md\:cnt\:125 {
+		filter: contrast(1.25) !important;
+	}
+
+	.md\:contrast\:150,
+	.md\:cnt\:150 {
+		filter: contrast(1.5) !important;
+	}
+
+	.md\:contrast\:200,
+	.md\:cnt\:200 {
+		filter: contrast(2) !important;
+	}
+
+	/* SATURATE */
+
+	.md\:saturate\:0,
+	.md\:sat\:0 {
+		filter: saturate(0) !important;
+	}
+
+	.md\:saturate\:50,
+	.md\:sat\:50 {
+		filter: saturate(0.5) !important;
+	}
+
+	.md\:saturate\:75,
+	.md\:sat\:75 {
+		filter: saturate(0.75) !important;
+	}
+
+	.md\:saturate\:90,
+	.md\:sat\:90 {
+		filter: saturate(0.9) !important;
+	}
+
+	.md\:saturate\:100,
+	.md\:sat\:100 {
+		filter: saturate(1) !important;
+	}
+
+	.md\:saturate\:110,
+	.md\:sat\:110 {
+		filter: saturate(1.1) !important;
+	}
+
+	.md\:saturate\:125,
+	.md\:sat\:125 {
+		filter: saturate(1.25) !important;
+	}
+
+	.md\:saturate\:150,
+	.md\:sat\:150 {
+		filter: saturate(1.5) !important;
+	}
+
+	.md\:saturate\:200,
+	.md\:sat\:200 {
+		filter: saturate(2) !important;
+	}
+
+	/* GRAYSCALE */
+
+	.md\:grayscale\:0,
+	.md\:gray\:0 {
+		filter: grayscale(0) !important;
+	}
+
+	.md\:grayscale\:50,
+	.md\:gray\:50 {
+		filter: grayscale(0.5) !important;
+	}
+
+	.md\:grayscale\:100,
+	.md\:gray\:100 {
+		filter: grayscale(1) !important;
+	}
+
+	/* SEPIA */
+
+	.md\:sepia\:0,
+	.md\:sep\:0 {
+		filter: sepia(0) !important;
+	}
+
+	.md\:sepia\:50,
+	.md\:sep\:50 {
+		filter: sepia(0.5) !important;
+	}
+
+	.md\:sepia\:100,
+	.md\:sep\:100 {
+		filter: sepia(1) !important;
+	}
+
+	/* INVERT */
+
+	.md\:invert\:0,
+	.md\:inv\:0 {
+		filter: invert(0) !important;
+	}
+
+	.md\:invert\:50,
+	.md\:inv\:50 {
+		filter: invert(0.5) !important;
+	}
+
+	.md\:invert\:100,
+	.md\:inv\:100 {
+		filter: invert(1) !important;
+	}
+
+	/* HUE-ROTATE */
+
+	.md\:hue-rotate\:0,
+	.md\:hue\:0 {
+		filter: hue-rotate(0deg) !important;
+	}
+
+	.md\:hue-rotate\:15,
+	.md\:hue\:15 {
+		filter: hue-rotate(15deg) !important;
+	}
+
+	.md\:hue-rotate\:30,
+	.md\:hue\:30 {
+		filter: hue-rotate(30deg) !important;
+	}
+
+	.md\:hue-rotate\:60,
+	.md\:hue\:60 {
+		filter: hue-rotate(60deg) !important;
+	}
+
+	.md\:hue-rotate\:90,
+	.md\:hue\:90 {
+		filter: hue-rotate(90deg) !important;
+	}
+
+	.md\:hue-rotate\:180,
+	.md\:hue\:180 {
+		filter: hue-rotate(180deg) !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== FILTER UTILITIES — single-function (no composition yet) ===== */
+
+	.lg\:filter\:none {
+		filter: none !important;
+	}
+
+	/* BLUR */
+
+	.lg\:blur\:none,
+	.lg\:blr\:none {
+		filter: blur(0) !important;
+	}
+
+	.lg\:blur\:sm,
+	.lg\:blr\:sm {
+		filter: blur(4px) !important;
+	}
+
+	.lg\:blur\:md,
+	.lg\:blr\:md {
+		filter: blur(8px) !important;
+	}
+
+	.lg\:blur\:lg,
+	.lg\:blr\:lg {
+		filter: blur(12px) !important;
+	}
+
+	.lg\:blur\:xl,
+	.lg\:blr\:xl {
+		filter: blur(16px) !important;
+	}
+
+	.lg\:blur\:2xl,
+	.lg\:blr\:2xl {
+		filter: blur(24px) !important;
+	}
+
+	.lg\:blur\:3xl,
+	.lg\:blr\:3xl {
+		filter: blur(40px) !important;
+	}
+
+	/* BRIGHTNESS */
+
+	.lg\:brightness\:0,
+	.lg\:brt\:0 {
+		filter: brightness(0) !important;
+	}
+
+	.lg\:brightness\:50,
+	.lg\:brt\:50 {
+		filter: brightness(0.5) !important;
+	}
+
+	.lg\:brightness\:75,
+	.lg\:brt\:75 {
+		filter: brightness(0.75) !important;
+	}
+
+	.lg\:brightness\:90,
+	.lg\:brt\:90 {
+		filter: brightness(0.9) !important;
+	}
+
+	.lg\:brightness\:100,
+	.lg\:brt\:100 {
+		filter: brightness(1) !important;
+	}
+
+	.lg\:brightness\:110,
+	.lg\:brt\:110 {
+		filter: brightness(1.1) !important;
+	}
+
+	.lg\:brightness\:125,
+	.lg\:brt\:125 {
+		filter: brightness(1.25) !important;
+	}
+
+	.lg\:brightness\:150,
+	.lg\:brt\:150 {
+		filter: brightness(1.5) !important;
+	}
+
+	.lg\:brightness\:200,
+	.lg\:brt\:200 {
+		filter: brightness(2) !important;
+	}
+
+	/* CONTRAST */
+
+	.lg\:contrast\:0,
+	.lg\:cnt\:0 {
+		filter: contrast(0) !important;
+	}
+
+	.lg\:contrast\:50,
+	.lg\:cnt\:50 {
+		filter: contrast(0.5) !important;
+	}
+
+	.lg\:contrast\:75,
+	.lg\:cnt\:75 {
+		filter: contrast(0.75) !important;
+	}
+
+	.lg\:contrast\:90,
+	.lg\:cnt\:90 {
+		filter: contrast(0.9) !important;
+	}
+
+	.lg\:contrast\:100,
+	.lg\:cnt\:100 {
+		filter: contrast(1) !important;
+	}
+
+	.lg\:contrast\:110,
+	.lg\:cnt\:110 {
+		filter: contrast(1.1) !important;
+	}
+
+	.lg\:contrast\:125,
+	.lg\:cnt\:125 {
+		filter: contrast(1.25) !important;
+	}
+
+	.lg\:contrast\:150,
+	.lg\:cnt\:150 {
+		filter: contrast(1.5) !important;
+	}
+
+	.lg\:contrast\:200,
+	.lg\:cnt\:200 {
+		filter: contrast(2) !important;
+	}
+
+	/* SATURATE */
+
+	.lg\:saturate\:0,
+	.lg\:sat\:0 {
+		filter: saturate(0) !important;
+	}
+
+	.lg\:saturate\:50,
+	.lg\:sat\:50 {
+		filter: saturate(0.5) !important;
+	}
+
+	.lg\:saturate\:75,
+	.lg\:sat\:75 {
+		filter: saturate(0.75) !important;
+	}
+
+	.lg\:saturate\:90,
+	.lg\:sat\:90 {
+		filter: saturate(0.9) !important;
+	}
+
+	.lg\:saturate\:100,
+	.lg\:sat\:100 {
+		filter: saturate(1) !important;
+	}
+
+	.lg\:saturate\:110,
+	.lg\:sat\:110 {
+		filter: saturate(1.1) !important;
+	}
+
+	.lg\:saturate\:125,
+	.lg\:sat\:125 {
+		filter: saturate(1.25) !important;
+	}
+
+	.lg\:saturate\:150,
+	.lg\:sat\:150 {
+		filter: saturate(1.5) !important;
+	}
+
+	.lg\:saturate\:200,
+	.lg\:sat\:200 {
+		filter: saturate(2) !important;
+	}
+
+	/* GRAYSCALE */
+
+	.lg\:grayscale\:0,
+	.lg\:gray\:0 {
+		filter: grayscale(0) !important;
+	}
+
+	.lg\:grayscale\:50,
+	.lg\:gray\:50 {
+		filter: grayscale(0.5) !important;
+	}
+
+	.lg\:grayscale\:100,
+	.lg\:gray\:100 {
+		filter: grayscale(1) !important;
+	}
+
+	/* SEPIA */
+
+	.lg\:sepia\:0,
+	.lg\:sep\:0 {
+		filter: sepia(0) !important;
+	}
+
+	.lg\:sepia\:50,
+	.lg\:sep\:50 {
+		filter: sepia(0.5) !important;
+	}
+
+	.lg\:sepia\:100,
+	.lg\:sep\:100 {
+		filter: sepia(1) !important;
+	}
+
+	/* INVERT */
+
+	.lg\:invert\:0,
+	.lg\:inv\:0 {
+		filter: invert(0) !important;
+	}
+
+	.lg\:invert\:50,
+	.lg\:inv\:50 {
+		filter: invert(0.5) !important;
+	}
+
+	.lg\:invert\:100,
+	.lg\:inv\:100 {
+		filter: invert(1) !important;
+	}
+
+	/* HUE-ROTATE */
+
+	.lg\:hue-rotate\:0,
+	.lg\:hue\:0 {
+		filter: hue-rotate(0deg) !important;
+	}
+
+	.lg\:hue-rotate\:15,
+	.lg\:hue\:15 {
+		filter: hue-rotate(15deg) !important;
+	}
+
+	.lg\:hue-rotate\:30,
+	.lg\:hue\:30 {
+		filter: hue-rotate(30deg) !important;
+	}
+
+	.lg\:hue-rotate\:60,
+	.lg\:hue\:60 {
+		filter: hue-rotate(60deg) !important;
+	}
+
+	.lg\:hue-rotate\:90,
+	.lg\:hue\:90 {
+		filter: hue-rotate(90deg) !important;
+	}
+
+	.lg\:hue-rotate\:180,
+	.lg\:hue\:180 {
+		filter: hue-rotate(180deg) !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== FILTER UTILITIES — single-function (no composition yet) ===== */
+
+	.xl\:filter\:none {
+		filter: none !important;
+	}
+
+	/* BLUR */
+
+	.xl\:blur\:none,
+	.xl\:blr\:none {
+		filter: blur(0) !important;
+	}
+
+	.xl\:blur\:sm,
+	.xl\:blr\:sm {
+		filter: blur(4px) !important;
+	}
+
+	.xl\:blur\:md,
+	.xl\:blr\:md {
+		filter: blur(8px) !important;
+	}
+
+	.xl\:blur\:lg,
+	.xl\:blr\:lg {
+		filter: blur(12px) !important;
+	}
+
+	.xl\:blur\:xl,
+	.xl\:blr\:xl {
+		filter: blur(16px) !important;
+	}
+
+	.xl\:blur\:2xl,
+	.xl\:blr\:2xl {
+		filter: blur(24px) !important;
+	}
+
+	.xl\:blur\:3xl,
+	.xl\:blr\:3xl {
+		filter: blur(40px) !important;
+	}
+
+	/* BRIGHTNESS */
+
+	.xl\:brightness\:0,
+	.xl\:brt\:0 {
+		filter: brightness(0) !important;
+	}
+
+	.xl\:brightness\:50,
+	.xl\:brt\:50 {
+		filter: brightness(0.5) !important;
+	}
+
+	.xl\:brightness\:75,
+	.xl\:brt\:75 {
+		filter: brightness(0.75) !important;
+	}
+
+	.xl\:brightness\:90,
+	.xl\:brt\:90 {
+		filter: brightness(0.9) !important;
+	}
+
+	.xl\:brightness\:100,
+	.xl\:brt\:100 {
+		filter: brightness(1) !important;
+	}
+
+	.xl\:brightness\:110,
+	.xl\:brt\:110 {
+		filter: brightness(1.1) !important;
+	}
+
+	.xl\:brightness\:125,
+	.xl\:brt\:125 {
+		filter: brightness(1.25) !important;
+	}
+
+	.xl\:brightness\:150,
+	.xl\:brt\:150 {
+		filter: brightness(1.5) !important;
+	}
+
+	.xl\:brightness\:200,
+	.xl\:brt\:200 {
+		filter: brightness(2) !important;
+	}
+
+	/* CONTRAST */
+
+	.xl\:contrast\:0,
+	.xl\:cnt\:0 {
+		filter: contrast(0) !important;
+	}
+
+	.xl\:contrast\:50,
+	.xl\:cnt\:50 {
+		filter: contrast(0.5) !important;
+	}
+
+	.xl\:contrast\:75,
+	.xl\:cnt\:75 {
+		filter: contrast(0.75) !important;
+	}
+
+	.xl\:contrast\:90,
+	.xl\:cnt\:90 {
+		filter: contrast(0.9) !important;
+	}
+
+	.xl\:contrast\:100,
+	.xl\:cnt\:100 {
+		filter: contrast(1) !important;
+	}
+
+	.xl\:contrast\:110,
+	.xl\:cnt\:110 {
+		filter: contrast(1.1) !important;
+	}
+
+	.xl\:contrast\:125,
+	.xl\:cnt\:125 {
+		filter: contrast(1.25) !important;
+	}
+
+	.xl\:contrast\:150,
+	.xl\:cnt\:150 {
+		filter: contrast(1.5) !important;
+	}
+
+	.xl\:contrast\:200,
+	.xl\:cnt\:200 {
+		filter: contrast(2) !important;
+	}
+
+	/* SATURATE */
+
+	.xl\:saturate\:0,
+	.xl\:sat\:0 {
+		filter: saturate(0) !important;
+	}
+
+	.xl\:saturate\:50,
+	.xl\:sat\:50 {
+		filter: saturate(0.5) !important;
+	}
+
+	.xl\:saturate\:75,
+	.xl\:sat\:75 {
+		filter: saturate(0.75) !important;
+	}
+
+	.xl\:saturate\:90,
+	.xl\:sat\:90 {
+		filter: saturate(0.9) !important;
+	}
+
+	.xl\:saturate\:100,
+	.xl\:sat\:100 {
+		filter: saturate(1) !important;
+	}
+
+	.xl\:saturate\:110,
+	.xl\:sat\:110 {
+		filter: saturate(1.1) !important;
+	}
+
+	.xl\:saturate\:125,
+	.xl\:sat\:125 {
+		filter: saturate(1.25) !important;
+	}
+
+	.xl\:saturate\:150,
+	.xl\:sat\:150 {
+		filter: saturate(1.5) !important;
+	}
+
+	.xl\:saturate\:200,
+	.xl\:sat\:200 {
+		filter: saturate(2) !important;
+	}
+
+	/* GRAYSCALE */
+
+	.xl\:grayscale\:0,
+	.xl\:gray\:0 {
+		filter: grayscale(0) !important;
+	}
+
+	.xl\:grayscale\:50,
+	.xl\:gray\:50 {
+		filter: grayscale(0.5) !important;
+	}
+
+	.xl\:grayscale\:100,
+	.xl\:gray\:100 {
+		filter: grayscale(1) !important;
+	}
+
+	/* SEPIA */
+
+	.xl\:sepia\:0,
+	.xl\:sep\:0 {
+		filter: sepia(0) !important;
+	}
+
+	.xl\:sepia\:50,
+	.xl\:sep\:50 {
+		filter: sepia(0.5) !important;
+	}
+
+	.xl\:sepia\:100,
+	.xl\:sep\:100 {
+		filter: sepia(1) !important;
+	}
+
+	/* INVERT */
+
+	.xl\:invert\:0,
+	.xl\:inv\:0 {
+		filter: invert(0) !important;
+	}
+
+	.xl\:invert\:50,
+	.xl\:inv\:50 {
+		filter: invert(0.5) !important;
+	}
+
+	.xl\:invert\:100,
+	.xl\:inv\:100 {
+		filter: invert(1) !important;
+	}
+
+	/* HUE-ROTATE */
+
+	.xl\:hue-rotate\:0,
+	.xl\:hue\:0 {
+		filter: hue-rotate(0deg) !important;
+	}
+
+	.xl\:hue-rotate\:15,
+	.xl\:hue\:15 {
+		filter: hue-rotate(15deg) !important;
+	}
+
+	.xl\:hue-rotate\:30,
+	.xl\:hue\:30 {
+		filter: hue-rotate(30deg) !important;
+	}
+
+	.xl\:hue-rotate\:60,
+	.xl\:hue\:60 {
+		filter: hue-rotate(60deg) !important;
+	}
+
+	.xl\:hue-rotate\:90,
+	.xl\:hue\:90 {
+		filter: hue-rotate(90deg) !important;
+	}
+
+	.xl\:hue-rotate\:180,
+	.xl\:hue\:180 {
+		filter: hue-rotate(180deg) !important;
+	}
+
+}

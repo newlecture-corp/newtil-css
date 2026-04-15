@@ -1,0 +1,2137 @@
+/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
+
+/* FILL */
+
+.fill\:none {
+	fill: none !important;
+}
+
+.fill\:transparent {
+	fill: transparent !important;
+}
+
+.fill\:current {
+	fill: currentColor !important;
+}
+
+.fill\:white {
+	fill: #ffffff !important;
+}
+
+.fill\:black {
+	fill: #000000 !important;
+}
+
+.fill\:primary {
+	fill: var(--color-primary) !important;
+}
+
+.fill\:primary-hover {
+	fill: var(--color-primary-hover) !important;
+}
+
+.fill\:primary-active {
+	fill: var(--color-primary-active) !important;
+}
+
+.fill\:primary-subtle {
+	fill: var(--color-primary-subtle) !important;
+}
+
+.fill\:on-primary {
+	fill: var(--color-on-primary) !important;
+}
+
+.fill\:secondary {
+	fill: var(--color-secondary) !important;
+}
+
+.fill\:secondary-hover {
+	fill: var(--color-secondary-hover) !important;
+}
+
+.fill\:secondary-active {
+	fill: var(--color-secondary-active) !important;
+}
+
+.fill\:secondary-subtle {
+	fill: var(--color-secondary-subtle) !important;
+}
+
+.fill\:on-secondary {
+	fill: var(--color-on-secondary) !important;
+}
+
+.fill\:tertiary {
+	fill: var(--color-tertiary) !important;
+}
+
+.fill\:tertiary-hover {
+	fill: var(--color-tertiary-hover) !important;
+}
+
+.fill\:tertiary-active {
+	fill: var(--color-tertiary-active) !important;
+}
+
+.fill\:tertiary-subtle {
+	fill: var(--color-tertiary-subtle) !important;
+}
+
+.fill\:on-tertiary {
+	fill: var(--color-on-tertiary) !important;
+}
+
+.fill\:surface {
+	fill: var(--color-surface) !important;
+}
+
+.fill\:surface-subtle {
+	fill: var(--color-surface-subtle) !important;
+}
+
+.fill\:surface-muted {
+	fill: var(--color-surface-muted) !important;
+}
+
+.fill\:surface-inverse {
+	fill: var(--color-surface-inverse) !important;
+}
+
+.fill\:on-surface {
+	fill: var(--color-on-surface) !important;
+}
+
+.fill\:on-surface-inverse {
+	fill: var(--color-on-surface-inverse) !important;
+}
+
+.fill\:text {
+	fill: var(--color-text) !important;
+}
+
+.fill\:text-muted {
+	fill: var(--color-text-muted) !important;
+}
+
+.fill\:text-subtle {
+	fill: var(--color-text-subtle) !important;
+}
+
+.fill\:text-inverse {
+	fill: var(--color-text-inverse) !important;
+}
+
+.fill\:border {
+	fill: var(--color-border) !important;
+}
+
+.fill\:border-strong {
+	fill: var(--color-border-strong) !important;
+}
+
+.fill\:border-subtle {
+	fill: var(--color-border-subtle) !important;
+}
+
+.fill\:success {
+	fill: var(--color-success) !important;
+}
+
+.fill\:success-hover {
+	fill: var(--color-success-hover) !important;
+}
+
+.fill\:success-active {
+	fill: var(--color-success-active) !important;
+}
+
+.fill\:success-subtle {
+	fill: var(--color-success-subtle) !important;
+}
+
+.fill\:on-success {
+	fill: var(--color-on-success) !important;
+}
+
+.fill\:warning {
+	fill: var(--color-warning) !important;
+}
+
+.fill\:warning-hover {
+	fill: var(--color-warning-hover) !important;
+}
+
+.fill\:warning-active {
+	fill: var(--color-warning-active) !important;
+}
+
+.fill\:warning-subtle {
+	fill: var(--color-warning-subtle) !important;
+}
+
+.fill\:on-warning {
+	fill: var(--color-on-warning) !important;
+}
+
+.fill\:danger {
+	fill: var(--color-danger) !important;
+}
+
+.fill\:danger-hover {
+	fill: var(--color-danger-hover) !important;
+}
+
+.fill\:danger-active {
+	fill: var(--color-danger-active) !important;
+}
+
+.fill\:danger-subtle {
+	fill: var(--color-danger-subtle) !important;
+}
+
+.fill\:on-danger {
+	fill: var(--color-on-danger) !important;
+}
+
+.fill\:focus-ring {
+	fill: var(--color-focus-ring) !important;
+}
+
+/* STROKE */
+
+.stroke\:none {
+	stroke: none !important;
+}
+
+.stroke\:transparent {
+	stroke: transparent !important;
+}
+
+.stroke\:current {
+	stroke: currentColor !important;
+}
+
+.stroke\:white {
+	stroke: #ffffff !important;
+}
+
+.stroke\:black {
+	stroke: #000000 !important;
+}
+
+.stroke\:primary {
+	stroke: var(--color-primary) !important;
+}
+
+.stroke\:primary-hover {
+	stroke: var(--color-primary-hover) !important;
+}
+
+.stroke\:primary-active {
+	stroke: var(--color-primary-active) !important;
+}
+
+.stroke\:primary-subtle {
+	stroke: var(--color-primary-subtle) !important;
+}
+
+.stroke\:on-primary {
+	stroke: var(--color-on-primary) !important;
+}
+
+.stroke\:secondary {
+	stroke: var(--color-secondary) !important;
+}
+
+.stroke\:secondary-hover {
+	stroke: var(--color-secondary-hover) !important;
+}
+
+.stroke\:secondary-active {
+	stroke: var(--color-secondary-active) !important;
+}
+
+.stroke\:secondary-subtle {
+	stroke: var(--color-secondary-subtle) !important;
+}
+
+.stroke\:on-secondary {
+	stroke: var(--color-on-secondary) !important;
+}
+
+.stroke\:tertiary {
+	stroke: var(--color-tertiary) !important;
+}
+
+.stroke\:tertiary-hover {
+	stroke: var(--color-tertiary-hover) !important;
+}
+
+.stroke\:tertiary-active {
+	stroke: var(--color-tertiary-active) !important;
+}
+
+.stroke\:tertiary-subtle {
+	stroke: var(--color-tertiary-subtle) !important;
+}
+
+.stroke\:on-tertiary {
+	stroke: var(--color-on-tertiary) !important;
+}
+
+.stroke\:surface {
+	stroke: var(--color-surface) !important;
+}
+
+.stroke\:surface-subtle {
+	stroke: var(--color-surface-subtle) !important;
+}
+
+.stroke\:surface-muted {
+	stroke: var(--color-surface-muted) !important;
+}
+
+.stroke\:surface-inverse {
+	stroke: var(--color-surface-inverse) !important;
+}
+
+.stroke\:on-surface {
+	stroke: var(--color-on-surface) !important;
+}
+
+.stroke\:on-surface-inverse {
+	stroke: var(--color-on-surface-inverse) !important;
+}
+
+.stroke\:text {
+	stroke: var(--color-text) !important;
+}
+
+.stroke\:text-muted {
+	stroke: var(--color-text-muted) !important;
+}
+
+.stroke\:text-subtle {
+	stroke: var(--color-text-subtle) !important;
+}
+
+.stroke\:text-inverse {
+	stroke: var(--color-text-inverse) !important;
+}
+
+.stroke\:border {
+	stroke: var(--color-border) !important;
+}
+
+.stroke\:border-strong {
+	stroke: var(--color-border-strong) !important;
+}
+
+.stroke\:border-subtle {
+	stroke: var(--color-border-subtle) !important;
+}
+
+.stroke\:success {
+	stroke: var(--color-success) !important;
+}
+
+.stroke\:success-hover {
+	stroke: var(--color-success-hover) !important;
+}
+
+.stroke\:success-active {
+	stroke: var(--color-success-active) !important;
+}
+
+.stroke\:success-subtle {
+	stroke: var(--color-success-subtle) !important;
+}
+
+.stroke\:on-success {
+	stroke: var(--color-on-success) !important;
+}
+
+.stroke\:warning {
+	stroke: var(--color-warning) !important;
+}
+
+.stroke\:warning-hover {
+	stroke: var(--color-warning-hover) !important;
+}
+
+.stroke\:warning-active {
+	stroke: var(--color-warning-active) !important;
+}
+
+.stroke\:warning-subtle {
+	stroke: var(--color-warning-subtle) !important;
+}
+
+.stroke\:on-warning {
+	stroke: var(--color-on-warning) !important;
+}
+
+.stroke\:danger {
+	stroke: var(--color-danger) !important;
+}
+
+.stroke\:danger-hover {
+	stroke: var(--color-danger-hover) !important;
+}
+
+.stroke\:danger-active {
+	stroke: var(--color-danger-active) !important;
+}
+
+.stroke\:danger-subtle {
+	stroke: var(--color-danger-subtle) !important;
+}
+
+.stroke\:on-danger {
+	stroke: var(--color-on-danger) !important;
+}
+
+.stroke\:focus-ring {
+	stroke: var(--color-focus-ring) !important;
+}
+
+/* STROKE-WIDTH */
+
+.stroke-width\:0,
+.sw\:0 {
+	stroke-width: var(--border-width-0) !important;
+}
+
+.stroke-width\:1,
+.sw\:1 {
+	stroke-width: var(--border-width-1) !important;
+}
+
+.stroke-width\:2,
+.sw\:2 {
+	stroke-width: var(--border-width-2) !important;
+}
+
+.stroke-width\:3,
+.sw\:3 {
+	stroke-width: var(--border-width-3) !important;
+}
+
+.stroke-width\:4,
+.sw\:4 {
+	stroke-width: var(--border-width-4) !important;
+}
+
+
+@media (min-width: 640px) {
+	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
+
+	/* FILL */
+
+	.sm\:fill\:none {
+		fill: none !important;
+	}
+
+	.sm\:fill\:transparent {
+		fill: transparent !important;
+	}
+
+	.sm\:fill\:current {
+		fill: currentColor !important;
+	}
+
+	.sm\:fill\:white {
+		fill: #ffffff !important;
+	}
+
+	.sm\:fill\:black {
+		fill: #000000 !important;
+	}
+
+	.sm\:fill\:primary {
+		fill: var(--color-primary) !important;
+	}
+
+	.sm\:fill\:primary-hover {
+		fill: var(--color-primary-hover) !important;
+	}
+
+	.sm\:fill\:primary-active {
+		fill: var(--color-primary-active) !important;
+	}
+
+	.sm\:fill\:primary-subtle {
+		fill: var(--color-primary-subtle) !important;
+	}
+
+	.sm\:fill\:on-primary {
+		fill: var(--color-on-primary) !important;
+	}
+
+	.sm\:fill\:secondary {
+		fill: var(--color-secondary) !important;
+	}
+
+	.sm\:fill\:secondary-hover {
+		fill: var(--color-secondary-hover) !important;
+	}
+
+	.sm\:fill\:secondary-active {
+		fill: var(--color-secondary-active) !important;
+	}
+
+	.sm\:fill\:secondary-subtle {
+		fill: var(--color-secondary-subtle) !important;
+	}
+
+	.sm\:fill\:on-secondary {
+		fill: var(--color-on-secondary) !important;
+	}
+
+	.sm\:fill\:tertiary {
+		fill: var(--color-tertiary) !important;
+	}
+
+	.sm\:fill\:tertiary-hover {
+		fill: var(--color-tertiary-hover) !important;
+	}
+
+	.sm\:fill\:tertiary-active {
+		fill: var(--color-tertiary-active) !important;
+	}
+
+	.sm\:fill\:tertiary-subtle {
+		fill: var(--color-tertiary-subtle) !important;
+	}
+
+	.sm\:fill\:on-tertiary {
+		fill: var(--color-on-tertiary) !important;
+	}
+
+	.sm\:fill\:surface {
+		fill: var(--color-surface) !important;
+	}
+
+	.sm\:fill\:surface-subtle {
+		fill: var(--color-surface-subtle) !important;
+	}
+
+	.sm\:fill\:surface-muted {
+		fill: var(--color-surface-muted) !important;
+	}
+
+	.sm\:fill\:surface-inverse {
+		fill: var(--color-surface-inverse) !important;
+	}
+
+	.sm\:fill\:on-surface {
+		fill: var(--color-on-surface) !important;
+	}
+
+	.sm\:fill\:on-surface-inverse {
+		fill: var(--color-on-surface-inverse) !important;
+	}
+
+	.sm\:fill\:text {
+		fill: var(--color-text) !important;
+	}
+
+	.sm\:fill\:text-muted {
+		fill: var(--color-text-muted) !important;
+	}
+
+	.sm\:fill\:text-subtle {
+		fill: var(--color-text-subtle) !important;
+	}
+
+	.sm\:fill\:text-inverse {
+		fill: var(--color-text-inverse) !important;
+	}
+
+	.sm\:fill\:border {
+		fill: var(--color-border) !important;
+	}
+
+	.sm\:fill\:border-strong {
+		fill: var(--color-border-strong) !important;
+	}
+
+	.sm\:fill\:border-subtle {
+		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:fill\:success {
+		fill: var(--color-success) !important;
+	}
+
+	.sm\:fill\:success-hover {
+		fill: var(--color-success-hover) !important;
+	}
+
+	.sm\:fill\:success-active {
+		fill: var(--color-success-active) !important;
+	}
+
+	.sm\:fill\:success-subtle {
+		fill: var(--color-success-subtle) !important;
+	}
+
+	.sm\:fill\:on-success {
+		fill: var(--color-on-success) !important;
+	}
+
+	.sm\:fill\:warning {
+		fill: var(--color-warning) !important;
+	}
+
+	.sm\:fill\:warning-hover {
+		fill: var(--color-warning-hover) !important;
+	}
+
+	.sm\:fill\:warning-active {
+		fill: var(--color-warning-active) !important;
+	}
+
+	.sm\:fill\:warning-subtle {
+		fill: var(--color-warning-subtle) !important;
+	}
+
+	.sm\:fill\:on-warning {
+		fill: var(--color-on-warning) !important;
+	}
+
+	.sm\:fill\:danger {
+		fill: var(--color-danger) !important;
+	}
+
+	.sm\:fill\:danger-hover {
+		fill: var(--color-danger-hover) !important;
+	}
+
+	.sm\:fill\:danger-active {
+		fill: var(--color-danger-active) !important;
+	}
+
+	.sm\:fill\:danger-subtle {
+		fill: var(--color-danger-subtle) !important;
+	}
+
+	.sm\:fill\:on-danger {
+		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:fill\:focus-ring {
+		fill: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE */
+
+	.sm\:stroke\:none {
+		stroke: none !important;
+	}
+
+	.sm\:stroke\:transparent {
+		stroke: transparent !important;
+	}
+
+	.sm\:stroke\:current {
+		stroke: currentColor !important;
+	}
+
+	.sm\:stroke\:white {
+		stroke: #ffffff !important;
+	}
+
+	.sm\:stroke\:black {
+		stroke: #000000 !important;
+	}
+
+	.sm\:stroke\:primary {
+		stroke: var(--color-primary) !important;
+	}
+
+	.sm\:stroke\:primary-hover {
+		stroke: var(--color-primary-hover) !important;
+	}
+
+	.sm\:stroke\:primary-active {
+		stroke: var(--color-primary-active) !important;
+	}
+
+	.sm\:stroke\:primary-subtle {
+		stroke: var(--color-primary-subtle) !important;
+	}
+
+	.sm\:stroke\:on-primary {
+		stroke: var(--color-on-primary) !important;
+	}
+
+	.sm\:stroke\:secondary {
+		stroke: var(--color-secondary) !important;
+	}
+
+	.sm\:stroke\:secondary-hover {
+		stroke: var(--color-secondary-hover) !important;
+	}
+
+	.sm\:stroke\:secondary-active {
+		stroke: var(--color-secondary-active) !important;
+	}
+
+	.sm\:stroke\:secondary-subtle {
+		stroke: var(--color-secondary-subtle) !important;
+	}
+
+	.sm\:stroke\:on-secondary {
+		stroke: var(--color-on-secondary) !important;
+	}
+
+	.sm\:stroke\:tertiary {
+		stroke: var(--color-tertiary) !important;
+	}
+
+	.sm\:stroke\:tertiary-hover {
+		stroke: var(--color-tertiary-hover) !important;
+	}
+
+	.sm\:stroke\:tertiary-active {
+		stroke: var(--color-tertiary-active) !important;
+	}
+
+	.sm\:stroke\:tertiary-subtle {
+		stroke: var(--color-tertiary-subtle) !important;
+	}
+
+	.sm\:stroke\:on-tertiary {
+		stroke: var(--color-on-tertiary) !important;
+	}
+
+	.sm\:stroke\:surface {
+		stroke: var(--color-surface) !important;
+	}
+
+	.sm\:stroke\:surface-subtle {
+		stroke: var(--color-surface-subtle) !important;
+	}
+
+	.sm\:stroke\:surface-muted {
+		stroke: var(--color-surface-muted) !important;
+	}
+
+	.sm\:stroke\:surface-inverse {
+		stroke: var(--color-surface-inverse) !important;
+	}
+
+	.sm\:stroke\:on-surface {
+		stroke: var(--color-on-surface) !important;
+	}
+
+	.sm\:stroke\:on-surface-inverse {
+		stroke: var(--color-on-surface-inverse) !important;
+	}
+
+	.sm\:stroke\:text {
+		stroke: var(--color-text) !important;
+	}
+
+	.sm\:stroke\:text-muted {
+		stroke: var(--color-text-muted) !important;
+	}
+
+	.sm\:stroke\:text-subtle {
+		stroke: var(--color-text-subtle) !important;
+	}
+
+	.sm\:stroke\:text-inverse {
+		stroke: var(--color-text-inverse) !important;
+	}
+
+	.sm\:stroke\:border {
+		stroke: var(--color-border) !important;
+	}
+
+	.sm\:stroke\:border-strong {
+		stroke: var(--color-border-strong) !important;
+	}
+
+	.sm\:stroke\:border-subtle {
+		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:stroke\:success {
+		stroke: var(--color-success) !important;
+	}
+
+	.sm\:stroke\:success-hover {
+		stroke: var(--color-success-hover) !important;
+	}
+
+	.sm\:stroke\:success-active {
+		stroke: var(--color-success-active) !important;
+	}
+
+	.sm\:stroke\:success-subtle {
+		stroke: var(--color-success-subtle) !important;
+	}
+
+	.sm\:stroke\:on-success {
+		stroke: var(--color-on-success) !important;
+	}
+
+	.sm\:stroke\:warning {
+		stroke: var(--color-warning) !important;
+	}
+
+	.sm\:stroke\:warning-hover {
+		stroke: var(--color-warning-hover) !important;
+	}
+
+	.sm\:stroke\:warning-active {
+		stroke: var(--color-warning-active) !important;
+	}
+
+	.sm\:stroke\:warning-subtle {
+		stroke: var(--color-warning-subtle) !important;
+	}
+
+	.sm\:stroke\:on-warning {
+		stroke: var(--color-on-warning) !important;
+	}
+
+	.sm\:stroke\:danger {
+		stroke: var(--color-danger) !important;
+	}
+
+	.sm\:stroke\:danger-hover {
+		stroke: var(--color-danger-hover) !important;
+	}
+
+	.sm\:stroke\:danger-active {
+		stroke: var(--color-danger-active) !important;
+	}
+
+	.sm\:stroke\:danger-subtle {
+		stroke: var(--color-danger-subtle) !important;
+	}
+
+	.sm\:stroke\:on-danger {
+		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:stroke\:focus-ring {
+		stroke: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE-WIDTH */
+
+	.sm\:stroke-width\:0,
+	.sm\:sw\:0 {
+		stroke-width: var(--border-width-0) !important;
+	}
+
+	.sm\:stroke-width\:1,
+	.sm\:sw\:1 {
+		stroke-width: var(--border-width-1) !important;
+	}
+
+	.sm\:stroke-width\:2,
+	.sm\:sw\:2 {
+		stroke-width: var(--border-width-2) !important;
+	}
+
+	.sm\:stroke-width\:3,
+	.sm\:sw\:3 {
+		stroke-width: var(--border-width-3) !important;
+	}
+
+	.sm\:stroke-width\:4,
+	.sm\:sw\:4 {
+		stroke-width: var(--border-width-4) !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
+
+	/* FILL */
+
+	.md\:fill\:none {
+		fill: none !important;
+	}
+
+	.md\:fill\:transparent {
+		fill: transparent !important;
+	}
+
+	.md\:fill\:current {
+		fill: currentColor !important;
+	}
+
+	.md\:fill\:white {
+		fill: #ffffff !important;
+	}
+
+	.md\:fill\:black {
+		fill: #000000 !important;
+	}
+
+	.md\:fill\:primary {
+		fill: var(--color-primary) !important;
+	}
+
+	.md\:fill\:primary-hover {
+		fill: var(--color-primary-hover) !important;
+	}
+
+	.md\:fill\:primary-active {
+		fill: var(--color-primary-active) !important;
+	}
+
+	.md\:fill\:primary-subtle {
+		fill: var(--color-primary-subtle) !important;
+	}
+
+	.md\:fill\:on-primary {
+		fill: var(--color-on-primary) !important;
+	}
+
+	.md\:fill\:secondary {
+		fill: var(--color-secondary) !important;
+	}
+
+	.md\:fill\:secondary-hover {
+		fill: var(--color-secondary-hover) !important;
+	}
+
+	.md\:fill\:secondary-active {
+		fill: var(--color-secondary-active) !important;
+	}
+
+	.md\:fill\:secondary-subtle {
+		fill: var(--color-secondary-subtle) !important;
+	}
+
+	.md\:fill\:on-secondary {
+		fill: var(--color-on-secondary) !important;
+	}
+
+	.md\:fill\:tertiary {
+		fill: var(--color-tertiary) !important;
+	}
+
+	.md\:fill\:tertiary-hover {
+		fill: var(--color-tertiary-hover) !important;
+	}
+
+	.md\:fill\:tertiary-active {
+		fill: var(--color-tertiary-active) !important;
+	}
+
+	.md\:fill\:tertiary-subtle {
+		fill: var(--color-tertiary-subtle) !important;
+	}
+
+	.md\:fill\:on-tertiary {
+		fill: var(--color-on-tertiary) !important;
+	}
+
+	.md\:fill\:surface {
+		fill: var(--color-surface) !important;
+	}
+
+	.md\:fill\:surface-subtle {
+		fill: var(--color-surface-subtle) !important;
+	}
+
+	.md\:fill\:surface-muted {
+		fill: var(--color-surface-muted) !important;
+	}
+
+	.md\:fill\:surface-inverse {
+		fill: var(--color-surface-inverse) !important;
+	}
+
+	.md\:fill\:on-surface {
+		fill: var(--color-on-surface) !important;
+	}
+
+	.md\:fill\:on-surface-inverse {
+		fill: var(--color-on-surface-inverse) !important;
+	}
+
+	.md\:fill\:text {
+		fill: var(--color-text) !important;
+	}
+
+	.md\:fill\:text-muted {
+		fill: var(--color-text-muted) !important;
+	}
+
+	.md\:fill\:text-subtle {
+		fill: var(--color-text-subtle) !important;
+	}
+
+	.md\:fill\:text-inverse {
+		fill: var(--color-text-inverse) !important;
+	}
+
+	.md\:fill\:border {
+		fill: var(--color-border) !important;
+	}
+
+	.md\:fill\:border-strong {
+		fill: var(--color-border-strong) !important;
+	}
+
+	.md\:fill\:border-subtle {
+		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:fill\:success {
+		fill: var(--color-success) !important;
+	}
+
+	.md\:fill\:success-hover {
+		fill: var(--color-success-hover) !important;
+	}
+
+	.md\:fill\:success-active {
+		fill: var(--color-success-active) !important;
+	}
+
+	.md\:fill\:success-subtle {
+		fill: var(--color-success-subtle) !important;
+	}
+
+	.md\:fill\:on-success {
+		fill: var(--color-on-success) !important;
+	}
+
+	.md\:fill\:warning {
+		fill: var(--color-warning) !important;
+	}
+
+	.md\:fill\:warning-hover {
+		fill: var(--color-warning-hover) !important;
+	}
+
+	.md\:fill\:warning-active {
+		fill: var(--color-warning-active) !important;
+	}
+
+	.md\:fill\:warning-subtle {
+		fill: var(--color-warning-subtle) !important;
+	}
+
+	.md\:fill\:on-warning {
+		fill: var(--color-on-warning) !important;
+	}
+
+	.md\:fill\:danger {
+		fill: var(--color-danger) !important;
+	}
+
+	.md\:fill\:danger-hover {
+		fill: var(--color-danger-hover) !important;
+	}
+
+	.md\:fill\:danger-active {
+		fill: var(--color-danger-active) !important;
+	}
+
+	.md\:fill\:danger-subtle {
+		fill: var(--color-danger-subtle) !important;
+	}
+
+	.md\:fill\:on-danger {
+		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:fill\:focus-ring {
+		fill: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE */
+
+	.md\:stroke\:none {
+		stroke: none !important;
+	}
+
+	.md\:stroke\:transparent {
+		stroke: transparent !important;
+	}
+
+	.md\:stroke\:current {
+		stroke: currentColor !important;
+	}
+
+	.md\:stroke\:white {
+		stroke: #ffffff !important;
+	}
+
+	.md\:stroke\:black {
+		stroke: #000000 !important;
+	}
+
+	.md\:stroke\:primary {
+		stroke: var(--color-primary) !important;
+	}
+
+	.md\:stroke\:primary-hover {
+		stroke: var(--color-primary-hover) !important;
+	}
+
+	.md\:stroke\:primary-active {
+		stroke: var(--color-primary-active) !important;
+	}
+
+	.md\:stroke\:primary-subtle {
+		stroke: var(--color-primary-subtle) !important;
+	}
+
+	.md\:stroke\:on-primary {
+		stroke: var(--color-on-primary) !important;
+	}
+
+	.md\:stroke\:secondary {
+		stroke: var(--color-secondary) !important;
+	}
+
+	.md\:stroke\:secondary-hover {
+		stroke: var(--color-secondary-hover) !important;
+	}
+
+	.md\:stroke\:secondary-active {
+		stroke: var(--color-secondary-active) !important;
+	}
+
+	.md\:stroke\:secondary-subtle {
+		stroke: var(--color-secondary-subtle) !important;
+	}
+
+	.md\:stroke\:on-secondary {
+		stroke: var(--color-on-secondary) !important;
+	}
+
+	.md\:stroke\:tertiary {
+		stroke: var(--color-tertiary) !important;
+	}
+
+	.md\:stroke\:tertiary-hover {
+		stroke: var(--color-tertiary-hover) !important;
+	}
+
+	.md\:stroke\:tertiary-active {
+		stroke: var(--color-tertiary-active) !important;
+	}
+
+	.md\:stroke\:tertiary-subtle {
+		stroke: var(--color-tertiary-subtle) !important;
+	}
+
+	.md\:stroke\:on-tertiary {
+		stroke: var(--color-on-tertiary) !important;
+	}
+
+	.md\:stroke\:surface {
+		stroke: var(--color-surface) !important;
+	}
+
+	.md\:stroke\:surface-subtle {
+		stroke: var(--color-surface-subtle) !important;
+	}
+
+	.md\:stroke\:surface-muted {
+		stroke: var(--color-surface-muted) !important;
+	}
+
+	.md\:stroke\:surface-inverse {
+		stroke: var(--color-surface-inverse) !important;
+	}
+
+	.md\:stroke\:on-surface {
+		stroke: var(--color-on-surface) !important;
+	}
+
+	.md\:stroke\:on-surface-inverse {
+		stroke: var(--color-on-surface-inverse) !important;
+	}
+
+	.md\:stroke\:text {
+		stroke: var(--color-text) !important;
+	}
+
+	.md\:stroke\:text-muted {
+		stroke: var(--color-text-muted) !important;
+	}
+
+	.md\:stroke\:text-subtle {
+		stroke: var(--color-text-subtle) !important;
+	}
+
+	.md\:stroke\:text-inverse {
+		stroke: var(--color-text-inverse) !important;
+	}
+
+	.md\:stroke\:border {
+		stroke: var(--color-border) !important;
+	}
+
+	.md\:stroke\:border-strong {
+		stroke: var(--color-border-strong) !important;
+	}
+
+	.md\:stroke\:border-subtle {
+		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:stroke\:success {
+		stroke: var(--color-success) !important;
+	}
+
+	.md\:stroke\:success-hover {
+		stroke: var(--color-success-hover) !important;
+	}
+
+	.md\:stroke\:success-active {
+		stroke: var(--color-success-active) !important;
+	}
+
+	.md\:stroke\:success-subtle {
+		stroke: var(--color-success-subtle) !important;
+	}
+
+	.md\:stroke\:on-success {
+		stroke: var(--color-on-success) !important;
+	}
+
+	.md\:stroke\:warning {
+		stroke: var(--color-warning) !important;
+	}
+
+	.md\:stroke\:warning-hover {
+		stroke: var(--color-warning-hover) !important;
+	}
+
+	.md\:stroke\:warning-active {
+		stroke: var(--color-warning-active) !important;
+	}
+
+	.md\:stroke\:warning-subtle {
+		stroke: var(--color-warning-subtle) !important;
+	}
+
+	.md\:stroke\:on-warning {
+		stroke: var(--color-on-warning) !important;
+	}
+
+	.md\:stroke\:danger {
+		stroke: var(--color-danger) !important;
+	}
+
+	.md\:stroke\:danger-hover {
+		stroke: var(--color-danger-hover) !important;
+	}
+
+	.md\:stroke\:danger-active {
+		stroke: var(--color-danger-active) !important;
+	}
+
+	.md\:stroke\:danger-subtle {
+		stroke: var(--color-danger-subtle) !important;
+	}
+
+	.md\:stroke\:on-danger {
+		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:stroke\:focus-ring {
+		stroke: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE-WIDTH */
+
+	.md\:stroke-width\:0,
+	.md\:sw\:0 {
+		stroke-width: var(--border-width-0) !important;
+	}
+
+	.md\:stroke-width\:1,
+	.md\:sw\:1 {
+		stroke-width: var(--border-width-1) !important;
+	}
+
+	.md\:stroke-width\:2,
+	.md\:sw\:2 {
+		stroke-width: var(--border-width-2) !important;
+	}
+
+	.md\:stroke-width\:3,
+	.md\:sw\:3 {
+		stroke-width: var(--border-width-3) !important;
+	}
+
+	.md\:stroke-width\:4,
+	.md\:sw\:4 {
+		stroke-width: var(--border-width-4) !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
+
+	/* FILL */
+
+	.lg\:fill\:none {
+		fill: none !important;
+	}
+
+	.lg\:fill\:transparent {
+		fill: transparent !important;
+	}
+
+	.lg\:fill\:current {
+		fill: currentColor !important;
+	}
+
+	.lg\:fill\:white {
+		fill: #ffffff !important;
+	}
+
+	.lg\:fill\:black {
+		fill: #000000 !important;
+	}
+
+	.lg\:fill\:primary {
+		fill: var(--color-primary) !important;
+	}
+
+	.lg\:fill\:primary-hover {
+		fill: var(--color-primary-hover) !important;
+	}
+
+	.lg\:fill\:primary-active {
+		fill: var(--color-primary-active) !important;
+	}
+
+	.lg\:fill\:primary-subtle {
+		fill: var(--color-primary-subtle) !important;
+	}
+
+	.lg\:fill\:on-primary {
+		fill: var(--color-on-primary) !important;
+	}
+
+	.lg\:fill\:secondary {
+		fill: var(--color-secondary) !important;
+	}
+
+	.lg\:fill\:secondary-hover {
+		fill: var(--color-secondary-hover) !important;
+	}
+
+	.lg\:fill\:secondary-active {
+		fill: var(--color-secondary-active) !important;
+	}
+
+	.lg\:fill\:secondary-subtle {
+		fill: var(--color-secondary-subtle) !important;
+	}
+
+	.lg\:fill\:on-secondary {
+		fill: var(--color-on-secondary) !important;
+	}
+
+	.lg\:fill\:tertiary {
+		fill: var(--color-tertiary) !important;
+	}
+
+	.lg\:fill\:tertiary-hover {
+		fill: var(--color-tertiary-hover) !important;
+	}
+
+	.lg\:fill\:tertiary-active {
+		fill: var(--color-tertiary-active) !important;
+	}
+
+	.lg\:fill\:tertiary-subtle {
+		fill: var(--color-tertiary-subtle) !important;
+	}
+
+	.lg\:fill\:on-tertiary {
+		fill: var(--color-on-tertiary) !important;
+	}
+
+	.lg\:fill\:surface {
+		fill: var(--color-surface) !important;
+	}
+
+	.lg\:fill\:surface-subtle {
+		fill: var(--color-surface-subtle) !important;
+	}
+
+	.lg\:fill\:surface-muted {
+		fill: var(--color-surface-muted) !important;
+	}
+
+	.lg\:fill\:surface-inverse {
+		fill: var(--color-surface-inverse) !important;
+	}
+
+	.lg\:fill\:on-surface {
+		fill: var(--color-on-surface) !important;
+	}
+
+	.lg\:fill\:on-surface-inverse {
+		fill: var(--color-on-surface-inverse) !important;
+	}
+
+	.lg\:fill\:text {
+		fill: var(--color-text) !important;
+	}
+
+	.lg\:fill\:text-muted {
+		fill: var(--color-text-muted) !important;
+	}
+
+	.lg\:fill\:text-subtle {
+		fill: var(--color-text-subtle) !important;
+	}
+
+	.lg\:fill\:text-inverse {
+		fill: var(--color-text-inverse) !important;
+	}
+
+	.lg\:fill\:border {
+		fill: var(--color-border) !important;
+	}
+
+	.lg\:fill\:border-strong {
+		fill: var(--color-border-strong) !important;
+	}
+
+	.lg\:fill\:border-subtle {
+		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:fill\:success {
+		fill: var(--color-success) !important;
+	}
+
+	.lg\:fill\:success-hover {
+		fill: var(--color-success-hover) !important;
+	}
+
+	.lg\:fill\:success-active {
+		fill: var(--color-success-active) !important;
+	}
+
+	.lg\:fill\:success-subtle {
+		fill: var(--color-success-subtle) !important;
+	}
+
+	.lg\:fill\:on-success {
+		fill: var(--color-on-success) !important;
+	}
+
+	.lg\:fill\:warning {
+		fill: var(--color-warning) !important;
+	}
+
+	.lg\:fill\:warning-hover {
+		fill: var(--color-warning-hover) !important;
+	}
+
+	.lg\:fill\:warning-active {
+		fill: var(--color-warning-active) !important;
+	}
+
+	.lg\:fill\:warning-subtle {
+		fill: var(--color-warning-subtle) !important;
+	}
+
+	.lg\:fill\:on-warning {
+		fill: var(--color-on-warning) !important;
+	}
+
+	.lg\:fill\:danger {
+		fill: var(--color-danger) !important;
+	}
+
+	.lg\:fill\:danger-hover {
+		fill: var(--color-danger-hover) !important;
+	}
+
+	.lg\:fill\:danger-active {
+		fill: var(--color-danger-active) !important;
+	}
+
+	.lg\:fill\:danger-subtle {
+		fill: var(--color-danger-subtle) !important;
+	}
+
+	.lg\:fill\:on-danger {
+		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:fill\:focus-ring {
+		fill: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE */
+
+	.lg\:stroke\:none {
+		stroke: none !important;
+	}
+
+	.lg\:stroke\:transparent {
+		stroke: transparent !important;
+	}
+
+	.lg\:stroke\:current {
+		stroke: currentColor !important;
+	}
+
+	.lg\:stroke\:white {
+		stroke: #ffffff !important;
+	}
+
+	.lg\:stroke\:black {
+		stroke: #000000 !important;
+	}
+
+	.lg\:stroke\:primary {
+		stroke: var(--color-primary) !important;
+	}
+
+	.lg\:stroke\:primary-hover {
+		stroke: var(--color-primary-hover) !important;
+	}
+
+	.lg\:stroke\:primary-active {
+		stroke: var(--color-primary-active) !important;
+	}
+
+	.lg\:stroke\:primary-subtle {
+		stroke: var(--color-primary-subtle) !important;
+	}
+
+	.lg\:stroke\:on-primary {
+		stroke: var(--color-on-primary) !important;
+	}
+
+	.lg\:stroke\:secondary {
+		stroke: var(--color-secondary) !important;
+	}
+
+	.lg\:stroke\:secondary-hover {
+		stroke: var(--color-secondary-hover) !important;
+	}
+
+	.lg\:stroke\:secondary-active {
+		stroke: var(--color-secondary-active) !important;
+	}
+
+	.lg\:stroke\:secondary-subtle {
+		stroke: var(--color-secondary-subtle) !important;
+	}
+
+	.lg\:stroke\:on-secondary {
+		stroke: var(--color-on-secondary) !important;
+	}
+
+	.lg\:stroke\:tertiary {
+		stroke: var(--color-tertiary) !important;
+	}
+
+	.lg\:stroke\:tertiary-hover {
+		stroke: var(--color-tertiary-hover) !important;
+	}
+
+	.lg\:stroke\:tertiary-active {
+		stroke: var(--color-tertiary-active) !important;
+	}
+
+	.lg\:stroke\:tertiary-subtle {
+		stroke: var(--color-tertiary-subtle) !important;
+	}
+
+	.lg\:stroke\:on-tertiary {
+		stroke: var(--color-on-tertiary) !important;
+	}
+
+	.lg\:stroke\:surface {
+		stroke: var(--color-surface) !important;
+	}
+
+	.lg\:stroke\:surface-subtle {
+		stroke: var(--color-surface-subtle) !important;
+	}
+
+	.lg\:stroke\:surface-muted {
+		stroke: var(--color-surface-muted) !important;
+	}
+
+	.lg\:stroke\:surface-inverse {
+		stroke: var(--color-surface-inverse) !important;
+	}
+
+	.lg\:stroke\:on-surface {
+		stroke: var(--color-on-surface) !important;
+	}
+
+	.lg\:stroke\:on-surface-inverse {
+		stroke: var(--color-on-surface-inverse) !important;
+	}
+
+	.lg\:stroke\:text {
+		stroke: var(--color-text) !important;
+	}
+
+	.lg\:stroke\:text-muted {
+		stroke: var(--color-text-muted) !important;
+	}
+
+	.lg\:stroke\:text-subtle {
+		stroke: var(--color-text-subtle) !important;
+	}
+
+	.lg\:stroke\:text-inverse {
+		stroke: var(--color-text-inverse) !important;
+	}
+
+	.lg\:stroke\:border {
+		stroke: var(--color-border) !important;
+	}
+
+	.lg\:stroke\:border-strong {
+		stroke: var(--color-border-strong) !important;
+	}
+
+	.lg\:stroke\:border-subtle {
+		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:stroke\:success {
+		stroke: var(--color-success) !important;
+	}
+
+	.lg\:stroke\:success-hover {
+		stroke: var(--color-success-hover) !important;
+	}
+
+	.lg\:stroke\:success-active {
+		stroke: var(--color-success-active) !important;
+	}
+
+	.lg\:stroke\:success-subtle {
+		stroke: var(--color-success-subtle) !important;
+	}
+
+	.lg\:stroke\:on-success {
+		stroke: var(--color-on-success) !important;
+	}
+
+	.lg\:stroke\:warning {
+		stroke: var(--color-warning) !important;
+	}
+
+	.lg\:stroke\:warning-hover {
+		stroke: var(--color-warning-hover) !important;
+	}
+
+	.lg\:stroke\:warning-active {
+		stroke: var(--color-warning-active) !important;
+	}
+
+	.lg\:stroke\:warning-subtle {
+		stroke: var(--color-warning-subtle) !important;
+	}
+
+	.lg\:stroke\:on-warning {
+		stroke: var(--color-on-warning) !important;
+	}
+
+	.lg\:stroke\:danger {
+		stroke: var(--color-danger) !important;
+	}
+
+	.lg\:stroke\:danger-hover {
+		stroke: var(--color-danger-hover) !important;
+	}
+
+	.lg\:stroke\:danger-active {
+		stroke: var(--color-danger-active) !important;
+	}
+
+	.lg\:stroke\:danger-subtle {
+		stroke: var(--color-danger-subtle) !important;
+	}
+
+	.lg\:stroke\:on-danger {
+		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:stroke\:focus-ring {
+		stroke: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE-WIDTH */
+
+	.lg\:stroke-width\:0,
+	.lg\:sw\:0 {
+		stroke-width: var(--border-width-0) !important;
+	}
+
+	.lg\:stroke-width\:1,
+	.lg\:sw\:1 {
+		stroke-width: var(--border-width-1) !important;
+	}
+
+	.lg\:stroke-width\:2,
+	.lg\:sw\:2 {
+		stroke-width: var(--border-width-2) !important;
+	}
+
+	.lg\:stroke-width\:3,
+	.lg\:sw\:3 {
+		stroke-width: var(--border-width-3) !important;
+	}
+
+	.lg\:stroke-width\:4,
+	.lg\:sw\:4 {
+		stroke-width: var(--border-width-4) !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
+
+	/* FILL */
+
+	.xl\:fill\:none {
+		fill: none !important;
+	}
+
+	.xl\:fill\:transparent {
+		fill: transparent !important;
+	}
+
+	.xl\:fill\:current {
+		fill: currentColor !important;
+	}
+
+	.xl\:fill\:white {
+		fill: #ffffff !important;
+	}
+
+	.xl\:fill\:black {
+		fill: #000000 !important;
+	}
+
+	.xl\:fill\:primary {
+		fill: var(--color-primary) !important;
+	}
+
+	.xl\:fill\:primary-hover {
+		fill: var(--color-primary-hover) !important;
+	}
+
+	.xl\:fill\:primary-active {
+		fill: var(--color-primary-active) !important;
+	}
+
+	.xl\:fill\:primary-subtle {
+		fill: var(--color-primary-subtle) !important;
+	}
+
+	.xl\:fill\:on-primary {
+		fill: var(--color-on-primary) !important;
+	}
+
+	.xl\:fill\:secondary {
+		fill: var(--color-secondary) !important;
+	}
+
+	.xl\:fill\:secondary-hover {
+		fill: var(--color-secondary-hover) !important;
+	}
+
+	.xl\:fill\:secondary-active {
+		fill: var(--color-secondary-active) !important;
+	}
+
+	.xl\:fill\:secondary-subtle {
+		fill: var(--color-secondary-subtle) !important;
+	}
+
+	.xl\:fill\:on-secondary {
+		fill: var(--color-on-secondary) !important;
+	}
+
+	.xl\:fill\:tertiary {
+		fill: var(--color-tertiary) !important;
+	}
+
+	.xl\:fill\:tertiary-hover {
+		fill: var(--color-tertiary-hover) !important;
+	}
+
+	.xl\:fill\:tertiary-active {
+		fill: var(--color-tertiary-active) !important;
+	}
+
+	.xl\:fill\:tertiary-subtle {
+		fill: var(--color-tertiary-subtle) !important;
+	}
+
+	.xl\:fill\:on-tertiary {
+		fill: var(--color-on-tertiary) !important;
+	}
+
+	.xl\:fill\:surface {
+		fill: var(--color-surface) !important;
+	}
+
+	.xl\:fill\:surface-subtle {
+		fill: var(--color-surface-subtle) !important;
+	}
+
+	.xl\:fill\:surface-muted {
+		fill: var(--color-surface-muted) !important;
+	}
+
+	.xl\:fill\:surface-inverse {
+		fill: var(--color-surface-inverse) !important;
+	}
+
+	.xl\:fill\:on-surface {
+		fill: var(--color-on-surface) !important;
+	}
+
+	.xl\:fill\:on-surface-inverse {
+		fill: var(--color-on-surface-inverse) !important;
+	}
+
+	.xl\:fill\:text {
+		fill: var(--color-text) !important;
+	}
+
+	.xl\:fill\:text-muted {
+		fill: var(--color-text-muted) !important;
+	}
+
+	.xl\:fill\:text-subtle {
+		fill: var(--color-text-subtle) !important;
+	}
+
+	.xl\:fill\:text-inverse {
+		fill: var(--color-text-inverse) !important;
+	}
+
+	.xl\:fill\:border {
+		fill: var(--color-border) !important;
+	}
+
+	.xl\:fill\:border-strong {
+		fill: var(--color-border-strong) !important;
+	}
+
+	.xl\:fill\:border-subtle {
+		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:fill\:success {
+		fill: var(--color-success) !important;
+	}
+
+	.xl\:fill\:success-hover {
+		fill: var(--color-success-hover) !important;
+	}
+
+	.xl\:fill\:success-active {
+		fill: var(--color-success-active) !important;
+	}
+
+	.xl\:fill\:success-subtle {
+		fill: var(--color-success-subtle) !important;
+	}
+
+	.xl\:fill\:on-success {
+		fill: var(--color-on-success) !important;
+	}
+
+	.xl\:fill\:warning {
+		fill: var(--color-warning) !important;
+	}
+
+	.xl\:fill\:warning-hover {
+		fill: var(--color-warning-hover) !important;
+	}
+
+	.xl\:fill\:warning-active {
+		fill: var(--color-warning-active) !important;
+	}
+
+	.xl\:fill\:warning-subtle {
+		fill: var(--color-warning-subtle) !important;
+	}
+
+	.xl\:fill\:on-warning {
+		fill: var(--color-on-warning) !important;
+	}
+
+	.xl\:fill\:danger {
+		fill: var(--color-danger) !important;
+	}
+
+	.xl\:fill\:danger-hover {
+		fill: var(--color-danger-hover) !important;
+	}
+
+	.xl\:fill\:danger-active {
+		fill: var(--color-danger-active) !important;
+	}
+
+	.xl\:fill\:danger-subtle {
+		fill: var(--color-danger-subtle) !important;
+	}
+
+	.xl\:fill\:on-danger {
+		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:fill\:focus-ring {
+		fill: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE */
+
+	.xl\:stroke\:none {
+		stroke: none !important;
+	}
+
+	.xl\:stroke\:transparent {
+		stroke: transparent !important;
+	}
+
+	.xl\:stroke\:current {
+		stroke: currentColor !important;
+	}
+
+	.xl\:stroke\:white {
+		stroke: #ffffff !important;
+	}
+
+	.xl\:stroke\:black {
+		stroke: #000000 !important;
+	}
+
+	.xl\:stroke\:primary {
+		stroke: var(--color-primary) !important;
+	}
+
+	.xl\:stroke\:primary-hover {
+		stroke: var(--color-primary-hover) !important;
+	}
+
+	.xl\:stroke\:primary-active {
+		stroke: var(--color-primary-active) !important;
+	}
+
+	.xl\:stroke\:primary-subtle {
+		stroke: var(--color-primary-subtle) !important;
+	}
+
+	.xl\:stroke\:on-primary {
+		stroke: var(--color-on-primary) !important;
+	}
+
+	.xl\:stroke\:secondary {
+		stroke: var(--color-secondary) !important;
+	}
+
+	.xl\:stroke\:secondary-hover {
+		stroke: var(--color-secondary-hover) !important;
+	}
+
+	.xl\:stroke\:secondary-active {
+		stroke: var(--color-secondary-active) !important;
+	}
+
+	.xl\:stroke\:secondary-subtle {
+		stroke: var(--color-secondary-subtle) !important;
+	}
+
+	.xl\:stroke\:on-secondary {
+		stroke: var(--color-on-secondary) !important;
+	}
+
+	.xl\:stroke\:tertiary {
+		stroke: var(--color-tertiary) !important;
+	}
+
+	.xl\:stroke\:tertiary-hover {
+		stroke: var(--color-tertiary-hover) !important;
+	}
+
+	.xl\:stroke\:tertiary-active {
+		stroke: var(--color-tertiary-active) !important;
+	}
+
+	.xl\:stroke\:tertiary-subtle {
+		stroke: var(--color-tertiary-subtle) !important;
+	}
+
+	.xl\:stroke\:on-tertiary {
+		stroke: var(--color-on-tertiary) !important;
+	}
+
+	.xl\:stroke\:surface {
+		stroke: var(--color-surface) !important;
+	}
+
+	.xl\:stroke\:surface-subtle {
+		stroke: var(--color-surface-subtle) !important;
+	}
+
+	.xl\:stroke\:surface-muted {
+		stroke: var(--color-surface-muted) !important;
+	}
+
+	.xl\:stroke\:surface-inverse {
+		stroke: var(--color-surface-inverse) !important;
+	}
+
+	.xl\:stroke\:on-surface {
+		stroke: var(--color-on-surface) !important;
+	}
+
+	.xl\:stroke\:on-surface-inverse {
+		stroke: var(--color-on-surface-inverse) !important;
+	}
+
+	.xl\:stroke\:text {
+		stroke: var(--color-text) !important;
+	}
+
+	.xl\:stroke\:text-muted {
+		stroke: var(--color-text-muted) !important;
+	}
+
+	.xl\:stroke\:text-subtle {
+		stroke: var(--color-text-subtle) !important;
+	}
+
+	.xl\:stroke\:text-inverse {
+		stroke: var(--color-text-inverse) !important;
+	}
+
+	.xl\:stroke\:border {
+		stroke: var(--color-border) !important;
+	}
+
+	.xl\:stroke\:border-strong {
+		stroke: var(--color-border-strong) !important;
+	}
+
+	.xl\:stroke\:border-subtle {
+		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:stroke\:success {
+		stroke: var(--color-success) !important;
+	}
+
+	.xl\:stroke\:success-hover {
+		stroke: var(--color-success-hover) !important;
+	}
+
+	.xl\:stroke\:success-active {
+		stroke: var(--color-success-active) !important;
+	}
+
+	.xl\:stroke\:success-subtle {
+		stroke: var(--color-success-subtle) !important;
+	}
+
+	.xl\:stroke\:on-success {
+		stroke: var(--color-on-success) !important;
+	}
+
+	.xl\:stroke\:warning {
+		stroke: var(--color-warning) !important;
+	}
+
+	.xl\:stroke\:warning-hover {
+		stroke: var(--color-warning-hover) !important;
+	}
+
+	.xl\:stroke\:warning-active {
+		stroke: var(--color-warning-active) !important;
+	}
+
+	.xl\:stroke\:warning-subtle {
+		stroke: var(--color-warning-subtle) !important;
+	}
+
+	.xl\:stroke\:on-warning {
+		stroke: var(--color-on-warning) !important;
+	}
+
+	.xl\:stroke\:danger {
+		stroke: var(--color-danger) !important;
+	}
+
+	.xl\:stroke\:danger-hover {
+		stroke: var(--color-danger-hover) !important;
+	}
+
+	.xl\:stroke\:danger-active {
+		stroke: var(--color-danger-active) !important;
+	}
+
+	.xl\:stroke\:danger-subtle {
+		stroke: var(--color-danger-subtle) !important;
+	}
+
+	.xl\:stroke\:on-danger {
+		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:stroke\:focus-ring {
+		stroke: var(--color-focus-ring) !important;
+	}
+
+	/* STROKE-WIDTH */
+
+	.xl\:stroke-width\:0,
+	.xl\:sw\:0 {
+		stroke-width: var(--border-width-0) !important;
+	}
+
+	.xl\:stroke-width\:1,
+	.xl\:sw\:1 {
+		stroke-width: var(--border-width-1) !important;
+	}
+
+	.xl\:stroke-width\:2,
+	.xl\:sw\:2 {
+		stroke-width: var(--border-width-2) !important;
+	}
+
+	.xl\:stroke-width\:3,
+	.xl\:sw\:3 {
+		stroke-width: var(--border-width-3) !important;
+	}
+
+	.xl\:stroke-width\:4,
+	.xl\:sw\:4 {
+		stroke-width: var(--border-width-4) !important;
+	}
+
+}
