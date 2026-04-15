@@ -71,7 +71,12 @@ export function rule({
 // Build selectors from a class-name pair (full + abbrev) and a value-key.
 // Pattern: `.{name}:{key}` and `.{abbrev}:{key}` both escaped.
 // e.g., names=['margin','m'], key='4' -> ['.margin\\:4', '.m\\:4']
+// When key is '' (empty), emits unary classes: names=['truncate'], key=''
+// -> ['.truncate'].
 export function classPair(names, key) {
+	if (key === "") {
+		return names.map((n) => `.${escapeClassName(n)}`);
+	}
 	return names.map((n) => `.${escapeClassName(`${n}:${key}`)}`);
 }
 
