@@ -303,3 +303,1240 @@
 .ttf\:in-out {
 	transition-timing-function: var(--ease-in-out) !important;
 }
+
+
+@media (min-width: 640px) {
+	/* ===== EFFECTS UTILITIES ===== */
+
+	/* OPACITY */
+
+	.sm\:opacity\:0,
+	.sm\:op\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+
+	.sm\:opacity\:10,
+	.sm\:op\:10 {
+		opacity: var(--opacity-10) !important;
+	}
+
+	.sm\:opacity\:20,
+	.sm\:op\:20 {
+		opacity: var(--opacity-20) !important;
+	}
+
+	.sm\:opacity\:25,
+	.sm\:op\:25 {
+		opacity: var(--opacity-25) !important;
+	}
+
+	.sm\:opacity\:30,
+	.sm\:op\:30 {
+		opacity: var(--opacity-30) !important;
+	}
+
+	.sm\:opacity\:40,
+	.sm\:op\:40 {
+		opacity: var(--opacity-40) !important;
+	}
+
+	.sm\:opacity\:50,
+	.sm\:op\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+
+	.sm\:opacity\:60,
+	.sm\:op\:60 {
+		opacity: var(--opacity-60) !important;
+	}
+
+	.sm\:opacity\:70,
+	.sm\:op\:70 {
+		opacity: var(--opacity-70) !important;
+	}
+
+	.sm\:opacity\:75,
+	.sm\:op\:75 {
+		opacity: var(--opacity-75) !important;
+	}
+
+	.sm\:opacity\:80,
+	.sm\:op\:80 {
+		opacity: var(--opacity-80) !important;
+	}
+
+	.sm\:opacity\:90,
+	.sm\:op\:90 {
+		opacity: var(--opacity-90) !important;
+	}
+
+	.sm\:opacity\:100,
+	.sm\:op\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	/* BOX-SHADOW */
+
+	.sm\:box-shadow\:sm,
+	.sm\:bsh\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+
+	.sm\:box-shadow\:md,
+	.sm\:bsh\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+
+	.sm\:box-shadow\:lg,
+	.sm\:bsh\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.sm\:box-shadow\:xl,
+	.sm\:bsh\:xl {
+		box-shadow: var(--shadow-xl) !important;
+	}
+
+	.sm\:box-shadow\:2xl,
+	.sm\:bsh\:2xl {
+		box-shadow: var(--shadow-2xl) !important;
+	}
+
+	.sm\:box-shadow\:none,
+	.sm\:bsh\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+
+	/* CURSOR */
+
+	.sm\:cursor\:auto,
+	.sm\:cur\:auto {
+		cursor: auto !important;
+	}
+
+	.sm\:cursor\:default,
+	.sm\:cur\:default {
+		cursor: default !important;
+	}
+
+	.sm\:cursor\:pointer,
+	.sm\:cur\:pointer {
+		cursor: pointer !important;
+	}
+
+	.sm\:cursor\:wait,
+	.sm\:cur\:wait {
+		cursor: wait !important;
+	}
+
+	.sm\:cursor\:text,
+	.sm\:cur\:text {
+		cursor: text !important;
+	}
+
+	.sm\:cursor\:move,
+	.sm\:cur\:move {
+		cursor: move !important;
+	}
+
+	.sm\:cursor\:help,
+	.sm\:cur\:help {
+		cursor: help !important;
+	}
+
+	.sm\:cursor\:not-allowed,
+	.sm\:cur\:not-allowed {
+		cursor: not-allowed !important;
+	}
+
+	.sm\:cursor\:none,
+	.sm\:cur\:none {
+		cursor: none !important;
+	}
+
+	.sm\:cursor\:grab,
+	.sm\:cur\:grab {
+		cursor: grab !important;
+	}
+
+	.sm\:cursor\:grabbing,
+	.sm\:cur\:grabbing {
+		cursor: grabbing !important;
+	}
+
+	.sm\:cursor\:crosshair,
+	.sm\:cur\:crosshair {
+		cursor: crosshair !important;
+	}
+
+	.sm\:cursor\:zoom-in,
+	.sm\:cur\:zoom-in {
+		cursor: zoom-in !important;
+	}
+
+	.sm\:cursor\:zoom-out,
+	.sm\:cur\:zoom-out {
+		cursor: zoom-out !important;
+	}
+
+	/* VISIBILITY */
+
+	.sm\:visibility\:visible,
+	.sm\:vis\:visible {
+		visibility: visible !important;
+	}
+
+	.sm\:visibility\:hidden,
+	.sm\:vis\:hidden {
+		visibility: hidden !important;
+	}
+
+	.sm\:visibility\:collapse,
+	.sm\:vis\:collapse {
+		visibility: collapse !important;
+	}
+
+	/* OVERFLOW */
+
+	.sm\:overflow\:auto,
+	.sm\:of\:auto {
+		overflow: auto !important;
+	}
+
+	.sm\:overflow\:hidden,
+	.sm\:of\:hidden {
+		overflow: hidden !important;
+	}
+
+	.sm\:overflow\:visible,
+	.sm\:of\:visible {
+		overflow: visible !important;
+	}
+
+	.sm\:overflow\:scroll,
+	.sm\:of\:scroll {
+		overflow: scroll !important;
+	}
+
+	.sm\:overflow\:clip,
+	.sm\:of\:clip {
+		overflow: clip !important;
+	}
+
+	.sm\:overflow-x\:auto,
+	.sm\:ofx\:auto {
+		overflow-x: auto !important;
+	}
+
+	.sm\:overflow-x\:hidden,
+	.sm\:ofx\:hidden {
+		overflow-x: hidden !important;
+	}
+
+	.sm\:overflow-x\:visible,
+	.sm\:ofx\:visible {
+		overflow-x: visible !important;
+	}
+
+	.sm\:overflow-x\:scroll,
+	.sm\:ofx\:scroll {
+		overflow-x: scroll !important;
+	}
+
+	.sm\:overflow-x\:clip,
+	.sm\:ofx\:clip {
+		overflow-x: clip !important;
+	}
+
+	.sm\:overflow-y\:auto,
+	.sm\:ofy\:auto {
+		overflow-y: auto !important;
+	}
+
+	.sm\:overflow-y\:hidden,
+	.sm\:ofy\:hidden {
+		overflow-y: hidden !important;
+	}
+
+	.sm\:overflow-y\:visible,
+	.sm\:ofy\:visible {
+		overflow-y: visible !important;
+	}
+
+	.sm\:overflow-y\:scroll,
+	.sm\:ofy\:scroll {
+		overflow-y: scroll !important;
+	}
+
+	.sm\:overflow-y\:clip,
+	.sm\:ofy\:clip {
+		overflow-y: clip !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:transition-duration\:fast,
+	.sm\:tdur\:fast {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:transition-duration\:normal,
+	.sm\:tdur\:normal {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:transition-duration\:slow,
+	.sm\:tdur\:slow {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:transition-timing-function\:linear,
+	.sm\:ttf\:linear {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:transition-timing-function\:in,
+	.sm\:ttf\:in {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:transition-timing-function\:out,
+	.sm\:ttf\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:transition-timing-function\:in-out,
+	.sm\:ttf\:in-out {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== EFFECTS UTILITIES ===== */
+
+	/* OPACITY */
+
+	.md\:opacity\:0,
+	.md\:op\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+
+	.md\:opacity\:10,
+	.md\:op\:10 {
+		opacity: var(--opacity-10) !important;
+	}
+
+	.md\:opacity\:20,
+	.md\:op\:20 {
+		opacity: var(--opacity-20) !important;
+	}
+
+	.md\:opacity\:25,
+	.md\:op\:25 {
+		opacity: var(--opacity-25) !important;
+	}
+
+	.md\:opacity\:30,
+	.md\:op\:30 {
+		opacity: var(--opacity-30) !important;
+	}
+
+	.md\:opacity\:40,
+	.md\:op\:40 {
+		opacity: var(--opacity-40) !important;
+	}
+
+	.md\:opacity\:50,
+	.md\:op\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+
+	.md\:opacity\:60,
+	.md\:op\:60 {
+		opacity: var(--opacity-60) !important;
+	}
+
+	.md\:opacity\:70,
+	.md\:op\:70 {
+		opacity: var(--opacity-70) !important;
+	}
+
+	.md\:opacity\:75,
+	.md\:op\:75 {
+		opacity: var(--opacity-75) !important;
+	}
+
+	.md\:opacity\:80,
+	.md\:op\:80 {
+		opacity: var(--opacity-80) !important;
+	}
+
+	.md\:opacity\:90,
+	.md\:op\:90 {
+		opacity: var(--opacity-90) !important;
+	}
+
+	.md\:opacity\:100,
+	.md\:op\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	/* BOX-SHADOW */
+
+	.md\:box-shadow\:sm,
+	.md\:bsh\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+
+	.md\:box-shadow\:md,
+	.md\:bsh\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+
+	.md\:box-shadow\:lg,
+	.md\:bsh\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.md\:box-shadow\:xl,
+	.md\:bsh\:xl {
+		box-shadow: var(--shadow-xl) !important;
+	}
+
+	.md\:box-shadow\:2xl,
+	.md\:bsh\:2xl {
+		box-shadow: var(--shadow-2xl) !important;
+	}
+
+	.md\:box-shadow\:none,
+	.md\:bsh\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+
+	/* CURSOR */
+
+	.md\:cursor\:auto,
+	.md\:cur\:auto {
+		cursor: auto !important;
+	}
+
+	.md\:cursor\:default,
+	.md\:cur\:default {
+		cursor: default !important;
+	}
+
+	.md\:cursor\:pointer,
+	.md\:cur\:pointer {
+		cursor: pointer !important;
+	}
+
+	.md\:cursor\:wait,
+	.md\:cur\:wait {
+		cursor: wait !important;
+	}
+
+	.md\:cursor\:text,
+	.md\:cur\:text {
+		cursor: text !important;
+	}
+
+	.md\:cursor\:move,
+	.md\:cur\:move {
+		cursor: move !important;
+	}
+
+	.md\:cursor\:help,
+	.md\:cur\:help {
+		cursor: help !important;
+	}
+
+	.md\:cursor\:not-allowed,
+	.md\:cur\:not-allowed {
+		cursor: not-allowed !important;
+	}
+
+	.md\:cursor\:none,
+	.md\:cur\:none {
+		cursor: none !important;
+	}
+
+	.md\:cursor\:grab,
+	.md\:cur\:grab {
+		cursor: grab !important;
+	}
+
+	.md\:cursor\:grabbing,
+	.md\:cur\:grabbing {
+		cursor: grabbing !important;
+	}
+
+	.md\:cursor\:crosshair,
+	.md\:cur\:crosshair {
+		cursor: crosshair !important;
+	}
+
+	.md\:cursor\:zoom-in,
+	.md\:cur\:zoom-in {
+		cursor: zoom-in !important;
+	}
+
+	.md\:cursor\:zoom-out,
+	.md\:cur\:zoom-out {
+		cursor: zoom-out !important;
+	}
+
+	/* VISIBILITY */
+
+	.md\:visibility\:visible,
+	.md\:vis\:visible {
+		visibility: visible !important;
+	}
+
+	.md\:visibility\:hidden,
+	.md\:vis\:hidden {
+		visibility: hidden !important;
+	}
+
+	.md\:visibility\:collapse,
+	.md\:vis\:collapse {
+		visibility: collapse !important;
+	}
+
+	/* OVERFLOW */
+
+	.md\:overflow\:auto,
+	.md\:of\:auto {
+		overflow: auto !important;
+	}
+
+	.md\:overflow\:hidden,
+	.md\:of\:hidden {
+		overflow: hidden !important;
+	}
+
+	.md\:overflow\:visible,
+	.md\:of\:visible {
+		overflow: visible !important;
+	}
+
+	.md\:overflow\:scroll,
+	.md\:of\:scroll {
+		overflow: scroll !important;
+	}
+
+	.md\:overflow\:clip,
+	.md\:of\:clip {
+		overflow: clip !important;
+	}
+
+	.md\:overflow-x\:auto,
+	.md\:ofx\:auto {
+		overflow-x: auto !important;
+	}
+
+	.md\:overflow-x\:hidden,
+	.md\:ofx\:hidden {
+		overflow-x: hidden !important;
+	}
+
+	.md\:overflow-x\:visible,
+	.md\:ofx\:visible {
+		overflow-x: visible !important;
+	}
+
+	.md\:overflow-x\:scroll,
+	.md\:ofx\:scroll {
+		overflow-x: scroll !important;
+	}
+
+	.md\:overflow-x\:clip,
+	.md\:ofx\:clip {
+		overflow-x: clip !important;
+	}
+
+	.md\:overflow-y\:auto,
+	.md\:ofy\:auto {
+		overflow-y: auto !important;
+	}
+
+	.md\:overflow-y\:hidden,
+	.md\:ofy\:hidden {
+		overflow-y: hidden !important;
+	}
+
+	.md\:overflow-y\:visible,
+	.md\:ofy\:visible {
+		overflow-y: visible !important;
+	}
+
+	.md\:overflow-y\:scroll,
+	.md\:ofy\:scroll {
+		overflow-y: scroll !important;
+	}
+
+	.md\:overflow-y\:clip,
+	.md\:ofy\:clip {
+		overflow-y: clip !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:transition-duration\:fast,
+	.md\:tdur\:fast {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:transition-duration\:normal,
+	.md\:tdur\:normal {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:transition-duration\:slow,
+	.md\:tdur\:slow {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:transition-timing-function\:linear,
+	.md\:ttf\:linear {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:transition-timing-function\:in,
+	.md\:ttf\:in {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:transition-timing-function\:out,
+	.md\:ttf\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:transition-timing-function\:in-out,
+	.md\:ttf\:in-out {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== EFFECTS UTILITIES ===== */
+
+	/* OPACITY */
+
+	.lg\:opacity\:0,
+	.lg\:op\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+
+	.lg\:opacity\:10,
+	.lg\:op\:10 {
+		opacity: var(--opacity-10) !important;
+	}
+
+	.lg\:opacity\:20,
+	.lg\:op\:20 {
+		opacity: var(--opacity-20) !important;
+	}
+
+	.lg\:opacity\:25,
+	.lg\:op\:25 {
+		opacity: var(--opacity-25) !important;
+	}
+
+	.lg\:opacity\:30,
+	.lg\:op\:30 {
+		opacity: var(--opacity-30) !important;
+	}
+
+	.lg\:opacity\:40,
+	.lg\:op\:40 {
+		opacity: var(--opacity-40) !important;
+	}
+
+	.lg\:opacity\:50,
+	.lg\:op\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+
+	.lg\:opacity\:60,
+	.lg\:op\:60 {
+		opacity: var(--opacity-60) !important;
+	}
+
+	.lg\:opacity\:70,
+	.lg\:op\:70 {
+		opacity: var(--opacity-70) !important;
+	}
+
+	.lg\:opacity\:75,
+	.lg\:op\:75 {
+		opacity: var(--opacity-75) !important;
+	}
+
+	.lg\:opacity\:80,
+	.lg\:op\:80 {
+		opacity: var(--opacity-80) !important;
+	}
+
+	.lg\:opacity\:90,
+	.lg\:op\:90 {
+		opacity: var(--opacity-90) !important;
+	}
+
+	.lg\:opacity\:100,
+	.lg\:op\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	/* BOX-SHADOW */
+
+	.lg\:box-shadow\:sm,
+	.lg\:bsh\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+
+	.lg\:box-shadow\:md,
+	.lg\:bsh\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+
+	.lg\:box-shadow\:lg,
+	.lg\:bsh\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.lg\:box-shadow\:xl,
+	.lg\:bsh\:xl {
+		box-shadow: var(--shadow-xl) !important;
+	}
+
+	.lg\:box-shadow\:2xl,
+	.lg\:bsh\:2xl {
+		box-shadow: var(--shadow-2xl) !important;
+	}
+
+	.lg\:box-shadow\:none,
+	.lg\:bsh\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+
+	/* CURSOR */
+
+	.lg\:cursor\:auto,
+	.lg\:cur\:auto {
+		cursor: auto !important;
+	}
+
+	.lg\:cursor\:default,
+	.lg\:cur\:default {
+		cursor: default !important;
+	}
+
+	.lg\:cursor\:pointer,
+	.lg\:cur\:pointer {
+		cursor: pointer !important;
+	}
+
+	.lg\:cursor\:wait,
+	.lg\:cur\:wait {
+		cursor: wait !important;
+	}
+
+	.lg\:cursor\:text,
+	.lg\:cur\:text {
+		cursor: text !important;
+	}
+
+	.lg\:cursor\:move,
+	.lg\:cur\:move {
+		cursor: move !important;
+	}
+
+	.lg\:cursor\:help,
+	.lg\:cur\:help {
+		cursor: help !important;
+	}
+
+	.lg\:cursor\:not-allowed,
+	.lg\:cur\:not-allowed {
+		cursor: not-allowed !important;
+	}
+
+	.lg\:cursor\:none,
+	.lg\:cur\:none {
+		cursor: none !important;
+	}
+
+	.lg\:cursor\:grab,
+	.lg\:cur\:grab {
+		cursor: grab !important;
+	}
+
+	.lg\:cursor\:grabbing,
+	.lg\:cur\:grabbing {
+		cursor: grabbing !important;
+	}
+
+	.lg\:cursor\:crosshair,
+	.lg\:cur\:crosshair {
+		cursor: crosshair !important;
+	}
+
+	.lg\:cursor\:zoom-in,
+	.lg\:cur\:zoom-in {
+		cursor: zoom-in !important;
+	}
+
+	.lg\:cursor\:zoom-out,
+	.lg\:cur\:zoom-out {
+		cursor: zoom-out !important;
+	}
+
+	/* VISIBILITY */
+
+	.lg\:visibility\:visible,
+	.lg\:vis\:visible {
+		visibility: visible !important;
+	}
+
+	.lg\:visibility\:hidden,
+	.lg\:vis\:hidden {
+		visibility: hidden !important;
+	}
+
+	.lg\:visibility\:collapse,
+	.lg\:vis\:collapse {
+		visibility: collapse !important;
+	}
+
+	/* OVERFLOW */
+
+	.lg\:overflow\:auto,
+	.lg\:of\:auto {
+		overflow: auto !important;
+	}
+
+	.lg\:overflow\:hidden,
+	.lg\:of\:hidden {
+		overflow: hidden !important;
+	}
+
+	.lg\:overflow\:visible,
+	.lg\:of\:visible {
+		overflow: visible !important;
+	}
+
+	.lg\:overflow\:scroll,
+	.lg\:of\:scroll {
+		overflow: scroll !important;
+	}
+
+	.lg\:overflow\:clip,
+	.lg\:of\:clip {
+		overflow: clip !important;
+	}
+
+	.lg\:overflow-x\:auto,
+	.lg\:ofx\:auto {
+		overflow-x: auto !important;
+	}
+
+	.lg\:overflow-x\:hidden,
+	.lg\:ofx\:hidden {
+		overflow-x: hidden !important;
+	}
+
+	.lg\:overflow-x\:visible,
+	.lg\:ofx\:visible {
+		overflow-x: visible !important;
+	}
+
+	.lg\:overflow-x\:scroll,
+	.lg\:ofx\:scroll {
+		overflow-x: scroll !important;
+	}
+
+	.lg\:overflow-x\:clip,
+	.lg\:ofx\:clip {
+		overflow-x: clip !important;
+	}
+
+	.lg\:overflow-y\:auto,
+	.lg\:ofy\:auto {
+		overflow-y: auto !important;
+	}
+
+	.lg\:overflow-y\:hidden,
+	.lg\:ofy\:hidden {
+		overflow-y: hidden !important;
+	}
+
+	.lg\:overflow-y\:visible,
+	.lg\:ofy\:visible {
+		overflow-y: visible !important;
+	}
+
+	.lg\:overflow-y\:scroll,
+	.lg\:ofy\:scroll {
+		overflow-y: scroll !important;
+	}
+
+	.lg\:overflow-y\:clip,
+	.lg\:ofy\:clip {
+		overflow-y: clip !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:transition-duration\:fast,
+	.lg\:tdur\:fast {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:transition-duration\:normal,
+	.lg\:tdur\:normal {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:transition-duration\:slow,
+	.lg\:tdur\:slow {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:transition-timing-function\:linear,
+	.lg\:ttf\:linear {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:transition-timing-function\:in,
+	.lg\:ttf\:in {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:transition-timing-function\:out,
+	.lg\:ttf\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:transition-timing-function\:in-out,
+	.lg\:ttf\:in-out {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== EFFECTS UTILITIES ===== */
+
+	/* OPACITY */
+
+	.xl\:opacity\:0,
+	.xl\:op\:0 {
+		opacity: var(--opacity-0) !important;
+	}
+
+	.xl\:opacity\:10,
+	.xl\:op\:10 {
+		opacity: var(--opacity-10) !important;
+	}
+
+	.xl\:opacity\:20,
+	.xl\:op\:20 {
+		opacity: var(--opacity-20) !important;
+	}
+
+	.xl\:opacity\:25,
+	.xl\:op\:25 {
+		opacity: var(--opacity-25) !important;
+	}
+
+	.xl\:opacity\:30,
+	.xl\:op\:30 {
+		opacity: var(--opacity-30) !important;
+	}
+
+	.xl\:opacity\:40,
+	.xl\:op\:40 {
+		opacity: var(--opacity-40) !important;
+	}
+
+	.xl\:opacity\:50,
+	.xl\:op\:50 {
+		opacity: var(--opacity-50) !important;
+	}
+
+	.xl\:opacity\:60,
+	.xl\:op\:60 {
+		opacity: var(--opacity-60) !important;
+	}
+
+	.xl\:opacity\:70,
+	.xl\:op\:70 {
+		opacity: var(--opacity-70) !important;
+	}
+
+	.xl\:opacity\:75,
+	.xl\:op\:75 {
+		opacity: var(--opacity-75) !important;
+	}
+
+	.xl\:opacity\:80,
+	.xl\:op\:80 {
+		opacity: var(--opacity-80) !important;
+	}
+
+	.xl\:opacity\:90,
+	.xl\:op\:90 {
+		opacity: var(--opacity-90) !important;
+	}
+
+	.xl\:opacity\:100,
+	.xl\:op\:100 {
+		opacity: var(--opacity-100) !important;
+	}
+
+	/* BOX-SHADOW */
+
+	.xl\:box-shadow\:sm,
+	.xl\:bsh\:sm {
+		box-shadow: var(--shadow-sm) !important;
+	}
+
+	.xl\:box-shadow\:md,
+	.xl\:bsh\:md {
+		box-shadow: var(--shadow-md) !important;
+	}
+
+	.xl\:box-shadow\:lg,
+	.xl\:bsh\:lg {
+		box-shadow: var(--shadow-lg) !important;
+	}
+
+	.xl\:box-shadow\:xl,
+	.xl\:bsh\:xl {
+		box-shadow: var(--shadow-xl) !important;
+	}
+
+	.xl\:box-shadow\:2xl,
+	.xl\:bsh\:2xl {
+		box-shadow: var(--shadow-2xl) !important;
+	}
+
+	.xl\:box-shadow\:none,
+	.xl\:bsh\:none {
+		box-shadow: var(--shadow-none) !important;
+	}
+
+	/* CURSOR */
+
+	.xl\:cursor\:auto,
+	.xl\:cur\:auto {
+		cursor: auto !important;
+	}
+
+	.xl\:cursor\:default,
+	.xl\:cur\:default {
+		cursor: default !important;
+	}
+
+	.xl\:cursor\:pointer,
+	.xl\:cur\:pointer {
+		cursor: pointer !important;
+	}
+
+	.xl\:cursor\:wait,
+	.xl\:cur\:wait {
+		cursor: wait !important;
+	}
+
+	.xl\:cursor\:text,
+	.xl\:cur\:text {
+		cursor: text !important;
+	}
+
+	.xl\:cursor\:move,
+	.xl\:cur\:move {
+		cursor: move !important;
+	}
+
+	.xl\:cursor\:help,
+	.xl\:cur\:help {
+		cursor: help !important;
+	}
+
+	.xl\:cursor\:not-allowed,
+	.xl\:cur\:not-allowed {
+		cursor: not-allowed !important;
+	}
+
+	.xl\:cursor\:none,
+	.xl\:cur\:none {
+		cursor: none !important;
+	}
+
+	.xl\:cursor\:grab,
+	.xl\:cur\:grab {
+		cursor: grab !important;
+	}
+
+	.xl\:cursor\:grabbing,
+	.xl\:cur\:grabbing {
+		cursor: grabbing !important;
+	}
+
+	.xl\:cursor\:crosshair,
+	.xl\:cur\:crosshair {
+		cursor: crosshair !important;
+	}
+
+	.xl\:cursor\:zoom-in,
+	.xl\:cur\:zoom-in {
+		cursor: zoom-in !important;
+	}
+
+	.xl\:cursor\:zoom-out,
+	.xl\:cur\:zoom-out {
+		cursor: zoom-out !important;
+	}
+
+	/* VISIBILITY */
+
+	.xl\:visibility\:visible,
+	.xl\:vis\:visible {
+		visibility: visible !important;
+	}
+
+	.xl\:visibility\:hidden,
+	.xl\:vis\:hidden {
+		visibility: hidden !important;
+	}
+
+	.xl\:visibility\:collapse,
+	.xl\:vis\:collapse {
+		visibility: collapse !important;
+	}
+
+	/* OVERFLOW */
+
+	.xl\:overflow\:auto,
+	.xl\:of\:auto {
+		overflow: auto !important;
+	}
+
+	.xl\:overflow\:hidden,
+	.xl\:of\:hidden {
+		overflow: hidden !important;
+	}
+
+	.xl\:overflow\:visible,
+	.xl\:of\:visible {
+		overflow: visible !important;
+	}
+
+	.xl\:overflow\:scroll,
+	.xl\:of\:scroll {
+		overflow: scroll !important;
+	}
+
+	.xl\:overflow\:clip,
+	.xl\:of\:clip {
+		overflow: clip !important;
+	}
+
+	.xl\:overflow-x\:auto,
+	.xl\:ofx\:auto {
+		overflow-x: auto !important;
+	}
+
+	.xl\:overflow-x\:hidden,
+	.xl\:ofx\:hidden {
+		overflow-x: hidden !important;
+	}
+
+	.xl\:overflow-x\:visible,
+	.xl\:ofx\:visible {
+		overflow-x: visible !important;
+	}
+
+	.xl\:overflow-x\:scroll,
+	.xl\:ofx\:scroll {
+		overflow-x: scroll !important;
+	}
+
+	.xl\:overflow-x\:clip,
+	.xl\:ofx\:clip {
+		overflow-x: clip !important;
+	}
+
+	.xl\:overflow-y\:auto,
+	.xl\:ofy\:auto {
+		overflow-y: auto !important;
+	}
+
+	.xl\:overflow-y\:hidden,
+	.xl\:ofy\:hidden {
+		overflow-y: hidden !important;
+	}
+
+	.xl\:overflow-y\:visible,
+	.xl\:ofy\:visible {
+		overflow-y: visible !important;
+	}
+
+	.xl\:overflow-y\:scroll,
+	.xl\:ofy\:scroll {
+		overflow-y: scroll !important;
+	}
+
+	.xl\:overflow-y\:clip,
+	.xl\:ofy\:clip {
+		overflow-y: clip !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:transition-duration\:fast,
+	.xl\:tdur\:fast {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:transition-duration\:normal,
+	.xl\:tdur\:normal {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:transition-duration\:slow,
+	.xl\:tdur\:slow {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:transition-timing-function\:linear,
+	.xl\:ttf\:linear {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:transition-timing-function\:in,
+	.xl\:ttf\:in {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:transition-timing-function\:out,
+	.xl\:ttf\:out {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:transition-timing-function\:in-out,
+	.xl\:ttf\:in-out {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+}

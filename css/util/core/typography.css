@@ -296,3 +296,1212 @@
 .ow\:anywhere {
 	overflow-wrap: anywhere !important;
 }
+
+
+@media (min-width: 640px) {
+	/* ===== TYPOGRAPHY UTILITIES ===== */
+
+	/* FONT-SIZE */
+
+	.sm\:font-size\:caption,
+	.sm\:fs\:caption {
+		font-size: var(--font-size-caption) !important;
+	}
+
+	.sm\:font-size\:body-sm,
+	.sm\:fs\:body-sm {
+		font-size: var(--font-size-body-sm) !important;
+	}
+
+	.sm\:font-size\:body,
+	.sm\:fs\:body {
+		font-size: var(--font-size-body) !important;
+	}
+
+	.sm\:font-size\:body-lg,
+	.sm\:fs\:body-lg {
+		font-size: var(--font-size-body-lg) !important;
+	}
+
+	.sm\:font-size\:heading-sm,
+	.sm\:fs\:heading-sm {
+		font-size: var(--font-size-heading-sm) !important;
+	}
+
+	.sm\:font-size\:heading-md,
+	.sm\:fs\:heading-md {
+		font-size: var(--font-size-heading-md) !important;
+	}
+
+	.sm\:font-size\:heading-lg,
+	.sm\:fs\:heading-lg {
+		font-size: var(--font-size-heading-lg) !important;
+	}
+
+	.sm\:font-size\:display,
+	.sm\:fs\:display {
+		font-size: var(--font-size-display) !important;
+	}
+
+	.sm\:font-size\:xs,
+	.sm\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+
+	.sm\:font-size\:sm,
+	.sm\:fs\:sm {
+		font-size: var(--font-size-sm) !important;
+	}
+
+	.sm\:font-size\:md,
+	.sm\:fs\:md {
+		font-size: var(--font-size-md) !important;
+	}
+
+	.sm\:font-size\:lg,
+	.sm\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.sm\:font-size\:xl,
+	.sm\:fs\:xl {
+		font-size: var(--font-size-xl) !important;
+	}
+
+	.sm\:font-size\:2xl,
+	.sm\:fs\:2xl {
+		font-size: var(--font-size-2xl) !important;
+	}
+
+	.sm\:font-size\:3xl,
+	.sm\:fs\:3xl {
+		font-size: var(--font-size-3xl) !important;
+	}
+
+	.sm\:font-size\:4xl,
+	.sm\:fs\:4xl {
+		font-size: var(--font-size-4xl) !important;
+	}
+
+	/* FONT-WEIGHT */
+
+	.sm\:font-weight\:regular,
+	.sm\:fw\:regular {
+		font-weight: var(--font-weight-regular) !important;
+	}
+
+	.sm\:font-weight\:medium,
+	.sm\:fw\:medium {
+		font-weight: var(--font-weight-medium) !important;
+	}
+
+	.sm\:font-weight\:semibold,
+	.sm\:fw\:semibold {
+		font-weight: var(--font-weight-semibold) !important;
+	}
+
+	.sm\:font-weight\:bold,
+	.sm\:fw\:bold {
+		font-weight: var(--font-weight-bold) !important;
+	}
+
+	/* LINE-HEIGHT */
+
+	.sm\:line-height\:tight,
+	.sm\:lh\:tight {
+		line-height: var(--line-height-tight) !important;
+	}
+
+	.sm\:line-height\:normal,
+	.sm\:lh\:normal {
+		line-height: var(--line-height-normal) !important;
+	}
+
+	.sm\:line-height\:loose,
+	.sm\:lh\:loose {
+		line-height: var(--line-height-loose) !important;
+	}
+
+	/* LETTER-SPACING */
+
+	.sm\:letter-spacing\:tight,
+	.sm\:ls\:tight {
+		letter-spacing: var(--letter-spacing-tight) !important;
+	}
+
+	.sm\:letter-spacing\:normal,
+	.sm\:ls\:normal {
+		letter-spacing: var(--letter-spacing-normal) !important;
+	}
+
+	.sm\:letter-spacing\:wide,
+	.sm\:ls\:wide {
+		letter-spacing: var(--letter-spacing-wide) !important;
+	}
+
+	/* TEXT-ALIGN */
+
+	.sm\:text-align\:left,
+	.sm\:ta\:left {
+		text-align: left !important;
+	}
+
+	.sm\:text-align\:right,
+	.sm\:ta\:right {
+		text-align: right !important;
+	}
+
+	.sm\:text-align\:center,
+	.sm\:ta\:center {
+		text-align: center !important;
+	}
+
+	.sm\:text-align\:justify,
+	.sm\:ta\:justify {
+		text-align: justify !important;
+	}
+
+	.sm\:text-align\:start,
+	.sm\:ta\:start {
+		text-align: start !important;
+	}
+
+	.sm\:text-align\:end,
+	.sm\:ta\:end {
+		text-align: end !important;
+	}
+
+	/* TEXT-DECORATION */
+
+	.sm\:text-decoration\:none,
+	.sm\:td\:none {
+		text-decoration: none !important;
+	}
+
+	.sm\:text-decoration\:underline,
+	.sm\:td\:underline {
+		text-decoration: underline !important;
+	}
+
+	.sm\:text-decoration\:overline,
+	.sm\:td\:overline {
+		text-decoration: overline !important;
+	}
+
+	.sm\:text-decoration\:line-through,
+	.sm\:td\:line-through {
+		text-decoration: line-through !important;
+	}
+
+	/* TEXT-TRANSFORM */
+
+	.sm\:text-transform\:none,
+	.sm\:tt\:none {
+		text-transform: none !important;
+	}
+
+	.sm\:text-transform\:uppercase,
+	.sm\:tt\:uppercase {
+		text-transform: uppercase !important;
+	}
+
+	.sm\:text-transform\:lowercase,
+	.sm\:tt\:lowercase {
+		text-transform: lowercase !important;
+	}
+
+	.sm\:text-transform\:capitalize,
+	.sm\:tt\:capitalize {
+		text-transform: capitalize !important;
+	}
+
+	/* FONT-STYLE */
+
+	.sm\:font-style\:normal,
+	.sm\:fst\:normal {
+		font-style: normal !important;
+	}
+
+	.sm\:font-style\:italic,
+	.sm\:fst\:italic {
+		font-style: italic !important;
+	}
+
+	.sm\:font-style\:oblique,
+	.sm\:fst\:oblique {
+		font-style: oblique !important;
+	}
+
+	/* WHITE-SPACE */
+
+	.sm\:white-space\:normal,
+	.sm\:ws\:normal {
+		white-space: normal !important;
+	}
+
+	.sm\:white-space\:nowrap,
+	.sm\:ws\:nowrap {
+		white-space: nowrap !important;
+	}
+
+	.sm\:white-space\:pre,
+	.sm\:ws\:pre {
+		white-space: pre !important;
+	}
+
+	.sm\:white-space\:pre-line,
+	.sm\:ws\:pre-line {
+		white-space: pre-line !important;
+	}
+
+	.sm\:white-space\:pre-wrap,
+	.sm\:ws\:pre-wrap {
+		white-space: pre-wrap !important;
+	}
+
+	.sm\:white-space\:break-spaces,
+	.sm\:ws\:break-spaces {
+		white-space: break-spaces !important;
+	}
+
+	/* WORD-BREAK */
+
+	.sm\:word-break\:normal,
+	.sm\:wb\:normal {
+		word-break: normal !important;
+	}
+
+	.sm\:word-break\:break-all,
+	.sm\:wb\:break-all {
+		word-break: break-all !important;
+	}
+
+	.sm\:word-break\:keep-all,
+	.sm\:wb\:keep-all {
+		word-break: keep-all !important;
+	}
+
+	/* OVERFLOW-WRAP */
+
+	.sm\:overflow-wrap\:normal,
+	.sm\:ow\:normal {
+		overflow-wrap: normal !important;
+	}
+
+	.sm\:overflow-wrap\:break-word,
+	.sm\:ow\:break-word {
+		overflow-wrap: break-word !important;
+	}
+
+	.sm\:overflow-wrap\:anywhere,
+	.sm\:ow\:anywhere {
+		overflow-wrap: anywhere !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/* ===== TYPOGRAPHY UTILITIES ===== */
+
+	/* FONT-SIZE */
+
+	.md\:font-size\:caption,
+	.md\:fs\:caption {
+		font-size: var(--font-size-caption) !important;
+	}
+
+	.md\:font-size\:body-sm,
+	.md\:fs\:body-sm {
+		font-size: var(--font-size-body-sm) !important;
+	}
+
+	.md\:font-size\:body,
+	.md\:fs\:body {
+		font-size: var(--font-size-body) !important;
+	}
+
+	.md\:font-size\:body-lg,
+	.md\:fs\:body-lg {
+		font-size: var(--font-size-body-lg) !important;
+	}
+
+	.md\:font-size\:heading-sm,
+	.md\:fs\:heading-sm {
+		font-size: var(--font-size-heading-sm) !important;
+	}
+
+	.md\:font-size\:heading-md,
+	.md\:fs\:heading-md {
+		font-size: var(--font-size-heading-md) !important;
+	}
+
+	.md\:font-size\:heading-lg,
+	.md\:fs\:heading-lg {
+		font-size: var(--font-size-heading-lg) !important;
+	}
+
+	.md\:font-size\:display,
+	.md\:fs\:display {
+		font-size: var(--font-size-display) !important;
+	}
+
+	.md\:font-size\:xs,
+	.md\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+
+	.md\:font-size\:sm,
+	.md\:fs\:sm {
+		font-size: var(--font-size-sm) !important;
+	}
+
+	.md\:font-size\:md,
+	.md\:fs\:md {
+		font-size: var(--font-size-md) !important;
+	}
+
+	.md\:font-size\:lg,
+	.md\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.md\:font-size\:xl,
+	.md\:fs\:xl {
+		font-size: var(--font-size-xl) !important;
+	}
+
+	.md\:font-size\:2xl,
+	.md\:fs\:2xl {
+		font-size: var(--font-size-2xl) !important;
+	}
+
+	.md\:font-size\:3xl,
+	.md\:fs\:3xl {
+		font-size: var(--font-size-3xl) !important;
+	}
+
+	.md\:font-size\:4xl,
+	.md\:fs\:4xl {
+		font-size: var(--font-size-4xl) !important;
+	}
+
+	/* FONT-WEIGHT */
+
+	.md\:font-weight\:regular,
+	.md\:fw\:regular {
+		font-weight: var(--font-weight-regular) !important;
+	}
+
+	.md\:font-weight\:medium,
+	.md\:fw\:medium {
+		font-weight: var(--font-weight-medium) !important;
+	}
+
+	.md\:font-weight\:semibold,
+	.md\:fw\:semibold {
+		font-weight: var(--font-weight-semibold) !important;
+	}
+
+	.md\:font-weight\:bold,
+	.md\:fw\:bold {
+		font-weight: var(--font-weight-bold) !important;
+	}
+
+	/* LINE-HEIGHT */
+
+	.md\:line-height\:tight,
+	.md\:lh\:tight {
+		line-height: var(--line-height-tight) !important;
+	}
+
+	.md\:line-height\:normal,
+	.md\:lh\:normal {
+		line-height: var(--line-height-normal) !important;
+	}
+
+	.md\:line-height\:loose,
+	.md\:lh\:loose {
+		line-height: var(--line-height-loose) !important;
+	}
+
+	/* LETTER-SPACING */
+
+	.md\:letter-spacing\:tight,
+	.md\:ls\:tight {
+		letter-spacing: var(--letter-spacing-tight) !important;
+	}
+
+	.md\:letter-spacing\:normal,
+	.md\:ls\:normal {
+		letter-spacing: var(--letter-spacing-normal) !important;
+	}
+
+	.md\:letter-spacing\:wide,
+	.md\:ls\:wide {
+		letter-spacing: var(--letter-spacing-wide) !important;
+	}
+
+	/* TEXT-ALIGN */
+
+	.md\:text-align\:left,
+	.md\:ta\:left {
+		text-align: left !important;
+	}
+
+	.md\:text-align\:right,
+	.md\:ta\:right {
+		text-align: right !important;
+	}
+
+	.md\:text-align\:center,
+	.md\:ta\:center {
+		text-align: center !important;
+	}
+
+	.md\:text-align\:justify,
+	.md\:ta\:justify {
+		text-align: justify !important;
+	}
+
+	.md\:text-align\:start,
+	.md\:ta\:start {
+		text-align: start !important;
+	}
+
+	.md\:text-align\:end,
+	.md\:ta\:end {
+		text-align: end !important;
+	}
+
+	/* TEXT-DECORATION */
+
+	.md\:text-decoration\:none,
+	.md\:td\:none {
+		text-decoration: none !important;
+	}
+
+	.md\:text-decoration\:underline,
+	.md\:td\:underline {
+		text-decoration: underline !important;
+	}
+
+	.md\:text-decoration\:overline,
+	.md\:td\:overline {
+		text-decoration: overline !important;
+	}
+
+	.md\:text-decoration\:line-through,
+	.md\:td\:line-through {
+		text-decoration: line-through !important;
+	}
+
+	/* TEXT-TRANSFORM */
+
+	.md\:text-transform\:none,
+	.md\:tt\:none {
+		text-transform: none !important;
+	}
+
+	.md\:text-transform\:uppercase,
+	.md\:tt\:uppercase {
+		text-transform: uppercase !important;
+	}
+
+	.md\:text-transform\:lowercase,
+	.md\:tt\:lowercase {
+		text-transform: lowercase !important;
+	}
+
+	.md\:text-transform\:capitalize,
+	.md\:tt\:capitalize {
+		text-transform: capitalize !important;
+	}
+
+	/* FONT-STYLE */
+
+	.md\:font-style\:normal,
+	.md\:fst\:normal {
+		font-style: normal !important;
+	}
+
+	.md\:font-style\:italic,
+	.md\:fst\:italic {
+		font-style: italic !important;
+	}
+
+	.md\:font-style\:oblique,
+	.md\:fst\:oblique {
+		font-style: oblique !important;
+	}
+
+	/* WHITE-SPACE */
+
+	.md\:white-space\:normal,
+	.md\:ws\:normal {
+		white-space: normal !important;
+	}
+
+	.md\:white-space\:nowrap,
+	.md\:ws\:nowrap {
+		white-space: nowrap !important;
+	}
+
+	.md\:white-space\:pre,
+	.md\:ws\:pre {
+		white-space: pre !important;
+	}
+
+	.md\:white-space\:pre-line,
+	.md\:ws\:pre-line {
+		white-space: pre-line !important;
+	}
+
+	.md\:white-space\:pre-wrap,
+	.md\:ws\:pre-wrap {
+		white-space: pre-wrap !important;
+	}
+
+	.md\:white-space\:break-spaces,
+	.md\:ws\:break-spaces {
+		white-space: break-spaces !important;
+	}
+
+	/* WORD-BREAK */
+
+	.md\:word-break\:normal,
+	.md\:wb\:normal {
+		word-break: normal !important;
+	}
+
+	.md\:word-break\:break-all,
+	.md\:wb\:break-all {
+		word-break: break-all !important;
+	}
+
+	.md\:word-break\:keep-all,
+	.md\:wb\:keep-all {
+		word-break: keep-all !important;
+	}
+
+	/* OVERFLOW-WRAP */
+
+	.md\:overflow-wrap\:normal,
+	.md\:ow\:normal {
+		overflow-wrap: normal !important;
+	}
+
+	.md\:overflow-wrap\:break-word,
+	.md\:ow\:break-word {
+		overflow-wrap: break-word !important;
+	}
+
+	.md\:overflow-wrap\:anywhere,
+	.md\:ow\:anywhere {
+		overflow-wrap: anywhere !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	/* ===== TYPOGRAPHY UTILITIES ===== */
+
+	/* FONT-SIZE */
+
+	.lg\:font-size\:caption,
+	.lg\:fs\:caption {
+		font-size: var(--font-size-caption) !important;
+	}
+
+	.lg\:font-size\:body-sm,
+	.lg\:fs\:body-sm {
+		font-size: var(--font-size-body-sm) !important;
+	}
+
+	.lg\:font-size\:body,
+	.lg\:fs\:body {
+		font-size: var(--font-size-body) !important;
+	}
+
+	.lg\:font-size\:body-lg,
+	.lg\:fs\:body-lg {
+		font-size: var(--font-size-body-lg) !important;
+	}
+
+	.lg\:font-size\:heading-sm,
+	.lg\:fs\:heading-sm {
+		font-size: var(--font-size-heading-sm) !important;
+	}
+
+	.lg\:font-size\:heading-md,
+	.lg\:fs\:heading-md {
+		font-size: var(--font-size-heading-md) !important;
+	}
+
+	.lg\:font-size\:heading-lg,
+	.lg\:fs\:heading-lg {
+		font-size: var(--font-size-heading-lg) !important;
+	}
+
+	.lg\:font-size\:display,
+	.lg\:fs\:display {
+		font-size: var(--font-size-display) !important;
+	}
+
+	.lg\:font-size\:xs,
+	.lg\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+
+	.lg\:font-size\:sm,
+	.lg\:fs\:sm {
+		font-size: var(--font-size-sm) !important;
+	}
+
+	.lg\:font-size\:md,
+	.lg\:fs\:md {
+		font-size: var(--font-size-md) !important;
+	}
+
+	.lg\:font-size\:lg,
+	.lg\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.lg\:font-size\:xl,
+	.lg\:fs\:xl {
+		font-size: var(--font-size-xl) !important;
+	}
+
+	.lg\:font-size\:2xl,
+	.lg\:fs\:2xl {
+		font-size: var(--font-size-2xl) !important;
+	}
+
+	.lg\:font-size\:3xl,
+	.lg\:fs\:3xl {
+		font-size: var(--font-size-3xl) !important;
+	}
+
+	.lg\:font-size\:4xl,
+	.lg\:fs\:4xl {
+		font-size: var(--font-size-4xl) !important;
+	}
+
+	/* FONT-WEIGHT */
+
+	.lg\:font-weight\:regular,
+	.lg\:fw\:regular {
+		font-weight: var(--font-weight-regular) !important;
+	}
+
+	.lg\:font-weight\:medium,
+	.lg\:fw\:medium {
+		font-weight: var(--font-weight-medium) !important;
+	}
+
+	.lg\:font-weight\:semibold,
+	.lg\:fw\:semibold {
+		font-weight: var(--font-weight-semibold) !important;
+	}
+
+	.lg\:font-weight\:bold,
+	.lg\:fw\:bold {
+		font-weight: var(--font-weight-bold) !important;
+	}
+
+	/* LINE-HEIGHT */
+
+	.lg\:line-height\:tight,
+	.lg\:lh\:tight {
+		line-height: var(--line-height-tight) !important;
+	}
+
+	.lg\:line-height\:normal,
+	.lg\:lh\:normal {
+		line-height: var(--line-height-normal) !important;
+	}
+
+	.lg\:line-height\:loose,
+	.lg\:lh\:loose {
+		line-height: var(--line-height-loose) !important;
+	}
+
+	/* LETTER-SPACING */
+
+	.lg\:letter-spacing\:tight,
+	.lg\:ls\:tight {
+		letter-spacing: var(--letter-spacing-tight) !important;
+	}
+
+	.lg\:letter-spacing\:normal,
+	.lg\:ls\:normal {
+		letter-spacing: var(--letter-spacing-normal) !important;
+	}
+
+	.lg\:letter-spacing\:wide,
+	.lg\:ls\:wide {
+		letter-spacing: var(--letter-spacing-wide) !important;
+	}
+
+	/* TEXT-ALIGN */
+
+	.lg\:text-align\:left,
+	.lg\:ta\:left {
+		text-align: left !important;
+	}
+
+	.lg\:text-align\:right,
+	.lg\:ta\:right {
+		text-align: right !important;
+	}
+
+	.lg\:text-align\:center,
+	.lg\:ta\:center {
+		text-align: center !important;
+	}
+
+	.lg\:text-align\:justify,
+	.lg\:ta\:justify {
+		text-align: justify !important;
+	}
+
+	.lg\:text-align\:start,
+	.lg\:ta\:start {
+		text-align: start !important;
+	}
+
+	.lg\:text-align\:end,
+	.lg\:ta\:end {
+		text-align: end !important;
+	}
+
+	/* TEXT-DECORATION */
+
+	.lg\:text-decoration\:none,
+	.lg\:td\:none {
+		text-decoration: none !important;
+	}
+
+	.lg\:text-decoration\:underline,
+	.lg\:td\:underline {
+		text-decoration: underline !important;
+	}
+
+	.lg\:text-decoration\:overline,
+	.lg\:td\:overline {
+		text-decoration: overline !important;
+	}
+
+	.lg\:text-decoration\:line-through,
+	.lg\:td\:line-through {
+		text-decoration: line-through !important;
+	}
+
+	/* TEXT-TRANSFORM */
+
+	.lg\:text-transform\:none,
+	.lg\:tt\:none {
+		text-transform: none !important;
+	}
+
+	.lg\:text-transform\:uppercase,
+	.lg\:tt\:uppercase {
+		text-transform: uppercase !important;
+	}
+
+	.lg\:text-transform\:lowercase,
+	.lg\:tt\:lowercase {
+		text-transform: lowercase !important;
+	}
+
+	.lg\:text-transform\:capitalize,
+	.lg\:tt\:capitalize {
+		text-transform: capitalize !important;
+	}
+
+	/* FONT-STYLE */
+
+	.lg\:font-style\:normal,
+	.lg\:fst\:normal {
+		font-style: normal !important;
+	}
+
+	.lg\:font-style\:italic,
+	.lg\:fst\:italic {
+		font-style: italic !important;
+	}
+
+	.lg\:font-style\:oblique,
+	.lg\:fst\:oblique {
+		font-style: oblique !important;
+	}
+
+	/* WHITE-SPACE */
+
+	.lg\:white-space\:normal,
+	.lg\:ws\:normal {
+		white-space: normal !important;
+	}
+
+	.lg\:white-space\:nowrap,
+	.lg\:ws\:nowrap {
+		white-space: nowrap !important;
+	}
+
+	.lg\:white-space\:pre,
+	.lg\:ws\:pre {
+		white-space: pre !important;
+	}
+
+	.lg\:white-space\:pre-line,
+	.lg\:ws\:pre-line {
+		white-space: pre-line !important;
+	}
+
+	.lg\:white-space\:pre-wrap,
+	.lg\:ws\:pre-wrap {
+		white-space: pre-wrap !important;
+	}
+
+	.lg\:white-space\:break-spaces,
+	.lg\:ws\:break-spaces {
+		white-space: break-spaces !important;
+	}
+
+	/* WORD-BREAK */
+
+	.lg\:word-break\:normal,
+	.lg\:wb\:normal {
+		word-break: normal !important;
+	}
+
+	.lg\:word-break\:break-all,
+	.lg\:wb\:break-all {
+		word-break: break-all !important;
+	}
+
+	.lg\:word-break\:keep-all,
+	.lg\:wb\:keep-all {
+		word-break: keep-all !important;
+	}
+
+	/* OVERFLOW-WRAP */
+
+	.lg\:overflow-wrap\:normal,
+	.lg\:ow\:normal {
+		overflow-wrap: normal !important;
+	}
+
+	.lg\:overflow-wrap\:break-word,
+	.lg\:ow\:break-word {
+		overflow-wrap: break-word !important;
+	}
+
+	.lg\:overflow-wrap\:anywhere,
+	.lg\:ow\:anywhere {
+		overflow-wrap: anywhere !important;
+	}
+
+}
+
+@media (min-width: 1280px) {
+	/* ===== TYPOGRAPHY UTILITIES ===== */
+
+	/* FONT-SIZE */
+
+	.xl\:font-size\:caption,
+	.xl\:fs\:caption {
+		font-size: var(--font-size-caption) !important;
+	}
+
+	.xl\:font-size\:body-sm,
+	.xl\:fs\:body-sm {
+		font-size: var(--font-size-body-sm) !important;
+	}
+
+	.xl\:font-size\:body,
+	.xl\:fs\:body {
+		font-size: var(--font-size-body) !important;
+	}
+
+	.xl\:font-size\:body-lg,
+	.xl\:fs\:body-lg {
+		font-size: var(--font-size-body-lg) !important;
+	}
+
+	.xl\:font-size\:heading-sm,
+	.xl\:fs\:heading-sm {
+		font-size: var(--font-size-heading-sm) !important;
+	}
+
+	.xl\:font-size\:heading-md,
+	.xl\:fs\:heading-md {
+		font-size: var(--font-size-heading-md) !important;
+	}
+
+	.xl\:font-size\:heading-lg,
+	.xl\:fs\:heading-lg {
+		font-size: var(--font-size-heading-lg) !important;
+	}
+
+	.xl\:font-size\:display,
+	.xl\:fs\:display {
+		font-size: var(--font-size-display) !important;
+	}
+
+	.xl\:font-size\:xs,
+	.xl\:fs\:xs {
+		font-size: var(--font-size-xs) !important;
+	}
+
+	.xl\:font-size\:sm,
+	.xl\:fs\:sm {
+		font-size: var(--font-size-sm) !important;
+	}
+
+	.xl\:font-size\:md,
+	.xl\:fs\:md {
+		font-size: var(--font-size-md) !important;
+	}
+
+	.xl\:font-size\:lg,
+	.xl\:fs\:lg {
+		font-size: var(--font-size-lg) !important;
+	}
+
+	.xl\:font-size\:xl,
+	.xl\:fs\:xl {
+		font-size: var(--font-size-xl) !important;
+	}
+
+	.xl\:font-size\:2xl,
+	.xl\:fs\:2xl {
+		font-size: var(--font-size-2xl) !important;
+	}
+
+	.xl\:font-size\:3xl,
+	.xl\:fs\:3xl {
+		font-size: var(--font-size-3xl) !important;
+	}
+
+	.xl\:font-size\:4xl,
+	.xl\:fs\:4xl {
+		font-size: var(--font-size-4xl) !important;
+	}
+
+	/* FONT-WEIGHT */
+
+	.xl\:font-weight\:regular,
+	.xl\:fw\:regular {
+		font-weight: var(--font-weight-regular) !important;
+	}
+
+	.xl\:font-weight\:medium,
+	.xl\:fw\:medium {
+		font-weight: var(--font-weight-medium) !important;
+	}
+
+	.xl\:font-weight\:semibold,
+	.xl\:fw\:semibold {
+		font-weight: var(--font-weight-semibold) !important;
+	}
+
+	.xl\:font-weight\:bold,
+	.xl\:fw\:bold {
+		font-weight: var(--font-weight-bold) !important;
+	}
+
+	/* LINE-HEIGHT */
+
+	.xl\:line-height\:tight,
+	.xl\:lh\:tight {
+		line-height: var(--line-height-tight) !important;
+	}
+
+	.xl\:line-height\:normal,
+	.xl\:lh\:normal {
+		line-height: var(--line-height-normal) !important;
+	}
+
+	.xl\:line-height\:loose,
+	.xl\:lh\:loose {
+		line-height: var(--line-height-loose) !important;
+	}
+
+	/* LETTER-SPACING */
+
+	.xl\:letter-spacing\:tight,
+	.xl\:ls\:tight {
+		letter-spacing: var(--letter-spacing-tight) !important;
+	}
+
+	.xl\:letter-spacing\:normal,
+	.xl\:ls\:normal {
+		letter-spacing: var(--letter-spacing-normal) !important;
+	}
+
+	.xl\:letter-spacing\:wide,
+	.xl\:ls\:wide {
+		letter-spacing: var(--letter-spacing-wide) !important;
+	}
+
+	/* TEXT-ALIGN */
+
+	.xl\:text-align\:left,
+	.xl\:ta\:left {
+		text-align: left !important;
+	}
+
+	.xl\:text-align\:right,
+	.xl\:ta\:right {
+		text-align: right !important;
+	}
+
+	.xl\:text-align\:center,
+	.xl\:ta\:center {
+		text-align: center !important;
+	}
+
+	.xl\:text-align\:justify,
+	.xl\:ta\:justify {
+		text-align: justify !important;
+	}
+
+	.xl\:text-align\:start,
+	.xl\:ta\:start {
+		text-align: start !important;
+	}
+
+	.xl\:text-align\:end,
+	.xl\:ta\:end {
+		text-align: end !important;
+	}
+
+	/* TEXT-DECORATION */
+
+	.xl\:text-decoration\:none,
+	.xl\:td\:none {
+		text-decoration: none !important;
+	}
+
+	.xl\:text-decoration\:underline,
+	.xl\:td\:underline {
+		text-decoration: underline !important;
+	}
+
+	.xl\:text-decoration\:overline,
+	.xl\:td\:overline {
+		text-decoration: overline !important;
+	}
+
+	.xl\:text-decoration\:line-through,
+	.xl\:td\:line-through {
+		text-decoration: line-through !important;
+	}
+
+	/* TEXT-TRANSFORM */
+
+	.xl\:text-transform\:none,
+	.xl\:tt\:none {
+		text-transform: none !important;
+	}
+
+	.xl\:text-transform\:uppercase,
+	.xl\:tt\:uppercase {
+		text-transform: uppercase !important;
+	}
+
+	.xl\:text-transform\:lowercase,
+	.xl\:tt\:lowercase {
+		text-transform: lowercase !important;
+	}
+
+	.xl\:text-transform\:capitalize,
+	.xl\:tt\:capitalize {
+		text-transform: capitalize !important;
+	}
+
+	/* FONT-STYLE */
+
+	.xl\:font-style\:normal,
+	.xl\:fst\:normal {
+		font-style: normal !important;
+	}
+
+	.xl\:font-style\:italic,
+	.xl\:fst\:italic {
+		font-style: italic !important;
+	}
+
+	.xl\:font-style\:oblique,
+	.xl\:fst\:oblique {
+		font-style: oblique !important;
+	}
+
+	/* WHITE-SPACE */
+
+	.xl\:white-space\:normal,
+	.xl\:ws\:normal {
+		white-space: normal !important;
+	}
+
+	.xl\:white-space\:nowrap,
+	.xl\:ws\:nowrap {
+		white-space: nowrap !important;
+	}
+
+	.xl\:white-space\:pre,
+	.xl\:ws\:pre {
+		white-space: pre !important;
+	}
+
+	.xl\:white-space\:pre-line,
+	.xl\:ws\:pre-line {
+		white-space: pre-line !important;
+	}
+
+	.xl\:white-space\:pre-wrap,
+	.xl\:ws\:pre-wrap {
+		white-space: pre-wrap !important;
+	}
+
+	.xl\:white-space\:break-spaces,
+	.xl\:ws\:break-spaces {
+		white-space: break-spaces !important;
+	}
+
+	/* WORD-BREAK */
+
+	.xl\:word-break\:normal,
+	.xl\:wb\:normal {
+		word-break: normal !important;
+	}
+
+	.xl\:word-break\:break-all,
+	.xl\:wb\:break-all {
+		word-break: break-all !important;
+	}
+
+	.xl\:word-break\:keep-all,
+	.xl\:wb\:keep-all {
+		word-break: keep-all !important;
+	}
+
+	/* OVERFLOW-WRAP */
+
+	.xl\:overflow-wrap\:normal,
+	.xl\:ow\:normal {
+		overflow-wrap: normal !important;
+	}
+
+	.xl\:overflow-wrap\:break-word,
+	.xl\:ow\:break-word {
+		overflow-wrap: break-word !important;
+	}
+
+	.xl\:overflow-wrap\:anywhere,
+	.xl\:ow\:anywhere {
+		overflow-wrap: anywhere !important;
+	}
+
+}

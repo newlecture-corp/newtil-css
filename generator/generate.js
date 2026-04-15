@@ -1,5 +1,6 @@
 // Main generator entry. Loads rule modules, generates utility CSS files.
-// Validates output via PostCSS at the end (generator/validate.js if present).
+// After each rule's base CSS, appends responsive variants (sm/md/lg/xl)
+// wrapped in @media. Each variant prefixes selectors with breakpoint name.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -9,6 +10,49 @@ import { resetSelectorsRegistry } from "./emit.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_ROOT = path.resolve(__dirname, "../css/util");
+
+// Responsive breakpoints (Tailwind-aligned, mobile-first)
+const BREAKPOINTS = [
+	{ prefix: "sm", minWidth: "640px" },
+	{ prefix: "md", minWidth: "768px" },
+	{ prefix: "lg", minWidth: "1024px" },
+	{ prefix: "xl", minWidth: "1280px" },
+];
+
+// Parse base CSS and generate responsive variants.
+// For each rule block matching `.selector(s) { decls }`, create prefixed
+// versions wrapped in @media.
+function expandResponsive(baseCss) {
+	const variants = [];
+	for (const bp of BREAKPOINTS) {
+		// Match each rule block. ^\. anchors to line start with class selector.
+		// [^{]+ captures all selectors (comma-separated, possibly multi-line).
+		// [^}]+ captures the declaration block.
+		const wrapped = baseCss.replace(
+			/^(\.[^{]+?)\s*\{([^}]+)\}/gm,
+			(_match, sels, decls) => {
+				// Prefix each comma-separated selector with breakpoint prefix.
+				// Selector pattern in file: `.margin\:4` -> `.sm\:margin\:4`.
+				const newSels = sels
+					.split(/,\s*\n?\s*/)
+					.map((s) => s.trim())
+					.filter(Boolean)
+					.map((s) => s.replace(/^\./, `.${bp.prefix}\\:`))
+					.join(",\n");
+				return `${newSels} {${decls}}`;
+			}
+		);
+		// Indent the wrapped block inside @media for readability.
+		const indented = wrapped
+			.split("\n")
+			.map((line) => (line.length ? "\t" + line : line))
+			.join("\n");
+		variants.push(
+			`@media (min-width: ${bp.minWidth}) {\n${indented}\n}`
+		);
+	}
+	return baseCss + "\n\n" + variants.join("\n\n") + "\n";
+}
 
 // Discover rule modules (any .js file in rules/)
 async function loadRules() {
@@ -40,19 +84,27 @@ async function main() {
 	console.log(`Loaded ${rules.length} rule module(s):`, rules.map((r) => r.source));
 
 	console.log("\nGenerating files…");
-	let totalRules = 0;
+	let totalBase = 0;
+	let totalAll = 0;
 	for (const ruleMod of rules) {
 		resetSelectorsRegistry();
-		const css = ruleMod.generate(catalog);
+		const baseCss = ruleMod.generate(catalog);
+		const finalCss = expandResponsive(baseCss);
 		const outPath = path.join(OUT_ROOT, ruleMod.fileName);
 		fs.mkdirSync(path.dirname(outPath), { recursive: true });
-		fs.writeFileSync(outPath, css);
-		const ruleCount = (css.match(/^\./gm) || []).length;
-		totalRules += ruleCount;
-		console.log(`  ✓ ${ruleMod.fileName} (~${ruleCount} selectors)`);
+		fs.writeFileSync(outPath, finalCss);
+		const baseCount = (baseCss.match(/^\./gm) || []).length;
+		const allCount = baseCount * (1 + BREAKPOINTS.length);
+		totalBase += baseCount;
+		totalAll += allCount;
+		console.log(
+			`  ✓ ${ruleMod.fileName} (~${baseCount} base, ~${allCount} with sm/md/lg/xl)`
+		);
 	}
 
-	console.log(`\nDone. Total selectors generated: ~${totalRules}`);
+	console.log(
+		`\nDone. Selectors — base: ~${totalBase}, with responsive: ~${totalAll}`
+	);
 }
 
 main().catch((err) => {
