@@ -32,6 +32,36 @@ const PSEUDO_VARIANTS = [
 	{ prefix: "visited", pseudo: ":visited" },
 ];
 
+// Extract @keyframes blocks so they aren't duplicated in each
+// pseudo/responsive expansion. @keyframes are global — they should appear
+// exactly once per bundle, not inside @media nor repeated per pseudo variant.
+function extractKeyframes(css) {
+	const keyframesBlocks = [];
+	const removals = [];
+	const kwRegex = /@keyframes\s+[\w-]+\s*\{/g;
+	let m;
+	while ((m = kwRegex.exec(css)) !== null) {
+		const startIdx = m.index;
+		let depth = 1;
+		let i = kwRegex.lastIndex;
+		while (i < css.length && depth > 0) {
+			if (css[i] === "{") depth++;
+			else if (css[i] === "}") depth--;
+			i++;
+		}
+		if (depth === 0) {
+			keyframesBlocks.push(css.slice(startIdx, i));
+			removals.push([startIdx, i]);
+		}
+	}
+	let cleanCss = css;
+	for (let j = removals.length - 1; j >= 0; j--) {
+		const [s, e] = removals[j];
+		cleanCss = cleanCss.slice(0, s) + cleanCss.slice(e);
+	}
+	return { cleanCss, keyframes: keyframesBlocks.join("\n\n") };
+}
+
 // Expand base CSS with pseudo-state variants.
 // For each rule block, append 8 variant rules (hover, focus, etc.) with
 // prefixed class name + pseudo-class suffix on selector.
@@ -124,16 +154,19 @@ async function main() {
 	let totalFinal = 0;
 	for (const ruleMod of rules) {
 		resetSelectorsRegistry();
-		const baseCss = ruleMod.generate(catalog);
-		// Pipeline: base -> pseudo-state variants -> responsive variants.
-		// Applying pseudo first means responsive expansion will also wrap
-		// pseudo variants (e.g., sm:hover:padding:4 is auto-generated).
-		const withPseudo = expandPseudoStates(baseCss);
-		const finalCss = expandResponsive(withPseudo);
+		const rawCss = ruleMod.generate(catalog);
+		// Pull @keyframes out first — they're global and shouldn't be
+		// multiplied by pseudo/responsive expansion.
+		const { cleanCss, keyframes } = extractKeyframes(rawCss);
+		// Pipeline: base (no keyframes) -> pseudo -> responsive.
+		// Keyframes prepended once at top if present.
+		const withPseudo = expandPseudoStates(cleanCss);
+		const expanded = expandResponsive(withPseudo);
+		const finalCss = keyframes ? keyframes + "\n\n" + expanded : expanded;
 		const outPath = path.join(OUT_ROOT, ruleMod.fileName);
 		fs.mkdirSync(path.dirname(outPath), { recursive: true });
 		fs.writeFileSync(outPath, finalCss);
-		const baseCount = (baseCss.match(/^\./gm) || []).length;
+		const baseCount = (rawCss.match(/^\./gm) || []).length;
 		const multiplier = (1 + PSEUDO_VARIANTS.length) * (1 + BREAKPOINTS.length);
 		const allCount = baseCount * multiplier;
 		totalBase += baseCount;

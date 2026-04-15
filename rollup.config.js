@@ -33,7 +33,8 @@ const cssBundle = (input, outName) => ({
 export default [
 	// Full bundle: reset + design-tokens + utility classes
 	cssBundle("css/style.css", "style.css"),
-	// Utility-only (no reset, no tokens — caller manages those)
+	// Utility-only (no reset, no tokens — caller manages those).
+	// Entry is css/util/index.css directly (no redundant wrapper file).
 	cssBundle("css/util/index.css", "utils.css"),
 	// Reset standalone
 	cssBundle("css/reset.css", "reset.css"),
