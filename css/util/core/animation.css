@@ -172,6 +172,1398 @@
 }
 
 
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.hover\:animation\:none:hover,
+.hover\:anim\:none:hover {
+	animation: none !important;
+}
+
+.hover\:animation\:spin:hover,
+.hover\:anim\:spin:hover {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.hover\:animation\:pulse:hover,
+.hover\:anim\:pulse:hover {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.hover\:animation\:bounce:hover,
+.hover\:anim\:bounce:hover {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.hover\:animation\:ping:hover,
+.hover\:anim\:ping:hover {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.hover\:animation-duration\:fast:hover,
+.hover\:adur\:fast:hover {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.hover\:animation-duration\:normal:hover,
+.hover\:adur\:normal:hover {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.hover\:animation-duration\:slow:hover,
+.hover\:adur\:slow:hover {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.hover\:animation-timing-function\:linear:hover,
+.hover\:atf\:linear:hover {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.hover\:animation-timing-function\:in:hover,
+.hover\:atf\:in:hover {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.hover\:animation-timing-function\:out:hover,
+.hover\:atf\:out:hover {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.hover\:animation-timing-function\:in-out:hover,
+.hover\:atf\:in-out:hover {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.hover\:animation-direction\:normal:hover,
+.hover\:adir\:normal:hover {
+	animation-direction: normal !important;
+}
+
+.hover\:animation-direction\:reverse:hover,
+.hover\:adir\:reverse:hover {
+	animation-direction: reverse !important;
+}
+
+.hover\:animation-direction\:alternate:hover,
+.hover\:adir\:alternate:hover {
+	animation-direction: alternate !important;
+}
+
+.hover\:animation-direction\:alternate-reverse:hover,
+.hover\:adir\:alternate-reverse:hover {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.hover\:animation-fill-mode\:none:hover,
+.hover\:afm\:none:hover {
+	animation-fill-mode: none !important;
+}
+
+.hover\:animation-fill-mode\:forwards:hover,
+.hover\:afm\:forwards:hover {
+	animation-fill-mode: forwards !important;
+}
+
+.hover\:animation-fill-mode\:backwards:hover,
+.hover\:afm\:backwards:hover {
+	animation-fill-mode: backwards !important;
+}
+
+.hover\:animation-fill-mode\:both:hover,
+.hover\:afm\:both:hover {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.hover\:animation-play-state\:running:hover,
+.hover\:aps\:running:hover {
+	animation-play-state: running !important;
+}
+
+.hover\:animation-play-state\:paused:hover,
+.hover\:aps\:paused:hover {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.hover\:animation-iteration-count\:1:hover,
+.hover\:aic\:1:hover {
+	animation-iteration-count: 1 !important;
+}
+
+.hover\:animation-iteration-count\:2:hover,
+.hover\:aic\:2:hover {
+	animation-iteration-count: 2 !important;
+}
+
+.hover\:animation-iteration-count\:3:hover,
+.hover\:aic\:3:hover {
+	animation-iteration-count: 3 !important;
+}
+
+.hover\:animation-iteration-count\:infinite:hover,
+.hover\:aic\:infinite:hover {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.focus\:animation\:none:focus,
+.focus\:anim\:none:focus {
+	animation: none !important;
+}
+
+.focus\:animation\:spin:focus,
+.focus\:anim\:spin:focus {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.focus\:animation\:pulse:focus,
+.focus\:anim\:pulse:focus {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.focus\:animation\:bounce:focus,
+.focus\:anim\:bounce:focus {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.focus\:animation\:ping:focus,
+.focus\:anim\:ping:focus {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.focus\:animation-duration\:fast:focus,
+.focus\:adur\:fast:focus {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.focus\:animation-duration\:normal:focus,
+.focus\:adur\:normal:focus {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.focus\:animation-duration\:slow:focus,
+.focus\:adur\:slow:focus {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.focus\:animation-timing-function\:linear:focus,
+.focus\:atf\:linear:focus {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.focus\:animation-timing-function\:in:focus,
+.focus\:atf\:in:focus {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.focus\:animation-timing-function\:out:focus,
+.focus\:atf\:out:focus {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.focus\:animation-timing-function\:in-out:focus,
+.focus\:atf\:in-out:focus {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.focus\:animation-direction\:normal:focus,
+.focus\:adir\:normal:focus {
+	animation-direction: normal !important;
+}
+
+.focus\:animation-direction\:reverse:focus,
+.focus\:adir\:reverse:focus {
+	animation-direction: reverse !important;
+}
+
+.focus\:animation-direction\:alternate:focus,
+.focus\:adir\:alternate:focus {
+	animation-direction: alternate !important;
+}
+
+.focus\:animation-direction\:alternate-reverse:focus,
+.focus\:adir\:alternate-reverse:focus {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.focus\:animation-fill-mode\:none:focus,
+.focus\:afm\:none:focus {
+	animation-fill-mode: none !important;
+}
+
+.focus\:animation-fill-mode\:forwards:focus,
+.focus\:afm\:forwards:focus {
+	animation-fill-mode: forwards !important;
+}
+
+.focus\:animation-fill-mode\:backwards:focus,
+.focus\:afm\:backwards:focus {
+	animation-fill-mode: backwards !important;
+}
+
+.focus\:animation-fill-mode\:both:focus,
+.focus\:afm\:both:focus {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.focus\:animation-play-state\:running:focus,
+.focus\:aps\:running:focus {
+	animation-play-state: running !important;
+}
+
+.focus\:animation-play-state\:paused:focus,
+.focus\:aps\:paused:focus {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.focus\:animation-iteration-count\:1:focus,
+.focus\:aic\:1:focus {
+	animation-iteration-count: 1 !important;
+}
+
+.focus\:animation-iteration-count\:2:focus,
+.focus\:aic\:2:focus {
+	animation-iteration-count: 2 !important;
+}
+
+.focus\:animation-iteration-count\:3:focus,
+.focus\:aic\:3:focus {
+	animation-iteration-count: 3 !important;
+}
+
+.focus\:animation-iteration-count\:infinite:focus,
+.focus\:aic\:infinite:focus {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.focus-visible\:animation\:none:focus-visible,
+.focus-visible\:anim\:none:focus-visible {
+	animation: none !important;
+}
+
+.focus-visible\:animation\:spin:focus-visible,
+.focus-visible\:anim\:spin:focus-visible {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.focus-visible\:animation\:pulse:focus-visible,
+.focus-visible\:anim\:pulse:focus-visible {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.focus-visible\:animation\:bounce:focus-visible,
+.focus-visible\:anim\:bounce:focus-visible {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.focus-visible\:animation\:ping:focus-visible,
+.focus-visible\:anim\:ping:focus-visible {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.focus-visible\:animation-duration\:fast:focus-visible,
+.focus-visible\:adur\:fast:focus-visible {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.focus-visible\:animation-duration\:normal:focus-visible,
+.focus-visible\:adur\:normal:focus-visible {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.focus-visible\:animation-duration\:slow:focus-visible,
+.focus-visible\:adur\:slow:focus-visible {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.focus-visible\:animation-timing-function\:linear:focus-visible,
+.focus-visible\:atf\:linear:focus-visible {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.focus-visible\:animation-timing-function\:in:focus-visible,
+.focus-visible\:atf\:in:focus-visible {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.focus-visible\:animation-timing-function\:out:focus-visible,
+.focus-visible\:atf\:out:focus-visible {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.focus-visible\:animation-timing-function\:in-out:focus-visible,
+.focus-visible\:atf\:in-out:focus-visible {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.focus-visible\:animation-direction\:normal:focus-visible,
+.focus-visible\:adir\:normal:focus-visible {
+	animation-direction: normal !important;
+}
+
+.focus-visible\:animation-direction\:reverse:focus-visible,
+.focus-visible\:adir\:reverse:focus-visible {
+	animation-direction: reverse !important;
+}
+
+.focus-visible\:animation-direction\:alternate:focus-visible,
+.focus-visible\:adir\:alternate:focus-visible {
+	animation-direction: alternate !important;
+}
+
+.focus-visible\:animation-direction\:alternate-reverse:focus-visible,
+.focus-visible\:adir\:alternate-reverse:focus-visible {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.focus-visible\:animation-fill-mode\:none:focus-visible,
+.focus-visible\:afm\:none:focus-visible {
+	animation-fill-mode: none !important;
+}
+
+.focus-visible\:animation-fill-mode\:forwards:focus-visible,
+.focus-visible\:afm\:forwards:focus-visible {
+	animation-fill-mode: forwards !important;
+}
+
+.focus-visible\:animation-fill-mode\:backwards:focus-visible,
+.focus-visible\:afm\:backwards:focus-visible {
+	animation-fill-mode: backwards !important;
+}
+
+.focus-visible\:animation-fill-mode\:both:focus-visible,
+.focus-visible\:afm\:both:focus-visible {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.focus-visible\:animation-play-state\:running:focus-visible,
+.focus-visible\:aps\:running:focus-visible {
+	animation-play-state: running !important;
+}
+
+.focus-visible\:animation-play-state\:paused:focus-visible,
+.focus-visible\:aps\:paused:focus-visible {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.focus-visible\:animation-iteration-count\:1:focus-visible,
+.focus-visible\:aic\:1:focus-visible {
+	animation-iteration-count: 1 !important;
+}
+
+.focus-visible\:animation-iteration-count\:2:focus-visible,
+.focus-visible\:aic\:2:focus-visible {
+	animation-iteration-count: 2 !important;
+}
+
+.focus-visible\:animation-iteration-count\:3:focus-visible,
+.focus-visible\:aic\:3:focus-visible {
+	animation-iteration-count: 3 !important;
+}
+
+.focus-visible\:animation-iteration-count\:infinite:focus-visible,
+.focus-visible\:aic\:infinite:focus-visible {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.focus-within\:animation\:none:focus-within,
+.focus-within\:anim\:none:focus-within {
+	animation: none !important;
+}
+
+.focus-within\:animation\:spin:focus-within,
+.focus-within\:anim\:spin:focus-within {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.focus-within\:animation\:pulse:focus-within,
+.focus-within\:anim\:pulse:focus-within {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.focus-within\:animation\:bounce:focus-within,
+.focus-within\:anim\:bounce:focus-within {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.focus-within\:animation\:ping:focus-within,
+.focus-within\:anim\:ping:focus-within {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.focus-within\:animation-duration\:fast:focus-within,
+.focus-within\:adur\:fast:focus-within {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.focus-within\:animation-duration\:normal:focus-within,
+.focus-within\:adur\:normal:focus-within {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.focus-within\:animation-duration\:slow:focus-within,
+.focus-within\:adur\:slow:focus-within {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.focus-within\:animation-timing-function\:linear:focus-within,
+.focus-within\:atf\:linear:focus-within {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.focus-within\:animation-timing-function\:in:focus-within,
+.focus-within\:atf\:in:focus-within {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.focus-within\:animation-timing-function\:out:focus-within,
+.focus-within\:atf\:out:focus-within {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.focus-within\:animation-timing-function\:in-out:focus-within,
+.focus-within\:atf\:in-out:focus-within {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.focus-within\:animation-direction\:normal:focus-within,
+.focus-within\:adir\:normal:focus-within {
+	animation-direction: normal !important;
+}
+
+.focus-within\:animation-direction\:reverse:focus-within,
+.focus-within\:adir\:reverse:focus-within {
+	animation-direction: reverse !important;
+}
+
+.focus-within\:animation-direction\:alternate:focus-within,
+.focus-within\:adir\:alternate:focus-within {
+	animation-direction: alternate !important;
+}
+
+.focus-within\:animation-direction\:alternate-reverse:focus-within,
+.focus-within\:adir\:alternate-reverse:focus-within {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.focus-within\:animation-fill-mode\:none:focus-within,
+.focus-within\:afm\:none:focus-within {
+	animation-fill-mode: none !important;
+}
+
+.focus-within\:animation-fill-mode\:forwards:focus-within,
+.focus-within\:afm\:forwards:focus-within {
+	animation-fill-mode: forwards !important;
+}
+
+.focus-within\:animation-fill-mode\:backwards:focus-within,
+.focus-within\:afm\:backwards:focus-within {
+	animation-fill-mode: backwards !important;
+}
+
+.focus-within\:animation-fill-mode\:both:focus-within,
+.focus-within\:afm\:both:focus-within {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.focus-within\:animation-play-state\:running:focus-within,
+.focus-within\:aps\:running:focus-within {
+	animation-play-state: running !important;
+}
+
+.focus-within\:animation-play-state\:paused:focus-within,
+.focus-within\:aps\:paused:focus-within {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.focus-within\:animation-iteration-count\:1:focus-within,
+.focus-within\:aic\:1:focus-within {
+	animation-iteration-count: 1 !important;
+}
+
+.focus-within\:animation-iteration-count\:2:focus-within,
+.focus-within\:aic\:2:focus-within {
+	animation-iteration-count: 2 !important;
+}
+
+.focus-within\:animation-iteration-count\:3:focus-within,
+.focus-within\:aic\:3:focus-within {
+	animation-iteration-count: 3 !important;
+}
+
+.focus-within\:animation-iteration-count\:infinite:focus-within,
+.focus-within\:aic\:infinite:focus-within {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.active\:animation\:none:active,
+.active\:anim\:none:active {
+	animation: none !important;
+}
+
+.active\:animation\:spin:active,
+.active\:anim\:spin:active {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.active\:animation\:pulse:active,
+.active\:anim\:pulse:active {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.active\:animation\:bounce:active,
+.active\:anim\:bounce:active {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.active\:animation\:ping:active,
+.active\:anim\:ping:active {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.active\:animation-duration\:fast:active,
+.active\:adur\:fast:active {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.active\:animation-duration\:normal:active,
+.active\:adur\:normal:active {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.active\:animation-duration\:slow:active,
+.active\:adur\:slow:active {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.active\:animation-timing-function\:linear:active,
+.active\:atf\:linear:active {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.active\:animation-timing-function\:in:active,
+.active\:atf\:in:active {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.active\:animation-timing-function\:out:active,
+.active\:atf\:out:active {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.active\:animation-timing-function\:in-out:active,
+.active\:atf\:in-out:active {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.active\:animation-direction\:normal:active,
+.active\:adir\:normal:active {
+	animation-direction: normal !important;
+}
+
+.active\:animation-direction\:reverse:active,
+.active\:adir\:reverse:active {
+	animation-direction: reverse !important;
+}
+
+.active\:animation-direction\:alternate:active,
+.active\:adir\:alternate:active {
+	animation-direction: alternate !important;
+}
+
+.active\:animation-direction\:alternate-reverse:active,
+.active\:adir\:alternate-reverse:active {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.active\:animation-fill-mode\:none:active,
+.active\:afm\:none:active {
+	animation-fill-mode: none !important;
+}
+
+.active\:animation-fill-mode\:forwards:active,
+.active\:afm\:forwards:active {
+	animation-fill-mode: forwards !important;
+}
+
+.active\:animation-fill-mode\:backwards:active,
+.active\:afm\:backwards:active {
+	animation-fill-mode: backwards !important;
+}
+
+.active\:animation-fill-mode\:both:active,
+.active\:afm\:both:active {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.active\:animation-play-state\:running:active,
+.active\:aps\:running:active {
+	animation-play-state: running !important;
+}
+
+.active\:animation-play-state\:paused:active,
+.active\:aps\:paused:active {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.active\:animation-iteration-count\:1:active,
+.active\:aic\:1:active {
+	animation-iteration-count: 1 !important;
+}
+
+.active\:animation-iteration-count\:2:active,
+.active\:aic\:2:active {
+	animation-iteration-count: 2 !important;
+}
+
+.active\:animation-iteration-count\:3:active,
+.active\:aic\:3:active {
+	animation-iteration-count: 3 !important;
+}
+
+.active\:animation-iteration-count\:infinite:active,
+.active\:aic\:infinite:active {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.disabled\:animation\:none:disabled,
+.disabled\:anim\:none:disabled {
+	animation: none !important;
+}
+
+.disabled\:animation\:spin:disabled,
+.disabled\:anim\:spin:disabled {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.disabled\:animation\:pulse:disabled,
+.disabled\:anim\:pulse:disabled {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.disabled\:animation\:bounce:disabled,
+.disabled\:anim\:bounce:disabled {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.disabled\:animation\:ping:disabled,
+.disabled\:anim\:ping:disabled {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.disabled\:animation-duration\:fast:disabled,
+.disabled\:adur\:fast:disabled {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.disabled\:animation-duration\:normal:disabled,
+.disabled\:adur\:normal:disabled {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.disabled\:animation-duration\:slow:disabled,
+.disabled\:adur\:slow:disabled {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.disabled\:animation-timing-function\:linear:disabled,
+.disabled\:atf\:linear:disabled {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.disabled\:animation-timing-function\:in:disabled,
+.disabled\:atf\:in:disabled {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.disabled\:animation-timing-function\:out:disabled,
+.disabled\:atf\:out:disabled {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.disabled\:animation-timing-function\:in-out:disabled,
+.disabled\:atf\:in-out:disabled {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.disabled\:animation-direction\:normal:disabled,
+.disabled\:adir\:normal:disabled {
+	animation-direction: normal !important;
+}
+
+.disabled\:animation-direction\:reverse:disabled,
+.disabled\:adir\:reverse:disabled {
+	animation-direction: reverse !important;
+}
+
+.disabled\:animation-direction\:alternate:disabled,
+.disabled\:adir\:alternate:disabled {
+	animation-direction: alternate !important;
+}
+
+.disabled\:animation-direction\:alternate-reverse:disabled,
+.disabled\:adir\:alternate-reverse:disabled {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.disabled\:animation-fill-mode\:none:disabled,
+.disabled\:afm\:none:disabled {
+	animation-fill-mode: none !important;
+}
+
+.disabled\:animation-fill-mode\:forwards:disabled,
+.disabled\:afm\:forwards:disabled {
+	animation-fill-mode: forwards !important;
+}
+
+.disabled\:animation-fill-mode\:backwards:disabled,
+.disabled\:afm\:backwards:disabled {
+	animation-fill-mode: backwards !important;
+}
+
+.disabled\:animation-fill-mode\:both:disabled,
+.disabled\:afm\:both:disabled {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.disabled\:animation-play-state\:running:disabled,
+.disabled\:aps\:running:disabled {
+	animation-play-state: running !important;
+}
+
+.disabled\:animation-play-state\:paused:disabled,
+.disabled\:aps\:paused:disabled {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.disabled\:animation-iteration-count\:1:disabled,
+.disabled\:aic\:1:disabled {
+	animation-iteration-count: 1 !important;
+}
+
+.disabled\:animation-iteration-count\:2:disabled,
+.disabled\:aic\:2:disabled {
+	animation-iteration-count: 2 !important;
+}
+
+.disabled\:animation-iteration-count\:3:disabled,
+.disabled\:aic\:3:disabled {
+	animation-iteration-count: 3 !important;
+}
+
+.disabled\:animation-iteration-count\:infinite:disabled,
+.disabled\:aic\:infinite:disabled {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.checked\:animation\:none:checked,
+.checked\:anim\:none:checked {
+	animation: none !important;
+}
+
+.checked\:animation\:spin:checked,
+.checked\:anim\:spin:checked {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.checked\:animation\:pulse:checked,
+.checked\:anim\:pulse:checked {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.checked\:animation\:bounce:checked,
+.checked\:anim\:bounce:checked {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.checked\:animation\:ping:checked,
+.checked\:anim\:ping:checked {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.checked\:animation-duration\:fast:checked,
+.checked\:adur\:fast:checked {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.checked\:animation-duration\:normal:checked,
+.checked\:adur\:normal:checked {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.checked\:animation-duration\:slow:checked,
+.checked\:adur\:slow:checked {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.checked\:animation-timing-function\:linear:checked,
+.checked\:atf\:linear:checked {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.checked\:animation-timing-function\:in:checked,
+.checked\:atf\:in:checked {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.checked\:animation-timing-function\:out:checked,
+.checked\:atf\:out:checked {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.checked\:animation-timing-function\:in-out:checked,
+.checked\:atf\:in-out:checked {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.checked\:animation-direction\:normal:checked,
+.checked\:adir\:normal:checked {
+	animation-direction: normal !important;
+}
+
+.checked\:animation-direction\:reverse:checked,
+.checked\:adir\:reverse:checked {
+	animation-direction: reverse !important;
+}
+
+.checked\:animation-direction\:alternate:checked,
+.checked\:adir\:alternate:checked {
+	animation-direction: alternate !important;
+}
+
+.checked\:animation-direction\:alternate-reverse:checked,
+.checked\:adir\:alternate-reverse:checked {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.checked\:animation-fill-mode\:none:checked,
+.checked\:afm\:none:checked {
+	animation-fill-mode: none !important;
+}
+
+.checked\:animation-fill-mode\:forwards:checked,
+.checked\:afm\:forwards:checked {
+	animation-fill-mode: forwards !important;
+}
+
+.checked\:animation-fill-mode\:backwards:checked,
+.checked\:afm\:backwards:checked {
+	animation-fill-mode: backwards !important;
+}
+
+.checked\:animation-fill-mode\:both:checked,
+.checked\:afm\:both:checked {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.checked\:animation-play-state\:running:checked,
+.checked\:aps\:running:checked {
+	animation-play-state: running !important;
+}
+
+.checked\:animation-play-state\:paused:checked,
+.checked\:aps\:paused:checked {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.checked\:animation-iteration-count\:1:checked,
+.checked\:aic\:1:checked {
+	animation-iteration-count: 1 !important;
+}
+
+.checked\:animation-iteration-count\:2:checked,
+.checked\:aic\:2:checked {
+	animation-iteration-count: 2 !important;
+}
+
+.checked\:animation-iteration-count\:3:checked,
+.checked\:aic\:3:checked {
+	animation-iteration-count: 3 !important;
+}
+
+.checked\:animation-iteration-count\:infinite:checked,
+.checked\:aic\:infinite:checked {
+	animation-iteration-count: infinite !important;
+}
+
+
+/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+/* KEYFRAMES (newtil-* prefixed) */
+
+@keyframes newtil-spin {
+	from { rotate: 0deg; }
+	to { rotate: 360deg; }
+}
+@keyframes newtil-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+@keyframes newtil-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@keyframes newtil-ping {
+	75%, 100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* ANIMATION (preset shorthand) */
+
+.visited\:animation\:none:visited,
+.visited\:anim\:none:visited {
+	animation: none !important;
+}
+
+.visited\:animation\:spin:visited,
+.visited\:anim\:spin:visited {
+	animation: newtil-spin 1s linear infinite !important;
+}
+
+.visited\:animation\:pulse:visited,
+.visited\:anim\:pulse:visited {
+	animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+}
+
+.visited\:animation\:bounce:visited,
+.visited\:anim\:bounce:visited {
+	animation: newtil-bounce 1s infinite !important;
+}
+
+.visited\:animation\:ping:visited,
+.visited\:anim\:ping:visited {
+	animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+}
+
+/* ANIMATION-DURATION */
+
+.visited\:animation-duration\:fast:visited,
+.visited\:adur\:fast:visited {
+	animation-duration: var(--duration-fast) !important;
+}
+
+.visited\:animation-duration\:normal:visited,
+.visited\:adur\:normal:visited {
+	animation-duration: var(--duration-normal) !important;
+}
+
+.visited\:animation-duration\:slow:visited,
+.visited\:adur\:slow:visited {
+	animation-duration: var(--duration-slow) !important;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+
+.visited\:animation-timing-function\:linear:visited,
+.visited\:atf\:linear:visited {
+	animation-timing-function: var(--ease-linear) !important;
+}
+
+.visited\:animation-timing-function\:in:visited,
+.visited\:atf\:in:visited {
+	animation-timing-function: var(--ease-in) !important;
+}
+
+.visited\:animation-timing-function\:out:visited,
+.visited\:atf\:out:visited {
+	animation-timing-function: var(--ease-out) !important;
+}
+
+.visited\:animation-timing-function\:in-out:visited,
+.visited\:atf\:in-out:visited {
+	animation-timing-function: var(--ease-in-out) !important;
+}
+
+/* ANIMATION-DIRECTION */
+
+.visited\:animation-direction\:normal:visited,
+.visited\:adir\:normal:visited {
+	animation-direction: normal !important;
+}
+
+.visited\:animation-direction\:reverse:visited,
+.visited\:adir\:reverse:visited {
+	animation-direction: reverse !important;
+}
+
+.visited\:animation-direction\:alternate:visited,
+.visited\:adir\:alternate:visited {
+	animation-direction: alternate !important;
+}
+
+.visited\:animation-direction\:alternate-reverse:visited,
+.visited\:adir\:alternate-reverse:visited {
+	animation-direction: alternate-reverse !important;
+}
+
+/* ANIMATION-FILL-MODE */
+
+.visited\:animation-fill-mode\:none:visited,
+.visited\:afm\:none:visited {
+	animation-fill-mode: none !important;
+}
+
+.visited\:animation-fill-mode\:forwards:visited,
+.visited\:afm\:forwards:visited {
+	animation-fill-mode: forwards !important;
+}
+
+.visited\:animation-fill-mode\:backwards:visited,
+.visited\:afm\:backwards:visited {
+	animation-fill-mode: backwards !important;
+}
+
+.visited\:animation-fill-mode\:both:visited,
+.visited\:afm\:both:visited {
+	animation-fill-mode: both !important;
+}
+
+/* ANIMATION-PLAY-STATE */
+
+.visited\:animation-play-state\:running:visited,
+.visited\:aps\:running:visited {
+	animation-play-state: running !important;
+}
+
+.visited\:animation-play-state\:paused:visited,
+.visited\:aps\:paused:visited {
+	animation-play-state: paused !important;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+
+.visited\:animation-iteration-count\:1:visited,
+.visited\:aic\:1:visited {
+	animation-iteration-count: 1 !important;
+}
+
+.visited\:animation-iteration-count\:2:visited,
+.visited\:aic\:2:visited {
+	animation-iteration-count: 2 !important;
+}
+
+.visited\:animation-iteration-count\:3:visited,
+.visited\:aic\:3:visited {
+	animation-iteration-count: 3 !important;
+}
+
+.visited\:animation-iteration-count\:infinite:visited,
+.visited\:aic\:infinite:visited {
+	animation-iteration-count: infinite !important;
+}
+
+
 @media (min-width: 640px) {
 	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
 
@@ -343,6 +1735,1398 @@
 
 	.sm\:animation-iteration-count\:infinite,
 	.sm\:aic\:infinite {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:hover\:animation\:none:hover,
+	.sm\:hover\:anim\:none:hover {
+		animation: none !important;
+	}
+
+	.sm\:hover\:animation\:spin:hover,
+	.sm\:hover\:anim\:spin:hover {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:hover\:animation\:pulse:hover,
+	.sm\:hover\:anim\:pulse:hover {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:hover\:animation\:bounce:hover,
+	.sm\:hover\:anim\:bounce:hover {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:hover\:animation\:ping:hover,
+	.sm\:hover\:anim\:ping:hover {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:hover\:animation-duration\:fast:hover,
+	.sm\:hover\:adur\:fast:hover {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:hover\:animation-duration\:normal:hover,
+	.sm\:hover\:adur\:normal:hover {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:hover\:animation-duration\:slow:hover,
+	.sm\:hover\:adur\:slow:hover {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:hover\:animation-timing-function\:linear:hover,
+	.sm\:hover\:atf\:linear:hover {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:hover\:animation-timing-function\:in:hover,
+	.sm\:hover\:atf\:in:hover {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:hover\:animation-timing-function\:out:hover,
+	.sm\:hover\:atf\:out:hover {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:hover\:animation-timing-function\:in-out:hover,
+	.sm\:hover\:atf\:in-out:hover {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:hover\:animation-direction\:normal:hover,
+	.sm\:hover\:adir\:normal:hover {
+		animation-direction: normal !important;
+	}
+
+	.sm\:hover\:animation-direction\:reverse:hover,
+	.sm\:hover\:adir\:reverse:hover {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:hover\:animation-direction\:alternate:hover,
+	.sm\:hover\:adir\:alternate:hover {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:hover\:animation-direction\:alternate-reverse:hover,
+	.sm\:hover\:adir\:alternate-reverse:hover {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:hover\:animation-fill-mode\:none:hover,
+	.sm\:hover\:afm\:none:hover {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:hover\:animation-fill-mode\:forwards:hover,
+	.sm\:hover\:afm\:forwards:hover {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:hover\:animation-fill-mode\:backwards:hover,
+	.sm\:hover\:afm\:backwards:hover {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:hover\:animation-fill-mode\:both:hover,
+	.sm\:hover\:afm\:both:hover {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:hover\:animation-play-state\:running:hover,
+	.sm\:hover\:aps\:running:hover {
+		animation-play-state: running !important;
+	}
+
+	.sm\:hover\:animation-play-state\:paused:hover,
+	.sm\:hover\:aps\:paused:hover {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:hover\:animation-iteration-count\:1:hover,
+	.sm\:hover\:aic\:1:hover {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:hover\:animation-iteration-count\:2:hover,
+	.sm\:hover\:aic\:2:hover {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:hover\:animation-iteration-count\:3:hover,
+	.sm\:hover\:aic\:3:hover {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:hover\:animation-iteration-count\:infinite:hover,
+	.sm\:hover\:aic\:infinite:hover {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:focus\:animation\:none:focus,
+	.sm\:focus\:anim\:none:focus {
+		animation: none !important;
+	}
+
+	.sm\:focus\:animation\:spin:focus,
+	.sm\:focus\:anim\:spin:focus {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:focus\:animation\:pulse:focus,
+	.sm\:focus\:anim\:pulse:focus {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:focus\:animation\:bounce:focus,
+	.sm\:focus\:anim\:bounce:focus {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:focus\:animation\:ping:focus,
+	.sm\:focus\:anim\:ping:focus {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:focus\:animation-duration\:fast:focus,
+	.sm\:focus\:adur\:fast:focus {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus\:animation-duration\:normal:focus,
+	.sm\:focus\:adur\:normal:focus {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus\:animation-duration\:slow:focus,
+	.sm\:focus\:adur\:slow:focus {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:focus\:animation-timing-function\:linear:focus,
+	.sm\:focus\:atf\:linear:focus {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus\:animation-timing-function\:in:focus,
+	.sm\:focus\:atf\:in:focus {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus\:animation-timing-function\:out:focus,
+	.sm\:focus\:atf\:out:focus {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus\:animation-timing-function\:in-out:focus,
+	.sm\:focus\:atf\:in-out:focus {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:focus\:animation-direction\:normal:focus,
+	.sm\:focus\:adir\:normal:focus {
+		animation-direction: normal !important;
+	}
+
+	.sm\:focus\:animation-direction\:reverse:focus,
+	.sm\:focus\:adir\:reverse:focus {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:focus\:animation-direction\:alternate:focus,
+	.sm\:focus\:adir\:alternate:focus {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:focus\:animation-direction\:alternate-reverse:focus,
+	.sm\:focus\:adir\:alternate-reverse:focus {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:focus\:animation-fill-mode\:none:focus,
+	.sm\:focus\:afm\:none:focus {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:focus\:animation-fill-mode\:forwards:focus,
+	.sm\:focus\:afm\:forwards:focus {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:focus\:animation-fill-mode\:backwards:focus,
+	.sm\:focus\:afm\:backwards:focus {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:focus\:animation-fill-mode\:both:focus,
+	.sm\:focus\:afm\:both:focus {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:focus\:animation-play-state\:running:focus,
+	.sm\:focus\:aps\:running:focus {
+		animation-play-state: running !important;
+	}
+
+	.sm\:focus\:animation-play-state\:paused:focus,
+	.sm\:focus\:aps\:paused:focus {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:focus\:animation-iteration-count\:1:focus,
+	.sm\:focus\:aic\:1:focus {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:focus\:animation-iteration-count\:2:focus,
+	.sm\:focus\:aic\:2:focus {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:focus\:animation-iteration-count\:3:focus,
+	.sm\:focus\:aic\:3:focus {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:focus\:animation-iteration-count\:infinite:focus,
+	.sm\:focus\:aic\:infinite:focus {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:focus-visible\:animation\:none:focus-visible,
+	.sm\:focus-visible\:anim\:none:focus-visible {
+		animation: none !important;
+	}
+
+	.sm\:focus-visible\:animation\:spin:focus-visible,
+	.sm\:focus-visible\:anim\:spin:focus-visible {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:focus-visible\:animation\:pulse:focus-visible,
+	.sm\:focus-visible\:anim\:pulse:focus-visible {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:focus-visible\:animation\:bounce:focus-visible,
+	.sm\:focus-visible\:anim\:bounce:focus-visible {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:focus-visible\:animation\:ping:focus-visible,
+	.sm\:focus-visible\:anim\:ping:focus-visible {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:focus-visible\:animation-duration\:fast:focus-visible,
+	.sm\:focus-visible\:adur\:fast:focus-visible {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus-visible\:animation-duration\:normal:focus-visible,
+	.sm\:focus-visible\:adur\:normal:focus-visible {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus-visible\:animation-duration\:slow:focus-visible,
+	.sm\:focus-visible\:adur\:slow:focus-visible {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:focus-visible\:animation-timing-function\:linear:focus-visible,
+	.sm\:focus-visible\:atf\:linear:focus-visible {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus-visible\:animation-timing-function\:in:focus-visible,
+	.sm\:focus-visible\:atf\:in:focus-visible {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus-visible\:animation-timing-function\:out:focus-visible,
+	.sm\:focus-visible\:atf\:out:focus-visible {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus-visible\:animation-timing-function\:in-out:focus-visible,
+	.sm\:focus-visible\:atf\:in-out:focus-visible {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:focus-visible\:animation-direction\:normal:focus-visible,
+	.sm\:focus-visible\:adir\:normal:focus-visible {
+		animation-direction: normal !important;
+	}
+
+	.sm\:focus-visible\:animation-direction\:reverse:focus-visible,
+	.sm\:focus-visible\:adir\:reverse:focus-visible {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:focus-visible\:animation-direction\:alternate:focus-visible,
+	.sm\:focus-visible\:adir\:alternate:focus-visible {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:focus-visible\:animation-direction\:alternate-reverse:focus-visible,
+	.sm\:focus-visible\:adir\:alternate-reverse:focus-visible {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:focus-visible\:animation-fill-mode\:none:focus-visible,
+	.sm\:focus-visible\:afm\:none:focus-visible {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:focus-visible\:animation-fill-mode\:forwards:focus-visible,
+	.sm\:focus-visible\:afm\:forwards:focus-visible {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:focus-visible\:animation-fill-mode\:backwards:focus-visible,
+	.sm\:focus-visible\:afm\:backwards:focus-visible {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:focus-visible\:animation-fill-mode\:both:focus-visible,
+	.sm\:focus-visible\:afm\:both:focus-visible {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:focus-visible\:animation-play-state\:running:focus-visible,
+	.sm\:focus-visible\:aps\:running:focus-visible {
+		animation-play-state: running !important;
+	}
+
+	.sm\:focus-visible\:animation-play-state\:paused:focus-visible,
+	.sm\:focus-visible\:aps\:paused:focus-visible {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:focus-visible\:animation-iteration-count\:1:focus-visible,
+	.sm\:focus-visible\:aic\:1:focus-visible {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:focus-visible\:animation-iteration-count\:2:focus-visible,
+	.sm\:focus-visible\:aic\:2:focus-visible {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:focus-visible\:animation-iteration-count\:3:focus-visible,
+	.sm\:focus-visible\:aic\:3:focus-visible {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:focus-visible\:animation-iteration-count\:infinite:focus-visible,
+	.sm\:focus-visible\:aic\:infinite:focus-visible {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:focus-within\:animation\:none:focus-within,
+	.sm\:focus-within\:anim\:none:focus-within {
+		animation: none !important;
+	}
+
+	.sm\:focus-within\:animation\:spin:focus-within,
+	.sm\:focus-within\:anim\:spin:focus-within {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:focus-within\:animation\:pulse:focus-within,
+	.sm\:focus-within\:anim\:pulse:focus-within {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:focus-within\:animation\:bounce:focus-within,
+	.sm\:focus-within\:anim\:bounce:focus-within {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:focus-within\:animation\:ping:focus-within,
+	.sm\:focus-within\:anim\:ping:focus-within {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:focus-within\:animation-duration\:fast:focus-within,
+	.sm\:focus-within\:adur\:fast:focus-within {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus-within\:animation-duration\:normal:focus-within,
+	.sm\:focus-within\:adur\:normal:focus-within {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus-within\:animation-duration\:slow:focus-within,
+	.sm\:focus-within\:adur\:slow:focus-within {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:focus-within\:animation-timing-function\:linear:focus-within,
+	.sm\:focus-within\:atf\:linear:focus-within {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus-within\:animation-timing-function\:in:focus-within,
+	.sm\:focus-within\:atf\:in:focus-within {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus-within\:animation-timing-function\:out:focus-within,
+	.sm\:focus-within\:atf\:out:focus-within {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus-within\:animation-timing-function\:in-out:focus-within,
+	.sm\:focus-within\:atf\:in-out:focus-within {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:focus-within\:animation-direction\:normal:focus-within,
+	.sm\:focus-within\:adir\:normal:focus-within {
+		animation-direction: normal !important;
+	}
+
+	.sm\:focus-within\:animation-direction\:reverse:focus-within,
+	.sm\:focus-within\:adir\:reverse:focus-within {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:focus-within\:animation-direction\:alternate:focus-within,
+	.sm\:focus-within\:adir\:alternate:focus-within {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:focus-within\:animation-direction\:alternate-reverse:focus-within,
+	.sm\:focus-within\:adir\:alternate-reverse:focus-within {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:focus-within\:animation-fill-mode\:none:focus-within,
+	.sm\:focus-within\:afm\:none:focus-within {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:focus-within\:animation-fill-mode\:forwards:focus-within,
+	.sm\:focus-within\:afm\:forwards:focus-within {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:focus-within\:animation-fill-mode\:backwards:focus-within,
+	.sm\:focus-within\:afm\:backwards:focus-within {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:focus-within\:animation-fill-mode\:both:focus-within,
+	.sm\:focus-within\:afm\:both:focus-within {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:focus-within\:animation-play-state\:running:focus-within,
+	.sm\:focus-within\:aps\:running:focus-within {
+		animation-play-state: running !important;
+	}
+
+	.sm\:focus-within\:animation-play-state\:paused:focus-within,
+	.sm\:focus-within\:aps\:paused:focus-within {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:focus-within\:animation-iteration-count\:1:focus-within,
+	.sm\:focus-within\:aic\:1:focus-within {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:focus-within\:animation-iteration-count\:2:focus-within,
+	.sm\:focus-within\:aic\:2:focus-within {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:focus-within\:animation-iteration-count\:3:focus-within,
+	.sm\:focus-within\:aic\:3:focus-within {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:focus-within\:animation-iteration-count\:infinite:focus-within,
+	.sm\:focus-within\:aic\:infinite:focus-within {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:active\:animation\:none:active,
+	.sm\:active\:anim\:none:active {
+		animation: none !important;
+	}
+
+	.sm\:active\:animation\:spin:active,
+	.sm\:active\:anim\:spin:active {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:active\:animation\:pulse:active,
+	.sm\:active\:anim\:pulse:active {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:active\:animation\:bounce:active,
+	.sm\:active\:anim\:bounce:active {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:active\:animation\:ping:active,
+	.sm\:active\:anim\:ping:active {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:active\:animation-duration\:fast:active,
+	.sm\:active\:adur\:fast:active {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:active\:animation-duration\:normal:active,
+	.sm\:active\:adur\:normal:active {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:active\:animation-duration\:slow:active,
+	.sm\:active\:adur\:slow:active {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:active\:animation-timing-function\:linear:active,
+	.sm\:active\:atf\:linear:active {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:active\:animation-timing-function\:in:active,
+	.sm\:active\:atf\:in:active {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:active\:animation-timing-function\:out:active,
+	.sm\:active\:atf\:out:active {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:active\:animation-timing-function\:in-out:active,
+	.sm\:active\:atf\:in-out:active {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:active\:animation-direction\:normal:active,
+	.sm\:active\:adir\:normal:active {
+		animation-direction: normal !important;
+	}
+
+	.sm\:active\:animation-direction\:reverse:active,
+	.sm\:active\:adir\:reverse:active {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:active\:animation-direction\:alternate:active,
+	.sm\:active\:adir\:alternate:active {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:active\:animation-direction\:alternate-reverse:active,
+	.sm\:active\:adir\:alternate-reverse:active {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:active\:animation-fill-mode\:none:active,
+	.sm\:active\:afm\:none:active {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:active\:animation-fill-mode\:forwards:active,
+	.sm\:active\:afm\:forwards:active {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:active\:animation-fill-mode\:backwards:active,
+	.sm\:active\:afm\:backwards:active {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:active\:animation-fill-mode\:both:active,
+	.sm\:active\:afm\:both:active {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:active\:animation-play-state\:running:active,
+	.sm\:active\:aps\:running:active {
+		animation-play-state: running !important;
+	}
+
+	.sm\:active\:animation-play-state\:paused:active,
+	.sm\:active\:aps\:paused:active {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:active\:animation-iteration-count\:1:active,
+	.sm\:active\:aic\:1:active {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:active\:animation-iteration-count\:2:active,
+	.sm\:active\:aic\:2:active {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:active\:animation-iteration-count\:3:active,
+	.sm\:active\:aic\:3:active {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:active\:animation-iteration-count\:infinite:active,
+	.sm\:active\:aic\:infinite:active {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:disabled\:animation\:none:disabled,
+	.sm\:disabled\:anim\:none:disabled {
+		animation: none !important;
+	}
+
+	.sm\:disabled\:animation\:spin:disabled,
+	.sm\:disabled\:anim\:spin:disabled {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:disabled\:animation\:pulse:disabled,
+	.sm\:disabled\:anim\:pulse:disabled {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:disabled\:animation\:bounce:disabled,
+	.sm\:disabled\:anim\:bounce:disabled {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:disabled\:animation\:ping:disabled,
+	.sm\:disabled\:anim\:ping:disabled {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:disabled\:animation-duration\:fast:disabled,
+	.sm\:disabled\:adur\:fast:disabled {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:disabled\:animation-duration\:normal:disabled,
+	.sm\:disabled\:adur\:normal:disabled {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:disabled\:animation-duration\:slow:disabled,
+	.sm\:disabled\:adur\:slow:disabled {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:disabled\:animation-timing-function\:linear:disabled,
+	.sm\:disabled\:atf\:linear:disabled {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:disabled\:animation-timing-function\:in:disabled,
+	.sm\:disabled\:atf\:in:disabled {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:disabled\:animation-timing-function\:out:disabled,
+	.sm\:disabled\:atf\:out:disabled {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:disabled\:animation-timing-function\:in-out:disabled,
+	.sm\:disabled\:atf\:in-out:disabled {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:disabled\:animation-direction\:normal:disabled,
+	.sm\:disabled\:adir\:normal:disabled {
+		animation-direction: normal !important;
+	}
+
+	.sm\:disabled\:animation-direction\:reverse:disabled,
+	.sm\:disabled\:adir\:reverse:disabled {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:disabled\:animation-direction\:alternate:disabled,
+	.sm\:disabled\:adir\:alternate:disabled {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:disabled\:animation-direction\:alternate-reverse:disabled,
+	.sm\:disabled\:adir\:alternate-reverse:disabled {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:disabled\:animation-fill-mode\:none:disabled,
+	.sm\:disabled\:afm\:none:disabled {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:disabled\:animation-fill-mode\:forwards:disabled,
+	.sm\:disabled\:afm\:forwards:disabled {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:disabled\:animation-fill-mode\:backwards:disabled,
+	.sm\:disabled\:afm\:backwards:disabled {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:disabled\:animation-fill-mode\:both:disabled,
+	.sm\:disabled\:afm\:both:disabled {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:disabled\:animation-play-state\:running:disabled,
+	.sm\:disabled\:aps\:running:disabled {
+		animation-play-state: running !important;
+	}
+
+	.sm\:disabled\:animation-play-state\:paused:disabled,
+	.sm\:disabled\:aps\:paused:disabled {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:disabled\:animation-iteration-count\:1:disabled,
+	.sm\:disabled\:aic\:1:disabled {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:disabled\:animation-iteration-count\:2:disabled,
+	.sm\:disabled\:aic\:2:disabled {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:disabled\:animation-iteration-count\:3:disabled,
+	.sm\:disabled\:aic\:3:disabled {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:disabled\:animation-iteration-count\:infinite:disabled,
+	.sm\:disabled\:aic\:infinite:disabled {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:checked\:animation\:none:checked,
+	.sm\:checked\:anim\:none:checked {
+		animation: none !important;
+	}
+
+	.sm\:checked\:animation\:spin:checked,
+	.sm\:checked\:anim\:spin:checked {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:checked\:animation\:pulse:checked,
+	.sm\:checked\:anim\:pulse:checked {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:checked\:animation\:bounce:checked,
+	.sm\:checked\:anim\:bounce:checked {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:checked\:animation\:ping:checked,
+	.sm\:checked\:anim\:ping:checked {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:checked\:animation-duration\:fast:checked,
+	.sm\:checked\:adur\:fast:checked {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:checked\:animation-duration\:normal:checked,
+	.sm\:checked\:adur\:normal:checked {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:checked\:animation-duration\:slow:checked,
+	.sm\:checked\:adur\:slow:checked {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:checked\:animation-timing-function\:linear:checked,
+	.sm\:checked\:atf\:linear:checked {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:checked\:animation-timing-function\:in:checked,
+	.sm\:checked\:atf\:in:checked {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:checked\:animation-timing-function\:out:checked,
+	.sm\:checked\:atf\:out:checked {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:checked\:animation-timing-function\:in-out:checked,
+	.sm\:checked\:atf\:in-out:checked {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:checked\:animation-direction\:normal:checked,
+	.sm\:checked\:adir\:normal:checked {
+		animation-direction: normal !important;
+	}
+
+	.sm\:checked\:animation-direction\:reverse:checked,
+	.sm\:checked\:adir\:reverse:checked {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:checked\:animation-direction\:alternate:checked,
+	.sm\:checked\:adir\:alternate:checked {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:checked\:animation-direction\:alternate-reverse:checked,
+	.sm\:checked\:adir\:alternate-reverse:checked {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:checked\:animation-fill-mode\:none:checked,
+	.sm\:checked\:afm\:none:checked {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:checked\:animation-fill-mode\:forwards:checked,
+	.sm\:checked\:afm\:forwards:checked {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:checked\:animation-fill-mode\:backwards:checked,
+	.sm\:checked\:afm\:backwards:checked {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:checked\:animation-fill-mode\:both:checked,
+	.sm\:checked\:afm\:both:checked {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:checked\:animation-play-state\:running:checked,
+	.sm\:checked\:aps\:running:checked {
+		animation-play-state: running !important;
+	}
+
+	.sm\:checked\:animation-play-state\:paused:checked,
+	.sm\:checked\:aps\:paused:checked {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:checked\:animation-iteration-count\:1:checked,
+	.sm\:checked\:aic\:1:checked {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:checked\:animation-iteration-count\:2:checked,
+	.sm\:checked\:aic\:2:checked {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:checked\:animation-iteration-count\:3:checked,
+	.sm\:checked\:aic\:3:checked {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:checked\:animation-iteration-count\:infinite:checked,
+	.sm\:checked\:aic\:infinite:checked {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.sm\:visited\:animation\:none:visited,
+	.sm\:visited\:anim\:none:visited {
+		animation: none !important;
+	}
+
+	.sm\:visited\:animation\:spin:visited,
+	.sm\:visited\:anim\:spin:visited {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.sm\:visited\:animation\:pulse:visited,
+	.sm\:visited\:anim\:pulse:visited {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.sm\:visited\:animation\:bounce:visited,
+	.sm\:visited\:anim\:bounce:visited {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.sm\:visited\:animation\:ping:visited,
+	.sm\:visited\:anim\:ping:visited {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.sm\:visited\:animation-duration\:fast:visited,
+	.sm\:visited\:adur\:fast:visited {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:visited\:animation-duration\:normal:visited,
+	.sm\:visited\:adur\:normal:visited {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:visited\:animation-duration\:slow:visited,
+	.sm\:visited\:adur\:slow:visited {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.sm\:visited\:animation-timing-function\:linear:visited,
+	.sm\:visited\:atf\:linear:visited {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:visited\:animation-timing-function\:in:visited,
+	.sm\:visited\:atf\:in:visited {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:visited\:animation-timing-function\:out:visited,
+	.sm\:visited\:atf\:out:visited {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:visited\:animation-timing-function\:in-out:visited,
+	.sm\:visited\:atf\:in-out:visited {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.sm\:visited\:animation-direction\:normal:visited,
+	.sm\:visited\:adir\:normal:visited {
+		animation-direction: normal !important;
+	}
+
+	.sm\:visited\:animation-direction\:reverse:visited,
+	.sm\:visited\:adir\:reverse:visited {
+		animation-direction: reverse !important;
+	}
+
+	.sm\:visited\:animation-direction\:alternate:visited,
+	.sm\:visited\:adir\:alternate:visited {
+		animation-direction: alternate !important;
+	}
+
+	.sm\:visited\:animation-direction\:alternate-reverse:visited,
+	.sm\:visited\:adir\:alternate-reverse:visited {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.sm\:visited\:animation-fill-mode\:none:visited,
+	.sm\:visited\:afm\:none:visited {
+		animation-fill-mode: none !important;
+	}
+
+	.sm\:visited\:animation-fill-mode\:forwards:visited,
+	.sm\:visited\:afm\:forwards:visited {
+		animation-fill-mode: forwards !important;
+	}
+
+	.sm\:visited\:animation-fill-mode\:backwards:visited,
+	.sm\:visited\:afm\:backwards:visited {
+		animation-fill-mode: backwards !important;
+	}
+
+	.sm\:visited\:animation-fill-mode\:both:visited,
+	.sm\:visited\:afm\:both:visited {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.sm\:visited\:animation-play-state\:running:visited,
+	.sm\:visited\:aps\:running:visited {
+		animation-play-state: running !important;
+	}
+
+	.sm\:visited\:animation-play-state\:paused:visited,
+	.sm\:visited\:aps\:paused:visited {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.sm\:visited\:animation-iteration-count\:1:visited,
+	.sm\:visited\:aic\:1:visited {
+		animation-iteration-count: 1 !important;
+	}
+
+	.sm\:visited\:animation-iteration-count\:2:visited,
+	.sm\:visited\:aic\:2:visited {
+		animation-iteration-count: 2 !important;
+	}
+
+	.sm\:visited\:animation-iteration-count\:3:visited,
+	.sm\:visited\:aic\:3:visited {
+		animation-iteration-count: 3 !important;
+	}
+
+	.sm\:visited\:animation-iteration-count\:infinite:visited,
+	.sm\:visited\:aic\:infinite:visited {
 		animation-iteration-count: infinite !important;
 	}
 
@@ -522,6 +3306,1398 @@
 		animation-iteration-count: infinite !important;
 	}
 
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:hover\:animation\:none:hover,
+	.md\:hover\:anim\:none:hover {
+		animation: none !important;
+	}
+
+	.md\:hover\:animation\:spin:hover,
+	.md\:hover\:anim\:spin:hover {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:hover\:animation\:pulse:hover,
+	.md\:hover\:anim\:pulse:hover {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:hover\:animation\:bounce:hover,
+	.md\:hover\:anim\:bounce:hover {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:hover\:animation\:ping:hover,
+	.md\:hover\:anim\:ping:hover {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:hover\:animation-duration\:fast:hover,
+	.md\:hover\:adur\:fast:hover {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:hover\:animation-duration\:normal:hover,
+	.md\:hover\:adur\:normal:hover {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:hover\:animation-duration\:slow:hover,
+	.md\:hover\:adur\:slow:hover {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:hover\:animation-timing-function\:linear:hover,
+	.md\:hover\:atf\:linear:hover {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:hover\:animation-timing-function\:in:hover,
+	.md\:hover\:atf\:in:hover {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:hover\:animation-timing-function\:out:hover,
+	.md\:hover\:atf\:out:hover {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:hover\:animation-timing-function\:in-out:hover,
+	.md\:hover\:atf\:in-out:hover {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:hover\:animation-direction\:normal:hover,
+	.md\:hover\:adir\:normal:hover {
+		animation-direction: normal !important;
+	}
+
+	.md\:hover\:animation-direction\:reverse:hover,
+	.md\:hover\:adir\:reverse:hover {
+		animation-direction: reverse !important;
+	}
+
+	.md\:hover\:animation-direction\:alternate:hover,
+	.md\:hover\:adir\:alternate:hover {
+		animation-direction: alternate !important;
+	}
+
+	.md\:hover\:animation-direction\:alternate-reverse:hover,
+	.md\:hover\:adir\:alternate-reverse:hover {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:hover\:animation-fill-mode\:none:hover,
+	.md\:hover\:afm\:none:hover {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:hover\:animation-fill-mode\:forwards:hover,
+	.md\:hover\:afm\:forwards:hover {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:hover\:animation-fill-mode\:backwards:hover,
+	.md\:hover\:afm\:backwards:hover {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:hover\:animation-fill-mode\:both:hover,
+	.md\:hover\:afm\:both:hover {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:hover\:animation-play-state\:running:hover,
+	.md\:hover\:aps\:running:hover {
+		animation-play-state: running !important;
+	}
+
+	.md\:hover\:animation-play-state\:paused:hover,
+	.md\:hover\:aps\:paused:hover {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:hover\:animation-iteration-count\:1:hover,
+	.md\:hover\:aic\:1:hover {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:hover\:animation-iteration-count\:2:hover,
+	.md\:hover\:aic\:2:hover {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:hover\:animation-iteration-count\:3:hover,
+	.md\:hover\:aic\:3:hover {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:hover\:animation-iteration-count\:infinite:hover,
+	.md\:hover\:aic\:infinite:hover {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:focus\:animation\:none:focus,
+	.md\:focus\:anim\:none:focus {
+		animation: none !important;
+	}
+
+	.md\:focus\:animation\:spin:focus,
+	.md\:focus\:anim\:spin:focus {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:focus\:animation\:pulse:focus,
+	.md\:focus\:anim\:pulse:focus {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:focus\:animation\:bounce:focus,
+	.md\:focus\:anim\:bounce:focus {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:focus\:animation\:ping:focus,
+	.md\:focus\:anim\:ping:focus {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:focus\:animation-duration\:fast:focus,
+	.md\:focus\:adur\:fast:focus {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus\:animation-duration\:normal:focus,
+	.md\:focus\:adur\:normal:focus {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus\:animation-duration\:slow:focus,
+	.md\:focus\:adur\:slow:focus {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:focus\:animation-timing-function\:linear:focus,
+	.md\:focus\:atf\:linear:focus {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus\:animation-timing-function\:in:focus,
+	.md\:focus\:atf\:in:focus {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus\:animation-timing-function\:out:focus,
+	.md\:focus\:atf\:out:focus {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus\:animation-timing-function\:in-out:focus,
+	.md\:focus\:atf\:in-out:focus {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:focus\:animation-direction\:normal:focus,
+	.md\:focus\:adir\:normal:focus {
+		animation-direction: normal !important;
+	}
+
+	.md\:focus\:animation-direction\:reverse:focus,
+	.md\:focus\:adir\:reverse:focus {
+		animation-direction: reverse !important;
+	}
+
+	.md\:focus\:animation-direction\:alternate:focus,
+	.md\:focus\:adir\:alternate:focus {
+		animation-direction: alternate !important;
+	}
+
+	.md\:focus\:animation-direction\:alternate-reverse:focus,
+	.md\:focus\:adir\:alternate-reverse:focus {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:focus\:animation-fill-mode\:none:focus,
+	.md\:focus\:afm\:none:focus {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:focus\:animation-fill-mode\:forwards:focus,
+	.md\:focus\:afm\:forwards:focus {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:focus\:animation-fill-mode\:backwards:focus,
+	.md\:focus\:afm\:backwards:focus {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:focus\:animation-fill-mode\:both:focus,
+	.md\:focus\:afm\:both:focus {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:focus\:animation-play-state\:running:focus,
+	.md\:focus\:aps\:running:focus {
+		animation-play-state: running !important;
+	}
+
+	.md\:focus\:animation-play-state\:paused:focus,
+	.md\:focus\:aps\:paused:focus {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:focus\:animation-iteration-count\:1:focus,
+	.md\:focus\:aic\:1:focus {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:focus\:animation-iteration-count\:2:focus,
+	.md\:focus\:aic\:2:focus {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:focus\:animation-iteration-count\:3:focus,
+	.md\:focus\:aic\:3:focus {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:focus\:animation-iteration-count\:infinite:focus,
+	.md\:focus\:aic\:infinite:focus {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:focus-visible\:animation\:none:focus-visible,
+	.md\:focus-visible\:anim\:none:focus-visible {
+		animation: none !important;
+	}
+
+	.md\:focus-visible\:animation\:spin:focus-visible,
+	.md\:focus-visible\:anim\:spin:focus-visible {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:focus-visible\:animation\:pulse:focus-visible,
+	.md\:focus-visible\:anim\:pulse:focus-visible {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:focus-visible\:animation\:bounce:focus-visible,
+	.md\:focus-visible\:anim\:bounce:focus-visible {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:focus-visible\:animation\:ping:focus-visible,
+	.md\:focus-visible\:anim\:ping:focus-visible {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:focus-visible\:animation-duration\:fast:focus-visible,
+	.md\:focus-visible\:adur\:fast:focus-visible {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus-visible\:animation-duration\:normal:focus-visible,
+	.md\:focus-visible\:adur\:normal:focus-visible {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus-visible\:animation-duration\:slow:focus-visible,
+	.md\:focus-visible\:adur\:slow:focus-visible {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:focus-visible\:animation-timing-function\:linear:focus-visible,
+	.md\:focus-visible\:atf\:linear:focus-visible {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus-visible\:animation-timing-function\:in:focus-visible,
+	.md\:focus-visible\:atf\:in:focus-visible {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus-visible\:animation-timing-function\:out:focus-visible,
+	.md\:focus-visible\:atf\:out:focus-visible {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus-visible\:animation-timing-function\:in-out:focus-visible,
+	.md\:focus-visible\:atf\:in-out:focus-visible {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:focus-visible\:animation-direction\:normal:focus-visible,
+	.md\:focus-visible\:adir\:normal:focus-visible {
+		animation-direction: normal !important;
+	}
+
+	.md\:focus-visible\:animation-direction\:reverse:focus-visible,
+	.md\:focus-visible\:adir\:reverse:focus-visible {
+		animation-direction: reverse !important;
+	}
+
+	.md\:focus-visible\:animation-direction\:alternate:focus-visible,
+	.md\:focus-visible\:adir\:alternate:focus-visible {
+		animation-direction: alternate !important;
+	}
+
+	.md\:focus-visible\:animation-direction\:alternate-reverse:focus-visible,
+	.md\:focus-visible\:adir\:alternate-reverse:focus-visible {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:focus-visible\:animation-fill-mode\:none:focus-visible,
+	.md\:focus-visible\:afm\:none:focus-visible {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:focus-visible\:animation-fill-mode\:forwards:focus-visible,
+	.md\:focus-visible\:afm\:forwards:focus-visible {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:focus-visible\:animation-fill-mode\:backwards:focus-visible,
+	.md\:focus-visible\:afm\:backwards:focus-visible {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:focus-visible\:animation-fill-mode\:both:focus-visible,
+	.md\:focus-visible\:afm\:both:focus-visible {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:focus-visible\:animation-play-state\:running:focus-visible,
+	.md\:focus-visible\:aps\:running:focus-visible {
+		animation-play-state: running !important;
+	}
+
+	.md\:focus-visible\:animation-play-state\:paused:focus-visible,
+	.md\:focus-visible\:aps\:paused:focus-visible {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:focus-visible\:animation-iteration-count\:1:focus-visible,
+	.md\:focus-visible\:aic\:1:focus-visible {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:focus-visible\:animation-iteration-count\:2:focus-visible,
+	.md\:focus-visible\:aic\:2:focus-visible {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:focus-visible\:animation-iteration-count\:3:focus-visible,
+	.md\:focus-visible\:aic\:3:focus-visible {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:focus-visible\:animation-iteration-count\:infinite:focus-visible,
+	.md\:focus-visible\:aic\:infinite:focus-visible {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:focus-within\:animation\:none:focus-within,
+	.md\:focus-within\:anim\:none:focus-within {
+		animation: none !important;
+	}
+
+	.md\:focus-within\:animation\:spin:focus-within,
+	.md\:focus-within\:anim\:spin:focus-within {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:focus-within\:animation\:pulse:focus-within,
+	.md\:focus-within\:anim\:pulse:focus-within {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:focus-within\:animation\:bounce:focus-within,
+	.md\:focus-within\:anim\:bounce:focus-within {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:focus-within\:animation\:ping:focus-within,
+	.md\:focus-within\:anim\:ping:focus-within {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:focus-within\:animation-duration\:fast:focus-within,
+	.md\:focus-within\:adur\:fast:focus-within {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus-within\:animation-duration\:normal:focus-within,
+	.md\:focus-within\:adur\:normal:focus-within {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus-within\:animation-duration\:slow:focus-within,
+	.md\:focus-within\:adur\:slow:focus-within {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:focus-within\:animation-timing-function\:linear:focus-within,
+	.md\:focus-within\:atf\:linear:focus-within {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus-within\:animation-timing-function\:in:focus-within,
+	.md\:focus-within\:atf\:in:focus-within {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus-within\:animation-timing-function\:out:focus-within,
+	.md\:focus-within\:atf\:out:focus-within {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus-within\:animation-timing-function\:in-out:focus-within,
+	.md\:focus-within\:atf\:in-out:focus-within {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:focus-within\:animation-direction\:normal:focus-within,
+	.md\:focus-within\:adir\:normal:focus-within {
+		animation-direction: normal !important;
+	}
+
+	.md\:focus-within\:animation-direction\:reverse:focus-within,
+	.md\:focus-within\:adir\:reverse:focus-within {
+		animation-direction: reverse !important;
+	}
+
+	.md\:focus-within\:animation-direction\:alternate:focus-within,
+	.md\:focus-within\:adir\:alternate:focus-within {
+		animation-direction: alternate !important;
+	}
+
+	.md\:focus-within\:animation-direction\:alternate-reverse:focus-within,
+	.md\:focus-within\:adir\:alternate-reverse:focus-within {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:focus-within\:animation-fill-mode\:none:focus-within,
+	.md\:focus-within\:afm\:none:focus-within {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:focus-within\:animation-fill-mode\:forwards:focus-within,
+	.md\:focus-within\:afm\:forwards:focus-within {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:focus-within\:animation-fill-mode\:backwards:focus-within,
+	.md\:focus-within\:afm\:backwards:focus-within {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:focus-within\:animation-fill-mode\:both:focus-within,
+	.md\:focus-within\:afm\:both:focus-within {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:focus-within\:animation-play-state\:running:focus-within,
+	.md\:focus-within\:aps\:running:focus-within {
+		animation-play-state: running !important;
+	}
+
+	.md\:focus-within\:animation-play-state\:paused:focus-within,
+	.md\:focus-within\:aps\:paused:focus-within {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:focus-within\:animation-iteration-count\:1:focus-within,
+	.md\:focus-within\:aic\:1:focus-within {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:focus-within\:animation-iteration-count\:2:focus-within,
+	.md\:focus-within\:aic\:2:focus-within {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:focus-within\:animation-iteration-count\:3:focus-within,
+	.md\:focus-within\:aic\:3:focus-within {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:focus-within\:animation-iteration-count\:infinite:focus-within,
+	.md\:focus-within\:aic\:infinite:focus-within {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:active\:animation\:none:active,
+	.md\:active\:anim\:none:active {
+		animation: none !important;
+	}
+
+	.md\:active\:animation\:spin:active,
+	.md\:active\:anim\:spin:active {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:active\:animation\:pulse:active,
+	.md\:active\:anim\:pulse:active {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:active\:animation\:bounce:active,
+	.md\:active\:anim\:bounce:active {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:active\:animation\:ping:active,
+	.md\:active\:anim\:ping:active {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:active\:animation-duration\:fast:active,
+	.md\:active\:adur\:fast:active {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:active\:animation-duration\:normal:active,
+	.md\:active\:adur\:normal:active {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:active\:animation-duration\:slow:active,
+	.md\:active\:adur\:slow:active {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:active\:animation-timing-function\:linear:active,
+	.md\:active\:atf\:linear:active {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:active\:animation-timing-function\:in:active,
+	.md\:active\:atf\:in:active {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:active\:animation-timing-function\:out:active,
+	.md\:active\:atf\:out:active {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:active\:animation-timing-function\:in-out:active,
+	.md\:active\:atf\:in-out:active {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:active\:animation-direction\:normal:active,
+	.md\:active\:adir\:normal:active {
+		animation-direction: normal !important;
+	}
+
+	.md\:active\:animation-direction\:reverse:active,
+	.md\:active\:adir\:reverse:active {
+		animation-direction: reverse !important;
+	}
+
+	.md\:active\:animation-direction\:alternate:active,
+	.md\:active\:adir\:alternate:active {
+		animation-direction: alternate !important;
+	}
+
+	.md\:active\:animation-direction\:alternate-reverse:active,
+	.md\:active\:adir\:alternate-reverse:active {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:active\:animation-fill-mode\:none:active,
+	.md\:active\:afm\:none:active {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:active\:animation-fill-mode\:forwards:active,
+	.md\:active\:afm\:forwards:active {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:active\:animation-fill-mode\:backwards:active,
+	.md\:active\:afm\:backwards:active {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:active\:animation-fill-mode\:both:active,
+	.md\:active\:afm\:both:active {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:active\:animation-play-state\:running:active,
+	.md\:active\:aps\:running:active {
+		animation-play-state: running !important;
+	}
+
+	.md\:active\:animation-play-state\:paused:active,
+	.md\:active\:aps\:paused:active {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:active\:animation-iteration-count\:1:active,
+	.md\:active\:aic\:1:active {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:active\:animation-iteration-count\:2:active,
+	.md\:active\:aic\:2:active {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:active\:animation-iteration-count\:3:active,
+	.md\:active\:aic\:3:active {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:active\:animation-iteration-count\:infinite:active,
+	.md\:active\:aic\:infinite:active {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:disabled\:animation\:none:disabled,
+	.md\:disabled\:anim\:none:disabled {
+		animation: none !important;
+	}
+
+	.md\:disabled\:animation\:spin:disabled,
+	.md\:disabled\:anim\:spin:disabled {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:disabled\:animation\:pulse:disabled,
+	.md\:disabled\:anim\:pulse:disabled {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:disabled\:animation\:bounce:disabled,
+	.md\:disabled\:anim\:bounce:disabled {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:disabled\:animation\:ping:disabled,
+	.md\:disabled\:anim\:ping:disabled {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:disabled\:animation-duration\:fast:disabled,
+	.md\:disabled\:adur\:fast:disabled {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:disabled\:animation-duration\:normal:disabled,
+	.md\:disabled\:adur\:normal:disabled {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:disabled\:animation-duration\:slow:disabled,
+	.md\:disabled\:adur\:slow:disabled {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:disabled\:animation-timing-function\:linear:disabled,
+	.md\:disabled\:atf\:linear:disabled {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:disabled\:animation-timing-function\:in:disabled,
+	.md\:disabled\:atf\:in:disabled {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:disabled\:animation-timing-function\:out:disabled,
+	.md\:disabled\:atf\:out:disabled {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:disabled\:animation-timing-function\:in-out:disabled,
+	.md\:disabled\:atf\:in-out:disabled {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:disabled\:animation-direction\:normal:disabled,
+	.md\:disabled\:adir\:normal:disabled {
+		animation-direction: normal !important;
+	}
+
+	.md\:disabled\:animation-direction\:reverse:disabled,
+	.md\:disabled\:adir\:reverse:disabled {
+		animation-direction: reverse !important;
+	}
+
+	.md\:disabled\:animation-direction\:alternate:disabled,
+	.md\:disabled\:adir\:alternate:disabled {
+		animation-direction: alternate !important;
+	}
+
+	.md\:disabled\:animation-direction\:alternate-reverse:disabled,
+	.md\:disabled\:adir\:alternate-reverse:disabled {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:disabled\:animation-fill-mode\:none:disabled,
+	.md\:disabled\:afm\:none:disabled {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:disabled\:animation-fill-mode\:forwards:disabled,
+	.md\:disabled\:afm\:forwards:disabled {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:disabled\:animation-fill-mode\:backwards:disabled,
+	.md\:disabled\:afm\:backwards:disabled {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:disabled\:animation-fill-mode\:both:disabled,
+	.md\:disabled\:afm\:both:disabled {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:disabled\:animation-play-state\:running:disabled,
+	.md\:disabled\:aps\:running:disabled {
+		animation-play-state: running !important;
+	}
+
+	.md\:disabled\:animation-play-state\:paused:disabled,
+	.md\:disabled\:aps\:paused:disabled {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:disabled\:animation-iteration-count\:1:disabled,
+	.md\:disabled\:aic\:1:disabled {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:disabled\:animation-iteration-count\:2:disabled,
+	.md\:disabled\:aic\:2:disabled {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:disabled\:animation-iteration-count\:3:disabled,
+	.md\:disabled\:aic\:3:disabled {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:disabled\:animation-iteration-count\:infinite:disabled,
+	.md\:disabled\:aic\:infinite:disabled {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:checked\:animation\:none:checked,
+	.md\:checked\:anim\:none:checked {
+		animation: none !important;
+	}
+
+	.md\:checked\:animation\:spin:checked,
+	.md\:checked\:anim\:spin:checked {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:checked\:animation\:pulse:checked,
+	.md\:checked\:anim\:pulse:checked {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:checked\:animation\:bounce:checked,
+	.md\:checked\:anim\:bounce:checked {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:checked\:animation\:ping:checked,
+	.md\:checked\:anim\:ping:checked {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:checked\:animation-duration\:fast:checked,
+	.md\:checked\:adur\:fast:checked {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:checked\:animation-duration\:normal:checked,
+	.md\:checked\:adur\:normal:checked {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:checked\:animation-duration\:slow:checked,
+	.md\:checked\:adur\:slow:checked {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:checked\:animation-timing-function\:linear:checked,
+	.md\:checked\:atf\:linear:checked {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:checked\:animation-timing-function\:in:checked,
+	.md\:checked\:atf\:in:checked {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:checked\:animation-timing-function\:out:checked,
+	.md\:checked\:atf\:out:checked {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:checked\:animation-timing-function\:in-out:checked,
+	.md\:checked\:atf\:in-out:checked {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:checked\:animation-direction\:normal:checked,
+	.md\:checked\:adir\:normal:checked {
+		animation-direction: normal !important;
+	}
+
+	.md\:checked\:animation-direction\:reverse:checked,
+	.md\:checked\:adir\:reverse:checked {
+		animation-direction: reverse !important;
+	}
+
+	.md\:checked\:animation-direction\:alternate:checked,
+	.md\:checked\:adir\:alternate:checked {
+		animation-direction: alternate !important;
+	}
+
+	.md\:checked\:animation-direction\:alternate-reverse:checked,
+	.md\:checked\:adir\:alternate-reverse:checked {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:checked\:animation-fill-mode\:none:checked,
+	.md\:checked\:afm\:none:checked {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:checked\:animation-fill-mode\:forwards:checked,
+	.md\:checked\:afm\:forwards:checked {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:checked\:animation-fill-mode\:backwards:checked,
+	.md\:checked\:afm\:backwards:checked {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:checked\:animation-fill-mode\:both:checked,
+	.md\:checked\:afm\:both:checked {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:checked\:animation-play-state\:running:checked,
+	.md\:checked\:aps\:running:checked {
+		animation-play-state: running !important;
+	}
+
+	.md\:checked\:animation-play-state\:paused:checked,
+	.md\:checked\:aps\:paused:checked {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:checked\:animation-iteration-count\:1:checked,
+	.md\:checked\:aic\:1:checked {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:checked\:animation-iteration-count\:2:checked,
+	.md\:checked\:aic\:2:checked {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:checked\:animation-iteration-count\:3:checked,
+	.md\:checked\:aic\:3:checked {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:checked\:animation-iteration-count\:infinite:checked,
+	.md\:checked\:aic\:infinite:checked {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.md\:visited\:animation\:none:visited,
+	.md\:visited\:anim\:none:visited {
+		animation: none !important;
+	}
+
+	.md\:visited\:animation\:spin:visited,
+	.md\:visited\:anim\:spin:visited {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.md\:visited\:animation\:pulse:visited,
+	.md\:visited\:anim\:pulse:visited {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.md\:visited\:animation\:bounce:visited,
+	.md\:visited\:anim\:bounce:visited {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.md\:visited\:animation\:ping:visited,
+	.md\:visited\:anim\:ping:visited {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.md\:visited\:animation-duration\:fast:visited,
+	.md\:visited\:adur\:fast:visited {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.md\:visited\:animation-duration\:normal:visited,
+	.md\:visited\:adur\:normal:visited {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.md\:visited\:animation-duration\:slow:visited,
+	.md\:visited\:adur\:slow:visited {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.md\:visited\:animation-timing-function\:linear:visited,
+	.md\:visited\:atf\:linear:visited {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:visited\:animation-timing-function\:in:visited,
+	.md\:visited\:atf\:in:visited {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:visited\:animation-timing-function\:out:visited,
+	.md\:visited\:atf\:out:visited {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:visited\:animation-timing-function\:in-out:visited,
+	.md\:visited\:atf\:in-out:visited {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.md\:visited\:animation-direction\:normal:visited,
+	.md\:visited\:adir\:normal:visited {
+		animation-direction: normal !important;
+	}
+
+	.md\:visited\:animation-direction\:reverse:visited,
+	.md\:visited\:adir\:reverse:visited {
+		animation-direction: reverse !important;
+	}
+
+	.md\:visited\:animation-direction\:alternate:visited,
+	.md\:visited\:adir\:alternate:visited {
+		animation-direction: alternate !important;
+	}
+
+	.md\:visited\:animation-direction\:alternate-reverse:visited,
+	.md\:visited\:adir\:alternate-reverse:visited {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.md\:visited\:animation-fill-mode\:none:visited,
+	.md\:visited\:afm\:none:visited {
+		animation-fill-mode: none !important;
+	}
+
+	.md\:visited\:animation-fill-mode\:forwards:visited,
+	.md\:visited\:afm\:forwards:visited {
+		animation-fill-mode: forwards !important;
+	}
+
+	.md\:visited\:animation-fill-mode\:backwards:visited,
+	.md\:visited\:afm\:backwards:visited {
+		animation-fill-mode: backwards !important;
+	}
+
+	.md\:visited\:animation-fill-mode\:both:visited,
+	.md\:visited\:afm\:both:visited {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.md\:visited\:animation-play-state\:running:visited,
+	.md\:visited\:aps\:running:visited {
+		animation-play-state: running !important;
+	}
+
+	.md\:visited\:animation-play-state\:paused:visited,
+	.md\:visited\:aps\:paused:visited {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.md\:visited\:animation-iteration-count\:1:visited,
+	.md\:visited\:aic\:1:visited {
+		animation-iteration-count: 1 !important;
+	}
+
+	.md\:visited\:animation-iteration-count\:2:visited,
+	.md\:visited\:aic\:2:visited {
+		animation-iteration-count: 2 !important;
+	}
+
+	.md\:visited\:animation-iteration-count\:3:visited,
+	.md\:visited\:aic\:3:visited {
+		animation-iteration-count: 3 !important;
+	}
+
+	.md\:visited\:animation-iteration-count\:infinite:visited,
+	.md\:visited\:aic\:infinite:visited {
+		animation-iteration-count: infinite !important;
+	}
+
 }
 
 @media (min-width: 1024px) {
@@ -698,6 +4874,1398 @@
 		animation-iteration-count: infinite !important;
 	}
 
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:hover\:animation\:none:hover,
+	.lg\:hover\:anim\:none:hover {
+		animation: none !important;
+	}
+
+	.lg\:hover\:animation\:spin:hover,
+	.lg\:hover\:anim\:spin:hover {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:hover\:animation\:pulse:hover,
+	.lg\:hover\:anim\:pulse:hover {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:hover\:animation\:bounce:hover,
+	.lg\:hover\:anim\:bounce:hover {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:hover\:animation\:ping:hover,
+	.lg\:hover\:anim\:ping:hover {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:hover\:animation-duration\:fast:hover,
+	.lg\:hover\:adur\:fast:hover {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:hover\:animation-duration\:normal:hover,
+	.lg\:hover\:adur\:normal:hover {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:hover\:animation-duration\:slow:hover,
+	.lg\:hover\:adur\:slow:hover {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:hover\:animation-timing-function\:linear:hover,
+	.lg\:hover\:atf\:linear:hover {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:hover\:animation-timing-function\:in:hover,
+	.lg\:hover\:atf\:in:hover {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:hover\:animation-timing-function\:out:hover,
+	.lg\:hover\:atf\:out:hover {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:hover\:animation-timing-function\:in-out:hover,
+	.lg\:hover\:atf\:in-out:hover {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:hover\:animation-direction\:normal:hover,
+	.lg\:hover\:adir\:normal:hover {
+		animation-direction: normal !important;
+	}
+
+	.lg\:hover\:animation-direction\:reverse:hover,
+	.lg\:hover\:adir\:reverse:hover {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:hover\:animation-direction\:alternate:hover,
+	.lg\:hover\:adir\:alternate:hover {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:hover\:animation-direction\:alternate-reverse:hover,
+	.lg\:hover\:adir\:alternate-reverse:hover {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:hover\:animation-fill-mode\:none:hover,
+	.lg\:hover\:afm\:none:hover {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:hover\:animation-fill-mode\:forwards:hover,
+	.lg\:hover\:afm\:forwards:hover {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:hover\:animation-fill-mode\:backwards:hover,
+	.lg\:hover\:afm\:backwards:hover {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:hover\:animation-fill-mode\:both:hover,
+	.lg\:hover\:afm\:both:hover {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:hover\:animation-play-state\:running:hover,
+	.lg\:hover\:aps\:running:hover {
+		animation-play-state: running !important;
+	}
+
+	.lg\:hover\:animation-play-state\:paused:hover,
+	.lg\:hover\:aps\:paused:hover {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:hover\:animation-iteration-count\:1:hover,
+	.lg\:hover\:aic\:1:hover {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:hover\:animation-iteration-count\:2:hover,
+	.lg\:hover\:aic\:2:hover {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:hover\:animation-iteration-count\:3:hover,
+	.lg\:hover\:aic\:3:hover {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:hover\:animation-iteration-count\:infinite:hover,
+	.lg\:hover\:aic\:infinite:hover {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:focus\:animation\:none:focus,
+	.lg\:focus\:anim\:none:focus {
+		animation: none !important;
+	}
+
+	.lg\:focus\:animation\:spin:focus,
+	.lg\:focus\:anim\:spin:focus {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:focus\:animation\:pulse:focus,
+	.lg\:focus\:anim\:pulse:focus {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:focus\:animation\:bounce:focus,
+	.lg\:focus\:anim\:bounce:focus {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:focus\:animation\:ping:focus,
+	.lg\:focus\:anim\:ping:focus {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:focus\:animation-duration\:fast:focus,
+	.lg\:focus\:adur\:fast:focus {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus\:animation-duration\:normal:focus,
+	.lg\:focus\:adur\:normal:focus {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus\:animation-duration\:slow:focus,
+	.lg\:focus\:adur\:slow:focus {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:focus\:animation-timing-function\:linear:focus,
+	.lg\:focus\:atf\:linear:focus {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus\:animation-timing-function\:in:focus,
+	.lg\:focus\:atf\:in:focus {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus\:animation-timing-function\:out:focus,
+	.lg\:focus\:atf\:out:focus {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus\:animation-timing-function\:in-out:focus,
+	.lg\:focus\:atf\:in-out:focus {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:focus\:animation-direction\:normal:focus,
+	.lg\:focus\:adir\:normal:focus {
+		animation-direction: normal !important;
+	}
+
+	.lg\:focus\:animation-direction\:reverse:focus,
+	.lg\:focus\:adir\:reverse:focus {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:focus\:animation-direction\:alternate:focus,
+	.lg\:focus\:adir\:alternate:focus {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:focus\:animation-direction\:alternate-reverse:focus,
+	.lg\:focus\:adir\:alternate-reverse:focus {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:focus\:animation-fill-mode\:none:focus,
+	.lg\:focus\:afm\:none:focus {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:focus\:animation-fill-mode\:forwards:focus,
+	.lg\:focus\:afm\:forwards:focus {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:focus\:animation-fill-mode\:backwards:focus,
+	.lg\:focus\:afm\:backwards:focus {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:focus\:animation-fill-mode\:both:focus,
+	.lg\:focus\:afm\:both:focus {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:focus\:animation-play-state\:running:focus,
+	.lg\:focus\:aps\:running:focus {
+		animation-play-state: running !important;
+	}
+
+	.lg\:focus\:animation-play-state\:paused:focus,
+	.lg\:focus\:aps\:paused:focus {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:focus\:animation-iteration-count\:1:focus,
+	.lg\:focus\:aic\:1:focus {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:focus\:animation-iteration-count\:2:focus,
+	.lg\:focus\:aic\:2:focus {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:focus\:animation-iteration-count\:3:focus,
+	.lg\:focus\:aic\:3:focus {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:focus\:animation-iteration-count\:infinite:focus,
+	.lg\:focus\:aic\:infinite:focus {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:focus-visible\:animation\:none:focus-visible,
+	.lg\:focus-visible\:anim\:none:focus-visible {
+		animation: none !important;
+	}
+
+	.lg\:focus-visible\:animation\:spin:focus-visible,
+	.lg\:focus-visible\:anim\:spin:focus-visible {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:focus-visible\:animation\:pulse:focus-visible,
+	.lg\:focus-visible\:anim\:pulse:focus-visible {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:focus-visible\:animation\:bounce:focus-visible,
+	.lg\:focus-visible\:anim\:bounce:focus-visible {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:focus-visible\:animation\:ping:focus-visible,
+	.lg\:focus-visible\:anim\:ping:focus-visible {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:focus-visible\:animation-duration\:fast:focus-visible,
+	.lg\:focus-visible\:adur\:fast:focus-visible {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus-visible\:animation-duration\:normal:focus-visible,
+	.lg\:focus-visible\:adur\:normal:focus-visible {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus-visible\:animation-duration\:slow:focus-visible,
+	.lg\:focus-visible\:adur\:slow:focus-visible {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:focus-visible\:animation-timing-function\:linear:focus-visible,
+	.lg\:focus-visible\:atf\:linear:focus-visible {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus-visible\:animation-timing-function\:in:focus-visible,
+	.lg\:focus-visible\:atf\:in:focus-visible {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus-visible\:animation-timing-function\:out:focus-visible,
+	.lg\:focus-visible\:atf\:out:focus-visible {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus-visible\:animation-timing-function\:in-out:focus-visible,
+	.lg\:focus-visible\:atf\:in-out:focus-visible {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:focus-visible\:animation-direction\:normal:focus-visible,
+	.lg\:focus-visible\:adir\:normal:focus-visible {
+		animation-direction: normal !important;
+	}
+
+	.lg\:focus-visible\:animation-direction\:reverse:focus-visible,
+	.lg\:focus-visible\:adir\:reverse:focus-visible {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:focus-visible\:animation-direction\:alternate:focus-visible,
+	.lg\:focus-visible\:adir\:alternate:focus-visible {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:focus-visible\:animation-direction\:alternate-reverse:focus-visible,
+	.lg\:focus-visible\:adir\:alternate-reverse:focus-visible {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:focus-visible\:animation-fill-mode\:none:focus-visible,
+	.lg\:focus-visible\:afm\:none:focus-visible {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:focus-visible\:animation-fill-mode\:forwards:focus-visible,
+	.lg\:focus-visible\:afm\:forwards:focus-visible {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:focus-visible\:animation-fill-mode\:backwards:focus-visible,
+	.lg\:focus-visible\:afm\:backwards:focus-visible {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:focus-visible\:animation-fill-mode\:both:focus-visible,
+	.lg\:focus-visible\:afm\:both:focus-visible {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:focus-visible\:animation-play-state\:running:focus-visible,
+	.lg\:focus-visible\:aps\:running:focus-visible {
+		animation-play-state: running !important;
+	}
+
+	.lg\:focus-visible\:animation-play-state\:paused:focus-visible,
+	.lg\:focus-visible\:aps\:paused:focus-visible {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:focus-visible\:animation-iteration-count\:1:focus-visible,
+	.lg\:focus-visible\:aic\:1:focus-visible {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:focus-visible\:animation-iteration-count\:2:focus-visible,
+	.lg\:focus-visible\:aic\:2:focus-visible {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:focus-visible\:animation-iteration-count\:3:focus-visible,
+	.lg\:focus-visible\:aic\:3:focus-visible {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:focus-visible\:animation-iteration-count\:infinite:focus-visible,
+	.lg\:focus-visible\:aic\:infinite:focus-visible {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:focus-within\:animation\:none:focus-within,
+	.lg\:focus-within\:anim\:none:focus-within {
+		animation: none !important;
+	}
+
+	.lg\:focus-within\:animation\:spin:focus-within,
+	.lg\:focus-within\:anim\:spin:focus-within {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:focus-within\:animation\:pulse:focus-within,
+	.lg\:focus-within\:anim\:pulse:focus-within {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:focus-within\:animation\:bounce:focus-within,
+	.lg\:focus-within\:anim\:bounce:focus-within {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:focus-within\:animation\:ping:focus-within,
+	.lg\:focus-within\:anim\:ping:focus-within {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:focus-within\:animation-duration\:fast:focus-within,
+	.lg\:focus-within\:adur\:fast:focus-within {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus-within\:animation-duration\:normal:focus-within,
+	.lg\:focus-within\:adur\:normal:focus-within {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus-within\:animation-duration\:slow:focus-within,
+	.lg\:focus-within\:adur\:slow:focus-within {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:focus-within\:animation-timing-function\:linear:focus-within,
+	.lg\:focus-within\:atf\:linear:focus-within {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus-within\:animation-timing-function\:in:focus-within,
+	.lg\:focus-within\:atf\:in:focus-within {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus-within\:animation-timing-function\:out:focus-within,
+	.lg\:focus-within\:atf\:out:focus-within {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus-within\:animation-timing-function\:in-out:focus-within,
+	.lg\:focus-within\:atf\:in-out:focus-within {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:focus-within\:animation-direction\:normal:focus-within,
+	.lg\:focus-within\:adir\:normal:focus-within {
+		animation-direction: normal !important;
+	}
+
+	.lg\:focus-within\:animation-direction\:reverse:focus-within,
+	.lg\:focus-within\:adir\:reverse:focus-within {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:focus-within\:animation-direction\:alternate:focus-within,
+	.lg\:focus-within\:adir\:alternate:focus-within {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:focus-within\:animation-direction\:alternate-reverse:focus-within,
+	.lg\:focus-within\:adir\:alternate-reverse:focus-within {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:focus-within\:animation-fill-mode\:none:focus-within,
+	.lg\:focus-within\:afm\:none:focus-within {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:focus-within\:animation-fill-mode\:forwards:focus-within,
+	.lg\:focus-within\:afm\:forwards:focus-within {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:focus-within\:animation-fill-mode\:backwards:focus-within,
+	.lg\:focus-within\:afm\:backwards:focus-within {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:focus-within\:animation-fill-mode\:both:focus-within,
+	.lg\:focus-within\:afm\:both:focus-within {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:focus-within\:animation-play-state\:running:focus-within,
+	.lg\:focus-within\:aps\:running:focus-within {
+		animation-play-state: running !important;
+	}
+
+	.lg\:focus-within\:animation-play-state\:paused:focus-within,
+	.lg\:focus-within\:aps\:paused:focus-within {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:focus-within\:animation-iteration-count\:1:focus-within,
+	.lg\:focus-within\:aic\:1:focus-within {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:focus-within\:animation-iteration-count\:2:focus-within,
+	.lg\:focus-within\:aic\:2:focus-within {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:focus-within\:animation-iteration-count\:3:focus-within,
+	.lg\:focus-within\:aic\:3:focus-within {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:focus-within\:animation-iteration-count\:infinite:focus-within,
+	.lg\:focus-within\:aic\:infinite:focus-within {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:active\:animation\:none:active,
+	.lg\:active\:anim\:none:active {
+		animation: none !important;
+	}
+
+	.lg\:active\:animation\:spin:active,
+	.lg\:active\:anim\:spin:active {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:active\:animation\:pulse:active,
+	.lg\:active\:anim\:pulse:active {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:active\:animation\:bounce:active,
+	.lg\:active\:anim\:bounce:active {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:active\:animation\:ping:active,
+	.lg\:active\:anim\:ping:active {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:active\:animation-duration\:fast:active,
+	.lg\:active\:adur\:fast:active {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:active\:animation-duration\:normal:active,
+	.lg\:active\:adur\:normal:active {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:active\:animation-duration\:slow:active,
+	.lg\:active\:adur\:slow:active {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:active\:animation-timing-function\:linear:active,
+	.lg\:active\:atf\:linear:active {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:active\:animation-timing-function\:in:active,
+	.lg\:active\:atf\:in:active {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:active\:animation-timing-function\:out:active,
+	.lg\:active\:atf\:out:active {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:active\:animation-timing-function\:in-out:active,
+	.lg\:active\:atf\:in-out:active {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:active\:animation-direction\:normal:active,
+	.lg\:active\:adir\:normal:active {
+		animation-direction: normal !important;
+	}
+
+	.lg\:active\:animation-direction\:reverse:active,
+	.lg\:active\:adir\:reverse:active {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:active\:animation-direction\:alternate:active,
+	.lg\:active\:adir\:alternate:active {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:active\:animation-direction\:alternate-reverse:active,
+	.lg\:active\:adir\:alternate-reverse:active {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:active\:animation-fill-mode\:none:active,
+	.lg\:active\:afm\:none:active {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:active\:animation-fill-mode\:forwards:active,
+	.lg\:active\:afm\:forwards:active {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:active\:animation-fill-mode\:backwards:active,
+	.lg\:active\:afm\:backwards:active {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:active\:animation-fill-mode\:both:active,
+	.lg\:active\:afm\:both:active {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:active\:animation-play-state\:running:active,
+	.lg\:active\:aps\:running:active {
+		animation-play-state: running !important;
+	}
+
+	.lg\:active\:animation-play-state\:paused:active,
+	.lg\:active\:aps\:paused:active {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:active\:animation-iteration-count\:1:active,
+	.lg\:active\:aic\:1:active {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:active\:animation-iteration-count\:2:active,
+	.lg\:active\:aic\:2:active {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:active\:animation-iteration-count\:3:active,
+	.lg\:active\:aic\:3:active {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:active\:animation-iteration-count\:infinite:active,
+	.lg\:active\:aic\:infinite:active {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:disabled\:animation\:none:disabled,
+	.lg\:disabled\:anim\:none:disabled {
+		animation: none !important;
+	}
+
+	.lg\:disabled\:animation\:spin:disabled,
+	.lg\:disabled\:anim\:spin:disabled {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:disabled\:animation\:pulse:disabled,
+	.lg\:disabled\:anim\:pulse:disabled {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:disabled\:animation\:bounce:disabled,
+	.lg\:disabled\:anim\:bounce:disabled {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:disabled\:animation\:ping:disabled,
+	.lg\:disabled\:anim\:ping:disabled {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:disabled\:animation-duration\:fast:disabled,
+	.lg\:disabled\:adur\:fast:disabled {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:disabled\:animation-duration\:normal:disabled,
+	.lg\:disabled\:adur\:normal:disabled {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:disabled\:animation-duration\:slow:disabled,
+	.lg\:disabled\:adur\:slow:disabled {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:disabled\:animation-timing-function\:linear:disabled,
+	.lg\:disabled\:atf\:linear:disabled {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:disabled\:animation-timing-function\:in:disabled,
+	.lg\:disabled\:atf\:in:disabled {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:disabled\:animation-timing-function\:out:disabled,
+	.lg\:disabled\:atf\:out:disabled {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:disabled\:animation-timing-function\:in-out:disabled,
+	.lg\:disabled\:atf\:in-out:disabled {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:disabled\:animation-direction\:normal:disabled,
+	.lg\:disabled\:adir\:normal:disabled {
+		animation-direction: normal !important;
+	}
+
+	.lg\:disabled\:animation-direction\:reverse:disabled,
+	.lg\:disabled\:adir\:reverse:disabled {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:disabled\:animation-direction\:alternate:disabled,
+	.lg\:disabled\:adir\:alternate:disabled {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:disabled\:animation-direction\:alternate-reverse:disabled,
+	.lg\:disabled\:adir\:alternate-reverse:disabled {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:disabled\:animation-fill-mode\:none:disabled,
+	.lg\:disabled\:afm\:none:disabled {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:disabled\:animation-fill-mode\:forwards:disabled,
+	.lg\:disabled\:afm\:forwards:disabled {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:disabled\:animation-fill-mode\:backwards:disabled,
+	.lg\:disabled\:afm\:backwards:disabled {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:disabled\:animation-fill-mode\:both:disabled,
+	.lg\:disabled\:afm\:both:disabled {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:disabled\:animation-play-state\:running:disabled,
+	.lg\:disabled\:aps\:running:disabled {
+		animation-play-state: running !important;
+	}
+
+	.lg\:disabled\:animation-play-state\:paused:disabled,
+	.lg\:disabled\:aps\:paused:disabled {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:disabled\:animation-iteration-count\:1:disabled,
+	.lg\:disabled\:aic\:1:disabled {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:disabled\:animation-iteration-count\:2:disabled,
+	.lg\:disabled\:aic\:2:disabled {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:disabled\:animation-iteration-count\:3:disabled,
+	.lg\:disabled\:aic\:3:disabled {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:disabled\:animation-iteration-count\:infinite:disabled,
+	.lg\:disabled\:aic\:infinite:disabled {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:checked\:animation\:none:checked,
+	.lg\:checked\:anim\:none:checked {
+		animation: none !important;
+	}
+
+	.lg\:checked\:animation\:spin:checked,
+	.lg\:checked\:anim\:spin:checked {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:checked\:animation\:pulse:checked,
+	.lg\:checked\:anim\:pulse:checked {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:checked\:animation\:bounce:checked,
+	.lg\:checked\:anim\:bounce:checked {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:checked\:animation\:ping:checked,
+	.lg\:checked\:anim\:ping:checked {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:checked\:animation-duration\:fast:checked,
+	.lg\:checked\:adur\:fast:checked {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:checked\:animation-duration\:normal:checked,
+	.lg\:checked\:adur\:normal:checked {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:checked\:animation-duration\:slow:checked,
+	.lg\:checked\:adur\:slow:checked {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:checked\:animation-timing-function\:linear:checked,
+	.lg\:checked\:atf\:linear:checked {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:checked\:animation-timing-function\:in:checked,
+	.lg\:checked\:atf\:in:checked {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:checked\:animation-timing-function\:out:checked,
+	.lg\:checked\:atf\:out:checked {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:checked\:animation-timing-function\:in-out:checked,
+	.lg\:checked\:atf\:in-out:checked {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:checked\:animation-direction\:normal:checked,
+	.lg\:checked\:adir\:normal:checked {
+		animation-direction: normal !important;
+	}
+
+	.lg\:checked\:animation-direction\:reverse:checked,
+	.lg\:checked\:adir\:reverse:checked {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:checked\:animation-direction\:alternate:checked,
+	.lg\:checked\:adir\:alternate:checked {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:checked\:animation-direction\:alternate-reverse:checked,
+	.lg\:checked\:adir\:alternate-reverse:checked {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:checked\:animation-fill-mode\:none:checked,
+	.lg\:checked\:afm\:none:checked {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:checked\:animation-fill-mode\:forwards:checked,
+	.lg\:checked\:afm\:forwards:checked {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:checked\:animation-fill-mode\:backwards:checked,
+	.lg\:checked\:afm\:backwards:checked {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:checked\:animation-fill-mode\:both:checked,
+	.lg\:checked\:afm\:both:checked {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:checked\:animation-play-state\:running:checked,
+	.lg\:checked\:aps\:running:checked {
+		animation-play-state: running !important;
+	}
+
+	.lg\:checked\:animation-play-state\:paused:checked,
+	.lg\:checked\:aps\:paused:checked {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:checked\:animation-iteration-count\:1:checked,
+	.lg\:checked\:aic\:1:checked {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:checked\:animation-iteration-count\:2:checked,
+	.lg\:checked\:aic\:2:checked {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:checked\:animation-iteration-count\:3:checked,
+	.lg\:checked\:aic\:3:checked {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:checked\:animation-iteration-count\:infinite:checked,
+	.lg\:checked\:aic\:infinite:checked {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.lg\:visited\:animation\:none:visited,
+	.lg\:visited\:anim\:none:visited {
+		animation: none !important;
+	}
+
+	.lg\:visited\:animation\:spin:visited,
+	.lg\:visited\:anim\:spin:visited {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.lg\:visited\:animation\:pulse:visited,
+	.lg\:visited\:anim\:pulse:visited {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.lg\:visited\:animation\:bounce:visited,
+	.lg\:visited\:anim\:bounce:visited {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.lg\:visited\:animation\:ping:visited,
+	.lg\:visited\:anim\:ping:visited {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.lg\:visited\:animation-duration\:fast:visited,
+	.lg\:visited\:adur\:fast:visited {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:visited\:animation-duration\:normal:visited,
+	.lg\:visited\:adur\:normal:visited {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:visited\:animation-duration\:slow:visited,
+	.lg\:visited\:adur\:slow:visited {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.lg\:visited\:animation-timing-function\:linear:visited,
+	.lg\:visited\:atf\:linear:visited {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:visited\:animation-timing-function\:in:visited,
+	.lg\:visited\:atf\:in:visited {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:visited\:animation-timing-function\:out:visited,
+	.lg\:visited\:atf\:out:visited {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:visited\:animation-timing-function\:in-out:visited,
+	.lg\:visited\:atf\:in-out:visited {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.lg\:visited\:animation-direction\:normal:visited,
+	.lg\:visited\:adir\:normal:visited {
+		animation-direction: normal !important;
+	}
+
+	.lg\:visited\:animation-direction\:reverse:visited,
+	.lg\:visited\:adir\:reverse:visited {
+		animation-direction: reverse !important;
+	}
+
+	.lg\:visited\:animation-direction\:alternate:visited,
+	.lg\:visited\:adir\:alternate:visited {
+		animation-direction: alternate !important;
+	}
+
+	.lg\:visited\:animation-direction\:alternate-reverse:visited,
+	.lg\:visited\:adir\:alternate-reverse:visited {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.lg\:visited\:animation-fill-mode\:none:visited,
+	.lg\:visited\:afm\:none:visited {
+		animation-fill-mode: none !important;
+	}
+
+	.lg\:visited\:animation-fill-mode\:forwards:visited,
+	.lg\:visited\:afm\:forwards:visited {
+		animation-fill-mode: forwards !important;
+	}
+
+	.lg\:visited\:animation-fill-mode\:backwards:visited,
+	.lg\:visited\:afm\:backwards:visited {
+		animation-fill-mode: backwards !important;
+	}
+
+	.lg\:visited\:animation-fill-mode\:both:visited,
+	.lg\:visited\:afm\:both:visited {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.lg\:visited\:animation-play-state\:running:visited,
+	.lg\:visited\:aps\:running:visited {
+		animation-play-state: running !important;
+	}
+
+	.lg\:visited\:animation-play-state\:paused:visited,
+	.lg\:visited\:aps\:paused:visited {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.lg\:visited\:animation-iteration-count\:1:visited,
+	.lg\:visited\:aic\:1:visited {
+		animation-iteration-count: 1 !important;
+	}
+
+	.lg\:visited\:animation-iteration-count\:2:visited,
+	.lg\:visited\:aic\:2:visited {
+		animation-iteration-count: 2 !important;
+	}
+
+	.lg\:visited\:animation-iteration-count\:3:visited,
+	.lg\:visited\:aic\:3:visited {
+		animation-iteration-count: 3 !important;
+	}
+
+	.lg\:visited\:animation-iteration-count\:infinite:visited,
+	.lg\:visited\:aic\:infinite:visited {
+		animation-iteration-count: infinite !important;
+	}
+
 }
 
 @media (min-width: 1280px) {
@@ -871,6 +6439,1398 @@
 
 	.xl\:animation-iteration-count\:infinite,
 	.xl\:aic\:infinite {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:hover\:animation\:none:hover,
+	.xl\:hover\:anim\:none:hover {
+		animation: none !important;
+	}
+
+	.xl\:hover\:animation\:spin:hover,
+	.xl\:hover\:anim\:spin:hover {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:hover\:animation\:pulse:hover,
+	.xl\:hover\:anim\:pulse:hover {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:hover\:animation\:bounce:hover,
+	.xl\:hover\:anim\:bounce:hover {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:hover\:animation\:ping:hover,
+	.xl\:hover\:anim\:ping:hover {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:hover\:animation-duration\:fast:hover,
+	.xl\:hover\:adur\:fast:hover {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:hover\:animation-duration\:normal:hover,
+	.xl\:hover\:adur\:normal:hover {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:hover\:animation-duration\:slow:hover,
+	.xl\:hover\:adur\:slow:hover {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:hover\:animation-timing-function\:linear:hover,
+	.xl\:hover\:atf\:linear:hover {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:hover\:animation-timing-function\:in:hover,
+	.xl\:hover\:atf\:in:hover {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:hover\:animation-timing-function\:out:hover,
+	.xl\:hover\:atf\:out:hover {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:hover\:animation-timing-function\:in-out:hover,
+	.xl\:hover\:atf\:in-out:hover {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:hover\:animation-direction\:normal:hover,
+	.xl\:hover\:adir\:normal:hover {
+		animation-direction: normal !important;
+	}
+
+	.xl\:hover\:animation-direction\:reverse:hover,
+	.xl\:hover\:adir\:reverse:hover {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:hover\:animation-direction\:alternate:hover,
+	.xl\:hover\:adir\:alternate:hover {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:hover\:animation-direction\:alternate-reverse:hover,
+	.xl\:hover\:adir\:alternate-reverse:hover {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:hover\:animation-fill-mode\:none:hover,
+	.xl\:hover\:afm\:none:hover {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:hover\:animation-fill-mode\:forwards:hover,
+	.xl\:hover\:afm\:forwards:hover {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:hover\:animation-fill-mode\:backwards:hover,
+	.xl\:hover\:afm\:backwards:hover {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:hover\:animation-fill-mode\:both:hover,
+	.xl\:hover\:afm\:both:hover {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:hover\:animation-play-state\:running:hover,
+	.xl\:hover\:aps\:running:hover {
+		animation-play-state: running !important;
+	}
+
+	.xl\:hover\:animation-play-state\:paused:hover,
+	.xl\:hover\:aps\:paused:hover {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:hover\:animation-iteration-count\:1:hover,
+	.xl\:hover\:aic\:1:hover {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:hover\:animation-iteration-count\:2:hover,
+	.xl\:hover\:aic\:2:hover {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:hover\:animation-iteration-count\:3:hover,
+	.xl\:hover\:aic\:3:hover {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:hover\:animation-iteration-count\:infinite:hover,
+	.xl\:hover\:aic\:infinite:hover {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:focus\:animation\:none:focus,
+	.xl\:focus\:anim\:none:focus {
+		animation: none !important;
+	}
+
+	.xl\:focus\:animation\:spin:focus,
+	.xl\:focus\:anim\:spin:focus {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:focus\:animation\:pulse:focus,
+	.xl\:focus\:anim\:pulse:focus {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:focus\:animation\:bounce:focus,
+	.xl\:focus\:anim\:bounce:focus {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:focus\:animation\:ping:focus,
+	.xl\:focus\:anim\:ping:focus {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:focus\:animation-duration\:fast:focus,
+	.xl\:focus\:adur\:fast:focus {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus\:animation-duration\:normal:focus,
+	.xl\:focus\:adur\:normal:focus {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus\:animation-duration\:slow:focus,
+	.xl\:focus\:adur\:slow:focus {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:focus\:animation-timing-function\:linear:focus,
+	.xl\:focus\:atf\:linear:focus {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus\:animation-timing-function\:in:focus,
+	.xl\:focus\:atf\:in:focus {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus\:animation-timing-function\:out:focus,
+	.xl\:focus\:atf\:out:focus {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus\:animation-timing-function\:in-out:focus,
+	.xl\:focus\:atf\:in-out:focus {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:focus\:animation-direction\:normal:focus,
+	.xl\:focus\:adir\:normal:focus {
+		animation-direction: normal !important;
+	}
+
+	.xl\:focus\:animation-direction\:reverse:focus,
+	.xl\:focus\:adir\:reverse:focus {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:focus\:animation-direction\:alternate:focus,
+	.xl\:focus\:adir\:alternate:focus {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:focus\:animation-direction\:alternate-reverse:focus,
+	.xl\:focus\:adir\:alternate-reverse:focus {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:focus\:animation-fill-mode\:none:focus,
+	.xl\:focus\:afm\:none:focus {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:focus\:animation-fill-mode\:forwards:focus,
+	.xl\:focus\:afm\:forwards:focus {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:focus\:animation-fill-mode\:backwards:focus,
+	.xl\:focus\:afm\:backwards:focus {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:focus\:animation-fill-mode\:both:focus,
+	.xl\:focus\:afm\:both:focus {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:focus\:animation-play-state\:running:focus,
+	.xl\:focus\:aps\:running:focus {
+		animation-play-state: running !important;
+	}
+
+	.xl\:focus\:animation-play-state\:paused:focus,
+	.xl\:focus\:aps\:paused:focus {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:focus\:animation-iteration-count\:1:focus,
+	.xl\:focus\:aic\:1:focus {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:focus\:animation-iteration-count\:2:focus,
+	.xl\:focus\:aic\:2:focus {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:focus\:animation-iteration-count\:3:focus,
+	.xl\:focus\:aic\:3:focus {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:focus\:animation-iteration-count\:infinite:focus,
+	.xl\:focus\:aic\:infinite:focus {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:focus-visible\:animation\:none:focus-visible,
+	.xl\:focus-visible\:anim\:none:focus-visible {
+		animation: none !important;
+	}
+
+	.xl\:focus-visible\:animation\:spin:focus-visible,
+	.xl\:focus-visible\:anim\:spin:focus-visible {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:focus-visible\:animation\:pulse:focus-visible,
+	.xl\:focus-visible\:anim\:pulse:focus-visible {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:focus-visible\:animation\:bounce:focus-visible,
+	.xl\:focus-visible\:anim\:bounce:focus-visible {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:focus-visible\:animation\:ping:focus-visible,
+	.xl\:focus-visible\:anim\:ping:focus-visible {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:focus-visible\:animation-duration\:fast:focus-visible,
+	.xl\:focus-visible\:adur\:fast:focus-visible {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus-visible\:animation-duration\:normal:focus-visible,
+	.xl\:focus-visible\:adur\:normal:focus-visible {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus-visible\:animation-duration\:slow:focus-visible,
+	.xl\:focus-visible\:adur\:slow:focus-visible {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:focus-visible\:animation-timing-function\:linear:focus-visible,
+	.xl\:focus-visible\:atf\:linear:focus-visible {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus-visible\:animation-timing-function\:in:focus-visible,
+	.xl\:focus-visible\:atf\:in:focus-visible {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus-visible\:animation-timing-function\:out:focus-visible,
+	.xl\:focus-visible\:atf\:out:focus-visible {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus-visible\:animation-timing-function\:in-out:focus-visible,
+	.xl\:focus-visible\:atf\:in-out:focus-visible {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:focus-visible\:animation-direction\:normal:focus-visible,
+	.xl\:focus-visible\:adir\:normal:focus-visible {
+		animation-direction: normal !important;
+	}
+
+	.xl\:focus-visible\:animation-direction\:reverse:focus-visible,
+	.xl\:focus-visible\:adir\:reverse:focus-visible {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:focus-visible\:animation-direction\:alternate:focus-visible,
+	.xl\:focus-visible\:adir\:alternate:focus-visible {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:focus-visible\:animation-direction\:alternate-reverse:focus-visible,
+	.xl\:focus-visible\:adir\:alternate-reverse:focus-visible {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:focus-visible\:animation-fill-mode\:none:focus-visible,
+	.xl\:focus-visible\:afm\:none:focus-visible {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:focus-visible\:animation-fill-mode\:forwards:focus-visible,
+	.xl\:focus-visible\:afm\:forwards:focus-visible {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:focus-visible\:animation-fill-mode\:backwards:focus-visible,
+	.xl\:focus-visible\:afm\:backwards:focus-visible {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:focus-visible\:animation-fill-mode\:both:focus-visible,
+	.xl\:focus-visible\:afm\:both:focus-visible {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:focus-visible\:animation-play-state\:running:focus-visible,
+	.xl\:focus-visible\:aps\:running:focus-visible {
+		animation-play-state: running !important;
+	}
+
+	.xl\:focus-visible\:animation-play-state\:paused:focus-visible,
+	.xl\:focus-visible\:aps\:paused:focus-visible {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:focus-visible\:animation-iteration-count\:1:focus-visible,
+	.xl\:focus-visible\:aic\:1:focus-visible {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:focus-visible\:animation-iteration-count\:2:focus-visible,
+	.xl\:focus-visible\:aic\:2:focus-visible {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:focus-visible\:animation-iteration-count\:3:focus-visible,
+	.xl\:focus-visible\:aic\:3:focus-visible {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:focus-visible\:animation-iteration-count\:infinite:focus-visible,
+	.xl\:focus-visible\:aic\:infinite:focus-visible {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:focus-within\:animation\:none:focus-within,
+	.xl\:focus-within\:anim\:none:focus-within {
+		animation: none !important;
+	}
+
+	.xl\:focus-within\:animation\:spin:focus-within,
+	.xl\:focus-within\:anim\:spin:focus-within {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:focus-within\:animation\:pulse:focus-within,
+	.xl\:focus-within\:anim\:pulse:focus-within {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:focus-within\:animation\:bounce:focus-within,
+	.xl\:focus-within\:anim\:bounce:focus-within {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:focus-within\:animation\:ping:focus-within,
+	.xl\:focus-within\:anim\:ping:focus-within {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:focus-within\:animation-duration\:fast:focus-within,
+	.xl\:focus-within\:adur\:fast:focus-within {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus-within\:animation-duration\:normal:focus-within,
+	.xl\:focus-within\:adur\:normal:focus-within {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus-within\:animation-duration\:slow:focus-within,
+	.xl\:focus-within\:adur\:slow:focus-within {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:focus-within\:animation-timing-function\:linear:focus-within,
+	.xl\:focus-within\:atf\:linear:focus-within {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus-within\:animation-timing-function\:in:focus-within,
+	.xl\:focus-within\:atf\:in:focus-within {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus-within\:animation-timing-function\:out:focus-within,
+	.xl\:focus-within\:atf\:out:focus-within {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus-within\:animation-timing-function\:in-out:focus-within,
+	.xl\:focus-within\:atf\:in-out:focus-within {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:focus-within\:animation-direction\:normal:focus-within,
+	.xl\:focus-within\:adir\:normal:focus-within {
+		animation-direction: normal !important;
+	}
+
+	.xl\:focus-within\:animation-direction\:reverse:focus-within,
+	.xl\:focus-within\:adir\:reverse:focus-within {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:focus-within\:animation-direction\:alternate:focus-within,
+	.xl\:focus-within\:adir\:alternate:focus-within {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:focus-within\:animation-direction\:alternate-reverse:focus-within,
+	.xl\:focus-within\:adir\:alternate-reverse:focus-within {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:focus-within\:animation-fill-mode\:none:focus-within,
+	.xl\:focus-within\:afm\:none:focus-within {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:focus-within\:animation-fill-mode\:forwards:focus-within,
+	.xl\:focus-within\:afm\:forwards:focus-within {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:focus-within\:animation-fill-mode\:backwards:focus-within,
+	.xl\:focus-within\:afm\:backwards:focus-within {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:focus-within\:animation-fill-mode\:both:focus-within,
+	.xl\:focus-within\:afm\:both:focus-within {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:focus-within\:animation-play-state\:running:focus-within,
+	.xl\:focus-within\:aps\:running:focus-within {
+		animation-play-state: running !important;
+	}
+
+	.xl\:focus-within\:animation-play-state\:paused:focus-within,
+	.xl\:focus-within\:aps\:paused:focus-within {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:focus-within\:animation-iteration-count\:1:focus-within,
+	.xl\:focus-within\:aic\:1:focus-within {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:focus-within\:animation-iteration-count\:2:focus-within,
+	.xl\:focus-within\:aic\:2:focus-within {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:focus-within\:animation-iteration-count\:3:focus-within,
+	.xl\:focus-within\:aic\:3:focus-within {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:focus-within\:animation-iteration-count\:infinite:focus-within,
+	.xl\:focus-within\:aic\:infinite:focus-within {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:active\:animation\:none:active,
+	.xl\:active\:anim\:none:active {
+		animation: none !important;
+	}
+
+	.xl\:active\:animation\:spin:active,
+	.xl\:active\:anim\:spin:active {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:active\:animation\:pulse:active,
+	.xl\:active\:anim\:pulse:active {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:active\:animation\:bounce:active,
+	.xl\:active\:anim\:bounce:active {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:active\:animation\:ping:active,
+	.xl\:active\:anim\:ping:active {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:active\:animation-duration\:fast:active,
+	.xl\:active\:adur\:fast:active {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:active\:animation-duration\:normal:active,
+	.xl\:active\:adur\:normal:active {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:active\:animation-duration\:slow:active,
+	.xl\:active\:adur\:slow:active {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:active\:animation-timing-function\:linear:active,
+	.xl\:active\:atf\:linear:active {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:active\:animation-timing-function\:in:active,
+	.xl\:active\:atf\:in:active {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:active\:animation-timing-function\:out:active,
+	.xl\:active\:atf\:out:active {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:active\:animation-timing-function\:in-out:active,
+	.xl\:active\:atf\:in-out:active {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:active\:animation-direction\:normal:active,
+	.xl\:active\:adir\:normal:active {
+		animation-direction: normal !important;
+	}
+
+	.xl\:active\:animation-direction\:reverse:active,
+	.xl\:active\:adir\:reverse:active {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:active\:animation-direction\:alternate:active,
+	.xl\:active\:adir\:alternate:active {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:active\:animation-direction\:alternate-reverse:active,
+	.xl\:active\:adir\:alternate-reverse:active {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:active\:animation-fill-mode\:none:active,
+	.xl\:active\:afm\:none:active {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:active\:animation-fill-mode\:forwards:active,
+	.xl\:active\:afm\:forwards:active {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:active\:animation-fill-mode\:backwards:active,
+	.xl\:active\:afm\:backwards:active {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:active\:animation-fill-mode\:both:active,
+	.xl\:active\:afm\:both:active {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:active\:animation-play-state\:running:active,
+	.xl\:active\:aps\:running:active {
+		animation-play-state: running !important;
+	}
+
+	.xl\:active\:animation-play-state\:paused:active,
+	.xl\:active\:aps\:paused:active {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:active\:animation-iteration-count\:1:active,
+	.xl\:active\:aic\:1:active {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:active\:animation-iteration-count\:2:active,
+	.xl\:active\:aic\:2:active {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:active\:animation-iteration-count\:3:active,
+	.xl\:active\:aic\:3:active {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:active\:animation-iteration-count\:infinite:active,
+	.xl\:active\:aic\:infinite:active {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:disabled\:animation\:none:disabled,
+	.xl\:disabled\:anim\:none:disabled {
+		animation: none !important;
+	}
+
+	.xl\:disabled\:animation\:spin:disabled,
+	.xl\:disabled\:anim\:spin:disabled {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:disabled\:animation\:pulse:disabled,
+	.xl\:disabled\:anim\:pulse:disabled {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:disabled\:animation\:bounce:disabled,
+	.xl\:disabled\:anim\:bounce:disabled {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:disabled\:animation\:ping:disabled,
+	.xl\:disabled\:anim\:ping:disabled {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:disabled\:animation-duration\:fast:disabled,
+	.xl\:disabled\:adur\:fast:disabled {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:disabled\:animation-duration\:normal:disabled,
+	.xl\:disabled\:adur\:normal:disabled {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:disabled\:animation-duration\:slow:disabled,
+	.xl\:disabled\:adur\:slow:disabled {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:disabled\:animation-timing-function\:linear:disabled,
+	.xl\:disabled\:atf\:linear:disabled {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:disabled\:animation-timing-function\:in:disabled,
+	.xl\:disabled\:atf\:in:disabled {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:disabled\:animation-timing-function\:out:disabled,
+	.xl\:disabled\:atf\:out:disabled {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:disabled\:animation-timing-function\:in-out:disabled,
+	.xl\:disabled\:atf\:in-out:disabled {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:disabled\:animation-direction\:normal:disabled,
+	.xl\:disabled\:adir\:normal:disabled {
+		animation-direction: normal !important;
+	}
+
+	.xl\:disabled\:animation-direction\:reverse:disabled,
+	.xl\:disabled\:adir\:reverse:disabled {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:disabled\:animation-direction\:alternate:disabled,
+	.xl\:disabled\:adir\:alternate:disabled {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:disabled\:animation-direction\:alternate-reverse:disabled,
+	.xl\:disabled\:adir\:alternate-reverse:disabled {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:disabled\:animation-fill-mode\:none:disabled,
+	.xl\:disabled\:afm\:none:disabled {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:disabled\:animation-fill-mode\:forwards:disabled,
+	.xl\:disabled\:afm\:forwards:disabled {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:disabled\:animation-fill-mode\:backwards:disabled,
+	.xl\:disabled\:afm\:backwards:disabled {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:disabled\:animation-fill-mode\:both:disabled,
+	.xl\:disabled\:afm\:both:disabled {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:disabled\:animation-play-state\:running:disabled,
+	.xl\:disabled\:aps\:running:disabled {
+		animation-play-state: running !important;
+	}
+
+	.xl\:disabled\:animation-play-state\:paused:disabled,
+	.xl\:disabled\:aps\:paused:disabled {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:disabled\:animation-iteration-count\:1:disabled,
+	.xl\:disabled\:aic\:1:disabled {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:disabled\:animation-iteration-count\:2:disabled,
+	.xl\:disabled\:aic\:2:disabled {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:disabled\:animation-iteration-count\:3:disabled,
+	.xl\:disabled\:aic\:3:disabled {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:disabled\:animation-iteration-count\:infinite:disabled,
+	.xl\:disabled\:aic\:infinite:disabled {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:checked\:animation\:none:checked,
+	.xl\:checked\:anim\:none:checked {
+		animation: none !important;
+	}
+
+	.xl\:checked\:animation\:spin:checked,
+	.xl\:checked\:anim\:spin:checked {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:checked\:animation\:pulse:checked,
+	.xl\:checked\:anim\:pulse:checked {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:checked\:animation\:bounce:checked,
+	.xl\:checked\:anim\:bounce:checked {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:checked\:animation\:ping:checked,
+	.xl\:checked\:anim\:ping:checked {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:checked\:animation-duration\:fast:checked,
+	.xl\:checked\:adur\:fast:checked {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:checked\:animation-duration\:normal:checked,
+	.xl\:checked\:adur\:normal:checked {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:checked\:animation-duration\:slow:checked,
+	.xl\:checked\:adur\:slow:checked {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:checked\:animation-timing-function\:linear:checked,
+	.xl\:checked\:atf\:linear:checked {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:checked\:animation-timing-function\:in:checked,
+	.xl\:checked\:atf\:in:checked {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:checked\:animation-timing-function\:out:checked,
+	.xl\:checked\:atf\:out:checked {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:checked\:animation-timing-function\:in-out:checked,
+	.xl\:checked\:atf\:in-out:checked {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:checked\:animation-direction\:normal:checked,
+	.xl\:checked\:adir\:normal:checked {
+		animation-direction: normal !important;
+	}
+
+	.xl\:checked\:animation-direction\:reverse:checked,
+	.xl\:checked\:adir\:reverse:checked {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:checked\:animation-direction\:alternate:checked,
+	.xl\:checked\:adir\:alternate:checked {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:checked\:animation-direction\:alternate-reverse:checked,
+	.xl\:checked\:adir\:alternate-reverse:checked {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:checked\:animation-fill-mode\:none:checked,
+	.xl\:checked\:afm\:none:checked {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:checked\:animation-fill-mode\:forwards:checked,
+	.xl\:checked\:afm\:forwards:checked {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:checked\:animation-fill-mode\:backwards:checked,
+	.xl\:checked\:afm\:backwards:checked {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:checked\:animation-fill-mode\:both:checked,
+	.xl\:checked\:afm\:both:checked {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:checked\:animation-play-state\:running:checked,
+	.xl\:checked\:aps\:running:checked {
+		animation-play-state: running !important;
+	}
+
+	.xl\:checked\:animation-play-state\:paused:checked,
+	.xl\:checked\:aps\:paused:checked {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:checked\:animation-iteration-count\:1:checked,
+	.xl\:checked\:aic\:1:checked {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:checked\:animation-iteration-count\:2:checked,
+	.xl\:checked\:aic\:2:checked {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:checked\:animation-iteration-count\:3:checked,
+	.xl\:checked\:aic\:3:checked {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:checked\:animation-iteration-count\:infinite:checked,
+	.xl\:checked\:aic\:infinite:checked {
+		animation-iteration-count: infinite !important;
+	}
+
+
+	/* ===== ANIMATION UTILITIES — presets + property selectors ===== */
+
+	/* KEYFRAMES (newtil-* prefixed) */
+
+	@keyframes newtil-spin {
+		from { rotate: 0deg; }
+		to { rotate: 360deg; }
+	}
+	@keyframes newtil-pulse {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0.5; }
+	}
+	@keyframes newtil-bounce {
+		0%, 100% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+		50% {
+			transform: translateY(0);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+	}
+	@keyframes newtil-ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
+
+	/* ANIMATION (preset shorthand) */
+
+	.xl\:visited\:animation\:none:visited,
+	.xl\:visited\:anim\:none:visited {
+		animation: none !important;
+	}
+
+	.xl\:visited\:animation\:spin:visited,
+	.xl\:visited\:anim\:spin:visited {
+		animation: newtil-spin 1s linear infinite !important;
+	}
+
+	.xl\:visited\:animation\:pulse:visited,
+	.xl\:visited\:anim\:pulse:visited {
+		animation: newtil-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+	}
+
+	.xl\:visited\:animation\:bounce:visited,
+	.xl\:visited\:anim\:bounce:visited {
+		animation: newtil-bounce 1s infinite !important;
+	}
+
+	.xl\:visited\:animation\:ping:visited,
+	.xl\:visited\:anim\:ping:visited {
+		animation: newtil-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite !important;
+	}
+
+	/* ANIMATION-DURATION */
+
+	.xl\:visited\:animation-duration\:fast:visited,
+	.xl\:visited\:adur\:fast:visited {
+		animation-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:visited\:animation-duration\:normal:visited,
+	.xl\:visited\:adur\:normal:visited {
+		animation-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:visited\:animation-duration\:slow:visited,
+	.xl\:visited\:adur\:slow:visited {
+		animation-duration: var(--duration-slow) !important;
+	}
+
+	/* ANIMATION-TIMING-FUNCTION */
+
+	.xl\:visited\:animation-timing-function\:linear:visited,
+	.xl\:visited\:atf\:linear:visited {
+		animation-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:visited\:animation-timing-function\:in:visited,
+	.xl\:visited\:atf\:in:visited {
+		animation-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:visited\:animation-timing-function\:out:visited,
+	.xl\:visited\:atf\:out:visited {
+		animation-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:visited\:animation-timing-function\:in-out:visited,
+	.xl\:visited\:atf\:in-out:visited {
+		animation-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* ANIMATION-DIRECTION */
+
+	.xl\:visited\:animation-direction\:normal:visited,
+	.xl\:visited\:adir\:normal:visited {
+		animation-direction: normal !important;
+	}
+
+	.xl\:visited\:animation-direction\:reverse:visited,
+	.xl\:visited\:adir\:reverse:visited {
+		animation-direction: reverse !important;
+	}
+
+	.xl\:visited\:animation-direction\:alternate:visited,
+	.xl\:visited\:adir\:alternate:visited {
+		animation-direction: alternate !important;
+	}
+
+	.xl\:visited\:animation-direction\:alternate-reverse:visited,
+	.xl\:visited\:adir\:alternate-reverse:visited {
+		animation-direction: alternate-reverse !important;
+	}
+
+	/* ANIMATION-FILL-MODE */
+
+	.xl\:visited\:animation-fill-mode\:none:visited,
+	.xl\:visited\:afm\:none:visited {
+		animation-fill-mode: none !important;
+	}
+
+	.xl\:visited\:animation-fill-mode\:forwards:visited,
+	.xl\:visited\:afm\:forwards:visited {
+		animation-fill-mode: forwards !important;
+	}
+
+	.xl\:visited\:animation-fill-mode\:backwards:visited,
+	.xl\:visited\:afm\:backwards:visited {
+		animation-fill-mode: backwards !important;
+	}
+
+	.xl\:visited\:animation-fill-mode\:both:visited,
+	.xl\:visited\:afm\:both:visited {
+		animation-fill-mode: both !important;
+	}
+
+	/* ANIMATION-PLAY-STATE */
+
+	.xl\:visited\:animation-play-state\:running:visited,
+	.xl\:visited\:aps\:running:visited {
+		animation-play-state: running !important;
+	}
+
+	.xl\:visited\:animation-play-state\:paused:visited,
+	.xl\:visited\:aps\:paused:visited {
+		animation-play-state: paused !important;
+	}
+
+	/* ANIMATION-ITERATION-COUNT */
+
+	.xl\:visited\:animation-iteration-count\:1:visited,
+	.xl\:visited\:aic\:1:visited {
+		animation-iteration-count: 1 !important;
+	}
+
+	.xl\:visited\:animation-iteration-count\:2:visited,
+	.xl\:visited\:aic\:2:visited {
+		animation-iteration-count: 2 !important;
+	}
+
+	.xl\:visited\:animation-iteration-count\:3:visited,
+	.xl\:visited\:aic\:3:visited {
+		animation-iteration-count: 3 !important;
+	}
+
+	.xl\:visited\:animation-iteration-count\:infinite:visited,
+	.xl\:visited\:aic\:infinite:visited {
 		animation-iteration-count: infinite !important;
 	}
 

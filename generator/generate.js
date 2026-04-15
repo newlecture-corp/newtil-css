@@ -19,6 +19,42 @@ const BREAKPOINTS = [
 	{ prefix: "xl", minWidth: "1280px" },
 ];
 
+// Pseudo-state variants — prefix adds to class name, pseudo appends to selector.
+// Covers the most commonly needed interactive / form states.
+const PSEUDO_VARIANTS = [
+	{ prefix: "hover", pseudo: ":hover" },
+	{ prefix: "focus", pseudo: ":focus" },
+	{ prefix: "focus-visible", pseudo: ":focus-visible" },
+	{ prefix: "focus-within", pseudo: ":focus-within" },
+	{ prefix: "active", pseudo: ":active" },
+	{ prefix: "disabled", pseudo: ":disabled" },
+	{ prefix: "checked", pseudo: ":checked" },
+	{ prefix: "visited", pseudo: ":visited" },
+];
+
+// Expand base CSS with pseudo-state variants.
+// For each rule block, append 8 variant rules (hover, focus, etc.) with
+// prefixed class name + pseudo-class suffix on selector.
+function expandPseudoStates(baseCss) {
+	const variants = [];
+	for (const ps of PSEUDO_VARIANTS) {
+		const wrapped = baseCss.replace(
+			/^(\.[^{]+?)\s*\{([^}]+)\}/gm,
+			(_match, sels, decls) => {
+				const newSels = sels
+					.split(/,\s*\n?\s*/)
+					.map((s) => s.trim())
+					.filter(Boolean)
+					.map((s) => s.replace(/^\./, `.${ps.prefix}\\:`) + ps.pseudo)
+					.join(",\n");
+				return `${newSels} {${decls}}`;
+			}
+		);
+		variants.push(wrapped);
+	}
+	return baseCss + "\n\n" + variants.join("\n\n");
+}
+
 // Parse base CSS and generate responsive variants.
 // For each rule block matching `.selector(s) { decls }`, create prefixed
 // versions wrapped in @media.
@@ -85,25 +121,30 @@ async function main() {
 
 	console.log("\nGenerating files…");
 	let totalBase = 0;
-	let totalAll = 0;
+	let totalFinal = 0;
 	for (const ruleMod of rules) {
 		resetSelectorsRegistry();
 		const baseCss = ruleMod.generate(catalog);
-		const finalCss = expandResponsive(baseCss);
+		// Pipeline: base -> pseudo-state variants -> responsive variants.
+		// Applying pseudo first means responsive expansion will also wrap
+		// pseudo variants (e.g., sm:hover:padding:4 is auto-generated).
+		const withPseudo = expandPseudoStates(baseCss);
+		const finalCss = expandResponsive(withPseudo);
 		const outPath = path.join(OUT_ROOT, ruleMod.fileName);
 		fs.mkdirSync(path.dirname(outPath), { recursive: true });
 		fs.writeFileSync(outPath, finalCss);
 		const baseCount = (baseCss.match(/^\./gm) || []).length;
-		const allCount = baseCount * (1 + BREAKPOINTS.length);
+		const multiplier = (1 + PSEUDO_VARIANTS.length) * (1 + BREAKPOINTS.length);
+		const allCount = baseCount * multiplier;
 		totalBase += baseCount;
-		totalAll += allCount;
+		totalFinal += allCount;
 		console.log(
-			`  ✓ ${ruleMod.fileName} (~${baseCount} base, ~${allCount} with sm/md/lg/xl)`
+			`  ✓ ${ruleMod.fileName} (~${baseCount} base, ~${allCount} with pseudo+responsive)`
 		);
 	}
 
 	console.log(
-		`\nDone. Selectors — base: ~${totalBase}, with responsive: ~${totalAll}`
+		`\nDone. Selectors — base: ~${totalBase}, with pseudo+responsive: ~${totalFinal}`
 	);
 }
 

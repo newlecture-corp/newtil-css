@@ -141,6 +141,1150 @@
 }
 
 
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.hover\:transition-property\:none:hover,
+.hover\:tp\:none:hover {
+	transition-property: none !important;
+}
+
+.hover\:transition-property\:all:hover,
+.hover\:tp\:all:hover {
+	transition-property: all !important;
+}
+
+.hover\:transition-property\:default:hover,
+.hover\:tp\:default:hover {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.hover\:transition-property\:colors:hover,
+.hover\:tp\:colors:hover {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.hover\:transition-property\:opacity:hover,
+.hover\:tp\:opacity:hover {
+	transition-property: opacity !important;
+}
+
+.hover\:transition-property\:shadow:hover,
+.hover\:tp\:shadow:hover {
+	transition-property: box-shadow !important;
+}
+
+.hover\:transition-property\:transform:hover,
+.hover\:tp\:transform:hover {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.hover\:transition-duration\:fast:hover,
+.hover\:tdur\:fast:hover {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.hover\:transition-duration\:normal:hover,
+.hover\:tdur\:normal:hover {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.hover\:transition-duration\:slow:hover,
+.hover\:tdur\:slow:hover {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.hover\:transition-timing-function\:linear:hover,
+.hover\:ttf\:linear:hover {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.hover\:transition-timing-function\:in:hover,
+.hover\:ttf\:in:hover {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.hover\:transition-timing-function\:out:hover,
+.hover\:ttf\:out:hover {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.hover\:transition-timing-function\:in-out:hover,
+.hover\:ttf\:in-out:hover {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.hover\:transition-delay\:0:hover,
+.hover\:tdly\:0:hover {
+	transition-delay: 0ms !important;
+}
+
+.hover\:transition-delay\:75:hover,
+.hover\:tdly\:75:hover {
+	transition-delay: 75ms !important;
+}
+
+.hover\:transition-delay\:100:hover,
+.hover\:tdly\:100:hover {
+	transition-delay: 100ms !important;
+}
+
+.hover\:transition-delay\:150:hover,
+.hover\:tdly\:150:hover {
+	transition-delay: 150ms !important;
+}
+
+.hover\:transition-delay\:200:hover,
+.hover\:tdly\:200:hover {
+	transition-delay: 200ms !important;
+}
+
+.hover\:transition-delay\:300:hover,
+.hover\:tdly\:300:hover {
+	transition-delay: 300ms !important;
+}
+
+.hover\:transition-delay\:500:hover,
+.hover\:tdly\:500:hover {
+	transition-delay: 500ms !important;
+}
+
+.hover\:transition-delay\:700:hover,
+.hover\:tdly\:700:hover {
+	transition-delay: 700ms !important;
+}
+
+.hover\:transition-delay\:1000:hover,
+.hover\:tdly\:1000:hover {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.hover\:transition\:none:hover,
+.hover\:tr\:none:hover {
+	transition: none !important;
+}
+
+.hover\:transition\:all:hover,
+.hover\:tr\:all:hover {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.hover\:transition\:default:hover,
+.hover\:tr\:default:hover {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.focus\:transition-property\:none:focus,
+.focus\:tp\:none:focus {
+	transition-property: none !important;
+}
+
+.focus\:transition-property\:all:focus,
+.focus\:tp\:all:focus {
+	transition-property: all !important;
+}
+
+.focus\:transition-property\:default:focus,
+.focus\:tp\:default:focus {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.focus\:transition-property\:colors:focus,
+.focus\:tp\:colors:focus {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.focus\:transition-property\:opacity:focus,
+.focus\:tp\:opacity:focus {
+	transition-property: opacity !important;
+}
+
+.focus\:transition-property\:shadow:focus,
+.focus\:tp\:shadow:focus {
+	transition-property: box-shadow !important;
+}
+
+.focus\:transition-property\:transform:focus,
+.focus\:tp\:transform:focus {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.focus\:transition-duration\:fast:focus,
+.focus\:tdur\:fast:focus {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.focus\:transition-duration\:normal:focus,
+.focus\:tdur\:normal:focus {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.focus\:transition-duration\:slow:focus,
+.focus\:tdur\:slow:focus {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.focus\:transition-timing-function\:linear:focus,
+.focus\:ttf\:linear:focus {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.focus\:transition-timing-function\:in:focus,
+.focus\:ttf\:in:focus {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.focus\:transition-timing-function\:out:focus,
+.focus\:ttf\:out:focus {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.focus\:transition-timing-function\:in-out:focus,
+.focus\:ttf\:in-out:focus {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.focus\:transition-delay\:0:focus,
+.focus\:tdly\:0:focus {
+	transition-delay: 0ms !important;
+}
+
+.focus\:transition-delay\:75:focus,
+.focus\:tdly\:75:focus {
+	transition-delay: 75ms !important;
+}
+
+.focus\:transition-delay\:100:focus,
+.focus\:tdly\:100:focus {
+	transition-delay: 100ms !important;
+}
+
+.focus\:transition-delay\:150:focus,
+.focus\:tdly\:150:focus {
+	transition-delay: 150ms !important;
+}
+
+.focus\:transition-delay\:200:focus,
+.focus\:tdly\:200:focus {
+	transition-delay: 200ms !important;
+}
+
+.focus\:transition-delay\:300:focus,
+.focus\:tdly\:300:focus {
+	transition-delay: 300ms !important;
+}
+
+.focus\:transition-delay\:500:focus,
+.focus\:tdly\:500:focus {
+	transition-delay: 500ms !important;
+}
+
+.focus\:transition-delay\:700:focus,
+.focus\:tdly\:700:focus {
+	transition-delay: 700ms !important;
+}
+
+.focus\:transition-delay\:1000:focus,
+.focus\:tdly\:1000:focus {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.focus\:transition\:none:focus,
+.focus\:tr\:none:focus {
+	transition: none !important;
+}
+
+.focus\:transition\:all:focus,
+.focus\:tr\:all:focus {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.focus\:transition\:default:focus,
+.focus\:tr\:default:focus {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.focus-visible\:transition-property\:none:focus-visible,
+.focus-visible\:tp\:none:focus-visible {
+	transition-property: none !important;
+}
+
+.focus-visible\:transition-property\:all:focus-visible,
+.focus-visible\:tp\:all:focus-visible {
+	transition-property: all !important;
+}
+
+.focus-visible\:transition-property\:default:focus-visible,
+.focus-visible\:tp\:default:focus-visible {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.focus-visible\:transition-property\:colors:focus-visible,
+.focus-visible\:tp\:colors:focus-visible {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.focus-visible\:transition-property\:opacity:focus-visible,
+.focus-visible\:tp\:opacity:focus-visible {
+	transition-property: opacity !important;
+}
+
+.focus-visible\:transition-property\:shadow:focus-visible,
+.focus-visible\:tp\:shadow:focus-visible {
+	transition-property: box-shadow !important;
+}
+
+.focus-visible\:transition-property\:transform:focus-visible,
+.focus-visible\:tp\:transform:focus-visible {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.focus-visible\:transition-duration\:fast:focus-visible,
+.focus-visible\:tdur\:fast:focus-visible {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.focus-visible\:transition-duration\:normal:focus-visible,
+.focus-visible\:tdur\:normal:focus-visible {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.focus-visible\:transition-duration\:slow:focus-visible,
+.focus-visible\:tdur\:slow:focus-visible {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.focus-visible\:transition-timing-function\:linear:focus-visible,
+.focus-visible\:ttf\:linear:focus-visible {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.focus-visible\:transition-timing-function\:in:focus-visible,
+.focus-visible\:ttf\:in:focus-visible {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.focus-visible\:transition-timing-function\:out:focus-visible,
+.focus-visible\:ttf\:out:focus-visible {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.focus-visible\:transition-timing-function\:in-out:focus-visible,
+.focus-visible\:ttf\:in-out:focus-visible {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.focus-visible\:transition-delay\:0:focus-visible,
+.focus-visible\:tdly\:0:focus-visible {
+	transition-delay: 0ms !important;
+}
+
+.focus-visible\:transition-delay\:75:focus-visible,
+.focus-visible\:tdly\:75:focus-visible {
+	transition-delay: 75ms !important;
+}
+
+.focus-visible\:transition-delay\:100:focus-visible,
+.focus-visible\:tdly\:100:focus-visible {
+	transition-delay: 100ms !important;
+}
+
+.focus-visible\:transition-delay\:150:focus-visible,
+.focus-visible\:tdly\:150:focus-visible {
+	transition-delay: 150ms !important;
+}
+
+.focus-visible\:transition-delay\:200:focus-visible,
+.focus-visible\:tdly\:200:focus-visible {
+	transition-delay: 200ms !important;
+}
+
+.focus-visible\:transition-delay\:300:focus-visible,
+.focus-visible\:tdly\:300:focus-visible {
+	transition-delay: 300ms !important;
+}
+
+.focus-visible\:transition-delay\:500:focus-visible,
+.focus-visible\:tdly\:500:focus-visible {
+	transition-delay: 500ms !important;
+}
+
+.focus-visible\:transition-delay\:700:focus-visible,
+.focus-visible\:tdly\:700:focus-visible {
+	transition-delay: 700ms !important;
+}
+
+.focus-visible\:transition-delay\:1000:focus-visible,
+.focus-visible\:tdly\:1000:focus-visible {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.focus-visible\:transition\:none:focus-visible,
+.focus-visible\:tr\:none:focus-visible {
+	transition: none !important;
+}
+
+.focus-visible\:transition\:all:focus-visible,
+.focus-visible\:tr\:all:focus-visible {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.focus-visible\:transition\:default:focus-visible,
+.focus-visible\:tr\:default:focus-visible {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.focus-within\:transition-property\:none:focus-within,
+.focus-within\:tp\:none:focus-within {
+	transition-property: none !important;
+}
+
+.focus-within\:transition-property\:all:focus-within,
+.focus-within\:tp\:all:focus-within {
+	transition-property: all !important;
+}
+
+.focus-within\:transition-property\:default:focus-within,
+.focus-within\:tp\:default:focus-within {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.focus-within\:transition-property\:colors:focus-within,
+.focus-within\:tp\:colors:focus-within {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.focus-within\:transition-property\:opacity:focus-within,
+.focus-within\:tp\:opacity:focus-within {
+	transition-property: opacity !important;
+}
+
+.focus-within\:transition-property\:shadow:focus-within,
+.focus-within\:tp\:shadow:focus-within {
+	transition-property: box-shadow !important;
+}
+
+.focus-within\:transition-property\:transform:focus-within,
+.focus-within\:tp\:transform:focus-within {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.focus-within\:transition-duration\:fast:focus-within,
+.focus-within\:tdur\:fast:focus-within {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.focus-within\:transition-duration\:normal:focus-within,
+.focus-within\:tdur\:normal:focus-within {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.focus-within\:transition-duration\:slow:focus-within,
+.focus-within\:tdur\:slow:focus-within {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.focus-within\:transition-timing-function\:linear:focus-within,
+.focus-within\:ttf\:linear:focus-within {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.focus-within\:transition-timing-function\:in:focus-within,
+.focus-within\:ttf\:in:focus-within {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.focus-within\:transition-timing-function\:out:focus-within,
+.focus-within\:ttf\:out:focus-within {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.focus-within\:transition-timing-function\:in-out:focus-within,
+.focus-within\:ttf\:in-out:focus-within {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.focus-within\:transition-delay\:0:focus-within,
+.focus-within\:tdly\:0:focus-within {
+	transition-delay: 0ms !important;
+}
+
+.focus-within\:transition-delay\:75:focus-within,
+.focus-within\:tdly\:75:focus-within {
+	transition-delay: 75ms !important;
+}
+
+.focus-within\:transition-delay\:100:focus-within,
+.focus-within\:tdly\:100:focus-within {
+	transition-delay: 100ms !important;
+}
+
+.focus-within\:transition-delay\:150:focus-within,
+.focus-within\:tdly\:150:focus-within {
+	transition-delay: 150ms !important;
+}
+
+.focus-within\:transition-delay\:200:focus-within,
+.focus-within\:tdly\:200:focus-within {
+	transition-delay: 200ms !important;
+}
+
+.focus-within\:transition-delay\:300:focus-within,
+.focus-within\:tdly\:300:focus-within {
+	transition-delay: 300ms !important;
+}
+
+.focus-within\:transition-delay\:500:focus-within,
+.focus-within\:tdly\:500:focus-within {
+	transition-delay: 500ms !important;
+}
+
+.focus-within\:transition-delay\:700:focus-within,
+.focus-within\:tdly\:700:focus-within {
+	transition-delay: 700ms !important;
+}
+
+.focus-within\:transition-delay\:1000:focus-within,
+.focus-within\:tdly\:1000:focus-within {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.focus-within\:transition\:none:focus-within,
+.focus-within\:tr\:none:focus-within {
+	transition: none !important;
+}
+
+.focus-within\:transition\:all:focus-within,
+.focus-within\:tr\:all:focus-within {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.focus-within\:transition\:default:focus-within,
+.focus-within\:tr\:default:focus-within {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.active\:transition-property\:none:active,
+.active\:tp\:none:active {
+	transition-property: none !important;
+}
+
+.active\:transition-property\:all:active,
+.active\:tp\:all:active {
+	transition-property: all !important;
+}
+
+.active\:transition-property\:default:active,
+.active\:tp\:default:active {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.active\:transition-property\:colors:active,
+.active\:tp\:colors:active {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.active\:transition-property\:opacity:active,
+.active\:tp\:opacity:active {
+	transition-property: opacity !important;
+}
+
+.active\:transition-property\:shadow:active,
+.active\:tp\:shadow:active {
+	transition-property: box-shadow !important;
+}
+
+.active\:transition-property\:transform:active,
+.active\:tp\:transform:active {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.active\:transition-duration\:fast:active,
+.active\:tdur\:fast:active {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.active\:transition-duration\:normal:active,
+.active\:tdur\:normal:active {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.active\:transition-duration\:slow:active,
+.active\:tdur\:slow:active {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.active\:transition-timing-function\:linear:active,
+.active\:ttf\:linear:active {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.active\:transition-timing-function\:in:active,
+.active\:ttf\:in:active {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.active\:transition-timing-function\:out:active,
+.active\:ttf\:out:active {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.active\:transition-timing-function\:in-out:active,
+.active\:ttf\:in-out:active {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.active\:transition-delay\:0:active,
+.active\:tdly\:0:active {
+	transition-delay: 0ms !important;
+}
+
+.active\:transition-delay\:75:active,
+.active\:tdly\:75:active {
+	transition-delay: 75ms !important;
+}
+
+.active\:transition-delay\:100:active,
+.active\:tdly\:100:active {
+	transition-delay: 100ms !important;
+}
+
+.active\:transition-delay\:150:active,
+.active\:tdly\:150:active {
+	transition-delay: 150ms !important;
+}
+
+.active\:transition-delay\:200:active,
+.active\:tdly\:200:active {
+	transition-delay: 200ms !important;
+}
+
+.active\:transition-delay\:300:active,
+.active\:tdly\:300:active {
+	transition-delay: 300ms !important;
+}
+
+.active\:transition-delay\:500:active,
+.active\:tdly\:500:active {
+	transition-delay: 500ms !important;
+}
+
+.active\:transition-delay\:700:active,
+.active\:tdly\:700:active {
+	transition-delay: 700ms !important;
+}
+
+.active\:transition-delay\:1000:active,
+.active\:tdly\:1000:active {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.active\:transition\:none:active,
+.active\:tr\:none:active {
+	transition: none !important;
+}
+
+.active\:transition\:all:active,
+.active\:tr\:all:active {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.active\:transition\:default:active,
+.active\:tr\:default:active {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.disabled\:transition-property\:none:disabled,
+.disabled\:tp\:none:disabled {
+	transition-property: none !important;
+}
+
+.disabled\:transition-property\:all:disabled,
+.disabled\:tp\:all:disabled {
+	transition-property: all !important;
+}
+
+.disabled\:transition-property\:default:disabled,
+.disabled\:tp\:default:disabled {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.disabled\:transition-property\:colors:disabled,
+.disabled\:tp\:colors:disabled {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.disabled\:transition-property\:opacity:disabled,
+.disabled\:tp\:opacity:disabled {
+	transition-property: opacity !important;
+}
+
+.disabled\:transition-property\:shadow:disabled,
+.disabled\:tp\:shadow:disabled {
+	transition-property: box-shadow !important;
+}
+
+.disabled\:transition-property\:transform:disabled,
+.disabled\:tp\:transform:disabled {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.disabled\:transition-duration\:fast:disabled,
+.disabled\:tdur\:fast:disabled {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.disabled\:transition-duration\:normal:disabled,
+.disabled\:tdur\:normal:disabled {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.disabled\:transition-duration\:slow:disabled,
+.disabled\:tdur\:slow:disabled {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.disabled\:transition-timing-function\:linear:disabled,
+.disabled\:ttf\:linear:disabled {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.disabled\:transition-timing-function\:in:disabled,
+.disabled\:ttf\:in:disabled {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.disabled\:transition-timing-function\:out:disabled,
+.disabled\:ttf\:out:disabled {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.disabled\:transition-timing-function\:in-out:disabled,
+.disabled\:ttf\:in-out:disabled {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.disabled\:transition-delay\:0:disabled,
+.disabled\:tdly\:0:disabled {
+	transition-delay: 0ms !important;
+}
+
+.disabled\:transition-delay\:75:disabled,
+.disabled\:tdly\:75:disabled {
+	transition-delay: 75ms !important;
+}
+
+.disabled\:transition-delay\:100:disabled,
+.disabled\:tdly\:100:disabled {
+	transition-delay: 100ms !important;
+}
+
+.disabled\:transition-delay\:150:disabled,
+.disabled\:tdly\:150:disabled {
+	transition-delay: 150ms !important;
+}
+
+.disabled\:transition-delay\:200:disabled,
+.disabled\:tdly\:200:disabled {
+	transition-delay: 200ms !important;
+}
+
+.disabled\:transition-delay\:300:disabled,
+.disabled\:tdly\:300:disabled {
+	transition-delay: 300ms !important;
+}
+
+.disabled\:transition-delay\:500:disabled,
+.disabled\:tdly\:500:disabled {
+	transition-delay: 500ms !important;
+}
+
+.disabled\:transition-delay\:700:disabled,
+.disabled\:tdly\:700:disabled {
+	transition-delay: 700ms !important;
+}
+
+.disabled\:transition-delay\:1000:disabled,
+.disabled\:tdly\:1000:disabled {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.disabled\:transition\:none:disabled,
+.disabled\:tr\:none:disabled {
+	transition: none !important;
+}
+
+.disabled\:transition\:all:disabled,
+.disabled\:tr\:all:disabled {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.disabled\:transition\:default:disabled,
+.disabled\:tr\:default:disabled {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.checked\:transition-property\:none:checked,
+.checked\:tp\:none:checked {
+	transition-property: none !important;
+}
+
+.checked\:transition-property\:all:checked,
+.checked\:tp\:all:checked {
+	transition-property: all !important;
+}
+
+.checked\:transition-property\:default:checked,
+.checked\:tp\:default:checked {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.checked\:transition-property\:colors:checked,
+.checked\:tp\:colors:checked {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.checked\:transition-property\:opacity:checked,
+.checked\:tp\:opacity:checked {
+	transition-property: opacity !important;
+}
+
+.checked\:transition-property\:shadow:checked,
+.checked\:tp\:shadow:checked {
+	transition-property: box-shadow !important;
+}
+
+.checked\:transition-property\:transform:checked,
+.checked\:tp\:transform:checked {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.checked\:transition-duration\:fast:checked,
+.checked\:tdur\:fast:checked {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.checked\:transition-duration\:normal:checked,
+.checked\:tdur\:normal:checked {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.checked\:transition-duration\:slow:checked,
+.checked\:tdur\:slow:checked {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.checked\:transition-timing-function\:linear:checked,
+.checked\:ttf\:linear:checked {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.checked\:transition-timing-function\:in:checked,
+.checked\:ttf\:in:checked {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.checked\:transition-timing-function\:out:checked,
+.checked\:ttf\:out:checked {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.checked\:transition-timing-function\:in-out:checked,
+.checked\:ttf\:in-out:checked {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.checked\:transition-delay\:0:checked,
+.checked\:tdly\:0:checked {
+	transition-delay: 0ms !important;
+}
+
+.checked\:transition-delay\:75:checked,
+.checked\:tdly\:75:checked {
+	transition-delay: 75ms !important;
+}
+
+.checked\:transition-delay\:100:checked,
+.checked\:tdly\:100:checked {
+	transition-delay: 100ms !important;
+}
+
+.checked\:transition-delay\:150:checked,
+.checked\:tdly\:150:checked {
+	transition-delay: 150ms !important;
+}
+
+.checked\:transition-delay\:200:checked,
+.checked\:tdly\:200:checked {
+	transition-delay: 200ms !important;
+}
+
+.checked\:transition-delay\:300:checked,
+.checked\:tdly\:300:checked {
+	transition-delay: 300ms !important;
+}
+
+.checked\:transition-delay\:500:checked,
+.checked\:tdly\:500:checked {
+	transition-delay: 500ms !important;
+}
+
+.checked\:transition-delay\:700:checked,
+.checked\:tdly\:700:checked {
+	transition-delay: 700ms !important;
+}
+
+.checked\:transition-delay\:1000:checked,
+.checked\:tdly\:1000:checked {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.checked\:transition\:none:checked,
+.checked\:tr\:none:checked {
+	transition: none !important;
+}
+
+.checked\:transition\:all:checked,
+.checked\:tr\:all:checked {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.checked\:transition\:default:checked,
+.checked\:tr\:default:checked {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
+/* ===== TRANSITION UTILITIES ===== */
+
+/* TRANSITION-PROPERTY */
+
+.visited\:transition-property\:none:visited,
+.visited\:tp\:none:visited {
+	transition-property: none !important;
+}
+
+.visited\:transition-property\:all:visited,
+.visited\:tp\:all:visited {
+	transition-property: all !important;
+}
+
+.visited\:transition-property\:default:visited,
+.visited\:tp\:default:visited {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+}
+
+.visited\:transition-property\:colors:visited,
+.visited\:tp\:colors:visited {
+	transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+}
+
+.visited\:transition-property\:opacity:visited,
+.visited\:tp\:opacity:visited {
+	transition-property: opacity !important;
+}
+
+.visited\:transition-property\:shadow:visited,
+.visited\:tp\:shadow:visited {
+	transition-property: box-shadow !important;
+}
+
+.visited\:transition-property\:transform:visited,
+.visited\:tp\:transform:visited {
+	transition-property: transform, translate, rotate, scale !important;
+}
+
+/* TRANSITION-DURATION */
+
+.visited\:transition-duration\:fast:visited,
+.visited\:tdur\:fast:visited {
+	transition-duration: var(--duration-fast) !important;
+}
+
+.visited\:transition-duration\:normal:visited,
+.visited\:tdur\:normal:visited {
+	transition-duration: var(--duration-normal) !important;
+}
+
+.visited\:transition-duration\:slow:visited,
+.visited\:tdur\:slow:visited {
+	transition-duration: var(--duration-slow) !important;
+}
+
+/* TRANSITION-TIMING-FUNCTION */
+
+.visited\:transition-timing-function\:linear:visited,
+.visited\:ttf\:linear:visited {
+	transition-timing-function: var(--ease-linear) !important;
+}
+
+.visited\:transition-timing-function\:in:visited,
+.visited\:ttf\:in:visited {
+	transition-timing-function: var(--ease-in) !important;
+}
+
+.visited\:transition-timing-function\:out:visited,
+.visited\:ttf\:out:visited {
+	transition-timing-function: var(--ease-out) !important;
+}
+
+.visited\:transition-timing-function\:in-out:visited,
+.visited\:ttf\:in-out:visited {
+	transition-timing-function: var(--ease-in-out) !important;
+}
+
+/* TRANSITION-DELAY */
+
+.visited\:transition-delay\:0:visited,
+.visited\:tdly\:0:visited {
+	transition-delay: 0ms !important;
+}
+
+.visited\:transition-delay\:75:visited,
+.visited\:tdly\:75:visited {
+	transition-delay: 75ms !important;
+}
+
+.visited\:transition-delay\:100:visited,
+.visited\:tdly\:100:visited {
+	transition-delay: 100ms !important;
+}
+
+.visited\:transition-delay\:150:visited,
+.visited\:tdly\:150:visited {
+	transition-delay: 150ms !important;
+}
+
+.visited\:transition-delay\:200:visited,
+.visited\:tdly\:200:visited {
+	transition-delay: 200ms !important;
+}
+
+.visited\:transition-delay\:300:visited,
+.visited\:tdly\:300:visited {
+	transition-delay: 300ms !important;
+}
+
+.visited\:transition-delay\:500:visited,
+.visited\:tdly\:500:visited {
+	transition-delay: 500ms !important;
+}
+
+.visited\:transition-delay\:700:visited,
+.visited\:tdly\:700:visited {
+	transition-delay: 700ms !important;
+}
+
+.visited\:transition-delay\:1000:visited,
+.visited\:tdly\:1000:visited {
+	transition-delay: 1000ms !important;
+}
+
+/* TRANSITION (shorthand presets) */
+
+.visited\:transition\:none:visited,
+.visited\:tr\:none:visited {
+	transition: none !important;
+}
+
+.visited\:transition\:all:visited,
+.visited\:tr\:all:visited {
+	transition: all var(--duration-normal) var(--ease-in-out) !important;
+}
+
+.visited\:transition\:default:visited,
+.visited\:tr\:default:visited {
+	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+}
+
+
 @media (min-width: 640px) {
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -281,6 +1425,1150 @@
 
 	.sm\:transition\:default,
 	.sm\:tr\:default {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:hover\:transition-property\:none:hover,
+	.sm\:hover\:tp\:none:hover {
+		transition-property: none !important;
+	}
+
+	.sm\:hover\:transition-property\:all:hover,
+	.sm\:hover\:tp\:all:hover {
+		transition-property: all !important;
+	}
+
+	.sm\:hover\:transition-property\:default:hover,
+	.sm\:hover\:tp\:default:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:hover\:transition-property\:colors:hover,
+	.sm\:hover\:tp\:colors:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:hover\:transition-property\:opacity:hover,
+	.sm\:hover\:tp\:opacity:hover {
+		transition-property: opacity !important;
+	}
+
+	.sm\:hover\:transition-property\:shadow:hover,
+	.sm\:hover\:tp\:shadow:hover {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:hover\:transition-property\:transform:hover,
+	.sm\:hover\:tp\:transform:hover {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:hover\:transition-duration\:fast:hover,
+	.sm\:hover\:tdur\:fast:hover {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:hover\:transition-duration\:normal:hover,
+	.sm\:hover\:tdur\:normal:hover {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:hover\:transition-duration\:slow:hover,
+	.sm\:hover\:tdur\:slow:hover {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:hover\:transition-timing-function\:linear:hover,
+	.sm\:hover\:ttf\:linear:hover {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:hover\:transition-timing-function\:in:hover,
+	.sm\:hover\:ttf\:in:hover {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:hover\:transition-timing-function\:out:hover,
+	.sm\:hover\:ttf\:out:hover {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:hover\:transition-timing-function\:in-out:hover,
+	.sm\:hover\:ttf\:in-out:hover {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:hover\:transition-delay\:0:hover,
+	.sm\:hover\:tdly\:0:hover {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:75:hover,
+	.sm\:hover\:tdly\:75:hover {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:100:hover,
+	.sm\:hover\:tdly\:100:hover {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:150:hover,
+	.sm\:hover\:tdly\:150:hover {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:200:hover,
+	.sm\:hover\:tdly\:200:hover {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:300:hover,
+	.sm\:hover\:tdly\:300:hover {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:500:hover,
+	.sm\:hover\:tdly\:500:hover {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:700:hover,
+	.sm\:hover\:tdly\:700:hover {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:hover\:transition-delay\:1000:hover,
+	.sm\:hover\:tdly\:1000:hover {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:hover\:transition\:none:hover,
+	.sm\:hover\:tr\:none:hover {
+		transition: none !important;
+	}
+
+	.sm\:hover\:transition\:all:hover,
+	.sm\:hover\:tr\:all:hover {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:hover\:transition\:default:hover,
+	.sm\:hover\:tr\:default:hover {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:focus\:transition-property\:none:focus,
+	.sm\:focus\:tp\:none:focus {
+		transition-property: none !important;
+	}
+
+	.sm\:focus\:transition-property\:all:focus,
+	.sm\:focus\:tp\:all:focus {
+		transition-property: all !important;
+	}
+
+	.sm\:focus\:transition-property\:default:focus,
+	.sm\:focus\:tp\:default:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:focus\:transition-property\:colors:focus,
+	.sm\:focus\:tp\:colors:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:focus\:transition-property\:opacity:focus,
+	.sm\:focus\:tp\:opacity:focus {
+		transition-property: opacity !important;
+	}
+
+	.sm\:focus\:transition-property\:shadow:focus,
+	.sm\:focus\:tp\:shadow:focus {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:focus\:transition-property\:transform:focus,
+	.sm\:focus\:tp\:transform:focus {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:focus\:transition-duration\:fast:focus,
+	.sm\:focus\:tdur\:fast:focus {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus\:transition-duration\:normal:focus,
+	.sm\:focus\:tdur\:normal:focus {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus\:transition-duration\:slow:focus,
+	.sm\:focus\:tdur\:slow:focus {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:focus\:transition-timing-function\:linear:focus,
+	.sm\:focus\:ttf\:linear:focus {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus\:transition-timing-function\:in:focus,
+	.sm\:focus\:ttf\:in:focus {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus\:transition-timing-function\:out:focus,
+	.sm\:focus\:ttf\:out:focus {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus\:transition-timing-function\:in-out:focus,
+	.sm\:focus\:ttf\:in-out:focus {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:focus\:transition-delay\:0:focus,
+	.sm\:focus\:tdly\:0:focus {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:75:focus,
+	.sm\:focus\:tdly\:75:focus {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:100:focus,
+	.sm\:focus\:tdly\:100:focus {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:150:focus,
+	.sm\:focus\:tdly\:150:focus {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:200:focus,
+	.sm\:focus\:tdly\:200:focus {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:300:focus,
+	.sm\:focus\:tdly\:300:focus {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:500:focus,
+	.sm\:focus\:tdly\:500:focus {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:700:focus,
+	.sm\:focus\:tdly\:700:focus {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:focus\:transition-delay\:1000:focus,
+	.sm\:focus\:tdly\:1000:focus {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:focus\:transition\:none:focus,
+	.sm\:focus\:tr\:none:focus {
+		transition: none !important;
+	}
+
+	.sm\:focus\:transition\:all:focus,
+	.sm\:focus\:tr\:all:focus {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:focus\:transition\:default:focus,
+	.sm\:focus\:tr\:default:focus {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:focus-visible\:transition-property\:none:focus-visible,
+	.sm\:focus-visible\:tp\:none:focus-visible {
+		transition-property: none !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:all:focus-visible,
+	.sm\:focus-visible\:tp\:all:focus-visible {
+		transition-property: all !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:default:focus-visible,
+	.sm\:focus-visible\:tp\:default:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:colors:focus-visible,
+	.sm\:focus-visible\:tp\:colors:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:opacity:focus-visible,
+	.sm\:focus-visible\:tp\:opacity:focus-visible {
+		transition-property: opacity !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:shadow:focus-visible,
+	.sm\:focus-visible\:tp\:shadow:focus-visible {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:focus-visible\:transition-property\:transform:focus-visible,
+	.sm\:focus-visible\:tp\:transform:focus-visible {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:focus-visible\:transition-duration\:fast:focus-visible,
+	.sm\:focus-visible\:tdur\:fast:focus-visible {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus-visible\:transition-duration\:normal:focus-visible,
+	.sm\:focus-visible\:tdur\:normal:focus-visible {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus-visible\:transition-duration\:slow:focus-visible,
+	.sm\:focus-visible\:tdur\:slow:focus-visible {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:focus-visible\:transition-timing-function\:linear:focus-visible,
+	.sm\:focus-visible\:ttf\:linear:focus-visible {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus-visible\:transition-timing-function\:in:focus-visible,
+	.sm\:focus-visible\:ttf\:in:focus-visible {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus-visible\:transition-timing-function\:out:focus-visible,
+	.sm\:focus-visible\:ttf\:out:focus-visible {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus-visible\:transition-timing-function\:in-out:focus-visible,
+	.sm\:focus-visible\:ttf\:in-out:focus-visible {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:focus-visible\:transition-delay\:0:focus-visible,
+	.sm\:focus-visible\:tdly\:0:focus-visible {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:75:focus-visible,
+	.sm\:focus-visible\:tdly\:75:focus-visible {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:100:focus-visible,
+	.sm\:focus-visible\:tdly\:100:focus-visible {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:150:focus-visible,
+	.sm\:focus-visible\:tdly\:150:focus-visible {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:200:focus-visible,
+	.sm\:focus-visible\:tdly\:200:focus-visible {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:300:focus-visible,
+	.sm\:focus-visible\:tdly\:300:focus-visible {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:500:focus-visible,
+	.sm\:focus-visible\:tdly\:500:focus-visible {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:700:focus-visible,
+	.sm\:focus-visible\:tdly\:700:focus-visible {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:1000:focus-visible,
+	.sm\:focus-visible\:tdly\:1000:focus-visible {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:focus-visible\:transition\:none:focus-visible,
+	.sm\:focus-visible\:tr\:none:focus-visible {
+		transition: none !important;
+	}
+
+	.sm\:focus-visible\:transition\:all:focus-visible,
+	.sm\:focus-visible\:tr\:all:focus-visible {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:focus-visible\:transition\:default:focus-visible,
+	.sm\:focus-visible\:tr\:default:focus-visible {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:focus-within\:transition-property\:none:focus-within,
+	.sm\:focus-within\:tp\:none:focus-within {
+		transition-property: none !important;
+	}
+
+	.sm\:focus-within\:transition-property\:all:focus-within,
+	.sm\:focus-within\:tp\:all:focus-within {
+		transition-property: all !important;
+	}
+
+	.sm\:focus-within\:transition-property\:default:focus-within,
+	.sm\:focus-within\:tp\:default:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:focus-within\:transition-property\:colors:focus-within,
+	.sm\:focus-within\:tp\:colors:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:focus-within\:transition-property\:opacity:focus-within,
+	.sm\:focus-within\:tp\:opacity:focus-within {
+		transition-property: opacity !important;
+	}
+
+	.sm\:focus-within\:transition-property\:shadow:focus-within,
+	.sm\:focus-within\:tp\:shadow:focus-within {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:focus-within\:transition-property\:transform:focus-within,
+	.sm\:focus-within\:tp\:transform:focus-within {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:focus-within\:transition-duration\:fast:focus-within,
+	.sm\:focus-within\:tdur\:fast:focus-within {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:focus-within\:transition-duration\:normal:focus-within,
+	.sm\:focus-within\:tdur\:normal:focus-within {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:focus-within\:transition-duration\:slow:focus-within,
+	.sm\:focus-within\:tdur\:slow:focus-within {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:focus-within\:transition-timing-function\:linear:focus-within,
+	.sm\:focus-within\:ttf\:linear:focus-within {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:focus-within\:transition-timing-function\:in:focus-within,
+	.sm\:focus-within\:ttf\:in:focus-within {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:focus-within\:transition-timing-function\:out:focus-within,
+	.sm\:focus-within\:ttf\:out:focus-within {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:focus-within\:transition-timing-function\:in-out:focus-within,
+	.sm\:focus-within\:ttf\:in-out:focus-within {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:focus-within\:transition-delay\:0:focus-within,
+	.sm\:focus-within\:tdly\:0:focus-within {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:75:focus-within,
+	.sm\:focus-within\:tdly\:75:focus-within {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:100:focus-within,
+	.sm\:focus-within\:tdly\:100:focus-within {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:150:focus-within,
+	.sm\:focus-within\:tdly\:150:focus-within {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:200:focus-within,
+	.sm\:focus-within\:tdly\:200:focus-within {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:300:focus-within,
+	.sm\:focus-within\:tdly\:300:focus-within {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:500:focus-within,
+	.sm\:focus-within\:tdly\:500:focus-within {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:700:focus-within,
+	.sm\:focus-within\:tdly\:700:focus-within {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:1000:focus-within,
+	.sm\:focus-within\:tdly\:1000:focus-within {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:focus-within\:transition\:none:focus-within,
+	.sm\:focus-within\:tr\:none:focus-within {
+		transition: none !important;
+	}
+
+	.sm\:focus-within\:transition\:all:focus-within,
+	.sm\:focus-within\:tr\:all:focus-within {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:focus-within\:transition\:default:focus-within,
+	.sm\:focus-within\:tr\:default:focus-within {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:active\:transition-property\:none:active,
+	.sm\:active\:tp\:none:active {
+		transition-property: none !important;
+	}
+
+	.sm\:active\:transition-property\:all:active,
+	.sm\:active\:tp\:all:active {
+		transition-property: all !important;
+	}
+
+	.sm\:active\:transition-property\:default:active,
+	.sm\:active\:tp\:default:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:active\:transition-property\:colors:active,
+	.sm\:active\:tp\:colors:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:active\:transition-property\:opacity:active,
+	.sm\:active\:tp\:opacity:active {
+		transition-property: opacity !important;
+	}
+
+	.sm\:active\:transition-property\:shadow:active,
+	.sm\:active\:tp\:shadow:active {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:active\:transition-property\:transform:active,
+	.sm\:active\:tp\:transform:active {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:active\:transition-duration\:fast:active,
+	.sm\:active\:tdur\:fast:active {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:active\:transition-duration\:normal:active,
+	.sm\:active\:tdur\:normal:active {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:active\:transition-duration\:slow:active,
+	.sm\:active\:tdur\:slow:active {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:active\:transition-timing-function\:linear:active,
+	.sm\:active\:ttf\:linear:active {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:active\:transition-timing-function\:in:active,
+	.sm\:active\:ttf\:in:active {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:active\:transition-timing-function\:out:active,
+	.sm\:active\:ttf\:out:active {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:active\:transition-timing-function\:in-out:active,
+	.sm\:active\:ttf\:in-out:active {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:active\:transition-delay\:0:active,
+	.sm\:active\:tdly\:0:active {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:active\:transition-delay\:75:active,
+	.sm\:active\:tdly\:75:active {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:active\:transition-delay\:100:active,
+	.sm\:active\:tdly\:100:active {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:active\:transition-delay\:150:active,
+	.sm\:active\:tdly\:150:active {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:active\:transition-delay\:200:active,
+	.sm\:active\:tdly\:200:active {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:active\:transition-delay\:300:active,
+	.sm\:active\:tdly\:300:active {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:active\:transition-delay\:500:active,
+	.sm\:active\:tdly\:500:active {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:active\:transition-delay\:700:active,
+	.sm\:active\:tdly\:700:active {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:active\:transition-delay\:1000:active,
+	.sm\:active\:tdly\:1000:active {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:active\:transition\:none:active,
+	.sm\:active\:tr\:none:active {
+		transition: none !important;
+	}
+
+	.sm\:active\:transition\:all:active,
+	.sm\:active\:tr\:all:active {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:active\:transition\:default:active,
+	.sm\:active\:tr\:default:active {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:disabled\:transition-property\:none:disabled,
+	.sm\:disabled\:tp\:none:disabled {
+		transition-property: none !important;
+	}
+
+	.sm\:disabled\:transition-property\:all:disabled,
+	.sm\:disabled\:tp\:all:disabled {
+		transition-property: all !important;
+	}
+
+	.sm\:disabled\:transition-property\:default:disabled,
+	.sm\:disabled\:tp\:default:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:disabled\:transition-property\:colors:disabled,
+	.sm\:disabled\:tp\:colors:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:disabled\:transition-property\:opacity:disabled,
+	.sm\:disabled\:tp\:opacity:disabled {
+		transition-property: opacity !important;
+	}
+
+	.sm\:disabled\:transition-property\:shadow:disabled,
+	.sm\:disabled\:tp\:shadow:disabled {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:disabled\:transition-property\:transform:disabled,
+	.sm\:disabled\:tp\:transform:disabled {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:disabled\:transition-duration\:fast:disabled,
+	.sm\:disabled\:tdur\:fast:disabled {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:disabled\:transition-duration\:normal:disabled,
+	.sm\:disabled\:tdur\:normal:disabled {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:disabled\:transition-duration\:slow:disabled,
+	.sm\:disabled\:tdur\:slow:disabled {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:disabled\:transition-timing-function\:linear:disabled,
+	.sm\:disabled\:ttf\:linear:disabled {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:disabled\:transition-timing-function\:in:disabled,
+	.sm\:disabled\:ttf\:in:disabled {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:disabled\:transition-timing-function\:out:disabled,
+	.sm\:disabled\:ttf\:out:disabled {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:disabled\:transition-timing-function\:in-out:disabled,
+	.sm\:disabled\:ttf\:in-out:disabled {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:disabled\:transition-delay\:0:disabled,
+	.sm\:disabled\:tdly\:0:disabled {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:75:disabled,
+	.sm\:disabled\:tdly\:75:disabled {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:100:disabled,
+	.sm\:disabled\:tdly\:100:disabled {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:150:disabled,
+	.sm\:disabled\:tdly\:150:disabled {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:200:disabled,
+	.sm\:disabled\:tdly\:200:disabled {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:300:disabled,
+	.sm\:disabled\:tdly\:300:disabled {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:500:disabled,
+	.sm\:disabled\:tdly\:500:disabled {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:700:disabled,
+	.sm\:disabled\:tdly\:700:disabled {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:disabled\:transition-delay\:1000:disabled,
+	.sm\:disabled\:tdly\:1000:disabled {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:disabled\:transition\:none:disabled,
+	.sm\:disabled\:tr\:none:disabled {
+		transition: none !important;
+	}
+
+	.sm\:disabled\:transition\:all:disabled,
+	.sm\:disabled\:tr\:all:disabled {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:disabled\:transition\:default:disabled,
+	.sm\:disabled\:tr\:default:disabled {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:checked\:transition-property\:none:checked,
+	.sm\:checked\:tp\:none:checked {
+		transition-property: none !important;
+	}
+
+	.sm\:checked\:transition-property\:all:checked,
+	.sm\:checked\:tp\:all:checked {
+		transition-property: all !important;
+	}
+
+	.sm\:checked\:transition-property\:default:checked,
+	.sm\:checked\:tp\:default:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:checked\:transition-property\:colors:checked,
+	.sm\:checked\:tp\:colors:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:checked\:transition-property\:opacity:checked,
+	.sm\:checked\:tp\:opacity:checked {
+		transition-property: opacity !important;
+	}
+
+	.sm\:checked\:transition-property\:shadow:checked,
+	.sm\:checked\:tp\:shadow:checked {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:checked\:transition-property\:transform:checked,
+	.sm\:checked\:tp\:transform:checked {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:checked\:transition-duration\:fast:checked,
+	.sm\:checked\:tdur\:fast:checked {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:checked\:transition-duration\:normal:checked,
+	.sm\:checked\:tdur\:normal:checked {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:checked\:transition-duration\:slow:checked,
+	.sm\:checked\:tdur\:slow:checked {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:checked\:transition-timing-function\:linear:checked,
+	.sm\:checked\:ttf\:linear:checked {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:checked\:transition-timing-function\:in:checked,
+	.sm\:checked\:ttf\:in:checked {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:checked\:transition-timing-function\:out:checked,
+	.sm\:checked\:ttf\:out:checked {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:checked\:transition-timing-function\:in-out:checked,
+	.sm\:checked\:ttf\:in-out:checked {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:checked\:transition-delay\:0:checked,
+	.sm\:checked\:tdly\:0:checked {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:75:checked,
+	.sm\:checked\:tdly\:75:checked {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:100:checked,
+	.sm\:checked\:tdly\:100:checked {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:150:checked,
+	.sm\:checked\:tdly\:150:checked {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:200:checked,
+	.sm\:checked\:tdly\:200:checked {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:300:checked,
+	.sm\:checked\:tdly\:300:checked {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:500:checked,
+	.sm\:checked\:tdly\:500:checked {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:700:checked,
+	.sm\:checked\:tdly\:700:checked {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:checked\:transition-delay\:1000:checked,
+	.sm\:checked\:tdly\:1000:checked {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:checked\:transition\:none:checked,
+	.sm\:checked\:tr\:none:checked {
+		transition: none !important;
+	}
+
+	.sm\:checked\:transition\:all:checked,
+	.sm\:checked\:tr\:all:checked {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:checked\:transition\:default:checked,
+	.sm\:checked\:tr\:default:checked {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.sm\:visited\:transition-property\:none:visited,
+	.sm\:visited\:tp\:none:visited {
+		transition-property: none !important;
+	}
+
+	.sm\:visited\:transition-property\:all:visited,
+	.sm\:visited\:tp\:all:visited {
+		transition-property: all !important;
+	}
+
+	.sm\:visited\:transition-property\:default:visited,
+	.sm\:visited\:tp\:default:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.sm\:visited\:transition-property\:colors:visited,
+	.sm\:visited\:tp\:colors:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.sm\:visited\:transition-property\:opacity:visited,
+	.sm\:visited\:tp\:opacity:visited {
+		transition-property: opacity !important;
+	}
+
+	.sm\:visited\:transition-property\:shadow:visited,
+	.sm\:visited\:tp\:shadow:visited {
+		transition-property: box-shadow !important;
+	}
+
+	.sm\:visited\:transition-property\:transform:visited,
+	.sm\:visited\:tp\:transform:visited {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.sm\:visited\:transition-duration\:fast:visited,
+	.sm\:visited\:tdur\:fast:visited {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.sm\:visited\:transition-duration\:normal:visited,
+	.sm\:visited\:tdur\:normal:visited {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.sm\:visited\:transition-duration\:slow:visited,
+	.sm\:visited\:tdur\:slow:visited {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.sm\:visited\:transition-timing-function\:linear:visited,
+	.sm\:visited\:ttf\:linear:visited {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.sm\:visited\:transition-timing-function\:in:visited,
+	.sm\:visited\:ttf\:in:visited {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.sm\:visited\:transition-timing-function\:out:visited,
+	.sm\:visited\:ttf\:out:visited {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.sm\:visited\:transition-timing-function\:in-out:visited,
+	.sm\:visited\:ttf\:in-out:visited {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.sm\:visited\:transition-delay\:0:visited,
+	.sm\:visited\:tdly\:0:visited {
+		transition-delay: 0ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:75:visited,
+	.sm\:visited\:tdly\:75:visited {
+		transition-delay: 75ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:100:visited,
+	.sm\:visited\:tdly\:100:visited {
+		transition-delay: 100ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:150:visited,
+	.sm\:visited\:tdly\:150:visited {
+		transition-delay: 150ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:200:visited,
+	.sm\:visited\:tdly\:200:visited {
+		transition-delay: 200ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:300:visited,
+	.sm\:visited\:tdly\:300:visited {
+		transition-delay: 300ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:500:visited,
+	.sm\:visited\:tdly\:500:visited {
+		transition-delay: 500ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:700:visited,
+	.sm\:visited\:tdly\:700:visited {
+		transition-delay: 700ms !important;
+	}
+
+	.sm\:visited\:transition-delay\:1000:visited,
+	.sm\:visited\:tdly\:1000:visited {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.sm\:visited\:transition\:none:visited,
+	.sm\:visited\:tr\:none:visited {
+		transition: none !important;
+	}
+
+	.sm\:visited\:transition\:all:visited,
+	.sm\:visited\:tr\:all:visited {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.sm\:visited\:transition\:default:visited,
+	.sm\:visited\:tr\:default:visited {
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
@@ -429,6 +2717,1150 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:hover\:transition-property\:none:hover,
+	.md\:hover\:tp\:none:hover {
+		transition-property: none !important;
+	}
+
+	.md\:hover\:transition-property\:all:hover,
+	.md\:hover\:tp\:all:hover {
+		transition-property: all !important;
+	}
+
+	.md\:hover\:transition-property\:default:hover,
+	.md\:hover\:tp\:default:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:hover\:transition-property\:colors:hover,
+	.md\:hover\:tp\:colors:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:hover\:transition-property\:opacity:hover,
+	.md\:hover\:tp\:opacity:hover {
+		transition-property: opacity !important;
+	}
+
+	.md\:hover\:transition-property\:shadow:hover,
+	.md\:hover\:tp\:shadow:hover {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:hover\:transition-property\:transform:hover,
+	.md\:hover\:tp\:transform:hover {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:hover\:transition-duration\:fast:hover,
+	.md\:hover\:tdur\:fast:hover {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:hover\:transition-duration\:normal:hover,
+	.md\:hover\:tdur\:normal:hover {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:hover\:transition-duration\:slow:hover,
+	.md\:hover\:tdur\:slow:hover {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:hover\:transition-timing-function\:linear:hover,
+	.md\:hover\:ttf\:linear:hover {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:hover\:transition-timing-function\:in:hover,
+	.md\:hover\:ttf\:in:hover {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:hover\:transition-timing-function\:out:hover,
+	.md\:hover\:ttf\:out:hover {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:hover\:transition-timing-function\:in-out:hover,
+	.md\:hover\:ttf\:in-out:hover {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:hover\:transition-delay\:0:hover,
+	.md\:hover\:tdly\:0:hover {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:hover\:transition-delay\:75:hover,
+	.md\:hover\:tdly\:75:hover {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:hover\:transition-delay\:100:hover,
+	.md\:hover\:tdly\:100:hover {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:hover\:transition-delay\:150:hover,
+	.md\:hover\:tdly\:150:hover {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:hover\:transition-delay\:200:hover,
+	.md\:hover\:tdly\:200:hover {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:hover\:transition-delay\:300:hover,
+	.md\:hover\:tdly\:300:hover {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:hover\:transition-delay\:500:hover,
+	.md\:hover\:tdly\:500:hover {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:hover\:transition-delay\:700:hover,
+	.md\:hover\:tdly\:700:hover {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:hover\:transition-delay\:1000:hover,
+	.md\:hover\:tdly\:1000:hover {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:hover\:transition\:none:hover,
+	.md\:hover\:tr\:none:hover {
+		transition: none !important;
+	}
+
+	.md\:hover\:transition\:all:hover,
+	.md\:hover\:tr\:all:hover {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:hover\:transition\:default:hover,
+	.md\:hover\:tr\:default:hover {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:focus\:transition-property\:none:focus,
+	.md\:focus\:tp\:none:focus {
+		transition-property: none !important;
+	}
+
+	.md\:focus\:transition-property\:all:focus,
+	.md\:focus\:tp\:all:focus {
+		transition-property: all !important;
+	}
+
+	.md\:focus\:transition-property\:default:focus,
+	.md\:focus\:tp\:default:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:focus\:transition-property\:colors:focus,
+	.md\:focus\:tp\:colors:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:focus\:transition-property\:opacity:focus,
+	.md\:focus\:tp\:opacity:focus {
+		transition-property: opacity !important;
+	}
+
+	.md\:focus\:transition-property\:shadow:focus,
+	.md\:focus\:tp\:shadow:focus {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:focus\:transition-property\:transform:focus,
+	.md\:focus\:tp\:transform:focus {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:focus\:transition-duration\:fast:focus,
+	.md\:focus\:tdur\:fast:focus {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus\:transition-duration\:normal:focus,
+	.md\:focus\:tdur\:normal:focus {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus\:transition-duration\:slow:focus,
+	.md\:focus\:tdur\:slow:focus {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:focus\:transition-timing-function\:linear:focus,
+	.md\:focus\:ttf\:linear:focus {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus\:transition-timing-function\:in:focus,
+	.md\:focus\:ttf\:in:focus {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus\:transition-timing-function\:out:focus,
+	.md\:focus\:ttf\:out:focus {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus\:transition-timing-function\:in-out:focus,
+	.md\:focus\:ttf\:in-out:focus {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:focus\:transition-delay\:0:focus,
+	.md\:focus\:tdly\:0:focus {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:focus\:transition-delay\:75:focus,
+	.md\:focus\:tdly\:75:focus {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:focus\:transition-delay\:100:focus,
+	.md\:focus\:tdly\:100:focus {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:focus\:transition-delay\:150:focus,
+	.md\:focus\:tdly\:150:focus {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:focus\:transition-delay\:200:focus,
+	.md\:focus\:tdly\:200:focus {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:focus\:transition-delay\:300:focus,
+	.md\:focus\:tdly\:300:focus {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:focus\:transition-delay\:500:focus,
+	.md\:focus\:tdly\:500:focus {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:focus\:transition-delay\:700:focus,
+	.md\:focus\:tdly\:700:focus {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:focus\:transition-delay\:1000:focus,
+	.md\:focus\:tdly\:1000:focus {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:focus\:transition\:none:focus,
+	.md\:focus\:tr\:none:focus {
+		transition: none !important;
+	}
+
+	.md\:focus\:transition\:all:focus,
+	.md\:focus\:tr\:all:focus {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:focus\:transition\:default:focus,
+	.md\:focus\:tr\:default:focus {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:focus-visible\:transition-property\:none:focus-visible,
+	.md\:focus-visible\:tp\:none:focus-visible {
+		transition-property: none !important;
+	}
+
+	.md\:focus-visible\:transition-property\:all:focus-visible,
+	.md\:focus-visible\:tp\:all:focus-visible {
+		transition-property: all !important;
+	}
+
+	.md\:focus-visible\:transition-property\:default:focus-visible,
+	.md\:focus-visible\:tp\:default:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:focus-visible\:transition-property\:colors:focus-visible,
+	.md\:focus-visible\:tp\:colors:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:focus-visible\:transition-property\:opacity:focus-visible,
+	.md\:focus-visible\:tp\:opacity:focus-visible {
+		transition-property: opacity !important;
+	}
+
+	.md\:focus-visible\:transition-property\:shadow:focus-visible,
+	.md\:focus-visible\:tp\:shadow:focus-visible {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:focus-visible\:transition-property\:transform:focus-visible,
+	.md\:focus-visible\:tp\:transform:focus-visible {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:focus-visible\:transition-duration\:fast:focus-visible,
+	.md\:focus-visible\:tdur\:fast:focus-visible {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus-visible\:transition-duration\:normal:focus-visible,
+	.md\:focus-visible\:tdur\:normal:focus-visible {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus-visible\:transition-duration\:slow:focus-visible,
+	.md\:focus-visible\:tdur\:slow:focus-visible {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:focus-visible\:transition-timing-function\:linear:focus-visible,
+	.md\:focus-visible\:ttf\:linear:focus-visible {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus-visible\:transition-timing-function\:in:focus-visible,
+	.md\:focus-visible\:ttf\:in:focus-visible {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus-visible\:transition-timing-function\:out:focus-visible,
+	.md\:focus-visible\:ttf\:out:focus-visible {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus-visible\:transition-timing-function\:in-out:focus-visible,
+	.md\:focus-visible\:ttf\:in-out:focus-visible {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:focus-visible\:transition-delay\:0:focus-visible,
+	.md\:focus-visible\:tdly\:0:focus-visible {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:75:focus-visible,
+	.md\:focus-visible\:tdly\:75:focus-visible {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:100:focus-visible,
+	.md\:focus-visible\:tdly\:100:focus-visible {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:150:focus-visible,
+	.md\:focus-visible\:tdly\:150:focus-visible {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:200:focus-visible,
+	.md\:focus-visible\:tdly\:200:focus-visible {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:300:focus-visible,
+	.md\:focus-visible\:tdly\:300:focus-visible {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:500:focus-visible,
+	.md\:focus-visible\:tdly\:500:focus-visible {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:700:focus-visible,
+	.md\:focus-visible\:tdly\:700:focus-visible {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:1000:focus-visible,
+	.md\:focus-visible\:tdly\:1000:focus-visible {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:focus-visible\:transition\:none:focus-visible,
+	.md\:focus-visible\:tr\:none:focus-visible {
+		transition: none !important;
+	}
+
+	.md\:focus-visible\:transition\:all:focus-visible,
+	.md\:focus-visible\:tr\:all:focus-visible {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:focus-visible\:transition\:default:focus-visible,
+	.md\:focus-visible\:tr\:default:focus-visible {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:focus-within\:transition-property\:none:focus-within,
+	.md\:focus-within\:tp\:none:focus-within {
+		transition-property: none !important;
+	}
+
+	.md\:focus-within\:transition-property\:all:focus-within,
+	.md\:focus-within\:tp\:all:focus-within {
+		transition-property: all !important;
+	}
+
+	.md\:focus-within\:transition-property\:default:focus-within,
+	.md\:focus-within\:tp\:default:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:focus-within\:transition-property\:colors:focus-within,
+	.md\:focus-within\:tp\:colors:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:focus-within\:transition-property\:opacity:focus-within,
+	.md\:focus-within\:tp\:opacity:focus-within {
+		transition-property: opacity !important;
+	}
+
+	.md\:focus-within\:transition-property\:shadow:focus-within,
+	.md\:focus-within\:tp\:shadow:focus-within {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:focus-within\:transition-property\:transform:focus-within,
+	.md\:focus-within\:tp\:transform:focus-within {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:focus-within\:transition-duration\:fast:focus-within,
+	.md\:focus-within\:tdur\:fast:focus-within {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:focus-within\:transition-duration\:normal:focus-within,
+	.md\:focus-within\:tdur\:normal:focus-within {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:focus-within\:transition-duration\:slow:focus-within,
+	.md\:focus-within\:tdur\:slow:focus-within {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:focus-within\:transition-timing-function\:linear:focus-within,
+	.md\:focus-within\:ttf\:linear:focus-within {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:focus-within\:transition-timing-function\:in:focus-within,
+	.md\:focus-within\:ttf\:in:focus-within {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:focus-within\:transition-timing-function\:out:focus-within,
+	.md\:focus-within\:ttf\:out:focus-within {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:focus-within\:transition-timing-function\:in-out:focus-within,
+	.md\:focus-within\:ttf\:in-out:focus-within {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:focus-within\:transition-delay\:0:focus-within,
+	.md\:focus-within\:tdly\:0:focus-within {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:75:focus-within,
+	.md\:focus-within\:tdly\:75:focus-within {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:100:focus-within,
+	.md\:focus-within\:tdly\:100:focus-within {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:150:focus-within,
+	.md\:focus-within\:tdly\:150:focus-within {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:200:focus-within,
+	.md\:focus-within\:tdly\:200:focus-within {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:300:focus-within,
+	.md\:focus-within\:tdly\:300:focus-within {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:500:focus-within,
+	.md\:focus-within\:tdly\:500:focus-within {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:700:focus-within,
+	.md\:focus-within\:tdly\:700:focus-within {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:focus-within\:transition-delay\:1000:focus-within,
+	.md\:focus-within\:tdly\:1000:focus-within {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:focus-within\:transition\:none:focus-within,
+	.md\:focus-within\:tr\:none:focus-within {
+		transition: none !important;
+	}
+
+	.md\:focus-within\:transition\:all:focus-within,
+	.md\:focus-within\:tr\:all:focus-within {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:focus-within\:transition\:default:focus-within,
+	.md\:focus-within\:tr\:default:focus-within {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:active\:transition-property\:none:active,
+	.md\:active\:tp\:none:active {
+		transition-property: none !important;
+	}
+
+	.md\:active\:transition-property\:all:active,
+	.md\:active\:tp\:all:active {
+		transition-property: all !important;
+	}
+
+	.md\:active\:transition-property\:default:active,
+	.md\:active\:tp\:default:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:active\:transition-property\:colors:active,
+	.md\:active\:tp\:colors:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:active\:transition-property\:opacity:active,
+	.md\:active\:tp\:opacity:active {
+		transition-property: opacity !important;
+	}
+
+	.md\:active\:transition-property\:shadow:active,
+	.md\:active\:tp\:shadow:active {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:active\:transition-property\:transform:active,
+	.md\:active\:tp\:transform:active {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:active\:transition-duration\:fast:active,
+	.md\:active\:tdur\:fast:active {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:active\:transition-duration\:normal:active,
+	.md\:active\:tdur\:normal:active {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:active\:transition-duration\:slow:active,
+	.md\:active\:tdur\:slow:active {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:active\:transition-timing-function\:linear:active,
+	.md\:active\:ttf\:linear:active {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:active\:transition-timing-function\:in:active,
+	.md\:active\:ttf\:in:active {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:active\:transition-timing-function\:out:active,
+	.md\:active\:ttf\:out:active {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:active\:transition-timing-function\:in-out:active,
+	.md\:active\:ttf\:in-out:active {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:active\:transition-delay\:0:active,
+	.md\:active\:tdly\:0:active {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:active\:transition-delay\:75:active,
+	.md\:active\:tdly\:75:active {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:active\:transition-delay\:100:active,
+	.md\:active\:tdly\:100:active {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:active\:transition-delay\:150:active,
+	.md\:active\:tdly\:150:active {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:active\:transition-delay\:200:active,
+	.md\:active\:tdly\:200:active {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:active\:transition-delay\:300:active,
+	.md\:active\:tdly\:300:active {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:active\:transition-delay\:500:active,
+	.md\:active\:tdly\:500:active {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:active\:transition-delay\:700:active,
+	.md\:active\:tdly\:700:active {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:active\:transition-delay\:1000:active,
+	.md\:active\:tdly\:1000:active {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:active\:transition\:none:active,
+	.md\:active\:tr\:none:active {
+		transition: none !important;
+	}
+
+	.md\:active\:transition\:all:active,
+	.md\:active\:tr\:all:active {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:active\:transition\:default:active,
+	.md\:active\:tr\:default:active {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:disabled\:transition-property\:none:disabled,
+	.md\:disabled\:tp\:none:disabled {
+		transition-property: none !important;
+	}
+
+	.md\:disabled\:transition-property\:all:disabled,
+	.md\:disabled\:tp\:all:disabled {
+		transition-property: all !important;
+	}
+
+	.md\:disabled\:transition-property\:default:disabled,
+	.md\:disabled\:tp\:default:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:disabled\:transition-property\:colors:disabled,
+	.md\:disabled\:tp\:colors:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:disabled\:transition-property\:opacity:disabled,
+	.md\:disabled\:tp\:opacity:disabled {
+		transition-property: opacity !important;
+	}
+
+	.md\:disabled\:transition-property\:shadow:disabled,
+	.md\:disabled\:tp\:shadow:disabled {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:disabled\:transition-property\:transform:disabled,
+	.md\:disabled\:tp\:transform:disabled {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:disabled\:transition-duration\:fast:disabled,
+	.md\:disabled\:tdur\:fast:disabled {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:disabled\:transition-duration\:normal:disabled,
+	.md\:disabled\:tdur\:normal:disabled {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:disabled\:transition-duration\:slow:disabled,
+	.md\:disabled\:tdur\:slow:disabled {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:disabled\:transition-timing-function\:linear:disabled,
+	.md\:disabled\:ttf\:linear:disabled {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:disabled\:transition-timing-function\:in:disabled,
+	.md\:disabled\:ttf\:in:disabled {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:disabled\:transition-timing-function\:out:disabled,
+	.md\:disabled\:ttf\:out:disabled {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:disabled\:transition-timing-function\:in-out:disabled,
+	.md\:disabled\:ttf\:in-out:disabled {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:disabled\:transition-delay\:0:disabled,
+	.md\:disabled\:tdly\:0:disabled {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:75:disabled,
+	.md\:disabled\:tdly\:75:disabled {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:100:disabled,
+	.md\:disabled\:tdly\:100:disabled {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:150:disabled,
+	.md\:disabled\:tdly\:150:disabled {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:200:disabled,
+	.md\:disabled\:tdly\:200:disabled {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:300:disabled,
+	.md\:disabled\:tdly\:300:disabled {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:500:disabled,
+	.md\:disabled\:tdly\:500:disabled {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:700:disabled,
+	.md\:disabled\:tdly\:700:disabled {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:disabled\:transition-delay\:1000:disabled,
+	.md\:disabled\:tdly\:1000:disabled {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:disabled\:transition\:none:disabled,
+	.md\:disabled\:tr\:none:disabled {
+		transition: none !important;
+	}
+
+	.md\:disabled\:transition\:all:disabled,
+	.md\:disabled\:tr\:all:disabled {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:disabled\:transition\:default:disabled,
+	.md\:disabled\:tr\:default:disabled {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:checked\:transition-property\:none:checked,
+	.md\:checked\:tp\:none:checked {
+		transition-property: none !important;
+	}
+
+	.md\:checked\:transition-property\:all:checked,
+	.md\:checked\:tp\:all:checked {
+		transition-property: all !important;
+	}
+
+	.md\:checked\:transition-property\:default:checked,
+	.md\:checked\:tp\:default:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:checked\:transition-property\:colors:checked,
+	.md\:checked\:tp\:colors:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:checked\:transition-property\:opacity:checked,
+	.md\:checked\:tp\:opacity:checked {
+		transition-property: opacity !important;
+	}
+
+	.md\:checked\:transition-property\:shadow:checked,
+	.md\:checked\:tp\:shadow:checked {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:checked\:transition-property\:transform:checked,
+	.md\:checked\:tp\:transform:checked {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:checked\:transition-duration\:fast:checked,
+	.md\:checked\:tdur\:fast:checked {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:checked\:transition-duration\:normal:checked,
+	.md\:checked\:tdur\:normal:checked {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:checked\:transition-duration\:slow:checked,
+	.md\:checked\:tdur\:slow:checked {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:checked\:transition-timing-function\:linear:checked,
+	.md\:checked\:ttf\:linear:checked {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:checked\:transition-timing-function\:in:checked,
+	.md\:checked\:ttf\:in:checked {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:checked\:transition-timing-function\:out:checked,
+	.md\:checked\:ttf\:out:checked {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:checked\:transition-timing-function\:in-out:checked,
+	.md\:checked\:ttf\:in-out:checked {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:checked\:transition-delay\:0:checked,
+	.md\:checked\:tdly\:0:checked {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:checked\:transition-delay\:75:checked,
+	.md\:checked\:tdly\:75:checked {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:checked\:transition-delay\:100:checked,
+	.md\:checked\:tdly\:100:checked {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:checked\:transition-delay\:150:checked,
+	.md\:checked\:tdly\:150:checked {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:checked\:transition-delay\:200:checked,
+	.md\:checked\:tdly\:200:checked {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:checked\:transition-delay\:300:checked,
+	.md\:checked\:tdly\:300:checked {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:checked\:transition-delay\:500:checked,
+	.md\:checked\:tdly\:500:checked {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:checked\:transition-delay\:700:checked,
+	.md\:checked\:tdly\:700:checked {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:checked\:transition-delay\:1000:checked,
+	.md\:checked\:tdly\:1000:checked {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:checked\:transition\:none:checked,
+	.md\:checked\:tr\:none:checked {
+		transition: none !important;
+	}
+
+	.md\:checked\:transition\:all:checked,
+	.md\:checked\:tr\:all:checked {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:checked\:transition\:default:checked,
+	.md\:checked\:tr\:default:checked {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.md\:visited\:transition-property\:none:visited,
+	.md\:visited\:tp\:none:visited {
+		transition-property: none !important;
+	}
+
+	.md\:visited\:transition-property\:all:visited,
+	.md\:visited\:tp\:all:visited {
+		transition-property: all !important;
+	}
+
+	.md\:visited\:transition-property\:default:visited,
+	.md\:visited\:tp\:default:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.md\:visited\:transition-property\:colors:visited,
+	.md\:visited\:tp\:colors:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.md\:visited\:transition-property\:opacity:visited,
+	.md\:visited\:tp\:opacity:visited {
+		transition-property: opacity !important;
+	}
+
+	.md\:visited\:transition-property\:shadow:visited,
+	.md\:visited\:tp\:shadow:visited {
+		transition-property: box-shadow !important;
+	}
+
+	.md\:visited\:transition-property\:transform:visited,
+	.md\:visited\:tp\:transform:visited {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.md\:visited\:transition-duration\:fast:visited,
+	.md\:visited\:tdur\:fast:visited {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.md\:visited\:transition-duration\:normal:visited,
+	.md\:visited\:tdur\:normal:visited {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.md\:visited\:transition-duration\:slow:visited,
+	.md\:visited\:tdur\:slow:visited {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.md\:visited\:transition-timing-function\:linear:visited,
+	.md\:visited\:ttf\:linear:visited {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.md\:visited\:transition-timing-function\:in:visited,
+	.md\:visited\:ttf\:in:visited {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.md\:visited\:transition-timing-function\:out:visited,
+	.md\:visited\:ttf\:out:visited {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.md\:visited\:transition-timing-function\:in-out:visited,
+	.md\:visited\:ttf\:in-out:visited {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.md\:visited\:transition-delay\:0:visited,
+	.md\:visited\:tdly\:0:visited {
+		transition-delay: 0ms !important;
+	}
+
+	.md\:visited\:transition-delay\:75:visited,
+	.md\:visited\:tdly\:75:visited {
+		transition-delay: 75ms !important;
+	}
+
+	.md\:visited\:transition-delay\:100:visited,
+	.md\:visited\:tdly\:100:visited {
+		transition-delay: 100ms !important;
+	}
+
+	.md\:visited\:transition-delay\:150:visited,
+	.md\:visited\:tdly\:150:visited {
+		transition-delay: 150ms !important;
+	}
+
+	.md\:visited\:transition-delay\:200:visited,
+	.md\:visited\:tdly\:200:visited {
+		transition-delay: 200ms !important;
+	}
+
+	.md\:visited\:transition-delay\:300:visited,
+	.md\:visited\:tdly\:300:visited {
+		transition-delay: 300ms !important;
+	}
+
+	.md\:visited\:transition-delay\:500:visited,
+	.md\:visited\:tdly\:500:visited {
+		transition-delay: 500ms !important;
+	}
+
+	.md\:visited\:transition-delay\:700:visited,
+	.md\:visited\:tdly\:700:visited {
+		transition-delay: 700ms !important;
+	}
+
+	.md\:visited\:transition-delay\:1000:visited,
+	.md\:visited\:tdly\:1000:visited {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.md\:visited\:transition\:none:visited,
+	.md\:visited\:tr\:none:visited {
+		transition: none !important;
+	}
+
+	.md\:visited\:transition\:all:visited,
+	.md\:visited\:tr\:all:visited {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.md\:visited\:transition\:default:visited,
+	.md\:visited\:tr\:default:visited {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
 }
 
 @media (min-width: 1024px) {
@@ -574,6 +4006,1150 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:hover\:transition-property\:none:hover,
+	.lg\:hover\:tp\:none:hover {
+		transition-property: none !important;
+	}
+
+	.lg\:hover\:transition-property\:all:hover,
+	.lg\:hover\:tp\:all:hover {
+		transition-property: all !important;
+	}
+
+	.lg\:hover\:transition-property\:default:hover,
+	.lg\:hover\:tp\:default:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:hover\:transition-property\:colors:hover,
+	.lg\:hover\:tp\:colors:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:hover\:transition-property\:opacity:hover,
+	.lg\:hover\:tp\:opacity:hover {
+		transition-property: opacity !important;
+	}
+
+	.lg\:hover\:transition-property\:shadow:hover,
+	.lg\:hover\:tp\:shadow:hover {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:hover\:transition-property\:transform:hover,
+	.lg\:hover\:tp\:transform:hover {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:hover\:transition-duration\:fast:hover,
+	.lg\:hover\:tdur\:fast:hover {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:hover\:transition-duration\:normal:hover,
+	.lg\:hover\:tdur\:normal:hover {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:hover\:transition-duration\:slow:hover,
+	.lg\:hover\:tdur\:slow:hover {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:hover\:transition-timing-function\:linear:hover,
+	.lg\:hover\:ttf\:linear:hover {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:hover\:transition-timing-function\:in:hover,
+	.lg\:hover\:ttf\:in:hover {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:hover\:transition-timing-function\:out:hover,
+	.lg\:hover\:ttf\:out:hover {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:hover\:transition-timing-function\:in-out:hover,
+	.lg\:hover\:ttf\:in-out:hover {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:hover\:transition-delay\:0:hover,
+	.lg\:hover\:tdly\:0:hover {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:75:hover,
+	.lg\:hover\:tdly\:75:hover {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:100:hover,
+	.lg\:hover\:tdly\:100:hover {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:150:hover,
+	.lg\:hover\:tdly\:150:hover {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:200:hover,
+	.lg\:hover\:tdly\:200:hover {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:300:hover,
+	.lg\:hover\:tdly\:300:hover {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:500:hover,
+	.lg\:hover\:tdly\:500:hover {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:700:hover,
+	.lg\:hover\:tdly\:700:hover {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:hover\:transition-delay\:1000:hover,
+	.lg\:hover\:tdly\:1000:hover {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:hover\:transition\:none:hover,
+	.lg\:hover\:tr\:none:hover {
+		transition: none !important;
+	}
+
+	.lg\:hover\:transition\:all:hover,
+	.lg\:hover\:tr\:all:hover {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:hover\:transition\:default:hover,
+	.lg\:hover\:tr\:default:hover {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:focus\:transition-property\:none:focus,
+	.lg\:focus\:tp\:none:focus {
+		transition-property: none !important;
+	}
+
+	.lg\:focus\:transition-property\:all:focus,
+	.lg\:focus\:tp\:all:focus {
+		transition-property: all !important;
+	}
+
+	.lg\:focus\:transition-property\:default:focus,
+	.lg\:focus\:tp\:default:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:focus\:transition-property\:colors:focus,
+	.lg\:focus\:tp\:colors:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:focus\:transition-property\:opacity:focus,
+	.lg\:focus\:tp\:opacity:focus {
+		transition-property: opacity !important;
+	}
+
+	.lg\:focus\:transition-property\:shadow:focus,
+	.lg\:focus\:tp\:shadow:focus {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:focus\:transition-property\:transform:focus,
+	.lg\:focus\:tp\:transform:focus {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:focus\:transition-duration\:fast:focus,
+	.lg\:focus\:tdur\:fast:focus {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus\:transition-duration\:normal:focus,
+	.lg\:focus\:tdur\:normal:focus {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus\:transition-duration\:slow:focus,
+	.lg\:focus\:tdur\:slow:focus {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:focus\:transition-timing-function\:linear:focus,
+	.lg\:focus\:ttf\:linear:focus {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus\:transition-timing-function\:in:focus,
+	.lg\:focus\:ttf\:in:focus {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus\:transition-timing-function\:out:focus,
+	.lg\:focus\:ttf\:out:focus {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus\:transition-timing-function\:in-out:focus,
+	.lg\:focus\:ttf\:in-out:focus {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:focus\:transition-delay\:0:focus,
+	.lg\:focus\:tdly\:0:focus {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:75:focus,
+	.lg\:focus\:tdly\:75:focus {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:100:focus,
+	.lg\:focus\:tdly\:100:focus {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:150:focus,
+	.lg\:focus\:tdly\:150:focus {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:200:focus,
+	.lg\:focus\:tdly\:200:focus {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:300:focus,
+	.lg\:focus\:tdly\:300:focus {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:500:focus,
+	.lg\:focus\:tdly\:500:focus {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:700:focus,
+	.lg\:focus\:tdly\:700:focus {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:focus\:transition-delay\:1000:focus,
+	.lg\:focus\:tdly\:1000:focus {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:focus\:transition\:none:focus,
+	.lg\:focus\:tr\:none:focus {
+		transition: none !important;
+	}
+
+	.lg\:focus\:transition\:all:focus,
+	.lg\:focus\:tr\:all:focus {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:focus\:transition\:default:focus,
+	.lg\:focus\:tr\:default:focus {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:focus-visible\:transition-property\:none:focus-visible,
+	.lg\:focus-visible\:tp\:none:focus-visible {
+		transition-property: none !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:all:focus-visible,
+	.lg\:focus-visible\:tp\:all:focus-visible {
+		transition-property: all !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:default:focus-visible,
+	.lg\:focus-visible\:tp\:default:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:colors:focus-visible,
+	.lg\:focus-visible\:tp\:colors:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:opacity:focus-visible,
+	.lg\:focus-visible\:tp\:opacity:focus-visible {
+		transition-property: opacity !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:shadow:focus-visible,
+	.lg\:focus-visible\:tp\:shadow:focus-visible {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:focus-visible\:transition-property\:transform:focus-visible,
+	.lg\:focus-visible\:tp\:transform:focus-visible {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:focus-visible\:transition-duration\:fast:focus-visible,
+	.lg\:focus-visible\:tdur\:fast:focus-visible {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus-visible\:transition-duration\:normal:focus-visible,
+	.lg\:focus-visible\:tdur\:normal:focus-visible {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus-visible\:transition-duration\:slow:focus-visible,
+	.lg\:focus-visible\:tdur\:slow:focus-visible {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:focus-visible\:transition-timing-function\:linear:focus-visible,
+	.lg\:focus-visible\:ttf\:linear:focus-visible {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus-visible\:transition-timing-function\:in:focus-visible,
+	.lg\:focus-visible\:ttf\:in:focus-visible {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus-visible\:transition-timing-function\:out:focus-visible,
+	.lg\:focus-visible\:ttf\:out:focus-visible {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus-visible\:transition-timing-function\:in-out:focus-visible,
+	.lg\:focus-visible\:ttf\:in-out:focus-visible {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:focus-visible\:transition-delay\:0:focus-visible,
+	.lg\:focus-visible\:tdly\:0:focus-visible {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:75:focus-visible,
+	.lg\:focus-visible\:tdly\:75:focus-visible {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:100:focus-visible,
+	.lg\:focus-visible\:tdly\:100:focus-visible {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:150:focus-visible,
+	.lg\:focus-visible\:tdly\:150:focus-visible {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:200:focus-visible,
+	.lg\:focus-visible\:tdly\:200:focus-visible {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:300:focus-visible,
+	.lg\:focus-visible\:tdly\:300:focus-visible {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:500:focus-visible,
+	.lg\:focus-visible\:tdly\:500:focus-visible {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:700:focus-visible,
+	.lg\:focus-visible\:tdly\:700:focus-visible {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:1000:focus-visible,
+	.lg\:focus-visible\:tdly\:1000:focus-visible {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:focus-visible\:transition\:none:focus-visible,
+	.lg\:focus-visible\:tr\:none:focus-visible {
+		transition: none !important;
+	}
+
+	.lg\:focus-visible\:transition\:all:focus-visible,
+	.lg\:focus-visible\:tr\:all:focus-visible {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:focus-visible\:transition\:default:focus-visible,
+	.lg\:focus-visible\:tr\:default:focus-visible {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:focus-within\:transition-property\:none:focus-within,
+	.lg\:focus-within\:tp\:none:focus-within {
+		transition-property: none !important;
+	}
+
+	.lg\:focus-within\:transition-property\:all:focus-within,
+	.lg\:focus-within\:tp\:all:focus-within {
+		transition-property: all !important;
+	}
+
+	.lg\:focus-within\:transition-property\:default:focus-within,
+	.lg\:focus-within\:tp\:default:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:focus-within\:transition-property\:colors:focus-within,
+	.lg\:focus-within\:tp\:colors:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:focus-within\:transition-property\:opacity:focus-within,
+	.lg\:focus-within\:tp\:opacity:focus-within {
+		transition-property: opacity !important;
+	}
+
+	.lg\:focus-within\:transition-property\:shadow:focus-within,
+	.lg\:focus-within\:tp\:shadow:focus-within {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:focus-within\:transition-property\:transform:focus-within,
+	.lg\:focus-within\:tp\:transform:focus-within {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:focus-within\:transition-duration\:fast:focus-within,
+	.lg\:focus-within\:tdur\:fast:focus-within {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:focus-within\:transition-duration\:normal:focus-within,
+	.lg\:focus-within\:tdur\:normal:focus-within {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:focus-within\:transition-duration\:slow:focus-within,
+	.lg\:focus-within\:tdur\:slow:focus-within {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:focus-within\:transition-timing-function\:linear:focus-within,
+	.lg\:focus-within\:ttf\:linear:focus-within {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:focus-within\:transition-timing-function\:in:focus-within,
+	.lg\:focus-within\:ttf\:in:focus-within {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:focus-within\:transition-timing-function\:out:focus-within,
+	.lg\:focus-within\:ttf\:out:focus-within {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:focus-within\:transition-timing-function\:in-out:focus-within,
+	.lg\:focus-within\:ttf\:in-out:focus-within {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:focus-within\:transition-delay\:0:focus-within,
+	.lg\:focus-within\:tdly\:0:focus-within {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:75:focus-within,
+	.lg\:focus-within\:tdly\:75:focus-within {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:100:focus-within,
+	.lg\:focus-within\:tdly\:100:focus-within {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:150:focus-within,
+	.lg\:focus-within\:tdly\:150:focus-within {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:200:focus-within,
+	.lg\:focus-within\:tdly\:200:focus-within {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:300:focus-within,
+	.lg\:focus-within\:tdly\:300:focus-within {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:500:focus-within,
+	.lg\:focus-within\:tdly\:500:focus-within {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:700:focus-within,
+	.lg\:focus-within\:tdly\:700:focus-within {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:1000:focus-within,
+	.lg\:focus-within\:tdly\:1000:focus-within {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:focus-within\:transition\:none:focus-within,
+	.lg\:focus-within\:tr\:none:focus-within {
+		transition: none !important;
+	}
+
+	.lg\:focus-within\:transition\:all:focus-within,
+	.lg\:focus-within\:tr\:all:focus-within {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:focus-within\:transition\:default:focus-within,
+	.lg\:focus-within\:tr\:default:focus-within {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:active\:transition-property\:none:active,
+	.lg\:active\:tp\:none:active {
+		transition-property: none !important;
+	}
+
+	.lg\:active\:transition-property\:all:active,
+	.lg\:active\:tp\:all:active {
+		transition-property: all !important;
+	}
+
+	.lg\:active\:transition-property\:default:active,
+	.lg\:active\:tp\:default:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:active\:transition-property\:colors:active,
+	.lg\:active\:tp\:colors:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:active\:transition-property\:opacity:active,
+	.lg\:active\:tp\:opacity:active {
+		transition-property: opacity !important;
+	}
+
+	.lg\:active\:transition-property\:shadow:active,
+	.lg\:active\:tp\:shadow:active {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:active\:transition-property\:transform:active,
+	.lg\:active\:tp\:transform:active {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:active\:transition-duration\:fast:active,
+	.lg\:active\:tdur\:fast:active {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:active\:transition-duration\:normal:active,
+	.lg\:active\:tdur\:normal:active {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:active\:transition-duration\:slow:active,
+	.lg\:active\:tdur\:slow:active {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:active\:transition-timing-function\:linear:active,
+	.lg\:active\:ttf\:linear:active {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:active\:transition-timing-function\:in:active,
+	.lg\:active\:ttf\:in:active {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:active\:transition-timing-function\:out:active,
+	.lg\:active\:ttf\:out:active {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:active\:transition-timing-function\:in-out:active,
+	.lg\:active\:ttf\:in-out:active {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:active\:transition-delay\:0:active,
+	.lg\:active\:tdly\:0:active {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:active\:transition-delay\:75:active,
+	.lg\:active\:tdly\:75:active {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:active\:transition-delay\:100:active,
+	.lg\:active\:tdly\:100:active {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:active\:transition-delay\:150:active,
+	.lg\:active\:tdly\:150:active {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:active\:transition-delay\:200:active,
+	.lg\:active\:tdly\:200:active {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:active\:transition-delay\:300:active,
+	.lg\:active\:tdly\:300:active {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:active\:transition-delay\:500:active,
+	.lg\:active\:tdly\:500:active {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:active\:transition-delay\:700:active,
+	.lg\:active\:tdly\:700:active {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:active\:transition-delay\:1000:active,
+	.lg\:active\:tdly\:1000:active {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:active\:transition\:none:active,
+	.lg\:active\:tr\:none:active {
+		transition: none !important;
+	}
+
+	.lg\:active\:transition\:all:active,
+	.lg\:active\:tr\:all:active {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:active\:transition\:default:active,
+	.lg\:active\:tr\:default:active {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:disabled\:transition-property\:none:disabled,
+	.lg\:disabled\:tp\:none:disabled {
+		transition-property: none !important;
+	}
+
+	.lg\:disabled\:transition-property\:all:disabled,
+	.lg\:disabled\:tp\:all:disabled {
+		transition-property: all !important;
+	}
+
+	.lg\:disabled\:transition-property\:default:disabled,
+	.lg\:disabled\:tp\:default:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:disabled\:transition-property\:colors:disabled,
+	.lg\:disabled\:tp\:colors:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:disabled\:transition-property\:opacity:disabled,
+	.lg\:disabled\:tp\:opacity:disabled {
+		transition-property: opacity !important;
+	}
+
+	.lg\:disabled\:transition-property\:shadow:disabled,
+	.lg\:disabled\:tp\:shadow:disabled {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:disabled\:transition-property\:transform:disabled,
+	.lg\:disabled\:tp\:transform:disabled {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:disabled\:transition-duration\:fast:disabled,
+	.lg\:disabled\:tdur\:fast:disabled {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:disabled\:transition-duration\:normal:disabled,
+	.lg\:disabled\:tdur\:normal:disabled {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:disabled\:transition-duration\:slow:disabled,
+	.lg\:disabled\:tdur\:slow:disabled {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:disabled\:transition-timing-function\:linear:disabled,
+	.lg\:disabled\:ttf\:linear:disabled {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:disabled\:transition-timing-function\:in:disabled,
+	.lg\:disabled\:ttf\:in:disabled {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:disabled\:transition-timing-function\:out:disabled,
+	.lg\:disabled\:ttf\:out:disabled {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:disabled\:transition-timing-function\:in-out:disabled,
+	.lg\:disabled\:ttf\:in-out:disabled {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:disabled\:transition-delay\:0:disabled,
+	.lg\:disabled\:tdly\:0:disabled {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:75:disabled,
+	.lg\:disabled\:tdly\:75:disabled {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:100:disabled,
+	.lg\:disabled\:tdly\:100:disabled {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:150:disabled,
+	.lg\:disabled\:tdly\:150:disabled {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:200:disabled,
+	.lg\:disabled\:tdly\:200:disabled {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:300:disabled,
+	.lg\:disabled\:tdly\:300:disabled {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:500:disabled,
+	.lg\:disabled\:tdly\:500:disabled {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:700:disabled,
+	.lg\:disabled\:tdly\:700:disabled {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:disabled\:transition-delay\:1000:disabled,
+	.lg\:disabled\:tdly\:1000:disabled {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:disabled\:transition\:none:disabled,
+	.lg\:disabled\:tr\:none:disabled {
+		transition: none !important;
+	}
+
+	.lg\:disabled\:transition\:all:disabled,
+	.lg\:disabled\:tr\:all:disabled {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:disabled\:transition\:default:disabled,
+	.lg\:disabled\:tr\:default:disabled {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:checked\:transition-property\:none:checked,
+	.lg\:checked\:tp\:none:checked {
+		transition-property: none !important;
+	}
+
+	.lg\:checked\:transition-property\:all:checked,
+	.lg\:checked\:tp\:all:checked {
+		transition-property: all !important;
+	}
+
+	.lg\:checked\:transition-property\:default:checked,
+	.lg\:checked\:tp\:default:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:checked\:transition-property\:colors:checked,
+	.lg\:checked\:tp\:colors:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:checked\:transition-property\:opacity:checked,
+	.lg\:checked\:tp\:opacity:checked {
+		transition-property: opacity !important;
+	}
+
+	.lg\:checked\:transition-property\:shadow:checked,
+	.lg\:checked\:tp\:shadow:checked {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:checked\:transition-property\:transform:checked,
+	.lg\:checked\:tp\:transform:checked {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:checked\:transition-duration\:fast:checked,
+	.lg\:checked\:tdur\:fast:checked {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:checked\:transition-duration\:normal:checked,
+	.lg\:checked\:tdur\:normal:checked {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:checked\:transition-duration\:slow:checked,
+	.lg\:checked\:tdur\:slow:checked {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:checked\:transition-timing-function\:linear:checked,
+	.lg\:checked\:ttf\:linear:checked {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:checked\:transition-timing-function\:in:checked,
+	.lg\:checked\:ttf\:in:checked {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:checked\:transition-timing-function\:out:checked,
+	.lg\:checked\:ttf\:out:checked {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:checked\:transition-timing-function\:in-out:checked,
+	.lg\:checked\:ttf\:in-out:checked {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:checked\:transition-delay\:0:checked,
+	.lg\:checked\:tdly\:0:checked {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:75:checked,
+	.lg\:checked\:tdly\:75:checked {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:100:checked,
+	.lg\:checked\:tdly\:100:checked {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:150:checked,
+	.lg\:checked\:tdly\:150:checked {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:200:checked,
+	.lg\:checked\:tdly\:200:checked {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:300:checked,
+	.lg\:checked\:tdly\:300:checked {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:500:checked,
+	.lg\:checked\:tdly\:500:checked {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:700:checked,
+	.lg\:checked\:tdly\:700:checked {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:checked\:transition-delay\:1000:checked,
+	.lg\:checked\:tdly\:1000:checked {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:checked\:transition\:none:checked,
+	.lg\:checked\:tr\:none:checked {
+		transition: none !important;
+	}
+
+	.lg\:checked\:transition\:all:checked,
+	.lg\:checked\:tr\:all:checked {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:checked\:transition\:default:checked,
+	.lg\:checked\:tr\:default:checked {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.lg\:visited\:transition-property\:none:visited,
+	.lg\:visited\:tp\:none:visited {
+		transition-property: none !important;
+	}
+
+	.lg\:visited\:transition-property\:all:visited,
+	.lg\:visited\:tp\:all:visited {
+		transition-property: all !important;
+	}
+
+	.lg\:visited\:transition-property\:default:visited,
+	.lg\:visited\:tp\:default:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.lg\:visited\:transition-property\:colors:visited,
+	.lg\:visited\:tp\:colors:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.lg\:visited\:transition-property\:opacity:visited,
+	.lg\:visited\:tp\:opacity:visited {
+		transition-property: opacity !important;
+	}
+
+	.lg\:visited\:transition-property\:shadow:visited,
+	.lg\:visited\:tp\:shadow:visited {
+		transition-property: box-shadow !important;
+	}
+
+	.lg\:visited\:transition-property\:transform:visited,
+	.lg\:visited\:tp\:transform:visited {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.lg\:visited\:transition-duration\:fast:visited,
+	.lg\:visited\:tdur\:fast:visited {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.lg\:visited\:transition-duration\:normal:visited,
+	.lg\:visited\:tdur\:normal:visited {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.lg\:visited\:transition-duration\:slow:visited,
+	.lg\:visited\:tdur\:slow:visited {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.lg\:visited\:transition-timing-function\:linear:visited,
+	.lg\:visited\:ttf\:linear:visited {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.lg\:visited\:transition-timing-function\:in:visited,
+	.lg\:visited\:ttf\:in:visited {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.lg\:visited\:transition-timing-function\:out:visited,
+	.lg\:visited\:ttf\:out:visited {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.lg\:visited\:transition-timing-function\:in-out:visited,
+	.lg\:visited\:ttf\:in-out:visited {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.lg\:visited\:transition-delay\:0:visited,
+	.lg\:visited\:tdly\:0:visited {
+		transition-delay: 0ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:75:visited,
+	.lg\:visited\:tdly\:75:visited {
+		transition-delay: 75ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:100:visited,
+	.lg\:visited\:tdly\:100:visited {
+		transition-delay: 100ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:150:visited,
+	.lg\:visited\:tdly\:150:visited {
+		transition-delay: 150ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:200:visited,
+	.lg\:visited\:tdly\:200:visited {
+		transition-delay: 200ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:300:visited,
+	.lg\:visited\:tdly\:300:visited {
+		transition-delay: 300ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:500:visited,
+	.lg\:visited\:tdly\:500:visited {
+		transition-delay: 500ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:700:visited,
+	.lg\:visited\:tdly\:700:visited {
+		transition-delay: 700ms !important;
+	}
+
+	.lg\:visited\:transition-delay\:1000:visited,
+	.lg\:visited\:tdly\:1000:visited {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.lg\:visited\:transition\:none:visited,
+	.lg\:visited\:tr\:none:visited {
+		transition: none !important;
+	}
+
+	.lg\:visited\:transition\:all:visited,
+	.lg\:visited\:tr\:all:visited {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.lg\:visited\:transition\:default:visited,
+	.lg\:visited\:tr\:default:visited {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
 }
 
 @media (min-width: 1280px) {
@@ -716,6 +5292,1150 @@
 
 	.xl\:transition\:default,
 	.xl\:tr\:default {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:hover\:transition-property\:none:hover,
+	.xl\:hover\:tp\:none:hover {
+		transition-property: none !important;
+	}
+
+	.xl\:hover\:transition-property\:all:hover,
+	.xl\:hover\:tp\:all:hover {
+		transition-property: all !important;
+	}
+
+	.xl\:hover\:transition-property\:default:hover,
+	.xl\:hover\:tp\:default:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:hover\:transition-property\:colors:hover,
+	.xl\:hover\:tp\:colors:hover {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:hover\:transition-property\:opacity:hover,
+	.xl\:hover\:tp\:opacity:hover {
+		transition-property: opacity !important;
+	}
+
+	.xl\:hover\:transition-property\:shadow:hover,
+	.xl\:hover\:tp\:shadow:hover {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:hover\:transition-property\:transform:hover,
+	.xl\:hover\:tp\:transform:hover {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:hover\:transition-duration\:fast:hover,
+	.xl\:hover\:tdur\:fast:hover {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:hover\:transition-duration\:normal:hover,
+	.xl\:hover\:tdur\:normal:hover {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:hover\:transition-duration\:slow:hover,
+	.xl\:hover\:tdur\:slow:hover {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:hover\:transition-timing-function\:linear:hover,
+	.xl\:hover\:ttf\:linear:hover {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:hover\:transition-timing-function\:in:hover,
+	.xl\:hover\:ttf\:in:hover {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:hover\:transition-timing-function\:out:hover,
+	.xl\:hover\:ttf\:out:hover {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:hover\:transition-timing-function\:in-out:hover,
+	.xl\:hover\:ttf\:in-out:hover {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:hover\:transition-delay\:0:hover,
+	.xl\:hover\:tdly\:0:hover {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:75:hover,
+	.xl\:hover\:tdly\:75:hover {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:100:hover,
+	.xl\:hover\:tdly\:100:hover {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:150:hover,
+	.xl\:hover\:tdly\:150:hover {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:200:hover,
+	.xl\:hover\:tdly\:200:hover {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:300:hover,
+	.xl\:hover\:tdly\:300:hover {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:500:hover,
+	.xl\:hover\:tdly\:500:hover {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:700:hover,
+	.xl\:hover\:tdly\:700:hover {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:hover\:transition-delay\:1000:hover,
+	.xl\:hover\:tdly\:1000:hover {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:hover\:transition\:none:hover,
+	.xl\:hover\:tr\:none:hover {
+		transition: none !important;
+	}
+
+	.xl\:hover\:transition\:all:hover,
+	.xl\:hover\:tr\:all:hover {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:hover\:transition\:default:hover,
+	.xl\:hover\:tr\:default:hover {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:focus\:transition-property\:none:focus,
+	.xl\:focus\:tp\:none:focus {
+		transition-property: none !important;
+	}
+
+	.xl\:focus\:transition-property\:all:focus,
+	.xl\:focus\:tp\:all:focus {
+		transition-property: all !important;
+	}
+
+	.xl\:focus\:transition-property\:default:focus,
+	.xl\:focus\:tp\:default:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:focus\:transition-property\:colors:focus,
+	.xl\:focus\:tp\:colors:focus {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:focus\:transition-property\:opacity:focus,
+	.xl\:focus\:tp\:opacity:focus {
+		transition-property: opacity !important;
+	}
+
+	.xl\:focus\:transition-property\:shadow:focus,
+	.xl\:focus\:tp\:shadow:focus {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:focus\:transition-property\:transform:focus,
+	.xl\:focus\:tp\:transform:focus {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:focus\:transition-duration\:fast:focus,
+	.xl\:focus\:tdur\:fast:focus {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus\:transition-duration\:normal:focus,
+	.xl\:focus\:tdur\:normal:focus {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus\:transition-duration\:slow:focus,
+	.xl\:focus\:tdur\:slow:focus {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:focus\:transition-timing-function\:linear:focus,
+	.xl\:focus\:ttf\:linear:focus {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus\:transition-timing-function\:in:focus,
+	.xl\:focus\:ttf\:in:focus {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus\:transition-timing-function\:out:focus,
+	.xl\:focus\:ttf\:out:focus {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus\:transition-timing-function\:in-out:focus,
+	.xl\:focus\:ttf\:in-out:focus {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:focus\:transition-delay\:0:focus,
+	.xl\:focus\:tdly\:0:focus {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:75:focus,
+	.xl\:focus\:tdly\:75:focus {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:100:focus,
+	.xl\:focus\:tdly\:100:focus {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:150:focus,
+	.xl\:focus\:tdly\:150:focus {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:200:focus,
+	.xl\:focus\:tdly\:200:focus {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:300:focus,
+	.xl\:focus\:tdly\:300:focus {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:500:focus,
+	.xl\:focus\:tdly\:500:focus {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:700:focus,
+	.xl\:focus\:tdly\:700:focus {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:focus\:transition-delay\:1000:focus,
+	.xl\:focus\:tdly\:1000:focus {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:focus\:transition\:none:focus,
+	.xl\:focus\:tr\:none:focus {
+		transition: none !important;
+	}
+
+	.xl\:focus\:transition\:all:focus,
+	.xl\:focus\:tr\:all:focus {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:focus\:transition\:default:focus,
+	.xl\:focus\:tr\:default:focus {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:focus-visible\:transition-property\:none:focus-visible,
+	.xl\:focus-visible\:tp\:none:focus-visible {
+		transition-property: none !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:all:focus-visible,
+	.xl\:focus-visible\:tp\:all:focus-visible {
+		transition-property: all !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:default:focus-visible,
+	.xl\:focus-visible\:tp\:default:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:colors:focus-visible,
+	.xl\:focus-visible\:tp\:colors:focus-visible {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:opacity:focus-visible,
+	.xl\:focus-visible\:tp\:opacity:focus-visible {
+		transition-property: opacity !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:shadow:focus-visible,
+	.xl\:focus-visible\:tp\:shadow:focus-visible {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:focus-visible\:transition-property\:transform:focus-visible,
+	.xl\:focus-visible\:tp\:transform:focus-visible {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:focus-visible\:transition-duration\:fast:focus-visible,
+	.xl\:focus-visible\:tdur\:fast:focus-visible {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus-visible\:transition-duration\:normal:focus-visible,
+	.xl\:focus-visible\:tdur\:normal:focus-visible {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus-visible\:transition-duration\:slow:focus-visible,
+	.xl\:focus-visible\:tdur\:slow:focus-visible {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:focus-visible\:transition-timing-function\:linear:focus-visible,
+	.xl\:focus-visible\:ttf\:linear:focus-visible {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus-visible\:transition-timing-function\:in:focus-visible,
+	.xl\:focus-visible\:ttf\:in:focus-visible {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus-visible\:transition-timing-function\:out:focus-visible,
+	.xl\:focus-visible\:ttf\:out:focus-visible {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus-visible\:transition-timing-function\:in-out:focus-visible,
+	.xl\:focus-visible\:ttf\:in-out:focus-visible {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:focus-visible\:transition-delay\:0:focus-visible,
+	.xl\:focus-visible\:tdly\:0:focus-visible {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:75:focus-visible,
+	.xl\:focus-visible\:tdly\:75:focus-visible {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:100:focus-visible,
+	.xl\:focus-visible\:tdly\:100:focus-visible {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:150:focus-visible,
+	.xl\:focus-visible\:tdly\:150:focus-visible {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:200:focus-visible,
+	.xl\:focus-visible\:tdly\:200:focus-visible {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:300:focus-visible,
+	.xl\:focus-visible\:tdly\:300:focus-visible {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:500:focus-visible,
+	.xl\:focus-visible\:tdly\:500:focus-visible {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:700:focus-visible,
+	.xl\:focus-visible\:tdly\:700:focus-visible {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:1000:focus-visible,
+	.xl\:focus-visible\:tdly\:1000:focus-visible {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:focus-visible\:transition\:none:focus-visible,
+	.xl\:focus-visible\:tr\:none:focus-visible {
+		transition: none !important;
+	}
+
+	.xl\:focus-visible\:transition\:all:focus-visible,
+	.xl\:focus-visible\:tr\:all:focus-visible {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:focus-visible\:transition\:default:focus-visible,
+	.xl\:focus-visible\:tr\:default:focus-visible {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:focus-within\:transition-property\:none:focus-within,
+	.xl\:focus-within\:tp\:none:focus-within {
+		transition-property: none !important;
+	}
+
+	.xl\:focus-within\:transition-property\:all:focus-within,
+	.xl\:focus-within\:tp\:all:focus-within {
+		transition-property: all !important;
+	}
+
+	.xl\:focus-within\:transition-property\:default:focus-within,
+	.xl\:focus-within\:tp\:default:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:focus-within\:transition-property\:colors:focus-within,
+	.xl\:focus-within\:tp\:colors:focus-within {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:focus-within\:transition-property\:opacity:focus-within,
+	.xl\:focus-within\:tp\:opacity:focus-within {
+		transition-property: opacity !important;
+	}
+
+	.xl\:focus-within\:transition-property\:shadow:focus-within,
+	.xl\:focus-within\:tp\:shadow:focus-within {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:focus-within\:transition-property\:transform:focus-within,
+	.xl\:focus-within\:tp\:transform:focus-within {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:focus-within\:transition-duration\:fast:focus-within,
+	.xl\:focus-within\:tdur\:fast:focus-within {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:focus-within\:transition-duration\:normal:focus-within,
+	.xl\:focus-within\:tdur\:normal:focus-within {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:focus-within\:transition-duration\:slow:focus-within,
+	.xl\:focus-within\:tdur\:slow:focus-within {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:focus-within\:transition-timing-function\:linear:focus-within,
+	.xl\:focus-within\:ttf\:linear:focus-within {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:focus-within\:transition-timing-function\:in:focus-within,
+	.xl\:focus-within\:ttf\:in:focus-within {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:focus-within\:transition-timing-function\:out:focus-within,
+	.xl\:focus-within\:ttf\:out:focus-within {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:focus-within\:transition-timing-function\:in-out:focus-within,
+	.xl\:focus-within\:ttf\:in-out:focus-within {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:focus-within\:transition-delay\:0:focus-within,
+	.xl\:focus-within\:tdly\:0:focus-within {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:75:focus-within,
+	.xl\:focus-within\:tdly\:75:focus-within {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:100:focus-within,
+	.xl\:focus-within\:tdly\:100:focus-within {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:150:focus-within,
+	.xl\:focus-within\:tdly\:150:focus-within {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:200:focus-within,
+	.xl\:focus-within\:tdly\:200:focus-within {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:300:focus-within,
+	.xl\:focus-within\:tdly\:300:focus-within {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:500:focus-within,
+	.xl\:focus-within\:tdly\:500:focus-within {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:700:focus-within,
+	.xl\:focus-within\:tdly\:700:focus-within {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:1000:focus-within,
+	.xl\:focus-within\:tdly\:1000:focus-within {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:focus-within\:transition\:none:focus-within,
+	.xl\:focus-within\:tr\:none:focus-within {
+		transition: none !important;
+	}
+
+	.xl\:focus-within\:transition\:all:focus-within,
+	.xl\:focus-within\:tr\:all:focus-within {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:focus-within\:transition\:default:focus-within,
+	.xl\:focus-within\:tr\:default:focus-within {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:active\:transition-property\:none:active,
+	.xl\:active\:tp\:none:active {
+		transition-property: none !important;
+	}
+
+	.xl\:active\:transition-property\:all:active,
+	.xl\:active\:tp\:all:active {
+		transition-property: all !important;
+	}
+
+	.xl\:active\:transition-property\:default:active,
+	.xl\:active\:tp\:default:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:active\:transition-property\:colors:active,
+	.xl\:active\:tp\:colors:active {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:active\:transition-property\:opacity:active,
+	.xl\:active\:tp\:opacity:active {
+		transition-property: opacity !important;
+	}
+
+	.xl\:active\:transition-property\:shadow:active,
+	.xl\:active\:tp\:shadow:active {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:active\:transition-property\:transform:active,
+	.xl\:active\:tp\:transform:active {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:active\:transition-duration\:fast:active,
+	.xl\:active\:tdur\:fast:active {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:active\:transition-duration\:normal:active,
+	.xl\:active\:tdur\:normal:active {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:active\:transition-duration\:slow:active,
+	.xl\:active\:tdur\:slow:active {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:active\:transition-timing-function\:linear:active,
+	.xl\:active\:ttf\:linear:active {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:active\:transition-timing-function\:in:active,
+	.xl\:active\:ttf\:in:active {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:active\:transition-timing-function\:out:active,
+	.xl\:active\:ttf\:out:active {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:active\:transition-timing-function\:in-out:active,
+	.xl\:active\:ttf\:in-out:active {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:active\:transition-delay\:0:active,
+	.xl\:active\:tdly\:0:active {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:active\:transition-delay\:75:active,
+	.xl\:active\:tdly\:75:active {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:active\:transition-delay\:100:active,
+	.xl\:active\:tdly\:100:active {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:active\:transition-delay\:150:active,
+	.xl\:active\:tdly\:150:active {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:active\:transition-delay\:200:active,
+	.xl\:active\:tdly\:200:active {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:active\:transition-delay\:300:active,
+	.xl\:active\:tdly\:300:active {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:active\:transition-delay\:500:active,
+	.xl\:active\:tdly\:500:active {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:active\:transition-delay\:700:active,
+	.xl\:active\:tdly\:700:active {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:active\:transition-delay\:1000:active,
+	.xl\:active\:tdly\:1000:active {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:active\:transition\:none:active,
+	.xl\:active\:tr\:none:active {
+		transition: none !important;
+	}
+
+	.xl\:active\:transition\:all:active,
+	.xl\:active\:tr\:all:active {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:active\:transition\:default:active,
+	.xl\:active\:tr\:default:active {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:disabled\:transition-property\:none:disabled,
+	.xl\:disabled\:tp\:none:disabled {
+		transition-property: none !important;
+	}
+
+	.xl\:disabled\:transition-property\:all:disabled,
+	.xl\:disabled\:tp\:all:disabled {
+		transition-property: all !important;
+	}
+
+	.xl\:disabled\:transition-property\:default:disabled,
+	.xl\:disabled\:tp\:default:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:disabled\:transition-property\:colors:disabled,
+	.xl\:disabled\:tp\:colors:disabled {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:disabled\:transition-property\:opacity:disabled,
+	.xl\:disabled\:tp\:opacity:disabled {
+		transition-property: opacity !important;
+	}
+
+	.xl\:disabled\:transition-property\:shadow:disabled,
+	.xl\:disabled\:tp\:shadow:disabled {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:disabled\:transition-property\:transform:disabled,
+	.xl\:disabled\:tp\:transform:disabled {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:disabled\:transition-duration\:fast:disabled,
+	.xl\:disabled\:tdur\:fast:disabled {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:disabled\:transition-duration\:normal:disabled,
+	.xl\:disabled\:tdur\:normal:disabled {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:disabled\:transition-duration\:slow:disabled,
+	.xl\:disabled\:tdur\:slow:disabled {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:disabled\:transition-timing-function\:linear:disabled,
+	.xl\:disabled\:ttf\:linear:disabled {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:disabled\:transition-timing-function\:in:disabled,
+	.xl\:disabled\:ttf\:in:disabled {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:disabled\:transition-timing-function\:out:disabled,
+	.xl\:disabled\:ttf\:out:disabled {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:disabled\:transition-timing-function\:in-out:disabled,
+	.xl\:disabled\:ttf\:in-out:disabled {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:disabled\:transition-delay\:0:disabled,
+	.xl\:disabled\:tdly\:0:disabled {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:75:disabled,
+	.xl\:disabled\:tdly\:75:disabled {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:100:disabled,
+	.xl\:disabled\:tdly\:100:disabled {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:150:disabled,
+	.xl\:disabled\:tdly\:150:disabled {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:200:disabled,
+	.xl\:disabled\:tdly\:200:disabled {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:300:disabled,
+	.xl\:disabled\:tdly\:300:disabled {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:500:disabled,
+	.xl\:disabled\:tdly\:500:disabled {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:700:disabled,
+	.xl\:disabled\:tdly\:700:disabled {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:disabled\:transition-delay\:1000:disabled,
+	.xl\:disabled\:tdly\:1000:disabled {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:disabled\:transition\:none:disabled,
+	.xl\:disabled\:tr\:none:disabled {
+		transition: none !important;
+	}
+
+	.xl\:disabled\:transition\:all:disabled,
+	.xl\:disabled\:tr\:all:disabled {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:disabled\:transition\:default:disabled,
+	.xl\:disabled\:tr\:default:disabled {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:checked\:transition-property\:none:checked,
+	.xl\:checked\:tp\:none:checked {
+		transition-property: none !important;
+	}
+
+	.xl\:checked\:transition-property\:all:checked,
+	.xl\:checked\:tp\:all:checked {
+		transition-property: all !important;
+	}
+
+	.xl\:checked\:transition-property\:default:checked,
+	.xl\:checked\:tp\:default:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:checked\:transition-property\:colors:checked,
+	.xl\:checked\:tp\:colors:checked {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:checked\:transition-property\:opacity:checked,
+	.xl\:checked\:tp\:opacity:checked {
+		transition-property: opacity !important;
+	}
+
+	.xl\:checked\:transition-property\:shadow:checked,
+	.xl\:checked\:tp\:shadow:checked {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:checked\:transition-property\:transform:checked,
+	.xl\:checked\:tp\:transform:checked {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:checked\:transition-duration\:fast:checked,
+	.xl\:checked\:tdur\:fast:checked {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:checked\:transition-duration\:normal:checked,
+	.xl\:checked\:tdur\:normal:checked {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:checked\:transition-duration\:slow:checked,
+	.xl\:checked\:tdur\:slow:checked {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:checked\:transition-timing-function\:linear:checked,
+	.xl\:checked\:ttf\:linear:checked {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:checked\:transition-timing-function\:in:checked,
+	.xl\:checked\:ttf\:in:checked {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:checked\:transition-timing-function\:out:checked,
+	.xl\:checked\:ttf\:out:checked {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:checked\:transition-timing-function\:in-out:checked,
+	.xl\:checked\:ttf\:in-out:checked {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:checked\:transition-delay\:0:checked,
+	.xl\:checked\:tdly\:0:checked {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:75:checked,
+	.xl\:checked\:tdly\:75:checked {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:100:checked,
+	.xl\:checked\:tdly\:100:checked {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:150:checked,
+	.xl\:checked\:tdly\:150:checked {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:200:checked,
+	.xl\:checked\:tdly\:200:checked {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:300:checked,
+	.xl\:checked\:tdly\:300:checked {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:500:checked,
+	.xl\:checked\:tdly\:500:checked {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:700:checked,
+	.xl\:checked\:tdly\:700:checked {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:checked\:transition-delay\:1000:checked,
+	.xl\:checked\:tdly\:1000:checked {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:checked\:transition\:none:checked,
+	.xl\:checked\:tr\:none:checked {
+		transition: none !important;
+	}
+
+	.xl\:checked\:transition\:all:checked,
+	.xl\:checked\:tr\:all:checked {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:checked\:transition\:default:checked,
+	.xl\:checked\:tr\:default:checked {
+		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+
+	/* ===== TRANSITION UTILITIES ===== */
+
+	/* TRANSITION-PROPERTY */
+
+	.xl\:visited\:transition-property\:none:visited,
+	.xl\:visited\:tp\:none:visited {
+		transition-property: none !important;
+	}
+
+	.xl\:visited\:transition-property\:all:visited,
+	.xl\:visited\:tp\:all:visited {
+		transition-property: all !important;
+	}
+
+	.xl\:visited\:transition-property\:default:visited,
+	.xl\:visited\:tp\:default:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter !important;
+	}
+
+	.xl\:visited\:transition-property\:colors:visited,
+	.xl\:visited\:tp\:colors:visited {
+		transition-property: color, background-color, border-color, outline-color, fill, stroke !important;
+	}
+
+	.xl\:visited\:transition-property\:opacity:visited,
+	.xl\:visited\:tp\:opacity:visited {
+		transition-property: opacity !important;
+	}
+
+	.xl\:visited\:transition-property\:shadow:visited,
+	.xl\:visited\:tp\:shadow:visited {
+		transition-property: box-shadow !important;
+	}
+
+	.xl\:visited\:transition-property\:transform:visited,
+	.xl\:visited\:tp\:transform:visited {
+		transition-property: transform, translate, rotate, scale !important;
+	}
+
+	/* TRANSITION-DURATION */
+
+	.xl\:visited\:transition-duration\:fast:visited,
+	.xl\:visited\:tdur\:fast:visited {
+		transition-duration: var(--duration-fast) !important;
+	}
+
+	.xl\:visited\:transition-duration\:normal:visited,
+	.xl\:visited\:tdur\:normal:visited {
+		transition-duration: var(--duration-normal) !important;
+	}
+
+	.xl\:visited\:transition-duration\:slow:visited,
+	.xl\:visited\:tdur\:slow:visited {
+		transition-duration: var(--duration-slow) !important;
+	}
+
+	/* TRANSITION-TIMING-FUNCTION */
+
+	.xl\:visited\:transition-timing-function\:linear:visited,
+	.xl\:visited\:ttf\:linear:visited {
+		transition-timing-function: var(--ease-linear) !important;
+	}
+
+	.xl\:visited\:transition-timing-function\:in:visited,
+	.xl\:visited\:ttf\:in:visited {
+		transition-timing-function: var(--ease-in) !important;
+	}
+
+	.xl\:visited\:transition-timing-function\:out:visited,
+	.xl\:visited\:ttf\:out:visited {
+		transition-timing-function: var(--ease-out) !important;
+	}
+
+	.xl\:visited\:transition-timing-function\:in-out:visited,
+	.xl\:visited\:ttf\:in-out:visited {
+		transition-timing-function: var(--ease-in-out) !important;
+	}
+
+	/* TRANSITION-DELAY */
+
+	.xl\:visited\:transition-delay\:0:visited,
+	.xl\:visited\:tdly\:0:visited {
+		transition-delay: 0ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:75:visited,
+	.xl\:visited\:tdly\:75:visited {
+		transition-delay: 75ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:100:visited,
+	.xl\:visited\:tdly\:100:visited {
+		transition-delay: 100ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:150:visited,
+	.xl\:visited\:tdly\:150:visited {
+		transition-delay: 150ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:200:visited,
+	.xl\:visited\:tdly\:200:visited {
+		transition-delay: 200ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:300:visited,
+	.xl\:visited\:tdly\:300:visited {
+		transition-delay: 300ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:500:visited,
+	.xl\:visited\:tdly\:500:visited {
+		transition-delay: 500ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:700:visited,
+	.xl\:visited\:tdly\:700:visited {
+		transition-delay: 700ms !important;
+	}
+
+	.xl\:visited\:transition-delay\:1000:visited,
+	.xl\:visited\:tdly\:1000:visited {
+		transition-delay: 1000ms !important;
+	}
+
+	/* TRANSITION (shorthand presets) */
+
+	.xl\:visited\:transition\:none:visited,
+	.xl\:visited\:tr\:none:visited {
+		transition: none !important;
+	}
+
+	.xl\:visited\:transition\:all:visited,
+	.xl\:visited\:tr\:all:visited {
+		transition: all var(--duration-normal) var(--ease-in-out) !important;
+	}
+
+	.xl\:visited\:transition\:default:visited,
+	.xl\:visited\:tr\:default:visited {
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 

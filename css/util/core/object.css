@@ -75,6 +75,622 @@
 }
 
 
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.hover\:object-fit\:none:hover,
+.hover\:ofit\:none:hover {
+	object-fit: none !important;
+}
+
+.hover\:object-fit\:contain:hover,
+.hover\:ofit\:contain:hover {
+	object-fit: contain !important;
+}
+
+.hover\:object-fit\:cover:hover,
+.hover\:ofit\:cover:hover {
+	object-fit: cover !important;
+}
+
+.hover\:object-fit\:fill:hover,
+.hover\:ofit\:fill:hover {
+	object-fit: fill !important;
+}
+
+.hover\:object-fit\:scale-down:hover,
+.hover\:ofit\:scale-down:hover {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.hover\:object-position\:center:hover,
+.hover\:opos\:center:hover {
+	object-position: center !important;
+}
+
+.hover\:object-position\:top:hover,
+.hover\:opos\:top:hover {
+	object-position: top !important;
+}
+
+.hover\:object-position\:top-right:hover,
+.hover\:opos\:top-right:hover {
+	object-position: top right !important;
+}
+
+.hover\:object-position\:right:hover,
+.hover\:opos\:right:hover {
+	object-position: right !important;
+}
+
+.hover\:object-position\:bottom-right:hover,
+.hover\:opos\:bottom-right:hover {
+	object-position: bottom right !important;
+}
+
+.hover\:object-position\:bottom:hover,
+.hover\:opos\:bottom:hover {
+	object-position: bottom !important;
+}
+
+.hover\:object-position\:bottom-left:hover,
+.hover\:opos\:bottom-left:hover {
+	object-position: bottom left !important;
+}
+
+.hover\:object-position\:left:hover,
+.hover\:opos\:left:hover {
+	object-position: left !important;
+}
+
+.hover\:object-position\:top-left:hover,
+.hover\:opos\:top-left:hover {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.focus\:object-fit\:none:focus,
+.focus\:ofit\:none:focus {
+	object-fit: none !important;
+}
+
+.focus\:object-fit\:contain:focus,
+.focus\:ofit\:contain:focus {
+	object-fit: contain !important;
+}
+
+.focus\:object-fit\:cover:focus,
+.focus\:ofit\:cover:focus {
+	object-fit: cover !important;
+}
+
+.focus\:object-fit\:fill:focus,
+.focus\:ofit\:fill:focus {
+	object-fit: fill !important;
+}
+
+.focus\:object-fit\:scale-down:focus,
+.focus\:ofit\:scale-down:focus {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.focus\:object-position\:center:focus,
+.focus\:opos\:center:focus {
+	object-position: center !important;
+}
+
+.focus\:object-position\:top:focus,
+.focus\:opos\:top:focus {
+	object-position: top !important;
+}
+
+.focus\:object-position\:top-right:focus,
+.focus\:opos\:top-right:focus {
+	object-position: top right !important;
+}
+
+.focus\:object-position\:right:focus,
+.focus\:opos\:right:focus {
+	object-position: right !important;
+}
+
+.focus\:object-position\:bottom-right:focus,
+.focus\:opos\:bottom-right:focus {
+	object-position: bottom right !important;
+}
+
+.focus\:object-position\:bottom:focus,
+.focus\:opos\:bottom:focus {
+	object-position: bottom !important;
+}
+
+.focus\:object-position\:bottom-left:focus,
+.focus\:opos\:bottom-left:focus {
+	object-position: bottom left !important;
+}
+
+.focus\:object-position\:left:focus,
+.focus\:opos\:left:focus {
+	object-position: left !important;
+}
+
+.focus\:object-position\:top-left:focus,
+.focus\:opos\:top-left:focus {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.focus-visible\:object-fit\:none:focus-visible,
+.focus-visible\:ofit\:none:focus-visible {
+	object-fit: none !important;
+}
+
+.focus-visible\:object-fit\:contain:focus-visible,
+.focus-visible\:ofit\:contain:focus-visible {
+	object-fit: contain !important;
+}
+
+.focus-visible\:object-fit\:cover:focus-visible,
+.focus-visible\:ofit\:cover:focus-visible {
+	object-fit: cover !important;
+}
+
+.focus-visible\:object-fit\:fill:focus-visible,
+.focus-visible\:ofit\:fill:focus-visible {
+	object-fit: fill !important;
+}
+
+.focus-visible\:object-fit\:scale-down:focus-visible,
+.focus-visible\:ofit\:scale-down:focus-visible {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.focus-visible\:object-position\:center:focus-visible,
+.focus-visible\:opos\:center:focus-visible {
+	object-position: center !important;
+}
+
+.focus-visible\:object-position\:top:focus-visible,
+.focus-visible\:opos\:top:focus-visible {
+	object-position: top !important;
+}
+
+.focus-visible\:object-position\:top-right:focus-visible,
+.focus-visible\:opos\:top-right:focus-visible {
+	object-position: top right !important;
+}
+
+.focus-visible\:object-position\:right:focus-visible,
+.focus-visible\:opos\:right:focus-visible {
+	object-position: right !important;
+}
+
+.focus-visible\:object-position\:bottom-right:focus-visible,
+.focus-visible\:opos\:bottom-right:focus-visible {
+	object-position: bottom right !important;
+}
+
+.focus-visible\:object-position\:bottom:focus-visible,
+.focus-visible\:opos\:bottom:focus-visible {
+	object-position: bottom !important;
+}
+
+.focus-visible\:object-position\:bottom-left:focus-visible,
+.focus-visible\:opos\:bottom-left:focus-visible {
+	object-position: bottom left !important;
+}
+
+.focus-visible\:object-position\:left:focus-visible,
+.focus-visible\:opos\:left:focus-visible {
+	object-position: left !important;
+}
+
+.focus-visible\:object-position\:top-left:focus-visible,
+.focus-visible\:opos\:top-left:focus-visible {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.focus-within\:object-fit\:none:focus-within,
+.focus-within\:ofit\:none:focus-within {
+	object-fit: none !important;
+}
+
+.focus-within\:object-fit\:contain:focus-within,
+.focus-within\:ofit\:contain:focus-within {
+	object-fit: contain !important;
+}
+
+.focus-within\:object-fit\:cover:focus-within,
+.focus-within\:ofit\:cover:focus-within {
+	object-fit: cover !important;
+}
+
+.focus-within\:object-fit\:fill:focus-within,
+.focus-within\:ofit\:fill:focus-within {
+	object-fit: fill !important;
+}
+
+.focus-within\:object-fit\:scale-down:focus-within,
+.focus-within\:ofit\:scale-down:focus-within {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.focus-within\:object-position\:center:focus-within,
+.focus-within\:opos\:center:focus-within {
+	object-position: center !important;
+}
+
+.focus-within\:object-position\:top:focus-within,
+.focus-within\:opos\:top:focus-within {
+	object-position: top !important;
+}
+
+.focus-within\:object-position\:top-right:focus-within,
+.focus-within\:opos\:top-right:focus-within {
+	object-position: top right !important;
+}
+
+.focus-within\:object-position\:right:focus-within,
+.focus-within\:opos\:right:focus-within {
+	object-position: right !important;
+}
+
+.focus-within\:object-position\:bottom-right:focus-within,
+.focus-within\:opos\:bottom-right:focus-within {
+	object-position: bottom right !important;
+}
+
+.focus-within\:object-position\:bottom:focus-within,
+.focus-within\:opos\:bottom:focus-within {
+	object-position: bottom !important;
+}
+
+.focus-within\:object-position\:bottom-left:focus-within,
+.focus-within\:opos\:bottom-left:focus-within {
+	object-position: bottom left !important;
+}
+
+.focus-within\:object-position\:left:focus-within,
+.focus-within\:opos\:left:focus-within {
+	object-position: left !important;
+}
+
+.focus-within\:object-position\:top-left:focus-within,
+.focus-within\:opos\:top-left:focus-within {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.active\:object-fit\:none:active,
+.active\:ofit\:none:active {
+	object-fit: none !important;
+}
+
+.active\:object-fit\:contain:active,
+.active\:ofit\:contain:active {
+	object-fit: contain !important;
+}
+
+.active\:object-fit\:cover:active,
+.active\:ofit\:cover:active {
+	object-fit: cover !important;
+}
+
+.active\:object-fit\:fill:active,
+.active\:ofit\:fill:active {
+	object-fit: fill !important;
+}
+
+.active\:object-fit\:scale-down:active,
+.active\:ofit\:scale-down:active {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.active\:object-position\:center:active,
+.active\:opos\:center:active {
+	object-position: center !important;
+}
+
+.active\:object-position\:top:active,
+.active\:opos\:top:active {
+	object-position: top !important;
+}
+
+.active\:object-position\:top-right:active,
+.active\:opos\:top-right:active {
+	object-position: top right !important;
+}
+
+.active\:object-position\:right:active,
+.active\:opos\:right:active {
+	object-position: right !important;
+}
+
+.active\:object-position\:bottom-right:active,
+.active\:opos\:bottom-right:active {
+	object-position: bottom right !important;
+}
+
+.active\:object-position\:bottom:active,
+.active\:opos\:bottom:active {
+	object-position: bottom !important;
+}
+
+.active\:object-position\:bottom-left:active,
+.active\:opos\:bottom-left:active {
+	object-position: bottom left !important;
+}
+
+.active\:object-position\:left:active,
+.active\:opos\:left:active {
+	object-position: left !important;
+}
+
+.active\:object-position\:top-left:active,
+.active\:opos\:top-left:active {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.disabled\:object-fit\:none:disabled,
+.disabled\:ofit\:none:disabled {
+	object-fit: none !important;
+}
+
+.disabled\:object-fit\:contain:disabled,
+.disabled\:ofit\:contain:disabled {
+	object-fit: contain !important;
+}
+
+.disabled\:object-fit\:cover:disabled,
+.disabled\:ofit\:cover:disabled {
+	object-fit: cover !important;
+}
+
+.disabled\:object-fit\:fill:disabled,
+.disabled\:ofit\:fill:disabled {
+	object-fit: fill !important;
+}
+
+.disabled\:object-fit\:scale-down:disabled,
+.disabled\:ofit\:scale-down:disabled {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.disabled\:object-position\:center:disabled,
+.disabled\:opos\:center:disabled {
+	object-position: center !important;
+}
+
+.disabled\:object-position\:top:disabled,
+.disabled\:opos\:top:disabled {
+	object-position: top !important;
+}
+
+.disabled\:object-position\:top-right:disabled,
+.disabled\:opos\:top-right:disabled {
+	object-position: top right !important;
+}
+
+.disabled\:object-position\:right:disabled,
+.disabled\:opos\:right:disabled {
+	object-position: right !important;
+}
+
+.disabled\:object-position\:bottom-right:disabled,
+.disabled\:opos\:bottom-right:disabled {
+	object-position: bottom right !important;
+}
+
+.disabled\:object-position\:bottom:disabled,
+.disabled\:opos\:bottom:disabled {
+	object-position: bottom !important;
+}
+
+.disabled\:object-position\:bottom-left:disabled,
+.disabled\:opos\:bottom-left:disabled {
+	object-position: bottom left !important;
+}
+
+.disabled\:object-position\:left:disabled,
+.disabled\:opos\:left:disabled {
+	object-position: left !important;
+}
+
+.disabled\:object-position\:top-left:disabled,
+.disabled\:opos\:top-left:disabled {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.checked\:object-fit\:none:checked,
+.checked\:ofit\:none:checked {
+	object-fit: none !important;
+}
+
+.checked\:object-fit\:contain:checked,
+.checked\:ofit\:contain:checked {
+	object-fit: contain !important;
+}
+
+.checked\:object-fit\:cover:checked,
+.checked\:ofit\:cover:checked {
+	object-fit: cover !important;
+}
+
+.checked\:object-fit\:fill:checked,
+.checked\:ofit\:fill:checked {
+	object-fit: fill !important;
+}
+
+.checked\:object-fit\:scale-down:checked,
+.checked\:ofit\:scale-down:checked {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.checked\:object-position\:center:checked,
+.checked\:opos\:center:checked {
+	object-position: center !important;
+}
+
+.checked\:object-position\:top:checked,
+.checked\:opos\:top:checked {
+	object-position: top !important;
+}
+
+.checked\:object-position\:top-right:checked,
+.checked\:opos\:top-right:checked {
+	object-position: top right !important;
+}
+
+.checked\:object-position\:right:checked,
+.checked\:opos\:right:checked {
+	object-position: right !important;
+}
+
+.checked\:object-position\:bottom-right:checked,
+.checked\:opos\:bottom-right:checked {
+	object-position: bottom right !important;
+}
+
+.checked\:object-position\:bottom:checked,
+.checked\:opos\:bottom:checked {
+	object-position: bottom !important;
+}
+
+.checked\:object-position\:bottom-left:checked,
+.checked\:opos\:bottom-left:checked {
+	object-position: bottom left !important;
+}
+
+.checked\:object-position\:left:checked,
+.checked\:opos\:left:checked {
+	object-position: left !important;
+}
+
+.checked\:object-position\:top-left:checked,
+.checked\:opos\:top-left:checked {
+	object-position: top left !important;
+}
+
+
+/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+/* OBJECT-FIT */
+
+.visited\:object-fit\:none:visited,
+.visited\:ofit\:none:visited {
+	object-fit: none !important;
+}
+
+.visited\:object-fit\:contain:visited,
+.visited\:ofit\:contain:visited {
+	object-fit: contain !important;
+}
+
+.visited\:object-fit\:cover:visited,
+.visited\:ofit\:cover:visited {
+	object-fit: cover !important;
+}
+
+.visited\:object-fit\:fill:visited,
+.visited\:ofit\:fill:visited {
+	object-fit: fill !important;
+}
+
+.visited\:object-fit\:scale-down:visited,
+.visited\:ofit\:scale-down:visited {
+	object-fit: scale-down !important;
+}
+
+/* OBJECT-POSITION */
+
+.visited\:object-position\:center:visited,
+.visited\:opos\:center:visited {
+	object-position: center !important;
+}
+
+.visited\:object-position\:top:visited,
+.visited\:opos\:top:visited {
+	object-position: top !important;
+}
+
+.visited\:object-position\:top-right:visited,
+.visited\:opos\:top-right:visited {
+	object-position: top right !important;
+}
+
+.visited\:object-position\:right:visited,
+.visited\:opos\:right:visited {
+	object-position: right !important;
+}
+
+.visited\:object-position\:bottom-right:visited,
+.visited\:opos\:bottom-right:visited {
+	object-position: bottom right !important;
+}
+
+.visited\:object-position\:bottom:visited,
+.visited\:opos\:bottom:visited {
+	object-position: bottom !important;
+}
+
+.visited\:object-position\:bottom-left:visited,
+.visited\:opos\:bottom-left:visited {
+	object-position: bottom left !important;
+}
+
+.visited\:object-position\:left:visited,
+.visited\:opos\:left:visited {
+	object-position: left !important;
+}
+
+.visited\:object-position\:top-left:visited,
+.visited\:opos\:top-left:visited {
+	object-position: top left !important;
+}
+
+
 @media (min-width: 640px) {
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -149,6 +765,622 @@
 
 	.sm\:object-position\:top-left,
 	.sm\:opos\:top-left {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:hover\:object-fit\:none:hover,
+	.sm\:hover\:ofit\:none:hover {
+		object-fit: none !important;
+	}
+
+	.sm\:hover\:object-fit\:contain:hover,
+	.sm\:hover\:ofit\:contain:hover {
+		object-fit: contain !important;
+	}
+
+	.sm\:hover\:object-fit\:cover:hover,
+	.sm\:hover\:ofit\:cover:hover {
+		object-fit: cover !important;
+	}
+
+	.sm\:hover\:object-fit\:fill:hover,
+	.sm\:hover\:ofit\:fill:hover {
+		object-fit: fill !important;
+	}
+
+	.sm\:hover\:object-fit\:scale-down:hover,
+	.sm\:hover\:ofit\:scale-down:hover {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:hover\:object-position\:center:hover,
+	.sm\:hover\:opos\:center:hover {
+		object-position: center !important;
+	}
+
+	.sm\:hover\:object-position\:top:hover,
+	.sm\:hover\:opos\:top:hover {
+		object-position: top !important;
+	}
+
+	.sm\:hover\:object-position\:top-right:hover,
+	.sm\:hover\:opos\:top-right:hover {
+		object-position: top right !important;
+	}
+
+	.sm\:hover\:object-position\:right:hover,
+	.sm\:hover\:opos\:right:hover {
+		object-position: right !important;
+	}
+
+	.sm\:hover\:object-position\:bottom-right:hover,
+	.sm\:hover\:opos\:bottom-right:hover {
+		object-position: bottom right !important;
+	}
+
+	.sm\:hover\:object-position\:bottom:hover,
+	.sm\:hover\:opos\:bottom:hover {
+		object-position: bottom !important;
+	}
+
+	.sm\:hover\:object-position\:bottom-left:hover,
+	.sm\:hover\:opos\:bottom-left:hover {
+		object-position: bottom left !important;
+	}
+
+	.sm\:hover\:object-position\:left:hover,
+	.sm\:hover\:opos\:left:hover {
+		object-position: left !important;
+	}
+
+	.sm\:hover\:object-position\:top-left:hover,
+	.sm\:hover\:opos\:top-left:hover {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:focus\:object-fit\:none:focus,
+	.sm\:focus\:ofit\:none:focus {
+		object-fit: none !important;
+	}
+
+	.sm\:focus\:object-fit\:contain:focus,
+	.sm\:focus\:ofit\:contain:focus {
+		object-fit: contain !important;
+	}
+
+	.sm\:focus\:object-fit\:cover:focus,
+	.sm\:focus\:ofit\:cover:focus {
+		object-fit: cover !important;
+	}
+
+	.sm\:focus\:object-fit\:fill:focus,
+	.sm\:focus\:ofit\:fill:focus {
+		object-fit: fill !important;
+	}
+
+	.sm\:focus\:object-fit\:scale-down:focus,
+	.sm\:focus\:ofit\:scale-down:focus {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:focus\:object-position\:center:focus,
+	.sm\:focus\:opos\:center:focus {
+		object-position: center !important;
+	}
+
+	.sm\:focus\:object-position\:top:focus,
+	.sm\:focus\:opos\:top:focus {
+		object-position: top !important;
+	}
+
+	.sm\:focus\:object-position\:top-right:focus,
+	.sm\:focus\:opos\:top-right:focus {
+		object-position: top right !important;
+	}
+
+	.sm\:focus\:object-position\:right:focus,
+	.sm\:focus\:opos\:right:focus {
+		object-position: right !important;
+	}
+
+	.sm\:focus\:object-position\:bottom-right:focus,
+	.sm\:focus\:opos\:bottom-right:focus {
+		object-position: bottom right !important;
+	}
+
+	.sm\:focus\:object-position\:bottom:focus,
+	.sm\:focus\:opos\:bottom:focus {
+		object-position: bottom !important;
+	}
+
+	.sm\:focus\:object-position\:bottom-left:focus,
+	.sm\:focus\:opos\:bottom-left:focus {
+		object-position: bottom left !important;
+	}
+
+	.sm\:focus\:object-position\:left:focus,
+	.sm\:focus\:opos\:left:focus {
+		object-position: left !important;
+	}
+
+	.sm\:focus\:object-position\:top-left:focus,
+	.sm\:focus\:opos\:top-left:focus {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:focus-visible\:object-fit\:none:focus-visible,
+	.sm\:focus-visible\:ofit\:none:focus-visible {
+		object-fit: none !important;
+	}
+
+	.sm\:focus-visible\:object-fit\:contain:focus-visible,
+	.sm\:focus-visible\:ofit\:contain:focus-visible {
+		object-fit: contain !important;
+	}
+
+	.sm\:focus-visible\:object-fit\:cover:focus-visible,
+	.sm\:focus-visible\:ofit\:cover:focus-visible {
+		object-fit: cover !important;
+	}
+
+	.sm\:focus-visible\:object-fit\:fill:focus-visible,
+	.sm\:focus-visible\:ofit\:fill:focus-visible {
+		object-fit: fill !important;
+	}
+
+	.sm\:focus-visible\:object-fit\:scale-down:focus-visible,
+	.sm\:focus-visible\:ofit\:scale-down:focus-visible {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:focus-visible\:object-position\:center:focus-visible,
+	.sm\:focus-visible\:opos\:center:focus-visible {
+		object-position: center !important;
+	}
+
+	.sm\:focus-visible\:object-position\:top:focus-visible,
+	.sm\:focus-visible\:opos\:top:focus-visible {
+		object-position: top !important;
+	}
+
+	.sm\:focus-visible\:object-position\:top-right:focus-visible,
+	.sm\:focus-visible\:opos\:top-right:focus-visible {
+		object-position: top right !important;
+	}
+
+	.sm\:focus-visible\:object-position\:right:focus-visible,
+	.sm\:focus-visible\:opos\:right:focus-visible {
+		object-position: right !important;
+	}
+
+	.sm\:focus-visible\:object-position\:bottom-right:focus-visible,
+	.sm\:focus-visible\:opos\:bottom-right:focus-visible {
+		object-position: bottom right !important;
+	}
+
+	.sm\:focus-visible\:object-position\:bottom:focus-visible,
+	.sm\:focus-visible\:opos\:bottom:focus-visible {
+		object-position: bottom !important;
+	}
+
+	.sm\:focus-visible\:object-position\:bottom-left:focus-visible,
+	.sm\:focus-visible\:opos\:bottom-left:focus-visible {
+		object-position: bottom left !important;
+	}
+
+	.sm\:focus-visible\:object-position\:left:focus-visible,
+	.sm\:focus-visible\:opos\:left:focus-visible {
+		object-position: left !important;
+	}
+
+	.sm\:focus-visible\:object-position\:top-left:focus-visible,
+	.sm\:focus-visible\:opos\:top-left:focus-visible {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:focus-within\:object-fit\:none:focus-within,
+	.sm\:focus-within\:ofit\:none:focus-within {
+		object-fit: none !important;
+	}
+
+	.sm\:focus-within\:object-fit\:contain:focus-within,
+	.sm\:focus-within\:ofit\:contain:focus-within {
+		object-fit: contain !important;
+	}
+
+	.sm\:focus-within\:object-fit\:cover:focus-within,
+	.sm\:focus-within\:ofit\:cover:focus-within {
+		object-fit: cover !important;
+	}
+
+	.sm\:focus-within\:object-fit\:fill:focus-within,
+	.sm\:focus-within\:ofit\:fill:focus-within {
+		object-fit: fill !important;
+	}
+
+	.sm\:focus-within\:object-fit\:scale-down:focus-within,
+	.sm\:focus-within\:ofit\:scale-down:focus-within {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:focus-within\:object-position\:center:focus-within,
+	.sm\:focus-within\:opos\:center:focus-within {
+		object-position: center !important;
+	}
+
+	.sm\:focus-within\:object-position\:top:focus-within,
+	.sm\:focus-within\:opos\:top:focus-within {
+		object-position: top !important;
+	}
+
+	.sm\:focus-within\:object-position\:top-right:focus-within,
+	.sm\:focus-within\:opos\:top-right:focus-within {
+		object-position: top right !important;
+	}
+
+	.sm\:focus-within\:object-position\:right:focus-within,
+	.sm\:focus-within\:opos\:right:focus-within {
+		object-position: right !important;
+	}
+
+	.sm\:focus-within\:object-position\:bottom-right:focus-within,
+	.sm\:focus-within\:opos\:bottom-right:focus-within {
+		object-position: bottom right !important;
+	}
+
+	.sm\:focus-within\:object-position\:bottom:focus-within,
+	.sm\:focus-within\:opos\:bottom:focus-within {
+		object-position: bottom !important;
+	}
+
+	.sm\:focus-within\:object-position\:bottom-left:focus-within,
+	.sm\:focus-within\:opos\:bottom-left:focus-within {
+		object-position: bottom left !important;
+	}
+
+	.sm\:focus-within\:object-position\:left:focus-within,
+	.sm\:focus-within\:opos\:left:focus-within {
+		object-position: left !important;
+	}
+
+	.sm\:focus-within\:object-position\:top-left:focus-within,
+	.sm\:focus-within\:opos\:top-left:focus-within {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:active\:object-fit\:none:active,
+	.sm\:active\:ofit\:none:active {
+		object-fit: none !important;
+	}
+
+	.sm\:active\:object-fit\:contain:active,
+	.sm\:active\:ofit\:contain:active {
+		object-fit: contain !important;
+	}
+
+	.sm\:active\:object-fit\:cover:active,
+	.sm\:active\:ofit\:cover:active {
+		object-fit: cover !important;
+	}
+
+	.sm\:active\:object-fit\:fill:active,
+	.sm\:active\:ofit\:fill:active {
+		object-fit: fill !important;
+	}
+
+	.sm\:active\:object-fit\:scale-down:active,
+	.sm\:active\:ofit\:scale-down:active {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:active\:object-position\:center:active,
+	.sm\:active\:opos\:center:active {
+		object-position: center !important;
+	}
+
+	.sm\:active\:object-position\:top:active,
+	.sm\:active\:opos\:top:active {
+		object-position: top !important;
+	}
+
+	.sm\:active\:object-position\:top-right:active,
+	.sm\:active\:opos\:top-right:active {
+		object-position: top right !important;
+	}
+
+	.sm\:active\:object-position\:right:active,
+	.sm\:active\:opos\:right:active {
+		object-position: right !important;
+	}
+
+	.sm\:active\:object-position\:bottom-right:active,
+	.sm\:active\:opos\:bottom-right:active {
+		object-position: bottom right !important;
+	}
+
+	.sm\:active\:object-position\:bottom:active,
+	.sm\:active\:opos\:bottom:active {
+		object-position: bottom !important;
+	}
+
+	.sm\:active\:object-position\:bottom-left:active,
+	.sm\:active\:opos\:bottom-left:active {
+		object-position: bottom left !important;
+	}
+
+	.sm\:active\:object-position\:left:active,
+	.sm\:active\:opos\:left:active {
+		object-position: left !important;
+	}
+
+	.sm\:active\:object-position\:top-left:active,
+	.sm\:active\:opos\:top-left:active {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:disabled\:object-fit\:none:disabled,
+	.sm\:disabled\:ofit\:none:disabled {
+		object-fit: none !important;
+	}
+
+	.sm\:disabled\:object-fit\:contain:disabled,
+	.sm\:disabled\:ofit\:contain:disabled {
+		object-fit: contain !important;
+	}
+
+	.sm\:disabled\:object-fit\:cover:disabled,
+	.sm\:disabled\:ofit\:cover:disabled {
+		object-fit: cover !important;
+	}
+
+	.sm\:disabled\:object-fit\:fill:disabled,
+	.sm\:disabled\:ofit\:fill:disabled {
+		object-fit: fill !important;
+	}
+
+	.sm\:disabled\:object-fit\:scale-down:disabled,
+	.sm\:disabled\:ofit\:scale-down:disabled {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:disabled\:object-position\:center:disabled,
+	.sm\:disabled\:opos\:center:disabled {
+		object-position: center !important;
+	}
+
+	.sm\:disabled\:object-position\:top:disabled,
+	.sm\:disabled\:opos\:top:disabled {
+		object-position: top !important;
+	}
+
+	.sm\:disabled\:object-position\:top-right:disabled,
+	.sm\:disabled\:opos\:top-right:disabled {
+		object-position: top right !important;
+	}
+
+	.sm\:disabled\:object-position\:right:disabled,
+	.sm\:disabled\:opos\:right:disabled {
+		object-position: right !important;
+	}
+
+	.sm\:disabled\:object-position\:bottom-right:disabled,
+	.sm\:disabled\:opos\:bottom-right:disabled {
+		object-position: bottom right !important;
+	}
+
+	.sm\:disabled\:object-position\:bottom:disabled,
+	.sm\:disabled\:opos\:bottom:disabled {
+		object-position: bottom !important;
+	}
+
+	.sm\:disabled\:object-position\:bottom-left:disabled,
+	.sm\:disabled\:opos\:bottom-left:disabled {
+		object-position: bottom left !important;
+	}
+
+	.sm\:disabled\:object-position\:left:disabled,
+	.sm\:disabled\:opos\:left:disabled {
+		object-position: left !important;
+	}
+
+	.sm\:disabled\:object-position\:top-left:disabled,
+	.sm\:disabled\:opos\:top-left:disabled {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:checked\:object-fit\:none:checked,
+	.sm\:checked\:ofit\:none:checked {
+		object-fit: none !important;
+	}
+
+	.sm\:checked\:object-fit\:contain:checked,
+	.sm\:checked\:ofit\:contain:checked {
+		object-fit: contain !important;
+	}
+
+	.sm\:checked\:object-fit\:cover:checked,
+	.sm\:checked\:ofit\:cover:checked {
+		object-fit: cover !important;
+	}
+
+	.sm\:checked\:object-fit\:fill:checked,
+	.sm\:checked\:ofit\:fill:checked {
+		object-fit: fill !important;
+	}
+
+	.sm\:checked\:object-fit\:scale-down:checked,
+	.sm\:checked\:ofit\:scale-down:checked {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:checked\:object-position\:center:checked,
+	.sm\:checked\:opos\:center:checked {
+		object-position: center !important;
+	}
+
+	.sm\:checked\:object-position\:top:checked,
+	.sm\:checked\:opos\:top:checked {
+		object-position: top !important;
+	}
+
+	.sm\:checked\:object-position\:top-right:checked,
+	.sm\:checked\:opos\:top-right:checked {
+		object-position: top right !important;
+	}
+
+	.sm\:checked\:object-position\:right:checked,
+	.sm\:checked\:opos\:right:checked {
+		object-position: right !important;
+	}
+
+	.sm\:checked\:object-position\:bottom-right:checked,
+	.sm\:checked\:opos\:bottom-right:checked {
+		object-position: bottom right !important;
+	}
+
+	.sm\:checked\:object-position\:bottom:checked,
+	.sm\:checked\:opos\:bottom:checked {
+		object-position: bottom !important;
+	}
+
+	.sm\:checked\:object-position\:bottom-left:checked,
+	.sm\:checked\:opos\:bottom-left:checked {
+		object-position: bottom left !important;
+	}
+
+	.sm\:checked\:object-position\:left:checked,
+	.sm\:checked\:opos\:left:checked {
+		object-position: left !important;
+	}
+
+	.sm\:checked\:object-position\:top-left:checked,
+	.sm\:checked\:opos\:top-left:checked {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.sm\:visited\:object-fit\:none:visited,
+	.sm\:visited\:ofit\:none:visited {
+		object-fit: none !important;
+	}
+
+	.sm\:visited\:object-fit\:contain:visited,
+	.sm\:visited\:ofit\:contain:visited {
+		object-fit: contain !important;
+	}
+
+	.sm\:visited\:object-fit\:cover:visited,
+	.sm\:visited\:ofit\:cover:visited {
+		object-fit: cover !important;
+	}
+
+	.sm\:visited\:object-fit\:fill:visited,
+	.sm\:visited\:ofit\:fill:visited {
+		object-fit: fill !important;
+	}
+
+	.sm\:visited\:object-fit\:scale-down:visited,
+	.sm\:visited\:ofit\:scale-down:visited {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.sm\:visited\:object-position\:center:visited,
+	.sm\:visited\:opos\:center:visited {
+		object-position: center !important;
+	}
+
+	.sm\:visited\:object-position\:top:visited,
+	.sm\:visited\:opos\:top:visited {
+		object-position: top !important;
+	}
+
+	.sm\:visited\:object-position\:top-right:visited,
+	.sm\:visited\:opos\:top-right:visited {
+		object-position: top right !important;
+	}
+
+	.sm\:visited\:object-position\:right:visited,
+	.sm\:visited\:opos\:right:visited {
+		object-position: right !important;
+	}
+
+	.sm\:visited\:object-position\:bottom-right:visited,
+	.sm\:visited\:opos\:bottom-right:visited {
+		object-position: bottom right !important;
+	}
+
+	.sm\:visited\:object-position\:bottom:visited,
+	.sm\:visited\:opos\:bottom:visited {
+		object-position: bottom !important;
+	}
+
+	.sm\:visited\:object-position\:bottom-left:visited,
+	.sm\:visited\:opos\:bottom-left:visited {
+		object-position: bottom left !important;
+	}
+
+	.sm\:visited\:object-position\:left:visited,
+	.sm\:visited\:opos\:left:visited {
+		object-position: left !important;
+	}
+
+	.sm\:visited\:object-position\:top-left:visited,
+	.sm\:visited\:opos\:top-left:visited {
 		object-position: top left !important;
 	}
 
@@ -231,6 +1463,622 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:hover\:object-fit\:none:hover,
+	.md\:hover\:ofit\:none:hover {
+		object-fit: none !important;
+	}
+
+	.md\:hover\:object-fit\:contain:hover,
+	.md\:hover\:ofit\:contain:hover {
+		object-fit: contain !important;
+	}
+
+	.md\:hover\:object-fit\:cover:hover,
+	.md\:hover\:ofit\:cover:hover {
+		object-fit: cover !important;
+	}
+
+	.md\:hover\:object-fit\:fill:hover,
+	.md\:hover\:ofit\:fill:hover {
+		object-fit: fill !important;
+	}
+
+	.md\:hover\:object-fit\:scale-down:hover,
+	.md\:hover\:ofit\:scale-down:hover {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:hover\:object-position\:center:hover,
+	.md\:hover\:opos\:center:hover {
+		object-position: center !important;
+	}
+
+	.md\:hover\:object-position\:top:hover,
+	.md\:hover\:opos\:top:hover {
+		object-position: top !important;
+	}
+
+	.md\:hover\:object-position\:top-right:hover,
+	.md\:hover\:opos\:top-right:hover {
+		object-position: top right !important;
+	}
+
+	.md\:hover\:object-position\:right:hover,
+	.md\:hover\:opos\:right:hover {
+		object-position: right !important;
+	}
+
+	.md\:hover\:object-position\:bottom-right:hover,
+	.md\:hover\:opos\:bottom-right:hover {
+		object-position: bottom right !important;
+	}
+
+	.md\:hover\:object-position\:bottom:hover,
+	.md\:hover\:opos\:bottom:hover {
+		object-position: bottom !important;
+	}
+
+	.md\:hover\:object-position\:bottom-left:hover,
+	.md\:hover\:opos\:bottom-left:hover {
+		object-position: bottom left !important;
+	}
+
+	.md\:hover\:object-position\:left:hover,
+	.md\:hover\:opos\:left:hover {
+		object-position: left !important;
+	}
+
+	.md\:hover\:object-position\:top-left:hover,
+	.md\:hover\:opos\:top-left:hover {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:focus\:object-fit\:none:focus,
+	.md\:focus\:ofit\:none:focus {
+		object-fit: none !important;
+	}
+
+	.md\:focus\:object-fit\:contain:focus,
+	.md\:focus\:ofit\:contain:focus {
+		object-fit: contain !important;
+	}
+
+	.md\:focus\:object-fit\:cover:focus,
+	.md\:focus\:ofit\:cover:focus {
+		object-fit: cover !important;
+	}
+
+	.md\:focus\:object-fit\:fill:focus,
+	.md\:focus\:ofit\:fill:focus {
+		object-fit: fill !important;
+	}
+
+	.md\:focus\:object-fit\:scale-down:focus,
+	.md\:focus\:ofit\:scale-down:focus {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:focus\:object-position\:center:focus,
+	.md\:focus\:opos\:center:focus {
+		object-position: center !important;
+	}
+
+	.md\:focus\:object-position\:top:focus,
+	.md\:focus\:opos\:top:focus {
+		object-position: top !important;
+	}
+
+	.md\:focus\:object-position\:top-right:focus,
+	.md\:focus\:opos\:top-right:focus {
+		object-position: top right !important;
+	}
+
+	.md\:focus\:object-position\:right:focus,
+	.md\:focus\:opos\:right:focus {
+		object-position: right !important;
+	}
+
+	.md\:focus\:object-position\:bottom-right:focus,
+	.md\:focus\:opos\:bottom-right:focus {
+		object-position: bottom right !important;
+	}
+
+	.md\:focus\:object-position\:bottom:focus,
+	.md\:focus\:opos\:bottom:focus {
+		object-position: bottom !important;
+	}
+
+	.md\:focus\:object-position\:bottom-left:focus,
+	.md\:focus\:opos\:bottom-left:focus {
+		object-position: bottom left !important;
+	}
+
+	.md\:focus\:object-position\:left:focus,
+	.md\:focus\:opos\:left:focus {
+		object-position: left !important;
+	}
+
+	.md\:focus\:object-position\:top-left:focus,
+	.md\:focus\:opos\:top-left:focus {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:focus-visible\:object-fit\:none:focus-visible,
+	.md\:focus-visible\:ofit\:none:focus-visible {
+		object-fit: none !important;
+	}
+
+	.md\:focus-visible\:object-fit\:contain:focus-visible,
+	.md\:focus-visible\:ofit\:contain:focus-visible {
+		object-fit: contain !important;
+	}
+
+	.md\:focus-visible\:object-fit\:cover:focus-visible,
+	.md\:focus-visible\:ofit\:cover:focus-visible {
+		object-fit: cover !important;
+	}
+
+	.md\:focus-visible\:object-fit\:fill:focus-visible,
+	.md\:focus-visible\:ofit\:fill:focus-visible {
+		object-fit: fill !important;
+	}
+
+	.md\:focus-visible\:object-fit\:scale-down:focus-visible,
+	.md\:focus-visible\:ofit\:scale-down:focus-visible {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:focus-visible\:object-position\:center:focus-visible,
+	.md\:focus-visible\:opos\:center:focus-visible {
+		object-position: center !important;
+	}
+
+	.md\:focus-visible\:object-position\:top:focus-visible,
+	.md\:focus-visible\:opos\:top:focus-visible {
+		object-position: top !important;
+	}
+
+	.md\:focus-visible\:object-position\:top-right:focus-visible,
+	.md\:focus-visible\:opos\:top-right:focus-visible {
+		object-position: top right !important;
+	}
+
+	.md\:focus-visible\:object-position\:right:focus-visible,
+	.md\:focus-visible\:opos\:right:focus-visible {
+		object-position: right !important;
+	}
+
+	.md\:focus-visible\:object-position\:bottom-right:focus-visible,
+	.md\:focus-visible\:opos\:bottom-right:focus-visible {
+		object-position: bottom right !important;
+	}
+
+	.md\:focus-visible\:object-position\:bottom:focus-visible,
+	.md\:focus-visible\:opos\:bottom:focus-visible {
+		object-position: bottom !important;
+	}
+
+	.md\:focus-visible\:object-position\:bottom-left:focus-visible,
+	.md\:focus-visible\:opos\:bottom-left:focus-visible {
+		object-position: bottom left !important;
+	}
+
+	.md\:focus-visible\:object-position\:left:focus-visible,
+	.md\:focus-visible\:opos\:left:focus-visible {
+		object-position: left !important;
+	}
+
+	.md\:focus-visible\:object-position\:top-left:focus-visible,
+	.md\:focus-visible\:opos\:top-left:focus-visible {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:focus-within\:object-fit\:none:focus-within,
+	.md\:focus-within\:ofit\:none:focus-within {
+		object-fit: none !important;
+	}
+
+	.md\:focus-within\:object-fit\:contain:focus-within,
+	.md\:focus-within\:ofit\:contain:focus-within {
+		object-fit: contain !important;
+	}
+
+	.md\:focus-within\:object-fit\:cover:focus-within,
+	.md\:focus-within\:ofit\:cover:focus-within {
+		object-fit: cover !important;
+	}
+
+	.md\:focus-within\:object-fit\:fill:focus-within,
+	.md\:focus-within\:ofit\:fill:focus-within {
+		object-fit: fill !important;
+	}
+
+	.md\:focus-within\:object-fit\:scale-down:focus-within,
+	.md\:focus-within\:ofit\:scale-down:focus-within {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:focus-within\:object-position\:center:focus-within,
+	.md\:focus-within\:opos\:center:focus-within {
+		object-position: center !important;
+	}
+
+	.md\:focus-within\:object-position\:top:focus-within,
+	.md\:focus-within\:opos\:top:focus-within {
+		object-position: top !important;
+	}
+
+	.md\:focus-within\:object-position\:top-right:focus-within,
+	.md\:focus-within\:opos\:top-right:focus-within {
+		object-position: top right !important;
+	}
+
+	.md\:focus-within\:object-position\:right:focus-within,
+	.md\:focus-within\:opos\:right:focus-within {
+		object-position: right !important;
+	}
+
+	.md\:focus-within\:object-position\:bottom-right:focus-within,
+	.md\:focus-within\:opos\:bottom-right:focus-within {
+		object-position: bottom right !important;
+	}
+
+	.md\:focus-within\:object-position\:bottom:focus-within,
+	.md\:focus-within\:opos\:bottom:focus-within {
+		object-position: bottom !important;
+	}
+
+	.md\:focus-within\:object-position\:bottom-left:focus-within,
+	.md\:focus-within\:opos\:bottom-left:focus-within {
+		object-position: bottom left !important;
+	}
+
+	.md\:focus-within\:object-position\:left:focus-within,
+	.md\:focus-within\:opos\:left:focus-within {
+		object-position: left !important;
+	}
+
+	.md\:focus-within\:object-position\:top-left:focus-within,
+	.md\:focus-within\:opos\:top-left:focus-within {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:active\:object-fit\:none:active,
+	.md\:active\:ofit\:none:active {
+		object-fit: none !important;
+	}
+
+	.md\:active\:object-fit\:contain:active,
+	.md\:active\:ofit\:contain:active {
+		object-fit: contain !important;
+	}
+
+	.md\:active\:object-fit\:cover:active,
+	.md\:active\:ofit\:cover:active {
+		object-fit: cover !important;
+	}
+
+	.md\:active\:object-fit\:fill:active,
+	.md\:active\:ofit\:fill:active {
+		object-fit: fill !important;
+	}
+
+	.md\:active\:object-fit\:scale-down:active,
+	.md\:active\:ofit\:scale-down:active {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:active\:object-position\:center:active,
+	.md\:active\:opos\:center:active {
+		object-position: center !important;
+	}
+
+	.md\:active\:object-position\:top:active,
+	.md\:active\:opos\:top:active {
+		object-position: top !important;
+	}
+
+	.md\:active\:object-position\:top-right:active,
+	.md\:active\:opos\:top-right:active {
+		object-position: top right !important;
+	}
+
+	.md\:active\:object-position\:right:active,
+	.md\:active\:opos\:right:active {
+		object-position: right !important;
+	}
+
+	.md\:active\:object-position\:bottom-right:active,
+	.md\:active\:opos\:bottom-right:active {
+		object-position: bottom right !important;
+	}
+
+	.md\:active\:object-position\:bottom:active,
+	.md\:active\:opos\:bottom:active {
+		object-position: bottom !important;
+	}
+
+	.md\:active\:object-position\:bottom-left:active,
+	.md\:active\:opos\:bottom-left:active {
+		object-position: bottom left !important;
+	}
+
+	.md\:active\:object-position\:left:active,
+	.md\:active\:opos\:left:active {
+		object-position: left !important;
+	}
+
+	.md\:active\:object-position\:top-left:active,
+	.md\:active\:opos\:top-left:active {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:disabled\:object-fit\:none:disabled,
+	.md\:disabled\:ofit\:none:disabled {
+		object-fit: none !important;
+	}
+
+	.md\:disabled\:object-fit\:contain:disabled,
+	.md\:disabled\:ofit\:contain:disabled {
+		object-fit: contain !important;
+	}
+
+	.md\:disabled\:object-fit\:cover:disabled,
+	.md\:disabled\:ofit\:cover:disabled {
+		object-fit: cover !important;
+	}
+
+	.md\:disabled\:object-fit\:fill:disabled,
+	.md\:disabled\:ofit\:fill:disabled {
+		object-fit: fill !important;
+	}
+
+	.md\:disabled\:object-fit\:scale-down:disabled,
+	.md\:disabled\:ofit\:scale-down:disabled {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:disabled\:object-position\:center:disabled,
+	.md\:disabled\:opos\:center:disabled {
+		object-position: center !important;
+	}
+
+	.md\:disabled\:object-position\:top:disabled,
+	.md\:disabled\:opos\:top:disabled {
+		object-position: top !important;
+	}
+
+	.md\:disabled\:object-position\:top-right:disabled,
+	.md\:disabled\:opos\:top-right:disabled {
+		object-position: top right !important;
+	}
+
+	.md\:disabled\:object-position\:right:disabled,
+	.md\:disabled\:opos\:right:disabled {
+		object-position: right !important;
+	}
+
+	.md\:disabled\:object-position\:bottom-right:disabled,
+	.md\:disabled\:opos\:bottom-right:disabled {
+		object-position: bottom right !important;
+	}
+
+	.md\:disabled\:object-position\:bottom:disabled,
+	.md\:disabled\:opos\:bottom:disabled {
+		object-position: bottom !important;
+	}
+
+	.md\:disabled\:object-position\:bottom-left:disabled,
+	.md\:disabled\:opos\:bottom-left:disabled {
+		object-position: bottom left !important;
+	}
+
+	.md\:disabled\:object-position\:left:disabled,
+	.md\:disabled\:opos\:left:disabled {
+		object-position: left !important;
+	}
+
+	.md\:disabled\:object-position\:top-left:disabled,
+	.md\:disabled\:opos\:top-left:disabled {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:checked\:object-fit\:none:checked,
+	.md\:checked\:ofit\:none:checked {
+		object-fit: none !important;
+	}
+
+	.md\:checked\:object-fit\:contain:checked,
+	.md\:checked\:ofit\:contain:checked {
+		object-fit: contain !important;
+	}
+
+	.md\:checked\:object-fit\:cover:checked,
+	.md\:checked\:ofit\:cover:checked {
+		object-fit: cover !important;
+	}
+
+	.md\:checked\:object-fit\:fill:checked,
+	.md\:checked\:ofit\:fill:checked {
+		object-fit: fill !important;
+	}
+
+	.md\:checked\:object-fit\:scale-down:checked,
+	.md\:checked\:ofit\:scale-down:checked {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:checked\:object-position\:center:checked,
+	.md\:checked\:opos\:center:checked {
+		object-position: center !important;
+	}
+
+	.md\:checked\:object-position\:top:checked,
+	.md\:checked\:opos\:top:checked {
+		object-position: top !important;
+	}
+
+	.md\:checked\:object-position\:top-right:checked,
+	.md\:checked\:opos\:top-right:checked {
+		object-position: top right !important;
+	}
+
+	.md\:checked\:object-position\:right:checked,
+	.md\:checked\:opos\:right:checked {
+		object-position: right !important;
+	}
+
+	.md\:checked\:object-position\:bottom-right:checked,
+	.md\:checked\:opos\:bottom-right:checked {
+		object-position: bottom right !important;
+	}
+
+	.md\:checked\:object-position\:bottom:checked,
+	.md\:checked\:opos\:bottom:checked {
+		object-position: bottom !important;
+	}
+
+	.md\:checked\:object-position\:bottom-left:checked,
+	.md\:checked\:opos\:bottom-left:checked {
+		object-position: bottom left !important;
+	}
+
+	.md\:checked\:object-position\:left:checked,
+	.md\:checked\:opos\:left:checked {
+		object-position: left !important;
+	}
+
+	.md\:checked\:object-position\:top-left:checked,
+	.md\:checked\:opos\:top-left:checked {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.md\:visited\:object-fit\:none:visited,
+	.md\:visited\:ofit\:none:visited {
+		object-fit: none !important;
+	}
+
+	.md\:visited\:object-fit\:contain:visited,
+	.md\:visited\:ofit\:contain:visited {
+		object-fit: contain !important;
+	}
+
+	.md\:visited\:object-fit\:cover:visited,
+	.md\:visited\:ofit\:cover:visited {
+		object-fit: cover !important;
+	}
+
+	.md\:visited\:object-fit\:fill:visited,
+	.md\:visited\:ofit\:fill:visited {
+		object-fit: fill !important;
+	}
+
+	.md\:visited\:object-fit\:scale-down:visited,
+	.md\:visited\:ofit\:scale-down:visited {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.md\:visited\:object-position\:center:visited,
+	.md\:visited\:opos\:center:visited {
+		object-position: center !important;
+	}
+
+	.md\:visited\:object-position\:top:visited,
+	.md\:visited\:opos\:top:visited {
+		object-position: top !important;
+	}
+
+	.md\:visited\:object-position\:top-right:visited,
+	.md\:visited\:opos\:top-right:visited {
+		object-position: top right !important;
+	}
+
+	.md\:visited\:object-position\:right:visited,
+	.md\:visited\:opos\:right:visited {
+		object-position: right !important;
+	}
+
+	.md\:visited\:object-position\:bottom-right:visited,
+	.md\:visited\:opos\:bottom-right:visited {
+		object-position: bottom right !important;
+	}
+
+	.md\:visited\:object-position\:bottom:visited,
+	.md\:visited\:opos\:bottom:visited {
+		object-position: bottom !important;
+	}
+
+	.md\:visited\:object-position\:bottom-left:visited,
+	.md\:visited\:opos\:bottom-left:visited {
+		object-position: bottom left !important;
+	}
+
+	.md\:visited\:object-position\:left:visited,
+	.md\:visited\:opos\:left:visited {
+		object-position: left !important;
+	}
+
+	.md\:visited\:object-position\:top-left:visited,
+	.md\:visited\:opos\:top-left:visited {
+		object-position: top left !important;
+	}
+
 }
 
 @media (min-width: 1024px) {
@@ -310,6 +2158,622 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:hover\:object-fit\:none:hover,
+	.lg\:hover\:ofit\:none:hover {
+		object-fit: none !important;
+	}
+
+	.lg\:hover\:object-fit\:contain:hover,
+	.lg\:hover\:ofit\:contain:hover {
+		object-fit: contain !important;
+	}
+
+	.lg\:hover\:object-fit\:cover:hover,
+	.lg\:hover\:ofit\:cover:hover {
+		object-fit: cover !important;
+	}
+
+	.lg\:hover\:object-fit\:fill:hover,
+	.lg\:hover\:ofit\:fill:hover {
+		object-fit: fill !important;
+	}
+
+	.lg\:hover\:object-fit\:scale-down:hover,
+	.lg\:hover\:ofit\:scale-down:hover {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:hover\:object-position\:center:hover,
+	.lg\:hover\:opos\:center:hover {
+		object-position: center !important;
+	}
+
+	.lg\:hover\:object-position\:top:hover,
+	.lg\:hover\:opos\:top:hover {
+		object-position: top !important;
+	}
+
+	.lg\:hover\:object-position\:top-right:hover,
+	.lg\:hover\:opos\:top-right:hover {
+		object-position: top right !important;
+	}
+
+	.lg\:hover\:object-position\:right:hover,
+	.lg\:hover\:opos\:right:hover {
+		object-position: right !important;
+	}
+
+	.lg\:hover\:object-position\:bottom-right:hover,
+	.lg\:hover\:opos\:bottom-right:hover {
+		object-position: bottom right !important;
+	}
+
+	.lg\:hover\:object-position\:bottom:hover,
+	.lg\:hover\:opos\:bottom:hover {
+		object-position: bottom !important;
+	}
+
+	.lg\:hover\:object-position\:bottom-left:hover,
+	.lg\:hover\:opos\:bottom-left:hover {
+		object-position: bottom left !important;
+	}
+
+	.lg\:hover\:object-position\:left:hover,
+	.lg\:hover\:opos\:left:hover {
+		object-position: left !important;
+	}
+
+	.lg\:hover\:object-position\:top-left:hover,
+	.lg\:hover\:opos\:top-left:hover {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:focus\:object-fit\:none:focus,
+	.lg\:focus\:ofit\:none:focus {
+		object-fit: none !important;
+	}
+
+	.lg\:focus\:object-fit\:contain:focus,
+	.lg\:focus\:ofit\:contain:focus {
+		object-fit: contain !important;
+	}
+
+	.lg\:focus\:object-fit\:cover:focus,
+	.lg\:focus\:ofit\:cover:focus {
+		object-fit: cover !important;
+	}
+
+	.lg\:focus\:object-fit\:fill:focus,
+	.lg\:focus\:ofit\:fill:focus {
+		object-fit: fill !important;
+	}
+
+	.lg\:focus\:object-fit\:scale-down:focus,
+	.lg\:focus\:ofit\:scale-down:focus {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:focus\:object-position\:center:focus,
+	.lg\:focus\:opos\:center:focus {
+		object-position: center !important;
+	}
+
+	.lg\:focus\:object-position\:top:focus,
+	.lg\:focus\:opos\:top:focus {
+		object-position: top !important;
+	}
+
+	.lg\:focus\:object-position\:top-right:focus,
+	.lg\:focus\:opos\:top-right:focus {
+		object-position: top right !important;
+	}
+
+	.lg\:focus\:object-position\:right:focus,
+	.lg\:focus\:opos\:right:focus {
+		object-position: right !important;
+	}
+
+	.lg\:focus\:object-position\:bottom-right:focus,
+	.lg\:focus\:opos\:bottom-right:focus {
+		object-position: bottom right !important;
+	}
+
+	.lg\:focus\:object-position\:bottom:focus,
+	.lg\:focus\:opos\:bottom:focus {
+		object-position: bottom !important;
+	}
+
+	.lg\:focus\:object-position\:bottom-left:focus,
+	.lg\:focus\:opos\:bottom-left:focus {
+		object-position: bottom left !important;
+	}
+
+	.lg\:focus\:object-position\:left:focus,
+	.lg\:focus\:opos\:left:focus {
+		object-position: left !important;
+	}
+
+	.lg\:focus\:object-position\:top-left:focus,
+	.lg\:focus\:opos\:top-left:focus {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:focus-visible\:object-fit\:none:focus-visible,
+	.lg\:focus-visible\:ofit\:none:focus-visible {
+		object-fit: none !important;
+	}
+
+	.lg\:focus-visible\:object-fit\:contain:focus-visible,
+	.lg\:focus-visible\:ofit\:contain:focus-visible {
+		object-fit: contain !important;
+	}
+
+	.lg\:focus-visible\:object-fit\:cover:focus-visible,
+	.lg\:focus-visible\:ofit\:cover:focus-visible {
+		object-fit: cover !important;
+	}
+
+	.lg\:focus-visible\:object-fit\:fill:focus-visible,
+	.lg\:focus-visible\:ofit\:fill:focus-visible {
+		object-fit: fill !important;
+	}
+
+	.lg\:focus-visible\:object-fit\:scale-down:focus-visible,
+	.lg\:focus-visible\:ofit\:scale-down:focus-visible {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:focus-visible\:object-position\:center:focus-visible,
+	.lg\:focus-visible\:opos\:center:focus-visible {
+		object-position: center !important;
+	}
+
+	.lg\:focus-visible\:object-position\:top:focus-visible,
+	.lg\:focus-visible\:opos\:top:focus-visible {
+		object-position: top !important;
+	}
+
+	.lg\:focus-visible\:object-position\:top-right:focus-visible,
+	.lg\:focus-visible\:opos\:top-right:focus-visible {
+		object-position: top right !important;
+	}
+
+	.lg\:focus-visible\:object-position\:right:focus-visible,
+	.lg\:focus-visible\:opos\:right:focus-visible {
+		object-position: right !important;
+	}
+
+	.lg\:focus-visible\:object-position\:bottom-right:focus-visible,
+	.lg\:focus-visible\:opos\:bottom-right:focus-visible {
+		object-position: bottom right !important;
+	}
+
+	.lg\:focus-visible\:object-position\:bottom:focus-visible,
+	.lg\:focus-visible\:opos\:bottom:focus-visible {
+		object-position: bottom !important;
+	}
+
+	.lg\:focus-visible\:object-position\:bottom-left:focus-visible,
+	.lg\:focus-visible\:opos\:bottom-left:focus-visible {
+		object-position: bottom left !important;
+	}
+
+	.lg\:focus-visible\:object-position\:left:focus-visible,
+	.lg\:focus-visible\:opos\:left:focus-visible {
+		object-position: left !important;
+	}
+
+	.lg\:focus-visible\:object-position\:top-left:focus-visible,
+	.lg\:focus-visible\:opos\:top-left:focus-visible {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:focus-within\:object-fit\:none:focus-within,
+	.lg\:focus-within\:ofit\:none:focus-within {
+		object-fit: none !important;
+	}
+
+	.lg\:focus-within\:object-fit\:contain:focus-within,
+	.lg\:focus-within\:ofit\:contain:focus-within {
+		object-fit: contain !important;
+	}
+
+	.lg\:focus-within\:object-fit\:cover:focus-within,
+	.lg\:focus-within\:ofit\:cover:focus-within {
+		object-fit: cover !important;
+	}
+
+	.lg\:focus-within\:object-fit\:fill:focus-within,
+	.lg\:focus-within\:ofit\:fill:focus-within {
+		object-fit: fill !important;
+	}
+
+	.lg\:focus-within\:object-fit\:scale-down:focus-within,
+	.lg\:focus-within\:ofit\:scale-down:focus-within {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:focus-within\:object-position\:center:focus-within,
+	.lg\:focus-within\:opos\:center:focus-within {
+		object-position: center !important;
+	}
+
+	.lg\:focus-within\:object-position\:top:focus-within,
+	.lg\:focus-within\:opos\:top:focus-within {
+		object-position: top !important;
+	}
+
+	.lg\:focus-within\:object-position\:top-right:focus-within,
+	.lg\:focus-within\:opos\:top-right:focus-within {
+		object-position: top right !important;
+	}
+
+	.lg\:focus-within\:object-position\:right:focus-within,
+	.lg\:focus-within\:opos\:right:focus-within {
+		object-position: right !important;
+	}
+
+	.lg\:focus-within\:object-position\:bottom-right:focus-within,
+	.lg\:focus-within\:opos\:bottom-right:focus-within {
+		object-position: bottom right !important;
+	}
+
+	.lg\:focus-within\:object-position\:bottom:focus-within,
+	.lg\:focus-within\:opos\:bottom:focus-within {
+		object-position: bottom !important;
+	}
+
+	.lg\:focus-within\:object-position\:bottom-left:focus-within,
+	.lg\:focus-within\:opos\:bottom-left:focus-within {
+		object-position: bottom left !important;
+	}
+
+	.lg\:focus-within\:object-position\:left:focus-within,
+	.lg\:focus-within\:opos\:left:focus-within {
+		object-position: left !important;
+	}
+
+	.lg\:focus-within\:object-position\:top-left:focus-within,
+	.lg\:focus-within\:opos\:top-left:focus-within {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:active\:object-fit\:none:active,
+	.lg\:active\:ofit\:none:active {
+		object-fit: none !important;
+	}
+
+	.lg\:active\:object-fit\:contain:active,
+	.lg\:active\:ofit\:contain:active {
+		object-fit: contain !important;
+	}
+
+	.lg\:active\:object-fit\:cover:active,
+	.lg\:active\:ofit\:cover:active {
+		object-fit: cover !important;
+	}
+
+	.lg\:active\:object-fit\:fill:active,
+	.lg\:active\:ofit\:fill:active {
+		object-fit: fill !important;
+	}
+
+	.lg\:active\:object-fit\:scale-down:active,
+	.lg\:active\:ofit\:scale-down:active {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:active\:object-position\:center:active,
+	.lg\:active\:opos\:center:active {
+		object-position: center !important;
+	}
+
+	.lg\:active\:object-position\:top:active,
+	.lg\:active\:opos\:top:active {
+		object-position: top !important;
+	}
+
+	.lg\:active\:object-position\:top-right:active,
+	.lg\:active\:opos\:top-right:active {
+		object-position: top right !important;
+	}
+
+	.lg\:active\:object-position\:right:active,
+	.lg\:active\:opos\:right:active {
+		object-position: right !important;
+	}
+
+	.lg\:active\:object-position\:bottom-right:active,
+	.lg\:active\:opos\:bottom-right:active {
+		object-position: bottom right !important;
+	}
+
+	.lg\:active\:object-position\:bottom:active,
+	.lg\:active\:opos\:bottom:active {
+		object-position: bottom !important;
+	}
+
+	.lg\:active\:object-position\:bottom-left:active,
+	.lg\:active\:opos\:bottom-left:active {
+		object-position: bottom left !important;
+	}
+
+	.lg\:active\:object-position\:left:active,
+	.lg\:active\:opos\:left:active {
+		object-position: left !important;
+	}
+
+	.lg\:active\:object-position\:top-left:active,
+	.lg\:active\:opos\:top-left:active {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:disabled\:object-fit\:none:disabled,
+	.lg\:disabled\:ofit\:none:disabled {
+		object-fit: none !important;
+	}
+
+	.lg\:disabled\:object-fit\:contain:disabled,
+	.lg\:disabled\:ofit\:contain:disabled {
+		object-fit: contain !important;
+	}
+
+	.lg\:disabled\:object-fit\:cover:disabled,
+	.lg\:disabled\:ofit\:cover:disabled {
+		object-fit: cover !important;
+	}
+
+	.lg\:disabled\:object-fit\:fill:disabled,
+	.lg\:disabled\:ofit\:fill:disabled {
+		object-fit: fill !important;
+	}
+
+	.lg\:disabled\:object-fit\:scale-down:disabled,
+	.lg\:disabled\:ofit\:scale-down:disabled {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:disabled\:object-position\:center:disabled,
+	.lg\:disabled\:opos\:center:disabled {
+		object-position: center !important;
+	}
+
+	.lg\:disabled\:object-position\:top:disabled,
+	.lg\:disabled\:opos\:top:disabled {
+		object-position: top !important;
+	}
+
+	.lg\:disabled\:object-position\:top-right:disabled,
+	.lg\:disabled\:opos\:top-right:disabled {
+		object-position: top right !important;
+	}
+
+	.lg\:disabled\:object-position\:right:disabled,
+	.lg\:disabled\:opos\:right:disabled {
+		object-position: right !important;
+	}
+
+	.lg\:disabled\:object-position\:bottom-right:disabled,
+	.lg\:disabled\:opos\:bottom-right:disabled {
+		object-position: bottom right !important;
+	}
+
+	.lg\:disabled\:object-position\:bottom:disabled,
+	.lg\:disabled\:opos\:bottom:disabled {
+		object-position: bottom !important;
+	}
+
+	.lg\:disabled\:object-position\:bottom-left:disabled,
+	.lg\:disabled\:opos\:bottom-left:disabled {
+		object-position: bottom left !important;
+	}
+
+	.lg\:disabled\:object-position\:left:disabled,
+	.lg\:disabled\:opos\:left:disabled {
+		object-position: left !important;
+	}
+
+	.lg\:disabled\:object-position\:top-left:disabled,
+	.lg\:disabled\:opos\:top-left:disabled {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:checked\:object-fit\:none:checked,
+	.lg\:checked\:ofit\:none:checked {
+		object-fit: none !important;
+	}
+
+	.lg\:checked\:object-fit\:contain:checked,
+	.lg\:checked\:ofit\:contain:checked {
+		object-fit: contain !important;
+	}
+
+	.lg\:checked\:object-fit\:cover:checked,
+	.lg\:checked\:ofit\:cover:checked {
+		object-fit: cover !important;
+	}
+
+	.lg\:checked\:object-fit\:fill:checked,
+	.lg\:checked\:ofit\:fill:checked {
+		object-fit: fill !important;
+	}
+
+	.lg\:checked\:object-fit\:scale-down:checked,
+	.lg\:checked\:ofit\:scale-down:checked {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:checked\:object-position\:center:checked,
+	.lg\:checked\:opos\:center:checked {
+		object-position: center !important;
+	}
+
+	.lg\:checked\:object-position\:top:checked,
+	.lg\:checked\:opos\:top:checked {
+		object-position: top !important;
+	}
+
+	.lg\:checked\:object-position\:top-right:checked,
+	.lg\:checked\:opos\:top-right:checked {
+		object-position: top right !important;
+	}
+
+	.lg\:checked\:object-position\:right:checked,
+	.lg\:checked\:opos\:right:checked {
+		object-position: right !important;
+	}
+
+	.lg\:checked\:object-position\:bottom-right:checked,
+	.lg\:checked\:opos\:bottom-right:checked {
+		object-position: bottom right !important;
+	}
+
+	.lg\:checked\:object-position\:bottom:checked,
+	.lg\:checked\:opos\:bottom:checked {
+		object-position: bottom !important;
+	}
+
+	.lg\:checked\:object-position\:bottom-left:checked,
+	.lg\:checked\:opos\:bottom-left:checked {
+		object-position: bottom left !important;
+	}
+
+	.lg\:checked\:object-position\:left:checked,
+	.lg\:checked\:opos\:left:checked {
+		object-position: left !important;
+	}
+
+	.lg\:checked\:object-position\:top-left:checked,
+	.lg\:checked\:opos\:top-left:checked {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.lg\:visited\:object-fit\:none:visited,
+	.lg\:visited\:ofit\:none:visited {
+		object-fit: none !important;
+	}
+
+	.lg\:visited\:object-fit\:contain:visited,
+	.lg\:visited\:ofit\:contain:visited {
+		object-fit: contain !important;
+	}
+
+	.lg\:visited\:object-fit\:cover:visited,
+	.lg\:visited\:ofit\:cover:visited {
+		object-fit: cover !important;
+	}
+
+	.lg\:visited\:object-fit\:fill:visited,
+	.lg\:visited\:ofit\:fill:visited {
+		object-fit: fill !important;
+	}
+
+	.lg\:visited\:object-fit\:scale-down:visited,
+	.lg\:visited\:ofit\:scale-down:visited {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.lg\:visited\:object-position\:center:visited,
+	.lg\:visited\:opos\:center:visited {
+		object-position: center !important;
+	}
+
+	.lg\:visited\:object-position\:top:visited,
+	.lg\:visited\:opos\:top:visited {
+		object-position: top !important;
+	}
+
+	.lg\:visited\:object-position\:top-right:visited,
+	.lg\:visited\:opos\:top-right:visited {
+		object-position: top right !important;
+	}
+
+	.lg\:visited\:object-position\:right:visited,
+	.lg\:visited\:opos\:right:visited {
+		object-position: right !important;
+	}
+
+	.lg\:visited\:object-position\:bottom-right:visited,
+	.lg\:visited\:opos\:bottom-right:visited {
+		object-position: bottom right !important;
+	}
+
+	.lg\:visited\:object-position\:bottom:visited,
+	.lg\:visited\:opos\:bottom:visited {
+		object-position: bottom !important;
+	}
+
+	.lg\:visited\:object-position\:bottom-left:visited,
+	.lg\:visited\:opos\:bottom-left:visited {
+		object-position: bottom left !important;
+	}
+
+	.lg\:visited\:object-position\:left:visited,
+	.lg\:visited\:opos\:left:visited {
+		object-position: left !important;
+	}
+
+	.lg\:visited\:object-position\:top-left:visited,
+	.lg\:visited\:opos\:top-left:visited {
+		object-position: top left !important;
+	}
+
 }
 
 @media (min-width: 1280px) {
@@ -386,6 +2850,622 @@
 
 	.xl\:object-position\:top-left,
 	.xl\:opos\:top-left {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:hover\:object-fit\:none:hover,
+	.xl\:hover\:ofit\:none:hover {
+		object-fit: none !important;
+	}
+
+	.xl\:hover\:object-fit\:contain:hover,
+	.xl\:hover\:ofit\:contain:hover {
+		object-fit: contain !important;
+	}
+
+	.xl\:hover\:object-fit\:cover:hover,
+	.xl\:hover\:ofit\:cover:hover {
+		object-fit: cover !important;
+	}
+
+	.xl\:hover\:object-fit\:fill:hover,
+	.xl\:hover\:ofit\:fill:hover {
+		object-fit: fill !important;
+	}
+
+	.xl\:hover\:object-fit\:scale-down:hover,
+	.xl\:hover\:ofit\:scale-down:hover {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:hover\:object-position\:center:hover,
+	.xl\:hover\:opos\:center:hover {
+		object-position: center !important;
+	}
+
+	.xl\:hover\:object-position\:top:hover,
+	.xl\:hover\:opos\:top:hover {
+		object-position: top !important;
+	}
+
+	.xl\:hover\:object-position\:top-right:hover,
+	.xl\:hover\:opos\:top-right:hover {
+		object-position: top right !important;
+	}
+
+	.xl\:hover\:object-position\:right:hover,
+	.xl\:hover\:opos\:right:hover {
+		object-position: right !important;
+	}
+
+	.xl\:hover\:object-position\:bottom-right:hover,
+	.xl\:hover\:opos\:bottom-right:hover {
+		object-position: bottom right !important;
+	}
+
+	.xl\:hover\:object-position\:bottom:hover,
+	.xl\:hover\:opos\:bottom:hover {
+		object-position: bottom !important;
+	}
+
+	.xl\:hover\:object-position\:bottom-left:hover,
+	.xl\:hover\:opos\:bottom-left:hover {
+		object-position: bottom left !important;
+	}
+
+	.xl\:hover\:object-position\:left:hover,
+	.xl\:hover\:opos\:left:hover {
+		object-position: left !important;
+	}
+
+	.xl\:hover\:object-position\:top-left:hover,
+	.xl\:hover\:opos\:top-left:hover {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:focus\:object-fit\:none:focus,
+	.xl\:focus\:ofit\:none:focus {
+		object-fit: none !important;
+	}
+
+	.xl\:focus\:object-fit\:contain:focus,
+	.xl\:focus\:ofit\:contain:focus {
+		object-fit: contain !important;
+	}
+
+	.xl\:focus\:object-fit\:cover:focus,
+	.xl\:focus\:ofit\:cover:focus {
+		object-fit: cover !important;
+	}
+
+	.xl\:focus\:object-fit\:fill:focus,
+	.xl\:focus\:ofit\:fill:focus {
+		object-fit: fill !important;
+	}
+
+	.xl\:focus\:object-fit\:scale-down:focus,
+	.xl\:focus\:ofit\:scale-down:focus {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:focus\:object-position\:center:focus,
+	.xl\:focus\:opos\:center:focus {
+		object-position: center !important;
+	}
+
+	.xl\:focus\:object-position\:top:focus,
+	.xl\:focus\:opos\:top:focus {
+		object-position: top !important;
+	}
+
+	.xl\:focus\:object-position\:top-right:focus,
+	.xl\:focus\:opos\:top-right:focus {
+		object-position: top right !important;
+	}
+
+	.xl\:focus\:object-position\:right:focus,
+	.xl\:focus\:opos\:right:focus {
+		object-position: right !important;
+	}
+
+	.xl\:focus\:object-position\:bottom-right:focus,
+	.xl\:focus\:opos\:bottom-right:focus {
+		object-position: bottom right !important;
+	}
+
+	.xl\:focus\:object-position\:bottom:focus,
+	.xl\:focus\:opos\:bottom:focus {
+		object-position: bottom !important;
+	}
+
+	.xl\:focus\:object-position\:bottom-left:focus,
+	.xl\:focus\:opos\:bottom-left:focus {
+		object-position: bottom left !important;
+	}
+
+	.xl\:focus\:object-position\:left:focus,
+	.xl\:focus\:opos\:left:focus {
+		object-position: left !important;
+	}
+
+	.xl\:focus\:object-position\:top-left:focus,
+	.xl\:focus\:opos\:top-left:focus {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:focus-visible\:object-fit\:none:focus-visible,
+	.xl\:focus-visible\:ofit\:none:focus-visible {
+		object-fit: none !important;
+	}
+
+	.xl\:focus-visible\:object-fit\:contain:focus-visible,
+	.xl\:focus-visible\:ofit\:contain:focus-visible {
+		object-fit: contain !important;
+	}
+
+	.xl\:focus-visible\:object-fit\:cover:focus-visible,
+	.xl\:focus-visible\:ofit\:cover:focus-visible {
+		object-fit: cover !important;
+	}
+
+	.xl\:focus-visible\:object-fit\:fill:focus-visible,
+	.xl\:focus-visible\:ofit\:fill:focus-visible {
+		object-fit: fill !important;
+	}
+
+	.xl\:focus-visible\:object-fit\:scale-down:focus-visible,
+	.xl\:focus-visible\:ofit\:scale-down:focus-visible {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:focus-visible\:object-position\:center:focus-visible,
+	.xl\:focus-visible\:opos\:center:focus-visible {
+		object-position: center !important;
+	}
+
+	.xl\:focus-visible\:object-position\:top:focus-visible,
+	.xl\:focus-visible\:opos\:top:focus-visible {
+		object-position: top !important;
+	}
+
+	.xl\:focus-visible\:object-position\:top-right:focus-visible,
+	.xl\:focus-visible\:opos\:top-right:focus-visible {
+		object-position: top right !important;
+	}
+
+	.xl\:focus-visible\:object-position\:right:focus-visible,
+	.xl\:focus-visible\:opos\:right:focus-visible {
+		object-position: right !important;
+	}
+
+	.xl\:focus-visible\:object-position\:bottom-right:focus-visible,
+	.xl\:focus-visible\:opos\:bottom-right:focus-visible {
+		object-position: bottom right !important;
+	}
+
+	.xl\:focus-visible\:object-position\:bottom:focus-visible,
+	.xl\:focus-visible\:opos\:bottom:focus-visible {
+		object-position: bottom !important;
+	}
+
+	.xl\:focus-visible\:object-position\:bottom-left:focus-visible,
+	.xl\:focus-visible\:opos\:bottom-left:focus-visible {
+		object-position: bottom left !important;
+	}
+
+	.xl\:focus-visible\:object-position\:left:focus-visible,
+	.xl\:focus-visible\:opos\:left:focus-visible {
+		object-position: left !important;
+	}
+
+	.xl\:focus-visible\:object-position\:top-left:focus-visible,
+	.xl\:focus-visible\:opos\:top-left:focus-visible {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:focus-within\:object-fit\:none:focus-within,
+	.xl\:focus-within\:ofit\:none:focus-within {
+		object-fit: none !important;
+	}
+
+	.xl\:focus-within\:object-fit\:contain:focus-within,
+	.xl\:focus-within\:ofit\:contain:focus-within {
+		object-fit: contain !important;
+	}
+
+	.xl\:focus-within\:object-fit\:cover:focus-within,
+	.xl\:focus-within\:ofit\:cover:focus-within {
+		object-fit: cover !important;
+	}
+
+	.xl\:focus-within\:object-fit\:fill:focus-within,
+	.xl\:focus-within\:ofit\:fill:focus-within {
+		object-fit: fill !important;
+	}
+
+	.xl\:focus-within\:object-fit\:scale-down:focus-within,
+	.xl\:focus-within\:ofit\:scale-down:focus-within {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:focus-within\:object-position\:center:focus-within,
+	.xl\:focus-within\:opos\:center:focus-within {
+		object-position: center !important;
+	}
+
+	.xl\:focus-within\:object-position\:top:focus-within,
+	.xl\:focus-within\:opos\:top:focus-within {
+		object-position: top !important;
+	}
+
+	.xl\:focus-within\:object-position\:top-right:focus-within,
+	.xl\:focus-within\:opos\:top-right:focus-within {
+		object-position: top right !important;
+	}
+
+	.xl\:focus-within\:object-position\:right:focus-within,
+	.xl\:focus-within\:opos\:right:focus-within {
+		object-position: right !important;
+	}
+
+	.xl\:focus-within\:object-position\:bottom-right:focus-within,
+	.xl\:focus-within\:opos\:bottom-right:focus-within {
+		object-position: bottom right !important;
+	}
+
+	.xl\:focus-within\:object-position\:bottom:focus-within,
+	.xl\:focus-within\:opos\:bottom:focus-within {
+		object-position: bottom !important;
+	}
+
+	.xl\:focus-within\:object-position\:bottom-left:focus-within,
+	.xl\:focus-within\:opos\:bottom-left:focus-within {
+		object-position: bottom left !important;
+	}
+
+	.xl\:focus-within\:object-position\:left:focus-within,
+	.xl\:focus-within\:opos\:left:focus-within {
+		object-position: left !important;
+	}
+
+	.xl\:focus-within\:object-position\:top-left:focus-within,
+	.xl\:focus-within\:opos\:top-left:focus-within {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:active\:object-fit\:none:active,
+	.xl\:active\:ofit\:none:active {
+		object-fit: none !important;
+	}
+
+	.xl\:active\:object-fit\:contain:active,
+	.xl\:active\:ofit\:contain:active {
+		object-fit: contain !important;
+	}
+
+	.xl\:active\:object-fit\:cover:active,
+	.xl\:active\:ofit\:cover:active {
+		object-fit: cover !important;
+	}
+
+	.xl\:active\:object-fit\:fill:active,
+	.xl\:active\:ofit\:fill:active {
+		object-fit: fill !important;
+	}
+
+	.xl\:active\:object-fit\:scale-down:active,
+	.xl\:active\:ofit\:scale-down:active {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:active\:object-position\:center:active,
+	.xl\:active\:opos\:center:active {
+		object-position: center !important;
+	}
+
+	.xl\:active\:object-position\:top:active,
+	.xl\:active\:opos\:top:active {
+		object-position: top !important;
+	}
+
+	.xl\:active\:object-position\:top-right:active,
+	.xl\:active\:opos\:top-right:active {
+		object-position: top right !important;
+	}
+
+	.xl\:active\:object-position\:right:active,
+	.xl\:active\:opos\:right:active {
+		object-position: right !important;
+	}
+
+	.xl\:active\:object-position\:bottom-right:active,
+	.xl\:active\:opos\:bottom-right:active {
+		object-position: bottom right !important;
+	}
+
+	.xl\:active\:object-position\:bottom:active,
+	.xl\:active\:opos\:bottom:active {
+		object-position: bottom !important;
+	}
+
+	.xl\:active\:object-position\:bottom-left:active,
+	.xl\:active\:opos\:bottom-left:active {
+		object-position: bottom left !important;
+	}
+
+	.xl\:active\:object-position\:left:active,
+	.xl\:active\:opos\:left:active {
+		object-position: left !important;
+	}
+
+	.xl\:active\:object-position\:top-left:active,
+	.xl\:active\:opos\:top-left:active {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:disabled\:object-fit\:none:disabled,
+	.xl\:disabled\:ofit\:none:disabled {
+		object-fit: none !important;
+	}
+
+	.xl\:disabled\:object-fit\:contain:disabled,
+	.xl\:disabled\:ofit\:contain:disabled {
+		object-fit: contain !important;
+	}
+
+	.xl\:disabled\:object-fit\:cover:disabled,
+	.xl\:disabled\:ofit\:cover:disabled {
+		object-fit: cover !important;
+	}
+
+	.xl\:disabled\:object-fit\:fill:disabled,
+	.xl\:disabled\:ofit\:fill:disabled {
+		object-fit: fill !important;
+	}
+
+	.xl\:disabled\:object-fit\:scale-down:disabled,
+	.xl\:disabled\:ofit\:scale-down:disabled {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:disabled\:object-position\:center:disabled,
+	.xl\:disabled\:opos\:center:disabled {
+		object-position: center !important;
+	}
+
+	.xl\:disabled\:object-position\:top:disabled,
+	.xl\:disabled\:opos\:top:disabled {
+		object-position: top !important;
+	}
+
+	.xl\:disabled\:object-position\:top-right:disabled,
+	.xl\:disabled\:opos\:top-right:disabled {
+		object-position: top right !important;
+	}
+
+	.xl\:disabled\:object-position\:right:disabled,
+	.xl\:disabled\:opos\:right:disabled {
+		object-position: right !important;
+	}
+
+	.xl\:disabled\:object-position\:bottom-right:disabled,
+	.xl\:disabled\:opos\:bottom-right:disabled {
+		object-position: bottom right !important;
+	}
+
+	.xl\:disabled\:object-position\:bottom:disabled,
+	.xl\:disabled\:opos\:bottom:disabled {
+		object-position: bottom !important;
+	}
+
+	.xl\:disabled\:object-position\:bottom-left:disabled,
+	.xl\:disabled\:opos\:bottom-left:disabled {
+		object-position: bottom left !important;
+	}
+
+	.xl\:disabled\:object-position\:left:disabled,
+	.xl\:disabled\:opos\:left:disabled {
+		object-position: left !important;
+	}
+
+	.xl\:disabled\:object-position\:top-left:disabled,
+	.xl\:disabled\:opos\:top-left:disabled {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:checked\:object-fit\:none:checked,
+	.xl\:checked\:ofit\:none:checked {
+		object-fit: none !important;
+	}
+
+	.xl\:checked\:object-fit\:contain:checked,
+	.xl\:checked\:ofit\:contain:checked {
+		object-fit: contain !important;
+	}
+
+	.xl\:checked\:object-fit\:cover:checked,
+	.xl\:checked\:ofit\:cover:checked {
+		object-fit: cover !important;
+	}
+
+	.xl\:checked\:object-fit\:fill:checked,
+	.xl\:checked\:ofit\:fill:checked {
+		object-fit: fill !important;
+	}
+
+	.xl\:checked\:object-fit\:scale-down:checked,
+	.xl\:checked\:ofit\:scale-down:checked {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:checked\:object-position\:center:checked,
+	.xl\:checked\:opos\:center:checked {
+		object-position: center !important;
+	}
+
+	.xl\:checked\:object-position\:top:checked,
+	.xl\:checked\:opos\:top:checked {
+		object-position: top !important;
+	}
+
+	.xl\:checked\:object-position\:top-right:checked,
+	.xl\:checked\:opos\:top-right:checked {
+		object-position: top right !important;
+	}
+
+	.xl\:checked\:object-position\:right:checked,
+	.xl\:checked\:opos\:right:checked {
+		object-position: right !important;
+	}
+
+	.xl\:checked\:object-position\:bottom-right:checked,
+	.xl\:checked\:opos\:bottom-right:checked {
+		object-position: bottom right !important;
+	}
+
+	.xl\:checked\:object-position\:bottom:checked,
+	.xl\:checked\:opos\:bottom:checked {
+		object-position: bottom !important;
+	}
+
+	.xl\:checked\:object-position\:bottom-left:checked,
+	.xl\:checked\:opos\:bottom-left:checked {
+		object-position: bottom left !important;
+	}
+
+	.xl\:checked\:object-position\:left:checked,
+	.xl\:checked\:opos\:left:checked {
+		object-position: left !important;
+	}
+
+	.xl\:checked\:object-position\:top-left:checked,
+	.xl\:checked\:opos\:top-left:checked {
+		object-position: top left !important;
+	}
+
+
+	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
+
+	/* OBJECT-FIT */
+
+	.xl\:visited\:object-fit\:none:visited,
+	.xl\:visited\:ofit\:none:visited {
+		object-fit: none !important;
+	}
+
+	.xl\:visited\:object-fit\:contain:visited,
+	.xl\:visited\:ofit\:contain:visited {
+		object-fit: contain !important;
+	}
+
+	.xl\:visited\:object-fit\:cover:visited,
+	.xl\:visited\:ofit\:cover:visited {
+		object-fit: cover !important;
+	}
+
+	.xl\:visited\:object-fit\:fill:visited,
+	.xl\:visited\:ofit\:fill:visited {
+		object-fit: fill !important;
+	}
+
+	.xl\:visited\:object-fit\:scale-down:visited,
+	.xl\:visited\:ofit\:scale-down:visited {
+		object-fit: scale-down !important;
+	}
+
+	/* OBJECT-POSITION */
+
+	.xl\:visited\:object-position\:center:visited,
+	.xl\:visited\:opos\:center:visited {
+		object-position: center !important;
+	}
+
+	.xl\:visited\:object-position\:top:visited,
+	.xl\:visited\:opos\:top:visited {
+		object-position: top !important;
+	}
+
+	.xl\:visited\:object-position\:top-right:visited,
+	.xl\:visited\:opos\:top-right:visited {
+		object-position: top right !important;
+	}
+
+	.xl\:visited\:object-position\:right:visited,
+	.xl\:visited\:opos\:right:visited {
+		object-position: right !important;
+	}
+
+	.xl\:visited\:object-position\:bottom-right:visited,
+	.xl\:visited\:opos\:bottom-right:visited {
+		object-position: bottom right !important;
+	}
+
+	.xl\:visited\:object-position\:bottom:visited,
+	.xl\:visited\:opos\:bottom:visited {
+		object-position: bottom !important;
+	}
+
+	.xl\:visited\:object-position\:bottom-left:visited,
+	.xl\:visited\:opos\:bottom-left:visited {
+		object-position: bottom left !important;
+	}
+
+	.xl\:visited\:object-position\:left:visited,
+	.xl\:visited\:opos\:left:visited {
+		object-position: left !important;
+	}
+
+	.xl\:visited\:object-position\:top-left:visited,
+	.xl\:visited\:opos\:top-left:visited {
 		object-position: top left !important;
 	}
 

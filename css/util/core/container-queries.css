@@ -18,6 +18,166 @@
 }
 
 
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.hover\:container-type\:normal:hover,
+.hover\:ct\:normal:hover {
+	container-type: normal !important;
+}
+
+.hover\:container-type\:size:hover,
+.hover\:ct\:size:hover {
+	container-type: size !important;
+}
+
+.hover\:container-type\:inline-size:hover,
+.hover\:ct\:inline-size:hover {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.focus\:container-type\:normal:focus,
+.focus\:ct\:normal:focus {
+	container-type: normal !important;
+}
+
+.focus\:container-type\:size:focus,
+.focus\:ct\:size:focus {
+	container-type: size !important;
+}
+
+.focus\:container-type\:inline-size:focus,
+.focus\:ct\:inline-size:focus {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.focus-visible\:container-type\:normal:focus-visible,
+.focus-visible\:ct\:normal:focus-visible {
+	container-type: normal !important;
+}
+
+.focus-visible\:container-type\:size:focus-visible,
+.focus-visible\:ct\:size:focus-visible {
+	container-type: size !important;
+}
+
+.focus-visible\:container-type\:inline-size:focus-visible,
+.focus-visible\:ct\:inline-size:focus-visible {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.focus-within\:container-type\:normal:focus-within,
+.focus-within\:ct\:normal:focus-within {
+	container-type: normal !important;
+}
+
+.focus-within\:container-type\:size:focus-within,
+.focus-within\:ct\:size:focus-within {
+	container-type: size !important;
+}
+
+.focus-within\:container-type\:inline-size:focus-within,
+.focus-within\:ct\:inline-size:focus-within {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.active\:container-type\:normal:active,
+.active\:ct\:normal:active {
+	container-type: normal !important;
+}
+
+.active\:container-type\:size:active,
+.active\:ct\:size:active {
+	container-type: size !important;
+}
+
+.active\:container-type\:inline-size:active,
+.active\:ct\:inline-size:active {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.disabled\:container-type\:normal:disabled,
+.disabled\:ct\:normal:disabled {
+	container-type: normal !important;
+}
+
+.disabled\:container-type\:size:disabled,
+.disabled\:ct\:size:disabled {
+	container-type: size !important;
+}
+
+.disabled\:container-type\:inline-size:disabled,
+.disabled\:ct\:inline-size:disabled {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.checked\:container-type\:normal:checked,
+.checked\:ct\:normal:checked {
+	container-type: normal !important;
+}
+
+.checked\:container-type\:size:checked,
+.checked\:ct\:size:checked {
+	container-type: size !important;
+}
+
+.checked\:container-type\:inline-size:checked,
+.checked\:ct\:inline-size:checked {
+	container-type: inline-size !important;
+}
+
+
+/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+/* CONTAINER-TYPE */
+
+.visited\:container-type\:normal:visited,
+.visited\:ct\:normal:visited {
+	container-type: normal !important;
+}
+
+.visited\:container-type\:size:visited,
+.visited\:ct\:size:visited {
+	container-type: size !important;
+}
+
+.visited\:container-type\:inline-size:visited,
+.visited\:ct\:inline-size:visited {
+	container-type: inline-size !important;
+}
+
+
 @media (min-width: 640px) {
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -35,6 +195,166 @@
 
 	.sm\:container-type\:inline-size,
 	.sm\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:hover\:container-type\:normal:hover,
+	.sm\:hover\:ct\:normal:hover {
+		container-type: normal !important;
+	}
+
+	.sm\:hover\:container-type\:size:hover,
+	.sm\:hover\:ct\:size:hover {
+		container-type: size !important;
+	}
+
+	.sm\:hover\:container-type\:inline-size:hover,
+	.sm\:hover\:ct\:inline-size:hover {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:focus\:container-type\:normal:focus,
+	.sm\:focus\:ct\:normal:focus {
+		container-type: normal !important;
+	}
+
+	.sm\:focus\:container-type\:size:focus,
+	.sm\:focus\:ct\:size:focus {
+		container-type: size !important;
+	}
+
+	.sm\:focus\:container-type\:inline-size:focus,
+	.sm\:focus\:ct\:inline-size:focus {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:focus-visible\:container-type\:normal:focus-visible,
+	.sm\:focus-visible\:ct\:normal:focus-visible {
+		container-type: normal !important;
+	}
+
+	.sm\:focus-visible\:container-type\:size:focus-visible,
+	.sm\:focus-visible\:ct\:size:focus-visible {
+		container-type: size !important;
+	}
+
+	.sm\:focus-visible\:container-type\:inline-size:focus-visible,
+	.sm\:focus-visible\:ct\:inline-size:focus-visible {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:focus-within\:container-type\:normal:focus-within,
+	.sm\:focus-within\:ct\:normal:focus-within {
+		container-type: normal !important;
+	}
+
+	.sm\:focus-within\:container-type\:size:focus-within,
+	.sm\:focus-within\:ct\:size:focus-within {
+		container-type: size !important;
+	}
+
+	.sm\:focus-within\:container-type\:inline-size:focus-within,
+	.sm\:focus-within\:ct\:inline-size:focus-within {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:active\:container-type\:normal:active,
+	.sm\:active\:ct\:normal:active {
+		container-type: normal !important;
+	}
+
+	.sm\:active\:container-type\:size:active,
+	.sm\:active\:ct\:size:active {
+		container-type: size !important;
+	}
+
+	.sm\:active\:container-type\:inline-size:active,
+	.sm\:active\:ct\:inline-size:active {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:disabled\:container-type\:normal:disabled,
+	.sm\:disabled\:ct\:normal:disabled {
+		container-type: normal !important;
+	}
+
+	.sm\:disabled\:container-type\:size:disabled,
+	.sm\:disabled\:ct\:size:disabled {
+		container-type: size !important;
+	}
+
+	.sm\:disabled\:container-type\:inline-size:disabled,
+	.sm\:disabled\:ct\:inline-size:disabled {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:checked\:container-type\:normal:checked,
+	.sm\:checked\:ct\:normal:checked {
+		container-type: normal !important;
+	}
+
+	.sm\:checked\:container-type\:size:checked,
+	.sm\:checked\:ct\:size:checked {
+		container-type: size !important;
+	}
+
+	.sm\:checked\:container-type\:inline-size:checked,
+	.sm\:checked\:ct\:inline-size:checked {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.sm\:visited\:container-type\:normal:visited,
+	.sm\:visited\:ct\:normal:visited {
+		container-type: normal !important;
+	}
+
+	.sm\:visited\:container-type\:size:visited,
+	.sm\:visited\:ct\:size:visited {
+		container-type: size !important;
+	}
+
+	.sm\:visited\:container-type\:inline-size:visited,
+	.sm\:visited\:ct\:inline-size:visited {
 		container-type: inline-size !important;
 	}
 
@@ -60,6 +380,166 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:hover\:container-type\:normal:hover,
+	.md\:hover\:ct\:normal:hover {
+		container-type: normal !important;
+	}
+
+	.md\:hover\:container-type\:size:hover,
+	.md\:hover\:ct\:size:hover {
+		container-type: size !important;
+	}
+
+	.md\:hover\:container-type\:inline-size:hover,
+	.md\:hover\:ct\:inline-size:hover {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:focus\:container-type\:normal:focus,
+	.md\:focus\:ct\:normal:focus {
+		container-type: normal !important;
+	}
+
+	.md\:focus\:container-type\:size:focus,
+	.md\:focus\:ct\:size:focus {
+		container-type: size !important;
+	}
+
+	.md\:focus\:container-type\:inline-size:focus,
+	.md\:focus\:ct\:inline-size:focus {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:focus-visible\:container-type\:normal:focus-visible,
+	.md\:focus-visible\:ct\:normal:focus-visible {
+		container-type: normal !important;
+	}
+
+	.md\:focus-visible\:container-type\:size:focus-visible,
+	.md\:focus-visible\:ct\:size:focus-visible {
+		container-type: size !important;
+	}
+
+	.md\:focus-visible\:container-type\:inline-size:focus-visible,
+	.md\:focus-visible\:ct\:inline-size:focus-visible {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:focus-within\:container-type\:normal:focus-within,
+	.md\:focus-within\:ct\:normal:focus-within {
+		container-type: normal !important;
+	}
+
+	.md\:focus-within\:container-type\:size:focus-within,
+	.md\:focus-within\:ct\:size:focus-within {
+		container-type: size !important;
+	}
+
+	.md\:focus-within\:container-type\:inline-size:focus-within,
+	.md\:focus-within\:ct\:inline-size:focus-within {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:active\:container-type\:normal:active,
+	.md\:active\:ct\:normal:active {
+		container-type: normal !important;
+	}
+
+	.md\:active\:container-type\:size:active,
+	.md\:active\:ct\:size:active {
+		container-type: size !important;
+	}
+
+	.md\:active\:container-type\:inline-size:active,
+	.md\:active\:ct\:inline-size:active {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:disabled\:container-type\:normal:disabled,
+	.md\:disabled\:ct\:normal:disabled {
+		container-type: normal !important;
+	}
+
+	.md\:disabled\:container-type\:size:disabled,
+	.md\:disabled\:ct\:size:disabled {
+		container-type: size !important;
+	}
+
+	.md\:disabled\:container-type\:inline-size:disabled,
+	.md\:disabled\:ct\:inline-size:disabled {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:checked\:container-type\:normal:checked,
+	.md\:checked\:ct\:normal:checked {
+		container-type: normal !important;
+	}
+
+	.md\:checked\:container-type\:size:checked,
+	.md\:checked\:ct\:size:checked {
+		container-type: size !important;
+	}
+
+	.md\:checked\:container-type\:inline-size:checked,
+	.md\:checked\:ct\:inline-size:checked {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.md\:visited\:container-type\:normal:visited,
+	.md\:visited\:ct\:normal:visited {
+		container-type: normal !important;
+	}
+
+	.md\:visited\:container-type\:size:visited,
+	.md\:visited\:ct\:size:visited {
+		container-type: size !important;
+	}
+
+	.md\:visited\:container-type\:inline-size:visited,
+	.md\:visited\:ct\:inline-size:visited {
+		container-type: inline-size !important;
+	}
+
 }
 
 @media (min-width: 1024px) {
@@ -82,6 +562,166 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:hover\:container-type\:normal:hover,
+	.lg\:hover\:ct\:normal:hover {
+		container-type: normal !important;
+	}
+
+	.lg\:hover\:container-type\:size:hover,
+	.lg\:hover\:ct\:size:hover {
+		container-type: size !important;
+	}
+
+	.lg\:hover\:container-type\:inline-size:hover,
+	.lg\:hover\:ct\:inline-size:hover {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:focus\:container-type\:normal:focus,
+	.lg\:focus\:ct\:normal:focus {
+		container-type: normal !important;
+	}
+
+	.lg\:focus\:container-type\:size:focus,
+	.lg\:focus\:ct\:size:focus {
+		container-type: size !important;
+	}
+
+	.lg\:focus\:container-type\:inline-size:focus,
+	.lg\:focus\:ct\:inline-size:focus {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:focus-visible\:container-type\:normal:focus-visible,
+	.lg\:focus-visible\:ct\:normal:focus-visible {
+		container-type: normal !important;
+	}
+
+	.lg\:focus-visible\:container-type\:size:focus-visible,
+	.lg\:focus-visible\:ct\:size:focus-visible {
+		container-type: size !important;
+	}
+
+	.lg\:focus-visible\:container-type\:inline-size:focus-visible,
+	.lg\:focus-visible\:ct\:inline-size:focus-visible {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:focus-within\:container-type\:normal:focus-within,
+	.lg\:focus-within\:ct\:normal:focus-within {
+		container-type: normal !important;
+	}
+
+	.lg\:focus-within\:container-type\:size:focus-within,
+	.lg\:focus-within\:ct\:size:focus-within {
+		container-type: size !important;
+	}
+
+	.lg\:focus-within\:container-type\:inline-size:focus-within,
+	.lg\:focus-within\:ct\:inline-size:focus-within {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:active\:container-type\:normal:active,
+	.lg\:active\:ct\:normal:active {
+		container-type: normal !important;
+	}
+
+	.lg\:active\:container-type\:size:active,
+	.lg\:active\:ct\:size:active {
+		container-type: size !important;
+	}
+
+	.lg\:active\:container-type\:inline-size:active,
+	.lg\:active\:ct\:inline-size:active {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:disabled\:container-type\:normal:disabled,
+	.lg\:disabled\:ct\:normal:disabled {
+		container-type: normal !important;
+	}
+
+	.lg\:disabled\:container-type\:size:disabled,
+	.lg\:disabled\:ct\:size:disabled {
+		container-type: size !important;
+	}
+
+	.lg\:disabled\:container-type\:inline-size:disabled,
+	.lg\:disabled\:ct\:inline-size:disabled {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:checked\:container-type\:normal:checked,
+	.lg\:checked\:ct\:normal:checked {
+		container-type: normal !important;
+	}
+
+	.lg\:checked\:container-type\:size:checked,
+	.lg\:checked\:ct\:size:checked {
+		container-type: size !important;
+	}
+
+	.lg\:checked\:container-type\:inline-size:checked,
+	.lg\:checked\:ct\:inline-size:checked {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.lg\:visited\:container-type\:normal:visited,
+	.lg\:visited\:ct\:normal:visited {
+		container-type: normal !important;
+	}
+
+	.lg\:visited\:container-type\:size:visited,
+	.lg\:visited\:ct\:size:visited {
+		container-type: size !important;
+	}
+
+	.lg\:visited\:container-type\:inline-size:visited,
+	.lg\:visited\:ct\:inline-size:visited {
+		container-type: inline-size !important;
+	}
+
 }
 
 @media (min-width: 1280px) {
@@ -101,6 +741,166 @@
 
 	.xl\:container-type\:inline-size,
 	.xl\:ct\:inline-size {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:hover\:container-type\:normal:hover,
+	.xl\:hover\:ct\:normal:hover {
+		container-type: normal !important;
+	}
+
+	.xl\:hover\:container-type\:size:hover,
+	.xl\:hover\:ct\:size:hover {
+		container-type: size !important;
+	}
+
+	.xl\:hover\:container-type\:inline-size:hover,
+	.xl\:hover\:ct\:inline-size:hover {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:focus\:container-type\:normal:focus,
+	.xl\:focus\:ct\:normal:focus {
+		container-type: normal !important;
+	}
+
+	.xl\:focus\:container-type\:size:focus,
+	.xl\:focus\:ct\:size:focus {
+		container-type: size !important;
+	}
+
+	.xl\:focus\:container-type\:inline-size:focus,
+	.xl\:focus\:ct\:inline-size:focus {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:focus-visible\:container-type\:normal:focus-visible,
+	.xl\:focus-visible\:ct\:normal:focus-visible {
+		container-type: normal !important;
+	}
+
+	.xl\:focus-visible\:container-type\:size:focus-visible,
+	.xl\:focus-visible\:ct\:size:focus-visible {
+		container-type: size !important;
+	}
+
+	.xl\:focus-visible\:container-type\:inline-size:focus-visible,
+	.xl\:focus-visible\:ct\:inline-size:focus-visible {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:focus-within\:container-type\:normal:focus-within,
+	.xl\:focus-within\:ct\:normal:focus-within {
+		container-type: normal !important;
+	}
+
+	.xl\:focus-within\:container-type\:size:focus-within,
+	.xl\:focus-within\:ct\:size:focus-within {
+		container-type: size !important;
+	}
+
+	.xl\:focus-within\:container-type\:inline-size:focus-within,
+	.xl\:focus-within\:ct\:inline-size:focus-within {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:active\:container-type\:normal:active,
+	.xl\:active\:ct\:normal:active {
+		container-type: normal !important;
+	}
+
+	.xl\:active\:container-type\:size:active,
+	.xl\:active\:ct\:size:active {
+		container-type: size !important;
+	}
+
+	.xl\:active\:container-type\:inline-size:active,
+	.xl\:active\:ct\:inline-size:active {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:disabled\:container-type\:normal:disabled,
+	.xl\:disabled\:ct\:normal:disabled {
+		container-type: normal !important;
+	}
+
+	.xl\:disabled\:container-type\:size:disabled,
+	.xl\:disabled\:ct\:size:disabled {
+		container-type: size !important;
+	}
+
+	.xl\:disabled\:container-type\:inline-size:disabled,
+	.xl\:disabled\:ct\:inline-size:disabled {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:checked\:container-type\:normal:checked,
+	.xl\:checked\:ct\:normal:checked {
+		container-type: normal !important;
+	}
+
+	.xl\:checked\:container-type\:size:checked,
+	.xl\:checked\:ct\:size:checked {
+		container-type: size !important;
+	}
+
+	.xl\:checked\:container-type\:inline-size:checked,
+	.xl\:checked\:ct\:inline-size:checked {
+		container-type: inline-size !important;
+	}
+
+
+	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
+
+	/* CONTAINER-TYPE */
+
+	.xl\:visited\:container-type\:normal:visited,
+	.xl\:visited\:ct\:normal:visited {
+		container-type: normal !important;
+	}
+
+	.xl\:visited\:container-type\:size:visited,
+	.xl\:visited\:ct\:size:visited {
+		container-type: size !important;
+	}
+
+	.xl\:visited\:container-type\:inline-size:visited,
+	.xl\:visited\:ct\:inline-size:visited {
 		container-type: inline-size !important;
 	}
 
