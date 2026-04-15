@@ -1,57 +1,45 @@
 {
 	"name": "@newtil/css",
-	"version": "0.4.0",
-	"description": "Utility based CSS",
+	"version": "0.5.0",
+	"description": "Tailwind 대체재 — 실제 CSS 속성명/축약 기반 utility class. @newtil/design-tokens 위에 동작",
 	"publishConfig": {
 		"access": "public"
 	},
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/style.css",
 	"style": "./dist/style.css",
 	"type": "module",
 	"exports": {
-		".": {
-			"import": "./dist/index.js",
-			"require": "./dist/index.js",
-			"default": "./dist/index.js",
-			"types": "./dist/index.d.ts"
-		},
-		"./style.css": {
-			"default": "./dist/style.css"
-		},
-		"./utils.css": {
-			"default": "./dist/utils.css"
-		},
-		"./components.css": {
-			"default": "./dist/components.css"
-		},
+		".": "./dist/style.css",
+		"./style.css": "./dist/style.css",
+		"./utils.css": "./dist/utils.css",
+		"./reset.css": "./dist/reset.css",
 		"./package.json": "./package.json"
 	},
 	"keywords": [
 		"css",
-		"util css",
 		"utility css",
-		"css framework"
+		"util css",
+		"tailwind alternative",
+		"design system"
 	],
 	"author": "lectureteam",
 	"license": "MIT",
 	"scripts": {
-		"build": "rm -rf ./dist && rollup -c",
+		"generate": "node generator/generate.js",
+		"build": "npm run generate && rm -rf ./dist && rollup -c",
 		"deploy": "npm run build && npm publish",
 		"prepublishOnly": "npm run build",
 		"docs:dev": "vitepress dev docs --host",
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
 	},
+	"dependencies": {
+		"@newtil/design-tokens": "^0.1.0"
+	},
 	"devDependencies": {
-		"@rollup/plugin-terser": "^0.4.4",
-		"@rollup/plugin-typescript": "^12.1.2",
 		"postcss": "^8.4.33",
 		"postcss-import": "^16.1.0",
-		"postcss-url": "^10.1.3",
 		"rollup": "^4.52.5",
-		"rollup-plugin-copy": "^3.5.0",
 		"rollup-plugin-postcss": "^4.0.2",
 		"vitepress": "^1.6.4"
 	},
@@ -68,8 +56,6 @@
 	"homepage": "https://github.com/newlecture-corp/newtil-css#readme",
 	"files": [
 		"dist",
-		"index.js",
-		"index.d.ts",
 		"README.md",
 		"LICENSE",
 		"MIGRATION.md"

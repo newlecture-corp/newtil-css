@@ -1,14 +1,10 @@
-/* ===== NEWTIL CSS MAIN STYLE ===== */
+/* ===== @newtil/css — UTILITY ENTRY POINT =====
+ * Tailwind 대체재. 실제 CSS 속성명 그대로 또는 유추 가능한 축약으로 utility class 제공.
+ * 모든 값은 @newtil/design-tokens 의 토큰을 참조.
+ */
 
-/* CSS Layer 순서 정의 - reset이 가장 먼저 적용되도록 */
-@layer reset, base, components, utilities;
+@layer reset, tokens, utilities;
 
-/* Reset & Base */
-@import url("./reset.css");
-/* @import url("./root.css"); */
-
-/* Component System */
-@import url("./components.css");
-
-/* Utility System - Component-first + Utility-last 철학 */
-@import url("./util/index.css");
+@import "./reset.css";
+@import "@newtil/design-tokens";
+@import "./util/index.css";
