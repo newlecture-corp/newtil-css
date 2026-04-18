@@ -15,17 +15,55 @@ hero:
 
 ## 왜 CSS Utility가 필요한가?
 
-스타일을 다루다 보면 자주 반복되는 패턴은 **클래스로 정의**해 놓고 재사용하는 것이 유지보수에 도움이 됩니다. 하지만 모든 패턴을 미리 정의할 수는 없습니다. 작은 변화 — 간격 조정, 색상 미세 변경, 특정 요소의 레이아웃 — 에는 별도 클래스를 만들기보다 **인라인처럼 빠르게 적용할 수 있는 utility class**가 더 효율적입니다.
+자주 반복되는 UI — 버튼, 카드, 아이콘 등 — 은 미리 클래스로 정의해 놓고 재사용하는 것이 바람직합니다. [`@newtil/components`](https://github.com/newlecture-corp/newtil-components)가 바로 그런 역할을 합니다:
 
-이것이 CSS utility의 존재 이유입니다.
+```html
+<!-- 컴포넌트: 미리 정의된 패턴 -->
+<button class="m3-btn">기본 버튼</button>
+<button class="m3-btn btn:outlined">아웃라인 버튼</button>
+<div class="m3-card card:elevated">카드</div>
+<i class="m3-icon icon:home"></i>
+```
 
-### Utility가 주가 되는 경우
+하지만 **약간의 차이**가 필요한 순간이 반드시 옵니다. "이 버튼만 간격을 좀 더 주고 싶다", "이 카드만 그림자를 강하게 하고 싶다" — 이런 변형마다 새로운 버튼 클래스, 새로운 카드 클래스를 만드는 건 **개체수만 늘릴 뿐** 효율적이지 않습니다.
 
-Tailwind처럼 **모든 스타일을 utility로 작성**하는 방식이 유효한 상황도 있습니다:
+```html
+<!-- ❌ 변형마다 새 클래스 → 클래스 폭발 -->
+<button class="m3-btn btn-custom-spacing-large">...</button>
+<button class="m3-btn btn-custom-shadow-strong">...</button>
+<button class="m3-btn btn-custom-margin-top-extra">...</button>
+```
 
-- 디자인 패턴이 아직 정해지지 않은 **프로토타입** 단계
-- 패턴을 염두에 두지 않은 **일회성 UI** 제작
-- 컴포넌트 라이브러리 없이 **빠르게 화면을 만들어야** 할 때
+**이럴 때 사용하는 것이 CSS utility입니다.** 컴포넌트 클래스는 그대로 두고, **작은 차이만 utility로 보충**합니다:
+
+```html
+<!-- ✅ 컴포넌트 + utility 조합 → 클래스 폭발 없이 커스텀 -->
+<button class="m3-btn padding:6">간격 넓은 버튼</button>
+<div class="m3-card card:elevated box-shadow:xl">강한 그림자 카드</div>
+<button class="m3-btn margin-top:5">위 간격 추가 버튼</button>
+<i class="m3-icon icon:home font-size:2xl color:danger">큰 빨간 아이콘</i>
+```
+
+### Utility만으로 전체 UI를 만들 수도 있다
+
+프로토타입, 일회성 페이지, 또는 컴포넌트 라이브러리 없이 빠르게 화면을 만들어야 할 때 — utility **만으로도** 완전한 UI를 구성할 수 있습니다:
+
+```html
+<!-- 컴포넌트 없이 utility만으로 만든 버튼 -->
+<button class="padding-x:5 padding-y:3 background-color:primary color:on-primary
+               border-radius:full border-width:0 font-weight:medium cursor:pointer
+               hover:background-color:primary-hover transition:default">
+  버튼
+</button>
+
+<!-- utility만으로 만든 카드 -->
+<div class="padding:6 background-color:surface border-radius:4 box-shadow:lg">
+  <h3 class="font-size:lg font-weight:semibold margin-bottom:2">카드 제목</h3>
+  <p class="color:text-muted font-size:sm">카드 내용</p>
+</div>
+```
+
+**컴포넌트가 "자주 쓰는 패턴"이라면, utility는 "미세 조정 도구"입니다.** 둘은 대립이 아니라 보완 관계.
 
 ## Tailwind의 문제
 
