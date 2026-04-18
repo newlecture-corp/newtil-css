@@ -41,7 +41,7 @@ export default defineConfig({ plugins: [newtilCss()] });
 |---|---|
 | [`@newtil/design-tokens`](https://github.com/newlecture-corp/newtil-design-tokens) | 디자인 토큰 (색상, 간격, 타이포 등) |
 | `@newtil/css` | utility CSS (이 패키지) |
-| [`@newtil/ui`](https://github.com/newlecture-corp/newtil-ui) | UI 컴포넌트 (버튼, 카드 등) |
+| [`@newtil/components`](https://github.com/newlecture-corp/newtil-components) | UI 컴포넌트 (버튼, 카드 등) |
 
 ## 라이선스
 
