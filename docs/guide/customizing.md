@@ -146,24 +146,14 @@ CSS 변수는 `:root`에서 정의합니다:
 }
 ```
 
-## 특정 컴포넌트만 커스터마이징
+## 부분 커스터마이징 (scope)
 
-특정 컴포넌트에만 스타일을 적용할 수도 있습니다:
+특정 영역에서만 토큰 재정의:
 
-```css
-/* 특정 버튼에만 스타일 적용 */
-.my-custom-button {
-  --btn-height: var(--space-27); /* 52px */
-  --btn-background-color: #ff6b6b;
-}
-
-/* 사용 */
-<button class="m3-btn btn-size:2 my-custom-button">
-  커스텀 버튼
-</button>
+```html
+<div style="--color-primary: #ff6b00; --color-on-primary: #fff;">
+  <!-- 이 안에서만 primary가 오렌지 -->
+  <button class="p:4 bg:primary c:on-primary bdr:3 border-width:0">Orange Button</button>
+</div>
 ```
-
-## CSS 변수 목록
-
-전체 CSS 변수 목록은 [CSS 변수 목록](./css-variable-list) 페이지에서 확인하실 수 있습니다.
 

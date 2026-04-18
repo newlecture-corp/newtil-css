@@ -166,9 +166,9 @@ module.exports = {
   <div class="p:4">
     <h1>NewTil CSS 첫 예제</h1>
     <div class="d:flex gap:2 mt:4">
-      <button class="m3-btn btn-size:2 btn-color:main">메인 버튼</button>
-      <button class="m3-btn btn-size:2 btn-color:sub">서브 버튼</button>
-      <button class="m3-btn btn-size:2 m3-btn:outline">아웃라인 버튼</button>
+      <button class="p:4 bg:primary c:on-primary bdr:full border-width:0 cursor:pointer">메인 버튼</button>
+      <button class="p:4 bg:secondary c:on-secondary bdr:full border-width:0 cursor:pointer">서브 버튼</button>
+      <button class="p:4 bg:transparent c:primary bdr:full border-width:1 bds:solid bdc:primary cursor:pointer">아웃라인 버튼</button>
     </div>
   </div>
 </body>
