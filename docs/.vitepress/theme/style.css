@@ -446,11 +446,21 @@ main {
  * Home page content — max-width constraint for wide screens
  * -------------------------------------------------------------------------- */
 
+/* 홈 페이지 본문 콘텐츠 너비 제한 */
 .VPHome .vp-doc,
-.VPHome > div:not(.VPHero) {
-  max-width: 48rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.VPHome .VPHomeContent,
+.vp-doc.container {
+  max-width: 48rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+/* 홈 hero 아래 마크다운 콘텐츠 영역 */
+.VPHome .vp-doc > div,
+.VPHome .vp-doc {
+  max-width: 48rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
