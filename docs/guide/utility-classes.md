@@ -13,6 +13,80 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 .bg:primary         → 같은 것 (축약)
 ```
 
+## 유틸 활용하기
+
+### 유틸만 사용하기
+
+디자인 시스템의 토큰만 활용해서 컴포넌트를 직접 만들 수 있습니다. 라이브러리에 없는 모양이나 빠르게 프로토타이핑할 때 유용합니다.
+
+**버튼 만들기**
+
+<Demo>
+<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:primary c:on-primary bdr:full fs:sm fw:medium cur:pointer bd:none">
+  유틸로 만든 버튼
+</button>
+<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:transparent c:primary bdw:1 bds:solid bdc:primary bdr:full fs:sm fw:medium cur:pointer">
+  Outlined
+</button>
+</Demo>
+
+**카드 만들기**
+
+<Demo>
+<div class="d:flex fd:column g:4 p:7 bg:surface-subtle bdr:5 bsh:sm w:auto" style="max-width: 20rem;">
+  <h3 class="fs:lg fw:semibold m:0">카드 제목</h3>
+  <p class="fs:sm c:text-muted m:0">이 카드는 유틸리티 클래스만으로 만들어졌습니다. 배경, 그림자, 패딩, 간격 모두 토큰 기반입니다.</p>
+  <div class="d:flex g:3 jc:end">
+    <button class="p:3 bg:transparent c:primary bd:none cur:pointer fs:sm">취소</button>
+    <button class="p:3 bg:primary c:on-primary bd:none bdr:3 cur:pointer fs:sm">확인</button>
+  </div>
+</div>
+</Demo>
+
+### 컴포넌트에 유틸로 커스텀하기
+
+`@newtil/components` 같은 컴포넌트 라이브러리 위에 유틸리티를 조합하면, 컴포넌트의 기본 모양은 유지하면서 **특정 상황에 맞는 조정**을 빠르게 할 수 있습니다.
+
+**버튼에 간격/정렬 추가**
+
+<Demo>
+<div class="d:flex g:4 jc:center p:5 bg:surface-muted bdr:4">
+  <button class="m3-btn">기본</button>
+  <button class="m3-btn btn:outlined">Outlined</button>
+  <button class="m3-btn btn-color:danger">삭제</button>
+</div>
+</Demo>
+
+**카드를 그리드 레이아웃에 배치**
+
+<Demo>
+<div class="d:grid gtc:repeat-3 g:5">
+  <div class="m3-card card:outlined">
+    <div class="card-content">첫 번째 카드</div>
+  </div>
+  <div class="m3-card card:outlined">
+    <div class="card-content">두 번째 카드</div>
+  </div>
+  <div class="m3-card card:outlined">
+    <div class="card-content">세 번째 카드</div>
+  </div>
+</div>
+</Demo>
+
+**컴포넌트 변수를 유틸로 재정의**
+
+컴포넌트 변수는 일반 CSS 변수이므로 유틸이나 인라인 스타일로 오버라이드 가능합니다.
+
+<Demo>
+<button class="m3-btn" style="--btn-background-color: purple; --btn-border-radius: 0.25rem;">
+  변수 오버라이드
+</button>
+</Demo>
+
+::: tip 함께 쓰기 좋은 이유
+`@newtil/components`는 모든 속성을 **컴포넌트 변수**로 노출하고, `@newtil/css`는 그 변수를 **유틸리티 클래스**로 조작할 수 있는 수단을 제공합니다. 두 라이브러리는 같은 [design-tokens](/guide/design-tokens)를 공유해서 색/간격/그림자가 자연스럽게 맞습니다.
+:::
+
 ## 전체 카테고리 목록
 
 ### Core
