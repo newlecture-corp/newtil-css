@@ -16,24 +16,22 @@
 
 모바일 우선 (mobile-first). 기본 class가 모든 화면에 적용되고, prefix가 붙은 class가 해당 breakpoint 이상에서 덮어씁니다.
 
-```html
-<!-- 모바일: padding 3, 태블릿+: padding 5, 데스크톱+: padding 8 -->
-<div class="padding:3 md:padding:5 lg:padding:8">
-  ...
+<Demo>
+<div class="padding:3 md:padding:5 lg:padding:8 bg-color:primary-subtle color:on-primary">
+  모바일: padding 3, 태블릿+: padding 5, 데스크톱+: padding 8
 </div>
-```
+</Demo>
 
 ### 반응형 레이아웃 예시
 
-```html
-<!-- 모바일: 세로 스택, 태블릿: 2열, 데스크톱: 4열 -->
-<div class="display:grid grid-template-columns:1 md:grid-template-columns:2 lg:grid-template-columns:4 gap:3">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
+<Demo>
+<div class="display:grid grid-template-columns:1 md:grid-template-columns:2 lg:grid-template-columns:4 gap:3 width:full">
+  <div class="padding:4 bg-color:primary color:on-primary text-align:center">1</div>
+  <div class="padding:4 bg-color:secondary color:on-secondary text-align:center">2</div>
+  <div class="padding:4 bg-color:tertiary color:on-tertiary text-align:center">3</div>
+  <div class="padding:4 bg-color:primary color:on-primary text-align:center">4</div>
 </div>
-```
+</Demo>
 
 ## 상호작용 상태 (Pseudo-state)
 
@@ -52,29 +50,18 @@
 
 ### 사용법
 
-```html
-<button class="
-  background-color:primary
-  color:on-primary
-  hover:background-color:primary-hover
-  active:background-color:primary-active
-  focus:outline-width:2
-  focus:outline-color:focus-ring
-  disabled:opacity:50
-  disabled:cursor:not-allowed
-  transition:default
-">
+<Demo>
+<button class="background-color:primary color:on-primary padding:4 border-radius:3 border-width:0 cursor:pointer hover:background-color:primary-hover active:background-color:primary-active focus:outline-width:2 focus:outline-color:focus-ring disabled:opacity:50 disabled:cursor:not-allowed transition:default">
   버튼
 </button>
-```
+</Demo>
 
 ### 반응형 × 상태 조합
 
 prefix를 중첩할 수 있습니다: `{breakpoint}:{pseudo}:{property}:{value}`
 
-```html
-<!-- 모바일: hover 시 빨강, 데스크톱: hover 시 파랑 -->
-<div class="hover:background-color:danger lg:hover:background-color:secondary">
-  ...
+<Demo>
+<div class="padding:5 bg-color:surface-subtle color:text hover:background-color:danger lg:hover:background-color:secondary cursor:pointer transition:default">
+  모바일: hover 시 빨강, 데스크톱: hover 시 파랑
 </div>
-```
+</Demo>

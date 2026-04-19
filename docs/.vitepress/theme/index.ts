@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import '../../../css/style.css';
 import './style.css';
+import Demo from './components/Demo.vue';
 
 export default {
   extends: DefaultTheme,
@@ -13,6 +14,6 @@ export default {
     });
   },
   enhanceApp({ app }) {
-    // Components will be registered in individual pages if needed
+    app.component('Demo', Demo);
   }
 } satisfies Theme;

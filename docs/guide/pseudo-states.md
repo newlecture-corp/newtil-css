@@ -17,48 +17,32 @@
 
 ### 버튼
 
-```html
-<button class="
-  bg:primary c:on-primary p:4 bdr:3
-  hover:bg:primary-hover
-  active:bg:primary-active
-  focus:outline-style:solid focus:outline-width:2 focus:outline-color:focus-ring
-  disabled:opacity:50 disabled:cursor:not-allowed
-  transition:default
-">
+<Demo>
+<button class="bg:primary c:on-primary p:4 bdr:3 border-width:0 cursor:pointer hover:bg:primary-hover active:bg:primary-active focus:outline-style:solid focus:outline-width:2 focus:outline-color:focus-ring disabled:opacity:50 disabled:cursor:not-allowed transition:default">
   Interactive Button
 </button>
-```
+</Demo>
 
 ### Input
 
-```html
-<input
-  type="text"
-  class="
-    p:3 border-width:1 bds:solid bdc:border bdr:2 bg:surface c:text
-    focus:bdc:primary focus:outline-style:solid focus:outline-width:2 focus:outline-color:focus-ring
-    transition:default
-  "
-  placeholder="Type here"
-/>
-```
+<Demo>
+<input type="text" class="p:3 border-width:1 bds:solid bdc:border bdr:2 bg:surface c:text focus:bdc:primary focus:outline-style:solid focus:outline-width:2 focus:outline-color:focus-ring transition:default" placeholder="Type here" />
+</Demo>
 
 ### Transform on hover
 
-```html
-<div class="bg:primary-subtle p:5 bdr:3 hover:scale:110 hover:rotate:45 transition:default cursor:pointer">
+<Demo>
+<div class="bg:primary-subtle c:text p:5 bdr:3 hover:scale:110 hover:rotate:45 transition:default cursor:pointer">
   Hover me
 </div>
-```
+</Demo>
 
 ## 반응형 × Pseudo 조합
 
-```html
-<div class="bg:danger md:bg:secondary hover:bg:success md:hover:bg:warning">
-  모바일: 빨강 (hover→초록)
-  태블릿+: 파랑 (hover→노랑)
+<Demo>
+<div class="bg:danger c:on-primary p:5 bdr:3 md:bg:secondary hover:bg:success md:hover:bg:warning transition:default cursor:pointer">
+  모바일: 빨강 (hover→초록) / 태블릿+: 파랑 (hover→노랑)
 </div>
-```
+</Demo>
 
 prefix 순서: `breakpoint:pseudo:property:value`.

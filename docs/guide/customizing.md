@@ -150,10 +150,9 @@ CSS 변수는 `:root`에서 정의합니다:
 
 특정 영역에서만 토큰 재정의:
 
-```html
-<div style="--color-primary: #ff6b00; --color-on-primary: #fff;">
-  <!-- 이 안에서만 primary가 오렌지 -->
-  <button class="p:4 bg:primary c:on-primary bdr:3 border-width:0">Orange Button</button>
+<Demo>
+<div style="--color-primary: #ff6b00; --color-on-primary: #fff; padding: 1rem;">
+  <button class="p:4 bg:primary c:on-primary bdr:3 border-width:0 cursor:pointer">Orange Button</button>
 </div>
-```
+</Demo>
 
