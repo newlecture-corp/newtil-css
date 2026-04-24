@@ -149,7 +149,7 @@ export default function newtilJit(options = {}) {
 
 	return {
 		postcssPlugin: "newtil-css-jit",
-		Once(root, { result }) {
+		Once(root, { result, postcss }) {
 			// Check if this CSS file imports @newtil/css.
 			// Look for: @import "@newtil/css" or @import "@newtil/css/style.css"
 			let hasNewtilImport = false;
@@ -172,8 +172,7 @@ export default function newtilJit(options = {}) {
 			const jitCss = buildJitCss(candidates, tokensDir);
 
 			// Parse and append JIT CSS to the root.
-			const { parse: postcssParse } = require("postcss");
-			const jitRoot = postcssParse(jitCss);
+			const jitRoot = postcss.parse(jitCss);
 			root.append(jitRoot);
 
 			result.messages.push({

@@ -13,7 +13,14 @@
 		"./style.css": "./dist/style.css",
 		"./utils.css": "./dist/utils.css",
 		"./reset.css": "./dist/reset.css",
-		"./jit/postcss-plugin.js": "./jit/postcss-plugin.js",
+		"./jit/postcss-plugin": {
+			"import": "./jit/postcss-plugin.js",
+			"require": "./jit/postcss-plugin.cjs"
+		},
+		"./jit/postcss-plugin.js": {
+			"import": "./jit/postcss-plugin.js",
+			"require": "./jit/postcss-plugin.cjs"
+		},
 		"./jit/vite-plugin.js": "./jit/vite-plugin.js",
 		"./jit/jit.js": "./jit/jit.js",
 		"./package.json": "./package.json"
