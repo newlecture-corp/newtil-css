@@ -17,7 +17,7 @@ import path from "node:path";
 import { scan } from "./scanner.js";
 import { parse } from "./parser.js";
 import { resolve, resolveAbbrev } from "./resolver.js";
-import { buildCatalog } from "../generator/catalog.js";
+import { resolveTokensDir } from "../generator/catalog.js";
 
 function escapeClassName(name) {
 	return name.replace(/([:.\/])/g, "\\$1");
@@ -140,23 +140,12 @@ const DEFAULT_CONTENT_DIRS = [
 	"./index.html",
 ];
 
-function findTokensDir() {
-	const candidates = [
-		path.resolve("node_modules/@newtil/design-tokens/css"),
-		path.resolve("../newtil-design-tokens/css"),
-	];
-	for (const c of candidates) {
-		if (fs.existsSync(c)) return c;
-	}
-	return null;
-}
-
 // PostCSS plugin factory.
 export default function newtilJit(options = {}) {
 	const contentPaths = options.content || DEFAULT_CONTENT_DIRS.filter(
 		(p) => fs.existsSync(path.resolve(p))
 	);
-	const tokensDir = options.tokensDir || findTokensDir();
+	const tokensDir = options.tokensDir || resolveTokensDir();
 
 	return {
 		postcssPlugin: "newtil-css-jit",

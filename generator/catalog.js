@@ -1,16 +1,29 @@
 // Parse @newtil/design-tokens .css files to build a token catalog.
-// Reads from node_modules/@newtil/design-tokens/css/* (symlinked locally).
+// Locates design-tokens via Node module resolution so flat-install, nested,
+// pnpm, and symlinked-workspace layouts all work.
 // Returns: { category: { name: 'var(--full-token-name)', ... }, ... }
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createRequire } from "node:module";
 
+const require = createRequire(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const TOKENS_ROOT = path.resolve(
-	__dirname,
-	"../node_modules/@newtil/design-tokens/css"
-);
+
+// Resolve the @newtil/design-tokens `css/` directory. Returns null if the
+// package is not installed and no monorepo-sibling checkout is present.
+export function resolveTokensDir() {
+	try {
+		const pkgPath = require.resolve("@newtil/design-tokens/package.json");
+		return path.join(path.dirname(pkgPath), "css");
+	} catch {
+		const sibling = path.resolve(__dirname, "../../newtil-design-tokens/css");
+		return fs.existsSync(sibling) ? sibling : null;
+	}
+}
+
+const TOKENS_ROOT = resolveTokensDir();
 
 // Extracts all `--name: value;` declarations from a CSS string.
 // Skips lines inside @media (...) blocks for breakpoint vars (none expected, but defensive).
@@ -78,6 +91,12 @@ export function buildCatalog() {
 	const catalog = {};
 	const allFiles = [];
 
+	if (!TOKENS_ROOT) {
+		throw new Error(
+			"Cannot locate @newtil/design-tokens. Install it as a dependency or " +
+			"provide it via a monorepo-sibling checkout."
+		);
+	}
 	// Walk semantic/ folder (semantic tokens are what utility consumes)
 	const semanticDir = path.join(TOKENS_ROOT, "semantic");
 	if (!fs.existsSync(semanticDir)) {

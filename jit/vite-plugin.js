@@ -15,6 +15,7 @@ import path from "node:path";
 import { scan } from "./scanner.js";
 import { parse } from "./parser.js";
 import { resolve, resolveAbbrev } from "./resolver.js";
+import { resolveTokensDir } from "../generator/catalog.js";
 
 function escapeClassName(name) {
 	return name.replace(/([:.\/])/g, "\\$1");
@@ -111,24 +112,13 @@ function buildJitCss(candidates, tokensDir) {
 
 const DEFAULT_DIRS = ["./src", "./pages", "./app", "./components", "./views", "./layouts", "./public", "./index.html"];
 
-function findTokensDir() {
-	const candidates = [
-		path.resolve("node_modules/@newtil/design-tokens/css"),
-		path.resolve("../newtil-design-tokens/css"),
-	];
-	for (const c of candidates) {
-		if (fs.existsSync(c)) return c;
-	}
-	return null;
-}
-
 // Virtual module ID for the JIT CSS.
 const VIRTUAL_ID = "virtual:newtil-css";
 const RESOLVED_ID = "\0" + VIRTUAL_ID;
 
 export default function newtilCssPlugin(options = {}) {
 	const contentPaths = options.content || DEFAULT_DIRS.filter((p) => fs.existsSync(path.resolve(p)));
-	const tokensDir = options.tokensDir || findTokensDir();
+	const tokensDir = options.tokensDir || resolveTokensDir();
 	let generatedCss = "";
 
 	return {
