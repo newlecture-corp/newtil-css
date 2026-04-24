@@ -1,26 +1,38 @@
 // Parse @newtil/design-tokens .css files to build a token catalog.
-// Locates design-tokens via Node module resolution so flat-install, nested,
-// pnpm, and symlinked-workspace layouts all work.
+// Locates design-tokens by walking up node_modules from process.cwd(), which
+// works under Turbopack's virtual FS (import.meta.url/require.resolve return
+// unreadable "[project]/..." paths there) as well as plain Node, pnpm,
+// Webpack, and Vite.
 // Returns: { category: { name: 'var(--full-token-name)', ... }, ... }
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { createRequire } from "node:module";
 
-const require = createRequire(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Walk up from `start`, checking for node_modules/@newtil/design-tokens/css.
+// existsSync transparently follows pnpm/npm symlinks, so this covers flat
+// hoist, nested install, and pnpm's .pnpm/ store layouts.
+function walkUpForTokens(start) {
+	let dir = start;
+	while (true) {
+		const candidate = path.join(dir, "node_modules/@newtil/design-tokens/css");
+		if (fs.existsSync(candidate)) return candidate;
+		const parent = path.dirname(dir);
+		if (parent === dir) return null;
+		dir = parent;
+	}
+}
 
 // Resolve the @newtil/design-tokens `css/` directory. Returns null if the
 // package is not installed and no monorepo-sibling checkout is present.
 export function resolveTokensDir() {
-	try {
-		const pkgPath = require.resolve("@newtil/design-tokens/package.json");
-		return path.join(path.dirname(pkgPath), "css");
-	} catch {
-		const sibling = path.resolve(__dirname, "../../newtil-design-tokens/css");
-		return fs.existsSync(sibling) ? sibling : null;
-	}
+	const fromCwd = walkUpForTokens(process.cwd());
+	if (fromCwd) return fromCwd;
+	// Monorepo fallback: sibling checkout when the package isn't installed.
+	const sibling = path.resolve(__dirname, "../../newtil-design-tokens/css");
+	return fs.existsSync(sibling) ? sibling : null;
 }
 
 const TOKENS_ROOT = resolveTokensDir();
