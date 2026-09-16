@@ -25,7 +25,7 @@ hero:
 <!-- 컴포넌트 + utility 조합 → 새 클래스 없이 커스텀 -->
 <button class="m3-btn padding:6">간격 넓은 버튼</button>
 <div class="m3-card box-shadow:xl">강한 그림자 카드</div>
-<i class="m3-icon icon:home font-size:2xl color:danger">큰 빨간 아이콘</i>
+<i class="m3-icon icon:home font-size:heading-md color:danger">큰 빨간 아이콘</i>
 ```
 
 **컴포넌트가 "반복 패턴"이라면, utility는 "미세 조정 도구"입니다.** 둘은 대립이 아니라 보완.
@@ -73,13 +73,13 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 <div style="max-width: 24rem; margin: 1.5rem auto;">
   <div class="padding:6 background-color:surface border-radius:4 box-shadow:lg">
     <div class="display:flex align-items:center gap:4 margin-bottom:5">
-      <div class="width:11 height:11 border-radius:full background-color:primary-subtle display:flex align-items:center justify-content:center font-size:2xl font-weight:bold color:primary">N</div>
+      <div class="width:11 height:11 border-radius:full background-color:primary-subtle display:flex align-items:center justify-content:center font-size:heading-md font-weight:bold color:primary">N</div>
       <div>
-        <div class="font-size:lg font-weight:semibold color:text">김뉴렉</div>
-        <div class="font-size:sm color:text-muted">Frontend Developer</div>
+        <div class="font-size:body-lg font-weight:semibold color:text">김뉴렉</div>
+        <div class="font-size:body-sm color:text-muted">Frontend Developer</div>
       </div>
     </div>
-    <div class="color:text-muted font-size:sm margin-bottom:5" style="line-height: 1.6;">newtil 생태계를 만들고 있습니다. CSS를 사랑하는 개발자.</div>
+    <div class="color:text-muted font-size:body-sm margin-bottom:5" style="line-height: 1.6;">newtil 생태계를 만들고 있습니다. CSS를 사랑하는 개발자.</div>
     <div class="display:flex gap:2">
       <button class="flex:1 padding-y:3 background-color:primary color:on-primary border-radius:3 border-width:0 font-weight:medium cursor:pointer hover:background-color:primary-hover transition:default">팔로우</button>
       <button class="flex:1 padding-y:3 background-color:transparent color:primary border-radius:3 border-width:1 border-style:solid border-color:primary font-weight:medium cursor:pointer hover:background-color:primary-subtle transition:default">메시지</button>
@@ -93,13 +93,13 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
   <div class="display:flex align-items:center gap:4 margin-bottom:5">
     <div class="width:11 height:11 border-radius:full background-color:primary-subtle
                 display:flex align-items:center justify-content:center
-                font-size:2xl font-weight:bold color:primary">N</div>
+                font-size:heading-md font-weight:bold color:primary">N</div>
     <div>
-      <div class="font-size:lg font-weight:semibold">김뉴렉</div>
-      <div class="font-size:sm color:text-muted">Frontend Developer</div>
+      <div class="font-size:body-lg font-weight:semibold">김뉴렉</div>
+      <div class="font-size:body-sm color:text-muted">Frontend Developer</div>
     </div>
   </div>
-  <p class="color:text-muted font-size:sm margin-bottom:5">설명 텍스트</p>
+  <p class="color:text-muted font-size:body-sm margin-bottom:5">설명 텍스트</p>
   <div class="display:flex gap:2">
     <button class="flex:1 padding-y:3 background-color:primary color:on-primary
                    border-radius:3 border-width:0 font-weight:medium cursor:pointer
@@ -117,12 +117,12 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 
 <div style="max-width: 36rem; margin: 1.5rem auto;">
   <div class="display:flex align-items:center gap:4 padding:5 background-color:warning-subtle border-radius:3 border-width:1 border-style:solid border-color:warning">
-    <span class="font-size:xl">⚠️</span>
+    <span class="font-size:heading-sm">⚠️</span>
     <div style="flex: 1;">
       <div class="font-weight:semibold color:text margin-bottom:1">점검 안내</div>
-      <div class="font-size:sm color:text-muted">서버 점검 예정: 04/20 02:00~06:00</div>
+      <div class="font-size:body-sm color:text-muted">서버 점검 예정: 04/20 02:00~06:00</div>
     </div>
-    <button class="padding:2 background-color:transparent border-width:0 cursor:pointer color:text-muted font-size:lg">✕</button>
+    <button class="padding:2 background-color:transparent border-width:0 cursor:pointer color:text-muted font-size:body-lg">✕</button>
   </div>
 </div>
 
@@ -131,13 +131,13 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 <div class="display:flex align-items:center gap:4 padding:5
             background-color:warning-subtle border-radius:3
             border-width:1 border-style:solid border-color:warning">
-  <span class="font-size:xl">⚠️</span>
+  <span class="font-size:heading-sm">⚠️</span>
   <div style="flex: 1;">
     <div class="font-weight:semibold color:text margin-bottom:1">점검 안내</div>
-    <div class="font-size:sm color:text-muted">서버 점검 예정: 04/20 02:00~06:00</div>
+    <div class="font-size:body-sm color:text-muted">서버 점검 예정: 04/20 02:00~06:00</div>
   </div>
   <button class="padding:2 background-color:transparent border-width:0
-                 cursor:pointer color:text-muted font-size:lg">✕</button>
+                 cursor:pointer color:text-muted font-size:body-lg">✕</button>
 </div>
 ```
 :::
@@ -146,19 +146,19 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 
 <div class="display:grid gap:4 padding:3" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
   <div class="padding:5 background-color:surface border-radius:3 box-shadow:sm">
-    <div class="font-size:2xl margin-bottom:3">🎨</div>
-    <div class="font-size:lg font-weight:semibold margin-bottom:2">디자인 토큰</div>
-    <div class="color:text-muted font-size:sm">색상 하나 바꾸면 전체 UI 일관 변경</div>
+    <div class="font-size:heading-md margin-bottom:3">🎨</div>
+    <div class="font-size:body-lg font-weight:semibold margin-bottom:2">디자인 토큰</div>
+    <div class="color:text-muted font-size:body-sm">색상 하나 바꾸면 전체 UI 일관 변경</div>
   </div>
   <div class="padding:5 background-color:surface border-radius:3 box-shadow:sm">
-    <div class="font-size:2xl margin-bottom:3">📱</div>
-    <div class="font-size:lg font-weight:semibold margin-bottom:2">반응형</div>
-    <div class="color:text-muted font-size:sm">sm: md: lg: xl: 모바일 우선</div>
+    <div class="font-size:heading-md margin-bottom:3">📱</div>
+    <div class="font-size:body-lg font-weight:semibold margin-bottom:2">반응형</div>
+    <div class="color:text-muted font-size:body-sm">sm: md: lg: xl: 모바일 우선</div>
   </div>
   <div class="padding:5 background-color:surface border-radius:3 box-shadow:sm">
-    <div class="font-size:2xl margin-bottom:3">🌙</div>
-    <div class="font-size:lg font-weight:semibold margin-bottom:2">다크모드</div>
-    <div class="color:text-muted font-size:sm">시스템 자동 + 수동 토글</div>
+    <div class="font-size:heading-md margin-bottom:3">🌙</div>
+    <div class="font-size:body-lg font-weight:semibold margin-bottom:2">다크모드</div>
+    <div class="color:text-muted font-size:body-sm">시스템 자동 + 수동 토글</div>
   </div>
 </div>
 
@@ -166,9 +166,9 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 ```html
 <div class="display:grid grid-template-columns:1 md:grid-template-columns:3 gap:4">
   <div class="padding:5 background-color:surface border-radius:3 box-shadow:sm">
-    <div class="font-size:2xl margin-bottom:3">🎨</div>
-    <div class="font-size:lg font-weight:semibold margin-bottom:2">디자인 토큰</div>
-    <div class="color:text-muted font-size:sm">색상 하나 바꾸면 전체 UI 일관 변경</div>
+    <div class="font-size:heading-md margin-bottom:3">🎨</div>
+    <div class="font-size:body-lg font-weight:semibold margin-bottom:2">디자인 토큰</div>
+    <div class="color:text-muted font-size:body-sm">색상 하나 바꾸면 전체 UI 일관 변경</div>
   </div>
   <!-- 반복 -->
 </div>
@@ -179,13 +179,13 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 
 <div style="margin: 1.5rem 0;">
   <nav class="display:flex justify-content:space-between align-items:center padding-x:6 padding-y:3 background-color:surface box-shadow:sm border-radius:3">
-    <span class="font-size:lg font-weight:bold color:primary">newtil</span>
+    <span class="font-size:body-lg font-weight:bold color:primary">newtil</span>
     <div class="display:flex gap:5">
-      <span class="color:text-muted font-size:sm font-weight:medium cursor:pointer">홈</span>
-      <span class="color:text-muted font-size:sm font-weight:medium cursor:pointer">소개</span>
-      <span class="color:text-muted font-size:sm font-weight:medium cursor:pointer">문서</span>
+      <span class="color:text-muted font-size:body-sm font-weight:medium cursor:pointer">홈</span>
+      <span class="color:text-muted font-size:body-sm font-weight:medium cursor:pointer">소개</span>
+      <span class="color:text-muted font-size:body-sm font-weight:medium cursor:pointer">문서</span>
     </div>
-    <button class="padding-x:4 padding-y:2 background-color:primary color:on-primary border-radius:full border-width:0 font-size:sm font-weight:medium cursor:pointer">시작하기</button>
+    <button class="padding-x:4 padding-y:2 background-color:primary color:on-primary border-radius:full border-width:0 font-size:body-sm font-weight:medium cursor:pointer">시작하기</button>
   </nav>
 </div>
 
@@ -193,15 +193,15 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 ```html
 <nav class="display:flex justify-content:space-between align-items:center
             padding-x:6 padding-y:3 background-color:surface box-shadow:sm">
-  <a class="font-size:lg font-weight:bold color:primary">newtil</a>
+  <a class="font-size:body-lg font-weight:bold color:primary">newtil</a>
   <div class="display:flex gap:5">
-    <a class="color:text-muted hover:color:primary font-size:sm
+    <a class="color:text-muted hover:color:primary font-size:body-sm
               font-weight:medium cursor:pointer transition:default">홈</a>
-    <a class="color:text-muted hover:color:primary font-size:sm
+    <a class="color:text-muted hover:color:primary font-size:body-sm
               font-weight:medium cursor:pointer transition:default">소개</a>
   </div>
   <button class="padding-x:4 padding-y:2 background-color:primary color:on-primary
-                 border-radius:full border-width:0 font-size:sm font-weight:medium
+                 border-radius:full border-width:0 font-size:body-sm font-weight:medium
                  cursor:pointer hover:background-color:primary-hover">시작하기</button>
 </nav>
 ```

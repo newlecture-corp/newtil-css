@@ -106,12 +106,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.fill\:on-surface {
-	fill: var(--color-on-surface) !important;
+.fill\:surface-hover {
+	fill: var(--color-surface-hover) !important;
 }
 
-.fill\:on-surface-inverse {
-	fill: var(--color-on-surface-inverse) !important;
+.fill\:surface-active {
+	fill: var(--color-surface-active) !important;
+}
+
+.fill\:surface-disabled {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .fill\:text {
@@ -130,6 +134,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.fill\:text-disabled {
+	fill: var(--color-text-disabled) !important;
+}
+
+.fill\:link {
+	fill: var(--color-link) !important;
+}
+
+.fill\:link-hover {
+	fill: var(--color-link-hover) !important;
+}
+
 .fill\:border {
 	fill: var(--color-border) !important;
 }
@@ -140,6 +156,22 @@
 
 .fill\:border-subtle {
 	fill: var(--color-border-subtle) !important;
+}
+
+.fill\:code-bg {
+	fill: var(--color-code-bg) !important;
+}
+
+.fill\:code-fg {
+	fill: var(--color-code-fg) !important;
+}
+
+.fill\:code-border {
+	fill: var(--color-code-border) !important;
+}
+
+.fill\:scrim {
+	fill: var(--color-scrim) !important;
 }
 
 .fill\:success {
@@ -200,6 +232,26 @@
 
 .fill\:on-danger {
 	fill: var(--color-on-danger) !important;
+}
+
+.fill\:info {
+	fill: var(--color-info) !important;
+}
+
+.fill\:info-hover {
+	fill: var(--color-info-hover) !important;
+}
+
+.fill\:info-active {
+	fill: var(--color-info-active) !important;
+}
+
+.fill\:info-subtle {
+	fill: var(--color-info-subtle) !important;
+}
+
+.fill\:on-info {
+	fill: var(--color-on-info) !important;
 }
 
 .fill\:focus-ring {
@@ -312,12 +364,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.stroke\:on-surface {
-	stroke: var(--color-on-surface) !important;
+.stroke\:surface-hover {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.stroke\:on-surface-inverse {
-	stroke: var(--color-on-surface-inverse) !important;
+.stroke\:surface-active {
+	stroke: var(--color-surface-active) !important;
+}
+
+.stroke\:surface-disabled {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .stroke\:text {
@@ -336,6 +392,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.stroke\:text-disabled {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.stroke\:link {
+	stroke: var(--color-link) !important;
+}
+
+.stroke\:link-hover {
+	stroke: var(--color-link-hover) !important;
+}
+
 .stroke\:border {
 	stroke: var(--color-border) !important;
 }
@@ -346,6 +414,22 @@
 
 .stroke\:border-subtle {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.stroke\:code-bg {
+	stroke: var(--color-code-bg) !important;
+}
+
+.stroke\:code-fg {
+	stroke: var(--color-code-fg) !important;
+}
+
+.stroke\:code-border {
+	stroke: var(--color-code-border) !important;
+}
+
+.stroke\:scrim {
+	stroke: var(--color-scrim) !important;
 }
 
 .stroke\:success {
@@ -406,6 +490,26 @@
 
 .stroke\:on-danger {
 	stroke: var(--color-on-danger) !important;
+}
+
+.stroke\:info {
+	stroke: var(--color-info) !important;
+}
+
+.stroke\:info-hover {
+	stroke: var(--color-info-hover) !important;
+}
+
+.stroke\:info-active {
+	stroke: var(--color-info-active) !important;
+}
+
+.stroke\:info-subtle {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.stroke\:on-info {
+	stroke: var(--color-on-info) !important;
 }
 
 .stroke\:focus-ring {
@@ -548,12 +652,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.hover\:fill\:on-surface:hover {
-	fill: var(--color-on-surface) !important;
+.hover\:fill\:surface-hover:hover {
+	fill: var(--color-surface-hover) !important;
 }
 
-.hover\:fill\:on-surface-inverse:hover {
-	fill: var(--color-on-surface-inverse) !important;
+.hover\:fill\:surface-active:hover {
+	fill: var(--color-surface-active) !important;
+}
+
+.hover\:fill\:surface-disabled:hover {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .hover\:fill\:text:hover {
@@ -572,6 +680,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.hover\:fill\:text-disabled:hover {
+	fill: var(--color-text-disabled) !important;
+}
+
+.hover\:fill\:link:hover {
+	fill: var(--color-link) !important;
+}
+
+.hover\:fill\:link-hover:hover {
+	fill: var(--color-link-hover) !important;
+}
+
 .hover\:fill\:border:hover {
 	fill: var(--color-border) !important;
 }
@@ -582,6 +702,22 @@
 
 .hover\:fill\:border-subtle:hover {
 	fill: var(--color-border-subtle) !important;
+}
+
+.hover\:fill\:code-bg:hover {
+	fill: var(--color-code-bg) !important;
+}
+
+.hover\:fill\:code-fg:hover {
+	fill: var(--color-code-fg) !important;
+}
+
+.hover\:fill\:code-border:hover {
+	fill: var(--color-code-border) !important;
+}
+
+.hover\:fill\:scrim:hover {
+	fill: var(--color-scrim) !important;
 }
 
 .hover\:fill\:success:hover {
@@ -642,6 +778,26 @@
 
 .hover\:fill\:on-danger:hover {
 	fill: var(--color-on-danger) !important;
+}
+
+.hover\:fill\:info:hover {
+	fill: var(--color-info) !important;
+}
+
+.hover\:fill\:info-hover:hover {
+	fill: var(--color-info-hover) !important;
+}
+
+.hover\:fill\:info-active:hover {
+	fill: var(--color-info-active) !important;
+}
+
+.hover\:fill\:info-subtle:hover {
+	fill: var(--color-info-subtle) !important;
+}
+
+.hover\:fill\:on-info:hover {
+	fill: var(--color-on-info) !important;
 }
 
 .hover\:fill\:focus-ring:hover {
@@ -754,12 +910,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.hover\:stroke\:on-surface:hover {
-	stroke: var(--color-on-surface) !important;
+.hover\:stroke\:surface-hover:hover {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.hover\:stroke\:on-surface-inverse:hover {
-	stroke: var(--color-on-surface-inverse) !important;
+.hover\:stroke\:surface-active:hover {
+	stroke: var(--color-surface-active) !important;
+}
+
+.hover\:stroke\:surface-disabled:hover {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .hover\:stroke\:text:hover {
@@ -778,6 +938,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.hover\:stroke\:text-disabled:hover {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.hover\:stroke\:link:hover {
+	stroke: var(--color-link) !important;
+}
+
+.hover\:stroke\:link-hover:hover {
+	stroke: var(--color-link-hover) !important;
+}
+
 .hover\:stroke\:border:hover {
 	stroke: var(--color-border) !important;
 }
@@ -788,6 +960,22 @@
 
 .hover\:stroke\:border-subtle:hover {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.hover\:stroke\:code-bg:hover {
+	stroke: var(--color-code-bg) !important;
+}
+
+.hover\:stroke\:code-fg:hover {
+	stroke: var(--color-code-fg) !important;
+}
+
+.hover\:stroke\:code-border:hover {
+	stroke: var(--color-code-border) !important;
+}
+
+.hover\:stroke\:scrim:hover {
+	stroke: var(--color-scrim) !important;
 }
 
 .hover\:stroke\:success:hover {
@@ -848,6 +1036,26 @@
 
 .hover\:stroke\:on-danger:hover {
 	stroke: var(--color-on-danger) !important;
+}
+
+.hover\:stroke\:info:hover {
+	stroke: var(--color-info) !important;
+}
+
+.hover\:stroke\:info-hover:hover {
+	stroke: var(--color-info-hover) !important;
+}
+
+.hover\:stroke\:info-active:hover {
+	stroke: var(--color-info-active) !important;
+}
+
+.hover\:stroke\:info-subtle:hover {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.hover\:stroke\:on-info:hover {
+	stroke: var(--color-on-info) !important;
 }
 
 .hover\:stroke\:focus-ring:hover {
@@ -990,12 +1198,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.focus\:fill\:on-surface:focus {
-	fill: var(--color-on-surface) !important;
+.focus\:fill\:surface-hover:focus {
+	fill: var(--color-surface-hover) !important;
 }
 
-.focus\:fill\:on-surface-inverse:focus {
-	fill: var(--color-on-surface-inverse) !important;
+.focus\:fill\:surface-active:focus {
+	fill: var(--color-surface-active) !important;
+}
+
+.focus\:fill\:surface-disabled:focus {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .focus\:fill\:text:focus {
@@ -1014,6 +1226,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.focus\:fill\:text-disabled:focus {
+	fill: var(--color-text-disabled) !important;
+}
+
+.focus\:fill\:link:focus {
+	fill: var(--color-link) !important;
+}
+
+.focus\:fill\:link-hover:focus {
+	fill: var(--color-link-hover) !important;
+}
+
 .focus\:fill\:border:focus {
 	fill: var(--color-border) !important;
 }
@@ -1024,6 +1248,22 @@
 
 .focus\:fill\:border-subtle:focus {
 	fill: var(--color-border-subtle) !important;
+}
+
+.focus\:fill\:code-bg:focus {
+	fill: var(--color-code-bg) !important;
+}
+
+.focus\:fill\:code-fg:focus {
+	fill: var(--color-code-fg) !important;
+}
+
+.focus\:fill\:code-border:focus {
+	fill: var(--color-code-border) !important;
+}
+
+.focus\:fill\:scrim:focus {
+	fill: var(--color-scrim) !important;
 }
 
 .focus\:fill\:success:focus {
@@ -1084,6 +1324,26 @@
 
 .focus\:fill\:on-danger:focus {
 	fill: var(--color-on-danger) !important;
+}
+
+.focus\:fill\:info:focus {
+	fill: var(--color-info) !important;
+}
+
+.focus\:fill\:info-hover:focus {
+	fill: var(--color-info-hover) !important;
+}
+
+.focus\:fill\:info-active:focus {
+	fill: var(--color-info-active) !important;
+}
+
+.focus\:fill\:info-subtle:focus {
+	fill: var(--color-info-subtle) !important;
+}
+
+.focus\:fill\:on-info:focus {
+	fill: var(--color-on-info) !important;
 }
 
 .focus\:fill\:focus-ring:focus {
@@ -1196,12 +1456,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.focus\:stroke\:on-surface:focus {
-	stroke: var(--color-on-surface) !important;
+.focus\:stroke\:surface-hover:focus {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.focus\:stroke\:on-surface-inverse:focus {
-	stroke: var(--color-on-surface-inverse) !important;
+.focus\:stroke\:surface-active:focus {
+	stroke: var(--color-surface-active) !important;
+}
+
+.focus\:stroke\:surface-disabled:focus {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .focus\:stroke\:text:focus {
@@ -1220,6 +1484,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.focus\:stroke\:text-disabled:focus {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.focus\:stroke\:link:focus {
+	stroke: var(--color-link) !important;
+}
+
+.focus\:stroke\:link-hover:focus {
+	stroke: var(--color-link-hover) !important;
+}
+
 .focus\:stroke\:border:focus {
 	stroke: var(--color-border) !important;
 }
@@ -1230,6 +1506,22 @@
 
 .focus\:stroke\:border-subtle:focus {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.focus\:stroke\:code-bg:focus {
+	stroke: var(--color-code-bg) !important;
+}
+
+.focus\:stroke\:code-fg:focus {
+	stroke: var(--color-code-fg) !important;
+}
+
+.focus\:stroke\:code-border:focus {
+	stroke: var(--color-code-border) !important;
+}
+
+.focus\:stroke\:scrim:focus {
+	stroke: var(--color-scrim) !important;
 }
 
 .focus\:stroke\:success:focus {
@@ -1290,6 +1582,26 @@
 
 .focus\:stroke\:on-danger:focus {
 	stroke: var(--color-on-danger) !important;
+}
+
+.focus\:stroke\:info:focus {
+	stroke: var(--color-info) !important;
+}
+
+.focus\:stroke\:info-hover:focus {
+	stroke: var(--color-info-hover) !important;
+}
+
+.focus\:stroke\:info-active:focus {
+	stroke: var(--color-info-active) !important;
+}
+
+.focus\:stroke\:info-subtle:focus {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.focus\:stroke\:on-info:focus {
+	stroke: var(--color-on-info) !important;
 }
 
 .focus\:stroke\:focus-ring:focus {
@@ -1432,12 +1744,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.focus-visible\:fill\:on-surface:focus-visible {
-	fill: var(--color-on-surface) !important;
+.focus-visible\:fill\:surface-hover:focus-visible {
+	fill: var(--color-surface-hover) !important;
 }
 
-.focus-visible\:fill\:on-surface-inverse:focus-visible {
-	fill: var(--color-on-surface-inverse) !important;
+.focus-visible\:fill\:surface-active:focus-visible {
+	fill: var(--color-surface-active) !important;
+}
+
+.focus-visible\:fill\:surface-disabled:focus-visible {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .focus-visible\:fill\:text:focus-visible {
@@ -1456,6 +1772,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.focus-visible\:fill\:text-disabled:focus-visible {
+	fill: var(--color-text-disabled) !important;
+}
+
+.focus-visible\:fill\:link:focus-visible {
+	fill: var(--color-link) !important;
+}
+
+.focus-visible\:fill\:link-hover:focus-visible {
+	fill: var(--color-link-hover) !important;
+}
+
 .focus-visible\:fill\:border:focus-visible {
 	fill: var(--color-border) !important;
 }
@@ -1466,6 +1794,22 @@
 
 .focus-visible\:fill\:border-subtle:focus-visible {
 	fill: var(--color-border-subtle) !important;
+}
+
+.focus-visible\:fill\:code-bg:focus-visible {
+	fill: var(--color-code-bg) !important;
+}
+
+.focus-visible\:fill\:code-fg:focus-visible {
+	fill: var(--color-code-fg) !important;
+}
+
+.focus-visible\:fill\:code-border:focus-visible {
+	fill: var(--color-code-border) !important;
+}
+
+.focus-visible\:fill\:scrim:focus-visible {
+	fill: var(--color-scrim) !important;
 }
 
 .focus-visible\:fill\:success:focus-visible {
@@ -1526,6 +1870,26 @@
 
 .focus-visible\:fill\:on-danger:focus-visible {
 	fill: var(--color-on-danger) !important;
+}
+
+.focus-visible\:fill\:info:focus-visible {
+	fill: var(--color-info) !important;
+}
+
+.focus-visible\:fill\:info-hover:focus-visible {
+	fill: var(--color-info-hover) !important;
+}
+
+.focus-visible\:fill\:info-active:focus-visible {
+	fill: var(--color-info-active) !important;
+}
+
+.focus-visible\:fill\:info-subtle:focus-visible {
+	fill: var(--color-info-subtle) !important;
+}
+
+.focus-visible\:fill\:on-info:focus-visible {
+	fill: var(--color-on-info) !important;
 }
 
 .focus-visible\:fill\:focus-ring:focus-visible {
@@ -1638,12 +2002,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.focus-visible\:stroke\:on-surface:focus-visible {
-	stroke: var(--color-on-surface) !important;
+.focus-visible\:stroke\:surface-hover:focus-visible {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.focus-visible\:stroke\:on-surface-inverse:focus-visible {
-	stroke: var(--color-on-surface-inverse) !important;
+.focus-visible\:stroke\:surface-active:focus-visible {
+	stroke: var(--color-surface-active) !important;
+}
+
+.focus-visible\:stroke\:surface-disabled:focus-visible {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .focus-visible\:stroke\:text:focus-visible {
@@ -1662,6 +2030,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.focus-visible\:stroke\:text-disabled:focus-visible {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.focus-visible\:stroke\:link:focus-visible {
+	stroke: var(--color-link) !important;
+}
+
+.focus-visible\:stroke\:link-hover:focus-visible {
+	stroke: var(--color-link-hover) !important;
+}
+
 .focus-visible\:stroke\:border:focus-visible {
 	stroke: var(--color-border) !important;
 }
@@ -1672,6 +2052,22 @@
 
 .focus-visible\:stroke\:border-subtle:focus-visible {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.focus-visible\:stroke\:code-bg:focus-visible {
+	stroke: var(--color-code-bg) !important;
+}
+
+.focus-visible\:stroke\:code-fg:focus-visible {
+	stroke: var(--color-code-fg) !important;
+}
+
+.focus-visible\:stroke\:code-border:focus-visible {
+	stroke: var(--color-code-border) !important;
+}
+
+.focus-visible\:stroke\:scrim:focus-visible {
+	stroke: var(--color-scrim) !important;
 }
 
 .focus-visible\:stroke\:success:focus-visible {
@@ -1732,6 +2128,26 @@
 
 .focus-visible\:stroke\:on-danger:focus-visible {
 	stroke: var(--color-on-danger) !important;
+}
+
+.focus-visible\:stroke\:info:focus-visible {
+	stroke: var(--color-info) !important;
+}
+
+.focus-visible\:stroke\:info-hover:focus-visible {
+	stroke: var(--color-info-hover) !important;
+}
+
+.focus-visible\:stroke\:info-active:focus-visible {
+	stroke: var(--color-info-active) !important;
+}
+
+.focus-visible\:stroke\:info-subtle:focus-visible {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.focus-visible\:stroke\:on-info:focus-visible {
+	stroke: var(--color-on-info) !important;
 }
 
 .focus-visible\:stroke\:focus-ring:focus-visible {
@@ -1874,12 +2290,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.focus-within\:fill\:on-surface:focus-within {
-	fill: var(--color-on-surface) !important;
+.focus-within\:fill\:surface-hover:focus-within {
+	fill: var(--color-surface-hover) !important;
 }
 
-.focus-within\:fill\:on-surface-inverse:focus-within {
-	fill: var(--color-on-surface-inverse) !important;
+.focus-within\:fill\:surface-active:focus-within {
+	fill: var(--color-surface-active) !important;
+}
+
+.focus-within\:fill\:surface-disabled:focus-within {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .focus-within\:fill\:text:focus-within {
@@ -1898,6 +2318,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.focus-within\:fill\:text-disabled:focus-within {
+	fill: var(--color-text-disabled) !important;
+}
+
+.focus-within\:fill\:link:focus-within {
+	fill: var(--color-link) !important;
+}
+
+.focus-within\:fill\:link-hover:focus-within {
+	fill: var(--color-link-hover) !important;
+}
+
 .focus-within\:fill\:border:focus-within {
 	fill: var(--color-border) !important;
 }
@@ -1908,6 +2340,22 @@
 
 .focus-within\:fill\:border-subtle:focus-within {
 	fill: var(--color-border-subtle) !important;
+}
+
+.focus-within\:fill\:code-bg:focus-within {
+	fill: var(--color-code-bg) !important;
+}
+
+.focus-within\:fill\:code-fg:focus-within {
+	fill: var(--color-code-fg) !important;
+}
+
+.focus-within\:fill\:code-border:focus-within {
+	fill: var(--color-code-border) !important;
+}
+
+.focus-within\:fill\:scrim:focus-within {
+	fill: var(--color-scrim) !important;
 }
 
 .focus-within\:fill\:success:focus-within {
@@ -1968,6 +2416,26 @@
 
 .focus-within\:fill\:on-danger:focus-within {
 	fill: var(--color-on-danger) !important;
+}
+
+.focus-within\:fill\:info:focus-within {
+	fill: var(--color-info) !important;
+}
+
+.focus-within\:fill\:info-hover:focus-within {
+	fill: var(--color-info-hover) !important;
+}
+
+.focus-within\:fill\:info-active:focus-within {
+	fill: var(--color-info-active) !important;
+}
+
+.focus-within\:fill\:info-subtle:focus-within {
+	fill: var(--color-info-subtle) !important;
+}
+
+.focus-within\:fill\:on-info:focus-within {
+	fill: var(--color-on-info) !important;
 }
 
 .focus-within\:fill\:focus-ring:focus-within {
@@ -2080,12 +2548,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.focus-within\:stroke\:on-surface:focus-within {
-	stroke: var(--color-on-surface) !important;
+.focus-within\:stroke\:surface-hover:focus-within {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.focus-within\:stroke\:on-surface-inverse:focus-within {
-	stroke: var(--color-on-surface-inverse) !important;
+.focus-within\:stroke\:surface-active:focus-within {
+	stroke: var(--color-surface-active) !important;
+}
+
+.focus-within\:stroke\:surface-disabled:focus-within {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .focus-within\:stroke\:text:focus-within {
@@ -2104,6 +2576,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.focus-within\:stroke\:text-disabled:focus-within {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.focus-within\:stroke\:link:focus-within {
+	stroke: var(--color-link) !important;
+}
+
+.focus-within\:stroke\:link-hover:focus-within {
+	stroke: var(--color-link-hover) !important;
+}
+
 .focus-within\:stroke\:border:focus-within {
 	stroke: var(--color-border) !important;
 }
@@ -2114,6 +2598,22 @@
 
 .focus-within\:stroke\:border-subtle:focus-within {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.focus-within\:stroke\:code-bg:focus-within {
+	stroke: var(--color-code-bg) !important;
+}
+
+.focus-within\:stroke\:code-fg:focus-within {
+	stroke: var(--color-code-fg) !important;
+}
+
+.focus-within\:stroke\:code-border:focus-within {
+	stroke: var(--color-code-border) !important;
+}
+
+.focus-within\:stroke\:scrim:focus-within {
+	stroke: var(--color-scrim) !important;
 }
 
 .focus-within\:stroke\:success:focus-within {
@@ -2174,6 +2674,26 @@
 
 .focus-within\:stroke\:on-danger:focus-within {
 	stroke: var(--color-on-danger) !important;
+}
+
+.focus-within\:stroke\:info:focus-within {
+	stroke: var(--color-info) !important;
+}
+
+.focus-within\:stroke\:info-hover:focus-within {
+	stroke: var(--color-info-hover) !important;
+}
+
+.focus-within\:stroke\:info-active:focus-within {
+	stroke: var(--color-info-active) !important;
+}
+
+.focus-within\:stroke\:info-subtle:focus-within {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.focus-within\:stroke\:on-info:focus-within {
+	stroke: var(--color-on-info) !important;
 }
 
 .focus-within\:stroke\:focus-ring:focus-within {
@@ -2316,12 +2836,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.active\:fill\:on-surface:active {
-	fill: var(--color-on-surface) !important;
+.active\:fill\:surface-hover:active {
+	fill: var(--color-surface-hover) !important;
 }
 
-.active\:fill\:on-surface-inverse:active {
-	fill: var(--color-on-surface-inverse) !important;
+.active\:fill\:surface-active:active {
+	fill: var(--color-surface-active) !important;
+}
+
+.active\:fill\:surface-disabled:active {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .active\:fill\:text:active {
@@ -2340,6 +2864,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.active\:fill\:text-disabled:active {
+	fill: var(--color-text-disabled) !important;
+}
+
+.active\:fill\:link:active {
+	fill: var(--color-link) !important;
+}
+
+.active\:fill\:link-hover:active {
+	fill: var(--color-link-hover) !important;
+}
+
 .active\:fill\:border:active {
 	fill: var(--color-border) !important;
 }
@@ -2350,6 +2886,22 @@
 
 .active\:fill\:border-subtle:active {
 	fill: var(--color-border-subtle) !important;
+}
+
+.active\:fill\:code-bg:active {
+	fill: var(--color-code-bg) !important;
+}
+
+.active\:fill\:code-fg:active {
+	fill: var(--color-code-fg) !important;
+}
+
+.active\:fill\:code-border:active {
+	fill: var(--color-code-border) !important;
+}
+
+.active\:fill\:scrim:active {
+	fill: var(--color-scrim) !important;
 }
 
 .active\:fill\:success:active {
@@ -2410,6 +2962,26 @@
 
 .active\:fill\:on-danger:active {
 	fill: var(--color-on-danger) !important;
+}
+
+.active\:fill\:info:active {
+	fill: var(--color-info) !important;
+}
+
+.active\:fill\:info-hover:active {
+	fill: var(--color-info-hover) !important;
+}
+
+.active\:fill\:info-active:active {
+	fill: var(--color-info-active) !important;
+}
+
+.active\:fill\:info-subtle:active {
+	fill: var(--color-info-subtle) !important;
+}
+
+.active\:fill\:on-info:active {
+	fill: var(--color-on-info) !important;
 }
 
 .active\:fill\:focus-ring:active {
@@ -2522,12 +3094,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.active\:stroke\:on-surface:active {
-	stroke: var(--color-on-surface) !important;
+.active\:stroke\:surface-hover:active {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.active\:stroke\:on-surface-inverse:active {
-	stroke: var(--color-on-surface-inverse) !important;
+.active\:stroke\:surface-active:active {
+	stroke: var(--color-surface-active) !important;
+}
+
+.active\:stroke\:surface-disabled:active {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .active\:stroke\:text:active {
@@ -2546,6 +3122,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.active\:stroke\:text-disabled:active {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.active\:stroke\:link:active {
+	stroke: var(--color-link) !important;
+}
+
+.active\:stroke\:link-hover:active {
+	stroke: var(--color-link-hover) !important;
+}
+
 .active\:stroke\:border:active {
 	stroke: var(--color-border) !important;
 }
@@ -2556,6 +3144,22 @@
 
 .active\:stroke\:border-subtle:active {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.active\:stroke\:code-bg:active {
+	stroke: var(--color-code-bg) !important;
+}
+
+.active\:stroke\:code-fg:active {
+	stroke: var(--color-code-fg) !important;
+}
+
+.active\:stroke\:code-border:active {
+	stroke: var(--color-code-border) !important;
+}
+
+.active\:stroke\:scrim:active {
+	stroke: var(--color-scrim) !important;
 }
 
 .active\:stroke\:success:active {
@@ -2616,6 +3220,26 @@
 
 .active\:stroke\:on-danger:active {
 	stroke: var(--color-on-danger) !important;
+}
+
+.active\:stroke\:info:active {
+	stroke: var(--color-info) !important;
+}
+
+.active\:stroke\:info-hover:active {
+	stroke: var(--color-info-hover) !important;
+}
+
+.active\:stroke\:info-active:active {
+	stroke: var(--color-info-active) !important;
+}
+
+.active\:stroke\:info-subtle:active {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.active\:stroke\:on-info:active {
+	stroke: var(--color-on-info) !important;
 }
 
 .active\:stroke\:focus-ring:active {
@@ -2758,12 +3382,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.disabled\:fill\:on-surface:disabled {
-	fill: var(--color-on-surface) !important;
+.disabled\:fill\:surface-hover:disabled {
+	fill: var(--color-surface-hover) !important;
 }
 
-.disabled\:fill\:on-surface-inverse:disabled {
-	fill: var(--color-on-surface-inverse) !important;
+.disabled\:fill\:surface-active:disabled {
+	fill: var(--color-surface-active) !important;
+}
+
+.disabled\:fill\:surface-disabled:disabled {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .disabled\:fill\:text:disabled {
@@ -2782,6 +3410,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.disabled\:fill\:text-disabled:disabled {
+	fill: var(--color-text-disabled) !important;
+}
+
+.disabled\:fill\:link:disabled {
+	fill: var(--color-link) !important;
+}
+
+.disabled\:fill\:link-hover:disabled {
+	fill: var(--color-link-hover) !important;
+}
+
 .disabled\:fill\:border:disabled {
 	fill: var(--color-border) !important;
 }
@@ -2792,6 +3432,22 @@
 
 .disabled\:fill\:border-subtle:disabled {
 	fill: var(--color-border-subtle) !important;
+}
+
+.disabled\:fill\:code-bg:disabled {
+	fill: var(--color-code-bg) !important;
+}
+
+.disabled\:fill\:code-fg:disabled {
+	fill: var(--color-code-fg) !important;
+}
+
+.disabled\:fill\:code-border:disabled {
+	fill: var(--color-code-border) !important;
+}
+
+.disabled\:fill\:scrim:disabled {
+	fill: var(--color-scrim) !important;
 }
 
 .disabled\:fill\:success:disabled {
@@ -2852,6 +3508,26 @@
 
 .disabled\:fill\:on-danger:disabled {
 	fill: var(--color-on-danger) !important;
+}
+
+.disabled\:fill\:info:disabled {
+	fill: var(--color-info) !important;
+}
+
+.disabled\:fill\:info-hover:disabled {
+	fill: var(--color-info-hover) !important;
+}
+
+.disabled\:fill\:info-active:disabled {
+	fill: var(--color-info-active) !important;
+}
+
+.disabled\:fill\:info-subtle:disabled {
+	fill: var(--color-info-subtle) !important;
+}
+
+.disabled\:fill\:on-info:disabled {
+	fill: var(--color-on-info) !important;
 }
 
 .disabled\:fill\:focus-ring:disabled {
@@ -2964,12 +3640,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.disabled\:stroke\:on-surface:disabled {
-	stroke: var(--color-on-surface) !important;
+.disabled\:stroke\:surface-hover:disabled {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.disabled\:stroke\:on-surface-inverse:disabled {
-	stroke: var(--color-on-surface-inverse) !important;
+.disabled\:stroke\:surface-active:disabled {
+	stroke: var(--color-surface-active) !important;
+}
+
+.disabled\:stroke\:surface-disabled:disabled {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .disabled\:stroke\:text:disabled {
@@ -2988,6 +3668,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.disabled\:stroke\:text-disabled:disabled {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.disabled\:stroke\:link:disabled {
+	stroke: var(--color-link) !important;
+}
+
+.disabled\:stroke\:link-hover:disabled {
+	stroke: var(--color-link-hover) !important;
+}
+
 .disabled\:stroke\:border:disabled {
 	stroke: var(--color-border) !important;
 }
@@ -2998,6 +3690,22 @@
 
 .disabled\:stroke\:border-subtle:disabled {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.disabled\:stroke\:code-bg:disabled {
+	stroke: var(--color-code-bg) !important;
+}
+
+.disabled\:stroke\:code-fg:disabled {
+	stroke: var(--color-code-fg) !important;
+}
+
+.disabled\:stroke\:code-border:disabled {
+	stroke: var(--color-code-border) !important;
+}
+
+.disabled\:stroke\:scrim:disabled {
+	stroke: var(--color-scrim) !important;
 }
 
 .disabled\:stroke\:success:disabled {
@@ -3058,6 +3766,26 @@
 
 .disabled\:stroke\:on-danger:disabled {
 	stroke: var(--color-on-danger) !important;
+}
+
+.disabled\:stroke\:info:disabled {
+	stroke: var(--color-info) !important;
+}
+
+.disabled\:stroke\:info-hover:disabled {
+	stroke: var(--color-info-hover) !important;
+}
+
+.disabled\:stroke\:info-active:disabled {
+	stroke: var(--color-info-active) !important;
+}
+
+.disabled\:stroke\:info-subtle:disabled {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.disabled\:stroke\:on-info:disabled {
+	stroke: var(--color-on-info) !important;
 }
 
 .disabled\:stroke\:focus-ring:disabled {
@@ -3200,12 +3928,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.checked\:fill\:on-surface:checked {
-	fill: var(--color-on-surface) !important;
+.checked\:fill\:surface-hover:checked {
+	fill: var(--color-surface-hover) !important;
 }
 
-.checked\:fill\:on-surface-inverse:checked {
-	fill: var(--color-on-surface-inverse) !important;
+.checked\:fill\:surface-active:checked {
+	fill: var(--color-surface-active) !important;
+}
+
+.checked\:fill\:surface-disabled:checked {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .checked\:fill\:text:checked {
@@ -3224,6 +3956,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.checked\:fill\:text-disabled:checked {
+	fill: var(--color-text-disabled) !important;
+}
+
+.checked\:fill\:link:checked {
+	fill: var(--color-link) !important;
+}
+
+.checked\:fill\:link-hover:checked {
+	fill: var(--color-link-hover) !important;
+}
+
 .checked\:fill\:border:checked {
 	fill: var(--color-border) !important;
 }
@@ -3234,6 +3978,22 @@
 
 .checked\:fill\:border-subtle:checked {
 	fill: var(--color-border-subtle) !important;
+}
+
+.checked\:fill\:code-bg:checked {
+	fill: var(--color-code-bg) !important;
+}
+
+.checked\:fill\:code-fg:checked {
+	fill: var(--color-code-fg) !important;
+}
+
+.checked\:fill\:code-border:checked {
+	fill: var(--color-code-border) !important;
+}
+
+.checked\:fill\:scrim:checked {
+	fill: var(--color-scrim) !important;
 }
 
 .checked\:fill\:success:checked {
@@ -3294,6 +4054,26 @@
 
 .checked\:fill\:on-danger:checked {
 	fill: var(--color-on-danger) !important;
+}
+
+.checked\:fill\:info:checked {
+	fill: var(--color-info) !important;
+}
+
+.checked\:fill\:info-hover:checked {
+	fill: var(--color-info-hover) !important;
+}
+
+.checked\:fill\:info-active:checked {
+	fill: var(--color-info-active) !important;
+}
+
+.checked\:fill\:info-subtle:checked {
+	fill: var(--color-info-subtle) !important;
+}
+
+.checked\:fill\:on-info:checked {
+	fill: var(--color-on-info) !important;
 }
 
 .checked\:fill\:focus-ring:checked {
@@ -3406,12 +4186,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.checked\:stroke\:on-surface:checked {
-	stroke: var(--color-on-surface) !important;
+.checked\:stroke\:surface-hover:checked {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.checked\:stroke\:on-surface-inverse:checked {
-	stroke: var(--color-on-surface-inverse) !important;
+.checked\:stroke\:surface-active:checked {
+	stroke: var(--color-surface-active) !important;
+}
+
+.checked\:stroke\:surface-disabled:checked {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .checked\:stroke\:text:checked {
@@ -3430,6 +4214,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.checked\:stroke\:text-disabled:checked {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.checked\:stroke\:link:checked {
+	stroke: var(--color-link) !important;
+}
+
+.checked\:stroke\:link-hover:checked {
+	stroke: var(--color-link-hover) !important;
+}
+
 .checked\:stroke\:border:checked {
 	stroke: var(--color-border) !important;
 }
@@ -3440,6 +4236,22 @@
 
 .checked\:stroke\:border-subtle:checked {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.checked\:stroke\:code-bg:checked {
+	stroke: var(--color-code-bg) !important;
+}
+
+.checked\:stroke\:code-fg:checked {
+	stroke: var(--color-code-fg) !important;
+}
+
+.checked\:stroke\:code-border:checked {
+	stroke: var(--color-code-border) !important;
+}
+
+.checked\:stroke\:scrim:checked {
+	stroke: var(--color-scrim) !important;
 }
 
 .checked\:stroke\:success:checked {
@@ -3500,6 +4312,26 @@
 
 .checked\:stroke\:on-danger:checked {
 	stroke: var(--color-on-danger) !important;
+}
+
+.checked\:stroke\:info:checked {
+	stroke: var(--color-info) !important;
+}
+
+.checked\:stroke\:info-hover:checked {
+	stroke: var(--color-info-hover) !important;
+}
+
+.checked\:stroke\:info-active:checked {
+	stroke: var(--color-info-active) !important;
+}
+
+.checked\:stroke\:info-subtle:checked {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.checked\:stroke\:on-info:checked {
+	stroke: var(--color-on-info) !important;
 }
 
 .checked\:stroke\:focus-ring:checked {
@@ -3642,12 +4474,16 @@
 	fill: var(--color-surface-inverse) !important;
 }
 
-.visited\:fill\:on-surface:visited {
-	fill: var(--color-on-surface) !important;
+.visited\:fill\:surface-hover:visited {
+	fill: var(--color-surface-hover) !important;
 }
 
-.visited\:fill\:on-surface-inverse:visited {
-	fill: var(--color-on-surface-inverse) !important;
+.visited\:fill\:surface-active:visited {
+	fill: var(--color-surface-active) !important;
+}
+
+.visited\:fill\:surface-disabled:visited {
+	fill: var(--color-surface-disabled) !important;
 }
 
 .visited\:fill\:text:visited {
@@ -3666,6 +4502,18 @@
 	fill: var(--color-text-inverse) !important;
 }
 
+.visited\:fill\:text-disabled:visited {
+	fill: var(--color-text-disabled) !important;
+}
+
+.visited\:fill\:link:visited {
+	fill: var(--color-link) !important;
+}
+
+.visited\:fill\:link-hover:visited {
+	fill: var(--color-link-hover) !important;
+}
+
 .visited\:fill\:border:visited {
 	fill: var(--color-border) !important;
 }
@@ -3676,6 +4524,22 @@
 
 .visited\:fill\:border-subtle:visited {
 	fill: var(--color-border-subtle) !important;
+}
+
+.visited\:fill\:code-bg:visited {
+	fill: var(--color-code-bg) !important;
+}
+
+.visited\:fill\:code-fg:visited {
+	fill: var(--color-code-fg) !important;
+}
+
+.visited\:fill\:code-border:visited {
+	fill: var(--color-code-border) !important;
+}
+
+.visited\:fill\:scrim:visited {
+	fill: var(--color-scrim) !important;
 }
 
 .visited\:fill\:success:visited {
@@ -3736,6 +4600,26 @@
 
 .visited\:fill\:on-danger:visited {
 	fill: var(--color-on-danger) !important;
+}
+
+.visited\:fill\:info:visited {
+	fill: var(--color-info) !important;
+}
+
+.visited\:fill\:info-hover:visited {
+	fill: var(--color-info-hover) !important;
+}
+
+.visited\:fill\:info-active:visited {
+	fill: var(--color-info-active) !important;
+}
+
+.visited\:fill\:info-subtle:visited {
+	fill: var(--color-info-subtle) !important;
+}
+
+.visited\:fill\:on-info:visited {
+	fill: var(--color-on-info) !important;
 }
 
 .visited\:fill\:focus-ring:visited {
@@ -3848,12 +4732,16 @@
 	stroke: var(--color-surface-inverse) !important;
 }
 
-.visited\:stroke\:on-surface:visited {
-	stroke: var(--color-on-surface) !important;
+.visited\:stroke\:surface-hover:visited {
+	stroke: var(--color-surface-hover) !important;
 }
 
-.visited\:stroke\:on-surface-inverse:visited {
-	stroke: var(--color-on-surface-inverse) !important;
+.visited\:stroke\:surface-active:visited {
+	stroke: var(--color-surface-active) !important;
+}
+
+.visited\:stroke\:surface-disabled:visited {
+	stroke: var(--color-surface-disabled) !important;
 }
 
 .visited\:stroke\:text:visited {
@@ -3872,6 +4760,18 @@
 	stroke: var(--color-text-inverse) !important;
 }
 
+.visited\:stroke\:text-disabled:visited {
+	stroke: var(--color-text-disabled) !important;
+}
+
+.visited\:stroke\:link:visited {
+	stroke: var(--color-link) !important;
+}
+
+.visited\:stroke\:link-hover:visited {
+	stroke: var(--color-link-hover) !important;
+}
+
 .visited\:stroke\:border:visited {
 	stroke: var(--color-border) !important;
 }
@@ -3882,6 +4782,22 @@
 
 .visited\:stroke\:border-subtle:visited {
 	stroke: var(--color-border-subtle) !important;
+}
+
+.visited\:stroke\:code-bg:visited {
+	stroke: var(--color-code-bg) !important;
+}
+
+.visited\:stroke\:code-fg:visited {
+	stroke: var(--color-code-fg) !important;
+}
+
+.visited\:stroke\:code-border:visited {
+	stroke: var(--color-code-border) !important;
+}
+
+.visited\:stroke\:scrim:visited {
+	stroke: var(--color-scrim) !important;
 }
 
 .visited\:stroke\:success:visited {
@@ -3942,6 +4858,26 @@
 
 .visited\:stroke\:on-danger:visited {
 	stroke: var(--color-on-danger) !important;
+}
+
+.visited\:stroke\:info:visited {
+	stroke: var(--color-info) !important;
+}
+
+.visited\:stroke\:info-hover:visited {
+	stroke: var(--color-info-hover) !important;
+}
+
+.visited\:stroke\:info-active:visited {
+	stroke: var(--color-info-active) !important;
+}
+
+.visited\:stroke\:info-subtle:visited {
+	stroke: var(--color-info-subtle) !important;
+}
+
+.visited\:stroke\:on-info:visited {
+	stroke: var(--color-on-info) !important;
 }
 
 .visited\:stroke\:focus-ring:visited {
@@ -4085,12 +5021,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:fill\:on-surface {
-		fill: var(--color-on-surface) !important;
+	.sm\:fill\:surface-hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:fill\:on-surface-inverse {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:fill\:surface-active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:fill\:surface-disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:fill\:text {
@@ -4109,6 +5049,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:fill\:text-disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:fill\:link {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:fill\:link-hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:fill\:border {
 		fill: var(--color-border) !important;
 	}
@@ -4119,6 +5071,22 @@
 
 	.sm\:fill\:border-subtle {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:fill\:code-bg {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:fill\:code-fg {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:fill\:code-border {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:fill\:scrim {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:fill\:success {
@@ -4179,6 +5147,26 @@
 
 	.sm\:fill\:on-danger {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:fill\:info {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:fill\:info-hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:fill\:info-active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:fill\:info-subtle {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:fill\:on-info {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:fill\:focus-ring {
@@ -4291,12 +5279,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:stroke\:on-surface {
-		stroke: var(--color-on-surface) !important;
+	.sm\:stroke\:surface-hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:stroke\:on-surface-inverse {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:stroke\:surface-active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:stroke\:surface-disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:stroke\:text {
@@ -4315,6 +5307,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:stroke\:text-disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:stroke\:link {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:stroke\:link-hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:stroke\:border {
 		stroke: var(--color-border) !important;
 	}
@@ -4325,6 +5329,22 @@
 
 	.sm\:stroke\:border-subtle {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:stroke\:code-bg {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:stroke\:code-fg {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:stroke\:code-border {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:stroke\:scrim {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:stroke\:success {
@@ -4385,6 +5405,26 @@
 
 	.sm\:stroke\:on-danger {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:stroke\:info {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:stroke\:info-hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:stroke\:info-active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:stroke\:info-subtle {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:stroke\:on-info {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:stroke\:focus-ring {
@@ -4527,12 +5567,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:hover\:fill\:on-surface:hover {
-		fill: var(--color-on-surface) !important;
+	.sm\:hover\:fill\:surface-hover:hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:hover\:fill\:on-surface-inverse:hover {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:hover\:fill\:surface-active:hover {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:hover\:fill\:surface-disabled:hover {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:hover\:fill\:text:hover {
@@ -4551,6 +5595,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:hover\:fill\:text-disabled:hover {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:hover\:fill\:link:hover {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:hover\:fill\:link-hover:hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:hover\:fill\:border:hover {
 		fill: var(--color-border) !important;
 	}
@@ -4561,6 +5617,22 @@
 
 	.sm\:hover\:fill\:border-subtle:hover {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:hover\:fill\:code-bg:hover {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:hover\:fill\:code-fg:hover {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:hover\:fill\:code-border:hover {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:hover\:fill\:scrim:hover {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:hover\:fill\:success:hover {
@@ -4621,6 +5693,26 @@
 
 	.sm\:hover\:fill\:on-danger:hover {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:hover\:fill\:info:hover {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:hover\:fill\:info-hover:hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:hover\:fill\:info-active:hover {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:hover\:fill\:info-subtle:hover {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:hover\:fill\:on-info:hover {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:hover\:fill\:focus-ring:hover {
@@ -4733,12 +5825,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:hover\:stroke\:on-surface:hover {
-		stroke: var(--color-on-surface) !important;
+	.sm\:hover\:stroke\:surface-hover:hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:hover\:stroke\:on-surface-inverse:hover {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:hover\:stroke\:surface-active:hover {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:hover\:stroke\:surface-disabled:hover {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:hover\:stroke\:text:hover {
@@ -4757,6 +5853,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:hover\:stroke\:text-disabled:hover {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:hover\:stroke\:link:hover {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:hover\:stroke\:link-hover:hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:hover\:stroke\:border:hover {
 		stroke: var(--color-border) !important;
 	}
@@ -4767,6 +5875,22 @@
 
 	.sm\:hover\:stroke\:border-subtle:hover {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:hover\:stroke\:code-bg:hover {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:hover\:stroke\:code-fg:hover {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:hover\:stroke\:code-border:hover {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:hover\:stroke\:scrim:hover {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:hover\:stroke\:success:hover {
@@ -4827,6 +5951,26 @@
 
 	.sm\:hover\:stroke\:on-danger:hover {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:hover\:stroke\:info:hover {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:hover\:stroke\:info-hover:hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:hover\:stroke\:info-active:hover {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:hover\:stroke\:info-subtle:hover {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:hover\:stroke\:on-info:hover {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:hover\:stroke\:focus-ring:hover {
@@ -4969,12 +6113,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus\:fill\:on-surface:focus {
-		fill: var(--color-on-surface) !important;
+	.sm\:focus\:fill\:surface-hover:focus {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus\:fill\:on-surface-inverse:focus {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:focus\:fill\:surface-active:focus {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus\:fill\:surface-disabled:focus {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus\:fill\:text:focus {
@@ -4993,6 +6141,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus\:fill\:text-disabled:focus {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus\:fill\:link:focus {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:focus\:fill\:link-hover:focus {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus\:fill\:border:focus {
 		fill: var(--color-border) !important;
 	}
@@ -5003,6 +6163,22 @@
 
 	.sm\:focus\:fill\:border-subtle:focus {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus\:fill\:code-bg:focus {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus\:fill\:code-fg:focus {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus\:fill\:code-border:focus {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:focus\:fill\:scrim:focus {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:focus\:fill\:success:focus {
@@ -5063,6 +6239,26 @@
 
 	.sm\:focus\:fill\:on-danger:focus {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus\:fill\:info:focus {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:focus\:fill\:info-hover:focus {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus\:fill\:info-active:focus {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:focus\:fill\:info-subtle:focus {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus\:fill\:on-info:focus {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:focus\:fill\:focus-ring:focus {
@@ -5175,12 +6371,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus\:stroke\:on-surface:focus {
-		stroke: var(--color-on-surface) !important;
+	.sm\:focus\:stroke\:surface-hover:focus {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus\:stroke\:on-surface-inverse:focus {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:focus\:stroke\:surface-active:focus {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus\:stroke\:surface-disabled:focus {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus\:stroke\:text:focus {
@@ -5199,6 +6399,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus\:stroke\:text-disabled:focus {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus\:stroke\:link:focus {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:focus\:stroke\:link-hover:focus {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus\:stroke\:border:focus {
 		stroke: var(--color-border) !important;
 	}
@@ -5209,6 +6421,22 @@
 
 	.sm\:focus\:stroke\:border-subtle:focus {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus\:stroke\:code-bg:focus {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus\:stroke\:code-fg:focus {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus\:stroke\:code-border:focus {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:focus\:stroke\:scrim:focus {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:focus\:stroke\:success:focus {
@@ -5269,6 +6497,26 @@
 
 	.sm\:focus\:stroke\:on-danger:focus {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus\:stroke\:info:focus {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:focus\:stroke\:info-hover:focus {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus\:stroke\:info-active:focus {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:focus\:stroke\:info-subtle:focus {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus\:stroke\:on-info:focus {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:focus\:stroke\:focus-ring:focus {
@@ -5411,12 +6659,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-visible\:fill\:on-surface:focus-visible {
-		fill: var(--color-on-surface) !important;
+	.sm\:focus-visible\:fill\:surface-hover:focus-visible {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-visible\:fill\:on-surface-inverse:focus-visible {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:focus-visible\:fill\:surface-active:focus-visible {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-visible\:fill\:surface-disabled:focus-visible {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-visible\:fill\:text:focus-visible {
@@ -5435,6 +6687,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-visible\:fill\:text-disabled:focus-visible {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-visible\:fill\:link:focus-visible {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:focus-visible\:fill\:link-hover:focus-visible {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-visible\:fill\:border:focus-visible {
 		fill: var(--color-border) !important;
 	}
@@ -5445,6 +6709,22 @@
 
 	.sm\:focus-visible\:fill\:border-subtle:focus-visible {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-visible\:fill\:code-bg:focus-visible {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-visible\:fill\:code-fg:focus-visible {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-visible\:fill\:code-border:focus-visible {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-visible\:fill\:scrim:focus-visible {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-visible\:fill\:success:focus-visible {
@@ -5505,6 +6785,26 @@
 
 	.sm\:focus-visible\:fill\:on-danger:focus-visible {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-visible\:fill\:info:focus-visible {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:focus-visible\:fill\:info-hover:focus-visible {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-visible\:fill\:info-active:focus-visible {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-visible\:fill\:info-subtle:focus-visible {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-visible\:fill\:on-info:focus-visible {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-visible\:fill\:focus-ring:focus-visible {
@@ -5617,12 +6917,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-visible\:stroke\:on-surface:focus-visible {
-		stroke: var(--color-on-surface) !important;
+	.sm\:focus-visible\:stroke\:surface-hover:focus-visible {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-visible\:stroke\:on-surface-inverse:focus-visible {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:focus-visible\:stroke\:surface-active:focus-visible {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:surface-disabled:focus-visible {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-visible\:stroke\:text:focus-visible {
@@ -5641,6 +6945,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-visible\:stroke\:text-disabled:focus-visible {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:link:focus-visible {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:link-hover:focus-visible {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-visible\:stroke\:border:focus-visible {
 		stroke: var(--color-border) !important;
 	}
@@ -5651,6 +6967,22 @@
 
 	.sm\:focus-visible\:stroke\:border-subtle:focus-visible {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:code-bg:focus-visible {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:code-fg:focus-visible {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:code-border:focus-visible {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:scrim:focus-visible {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-visible\:stroke\:success:focus-visible {
@@ -5711,6 +7043,26 @@
 
 	.sm\:focus-visible\:stroke\:on-danger:focus-visible {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:info:focus-visible {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:info-hover:focus-visible {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:info-active:focus-visible {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:info-subtle:focus-visible {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:on-info:focus-visible {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-visible\:stroke\:focus-ring:focus-visible {
@@ -5853,12 +7205,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-within\:fill\:on-surface:focus-within {
-		fill: var(--color-on-surface) !important;
+	.sm\:focus-within\:fill\:surface-hover:focus-within {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-within\:fill\:on-surface-inverse:focus-within {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:focus-within\:fill\:surface-active:focus-within {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-within\:fill\:surface-disabled:focus-within {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-within\:fill\:text:focus-within {
@@ -5877,6 +7233,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-within\:fill\:text-disabled:focus-within {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-within\:fill\:link:focus-within {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:focus-within\:fill\:link-hover:focus-within {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-within\:fill\:border:focus-within {
 		fill: var(--color-border) !important;
 	}
@@ -5887,6 +7255,22 @@
 
 	.sm\:focus-within\:fill\:border-subtle:focus-within {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-within\:fill\:code-bg:focus-within {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-within\:fill\:code-fg:focus-within {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-within\:fill\:code-border:focus-within {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-within\:fill\:scrim:focus-within {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-within\:fill\:success:focus-within {
@@ -5947,6 +7331,26 @@
 
 	.sm\:focus-within\:fill\:on-danger:focus-within {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-within\:fill\:info:focus-within {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:focus-within\:fill\:info-hover:focus-within {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-within\:fill\:info-active:focus-within {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-within\:fill\:info-subtle:focus-within {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-within\:fill\:on-info:focus-within {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-within\:fill\:focus-ring:focus-within {
@@ -6059,12 +7463,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-within\:stroke\:on-surface:focus-within {
-		stroke: var(--color-on-surface) !important;
+	.sm\:focus-within\:stroke\:surface-hover:focus-within {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-within\:stroke\:on-surface-inverse:focus-within {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:focus-within\:stroke\:surface-active:focus-within {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-within\:stroke\:surface-disabled:focus-within {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-within\:stroke\:text:focus-within {
@@ -6083,6 +7491,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-within\:stroke\:text-disabled:focus-within {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-within\:stroke\:link:focus-within {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:focus-within\:stroke\:link-hover:focus-within {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-within\:stroke\:border:focus-within {
 		stroke: var(--color-border) !important;
 	}
@@ -6093,6 +7513,22 @@
 
 	.sm\:focus-within\:stroke\:border-subtle:focus-within {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-within\:stroke\:code-bg:focus-within {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-within\:stroke\:code-fg:focus-within {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-within\:stroke\:code-border:focus-within {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-within\:stroke\:scrim:focus-within {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-within\:stroke\:success:focus-within {
@@ -6153,6 +7589,26 @@
 
 	.sm\:focus-within\:stroke\:on-danger:focus-within {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-within\:stroke\:info:focus-within {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:focus-within\:stroke\:info-hover:focus-within {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-within\:stroke\:info-active:focus-within {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-within\:stroke\:info-subtle:focus-within {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-within\:stroke\:on-info:focus-within {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-within\:stroke\:focus-ring:focus-within {
@@ -6295,12 +7751,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:active\:fill\:on-surface:active {
-		fill: var(--color-on-surface) !important;
+	.sm\:active\:fill\:surface-hover:active {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:active\:fill\:on-surface-inverse:active {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:active\:fill\:surface-active:active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:active\:fill\:surface-disabled:active {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:active\:fill\:text:active {
@@ -6319,6 +7779,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:active\:fill\:text-disabled:active {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:active\:fill\:link:active {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:active\:fill\:link-hover:active {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:active\:fill\:border:active {
 		fill: var(--color-border) !important;
 	}
@@ -6329,6 +7801,22 @@
 
 	.sm\:active\:fill\:border-subtle:active {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:active\:fill\:code-bg:active {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:active\:fill\:code-fg:active {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:active\:fill\:code-border:active {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:active\:fill\:scrim:active {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:active\:fill\:success:active {
@@ -6389,6 +7877,26 @@
 
 	.sm\:active\:fill\:on-danger:active {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:active\:fill\:info:active {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:active\:fill\:info-hover:active {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:active\:fill\:info-active:active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:active\:fill\:info-subtle:active {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:active\:fill\:on-info:active {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:active\:fill\:focus-ring:active {
@@ -6501,12 +8009,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:active\:stroke\:on-surface:active {
-		stroke: var(--color-on-surface) !important;
+	.sm\:active\:stroke\:surface-hover:active {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:active\:stroke\:on-surface-inverse:active {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:active\:stroke\:surface-active:active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:active\:stroke\:surface-disabled:active {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:active\:stroke\:text:active {
@@ -6525,6 +8037,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:active\:stroke\:text-disabled:active {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:active\:stroke\:link:active {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:active\:stroke\:link-hover:active {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:active\:stroke\:border:active {
 		stroke: var(--color-border) !important;
 	}
@@ -6535,6 +8059,22 @@
 
 	.sm\:active\:stroke\:border-subtle:active {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:active\:stroke\:code-bg:active {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:active\:stroke\:code-fg:active {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:active\:stroke\:code-border:active {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:active\:stroke\:scrim:active {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:active\:stroke\:success:active {
@@ -6595,6 +8135,26 @@
 
 	.sm\:active\:stroke\:on-danger:active {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:active\:stroke\:info:active {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:active\:stroke\:info-hover:active {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:active\:stroke\:info-active:active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:active\:stroke\:info-subtle:active {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:active\:stroke\:on-info:active {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:active\:stroke\:focus-ring:active {
@@ -6737,12 +8297,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:disabled\:fill\:on-surface:disabled {
-		fill: var(--color-on-surface) !important;
+	.sm\:disabled\:fill\:surface-hover:disabled {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:disabled\:fill\:on-surface-inverse:disabled {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:disabled\:fill\:surface-active:disabled {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:disabled\:fill\:surface-disabled:disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:disabled\:fill\:text:disabled {
@@ -6761,6 +8325,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:disabled\:fill\:text-disabled:disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:disabled\:fill\:link:disabled {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:disabled\:fill\:link-hover:disabled {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:disabled\:fill\:border:disabled {
 		fill: var(--color-border) !important;
 	}
@@ -6771,6 +8347,22 @@
 
 	.sm\:disabled\:fill\:border-subtle:disabled {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:disabled\:fill\:code-bg:disabled {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:disabled\:fill\:code-fg:disabled {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:disabled\:fill\:code-border:disabled {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:disabled\:fill\:scrim:disabled {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:disabled\:fill\:success:disabled {
@@ -6831,6 +8423,26 @@
 
 	.sm\:disabled\:fill\:on-danger:disabled {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:disabled\:fill\:info:disabled {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:disabled\:fill\:info-hover:disabled {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:disabled\:fill\:info-active:disabled {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:disabled\:fill\:info-subtle:disabled {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:disabled\:fill\:on-info:disabled {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:disabled\:fill\:focus-ring:disabled {
@@ -6943,12 +8555,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:disabled\:stroke\:on-surface:disabled {
-		stroke: var(--color-on-surface) !important;
+	.sm\:disabled\:stroke\:surface-hover:disabled {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:disabled\:stroke\:on-surface-inverse:disabled {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:disabled\:stroke\:surface-active:disabled {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:disabled\:stroke\:surface-disabled:disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:disabled\:stroke\:text:disabled {
@@ -6967,6 +8583,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:disabled\:stroke\:text-disabled:disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:disabled\:stroke\:link:disabled {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:disabled\:stroke\:link-hover:disabled {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:disabled\:stroke\:border:disabled {
 		stroke: var(--color-border) !important;
 	}
@@ -6977,6 +8605,22 @@
 
 	.sm\:disabled\:stroke\:border-subtle:disabled {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:disabled\:stroke\:code-bg:disabled {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:disabled\:stroke\:code-fg:disabled {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:disabled\:stroke\:code-border:disabled {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:disabled\:stroke\:scrim:disabled {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:disabled\:stroke\:success:disabled {
@@ -7037,6 +8681,26 @@
 
 	.sm\:disabled\:stroke\:on-danger:disabled {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:disabled\:stroke\:info:disabled {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:disabled\:stroke\:info-hover:disabled {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:disabled\:stroke\:info-active:disabled {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:disabled\:stroke\:info-subtle:disabled {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:disabled\:stroke\:on-info:disabled {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:disabled\:stroke\:focus-ring:disabled {
@@ -7179,12 +8843,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:checked\:fill\:on-surface:checked {
-		fill: var(--color-on-surface) !important;
+	.sm\:checked\:fill\:surface-hover:checked {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:checked\:fill\:on-surface-inverse:checked {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:checked\:fill\:surface-active:checked {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:checked\:fill\:surface-disabled:checked {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:checked\:fill\:text:checked {
@@ -7203,6 +8871,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:checked\:fill\:text-disabled:checked {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:checked\:fill\:link:checked {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:checked\:fill\:link-hover:checked {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:checked\:fill\:border:checked {
 		fill: var(--color-border) !important;
 	}
@@ -7213,6 +8893,22 @@
 
 	.sm\:checked\:fill\:border-subtle:checked {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:checked\:fill\:code-bg:checked {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:checked\:fill\:code-fg:checked {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:checked\:fill\:code-border:checked {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:checked\:fill\:scrim:checked {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:checked\:fill\:success:checked {
@@ -7273,6 +8969,26 @@
 
 	.sm\:checked\:fill\:on-danger:checked {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:checked\:fill\:info:checked {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:checked\:fill\:info-hover:checked {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:checked\:fill\:info-active:checked {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:checked\:fill\:info-subtle:checked {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:checked\:fill\:on-info:checked {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:checked\:fill\:focus-ring:checked {
@@ -7385,12 +9101,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:checked\:stroke\:on-surface:checked {
-		stroke: var(--color-on-surface) !important;
+	.sm\:checked\:stroke\:surface-hover:checked {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:checked\:stroke\:on-surface-inverse:checked {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:checked\:stroke\:surface-active:checked {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:checked\:stroke\:surface-disabled:checked {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:checked\:stroke\:text:checked {
@@ -7409,6 +9129,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:checked\:stroke\:text-disabled:checked {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:checked\:stroke\:link:checked {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:checked\:stroke\:link-hover:checked {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:checked\:stroke\:border:checked {
 		stroke: var(--color-border) !important;
 	}
@@ -7419,6 +9151,22 @@
 
 	.sm\:checked\:stroke\:border-subtle:checked {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:checked\:stroke\:code-bg:checked {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:checked\:stroke\:code-fg:checked {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:checked\:stroke\:code-border:checked {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:checked\:stroke\:scrim:checked {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:checked\:stroke\:success:checked {
@@ -7479,6 +9227,26 @@
 
 	.sm\:checked\:stroke\:on-danger:checked {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:checked\:stroke\:info:checked {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:checked\:stroke\:info-hover:checked {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:checked\:stroke\:info-active:checked {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:checked\:stroke\:info-subtle:checked {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:checked\:stroke\:on-info:checked {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:checked\:stroke\:focus-ring:checked {
@@ -7621,12 +9389,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:visited\:fill\:on-surface:visited {
-		fill: var(--color-on-surface) !important;
+	.sm\:visited\:fill\:surface-hover:visited {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.sm\:visited\:fill\:on-surface-inverse:visited {
-		fill: var(--color-on-surface-inverse) !important;
+	.sm\:visited\:fill\:surface-active:visited {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.sm\:visited\:fill\:surface-disabled:visited {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:visited\:fill\:text:visited {
@@ -7645,6 +9417,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.sm\:visited\:fill\:text-disabled:visited {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.sm\:visited\:fill\:link:visited {
+		fill: var(--color-link) !important;
+	}
+
+	.sm\:visited\:fill\:link-hover:visited {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.sm\:visited\:fill\:border:visited {
 		fill: var(--color-border) !important;
 	}
@@ -7655,6 +9439,22 @@
 
 	.sm\:visited\:fill\:border-subtle:visited {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.sm\:visited\:fill\:code-bg:visited {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.sm\:visited\:fill\:code-fg:visited {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.sm\:visited\:fill\:code-border:visited {
+		fill: var(--color-code-border) !important;
+	}
+
+	.sm\:visited\:fill\:scrim:visited {
+		fill: var(--color-scrim) !important;
 	}
 
 	.sm\:visited\:fill\:success:visited {
@@ -7715,6 +9515,26 @@
 
 	.sm\:visited\:fill\:on-danger:visited {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.sm\:visited\:fill\:info:visited {
+		fill: var(--color-info) !important;
+	}
+
+	.sm\:visited\:fill\:info-hover:visited {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.sm\:visited\:fill\:info-active:visited {
+		fill: var(--color-info-active) !important;
+	}
+
+	.sm\:visited\:fill\:info-subtle:visited {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.sm\:visited\:fill\:on-info:visited {
+		fill: var(--color-on-info) !important;
 	}
 
 	.sm\:visited\:fill\:focus-ring:visited {
@@ -7827,12 +9647,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:visited\:stroke\:on-surface:visited {
-		stroke: var(--color-on-surface) !important;
+	.sm\:visited\:stroke\:surface-hover:visited {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.sm\:visited\:stroke\:on-surface-inverse:visited {
-		stroke: var(--color-on-surface-inverse) !important;
+	.sm\:visited\:stroke\:surface-active:visited {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.sm\:visited\:stroke\:surface-disabled:visited {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:visited\:stroke\:text:visited {
@@ -7851,6 +9675,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.sm\:visited\:stroke\:text-disabled:visited {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.sm\:visited\:stroke\:link:visited {
+		stroke: var(--color-link) !important;
+	}
+
+	.sm\:visited\:stroke\:link-hover:visited {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.sm\:visited\:stroke\:border:visited {
 		stroke: var(--color-border) !important;
 	}
@@ -7861,6 +9697,22 @@
 
 	.sm\:visited\:stroke\:border-subtle:visited {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.sm\:visited\:stroke\:code-bg:visited {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.sm\:visited\:stroke\:code-fg:visited {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.sm\:visited\:stroke\:code-border:visited {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.sm\:visited\:stroke\:scrim:visited {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.sm\:visited\:stroke\:success:visited {
@@ -7921,6 +9773,26 @@
 
 	.sm\:visited\:stroke\:on-danger:visited {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.sm\:visited\:stroke\:info:visited {
+		stroke: var(--color-info) !important;
+	}
+
+	.sm\:visited\:stroke\:info-hover:visited {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.sm\:visited\:stroke\:info-active:visited {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.sm\:visited\:stroke\:info-subtle:visited {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.sm\:visited\:stroke\:on-info:visited {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.sm\:visited\:stroke\:focus-ring:visited {
@@ -8065,12 +9937,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:fill\:on-surface {
-		fill: var(--color-on-surface) !important;
+	.md\:fill\:surface-hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:fill\:on-surface-inverse {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:fill\:surface-active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:fill\:surface-disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:fill\:text {
@@ -8089,6 +9965,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:fill\:text-disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:fill\:link {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:fill\:link-hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:fill\:border {
 		fill: var(--color-border) !important;
 	}
@@ -8099,6 +9987,22 @@
 
 	.md\:fill\:border-subtle {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:fill\:code-bg {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:fill\:code-fg {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:fill\:code-border {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:fill\:scrim {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:fill\:success {
@@ -8159,6 +10063,26 @@
 
 	.md\:fill\:on-danger {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:fill\:info {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:fill\:info-hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:fill\:info-active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:fill\:info-subtle {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:fill\:on-info {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:fill\:focus-ring {
@@ -8271,12 +10195,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:stroke\:on-surface {
-		stroke: var(--color-on-surface) !important;
+	.md\:stroke\:surface-hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:stroke\:on-surface-inverse {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:stroke\:surface-active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:stroke\:surface-disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:stroke\:text {
@@ -8295,6 +10223,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:stroke\:text-disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:stroke\:link {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:stroke\:link-hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:stroke\:border {
 		stroke: var(--color-border) !important;
 	}
@@ -8305,6 +10245,22 @@
 
 	.md\:stroke\:border-subtle {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:stroke\:code-bg {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:stroke\:code-fg {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:stroke\:code-border {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:stroke\:scrim {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:stroke\:success {
@@ -8365,6 +10321,26 @@
 
 	.md\:stroke\:on-danger {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:stroke\:info {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:stroke\:info-hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:stroke\:info-active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:stroke\:info-subtle {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:stroke\:on-info {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:stroke\:focus-ring {
@@ -8507,12 +10483,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:hover\:fill\:on-surface:hover {
-		fill: var(--color-on-surface) !important;
+	.md\:hover\:fill\:surface-hover:hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:hover\:fill\:on-surface-inverse:hover {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:hover\:fill\:surface-active:hover {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:hover\:fill\:surface-disabled:hover {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:hover\:fill\:text:hover {
@@ -8531,6 +10511,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:hover\:fill\:text-disabled:hover {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:hover\:fill\:link:hover {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:hover\:fill\:link-hover:hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:hover\:fill\:border:hover {
 		fill: var(--color-border) !important;
 	}
@@ -8541,6 +10533,22 @@
 
 	.md\:hover\:fill\:border-subtle:hover {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:hover\:fill\:code-bg:hover {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:hover\:fill\:code-fg:hover {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:hover\:fill\:code-border:hover {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:hover\:fill\:scrim:hover {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:hover\:fill\:success:hover {
@@ -8601,6 +10609,26 @@
 
 	.md\:hover\:fill\:on-danger:hover {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:hover\:fill\:info:hover {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:hover\:fill\:info-hover:hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:hover\:fill\:info-active:hover {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:hover\:fill\:info-subtle:hover {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:hover\:fill\:on-info:hover {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:hover\:fill\:focus-ring:hover {
@@ -8713,12 +10741,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:hover\:stroke\:on-surface:hover {
-		stroke: var(--color-on-surface) !important;
+	.md\:hover\:stroke\:surface-hover:hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:hover\:stroke\:on-surface-inverse:hover {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:hover\:stroke\:surface-active:hover {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:hover\:stroke\:surface-disabled:hover {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:hover\:stroke\:text:hover {
@@ -8737,6 +10769,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:hover\:stroke\:text-disabled:hover {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:hover\:stroke\:link:hover {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:hover\:stroke\:link-hover:hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:hover\:stroke\:border:hover {
 		stroke: var(--color-border) !important;
 	}
@@ -8747,6 +10791,22 @@
 
 	.md\:hover\:stroke\:border-subtle:hover {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:hover\:stroke\:code-bg:hover {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:hover\:stroke\:code-fg:hover {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:hover\:stroke\:code-border:hover {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:hover\:stroke\:scrim:hover {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:hover\:stroke\:success:hover {
@@ -8807,6 +10867,26 @@
 
 	.md\:hover\:stroke\:on-danger:hover {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:hover\:stroke\:info:hover {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:hover\:stroke\:info-hover:hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:hover\:stroke\:info-active:hover {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:hover\:stroke\:info-subtle:hover {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:hover\:stroke\:on-info:hover {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:hover\:stroke\:focus-ring:hover {
@@ -8949,12 +11029,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus\:fill\:on-surface:focus {
-		fill: var(--color-on-surface) !important;
+	.md\:focus\:fill\:surface-hover:focus {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus\:fill\:on-surface-inverse:focus {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:focus\:fill\:surface-active:focus {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:focus\:fill\:surface-disabled:focus {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus\:fill\:text:focus {
@@ -8973,6 +11057,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus\:fill\:text-disabled:focus {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus\:fill\:link:focus {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:focus\:fill\:link-hover:focus {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:focus\:fill\:border:focus {
 		fill: var(--color-border) !important;
 	}
@@ -8983,6 +11079,22 @@
 
 	.md\:focus\:fill\:border-subtle:focus {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus\:fill\:code-bg:focus {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:focus\:fill\:code-fg:focus {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:focus\:fill\:code-border:focus {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:focus\:fill\:scrim:focus {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:focus\:fill\:success:focus {
@@ -9043,6 +11155,26 @@
 
 	.md\:focus\:fill\:on-danger:focus {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:focus\:fill\:info:focus {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:focus\:fill\:info-hover:focus {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:focus\:fill\:info-active:focus {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:focus\:fill\:info-subtle:focus {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus\:fill\:on-info:focus {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:focus\:fill\:focus-ring:focus {
@@ -9155,12 +11287,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus\:stroke\:on-surface:focus {
-		stroke: var(--color-on-surface) !important;
+	.md\:focus\:stroke\:surface-hover:focus {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus\:stroke\:on-surface-inverse:focus {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:focus\:stroke\:surface-active:focus {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:focus\:stroke\:surface-disabled:focus {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus\:stroke\:text:focus {
@@ -9179,6 +11315,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus\:stroke\:text-disabled:focus {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus\:stroke\:link:focus {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:focus\:stroke\:link-hover:focus {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:focus\:stroke\:border:focus {
 		stroke: var(--color-border) !important;
 	}
@@ -9189,6 +11337,22 @@
 
 	.md\:focus\:stroke\:border-subtle:focus {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus\:stroke\:code-bg:focus {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:focus\:stroke\:code-fg:focus {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:focus\:stroke\:code-border:focus {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:focus\:stroke\:scrim:focus {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:focus\:stroke\:success:focus {
@@ -9249,6 +11413,26 @@
 
 	.md\:focus\:stroke\:on-danger:focus {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:focus\:stroke\:info:focus {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:focus\:stroke\:info-hover:focus {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:focus\:stroke\:info-active:focus {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:focus\:stroke\:info-subtle:focus {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus\:stroke\:on-info:focus {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:focus\:stroke\:focus-ring:focus {
@@ -9391,12 +11575,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-visible\:fill\:on-surface:focus-visible {
-		fill: var(--color-on-surface) !important;
+	.md\:focus-visible\:fill\:surface-hover:focus-visible {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-visible\:fill\:on-surface-inverse:focus-visible {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:focus-visible\:fill\:surface-active:focus-visible {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-visible\:fill\:surface-disabled:focus-visible {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-visible\:fill\:text:focus-visible {
@@ -9415,6 +11603,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-visible\:fill\:text-disabled:focus-visible {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-visible\:fill\:link:focus-visible {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:focus-visible\:fill\:link-hover:focus-visible {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-visible\:fill\:border:focus-visible {
 		fill: var(--color-border) !important;
 	}
@@ -9425,6 +11625,22 @@
 
 	.md\:focus-visible\:fill\:border-subtle:focus-visible {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-visible\:fill\:code-bg:focus-visible {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-visible\:fill\:code-fg:focus-visible {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-visible\:fill\:code-border:focus-visible {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:focus-visible\:fill\:scrim:focus-visible {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:focus-visible\:fill\:success:focus-visible {
@@ -9485,6 +11701,26 @@
 
 	.md\:focus-visible\:fill\:on-danger:focus-visible {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-visible\:fill\:info:focus-visible {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:focus-visible\:fill\:info-hover:focus-visible {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-visible\:fill\:info-active:focus-visible {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:focus-visible\:fill\:info-subtle:focus-visible {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-visible\:fill\:on-info:focus-visible {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:focus-visible\:fill\:focus-ring:focus-visible {
@@ -9597,12 +11833,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-visible\:stroke\:on-surface:focus-visible {
-		stroke: var(--color-on-surface) !important;
+	.md\:focus-visible\:stroke\:surface-hover:focus-visible {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-visible\:stroke\:on-surface-inverse:focus-visible {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:focus-visible\:stroke\:surface-active:focus-visible {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-visible\:stroke\:surface-disabled:focus-visible {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-visible\:stroke\:text:focus-visible {
@@ -9621,6 +11861,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-visible\:stroke\:text-disabled:focus-visible {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-visible\:stroke\:link:focus-visible {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:focus-visible\:stroke\:link-hover:focus-visible {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-visible\:stroke\:border:focus-visible {
 		stroke: var(--color-border) !important;
 	}
@@ -9631,6 +11883,22 @@
 
 	.md\:focus-visible\:stroke\:border-subtle:focus-visible {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-visible\:stroke\:code-bg:focus-visible {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-visible\:stroke\:code-fg:focus-visible {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-visible\:stroke\:code-border:focus-visible {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:focus-visible\:stroke\:scrim:focus-visible {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:focus-visible\:stroke\:success:focus-visible {
@@ -9691,6 +11959,26 @@
 
 	.md\:focus-visible\:stroke\:on-danger:focus-visible {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-visible\:stroke\:info:focus-visible {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:focus-visible\:stroke\:info-hover:focus-visible {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-visible\:stroke\:info-active:focus-visible {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:focus-visible\:stroke\:info-subtle:focus-visible {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-visible\:stroke\:on-info:focus-visible {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:focus-visible\:stroke\:focus-ring:focus-visible {
@@ -9833,12 +12121,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-within\:fill\:on-surface:focus-within {
-		fill: var(--color-on-surface) !important;
+	.md\:focus-within\:fill\:surface-hover:focus-within {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-within\:fill\:on-surface-inverse:focus-within {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:focus-within\:fill\:surface-active:focus-within {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-within\:fill\:surface-disabled:focus-within {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-within\:fill\:text:focus-within {
@@ -9857,6 +12149,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-within\:fill\:text-disabled:focus-within {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-within\:fill\:link:focus-within {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:focus-within\:fill\:link-hover:focus-within {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-within\:fill\:border:focus-within {
 		fill: var(--color-border) !important;
 	}
@@ -9867,6 +12171,22 @@
 
 	.md\:focus-within\:fill\:border-subtle:focus-within {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-within\:fill\:code-bg:focus-within {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-within\:fill\:code-fg:focus-within {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-within\:fill\:code-border:focus-within {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:focus-within\:fill\:scrim:focus-within {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:focus-within\:fill\:success:focus-within {
@@ -9927,6 +12247,26 @@
 
 	.md\:focus-within\:fill\:on-danger:focus-within {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-within\:fill\:info:focus-within {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:focus-within\:fill\:info-hover:focus-within {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-within\:fill\:info-active:focus-within {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:focus-within\:fill\:info-subtle:focus-within {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-within\:fill\:on-info:focus-within {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:focus-within\:fill\:focus-ring:focus-within {
@@ -10039,12 +12379,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-within\:stroke\:on-surface:focus-within {
-		stroke: var(--color-on-surface) !important;
+	.md\:focus-within\:stroke\:surface-hover:focus-within {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-within\:stroke\:on-surface-inverse:focus-within {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:focus-within\:stroke\:surface-active:focus-within {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-within\:stroke\:surface-disabled:focus-within {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-within\:stroke\:text:focus-within {
@@ -10063,6 +12407,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-within\:stroke\:text-disabled:focus-within {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-within\:stroke\:link:focus-within {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:focus-within\:stroke\:link-hover:focus-within {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-within\:stroke\:border:focus-within {
 		stroke: var(--color-border) !important;
 	}
@@ -10073,6 +12429,22 @@
 
 	.md\:focus-within\:stroke\:border-subtle:focus-within {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-within\:stroke\:code-bg:focus-within {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-within\:stroke\:code-fg:focus-within {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-within\:stroke\:code-border:focus-within {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:focus-within\:stroke\:scrim:focus-within {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:focus-within\:stroke\:success:focus-within {
@@ -10133,6 +12505,26 @@
 
 	.md\:focus-within\:stroke\:on-danger:focus-within {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-within\:stroke\:info:focus-within {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:focus-within\:stroke\:info-hover:focus-within {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-within\:stroke\:info-active:focus-within {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:focus-within\:stroke\:info-subtle:focus-within {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-within\:stroke\:on-info:focus-within {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:focus-within\:stroke\:focus-ring:focus-within {
@@ -10275,12 +12667,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:active\:fill\:on-surface:active {
-		fill: var(--color-on-surface) !important;
+	.md\:active\:fill\:surface-hover:active {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:active\:fill\:on-surface-inverse:active {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:active\:fill\:surface-active:active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:active\:fill\:surface-disabled:active {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:active\:fill\:text:active {
@@ -10299,6 +12695,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:active\:fill\:text-disabled:active {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:active\:fill\:link:active {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:active\:fill\:link-hover:active {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:active\:fill\:border:active {
 		fill: var(--color-border) !important;
 	}
@@ -10309,6 +12717,22 @@
 
 	.md\:active\:fill\:border-subtle:active {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:active\:fill\:code-bg:active {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:active\:fill\:code-fg:active {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:active\:fill\:code-border:active {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:active\:fill\:scrim:active {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:active\:fill\:success:active {
@@ -10369,6 +12793,26 @@
 
 	.md\:active\:fill\:on-danger:active {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:active\:fill\:info:active {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:active\:fill\:info-hover:active {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:active\:fill\:info-active:active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:active\:fill\:info-subtle:active {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:active\:fill\:on-info:active {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:active\:fill\:focus-ring:active {
@@ -10481,12 +12925,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:active\:stroke\:on-surface:active {
-		stroke: var(--color-on-surface) !important;
+	.md\:active\:stroke\:surface-hover:active {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:active\:stroke\:on-surface-inverse:active {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:active\:stroke\:surface-active:active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:active\:stroke\:surface-disabled:active {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:active\:stroke\:text:active {
@@ -10505,6 +12953,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:active\:stroke\:text-disabled:active {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:active\:stroke\:link:active {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:active\:stroke\:link-hover:active {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:active\:stroke\:border:active {
 		stroke: var(--color-border) !important;
 	}
@@ -10515,6 +12975,22 @@
 
 	.md\:active\:stroke\:border-subtle:active {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:active\:stroke\:code-bg:active {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:active\:stroke\:code-fg:active {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:active\:stroke\:code-border:active {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:active\:stroke\:scrim:active {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:active\:stroke\:success:active {
@@ -10575,6 +13051,26 @@
 
 	.md\:active\:stroke\:on-danger:active {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:active\:stroke\:info:active {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:active\:stroke\:info-hover:active {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:active\:stroke\:info-active:active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:active\:stroke\:info-subtle:active {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:active\:stroke\:on-info:active {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:active\:stroke\:focus-ring:active {
@@ -10717,12 +13213,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:disabled\:fill\:on-surface:disabled {
-		fill: var(--color-on-surface) !important;
+	.md\:disabled\:fill\:surface-hover:disabled {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:disabled\:fill\:on-surface-inverse:disabled {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:disabled\:fill\:surface-active:disabled {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:disabled\:fill\:surface-disabled:disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:disabled\:fill\:text:disabled {
@@ -10741,6 +13241,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:disabled\:fill\:text-disabled:disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:disabled\:fill\:link:disabled {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:disabled\:fill\:link-hover:disabled {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:disabled\:fill\:border:disabled {
 		fill: var(--color-border) !important;
 	}
@@ -10751,6 +13263,22 @@
 
 	.md\:disabled\:fill\:border-subtle:disabled {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:disabled\:fill\:code-bg:disabled {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:disabled\:fill\:code-fg:disabled {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:disabled\:fill\:code-border:disabled {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:disabled\:fill\:scrim:disabled {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:disabled\:fill\:success:disabled {
@@ -10811,6 +13339,26 @@
 
 	.md\:disabled\:fill\:on-danger:disabled {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:disabled\:fill\:info:disabled {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:disabled\:fill\:info-hover:disabled {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:disabled\:fill\:info-active:disabled {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:disabled\:fill\:info-subtle:disabled {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:disabled\:fill\:on-info:disabled {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:disabled\:fill\:focus-ring:disabled {
@@ -10923,12 +13471,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:disabled\:stroke\:on-surface:disabled {
-		stroke: var(--color-on-surface) !important;
+	.md\:disabled\:stroke\:surface-hover:disabled {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:disabled\:stroke\:on-surface-inverse:disabled {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:disabled\:stroke\:surface-active:disabled {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:disabled\:stroke\:surface-disabled:disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:disabled\:stroke\:text:disabled {
@@ -10947,6 +13499,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:disabled\:stroke\:text-disabled:disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:disabled\:stroke\:link:disabled {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:disabled\:stroke\:link-hover:disabled {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:disabled\:stroke\:border:disabled {
 		stroke: var(--color-border) !important;
 	}
@@ -10957,6 +13521,22 @@
 
 	.md\:disabled\:stroke\:border-subtle:disabled {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:disabled\:stroke\:code-bg:disabled {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:disabled\:stroke\:code-fg:disabled {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:disabled\:stroke\:code-border:disabled {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:disabled\:stroke\:scrim:disabled {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:disabled\:stroke\:success:disabled {
@@ -11017,6 +13597,26 @@
 
 	.md\:disabled\:stroke\:on-danger:disabled {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:disabled\:stroke\:info:disabled {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:disabled\:stroke\:info-hover:disabled {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:disabled\:stroke\:info-active:disabled {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:disabled\:stroke\:info-subtle:disabled {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:disabled\:stroke\:on-info:disabled {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:disabled\:stroke\:focus-ring:disabled {
@@ -11159,12 +13759,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:checked\:fill\:on-surface:checked {
-		fill: var(--color-on-surface) !important;
+	.md\:checked\:fill\:surface-hover:checked {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:checked\:fill\:on-surface-inverse:checked {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:checked\:fill\:surface-active:checked {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:checked\:fill\:surface-disabled:checked {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:checked\:fill\:text:checked {
@@ -11183,6 +13787,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:checked\:fill\:text-disabled:checked {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:checked\:fill\:link:checked {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:checked\:fill\:link-hover:checked {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:checked\:fill\:border:checked {
 		fill: var(--color-border) !important;
 	}
@@ -11193,6 +13809,22 @@
 
 	.md\:checked\:fill\:border-subtle:checked {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:checked\:fill\:code-bg:checked {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:checked\:fill\:code-fg:checked {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:checked\:fill\:code-border:checked {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:checked\:fill\:scrim:checked {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:checked\:fill\:success:checked {
@@ -11253,6 +13885,26 @@
 
 	.md\:checked\:fill\:on-danger:checked {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:checked\:fill\:info:checked {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:checked\:fill\:info-hover:checked {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:checked\:fill\:info-active:checked {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:checked\:fill\:info-subtle:checked {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:checked\:fill\:on-info:checked {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:checked\:fill\:focus-ring:checked {
@@ -11365,12 +14017,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:checked\:stroke\:on-surface:checked {
-		stroke: var(--color-on-surface) !important;
+	.md\:checked\:stroke\:surface-hover:checked {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:checked\:stroke\:on-surface-inverse:checked {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:checked\:stroke\:surface-active:checked {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:checked\:stroke\:surface-disabled:checked {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:checked\:stroke\:text:checked {
@@ -11389,6 +14045,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:checked\:stroke\:text-disabled:checked {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:checked\:stroke\:link:checked {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:checked\:stroke\:link-hover:checked {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:checked\:stroke\:border:checked {
 		stroke: var(--color-border) !important;
 	}
@@ -11399,6 +14067,22 @@
 
 	.md\:checked\:stroke\:border-subtle:checked {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:checked\:stroke\:code-bg:checked {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:checked\:stroke\:code-fg:checked {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:checked\:stroke\:code-border:checked {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:checked\:stroke\:scrim:checked {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:checked\:stroke\:success:checked {
@@ -11459,6 +14143,26 @@
 
 	.md\:checked\:stroke\:on-danger:checked {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:checked\:stroke\:info:checked {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:checked\:stroke\:info-hover:checked {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:checked\:stroke\:info-active:checked {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:checked\:stroke\:info-subtle:checked {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:checked\:stroke\:on-info:checked {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:checked\:stroke\:focus-ring:checked {
@@ -11601,12 +14305,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.md\:visited\:fill\:on-surface:visited {
-		fill: var(--color-on-surface) !important;
+	.md\:visited\:fill\:surface-hover:visited {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.md\:visited\:fill\:on-surface-inverse:visited {
-		fill: var(--color-on-surface-inverse) !important;
+	.md\:visited\:fill\:surface-active:visited {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.md\:visited\:fill\:surface-disabled:visited {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.md\:visited\:fill\:text:visited {
@@ -11625,6 +14333,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.md\:visited\:fill\:text-disabled:visited {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.md\:visited\:fill\:link:visited {
+		fill: var(--color-link) !important;
+	}
+
+	.md\:visited\:fill\:link-hover:visited {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.md\:visited\:fill\:border:visited {
 		fill: var(--color-border) !important;
 	}
@@ -11635,6 +14355,22 @@
 
 	.md\:visited\:fill\:border-subtle:visited {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.md\:visited\:fill\:code-bg:visited {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.md\:visited\:fill\:code-fg:visited {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.md\:visited\:fill\:code-border:visited {
+		fill: var(--color-code-border) !important;
+	}
+
+	.md\:visited\:fill\:scrim:visited {
+		fill: var(--color-scrim) !important;
 	}
 
 	.md\:visited\:fill\:success:visited {
@@ -11695,6 +14431,26 @@
 
 	.md\:visited\:fill\:on-danger:visited {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.md\:visited\:fill\:info:visited {
+		fill: var(--color-info) !important;
+	}
+
+	.md\:visited\:fill\:info-hover:visited {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.md\:visited\:fill\:info-active:visited {
+		fill: var(--color-info-active) !important;
+	}
+
+	.md\:visited\:fill\:info-subtle:visited {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.md\:visited\:fill\:on-info:visited {
+		fill: var(--color-on-info) !important;
 	}
 
 	.md\:visited\:fill\:focus-ring:visited {
@@ -11807,12 +14563,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.md\:visited\:stroke\:on-surface:visited {
-		stroke: var(--color-on-surface) !important;
+	.md\:visited\:stroke\:surface-hover:visited {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.md\:visited\:stroke\:on-surface-inverse:visited {
-		stroke: var(--color-on-surface-inverse) !important;
+	.md\:visited\:stroke\:surface-active:visited {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.md\:visited\:stroke\:surface-disabled:visited {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.md\:visited\:stroke\:text:visited {
@@ -11831,6 +14591,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.md\:visited\:stroke\:text-disabled:visited {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.md\:visited\:stroke\:link:visited {
+		stroke: var(--color-link) !important;
+	}
+
+	.md\:visited\:stroke\:link-hover:visited {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.md\:visited\:stroke\:border:visited {
 		stroke: var(--color-border) !important;
 	}
@@ -11841,6 +14613,22 @@
 
 	.md\:visited\:stroke\:border-subtle:visited {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.md\:visited\:stroke\:code-bg:visited {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.md\:visited\:stroke\:code-fg:visited {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.md\:visited\:stroke\:code-border:visited {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.md\:visited\:stroke\:scrim:visited {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.md\:visited\:stroke\:success:visited {
@@ -11901,6 +14689,26 @@
 
 	.md\:visited\:stroke\:on-danger:visited {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.md\:visited\:stroke\:info:visited {
+		stroke: var(--color-info) !important;
+	}
+
+	.md\:visited\:stroke\:info-hover:visited {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.md\:visited\:stroke\:info-active:visited {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.md\:visited\:stroke\:info-subtle:visited {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.md\:visited\:stroke\:on-info:visited {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.md\:visited\:stroke\:focus-ring:visited {
@@ -12045,12 +14853,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:fill\:on-surface {
-		fill: var(--color-on-surface) !important;
+	.lg\:fill\:surface-hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:fill\:on-surface-inverse {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:fill\:surface-active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:fill\:surface-disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:fill\:text {
@@ -12069,6 +14881,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:fill\:text-disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:fill\:link {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:fill\:link-hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:fill\:border {
 		fill: var(--color-border) !important;
 	}
@@ -12079,6 +14903,22 @@
 
 	.lg\:fill\:border-subtle {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:fill\:code-bg {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:fill\:code-fg {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:fill\:code-border {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:fill\:scrim {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:fill\:success {
@@ -12139,6 +14979,26 @@
 
 	.lg\:fill\:on-danger {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:fill\:info {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:fill\:info-hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:fill\:info-active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:fill\:info-subtle {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:fill\:on-info {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:fill\:focus-ring {
@@ -12251,12 +15111,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:stroke\:on-surface {
-		stroke: var(--color-on-surface) !important;
+	.lg\:stroke\:surface-hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:stroke\:on-surface-inverse {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:stroke\:surface-active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:stroke\:surface-disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:stroke\:text {
@@ -12275,6 +15139,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:stroke\:text-disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:stroke\:link {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:stroke\:link-hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:stroke\:border {
 		stroke: var(--color-border) !important;
 	}
@@ -12285,6 +15161,22 @@
 
 	.lg\:stroke\:border-subtle {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:stroke\:code-bg {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:stroke\:code-fg {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:stroke\:code-border {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:stroke\:scrim {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:stroke\:success {
@@ -12345,6 +15237,26 @@
 
 	.lg\:stroke\:on-danger {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:stroke\:info {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:stroke\:info-hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:stroke\:info-active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:stroke\:info-subtle {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:stroke\:on-info {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:stroke\:focus-ring {
@@ -12487,12 +15399,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:hover\:fill\:on-surface:hover {
-		fill: var(--color-on-surface) !important;
+	.lg\:hover\:fill\:surface-hover:hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:hover\:fill\:on-surface-inverse:hover {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:hover\:fill\:surface-active:hover {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:hover\:fill\:surface-disabled:hover {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:hover\:fill\:text:hover {
@@ -12511,6 +15427,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:hover\:fill\:text-disabled:hover {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:hover\:fill\:link:hover {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:hover\:fill\:link-hover:hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:hover\:fill\:border:hover {
 		fill: var(--color-border) !important;
 	}
@@ -12521,6 +15449,22 @@
 
 	.lg\:hover\:fill\:border-subtle:hover {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:hover\:fill\:code-bg:hover {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:hover\:fill\:code-fg:hover {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:hover\:fill\:code-border:hover {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:hover\:fill\:scrim:hover {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:hover\:fill\:success:hover {
@@ -12581,6 +15525,26 @@
 
 	.lg\:hover\:fill\:on-danger:hover {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:hover\:fill\:info:hover {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:hover\:fill\:info-hover:hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:hover\:fill\:info-active:hover {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:hover\:fill\:info-subtle:hover {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:hover\:fill\:on-info:hover {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:hover\:fill\:focus-ring:hover {
@@ -12693,12 +15657,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:hover\:stroke\:on-surface:hover {
-		stroke: var(--color-on-surface) !important;
+	.lg\:hover\:stroke\:surface-hover:hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:hover\:stroke\:on-surface-inverse:hover {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:hover\:stroke\:surface-active:hover {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:hover\:stroke\:surface-disabled:hover {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:hover\:stroke\:text:hover {
@@ -12717,6 +15685,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:hover\:stroke\:text-disabled:hover {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:hover\:stroke\:link:hover {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:hover\:stroke\:link-hover:hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:hover\:stroke\:border:hover {
 		stroke: var(--color-border) !important;
 	}
@@ -12727,6 +15707,22 @@
 
 	.lg\:hover\:stroke\:border-subtle:hover {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:hover\:stroke\:code-bg:hover {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:hover\:stroke\:code-fg:hover {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:hover\:stroke\:code-border:hover {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:hover\:stroke\:scrim:hover {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:hover\:stroke\:success:hover {
@@ -12787,6 +15783,26 @@
 
 	.lg\:hover\:stroke\:on-danger:hover {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:hover\:stroke\:info:hover {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:hover\:stroke\:info-hover:hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:hover\:stroke\:info-active:hover {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:hover\:stroke\:info-subtle:hover {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:hover\:stroke\:on-info:hover {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:hover\:stroke\:focus-ring:hover {
@@ -12929,12 +15945,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus\:fill\:on-surface:focus {
-		fill: var(--color-on-surface) !important;
+	.lg\:focus\:fill\:surface-hover:focus {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus\:fill\:on-surface-inverse:focus {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:focus\:fill\:surface-active:focus {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus\:fill\:surface-disabled:focus {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus\:fill\:text:focus {
@@ -12953,6 +15973,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus\:fill\:text-disabled:focus {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus\:fill\:link:focus {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:focus\:fill\:link-hover:focus {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus\:fill\:border:focus {
 		fill: var(--color-border) !important;
 	}
@@ -12963,6 +15995,22 @@
 
 	.lg\:focus\:fill\:border-subtle:focus {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus\:fill\:code-bg:focus {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus\:fill\:code-fg:focus {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus\:fill\:code-border:focus {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:focus\:fill\:scrim:focus {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:focus\:fill\:success:focus {
@@ -13023,6 +16071,26 @@
 
 	.lg\:focus\:fill\:on-danger:focus {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus\:fill\:info:focus {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:focus\:fill\:info-hover:focus {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus\:fill\:info-active:focus {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:focus\:fill\:info-subtle:focus {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus\:fill\:on-info:focus {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:focus\:fill\:focus-ring:focus {
@@ -13135,12 +16203,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus\:stroke\:on-surface:focus {
-		stroke: var(--color-on-surface) !important;
+	.lg\:focus\:stroke\:surface-hover:focus {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus\:stroke\:on-surface-inverse:focus {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:focus\:stroke\:surface-active:focus {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus\:stroke\:surface-disabled:focus {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus\:stroke\:text:focus {
@@ -13159,6 +16231,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus\:stroke\:text-disabled:focus {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus\:stroke\:link:focus {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:focus\:stroke\:link-hover:focus {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus\:stroke\:border:focus {
 		stroke: var(--color-border) !important;
 	}
@@ -13169,6 +16253,22 @@
 
 	.lg\:focus\:stroke\:border-subtle:focus {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus\:stroke\:code-bg:focus {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus\:stroke\:code-fg:focus {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus\:stroke\:code-border:focus {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:focus\:stroke\:scrim:focus {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:focus\:stroke\:success:focus {
@@ -13229,6 +16329,26 @@
 
 	.lg\:focus\:stroke\:on-danger:focus {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus\:stroke\:info:focus {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:focus\:stroke\:info-hover:focus {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus\:stroke\:info-active:focus {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:focus\:stroke\:info-subtle:focus {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus\:stroke\:on-info:focus {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:focus\:stroke\:focus-ring:focus {
@@ -13371,12 +16491,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-visible\:fill\:on-surface:focus-visible {
-		fill: var(--color-on-surface) !important;
+	.lg\:focus-visible\:fill\:surface-hover:focus-visible {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-visible\:fill\:on-surface-inverse:focus-visible {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:focus-visible\:fill\:surface-active:focus-visible {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-visible\:fill\:surface-disabled:focus-visible {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-visible\:fill\:text:focus-visible {
@@ -13395,6 +16519,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-visible\:fill\:text-disabled:focus-visible {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-visible\:fill\:link:focus-visible {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:focus-visible\:fill\:link-hover:focus-visible {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-visible\:fill\:border:focus-visible {
 		fill: var(--color-border) !important;
 	}
@@ -13405,6 +16541,22 @@
 
 	.lg\:focus-visible\:fill\:border-subtle:focus-visible {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-visible\:fill\:code-bg:focus-visible {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-visible\:fill\:code-fg:focus-visible {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-visible\:fill\:code-border:focus-visible {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-visible\:fill\:scrim:focus-visible {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-visible\:fill\:success:focus-visible {
@@ -13465,6 +16617,26 @@
 
 	.lg\:focus-visible\:fill\:on-danger:focus-visible {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-visible\:fill\:info:focus-visible {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:focus-visible\:fill\:info-hover:focus-visible {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-visible\:fill\:info-active:focus-visible {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-visible\:fill\:info-subtle:focus-visible {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-visible\:fill\:on-info:focus-visible {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-visible\:fill\:focus-ring:focus-visible {
@@ -13577,12 +16749,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-visible\:stroke\:on-surface:focus-visible {
-		stroke: var(--color-on-surface) !important;
+	.lg\:focus-visible\:stroke\:surface-hover:focus-visible {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-visible\:stroke\:on-surface-inverse:focus-visible {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:focus-visible\:stroke\:surface-active:focus-visible {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:surface-disabled:focus-visible {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-visible\:stroke\:text:focus-visible {
@@ -13601,6 +16777,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-visible\:stroke\:text-disabled:focus-visible {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:link:focus-visible {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:link-hover:focus-visible {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-visible\:stroke\:border:focus-visible {
 		stroke: var(--color-border) !important;
 	}
@@ -13611,6 +16799,22 @@
 
 	.lg\:focus-visible\:stroke\:border-subtle:focus-visible {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:code-bg:focus-visible {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:code-fg:focus-visible {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:code-border:focus-visible {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:scrim:focus-visible {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-visible\:stroke\:success:focus-visible {
@@ -13671,6 +16875,26 @@
 
 	.lg\:focus-visible\:stroke\:on-danger:focus-visible {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:info:focus-visible {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:info-hover:focus-visible {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:info-active:focus-visible {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:info-subtle:focus-visible {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:on-info:focus-visible {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-visible\:stroke\:focus-ring:focus-visible {
@@ -13813,12 +17037,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-within\:fill\:on-surface:focus-within {
-		fill: var(--color-on-surface) !important;
+	.lg\:focus-within\:fill\:surface-hover:focus-within {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-within\:fill\:on-surface-inverse:focus-within {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:focus-within\:fill\:surface-active:focus-within {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-within\:fill\:surface-disabled:focus-within {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-within\:fill\:text:focus-within {
@@ -13837,6 +17065,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-within\:fill\:text-disabled:focus-within {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-within\:fill\:link:focus-within {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:focus-within\:fill\:link-hover:focus-within {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-within\:fill\:border:focus-within {
 		fill: var(--color-border) !important;
 	}
@@ -13847,6 +17087,22 @@
 
 	.lg\:focus-within\:fill\:border-subtle:focus-within {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-within\:fill\:code-bg:focus-within {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-within\:fill\:code-fg:focus-within {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-within\:fill\:code-border:focus-within {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-within\:fill\:scrim:focus-within {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-within\:fill\:success:focus-within {
@@ -13907,6 +17163,26 @@
 
 	.lg\:focus-within\:fill\:on-danger:focus-within {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-within\:fill\:info:focus-within {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:focus-within\:fill\:info-hover:focus-within {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-within\:fill\:info-active:focus-within {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-within\:fill\:info-subtle:focus-within {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-within\:fill\:on-info:focus-within {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-within\:fill\:focus-ring:focus-within {
@@ -14019,12 +17295,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-within\:stroke\:on-surface:focus-within {
-		stroke: var(--color-on-surface) !important;
+	.lg\:focus-within\:stroke\:surface-hover:focus-within {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-within\:stroke\:on-surface-inverse:focus-within {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:focus-within\:stroke\:surface-active:focus-within {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-within\:stroke\:surface-disabled:focus-within {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-within\:stroke\:text:focus-within {
@@ -14043,6 +17323,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-within\:stroke\:text-disabled:focus-within {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-within\:stroke\:link:focus-within {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:focus-within\:stroke\:link-hover:focus-within {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-within\:stroke\:border:focus-within {
 		stroke: var(--color-border) !important;
 	}
@@ -14053,6 +17345,22 @@
 
 	.lg\:focus-within\:stroke\:border-subtle:focus-within {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-within\:stroke\:code-bg:focus-within {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-within\:stroke\:code-fg:focus-within {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-within\:stroke\:code-border:focus-within {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-within\:stroke\:scrim:focus-within {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-within\:stroke\:success:focus-within {
@@ -14113,6 +17421,26 @@
 
 	.lg\:focus-within\:stroke\:on-danger:focus-within {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-within\:stroke\:info:focus-within {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:focus-within\:stroke\:info-hover:focus-within {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-within\:stroke\:info-active:focus-within {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-within\:stroke\:info-subtle:focus-within {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-within\:stroke\:on-info:focus-within {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-within\:stroke\:focus-ring:focus-within {
@@ -14255,12 +17583,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:active\:fill\:on-surface:active {
-		fill: var(--color-on-surface) !important;
+	.lg\:active\:fill\:surface-hover:active {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:active\:fill\:on-surface-inverse:active {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:active\:fill\:surface-active:active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:active\:fill\:surface-disabled:active {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:active\:fill\:text:active {
@@ -14279,6 +17611,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:active\:fill\:text-disabled:active {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:active\:fill\:link:active {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:active\:fill\:link-hover:active {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:active\:fill\:border:active {
 		fill: var(--color-border) !important;
 	}
@@ -14289,6 +17633,22 @@
 
 	.lg\:active\:fill\:border-subtle:active {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:active\:fill\:code-bg:active {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:active\:fill\:code-fg:active {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:active\:fill\:code-border:active {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:active\:fill\:scrim:active {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:active\:fill\:success:active {
@@ -14349,6 +17709,26 @@
 
 	.lg\:active\:fill\:on-danger:active {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:active\:fill\:info:active {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:active\:fill\:info-hover:active {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:active\:fill\:info-active:active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:active\:fill\:info-subtle:active {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:active\:fill\:on-info:active {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:active\:fill\:focus-ring:active {
@@ -14461,12 +17841,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:active\:stroke\:on-surface:active {
-		stroke: var(--color-on-surface) !important;
+	.lg\:active\:stroke\:surface-hover:active {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:active\:stroke\:on-surface-inverse:active {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:active\:stroke\:surface-active:active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:active\:stroke\:surface-disabled:active {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:active\:stroke\:text:active {
@@ -14485,6 +17869,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:active\:stroke\:text-disabled:active {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:active\:stroke\:link:active {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:active\:stroke\:link-hover:active {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:active\:stroke\:border:active {
 		stroke: var(--color-border) !important;
 	}
@@ -14495,6 +17891,22 @@
 
 	.lg\:active\:stroke\:border-subtle:active {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:active\:stroke\:code-bg:active {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:active\:stroke\:code-fg:active {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:active\:stroke\:code-border:active {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:active\:stroke\:scrim:active {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:active\:stroke\:success:active {
@@ -14555,6 +17967,26 @@
 
 	.lg\:active\:stroke\:on-danger:active {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:active\:stroke\:info:active {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:active\:stroke\:info-hover:active {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:active\:stroke\:info-active:active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:active\:stroke\:info-subtle:active {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:active\:stroke\:on-info:active {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:active\:stroke\:focus-ring:active {
@@ -14697,12 +18129,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:disabled\:fill\:on-surface:disabled {
-		fill: var(--color-on-surface) !important;
+	.lg\:disabled\:fill\:surface-hover:disabled {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:disabled\:fill\:on-surface-inverse:disabled {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:disabled\:fill\:surface-active:disabled {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:disabled\:fill\:surface-disabled:disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:disabled\:fill\:text:disabled {
@@ -14721,6 +18157,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:disabled\:fill\:text-disabled:disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:disabled\:fill\:link:disabled {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:disabled\:fill\:link-hover:disabled {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:disabled\:fill\:border:disabled {
 		fill: var(--color-border) !important;
 	}
@@ -14731,6 +18179,22 @@
 
 	.lg\:disabled\:fill\:border-subtle:disabled {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:disabled\:fill\:code-bg:disabled {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:disabled\:fill\:code-fg:disabled {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:disabled\:fill\:code-border:disabled {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:disabled\:fill\:scrim:disabled {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:disabled\:fill\:success:disabled {
@@ -14791,6 +18255,26 @@
 
 	.lg\:disabled\:fill\:on-danger:disabled {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:disabled\:fill\:info:disabled {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:disabled\:fill\:info-hover:disabled {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:disabled\:fill\:info-active:disabled {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:disabled\:fill\:info-subtle:disabled {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:disabled\:fill\:on-info:disabled {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:disabled\:fill\:focus-ring:disabled {
@@ -14903,12 +18387,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:disabled\:stroke\:on-surface:disabled {
-		stroke: var(--color-on-surface) !important;
+	.lg\:disabled\:stroke\:surface-hover:disabled {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:disabled\:stroke\:on-surface-inverse:disabled {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:disabled\:stroke\:surface-active:disabled {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:disabled\:stroke\:surface-disabled:disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:disabled\:stroke\:text:disabled {
@@ -14927,6 +18415,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:disabled\:stroke\:text-disabled:disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:disabled\:stroke\:link:disabled {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:disabled\:stroke\:link-hover:disabled {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:disabled\:stroke\:border:disabled {
 		stroke: var(--color-border) !important;
 	}
@@ -14937,6 +18437,22 @@
 
 	.lg\:disabled\:stroke\:border-subtle:disabled {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:disabled\:stroke\:code-bg:disabled {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:disabled\:stroke\:code-fg:disabled {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:disabled\:stroke\:code-border:disabled {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:disabled\:stroke\:scrim:disabled {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:disabled\:stroke\:success:disabled {
@@ -14997,6 +18513,26 @@
 
 	.lg\:disabled\:stroke\:on-danger:disabled {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:disabled\:stroke\:info:disabled {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:disabled\:stroke\:info-hover:disabled {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:disabled\:stroke\:info-active:disabled {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:disabled\:stroke\:info-subtle:disabled {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:disabled\:stroke\:on-info:disabled {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:disabled\:stroke\:focus-ring:disabled {
@@ -15139,12 +18675,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:checked\:fill\:on-surface:checked {
-		fill: var(--color-on-surface) !important;
+	.lg\:checked\:fill\:surface-hover:checked {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:checked\:fill\:on-surface-inverse:checked {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:checked\:fill\:surface-active:checked {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:checked\:fill\:surface-disabled:checked {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:checked\:fill\:text:checked {
@@ -15163,6 +18703,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:checked\:fill\:text-disabled:checked {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:checked\:fill\:link:checked {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:checked\:fill\:link-hover:checked {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:checked\:fill\:border:checked {
 		fill: var(--color-border) !important;
 	}
@@ -15173,6 +18725,22 @@
 
 	.lg\:checked\:fill\:border-subtle:checked {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:checked\:fill\:code-bg:checked {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:checked\:fill\:code-fg:checked {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:checked\:fill\:code-border:checked {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:checked\:fill\:scrim:checked {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:checked\:fill\:success:checked {
@@ -15233,6 +18801,26 @@
 
 	.lg\:checked\:fill\:on-danger:checked {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:checked\:fill\:info:checked {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:checked\:fill\:info-hover:checked {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:checked\:fill\:info-active:checked {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:checked\:fill\:info-subtle:checked {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:checked\:fill\:on-info:checked {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:checked\:fill\:focus-ring:checked {
@@ -15345,12 +18933,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:checked\:stroke\:on-surface:checked {
-		stroke: var(--color-on-surface) !important;
+	.lg\:checked\:stroke\:surface-hover:checked {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:checked\:stroke\:on-surface-inverse:checked {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:checked\:stroke\:surface-active:checked {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:checked\:stroke\:surface-disabled:checked {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:checked\:stroke\:text:checked {
@@ -15369,6 +18961,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:checked\:stroke\:text-disabled:checked {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:checked\:stroke\:link:checked {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:checked\:stroke\:link-hover:checked {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:checked\:stroke\:border:checked {
 		stroke: var(--color-border) !important;
 	}
@@ -15379,6 +18983,22 @@
 
 	.lg\:checked\:stroke\:border-subtle:checked {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:checked\:stroke\:code-bg:checked {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:checked\:stroke\:code-fg:checked {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:checked\:stroke\:code-border:checked {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:checked\:stroke\:scrim:checked {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:checked\:stroke\:success:checked {
@@ -15439,6 +19059,26 @@
 
 	.lg\:checked\:stroke\:on-danger:checked {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:checked\:stroke\:info:checked {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:checked\:stroke\:info-hover:checked {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:checked\:stroke\:info-active:checked {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:checked\:stroke\:info-subtle:checked {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:checked\:stroke\:on-info:checked {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:checked\:stroke\:focus-ring:checked {
@@ -15581,12 +19221,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:visited\:fill\:on-surface:visited {
-		fill: var(--color-on-surface) !important;
+	.lg\:visited\:fill\:surface-hover:visited {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.lg\:visited\:fill\:on-surface-inverse:visited {
-		fill: var(--color-on-surface-inverse) !important;
+	.lg\:visited\:fill\:surface-active:visited {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.lg\:visited\:fill\:surface-disabled:visited {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:visited\:fill\:text:visited {
@@ -15605,6 +19249,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.lg\:visited\:fill\:text-disabled:visited {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.lg\:visited\:fill\:link:visited {
+		fill: var(--color-link) !important;
+	}
+
+	.lg\:visited\:fill\:link-hover:visited {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.lg\:visited\:fill\:border:visited {
 		fill: var(--color-border) !important;
 	}
@@ -15615,6 +19271,22 @@
 
 	.lg\:visited\:fill\:border-subtle:visited {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.lg\:visited\:fill\:code-bg:visited {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.lg\:visited\:fill\:code-fg:visited {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.lg\:visited\:fill\:code-border:visited {
+		fill: var(--color-code-border) !important;
+	}
+
+	.lg\:visited\:fill\:scrim:visited {
+		fill: var(--color-scrim) !important;
 	}
 
 	.lg\:visited\:fill\:success:visited {
@@ -15675,6 +19347,26 @@
 
 	.lg\:visited\:fill\:on-danger:visited {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.lg\:visited\:fill\:info:visited {
+		fill: var(--color-info) !important;
+	}
+
+	.lg\:visited\:fill\:info-hover:visited {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.lg\:visited\:fill\:info-active:visited {
+		fill: var(--color-info-active) !important;
+	}
+
+	.lg\:visited\:fill\:info-subtle:visited {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.lg\:visited\:fill\:on-info:visited {
+		fill: var(--color-on-info) !important;
 	}
 
 	.lg\:visited\:fill\:focus-ring:visited {
@@ -15787,12 +19479,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:visited\:stroke\:on-surface:visited {
-		stroke: var(--color-on-surface) !important;
+	.lg\:visited\:stroke\:surface-hover:visited {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.lg\:visited\:stroke\:on-surface-inverse:visited {
-		stroke: var(--color-on-surface-inverse) !important;
+	.lg\:visited\:stroke\:surface-active:visited {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.lg\:visited\:stroke\:surface-disabled:visited {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:visited\:stroke\:text:visited {
@@ -15811,6 +19507,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.lg\:visited\:stroke\:text-disabled:visited {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.lg\:visited\:stroke\:link:visited {
+		stroke: var(--color-link) !important;
+	}
+
+	.lg\:visited\:stroke\:link-hover:visited {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.lg\:visited\:stroke\:border:visited {
 		stroke: var(--color-border) !important;
 	}
@@ -15821,6 +19529,22 @@
 
 	.lg\:visited\:stroke\:border-subtle:visited {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.lg\:visited\:stroke\:code-bg:visited {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.lg\:visited\:stroke\:code-fg:visited {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.lg\:visited\:stroke\:code-border:visited {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.lg\:visited\:stroke\:scrim:visited {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.lg\:visited\:stroke\:success:visited {
@@ -15881,6 +19605,26 @@
 
 	.lg\:visited\:stroke\:on-danger:visited {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.lg\:visited\:stroke\:info:visited {
+		stroke: var(--color-info) !important;
+	}
+
+	.lg\:visited\:stroke\:info-hover:visited {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.lg\:visited\:stroke\:info-active:visited {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.lg\:visited\:stroke\:info-subtle:visited {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.lg\:visited\:stroke\:on-info:visited {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.lg\:visited\:stroke\:focus-ring:visited {
@@ -16025,12 +19769,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:fill\:on-surface {
-		fill: var(--color-on-surface) !important;
+	.xl\:fill\:surface-hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:fill\:on-surface-inverse {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:fill\:surface-active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:fill\:surface-disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:fill\:text {
@@ -16049,6 +19797,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:fill\:text-disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:fill\:link {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:fill\:link-hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:fill\:border {
 		fill: var(--color-border) !important;
 	}
@@ -16059,6 +19819,22 @@
 
 	.xl\:fill\:border-subtle {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:fill\:code-bg {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:fill\:code-fg {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:fill\:code-border {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:fill\:scrim {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:fill\:success {
@@ -16119,6 +19895,26 @@
 
 	.xl\:fill\:on-danger {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:fill\:info {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:fill\:info-hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:fill\:info-active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:fill\:info-subtle {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:fill\:on-info {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:fill\:focus-ring {
@@ -16231,12 +20027,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:stroke\:on-surface {
-		stroke: var(--color-on-surface) !important;
+	.xl\:stroke\:surface-hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:stroke\:on-surface-inverse {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:stroke\:surface-active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:stroke\:surface-disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:stroke\:text {
@@ -16255,6 +20055,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:stroke\:text-disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:stroke\:link {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:stroke\:link-hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:stroke\:border {
 		stroke: var(--color-border) !important;
 	}
@@ -16265,6 +20077,22 @@
 
 	.xl\:stroke\:border-subtle {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:stroke\:code-bg {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:stroke\:code-fg {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:stroke\:code-border {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:stroke\:scrim {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:stroke\:success {
@@ -16325,6 +20153,26 @@
 
 	.xl\:stroke\:on-danger {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:stroke\:info {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:stroke\:info-hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:stroke\:info-active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:stroke\:info-subtle {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:stroke\:on-info {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:stroke\:focus-ring {
@@ -16467,12 +20315,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:hover\:fill\:on-surface:hover {
-		fill: var(--color-on-surface) !important;
+	.xl\:hover\:fill\:surface-hover:hover {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:hover\:fill\:on-surface-inverse:hover {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:hover\:fill\:surface-active:hover {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:hover\:fill\:surface-disabled:hover {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:hover\:fill\:text:hover {
@@ -16491,6 +20343,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:hover\:fill\:text-disabled:hover {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:hover\:fill\:link:hover {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:hover\:fill\:link-hover:hover {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:hover\:fill\:border:hover {
 		fill: var(--color-border) !important;
 	}
@@ -16501,6 +20365,22 @@
 
 	.xl\:hover\:fill\:border-subtle:hover {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:hover\:fill\:code-bg:hover {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:hover\:fill\:code-fg:hover {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:hover\:fill\:code-border:hover {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:hover\:fill\:scrim:hover {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:hover\:fill\:success:hover {
@@ -16561,6 +20441,26 @@
 
 	.xl\:hover\:fill\:on-danger:hover {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:hover\:fill\:info:hover {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:hover\:fill\:info-hover:hover {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:hover\:fill\:info-active:hover {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:hover\:fill\:info-subtle:hover {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:hover\:fill\:on-info:hover {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:hover\:fill\:focus-ring:hover {
@@ -16673,12 +20573,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:hover\:stroke\:on-surface:hover {
-		stroke: var(--color-on-surface) !important;
+	.xl\:hover\:stroke\:surface-hover:hover {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:hover\:stroke\:on-surface-inverse:hover {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:hover\:stroke\:surface-active:hover {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:hover\:stroke\:surface-disabled:hover {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:hover\:stroke\:text:hover {
@@ -16697,6 +20601,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:hover\:stroke\:text-disabled:hover {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:hover\:stroke\:link:hover {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:hover\:stroke\:link-hover:hover {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:hover\:stroke\:border:hover {
 		stroke: var(--color-border) !important;
 	}
@@ -16707,6 +20623,22 @@
 
 	.xl\:hover\:stroke\:border-subtle:hover {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:hover\:stroke\:code-bg:hover {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:hover\:stroke\:code-fg:hover {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:hover\:stroke\:code-border:hover {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:hover\:stroke\:scrim:hover {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:hover\:stroke\:success:hover {
@@ -16767,6 +20699,26 @@
 
 	.xl\:hover\:stroke\:on-danger:hover {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:hover\:stroke\:info:hover {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:hover\:stroke\:info-hover:hover {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:hover\:stroke\:info-active:hover {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:hover\:stroke\:info-subtle:hover {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:hover\:stroke\:on-info:hover {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:hover\:stroke\:focus-ring:hover {
@@ -16909,12 +20861,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus\:fill\:on-surface:focus {
-		fill: var(--color-on-surface) !important;
+	.xl\:focus\:fill\:surface-hover:focus {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus\:fill\:on-surface-inverse:focus {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:focus\:fill\:surface-active:focus {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus\:fill\:surface-disabled:focus {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus\:fill\:text:focus {
@@ -16933,6 +20889,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus\:fill\:text-disabled:focus {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus\:fill\:link:focus {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:focus\:fill\:link-hover:focus {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus\:fill\:border:focus {
 		fill: var(--color-border) !important;
 	}
@@ -16943,6 +20911,22 @@
 
 	.xl\:focus\:fill\:border-subtle:focus {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus\:fill\:code-bg:focus {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus\:fill\:code-fg:focus {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus\:fill\:code-border:focus {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:focus\:fill\:scrim:focus {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:focus\:fill\:success:focus {
@@ -17003,6 +20987,26 @@
 
 	.xl\:focus\:fill\:on-danger:focus {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus\:fill\:info:focus {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:focus\:fill\:info-hover:focus {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus\:fill\:info-active:focus {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:focus\:fill\:info-subtle:focus {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus\:fill\:on-info:focus {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:focus\:fill\:focus-ring:focus {
@@ -17115,12 +21119,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus\:stroke\:on-surface:focus {
-		stroke: var(--color-on-surface) !important;
+	.xl\:focus\:stroke\:surface-hover:focus {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus\:stroke\:on-surface-inverse:focus {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:focus\:stroke\:surface-active:focus {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus\:stroke\:surface-disabled:focus {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus\:stroke\:text:focus {
@@ -17139,6 +21147,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus\:stroke\:text-disabled:focus {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus\:stroke\:link:focus {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:focus\:stroke\:link-hover:focus {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus\:stroke\:border:focus {
 		stroke: var(--color-border) !important;
 	}
@@ -17149,6 +21169,22 @@
 
 	.xl\:focus\:stroke\:border-subtle:focus {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus\:stroke\:code-bg:focus {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus\:stroke\:code-fg:focus {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus\:stroke\:code-border:focus {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:focus\:stroke\:scrim:focus {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:focus\:stroke\:success:focus {
@@ -17209,6 +21245,26 @@
 
 	.xl\:focus\:stroke\:on-danger:focus {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus\:stroke\:info:focus {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:focus\:stroke\:info-hover:focus {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus\:stroke\:info-active:focus {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:focus\:stroke\:info-subtle:focus {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus\:stroke\:on-info:focus {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:focus\:stroke\:focus-ring:focus {
@@ -17351,12 +21407,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-visible\:fill\:on-surface:focus-visible {
-		fill: var(--color-on-surface) !important;
+	.xl\:focus-visible\:fill\:surface-hover:focus-visible {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-visible\:fill\:on-surface-inverse:focus-visible {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:focus-visible\:fill\:surface-active:focus-visible {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-visible\:fill\:surface-disabled:focus-visible {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-visible\:fill\:text:focus-visible {
@@ -17375,6 +21435,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-visible\:fill\:text-disabled:focus-visible {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-visible\:fill\:link:focus-visible {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:focus-visible\:fill\:link-hover:focus-visible {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-visible\:fill\:border:focus-visible {
 		fill: var(--color-border) !important;
 	}
@@ -17385,6 +21457,22 @@
 
 	.xl\:focus-visible\:fill\:border-subtle:focus-visible {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-visible\:fill\:code-bg:focus-visible {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-visible\:fill\:code-fg:focus-visible {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-visible\:fill\:code-border:focus-visible {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-visible\:fill\:scrim:focus-visible {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-visible\:fill\:success:focus-visible {
@@ -17445,6 +21533,26 @@
 
 	.xl\:focus-visible\:fill\:on-danger:focus-visible {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-visible\:fill\:info:focus-visible {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:focus-visible\:fill\:info-hover:focus-visible {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-visible\:fill\:info-active:focus-visible {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-visible\:fill\:info-subtle:focus-visible {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-visible\:fill\:on-info:focus-visible {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-visible\:fill\:focus-ring:focus-visible {
@@ -17557,12 +21665,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-visible\:stroke\:on-surface:focus-visible {
-		stroke: var(--color-on-surface) !important;
+	.xl\:focus-visible\:stroke\:surface-hover:focus-visible {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-visible\:stroke\:on-surface-inverse:focus-visible {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:focus-visible\:stroke\:surface-active:focus-visible {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:surface-disabled:focus-visible {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-visible\:stroke\:text:focus-visible {
@@ -17581,6 +21693,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-visible\:stroke\:text-disabled:focus-visible {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:link:focus-visible {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:link-hover:focus-visible {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-visible\:stroke\:border:focus-visible {
 		stroke: var(--color-border) !important;
 	}
@@ -17591,6 +21715,22 @@
 
 	.xl\:focus-visible\:stroke\:border-subtle:focus-visible {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:code-bg:focus-visible {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:code-fg:focus-visible {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:code-border:focus-visible {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:scrim:focus-visible {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-visible\:stroke\:success:focus-visible {
@@ -17651,6 +21791,26 @@
 
 	.xl\:focus-visible\:stroke\:on-danger:focus-visible {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:info:focus-visible {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:info-hover:focus-visible {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:info-active:focus-visible {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:info-subtle:focus-visible {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:on-info:focus-visible {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-visible\:stroke\:focus-ring:focus-visible {
@@ -17793,12 +21953,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-within\:fill\:on-surface:focus-within {
-		fill: var(--color-on-surface) !important;
+	.xl\:focus-within\:fill\:surface-hover:focus-within {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-within\:fill\:on-surface-inverse:focus-within {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:focus-within\:fill\:surface-active:focus-within {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-within\:fill\:surface-disabled:focus-within {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-within\:fill\:text:focus-within {
@@ -17817,6 +21981,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-within\:fill\:text-disabled:focus-within {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-within\:fill\:link:focus-within {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:focus-within\:fill\:link-hover:focus-within {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-within\:fill\:border:focus-within {
 		fill: var(--color-border) !important;
 	}
@@ -17827,6 +22003,22 @@
 
 	.xl\:focus-within\:fill\:border-subtle:focus-within {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-within\:fill\:code-bg:focus-within {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-within\:fill\:code-fg:focus-within {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-within\:fill\:code-border:focus-within {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-within\:fill\:scrim:focus-within {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-within\:fill\:success:focus-within {
@@ -17887,6 +22079,26 @@
 
 	.xl\:focus-within\:fill\:on-danger:focus-within {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-within\:fill\:info:focus-within {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:focus-within\:fill\:info-hover:focus-within {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-within\:fill\:info-active:focus-within {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-within\:fill\:info-subtle:focus-within {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-within\:fill\:on-info:focus-within {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-within\:fill\:focus-ring:focus-within {
@@ -17999,12 +22211,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-within\:stroke\:on-surface:focus-within {
-		stroke: var(--color-on-surface) !important;
+	.xl\:focus-within\:stroke\:surface-hover:focus-within {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-within\:stroke\:on-surface-inverse:focus-within {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:focus-within\:stroke\:surface-active:focus-within {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-within\:stroke\:surface-disabled:focus-within {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-within\:stroke\:text:focus-within {
@@ -18023,6 +22239,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-within\:stroke\:text-disabled:focus-within {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-within\:stroke\:link:focus-within {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:focus-within\:stroke\:link-hover:focus-within {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-within\:stroke\:border:focus-within {
 		stroke: var(--color-border) !important;
 	}
@@ -18033,6 +22261,22 @@
 
 	.xl\:focus-within\:stroke\:border-subtle:focus-within {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-within\:stroke\:code-bg:focus-within {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-within\:stroke\:code-fg:focus-within {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-within\:stroke\:code-border:focus-within {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-within\:stroke\:scrim:focus-within {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-within\:stroke\:success:focus-within {
@@ -18093,6 +22337,26 @@
 
 	.xl\:focus-within\:stroke\:on-danger:focus-within {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-within\:stroke\:info:focus-within {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:focus-within\:stroke\:info-hover:focus-within {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-within\:stroke\:info-active:focus-within {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-within\:stroke\:info-subtle:focus-within {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-within\:stroke\:on-info:focus-within {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-within\:stroke\:focus-ring:focus-within {
@@ -18235,12 +22499,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:active\:fill\:on-surface:active {
-		fill: var(--color-on-surface) !important;
+	.xl\:active\:fill\:surface-hover:active {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:active\:fill\:on-surface-inverse:active {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:active\:fill\:surface-active:active {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:active\:fill\:surface-disabled:active {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:active\:fill\:text:active {
@@ -18259,6 +22527,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:active\:fill\:text-disabled:active {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:active\:fill\:link:active {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:active\:fill\:link-hover:active {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:active\:fill\:border:active {
 		fill: var(--color-border) !important;
 	}
@@ -18269,6 +22549,22 @@
 
 	.xl\:active\:fill\:border-subtle:active {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:active\:fill\:code-bg:active {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:active\:fill\:code-fg:active {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:active\:fill\:code-border:active {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:active\:fill\:scrim:active {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:active\:fill\:success:active {
@@ -18329,6 +22625,26 @@
 
 	.xl\:active\:fill\:on-danger:active {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:active\:fill\:info:active {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:active\:fill\:info-hover:active {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:active\:fill\:info-active:active {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:active\:fill\:info-subtle:active {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:active\:fill\:on-info:active {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:active\:fill\:focus-ring:active {
@@ -18441,12 +22757,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:active\:stroke\:on-surface:active {
-		stroke: var(--color-on-surface) !important;
+	.xl\:active\:stroke\:surface-hover:active {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:active\:stroke\:on-surface-inverse:active {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:active\:stroke\:surface-active:active {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:active\:stroke\:surface-disabled:active {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:active\:stroke\:text:active {
@@ -18465,6 +22785,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:active\:stroke\:text-disabled:active {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:active\:stroke\:link:active {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:active\:stroke\:link-hover:active {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:active\:stroke\:border:active {
 		stroke: var(--color-border) !important;
 	}
@@ -18475,6 +22807,22 @@
 
 	.xl\:active\:stroke\:border-subtle:active {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:active\:stroke\:code-bg:active {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:active\:stroke\:code-fg:active {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:active\:stroke\:code-border:active {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:active\:stroke\:scrim:active {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:active\:stroke\:success:active {
@@ -18535,6 +22883,26 @@
 
 	.xl\:active\:stroke\:on-danger:active {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:active\:stroke\:info:active {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:active\:stroke\:info-hover:active {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:active\:stroke\:info-active:active {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:active\:stroke\:info-subtle:active {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:active\:stroke\:on-info:active {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:active\:stroke\:focus-ring:active {
@@ -18677,12 +23045,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:disabled\:fill\:on-surface:disabled {
-		fill: var(--color-on-surface) !important;
+	.xl\:disabled\:fill\:surface-hover:disabled {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:disabled\:fill\:on-surface-inverse:disabled {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:disabled\:fill\:surface-active:disabled {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:disabled\:fill\:surface-disabled:disabled {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:disabled\:fill\:text:disabled {
@@ -18701,6 +23073,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:disabled\:fill\:text-disabled:disabled {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:disabled\:fill\:link:disabled {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:disabled\:fill\:link-hover:disabled {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:disabled\:fill\:border:disabled {
 		fill: var(--color-border) !important;
 	}
@@ -18711,6 +23095,22 @@
 
 	.xl\:disabled\:fill\:border-subtle:disabled {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:disabled\:fill\:code-bg:disabled {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:disabled\:fill\:code-fg:disabled {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:disabled\:fill\:code-border:disabled {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:disabled\:fill\:scrim:disabled {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:disabled\:fill\:success:disabled {
@@ -18771,6 +23171,26 @@
 
 	.xl\:disabled\:fill\:on-danger:disabled {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:disabled\:fill\:info:disabled {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:disabled\:fill\:info-hover:disabled {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:disabled\:fill\:info-active:disabled {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:disabled\:fill\:info-subtle:disabled {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:disabled\:fill\:on-info:disabled {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:disabled\:fill\:focus-ring:disabled {
@@ -18883,12 +23303,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:disabled\:stroke\:on-surface:disabled {
-		stroke: var(--color-on-surface) !important;
+	.xl\:disabled\:stroke\:surface-hover:disabled {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:disabled\:stroke\:on-surface-inverse:disabled {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:disabled\:stroke\:surface-active:disabled {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:disabled\:stroke\:surface-disabled:disabled {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:disabled\:stroke\:text:disabled {
@@ -18907,6 +23331,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:disabled\:stroke\:text-disabled:disabled {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:disabled\:stroke\:link:disabled {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:disabled\:stroke\:link-hover:disabled {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:disabled\:stroke\:border:disabled {
 		stroke: var(--color-border) !important;
 	}
@@ -18917,6 +23353,22 @@
 
 	.xl\:disabled\:stroke\:border-subtle:disabled {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:disabled\:stroke\:code-bg:disabled {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:disabled\:stroke\:code-fg:disabled {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:disabled\:stroke\:code-border:disabled {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:disabled\:stroke\:scrim:disabled {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:disabled\:stroke\:success:disabled {
@@ -18977,6 +23429,26 @@
 
 	.xl\:disabled\:stroke\:on-danger:disabled {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:disabled\:stroke\:info:disabled {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:disabled\:stroke\:info-hover:disabled {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:disabled\:stroke\:info-active:disabled {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:disabled\:stroke\:info-subtle:disabled {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:disabled\:stroke\:on-info:disabled {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:disabled\:stroke\:focus-ring:disabled {
@@ -19119,12 +23591,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:checked\:fill\:on-surface:checked {
-		fill: var(--color-on-surface) !important;
+	.xl\:checked\:fill\:surface-hover:checked {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:checked\:fill\:on-surface-inverse:checked {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:checked\:fill\:surface-active:checked {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:checked\:fill\:surface-disabled:checked {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:checked\:fill\:text:checked {
@@ -19143,6 +23619,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:checked\:fill\:text-disabled:checked {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:checked\:fill\:link:checked {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:checked\:fill\:link-hover:checked {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:checked\:fill\:border:checked {
 		fill: var(--color-border) !important;
 	}
@@ -19153,6 +23641,22 @@
 
 	.xl\:checked\:fill\:border-subtle:checked {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:checked\:fill\:code-bg:checked {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:checked\:fill\:code-fg:checked {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:checked\:fill\:code-border:checked {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:checked\:fill\:scrim:checked {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:checked\:fill\:success:checked {
@@ -19213,6 +23717,26 @@
 
 	.xl\:checked\:fill\:on-danger:checked {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:checked\:fill\:info:checked {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:checked\:fill\:info-hover:checked {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:checked\:fill\:info-active:checked {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:checked\:fill\:info-subtle:checked {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:checked\:fill\:on-info:checked {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:checked\:fill\:focus-ring:checked {
@@ -19325,12 +23849,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:checked\:stroke\:on-surface:checked {
-		stroke: var(--color-on-surface) !important;
+	.xl\:checked\:stroke\:surface-hover:checked {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:checked\:stroke\:on-surface-inverse:checked {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:checked\:stroke\:surface-active:checked {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:checked\:stroke\:surface-disabled:checked {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:checked\:stroke\:text:checked {
@@ -19349,6 +23877,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:checked\:stroke\:text-disabled:checked {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:checked\:stroke\:link:checked {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:checked\:stroke\:link-hover:checked {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:checked\:stroke\:border:checked {
 		stroke: var(--color-border) !important;
 	}
@@ -19359,6 +23899,22 @@
 
 	.xl\:checked\:stroke\:border-subtle:checked {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:checked\:stroke\:code-bg:checked {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:checked\:stroke\:code-fg:checked {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:checked\:stroke\:code-border:checked {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:checked\:stroke\:scrim:checked {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:checked\:stroke\:success:checked {
@@ -19419,6 +23975,26 @@
 
 	.xl\:checked\:stroke\:on-danger:checked {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:checked\:stroke\:info:checked {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:checked\:stroke\:info-hover:checked {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:checked\:stroke\:info-active:checked {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:checked\:stroke\:info-subtle:checked {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:checked\:stroke\:on-info:checked {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:checked\:stroke\:focus-ring:checked {
@@ -19561,12 +24137,16 @@
 		fill: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:visited\:fill\:on-surface:visited {
-		fill: var(--color-on-surface) !important;
+	.xl\:visited\:fill\:surface-hover:visited {
+		fill: var(--color-surface-hover) !important;
 	}
 
-	.xl\:visited\:fill\:on-surface-inverse:visited {
-		fill: var(--color-on-surface-inverse) !important;
+	.xl\:visited\:fill\:surface-active:visited {
+		fill: var(--color-surface-active) !important;
+	}
+
+	.xl\:visited\:fill\:surface-disabled:visited {
+		fill: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:visited\:fill\:text:visited {
@@ -19585,6 +24165,18 @@
 		fill: var(--color-text-inverse) !important;
 	}
 
+	.xl\:visited\:fill\:text-disabled:visited {
+		fill: var(--color-text-disabled) !important;
+	}
+
+	.xl\:visited\:fill\:link:visited {
+		fill: var(--color-link) !important;
+	}
+
+	.xl\:visited\:fill\:link-hover:visited {
+		fill: var(--color-link-hover) !important;
+	}
+
 	.xl\:visited\:fill\:border:visited {
 		fill: var(--color-border) !important;
 	}
@@ -19595,6 +24187,22 @@
 
 	.xl\:visited\:fill\:border-subtle:visited {
 		fill: var(--color-border-subtle) !important;
+	}
+
+	.xl\:visited\:fill\:code-bg:visited {
+		fill: var(--color-code-bg) !important;
+	}
+
+	.xl\:visited\:fill\:code-fg:visited {
+		fill: var(--color-code-fg) !important;
+	}
+
+	.xl\:visited\:fill\:code-border:visited {
+		fill: var(--color-code-border) !important;
+	}
+
+	.xl\:visited\:fill\:scrim:visited {
+		fill: var(--color-scrim) !important;
 	}
 
 	.xl\:visited\:fill\:success:visited {
@@ -19655,6 +24263,26 @@
 
 	.xl\:visited\:fill\:on-danger:visited {
 		fill: var(--color-on-danger) !important;
+	}
+
+	.xl\:visited\:fill\:info:visited {
+		fill: var(--color-info) !important;
+	}
+
+	.xl\:visited\:fill\:info-hover:visited {
+		fill: var(--color-info-hover) !important;
+	}
+
+	.xl\:visited\:fill\:info-active:visited {
+		fill: var(--color-info-active) !important;
+	}
+
+	.xl\:visited\:fill\:info-subtle:visited {
+		fill: var(--color-info-subtle) !important;
+	}
+
+	.xl\:visited\:fill\:on-info:visited {
+		fill: var(--color-on-info) !important;
 	}
 
 	.xl\:visited\:fill\:focus-ring:visited {
@@ -19767,12 +24395,16 @@
 		stroke: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:visited\:stroke\:on-surface:visited {
-		stroke: var(--color-on-surface) !important;
+	.xl\:visited\:stroke\:surface-hover:visited {
+		stroke: var(--color-surface-hover) !important;
 	}
 
-	.xl\:visited\:stroke\:on-surface-inverse:visited {
-		stroke: var(--color-on-surface-inverse) !important;
+	.xl\:visited\:stroke\:surface-active:visited {
+		stroke: var(--color-surface-active) !important;
+	}
+
+	.xl\:visited\:stroke\:surface-disabled:visited {
+		stroke: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:visited\:stroke\:text:visited {
@@ -19791,6 +24423,18 @@
 		stroke: var(--color-text-inverse) !important;
 	}
 
+	.xl\:visited\:stroke\:text-disabled:visited {
+		stroke: var(--color-text-disabled) !important;
+	}
+
+	.xl\:visited\:stroke\:link:visited {
+		stroke: var(--color-link) !important;
+	}
+
+	.xl\:visited\:stroke\:link-hover:visited {
+		stroke: var(--color-link-hover) !important;
+	}
+
 	.xl\:visited\:stroke\:border:visited {
 		stroke: var(--color-border) !important;
 	}
@@ -19801,6 +24445,22 @@
 
 	.xl\:visited\:stroke\:border-subtle:visited {
 		stroke: var(--color-border-subtle) !important;
+	}
+
+	.xl\:visited\:stroke\:code-bg:visited {
+		stroke: var(--color-code-bg) !important;
+	}
+
+	.xl\:visited\:stroke\:code-fg:visited {
+		stroke: var(--color-code-fg) !important;
+	}
+
+	.xl\:visited\:stroke\:code-border:visited {
+		stroke: var(--color-code-border) !important;
+	}
+
+	.xl\:visited\:stroke\:scrim:visited {
+		stroke: var(--color-scrim) !important;
 	}
 
 	.xl\:visited\:stroke\:success:visited {
@@ -19861,6 +24521,26 @@
 
 	.xl\:visited\:stroke\:on-danger:visited {
 		stroke: var(--color-on-danger) !important;
+	}
+
+	.xl\:visited\:stroke\:info:visited {
+		stroke: var(--color-info) !important;
+	}
+
+	.xl\:visited\:stroke\:info-hover:visited {
+		stroke: var(--color-info-hover) !important;
+	}
+
+	.xl\:visited\:stroke\:info-active:visited {
+		stroke: var(--color-info-active) !important;
+	}
+
+	.xl\:visited\:stroke\:info-subtle:visited {
+		stroke: var(--color-info-subtle) !important;
+	}
+
+	.xl\:visited\:stroke\:on-info:visited {
+		stroke: var(--color-on-info) !important;
 	}
 
 	.xl\:visited\:stroke\:focus-ring:visited {

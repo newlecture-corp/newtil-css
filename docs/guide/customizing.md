@@ -170,8 +170,8 @@ CSS 변수는 부모→자식으로 상속되므로, 컨테이너에서 설정�
 | 토큰 | 용도 |
 |---|---|
 | `--color-surface` | 페이지 기본 배경 |
-| `--color-surface-subtle` | 살짝 들어간 카드 배경 |
-| `--color-surface-muted` | 중간 톤 영역 |
+| `--color-surface-1` | 살짝 들어간 카드 배경 |
+| `--color-surface-2` | 중간 톤 영역 |
 | `--color-surface-inverse` | 반전 배경 (snackbar 등) |
 
 ### 테두리

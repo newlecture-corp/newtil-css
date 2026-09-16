@@ -33,7 +33,7 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 **카드 만들기**
 
 <Demo>
-<div class="d:flex fd:column g:4 p:7 bg:surface-subtle bdr:5 bsh:sm w:auto" style="max-width: 20rem;">
+<div class="d:flex fd:column g:4 p:7 bg:surface-1 bdr:5 bsh:sm w:auto" style="max-width: 20rem;">
   <h3 class="fs:lg fw:semibold m:0">카드 제목</h3>
   <p class="fs:sm c:text-muted m:0">이 카드는 유틸리티 클래스만으로 만들어졌습니다. 배경, 그림자, 패딩, 간격 모두 토큰 기반입니다.</p>
   <div class="d:flex g:3 jc:end">
@@ -50,7 +50,7 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 **버튼에 간격/정렬 추가**
 
 <Demo>
-<div class="d:flex g:4 jc:center p:5 bg:surface-muted bdr:4">
+<div class="d:flex g:4 jc:center p:5 bg:surface-2 bdr:4">
   <button class="m3-btn">기본</button>
   <button class="m3-btn btn:outlined">Outlined</button>
   <button class="m3-btn btn-color:danger">삭제</button>
@@ -98,7 +98,7 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 | **Spacing** | `margin:4`, `margin-top:3`, `margin-x:auto`, `padding:5`, `gap:3` | `m:4`, `mt:3`, `mx:auto`, `p:5`, `g:3` |
 | **Sizing** | `width:full`, `height:11`, `min-width:14`, `max-height:screen-h` | `w:full`, `h:11`, `min-w:14`, `max-h:screen-h` |
 | **Color** | `color:primary`, `background-color:surface`, `border-color:border` | `c:primary`, `bg:surface`, `bdc:border` |
-| **Typography** | `font-size:md`, `font-weight:bold`, `line-height:normal`, `text-align:center` | `fs:md`, `fw:bold`, `lh:normal`, `ta:center` |
+| **Typography** | `font-size:body`, `font-weight:bold`, `line-height:normal`, `text-align:center` | `fs:md`, `fw:bold`, `lh:normal`, `ta:center` |
 | **Border** | `border-width:1`, `border-style:solid`, `border-radius:3` | `bdw:1`, `bds:solid`, `bdr:3` |
 | **Flexbox** | `flex-direction:column`, `justify-content:center`, `align-items:center` | `fd:column`, `jc:center`, `ai:center` |
 | **Grid** | `grid-template-columns:3`, `grid-column:span-2` | `gtc:3`, `gcs:span-2` |

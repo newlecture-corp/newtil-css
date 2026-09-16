@@ -1,5 +1,5 @@
 // Sizing utilities — width, height, min/max-width, min/max-height.
-// Values: design-tokens size catalog (scale + fractions + viewport + keywords).
+// Values: catalog.size = space 스케일(--space-N) + SIZE_LITERALS(분수·뷰포트·키워드; catalog.js). 0.2.1: --size-* 토큰 없음.
 import * as emit from "../emit.js";
 
 const PROPERTY_DEFS = [

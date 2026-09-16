@@ -63,9 +63,8 @@ function readCssFile(filePath) {
 //   --color-primary       -> { category: 'color', key: 'primary' }
 //   --color-primary-hover -> { category: 'color', key: 'primary-hover' }
 //   --space-4             -> { category: 'space', key: '4' }
-//   --size-1-3            -> { category: 'size', key: '1-3' }
-//   --size-screen-h-25    -> { category: 'size', key: 'screen-h-25' }
-//   --font-size-sm        -> { category: 'font-size', key: 'sm' }
+//   --size-*              -> null (0.2.1 에서 사라짐; size 카테고리는 buildCatalog 이 합성)
+//   --font-size-body-sm   -> { category: 'font-size', key: 'body-sm' }
 //   --line-height-tight   -> { category: 'line-height', key: 'tight' }
 //   --border-width-1      -> { category: 'border-width', key: '1' }
 //   --letter-spacing-tight-> { category: 'letter-spacing', key: 'tight' }
@@ -76,7 +75,6 @@ function categorize(name) {
 	const knownPrefixes = [
 		"color",
 		"space",
-		"size",
 		"radius",
 		"border-width",
 		"font-size",
@@ -97,6 +95,37 @@ function categorize(name) {
 	}
 	return null; // unrecognized — skip
 }
+
+// Sizing literals — design-tokens 0.2.1 부터 분수·뷰포트·키워드는 토큰이 아니다 (설계 결정이 없는 CSS 값).
+// 크기 유틸(w:, h:, min-w: …)은 space 스케일 + 이 표로 만든다. 클래스 이름(w:1-2, h:screen-h, w:full …)은 그대로.
+export const SIZE_LITERALS = {
+	"1-2": "50%",
+	"1-3": "33.333333%",
+	"2-3": "66.666667%",
+	"1-4": "25%",
+	"3-4": "75%",
+	"1-5": "20%",
+	"2-5": "40%",
+	"3-5": "60%",
+	"4-5": "80%",
+	"1-6": "16.666667%",
+	"5-6": "83.333333%",
+	"1-12": "8.333333%",
+	"5-12": "41.666667%",
+	"7-12": "58.333333%",
+	"11-12": "91.666667%",
+	"screen-w-25": "25vw",
+	"screen-w-50": "50vw",
+	"screen-w-75": "75vw",
+	"screen-w": "100vw",
+	"screen-h-25": "25vh",
+	"screen-h-50": "50vh",
+	"screen-h-75": "75vh",
+	"screen-h": "100vh",
+	full: "100%",
+	half: "50%",
+	auto: "auto",
+};
 
 // Build catalog: { category: { key: 'var(--full-name)' } }
 export function buildCatalog() {
@@ -132,6 +161,10 @@ export function buildCatalog() {
 			}
 		}
 	}
+
+	// size 카테고리는 토큰 파일이 아니라 space 스케일 + SIZE_LITERALS 로 합성한다.
+	// (0.2.0 이 설치돼 있어도 --size-* 토큰을 쓰지 않도록 항상 덮어쓴다.)
+	catalog.size = { ...(catalog.space || {}), ...SIZE_LITERALS };
 
 	return catalog;
 }

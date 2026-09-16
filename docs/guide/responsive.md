@@ -61,7 +61,7 @@
 prefix를 중첩할 수 있습니다: `{breakpoint}:{pseudo}:{property}:{value}`
 
 <Demo>
-<div class="padding:5 bg-color:surface-subtle color:text hover:background-color:danger lg:hover:background-color:secondary cursor:pointer transition:default">
+<div class="padding:5 bg-color:surface-1 color:text hover:background-color:danger lg:hover:background-color:secondary cursor:pointer transition:default">
   모바일: hover 시 빨강, 데스크톱: hover 시 파랑
 </div>
 </Demo>

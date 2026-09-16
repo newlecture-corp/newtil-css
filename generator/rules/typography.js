@@ -15,7 +15,7 @@ export default {
 	generate(catalog) {
 		const out = [emit.header("TYPOGRAPHY UTILITIES")];
 
-		// font-size — uses all 16 font-size tokens (role + scale aliases)
+		// font-size — 역할명 토큰 9개 (caption, body-sm, body, body-lg, heading-sm/md/lg/xl, display). 0.2.1: 티셔츠 별칭(xs…4xl) 제거
 		out.push(emit.sub("FONT-SIZE"));
 		for (const [key, value] of Object.entries(catalog["font-size"])) {
 			out.push(

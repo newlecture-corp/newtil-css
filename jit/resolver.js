@@ -306,8 +306,9 @@ function tryResolve(prop, value, catalog) {
 	}
 
 	// === BOX-SHADOW ===
-	if (prop === "box-shadow" && catalog.shadow && value in catalog.shadow) {
-		return { declarations: [{ property: "box-shadow", value: catalog.shadow[value] }] };
+	if (prop === "box-shadow") {
+		if (value === "none") return { declarations: [{ property: "box-shadow", value: "none" }] };
+		if (catalog.shadow && value in catalog.shadow) return { declarations: [{ property: "box-shadow", value: catalog.shadow[value] }] };
 	}
 
 	// === BORDER-RADIUS ===

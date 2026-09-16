@@ -181,14 +181,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.outline-color\:on-surface,
-.olc\:on-surface {
-	outline-color: var(--color-on-surface) !important;
+.outline-color\:surface-hover,
+.olc\:surface-hover {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.outline-color\:on-surface-inverse,
-.olc\:on-surface-inverse {
-	outline-color: var(--color-on-surface-inverse) !important;
+.outline-color\:surface-active,
+.olc\:surface-active {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.outline-color\:surface-disabled,
+.olc\:surface-disabled {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .outline-color\:text,
@@ -211,6 +216,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.outline-color\:text-disabled,
+.olc\:text-disabled {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.outline-color\:link,
+.olc\:link {
+	outline-color: var(--color-link) !important;
+}
+
+.outline-color\:link-hover,
+.olc\:link-hover {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .outline-color\:border,
 .olc\:border {
 	outline-color: var(--color-border) !important;
@@ -224,6 +244,26 @@
 .outline-color\:border-subtle,
 .olc\:border-subtle {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.outline-color\:code-bg,
+.olc\:code-bg {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.outline-color\:code-fg,
+.olc\:code-fg {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.outline-color\:code-border,
+.olc\:code-border {
+	outline-color: var(--color-code-border) !important;
+}
+
+.outline-color\:scrim,
+.olc\:scrim {
+	outline-color: var(--color-scrim) !important;
 }
 
 .outline-color\:success,
@@ -299,6 +339,31 @@
 .outline-color\:on-danger,
 .olc\:on-danger {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.outline-color\:info,
+.olc\:info {
+	outline-color: var(--color-info) !important;
+}
+
+.outline-color\:info-hover,
+.olc\:info-hover {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.outline-color\:info-active,
+.olc\:info-active {
+	outline-color: var(--color-info-active) !important;
+}
+
+.outline-color\:info-subtle,
+.olc\:info-subtle {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.outline-color\:on-info,
+.olc\:on-info {
+	outline-color: var(--color-on-info) !important;
 }
 
 .outline-color\:focus-ring,
@@ -567,14 +632,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.hover\:outline-color\:on-surface:hover,
-.hover\:olc\:on-surface:hover {
-	outline-color: var(--color-on-surface) !important;
+.hover\:outline-color\:surface-hover:hover,
+.hover\:olc\:surface-hover:hover {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.hover\:outline-color\:on-surface-inverse:hover,
-.hover\:olc\:on-surface-inverse:hover {
-	outline-color: var(--color-on-surface-inverse) !important;
+.hover\:outline-color\:surface-active:hover,
+.hover\:olc\:surface-active:hover {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.hover\:outline-color\:surface-disabled:hover,
+.hover\:olc\:surface-disabled:hover {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .hover\:outline-color\:text:hover,
@@ -597,6 +667,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.hover\:outline-color\:text-disabled:hover,
+.hover\:olc\:text-disabled:hover {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.hover\:outline-color\:link:hover,
+.hover\:olc\:link:hover {
+	outline-color: var(--color-link) !important;
+}
+
+.hover\:outline-color\:link-hover:hover,
+.hover\:olc\:link-hover:hover {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .hover\:outline-color\:border:hover,
 .hover\:olc\:border:hover {
 	outline-color: var(--color-border) !important;
@@ -610,6 +695,26 @@
 .hover\:outline-color\:border-subtle:hover,
 .hover\:olc\:border-subtle:hover {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.hover\:outline-color\:code-bg:hover,
+.hover\:olc\:code-bg:hover {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.hover\:outline-color\:code-fg:hover,
+.hover\:olc\:code-fg:hover {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.hover\:outline-color\:code-border:hover,
+.hover\:olc\:code-border:hover {
+	outline-color: var(--color-code-border) !important;
+}
+
+.hover\:outline-color\:scrim:hover,
+.hover\:olc\:scrim:hover {
+	outline-color: var(--color-scrim) !important;
 }
 
 .hover\:outline-color\:success:hover,
@@ -685,6 +790,31 @@
 .hover\:outline-color\:on-danger:hover,
 .hover\:olc\:on-danger:hover {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.hover\:outline-color\:info:hover,
+.hover\:olc\:info:hover {
+	outline-color: var(--color-info) !important;
+}
+
+.hover\:outline-color\:info-hover:hover,
+.hover\:olc\:info-hover:hover {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.hover\:outline-color\:info-active:hover,
+.hover\:olc\:info-active:hover {
+	outline-color: var(--color-info-active) !important;
+}
+
+.hover\:outline-color\:info-subtle:hover,
+.hover\:olc\:info-subtle:hover {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.hover\:outline-color\:on-info:hover,
+.hover\:olc\:on-info:hover {
+	outline-color: var(--color-on-info) !important;
 }
 
 .hover\:outline-color\:focus-ring:hover,
@@ -953,14 +1083,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.focus\:outline-color\:on-surface:focus,
-.focus\:olc\:on-surface:focus {
-	outline-color: var(--color-on-surface) !important;
+.focus\:outline-color\:surface-hover:focus,
+.focus\:olc\:surface-hover:focus {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.focus\:outline-color\:on-surface-inverse:focus,
-.focus\:olc\:on-surface-inverse:focus {
-	outline-color: var(--color-on-surface-inverse) !important;
+.focus\:outline-color\:surface-active:focus,
+.focus\:olc\:surface-active:focus {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.focus\:outline-color\:surface-disabled:focus,
+.focus\:olc\:surface-disabled:focus {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .focus\:outline-color\:text:focus,
@@ -983,6 +1118,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.focus\:outline-color\:text-disabled:focus,
+.focus\:olc\:text-disabled:focus {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.focus\:outline-color\:link:focus,
+.focus\:olc\:link:focus {
+	outline-color: var(--color-link) !important;
+}
+
+.focus\:outline-color\:link-hover:focus,
+.focus\:olc\:link-hover:focus {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .focus\:outline-color\:border:focus,
 .focus\:olc\:border:focus {
 	outline-color: var(--color-border) !important;
@@ -996,6 +1146,26 @@
 .focus\:outline-color\:border-subtle:focus,
 .focus\:olc\:border-subtle:focus {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.focus\:outline-color\:code-bg:focus,
+.focus\:olc\:code-bg:focus {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.focus\:outline-color\:code-fg:focus,
+.focus\:olc\:code-fg:focus {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.focus\:outline-color\:code-border:focus,
+.focus\:olc\:code-border:focus {
+	outline-color: var(--color-code-border) !important;
+}
+
+.focus\:outline-color\:scrim:focus,
+.focus\:olc\:scrim:focus {
+	outline-color: var(--color-scrim) !important;
 }
 
 .focus\:outline-color\:success:focus,
@@ -1071,6 +1241,31 @@
 .focus\:outline-color\:on-danger:focus,
 .focus\:olc\:on-danger:focus {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.focus\:outline-color\:info:focus,
+.focus\:olc\:info:focus {
+	outline-color: var(--color-info) !important;
+}
+
+.focus\:outline-color\:info-hover:focus,
+.focus\:olc\:info-hover:focus {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.focus\:outline-color\:info-active:focus,
+.focus\:olc\:info-active:focus {
+	outline-color: var(--color-info-active) !important;
+}
+
+.focus\:outline-color\:info-subtle:focus,
+.focus\:olc\:info-subtle:focus {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.focus\:outline-color\:on-info:focus,
+.focus\:olc\:on-info:focus {
+	outline-color: var(--color-on-info) !important;
 }
 
 .focus\:outline-color\:focus-ring:focus,
@@ -1339,14 +1534,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.focus-visible\:outline-color\:on-surface:focus-visible,
-.focus-visible\:olc\:on-surface:focus-visible {
-	outline-color: var(--color-on-surface) !important;
+.focus-visible\:outline-color\:surface-hover:focus-visible,
+.focus-visible\:olc\:surface-hover:focus-visible {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.focus-visible\:outline-color\:on-surface-inverse:focus-visible,
-.focus-visible\:olc\:on-surface-inverse:focus-visible {
-	outline-color: var(--color-on-surface-inverse) !important;
+.focus-visible\:outline-color\:surface-active:focus-visible,
+.focus-visible\:olc\:surface-active:focus-visible {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.focus-visible\:outline-color\:surface-disabled:focus-visible,
+.focus-visible\:olc\:surface-disabled:focus-visible {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .focus-visible\:outline-color\:text:focus-visible,
@@ -1369,6 +1569,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.focus-visible\:outline-color\:text-disabled:focus-visible,
+.focus-visible\:olc\:text-disabled:focus-visible {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.focus-visible\:outline-color\:link:focus-visible,
+.focus-visible\:olc\:link:focus-visible {
+	outline-color: var(--color-link) !important;
+}
+
+.focus-visible\:outline-color\:link-hover:focus-visible,
+.focus-visible\:olc\:link-hover:focus-visible {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .focus-visible\:outline-color\:border:focus-visible,
 .focus-visible\:olc\:border:focus-visible {
 	outline-color: var(--color-border) !important;
@@ -1382,6 +1597,26 @@
 .focus-visible\:outline-color\:border-subtle:focus-visible,
 .focus-visible\:olc\:border-subtle:focus-visible {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.focus-visible\:outline-color\:code-bg:focus-visible,
+.focus-visible\:olc\:code-bg:focus-visible {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.focus-visible\:outline-color\:code-fg:focus-visible,
+.focus-visible\:olc\:code-fg:focus-visible {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.focus-visible\:outline-color\:code-border:focus-visible,
+.focus-visible\:olc\:code-border:focus-visible {
+	outline-color: var(--color-code-border) !important;
+}
+
+.focus-visible\:outline-color\:scrim:focus-visible,
+.focus-visible\:olc\:scrim:focus-visible {
+	outline-color: var(--color-scrim) !important;
 }
 
 .focus-visible\:outline-color\:success:focus-visible,
@@ -1457,6 +1692,31 @@
 .focus-visible\:outline-color\:on-danger:focus-visible,
 .focus-visible\:olc\:on-danger:focus-visible {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.focus-visible\:outline-color\:info:focus-visible,
+.focus-visible\:olc\:info:focus-visible {
+	outline-color: var(--color-info) !important;
+}
+
+.focus-visible\:outline-color\:info-hover:focus-visible,
+.focus-visible\:olc\:info-hover:focus-visible {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.focus-visible\:outline-color\:info-active:focus-visible,
+.focus-visible\:olc\:info-active:focus-visible {
+	outline-color: var(--color-info-active) !important;
+}
+
+.focus-visible\:outline-color\:info-subtle:focus-visible,
+.focus-visible\:olc\:info-subtle:focus-visible {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.focus-visible\:outline-color\:on-info:focus-visible,
+.focus-visible\:olc\:on-info:focus-visible {
+	outline-color: var(--color-on-info) !important;
 }
 
 .focus-visible\:outline-color\:focus-ring:focus-visible,
@@ -1725,14 +1985,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.focus-within\:outline-color\:on-surface:focus-within,
-.focus-within\:olc\:on-surface:focus-within {
-	outline-color: var(--color-on-surface) !important;
+.focus-within\:outline-color\:surface-hover:focus-within,
+.focus-within\:olc\:surface-hover:focus-within {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.focus-within\:outline-color\:on-surface-inverse:focus-within,
-.focus-within\:olc\:on-surface-inverse:focus-within {
-	outline-color: var(--color-on-surface-inverse) !important;
+.focus-within\:outline-color\:surface-active:focus-within,
+.focus-within\:olc\:surface-active:focus-within {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.focus-within\:outline-color\:surface-disabled:focus-within,
+.focus-within\:olc\:surface-disabled:focus-within {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .focus-within\:outline-color\:text:focus-within,
@@ -1755,6 +2020,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.focus-within\:outline-color\:text-disabled:focus-within,
+.focus-within\:olc\:text-disabled:focus-within {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.focus-within\:outline-color\:link:focus-within,
+.focus-within\:olc\:link:focus-within {
+	outline-color: var(--color-link) !important;
+}
+
+.focus-within\:outline-color\:link-hover:focus-within,
+.focus-within\:olc\:link-hover:focus-within {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .focus-within\:outline-color\:border:focus-within,
 .focus-within\:olc\:border:focus-within {
 	outline-color: var(--color-border) !important;
@@ -1768,6 +2048,26 @@
 .focus-within\:outline-color\:border-subtle:focus-within,
 .focus-within\:olc\:border-subtle:focus-within {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.focus-within\:outline-color\:code-bg:focus-within,
+.focus-within\:olc\:code-bg:focus-within {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.focus-within\:outline-color\:code-fg:focus-within,
+.focus-within\:olc\:code-fg:focus-within {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.focus-within\:outline-color\:code-border:focus-within,
+.focus-within\:olc\:code-border:focus-within {
+	outline-color: var(--color-code-border) !important;
+}
+
+.focus-within\:outline-color\:scrim:focus-within,
+.focus-within\:olc\:scrim:focus-within {
+	outline-color: var(--color-scrim) !important;
 }
 
 .focus-within\:outline-color\:success:focus-within,
@@ -1843,6 +2143,31 @@
 .focus-within\:outline-color\:on-danger:focus-within,
 .focus-within\:olc\:on-danger:focus-within {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.focus-within\:outline-color\:info:focus-within,
+.focus-within\:olc\:info:focus-within {
+	outline-color: var(--color-info) !important;
+}
+
+.focus-within\:outline-color\:info-hover:focus-within,
+.focus-within\:olc\:info-hover:focus-within {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.focus-within\:outline-color\:info-active:focus-within,
+.focus-within\:olc\:info-active:focus-within {
+	outline-color: var(--color-info-active) !important;
+}
+
+.focus-within\:outline-color\:info-subtle:focus-within,
+.focus-within\:olc\:info-subtle:focus-within {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.focus-within\:outline-color\:on-info:focus-within,
+.focus-within\:olc\:on-info:focus-within {
+	outline-color: var(--color-on-info) !important;
 }
 
 .focus-within\:outline-color\:focus-ring:focus-within,
@@ -2111,14 +2436,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.active\:outline-color\:on-surface:active,
-.active\:olc\:on-surface:active {
-	outline-color: var(--color-on-surface) !important;
+.active\:outline-color\:surface-hover:active,
+.active\:olc\:surface-hover:active {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.active\:outline-color\:on-surface-inverse:active,
-.active\:olc\:on-surface-inverse:active {
-	outline-color: var(--color-on-surface-inverse) !important;
+.active\:outline-color\:surface-active:active,
+.active\:olc\:surface-active:active {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.active\:outline-color\:surface-disabled:active,
+.active\:olc\:surface-disabled:active {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .active\:outline-color\:text:active,
@@ -2141,6 +2471,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.active\:outline-color\:text-disabled:active,
+.active\:olc\:text-disabled:active {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.active\:outline-color\:link:active,
+.active\:olc\:link:active {
+	outline-color: var(--color-link) !important;
+}
+
+.active\:outline-color\:link-hover:active,
+.active\:olc\:link-hover:active {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .active\:outline-color\:border:active,
 .active\:olc\:border:active {
 	outline-color: var(--color-border) !important;
@@ -2154,6 +2499,26 @@
 .active\:outline-color\:border-subtle:active,
 .active\:olc\:border-subtle:active {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.active\:outline-color\:code-bg:active,
+.active\:olc\:code-bg:active {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.active\:outline-color\:code-fg:active,
+.active\:olc\:code-fg:active {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.active\:outline-color\:code-border:active,
+.active\:olc\:code-border:active {
+	outline-color: var(--color-code-border) !important;
+}
+
+.active\:outline-color\:scrim:active,
+.active\:olc\:scrim:active {
+	outline-color: var(--color-scrim) !important;
 }
 
 .active\:outline-color\:success:active,
@@ -2229,6 +2594,31 @@
 .active\:outline-color\:on-danger:active,
 .active\:olc\:on-danger:active {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.active\:outline-color\:info:active,
+.active\:olc\:info:active {
+	outline-color: var(--color-info) !important;
+}
+
+.active\:outline-color\:info-hover:active,
+.active\:olc\:info-hover:active {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.active\:outline-color\:info-active:active,
+.active\:olc\:info-active:active {
+	outline-color: var(--color-info-active) !important;
+}
+
+.active\:outline-color\:info-subtle:active,
+.active\:olc\:info-subtle:active {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.active\:outline-color\:on-info:active,
+.active\:olc\:on-info:active {
+	outline-color: var(--color-on-info) !important;
 }
 
 .active\:outline-color\:focus-ring:active,
@@ -2497,14 +2887,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.disabled\:outline-color\:on-surface:disabled,
-.disabled\:olc\:on-surface:disabled {
-	outline-color: var(--color-on-surface) !important;
+.disabled\:outline-color\:surface-hover:disabled,
+.disabled\:olc\:surface-hover:disabled {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.disabled\:outline-color\:on-surface-inverse:disabled,
-.disabled\:olc\:on-surface-inverse:disabled {
-	outline-color: var(--color-on-surface-inverse) !important;
+.disabled\:outline-color\:surface-active:disabled,
+.disabled\:olc\:surface-active:disabled {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.disabled\:outline-color\:surface-disabled:disabled,
+.disabled\:olc\:surface-disabled:disabled {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .disabled\:outline-color\:text:disabled,
@@ -2527,6 +2922,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.disabled\:outline-color\:text-disabled:disabled,
+.disabled\:olc\:text-disabled:disabled {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.disabled\:outline-color\:link:disabled,
+.disabled\:olc\:link:disabled {
+	outline-color: var(--color-link) !important;
+}
+
+.disabled\:outline-color\:link-hover:disabled,
+.disabled\:olc\:link-hover:disabled {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .disabled\:outline-color\:border:disabled,
 .disabled\:olc\:border:disabled {
 	outline-color: var(--color-border) !important;
@@ -2540,6 +2950,26 @@
 .disabled\:outline-color\:border-subtle:disabled,
 .disabled\:olc\:border-subtle:disabled {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.disabled\:outline-color\:code-bg:disabled,
+.disabled\:olc\:code-bg:disabled {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.disabled\:outline-color\:code-fg:disabled,
+.disabled\:olc\:code-fg:disabled {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.disabled\:outline-color\:code-border:disabled,
+.disabled\:olc\:code-border:disabled {
+	outline-color: var(--color-code-border) !important;
+}
+
+.disabled\:outline-color\:scrim:disabled,
+.disabled\:olc\:scrim:disabled {
+	outline-color: var(--color-scrim) !important;
 }
 
 .disabled\:outline-color\:success:disabled,
@@ -2615,6 +3045,31 @@
 .disabled\:outline-color\:on-danger:disabled,
 .disabled\:olc\:on-danger:disabled {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.disabled\:outline-color\:info:disabled,
+.disabled\:olc\:info:disabled {
+	outline-color: var(--color-info) !important;
+}
+
+.disabled\:outline-color\:info-hover:disabled,
+.disabled\:olc\:info-hover:disabled {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.disabled\:outline-color\:info-active:disabled,
+.disabled\:olc\:info-active:disabled {
+	outline-color: var(--color-info-active) !important;
+}
+
+.disabled\:outline-color\:info-subtle:disabled,
+.disabled\:olc\:info-subtle:disabled {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.disabled\:outline-color\:on-info:disabled,
+.disabled\:olc\:on-info:disabled {
+	outline-color: var(--color-on-info) !important;
 }
 
 .disabled\:outline-color\:focus-ring:disabled,
@@ -2883,14 +3338,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.checked\:outline-color\:on-surface:checked,
-.checked\:olc\:on-surface:checked {
-	outline-color: var(--color-on-surface) !important;
+.checked\:outline-color\:surface-hover:checked,
+.checked\:olc\:surface-hover:checked {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.checked\:outline-color\:on-surface-inverse:checked,
-.checked\:olc\:on-surface-inverse:checked {
-	outline-color: var(--color-on-surface-inverse) !important;
+.checked\:outline-color\:surface-active:checked,
+.checked\:olc\:surface-active:checked {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.checked\:outline-color\:surface-disabled:checked,
+.checked\:olc\:surface-disabled:checked {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .checked\:outline-color\:text:checked,
@@ -2913,6 +3373,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.checked\:outline-color\:text-disabled:checked,
+.checked\:olc\:text-disabled:checked {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.checked\:outline-color\:link:checked,
+.checked\:olc\:link:checked {
+	outline-color: var(--color-link) !important;
+}
+
+.checked\:outline-color\:link-hover:checked,
+.checked\:olc\:link-hover:checked {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .checked\:outline-color\:border:checked,
 .checked\:olc\:border:checked {
 	outline-color: var(--color-border) !important;
@@ -2926,6 +3401,26 @@
 .checked\:outline-color\:border-subtle:checked,
 .checked\:olc\:border-subtle:checked {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.checked\:outline-color\:code-bg:checked,
+.checked\:olc\:code-bg:checked {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.checked\:outline-color\:code-fg:checked,
+.checked\:olc\:code-fg:checked {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.checked\:outline-color\:code-border:checked,
+.checked\:olc\:code-border:checked {
+	outline-color: var(--color-code-border) !important;
+}
+
+.checked\:outline-color\:scrim:checked,
+.checked\:olc\:scrim:checked {
+	outline-color: var(--color-scrim) !important;
 }
 
 .checked\:outline-color\:success:checked,
@@ -3001,6 +3496,31 @@
 .checked\:outline-color\:on-danger:checked,
 .checked\:olc\:on-danger:checked {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.checked\:outline-color\:info:checked,
+.checked\:olc\:info:checked {
+	outline-color: var(--color-info) !important;
+}
+
+.checked\:outline-color\:info-hover:checked,
+.checked\:olc\:info-hover:checked {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.checked\:outline-color\:info-active:checked,
+.checked\:olc\:info-active:checked {
+	outline-color: var(--color-info-active) !important;
+}
+
+.checked\:outline-color\:info-subtle:checked,
+.checked\:olc\:info-subtle:checked {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.checked\:outline-color\:on-info:checked,
+.checked\:olc\:on-info:checked {
+	outline-color: var(--color-on-info) !important;
 }
 
 .checked\:outline-color\:focus-ring:checked,
@@ -3269,14 +3789,19 @@
 	outline-color: var(--color-surface-inverse) !important;
 }
 
-.visited\:outline-color\:on-surface:visited,
-.visited\:olc\:on-surface:visited {
-	outline-color: var(--color-on-surface) !important;
+.visited\:outline-color\:surface-hover:visited,
+.visited\:olc\:surface-hover:visited {
+	outline-color: var(--color-surface-hover) !important;
 }
 
-.visited\:outline-color\:on-surface-inverse:visited,
-.visited\:olc\:on-surface-inverse:visited {
-	outline-color: var(--color-on-surface-inverse) !important;
+.visited\:outline-color\:surface-active:visited,
+.visited\:olc\:surface-active:visited {
+	outline-color: var(--color-surface-active) !important;
+}
+
+.visited\:outline-color\:surface-disabled:visited,
+.visited\:olc\:surface-disabled:visited {
+	outline-color: var(--color-surface-disabled) !important;
 }
 
 .visited\:outline-color\:text:visited,
@@ -3299,6 +3824,21 @@
 	outline-color: var(--color-text-inverse) !important;
 }
 
+.visited\:outline-color\:text-disabled:visited,
+.visited\:olc\:text-disabled:visited {
+	outline-color: var(--color-text-disabled) !important;
+}
+
+.visited\:outline-color\:link:visited,
+.visited\:olc\:link:visited {
+	outline-color: var(--color-link) !important;
+}
+
+.visited\:outline-color\:link-hover:visited,
+.visited\:olc\:link-hover:visited {
+	outline-color: var(--color-link-hover) !important;
+}
+
 .visited\:outline-color\:border:visited,
 .visited\:olc\:border:visited {
 	outline-color: var(--color-border) !important;
@@ -3312,6 +3852,26 @@
 .visited\:outline-color\:border-subtle:visited,
 .visited\:olc\:border-subtle:visited {
 	outline-color: var(--color-border-subtle) !important;
+}
+
+.visited\:outline-color\:code-bg:visited,
+.visited\:olc\:code-bg:visited {
+	outline-color: var(--color-code-bg) !important;
+}
+
+.visited\:outline-color\:code-fg:visited,
+.visited\:olc\:code-fg:visited {
+	outline-color: var(--color-code-fg) !important;
+}
+
+.visited\:outline-color\:code-border:visited,
+.visited\:olc\:code-border:visited {
+	outline-color: var(--color-code-border) !important;
+}
+
+.visited\:outline-color\:scrim:visited,
+.visited\:olc\:scrim:visited {
+	outline-color: var(--color-scrim) !important;
 }
 
 .visited\:outline-color\:success:visited,
@@ -3387,6 +3947,31 @@
 .visited\:outline-color\:on-danger:visited,
 .visited\:olc\:on-danger:visited {
 	outline-color: var(--color-on-danger) !important;
+}
+
+.visited\:outline-color\:info:visited,
+.visited\:olc\:info:visited {
+	outline-color: var(--color-info) !important;
+}
+
+.visited\:outline-color\:info-hover:visited,
+.visited\:olc\:info-hover:visited {
+	outline-color: var(--color-info-hover) !important;
+}
+
+.visited\:outline-color\:info-active:visited,
+.visited\:olc\:info-active:visited {
+	outline-color: var(--color-info-active) !important;
+}
+
+.visited\:outline-color\:info-subtle:visited,
+.visited\:olc\:info-subtle:visited {
+	outline-color: var(--color-info-subtle) !important;
+}
+
+.visited\:outline-color\:on-info:visited,
+.visited\:olc\:on-info:visited {
+	outline-color: var(--color-on-info) !important;
 }
 
 .visited\:outline-color\:focus-ring:visited,
@@ -3656,14 +4241,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:outline-color\:on-surface,
-	.sm\:olc\:on-surface {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:outline-color\:surface-hover,
+	.sm\:olc\:surface-hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:outline-color\:on-surface-inverse,
-	.sm\:olc\:on-surface-inverse {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:outline-color\:surface-active,
+	.sm\:olc\:surface-active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:outline-color\:surface-disabled,
+	.sm\:olc\:surface-disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:outline-color\:text,
@@ -3686,6 +4276,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:outline-color\:text-disabled,
+	.sm\:olc\:text-disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:outline-color\:link,
+	.sm\:olc\:link {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:outline-color\:link-hover,
+	.sm\:olc\:link-hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:outline-color\:border,
 	.sm\:olc\:border {
 		outline-color: var(--color-border) !important;
@@ -3699,6 +4304,26 @@
 	.sm\:outline-color\:border-subtle,
 	.sm\:olc\:border-subtle {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:outline-color\:code-bg,
+	.sm\:olc\:code-bg {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:outline-color\:code-fg,
+	.sm\:olc\:code-fg {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:outline-color\:code-border,
+	.sm\:olc\:code-border {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:outline-color\:scrim,
+	.sm\:olc\:scrim {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:outline-color\:success,
@@ -3774,6 +4399,31 @@
 	.sm\:outline-color\:on-danger,
 	.sm\:olc\:on-danger {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:outline-color\:info,
+	.sm\:olc\:info {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:outline-color\:info-hover,
+	.sm\:olc\:info-hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:outline-color\:info-active,
+	.sm\:olc\:info-active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:outline-color\:info-subtle,
+	.sm\:olc\:info-subtle {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:outline-color\:on-info,
+	.sm\:olc\:on-info {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:outline-color\:focus-ring,
@@ -4042,14 +4692,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:hover\:outline-color\:on-surface:hover,
-	.sm\:hover\:olc\:on-surface:hover {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:hover\:outline-color\:surface-hover:hover,
+	.sm\:hover\:olc\:surface-hover:hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:hover\:outline-color\:on-surface-inverse:hover,
-	.sm\:hover\:olc\:on-surface-inverse:hover {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:hover\:outline-color\:surface-active:hover,
+	.sm\:hover\:olc\:surface-active:hover {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:hover\:outline-color\:surface-disabled:hover,
+	.sm\:hover\:olc\:surface-disabled:hover {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:hover\:outline-color\:text:hover,
@@ -4072,6 +4727,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:hover\:outline-color\:text-disabled:hover,
+	.sm\:hover\:olc\:text-disabled:hover {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:hover\:outline-color\:link:hover,
+	.sm\:hover\:olc\:link:hover {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:hover\:outline-color\:link-hover:hover,
+	.sm\:hover\:olc\:link-hover:hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:hover\:outline-color\:border:hover,
 	.sm\:hover\:olc\:border:hover {
 		outline-color: var(--color-border) !important;
@@ -4085,6 +4755,26 @@
 	.sm\:hover\:outline-color\:border-subtle:hover,
 	.sm\:hover\:olc\:border-subtle:hover {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:hover\:outline-color\:code-bg:hover,
+	.sm\:hover\:olc\:code-bg:hover {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:hover\:outline-color\:code-fg:hover,
+	.sm\:hover\:olc\:code-fg:hover {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:hover\:outline-color\:code-border:hover,
+	.sm\:hover\:olc\:code-border:hover {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:hover\:outline-color\:scrim:hover,
+	.sm\:hover\:olc\:scrim:hover {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:hover\:outline-color\:success:hover,
@@ -4160,6 +4850,31 @@
 	.sm\:hover\:outline-color\:on-danger:hover,
 	.sm\:hover\:olc\:on-danger:hover {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:hover\:outline-color\:info:hover,
+	.sm\:hover\:olc\:info:hover {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:hover\:outline-color\:info-hover:hover,
+	.sm\:hover\:olc\:info-hover:hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:hover\:outline-color\:info-active:hover,
+	.sm\:hover\:olc\:info-active:hover {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:hover\:outline-color\:info-subtle:hover,
+	.sm\:hover\:olc\:info-subtle:hover {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:hover\:outline-color\:on-info:hover,
+	.sm\:hover\:olc\:on-info:hover {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:hover\:outline-color\:focus-ring:hover,
@@ -4428,14 +5143,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus\:outline-color\:on-surface:focus,
-	.sm\:focus\:olc\:on-surface:focus {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:focus\:outline-color\:surface-hover:focus,
+	.sm\:focus\:olc\:surface-hover:focus {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus\:outline-color\:on-surface-inverse:focus,
-	.sm\:focus\:olc\:on-surface-inverse:focus {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:focus\:outline-color\:surface-active:focus,
+	.sm\:focus\:olc\:surface-active:focus {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus\:outline-color\:surface-disabled:focus,
+	.sm\:focus\:olc\:surface-disabled:focus {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus\:outline-color\:text:focus,
@@ -4458,6 +5178,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus\:outline-color\:text-disabled:focus,
+	.sm\:focus\:olc\:text-disabled:focus {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus\:outline-color\:link:focus,
+	.sm\:focus\:olc\:link:focus {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:focus\:outline-color\:link-hover:focus,
+	.sm\:focus\:olc\:link-hover:focus {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus\:outline-color\:border:focus,
 	.sm\:focus\:olc\:border:focus {
 		outline-color: var(--color-border) !important;
@@ -4471,6 +5206,26 @@
 	.sm\:focus\:outline-color\:border-subtle:focus,
 	.sm\:focus\:olc\:border-subtle:focus {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus\:outline-color\:code-bg:focus,
+	.sm\:focus\:olc\:code-bg:focus {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus\:outline-color\:code-fg:focus,
+	.sm\:focus\:olc\:code-fg:focus {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus\:outline-color\:code-border:focus,
+	.sm\:focus\:olc\:code-border:focus {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:focus\:outline-color\:scrim:focus,
+	.sm\:focus\:olc\:scrim:focus {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:focus\:outline-color\:success:focus,
@@ -4546,6 +5301,31 @@
 	.sm\:focus\:outline-color\:on-danger:focus,
 	.sm\:focus\:olc\:on-danger:focus {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus\:outline-color\:info:focus,
+	.sm\:focus\:olc\:info:focus {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:focus\:outline-color\:info-hover:focus,
+	.sm\:focus\:olc\:info-hover:focus {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus\:outline-color\:info-active:focus,
+	.sm\:focus\:olc\:info-active:focus {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:focus\:outline-color\:info-subtle:focus,
+	.sm\:focus\:olc\:info-subtle:focus {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus\:outline-color\:on-info:focus,
+	.sm\:focus\:olc\:on-info:focus {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:focus\:outline-color\:focus-ring:focus,
@@ -4814,14 +5594,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-visible\:outline-color\:on-surface:focus-visible,
-	.sm\:focus-visible\:olc\:on-surface:focus-visible {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:focus-visible\:outline-color\:surface-hover:focus-visible,
+	.sm\:focus-visible\:olc\:surface-hover:focus-visible {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-visible\:outline-color\:on-surface-inverse:focus-visible,
-	.sm\:focus-visible\:olc\:on-surface-inverse:focus-visible {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:focus-visible\:outline-color\:surface-active:focus-visible,
+	.sm\:focus-visible\:olc\:surface-active:focus-visible {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:surface-disabled:focus-visible,
+	.sm\:focus-visible\:olc\:surface-disabled:focus-visible {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-visible\:outline-color\:text:focus-visible,
@@ -4844,6 +5629,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-visible\:outline-color\:text-disabled:focus-visible,
+	.sm\:focus-visible\:olc\:text-disabled:focus-visible {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:link:focus-visible,
+	.sm\:focus-visible\:olc\:link:focus-visible {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:link-hover:focus-visible,
+	.sm\:focus-visible\:olc\:link-hover:focus-visible {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-visible\:outline-color\:border:focus-visible,
 	.sm\:focus-visible\:olc\:border:focus-visible {
 		outline-color: var(--color-border) !important;
@@ -4857,6 +5657,26 @@
 	.sm\:focus-visible\:outline-color\:border-subtle:focus-visible,
 	.sm\:focus-visible\:olc\:border-subtle:focus-visible {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:code-bg:focus-visible,
+	.sm\:focus-visible\:olc\:code-bg:focus-visible {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:code-fg:focus-visible,
+	.sm\:focus-visible\:olc\:code-fg:focus-visible {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:code-border:focus-visible,
+	.sm\:focus-visible\:olc\:code-border:focus-visible {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:scrim:focus-visible,
+	.sm\:focus-visible\:olc\:scrim:focus-visible {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-visible\:outline-color\:success:focus-visible,
@@ -4932,6 +5752,31 @@
 	.sm\:focus-visible\:outline-color\:on-danger:focus-visible,
 	.sm\:focus-visible\:olc\:on-danger:focus-visible {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:info:focus-visible,
+	.sm\:focus-visible\:olc\:info:focus-visible {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:info-hover:focus-visible,
+	.sm\:focus-visible\:olc\:info-hover:focus-visible {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:info-active:focus-visible,
+	.sm\:focus-visible\:olc\:info-active:focus-visible {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:info-subtle:focus-visible,
+	.sm\:focus-visible\:olc\:info-subtle:focus-visible {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-visible\:outline-color\:on-info:focus-visible,
+	.sm\:focus-visible\:olc\:on-info:focus-visible {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-visible\:outline-color\:focus-ring:focus-visible,
@@ -5200,14 +6045,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:focus-within\:outline-color\:on-surface:focus-within,
-	.sm\:focus-within\:olc\:on-surface:focus-within {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:focus-within\:outline-color\:surface-hover:focus-within,
+	.sm\:focus-within\:olc\:surface-hover:focus-within {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:focus-within\:outline-color\:on-surface-inverse:focus-within,
-	.sm\:focus-within\:olc\:on-surface-inverse:focus-within {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:focus-within\:outline-color\:surface-active:focus-within,
+	.sm\:focus-within\:olc\:surface-active:focus-within {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:surface-disabled:focus-within,
+	.sm\:focus-within\:olc\:surface-disabled:focus-within {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:focus-within\:outline-color\:text:focus-within,
@@ -5230,6 +6080,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:focus-within\:outline-color\:text-disabled:focus-within,
+	.sm\:focus-within\:olc\:text-disabled:focus-within {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:link:focus-within,
+	.sm\:focus-within\:olc\:link:focus-within {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:link-hover:focus-within,
+	.sm\:focus-within\:olc\:link-hover:focus-within {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:focus-within\:outline-color\:border:focus-within,
 	.sm\:focus-within\:olc\:border:focus-within {
 		outline-color: var(--color-border) !important;
@@ -5243,6 +6108,26 @@
 	.sm\:focus-within\:outline-color\:border-subtle:focus-within,
 	.sm\:focus-within\:olc\:border-subtle:focus-within {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:code-bg:focus-within,
+	.sm\:focus-within\:olc\:code-bg:focus-within {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:code-fg:focus-within,
+	.sm\:focus-within\:olc\:code-fg:focus-within {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:code-border:focus-within,
+	.sm\:focus-within\:olc\:code-border:focus-within {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:scrim:focus-within,
+	.sm\:focus-within\:olc\:scrim:focus-within {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:focus-within\:outline-color\:success:focus-within,
@@ -5318,6 +6203,31 @@
 	.sm\:focus-within\:outline-color\:on-danger:focus-within,
 	.sm\:focus-within\:olc\:on-danger:focus-within {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:info:focus-within,
+	.sm\:focus-within\:olc\:info:focus-within {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:info-hover:focus-within,
+	.sm\:focus-within\:olc\:info-hover:focus-within {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:info-active:focus-within,
+	.sm\:focus-within\:olc\:info-active:focus-within {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:info-subtle:focus-within,
+	.sm\:focus-within\:olc\:info-subtle:focus-within {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:focus-within\:outline-color\:on-info:focus-within,
+	.sm\:focus-within\:olc\:on-info:focus-within {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:focus-within\:outline-color\:focus-ring:focus-within,
@@ -5586,14 +6496,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:active\:outline-color\:on-surface:active,
-	.sm\:active\:olc\:on-surface:active {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:active\:outline-color\:surface-hover:active,
+	.sm\:active\:olc\:surface-hover:active {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:active\:outline-color\:on-surface-inverse:active,
-	.sm\:active\:olc\:on-surface-inverse:active {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:active\:outline-color\:surface-active:active,
+	.sm\:active\:olc\:surface-active:active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:active\:outline-color\:surface-disabled:active,
+	.sm\:active\:olc\:surface-disabled:active {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:active\:outline-color\:text:active,
@@ -5616,6 +6531,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:active\:outline-color\:text-disabled:active,
+	.sm\:active\:olc\:text-disabled:active {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:active\:outline-color\:link:active,
+	.sm\:active\:olc\:link:active {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:active\:outline-color\:link-hover:active,
+	.sm\:active\:olc\:link-hover:active {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:active\:outline-color\:border:active,
 	.sm\:active\:olc\:border:active {
 		outline-color: var(--color-border) !important;
@@ -5629,6 +6559,26 @@
 	.sm\:active\:outline-color\:border-subtle:active,
 	.sm\:active\:olc\:border-subtle:active {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:active\:outline-color\:code-bg:active,
+	.sm\:active\:olc\:code-bg:active {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:active\:outline-color\:code-fg:active,
+	.sm\:active\:olc\:code-fg:active {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:active\:outline-color\:code-border:active,
+	.sm\:active\:olc\:code-border:active {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:active\:outline-color\:scrim:active,
+	.sm\:active\:olc\:scrim:active {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:active\:outline-color\:success:active,
@@ -5704,6 +6654,31 @@
 	.sm\:active\:outline-color\:on-danger:active,
 	.sm\:active\:olc\:on-danger:active {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:active\:outline-color\:info:active,
+	.sm\:active\:olc\:info:active {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:active\:outline-color\:info-hover:active,
+	.sm\:active\:olc\:info-hover:active {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:active\:outline-color\:info-active:active,
+	.sm\:active\:olc\:info-active:active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:active\:outline-color\:info-subtle:active,
+	.sm\:active\:olc\:info-subtle:active {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:active\:outline-color\:on-info:active,
+	.sm\:active\:olc\:on-info:active {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:active\:outline-color\:focus-ring:active,
@@ -5972,14 +6947,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:disabled\:outline-color\:on-surface:disabled,
-	.sm\:disabled\:olc\:on-surface:disabled {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:disabled\:outline-color\:surface-hover:disabled,
+	.sm\:disabled\:olc\:surface-hover:disabled {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:disabled\:outline-color\:on-surface-inverse:disabled,
-	.sm\:disabled\:olc\:on-surface-inverse:disabled {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:disabled\:outline-color\:surface-active:disabled,
+	.sm\:disabled\:olc\:surface-active:disabled {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:disabled\:outline-color\:surface-disabled:disabled,
+	.sm\:disabled\:olc\:surface-disabled:disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:disabled\:outline-color\:text:disabled,
@@ -6002,6 +6982,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:disabled\:outline-color\:text-disabled:disabled,
+	.sm\:disabled\:olc\:text-disabled:disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:disabled\:outline-color\:link:disabled,
+	.sm\:disabled\:olc\:link:disabled {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:disabled\:outline-color\:link-hover:disabled,
+	.sm\:disabled\:olc\:link-hover:disabled {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:disabled\:outline-color\:border:disabled,
 	.sm\:disabled\:olc\:border:disabled {
 		outline-color: var(--color-border) !important;
@@ -6015,6 +7010,26 @@
 	.sm\:disabled\:outline-color\:border-subtle:disabled,
 	.sm\:disabled\:olc\:border-subtle:disabled {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:disabled\:outline-color\:code-bg:disabled,
+	.sm\:disabled\:olc\:code-bg:disabled {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:disabled\:outline-color\:code-fg:disabled,
+	.sm\:disabled\:olc\:code-fg:disabled {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:disabled\:outline-color\:code-border:disabled,
+	.sm\:disabled\:olc\:code-border:disabled {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:disabled\:outline-color\:scrim:disabled,
+	.sm\:disabled\:olc\:scrim:disabled {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:disabled\:outline-color\:success:disabled,
@@ -6090,6 +7105,31 @@
 	.sm\:disabled\:outline-color\:on-danger:disabled,
 	.sm\:disabled\:olc\:on-danger:disabled {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:disabled\:outline-color\:info:disabled,
+	.sm\:disabled\:olc\:info:disabled {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:disabled\:outline-color\:info-hover:disabled,
+	.sm\:disabled\:olc\:info-hover:disabled {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:disabled\:outline-color\:info-active:disabled,
+	.sm\:disabled\:olc\:info-active:disabled {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:disabled\:outline-color\:info-subtle:disabled,
+	.sm\:disabled\:olc\:info-subtle:disabled {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:disabled\:outline-color\:on-info:disabled,
+	.sm\:disabled\:olc\:on-info:disabled {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:disabled\:outline-color\:focus-ring:disabled,
@@ -6358,14 +7398,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:checked\:outline-color\:on-surface:checked,
-	.sm\:checked\:olc\:on-surface:checked {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:checked\:outline-color\:surface-hover:checked,
+	.sm\:checked\:olc\:surface-hover:checked {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:checked\:outline-color\:on-surface-inverse:checked,
-	.sm\:checked\:olc\:on-surface-inverse:checked {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:checked\:outline-color\:surface-active:checked,
+	.sm\:checked\:olc\:surface-active:checked {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:checked\:outline-color\:surface-disabled:checked,
+	.sm\:checked\:olc\:surface-disabled:checked {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:checked\:outline-color\:text:checked,
@@ -6388,6 +7433,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:checked\:outline-color\:text-disabled:checked,
+	.sm\:checked\:olc\:text-disabled:checked {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:checked\:outline-color\:link:checked,
+	.sm\:checked\:olc\:link:checked {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:checked\:outline-color\:link-hover:checked,
+	.sm\:checked\:olc\:link-hover:checked {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:checked\:outline-color\:border:checked,
 	.sm\:checked\:olc\:border:checked {
 		outline-color: var(--color-border) !important;
@@ -6401,6 +7461,26 @@
 	.sm\:checked\:outline-color\:border-subtle:checked,
 	.sm\:checked\:olc\:border-subtle:checked {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:checked\:outline-color\:code-bg:checked,
+	.sm\:checked\:olc\:code-bg:checked {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:checked\:outline-color\:code-fg:checked,
+	.sm\:checked\:olc\:code-fg:checked {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:checked\:outline-color\:code-border:checked,
+	.sm\:checked\:olc\:code-border:checked {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:checked\:outline-color\:scrim:checked,
+	.sm\:checked\:olc\:scrim:checked {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:checked\:outline-color\:success:checked,
@@ -6476,6 +7556,31 @@
 	.sm\:checked\:outline-color\:on-danger:checked,
 	.sm\:checked\:olc\:on-danger:checked {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:checked\:outline-color\:info:checked,
+	.sm\:checked\:olc\:info:checked {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:checked\:outline-color\:info-hover:checked,
+	.sm\:checked\:olc\:info-hover:checked {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:checked\:outline-color\:info-active:checked,
+	.sm\:checked\:olc\:info-active:checked {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:checked\:outline-color\:info-subtle:checked,
+	.sm\:checked\:olc\:info-subtle:checked {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:checked\:outline-color\:on-info:checked,
+	.sm\:checked\:olc\:on-info:checked {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:checked\:outline-color\:focus-ring:checked,
@@ -6744,14 +7849,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.sm\:visited\:outline-color\:on-surface:visited,
-	.sm\:visited\:olc\:on-surface:visited {
-		outline-color: var(--color-on-surface) !important;
+	.sm\:visited\:outline-color\:surface-hover:visited,
+	.sm\:visited\:olc\:surface-hover:visited {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.sm\:visited\:outline-color\:on-surface-inverse:visited,
-	.sm\:visited\:olc\:on-surface-inverse:visited {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.sm\:visited\:outline-color\:surface-active:visited,
+	.sm\:visited\:olc\:surface-active:visited {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.sm\:visited\:outline-color\:surface-disabled:visited,
+	.sm\:visited\:olc\:surface-disabled:visited {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.sm\:visited\:outline-color\:text:visited,
@@ -6774,6 +7884,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.sm\:visited\:outline-color\:text-disabled:visited,
+	.sm\:visited\:olc\:text-disabled:visited {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.sm\:visited\:outline-color\:link:visited,
+	.sm\:visited\:olc\:link:visited {
+		outline-color: var(--color-link) !important;
+	}
+
+	.sm\:visited\:outline-color\:link-hover:visited,
+	.sm\:visited\:olc\:link-hover:visited {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.sm\:visited\:outline-color\:border:visited,
 	.sm\:visited\:olc\:border:visited {
 		outline-color: var(--color-border) !important;
@@ -6787,6 +7912,26 @@
 	.sm\:visited\:outline-color\:border-subtle:visited,
 	.sm\:visited\:olc\:border-subtle:visited {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.sm\:visited\:outline-color\:code-bg:visited,
+	.sm\:visited\:olc\:code-bg:visited {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.sm\:visited\:outline-color\:code-fg:visited,
+	.sm\:visited\:olc\:code-fg:visited {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.sm\:visited\:outline-color\:code-border:visited,
+	.sm\:visited\:olc\:code-border:visited {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.sm\:visited\:outline-color\:scrim:visited,
+	.sm\:visited\:olc\:scrim:visited {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.sm\:visited\:outline-color\:success:visited,
@@ -6862,6 +8007,31 @@
 	.sm\:visited\:outline-color\:on-danger:visited,
 	.sm\:visited\:olc\:on-danger:visited {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.sm\:visited\:outline-color\:info:visited,
+	.sm\:visited\:olc\:info:visited {
+		outline-color: var(--color-info) !important;
+	}
+
+	.sm\:visited\:outline-color\:info-hover:visited,
+	.sm\:visited\:olc\:info-hover:visited {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.sm\:visited\:outline-color\:info-active:visited,
+	.sm\:visited\:olc\:info-active:visited {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.sm\:visited\:outline-color\:info-subtle:visited,
+	.sm\:visited\:olc\:info-subtle:visited {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.sm\:visited\:outline-color\:on-info:visited,
+	.sm\:visited\:olc\:on-info:visited {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.sm\:visited\:outline-color\:focus-ring:visited,
@@ -7132,14 +8302,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:outline-color\:on-surface,
-	.md\:olc\:on-surface {
-		outline-color: var(--color-on-surface) !important;
+	.md\:outline-color\:surface-hover,
+	.md\:olc\:surface-hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:outline-color\:on-surface-inverse,
-	.md\:olc\:on-surface-inverse {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:outline-color\:surface-active,
+	.md\:olc\:surface-active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:outline-color\:surface-disabled,
+	.md\:olc\:surface-disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:outline-color\:text,
@@ -7162,6 +8337,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:outline-color\:text-disabled,
+	.md\:olc\:text-disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:outline-color\:link,
+	.md\:olc\:link {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:outline-color\:link-hover,
+	.md\:olc\:link-hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:outline-color\:border,
 	.md\:olc\:border {
 		outline-color: var(--color-border) !important;
@@ -7175,6 +8365,26 @@
 	.md\:outline-color\:border-subtle,
 	.md\:olc\:border-subtle {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:outline-color\:code-bg,
+	.md\:olc\:code-bg {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:outline-color\:code-fg,
+	.md\:olc\:code-fg {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:outline-color\:code-border,
+	.md\:olc\:code-border {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:outline-color\:scrim,
+	.md\:olc\:scrim {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:outline-color\:success,
@@ -7250,6 +8460,31 @@
 	.md\:outline-color\:on-danger,
 	.md\:olc\:on-danger {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:outline-color\:info,
+	.md\:olc\:info {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:outline-color\:info-hover,
+	.md\:olc\:info-hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:outline-color\:info-active,
+	.md\:olc\:info-active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:outline-color\:info-subtle,
+	.md\:olc\:info-subtle {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:outline-color\:on-info,
+	.md\:olc\:on-info {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:outline-color\:focus-ring,
@@ -7518,14 +8753,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:hover\:outline-color\:on-surface:hover,
-	.md\:hover\:olc\:on-surface:hover {
-		outline-color: var(--color-on-surface) !important;
+	.md\:hover\:outline-color\:surface-hover:hover,
+	.md\:hover\:olc\:surface-hover:hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:hover\:outline-color\:on-surface-inverse:hover,
-	.md\:hover\:olc\:on-surface-inverse:hover {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:hover\:outline-color\:surface-active:hover,
+	.md\:hover\:olc\:surface-active:hover {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:hover\:outline-color\:surface-disabled:hover,
+	.md\:hover\:olc\:surface-disabled:hover {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:hover\:outline-color\:text:hover,
@@ -7548,6 +8788,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:hover\:outline-color\:text-disabled:hover,
+	.md\:hover\:olc\:text-disabled:hover {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:hover\:outline-color\:link:hover,
+	.md\:hover\:olc\:link:hover {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:hover\:outline-color\:link-hover:hover,
+	.md\:hover\:olc\:link-hover:hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:hover\:outline-color\:border:hover,
 	.md\:hover\:olc\:border:hover {
 		outline-color: var(--color-border) !important;
@@ -7561,6 +8816,26 @@
 	.md\:hover\:outline-color\:border-subtle:hover,
 	.md\:hover\:olc\:border-subtle:hover {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:hover\:outline-color\:code-bg:hover,
+	.md\:hover\:olc\:code-bg:hover {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:hover\:outline-color\:code-fg:hover,
+	.md\:hover\:olc\:code-fg:hover {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:hover\:outline-color\:code-border:hover,
+	.md\:hover\:olc\:code-border:hover {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:hover\:outline-color\:scrim:hover,
+	.md\:hover\:olc\:scrim:hover {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:hover\:outline-color\:success:hover,
@@ -7636,6 +8911,31 @@
 	.md\:hover\:outline-color\:on-danger:hover,
 	.md\:hover\:olc\:on-danger:hover {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:hover\:outline-color\:info:hover,
+	.md\:hover\:olc\:info:hover {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:hover\:outline-color\:info-hover:hover,
+	.md\:hover\:olc\:info-hover:hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:hover\:outline-color\:info-active:hover,
+	.md\:hover\:olc\:info-active:hover {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:hover\:outline-color\:info-subtle:hover,
+	.md\:hover\:olc\:info-subtle:hover {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:hover\:outline-color\:on-info:hover,
+	.md\:hover\:olc\:on-info:hover {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:hover\:outline-color\:focus-ring:hover,
@@ -7904,14 +9204,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus\:outline-color\:on-surface:focus,
-	.md\:focus\:olc\:on-surface:focus {
-		outline-color: var(--color-on-surface) !important;
+	.md\:focus\:outline-color\:surface-hover:focus,
+	.md\:focus\:olc\:surface-hover:focus {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus\:outline-color\:on-surface-inverse:focus,
-	.md\:focus\:olc\:on-surface-inverse:focus {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:focus\:outline-color\:surface-active:focus,
+	.md\:focus\:olc\:surface-active:focus {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:focus\:outline-color\:surface-disabled:focus,
+	.md\:focus\:olc\:surface-disabled:focus {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus\:outline-color\:text:focus,
@@ -7934,6 +9239,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus\:outline-color\:text-disabled:focus,
+	.md\:focus\:olc\:text-disabled:focus {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus\:outline-color\:link:focus,
+	.md\:focus\:olc\:link:focus {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:focus\:outline-color\:link-hover:focus,
+	.md\:focus\:olc\:link-hover:focus {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:focus\:outline-color\:border:focus,
 	.md\:focus\:olc\:border:focus {
 		outline-color: var(--color-border) !important;
@@ -7947,6 +9267,26 @@
 	.md\:focus\:outline-color\:border-subtle:focus,
 	.md\:focus\:olc\:border-subtle:focus {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus\:outline-color\:code-bg:focus,
+	.md\:focus\:olc\:code-bg:focus {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:focus\:outline-color\:code-fg:focus,
+	.md\:focus\:olc\:code-fg:focus {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:focus\:outline-color\:code-border:focus,
+	.md\:focus\:olc\:code-border:focus {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:focus\:outline-color\:scrim:focus,
+	.md\:focus\:olc\:scrim:focus {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:focus\:outline-color\:success:focus,
@@ -8022,6 +9362,31 @@
 	.md\:focus\:outline-color\:on-danger:focus,
 	.md\:focus\:olc\:on-danger:focus {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:focus\:outline-color\:info:focus,
+	.md\:focus\:olc\:info:focus {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:focus\:outline-color\:info-hover:focus,
+	.md\:focus\:olc\:info-hover:focus {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:focus\:outline-color\:info-active:focus,
+	.md\:focus\:olc\:info-active:focus {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:focus\:outline-color\:info-subtle:focus,
+	.md\:focus\:olc\:info-subtle:focus {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus\:outline-color\:on-info:focus,
+	.md\:focus\:olc\:on-info:focus {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:focus\:outline-color\:focus-ring:focus,
@@ -8290,14 +9655,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-visible\:outline-color\:on-surface:focus-visible,
-	.md\:focus-visible\:olc\:on-surface:focus-visible {
-		outline-color: var(--color-on-surface) !important;
+	.md\:focus-visible\:outline-color\:surface-hover:focus-visible,
+	.md\:focus-visible\:olc\:surface-hover:focus-visible {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-visible\:outline-color\:on-surface-inverse:focus-visible,
-	.md\:focus-visible\:olc\:on-surface-inverse:focus-visible {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:focus-visible\:outline-color\:surface-active:focus-visible,
+	.md\:focus-visible\:olc\:surface-active:focus-visible {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:surface-disabled:focus-visible,
+	.md\:focus-visible\:olc\:surface-disabled:focus-visible {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-visible\:outline-color\:text:focus-visible,
@@ -8320,6 +9690,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-visible\:outline-color\:text-disabled:focus-visible,
+	.md\:focus-visible\:olc\:text-disabled:focus-visible {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:link:focus-visible,
+	.md\:focus-visible\:olc\:link:focus-visible {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:link-hover:focus-visible,
+	.md\:focus-visible\:olc\:link-hover:focus-visible {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-visible\:outline-color\:border:focus-visible,
 	.md\:focus-visible\:olc\:border:focus-visible {
 		outline-color: var(--color-border) !important;
@@ -8333,6 +9718,26 @@
 	.md\:focus-visible\:outline-color\:border-subtle:focus-visible,
 	.md\:focus-visible\:olc\:border-subtle:focus-visible {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:code-bg:focus-visible,
+	.md\:focus-visible\:olc\:code-bg:focus-visible {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:code-fg:focus-visible,
+	.md\:focus-visible\:olc\:code-fg:focus-visible {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:code-border:focus-visible,
+	.md\:focus-visible\:olc\:code-border:focus-visible {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:scrim:focus-visible,
+	.md\:focus-visible\:olc\:scrim:focus-visible {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:focus-visible\:outline-color\:success:focus-visible,
@@ -8408,6 +9813,31 @@
 	.md\:focus-visible\:outline-color\:on-danger:focus-visible,
 	.md\:focus-visible\:olc\:on-danger:focus-visible {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:info:focus-visible,
+	.md\:focus-visible\:olc\:info:focus-visible {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:info-hover:focus-visible,
+	.md\:focus-visible\:olc\:info-hover:focus-visible {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:info-active:focus-visible,
+	.md\:focus-visible\:olc\:info-active:focus-visible {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:info-subtle:focus-visible,
+	.md\:focus-visible\:olc\:info-subtle:focus-visible {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-visible\:outline-color\:on-info:focus-visible,
+	.md\:focus-visible\:olc\:on-info:focus-visible {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:focus-visible\:outline-color\:focus-ring:focus-visible,
@@ -8676,14 +10106,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:focus-within\:outline-color\:on-surface:focus-within,
-	.md\:focus-within\:olc\:on-surface:focus-within {
-		outline-color: var(--color-on-surface) !important;
+	.md\:focus-within\:outline-color\:surface-hover:focus-within,
+	.md\:focus-within\:olc\:surface-hover:focus-within {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:focus-within\:outline-color\:on-surface-inverse:focus-within,
-	.md\:focus-within\:olc\:on-surface-inverse:focus-within {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:focus-within\:outline-color\:surface-active:focus-within,
+	.md\:focus-within\:olc\:surface-active:focus-within {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:focus-within\:outline-color\:surface-disabled:focus-within,
+	.md\:focus-within\:olc\:surface-disabled:focus-within {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:focus-within\:outline-color\:text:focus-within,
@@ -8706,6 +10141,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:focus-within\:outline-color\:text-disabled:focus-within,
+	.md\:focus-within\:olc\:text-disabled:focus-within {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:focus-within\:outline-color\:link:focus-within,
+	.md\:focus-within\:olc\:link:focus-within {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:focus-within\:outline-color\:link-hover:focus-within,
+	.md\:focus-within\:olc\:link-hover:focus-within {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:focus-within\:outline-color\:border:focus-within,
 	.md\:focus-within\:olc\:border:focus-within {
 		outline-color: var(--color-border) !important;
@@ -8719,6 +10169,26 @@
 	.md\:focus-within\:outline-color\:border-subtle:focus-within,
 	.md\:focus-within\:olc\:border-subtle:focus-within {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:focus-within\:outline-color\:code-bg:focus-within,
+	.md\:focus-within\:olc\:code-bg:focus-within {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:focus-within\:outline-color\:code-fg:focus-within,
+	.md\:focus-within\:olc\:code-fg:focus-within {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:focus-within\:outline-color\:code-border:focus-within,
+	.md\:focus-within\:olc\:code-border:focus-within {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:focus-within\:outline-color\:scrim:focus-within,
+	.md\:focus-within\:olc\:scrim:focus-within {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:focus-within\:outline-color\:success:focus-within,
@@ -8794,6 +10264,31 @@
 	.md\:focus-within\:outline-color\:on-danger:focus-within,
 	.md\:focus-within\:olc\:on-danger:focus-within {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:focus-within\:outline-color\:info:focus-within,
+	.md\:focus-within\:olc\:info:focus-within {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:focus-within\:outline-color\:info-hover:focus-within,
+	.md\:focus-within\:olc\:info-hover:focus-within {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:focus-within\:outline-color\:info-active:focus-within,
+	.md\:focus-within\:olc\:info-active:focus-within {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:focus-within\:outline-color\:info-subtle:focus-within,
+	.md\:focus-within\:olc\:info-subtle:focus-within {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:focus-within\:outline-color\:on-info:focus-within,
+	.md\:focus-within\:olc\:on-info:focus-within {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:focus-within\:outline-color\:focus-ring:focus-within,
@@ -9062,14 +10557,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:active\:outline-color\:on-surface:active,
-	.md\:active\:olc\:on-surface:active {
-		outline-color: var(--color-on-surface) !important;
+	.md\:active\:outline-color\:surface-hover:active,
+	.md\:active\:olc\:surface-hover:active {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:active\:outline-color\:on-surface-inverse:active,
-	.md\:active\:olc\:on-surface-inverse:active {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:active\:outline-color\:surface-active:active,
+	.md\:active\:olc\:surface-active:active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:active\:outline-color\:surface-disabled:active,
+	.md\:active\:olc\:surface-disabled:active {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:active\:outline-color\:text:active,
@@ -9092,6 +10592,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:active\:outline-color\:text-disabled:active,
+	.md\:active\:olc\:text-disabled:active {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:active\:outline-color\:link:active,
+	.md\:active\:olc\:link:active {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:active\:outline-color\:link-hover:active,
+	.md\:active\:olc\:link-hover:active {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:active\:outline-color\:border:active,
 	.md\:active\:olc\:border:active {
 		outline-color: var(--color-border) !important;
@@ -9105,6 +10620,26 @@
 	.md\:active\:outline-color\:border-subtle:active,
 	.md\:active\:olc\:border-subtle:active {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:active\:outline-color\:code-bg:active,
+	.md\:active\:olc\:code-bg:active {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:active\:outline-color\:code-fg:active,
+	.md\:active\:olc\:code-fg:active {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:active\:outline-color\:code-border:active,
+	.md\:active\:olc\:code-border:active {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:active\:outline-color\:scrim:active,
+	.md\:active\:olc\:scrim:active {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:active\:outline-color\:success:active,
@@ -9180,6 +10715,31 @@
 	.md\:active\:outline-color\:on-danger:active,
 	.md\:active\:olc\:on-danger:active {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:active\:outline-color\:info:active,
+	.md\:active\:olc\:info:active {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:active\:outline-color\:info-hover:active,
+	.md\:active\:olc\:info-hover:active {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:active\:outline-color\:info-active:active,
+	.md\:active\:olc\:info-active:active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:active\:outline-color\:info-subtle:active,
+	.md\:active\:olc\:info-subtle:active {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:active\:outline-color\:on-info:active,
+	.md\:active\:olc\:on-info:active {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:active\:outline-color\:focus-ring:active,
@@ -9448,14 +11008,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:disabled\:outline-color\:on-surface:disabled,
-	.md\:disabled\:olc\:on-surface:disabled {
-		outline-color: var(--color-on-surface) !important;
+	.md\:disabled\:outline-color\:surface-hover:disabled,
+	.md\:disabled\:olc\:surface-hover:disabled {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:disabled\:outline-color\:on-surface-inverse:disabled,
-	.md\:disabled\:olc\:on-surface-inverse:disabled {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:disabled\:outline-color\:surface-active:disabled,
+	.md\:disabled\:olc\:surface-active:disabled {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:disabled\:outline-color\:surface-disabled:disabled,
+	.md\:disabled\:olc\:surface-disabled:disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:disabled\:outline-color\:text:disabled,
@@ -9478,6 +11043,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:disabled\:outline-color\:text-disabled:disabled,
+	.md\:disabled\:olc\:text-disabled:disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:disabled\:outline-color\:link:disabled,
+	.md\:disabled\:olc\:link:disabled {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:disabled\:outline-color\:link-hover:disabled,
+	.md\:disabled\:olc\:link-hover:disabled {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:disabled\:outline-color\:border:disabled,
 	.md\:disabled\:olc\:border:disabled {
 		outline-color: var(--color-border) !important;
@@ -9491,6 +11071,26 @@
 	.md\:disabled\:outline-color\:border-subtle:disabled,
 	.md\:disabled\:olc\:border-subtle:disabled {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:disabled\:outline-color\:code-bg:disabled,
+	.md\:disabled\:olc\:code-bg:disabled {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:disabled\:outline-color\:code-fg:disabled,
+	.md\:disabled\:olc\:code-fg:disabled {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:disabled\:outline-color\:code-border:disabled,
+	.md\:disabled\:olc\:code-border:disabled {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:disabled\:outline-color\:scrim:disabled,
+	.md\:disabled\:olc\:scrim:disabled {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:disabled\:outline-color\:success:disabled,
@@ -9566,6 +11166,31 @@
 	.md\:disabled\:outline-color\:on-danger:disabled,
 	.md\:disabled\:olc\:on-danger:disabled {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:disabled\:outline-color\:info:disabled,
+	.md\:disabled\:olc\:info:disabled {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:disabled\:outline-color\:info-hover:disabled,
+	.md\:disabled\:olc\:info-hover:disabled {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:disabled\:outline-color\:info-active:disabled,
+	.md\:disabled\:olc\:info-active:disabled {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:disabled\:outline-color\:info-subtle:disabled,
+	.md\:disabled\:olc\:info-subtle:disabled {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:disabled\:outline-color\:on-info:disabled,
+	.md\:disabled\:olc\:on-info:disabled {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:disabled\:outline-color\:focus-ring:disabled,
@@ -9834,14 +11459,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:checked\:outline-color\:on-surface:checked,
-	.md\:checked\:olc\:on-surface:checked {
-		outline-color: var(--color-on-surface) !important;
+	.md\:checked\:outline-color\:surface-hover:checked,
+	.md\:checked\:olc\:surface-hover:checked {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:checked\:outline-color\:on-surface-inverse:checked,
-	.md\:checked\:olc\:on-surface-inverse:checked {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:checked\:outline-color\:surface-active:checked,
+	.md\:checked\:olc\:surface-active:checked {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:checked\:outline-color\:surface-disabled:checked,
+	.md\:checked\:olc\:surface-disabled:checked {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:checked\:outline-color\:text:checked,
@@ -9864,6 +11494,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:checked\:outline-color\:text-disabled:checked,
+	.md\:checked\:olc\:text-disabled:checked {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:checked\:outline-color\:link:checked,
+	.md\:checked\:olc\:link:checked {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:checked\:outline-color\:link-hover:checked,
+	.md\:checked\:olc\:link-hover:checked {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:checked\:outline-color\:border:checked,
 	.md\:checked\:olc\:border:checked {
 		outline-color: var(--color-border) !important;
@@ -9877,6 +11522,26 @@
 	.md\:checked\:outline-color\:border-subtle:checked,
 	.md\:checked\:olc\:border-subtle:checked {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:checked\:outline-color\:code-bg:checked,
+	.md\:checked\:olc\:code-bg:checked {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:checked\:outline-color\:code-fg:checked,
+	.md\:checked\:olc\:code-fg:checked {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:checked\:outline-color\:code-border:checked,
+	.md\:checked\:olc\:code-border:checked {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:checked\:outline-color\:scrim:checked,
+	.md\:checked\:olc\:scrim:checked {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:checked\:outline-color\:success:checked,
@@ -9952,6 +11617,31 @@
 	.md\:checked\:outline-color\:on-danger:checked,
 	.md\:checked\:olc\:on-danger:checked {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:checked\:outline-color\:info:checked,
+	.md\:checked\:olc\:info:checked {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:checked\:outline-color\:info-hover:checked,
+	.md\:checked\:olc\:info-hover:checked {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:checked\:outline-color\:info-active:checked,
+	.md\:checked\:olc\:info-active:checked {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:checked\:outline-color\:info-subtle:checked,
+	.md\:checked\:olc\:info-subtle:checked {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:checked\:outline-color\:on-info:checked,
+	.md\:checked\:olc\:on-info:checked {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:checked\:outline-color\:focus-ring:checked,
@@ -10220,14 +11910,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.md\:visited\:outline-color\:on-surface:visited,
-	.md\:visited\:olc\:on-surface:visited {
-		outline-color: var(--color-on-surface) !important;
+	.md\:visited\:outline-color\:surface-hover:visited,
+	.md\:visited\:olc\:surface-hover:visited {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.md\:visited\:outline-color\:on-surface-inverse:visited,
-	.md\:visited\:olc\:on-surface-inverse:visited {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.md\:visited\:outline-color\:surface-active:visited,
+	.md\:visited\:olc\:surface-active:visited {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.md\:visited\:outline-color\:surface-disabled:visited,
+	.md\:visited\:olc\:surface-disabled:visited {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.md\:visited\:outline-color\:text:visited,
@@ -10250,6 +11945,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.md\:visited\:outline-color\:text-disabled:visited,
+	.md\:visited\:olc\:text-disabled:visited {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.md\:visited\:outline-color\:link:visited,
+	.md\:visited\:olc\:link:visited {
+		outline-color: var(--color-link) !important;
+	}
+
+	.md\:visited\:outline-color\:link-hover:visited,
+	.md\:visited\:olc\:link-hover:visited {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.md\:visited\:outline-color\:border:visited,
 	.md\:visited\:olc\:border:visited {
 		outline-color: var(--color-border) !important;
@@ -10263,6 +11973,26 @@
 	.md\:visited\:outline-color\:border-subtle:visited,
 	.md\:visited\:olc\:border-subtle:visited {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.md\:visited\:outline-color\:code-bg:visited,
+	.md\:visited\:olc\:code-bg:visited {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.md\:visited\:outline-color\:code-fg:visited,
+	.md\:visited\:olc\:code-fg:visited {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.md\:visited\:outline-color\:code-border:visited,
+	.md\:visited\:olc\:code-border:visited {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.md\:visited\:outline-color\:scrim:visited,
+	.md\:visited\:olc\:scrim:visited {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.md\:visited\:outline-color\:success:visited,
@@ -10338,6 +12068,31 @@
 	.md\:visited\:outline-color\:on-danger:visited,
 	.md\:visited\:olc\:on-danger:visited {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.md\:visited\:outline-color\:info:visited,
+	.md\:visited\:olc\:info:visited {
+		outline-color: var(--color-info) !important;
+	}
+
+	.md\:visited\:outline-color\:info-hover:visited,
+	.md\:visited\:olc\:info-hover:visited {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.md\:visited\:outline-color\:info-active:visited,
+	.md\:visited\:olc\:info-active:visited {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.md\:visited\:outline-color\:info-subtle:visited,
+	.md\:visited\:olc\:info-subtle:visited {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.md\:visited\:outline-color\:on-info:visited,
+	.md\:visited\:olc\:on-info:visited {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.md\:visited\:outline-color\:focus-ring:visited,
@@ -10608,14 +12363,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:outline-color\:on-surface,
-	.lg\:olc\:on-surface {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:outline-color\:surface-hover,
+	.lg\:olc\:surface-hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:outline-color\:on-surface-inverse,
-	.lg\:olc\:on-surface-inverse {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:outline-color\:surface-active,
+	.lg\:olc\:surface-active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:outline-color\:surface-disabled,
+	.lg\:olc\:surface-disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:outline-color\:text,
@@ -10638,6 +12398,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:outline-color\:text-disabled,
+	.lg\:olc\:text-disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:outline-color\:link,
+	.lg\:olc\:link {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:outline-color\:link-hover,
+	.lg\:olc\:link-hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:outline-color\:border,
 	.lg\:olc\:border {
 		outline-color: var(--color-border) !important;
@@ -10651,6 +12426,26 @@
 	.lg\:outline-color\:border-subtle,
 	.lg\:olc\:border-subtle {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:outline-color\:code-bg,
+	.lg\:olc\:code-bg {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:outline-color\:code-fg,
+	.lg\:olc\:code-fg {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:outline-color\:code-border,
+	.lg\:olc\:code-border {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:outline-color\:scrim,
+	.lg\:olc\:scrim {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:outline-color\:success,
@@ -10726,6 +12521,31 @@
 	.lg\:outline-color\:on-danger,
 	.lg\:olc\:on-danger {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:outline-color\:info,
+	.lg\:olc\:info {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:outline-color\:info-hover,
+	.lg\:olc\:info-hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:outline-color\:info-active,
+	.lg\:olc\:info-active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:outline-color\:info-subtle,
+	.lg\:olc\:info-subtle {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:outline-color\:on-info,
+	.lg\:olc\:on-info {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:outline-color\:focus-ring,
@@ -10994,14 +12814,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:hover\:outline-color\:on-surface:hover,
-	.lg\:hover\:olc\:on-surface:hover {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:hover\:outline-color\:surface-hover:hover,
+	.lg\:hover\:olc\:surface-hover:hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:hover\:outline-color\:on-surface-inverse:hover,
-	.lg\:hover\:olc\:on-surface-inverse:hover {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:hover\:outline-color\:surface-active:hover,
+	.lg\:hover\:olc\:surface-active:hover {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:hover\:outline-color\:surface-disabled:hover,
+	.lg\:hover\:olc\:surface-disabled:hover {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:hover\:outline-color\:text:hover,
@@ -11024,6 +12849,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:hover\:outline-color\:text-disabled:hover,
+	.lg\:hover\:olc\:text-disabled:hover {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:hover\:outline-color\:link:hover,
+	.lg\:hover\:olc\:link:hover {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:hover\:outline-color\:link-hover:hover,
+	.lg\:hover\:olc\:link-hover:hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:hover\:outline-color\:border:hover,
 	.lg\:hover\:olc\:border:hover {
 		outline-color: var(--color-border) !important;
@@ -11037,6 +12877,26 @@
 	.lg\:hover\:outline-color\:border-subtle:hover,
 	.lg\:hover\:olc\:border-subtle:hover {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:hover\:outline-color\:code-bg:hover,
+	.lg\:hover\:olc\:code-bg:hover {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:hover\:outline-color\:code-fg:hover,
+	.lg\:hover\:olc\:code-fg:hover {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:hover\:outline-color\:code-border:hover,
+	.lg\:hover\:olc\:code-border:hover {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:hover\:outline-color\:scrim:hover,
+	.lg\:hover\:olc\:scrim:hover {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:hover\:outline-color\:success:hover,
@@ -11112,6 +12972,31 @@
 	.lg\:hover\:outline-color\:on-danger:hover,
 	.lg\:hover\:olc\:on-danger:hover {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:hover\:outline-color\:info:hover,
+	.lg\:hover\:olc\:info:hover {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:hover\:outline-color\:info-hover:hover,
+	.lg\:hover\:olc\:info-hover:hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:hover\:outline-color\:info-active:hover,
+	.lg\:hover\:olc\:info-active:hover {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:hover\:outline-color\:info-subtle:hover,
+	.lg\:hover\:olc\:info-subtle:hover {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:hover\:outline-color\:on-info:hover,
+	.lg\:hover\:olc\:on-info:hover {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:hover\:outline-color\:focus-ring:hover,
@@ -11380,14 +13265,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus\:outline-color\:on-surface:focus,
-	.lg\:focus\:olc\:on-surface:focus {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:focus\:outline-color\:surface-hover:focus,
+	.lg\:focus\:olc\:surface-hover:focus {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus\:outline-color\:on-surface-inverse:focus,
-	.lg\:focus\:olc\:on-surface-inverse:focus {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:focus\:outline-color\:surface-active:focus,
+	.lg\:focus\:olc\:surface-active:focus {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus\:outline-color\:surface-disabled:focus,
+	.lg\:focus\:olc\:surface-disabled:focus {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus\:outline-color\:text:focus,
@@ -11410,6 +13300,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus\:outline-color\:text-disabled:focus,
+	.lg\:focus\:olc\:text-disabled:focus {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus\:outline-color\:link:focus,
+	.lg\:focus\:olc\:link:focus {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:focus\:outline-color\:link-hover:focus,
+	.lg\:focus\:olc\:link-hover:focus {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus\:outline-color\:border:focus,
 	.lg\:focus\:olc\:border:focus {
 		outline-color: var(--color-border) !important;
@@ -11423,6 +13328,26 @@
 	.lg\:focus\:outline-color\:border-subtle:focus,
 	.lg\:focus\:olc\:border-subtle:focus {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus\:outline-color\:code-bg:focus,
+	.lg\:focus\:olc\:code-bg:focus {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus\:outline-color\:code-fg:focus,
+	.lg\:focus\:olc\:code-fg:focus {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus\:outline-color\:code-border:focus,
+	.lg\:focus\:olc\:code-border:focus {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:focus\:outline-color\:scrim:focus,
+	.lg\:focus\:olc\:scrim:focus {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:focus\:outline-color\:success:focus,
@@ -11498,6 +13423,31 @@
 	.lg\:focus\:outline-color\:on-danger:focus,
 	.lg\:focus\:olc\:on-danger:focus {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus\:outline-color\:info:focus,
+	.lg\:focus\:olc\:info:focus {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:focus\:outline-color\:info-hover:focus,
+	.lg\:focus\:olc\:info-hover:focus {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus\:outline-color\:info-active:focus,
+	.lg\:focus\:olc\:info-active:focus {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:focus\:outline-color\:info-subtle:focus,
+	.lg\:focus\:olc\:info-subtle:focus {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus\:outline-color\:on-info:focus,
+	.lg\:focus\:olc\:on-info:focus {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:focus\:outline-color\:focus-ring:focus,
@@ -11766,14 +13716,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-visible\:outline-color\:on-surface:focus-visible,
-	.lg\:focus-visible\:olc\:on-surface:focus-visible {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:focus-visible\:outline-color\:surface-hover:focus-visible,
+	.lg\:focus-visible\:olc\:surface-hover:focus-visible {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-visible\:outline-color\:on-surface-inverse:focus-visible,
-	.lg\:focus-visible\:olc\:on-surface-inverse:focus-visible {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:focus-visible\:outline-color\:surface-active:focus-visible,
+	.lg\:focus-visible\:olc\:surface-active:focus-visible {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:surface-disabled:focus-visible,
+	.lg\:focus-visible\:olc\:surface-disabled:focus-visible {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-visible\:outline-color\:text:focus-visible,
@@ -11796,6 +13751,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-visible\:outline-color\:text-disabled:focus-visible,
+	.lg\:focus-visible\:olc\:text-disabled:focus-visible {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:link:focus-visible,
+	.lg\:focus-visible\:olc\:link:focus-visible {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:link-hover:focus-visible,
+	.lg\:focus-visible\:olc\:link-hover:focus-visible {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-visible\:outline-color\:border:focus-visible,
 	.lg\:focus-visible\:olc\:border:focus-visible {
 		outline-color: var(--color-border) !important;
@@ -11809,6 +13779,26 @@
 	.lg\:focus-visible\:outline-color\:border-subtle:focus-visible,
 	.lg\:focus-visible\:olc\:border-subtle:focus-visible {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:code-bg:focus-visible,
+	.lg\:focus-visible\:olc\:code-bg:focus-visible {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:code-fg:focus-visible,
+	.lg\:focus-visible\:olc\:code-fg:focus-visible {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:code-border:focus-visible,
+	.lg\:focus-visible\:olc\:code-border:focus-visible {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:scrim:focus-visible,
+	.lg\:focus-visible\:olc\:scrim:focus-visible {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-visible\:outline-color\:success:focus-visible,
@@ -11884,6 +13874,31 @@
 	.lg\:focus-visible\:outline-color\:on-danger:focus-visible,
 	.lg\:focus-visible\:olc\:on-danger:focus-visible {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:info:focus-visible,
+	.lg\:focus-visible\:olc\:info:focus-visible {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:info-hover:focus-visible,
+	.lg\:focus-visible\:olc\:info-hover:focus-visible {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:info-active:focus-visible,
+	.lg\:focus-visible\:olc\:info-active:focus-visible {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:info-subtle:focus-visible,
+	.lg\:focus-visible\:olc\:info-subtle:focus-visible {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-visible\:outline-color\:on-info:focus-visible,
+	.lg\:focus-visible\:olc\:on-info:focus-visible {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-visible\:outline-color\:focus-ring:focus-visible,
@@ -12152,14 +14167,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:focus-within\:outline-color\:on-surface:focus-within,
-	.lg\:focus-within\:olc\:on-surface:focus-within {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:focus-within\:outline-color\:surface-hover:focus-within,
+	.lg\:focus-within\:olc\:surface-hover:focus-within {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:focus-within\:outline-color\:on-surface-inverse:focus-within,
-	.lg\:focus-within\:olc\:on-surface-inverse:focus-within {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:focus-within\:outline-color\:surface-active:focus-within,
+	.lg\:focus-within\:olc\:surface-active:focus-within {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:surface-disabled:focus-within,
+	.lg\:focus-within\:olc\:surface-disabled:focus-within {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:focus-within\:outline-color\:text:focus-within,
@@ -12182,6 +14202,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:focus-within\:outline-color\:text-disabled:focus-within,
+	.lg\:focus-within\:olc\:text-disabled:focus-within {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:link:focus-within,
+	.lg\:focus-within\:olc\:link:focus-within {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:link-hover:focus-within,
+	.lg\:focus-within\:olc\:link-hover:focus-within {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:focus-within\:outline-color\:border:focus-within,
 	.lg\:focus-within\:olc\:border:focus-within {
 		outline-color: var(--color-border) !important;
@@ -12195,6 +14230,26 @@
 	.lg\:focus-within\:outline-color\:border-subtle:focus-within,
 	.lg\:focus-within\:olc\:border-subtle:focus-within {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:code-bg:focus-within,
+	.lg\:focus-within\:olc\:code-bg:focus-within {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:code-fg:focus-within,
+	.lg\:focus-within\:olc\:code-fg:focus-within {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:code-border:focus-within,
+	.lg\:focus-within\:olc\:code-border:focus-within {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:scrim:focus-within,
+	.lg\:focus-within\:olc\:scrim:focus-within {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:focus-within\:outline-color\:success:focus-within,
@@ -12270,6 +14325,31 @@
 	.lg\:focus-within\:outline-color\:on-danger:focus-within,
 	.lg\:focus-within\:olc\:on-danger:focus-within {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:info:focus-within,
+	.lg\:focus-within\:olc\:info:focus-within {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:info-hover:focus-within,
+	.lg\:focus-within\:olc\:info-hover:focus-within {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:info-active:focus-within,
+	.lg\:focus-within\:olc\:info-active:focus-within {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:info-subtle:focus-within,
+	.lg\:focus-within\:olc\:info-subtle:focus-within {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:focus-within\:outline-color\:on-info:focus-within,
+	.lg\:focus-within\:olc\:on-info:focus-within {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:focus-within\:outline-color\:focus-ring:focus-within,
@@ -12538,14 +14618,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:active\:outline-color\:on-surface:active,
-	.lg\:active\:olc\:on-surface:active {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:active\:outline-color\:surface-hover:active,
+	.lg\:active\:olc\:surface-hover:active {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:active\:outline-color\:on-surface-inverse:active,
-	.lg\:active\:olc\:on-surface-inverse:active {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:active\:outline-color\:surface-active:active,
+	.lg\:active\:olc\:surface-active:active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:active\:outline-color\:surface-disabled:active,
+	.lg\:active\:olc\:surface-disabled:active {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:active\:outline-color\:text:active,
@@ -12568,6 +14653,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:active\:outline-color\:text-disabled:active,
+	.lg\:active\:olc\:text-disabled:active {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:active\:outline-color\:link:active,
+	.lg\:active\:olc\:link:active {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:active\:outline-color\:link-hover:active,
+	.lg\:active\:olc\:link-hover:active {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:active\:outline-color\:border:active,
 	.lg\:active\:olc\:border:active {
 		outline-color: var(--color-border) !important;
@@ -12581,6 +14681,26 @@
 	.lg\:active\:outline-color\:border-subtle:active,
 	.lg\:active\:olc\:border-subtle:active {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:active\:outline-color\:code-bg:active,
+	.lg\:active\:olc\:code-bg:active {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:active\:outline-color\:code-fg:active,
+	.lg\:active\:olc\:code-fg:active {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:active\:outline-color\:code-border:active,
+	.lg\:active\:olc\:code-border:active {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:active\:outline-color\:scrim:active,
+	.lg\:active\:olc\:scrim:active {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:active\:outline-color\:success:active,
@@ -12656,6 +14776,31 @@
 	.lg\:active\:outline-color\:on-danger:active,
 	.lg\:active\:olc\:on-danger:active {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:active\:outline-color\:info:active,
+	.lg\:active\:olc\:info:active {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:active\:outline-color\:info-hover:active,
+	.lg\:active\:olc\:info-hover:active {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:active\:outline-color\:info-active:active,
+	.lg\:active\:olc\:info-active:active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:active\:outline-color\:info-subtle:active,
+	.lg\:active\:olc\:info-subtle:active {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:active\:outline-color\:on-info:active,
+	.lg\:active\:olc\:on-info:active {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:active\:outline-color\:focus-ring:active,
@@ -12924,14 +15069,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:disabled\:outline-color\:on-surface:disabled,
-	.lg\:disabled\:olc\:on-surface:disabled {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:disabled\:outline-color\:surface-hover:disabled,
+	.lg\:disabled\:olc\:surface-hover:disabled {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:disabled\:outline-color\:on-surface-inverse:disabled,
-	.lg\:disabled\:olc\:on-surface-inverse:disabled {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:disabled\:outline-color\:surface-active:disabled,
+	.lg\:disabled\:olc\:surface-active:disabled {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:disabled\:outline-color\:surface-disabled:disabled,
+	.lg\:disabled\:olc\:surface-disabled:disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:disabled\:outline-color\:text:disabled,
@@ -12954,6 +15104,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:disabled\:outline-color\:text-disabled:disabled,
+	.lg\:disabled\:olc\:text-disabled:disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:disabled\:outline-color\:link:disabled,
+	.lg\:disabled\:olc\:link:disabled {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:disabled\:outline-color\:link-hover:disabled,
+	.lg\:disabled\:olc\:link-hover:disabled {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:disabled\:outline-color\:border:disabled,
 	.lg\:disabled\:olc\:border:disabled {
 		outline-color: var(--color-border) !important;
@@ -12967,6 +15132,26 @@
 	.lg\:disabled\:outline-color\:border-subtle:disabled,
 	.lg\:disabled\:olc\:border-subtle:disabled {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:disabled\:outline-color\:code-bg:disabled,
+	.lg\:disabled\:olc\:code-bg:disabled {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:disabled\:outline-color\:code-fg:disabled,
+	.lg\:disabled\:olc\:code-fg:disabled {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:disabled\:outline-color\:code-border:disabled,
+	.lg\:disabled\:olc\:code-border:disabled {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:disabled\:outline-color\:scrim:disabled,
+	.lg\:disabled\:olc\:scrim:disabled {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:disabled\:outline-color\:success:disabled,
@@ -13042,6 +15227,31 @@
 	.lg\:disabled\:outline-color\:on-danger:disabled,
 	.lg\:disabled\:olc\:on-danger:disabled {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:disabled\:outline-color\:info:disabled,
+	.lg\:disabled\:olc\:info:disabled {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:disabled\:outline-color\:info-hover:disabled,
+	.lg\:disabled\:olc\:info-hover:disabled {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:disabled\:outline-color\:info-active:disabled,
+	.lg\:disabled\:olc\:info-active:disabled {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:disabled\:outline-color\:info-subtle:disabled,
+	.lg\:disabled\:olc\:info-subtle:disabled {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:disabled\:outline-color\:on-info:disabled,
+	.lg\:disabled\:olc\:on-info:disabled {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:disabled\:outline-color\:focus-ring:disabled,
@@ -13310,14 +15520,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:checked\:outline-color\:on-surface:checked,
-	.lg\:checked\:olc\:on-surface:checked {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:checked\:outline-color\:surface-hover:checked,
+	.lg\:checked\:olc\:surface-hover:checked {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:checked\:outline-color\:on-surface-inverse:checked,
-	.lg\:checked\:olc\:on-surface-inverse:checked {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:checked\:outline-color\:surface-active:checked,
+	.lg\:checked\:olc\:surface-active:checked {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:checked\:outline-color\:surface-disabled:checked,
+	.lg\:checked\:olc\:surface-disabled:checked {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:checked\:outline-color\:text:checked,
@@ -13340,6 +15555,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:checked\:outline-color\:text-disabled:checked,
+	.lg\:checked\:olc\:text-disabled:checked {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:checked\:outline-color\:link:checked,
+	.lg\:checked\:olc\:link:checked {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:checked\:outline-color\:link-hover:checked,
+	.lg\:checked\:olc\:link-hover:checked {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:checked\:outline-color\:border:checked,
 	.lg\:checked\:olc\:border:checked {
 		outline-color: var(--color-border) !important;
@@ -13353,6 +15583,26 @@
 	.lg\:checked\:outline-color\:border-subtle:checked,
 	.lg\:checked\:olc\:border-subtle:checked {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:checked\:outline-color\:code-bg:checked,
+	.lg\:checked\:olc\:code-bg:checked {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:checked\:outline-color\:code-fg:checked,
+	.lg\:checked\:olc\:code-fg:checked {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:checked\:outline-color\:code-border:checked,
+	.lg\:checked\:olc\:code-border:checked {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:checked\:outline-color\:scrim:checked,
+	.lg\:checked\:olc\:scrim:checked {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:checked\:outline-color\:success:checked,
@@ -13428,6 +15678,31 @@
 	.lg\:checked\:outline-color\:on-danger:checked,
 	.lg\:checked\:olc\:on-danger:checked {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:checked\:outline-color\:info:checked,
+	.lg\:checked\:olc\:info:checked {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:checked\:outline-color\:info-hover:checked,
+	.lg\:checked\:olc\:info-hover:checked {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:checked\:outline-color\:info-active:checked,
+	.lg\:checked\:olc\:info-active:checked {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:checked\:outline-color\:info-subtle:checked,
+	.lg\:checked\:olc\:info-subtle:checked {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:checked\:outline-color\:on-info:checked,
+	.lg\:checked\:olc\:on-info:checked {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:checked\:outline-color\:focus-ring:checked,
@@ -13696,14 +15971,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.lg\:visited\:outline-color\:on-surface:visited,
-	.lg\:visited\:olc\:on-surface:visited {
-		outline-color: var(--color-on-surface) !important;
+	.lg\:visited\:outline-color\:surface-hover:visited,
+	.lg\:visited\:olc\:surface-hover:visited {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.lg\:visited\:outline-color\:on-surface-inverse:visited,
-	.lg\:visited\:olc\:on-surface-inverse:visited {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.lg\:visited\:outline-color\:surface-active:visited,
+	.lg\:visited\:olc\:surface-active:visited {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.lg\:visited\:outline-color\:surface-disabled:visited,
+	.lg\:visited\:olc\:surface-disabled:visited {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.lg\:visited\:outline-color\:text:visited,
@@ -13726,6 +16006,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.lg\:visited\:outline-color\:text-disabled:visited,
+	.lg\:visited\:olc\:text-disabled:visited {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.lg\:visited\:outline-color\:link:visited,
+	.lg\:visited\:olc\:link:visited {
+		outline-color: var(--color-link) !important;
+	}
+
+	.lg\:visited\:outline-color\:link-hover:visited,
+	.lg\:visited\:olc\:link-hover:visited {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.lg\:visited\:outline-color\:border:visited,
 	.lg\:visited\:olc\:border:visited {
 		outline-color: var(--color-border) !important;
@@ -13739,6 +16034,26 @@
 	.lg\:visited\:outline-color\:border-subtle:visited,
 	.lg\:visited\:olc\:border-subtle:visited {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.lg\:visited\:outline-color\:code-bg:visited,
+	.lg\:visited\:olc\:code-bg:visited {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.lg\:visited\:outline-color\:code-fg:visited,
+	.lg\:visited\:olc\:code-fg:visited {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.lg\:visited\:outline-color\:code-border:visited,
+	.lg\:visited\:olc\:code-border:visited {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.lg\:visited\:outline-color\:scrim:visited,
+	.lg\:visited\:olc\:scrim:visited {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.lg\:visited\:outline-color\:success:visited,
@@ -13814,6 +16129,31 @@
 	.lg\:visited\:outline-color\:on-danger:visited,
 	.lg\:visited\:olc\:on-danger:visited {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.lg\:visited\:outline-color\:info:visited,
+	.lg\:visited\:olc\:info:visited {
+		outline-color: var(--color-info) !important;
+	}
+
+	.lg\:visited\:outline-color\:info-hover:visited,
+	.lg\:visited\:olc\:info-hover:visited {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.lg\:visited\:outline-color\:info-active:visited,
+	.lg\:visited\:olc\:info-active:visited {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.lg\:visited\:outline-color\:info-subtle:visited,
+	.lg\:visited\:olc\:info-subtle:visited {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.lg\:visited\:outline-color\:on-info:visited,
+	.lg\:visited\:olc\:on-info:visited {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.lg\:visited\:outline-color\:focus-ring:visited,
@@ -14084,14 +16424,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:outline-color\:on-surface,
-	.xl\:olc\:on-surface {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:outline-color\:surface-hover,
+	.xl\:olc\:surface-hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:outline-color\:on-surface-inverse,
-	.xl\:olc\:on-surface-inverse {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:outline-color\:surface-active,
+	.xl\:olc\:surface-active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:outline-color\:surface-disabled,
+	.xl\:olc\:surface-disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:outline-color\:text,
@@ -14114,6 +16459,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:outline-color\:text-disabled,
+	.xl\:olc\:text-disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:outline-color\:link,
+	.xl\:olc\:link {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:outline-color\:link-hover,
+	.xl\:olc\:link-hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:outline-color\:border,
 	.xl\:olc\:border {
 		outline-color: var(--color-border) !important;
@@ -14127,6 +16487,26 @@
 	.xl\:outline-color\:border-subtle,
 	.xl\:olc\:border-subtle {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:outline-color\:code-bg,
+	.xl\:olc\:code-bg {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:outline-color\:code-fg,
+	.xl\:olc\:code-fg {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:outline-color\:code-border,
+	.xl\:olc\:code-border {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:outline-color\:scrim,
+	.xl\:olc\:scrim {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:outline-color\:success,
@@ -14202,6 +16582,31 @@
 	.xl\:outline-color\:on-danger,
 	.xl\:olc\:on-danger {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:outline-color\:info,
+	.xl\:olc\:info {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:outline-color\:info-hover,
+	.xl\:olc\:info-hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:outline-color\:info-active,
+	.xl\:olc\:info-active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:outline-color\:info-subtle,
+	.xl\:olc\:info-subtle {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:outline-color\:on-info,
+	.xl\:olc\:on-info {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:outline-color\:focus-ring,
@@ -14470,14 +16875,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:hover\:outline-color\:on-surface:hover,
-	.xl\:hover\:olc\:on-surface:hover {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:hover\:outline-color\:surface-hover:hover,
+	.xl\:hover\:olc\:surface-hover:hover {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:hover\:outline-color\:on-surface-inverse:hover,
-	.xl\:hover\:olc\:on-surface-inverse:hover {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:hover\:outline-color\:surface-active:hover,
+	.xl\:hover\:olc\:surface-active:hover {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:hover\:outline-color\:surface-disabled:hover,
+	.xl\:hover\:olc\:surface-disabled:hover {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:hover\:outline-color\:text:hover,
@@ -14500,6 +16910,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:hover\:outline-color\:text-disabled:hover,
+	.xl\:hover\:olc\:text-disabled:hover {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:hover\:outline-color\:link:hover,
+	.xl\:hover\:olc\:link:hover {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:hover\:outline-color\:link-hover:hover,
+	.xl\:hover\:olc\:link-hover:hover {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:hover\:outline-color\:border:hover,
 	.xl\:hover\:olc\:border:hover {
 		outline-color: var(--color-border) !important;
@@ -14513,6 +16938,26 @@
 	.xl\:hover\:outline-color\:border-subtle:hover,
 	.xl\:hover\:olc\:border-subtle:hover {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:hover\:outline-color\:code-bg:hover,
+	.xl\:hover\:olc\:code-bg:hover {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:hover\:outline-color\:code-fg:hover,
+	.xl\:hover\:olc\:code-fg:hover {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:hover\:outline-color\:code-border:hover,
+	.xl\:hover\:olc\:code-border:hover {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:hover\:outline-color\:scrim:hover,
+	.xl\:hover\:olc\:scrim:hover {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:hover\:outline-color\:success:hover,
@@ -14588,6 +17033,31 @@
 	.xl\:hover\:outline-color\:on-danger:hover,
 	.xl\:hover\:olc\:on-danger:hover {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:hover\:outline-color\:info:hover,
+	.xl\:hover\:olc\:info:hover {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:hover\:outline-color\:info-hover:hover,
+	.xl\:hover\:olc\:info-hover:hover {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:hover\:outline-color\:info-active:hover,
+	.xl\:hover\:olc\:info-active:hover {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:hover\:outline-color\:info-subtle:hover,
+	.xl\:hover\:olc\:info-subtle:hover {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:hover\:outline-color\:on-info:hover,
+	.xl\:hover\:olc\:on-info:hover {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:hover\:outline-color\:focus-ring:hover,
@@ -14856,14 +17326,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus\:outline-color\:on-surface:focus,
-	.xl\:focus\:olc\:on-surface:focus {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:focus\:outline-color\:surface-hover:focus,
+	.xl\:focus\:olc\:surface-hover:focus {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus\:outline-color\:on-surface-inverse:focus,
-	.xl\:focus\:olc\:on-surface-inverse:focus {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:focus\:outline-color\:surface-active:focus,
+	.xl\:focus\:olc\:surface-active:focus {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus\:outline-color\:surface-disabled:focus,
+	.xl\:focus\:olc\:surface-disabled:focus {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus\:outline-color\:text:focus,
@@ -14886,6 +17361,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus\:outline-color\:text-disabled:focus,
+	.xl\:focus\:olc\:text-disabled:focus {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus\:outline-color\:link:focus,
+	.xl\:focus\:olc\:link:focus {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:focus\:outline-color\:link-hover:focus,
+	.xl\:focus\:olc\:link-hover:focus {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus\:outline-color\:border:focus,
 	.xl\:focus\:olc\:border:focus {
 		outline-color: var(--color-border) !important;
@@ -14899,6 +17389,26 @@
 	.xl\:focus\:outline-color\:border-subtle:focus,
 	.xl\:focus\:olc\:border-subtle:focus {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus\:outline-color\:code-bg:focus,
+	.xl\:focus\:olc\:code-bg:focus {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus\:outline-color\:code-fg:focus,
+	.xl\:focus\:olc\:code-fg:focus {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus\:outline-color\:code-border:focus,
+	.xl\:focus\:olc\:code-border:focus {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:focus\:outline-color\:scrim:focus,
+	.xl\:focus\:olc\:scrim:focus {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:focus\:outline-color\:success:focus,
@@ -14974,6 +17484,31 @@
 	.xl\:focus\:outline-color\:on-danger:focus,
 	.xl\:focus\:olc\:on-danger:focus {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus\:outline-color\:info:focus,
+	.xl\:focus\:olc\:info:focus {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:focus\:outline-color\:info-hover:focus,
+	.xl\:focus\:olc\:info-hover:focus {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus\:outline-color\:info-active:focus,
+	.xl\:focus\:olc\:info-active:focus {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:focus\:outline-color\:info-subtle:focus,
+	.xl\:focus\:olc\:info-subtle:focus {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus\:outline-color\:on-info:focus,
+	.xl\:focus\:olc\:on-info:focus {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:focus\:outline-color\:focus-ring:focus,
@@ -15242,14 +17777,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-visible\:outline-color\:on-surface:focus-visible,
-	.xl\:focus-visible\:olc\:on-surface:focus-visible {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:focus-visible\:outline-color\:surface-hover:focus-visible,
+	.xl\:focus-visible\:olc\:surface-hover:focus-visible {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-visible\:outline-color\:on-surface-inverse:focus-visible,
-	.xl\:focus-visible\:olc\:on-surface-inverse:focus-visible {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:focus-visible\:outline-color\:surface-active:focus-visible,
+	.xl\:focus-visible\:olc\:surface-active:focus-visible {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:surface-disabled:focus-visible,
+	.xl\:focus-visible\:olc\:surface-disabled:focus-visible {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-visible\:outline-color\:text:focus-visible,
@@ -15272,6 +17812,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-visible\:outline-color\:text-disabled:focus-visible,
+	.xl\:focus-visible\:olc\:text-disabled:focus-visible {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:link:focus-visible,
+	.xl\:focus-visible\:olc\:link:focus-visible {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:link-hover:focus-visible,
+	.xl\:focus-visible\:olc\:link-hover:focus-visible {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-visible\:outline-color\:border:focus-visible,
 	.xl\:focus-visible\:olc\:border:focus-visible {
 		outline-color: var(--color-border) !important;
@@ -15285,6 +17840,26 @@
 	.xl\:focus-visible\:outline-color\:border-subtle:focus-visible,
 	.xl\:focus-visible\:olc\:border-subtle:focus-visible {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:code-bg:focus-visible,
+	.xl\:focus-visible\:olc\:code-bg:focus-visible {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:code-fg:focus-visible,
+	.xl\:focus-visible\:olc\:code-fg:focus-visible {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:code-border:focus-visible,
+	.xl\:focus-visible\:olc\:code-border:focus-visible {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:scrim:focus-visible,
+	.xl\:focus-visible\:olc\:scrim:focus-visible {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-visible\:outline-color\:success:focus-visible,
@@ -15360,6 +17935,31 @@
 	.xl\:focus-visible\:outline-color\:on-danger:focus-visible,
 	.xl\:focus-visible\:olc\:on-danger:focus-visible {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:info:focus-visible,
+	.xl\:focus-visible\:olc\:info:focus-visible {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:info-hover:focus-visible,
+	.xl\:focus-visible\:olc\:info-hover:focus-visible {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:info-active:focus-visible,
+	.xl\:focus-visible\:olc\:info-active:focus-visible {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:info-subtle:focus-visible,
+	.xl\:focus-visible\:olc\:info-subtle:focus-visible {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-visible\:outline-color\:on-info:focus-visible,
+	.xl\:focus-visible\:olc\:on-info:focus-visible {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-visible\:outline-color\:focus-ring:focus-visible,
@@ -15628,14 +18228,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:focus-within\:outline-color\:on-surface:focus-within,
-	.xl\:focus-within\:olc\:on-surface:focus-within {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:focus-within\:outline-color\:surface-hover:focus-within,
+	.xl\:focus-within\:olc\:surface-hover:focus-within {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:focus-within\:outline-color\:on-surface-inverse:focus-within,
-	.xl\:focus-within\:olc\:on-surface-inverse:focus-within {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:focus-within\:outline-color\:surface-active:focus-within,
+	.xl\:focus-within\:olc\:surface-active:focus-within {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:surface-disabled:focus-within,
+	.xl\:focus-within\:olc\:surface-disabled:focus-within {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:focus-within\:outline-color\:text:focus-within,
@@ -15658,6 +18263,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:focus-within\:outline-color\:text-disabled:focus-within,
+	.xl\:focus-within\:olc\:text-disabled:focus-within {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:link:focus-within,
+	.xl\:focus-within\:olc\:link:focus-within {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:link-hover:focus-within,
+	.xl\:focus-within\:olc\:link-hover:focus-within {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:focus-within\:outline-color\:border:focus-within,
 	.xl\:focus-within\:olc\:border:focus-within {
 		outline-color: var(--color-border) !important;
@@ -15671,6 +18291,26 @@
 	.xl\:focus-within\:outline-color\:border-subtle:focus-within,
 	.xl\:focus-within\:olc\:border-subtle:focus-within {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:code-bg:focus-within,
+	.xl\:focus-within\:olc\:code-bg:focus-within {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:code-fg:focus-within,
+	.xl\:focus-within\:olc\:code-fg:focus-within {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:code-border:focus-within,
+	.xl\:focus-within\:olc\:code-border:focus-within {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:scrim:focus-within,
+	.xl\:focus-within\:olc\:scrim:focus-within {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:focus-within\:outline-color\:success:focus-within,
@@ -15746,6 +18386,31 @@
 	.xl\:focus-within\:outline-color\:on-danger:focus-within,
 	.xl\:focus-within\:olc\:on-danger:focus-within {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:info:focus-within,
+	.xl\:focus-within\:olc\:info:focus-within {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:info-hover:focus-within,
+	.xl\:focus-within\:olc\:info-hover:focus-within {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:info-active:focus-within,
+	.xl\:focus-within\:olc\:info-active:focus-within {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:info-subtle:focus-within,
+	.xl\:focus-within\:olc\:info-subtle:focus-within {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:focus-within\:outline-color\:on-info:focus-within,
+	.xl\:focus-within\:olc\:on-info:focus-within {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:focus-within\:outline-color\:focus-ring:focus-within,
@@ -16014,14 +18679,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:active\:outline-color\:on-surface:active,
-	.xl\:active\:olc\:on-surface:active {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:active\:outline-color\:surface-hover:active,
+	.xl\:active\:olc\:surface-hover:active {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:active\:outline-color\:on-surface-inverse:active,
-	.xl\:active\:olc\:on-surface-inverse:active {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:active\:outline-color\:surface-active:active,
+	.xl\:active\:olc\:surface-active:active {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:active\:outline-color\:surface-disabled:active,
+	.xl\:active\:olc\:surface-disabled:active {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:active\:outline-color\:text:active,
@@ -16044,6 +18714,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:active\:outline-color\:text-disabled:active,
+	.xl\:active\:olc\:text-disabled:active {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:active\:outline-color\:link:active,
+	.xl\:active\:olc\:link:active {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:active\:outline-color\:link-hover:active,
+	.xl\:active\:olc\:link-hover:active {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:active\:outline-color\:border:active,
 	.xl\:active\:olc\:border:active {
 		outline-color: var(--color-border) !important;
@@ -16057,6 +18742,26 @@
 	.xl\:active\:outline-color\:border-subtle:active,
 	.xl\:active\:olc\:border-subtle:active {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:active\:outline-color\:code-bg:active,
+	.xl\:active\:olc\:code-bg:active {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:active\:outline-color\:code-fg:active,
+	.xl\:active\:olc\:code-fg:active {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:active\:outline-color\:code-border:active,
+	.xl\:active\:olc\:code-border:active {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:active\:outline-color\:scrim:active,
+	.xl\:active\:olc\:scrim:active {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:active\:outline-color\:success:active,
@@ -16132,6 +18837,31 @@
 	.xl\:active\:outline-color\:on-danger:active,
 	.xl\:active\:olc\:on-danger:active {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:active\:outline-color\:info:active,
+	.xl\:active\:olc\:info:active {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:active\:outline-color\:info-hover:active,
+	.xl\:active\:olc\:info-hover:active {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:active\:outline-color\:info-active:active,
+	.xl\:active\:olc\:info-active:active {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:active\:outline-color\:info-subtle:active,
+	.xl\:active\:olc\:info-subtle:active {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:active\:outline-color\:on-info:active,
+	.xl\:active\:olc\:on-info:active {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:active\:outline-color\:focus-ring:active,
@@ -16400,14 +19130,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:disabled\:outline-color\:on-surface:disabled,
-	.xl\:disabled\:olc\:on-surface:disabled {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:disabled\:outline-color\:surface-hover:disabled,
+	.xl\:disabled\:olc\:surface-hover:disabled {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:disabled\:outline-color\:on-surface-inverse:disabled,
-	.xl\:disabled\:olc\:on-surface-inverse:disabled {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:disabled\:outline-color\:surface-active:disabled,
+	.xl\:disabled\:olc\:surface-active:disabled {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:disabled\:outline-color\:surface-disabled:disabled,
+	.xl\:disabled\:olc\:surface-disabled:disabled {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:disabled\:outline-color\:text:disabled,
@@ -16430,6 +19165,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:disabled\:outline-color\:text-disabled:disabled,
+	.xl\:disabled\:olc\:text-disabled:disabled {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:disabled\:outline-color\:link:disabled,
+	.xl\:disabled\:olc\:link:disabled {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:disabled\:outline-color\:link-hover:disabled,
+	.xl\:disabled\:olc\:link-hover:disabled {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:disabled\:outline-color\:border:disabled,
 	.xl\:disabled\:olc\:border:disabled {
 		outline-color: var(--color-border) !important;
@@ -16443,6 +19193,26 @@
 	.xl\:disabled\:outline-color\:border-subtle:disabled,
 	.xl\:disabled\:olc\:border-subtle:disabled {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:disabled\:outline-color\:code-bg:disabled,
+	.xl\:disabled\:olc\:code-bg:disabled {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:disabled\:outline-color\:code-fg:disabled,
+	.xl\:disabled\:olc\:code-fg:disabled {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:disabled\:outline-color\:code-border:disabled,
+	.xl\:disabled\:olc\:code-border:disabled {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:disabled\:outline-color\:scrim:disabled,
+	.xl\:disabled\:olc\:scrim:disabled {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:disabled\:outline-color\:success:disabled,
@@ -16518,6 +19288,31 @@
 	.xl\:disabled\:outline-color\:on-danger:disabled,
 	.xl\:disabled\:olc\:on-danger:disabled {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:disabled\:outline-color\:info:disabled,
+	.xl\:disabled\:olc\:info:disabled {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:disabled\:outline-color\:info-hover:disabled,
+	.xl\:disabled\:olc\:info-hover:disabled {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:disabled\:outline-color\:info-active:disabled,
+	.xl\:disabled\:olc\:info-active:disabled {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:disabled\:outline-color\:info-subtle:disabled,
+	.xl\:disabled\:olc\:info-subtle:disabled {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:disabled\:outline-color\:on-info:disabled,
+	.xl\:disabled\:olc\:on-info:disabled {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:disabled\:outline-color\:focus-ring:disabled,
@@ -16786,14 +19581,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:checked\:outline-color\:on-surface:checked,
-	.xl\:checked\:olc\:on-surface:checked {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:checked\:outline-color\:surface-hover:checked,
+	.xl\:checked\:olc\:surface-hover:checked {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:checked\:outline-color\:on-surface-inverse:checked,
-	.xl\:checked\:olc\:on-surface-inverse:checked {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:checked\:outline-color\:surface-active:checked,
+	.xl\:checked\:olc\:surface-active:checked {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:checked\:outline-color\:surface-disabled:checked,
+	.xl\:checked\:olc\:surface-disabled:checked {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:checked\:outline-color\:text:checked,
@@ -16816,6 +19616,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:checked\:outline-color\:text-disabled:checked,
+	.xl\:checked\:olc\:text-disabled:checked {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:checked\:outline-color\:link:checked,
+	.xl\:checked\:olc\:link:checked {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:checked\:outline-color\:link-hover:checked,
+	.xl\:checked\:olc\:link-hover:checked {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:checked\:outline-color\:border:checked,
 	.xl\:checked\:olc\:border:checked {
 		outline-color: var(--color-border) !important;
@@ -16829,6 +19644,26 @@
 	.xl\:checked\:outline-color\:border-subtle:checked,
 	.xl\:checked\:olc\:border-subtle:checked {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:checked\:outline-color\:code-bg:checked,
+	.xl\:checked\:olc\:code-bg:checked {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:checked\:outline-color\:code-fg:checked,
+	.xl\:checked\:olc\:code-fg:checked {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:checked\:outline-color\:code-border:checked,
+	.xl\:checked\:olc\:code-border:checked {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:checked\:outline-color\:scrim:checked,
+	.xl\:checked\:olc\:scrim:checked {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:checked\:outline-color\:success:checked,
@@ -16904,6 +19739,31 @@
 	.xl\:checked\:outline-color\:on-danger:checked,
 	.xl\:checked\:olc\:on-danger:checked {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:checked\:outline-color\:info:checked,
+	.xl\:checked\:olc\:info:checked {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:checked\:outline-color\:info-hover:checked,
+	.xl\:checked\:olc\:info-hover:checked {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:checked\:outline-color\:info-active:checked,
+	.xl\:checked\:olc\:info-active:checked {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:checked\:outline-color\:info-subtle:checked,
+	.xl\:checked\:olc\:info-subtle:checked {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:checked\:outline-color\:on-info:checked,
+	.xl\:checked\:olc\:on-info:checked {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:checked\:outline-color\:focus-ring:checked,
@@ -17172,14 +20032,19 @@
 		outline-color: var(--color-surface-inverse) !important;
 	}
 
-	.xl\:visited\:outline-color\:on-surface:visited,
-	.xl\:visited\:olc\:on-surface:visited {
-		outline-color: var(--color-on-surface) !important;
+	.xl\:visited\:outline-color\:surface-hover:visited,
+	.xl\:visited\:olc\:surface-hover:visited {
+		outline-color: var(--color-surface-hover) !important;
 	}
 
-	.xl\:visited\:outline-color\:on-surface-inverse:visited,
-	.xl\:visited\:olc\:on-surface-inverse:visited {
-		outline-color: var(--color-on-surface-inverse) !important;
+	.xl\:visited\:outline-color\:surface-active:visited,
+	.xl\:visited\:olc\:surface-active:visited {
+		outline-color: var(--color-surface-active) !important;
+	}
+
+	.xl\:visited\:outline-color\:surface-disabled:visited,
+	.xl\:visited\:olc\:surface-disabled:visited {
+		outline-color: var(--color-surface-disabled) !important;
 	}
 
 	.xl\:visited\:outline-color\:text:visited,
@@ -17202,6 +20067,21 @@
 		outline-color: var(--color-text-inverse) !important;
 	}
 
+	.xl\:visited\:outline-color\:text-disabled:visited,
+	.xl\:visited\:olc\:text-disabled:visited {
+		outline-color: var(--color-text-disabled) !important;
+	}
+
+	.xl\:visited\:outline-color\:link:visited,
+	.xl\:visited\:olc\:link:visited {
+		outline-color: var(--color-link) !important;
+	}
+
+	.xl\:visited\:outline-color\:link-hover:visited,
+	.xl\:visited\:olc\:link-hover:visited {
+		outline-color: var(--color-link-hover) !important;
+	}
+
 	.xl\:visited\:outline-color\:border:visited,
 	.xl\:visited\:olc\:border:visited {
 		outline-color: var(--color-border) !important;
@@ -17215,6 +20095,26 @@
 	.xl\:visited\:outline-color\:border-subtle:visited,
 	.xl\:visited\:olc\:border-subtle:visited {
 		outline-color: var(--color-border-subtle) !important;
+	}
+
+	.xl\:visited\:outline-color\:code-bg:visited,
+	.xl\:visited\:olc\:code-bg:visited {
+		outline-color: var(--color-code-bg) !important;
+	}
+
+	.xl\:visited\:outline-color\:code-fg:visited,
+	.xl\:visited\:olc\:code-fg:visited {
+		outline-color: var(--color-code-fg) !important;
+	}
+
+	.xl\:visited\:outline-color\:code-border:visited,
+	.xl\:visited\:olc\:code-border:visited {
+		outline-color: var(--color-code-border) !important;
+	}
+
+	.xl\:visited\:outline-color\:scrim:visited,
+	.xl\:visited\:olc\:scrim:visited {
+		outline-color: var(--color-scrim) !important;
 	}
 
 	.xl\:visited\:outline-color\:success:visited,
@@ -17290,6 +20190,31 @@
 	.xl\:visited\:outline-color\:on-danger:visited,
 	.xl\:visited\:olc\:on-danger:visited {
 		outline-color: var(--color-on-danger) !important;
+	}
+
+	.xl\:visited\:outline-color\:info:visited,
+	.xl\:visited\:olc\:info:visited {
+		outline-color: var(--color-info) !important;
+	}
+
+	.xl\:visited\:outline-color\:info-hover:visited,
+	.xl\:visited\:olc\:info-hover:visited {
+		outline-color: var(--color-info-hover) !important;
+	}
+
+	.xl\:visited\:outline-color\:info-active:visited,
+	.xl\:visited\:olc\:info-active:visited {
+		outline-color: var(--color-info-active) !important;
+	}
+
+	.xl\:visited\:outline-color\:info-subtle:visited,
+	.xl\:visited\:olc\:info-subtle:visited {
+		outline-color: var(--color-info-subtle) !important;
+	}
+
+	.xl\:visited\:outline-color\:on-info:visited,
+	.xl\:visited\:olc\:on-info:visited {
+		outline-color: var(--color-on-info) !important;
 	}
 
 	.xl\:visited\:outline-color\:focus-ring:visited,

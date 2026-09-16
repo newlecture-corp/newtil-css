@@ -308,6 +308,11 @@
 	z-index: var(--z-sticky) !important;
 }
 
+.z-index\:fixed,
+.z\:fixed {
+	z-index: var(--z-fixed) !important;
+}
+
 .z-index\:overlay,
 .z\:overlay {
 	z-index: var(--z-overlay) !important;
@@ -642,6 +647,11 @@
 .hover\:z-index\:sticky:hover,
 .hover\:z\:sticky:hover {
 	z-index: var(--z-sticky) !important;
+}
+
+.hover\:z-index\:fixed:hover,
+.hover\:z\:fixed:hover {
+	z-index: var(--z-fixed) !important;
 }
 
 .hover\:z-index\:overlay:hover,
@@ -980,6 +990,11 @@
 	z-index: var(--z-sticky) !important;
 }
 
+.focus\:z-index\:fixed:focus,
+.focus\:z\:fixed:focus {
+	z-index: var(--z-fixed) !important;
+}
+
 .focus\:z-index\:overlay:focus,
 .focus\:z\:overlay:focus {
 	z-index: var(--z-overlay) !important;
@@ -1314,6 +1329,11 @@
 .focus-visible\:z-index\:sticky:focus-visible,
 .focus-visible\:z\:sticky:focus-visible {
 	z-index: var(--z-sticky) !important;
+}
+
+.focus-visible\:z-index\:fixed:focus-visible,
+.focus-visible\:z\:fixed:focus-visible {
+	z-index: var(--z-fixed) !important;
 }
 
 .focus-visible\:z-index\:overlay:focus-visible,
@@ -1652,6 +1672,11 @@
 	z-index: var(--z-sticky) !important;
 }
 
+.focus-within\:z-index\:fixed:focus-within,
+.focus-within\:z\:fixed:focus-within {
+	z-index: var(--z-fixed) !important;
+}
+
 .focus-within\:z-index\:overlay:focus-within,
 .focus-within\:z\:overlay:focus-within {
 	z-index: var(--z-overlay) !important;
@@ -1986,6 +2011,11 @@
 .active\:z-index\:sticky:active,
 .active\:z\:sticky:active {
 	z-index: var(--z-sticky) !important;
+}
+
+.active\:z-index\:fixed:active,
+.active\:z\:fixed:active {
+	z-index: var(--z-fixed) !important;
 }
 
 .active\:z-index\:overlay:active,
@@ -2324,6 +2354,11 @@
 	z-index: var(--z-sticky) !important;
 }
 
+.disabled\:z-index\:fixed:disabled,
+.disabled\:z\:fixed:disabled {
+	z-index: var(--z-fixed) !important;
+}
+
 .disabled\:z-index\:overlay:disabled,
 .disabled\:z\:overlay:disabled {
 	z-index: var(--z-overlay) !important;
@@ -2660,6 +2695,11 @@
 	z-index: var(--z-sticky) !important;
 }
 
+.checked\:z-index\:fixed:checked,
+.checked\:z\:fixed:checked {
+	z-index: var(--z-fixed) !important;
+}
+
 .checked\:z-index\:overlay:checked,
 .checked\:z\:overlay:checked {
 	z-index: var(--z-overlay) !important;
@@ -2994,6 +3034,11 @@
 .visited\:z-index\:sticky:visited,
 .visited\:z\:sticky:visited {
 	z-index: var(--z-sticky) !important;
+}
+
+.visited\:z-index\:fixed:visited,
+.visited\:z\:fixed:visited {
+	z-index: var(--z-fixed) !important;
 }
 
 .visited\:z-index\:overlay:visited,
@@ -3333,6 +3378,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.sm\:z-index\:fixed,
+	.sm\:z\:fixed {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.sm\:z-index\:overlay,
 	.sm\:z\:overlay {
 		z-index: var(--z-overlay) !important;
@@ -3667,6 +3717,11 @@
 	.sm\:hover\:z-index\:sticky:hover,
 	.sm\:hover\:z\:sticky:hover {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.sm\:hover\:z-index\:fixed:hover,
+	.sm\:hover\:z\:fixed:hover {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.sm\:hover\:z-index\:overlay:hover,
@@ -4005,6 +4060,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.sm\:focus\:z-index\:fixed:focus,
+	.sm\:focus\:z\:fixed:focus {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.sm\:focus\:z-index\:overlay:focus,
 	.sm\:focus\:z\:overlay:focus {
 		z-index: var(--z-overlay) !important;
@@ -4339,6 +4399,11 @@
 	.sm\:focus-visible\:z-index\:sticky:focus-visible,
 	.sm\:focus-visible\:z\:sticky:focus-visible {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.sm\:focus-visible\:z-index\:fixed:focus-visible,
+	.sm\:focus-visible\:z\:fixed:focus-visible {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.sm\:focus-visible\:z-index\:overlay:focus-visible,
@@ -4677,6 +4742,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.sm\:focus-within\:z-index\:fixed:focus-within,
+	.sm\:focus-within\:z\:fixed:focus-within {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.sm\:focus-within\:z-index\:overlay:focus-within,
 	.sm\:focus-within\:z\:overlay:focus-within {
 		z-index: var(--z-overlay) !important;
@@ -5011,6 +5081,11 @@
 	.sm\:active\:z-index\:sticky:active,
 	.sm\:active\:z\:sticky:active {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.sm\:active\:z-index\:fixed:active,
+	.sm\:active\:z\:fixed:active {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.sm\:active\:z-index\:overlay:active,
@@ -5349,6 +5424,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.sm\:disabled\:z-index\:fixed:disabled,
+	.sm\:disabled\:z\:fixed:disabled {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.sm\:disabled\:z-index\:overlay:disabled,
 	.sm\:disabled\:z\:overlay:disabled {
 		z-index: var(--z-overlay) !important;
@@ -5685,6 +5765,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.sm\:checked\:z-index\:fixed:checked,
+	.sm\:checked\:z\:fixed:checked {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.sm\:checked\:z-index\:overlay:checked,
 	.sm\:checked\:z\:overlay:checked {
 		z-index: var(--z-overlay) !important;
@@ -6019,6 +6104,11 @@
 	.sm\:visited\:z-index\:sticky:visited,
 	.sm\:visited\:z\:sticky:visited {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.sm\:visited\:z-index\:fixed:visited,
+	.sm\:visited\:z\:fixed:visited {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.sm\:visited\:z-index\:overlay:visited,
@@ -6359,6 +6449,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.md\:z-index\:fixed,
+	.md\:z\:fixed {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.md\:z-index\:overlay,
 	.md\:z\:overlay {
 		z-index: var(--z-overlay) !important;
@@ -6693,6 +6788,11 @@
 	.md\:hover\:z-index\:sticky:hover,
 	.md\:hover\:z\:sticky:hover {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.md\:hover\:z-index\:fixed:hover,
+	.md\:hover\:z\:fixed:hover {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.md\:hover\:z-index\:overlay:hover,
@@ -7031,6 +7131,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.md\:focus\:z-index\:fixed:focus,
+	.md\:focus\:z\:fixed:focus {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.md\:focus\:z-index\:overlay:focus,
 	.md\:focus\:z\:overlay:focus {
 		z-index: var(--z-overlay) !important;
@@ -7365,6 +7470,11 @@
 	.md\:focus-visible\:z-index\:sticky:focus-visible,
 	.md\:focus-visible\:z\:sticky:focus-visible {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.md\:focus-visible\:z-index\:fixed:focus-visible,
+	.md\:focus-visible\:z\:fixed:focus-visible {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.md\:focus-visible\:z-index\:overlay:focus-visible,
@@ -7703,6 +7813,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.md\:focus-within\:z-index\:fixed:focus-within,
+	.md\:focus-within\:z\:fixed:focus-within {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.md\:focus-within\:z-index\:overlay:focus-within,
 	.md\:focus-within\:z\:overlay:focus-within {
 		z-index: var(--z-overlay) !important;
@@ -8037,6 +8152,11 @@
 	.md\:active\:z-index\:sticky:active,
 	.md\:active\:z\:sticky:active {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.md\:active\:z-index\:fixed:active,
+	.md\:active\:z\:fixed:active {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.md\:active\:z-index\:overlay:active,
@@ -8375,6 +8495,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.md\:disabled\:z-index\:fixed:disabled,
+	.md\:disabled\:z\:fixed:disabled {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.md\:disabled\:z-index\:overlay:disabled,
 	.md\:disabled\:z\:overlay:disabled {
 		z-index: var(--z-overlay) !important;
@@ -8711,6 +8836,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.md\:checked\:z-index\:fixed:checked,
+	.md\:checked\:z\:fixed:checked {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.md\:checked\:z-index\:overlay:checked,
 	.md\:checked\:z\:overlay:checked {
 		z-index: var(--z-overlay) !important;
@@ -9045,6 +9175,11 @@
 	.md\:visited\:z-index\:sticky:visited,
 	.md\:visited\:z\:sticky:visited {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.md\:visited\:z-index\:fixed:visited,
+	.md\:visited\:z\:fixed:visited {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.md\:visited\:z-index\:overlay:visited,
@@ -9385,6 +9520,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.lg\:z-index\:fixed,
+	.lg\:z\:fixed {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.lg\:z-index\:overlay,
 	.lg\:z\:overlay {
 		z-index: var(--z-overlay) !important;
@@ -9719,6 +9859,11 @@
 	.lg\:hover\:z-index\:sticky:hover,
 	.lg\:hover\:z\:sticky:hover {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.lg\:hover\:z-index\:fixed:hover,
+	.lg\:hover\:z\:fixed:hover {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.lg\:hover\:z-index\:overlay:hover,
@@ -10057,6 +10202,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.lg\:focus\:z-index\:fixed:focus,
+	.lg\:focus\:z\:fixed:focus {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.lg\:focus\:z-index\:overlay:focus,
 	.lg\:focus\:z\:overlay:focus {
 		z-index: var(--z-overlay) !important;
@@ -10391,6 +10541,11 @@
 	.lg\:focus-visible\:z-index\:sticky:focus-visible,
 	.lg\:focus-visible\:z\:sticky:focus-visible {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.lg\:focus-visible\:z-index\:fixed:focus-visible,
+	.lg\:focus-visible\:z\:fixed:focus-visible {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.lg\:focus-visible\:z-index\:overlay:focus-visible,
@@ -10729,6 +10884,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.lg\:focus-within\:z-index\:fixed:focus-within,
+	.lg\:focus-within\:z\:fixed:focus-within {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.lg\:focus-within\:z-index\:overlay:focus-within,
 	.lg\:focus-within\:z\:overlay:focus-within {
 		z-index: var(--z-overlay) !important;
@@ -11063,6 +11223,11 @@
 	.lg\:active\:z-index\:sticky:active,
 	.lg\:active\:z\:sticky:active {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.lg\:active\:z-index\:fixed:active,
+	.lg\:active\:z\:fixed:active {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.lg\:active\:z-index\:overlay:active,
@@ -11401,6 +11566,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.lg\:disabled\:z-index\:fixed:disabled,
+	.lg\:disabled\:z\:fixed:disabled {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.lg\:disabled\:z-index\:overlay:disabled,
 	.lg\:disabled\:z\:overlay:disabled {
 		z-index: var(--z-overlay) !important;
@@ -11737,6 +11907,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.lg\:checked\:z-index\:fixed:checked,
+	.lg\:checked\:z\:fixed:checked {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.lg\:checked\:z-index\:overlay:checked,
 	.lg\:checked\:z\:overlay:checked {
 		z-index: var(--z-overlay) !important;
@@ -12071,6 +12246,11 @@
 	.lg\:visited\:z-index\:sticky:visited,
 	.lg\:visited\:z\:sticky:visited {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.lg\:visited\:z-index\:fixed:visited,
+	.lg\:visited\:z\:fixed:visited {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.lg\:visited\:z-index\:overlay:visited,
@@ -12411,6 +12591,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.xl\:z-index\:fixed,
+	.xl\:z\:fixed {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.xl\:z-index\:overlay,
 	.xl\:z\:overlay {
 		z-index: var(--z-overlay) !important;
@@ -12745,6 +12930,11 @@
 	.xl\:hover\:z-index\:sticky:hover,
 	.xl\:hover\:z\:sticky:hover {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.xl\:hover\:z-index\:fixed:hover,
+	.xl\:hover\:z\:fixed:hover {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.xl\:hover\:z-index\:overlay:hover,
@@ -13083,6 +13273,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.xl\:focus\:z-index\:fixed:focus,
+	.xl\:focus\:z\:fixed:focus {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.xl\:focus\:z-index\:overlay:focus,
 	.xl\:focus\:z\:overlay:focus {
 		z-index: var(--z-overlay) !important;
@@ -13417,6 +13612,11 @@
 	.xl\:focus-visible\:z-index\:sticky:focus-visible,
 	.xl\:focus-visible\:z\:sticky:focus-visible {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.xl\:focus-visible\:z-index\:fixed:focus-visible,
+	.xl\:focus-visible\:z\:fixed:focus-visible {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.xl\:focus-visible\:z-index\:overlay:focus-visible,
@@ -13755,6 +13955,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.xl\:focus-within\:z-index\:fixed:focus-within,
+	.xl\:focus-within\:z\:fixed:focus-within {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.xl\:focus-within\:z-index\:overlay:focus-within,
 	.xl\:focus-within\:z\:overlay:focus-within {
 		z-index: var(--z-overlay) !important;
@@ -14089,6 +14294,11 @@
 	.xl\:active\:z-index\:sticky:active,
 	.xl\:active\:z\:sticky:active {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.xl\:active\:z-index\:fixed:active,
+	.xl\:active\:z\:fixed:active {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.xl\:active\:z-index\:overlay:active,
@@ -14427,6 +14637,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.xl\:disabled\:z-index\:fixed:disabled,
+	.xl\:disabled\:z\:fixed:disabled {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.xl\:disabled\:z-index\:overlay:disabled,
 	.xl\:disabled\:z\:overlay:disabled {
 		z-index: var(--z-overlay) !important;
@@ -14763,6 +14978,11 @@
 		z-index: var(--z-sticky) !important;
 	}
 
+	.xl\:checked\:z-index\:fixed:checked,
+	.xl\:checked\:z\:fixed:checked {
+		z-index: var(--z-fixed) !important;
+	}
+
 	.xl\:checked\:z-index\:overlay:checked,
 	.xl\:checked\:z\:overlay:checked {
 		z-index: var(--z-overlay) !important;
@@ -15097,6 +15317,11 @@
 	.xl\:visited\:z-index\:sticky:visited,
 	.xl\:visited\:z\:sticky:visited {
 		z-index: var(--z-sticky) !important;
+	}
+
+	.xl\:visited\:z-index\:fixed:visited,
+	.xl\:visited\:z\:fixed:visited {
+		z-index: var(--z-fixed) !important;
 	}
 
 	.xl\:visited\:z-index\:overlay:visited,

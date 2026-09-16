@@ -39,9 +39,9 @@ export default {
 			);
 		}
 
-		// box-shadow
+		// box-shadow — 토큰 5단계 + `none` 리터럴 (0.2.1: --shadow-none 토큰 없음, CSS 값이라 여기서 붙인다)
 		out.push(emit.sub("BOX-SHADOW"));
-		for (const [key, value] of Object.entries(catalog.shadow)) {
+		for (const [key, value] of Object.entries({ ...catalog.shadow, none: "none" })) {
 			out.push(
 				emit.rule({
 					selectors: emit.classPair(["box-shadow", "bsh"], key),

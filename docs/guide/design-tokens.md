@@ -23,7 +23,7 @@ raw 값의 저장소. 사용자가 직접 쓰지 않습니다.
 --color-surface: #ffffff;
 --color-text: var(--_hue-gray-900);
 --space-5: var(--_scale-5);
---font-size-md: var(--_font-scale-3);
+--font-size-body: var(--_font-scale-3);
 ```
 
 ## 색상 토큰
@@ -42,18 +42,17 @@ raw 값의 저장소. 사용자가 직접 쓰지 않습니다.
 
 secondary, tertiary도 동일 패턴.
 
-### Status (success / warning / danger)
+### Status (success / warning / danger / info)
 
 Brand와 동일한 5개 변형 패턴.
 
 ### Surface / Text / Border
 
 ```css
---color-surface           /* 배경 (흰색) */
---color-surface-subtle    /* 약간 어두운 배경 */
---color-surface-muted     /* 더 어두운 배경 */
+--color-surface           /* 배경 (canvas) */
+--color-surface-1 … 4     /* elevation 단계 (다크에서는 높을수록 밝음) */
 --color-surface-inverse   /* 반전 배경 (거의 검정) */
---color-on-surface        /* surface 위 텍스트 */
+--color-surface-hover / -active / -disabled   /* 표면 위 상호작용 상태 */
 
 --color-text              /* 기본 텍스트 (진한) */
 --color-text-muted        /* 보조 텍스트 */
