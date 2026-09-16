@@ -43,9 +43,6 @@
 		"docs:build": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
 	},
-	"dependencies": {
-		"@newtil/design-tokens": "^0.2.1"
-	},
 	"devDependencies": {
 		"@newtil/components": "^0.1.0",
 		"postcss": "^8.4.33",
@@ -72,5 +69,8 @@
 		"README.md",
 		"LICENSE",
 		"MIGRATION.md"
-	]
+	],
+	"dependencies": {
+		"@newtil/design-tokens": "^0.2.1"
+	}
 }
