@@ -2,7 +2,7 @@
 
 ## 커스터마이징의 3단계 우선순위
 
-`@newtil/*` 컴포넌트를 원하는 모양으로 만들 때는 **반드시 이 순서로 시도**하세요.
+`@newtil/materials`(m3-) 컴포넌트를 원하는 모양으로 만들 때는 **반드시 이 순서로 시도**하세요. 이 문서 사이트에는 materials 가 로드되어 있지 않아 예제는 코드로만 보입니다.
 
 ```
 1. 클래스 타입 (기본 컴포넌트)
@@ -24,14 +24,6 @@
 
 가장 많이 쓰는 기본 모양입니다. 대부분의 경우 이걸로 충분합니다.
 
-<Demo>
-<button class="m3-btn">저장</button>
-<div class="m3-text-field" style="max-width: 16rem;">
-  <input type="text" placeholder=" ">
-  <label>이름</label>
-</div>
-</Demo>
-
 ```html
 <button class="m3-btn">저장</button>
 <div class="m3-text-field">
@@ -50,22 +42,16 @@
 
 **버튼 옵션 예시:**
 
-<Demo>
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-  <button class="m3-btn btn:outlined">Outlined</button>
-  <button class="m3-btn btn:outlined btn-size:xs">XS Outlined</button>
-  <button class="m3-btn btn:outlined btn-color:danger">Danger Outlined</button>
-  <button class="m3-btn btn:text btn-icon:leading"><i class="m3-icon" data-icon="add"></i>추가</button>
-</div>
-</Demo>
-
 ```html
+<button class="m3-btn btn:outlined">Outlined</button>
+<button class="m3-btn btn:outlined btn-size:xs">XS Outlined</button>
+<button class="m3-btn btn:outlined btn-color:danger">Danger Outlined</button>
 <button class="m3-btn btn:outlined btn-size:xs btn-color:danger">삭제</button>
 ```
 
 **옵션은 조합 가능합니다.** type(`btn:outlined`) + size(`btn-size:xs`) + color(`btn-color:danger`) + icon(`btn-icon:leading`) 등 여러 축에서 하나씩 골라 결합하세요.
 
-자세한 옵션 목록은 각 컴포넌트 가이드 페이지를 참고하세요.
+자세한 옵션 목록은 [@newtil/materials 문서](https://newlecture-corp.github.io/newtil-materials/)를 참고하세요.
 
 ---
 
@@ -105,7 +91,7 @@ CSS 변수는 부모→자식으로 상속되므로, 컨테이너에서 설정�
 
 ```css
 @import "@newtil/design-tokens";
-@import "@newtil/components/index.css";
+@import "@newtil/materials";
 
 :root {
   --color-primary: #4f46e5;
@@ -190,7 +176,7 @@ CSS 변수는 부모→자식으로 상속되므로, 컨테이너에서 설정�
 
 **요청 채널:**
 
-- **GitHub Issue** — [@newtil/components](https://github.com/newlecture-corp/newtil-components/issues) · [@newtil/css](https://github.com/newlecture-corp/newtil-css/issues) · [@newtil/design-tokens](https://github.com/newlecture-corp/newtil-design-tokens/issues)
+- **GitHub Issue** — [@newtil/materials](https://github.com/newlecture-corp/newtil-materials/issues) · [@newtil/css](https://github.com/newlecture-corp/newtil-css/issues) · [@newtil/design-tokens](https://github.com/newlecture-corp/newtil-design-tokens/issues)
 - **뉴렉처 프로젝트 피드백** — https://www.newlecture.com/projects/feedback
 
 **요청할 때 포함하면 좋은 내용:**

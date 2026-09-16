@@ -50,6 +50,7 @@ export default defineConfig({
           { text: "Utility 클래스", link: "/utility-classes" },
           { text: "Design Tokens", link: "/design-tokens" },
           { text: "반응형 & 상호작용", link: "/responsive" },
+          { text: "Pseudo 상태", link: "/pseudo-states" },
           { text: "다크모드", link: "/dark-mode" },
           { text: "JIT 설정 (Production)", link: "/jit-setup" },
         ],

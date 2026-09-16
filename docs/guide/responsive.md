@@ -17,7 +17,7 @@
 모바일 우선 (mobile-first). 기본 class가 모든 화면에 적용되고, prefix가 붙은 class가 해당 breakpoint 이상에서 덮어씁니다.
 
 <Demo>
-<div class="padding:3 md:padding:5 lg:padding:8 bg-color:primary-subtle color:on-primary">
+<div class="padding:3 md:padding:5 lg:padding:8 background-color:primary-subtle color:text">
   모바일: padding 3, 태블릿+: padding 5, 데스크톱+: padding 8
 </div>
 </Demo>
@@ -26,10 +26,10 @@
 
 <Demo>
 <div class="display:grid grid-template-columns:1 md:grid-template-columns:2 lg:grid-template-columns:4 gap:3 width:full">
-  <div class="padding:4 bg-color:primary color:on-primary text-align:center">1</div>
-  <div class="padding:4 bg-color:secondary color:on-secondary text-align:center">2</div>
-  <div class="padding:4 bg-color:tertiary color:on-tertiary text-align:center">3</div>
-  <div class="padding:4 bg-color:primary color:on-primary text-align:center">4</div>
+  <div class="padding:4 background-color:primary color:on-primary text-align:center">1</div>
+  <div class="padding:4 background-color:secondary color:on-secondary text-align:center">2</div>
+  <div class="padding:4 background-color:tertiary color:on-tertiary text-align:center">3</div>
+  <div class="padding:4 background-color:primary color:on-primary text-align:center">4</div>
 </div>
 </Demo>
 
@@ -61,7 +61,7 @@
 prefix를 중첩할 수 있습니다: `{breakpoint}:{pseudo}:{property}:{value}`
 
 <Demo>
-<div class="padding:5 bg-color:surface-1 color:text hover:background-color:danger lg:hover:background-color:secondary cursor:pointer transition:default">
+<div class="padding:5 background-color:surface-1 color:text hover:background-color:danger lg:hover:background-color:secondary cursor:pointer transition:default">
   모바일: hover 시 빨강, 데스크톱: hover 시 파랑
 </div>
 </Demo>

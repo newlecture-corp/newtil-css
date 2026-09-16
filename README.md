@@ -1,47 +1,89 @@
 # @newtil/css
 
-**CSS 속성명 그대로 쓰는 utility CSS 프레임워크.** Tailwind 대체재.
+실제 CSS 속성명 그대로 쓰는 유틸리티 CSS. Tailwind 대체재.
 
-Tailwind의 자체 명칭(`border`, `p-4`) 대신 **실제 CSS 속성명** 또는 **유추 가능한 축약**을 사용합니다. CSS 지식을 보존·강화합니다.
-
-```html
-<!-- newtil/css — CSS 이름 그대로 -->
-<div class="display:flex align-items:center padding:5 background-color:primary color:on-primary border-radius:3 box-shadow:md">
-```
+Tailwind 의 자체 명칭(`p-4`, `tracking-wide`) 대신 **실제 CSS 속성명**(`padding:4`, `letter-spacing:wide`) 또는 **유추 가능한 축약**(`p:4`, `ls:wide`)을 클래스 이름으로 씁니다. 모든 값은 `@newtil/design-tokens` 의 토큰을 참조하므로 토큰 하나를 바꾸면 전체 UI 가 함께 바뀝니다. 운영 빌드는 JIT 가 소스에서 실제로 쓴 클래스만 골라 출력하고, 모든 조합을 전개한 `dist/style.css`(약 12MB)는 개발·문서용입니다.
 
 ## 설치
 
 ```bash
-npm install @newtil/css @newtil/design-tokens
+npm install @newtil/css
 ```
 
-## 사용
+`@newtil/design-tokens` 는 의존성으로 함께 설치됩니다.
+
+## 빠른 시작
+
+CSS 진입점에서 한 줄 임포트하면 전개본이 그대로 들어옵니다.
+
+```css
+@import "@newtil/css";
+```
+
+운영 빌드는 JIT 플러그인을 붙입니다. 플러그인이 위 `@import` 를 스캔 결과로 바꿔치기하므로 CSS 는 손대지 않습니다.
+
+Next.js / Webpack (PostCSS):
 
 ```js
-import "@newtil/css";
+// postcss.config.js
+module.exports = {
+  plugins: {
+    "@newtil/css/jit/postcss-plugin": {
+      content: ["./app/**/*.{tsx,jsx,html}"],
+    },
+  },
+};
 ```
 
-## Production (JIT)
-
-사용한 class만 포함 (11MB → ~14KB):
+Vite:
 
 ```js
 // vite.config.js
 import newtilCss from "@newtil/css/jit/vite-plugin.js";
+
 export default defineConfig({ plugins: [newtilCss()] });
 ```
 
+두 플러그인의 옵션은 `content`(스캔 경로 배열, 생략 시 `src/ pages/ app/ components/ views/ layouts/ public/ index.html` 중 존재하는 것)와 `tokensDir`(design-tokens `css/` 경로, 생략 시 자동 탐색) 둘뿐입니다.
+
+```html
+<div class="display:flex gap:3 padding:5 background-color:surface color:text border-radius:3 box-shadow:sm">
+  <button class="padding-x:4 padding-y:2 background-color:primary color:on-primary border-radius:full border-width:0 hover:background-color:primary-hover">시작하기</button>
+  <span class="font-size:body-sm color:text-muted">축약형: d:flex g:3 p:5 bg:surface c:text</span>
+</div>
+```
+
+반응형은 `sm: md: lg: xl:`, 상태는 `hover: focus: active: disabled:` 등을 앞에 붙입니다 (`md:hover:background-color:primary`).
+
+임포트 가능한 경로는 `@newtil/css`(전개본), `@newtil/css/utils.css`(유틸리티만), `@newtil/css/reset.css`(리셋만), `@newtil/css/jit/postcss-plugin`, `@newtil/css/jit/vite-plugin.js`, `@newtil/css/jit/jit.js`(CLI) 입니다.
+
 ## 문서
 
-→ [newtil-css 가이드](https://newlecture-corp.github.io/newtil-css/guide/getting-started)
+- 가이드: https://newlecture-corp.github.io/newtil-css/
+- 변경 기록: [CHANGELOG.md](./CHANGELOG.md)
+- 마이그레이션(`newtil-css` → `@newtil/css`): [MIGRATION.md](./MIGRATION.md)
 
-## 생태계
+## newtil 패밀리
 
-| 패키지 | 역할 |
-|---|---|
-| [`@newtil/design-tokens`](https://github.com/newlecture-corp/newtil-design-tokens) | 디자인 토큰 (색상, 간격, 타이포 등) |
-| `@newtil/css` | utility CSS (이 패키지) |
-| [`@newtil/components`](https://github.com/newlecture-corp/newtil-components) | UI 컴포넌트 (버튼, 카드 등) |
+| npm | 한 줄 설명 | 문서 |
+|---|---|---|
+| `@newtil/design-tokens` | CSS 변수(토큰) — 색·간격·글꼴·모서리·그림자·층. 모든 패키지의 바닥 | https://newlecture-corp.github.io/newtil-design-tokens/ |
+| `@newtil/css` | 실제 CSS 속성명 기반 유틸리티 클래스 + JIT | https://newlecture-corp.github.io/newtil-css/ |
+| `@newtil/components` | n- 접두사 기본 컴포넌트 — prose·table·layout·resize-handle | https://newlecture-corp.github.io/newtil-components/ |
+| `@newtil/materials` | Material Design 3 구현 m3- 컴포넌트 | https://newlecture-corp.github.io/newtil-materials/ |
+| `@newtil/editor` | 마크다운↔HTML 양방향 편집기 웹 컴포넌트(React/Vue 래퍼) | https://newlecture-corp.github.io/newtil-editor/ |
+| `@newtil/drawing` | 캡처 위에 화살표·상자·글자를 그리는 그림판(PNG+JSON) | https://newlecture-corp.github.io/newtil-drawing/ |
+
+## 개발
+
+```bash
+npm run generate     # generator/ 규칙 + design-tokens 로 css/util/ 생성
+npm run build        # generate 후 rollup 으로 dist/ 산출 (style.css, utils.css, reset.css)
+npm run docs:dev     # VitePress 문서 개발 서버
+npm run docs:build   # 문서 정적 빌드 (docs/.vitepress/dist)
+```
+
+클래스는 `generator/rules/*.js` 에서만 정의합니다. 규칙 하나가 전체 속성명과 축약 두 셀렉터를 함께 내보내고, JIT(`jit/resolver.js`)가 같은 표를 거꾸로 씁니다.
 
 ## 라이선스
 

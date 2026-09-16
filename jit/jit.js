@@ -12,6 +12,7 @@
 //   --no-tokens  Exclude design-tokens from output
 
 import fs from "node:fs";
+import { resolveTokensDir } from "../generator/catalog.js";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { scan } from "./scanner.js";
@@ -87,11 +88,13 @@ function buildCss(candidates, includeTokens) {
 
 	// Tokens (design-tokens CSS).
 	if (includeTokens) {
-		const tokensPath = path.resolve(
-			__dirname,
-			"../node_modules/@newtil/design-tokens/css/index.css"
-		);
-		if (fs.existsSync(tokensPath)) {
+		// dist/tokens.css 우선 (수동 다크 사본·별칭 포함). 패키지 위치는 catalog 와 같은 규칙으로 찾는다.
+		const tokensDir = resolveTokensDir();
+		const candidates = tokensDir
+			? [path.resolve(tokensDir, "../dist/tokens.css"), path.join(tokensDir, "index.css")]
+			: [];
+		const tokensPath = candidates.find((p) => fs.existsSync(p));
+		if (tokensPath) {
 			parts.push("/* @newtil/design-tokens */");
 			parts.push(fs.readFileSync(tokensPath, "utf8"));
 		}

@@ -22,10 +22,9 @@ hero:
 **이럴 때 사용하는 것이 CSS utility입니다.** 컴포넌트 클래스는 그대로 두고, 작은 차이만 utility로 보충:
 
 ```html
-<!-- 컴포넌트 + utility 조합 → 새 클래스 없이 커스텀 -->
+<!-- 컴포넌트(@newtil/materials) + utility 조합 → 새 클래스 없이 커스텀 -->
 <button class="m3-btn padding:6">간격 넓은 버튼</button>
 <div class="m3-card box-shadow:xl">강한 그림자 카드</div>
-<i class="m3-icon icon:home font-size:heading-md color:danger">큰 빨간 아이콘</i>
 ```
 
 **컴포넌트가 "반복 패턴"이라면, utility는 "미세 조정 도구"입니다.** 둘은 대립이 아니라 보완.
@@ -64,7 +63,7 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 | 디자인 패턴이 아직 정해지지 않은 단계 | **Utility 우선** | 구조를 잡기 전에 추상화하면 나중에 깨짐 |
 | 장기 운영 서비스 | **컴포넌트 우선** + utility 보조 | 신규 멤버 온보딩 · 코드 리뷰 · 디자인 일관성 |
 
-**newtil 생태계의 권장 방식**: `@newtil/components` (M3 컴포넌트)를 기본으로 사용하고, `@newtil/css` utility로 미세 조정. 두 패키지가 같은 `@newtil/design-tokens`를 공유하므로 시각적 일관성이 자동 유지됩니다.
+**newtil 생태계의 권장 방식**: `@newtil/materials`(m3- 컴포넌트) 또는 `@newtil/components`(n- 기본 컴포넌트)를 기본으로 사용하고, `@newtil/css` utility로 미세 조정. 모두 같은 `@newtil/design-tokens`를 공유하므로 시각적 일관성이 자동 유지됩니다.
 
 ## utility만으로 만드는 UI 예제
 
@@ -216,7 +215,7 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 | **반응형** | `sm:` `md:` `lg:` `xl:` prefix. Mobile-first. |
 | **Pseudo 상태** | `hover:` `focus:` `active:` `disabled:` 등 |
 | **다크모드** | 시스템 자동 + `data-theme="dark"` 수동 토글 |
-| **JIT** | 사용한 class만 포함. 11MB → ~14KB. |
+| **JIT** | 사용한 class만 포함. 전개본 약 12MB → 수십 KB. |
 
 ## 가이드
 
@@ -226,3 +225,4 @@ newtil/css는 CSS 속성명을 **그대로** 클래스 이름으로 사용합니
 - [반응형 & 상호작용](/guide/responsive) — Breakpoint + Pseudo 상태
 - [다크모드](/guide/dark-mode) — 자동/수동 + 커스텀 다크 색상
 - [JIT 설정](/guide/jit-setup) — Vite/PostCSS/CLI 프로덕션 최적화
+- [Pseudo 상태](/guide/pseudo-states) — hover/focus/active 예제

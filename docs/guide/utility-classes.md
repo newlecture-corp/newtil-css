@@ -22,10 +22,10 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 **버튼 만들기**
 
 <Demo>
-<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:primary c:on-primary bdr:full fs:sm fw:medium cur:pointer bd:none">
+<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:primary c:on-primary bdr:full fs:body-sm fw:medium cur:pointer border-width:0">
   유틸로 만든 버튼
 </button>
-<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:transparent c:primary bdw:1 bds:solid bdc:primary bdr:full fs:sm fw:medium cur:pointer">
+<button class="d:inline-flex ai:center g:3 p:4 h:9 bg:transparent c:primary bdw:1 bds:solid bdc:primary bdr:full fs:body-sm fw:medium cur:pointer">
   Outlined
 </button>
 </Demo>
@@ -34,57 +34,51 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 
 <Demo>
 <div class="d:flex fd:column g:4 p:7 bg:surface-1 bdr:5 bsh:sm w:auto" style="max-width: 20rem;">
-  <h3 class="fs:lg fw:semibold m:0">카드 제목</h3>
-  <p class="fs:sm c:text-muted m:0">이 카드는 유틸리티 클래스만으로 만들어졌습니다. 배경, 그림자, 패딩, 간격 모두 토큰 기반입니다.</p>
+  <h3 class="fs:body-lg fw:semibold m:0">카드 제목</h3>
+  <p class="fs:body-sm c:text-muted m:0">이 카드는 유틸리티 클래스만으로 만들어졌습니다. 배경, 그림자, 패딩, 간격 모두 토큰 기반입니다.</p>
   <div class="d:flex g:3 jc:end">
-    <button class="p:3 bg:transparent c:primary bd:none cur:pointer fs:sm">취소</button>
-    <button class="p:3 bg:primary c:on-primary bd:none bdr:3 cur:pointer fs:sm">확인</button>
+    <button class="p:3 bg:transparent c:primary border-width:0 cur:pointer fs:body-sm">취소</button>
+    <button class="p:3 bg:primary c:on-primary border-width:0 bdr:3 cur:pointer fs:body-sm">확인</button>
   </div>
 </div>
 </Demo>
 
 ### 컴포넌트에 유틸로 커스텀하기
 
-`@newtil/components` 같은 컴포넌트 라이브러리 위에 유틸리티를 조합하면, 컴포넌트의 기본 모양은 유지하면서 **특정 상황에 맞는 조정**을 빠르게 할 수 있습니다.
+`@newtil/materials`(m3-) 같은 컴포넌트 라이브러리 위에 유틸리티를 얹으면, 컴포넌트의 기본 모양은 유지하면서 **특정 상황에 맞는 조정**을 빠르게 할 수 있습니다. 이 문서 사이트에는 materials 가 로드되어 있지 않아 코드로만 보입니다.
 
 **버튼에 간격/정렬 추가**
 
-<Demo>
+```html
 <div class="d:flex g:4 jc:center p:5 bg:surface-2 bdr:4">
   <button class="m3-btn">기본</button>
   <button class="m3-btn btn:outlined">Outlined</button>
   <button class="m3-btn btn-color:danger">삭제</button>
 </div>
-</Demo>
+```
 
 **카드를 그리드 레이아웃에 배치**
 
-<Demo>
-<div class="d:grid gtc:repeat-3 g:5">
-  <div class="m3-card card:outlined">
-    <div class="card-content">첫 번째 카드</div>
-  </div>
-  <div class="m3-card card:outlined">
-    <div class="card-content">두 번째 카드</div>
-  </div>
-  <div class="m3-card card:outlined">
-    <div class="card-content">세 번째 카드</div>
-  </div>
+```html
+<div class="d:grid gtc:3 g:5">
+  <div class="m3-card card:outlined">첫 번째 카드</div>
+  <div class="m3-card card:outlined">두 번째 카드</div>
+  <div class="m3-card card:outlined">세 번째 카드</div>
 </div>
-</Demo>
+```
 
-**컴포넌트 변수를 유틸로 재정의**
+**컴포넌트 변수를 인라인 스타일로 재정의**
 
-컴포넌트 변수는 일반 CSS 변수이므로 유틸이나 인라인 스타일로 오버라이드 가능합니다.
+컴포넌트 변수는 일반 CSS 변수이므로 인라인 스타일로 오버라이드할 수 있습니다.
 
-<Demo>
+```html
 <button class="m3-btn" style="--btn-background-color: purple; --btn-border-radius: 0.25rem;">
   변수 오버라이드
 </button>
-</Demo>
+```
 
 ::: tip 함께 쓰기 좋은 이유
-`@newtil/components`는 모든 속성을 **컴포넌트 변수**로 노출하고, `@newtil/css`는 그 변수를 **유틸리티 클래스**로 조작할 수 있는 수단을 제공합니다. 두 라이브러리는 같은 [design-tokens](/guide/design-tokens)를 공유해서 색/간격/그림자가 자연스럽게 맞습니다.
+`@newtil/materials` 와 `@newtil/components` 는 모양을 **컴포넌트 변수**로 노출하고, `@newtil/css` 는 배치·간격·색을 **유틸리티 클래스**로 조정합니다. 세 패키지가 같은 [design-tokens](/guide/design-tokens)를 공유해서 색/간격/그림자가 자연스럽게 맞습니다.
 :::
 
 ## 전체 카테고리 목록
@@ -98,7 +92,7 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 | **Spacing** | `margin:4`, `margin-top:3`, `margin-x:auto`, `padding:5`, `gap:3` | `m:4`, `mt:3`, `mx:auto`, `p:5`, `g:3` |
 | **Sizing** | `width:full`, `height:11`, `min-width:14`, `max-height:screen-h` | `w:full`, `h:11`, `min-w:14`, `max-h:screen-h` |
 | **Color** | `color:primary`, `background-color:surface`, `border-color:border` | `c:primary`, `bg:surface`, `bdc:border` |
-| **Typography** | `font-size:body`, `font-weight:bold`, `line-height:normal`, `text-align:center` | `fs:md`, `fw:bold`, `lh:normal`, `ta:center` |
+| **Typography** | `font-size:body`, `font-weight:bold`, `line-height:normal`, `text-align:center` | `fs:body`, `fw:bold`, `lh:normal`, `ta:center` |
 | **Border** | `border-width:1`, `border-style:solid`, `border-radius:3` | `bdw:1`, `bds:solid`, `bdr:3` |
 | **Flexbox** | `flex-direction:column`, `justify-content:center`, `align-items:center` | `fd:column`, `jc:center`, `ai:center` |
 | **Grid** | `grid-template-columns:3`, `grid-column:span-2` | `gtc:3`, `gcs:span-2` |
@@ -165,9 +159,19 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 | 13 | 6rem | 96px |
 | 14 | 8rem | 128px |
 
-### 분수 Size
+### 크기 (width / height / min-* / max-*)
 
-`width:1-2` (50%), `width:1-3` (33.3%), `width:2-3` (66.7%), `width:1-4` (25%), `width:3-4` (75%) 등.
+크기 클래스는 위 spacing 인덱스(`w:5` → `var(--space-5)`)에 리터럴 값을 더한 것입니다. `w:1-2` `h:screen-h` `w:full` 같은 분수·뷰포트·키워드 값은 토큰이 아니라 생성기가 직접 넣는 **리터럴**(50%, 100vh, 100%)입니다. 클래스 이름은 그대로이며 CSS 변수로는 노출되지 않습니다.
+
+| 종류 | 값 |
+|---|---|
+| 분수 | `1-2` `1-3` `2-3` `1-4` `3-4` `1-5` `2-5` `3-5` `4-5` `1-6` `5-6` `1-12` `5-12` `7-12` `11-12` |
+| 뷰포트 | `screen-w` `screen-w-25/50/75` `screen-h` `screen-h-25/50/75` |
+| 키워드 | `full` `half` `auto` `none` `min-content` `max-content` `fit-content` |
+
+### 글꼴 크기
+
+글꼴 크기 클래스는 **역할명**만 있습니다: `font-size:caption` `body-sm` `body` `body-lg` `heading-sm` `heading-md` `heading-lg` `heading-xl` `display` (축약 `fs:`). 티셔츠명(`xs`…`4xl`)은 토큰 별칭만 남아 있고 클래스는 만들지 않습니다.
 
 ### 색상
 

@@ -21,7 +21,16 @@ function escapeClassName(name) {
 	return name.replace(/([:.\/])/g, "\\$1");
 }
 
+// design-tokens 0.2.1 부터 수동 강제용 `[data-theme="dark"]` 사본과 deprecated 별칭은 dist/tokens.css 에만 있다.
+// tokensDir(= <pkg>/css) 옆의 dist/tokens.css 가 있으면 그것을 쓰고, 없을 때만 소스 @import 를 풀어 인라인한다.
+function readDistTokens(tokensDir) {
+	const dist = path.resolve(tokensDir, "../dist/tokens.css");
+	return fs.existsSync(dist) ? fs.readFileSync(dist, "utf8") : null;
+}
+
 function inlineTokens(tokensDir) {
+	const dist = readDistTokens(tokensDir);
+	if (dist) return dist;
 	const indexPath = path.join(tokensDir, "index.css");
 	if (!fs.existsSync(indexPath)) return "";
 

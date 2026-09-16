@@ -3,7 +3,6 @@ name: Deploy VitePress docs
 on:
   push:
     branches: [main]
-    paths: ['docs/**']
   workflow_dispatch:
 
 permissions:
@@ -24,12 +23,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Install dependencies
-        run: npm install --no-package-lock
+        run: npm ci
 
+      # 문서 테마는 커밋된 css/style.css(+ css/util/)를 임포트한다. dist/ 는 쓰지 않으므로 build 불필요.
       - name: Build VitePress
-        run: npm run docs:build
+        run: |
+          npm run docs:build
+          touch docs/.vitepress/dist/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:

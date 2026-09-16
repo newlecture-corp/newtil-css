@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.2 (2026-09-16) — 문서
+
+- JIT(postcss·vite·CLI)가 design-tokens 배포본 `dist/tokens.css` 를 우선 인라인한다 — 0.2.1 부터 `[data-theme="dark"]` 수동 강제 사본과 별칭이 배포본에만 있어 JIT 출력에서 빠지던 문제. 배포본이 없을 때만 소스를 푼다.
+- README 재작성, 문서의 없는 클래스·잘못된 import 경로·옛 토큰 이름 정정, 중복 Pages 워크플로(deploy.yml) 삭제.
+
 ## 0.6.1 (2026-09-16) — design-tokens 0.2.1 반영
 
 - 의존: `@newtil/design-tokens ^0.2.1`.

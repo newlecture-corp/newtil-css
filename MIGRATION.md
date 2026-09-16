@@ -15,7 +15,7 @@ Newlecture는 프론트엔드 유틸리티 라이브러리를 **`@newtil/*` 네�
 | GitHub Pages | `newlecture-corp.github.io/newtil-css/` | **동일 (유지)** |
 | 라이선스 | MIT | MIT |
 
-내용(API, 클래스명, 컴포넌트)에는 **어떠한 변경도 없습니다**. 이름만 바뀌었습니다.
+패키지 이름과 임포트 경로만 바뀝니다. 클래스 이름은 그대로입니다. (0.6.1 의 토큰 이름 변경은 [CHANGELOG](./CHANGELOG.md) 를 보세요.)
 
 ## 이전 방법
 
@@ -45,15 +45,14 @@ pnpm add @newtil/css
 ```js
 import 'newtil-css'
 import 'newtil-css/dist/style.css'
-import 'newtil-css/dist/components.css'
 ```
 
 **After:**
 ```js
 import '@newtil/css'
-import '@newtil/css/dist/style.css'
-import '@newtil/css/dist/components.css'
 ```
+
+`@newtil/css` 는 `exports` 로 경로를 고정합니다. 내부 파일 경로(`dist/…`, `css/…`)는 임포트할 수 없고, 쓸 수 있는 경로는 `@newtil/css`(= `@newtil/css/style.css`), `@newtil/css/utils.css`, `@newtil/css/reset.css`, `@newtil/css/jit/*` 입니다.
 
 **CSS `@import` 사용 시:**
 ```css
@@ -61,7 +60,7 @@ import '@newtil/css/dist/components.css'
 @import 'newtil-css/css/style.css';
 
 /* After */
-@import '@newtil/css/css/style.css';
+@import '@newtil/css';
 ```
 
 **HTML 직접 링크 사용 시:**
