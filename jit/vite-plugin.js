@@ -128,6 +128,8 @@ const RESOLVED_ID = "\0" + VIRTUAL_ID;
 export default function newtilCssPlugin(options = {}) {
 	const contentPaths = options.content || DEFAULT_DIRS.filter((p) => fs.existsSync(path.resolve(p)));
 	const tokensDir = options.tokensDir || resolveTokensDir();
+	// tokens: true(기본 — 가상 모듈이라 이 파일 안의 다른 import 를 볼 수 없다) | false(앱이 design-tokens 를 따로 import 할 때)
+	const includeTokens = options.tokens !== false;
 	let generatedCss = "";
 
 	return {
@@ -146,7 +148,7 @@ export default function newtilCssPlugin(options = {}) {
 			if (id === RESOLVED_ID) {
 				// Scan and generate on first load.
 				const { candidates } = scan(contentPaths);
-				generatedCss = buildJitCss(candidates, tokensDir);
+				generatedCss = buildJitCss(candidates, includeTokens ? tokensDir : null);
 				return generatedCss;
 			}
 			return null;
@@ -155,7 +157,7 @@ export default function newtilCssPlugin(options = {}) {
 		handleHotUpdate({ file, server }) {
 			// When a content file changes, re-scan and invalidate the virtual module.
 			const ext = path.extname(file).toLowerCase();
-			const watchedExts = [".html", ".tsx", ".jsx", ".vue", ".svelte", ".astro"];
+			const watchedExts = [".html", ".js", ".jsx", ".ts", ".tsx", ".vue", ".svelte", ".astro"];
 			if (watchedExts.includes(ext)) {
 				const mod = server.moduleGraph.getModuleById(RESOLVED_ID);
 				if (mod) {

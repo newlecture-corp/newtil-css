@@ -44,7 +44,7 @@ import newtilCss from "@newtil/css/jit/vite-plugin.js";
 export default defineConfig({ plugins: [newtilCss()] });
 ```
 
-두 플러그인의 옵션은 `content`(스캔 경로 배열, 생략 시 `src/ pages/ app/ components/ views/ layouts/ public/ index.html` 중 존재하는 것)와 `tokensDir`(design-tokens `css/` 경로, 생략 시 자동 탐색) 둘뿐입니다.
+두 플러그인의 옵션은 `content`(스캔 경로 배열, 생략 시 `src/ pages/ app/ components/ views/ layouts/ public/ index.html` 중 존재하는 것), `tokensDir`(design-tokens `css/` 경로, 생략 시 자동 탐색), `tokens`(토큰을 함께 인라인할지) 셋입니다. PostCSS 플러그인의 `tokens` 기본은 `"auto"` — 같은 CSS 파일이 `@newtil/design-tokens` 를 이미 import 하면 넣지 않습니다(브랜드 테마가 덮은 램프를 되돌리지 않기 위해). Vite 플러그인은 가상 모듈이라 기본 `true` 이고, 앱이 토큰을 따로 import 하면 `tokens: false` 를 주세요.
 
 ```html
 <div class="display:flex gap:3 padding:5 background-color:surface color:text border-radius:3 box-shadow:sm">

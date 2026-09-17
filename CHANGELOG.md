@@ -4,6 +4,7 @@
 
 - 모든 `속성:값` 클래스에 `속성:ex` 를 추가한다(413개, 축약·반응형·상태 접두 포함). 값은 같은 요소의 `--속성-ex` 변수: `<div class="width:ex" style="--width-ex: 20px">`. 합성 속성(`padding-x:ex`)은 변수 하나로 양쪽, 함수 값(`blur:ex`)은 인자 자리에 변수, 고정 선언이 섞인 합성 유틸(`line-clamp:ex`)은 바뀌는 선언만 변수.
 - 스캐너가 `.js`/`.ts`/`.mjs`/`.cjs` 도 훑는다 — Next.js `app/**/page.js` 처럼 JSX 를 `.js` 에 쓰는 프로젝트에서 클래스를 못 찾던 것.
+- PostCSS 플러그인: 같은 파일이 `@newtil/design-tokens` 를 import 하면 토큰을 다시 인라인하지 않는다(`tokens: "auto"`). 뒤에 덧붙이던 토큰 사본이 브랜드 테마의 램프 덮어쓰기를 기본값으로 되돌려 브랜드색이 사라지던 문제. JIT 결과는 파일 끝이 아니라 `@import` 자리에 넣는다. Vite 플러그인에 `tokens` 옵션.
 - 규칙이 고정이라 CDN `<link>` 만으로 동작하고, JIT(postcss·vite·CLI)도 `ex` 를 해석한다(`jit/ex-table.json`, 생성기가 만든다).
 - 왜 `[20px]` 가 아니라 `ex` 인가: 값이 클래스 이름이 아니라 `style` 에 있어 빌드 없이 되고, DOM 을 직접 다루는 도구가 값을 바꿀 때 CSS 를 다시 만들지 않으며, `속성:값` 표기가 깨지지 않는다.
 

@@ -155,39 +155,45 @@ export default function newtilJit(options = {}) {
 		(p) => fs.existsSync(path.resolve(p))
 	);
 	const tokensDir = options.tokensDir || resolveTokensDir();
+	// tokens: true(항상 인라인) | false(안 함) | "auto"(기본 — 같은 파일이 design-tokens 를 이미 import 하면 안 함).
+	// 0.6.3: 앱이 tokens → materials → 브랜드 테마 순으로 import 한 뒤에 JIT 가 토큰을 한 번 더 넣으면
+	// 테마가 덮은 램프(--_hue-*)가 기본값으로 되돌아가 브랜드색이 사라진다.
+	const tokensMode = options.tokens === undefined ? "auto" : options.tokens;
 
 	return {
 		postcssPlugin: "newtil-css-jit",
 		Once(root, { result, postcss }) {
 			// Check if this CSS file imports @newtil/css.
 			// Look for: @import "@newtil/css" or @import "@newtil/css/style.css"
-			let hasNewtilImport = false;
+			let newtilImport = null;
+			let importsTokens = false;
+			let lastImport = null;
 			root.walkAtRules("import", (atRule) => {
-				if (
-					atRule.params.includes("@newtil/css") ||
-					atRule.params.includes("newtil-css")
-				) {
-					hasNewtilImport = true;
-					atRule.remove();
-				}
+				if (atRule.params.includes("@newtil/design-tokens")) importsTokens = true;
+				if (atRule.params.includes("@newtil/css") || atRule.params.includes("newtil-css")) newtilImport = atRule;
+				else lastImport = atRule;
 			});
 
-			if (!hasNewtilImport) return;
+			if (!newtilImport) return;
 
 			// Scan content files.
 			const { candidates } = scan(contentPaths);
 
 			// Build JIT CSS.
-			const jitCss = buildJitCss(candidates, tokensDir);
+			const includeTokens = tokensMode === true || (tokensMode === "auto" && !importsTokens);
+			const jitCss = buildJitCss(candidates, includeTokens ? tokensDir : null);
 
-			// Parse and append JIT CSS to the root.
+			// @import 자리에 넣되, 뒤에 다른 @import 가 남아 있으면 그 뒤로 (다른 규칙 뒤의 @import 는 무효)
 			const jitRoot = postcss.parse(jitCss);
-			root.append(jitRoot);
+			const anchor = lastImport && root.index(lastImport) > root.index(newtilImport) ? lastImport : newtilImport;
+			anchor.after(jitRoot);
+			newtilImport.remove();
 
 			result.messages.push({
 				type: "newtil-jit",
 				plugin: "newtil-css-jit",
 				candidates: candidates.size,
+				tokens: includeTokens,
 			});
 		},
 	};
