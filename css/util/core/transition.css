@@ -141,6 +141,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.transition-property\:ex,
+.tp\:ex {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.transition-duration\:ex,
+.tdur\:ex {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.transition-timing-function\:ex,
+.ttf\:ex {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.transition-delay\:ex,
+.tdly\:ex {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.transition\:ex,
+.tr\:ex {
+	transition: var(--transition-ex) !important;
+}
+
 /* ===== TRANSITION UTILITIES ===== */
 
 /* TRANSITION-PROPERTY */
@@ -283,6 +309,32 @@
 	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:transition-property\:ex:hover,
+.hover\:tp\:ex:hover {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.hover\:transition-duration\:ex:hover,
+.hover\:tdur\:ex:hover {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.hover\:transition-timing-function\:ex:hover,
+.hover\:ttf\:ex:hover {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.hover\:transition-delay\:ex:hover,
+.hover\:tdly\:ex:hover {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.hover\:transition\:ex:hover,
+.hover\:tr\:ex:hover {
+	transition: var(--transition-ex) !important;
+}
 
 /* ===== TRANSITION UTILITIES ===== */
 
@@ -427,6 +479,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:transition-property\:ex:focus,
+.focus\:tp\:ex:focus {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.focus\:transition-duration\:ex:focus,
+.focus\:tdur\:ex:focus {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.focus\:transition-timing-function\:ex:focus,
+.focus\:ttf\:ex:focus {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.focus\:transition-delay\:ex:focus,
+.focus\:tdly\:ex:focus {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.focus\:transition\:ex:focus,
+.focus\:tr\:ex:focus {
+	transition: var(--transition-ex) !important;
+}
+
 /* ===== TRANSITION UTILITIES ===== */
 
 /* TRANSITION-PROPERTY */
@@ -569,6 +647,32 @@
 	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:transition-property\:ex:focus-visible,
+.focus-visible\:tp\:ex:focus-visible {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.focus-visible\:transition-duration\:ex:focus-visible,
+.focus-visible\:tdur\:ex:focus-visible {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.focus-visible\:transition-timing-function\:ex:focus-visible,
+.focus-visible\:ttf\:ex:focus-visible {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.focus-visible\:transition-delay\:ex:focus-visible,
+.focus-visible\:tdly\:ex:focus-visible {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.focus-visible\:transition\:ex:focus-visible,
+.focus-visible\:tr\:ex:focus-visible {
+	transition: var(--transition-ex) !important;
+}
 
 /* ===== TRANSITION UTILITIES ===== */
 
@@ -713,6 +817,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:transition-property\:ex:focus-within,
+.focus-within\:tp\:ex:focus-within {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.focus-within\:transition-duration\:ex:focus-within,
+.focus-within\:tdur\:ex:focus-within {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.focus-within\:transition-timing-function\:ex:focus-within,
+.focus-within\:ttf\:ex:focus-within {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.focus-within\:transition-delay\:ex:focus-within,
+.focus-within\:tdly\:ex:focus-within {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.focus-within\:transition\:ex:focus-within,
+.focus-within\:tr\:ex:focus-within {
+	transition: var(--transition-ex) !important;
+}
+
 /* ===== TRANSITION UTILITIES ===== */
 
 /* TRANSITION-PROPERTY */
@@ -855,6 +985,32 @@
 	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:transition-property\:ex:active,
+.active\:tp\:ex:active {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.active\:transition-duration\:ex:active,
+.active\:tdur\:ex:active {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.active\:transition-timing-function\:ex:active,
+.active\:ttf\:ex:active {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.active\:transition-delay\:ex:active,
+.active\:tdly\:ex:active {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.active\:transition\:ex:active,
+.active\:tr\:ex:active {
+	transition: var(--transition-ex) !important;
+}
 
 /* ===== TRANSITION UTILITIES ===== */
 
@@ -999,6 +1155,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:transition-property\:ex:disabled,
+.disabled\:tp\:ex:disabled {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.disabled\:transition-duration\:ex:disabled,
+.disabled\:tdur\:ex:disabled {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.disabled\:transition-timing-function\:ex:disabled,
+.disabled\:ttf\:ex:disabled {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.disabled\:transition-delay\:ex:disabled,
+.disabled\:tdly\:ex:disabled {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.disabled\:transition\:ex:disabled,
+.disabled\:tr\:ex:disabled {
+	transition: var(--transition-ex) !important;
+}
+
 /* ===== TRANSITION UTILITIES ===== */
 
 /* TRANSITION-PROPERTY */
@@ -1142,6 +1324,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:transition-property\:ex:checked,
+.checked\:tp\:ex:checked {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.checked\:transition-duration\:ex:checked,
+.checked\:tdur\:ex:checked {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.checked\:transition-timing-function\:ex:checked,
+.checked\:ttf\:ex:checked {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.checked\:transition-delay\:ex:checked,
+.checked\:tdly\:ex:checked {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.checked\:transition\:ex:checked,
+.checked\:tr\:ex:checked {
+	transition: var(--transition-ex) !important;
+}
+
 /* ===== TRANSITION UTILITIES ===== */
 
 /* TRANSITION-PROPERTY */
@@ -1284,6 +1492,32 @@
 	transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:transition-property\:ex:visited,
+.visited\:tp\:ex:visited {
+	transition-property: var(--transition-property-ex) !important;
+}
+
+.visited\:transition-duration\:ex:visited,
+.visited\:tdur\:ex:visited {
+	transition-duration: var(--transition-duration-ex) !important;
+}
+
+.visited\:transition-timing-function\:ex:visited,
+.visited\:ttf\:ex:visited {
+	transition-timing-function: var(--transition-timing-function-ex) !important;
+}
+
+.visited\:transition-delay\:ex:visited,
+.visited\:tdly\:ex:visited {
+	transition-delay: var(--transition-delay-ex) !important;
+}
+
+.visited\:transition\:ex:visited,
+.visited\:tr\:ex:visited {
+	transition: var(--transition-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== TRANSITION UTILITIES ===== */
@@ -1429,6 +1663,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:transition-property\:ex,
+	.sm\:tp\:ex {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:transition-duration\:ex,
+	.sm\:tdur\:ex {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:transition-timing-function\:ex,
+	.sm\:ttf\:ex {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:transition-delay\:ex,
+	.sm\:tdly\:ex {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:transition\:ex,
+	.sm\:tr\:ex {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -1571,6 +1831,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:transition-property\:ex:hover,
+	.sm\:hover\:tp\:ex:hover {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:hover\:transition-duration\:ex:hover,
+	.sm\:hover\:tdur\:ex:hover {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:hover\:transition-timing-function\:ex:hover,
+	.sm\:hover\:ttf\:ex:hover {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:hover\:transition-delay\:ex:hover,
+	.sm\:hover\:tdly\:ex:hover {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:hover\:transition\:ex:hover,
+	.sm\:hover\:tr\:ex:hover {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -1715,6 +2001,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:transition-property\:ex:focus,
+	.sm\:focus\:tp\:ex:focus {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:focus\:transition-duration\:ex:focus,
+	.sm\:focus\:tdur\:ex:focus {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:focus\:transition-timing-function\:ex:focus,
+	.sm\:focus\:ttf\:ex:focus {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:focus\:transition-delay\:ex:focus,
+	.sm\:focus\:tdly\:ex:focus {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:focus\:transition\:ex:focus,
+	.sm\:focus\:tr\:ex:focus {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -1857,6 +2169,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:transition-property\:ex:focus-visible,
+	.sm\:focus-visible\:tp\:ex:focus-visible {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:focus-visible\:transition-duration\:ex:focus-visible,
+	.sm\:focus-visible\:tdur\:ex:focus-visible {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:focus-visible\:transition-timing-function\:ex:focus-visible,
+	.sm\:focus-visible\:ttf\:ex:focus-visible {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:focus-visible\:transition-delay\:ex:focus-visible,
+	.sm\:focus-visible\:tdly\:ex:focus-visible {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:focus-visible\:transition\:ex:focus-visible,
+	.sm\:focus-visible\:tr\:ex:focus-visible {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -2001,6 +2339,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:transition-property\:ex:focus-within,
+	.sm\:focus-within\:tp\:ex:focus-within {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:focus-within\:transition-duration\:ex:focus-within,
+	.sm\:focus-within\:tdur\:ex:focus-within {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:focus-within\:transition-timing-function\:ex:focus-within,
+	.sm\:focus-within\:ttf\:ex:focus-within {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:focus-within\:transition-delay\:ex:focus-within,
+	.sm\:focus-within\:tdly\:ex:focus-within {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:focus-within\:transition\:ex:focus-within,
+	.sm\:focus-within\:tr\:ex:focus-within {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -2143,6 +2507,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:transition-property\:ex:active,
+	.sm\:active\:tp\:ex:active {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:active\:transition-duration\:ex:active,
+	.sm\:active\:tdur\:ex:active {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:active\:transition-timing-function\:ex:active,
+	.sm\:active\:ttf\:ex:active {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:active\:transition-delay\:ex:active,
+	.sm\:active\:tdly\:ex:active {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:active\:transition\:ex:active,
+	.sm\:active\:tr\:ex:active {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -2287,6 +2677,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:transition-property\:ex:disabled,
+	.sm\:disabled\:tp\:ex:disabled {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:disabled\:transition-duration\:ex:disabled,
+	.sm\:disabled\:tdur\:ex:disabled {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:disabled\:transition-timing-function\:ex:disabled,
+	.sm\:disabled\:ttf\:ex:disabled {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:disabled\:transition-delay\:ex:disabled,
+	.sm\:disabled\:tdly\:ex:disabled {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:disabled\:transition\:ex:disabled,
+	.sm\:disabled\:tr\:ex:disabled {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -2430,6 +2846,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:transition-property\:ex:checked,
+	.sm\:checked\:tp\:ex:checked {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:checked\:transition-duration\:ex:checked,
+	.sm\:checked\:tdur\:ex:checked {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:checked\:transition-timing-function\:ex:checked,
+	.sm\:checked\:ttf\:ex:checked {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:checked\:transition-delay\:ex:checked,
+	.sm\:checked\:tdly\:ex:checked {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:checked\:transition\:ex:checked,
+	.sm\:checked\:tr\:ex:checked {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -2572,6 +3014,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:transition-property\:ex:visited,
+	.sm\:visited\:tp\:ex:visited {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.sm\:visited\:transition-duration\:ex:visited,
+	.sm\:visited\:tdur\:ex:visited {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.sm\:visited\:transition-timing-function\:ex:visited,
+	.sm\:visited\:ttf\:ex:visited {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.sm\:visited\:transition-delay\:ex:visited,
+	.sm\:visited\:tdly\:ex:visited {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.sm\:visited\:transition\:ex:visited,
+	.sm\:visited\:tr\:ex:visited {
+		transition: var(--transition-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -2718,6 +3186,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:transition-property\:ex,
+	.md\:tp\:ex {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:transition-duration\:ex,
+	.md\:tdur\:ex {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:transition-timing-function\:ex,
+	.md\:ttf\:ex {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:transition-delay\:ex,
+	.md\:tdly\:ex {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:transition\:ex,
+	.md\:tr\:ex {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -2860,6 +3354,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:transition-property\:ex:hover,
+	.md\:hover\:tp\:ex:hover {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:hover\:transition-duration\:ex:hover,
+	.md\:hover\:tdur\:ex:hover {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:hover\:transition-timing-function\:ex:hover,
+	.md\:hover\:ttf\:ex:hover {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:hover\:transition-delay\:ex:hover,
+	.md\:hover\:tdly\:ex:hover {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:hover\:transition\:ex:hover,
+	.md\:hover\:tr\:ex:hover {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -3004,6 +3524,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:transition-property\:ex:focus,
+	.md\:focus\:tp\:ex:focus {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:focus\:transition-duration\:ex:focus,
+	.md\:focus\:tdur\:ex:focus {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:focus\:transition-timing-function\:ex:focus,
+	.md\:focus\:ttf\:ex:focus {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:focus\:transition-delay\:ex:focus,
+	.md\:focus\:tdly\:ex:focus {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:focus\:transition\:ex:focus,
+	.md\:focus\:tr\:ex:focus {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -3146,6 +3692,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:transition-property\:ex:focus-visible,
+	.md\:focus-visible\:tp\:ex:focus-visible {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:focus-visible\:transition-duration\:ex:focus-visible,
+	.md\:focus-visible\:tdur\:ex:focus-visible {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:focus-visible\:transition-timing-function\:ex:focus-visible,
+	.md\:focus-visible\:ttf\:ex:focus-visible {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:focus-visible\:transition-delay\:ex:focus-visible,
+	.md\:focus-visible\:tdly\:ex:focus-visible {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:focus-visible\:transition\:ex:focus-visible,
+	.md\:focus-visible\:tr\:ex:focus-visible {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -3290,6 +3862,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:transition-property\:ex:focus-within,
+	.md\:focus-within\:tp\:ex:focus-within {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:focus-within\:transition-duration\:ex:focus-within,
+	.md\:focus-within\:tdur\:ex:focus-within {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:focus-within\:transition-timing-function\:ex:focus-within,
+	.md\:focus-within\:ttf\:ex:focus-within {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:focus-within\:transition-delay\:ex:focus-within,
+	.md\:focus-within\:tdly\:ex:focus-within {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:focus-within\:transition\:ex:focus-within,
+	.md\:focus-within\:tr\:ex:focus-within {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -3432,6 +4030,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:transition-property\:ex:active,
+	.md\:active\:tp\:ex:active {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:active\:transition-duration\:ex:active,
+	.md\:active\:tdur\:ex:active {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:active\:transition-timing-function\:ex:active,
+	.md\:active\:ttf\:ex:active {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:active\:transition-delay\:ex:active,
+	.md\:active\:tdly\:ex:active {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:active\:transition\:ex:active,
+	.md\:active\:tr\:ex:active {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -3576,6 +4200,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:transition-property\:ex:disabled,
+	.md\:disabled\:tp\:ex:disabled {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:disabled\:transition-duration\:ex:disabled,
+	.md\:disabled\:tdur\:ex:disabled {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:disabled\:transition-timing-function\:ex:disabled,
+	.md\:disabled\:ttf\:ex:disabled {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:disabled\:transition-delay\:ex:disabled,
+	.md\:disabled\:tdly\:ex:disabled {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:disabled\:transition\:ex:disabled,
+	.md\:disabled\:tr\:ex:disabled {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -3719,6 +4369,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:transition-property\:ex:checked,
+	.md\:checked\:tp\:ex:checked {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:checked\:transition-duration\:ex:checked,
+	.md\:checked\:tdur\:ex:checked {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:checked\:transition-timing-function\:ex:checked,
+	.md\:checked\:ttf\:ex:checked {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:checked\:transition-delay\:ex:checked,
+	.md\:checked\:tdly\:ex:checked {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:checked\:transition\:ex:checked,
+	.md\:checked\:tr\:ex:checked {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -3861,6 +4537,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:transition-property\:ex:visited,
+	.md\:visited\:tp\:ex:visited {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.md\:visited\:transition-duration\:ex:visited,
+	.md\:visited\:tdur\:ex:visited {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.md\:visited\:transition-timing-function\:ex:visited,
+	.md\:visited\:ttf\:ex:visited {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.md\:visited\:transition-delay\:ex:visited,
+	.md\:visited\:tdly\:ex:visited {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.md\:visited\:transition\:ex:visited,
+	.md\:visited\:tr\:ex:visited {
+		transition: var(--transition-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -4007,6 +4709,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:transition-property\:ex,
+	.lg\:tp\:ex {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:transition-duration\:ex,
+	.lg\:tdur\:ex {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:transition-timing-function\:ex,
+	.lg\:ttf\:ex {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:transition-delay\:ex,
+	.lg\:tdly\:ex {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:transition\:ex,
+	.lg\:tr\:ex {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -4149,6 +4877,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:transition-property\:ex:hover,
+	.lg\:hover\:tp\:ex:hover {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:hover\:transition-duration\:ex:hover,
+	.lg\:hover\:tdur\:ex:hover {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:hover\:transition-timing-function\:ex:hover,
+	.lg\:hover\:ttf\:ex:hover {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:hover\:transition-delay\:ex:hover,
+	.lg\:hover\:tdly\:ex:hover {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:hover\:transition\:ex:hover,
+	.lg\:hover\:tr\:ex:hover {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -4293,6 +5047,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:transition-property\:ex:focus,
+	.lg\:focus\:tp\:ex:focus {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:focus\:transition-duration\:ex:focus,
+	.lg\:focus\:tdur\:ex:focus {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:focus\:transition-timing-function\:ex:focus,
+	.lg\:focus\:ttf\:ex:focus {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:focus\:transition-delay\:ex:focus,
+	.lg\:focus\:tdly\:ex:focus {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:focus\:transition\:ex:focus,
+	.lg\:focus\:tr\:ex:focus {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -4435,6 +5215,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:transition-property\:ex:focus-visible,
+	.lg\:focus-visible\:tp\:ex:focus-visible {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:focus-visible\:transition-duration\:ex:focus-visible,
+	.lg\:focus-visible\:tdur\:ex:focus-visible {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:focus-visible\:transition-timing-function\:ex:focus-visible,
+	.lg\:focus-visible\:ttf\:ex:focus-visible {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:focus-visible\:transition-delay\:ex:focus-visible,
+	.lg\:focus-visible\:tdly\:ex:focus-visible {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:focus-visible\:transition\:ex:focus-visible,
+	.lg\:focus-visible\:tr\:ex:focus-visible {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -4579,6 +5385,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:transition-property\:ex:focus-within,
+	.lg\:focus-within\:tp\:ex:focus-within {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:focus-within\:transition-duration\:ex:focus-within,
+	.lg\:focus-within\:tdur\:ex:focus-within {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:focus-within\:transition-timing-function\:ex:focus-within,
+	.lg\:focus-within\:ttf\:ex:focus-within {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:focus-within\:transition-delay\:ex:focus-within,
+	.lg\:focus-within\:tdly\:ex:focus-within {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:focus-within\:transition\:ex:focus-within,
+	.lg\:focus-within\:tr\:ex:focus-within {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -4721,6 +5553,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:transition-property\:ex:active,
+	.lg\:active\:tp\:ex:active {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:active\:transition-duration\:ex:active,
+	.lg\:active\:tdur\:ex:active {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:active\:transition-timing-function\:ex:active,
+	.lg\:active\:ttf\:ex:active {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:active\:transition-delay\:ex:active,
+	.lg\:active\:tdly\:ex:active {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:active\:transition\:ex:active,
+	.lg\:active\:tr\:ex:active {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -4865,6 +5723,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:transition-property\:ex:disabled,
+	.lg\:disabled\:tp\:ex:disabled {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:disabled\:transition-duration\:ex:disabled,
+	.lg\:disabled\:tdur\:ex:disabled {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:disabled\:transition-timing-function\:ex:disabled,
+	.lg\:disabled\:ttf\:ex:disabled {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:disabled\:transition-delay\:ex:disabled,
+	.lg\:disabled\:tdly\:ex:disabled {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:disabled\:transition\:ex:disabled,
+	.lg\:disabled\:tr\:ex:disabled {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -5008,6 +5892,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:transition-property\:ex:checked,
+	.lg\:checked\:tp\:ex:checked {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:checked\:transition-duration\:ex:checked,
+	.lg\:checked\:tdur\:ex:checked {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:checked\:transition-timing-function\:ex:checked,
+	.lg\:checked\:ttf\:ex:checked {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:checked\:transition-delay\:ex:checked,
+	.lg\:checked\:tdly\:ex:checked {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:checked\:transition\:ex:checked,
+	.lg\:checked\:tr\:ex:checked {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -5150,6 +6060,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:transition-property\:ex:visited,
+	.lg\:visited\:tp\:ex:visited {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.lg\:visited\:transition-duration\:ex:visited,
+	.lg\:visited\:tdur\:ex:visited {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.lg\:visited\:transition-timing-function\:ex:visited,
+	.lg\:visited\:ttf\:ex:visited {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.lg\:visited\:transition-delay\:ex:visited,
+	.lg\:visited\:tdly\:ex:visited {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.lg\:visited\:transition\:ex:visited,
+	.lg\:visited\:tr\:ex:visited {
+		transition: var(--transition-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -5296,6 +6232,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:transition-property\:ex,
+	.xl\:tp\:ex {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:transition-duration\:ex,
+	.xl\:tdur\:ex {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:transition-timing-function\:ex,
+	.xl\:ttf\:ex {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:transition-delay\:ex,
+	.xl\:tdly\:ex {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:transition\:ex,
+	.xl\:tr\:ex {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -5438,6 +6400,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:transition-property\:ex:hover,
+	.xl\:hover\:tp\:ex:hover {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:hover\:transition-duration\:ex:hover,
+	.xl\:hover\:tdur\:ex:hover {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:hover\:transition-timing-function\:ex:hover,
+	.xl\:hover\:ttf\:ex:hover {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:hover\:transition-delay\:ex:hover,
+	.xl\:hover\:tdly\:ex:hover {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:hover\:transition\:ex:hover,
+	.xl\:hover\:tr\:ex:hover {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -5582,6 +6570,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:transition-property\:ex:focus,
+	.xl\:focus\:tp\:ex:focus {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:focus\:transition-duration\:ex:focus,
+	.xl\:focus\:tdur\:ex:focus {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:focus\:transition-timing-function\:ex:focus,
+	.xl\:focus\:ttf\:ex:focus {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:focus\:transition-delay\:ex:focus,
+	.xl\:focus\:tdly\:ex:focus {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:focus\:transition\:ex:focus,
+	.xl\:focus\:tr\:ex:focus {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -5724,6 +6738,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:transition-property\:ex:focus-visible,
+	.xl\:focus-visible\:tp\:ex:focus-visible {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:focus-visible\:transition-duration\:ex:focus-visible,
+	.xl\:focus-visible\:tdur\:ex:focus-visible {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:focus-visible\:transition-timing-function\:ex:focus-visible,
+	.xl\:focus-visible\:ttf\:ex:focus-visible {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:focus-visible\:transition-delay\:ex:focus-visible,
+	.xl\:focus-visible\:tdly\:ex:focus-visible {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:focus-visible\:transition\:ex:focus-visible,
+	.xl\:focus-visible\:tr\:ex:focus-visible {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -5868,6 +6908,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:transition-property\:ex:focus-within,
+	.xl\:focus-within\:tp\:ex:focus-within {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:focus-within\:transition-duration\:ex:focus-within,
+	.xl\:focus-within\:tdur\:ex:focus-within {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:focus-within\:transition-timing-function\:ex:focus-within,
+	.xl\:focus-within\:ttf\:ex:focus-within {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:focus-within\:transition-delay\:ex:focus-within,
+	.xl\:focus-within\:tdly\:ex:focus-within {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:focus-within\:transition\:ex:focus-within,
+	.xl\:focus-within\:tr\:ex:focus-within {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -6010,6 +7076,32 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:transition-property\:ex:active,
+	.xl\:active\:tp\:ex:active {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:active\:transition-duration\:ex:active,
+	.xl\:active\:tdur\:ex:active {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:active\:transition-timing-function\:ex:active,
+	.xl\:active\:ttf\:ex:active {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:active\:transition-delay\:ex:active,
+	.xl\:active\:tdly\:ex:active {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:active\:transition\:ex:active,
+	.xl\:active\:tr\:ex:active {
+		transition: var(--transition-ex) !important;
+	}
 
 	/* ===== TRANSITION UTILITIES ===== */
 
@@ -6154,6 +7246,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:transition-property\:ex:disabled,
+	.xl\:disabled\:tp\:ex:disabled {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:disabled\:transition-duration\:ex:disabled,
+	.xl\:disabled\:tdur\:ex:disabled {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:disabled\:transition-timing-function\:ex:disabled,
+	.xl\:disabled\:ttf\:ex:disabled {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:disabled\:transition-delay\:ex:disabled,
+	.xl\:disabled\:tdly\:ex:disabled {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:disabled\:transition\:ex:disabled,
+	.xl\:disabled\:tr\:ex:disabled {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -6297,6 +7415,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:transition-property\:ex:checked,
+	.xl\:checked\:tp\:ex:checked {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:checked\:transition-duration\:ex:checked,
+	.xl\:checked\:tdur\:ex:checked {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:checked\:transition-timing-function\:ex:checked,
+	.xl\:checked\:ttf\:ex:checked {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:checked\:transition-delay\:ex:checked,
+	.xl\:checked\:tdly\:ex:checked {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:checked\:transition\:ex:checked,
+	.xl\:checked\:tr\:ex:checked {
+		transition: var(--transition-ex) !important;
+	}
+
 	/* ===== TRANSITION UTILITIES ===== */
 
 	/* TRANSITION-PROPERTY */
@@ -6439,4 +7583,30 @@
 		transition: color, background-color, border-color, outline-color, fill, stroke, opacity, box-shadow, transform, translate, rotate, scale, filter, backdrop-filter var(--duration-normal) var(--ease-in-out) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:transition-property\:ex:visited,
+	.xl\:visited\:tp\:ex:visited {
+		transition-property: var(--transition-property-ex) !important;
+	}
+
+	.xl\:visited\:transition-duration\:ex:visited,
+	.xl\:visited\:tdur\:ex:visited {
+		transition-duration: var(--transition-duration-ex) !important;
+	}
+
+	.xl\:visited\:transition-timing-function\:ex:visited,
+	.xl\:visited\:ttf\:ex:visited {
+		transition-timing-function: var(--transition-timing-function-ex) !important;
+	}
+
+	.xl\:visited\:transition-delay\:ex:visited,
+	.xl\:visited\:tdly\:ex:visited {
+		transition-delay: var(--transition-delay-ex) !important;
+	}
+
+	.xl\:visited\:transition\:ex:visited,
+	.xl\:visited\:tr\:ex:visited {
+		transition: var(--transition-ex) !important;
+	}
 }

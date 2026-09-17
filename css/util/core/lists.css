@@ -70,6 +70,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.list-style-type\:ex,
+.lst\:ex {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.list-style-position\:ex,
+.lsp\:ex {
+	list-style-position: var(--list-style-position-ex) !important;
+}
+
 /* ===== LIST UTILITIES ===== */
 
 /* LIST-STYLE-TYPE */
@@ -141,6 +152,17 @@
 	list-style-position: outside !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:list-style-type\:ex:hover,
+.hover\:lst\:ex:hover {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.hover\:list-style-position\:ex:hover,
+.hover\:lsp\:ex:hover {
+	list-style-position: var(--list-style-position-ex) !important;
+}
 
 /* ===== LIST UTILITIES ===== */
 
@@ -214,6 +236,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:list-style-type\:ex:focus,
+.focus\:lst\:ex:focus {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.focus\:list-style-position\:ex:focus,
+.focus\:lsp\:ex:focus {
+	list-style-position: var(--list-style-position-ex) !important;
+}
+
 /* ===== LIST UTILITIES ===== */
 
 /* LIST-STYLE-TYPE */
@@ -285,6 +318,17 @@
 	list-style-position: outside !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:list-style-type\:ex:focus-visible,
+.focus-visible\:lst\:ex:focus-visible {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.focus-visible\:list-style-position\:ex:focus-visible,
+.focus-visible\:lsp\:ex:focus-visible {
+	list-style-position: var(--list-style-position-ex) !important;
+}
 
 /* ===== LIST UTILITIES ===== */
 
@@ -358,6 +402,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:list-style-type\:ex:focus-within,
+.focus-within\:lst\:ex:focus-within {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.focus-within\:list-style-position\:ex:focus-within,
+.focus-within\:lsp\:ex:focus-within {
+	list-style-position: var(--list-style-position-ex) !important;
+}
+
 /* ===== LIST UTILITIES ===== */
 
 /* LIST-STYLE-TYPE */
@@ -429,6 +484,17 @@
 	list-style-position: outside !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:list-style-type\:ex:active,
+.active\:lst\:ex:active {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.active\:list-style-position\:ex:active,
+.active\:lsp\:ex:active {
+	list-style-position: var(--list-style-position-ex) !important;
+}
 
 /* ===== LIST UTILITIES ===== */
 
@@ -502,6 +568,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:list-style-type\:ex:disabled,
+.disabled\:lst\:ex:disabled {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.disabled\:list-style-position\:ex:disabled,
+.disabled\:lsp\:ex:disabled {
+	list-style-position: var(--list-style-position-ex) !important;
+}
+
 /* ===== LIST UTILITIES ===== */
 
 /* LIST-STYLE-TYPE */
@@ -574,6 +651,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:list-style-type\:ex:checked,
+.checked\:lst\:ex:checked {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.checked\:list-style-position\:ex:checked,
+.checked\:lsp\:ex:checked {
+	list-style-position: var(--list-style-position-ex) !important;
+}
+
 /* ===== LIST UTILITIES ===== */
 
 /* LIST-STYLE-TYPE */
@@ -645,6 +733,17 @@
 	list-style-position: outside !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:list-style-type\:ex:visited,
+.visited\:lst\:ex:visited {
+	list-style-type: var(--list-style-type-ex) !important;
+}
+
+.visited\:list-style-position\:ex:visited,
+.visited\:lsp\:ex:visited {
+	list-style-position: var(--list-style-position-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== LIST UTILITIES ===== */
@@ -719,6 +818,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:list-style-type\:ex,
+	.sm\:lst\:ex {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:list-style-position\:ex,
+	.sm\:lsp\:ex {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -790,6 +900,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:list-style-type\:ex:hover,
+	.sm\:hover\:lst\:ex:hover {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:hover\:list-style-position\:ex:hover,
+	.sm\:hover\:lsp\:ex:hover {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -863,6 +984,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:list-style-type\:ex:focus,
+	.sm\:focus\:lst\:ex:focus {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:focus\:list-style-position\:ex:focus,
+	.sm\:focus\:lsp\:ex:focus {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -934,6 +1066,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:list-style-type\:ex:focus-visible,
+	.sm\:focus-visible\:lst\:ex:focus-visible {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:focus-visible\:list-style-position\:ex:focus-visible,
+	.sm\:focus-visible\:lsp\:ex:focus-visible {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -1007,6 +1150,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:list-style-type\:ex:focus-within,
+	.sm\:focus-within\:lst\:ex:focus-within {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:focus-within\:list-style-position\:ex:focus-within,
+	.sm\:focus-within\:lsp\:ex:focus-within {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1078,6 +1232,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:list-style-type\:ex:active,
+	.sm\:active\:lst\:ex:active {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:active\:list-style-position\:ex:active,
+	.sm\:active\:lsp\:ex:active {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -1151,6 +1316,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:list-style-type\:ex:disabled,
+	.sm\:disabled\:lst\:ex:disabled {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:disabled\:list-style-position\:ex:disabled,
+	.sm\:disabled\:lsp\:ex:disabled {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1223,6 +1399,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:list-style-type\:ex:checked,
+	.sm\:checked\:lst\:ex:checked {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:checked\:list-style-position\:ex:checked,
+	.sm\:checked\:lsp\:ex:checked {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1294,6 +1481,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:list-style-type\:ex:visited,
+	.sm\:visited\:lst\:ex:visited {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.sm\:visited\:list-style-position\:ex:visited,
+	.sm\:visited\:lsp\:ex:visited {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -1369,6 +1567,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:list-style-type\:ex,
+	.md\:lst\:ex {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:list-style-position\:ex,
+	.md\:lsp\:ex {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1440,6 +1649,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:list-style-type\:ex:hover,
+	.md\:hover\:lst\:ex:hover {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:hover\:list-style-position\:ex:hover,
+	.md\:hover\:lsp\:ex:hover {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -1513,6 +1733,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:list-style-type\:ex:focus,
+	.md\:focus\:lst\:ex:focus {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:focus\:list-style-position\:ex:focus,
+	.md\:focus\:lsp\:ex:focus {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1584,6 +1815,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:list-style-type\:ex:focus-visible,
+	.md\:focus-visible\:lst\:ex:focus-visible {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:focus-visible\:list-style-position\:ex:focus-visible,
+	.md\:focus-visible\:lsp\:ex:focus-visible {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -1657,6 +1899,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:list-style-type\:ex:focus-within,
+	.md\:focus-within\:lst\:ex:focus-within {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:focus-within\:list-style-position\:ex:focus-within,
+	.md\:focus-within\:lsp\:ex:focus-within {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1728,6 +1981,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:list-style-type\:ex:active,
+	.md\:active\:lst\:ex:active {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:active\:list-style-position\:ex:active,
+	.md\:active\:lsp\:ex:active {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -1801,6 +2065,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:list-style-type\:ex:disabled,
+	.md\:disabled\:lst\:ex:disabled {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:disabled\:list-style-position\:ex:disabled,
+	.md\:disabled\:lsp\:ex:disabled {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1873,6 +2148,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:list-style-type\:ex:checked,
+	.md\:checked\:lst\:ex:checked {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:checked\:list-style-position\:ex:checked,
+	.md\:checked\:lsp\:ex:checked {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -1944,6 +2230,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:list-style-type\:ex:visited,
+	.md\:visited\:lst\:ex:visited {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.md\:visited\:list-style-position\:ex:visited,
+	.md\:visited\:lsp\:ex:visited {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -2019,6 +2316,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:list-style-type\:ex,
+	.lg\:lst\:ex {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:list-style-position\:ex,
+	.lg\:lsp\:ex {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2090,6 +2398,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:list-style-type\:ex:hover,
+	.lg\:hover\:lst\:ex:hover {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:hover\:list-style-position\:ex:hover,
+	.lg\:hover\:lsp\:ex:hover {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -2163,6 +2482,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:list-style-type\:ex:focus,
+	.lg\:focus\:lst\:ex:focus {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:focus\:list-style-position\:ex:focus,
+	.lg\:focus\:lsp\:ex:focus {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2234,6 +2564,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:list-style-type\:ex:focus-visible,
+	.lg\:focus-visible\:lst\:ex:focus-visible {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:focus-visible\:list-style-position\:ex:focus-visible,
+	.lg\:focus-visible\:lsp\:ex:focus-visible {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -2307,6 +2648,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:list-style-type\:ex:focus-within,
+	.lg\:focus-within\:lst\:ex:focus-within {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:focus-within\:list-style-position\:ex:focus-within,
+	.lg\:focus-within\:lsp\:ex:focus-within {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2378,6 +2730,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:list-style-type\:ex:active,
+	.lg\:active\:lst\:ex:active {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:active\:list-style-position\:ex:active,
+	.lg\:active\:lsp\:ex:active {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -2451,6 +2814,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:list-style-type\:ex:disabled,
+	.lg\:disabled\:lst\:ex:disabled {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:disabled\:list-style-position\:ex:disabled,
+	.lg\:disabled\:lsp\:ex:disabled {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2523,6 +2897,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:list-style-type\:ex:checked,
+	.lg\:checked\:lst\:ex:checked {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:checked\:list-style-position\:ex:checked,
+	.lg\:checked\:lsp\:ex:checked {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2594,6 +2979,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:list-style-type\:ex:visited,
+	.lg\:visited\:lst\:ex:visited {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.lg\:visited\:list-style-position\:ex:visited,
+	.lg\:visited\:lsp\:ex:visited {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -2669,6 +3065,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:list-style-type\:ex,
+	.xl\:lst\:ex {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:list-style-position\:ex,
+	.xl\:lsp\:ex {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2740,6 +3147,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:list-style-type\:ex:hover,
+	.xl\:hover\:lst\:ex:hover {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:hover\:list-style-position\:ex:hover,
+	.xl\:hover\:lsp\:ex:hover {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -2813,6 +3231,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:list-style-type\:ex:focus,
+	.xl\:focus\:lst\:ex:focus {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:focus\:list-style-position\:ex:focus,
+	.xl\:focus\:lsp\:ex:focus {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -2884,6 +3313,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:list-style-type\:ex:focus-visible,
+	.xl\:focus-visible\:lst\:ex:focus-visible {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:focus-visible\:list-style-position\:ex:focus-visible,
+	.xl\:focus-visible\:lsp\:ex:focus-visible {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -2957,6 +3397,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:list-style-type\:ex:focus-within,
+	.xl\:focus-within\:lst\:ex:focus-within {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:focus-within\:list-style-position\:ex:focus-within,
+	.xl\:focus-within\:lsp\:ex:focus-within {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -3028,6 +3479,17 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:list-style-type\:ex:active,
+	.xl\:active\:lst\:ex:active {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:active\:list-style-position\:ex:active,
+	.xl\:active\:lsp\:ex:active {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 
 	/* ===== LIST UTILITIES ===== */
 
@@ -3101,6 +3563,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:list-style-type\:ex:disabled,
+	.xl\:disabled\:lst\:ex:disabled {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:disabled\:list-style-position\:ex:disabled,
+	.xl\:disabled\:lsp\:ex:disabled {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -3173,6 +3646,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:list-style-type\:ex:checked,
+	.xl\:checked\:lst\:ex:checked {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:checked\:list-style-position\:ex:checked,
+	.xl\:checked\:lsp\:ex:checked {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
+
 	/* ===== LIST UTILITIES ===== */
 
 	/* LIST-STYLE-TYPE */
@@ -3244,4 +3728,15 @@
 		list-style-position: outside !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:list-style-type\:ex:visited,
+	.xl\:visited\:lst\:ex:visited {
+		list-style-type: var(--list-style-type-ex) !important;
+	}
+
+	.xl\:visited\:list-style-position\:ex:visited,
+	.xl\:visited\:lsp\:ex:visited {
+		list-style-position: var(--list-style-position-ex) !important;
+	}
 }

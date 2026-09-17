@@ -1569,6 +1569,127 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.margin-block\:ex,
+.mbk\:ex {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.margin-block-start\:ex,
+.mbks\:ex {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.margin-block-end\:ex,
+.mbke\:ex {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.margin-inline\:ex,
+.min\:ex {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.margin-inline-start\:ex,
+.mins\:ex {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.margin-inline-end\:ex,
+.mine\:ex {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.padding-block\:ex,
+.pbk\:ex {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.padding-block-start\:ex,
+.pbks\:ex {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.padding-block-end\:ex,
+.pbke\:ex {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.padding-inline\:ex,
+.pin\:ex {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.padding-inline-start\:ex,
+.pins\:ex {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.padding-inline-end\:ex,
+.pine\:ex {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.border-width-block\:ex,
+.bdwbk\:ex {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.border-width-block-start\:ex,
+.bdwbks\:ex {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.border-width-block-end\:ex,
+.bdwbke\:ex {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.border-width-inline\:ex,
+.bdwin\:ex {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.border-width-inline-start\:ex,
+.bdwins\:ex {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.border-width-inline-end\:ex,
+.bdwine\:ex {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.inset-block\:ex,
+.ibk\:ex {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.inset-block-start\:ex,
+.ibks\:ex {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.inset-block-end\:ex,
+.ibke\:ex {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.inset-inline\:ex,
+.iin\:ex {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.inset-inline-start\:ex,
+.iins\:ex {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.inset-inline-end\:ex,
+.iine\:ex {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
+
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 /* MARGIN (logical) */
@@ -3139,6 +3260,127 @@
 	inset-inline-end: auto !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:margin-block\:ex:hover,
+.hover\:mbk\:ex:hover {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.hover\:margin-block-start\:ex:hover,
+.hover\:mbks\:ex:hover {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.hover\:margin-block-end\:ex:hover,
+.hover\:mbke\:ex:hover {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.hover\:margin-inline\:ex:hover,
+.hover\:min\:ex:hover {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.hover\:margin-inline-start\:ex:hover,
+.hover\:mins\:ex:hover {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.hover\:margin-inline-end\:ex:hover,
+.hover\:mine\:ex:hover {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.hover\:padding-block\:ex:hover,
+.hover\:pbk\:ex:hover {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.hover\:padding-block-start\:ex:hover,
+.hover\:pbks\:ex:hover {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.hover\:padding-block-end\:ex:hover,
+.hover\:pbke\:ex:hover {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.hover\:padding-inline\:ex:hover,
+.hover\:pin\:ex:hover {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.hover\:padding-inline-start\:ex:hover,
+.hover\:pins\:ex:hover {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.hover\:padding-inline-end\:ex:hover,
+.hover\:pine\:ex:hover {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.hover\:border-width-block\:ex:hover,
+.hover\:bdwbk\:ex:hover {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.hover\:border-width-block-start\:ex:hover,
+.hover\:bdwbks\:ex:hover {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.hover\:border-width-block-end\:ex:hover,
+.hover\:bdwbke\:ex:hover {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.hover\:border-width-inline\:ex:hover,
+.hover\:bdwin\:ex:hover {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.hover\:border-width-inline-start\:ex:hover,
+.hover\:bdwins\:ex:hover {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.hover\:border-width-inline-end\:ex:hover,
+.hover\:bdwine\:ex:hover {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.hover\:inset-block\:ex:hover,
+.hover\:ibk\:ex:hover {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.hover\:inset-block-start\:ex:hover,
+.hover\:ibks\:ex:hover {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.hover\:inset-block-end\:ex:hover,
+.hover\:ibke\:ex:hover {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.hover\:inset-inline\:ex:hover,
+.hover\:iin\:ex:hover {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.hover\:inset-inline-start\:ex:hover,
+.hover\:iins\:ex:hover {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.hover\:inset-inline-end\:ex:hover,
+.hover\:iine\:ex:hover {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
 
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -4711,6 +4953,127 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:margin-block\:ex:focus,
+.focus\:mbk\:ex:focus {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.focus\:margin-block-start\:ex:focus,
+.focus\:mbks\:ex:focus {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.focus\:margin-block-end\:ex:focus,
+.focus\:mbke\:ex:focus {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.focus\:margin-inline\:ex:focus,
+.focus\:min\:ex:focus {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.focus\:margin-inline-start\:ex:focus,
+.focus\:mins\:ex:focus {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.focus\:margin-inline-end\:ex:focus,
+.focus\:mine\:ex:focus {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.focus\:padding-block\:ex:focus,
+.focus\:pbk\:ex:focus {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.focus\:padding-block-start\:ex:focus,
+.focus\:pbks\:ex:focus {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.focus\:padding-block-end\:ex:focus,
+.focus\:pbke\:ex:focus {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.focus\:padding-inline\:ex:focus,
+.focus\:pin\:ex:focus {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.focus\:padding-inline-start\:ex:focus,
+.focus\:pins\:ex:focus {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.focus\:padding-inline-end\:ex:focus,
+.focus\:pine\:ex:focus {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.focus\:border-width-block\:ex:focus,
+.focus\:bdwbk\:ex:focus {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.focus\:border-width-block-start\:ex:focus,
+.focus\:bdwbks\:ex:focus {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.focus\:border-width-block-end\:ex:focus,
+.focus\:bdwbke\:ex:focus {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.focus\:border-width-inline\:ex:focus,
+.focus\:bdwin\:ex:focus {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.focus\:border-width-inline-start\:ex:focus,
+.focus\:bdwins\:ex:focus {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.focus\:border-width-inline-end\:ex:focus,
+.focus\:bdwine\:ex:focus {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.focus\:inset-block\:ex:focus,
+.focus\:ibk\:ex:focus {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.focus\:inset-block-start\:ex:focus,
+.focus\:ibks\:ex:focus {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.focus\:inset-block-end\:ex:focus,
+.focus\:ibke\:ex:focus {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.focus\:inset-inline\:ex:focus,
+.focus\:iin\:ex:focus {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.focus\:inset-inline-start\:ex:focus,
+.focus\:iins\:ex:focus {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.focus\:inset-inline-end\:ex:focus,
+.focus\:iine\:ex:focus {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
+
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 /* MARGIN (logical) */
@@ -6281,6 +6644,127 @@
 	inset-inline-end: auto !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:margin-block\:ex:focus-visible,
+.focus-visible\:mbk\:ex:focus-visible {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.focus-visible\:margin-block-start\:ex:focus-visible,
+.focus-visible\:mbks\:ex:focus-visible {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.focus-visible\:margin-block-end\:ex:focus-visible,
+.focus-visible\:mbke\:ex:focus-visible {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.focus-visible\:margin-inline\:ex:focus-visible,
+.focus-visible\:min\:ex:focus-visible {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.focus-visible\:margin-inline-start\:ex:focus-visible,
+.focus-visible\:mins\:ex:focus-visible {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.focus-visible\:margin-inline-end\:ex:focus-visible,
+.focus-visible\:mine\:ex:focus-visible {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.focus-visible\:padding-block\:ex:focus-visible,
+.focus-visible\:pbk\:ex:focus-visible {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.focus-visible\:padding-block-start\:ex:focus-visible,
+.focus-visible\:pbks\:ex:focus-visible {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.focus-visible\:padding-block-end\:ex:focus-visible,
+.focus-visible\:pbke\:ex:focus-visible {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.focus-visible\:padding-inline\:ex:focus-visible,
+.focus-visible\:pin\:ex:focus-visible {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.focus-visible\:padding-inline-start\:ex:focus-visible,
+.focus-visible\:pins\:ex:focus-visible {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.focus-visible\:padding-inline-end\:ex:focus-visible,
+.focus-visible\:pine\:ex:focus-visible {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.focus-visible\:border-width-block\:ex:focus-visible,
+.focus-visible\:bdwbk\:ex:focus-visible {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.focus-visible\:border-width-block-start\:ex:focus-visible,
+.focus-visible\:bdwbks\:ex:focus-visible {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.focus-visible\:border-width-block-end\:ex:focus-visible,
+.focus-visible\:bdwbke\:ex:focus-visible {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.focus-visible\:border-width-inline\:ex:focus-visible,
+.focus-visible\:bdwin\:ex:focus-visible {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.focus-visible\:border-width-inline-start\:ex:focus-visible,
+.focus-visible\:bdwins\:ex:focus-visible {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.focus-visible\:border-width-inline-end\:ex:focus-visible,
+.focus-visible\:bdwine\:ex:focus-visible {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.focus-visible\:inset-block\:ex:focus-visible,
+.focus-visible\:ibk\:ex:focus-visible {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.focus-visible\:inset-block-start\:ex:focus-visible,
+.focus-visible\:ibks\:ex:focus-visible {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.focus-visible\:inset-block-end\:ex:focus-visible,
+.focus-visible\:ibke\:ex:focus-visible {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.focus-visible\:inset-inline\:ex:focus-visible,
+.focus-visible\:iin\:ex:focus-visible {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.focus-visible\:inset-inline-start\:ex:focus-visible,
+.focus-visible\:iins\:ex:focus-visible {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.focus-visible\:inset-inline-end\:ex:focus-visible,
+.focus-visible\:iine\:ex:focus-visible {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
 
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -7853,6 +8337,127 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:margin-block\:ex:focus-within,
+.focus-within\:mbk\:ex:focus-within {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.focus-within\:margin-block-start\:ex:focus-within,
+.focus-within\:mbks\:ex:focus-within {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.focus-within\:margin-block-end\:ex:focus-within,
+.focus-within\:mbke\:ex:focus-within {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.focus-within\:margin-inline\:ex:focus-within,
+.focus-within\:min\:ex:focus-within {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.focus-within\:margin-inline-start\:ex:focus-within,
+.focus-within\:mins\:ex:focus-within {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.focus-within\:margin-inline-end\:ex:focus-within,
+.focus-within\:mine\:ex:focus-within {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.focus-within\:padding-block\:ex:focus-within,
+.focus-within\:pbk\:ex:focus-within {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.focus-within\:padding-block-start\:ex:focus-within,
+.focus-within\:pbks\:ex:focus-within {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.focus-within\:padding-block-end\:ex:focus-within,
+.focus-within\:pbke\:ex:focus-within {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.focus-within\:padding-inline\:ex:focus-within,
+.focus-within\:pin\:ex:focus-within {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.focus-within\:padding-inline-start\:ex:focus-within,
+.focus-within\:pins\:ex:focus-within {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.focus-within\:padding-inline-end\:ex:focus-within,
+.focus-within\:pine\:ex:focus-within {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.focus-within\:border-width-block\:ex:focus-within,
+.focus-within\:bdwbk\:ex:focus-within {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.focus-within\:border-width-block-start\:ex:focus-within,
+.focus-within\:bdwbks\:ex:focus-within {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.focus-within\:border-width-block-end\:ex:focus-within,
+.focus-within\:bdwbke\:ex:focus-within {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.focus-within\:border-width-inline\:ex:focus-within,
+.focus-within\:bdwin\:ex:focus-within {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.focus-within\:border-width-inline-start\:ex:focus-within,
+.focus-within\:bdwins\:ex:focus-within {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.focus-within\:border-width-inline-end\:ex:focus-within,
+.focus-within\:bdwine\:ex:focus-within {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.focus-within\:inset-block\:ex:focus-within,
+.focus-within\:ibk\:ex:focus-within {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.focus-within\:inset-block-start\:ex:focus-within,
+.focus-within\:ibks\:ex:focus-within {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.focus-within\:inset-block-end\:ex:focus-within,
+.focus-within\:ibke\:ex:focus-within {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.focus-within\:inset-inline\:ex:focus-within,
+.focus-within\:iin\:ex:focus-within {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.focus-within\:inset-inline-start\:ex:focus-within,
+.focus-within\:iins\:ex:focus-within {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.focus-within\:inset-inline-end\:ex:focus-within,
+.focus-within\:iine\:ex:focus-within {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
+
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 /* MARGIN (logical) */
@@ -9423,6 +10028,127 @@
 	inset-inline-end: auto !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:margin-block\:ex:active,
+.active\:mbk\:ex:active {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.active\:margin-block-start\:ex:active,
+.active\:mbks\:ex:active {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.active\:margin-block-end\:ex:active,
+.active\:mbke\:ex:active {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.active\:margin-inline\:ex:active,
+.active\:min\:ex:active {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.active\:margin-inline-start\:ex:active,
+.active\:mins\:ex:active {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.active\:margin-inline-end\:ex:active,
+.active\:mine\:ex:active {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.active\:padding-block\:ex:active,
+.active\:pbk\:ex:active {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.active\:padding-block-start\:ex:active,
+.active\:pbks\:ex:active {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.active\:padding-block-end\:ex:active,
+.active\:pbke\:ex:active {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.active\:padding-inline\:ex:active,
+.active\:pin\:ex:active {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.active\:padding-inline-start\:ex:active,
+.active\:pins\:ex:active {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.active\:padding-inline-end\:ex:active,
+.active\:pine\:ex:active {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.active\:border-width-block\:ex:active,
+.active\:bdwbk\:ex:active {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.active\:border-width-block-start\:ex:active,
+.active\:bdwbks\:ex:active {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.active\:border-width-block-end\:ex:active,
+.active\:bdwbke\:ex:active {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.active\:border-width-inline\:ex:active,
+.active\:bdwin\:ex:active {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.active\:border-width-inline-start\:ex:active,
+.active\:bdwins\:ex:active {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.active\:border-width-inline-end\:ex:active,
+.active\:bdwine\:ex:active {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.active\:inset-block\:ex:active,
+.active\:ibk\:ex:active {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.active\:inset-block-start\:ex:active,
+.active\:ibks\:ex:active {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.active\:inset-block-end\:ex:active,
+.active\:ibke\:ex:active {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.active\:inset-inline\:ex:active,
+.active\:iin\:ex:active {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.active\:inset-inline-start\:ex:active,
+.active\:iins\:ex:active {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.active\:inset-inline-end\:ex:active,
+.active\:iine\:ex:active {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
 
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -10995,6 +11721,127 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:margin-block\:ex:disabled,
+.disabled\:mbk\:ex:disabled {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.disabled\:margin-block-start\:ex:disabled,
+.disabled\:mbks\:ex:disabled {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.disabled\:margin-block-end\:ex:disabled,
+.disabled\:mbke\:ex:disabled {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.disabled\:margin-inline\:ex:disabled,
+.disabled\:min\:ex:disabled {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.disabled\:margin-inline-start\:ex:disabled,
+.disabled\:mins\:ex:disabled {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.disabled\:margin-inline-end\:ex:disabled,
+.disabled\:mine\:ex:disabled {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.disabled\:padding-block\:ex:disabled,
+.disabled\:pbk\:ex:disabled {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.disabled\:padding-block-start\:ex:disabled,
+.disabled\:pbks\:ex:disabled {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.disabled\:padding-block-end\:ex:disabled,
+.disabled\:pbke\:ex:disabled {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.disabled\:padding-inline\:ex:disabled,
+.disabled\:pin\:ex:disabled {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.disabled\:padding-inline-start\:ex:disabled,
+.disabled\:pins\:ex:disabled {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.disabled\:padding-inline-end\:ex:disabled,
+.disabled\:pine\:ex:disabled {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.disabled\:border-width-block\:ex:disabled,
+.disabled\:bdwbk\:ex:disabled {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.disabled\:border-width-block-start\:ex:disabled,
+.disabled\:bdwbks\:ex:disabled {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.disabled\:border-width-block-end\:ex:disabled,
+.disabled\:bdwbke\:ex:disabled {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.disabled\:border-width-inline\:ex:disabled,
+.disabled\:bdwin\:ex:disabled {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.disabled\:border-width-inline-start\:ex:disabled,
+.disabled\:bdwins\:ex:disabled {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.disabled\:border-width-inline-end\:ex:disabled,
+.disabled\:bdwine\:ex:disabled {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.disabled\:inset-block\:ex:disabled,
+.disabled\:ibk\:ex:disabled {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.disabled\:inset-block-start\:ex:disabled,
+.disabled\:ibks\:ex:disabled {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.disabled\:inset-block-end\:ex:disabled,
+.disabled\:ibke\:ex:disabled {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.disabled\:inset-inline\:ex:disabled,
+.disabled\:iin\:ex:disabled {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.disabled\:inset-inline-start\:ex:disabled,
+.disabled\:iins\:ex:disabled {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.disabled\:inset-inline-end\:ex:disabled,
+.disabled\:iine\:ex:disabled {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
+
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 /* MARGIN (logical) */
@@ -12566,6 +13413,127 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:margin-block\:ex:checked,
+.checked\:mbk\:ex:checked {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.checked\:margin-block-start\:ex:checked,
+.checked\:mbks\:ex:checked {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.checked\:margin-block-end\:ex:checked,
+.checked\:mbke\:ex:checked {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.checked\:margin-inline\:ex:checked,
+.checked\:min\:ex:checked {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.checked\:margin-inline-start\:ex:checked,
+.checked\:mins\:ex:checked {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.checked\:margin-inline-end\:ex:checked,
+.checked\:mine\:ex:checked {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.checked\:padding-block\:ex:checked,
+.checked\:pbk\:ex:checked {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.checked\:padding-block-start\:ex:checked,
+.checked\:pbks\:ex:checked {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.checked\:padding-block-end\:ex:checked,
+.checked\:pbke\:ex:checked {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.checked\:padding-inline\:ex:checked,
+.checked\:pin\:ex:checked {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.checked\:padding-inline-start\:ex:checked,
+.checked\:pins\:ex:checked {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.checked\:padding-inline-end\:ex:checked,
+.checked\:pine\:ex:checked {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.checked\:border-width-block\:ex:checked,
+.checked\:bdwbk\:ex:checked {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.checked\:border-width-block-start\:ex:checked,
+.checked\:bdwbks\:ex:checked {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.checked\:border-width-block-end\:ex:checked,
+.checked\:bdwbke\:ex:checked {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.checked\:border-width-inline\:ex:checked,
+.checked\:bdwin\:ex:checked {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.checked\:border-width-inline-start\:ex:checked,
+.checked\:bdwins\:ex:checked {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.checked\:border-width-inline-end\:ex:checked,
+.checked\:bdwine\:ex:checked {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.checked\:inset-block\:ex:checked,
+.checked\:ibk\:ex:checked {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.checked\:inset-block-start\:ex:checked,
+.checked\:ibks\:ex:checked {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.checked\:inset-block-end\:ex:checked,
+.checked\:ibke\:ex:checked {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.checked\:inset-inline\:ex:checked,
+.checked\:iin\:ex:checked {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.checked\:inset-inline-start\:ex:checked,
+.checked\:iins\:ex:checked {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.checked\:inset-inline-end\:ex:checked,
+.checked\:iine\:ex:checked {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
+
 /* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 /* MARGIN (logical) */
@@ -14136,6 +15104,127 @@
 	inset-inline-end: auto !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:margin-block\:ex:visited,
+.visited\:mbk\:ex:visited {
+	margin-block: var(--margin-block-ex) !important;
+}
+
+.visited\:margin-block-start\:ex:visited,
+.visited\:mbks\:ex:visited {
+	margin-block-start: var(--margin-block-start-ex) !important;
+}
+
+.visited\:margin-block-end\:ex:visited,
+.visited\:mbke\:ex:visited {
+	margin-block-end: var(--margin-block-end-ex) !important;
+}
+
+.visited\:margin-inline\:ex:visited,
+.visited\:min\:ex:visited {
+	margin-inline: var(--margin-inline-ex) !important;
+}
+
+.visited\:margin-inline-start\:ex:visited,
+.visited\:mins\:ex:visited {
+	margin-inline-start: var(--margin-inline-start-ex) !important;
+}
+
+.visited\:margin-inline-end\:ex:visited,
+.visited\:mine\:ex:visited {
+	margin-inline-end: var(--margin-inline-end-ex) !important;
+}
+
+.visited\:padding-block\:ex:visited,
+.visited\:pbk\:ex:visited {
+	padding-block: var(--padding-block-ex) !important;
+}
+
+.visited\:padding-block-start\:ex:visited,
+.visited\:pbks\:ex:visited {
+	padding-block-start: var(--padding-block-start-ex) !important;
+}
+
+.visited\:padding-block-end\:ex:visited,
+.visited\:pbke\:ex:visited {
+	padding-block-end: var(--padding-block-end-ex) !important;
+}
+
+.visited\:padding-inline\:ex:visited,
+.visited\:pin\:ex:visited {
+	padding-inline: var(--padding-inline-ex) !important;
+}
+
+.visited\:padding-inline-start\:ex:visited,
+.visited\:pins\:ex:visited {
+	padding-inline-start: var(--padding-inline-start-ex) !important;
+}
+
+.visited\:padding-inline-end\:ex:visited,
+.visited\:pine\:ex:visited {
+	padding-inline-end: var(--padding-inline-end-ex) !important;
+}
+
+.visited\:border-width-block\:ex:visited,
+.visited\:bdwbk\:ex:visited {
+	border-block-width: var(--border-width-block-ex) !important;
+}
+
+.visited\:border-width-block-start\:ex:visited,
+.visited\:bdwbks\:ex:visited {
+	border-block-start-width: var(--border-width-block-start-ex) !important;
+}
+
+.visited\:border-width-block-end\:ex:visited,
+.visited\:bdwbke\:ex:visited {
+	border-block-end-width: var(--border-width-block-end-ex) !important;
+}
+
+.visited\:border-width-inline\:ex:visited,
+.visited\:bdwin\:ex:visited {
+	border-inline-width: var(--border-width-inline-ex) !important;
+}
+
+.visited\:border-width-inline-start\:ex:visited,
+.visited\:bdwins\:ex:visited {
+	border-inline-start-width: var(--border-width-inline-start-ex) !important;
+}
+
+.visited\:border-width-inline-end\:ex:visited,
+.visited\:bdwine\:ex:visited {
+	border-inline-end-width: var(--border-width-inline-end-ex) !important;
+}
+
+.visited\:inset-block\:ex:visited,
+.visited\:ibk\:ex:visited {
+	inset-block: var(--inset-block-ex) !important;
+}
+
+.visited\:inset-block-start\:ex:visited,
+.visited\:ibks\:ex:visited {
+	inset-block-start: var(--inset-block-start-ex) !important;
+}
+
+.visited\:inset-block-end\:ex:visited,
+.visited\:ibke\:ex:visited {
+	inset-block-end: var(--inset-block-end-ex) !important;
+}
+
+.visited\:inset-inline\:ex:visited,
+.visited\:iin\:ex:visited {
+	inset-inline: var(--inset-inline-ex) !important;
+}
+
+.visited\:inset-inline-start\:ex:visited,
+.visited\:iins\:ex:visited {
+	inset-inline-start: var(--inset-inline-start-ex) !important;
+}
+
+.visited\:inset-inline-end\:ex:visited,
+.visited\:iine\:ex:visited {
+	inset-inline-end: var(--inset-inline-end-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
@@ -15709,6 +16798,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:margin-block\:ex,
+	.sm\:mbk\:ex {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:margin-block-start\:ex,
+	.sm\:mbks\:ex {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:margin-block-end\:ex,
+	.sm\:mbke\:ex {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:margin-inline\:ex,
+	.sm\:min\:ex {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:margin-inline-start\:ex,
+	.sm\:mins\:ex {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:margin-inline-end\:ex,
+	.sm\:mine\:ex {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:padding-block\:ex,
+	.sm\:pbk\:ex {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:padding-block-start\:ex,
+	.sm\:pbks\:ex {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:padding-block-end\:ex,
+	.sm\:pbke\:ex {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:padding-inline\:ex,
+	.sm\:pin\:ex {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:padding-inline-start\:ex,
+	.sm\:pins\:ex {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:padding-inline-end\:ex,
+	.sm\:pine\:ex {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:border-width-block\:ex,
+	.sm\:bdwbk\:ex {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:border-width-block-start\:ex,
+	.sm\:bdwbks\:ex {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:border-width-block-end\:ex,
+	.sm\:bdwbke\:ex {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:border-width-inline\:ex,
+	.sm\:bdwin\:ex {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:border-width-inline-start\:ex,
+	.sm\:bdwins\:ex {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:border-width-inline-end\:ex,
+	.sm\:bdwine\:ex {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:inset-block\:ex,
+	.sm\:ibk\:ex {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:inset-block-start\:ex,
+	.sm\:ibks\:ex {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:inset-block-end\:ex,
+	.sm\:ibke\:ex {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:inset-inline\:ex,
+	.sm\:iin\:ex {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:inset-inline-start\:ex,
+	.sm\:iins\:ex {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:inset-inline-end\:ex,
+	.sm\:iine\:ex {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -17279,6 +18489,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:margin-block\:ex:hover,
+	.sm\:hover\:mbk\:ex:hover {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:hover\:margin-block-start\:ex:hover,
+	.sm\:hover\:mbks\:ex:hover {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:hover\:margin-block-end\:ex:hover,
+	.sm\:hover\:mbke\:ex:hover {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:hover\:margin-inline\:ex:hover,
+	.sm\:hover\:min\:ex:hover {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:hover\:margin-inline-start\:ex:hover,
+	.sm\:hover\:mins\:ex:hover {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:hover\:margin-inline-end\:ex:hover,
+	.sm\:hover\:mine\:ex:hover {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:hover\:padding-block\:ex:hover,
+	.sm\:hover\:pbk\:ex:hover {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:hover\:padding-block-start\:ex:hover,
+	.sm\:hover\:pbks\:ex:hover {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:hover\:padding-block-end\:ex:hover,
+	.sm\:hover\:pbke\:ex:hover {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:hover\:padding-inline\:ex:hover,
+	.sm\:hover\:pin\:ex:hover {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:hover\:padding-inline-start\:ex:hover,
+	.sm\:hover\:pins\:ex:hover {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:hover\:padding-inline-end\:ex:hover,
+	.sm\:hover\:pine\:ex:hover {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:hover\:border-width-block\:ex:hover,
+	.sm\:hover\:bdwbk\:ex:hover {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:hover\:border-width-block-start\:ex:hover,
+	.sm\:hover\:bdwbks\:ex:hover {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:hover\:border-width-block-end\:ex:hover,
+	.sm\:hover\:bdwbke\:ex:hover {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:hover\:border-width-inline\:ex:hover,
+	.sm\:hover\:bdwin\:ex:hover {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:hover\:border-width-inline-start\:ex:hover,
+	.sm\:hover\:bdwins\:ex:hover {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:hover\:border-width-inline-end\:ex:hover,
+	.sm\:hover\:bdwine\:ex:hover {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:hover\:inset-block\:ex:hover,
+	.sm\:hover\:ibk\:ex:hover {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:hover\:inset-block-start\:ex:hover,
+	.sm\:hover\:ibks\:ex:hover {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:hover\:inset-block-end\:ex:hover,
+	.sm\:hover\:ibke\:ex:hover {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:hover\:inset-inline\:ex:hover,
+	.sm\:hover\:iin\:ex:hover {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:hover\:inset-inline-start\:ex:hover,
+	.sm\:hover\:iins\:ex:hover {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:hover\:inset-inline-end\:ex:hover,
+	.sm\:hover\:iine\:ex:hover {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -18851,6 +20182,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:margin-block\:ex:focus,
+	.sm\:focus\:mbk\:ex:focus {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:focus\:margin-block-start\:ex:focus,
+	.sm\:focus\:mbks\:ex:focus {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:focus\:margin-block-end\:ex:focus,
+	.sm\:focus\:mbke\:ex:focus {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:focus\:margin-inline\:ex:focus,
+	.sm\:focus\:min\:ex:focus {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:focus\:margin-inline-start\:ex:focus,
+	.sm\:focus\:mins\:ex:focus {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:focus\:margin-inline-end\:ex:focus,
+	.sm\:focus\:mine\:ex:focus {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:focus\:padding-block\:ex:focus,
+	.sm\:focus\:pbk\:ex:focus {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:focus\:padding-block-start\:ex:focus,
+	.sm\:focus\:pbks\:ex:focus {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:focus\:padding-block-end\:ex:focus,
+	.sm\:focus\:pbke\:ex:focus {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:focus\:padding-inline\:ex:focus,
+	.sm\:focus\:pin\:ex:focus {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:focus\:padding-inline-start\:ex:focus,
+	.sm\:focus\:pins\:ex:focus {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:focus\:padding-inline-end\:ex:focus,
+	.sm\:focus\:pine\:ex:focus {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:focus\:border-width-block\:ex:focus,
+	.sm\:focus\:bdwbk\:ex:focus {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:focus\:border-width-block-start\:ex:focus,
+	.sm\:focus\:bdwbks\:ex:focus {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:focus\:border-width-block-end\:ex:focus,
+	.sm\:focus\:bdwbke\:ex:focus {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:focus\:border-width-inline\:ex:focus,
+	.sm\:focus\:bdwin\:ex:focus {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:focus\:border-width-inline-start\:ex:focus,
+	.sm\:focus\:bdwins\:ex:focus {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:focus\:border-width-inline-end\:ex:focus,
+	.sm\:focus\:bdwine\:ex:focus {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:focus\:inset-block\:ex:focus,
+	.sm\:focus\:ibk\:ex:focus {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:focus\:inset-block-start\:ex:focus,
+	.sm\:focus\:ibks\:ex:focus {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:focus\:inset-block-end\:ex:focus,
+	.sm\:focus\:ibke\:ex:focus {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:focus\:inset-inline\:ex:focus,
+	.sm\:focus\:iin\:ex:focus {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:focus\:inset-inline-start\:ex:focus,
+	.sm\:focus\:iins\:ex:focus {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:focus\:inset-inline-end\:ex:focus,
+	.sm\:focus\:iine\:ex:focus {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -20421,6 +21873,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:margin-block\:ex:focus-visible,
+	.sm\:focus-visible\:mbk\:ex:focus-visible {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-block-start\:ex:focus-visible,
+	.sm\:focus-visible\:mbks\:ex:focus-visible {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-block-end\:ex:focus-visible,
+	.sm\:focus-visible\:mbke\:ex:focus-visible {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-inline\:ex:focus-visible,
+	.sm\:focus-visible\:min\:ex:focus-visible {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-inline-start\:ex:focus-visible,
+	.sm\:focus-visible\:mins\:ex:focus-visible {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-inline-end\:ex:focus-visible,
+	.sm\:focus-visible\:mine\:ex:focus-visible {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-block\:ex:focus-visible,
+	.sm\:focus-visible\:pbk\:ex:focus-visible {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-block-start\:ex:focus-visible,
+	.sm\:focus-visible\:pbks\:ex:focus-visible {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-block-end\:ex:focus-visible,
+	.sm\:focus-visible\:pbke\:ex:focus-visible {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-inline\:ex:focus-visible,
+	.sm\:focus-visible\:pin\:ex:focus-visible {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-inline-start\:ex:focus-visible,
+	.sm\:focus-visible\:pins\:ex:focus-visible {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-inline-end\:ex:focus-visible,
+	.sm\:focus-visible\:pine\:ex:focus-visible {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-block\:ex:focus-visible,
+	.sm\:focus-visible\:bdwbk\:ex:focus-visible {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-block-start\:ex:focus-visible,
+	.sm\:focus-visible\:bdwbks\:ex:focus-visible {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-block-end\:ex:focus-visible,
+	.sm\:focus-visible\:bdwbke\:ex:focus-visible {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-inline\:ex:focus-visible,
+	.sm\:focus-visible\:bdwin\:ex:focus-visible {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-inline-start\:ex:focus-visible,
+	.sm\:focus-visible\:bdwins\:ex:focus-visible {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-inline-end\:ex:focus-visible,
+	.sm\:focus-visible\:bdwine\:ex:focus-visible {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-block\:ex:focus-visible,
+	.sm\:focus-visible\:ibk\:ex:focus-visible {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-block-start\:ex:focus-visible,
+	.sm\:focus-visible\:ibks\:ex:focus-visible {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-block-end\:ex:focus-visible,
+	.sm\:focus-visible\:ibke\:ex:focus-visible {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-inline\:ex:focus-visible,
+	.sm\:focus-visible\:iin\:ex:focus-visible {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-inline-start\:ex:focus-visible,
+	.sm\:focus-visible\:iins\:ex:focus-visible {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:focus-visible\:inset-inline-end\:ex:focus-visible,
+	.sm\:focus-visible\:iine\:ex:focus-visible {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -21993,6 +23566,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:margin-block\:ex:focus-within,
+	.sm\:focus-within\:mbk\:ex:focus-within {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-block-start\:ex:focus-within,
+	.sm\:focus-within\:mbks\:ex:focus-within {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-block-end\:ex:focus-within,
+	.sm\:focus-within\:mbke\:ex:focus-within {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-inline\:ex:focus-within,
+	.sm\:focus-within\:min\:ex:focus-within {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-inline-start\:ex:focus-within,
+	.sm\:focus-within\:mins\:ex:focus-within {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-inline-end\:ex:focus-within,
+	.sm\:focus-within\:mine\:ex:focus-within {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-block\:ex:focus-within,
+	.sm\:focus-within\:pbk\:ex:focus-within {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-block-start\:ex:focus-within,
+	.sm\:focus-within\:pbks\:ex:focus-within {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-block-end\:ex:focus-within,
+	.sm\:focus-within\:pbke\:ex:focus-within {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-inline\:ex:focus-within,
+	.sm\:focus-within\:pin\:ex:focus-within {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-inline-start\:ex:focus-within,
+	.sm\:focus-within\:pins\:ex:focus-within {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-inline-end\:ex:focus-within,
+	.sm\:focus-within\:pine\:ex:focus-within {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-block\:ex:focus-within,
+	.sm\:focus-within\:bdwbk\:ex:focus-within {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-block-start\:ex:focus-within,
+	.sm\:focus-within\:bdwbks\:ex:focus-within {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-block-end\:ex:focus-within,
+	.sm\:focus-within\:bdwbke\:ex:focus-within {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-inline\:ex:focus-within,
+	.sm\:focus-within\:bdwin\:ex:focus-within {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-inline-start\:ex:focus-within,
+	.sm\:focus-within\:bdwins\:ex:focus-within {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-inline-end\:ex:focus-within,
+	.sm\:focus-within\:bdwine\:ex:focus-within {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-block\:ex:focus-within,
+	.sm\:focus-within\:ibk\:ex:focus-within {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-block-start\:ex:focus-within,
+	.sm\:focus-within\:ibks\:ex:focus-within {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-block-end\:ex:focus-within,
+	.sm\:focus-within\:ibke\:ex:focus-within {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-inline\:ex:focus-within,
+	.sm\:focus-within\:iin\:ex:focus-within {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-inline-start\:ex:focus-within,
+	.sm\:focus-within\:iins\:ex:focus-within {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:focus-within\:inset-inline-end\:ex:focus-within,
+	.sm\:focus-within\:iine\:ex:focus-within {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -23563,6 +25257,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:margin-block\:ex:active,
+	.sm\:active\:mbk\:ex:active {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:active\:margin-block-start\:ex:active,
+	.sm\:active\:mbks\:ex:active {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:active\:margin-block-end\:ex:active,
+	.sm\:active\:mbke\:ex:active {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:active\:margin-inline\:ex:active,
+	.sm\:active\:min\:ex:active {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:active\:margin-inline-start\:ex:active,
+	.sm\:active\:mins\:ex:active {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:active\:margin-inline-end\:ex:active,
+	.sm\:active\:mine\:ex:active {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:active\:padding-block\:ex:active,
+	.sm\:active\:pbk\:ex:active {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:active\:padding-block-start\:ex:active,
+	.sm\:active\:pbks\:ex:active {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:active\:padding-block-end\:ex:active,
+	.sm\:active\:pbke\:ex:active {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:active\:padding-inline\:ex:active,
+	.sm\:active\:pin\:ex:active {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:active\:padding-inline-start\:ex:active,
+	.sm\:active\:pins\:ex:active {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:active\:padding-inline-end\:ex:active,
+	.sm\:active\:pine\:ex:active {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:active\:border-width-block\:ex:active,
+	.sm\:active\:bdwbk\:ex:active {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:active\:border-width-block-start\:ex:active,
+	.sm\:active\:bdwbks\:ex:active {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:active\:border-width-block-end\:ex:active,
+	.sm\:active\:bdwbke\:ex:active {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:active\:border-width-inline\:ex:active,
+	.sm\:active\:bdwin\:ex:active {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:active\:border-width-inline-start\:ex:active,
+	.sm\:active\:bdwins\:ex:active {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:active\:border-width-inline-end\:ex:active,
+	.sm\:active\:bdwine\:ex:active {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:active\:inset-block\:ex:active,
+	.sm\:active\:ibk\:ex:active {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:active\:inset-block-start\:ex:active,
+	.sm\:active\:ibks\:ex:active {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:active\:inset-block-end\:ex:active,
+	.sm\:active\:ibke\:ex:active {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:active\:inset-inline\:ex:active,
+	.sm\:active\:iin\:ex:active {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:active\:inset-inline-start\:ex:active,
+	.sm\:active\:iins\:ex:active {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:active\:inset-inline-end\:ex:active,
+	.sm\:active\:iine\:ex:active {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -25135,6 +26950,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:margin-block\:ex:disabled,
+	.sm\:disabled\:mbk\:ex:disabled {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:disabled\:margin-block-start\:ex:disabled,
+	.sm\:disabled\:mbks\:ex:disabled {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:disabled\:margin-block-end\:ex:disabled,
+	.sm\:disabled\:mbke\:ex:disabled {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:disabled\:margin-inline\:ex:disabled,
+	.sm\:disabled\:min\:ex:disabled {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:disabled\:margin-inline-start\:ex:disabled,
+	.sm\:disabled\:mins\:ex:disabled {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:disabled\:margin-inline-end\:ex:disabled,
+	.sm\:disabled\:mine\:ex:disabled {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:disabled\:padding-block\:ex:disabled,
+	.sm\:disabled\:pbk\:ex:disabled {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:disabled\:padding-block-start\:ex:disabled,
+	.sm\:disabled\:pbks\:ex:disabled {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:disabled\:padding-block-end\:ex:disabled,
+	.sm\:disabled\:pbke\:ex:disabled {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:disabled\:padding-inline\:ex:disabled,
+	.sm\:disabled\:pin\:ex:disabled {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:disabled\:padding-inline-start\:ex:disabled,
+	.sm\:disabled\:pins\:ex:disabled {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:disabled\:padding-inline-end\:ex:disabled,
+	.sm\:disabled\:pine\:ex:disabled {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-block\:ex:disabled,
+	.sm\:disabled\:bdwbk\:ex:disabled {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-block-start\:ex:disabled,
+	.sm\:disabled\:bdwbks\:ex:disabled {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-block-end\:ex:disabled,
+	.sm\:disabled\:bdwbke\:ex:disabled {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-inline\:ex:disabled,
+	.sm\:disabled\:bdwin\:ex:disabled {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-inline-start\:ex:disabled,
+	.sm\:disabled\:bdwins\:ex:disabled {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-inline-end\:ex:disabled,
+	.sm\:disabled\:bdwine\:ex:disabled {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:disabled\:inset-block\:ex:disabled,
+	.sm\:disabled\:ibk\:ex:disabled {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:disabled\:inset-block-start\:ex:disabled,
+	.sm\:disabled\:ibks\:ex:disabled {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:disabled\:inset-block-end\:ex:disabled,
+	.sm\:disabled\:ibke\:ex:disabled {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:disabled\:inset-inline\:ex:disabled,
+	.sm\:disabled\:iin\:ex:disabled {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:disabled\:inset-inline-start\:ex:disabled,
+	.sm\:disabled\:iins\:ex:disabled {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:disabled\:inset-inline-end\:ex:disabled,
+	.sm\:disabled\:iine\:ex:disabled {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -26706,6 +28642,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:margin-block\:ex:checked,
+	.sm\:checked\:mbk\:ex:checked {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:checked\:margin-block-start\:ex:checked,
+	.sm\:checked\:mbks\:ex:checked {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:checked\:margin-block-end\:ex:checked,
+	.sm\:checked\:mbke\:ex:checked {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:checked\:margin-inline\:ex:checked,
+	.sm\:checked\:min\:ex:checked {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:checked\:margin-inline-start\:ex:checked,
+	.sm\:checked\:mins\:ex:checked {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:checked\:margin-inline-end\:ex:checked,
+	.sm\:checked\:mine\:ex:checked {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:checked\:padding-block\:ex:checked,
+	.sm\:checked\:pbk\:ex:checked {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:checked\:padding-block-start\:ex:checked,
+	.sm\:checked\:pbks\:ex:checked {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:checked\:padding-block-end\:ex:checked,
+	.sm\:checked\:pbke\:ex:checked {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:checked\:padding-inline\:ex:checked,
+	.sm\:checked\:pin\:ex:checked {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:checked\:padding-inline-start\:ex:checked,
+	.sm\:checked\:pins\:ex:checked {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:checked\:padding-inline-end\:ex:checked,
+	.sm\:checked\:pine\:ex:checked {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:checked\:border-width-block\:ex:checked,
+	.sm\:checked\:bdwbk\:ex:checked {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:checked\:border-width-block-start\:ex:checked,
+	.sm\:checked\:bdwbks\:ex:checked {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:checked\:border-width-block-end\:ex:checked,
+	.sm\:checked\:bdwbke\:ex:checked {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:checked\:border-width-inline\:ex:checked,
+	.sm\:checked\:bdwin\:ex:checked {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:checked\:border-width-inline-start\:ex:checked,
+	.sm\:checked\:bdwins\:ex:checked {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:checked\:border-width-inline-end\:ex:checked,
+	.sm\:checked\:bdwine\:ex:checked {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:checked\:inset-block\:ex:checked,
+	.sm\:checked\:ibk\:ex:checked {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:checked\:inset-block-start\:ex:checked,
+	.sm\:checked\:ibks\:ex:checked {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:checked\:inset-block-end\:ex:checked,
+	.sm\:checked\:ibke\:ex:checked {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:checked\:inset-inline\:ex:checked,
+	.sm\:checked\:iin\:ex:checked {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:checked\:inset-inline-start\:ex:checked,
+	.sm\:checked\:iins\:ex:checked {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:checked\:inset-inline-end\:ex:checked,
+	.sm\:checked\:iine\:ex:checked {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -28276,6 +30333,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:margin-block\:ex:visited,
+	.sm\:visited\:mbk\:ex:visited {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.sm\:visited\:margin-block-start\:ex:visited,
+	.sm\:visited\:mbks\:ex:visited {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.sm\:visited\:margin-block-end\:ex:visited,
+	.sm\:visited\:mbke\:ex:visited {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.sm\:visited\:margin-inline\:ex:visited,
+	.sm\:visited\:min\:ex:visited {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.sm\:visited\:margin-inline-start\:ex:visited,
+	.sm\:visited\:mins\:ex:visited {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.sm\:visited\:margin-inline-end\:ex:visited,
+	.sm\:visited\:mine\:ex:visited {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.sm\:visited\:padding-block\:ex:visited,
+	.sm\:visited\:pbk\:ex:visited {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.sm\:visited\:padding-block-start\:ex:visited,
+	.sm\:visited\:pbks\:ex:visited {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.sm\:visited\:padding-block-end\:ex:visited,
+	.sm\:visited\:pbke\:ex:visited {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.sm\:visited\:padding-inline\:ex:visited,
+	.sm\:visited\:pin\:ex:visited {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.sm\:visited\:padding-inline-start\:ex:visited,
+	.sm\:visited\:pins\:ex:visited {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.sm\:visited\:padding-inline-end\:ex:visited,
+	.sm\:visited\:pine\:ex:visited {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.sm\:visited\:border-width-block\:ex:visited,
+	.sm\:visited\:bdwbk\:ex:visited {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.sm\:visited\:border-width-block-start\:ex:visited,
+	.sm\:visited\:bdwbks\:ex:visited {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.sm\:visited\:border-width-block-end\:ex:visited,
+	.sm\:visited\:bdwbke\:ex:visited {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.sm\:visited\:border-width-inline\:ex:visited,
+	.sm\:visited\:bdwin\:ex:visited {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.sm\:visited\:border-width-inline-start\:ex:visited,
+	.sm\:visited\:bdwins\:ex:visited {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.sm\:visited\:border-width-inline-end\:ex:visited,
+	.sm\:visited\:bdwine\:ex:visited {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.sm\:visited\:inset-block\:ex:visited,
+	.sm\:visited\:ibk\:ex:visited {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.sm\:visited\:inset-block-start\:ex:visited,
+	.sm\:visited\:ibks\:ex:visited {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.sm\:visited\:inset-block-end\:ex:visited,
+	.sm\:visited\:ibke\:ex:visited {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.sm\:visited\:inset-inline\:ex:visited,
+	.sm\:visited\:iin\:ex:visited {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.sm\:visited\:inset-inline-start\:ex:visited,
+	.sm\:visited\:iins\:ex:visited {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.sm\:visited\:inset-inline-end\:ex:visited,
+	.sm\:visited\:iine\:ex:visited {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -29850,6 +32028,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:margin-block\:ex,
+	.md\:mbk\:ex {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:margin-block-start\:ex,
+	.md\:mbks\:ex {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:margin-block-end\:ex,
+	.md\:mbke\:ex {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:margin-inline\:ex,
+	.md\:min\:ex {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:margin-inline-start\:ex,
+	.md\:mins\:ex {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:margin-inline-end\:ex,
+	.md\:mine\:ex {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:padding-block\:ex,
+	.md\:pbk\:ex {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:padding-block-start\:ex,
+	.md\:pbks\:ex {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:padding-block-end\:ex,
+	.md\:pbke\:ex {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:padding-inline\:ex,
+	.md\:pin\:ex {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:padding-inline-start\:ex,
+	.md\:pins\:ex {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:padding-inline-end\:ex,
+	.md\:pine\:ex {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:border-width-block\:ex,
+	.md\:bdwbk\:ex {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:border-width-block-start\:ex,
+	.md\:bdwbks\:ex {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:border-width-block-end\:ex,
+	.md\:bdwbke\:ex {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:border-width-inline\:ex,
+	.md\:bdwin\:ex {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:border-width-inline-start\:ex,
+	.md\:bdwins\:ex {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:border-width-inline-end\:ex,
+	.md\:bdwine\:ex {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:inset-block\:ex,
+	.md\:ibk\:ex {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:inset-block-start\:ex,
+	.md\:ibks\:ex {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:inset-block-end\:ex,
+	.md\:ibke\:ex {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:inset-inline\:ex,
+	.md\:iin\:ex {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:inset-inline-start\:ex,
+	.md\:iins\:ex {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:inset-inline-end\:ex,
+	.md\:iine\:ex {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -31420,6 +33719,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:margin-block\:ex:hover,
+	.md\:hover\:mbk\:ex:hover {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:hover\:margin-block-start\:ex:hover,
+	.md\:hover\:mbks\:ex:hover {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:hover\:margin-block-end\:ex:hover,
+	.md\:hover\:mbke\:ex:hover {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:hover\:margin-inline\:ex:hover,
+	.md\:hover\:min\:ex:hover {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:hover\:margin-inline-start\:ex:hover,
+	.md\:hover\:mins\:ex:hover {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:hover\:margin-inline-end\:ex:hover,
+	.md\:hover\:mine\:ex:hover {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:hover\:padding-block\:ex:hover,
+	.md\:hover\:pbk\:ex:hover {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:hover\:padding-block-start\:ex:hover,
+	.md\:hover\:pbks\:ex:hover {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:hover\:padding-block-end\:ex:hover,
+	.md\:hover\:pbke\:ex:hover {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:hover\:padding-inline\:ex:hover,
+	.md\:hover\:pin\:ex:hover {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:hover\:padding-inline-start\:ex:hover,
+	.md\:hover\:pins\:ex:hover {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:hover\:padding-inline-end\:ex:hover,
+	.md\:hover\:pine\:ex:hover {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:hover\:border-width-block\:ex:hover,
+	.md\:hover\:bdwbk\:ex:hover {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:hover\:border-width-block-start\:ex:hover,
+	.md\:hover\:bdwbks\:ex:hover {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:hover\:border-width-block-end\:ex:hover,
+	.md\:hover\:bdwbke\:ex:hover {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:hover\:border-width-inline\:ex:hover,
+	.md\:hover\:bdwin\:ex:hover {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:hover\:border-width-inline-start\:ex:hover,
+	.md\:hover\:bdwins\:ex:hover {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:hover\:border-width-inline-end\:ex:hover,
+	.md\:hover\:bdwine\:ex:hover {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:hover\:inset-block\:ex:hover,
+	.md\:hover\:ibk\:ex:hover {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:hover\:inset-block-start\:ex:hover,
+	.md\:hover\:ibks\:ex:hover {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:hover\:inset-block-end\:ex:hover,
+	.md\:hover\:ibke\:ex:hover {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:hover\:inset-inline\:ex:hover,
+	.md\:hover\:iin\:ex:hover {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:hover\:inset-inline-start\:ex:hover,
+	.md\:hover\:iins\:ex:hover {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:hover\:inset-inline-end\:ex:hover,
+	.md\:hover\:iine\:ex:hover {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -32992,6 +35412,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:margin-block\:ex:focus,
+	.md\:focus\:mbk\:ex:focus {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:focus\:margin-block-start\:ex:focus,
+	.md\:focus\:mbks\:ex:focus {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:focus\:margin-block-end\:ex:focus,
+	.md\:focus\:mbke\:ex:focus {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:focus\:margin-inline\:ex:focus,
+	.md\:focus\:min\:ex:focus {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:focus\:margin-inline-start\:ex:focus,
+	.md\:focus\:mins\:ex:focus {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:focus\:margin-inline-end\:ex:focus,
+	.md\:focus\:mine\:ex:focus {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:focus\:padding-block\:ex:focus,
+	.md\:focus\:pbk\:ex:focus {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:focus\:padding-block-start\:ex:focus,
+	.md\:focus\:pbks\:ex:focus {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:focus\:padding-block-end\:ex:focus,
+	.md\:focus\:pbke\:ex:focus {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:focus\:padding-inline\:ex:focus,
+	.md\:focus\:pin\:ex:focus {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:focus\:padding-inline-start\:ex:focus,
+	.md\:focus\:pins\:ex:focus {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:focus\:padding-inline-end\:ex:focus,
+	.md\:focus\:pine\:ex:focus {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:focus\:border-width-block\:ex:focus,
+	.md\:focus\:bdwbk\:ex:focus {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:focus\:border-width-block-start\:ex:focus,
+	.md\:focus\:bdwbks\:ex:focus {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:focus\:border-width-block-end\:ex:focus,
+	.md\:focus\:bdwbke\:ex:focus {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:focus\:border-width-inline\:ex:focus,
+	.md\:focus\:bdwin\:ex:focus {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:focus\:border-width-inline-start\:ex:focus,
+	.md\:focus\:bdwins\:ex:focus {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:focus\:border-width-inline-end\:ex:focus,
+	.md\:focus\:bdwine\:ex:focus {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:focus\:inset-block\:ex:focus,
+	.md\:focus\:ibk\:ex:focus {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:focus\:inset-block-start\:ex:focus,
+	.md\:focus\:ibks\:ex:focus {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:focus\:inset-block-end\:ex:focus,
+	.md\:focus\:ibke\:ex:focus {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:focus\:inset-inline\:ex:focus,
+	.md\:focus\:iin\:ex:focus {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:focus\:inset-inline-start\:ex:focus,
+	.md\:focus\:iins\:ex:focus {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:focus\:inset-inline-end\:ex:focus,
+	.md\:focus\:iine\:ex:focus {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -34562,6 +37103,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:margin-block\:ex:focus-visible,
+	.md\:focus-visible\:mbk\:ex:focus-visible {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-block-start\:ex:focus-visible,
+	.md\:focus-visible\:mbks\:ex:focus-visible {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-block-end\:ex:focus-visible,
+	.md\:focus-visible\:mbke\:ex:focus-visible {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-inline\:ex:focus-visible,
+	.md\:focus-visible\:min\:ex:focus-visible {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-inline-start\:ex:focus-visible,
+	.md\:focus-visible\:mins\:ex:focus-visible {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-inline-end\:ex:focus-visible,
+	.md\:focus-visible\:mine\:ex:focus-visible {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-block\:ex:focus-visible,
+	.md\:focus-visible\:pbk\:ex:focus-visible {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-block-start\:ex:focus-visible,
+	.md\:focus-visible\:pbks\:ex:focus-visible {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-block-end\:ex:focus-visible,
+	.md\:focus-visible\:pbke\:ex:focus-visible {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-inline\:ex:focus-visible,
+	.md\:focus-visible\:pin\:ex:focus-visible {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-inline-start\:ex:focus-visible,
+	.md\:focus-visible\:pins\:ex:focus-visible {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-inline-end\:ex:focus-visible,
+	.md\:focus-visible\:pine\:ex:focus-visible {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-block\:ex:focus-visible,
+	.md\:focus-visible\:bdwbk\:ex:focus-visible {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-block-start\:ex:focus-visible,
+	.md\:focus-visible\:bdwbks\:ex:focus-visible {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-block-end\:ex:focus-visible,
+	.md\:focus-visible\:bdwbke\:ex:focus-visible {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-inline\:ex:focus-visible,
+	.md\:focus-visible\:bdwin\:ex:focus-visible {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-inline-start\:ex:focus-visible,
+	.md\:focus-visible\:bdwins\:ex:focus-visible {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-inline-end\:ex:focus-visible,
+	.md\:focus-visible\:bdwine\:ex:focus-visible {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-block\:ex:focus-visible,
+	.md\:focus-visible\:ibk\:ex:focus-visible {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-block-start\:ex:focus-visible,
+	.md\:focus-visible\:ibks\:ex:focus-visible {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-block-end\:ex:focus-visible,
+	.md\:focus-visible\:ibke\:ex:focus-visible {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-inline\:ex:focus-visible,
+	.md\:focus-visible\:iin\:ex:focus-visible {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-inline-start\:ex:focus-visible,
+	.md\:focus-visible\:iins\:ex:focus-visible {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:focus-visible\:inset-inline-end\:ex:focus-visible,
+	.md\:focus-visible\:iine\:ex:focus-visible {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -36134,6 +38796,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:margin-block\:ex:focus-within,
+	.md\:focus-within\:mbk\:ex:focus-within {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:focus-within\:margin-block-start\:ex:focus-within,
+	.md\:focus-within\:mbks\:ex:focus-within {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:focus-within\:margin-block-end\:ex:focus-within,
+	.md\:focus-within\:mbke\:ex:focus-within {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:focus-within\:margin-inline\:ex:focus-within,
+	.md\:focus-within\:min\:ex:focus-within {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:focus-within\:margin-inline-start\:ex:focus-within,
+	.md\:focus-within\:mins\:ex:focus-within {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:focus-within\:margin-inline-end\:ex:focus-within,
+	.md\:focus-within\:mine\:ex:focus-within {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:focus-within\:padding-block\:ex:focus-within,
+	.md\:focus-within\:pbk\:ex:focus-within {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:focus-within\:padding-block-start\:ex:focus-within,
+	.md\:focus-within\:pbks\:ex:focus-within {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:focus-within\:padding-block-end\:ex:focus-within,
+	.md\:focus-within\:pbke\:ex:focus-within {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:focus-within\:padding-inline\:ex:focus-within,
+	.md\:focus-within\:pin\:ex:focus-within {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:focus-within\:padding-inline-start\:ex:focus-within,
+	.md\:focus-within\:pins\:ex:focus-within {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:focus-within\:padding-inline-end\:ex:focus-within,
+	.md\:focus-within\:pine\:ex:focus-within {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-block\:ex:focus-within,
+	.md\:focus-within\:bdwbk\:ex:focus-within {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-block-start\:ex:focus-within,
+	.md\:focus-within\:bdwbks\:ex:focus-within {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-block-end\:ex:focus-within,
+	.md\:focus-within\:bdwbke\:ex:focus-within {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-inline\:ex:focus-within,
+	.md\:focus-within\:bdwin\:ex:focus-within {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-inline-start\:ex:focus-within,
+	.md\:focus-within\:bdwins\:ex:focus-within {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-inline-end\:ex:focus-within,
+	.md\:focus-within\:bdwine\:ex:focus-within {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:focus-within\:inset-block\:ex:focus-within,
+	.md\:focus-within\:ibk\:ex:focus-within {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:focus-within\:inset-block-start\:ex:focus-within,
+	.md\:focus-within\:ibks\:ex:focus-within {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:focus-within\:inset-block-end\:ex:focus-within,
+	.md\:focus-within\:ibke\:ex:focus-within {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:focus-within\:inset-inline\:ex:focus-within,
+	.md\:focus-within\:iin\:ex:focus-within {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:focus-within\:inset-inline-start\:ex:focus-within,
+	.md\:focus-within\:iins\:ex:focus-within {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:focus-within\:inset-inline-end\:ex:focus-within,
+	.md\:focus-within\:iine\:ex:focus-within {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -37704,6 +40487,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:margin-block\:ex:active,
+	.md\:active\:mbk\:ex:active {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:active\:margin-block-start\:ex:active,
+	.md\:active\:mbks\:ex:active {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:active\:margin-block-end\:ex:active,
+	.md\:active\:mbke\:ex:active {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:active\:margin-inline\:ex:active,
+	.md\:active\:min\:ex:active {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:active\:margin-inline-start\:ex:active,
+	.md\:active\:mins\:ex:active {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:active\:margin-inline-end\:ex:active,
+	.md\:active\:mine\:ex:active {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:active\:padding-block\:ex:active,
+	.md\:active\:pbk\:ex:active {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:active\:padding-block-start\:ex:active,
+	.md\:active\:pbks\:ex:active {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:active\:padding-block-end\:ex:active,
+	.md\:active\:pbke\:ex:active {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:active\:padding-inline\:ex:active,
+	.md\:active\:pin\:ex:active {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:active\:padding-inline-start\:ex:active,
+	.md\:active\:pins\:ex:active {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:active\:padding-inline-end\:ex:active,
+	.md\:active\:pine\:ex:active {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:active\:border-width-block\:ex:active,
+	.md\:active\:bdwbk\:ex:active {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:active\:border-width-block-start\:ex:active,
+	.md\:active\:bdwbks\:ex:active {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:active\:border-width-block-end\:ex:active,
+	.md\:active\:bdwbke\:ex:active {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:active\:border-width-inline\:ex:active,
+	.md\:active\:bdwin\:ex:active {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:active\:border-width-inline-start\:ex:active,
+	.md\:active\:bdwins\:ex:active {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:active\:border-width-inline-end\:ex:active,
+	.md\:active\:bdwine\:ex:active {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:active\:inset-block\:ex:active,
+	.md\:active\:ibk\:ex:active {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:active\:inset-block-start\:ex:active,
+	.md\:active\:ibks\:ex:active {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:active\:inset-block-end\:ex:active,
+	.md\:active\:ibke\:ex:active {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:active\:inset-inline\:ex:active,
+	.md\:active\:iin\:ex:active {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:active\:inset-inline-start\:ex:active,
+	.md\:active\:iins\:ex:active {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:active\:inset-inline-end\:ex:active,
+	.md\:active\:iine\:ex:active {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -39276,6 +42180,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:margin-block\:ex:disabled,
+	.md\:disabled\:mbk\:ex:disabled {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:disabled\:margin-block-start\:ex:disabled,
+	.md\:disabled\:mbks\:ex:disabled {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:disabled\:margin-block-end\:ex:disabled,
+	.md\:disabled\:mbke\:ex:disabled {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:disabled\:margin-inline\:ex:disabled,
+	.md\:disabled\:min\:ex:disabled {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:disabled\:margin-inline-start\:ex:disabled,
+	.md\:disabled\:mins\:ex:disabled {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:disabled\:margin-inline-end\:ex:disabled,
+	.md\:disabled\:mine\:ex:disabled {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:disabled\:padding-block\:ex:disabled,
+	.md\:disabled\:pbk\:ex:disabled {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:disabled\:padding-block-start\:ex:disabled,
+	.md\:disabled\:pbks\:ex:disabled {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:disabled\:padding-block-end\:ex:disabled,
+	.md\:disabled\:pbke\:ex:disabled {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:disabled\:padding-inline\:ex:disabled,
+	.md\:disabled\:pin\:ex:disabled {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:disabled\:padding-inline-start\:ex:disabled,
+	.md\:disabled\:pins\:ex:disabled {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:disabled\:padding-inline-end\:ex:disabled,
+	.md\:disabled\:pine\:ex:disabled {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:disabled\:border-width-block\:ex:disabled,
+	.md\:disabled\:bdwbk\:ex:disabled {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:disabled\:border-width-block-start\:ex:disabled,
+	.md\:disabled\:bdwbks\:ex:disabled {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:disabled\:border-width-block-end\:ex:disabled,
+	.md\:disabled\:bdwbke\:ex:disabled {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:disabled\:border-width-inline\:ex:disabled,
+	.md\:disabled\:bdwin\:ex:disabled {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:disabled\:border-width-inline-start\:ex:disabled,
+	.md\:disabled\:bdwins\:ex:disabled {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:disabled\:border-width-inline-end\:ex:disabled,
+	.md\:disabled\:bdwine\:ex:disabled {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:disabled\:inset-block\:ex:disabled,
+	.md\:disabled\:ibk\:ex:disabled {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:disabled\:inset-block-start\:ex:disabled,
+	.md\:disabled\:ibks\:ex:disabled {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:disabled\:inset-block-end\:ex:disabled,
+	.md\:disabled\:ibke\:ex:disabled {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:disabled\:inset-inline\:ex:disabled,
+	.md\:disabled\:iin\:ex:disabled {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:disabled\:inset-inline-start\:ex:disabled,
+	.md\:disabled\:iins\:ex:disabled {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:disabled\:inset-inline-end\:ex:disabled,
+	.md\:disabled\:iine\:ex:disabled {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -40847,6 +43872,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:margin-block\:ex:checked,
+	.md\:checked\:mbk\:ex:checked {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:checked\:margin-block-start\:ex:checked,
+	.md\:checked\:mbks\:ex:checked {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:checked\:margin-block-end\:ex:checked,
+	.md\:checked\:mbke\:ex:checked {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:checked\:margin-inline\:ex:checked,
+	.md\:checked\:min\:ex:checked {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:checked\:margin-inline-start\:ex:checked,
+	.md\:checked\:mins\:ex:checked {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:checked\:margin-inline-end\:ex:checked,
+	.md\:checked\:mine\:ex:checked {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:checked\:padding-block\:ex:checked,
+	.md\:checked\:pbk\:ex:checked {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:checked\:padding-block-start\:ex:checked,
+	.md\:checked\:pbks\:ex:checked {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:checked\:padding-block-end\:ex:checked,
+	.md\:checked\:pbke\:ex:checked {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:checked\:padding-inline\:ex:checked,
+	.md\:checked\:pin\:ex:checked {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:checked\:padding-inline-start\:ex:checked,
+	.md\:checked\:pins\:ex:checked {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:checked\:padding-inline-end\:ex:checked,
+	.md\:checked\:pine\:ex:checked {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:checked\:border-width-block\:ex:checked,
+	.md\:checked\:bdwbk\:ex:checked {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:checked\:border-width-block-start\:ex:checked,
+	.md\:checked\:bdwbks\:ex:checked {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:checked\:border-width-block-end\:ex:checked,
+	.md\:checked\:bdwbke\:ex:checked {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:checked\:border-width-inline\:ex:checked,
+	.md\:checked\:bdwin\:ex:checked {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:checked\:border-width-inline-start\:ex:checked,
+	.md\:checked\:bdwins\:ex:checked {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:checked\:border-width-inline-end\:ex:checked,
+	.md\:checked\:bdwine\:ex:checked {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:checked\:inset-block\:ex:checked,
+	.md\:checked\:ibk\:ex:checked {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:checked\:inset-block-start\:ex:checked,
+	.md\:checked\:ibks\:ex:checked {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:checked\:inset-block-end\:ex:checked,
+	.md\:checked\:ibke\:ex:checked {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:checked\:inset-inline\:ex:checked,
+	.md\:checked\:iin\:ex:checked {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:checked\:inset-inline-start\:ex:checked,
+	.md\:checked\:iins\:ex:checked {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:checked\:inset-inline-end\:ex:checked,
+	.md\:checked\:iine\:ex:checked {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -42417,6 +45563,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:margin-block\:ex:visited,
+	.md\:visited\:mbk\:ex:visited {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.md\:visited\:margin-block-start\:ex:visited,
+	.md\:visited\:mbks\:ex:visited {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.md\:visited\:margin-block-end\:ex:visited,
+	.md\:visited\:mbke\:ex:visited {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.md\:visited\:margin-inline\:ex:visited,
+	.md\:visited\:min\:ex:visited {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.md\:visited\:margin-inline-start\:ex:visited,
+	.md\:visited\:mins\:ex:visited {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.md\:visited\:margin-inline-end\:ex:visited,
+	.md\:visited\:mine\:ex:visited {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.md\:visited\:padding-block\:ex:visited,
+	.md\:visited\:pbk\:ex:visited {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.md\:visited\:padding-block-start\:ex:visited,
+	.md\:visited\:pbks\:ex:visited {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.md\:visited\:padding-block-end\:ex:visited,
+	.md\:visited\:pbke\:ex:visited {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.md\:visited\:padding-inline\:ex:visited,
+	.md\:visited\:pin\:ex:visited {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.md\:visited\:padding-inline-start\:ex:visited,
+	.md\:visited\:pins\:ex:visited {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.md\:visited\:padding-inline-end\:ex:visited,
+	.md\:visited\:pine\:ex:visited {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.md\:visited\:border-width-block\:ex:visited,
+	.md\:visited\:bdwbk\:ex:visited {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.md\:visited\:border-width-block-start\:ex:visited,
+	.md\:visited\:bdwbks\:ex:visited {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.md\:visited\:border-width-block-end\:ex:visited,
+	.md\:visited\:bdwbke\:ex:visited {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.md\:visited\:border-width-inline\:ex:visited,
+	.md\:visited\:bdwin\:ex:visited {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.md\:visited\:border-width-inline-start\:ex:visited,
+	.md\:visited\:bdwins\:ex:visited {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.md\:visited\:border-width-inline-end\:ex:visited,
+	.md\:visited\:bdwine\:ex:visited {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.md\:visited\:inset-block\:ex:visited,
+	.md\:visited\:ibk\:ex:visited {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.md\:visited\:inset-block-start\:ex:visited,
+	.md\:visited\:ibks\:ex:visited {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.md\:visited\:inset-block-end\:ex:visited,
+	.md\:visited\:ibke\:ex:visited {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.md\:visited\:inset-inline\:ex:visited,
+	.md\:visited\:iin\:ex:visited {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.md\:visited\:inset-inline-start\:ex:visited,
+	.md\:visited\:iins\:ex:visited {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.md\:visited\:inset-inline-end\:ex:visited,
+	.md\:visited\:iine\:ex:visited {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -43991,6 +47258,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:margin-block\:ex,
+	.lg\:mbk\:ex {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:margin-block-start\:ex,
+	.lg\:mbks\:ex {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:margin-block-end\:ex,
+	.lg\:mbke\:ex {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:margin-inline\:ex,
+	.lg\:min\:ex {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:margin-inline-start\:ex,
+	.lg\:mins\:ex {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:margin-inline-end\:ex,
+	.lg\:mine\:ex {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:padding-block\:ex,
+	.lg\:pbk\:ex {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:padding-block-start\:ex,
+	.lg\:pbks\:ex {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:padding-block-end\:ex,
+	.lg\:pbke\:ex {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:padding-inline\:ex,
+	.lg\:pin\:ex {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:padding-inline-start\:ex,
+	.lg\:pins\:ex {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:padding-inline-end\:ex,
+	.lg\:pine\:ex {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:border-width-block\:ex,
+	.lg\:bdwbk\:ex {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:border-width-block-start\:ex,
+	.lg\:bdwbks\:ex {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:border-width-block-end\:ex,
+	.lg\:bdwbke\:ex {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:border-width-inline\:ex,
+	.lg\:bdwin\:ex {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:border-width-inline-start\:ex,
+	.lg\:bdwins\:ex {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:border-width-inline-end\:ex,
+	.lg\:bdwine\:ex {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:inset-block\:ex,
+	.lg\:ibk\:ex {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:inset-block-start\:ex,
+	.lg\:ibks\:ex {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:inset-block-end\:ex,
+	.lg\:ibke\:ex {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:inset-inline\:ex,
+	.lg\:iin\:ex {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:inset-inline-start\:ex,
+	.lg\:iins\:ex {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:inset-inline-end\:ex,
+	.lg\:iine\:ex {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -45561,6 +48949,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:margin-block\:ex:hover,
+	.lg\:hover\:mbk\:ex:hover {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:hover\:margin-block-start\:ex:hover,
+	.lg\:hover\:mbks\:ex:hover {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:hover\:margin-block-end\:ex:hover,
+	.lg\:hover\:mbke\:ex:hover {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:hover\:margin-inline\:ex:hover,
+	.lg\:hover\:min\:ex:hover {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:hover\:margin-inline-start\:ex:hover,
+	.lg\:hover\:mins\:ex:hover {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:hover\:margin-inline-end\:ex:hover,
+	.lg\:hover\:mine\:ex:hover {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:hover\:padding-block\:ex:hover,
+	.lg\:hover\:pbk\:ex:hover {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:hover\:padding-block-start\:ex:hover,
+	.lg\:hover\:pbks\:ex:hover {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:hover\:padding-block-end\:ex:hover,
+	.lg\:hover\:pbke\:ex:hover {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:hover\:padding-inline\:ex:hover,
+	.lg\:hover\:pin\:ex:hover {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:hover\:padding-inline-start\:ex:hover,
+	.lg\:hover\:pins\:ex:hover {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:hover\:padding-inline-end\:ex:hover,
+	.lg\:hover\:pine\:ex:hover {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:hover\:border-width-block\:ex:hover,
+	.lg\:hover\:bdwbk\:ex:hover {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:hover\:border-width-block-start\:ex:hover,
+	.lg\:hover\:bdwbks\:ex:hover {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:hover\:border-width-block-end\:ex:hover,
+	.lg\:hover\:bdwbke\:ex:hover {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:hover\:border-width-inline\:ex:hover,
+	.lg\:hover\:bdwin\:ex:hover {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:hover\:border-width-inline-start\:ex:hover,
+	.lg\:hover\:bdwins\:ex:hover {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:hover\:border-width-inline-end\:ex:hover,
+	.lg\:hover\:bdwine\:ex:hover {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:hover\:inset-block\:ex:hover,
+	.lg\:hover\:ibk\:ex:hover {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:hover\:inset-block-start\:ex:hover,
+	.lg\:hover\:ibks\:ex:hover {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:hover\:inset-block-end\:ex:hover,
+	.lg\:hover\:ibke\:ex:hover {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:hover\:inset-inline\:ex:hover,
+	.lg\:hover\:iin\:ex:hover {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:hover\:inset-inline-start\:ex:hover,
+	.lg\:hover\:iins\:ex:hover {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:hover\:inset-inline-end\:ex:hover,
+	.lg\:hover\:iine\:ex:hover {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -47133,6 +50642,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:margin-block\:ex:focus,
+	.lg\:focus\:mbk\:ex:focus {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:focus\:margin-block-start\:ex:focus,
+	.lg\:focus\:mbks\:ex:focus {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:focus\:margin-block-end\:ex:focus,
+	.lg\:focus\:mbke\:ex:focus {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:focus\:margin-inline\:ex:focus,
+	.lg\:focus\:min\:ex:focus {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:focus\:margin-inline-start\:ex:focus,
+	.lg\:focus\:mins\:ex:focus {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:focus\:margin-inline-end\:ex:focus,
+	.lg\:focus\:mine\:ex:focus {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:focus\:padding-block\:ex:focus,
+	.lg\:focus\:pbk\:ex:focus {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:focus\:padding-block-start\:ex:focus,
+	.lg\:focus\:pbks\:ex:focus {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:focus\:padding-block-end\:ex:focus,
+	.lg\:focus\:pbke\:ex:focus {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:focus\:padding-inline\:ex:focus,
+	.lg\:focus\:pin\:ex:focus {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:focus\:padding-inline-start\:ex:focus,
+	.lg\:focus\:pins\:ex:focus {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:focus\:padding-inline-end\:ex:focus,
+	.lg\:focus\:pine\:ex:focus {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:focus\:border-width-block\:ex:focus,
+	.lg\:focus\:bdwbk\:ex:focus {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:focus\:border-width-block-start\:ex:focus,
+	.lg\:focus\:bdwbks\:ex:focus {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:focus\:border-width-block-end\:ex:focus,
+	.lg\:focus\:bdwbke\:ex:focus {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:focus\:border-width-inline\:ex:focus,
+	.lg\:focus\:bdwin\:ex:focus {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:focus\:border-width-inline-start\:ex:focus,
+	.lg\:focus\:bdwins\:ex:focus {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:focus\:border-width-inline-end\:ex:focus,
+	.lg\:focus\:bdwine\:ex:focus {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:focus\:inset-block\:ex:focus,
+	.lg\:focus\:ibk\:ex:focus {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:focus\:inset-block-start\:ex:focus,
+	.lg\:focus\:ibks\:ex:focus {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:focus\:inset-block-end\:ex:focus,
+	.lg\:focus\:ibke\:ex:focus {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:focus\:inset-inline\:ex:focus,
+	.lg\:focus\:iin\:ex:focus {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:focus\:inset-inline-start\:ex:focus,
+	.lg\:focus\:iins\:ex:focus {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:focus\:inset-inline-end\:ex:focus,
+	.lg\:focus\:iine\:ex:focus {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -48703,6 +52333,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:margin-block\:ex:focus-visible,
+	.lg\:focus-visible\:mbk\:ex:focus-visible {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-block-start\:ex:focus-visible,
+	.lg\:focus-visible\:mbks\:ex:focus-visible {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-block-end\:ex:focus-visible,
+	.lg\:focus-visible\:mbke\:ex:focus-visible {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-inline\:ex:focus-visible,
+	.lg\:focus-visible\:min\:ex:focus-visible {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-inline-start\:ex:focus-visible,
+	.lg\:focus-visible\:mins\:ex:focus-visible {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-inline-end\:ex:focus-visible,
+	.lg\:focus-visible\:mine\:ex:focus-visible {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-block\:ex:focus-visible,
+	.lg\:focus-visible\:pbk\:ex:focus-visible {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-block-start\:ex:focus-visible,
+	.lg\:focus-visible\:pbks\:ex:focus-visible {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-block-end\:ex:focus-visible,
+	.lg\:focus-visible\:pbke\:ex:focus-visible {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-inline\:ex:focus-visible,
+	.lg\:focus-visible\:pin\:ex:focus-visible {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-inline-start\:ex:focus-visible,
+	.lg\:focus-visible\:pins\:ex:focus-visible {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-inline-end\:ex:focus-visible,
+	.lg\:focus-visible\:pine\:ex:focus-visible {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-block\:ex:focus-visible,
+	.lg\:focus-visible\:bdwbk\:ex:focus-visible {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-block-start\:ex:focus-visible,
+	.lg\:focus-visible\:bdwbks\:ex:focus-visible {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-block-end\:ex:focus-visible,
+	.lg\:focus-visible\:bdwbke\:ex:focus-visible {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-inline\:ex:focus-visible,
+	.lg\:focus-visible\:bdwin\:ex:focus-visible {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-inline-start\:ex:focus-visible,
+	.lg\:focus-visible\:bdwins\:ex:focus-visible {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-inline-end\:ex:focus-visible,
+	.lg\:focus-visible\:bdwine\:ex:focus-visible {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-block\:ex:focus-visible,
+	.lg\:focus-visible\:ibk\:ex:focus-visible {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-block-start\:ex:focus-visible,
+	.lg\:focus-visible\:ibks\:ex:focus-visible {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-block-end\:ex:focus-visible,
+	.lg\:focus-visible\:ibke\:ex:focus-visible {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-inline\:ex:focus-visible,
+	.lg\:focus-visible\:iin\:ex:focus-visible {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-inline-start\:ex:focus-visible,
+	.lg\:focus-visible\:iins\:ex:focus-visible {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:focus-visible\:inset-inline-end\:ex:focus-visible,
+	.lg\:focus-visible\:iine\:ex:focus-visible {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -50275,6 +54026,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:margin-block\:ex:focus-within,
+	.lg\:focus-within\:mbk\:ex:focus-within {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-block-start\:ex:focus-within,
+	.lg\:focus-within\:mbks\:ex:focus-within {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-block-end\:ex:focus-within,
+	.lg\:focus-within\:mbke\:ex:focus-within {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-inline\:ex:focus-within,
+	.lg\:focus-within\:min\:ex:focus-within {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-inline-start\:ex:focus-within,
+	.lg\:focus-within\:mins\:ex:focus-within {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-inline-end\:ex:focus-within,
+	.lg\:focus-within\:mine\:ex:focus-within {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-block\:ex:focus-within,
+	.lg\:focus-within\:pbk\:ex:focus-within {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-block-start\:ex:focus-within,
+	.lg\:focus-within\:pbks\:ex:focus-within {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-block-end\:ex:focus-within,
+	.lg\:focus-within\:pbke\:ex:focus-within {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-inline\:ex:focus-within,
+	.lg\:focus-within\:pin\:ex:focus-within {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-inline-start\:ex:focus-within,
+	.lg\:focus-within\:pins\:ex:focus-within {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-inline-end\:ex:focus-within,
+	.lg\:focus-within\:pine\:ex:focus-within {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-block\:ex:focus-within,
+	.lg\:focus-within\:bdwbk\:ex:focus-within {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-block-start\:ex:focus-within,
+	.lg\:focus-within\:bdwbks\:ex:focus-within {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-block-end\:ex:focus-within,
+	.lg\:focus-within\:bdwbke\:ex:focus-within {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-inline\:ex:focus-within,
+	.lg\:focus-within\:bdwin\:ex:focus-within {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-inline-start\:ex:focus-within,
+	.lg\:focus-within\:bdwins\:ex:focus-within {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-inline-end\:ex:focus-within,
+	.lg\:focus-within\:bdwine\:ex:focus-within {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-block\:ex:focus-within,
+	.lg\:focus-within\:ibk\:ex:focus-within {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-block-start\:ex:focus-within,
+	.lg\:focus-within\:ibks\:ex:focus-within {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-block-end\:ex:focus-within,
+	.lg\:focus-within\:ibke\:ex:focus-within {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-inline\:ex:focus-within,
+	.lg\:focus-within\:iin\:ex:focus-within {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-inline-start\:ex:focus-within,
+	.lg\:focus-within\:iins\:ex:focus-within {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:focus-within\:inset-inline-end\:ex:focus-within,
+	.lg\:focus-within\:iine\:ex:focus-within {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -51845,6 +55717,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:margin-block\:ex:active,
+	.lg\:active\:mbk\:ex:active {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:active\:margin-block-start\:ex:active,
+	.lg\:active\:mbks\:ex:active {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:active\:margin-block-end\:ex:active,
+	.lg\:active\:mbke\:ex:active {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:active\:margin-inline\:ex:active,
+	.lg\:active\:min\:ex:active {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:active\:margin-inline-start\:ex:active,
+	.lg\:active\:mins\:ex:active {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:active\:margin-inline-end\:ex:active,
+	.lg\:active\:mine\:ex:active {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:active\:padding-block\:ex:active,
+	.lg\:active\:pbk\:ex:active {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:active\:padding-block-start\:ex:active,
+	.lg\:active\:pbks\:ex:active {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:active\:padding-block-end\:ex:active,
+	.lg\:active\:pbke\:ex:active {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:active\:padding-inline\:ex:active,
+	.lg\:active\:pin\:ex:active {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:active\:padding-inline-start\:ex:active,
+	.lg\:active\:pins\:ex:active {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:active\:padding-inline-end\:ex:active,
+	.lg\:active\:pine\:ex:active {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:active\:border-width-block\:ex:active,
+	.lg\:active\:bdwbk\:ex:active {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:active\:border-width-block-start\:ex:active,
+	.lg\:active\:bdwbks\:ex:active {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:active\:border-width-block-end\:ex:active,
+	.lg\:active\:bdwbke\:ex:active {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:active\:border-width-inline\:ex:active,
+	.lg\:active\:bdwin\:ex:active {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:active\:border-width-inline-start\:ex:active,
+	.lg\:active\:bdwins\:ex:active {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:active\:border-width-inline-end\:ex:active,
+	.lg\:active\:bdwine\:ex:active {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:active\:inset-block\:ex:active,
+	.lg\:active\:ibk\:ex:active {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:active\:inset-block-start\:ex:active,
+	.lg\:active\:ibks\:ex:active {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:active\:inset-block-end\:ex:active,
+	.lg\:active\:ibke\:ex:active {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:active\:inset-inline\:ex:active,
+	.lg\:active\:iin\:ex:active {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:active\:inset-inline-start\:ex:active,
+	.lg\:active\:iins\:ex:active {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:active\:inset-inline-end\:ex:active,
+	.lg\:active\:iine\:ex:active {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -53417,6 +57410,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:margin-block\:ex:disabled,
+	.lg\:disabled\:mbk\:ex:disabled {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:disabled\:margin-block-start\:ex:disabled,
+	.lg\:disabled\:mbks\:ex:disabled {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:disabled\:margin-block-end\:ex:disabled,
+	.lg\:disabled\:mbke\:ex:disabled {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:disabled\:margin-inline\:ex:disabled,
+	.lg\:disabled\:min\:ex:disabled {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:disabled\:margin-inline-start\:ex:disabled,
+	.lg\:disabled\:mins\:ex:disabled {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:disabled\:margin-inline-end\:ex:disabled,
+	.lg\:disabled\:mine\:ex:disabled {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:disabled\:padding-block\:ex:disabled,
+	.lg\:disabled\:pbk\:ex:disabled {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:disabled\:padding-block-start\:ex:disabled,
+	.lg\:disabled\:pbks\:ex:disabled {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:disabled\:padding-block-end\:ex:disabled,
+	.lg\:disabled\:pbke\:ex:disabled {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:disabled\:padding-inline\:ex:disabled,
+	.lg\:disabled\:pin\:ex:disabled {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:disabled\:padding-inline-start\:ex:disabled,
+	.lg\:disabled\:pins\:ex:disabled {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:disabled\:padding-inline-end\:ex:disabled,
+	.lg\:disabled\:pine\:ex:disabled {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-block\:ex:disabled,
+	.lg\:disabled\:bdwbk\:ex:disabled {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-block-start\:ex:disabled,
+	.lg\:disabled\:bdwbks\:ex:disabled {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-block-end\:ex:disabled,
+	.lg\:disabled\:bdwbke\:ex:disabled {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-inline\:ex:disabled,
+	.lg\:disabled\:bdwin\:ex:disabled {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-inline-start\:ex:disabled,
+	.lg\:disabled\:bdwins\:ex:disabled {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-inline-end\:ex:disabled,
+	.lg\:disabled\:bdwine\:ex:disabled {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:disabled\:inset-block\:ex:disabled,
+	.lg\:disabled\:ibk\:ex:disabled {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:disabled\:inset-block-start\:ex:disabled,
+	.lg\:disabled\:ibks\:ex:disabled {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:disabled\:inset-block-end\:ex:disabled,
+	.lg\:disabled\:ibke\:ex:disabled {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:disabled\:inset-inline\:ex:disabled,
+	.lg\:disabled\:iin\:ex:disabled {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:disabled\:inset-inline-start\:ex:disabled,
+	.lg\:disabled\:iins\:ex:disabled {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:disabled\:inset-inline-end\:ex:disabled,
+	.lg\:disabled\:iine\:ex:disabled {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -54988,6 +59102,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:margin-block\:ex:checked,
+	.lg\:checked\:mbk\:ex:checked {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:checked\:margin-block-start\:ex:checked,
+	.lg\:checked\:mbks\:ex:checked {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:checked\:margin-block-end\:ex:checked,
+	.lg\:checked\:mbke\:ex:checked {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:checked\:margin-inline\:ex:checked,
+	.lg\:checked\:min\:ex:checked {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:checked\:margin-inline-start\:ex:checked,
+	.lg\:checked\:mins\:ex:checked {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:checked\:margin-inline-end\:ex:checked,
+	.lg\:checked\:mine\:ex:checked {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:checked\:padding-block\:ex:checked,
+	.lg\:checked\:pbk\:ex:checked {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:checked\:padding-block-start\:ex:checked,
+	.lg\:checked\:pbks\:ex:checked {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:checked\:padding-block-end\:ex:checked,
+	.lg\:checked\:pbke\:ex:checked {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:checked\:padding-inline\:ex:checked,
+	.lg\:checked\:pin\:ex:checked {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:checked\:padding-inline-start\:ex:checked,
+	.lg\:checked\:pins\:ex:checked {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:checked\:padding-inline-end\:ex:checked,
+	.lg\:checked\:pine\:ex:checked {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:checked\:border-width-block\:ex:checked,
+	.lg\:checked\:bdwbk\:ex:checked {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:checked\:border-width-block-start\:ex:checked,
+	.lg\:checked\:bdwbks\:ex:checked {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:checked\:border-width-block-end\:ex:checked,
+	.lg\:checked\:bdwbke\:ex:checked {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:checked\:border-width-inline\:ex:checked,
+	.lg\:checked\:bdwin\:ex:checked {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:checked\:border-width-inline-start\:ex:checked,
+	.lg\:checked\:bdwins\:ex:checked {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:checked\:border-width-inline-end\:ex:checked,
+	.lg\:checked\:bdwine\:ex:checked {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:checked\:inset-block\:ex:checked,
+	.lg\:checked\:ibk\:ex:checked {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:checked\:inset-block-start\:ex:checked,
+	.lg\:checked\:ibks\:ex:checked {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:checked\:inset-block-end\:ex:checked,
+	.lg\:checked\:ibke\:ex:checked {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:checked\:inset-inline\:ex:checked,
+	.lg\:checked\:iin\:ex:checked {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:checked\:inset-inline-start\:ex:checked,
+	.lg\:checked\:iins\:ex:checked {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:checked\:inset-inline-end\:ex:checked,
+	.lg\:checked\:iine\:ex:checked {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -56558,6 +60793,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:margin-block\:ex:visited,
+	.lg\:visited\:mbk\:ex:visited {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.lg\:visited\:margin-block-start\:ex:visited,
+	.lg\:visited\:mbks\:ex:visited {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.lg\:visited\:margin-block-end\:ex:visited,
+	.lg\:visited\:mbke\:ex:visited {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.lg\:visited\:margin-inline\:ex:visited,
+	.lg\:visited\:min\:ex:visited {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.lg\:visited\:margin-inline-start\:ex:visited,
+	.lg\:visited\:mins\:ex:visited {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.lg\:visited\:margin-inline-end\:ex:visited,
+	.lg\:visited\:mine\:ex:visited {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.lg\:visited\:padding-block\:ex:visited,
+	.lg\:visited\:pbk\:ex:visited {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.lg\:visited\:padding-block-start\:ex:visited,
+	.lg\:visited\:pbks\:ex:visited {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.lg\:visited\:padding-block-end\:ex:visited,
+	.lg\:visited\:pbke\:ex:visited {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.lg\:visited\:padding-inline\:ex:visited,
+	.lg\:visited\:pin\:ex:visited {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.lg\:visited\:padding-inline-start\:ex:visited,
+	.lg\:visited\:pins\:ex:visited {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.lg\:visited\:padding-inline-end\:ex:visited,
+	.lg\:visited\:pine\:ex:visited {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.lg\:visited\:border-width-block\:ex:visited,
+	.lg\:visited\:bdwbk\:ex:visited {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.lg\:visited\:border-width-block-start\:ex:visited,
+	.lg\:visited\:bdwbks\:ex:visited {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.lg\:visited\:border-width-block-end\:ex:visited,
+	.lg\:visited\:bdwbke\:ex:visited {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.lg\:visited\:border-width-inline\:ex:visited,
+	.lg\:visited\:bdwin\:ex:visited {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.lg\:visited\:border-width-inline-start\:ex:visited,
+	.lg\:visited\:bdwins\:ex:visited {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.lg\:visited\:border-width-inline-end\:ex:visited,
+	.lg\:visited\:bdwine\:ex:visited {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.lg\:visited\:inset-block\:ex:visited,
+	.lg\:visited\:ibk\:ex:visited {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.lg\:visited\:inset-block-start\:ex:visited,
+	.lg\:visited\:ibks\:ex:visited {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.lg\:visited\:inset-block-end\:ex:visited,
+	.lg\:visited\:ibke\:ex:visited {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.lg\:visited\:inset-inline\:ex:visited,
+	.lg\:visited\:iin\:ex:visited {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.lg\:visited\:inset-inline-start\:ex:visited,
+	.lg\:visited\:iins\:ex:visited {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.lg\:visited\:inset-inline-end\:ex:visited,
+	.lg\:visited\:iine\:ex:visited {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -58132,6 +62488,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:margin-block\:ex,
+	.xl\:mbk\:ex {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:margin-block-start\:ex,
+	.xl\:mbks\:ex {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:margin-block-end\:ex,
+	.xl\:mbke\:ex {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:margin-inline\:ex,
+	.xl\:min\:ex {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:margin-inline-start\:ex,
+	.xl\:mins\:ex {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:margin-inline-end\:ex,
+	.xl\:mine\:ex {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:padding-block\:ex,
+	.xl\:pbk\:ex {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:padding-block-start\:ex,
+	.xl\:pbks\:ex {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:padding-block-end\:ex,
+	.xl\:pbke\:ex {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:padding-inline\:ex,
+	.xl\:pin\:ex {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:padding-inline-start\:ex,
+	.xl\:pins\:ex {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:padding-inline-end\:ex,
+	.xl\:pine\:ex {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:border-width-block\:ex,
+	.xl\:bdwbk\:ex {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:border-width-block-start\:ex,
+	.xl\:bdwbks\:ex {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:border-width-block-end\:ex,
+	.xl\:bdwbke\:ex {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:border-width-inline\:ex,
+	.xl\:bdwin\:ex {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:border-width-inline-start\:ex,
+	.xl\:bdwins\:ex {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:border-width-inline-end\:ex,
+	.xl\:bdwine\:ex {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:inset-block\:ex,
+	.xl\:ibk\:ex {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:inset-block-start\:ex,
+	.xl\:ibks\:ex {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:inset-block-end\:ex,
+	.xl\:ibke\:ex {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:inset-inline\:ex,
+	.xl\:iin\:ex {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:inset-inline-start\:ex,
+	.xl\:iins\:ex {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:inset-inline-end\:ex,
+	.xl\:iine\:ex {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -59702,6 +64179,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:margin-block\:ex:hover,
+	.xl\:hover\:mbk\:ex:hover {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:hover\:margin-block-start\:ex:hover,
+	.xl\:hover\:mbks\:ex:hover {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:hover\:margin-block-end\:ex:hover,
+	.xl\:hover\:mbke\:ex:hover {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:hover\:margin-inline\:ex:hover,
+	.xl\:hover\:min\:ex:hover {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:hover\:margin-inline-start\:ex:hover,
+	.xl\:hover\:mins\:ex:hover {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:hover\:margin-inline-end\:ex:hover,
+	.xl\:hover\:mine\:ex:hover {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:hover\:padding-block\:ex:hover,
+	.xl\:hover\:pbk\:ex:hover {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:hover\:padding-block-start\:ex:hover,
+	.xl\:hover\:pbks\:ex:hover {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:hover\:padding-block-end\:ex:hover,
+	.xl\:hover\:pbke\:ex:hover {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:hover\:padding-inline\:ex:hover,
+	.xl\:hover\:pin\:ex:hover {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:hover\:padding-inline-start\:ex:hover,
+	.xl\:hover\:pins\:ex:hover {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:hover\:padding-inline-end\:ex:hover,
+	.xl\:hover\:pine\:ex:hover {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:hover\:border-width-block\:ex:hover,
+	.xl\:hover\:bdwbk\:ex:hover {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:hover\:border-width-block-start\:ex:hover,
+	.xl\:hover\:bdwbks\:ex:hover {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:hover\:border-width-block-end\:ex:hover,
+	.xl\:hover\:bdwbke\:ex:hover {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:hover\:border-width-inline\:ex:hover,
+	.xl\:hover\:bdwin\:ex:hover {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:hover\:border-width-inline-start\:ex:hover,
+	.xl\:hover\:bdwins\:ex:hover {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:hover\:border-width-inline-end\:ex:hover,
+	.xl\:hover\:bdwine\:ex:hover {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:hover\:inset-block\:ex:hover,
+	.xl\:hover\:ibk\:ex:hover {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:hover\:inset-block-start\:ex:hover,
+	.xl\:hover\:ibks\:ex:hover {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:hover\:inset-block-end\:ex:hover,
+	.xl\:hover\:ibke\:ex:hover {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:hover\:inset-inline\:ex:hover,
+	.xl\:hover\:iin\:ex:hover {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:hover\:inset-inline-start\:ex:hover,
+	.xl\:hover\:iins\:ex:hover {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:hover\:inset-inline-end\:ex:hover,
+	.xl\:hover\:iine\:ex:hover {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -61274,6 +65872,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:margin-block\:ex:focus,
+	.xl\:focus\:mbk\:ex:focus {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:focus\:margin-block-start\:ex:focus,
+	.xl\:focus\:mbks\:ex:focus {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:focus\:margin-block-end\:ex:focus,
+	.xl\:focus\:mbke\:ex:focus {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:focus\:margin-inline\:ex:focus,
+	.xl\:focus\:min\:ex:focus {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:focus\:margin-inline-start\:ex:focus,
+	.xl\:focus\:mins\:ex:focus {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:focus\:margin-inline-end\:ex:focus,
+	.xl\:focus\:mine\:ex:focus {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:focus\:padding-block\:ex:focus,
+	.xl\:focus\:pbk\:ex:focus {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:focus\:padding-block-start\:ex:focus,
+	.xl\:focus\:pbks\:ex:focus {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:focus\:padding-block-end\:ex:focus,
+	.xl\:focus\:pbke\:ex:focus {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:focus\:padding-inline\:ex:focus,
+	.xl\:focus\:pin\:ex:focus {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:focus\:padding-inline-start\:ex:focus,
+	.xl\:focus\:pins\:ex:focus {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:focus\:padding-inline-end\:ex:focus,
+	.xl\:focus\:pine\:ex:focus {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:focus\:border-width-block\:ex:focus,
+	.xl\:focus\:bdwbk\:ex:focus {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:focus\:border-width-block-start\:ex:focus,
+	.xl\:focus\:bdwbks\:ex:focus {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:focus\:border-width-block-end\:ex:focus,
+	.xl\:focus\:bdwbke\:ex:focus {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:focus\:border-width-inline\:ex:focus,
+	.xl\:focus\:bdwin\:ex:focus {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:focus\:border-width-inline-start\:ex:focus,
+	.xl\:focus\:bdwins\:ex:focus {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:focus\:border-width-inline-end\:ex:focus,
+	.xl\:focus\:bdwine\:ex:focus {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:focus\:inset-block\:ex:focus,
+	.xl\:focus\:ibk\:ex:focus {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:focus\:inset-block-start\:ex:focus,
+	.xl\:focus\:ibks\:ex:focus {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:focus\:inset-block-end\:ex:focus,
+	.xl\:focus\:ibke\:ex:focus {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:focus\:inset-inline\:ex:focus,
+	.xl\:focus\:iin\:ex:focus {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:focus\:inset-inline-start\:ex:focus,
+	.xl\:focus\:iins\:ex:focus {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:focus\:inset-inline-end\:ex:focus,
+	.xl\:focus\:iine\:ex:focus {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -62844,6 +67563,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:margin-block\:ex:focus-visible,
+	.xl\:focus-visible\:mbk\:ex:focus-visible {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-block-start\:ex:focus-visible,
+	.xl\:focus-visible\:mbks\:ex:focus-visible {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-block-end\:ex:focus-visible,
+	.xl\:focus-visible\:mbke\:ex:focus-visible {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-inline\:ex:focus-visible,
+	.xl\:focus-visible\:min\:ex:focus-visible {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-inline-start\:ex:focus-visible,
+	.xl\:focus-visible\:mins\:ex:focus-visible {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-inline-end\:ex:focus-visible,
+	.xl\:focus-visible\:mine\:ex:focus-visible {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-block\:ex:focus-visible,
+	.xl\:focus-visible\:pbk\:ex:focus-visible {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-block-start\:ex:focus-visible,
+	.xl\:focus-visible\:pbks\:ex:focus-visible {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-block-end\:ex:focus-visible,
+	.xl\:focus-visible\:pbke\:ex:focus-visible {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-inline\:ex:focus-visible,
+	.xl\:focus-visible\:pin\:ex:focus-visible {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-inline-start\:ex:focus-visible,
+	.xl\:focus-visible\:pins\:ex:focus-visible {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-inline-end\:ex:focus-visible,
+	.xl\:focus-visible\:pine\:ex:focus-visible {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-block\:ex:focus-visible,
+	.xl\:focus-visible\:bdwbk\:ex:focus-visible {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-block-start\:ex:focus-visible,
+	.xl\:focus-visible\:bdwbks\:ex:focus-visible {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-block-end\:ex:focus-visible,
+	.xl\:focus-visible\:bdwbke\:ex:focus-visible {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-inline\:ex:focus-visible,
+	.xl\:focus-visible\:bdwin\:ex:focus-visible {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-inline-start\:ex:focus-visible,
+	.xl\:focus-visible\:bdwins\:ex:focus-visible {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-inline-end\:ex:focus-visible,
+	.xl\:focus-visible\:bdwine\:ex:focus-visible {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-block\:ex:focus-visible,
+	.xl\:focus-visible\:ibk\:ex:focus-visible {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-block-start\:ex:focus-visible,
+	.xl\:focus-visible\:ibks\:ex:focus-visible {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-block-end\:ex:focus-visible,
+	.xl\:focus-visible\:ibke\:ex:focus-visible {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-inline\:ex:focus-visible,
+	.xl\:focus-visible\:iin\:ex:focus-visible {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-inline-start\:ex:focus-visible,
+	.xl\:focus-visible\:iins\:ex:focus-visible {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:focus-visible\:inset-inline-end\:ex:focus-visible,
+	.xl\:focus-visible\:iine\:ex:focus-visible {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -64416,6 +69256,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:margin-block\:ex:focus-within,
+	.xl\:focus-within\:mbk\:ex:focus-within {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-block-start\:ex:focus-within,
+	.xl\:focus-within\:mbks\:ex:focus-within {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-block-end\:ex:focus-within,
+	.xl\:focus-within\:mbke\:ex:focus-within {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-inline\:ex:focus-within,
+	.xl\:focus-within\:min\:ex:focus-within {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-inline-start\:ex:focus-within,
+	.xl\:focus-within\:mins\:ex:focus-within {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-inline-end\:ex:focus-within,
+	.xl\:focus-within\:mine\:ex:focus-within {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-block\:ex:focus-within,
+	.xl\:focus-within\:pbk\:ex:focus-within {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-block-start\:ex:focus-within,
+	.xl\:focus-within\:pbks\:ex:focus-within {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-block-end\:ex:focus-within,
+	.xl\:focus-within\:pbke\:ex:focus-within {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-inline\:ex:focus-within,
+	.xl\:focus-within\:pin\:ex:focus-within {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-inline-start\:ex:focus-within,
+	.xl\:focus-within\:pins\:ex:focus-within {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-inline-end\:ex:focus-within,
+	.xl\:focus-within\:pine\:ex:focus-within {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-block\:ex:focus-within,
+	.xl\:focus-within\:bdwbk\:ex:focus-within {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-block-start\:ex:focus-within,
+	.xl\:focus-within\:bdwbks\:ex:focus-within {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-block-end\:ex:focus-within,
+	.xl\:focus-within\:bdwbke\:ex:focus-within {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-inline\:ex:focus-within,
+	.xl\:focus-within\:bdwin\:ex:focus-within {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-inline-start\:ex:focus-within,
+	.xl\:focus-within\:bdwins\:ex:focus-within {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-inline-end\:ex:focus-within,
+	.xl\:focus-within\:bdwine\:ex:focus-within {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-block\:ex:focus-within,
+	.xl\:focus-within\:ibk\:ex:focus-within {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-block-start\:ex:focus-within,
+	.xl\:focus-within\:ibks\:ex:focus-within {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-block-end\:ex:focus-within,
+	.xl\:focus-within\:ibke\:ex:focus-within {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-inline\:ex:focus-within,
+	.xl\:focus-within\:iin\:ex:focus-within {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-inline-start\:ex:focus-within,
+	.xl\:focus-within\:iins\:ex:focus-within {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:focus-within\:inset-inline-end\:ex:focus-within,
+	.xl\:focus-within\:iine\:ex:focus-within {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -65986,6 +70947,127 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:margin-block\:ex:active,
+	.xl\:active\:mbk\:ex:active {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:active\:margin-block-start\:ex:active,
+	.xl\:active\:mbks\:ex:active {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:active\:margin-block-end\:ex:active,
+	.xl\:active\:mbke\:ex:active {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:active\:margin-inline\:ex:active,
+	.xl\:active\:min\:ex:active {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:active\:margin-inline-start\:ex:active,
+	.xl\:active\:mins\:ex:active {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:active\:margin-inline-end\:ex:active,
+	.xl\:active\:mine\:ex:active {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:active\:padding-block\:ex:active,
+	.xl\:active\:pbk\:ex:active {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:active\:padding-block-start\:ex:active,
+	.xl\:active\:pbks\:ex:active {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:active\:padding-block-end\:ex:active,
+	.xl\:active\:pbke\:ex:active {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:active\:padding-inline\:ex:active,
+	.xl\:active\:pin\:ex:active {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:active\:padding-inline-start\:ex:active,
+	.xl\:active\:pins\:ex:active {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:active\:padding-inline-end\:ex:active,
+	.xl\:active\:pine\:ex:active {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:active\:border-width-block\:ex:active,
+	.xl\:active\:bdwbk\:ex:active {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:active\:border-width-block-start\:ex:active,
+	.xl\:active\:bdwbks\:ex:active {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:active\:border-width-block-end\:ex:active,
+	.xl\:active\:bdwbke\:ex:active {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:active\:border-width-inline\:ex:active,
+	.xl\:active\:bdwin\:ex:active {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:active\:border-width-inline-start\:ex:active,
+	.xl\:active\:bdwins\:ex:active {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:active\:border-width-inline-end\:ex:active,
+	.xl\:active\:bdwine\:ex:active {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:active\:inset-block\:ex:active,
+	.xl\:active\:ibk\:ex:active {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:active\:inset-block-start\:ex:active,
+	.xl\:active\:ibks\:ex:active {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:active\:inset-block-end\:ex:active,
+	.xl\:active\:ibke\:ex:active {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:active\:inset-inline\:ex:active,
+	.xl\:active\:iin\:ex:active {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:active\:inset-inline-start\:ex:active,
+	.xl\:active\:iins\:ex:active {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:active\:inset-inline-end\:ex:active,
+	.xl\:active\:iine\:ex:active {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
@@ -67558,6 +72640,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:margin-block\:ex:disabled,
+	.xl\:disabled\:mbk\:ex:disabled {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:disabled\:margin-block-start\:ex:disabled,
+	.xl\:disabled\:mbks\:ex:disabled {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:disabled\:margin-block-end\:ex:disabled,
+	.xl\:disabled\:mbke\:ex:disabled {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:disabled\:margin-inline\:ex:disabled,
+	.xl\:disabled\:min\:ex:disabled {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:disabled\:margin-inline-start\:ex:disabled,
+	.xl\:disabled\:mins\:ex:disabled {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:disabled\:margin-inline-end\:ex:disabled,
+	.xl\:disabled\:mine\:ex:disabled {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:disabled\:padding-block\:ex:disabled,
+	.xl\:disabled\:pbk\:ex:disabled {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:disabled\:padding-block-start\:ex:disabled,
+	.xl\:disabled\:pbks\:ex:disabled {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:disabled\:padding-block-end\:ex:disabled,
+	.xl\:disabled\:pbke\:ex:disabled {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:disabled\:padding-inline\:ex:disabled,
+	.xl\:disabled\:pin\:ex:disabled {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:disabled\:padding-inline-start\:ex:disabled,
+	.xl\:disabled\:pins\:ex:disabled {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:disabled\:padding-inline-end\:ex:disabled,
+	.xl\:disabled\:pine\:ex:disabled {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-block\:ex:disabled,
+	.xl\:disabled\:bdwbk\:ex:disabled {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-block-start\:ex:disabled,
+	.xl\:disabled\:bdwbks\:ex:disabled {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-block-end\:ex:disabled,
+	.xl\:disabled\:bdwbke\:ex:disabled {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-inline\:ex:disabled,
+	.xl\:disabled\:bdwin\:ex:disabled {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-inline-start\:ex:disabled,
+	.xl\:disabled\:bdwins\:ex:disabled {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-inline-end\:ex:disabled,
+	.xl\:disabled\:bdwine\:ex:disabled {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:disabled\:inset-block\:ex:disabled,
+	.xl\:disabled\:ibk\:ex:disabled {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:disabled\:inset-block-start\:ex:disabled,
+	.xl\:disabled\:ibks\:ex:disabled {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:disabled\:inset-block-end\:ex:disabled,
+	.xl\:disabled\:ibke\:ex:disabled {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:disabled\:inset-inline\:ex:disabled,
+	.xl\:disabled\:iin\:ex:disabled {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:disabled\:inset-inline-start\:ex:disabled,
+	.xl\:disabled\:iins\:ex:disabled {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:disabled\:inset-inline-end\:ex:disabled,
+	.xl\:disabled\:iine\:ex:disabled {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -69129,6 +74332,127 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:margin-block\:ex:checked,
+	.xl\:checked\:mbk\:ex:checked {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:checked\:margin-block-start\:ex:checked,
+	.xl\:checked\:mbks\:ex:checked {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:checked\:margin-block-end\:ex:checked,
+	.xl\:checked\:mbke\:ex:checked {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:checked\:margin-inline\:ex:checked,
+	.xl\:checked\:min\:ex:checked {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:checked\:margin-inline-start\:ex:checked,
+	.xl\:checked\:mins\:ex:checked {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:checked\:margin-inline-end\:ex:checked,
+	.xl\:checked\:mine\:ex:checked {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:checked\:padding-block\:ex:checked,
+	.xl\:checked\:pbk\:ex:checked {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:checked\:padding-block-start\:ex:checked,
+	.xl\:checked\:pbks\:ex:checked {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:checked\:padding-block-end\:ex:checked,
+	.xl\:checked\:pbke\:ex:checked {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:checked\:padding-inline\:ex:checked,
+	.xl\:checked\:pin\:ex:checked {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:checked\:padding-inline-start\:ex:checked,
+	.xl\:checked\:pins\:ex:checked {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:checked\:padding-inline-end\:ex:checked,
+	.xl\:checked\:pine\:ex:checked {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:checked\:border-width-block\:ex:checked,
+	.xl\:checked\:bdwbk\:ex:checked {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:checked\:border-width-block-start\:ex:checked,
+	.xl\:checked\:bdwbks\:ex:checked {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:checked\:border-width-block-end\:ex:checked,
+	.xl\:checked\:bdwbke\:ex:checked {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:checked\:border-width-inline\:ex:checked,
+	.xl\:checked\:bdwin\:ex:checked {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:checked\:border-width-inline-start\:ex:checked,
+	.xl\:checked\:bdwins\:ex:checked {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:checked\:border-width-inline-end\:ex:checked,
+	.xl\:checked\:bdwine\:ex:checked {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:checked\:inset-block\:ex:checked,
+	.xl\:checked\:ibk\:ex:checked {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:checked\:inset-block-start\:ex:checked,
+	.xl\:checked\:ibks\:ex:checked {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:checked\:inset-block-end\:ex:checked,
+	.xl\:checked\:ibke\:ex:checked {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:checked\:inset-inline\:ex:checked,
+	.xl\:checked\:iin\:ex:checked {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:checked\:inset-inline-start\:ex:checked,
+	.xl\:checked\:iins\:ex:checked {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:checked\:inset-inline-end\:ex:checked,
+	.xl\:checked\:iine\:ex:checked {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
+
 	/* ===== LOGICAL PROPERTIES — block/inline variants for margin, padding, border-width, inset ===== */
 
 	/* MARGIN (logical) */
@@ -70699,4 +76023,125 @@
 		inset-inline-end: auto !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:margin-block\:ex:visited,
+	.xl\:visited\:mbk\:ex:visited {
+		margin-block: var(--margin-block-ex) !important;
+	}
+
+	.xl\:visited\:margin-block-start\:ex:visited,
+	.xl\:visited\:mbks\:ex:visited {
+		margin-block-start: var(--margin-block-start-ex) !important;
+	}
+
+	.xl\:visited\:margin-block-end\:ex:visited,
+	.xl\:visited\:mbke\:ex:visited {
+		margin-block-end: var(--margin-block-end-ex) !important;
+	}
+
+	.xl\:visited\:margin-inline\:ex:visited,
+	.xl\:visited\:min\:ex:visited {
+		margin-inline: var(--margin-inline-ex) !important;
+	}
+
+	.xl\:visited\:margin-inline-start\:ex:visited,
+	.xl\:visited\:mins\:ex:visited {
+		margin-inline-start: var(--margin-inline-start-ex) !important;
+	}
+
+	.xl\:visited\:margin-inline-end\:ex:visited,
+	.xl\:visited\:mine\:ex:visited {
+		margin-inline-end: var(--margin-inline-end-ex) !important;
+	}
+
+	.xl\:visited\:padding-block\:ex:visited,
+	.xl\:visited\:pbk\:ex:visited {
+		padding-block: var(--padding-block-ex) !important;
+	}
+
+	.xl\:visited\:padding-block-start\:ex:visited,
+	.xl\:visited\:pbks\:ex:visited {
+		padding-block-start: var(--padding-block-start-ex) !important;
+	}
+
+	.xl\:visited\:padding-block-end\:ex:visited,
+	.xl\:visited\:pbke\:ex:visited {
+		padding-block-end: var(--padding-block-end-ex) !important;
+	}
+
+	.xl\:visited\:padding-inline\:ex:visited,
+	.xl\:visited\:pin\:ex:visited {
+		padding-inline: var(--padding-inline-ex) !important;
+	}
+
+	.xl\:visited\:padding-inline-start\:ex:visited,
+	.xl\:visited\:pins\:ex:visited {
+		padding-inline-start: var(--padding-inline-start-ex) !important;
+	}
+
+	.xl\:visited\:padding-inline-end\:ex:visited,
+	.xl\:visited\:pine\:ex:visited {
+		padding-inline-end: var(--padding-inline-end-ex) !important;
+	}
+
+	.xl\:visited\:border-width-block\:ex:visited,
+	.xl\:visited\:bdwbk\:ex:visited {
+		border-block-width: var(--border-width-block-ex) !important;
+	}
+
+	.xl\:visited\:border-width-block-start\:ex:visited,
+	.xl\:visited\:bdwbks\:ex:visited {
+		border-block-start-width: var(--border-width-block-start-ex) !important;
+	}
+
+	.xl\:visited\:border-width-block-end\:ex:visited,
+	.xl\:visited\:bdwbke\:ex:visited {
+		border-block-end-width: var(--border-width-block-end-ex) !important;
+	}
+
+	.xl\:visited\:border-width-inline\:ex:visited,
+	.xl\:visited\:bdwin\:ex:visited {
+		border-inline-width: var(--border-width-inline-ex) !important;
+	}
+
+	.xl\:visited\:border-width-inline-start\:ex:visited,
+	.xl\:visited\:bdwins\:ex:visited {
+		border-inline-start-width: var(--border-width-inline-start-ex) !important;
+	}
+
+	.xl\:visited\:border-width-inline-end\:ex:visited,
+	.xl\:visited\:bdwine\:ex:visited {
+		border-inline-end-width: var(--border-width-inline-end-ex) !important;
+	}
+
+	.xl\:visited\:inset-block\:ex:visited,
+	.xl\:visited\:ibk\:ex:visited {
+		inset-block: var(--inset-block-ex) !important;
+	}
+
+	.xl\:visited\:inset-block-start\:ex:visited,
+	.xl\:visited\:ibks\:ex:visited {
+		inset-block-start: var(--inset-block-start-ex) !important;
+	}
+
+	.xl\:visited\:inset-block-end\:ex:visited,
+	.xl\:visited\:ibke\:ex:visited {
+		inset-block-end: var(--inset-block-end-ex) !important;
+	}
+
+	.xl\:visited\:inset-inline\:ex:visited,
+	.xl\:visited\:iin\:ex:visited {
+		inset-inline: var(--inset-inline-ex) !important;
+	}
+
+	.xl\:visited\:inset-inline-start\:ex:visited,
+	.xl\:visited\:iins\:ex:visited {
+		inset-inline-start: var(--inset-inline-start-ex) !important;
+	}
+
+	.xl\:visited\:inset-inline-end\:ex:visited,
+	.xl\:visited\:iine\:ex:visited {
+		inset-inline-end: var(--inset-inline-end-ex) !important;
+	}
 }

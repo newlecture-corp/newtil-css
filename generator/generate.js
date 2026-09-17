@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildCatalog } from "./catalog.js";
+import * as emit from "./emit.js";
 import { resetSelectorsRegistry } from "./emit.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -120,6 +121,61 @@ function expandResponsive(baseCss) {
 	return baseCss + "\n\n" + variants.join("\n\n") + "\n";
 }
 
+// ex 규칙 — 모든 `속성:값` 클래스에 `속성:ex` 를 하나씩 더한다. 값은 요소의 `--속성-ex` 변수에서 온다.
+//   .width\:ex, .w\:ex { width: var(--width-ex) !important; }
+//   .padding-x\:ex, .px\:ex { padding-left: var(--padding-x-ex); padding-right: var(--padding-x-ex); }
+//   .blur\:ex { filter: blur(var(--blur-ex)); }        ← 값 안에 var() 가 하나면 그 자리만 바꾼다
+//   .display\:ex { display: var(--display-ex); }        ← 토큰 없는 리터럴 값이면 값 전체가 변수
+// 토큰 단계 밖의 값이 필요할 때 페이지 CSS 대신 <div class="width:ex" style="--width-ex: 20px"> 로 마감한다.
+// 규칙이 고정이라 JIT 없이(CDN) 도 동작하고, 도구가 값을 바꿀 때는 style 속성 하나만 고치면 된다.
+// 각 모듈의 첫 규칙에서 선언 모양을 읽으므로 모듈을 고칠 필요가 없다. 결과 표는 jit/ex-table.json 에도 남긴다.
+function deriveExRules(rawCss, exTable) {
+	// 1) 같은 클래스 이름(base)의 규칙을 모두 모은다 — 값이 규칙마다 다른 선언만 변수로 바꾸고, 늘 같은 선언(line-clamp 의 display:-webkit-box)은 그대로 둔다
+	const groups = new Map();
+	const blockRe = /^(\.[^{]+?)\s*\{([^}]+)\}/gm;
+	let m;
+	while ((m = blockRe.exec(rawCss)) !== null) {
+		const selectors = m[1].split(/,\s*\n?\s*/).map((x) => x.trim()).filter(Boolean);
+		if (selectors.some((sel) => !/\\:/.test(sel))) continue; // 단항(.truncate)
+		const bases = selectors.map((sel) => sel.replace(/^\./, "").replace(/\\:[^\\]*$/, ""));
+		const decls = [];
+		for (const line of m[2].split("\n")) {
+			const d = line.match(/^\s*([a-z-]+)\s*:\s*(.+?)\s*!important;?\s*$/);
+			if (d) decls.push({ property: d[1], value: d[2] });
+		}
+		if (!decls.length) continue;
+		const g = groups.get(bases[0]) || { bases, rules: [] };
+		g.rules.push(decls);
+		groups.set(bases[0], g);
+	}
+	// 2) 선언 값에서 변수를 끼울 자리: var() 하나면 그 자리, fn(단일 인자) 면 인자 자리, 그 밖엔 값 전체
+	const substitute = (value, varName) => {
+		const vars = value.match(/var\(--[\w-]+\)/g) || [];
+		if (vars.length === 1) return value.replace(vars[0], `var(${varName})`);
+		const fn = value.match(/^([a-zA-Z-]+)\(([^()]*)\)$/);
+		if (fn && !/[,\s]/.test(fn[2])) return `${fn[1]}(var(${varName}))`;
+		return `var(${varName})`;
+	};
+	const out = [];
+	for (const [, { bases, rules }] of groups) {
+		const varName = `--${bases[0].replace(/\\/g, "")}-ex`;
+		const first = rules[0];
+		const declarations = first.map((d, idx) => {
+			// 규칙 대부분(none/reset 하나를 빼고 전부)에서 값이 같으면 상수 — line-clamp 의 display:-webkit-box 처럼
+			const values = rules.map((r) => (r[idx] && r[idx].property === d.property ? r[idx].value : null));
+			const counts = new Map();
+			for (const v of values) counts.set(v, (counts.get(v) || 0) + 1);
+			const [commonValue, commonCount] = [...counts.entries()].sort((a, b) => b[1] - a[1])[0];
+			const constant = rules.length > 2 && commonValue !== null && commonCount >= rules.length - 1;
+			return constant ? { property: d.property, value: commonValue } : { property: d.property, value: substitute(d.value, varName) };
+		});
+		if (!declarations.some((d) => d.value.includes(varName))) continue; // 변수가 들어갈 자리가 없으면 만들지 않는다
+		out.push(emit.rule({ selectors: bases.map((b) => `.${b}\\:ex`), declarations }));
+		for (const b of bases) exTable[b.replace(/\\/g, "")] = { variable: varName, declarations };
+	}
+	return out.join("\n\n");
+}
+
 // Discover rule modules (any .js file in rules/)
 async function loadRules() {
 	const rulesDir = path.join(__dirname, "rules");
@@ -152,9 +208,14 @@ async function main() {
 	console.log("\nGenerating files…");
 	let totalBase = 0;
 	let totalFinal = 0;
+	let totalEx = 0;
+	const exTable = {};
 	for (const ruleMod of rules) {
 		resetSelectorsRegistry();
-		const rawCss = ruleMod.generate(catalog);
+		const generated = ruleMod.generate(catalog);
+		const exCss = deriveExRules(generated, exTable);
+		totalEx += (exCss.match(/^\./gm) || []).length;
+		const rawCss = exCss ? generated + "\n\n" + emit.header("ex — 값은 --속성-ex 변수") + "\n" + exCss : generated;
 		// Pull @keyframes out first — they're global and shouldn't be
 		// multiplied by pseudo/responsive expansion.
 		const { cleanCss, keyframes } = extractKeyframes(rawCss);
@@ -175,6 +236,10 @@ async function main() {
 			`  ✓ ${ruleMod.fileName} (~${baseCount} base, ~${allCount} with pseudo+responsive)`
 		);
 	}
+
+	const exTablePath = path.resolve(__dirname, "../jit/ex-table.json");
+	fs.writeFileSync(exTablePath, JSON.stringify(exTable, null, "\t") + "\n");
+	console.log(`  ✓ jit/ex-table.json (${Object.keys(exTable).length} class names, ${totalEx} ex rules)`);
 
 	console.log(
 		`\nDone. Selectors — base: ~${totalBase}, with pseudo+responsive: ~${totalFinal}`

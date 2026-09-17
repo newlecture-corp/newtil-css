@@ -362,6 +362,49 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.translate-x\:ex,
+.trx\:ex {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.translate-y\:ex,
+.try\:ex {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.rotate\:ex,
+.rot\:ex {
+	rotate: var(--rotate-ex) !important;
+}
+
+.scale\:ex,
+.scl\:ex {
+	scale: var(--scale-ex) !important;
+}
+
+.skew-x\:ex,
+.skx\:ex {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.skew-y\:ex,
+.sky\:ex {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.transform-origin\:ex,
+.tro\:ex {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.transform\:ex {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
+
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 /* TRANSLATE-X */
@@ -725,6 +768,49 @@
 	transform: none !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:translate-x\:ex:hover,
+.hover\:trx\:ex:hover {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.hover\:translate-y\:ex:hover,
+.hover\:try\:ex:hover {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.hover\:rotate\:ex:hover,
+.hover\:rot\:ex:hover {
+	rotate: var(--rotate-ex) !important;
+}
+
+.hover\:scale\:ex:hover,
+.hover\:scl\:ex:hover {
+	scale: var(--scale-ex) !important;
+}
+
+.hover\:skew-x\:ex:hover,
+.hover\:skx\:ex:hover {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.hover\:skew-y\:ex:hover,
+.hover\:sky\:ex:hover {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.hover\:transform-origin\:ex:hover,
+.hover\:tro\:ex:hover {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.hover\:transform\:ex:hover {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
 
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -1090,6 +1176,49 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:translate-x\:ex:focus,
+.focus\:trx\:ex:focus {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.focus\:translate-y\:ex:focus,
+.focus\:try\:ex:focus {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.focus\:rotate\:ex:focus,
+.focus\:rot\:ex:focus {
+	rotate: var(--rotate-ex) !important;
+}
+
+.focus\:scale\:ex:focus,
+.focus\:scl\:ex:focus {
+	scale: var(--scale-ex) !important;
+}
+
+.focus\:skew-x\:ex:focus,
+.focus\:skx\:ex:focus {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.focus\:skew-y\:ex:focus,
+.focus\:sky\:ex:focus {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.focus\:transform-origin\:ex:focus,
+.focus\:tro\:ex:focus {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.focus\:transform\:ex:focus {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
+
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 /* TRANSLATE-X */
@@ -1453,6 +1582,49 @@
 	transform: none !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:translate-x\:ex:focus-visible,
+.focus-visible\:trx\:ex:focus-visible {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.focus-visible\:translate-y\:ex:focus-visible,
+.focus-visible\:try\:ex:focus-visible {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.focus-visible\:rotate\:ex:focus-visible,
+.focus-visible\:rot\:ex:focus-visible {
+	rotate: var(--rotate-ex) !important;
+}
+
+.focus-visible\:scale\:ex:focus-visible,
+.focus-visible\:scl\:ex:focus-visible {
+	scale: var(--scale-ex) !important;
+}
+
+.focus-visible\:skew-x\:ex:focus-visible,
+.focus-visible\:skx\:ex:focus-visible {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.focus-visible\:skew-y\:ex:focus-visible,
+.focus-visible\:sky\:ex:focus-visible {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.focus-visible\:transform-origin\:ex:focus-visible,
+.focus-visible\:tro\:ex:focus-visible {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.focus-visible\:transform\:ex:focus-visible {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
 
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -1818,6 +1990,49 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:translate-x\:ex:focus-within,
+.focus-within\:trx\:ex:focus-within {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.focus-within\:translate-y\:ex:focus-within,
+.focus-within\:try\:ex:focus-within {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.focus-within\:rotate\:ex:focus-within,
+.focus-within\:rot\:ex:focus-within {
+	rotate: var(--rotate-ex) !important;
+}
+
+.focus-within\:scale\:ex:focus-within,
+.focus-within\:scl\:ex:focus-within {
+	scale: var(--scale-ex) !important;
+}
+
+.focus-within\:skew-x\:ex:focus-within,
+.focus-within\:skx\:ex:focus-within {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.focus-within\:skew-y\:ex:focus-within,
+.focus-within\:sky\:ex:focus-within {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.focus-within\:transform-origin\:ex:focus-within,
+.focus-within\:tro\:ex:focus-within {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.focus-within\:transform\:ex:focus-within {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
+
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 /* TRANSLATE-X */
@@ -2181,6 +2396,49 @@
 	transform: none !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:translate-x\:ex:active,
+.active\:trx\:ex:active {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.active\:translate-y\:ex:active,
+.active\:try\:ex:active {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.active\:rotate\:ex:active,
+.active\:rot\:ex:active {
+	rotate: var(--rotate-ex) !important;
+}
+
+.active\:scale\:ex:active,
+.active\:scl\:ex:active {
+	scale: var(--scale-ex) !important;
+}
+
+.active\:skew-x\:ex:active,
+.active\:skx\:ex:active {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.active\:skew-y\:ex:active,
+.active\:sky\:ex:active {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.active\:transform-origin\:ex:active,
+.active\:tro\:ex:active {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.active\:transform\:ex:active {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
 
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -2546,6 +2804,49 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:translate-x\:ex:disabled,
+.disabled\:trx\:ex:disabled {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.disabled\:translate-y\:ex:disabled,
+.disabled\:try\:ex:disabled {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.disabled\:rotate\:ex:disabled,
+.disabled\:rot\:ex:disabled {
+	rotate: var(--rotate-ex) !important;
+}
+
+.disabled\:scale\:ex:disabled,
+.disabled\:scl\:ex:disabled {
+	scale: var(--scale-ex) !important;
+}
+
+.disabled\:skew-x\:ex:disabled,
+.disabled\:skx\:ex:disabled {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.disabled\:skew-y\:ex:disabled,
+.disabled\:sky\:ex:disabled {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.disabled\:transform-origin\:ex:disabled,
+.disabled\:tro\:ex:disabled {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.disabled\:transform\:ex:disabled {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
+
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 /* TRANSLATE-X */
@@ -2910,6 +3211,49 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:translate-x\:ex:checked,
+.checked\:trx\:ex:checked {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.checked\:translate-y\:ex:checked,
+.checked\:try\:ex:checked {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.checked\:rotate\:ex:checked,
+.checked\:rot\:ex:checked {
+	rotate: var(--rotate-ex) !important;
+}
+
+.checked\:scale\:ex:checked,
+.checked\:scl\:ex:checked {
+	scale: var(--scale-ex) !important;
+}
+
+.checked\:skew-x\:ex:checked,
+.checked\:skx\:ex:checked {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.checked\:skew-y\:ex:checked,
+.checked\:sky\:ex:checked {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.checked\:transform-origin\:ex:checked,
+.checked\:tro\:ex:checked {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.checked\:transform\:ex:checked {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
+
 /* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 /* TRANSLATE-X */
@@ -3273,6 +3617,49 @@
 	transform: none !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:translate-x\:ex:visited,
+.visited\:trx\:ex:visited {
+	translate: var(--translate-x-ex) 0 !important;
+}
+
+.visited\:translate-y\:ex:visited,
+.visited\:try\:ex:visited {
+	translate: 0 var(--translate-y-ex) !important;
+}
+
+.visited\:rotate\:ex:visited,
+.visited\:rot\:ex:visited {
+	rotate: var(--rotate-ex) !important;
+}
+
+.visited\:scale\:ex:visited,
+.visited\:scl\:ex:visited {
+	scale: var(--scale-ex) !important;
+}
+
+.visited\:skew-x\:ex:visited,
+.visited\:skx\:ex:visited {
+	transform: skewX(var(--skew-x-ex)) !important;
+}
+
+.visited\:skew-y\:ex:visited,
+.visited\:sky\:ex:visited {
+	transform: skewY(var(--skew-y-ex)) !important;
+}
+
+.visited\:transform-origin\:ex:visited,
+.visited\:tro\:ex:visited {
+	transform-origin: var(--transform-origin-ex) !important;
+}
+
+.visited\:transform\:ex:visited {
+	translate: var(--transform-ex) !important;
+	rotate: var(--transform-ex) !important;
+	scale: var(--transform-ex) !important;
+	transform: var(--transform-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
@@ -3639,6 +4026,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:translate-x\:ex,
+	.sm\:trx\:ex {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:translate-y\:ex,
+	.sm\:try\:ex {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:rotate\:ex,
+	.sm\:rot\:ex {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:scale\:ex,
+	.sm\:scl\:ex {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:skew-x\:ex,
+	.sm\:skx\:ex {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:skew-y\:ex,
+	.sm\:sky\:ex {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:transform-origin\:ex,
+	.sm\:tro\:ex {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:transform\:ex {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -4002,6 +4432,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:translate-x\:ex:hover,
+	.sm\:hover\:trx\:ex:hover {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:hover\:translate-y\:ex:hover,
+	.sm\:hover\:try\:ex:hover {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:hover\:rotate\:ex:hover,
+	.sm\:hover\:rot\:ex:hover {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:hover\:scale\:ex:hover,
+	.sm\:hover\:scl\:ex:hover {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:hover\:skew-x\:ex:hover,
+	.sm\:hover\:skx\:ex:hover {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:hover\:skew-y\:ex:hover,
+	.sm\:hover\:sky\:ex:hover {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:hover\:transform-origin\:ex:hover,
+	.sm\:hover\:tro\:ex:hover {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:hover\:transform\:ex:hover {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -4367,6 +4840,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:translate-x\:ex:focus,
+	.sm\:focus\:trx\:ex:focus {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:focus\:translate-y\:ex:focus,
+	.sm\:focus\:try\:ex:focus {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:focus\:rotate\:ex:focus,
+	.sm\:focus\:rot\:ex:focus {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:focus\:scale\:ex:focus,
+	.sm\:focus\:scl\:ex:focus {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:focus\:skew-x\:ex:focus,
+	.sm\:focus\:skx\:ex:focus {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:focus\:skew-y\:ex:focus,
+	.sm\:focus\:sky\:ex:focus {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:focus\:transform-origin\:ex:focus,
+	.sm\:focus\:tro\:ex:focus {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:focus\:transform\:ex:focus {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -4730,6 +5246,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:translate-x\:ex:focus-visible,
+	.sm\:focus-visible\:trx\:ex:focus-visible {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:focus-visible\:translate-y\:ex:focus-visible,
+	.sm\:focus-visible\:try\:ex:focus-visible {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:focus-visible\:rotate\:ex:focus-visible,
+	.sm\:focus-visible\:rot\:ex:focus-visible {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:focus-visible\:scale\:ex:focus-visible,
+	.sm\:focus-visible\:scl\:ex:focus-visible {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:focus-visible\:skew-x\:ex:focus-visible,
+	.sm\:focus-visible\:skx\:ex:focus-visible {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:focus-visible\:skew-y\:ex:focus-visible,
+	.sm\:focus-visible\:sky\:ex:focus-visible {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:focus-visible\:transform-origin\:ex:focus-visible,
+	.sm\:focus-visible\:tro\:ex:focus-visible {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:focus-visible\:transform\:ex:focus-visible {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -5095,6 +5654,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:translate-x\:ex:focus-within,
+	.sm\:focus-within\:trx\:ex:focus-within {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:focus-within\:translate-y\:ex:focus-within,
+	.sm\:focus-within\:try\:ex:focus-within {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:focus-within\:rotate\:ex:focus-within,
+	.sm\:focus-within\:rot\:ex:focus-within {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:focus-within\:scale\:ex:focus-within,
+	.sm\:focus-within\:scl\:ex:focus-within {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:focus-within\:skew-x\:ex:focus-within,
+	.sm\:focus-within\:skx\:ex:focus-within {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:focus-within\:skew-y\:ex:focus-within,
+	.sm\:focus-within\:sky\:ex:focus-within {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:focus-within\:transform-origin\:ex:focus-within,
+	.sm\:focus-within\:tro\:ex:focus-within {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:focus-within\:transform\:ex:focus-within {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -5458,6 +6060,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:translate-x\:ex:active,
+	.sm\:active\:trx\:ex:active {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:active\:translate-y\:ex:active,
+	.sm\:active\:try\:ex:active {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:active\:rotate\:ex:active,
+	.sm\:active\:rot\:ex:active {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:active\:scale\:ex:active,
+	.sm\:active\:scl\:ex:active {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:active\:skew-x\:ex:active,
+	.sm\:active\:skx\:ex:active {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:active\:skew-y\:ex:active,
+	.sm\:active\:sky\:ex:active {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:active\:transform-origin\:ex:active,
+	.sm\:active\:tro\:ex:active {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:active\:transform\:ex:active {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -5823,6 +6468,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:translate-x\:ex:disabled,
+	.sm\:disabled\:trx\:ex:disabled {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:disabled\:translate-y\:ex:disabled,
+	.sm\:disabled\:try\:ex:disabled {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:disabled\:rotate\:ex:disabled,
+	.sm\:disabled\:rot\:ex:disabled {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:disabled\:scale\:ex:disabled,
+	.sm\:disabled\:scl\:ex:disabled {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:disabled\:skew-x\:ex:disabled,
+	.sm\:disabled\:skx\:ex:disabled {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:disabled\:skew-y\:ex:disabled,
+	.sm\:disabled\:sky\:ex:disabled {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:disabled\:transform-origin\:ex:disabled,
+	.sm\:disabled\:tro\:ex:disabled {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:disabled\:transform\:ex:disabled {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -6187,6 +6875,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:translate-x\:ex:checked,
+	.sm\:checked\:trx\:ex:checked {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:checked\:translate-y\:ex:checked,
+	.sm\:checked\:try\:ex:checked {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:checked\:rotate\:ex:checked,
+	.sm\:checked\:rot\:ex:checked {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:checked\:scale\:ex:checked,
+	.sm\:checked\:scl\:ex:checked {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:checked\:skew-x\:ex:checked,
+	.sm\:checked\:skx\:ex:checked {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:checked\:skew-y\:ex:checked,
+	.sm\:checked\:sky\:ex:checked {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:checked\:transform-origin\:ex:checked,
+	.sm\:checked\:tro\:ex:checked {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:checked\:transform\:ex:checked {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -6550,6 +7281,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:translate-x\:ex:visited,
+	.sm\:visited\:trx\:ex:visited {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.sm\:visited\:translate-y\:ex:visited,
+	.sm\:visited\:try\:ex:visited {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.sm\:visited\:rotate\:ex:visited,
+	.sm\:visited\:rot\:ex:visited {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.sm\:visited\:scale\:ex:visited,
+	.sm\:visited\:scl\:ex:visited {
+		scale: var(--scale-ex) !important;
+	}
+
+	.sm\:visited\:skew-x\:ex:visited,
+	.sm\:visited\:skx\:ex:visited {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.sm\:visited\:skew-y\:ex:visited,
+	.sm\:visited\:sky\:ex:visited {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.sm\:visited\:transform-origin\:ex:visited,
+	.sm\:visited\:tro\:ex:visited {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.sm\:visited\:transform\:ex:visited {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -6917,6 +7691,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:translate-x\:ex,
+	.md\:trx\:ex {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:translate-y\:ex,
+	.md\:try\:ex {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:rotate\:ex,
+	.md\:rot\:ex {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:scale\:ex,
+	.md\:scl\:ex {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:skew-x\:ex,
+	.md\:skx\:ex {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:skew-y\:ex,
+	.md\:sky\:ex {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:transform-origin\:ex,
+	.md\:tro\:ex {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:transform\:ex {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -7280,6 +8097,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:translate-x\:ex:hover,
+	.md\:hover\:trx\:ex:hover {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:hover\:translate-y\:ex:hover,
+	.md\:hover\:try\:ex:hover {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:hover\:rotate\:ex:hover,
+	.md\:hover\:rot\:ex:hover {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:hover\:scale\:ex:hover,
+	.md\:hover\:scl\:ex:hover {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:hover\:skew-x\:ex:hover,
+	.md\:hover\:skx\:ex:hover {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:hover\:skew-y\:ex:hover,
+	.md\:hover\:sky\:ex:hover {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:hover\:transform-origin\:ex:hover,
+	.md\:hover\:tro\:ex:hover {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:hover\:transform\:ex:hover {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -7645,6 +8505,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:translate-x\:ex:focus,
+	.md\:focus\:trx\:ex:focus {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:focus\:translate-y\:ex:focus,
+	.md\:focus\:try\:ex:focus {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:focus\:rotate\:ex:focus,
+	.md\:focus\:rot\:ex:focus {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:focus\:scale\:ex:focus,
+	.md\:focus\:scl\:ex:focus {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:focus\:skew-x\:ex:focus,
+	.md\:focus\:skx\:ex:focus {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:focus\:skew-y\:ex:focus,
+	.md\:focus\:sky\:ex:focus {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:focus\:transform-origin\:ex:focus,
+	.md\:focus\:tro\:ex:focus {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:focus\:transform\:ex:focus {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -8008,6 +8911,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:translate-x\:ex:focus-visible,
+	.md\:focus-visible\:trx\:ex:focus-visible {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:focus-visible\:translate-y\:ex:focus-visible,
+	.md\:focus-visible\:try\:ex:focus-visible {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:focus-visible\:rotate\:ex:focus-visible,
+	.md\:focus-visible\:rot\:ex:focus-visible {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:focus-visible\:scale\:ex:focus-visible,
+	.md\:focus-visible\:scl\:ex:focus-visible {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:focus-visible\:skew-x\:ex:focus-visible,
+	.md\:focus-visible\:skx\:ex:focus-visible {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:focus-visible\:skew-y\:ex:focus-visible,
+	.md\:focus-visible\:sky\:ex:focus-visible {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:focus-visible\:transform-origin\:ex:focus-visible,
+	.md\:focus-visible\:tro\:ex:focus-visible {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:focus-visible\:transform\:ex:focus-visible {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -8373,6 +9319,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:translate-x\:ex:focus-within,
+	.md\:focus-within\:trx\:ex:focus-within {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:focus-within\:translate-y\:ex:focus-within,
+	.md\:focus-within\:try\:ex:focus-within {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:focus-within\:rotate\:ex:focus-within,
+	.md\:focus-within\:rot\:ex:focus-within {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:focus-within\:scale\:ex:focus-within,
+	.md\:focus-within\:scl\:ex:focus-within {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:focus-within\:skew-x\:ex:focus-within,
+	.md\:focus-within\:skx\:ex:focus-within {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:focus-within\:skew-y\:ex:focus-within,
+	.md\:focus-within\:sky\:ex:focus-within {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:focus-within\:transform-origin\:ex:focus-within,
+	.md\:focus-within\:tro\:ex:focus-within {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:focus-within\:transform\:ex:focus-within {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -8736,6 +9725,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:translate-x\:ex:active,
+	.md\:active\:trx\:ex:active {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:active\:translate-y\:ex:active,
+	.md\:active\:try\:ex:active {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:active\:rotate\:ex:active,
+	.md\:active\:rot\:ex:active {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:active\:scale\:ex:active,
+	.md\:active\:scl\:ex:active {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:active\:skew-x\:ex:active,
+	.md\:active\:skx\:ex:active {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:active\:skew-y\:ex:active,
+	.md\:active\:sky\:ex:active {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:active\:transform-origin\:ex:active,
+	.md\:active\:tro\:ex:active {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:active\:transform\:ex:active {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -9101,6 +10133,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:translate-x\:ex:disabled,
+	.md\:disabled\:trx\:ex:disabled {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:disabled\:translate-y\:ex:disabled,
+	.md\:disabled\:try\:ex:disabled {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:disabled\:rotate\:ex:disabled,
+	.md\:disabled\:rot\:ex:disabled {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:disabled\:scale\:ex:disabled,
+	.md\:disabled\:scl\:ex:disabled {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:disabled\:skew-x\:ex:disabled,
+	.md\:disabled\:skx\:ex:disabled {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:disabled\:skew-y\:ex:disabled,
+	.md\:disabled\:sky\:ex:disabled {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:disabled\:transform-origin\:ex:disabled,
+	.md\:disabled\:tro\:ex:disabled {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:disabled\:transform\:ex:disabled {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -9465,6 +10540,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:translate-x\:ex:checked,
+	.md\:checked\:trx\:ex:checked {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:checked\:translate-y\:ex:checked,
+	.md\:checked\:try\:ex:checked {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:checked\:rotate\:ex:checked,
+	.md\:checked\:rot\:ex:checked {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:checked\:scale\:ex:checked,
+	.md\:checked\:scl\:ex:checked {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:checked\:skew-x\:ex:checked,
+	.md\:checked\:skx\:ex:checked {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:checked\:skew-y\:ex:checked,
+	.md\:checked\:sky\:ex:checked {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:checked\:transform-origin\:ex:checked,
+	.md\:checked\:tro\:ex:checked {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:checked\:transform\:ex:checked {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -9828,6 +10946,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:translate-x\:ex:visited,
+	.md\:visited\:trx\:ex:visited {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.md\:visited\:translate-y\:ex:visited,
+	.md\:visited\:try\:ex:visited {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.md\:visited\:rotate\:ex:visited,
+	.md\:visited\:rot\:ex:visited {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.md\:visited\:scale\:ex:visited,
+	.md\:visited\:scl\:ex:visited {
+		scale: var(--scale-ex) !important;
+	}
+
+	.md\:visited\:skew-x\:ex:visited,
+	.md\:visited\:skx\:ex:visited {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.md\:visited\:skew-y\:ex:visited,
+	.md\:visited\:sky\:ex:visited {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.md\:visited\:transform-origin\:ex:visited,
+	.md\:visited\:tro\:ex:visited {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.md\:visited\:transform\:ex:visited {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -10195,6 +11356,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:translate-x\:ex,
+	.lg\:trx\:ex {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:translate-y\:ex,
+	.lg\:try\:ex {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:rotate\:ex,
+	.lg\:rot\:ex {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:scale\:ex,
+	.lg\:scl\:ex {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:skew-x\:ex,
+	.lg\:skx\:ex {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:skew-y\:ex,
+	.lg\:sky\:ex {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:transform-origin\:ex,
+	.lg\:tro\:ex {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:transform\:ex {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -10558,6 +11762,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:translate-x\:ex:hover,
+	.lg\:hover\:trx\:ex:hover {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:hover\:translate-y\:ex:hover,
+	.lg\:hover\:try\:ex:hover {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:hover\:rotate\:ex:hover,
+	.lg\:hover\:rot\:ex:hover {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:hover\:scale\:ex:hover,
+	.lg\:hover\:scl\:ex:hover {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:hover\:skew-x\:ex:hover,
+	.lg\:hover\:skx\:ex:hover {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:hover\:skew-y\:ex:hover,
+	.lg\:hover\:sky\:ex:hover {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:hover\:transform-origin\:ex:hover,
+	.lg\:hover\:tro\:ex:hover {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:hover\:transform\:ex:hover {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -10923,6 +12170,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:translate-x\:ex:focus,
+	.lg\:focus\:trx\:ex:focus {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:focus\:translate-y\:ex:focus,
+	.lg\:focus\:try\:ex:focus {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:focus\:rotate\:ex:focus,
+	.lg\:focus\:rot\:ex:focus {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:focus\:scale\:ex:focus,
+	.lg\:focus\:scl\:ex:focus {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:focus\:skew-x\:ex:focus,
+	.lg\:focus\:skx\:ex:focus {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:focus\:skew-y\:ex:focus,
+	.lg\:focus\:sky\:ex:focus {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:focus\:transform-origin\:ex:focus,
+	.lg\:focus\:tro\:ex:focus {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:focus\:transform\:ex:focus {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -11286,6 +12576,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:translate-x\:ex:focus-visible,
+	.lg\:focus-visible\:trx\:ex:focus-visible {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:focus-visible\:translate-y\:ex:focus-visible,
+	.lg\:focus-visible\:try\:ex:focus-visible {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:focus-visible\:rotate\:ex:focus-visible,
+	.lg\:focus-visible\:rot\:ex:focus-visible {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:focus-visible\:scale\:ex:focus-visible,
+	.lg\:focus-visible\:scl\:ex:focus-visible {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:focus-visible\:skew-x\:ex:focus-visible,
+	.lg\:focus-visible\:skx\:ex:focus-visible {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:focus-visible\:skew-y\:ex:focus-visible,
+	.lg\:focus-visible\:sky\:ex:focus-visible {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:focus-visible\:transform-origin\:ex:focus-visible,
+	.lg\:focus-visible\:tro\:ex:focus-visible {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:focus-visible\:transform\:ex:focus-visible {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -11651,6 +12984,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:translate-x\:ex:focus-within,
+	.lg\:focus-within\:trx\:ex:focus-within {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:focus-within\:translate-y\:ex:focus-within,
+	.lg\:focus-within\:try\:ex:focus-within {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:focus-within\:rotate\:ex:focus-within,
+	.lg\:focus-within\:rot\:ex:focus-within {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:focus-within\:scale\:ex:focus-within,
+	.lg\:focus-within\:scl\:ex:focus-within {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:focus-within\:skew-x\:ex:focus-within,
+	.lg\:focus-within\:skx\:ex:focus-within {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:focus-within\:skew-y\:ex:focus-within,
+	.lg\:focus-within\:sky\:ex:focus-within {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:focus-within\:transform-origin\:ex:focus-within,
+	.lg\:focus-within\:tro\:ex:focus-within {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:focus-within\:transform\:ex:focus-within {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -12014,6 +13390,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:translate-x\:ex:active,
+	.lg\:active\:trx\:ex:active {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:active\:translate-y\:ex:active,
+	.lg\:active\:try\:ex:active {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:active\:rotate\:ex:active,
+	.lg\:active\:rot\:ex:active {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:active\:scale\:ex:active,
+	.lg\:active\:scl\:ex:active {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:active\:skew-x\:ex:active,
+	.lg\:active\:skx\:ex:active {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:active\:skew-y\:ex:active,
+	.lg\:active\:sky\:ex:active {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:active\:transform-origin\:ex:active,
+	.lg\:active\:tro\:ex:active {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:active\:transform\:ex:active {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -12379,6 +13798,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:translate-x\:ex:disabled,
+	.lg\:disabled\:trx\:ex:disabled {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:disabled\:translate-y\:ex:disabled,
+	.lg\:disabled\:try\:ex:disabled {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:disabled\:rotate\:ex:disabled,
+	.lg\:disabled\:rot\:ex:disabled {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:disabled\:scale\:ex:disabled,
+	.lg\:disabled\:scl\:ex:disabled {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:disabled\:skew-x\:ex:disabled,
+	.lg\:disabled\:skx\:ex:disabled {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:disabled\:skew-y\:ex:disabled,
+	.lg\:disabled\:sky\:ex:disabled {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:disabled\:transform-origin\:ex:disabled,
+	.lg\:disabled\:tro\:ex:disabled {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:disabled\:transform\:ex:disabled {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -12743,6 +14205,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:translate-x\:ex:checked,
+	.lg\:checked\:trx\:ex:checked {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:checked\:translate-y\:ex:checked,
+	.lg\:checked\:try\:ex:checked {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:checked\:rotate\:ex:checked,
+	.lg\:checked\:rot\:ex:checked {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:checked\:scale\:ex:checked,
+	.lg\:checked\:scl\:ex:checked {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:checked\:skew-x\:ex:checked,
+	.lg\:checked\:skx\:ex:checked {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:checked\:skew-y\:ex:checked,
+	.lg\:checked\:sky\:ex:checked {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:checked\:transform-origin\:ex:checked,
+	.lg\:checked\:tro\:ex:checked {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:checked\:transform\:ex:checked {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -13106,6 +14611,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:translate-x\:ex:visited,
+	.lg\:visited\:trx\:ex:visited {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.lg\:visited\:translate-y\:ex:visited,
+	.lg\:visited\:try\:ex:visited {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.lg\:visited\:rotate\:ex:visited,
+	.lg\:visited\:rot\:ex:visited {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.lg\:visited\:scale\:ex:visited,
+	.lg\:visited\:scl\:ex:visited {
+		scale: var(--scale-ex) !important;
+	}
+
+	.lg\:visited\:skew-x\:ex:visited,
+	.lg\:visited\:skx\:ex:visited {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.lg\:visited\:skew-y\:ex:visited,
+	.lg\:visited\:sky\:ex:visited {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.lg\:visited\:transform-origin\:ex:visited,
+	.lg\:visited\:tro\:ex:visited {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.lg\:visited\:transform\:ex:visited {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -13473,6 +15021,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:translate-x\:ex,
+	.xl\:trx\:ex {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:translate-y\:ex,
+	.xl\:try\:ex {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:rotate\:ex,
+	.xl\:rot\:ex {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:scale\:ex,
+	.xl\:scl\:ex {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:skew-x\:ex,
+	.xl\:skx\:ex {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:skew-y\:ex,
+	.xl\:sky\:ex {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:transform-origin\:ex,
+	.xl\:tro\:ex {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:transform\:ex {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -13836,6 +15427,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:translate-x\:ex:hover,
+	.xl\:hover\:trx\:ex:hover {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:hover\:translate-y\:ex:hover,
+	.xl\:hover\:try\:ex:hover {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:hover\:rotate\:ex:hover,
+	.xl\:hover\:rot\:ex:hover {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:hover\:scale\:ex:hover,
+	.xl\:hover\:scl\:ex:hover {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:hover\:skew-x\:ex:hover,
+	.xl\:hover\:skx\:ex:hover {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:hover\:skew-y\:ex:hover,
+	.xl\:hover\:sky\:ex:hover {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:hover\:transform-origin\:ex:hover,
+	.xl\:hover\:tro\:ex:hover {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:hover\:transform\:ex:hover {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -14201,6 +15835,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:translate-x\:ex:focus,
+	.xl\:focus\:trx\:ex:focus {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:focus\:translate-y\:ex:focus,
+	.xl\:focus\:try\:ex:focus {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:focus\:rotate\:ex:focus,
+	.xl\:focus\:rot\:ex:focus {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:focus\:scale\:ex:focus,
+	.xl\:focus\:scl\:ex:focus {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:focus\:skew-x\:ex:focus,
+	.xl\:focus\:skx\:ex:focus {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:focus\:skew-y\:ex:focus,
+	.xl\:focus\:sky\:ex:focus {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:focus\:transform-origin\:ex:focus,
+	.xl\:focus\:tro\:ex:focus {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:focus\:transform\:ex:focus {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -14564,6 +16241,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:translate-x\:ex:focus-visible,
+	.xl\:focus-visible\:trx\:ex:focus-visible {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:focus-visible\:translate-y\:ex:focus-visible,
+	.xl\:focus-visible\:try\:ex:focus-visible {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:focus-visible\:rotate\:ex:focus-visible,
+	.xl\:focus-visible\:rot\:ex:focus-visible {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:focus-visible\:scale\:ex:focus-visible,
+	.xl\:focus-visible\:scl\:ex:focus-visible {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:focus-visible\:skew-x\:ex:focus-visible,
+	.xl\:focus-visible\:skx\:ex:focus-visible {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:focus-visible\:skew-y\:ex:focus-visible,
+	.xl\:focus-visible\:sky\:ex:focus-visible {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:focus-visible\:transform-origin\:ex:focus-visible,
+	.xl\:focus-visible\:tro\:ex:focus-visible {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:focus-visible\:transform\:ex:focus-visible {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -14929,6 +16649,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:translate-x\:ex:focus-within,
+	.xl\:focus-within\:trx\:ex:focus-within {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:focus-within\:translate-y\:ex:focus-within,
+	.xl\:focus-within\:try\:ex:focus-within {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:focus-within\:rotate\:ex:focus-within,
+	.xl\:focus-within\:rot\:ex:focus-within {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:focus-within\:scale\:ex:focus-within,
+	.xl\:focus-within\:scl\:ex:focus-within {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:focus-within\:skew-x\:ex:focus-within,
+	.xl\:focus-within\:skx\:ex:focus-within {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:focus-within\:skew-y\:ex:focus-within,
+	.xl\:focus-within\:sky\:ex:focus-within {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:focus-within\:transform-origin\:ex:focus-within,
+	.xl\:focus-within\:tro\:ex:focus-within {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:focus-within\:transform\:ex:focus-within {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -15292,6 +17055,49 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:translate-x\:ex:active,
+	.xl\:active\:trx\:ex:active {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:active\:translate-y\:ex:active,
+	.xl\:active\:try\:ex:active {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:active\:rotate\:ex:active,
+	.xl\:active\:rot\:ex:active {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:active\:scale\:ex:active,
+	.xl\:active\:scl\:ex:active {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:active\:skew-x\:ex:active,
+	.xl\:active\:skx\:ex:active {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:active\:skew-y\:ex:active,
+	.xl\:active\:sky\:ex:active {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:active\:transform-origin\:ex:active,
+	.xl\:active\:tro\:ex:active {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:active\:transform\:ex:active {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
@@ -15657,6 +17463,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:translate-x\:ex:disabled,
+	.xl\:disabled\:trx\:ex:disabled {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:disabled\:translate-y\:ex:disabled,
+	.xl\:disabled\:try\:ex:disabled {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:disabled\:rotate\:ex:disabled,
+	.xl\:disabled\:rot\:ex:disabled {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:disabled\:scale\:ex:disabled,
+	.xl\:disabled\:scl\:ex:disabled {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:disabled\:skew-x\:ex:disabled,
+	.xl\:disabled\:skx\:ex:disabled {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:disabled\:skew-y\:ex:disabled,
+	.xl\:disabled\:sky\:ex:disabled {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:disabled\:transform-origin\:ex:disabled,
+	.xl\:disabled\:tro\:ex:disabled {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:disabled\:transform\:ex:disabled {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -16021,6 +17870,49 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:translate-x\:ex:checked,
+	.xl\:checked\:trx\:ex:checked {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:checked\:translate-y\:ex:checked,
+	.xl\:checked\:try\:ex:checked {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:checked\:rotate\:ex:checked,
+	.xl\:checked\:rot\:ex:checked {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:checked\:scale\:ex:checked,
+	.xl\:checked\:scl\:ex:checked {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:checked\:skew-x\:ex:checked,
+	.xl\:checked\:skx\:ex:checked {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:checked\:skew-y\:ex:checked,
+	.xl\:checked\:sky\:ex:checked {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:checked\:transform-origin\:ex:checked,
+	.xl\:checked\:tro\:ex:checked {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:checked\:transform\:ex:checked {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
+
 	/* ===== TRANSFORM UTILITIES — translate, rotate, scale, skew ===== */
 
 	/* TRANSLATE-X */
@@ -16384,4 +18276,47 @@
 		transform: none !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:translate-x\:ex:visited,
+	.xl\:visited\:trx\:ex:visited {
+		translate: var(--translate-x-ex) 0 !important;
+	}
+
+	.xl\:visited\:translate-y\:ex:visited,
+	.xl\:visited\:try\:ex:visited {
+		translate: 0 var(--translate-y-ex) !important;
+	}
+
+	.xl\:visited\:rotate\:ex:visited,
+	.xl\:visited\:rot\:ex:visited {
+		rotate: var(--rotate-ex) !important;
+	}
+
+	.xl\:visited\:scale\:ex:visited,
+	.xl\:visited\:scl\:ex:visited {
+		scale: var(--scale-ex) !important;
+	}
+
+	.xl\:visited\:skew-x\:ex:visited,
+	.xl\:visited\:skx\:ex:visited {
+		transform: skewX(var(--skew-x-ex)) !important;
+	}
+
+	.xl\:visited\:skew-y\:ex:visited,
+	.xl\:visited\:sky\:ex:visited {
+		transform: skewY(var(--skew-y-ex)) !important;
+	}
+
+	.xl\:visited\:transform-origin\:ex:visited,
+	.xl\:visited\:tro\:ex:visited {
+		transform-origin: var(--transform-origin-ex) !important;
+	}
+
+	.xl\:visited\:transform\:ex:visited {
+		translate: var(--transform-ex) !important;
+		rotate: var(--transform-ex) !important;
+		scale: var(--transform-ex) !important;
+		transform: var(--transform-ex) !important;
+	}
 }

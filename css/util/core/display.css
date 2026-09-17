@@ -71,6 +71,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.display\:ex,
+.d\:ex {
+	display: var(--display-ex) !important;
+}
+
 /* ===== DISPLAY UTILITIES ===== */
 
 .hover\:display\:none:hover,
@@ -143,6 +149,12 @@
 	display: table-cell !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:display\:ex:hover,
+.hover\:d\:ex:hover {
+	display: var(--display-ex) !important;
+}
 
 /* ===== DISPLAY UTILITIES ===== */
 
@@ -217,6 +229,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:display\:ex:focus,
+.focus\:d\:ex:focus {
+	display: var(--display-ex) !important;
+}
+
 /* ===== DISPLAY UTILITIES ===== */
 
 .focus-visible\:display\:none:focus-visible,
@@ -289,6 +307,12 @@
 	display: table-cell !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:display\:ex:focus-visible,
+.focus-visible\:d\:ex:focus-visible {
+	display: var(--display-ex) !important;
+}
 
 /* ===== DISPLAY UTILITIES ===== */
 
@@ -363,6 +387,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:display\:ex:focus-within,
+.focus-within\:d\:ex:focus-within {
+	display: var(--display-ex) !important;
+}
+
 /* ===== DISPLAY UTILITIES ===== */
 
 .active\:display\:none:active,
@@ -435,6 +465,12 @@
 	display: table-cell !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:display\:ex:active,
+.active\:d\:ex:active {
+	display: var(--display-ex) !important;
+}
 
 /* ===== DISPLAY UTILITIES ===== */
 
@@ -509,6 +545,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:display\:ex:disabled,
+.disabled\:d\:ex:disabled {
+	display: var(--display-ex) !important;
+}
+
 /* ===== DISPLAY UTILITIES ===== */
 
 .checked\:display\:none:checked,
@@ -582,6 +624,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:display\:ex:checked,
+.checked\:d\:ex:checked {
+	display: var(--display-ex) !important;
+}
+
 /* ===== DISPLAY UTILITIES ===== */
 
 .visited\:display\:none:visited,
@@ -654,6 +702,12 @@
 	display: table-cell !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:display\:ex:visited,
+.visited\:d\:ex:visited {
+	display: var(--display-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== DISPLAY UTILITIES ===== */
@@ -729,6 +783,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:display\:ex,
+	.sm\:d\:ex {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.sm\:hover\:display\:none:hover,
@@ -801,6 +861,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:display\:ex:hover,
+	.sm\:hover\:d\:ex:hover {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -875,6 +941,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:display\:ex:focus,
+	.sm\:focus\:d\:ex:focus {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.sm\:focus-visible\:display\:none:focus-visible,
@@ -947,6 +1019,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:display\:ex:focus-visible,
+	.sm\:focus-visible\:d\:ex:focus-visible {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -1021,6 +1099,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:display\:ex:focus-within,
+	.sm\:focus-within\:d\:ex:focus-within {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.sm\:active\:display\:none:active,
@@ -1093,6 +1177,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:display\:ex:active,
+	.sm\:active\:d\:ex:active {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -1167,6 +1257,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:display\:ex:disabled,
+	.sm\:disabled\:d\:ex:disabled {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.sm\:checked\:display\:none:checked,
@@ -1240,6 +1336,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:display\:ex:checked,
+	.sm\:checked\:d\:ex:checked {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.sm\:visited\:display\:none:visited,
@@ -1312,6 +1414,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:display\:ex:visited,
+	.sm\:visited\:d\:ex:visited {
+		display: var(--display-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -1388,6 +1496,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:display\:ex,
+	.md\:d\:ex {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.md\:hover\:display\:none:hover,
@@ -1460,6 +1574,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:display\:ex:hover,
+	.md\:hover\:d\:ex:hover {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -1534,6 +1654,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:display\:ex:focus,
+	.md\:focus\:d\:ex:focus {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.md\:focus-visible\:display\:none:focus-visible,
@@ -1606,6 +1732,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:display\:ex:focus-visible,
+	.md\:focus-visible\:d\:ex:focus-visible {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -1680,6 +1812,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:display\:ex:focus-within,
+	.md\:focus-within\:d\:ex:focus-within {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.md\:active\:display\:none:active,
@@ -1752,6 +1890,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:display\:ex:active,
+	.md\:active\:d\:ex:active {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -1826,6 +1970,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:display\:ex:disabled,
+	.md\:disabled\:d\:ex:disabled {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.md\:checked\:display\:none:checked,
@@ -1899,6 +2049,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:display\:ex:checked,
+	.md\:checked\:d\:ex:checked {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.md\:visited\:display\:none:visited,
@@ -1971,6 +2127,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:display\:ex:visited,
+	.md\:visited\:d\:ex:visited {
+		display: var(--display-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -2047,6 +2209,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:display\:ex,
+	.lg\:d\:ex {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.lg\:hover\:display\:none:hover,
@@ -2119,6 +2287,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:display\:ex:hover,
+	.lg\:hover\:d\:ex:hover {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -2193,6 +2367,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:display\:ex:focus,
+	.lg\:focus\:d\:ex:focus {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.lg\:focus-visible\:display\:none:focus-visible,
@@ -2265,6 +2445,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:display\:ex:focus-visible,
+	.lg\:focus-visible\:d\:ex:focus-visible {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -2339,6 +2525,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:display\:ex:focus-within,
+	.lg\:focus-within\:d\:ex:focus-within {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.lg\:active\:display\:none:active,
@@ -2411,6 +2603,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:display\:ex:active,
+	.lg\:active\:d\:ex:active {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -2485,6 +2683,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:display\:ex:disabled,
+	.lg\:disabled\:d\:ex:disabled {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.lg\:checked\:display\:none:checked,
@@ -2558,6 +2762,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:display\:ex:checked,
+	.lg\:checked\:d\:ex:checked {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.lg\:visited\:display\:none:visited,
@@ -2630,6 +2840,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:display\:ex:visited,
+	.lg\:visited\:d\:ex:visited {
+		display: var(--display-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -2706,6 +2922,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:display\:ex,
+	.xl\:d\:ex {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.xl\:hover\:display\:none:hover,
@@ -2778,6 +3000,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:display\:ex:hover,
+	.xl\:hover\:d\:ex:hover {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -2852,6 +3080,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:display\:ex:focus,
+	.xl\:focus\:d\:ex:focus {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.xl\:focus-visible\:display\:none:focus-visible,
@@ -2924,6 +3158,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:display\:ex:focus-visible,
+	.xl\:focus-visible\:d\:ex:focus-visible {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -2998,6 +3238,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:display\:ex:focus-within,
+	.xl\:focus-within\:d\:ex:focus-within {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.xl\:active\:display\:none:active,
@@ -3070,6 +3316,12 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:display\:ex:active,
+	.xl\:active\:d\:ex:active {
+		display: var(--display-ex) !important;
+	}
 
 	/* ===== DISPLAY UTILITIES ===== */
 
@@ -3144,6 +3396,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:display\:ex:disabled,
+	.xl\:disabled\:d\:ex:disabled {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.xl\:checked\:display\:none:checked,
@@ -3217,6 +3475,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:display\:ex:checked,
+	.xl\:checked\:d\:ex:checked {
+		display: var(--display-ex) !important;
+	}
+
 	/* ===== DISPLAY UTILITIES ===== */
 
 	.xl\:visited\:display\:none:visited,
@@ -3289,4 +3553,10 @@
 		display: table-cell !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:display\:ex:visited,
+	.xl\:visited\:d\:ex:visited {
+		display: var(--display-ex) !important;
+	}
 }

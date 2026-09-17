@@ -614,6 +614,98 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.border-width\:ex,
+.bdw\:ex {
+	border-width: var(--border-width-ex) !important;
+}
+
+.border-width-top\:ex,
+.bdwt\:ex {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.border-width-right\:ex,
+.bdwr\:ex {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.border-width-bottom\:ex,
+.bdwb\:ex {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.border-width-left\:ex,
+.bdwl\:ex {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.border-width-x\:ex,
+.bdwx\:ex {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.border-width-y\:ex,
+.bdwy\:ex {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.border-style\:ex,
+.bds\:ex {
+	border-style: var(--border-style-ex) !important;
+}
+
+.border-radius\:ex,
+.bdr\:ex {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.border-radius-top-left\:ex,
+.bdrtl\:ex {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.border-radius-top-right\:ex,
+.bdrtr\:ex {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.border-radius-bottom-left\:ex,
+.bdrbl\:ex {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.border-radius-bottom-right\:ex,
+.bdrbr\:ex {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.border-radius-top\:ex,
+.bdrt\:ex {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.border-radius-right\:ex,
+.bdrr\:ex {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.border-radius-bottom\:ex,
+.bdrb\:ex {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.border-radius-left\:ex,
+.bdrl\:ex {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
+
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
 /* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -1229,6 +1321,98 @@
 	border-bottom-left-radius: var(--radius-full) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:border-width\:ex:hover,
+.hover\:bdw\:ex:hover {
+	border-width: var(--border-width-ex) !important;
+}
+
+.hover\:border-width-top\:ex:hover,
+.hover\:bdwt\:ex:hover {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.hover\:border-width-right\:ex:hover,
+.hover\:bdwr\:ex:hover {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.hover\:border-width-bottom\:ex:hover,
+.hover\:bdwb\:ex:hover {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.hover\:border-width-left\:ex:hover,
+.hover\:bdwl\:ex:hover {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.hover\:border-width-x\:ex:hover,
+.hover\:bdwx\:ex:hover {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.hover\:border-width-y\:ex:hover,
+.hover\:bdwy\:ex:hover {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.hover\:border-style\:ex:hover,
+.hover\:bds\:ex:hover {
+	border-style: var(--border-style-ex) !important;
+}
+
+.hover\:border-radius\:ex:hover,
+.hover\:bdr\:ex:hover {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.hover\:border-radius-top-left\:ex:hover,
+.hover\:bdrtl\:ex:hover {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.hover\:border-radius-top-right\:ex:hover,
+.hover\:bdrtr\:ex:hover {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.hover\:border-radius-bottom-left\:ex:hover,
+.hover\:bdrbl\:ex:hover {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.hover\:border-radius-bottom-right\:ex:hover,
+.hover\:bdrbr\:ex:hover {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.hover\:border-radius-top\:ex:hover,
+.hover\:bdrt\:ex:hover {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.hover\:border-radius-right\:ex:hover,
+.hover\:bdrr\:ex:hover {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.hover\:border-radius-bottom\:ex:hover,
+.hover\:bdrb\:ex:hover {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.hover\:border-radius-left\:ex:hover,
+.hover\:bdrl\:ex:hover {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
 
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -1846,6 +2030,98 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:border-width\:ex:focus,
+.focus\:bdw\:ex:focus {
+	border-width: var(--border-width-ex) !important;
+}
+
+.focus\:border-width-top\:ex:focus,
+.focus\:bdwt\:ex:focus {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.focus\:border-width-right\:ex:focus,
+.focus\:bdwr\:ex:focus {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.focus\:border-width-bottom\:ex:focus,
+.focus\:bdwb\:ex:focus {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.focus\:border-width-left\:ex:focus,
+.focus\:bdwl\:ex:focus {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.focus\:border-width-x\:ex:focus,
+.focus\:bdwx\:ex:focus {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.focus\:border-width-y\:ex:focus,
+.focus\:bdwy\:ex:focus {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.focus\:border-style\:ex:focus,
+.focus\:bds\:ex:focus {
+	border-style: var(--border-style-ex) !important;
+}
+
+.focus\:border-radius\:ex:focus,
+.focus\:bdr\:ex:focus {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.focus\:border-radius-top-left\:ex:focus,
+.focus\:bdrtl\:ex:focus {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.focus\:border-radius-top-right\:ex:focus,
+.focus\:bdrtr\:ex:focus {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.focus\:border-radius-bottom-left\:ex:focus,
+.focus\:bdrbl\:ex:focus {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.focus\:border-radius-bottom-right\:ex:focus,
+.focus\:bdrbr\:ex:focus {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.focus\:border-radius-top\:ex:focus,
+.focus\:bdrt\:ex:focus {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.focus\:border-radius-right\:ex:focus,
+.focus\:bdrr\:ex:focus {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.focus\:border-radius-bottom\:ex:focus,
+.focus\:bdrb\:ex:focus {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.focus\:border-radius-left\:ex:focus,
+.focus\:bdrl\:ex:focus {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
+
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
 /* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -2461,6 +2737,98 @@
 	border-bottom-left-radius: var(--radius-full) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:border-width\:ex:focus-visible,
+.focus-visible\:bdw\:ex:focus-visible {
+	border-width: var(--border-width-ex) !important;
+}
+
+.focus-visible\:border-width-top\:ex:focus-visible,
+.focus-visible\:bdwt\:ex:focus-visible {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.focus-visible\:border-width-right\:ex:focus-visible,
+.focus-visible\:bdwr\:ex:focus-visible {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.focus-visible\:border-width-bottom\:ex:focus-visible,
+.focus-visible\:bdwb\:ex:focus-visible {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.focus-visible\:border-width-left\:ex:focus-visible,
+.focus-visible\:bdwl\:ex:focus-visible {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.focus-visible\:border-width-x\:ex:focus-visible,
+.focus-visible\:bdwx\:ex:focus-visible {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.focus-visible\:border-width-y\:ex:focus-visible,
+.focus-visible\:bdwy\:ex:focus-visible {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.focus-visible\:border-style\:ex:focus-visible,
+.focus-visible\:bds\:ex:focus-visible {
+	border-style: var(--border-style-ex) !important;
+}
+
+.focus-visible\:border-radius\:ex:focus-visible,
+.focus-visible\:bdr\:ex:focus-visible {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.focus-visible\:border-radius-top-left\:ex:focus-visible,
+.focus-visible\:bdrtl\:ex:focus-visible {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.focus-visible\:border-radius-top-right\:ex:focus-visible,
+.focus-visible\:bdrtr\:ex:focus-visible {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.focus-visible\:border-radius-bottom-left\:ex:focus-visible,
+.focus-visible\:bdrbl\:ex:focus-visible {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.focus-visible\:border-radius-bottom-right\:ex:focus-visible,
+.focus-visible\:bdrbr\:ex:focus-visible {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.focus-visible\:border-radius-top\:ex:focus-visible,
+.focus-visible\:bdrt\:ex:focus-visible {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.focus-visible\:border-radius-right\:ex:focus-visible,
+.focus-visible\:bdrr\:ex:focus-visible {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.focus-visible\:border-radius-bottom\:ex:focus-visible,
+.focus-visible\:bdrb\:ex:focus-visible {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.focus-visible\:border-radius-left\:ex:focus-visible,
+.focus-visible\:bdrl\:ex:focus-visible {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
 
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -3078,6 +3446,98 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:border-width\:ex:focus-within,
+.focus-within\:bdw\:ex:focus-within {
+	border-width: var(--border-width-ex) !important;
+}
+
+.focus-within\:border-width-top\:ex:focus-within,
+.focus-within\:bdwt\:ex:focus-within {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.focus-within\:border-width-right\:ex:focus-within,
+.focus-within\:bdwr\:ex:focus-within {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.focus-within\:border-width-bottom\:ex:focus-within,
+.focus-within\:bdwb\:ex:focus-within {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.focus-within\:border-width-left\:ex:focus-within,
+.focus-within\:bdwl\:ex:focus-within {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.focus-within\:border-width-x\:ex:focus-within,
+.focus-within\:bdwx\:ex:focus-within {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.focus-within\:border-width-y\:ex:focus-within,
+.focus-within\:bdwy\:ex:focus-within {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.focus-within\:border-style\:ex:focus-within,
+.focus-within\:bds\:ex:focus-within {
+	border-style: var(--border-style-ex) !important;
+}
+
+.focus-within\:border-radius\:ex:focus-within,
+.focus-within\:bdr\:ex:focus-within {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.focus-within\:border-radius-top-left\:ex:focus-within,
+.focus-within\:bdrtl\:ex:focus-within {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.focus-within\:border-radius-top-right\:ex:focus-within,
+.focus-within\:bdrtr\:ex:focus-within {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.focus-within\:border-radius-bottom-left\:ex:focus-within,
+.focus-within\:bdrbl\:ex:focus-within {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.focus-within\:border-radius-bottom-right\:ex:focus-within,
+.focus-within\:bdrbr\:ex:focus-within {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.focus-within\:border-radius-top\:ex:focus-within,
+.focus-within\:bdrt\:ex:focus-within {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.focus-within\:border-radius-right\:ex:focus-within,
+.focus-within\:bdrr\:ex:focus-within {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.focus-within\:border-radius-bottom\:ex:focus-within,
+.focus-within\:bdrb\:ex:focus-within {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.focus-within\:border-radius-left\:ex:focus-within,
+.focus-within\:bdrl\:ex:focus-within {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
+
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
 /* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -3693,6 +4153,98 @@
 	border-bottom-left-radius: var(--radius-full) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:border-width\:ex:active,
+.active\:bdw\:ex:active {
+	border-width: var(--border-width-ex) !important;
+}
+
+.active\:border-width-top\:ex:active,
+.active\:bdwt\:ex:active {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.active\:border-width-right\:ex:active,
+.active\:bdwr\:ex:active {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.active\:border-width-bottom\:ex:active,
+.active\:bdwb\:ex:active {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.active\:border-width-left\:ex:active,
+.active\:bdwl\:ex:active {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.active\:border-width-x\:ex:active,
+.active\:bdwx\:ex:active {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.active\:border-width-y\:ex:active,
+.active\:bdwy\:ex:active {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.active\:border-style\:ex:active,
+.active\:bds\:ex:active {
+	border-style: var(--border-style-ex) !important;
+}
+
+.active\:border-radius\:ex:active,
+.active\:bdr\:ex:active {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.active\:border-radius-top-left\:ex:active,
+.active\:bdrtl\:ex:active {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.active\:border-radius-top-right\:ex:active,
+.active\:bdrtr\:ex:active {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.active\:border-radius-bottom-left\:ex:active,
+.active\:bdrbl\:ex:active {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.active\:border-radius-bottom-right\:ex:active,
+.active\:bdrbr\:ex:active {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.active\:border-radius-top\:ex:active,
+.active\:bdrt\:ex:active {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.active\:border-radius-right\:ex:active,
+.active\:bdrr\:ex:active {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.active\:border-radius-bottom\:ex:active,
+.active\:bdrb\:ex:active {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.active\:border-radius-left\:ex:active,
+.active\:bdrl\:ex:active {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
 
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -4310,6 +4862,98 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:border-width\:ex:disabled,
+.disabled\:bdw\:ex:disabled {
+	border-width: var(--border-width-ex) !important;
+}
+
+.disabled\:border-width-top\:ex:disabled,
+.disabled\:bdwt\:ex:disabled {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.disabled\:border-width-right\:ex:disabled,
+.disabled\:bdwr\:ex:disabled {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.disabled\:border-width-bottom\:ex:disabled,
+.disabled\:bdwb\:ex:disabled {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.disabled\:border-width-left\:ex:disabled,
+.disabled\:bdwl\:ex:disabled {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.disabled\:border-width-x\:ex:disabled,
+.disabled\:bdwx\:ex:disabled {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.disabled\:border-width-y\:ex:disabled,
+.disabled\:bdwy\:ex:disabled {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.disabled\:border-style\:ex:disabled,
+.disabled\:bds\:ex:disabled {
+	border-style: var(--border-style-ex) !important;
+}
+
+.disabled\:border-radius\:ex:disabled,
+.disabled\:bdr\:ex:disabled {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.disabled\:border-radius-top-left\:ex:disabled,
+.disabled\:bdrtl\:ex:disabled {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.disabled\:border-radius-top-right\:ex:disabled,
+.disabled\:bdrtr\:ex:disabled {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.disabled\:border-radius-bottom-left\:ex:disabled,
+.disabled\:bdrbl\:ex:disabled {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.disabled\:border-radius-bottom-right\:ex:disabled,
+.disabled\:bdrbr\:ex:disabled {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.disabled\:border-radius-top\:ex:disabled,
+.disabled\:bdrt\:ex:disabled {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.disabled\:border-radius-right\:ex:disabled,
+.disabled\:bdrr\:ex:disabled {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.disabled\:border-radius-bottom\:ex:disabled,
+.disabled\:bdrb\:ex:disabled {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.disabled\:border-radius-left\:ex:disabled,
+.disabled\:bdrl\:ex:disabled {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
+
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
 /* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -4926,6 +5570,98 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:border-width\:ex:checked,
+.checked\:bdw\:ex:checked {
+	border-width: var(--border-width-ex) !important;
+}
+
+.checked\:border-width-top\:ex:checked,
+.checked\:bdwt\:ex:checked {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.checked\:border-width-right\:ex:checked,
+.checked\:bdwr\:ex:checked {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.checked\:border-width-bottom\:ex:checked,
+.checked\:bdwb\:ex:checked {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.checked\:border-width-left\:ex:checked,
+.checked\:bdwl\:ex:checked {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.checked\:border-width-x\:ex:checked,
+.checked\:bdwx\:ex:checked {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.checked\:border-width-y\:ex:checked,
+.checked\:bdwy\:ex:checked {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.checked\:border-style\:ex:checked,
+.checked\:bds\:ex:checked {
+	border-style: var(--border-style-ex) !important;
+}
+
+.checked\:border-radius\:ex:checked,
+.checked\:bdr\:ex:checked {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.checked\:border-radius-top-left\:ex:checked,
+.checked\:bdrtl\:ex:checked {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.checked\:border-radius-top-right\:ex:checked,
+.checked\:bdrtr\:ex:checked {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.checked\:border-radius-bottom-left\:ex:checked,
+.checked\:bdrbl\:ex:checked {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.checked\:border-radius-bottom-right\:ex:checked,
+.checked\:bdrbr\:ex:checked {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.checked\:border-radius-top\:ex:checked,
+.checked\:bdrt\:ex:checked {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.checked\:border-radius-right\:ex:checked,
+.checked\:bdrr\:ex:checked {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.checked\:border-radius-bottom\:ex:checked,
+.checked\:bdrb\:ex:checked {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.checked\:border-radius-left\:ex:checked,
+.checked\:bdrl\:ex:checked {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
+
 /* ===== BORDER UTILITIES — width, style, radius ===== */
 
 /* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -5541,6 +6277,98 @@
 	border-bottom-left-radius: var(--radius-full) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:border-width\:ex:visited,
+.visited\:bdw\:ex:visited {
+	border-width: var(--border-width-ex) !important;
+}
+
+.visited\:border-width-top\:ex:visited,
+.visited\:bdwt\:ex:visited {
+	border-top-width: var(--border-width-top-ex) !important;
+}
+
+.visited\:border-width-right\:ex:visited,
+.visited\:bdwr\:ex:visited {
+	border-right-width: var(--border-width-right-ex) !important;
+}
+
+.visited\:border-width-bottom\:ex:visited,
+.visited\:bdwb\:ex:visited {
+	border-bottom-width: var(--border-width-bottom-ex) !important;
+}
+
+.visited\:border-width-left\:ex:visited,
+.visited\:bdwl\:ex:visited {
+	border-left-width: var(--border-width-left-ex) !important;
+}
+
+.visited\:border-width-x\:ex:visited,
+.visited\:bdwx\:ex:visited {
+	border-left-width: var(--border-width-x-ex) !important;
+	border-right-width: var(--border-width-x-ex) !important;
+}
+
+.visited\:border-width-y\:ex:visited,
+.visited\:bdwy\:ex:visited {
+	border-top-width: var(--border-width-y-ex) !important;
+	border-bottom-width: var(--border-width-y-ex) !important;
+}
+
+.visited\:border-style\:ex:visited,
+.visited\:bds\:ex:visited {
+	border-style: var(--border-style-ex) !important;
+}
+
+.visited\:border-radius\:ex:visited,
+.visited\:bdr\:ex:visited {
+	border-radius: var(--border-radius-ex) !important;
+}
+
+.visited\:border-radius-top-left\:ex:visited,
+.visited\:bdrtl\:ex:visited {
+	border-top-left-radius: var(--border-radius-top-left-ex) !important;
+}
+
+.visited\:border-radius-top-right\:ex:visited,
+.visited\:bdrtr\:ex:visited {
+	border-top-right-radius: var(--border-radius-top-right-ex) !important;
+}
+
+.visited\:border-radius-bottom-left\:ex:visited,
+.visited\:bdrbl\:ex:visited {
+	border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+}
+
+.visited\:border-radius-bottom-right\:ex:visited,
+.visited\:bdrbr\:ex:visited {
+	border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+}
+
+.visited\:border-radius-top\:ex:visited,
+.visited\:bdrt\:ex:visited {
+	border-top-left-radius: var(--border-radius-top-ex) !important;
+	border-top-right-radius: var(--border-radius-top-ex) !important;
+}
+
+.visited\:border-radius-right\:ex:visited,
+.visited\:bdrr\:ex:visited {
+	border-top-right-radius: var(--border-radius-right-ex) !important;
+	border-bottom-right-radius: var(--border-radius-right-ex) !important;
+}
+
+.visited\:border-radius-bottom\:ex:visited,
+.visited\:bdrb\:ex:visited {
+	border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+	border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+}
+
+.visited\:border-radius-left\:ex:visited,
+.visited\:bdrl\:ex:visited {
+	border-top-left-radius: var(--border-radius-left-ex) !important;
+	border-bottom-left-radius: var(--border-radius-left-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
@@ -6159,6 +6987,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:border-width\:ex,
+	.sm\:bdw\:ex {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:border-width-top\:ex,
+	.sm\:bdwt\:ex {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:border-width-right\:ex,
+	.sm\:bdwr\:ex {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:border-width-bottom\:ex,
+	.sm\:bdwb\:ex {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:border-width-left\:ex,
+	.sm\:bdwl\:ex {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:border-width-x\:ex,
+	.sm\:bdwx\:ex {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:border-width-y\:ex,
+	.sm\:bdwy\:ex {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:border-style\:ex,
+	.sm\:bds\:ex {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:border-radius\:ex,
+	.sm\:bdr\:ex {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:border-radius-top-left\:ex,
+	.sm\:bdrtl\:ex {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:border-radius-top-right\:ex,
+	.sm\:bdrtr\:ex {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:border-radius-bottom-left\:ex,
+	.sm\:bdrbl\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:border-radius-bottom-right\:ex,
+	.sm\:bdrbr\:ex {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:border-radius-top\:ex,
+	.sm\:bdrt\:ex {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:border-radius-right\:ex,
+	.sm\:bdrr\:ex {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:border-radius-bottom\:ex,
+	.sm\:bdrb\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:border-radius-left\:ex,
+	.sm\:bdrl\:ex {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -6774,6 +7694,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:border-width\:ex:hover,
+	.sm\:hover\:bdw\:ex:hover {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:hover\:border-width-top\:ex:hover,
+	.sm\:hover\:bdwt\:ex:hover {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:hover\:border-width-right\:ex:hover,
+	.sm\:hover\:bdwr\:ex:hover {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:hover\:border-width-bottom\:ex:hover,
+	.sm\:hover\:bdwb\:ex:hover {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:hover\:border-width-left\:ex:hover,
+	.sm\:hover\:bdwl\:ex:hover {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:hover\:border-width-x\:ex:hover,
+	.sm\:hover\:bdwx\:ex:hover {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:hover\:border-width-y\:ex:hover,
+	.sm\:hover\:bdwy\:ex:hover {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:hover\:border-style\:ex:hover,
+	.sm\:hover\:bds\:ex:hover {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:hover\:border-radius\:ex:hover,
+	.sm\:hover\:bdr\:ex:hover {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-top-left\:ex:hover,
+	.sm\:hover\:bdrtl\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-top-right\:ex:hover,
+	.sm\:hover\:bdrtr\:ex:hover {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-bottom-left\:ex:hover,
+	.sm\:hover\:bdrbl\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-bottom-right\:ex:hover,
+	.sm\:hover\:bdrbr\:ex:hover {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-top\:ex:hover,
+	.sm\:hover\:bdrt\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-right\:ex:hover,
+	.sm\:hover\:bdrr\:ex:hover {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-bottom\:ex:hover,
+	.sm\:hover\:bdrb\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:hover\:border-radius-left\:ex:hover,
+	.sm\:hover\:bdrl\:ex:hover {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -7391,6 +8403,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:border-width\:ex:focus,
+	.sm\:focus\:bdw\:ex:focus {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:focus\:border-width-top\:ex:focus,
+	.sm\:focus\:bdwt\:ex:focus {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:focus\:border-width-right\:ex:focus,
+	.sm\:focus\:bdwr\:ex:focus {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:focus\:border-width-bottom\:ex:focus,
+	.sm\:focus\:bdwb\:ex:focus {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:focus\:border-width-left\:ex:focus,
+	.sm\:focus\:bdwl\:ex:focus {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:focus\:border-width-x\:ex:focus,
+	.sm\:focus\:bdwx\:ex:focus {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:focus\:border-width-y\:ex:focus,
+	.sm\:focus\:bdwy\:ex:focus {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:focus\:border-style\:ex:focus,
+	.sm\:focus\:bds\:ex:focus {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:focus\:border-radius\:ex:focus,
+	.sm\:focus\:bdr\:ex:focus {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-top-left\:ex:focus,
+	.sm\:focus\:bdrtl\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-top-right\:ex:focus,
+	.sm\:focus\:bdrtr\:ex:focus {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-bottom-left\:ex:focus,
+	.sm\:focus\:bdrbl\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-bottom-right\:ex:focus,
+	.sm\:focus\:bdrbr\:ex:focus {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-top\:ex:focus,
+	.sm\:focus\:bdrt\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-right\:ex:focus,
+	.sm\:focus\:bdrr\:ex:focus {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-bottom\:ex:focus,
+	.sm\:focus\:bdrb\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:focus\:border-radius-left\:ex:focus,
+	.sm\:focus\:bdrl\:ex:focus {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -8006,6 +9110,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:border-width\:ex:focus-visible,
+	.sm\:focus-visible\:bdw\:ex:focus-visible {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-top\:ex:focus-visible,
+	.sm\:focus-visible\:bdwt\:ex:focus-visible {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-right\:ex:focus-visible,
+	.sm\:focus-visible\:bdwr\:ex:focus-visible {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:bdwb\:ex:focus-visible {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-left\:ex:focus-visible,
+	.sm\:focus-visible\:bdwl\:ex:focus-visible {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-x\:ex:focus-visible,
+	.sm\:focus-visible\:bdwx\:ex:focus-visible {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-width-y\:ex:focus-visible,
+	.sm\:focus-visible\:bdwy\:ex:focus-visible {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-style\:ex:focus-visible,
+	.sm\:focus-visible\:bds\:ex:focus-visible {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius\:ex:focus-visible,
+	.sm\:focus-visible\:bdr\:ex:focus-visible {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-top-left\:ex:focus-visible,
+	.sm\:focus-visible\:bdrtl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-top-right\:ex:focus-visible,
+	.sm\:focus-visible\:bdrtr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-bottom-left\:ex:focus-visible,
+	.sm\:focus-visible\:bdrbl\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-bottom-right\:ex:focus-visible,
+	.sm\:focus-visible\:bdrbr\:ex:focus-visible {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-top\:ex:focus-visible,
+	.sm\:focus-visible\:bdrt\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-right\:ex:focus-visible,
+	.sm\:focus-visible\:bdrr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:bdrb\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-radius-left\:ex:focus-visible,
+	.sm\:focus-visible\:bdrl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -8623,6 +9819,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:border-width\:ex:focus-within,
+	.sm\:focus-within\:bdw\:ex:focus-within {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-top\:ex:focus-within,
+	.sm\:focus-within\:bdwt\:ex:focus-within {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-right\:ex:focus-within,
+	.sm\:focus-within\:bdwr\:ex:focus-within {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-bottom\:ex:focus-within,
+	.sm\:focus-within\:bdwb\:ex:focus-within {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-left\:ex:focus-within,
+	.sm\:focus-within\:bdwl\:ex:focus-within {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-x\:ex:focus-within,
+	.sm\:focus-within\:bdwx\:ex:focus-within {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:focus-within\:border-width-y\:ex:focus-within,
+	.sm\:focus-within\:bdwy\:ex:focus-within {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:focus-within\:border-style\:ex:focus-within,
+	.sm\:focus-within\:bds\:ex:focus-within {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius\:ex:focus-within,
+	.sm\:focus-within\:bdr\:ex:focus-within {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-top-left\:ex:focus-within,
+	.sm\:focus-within\:bdrtl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-top-right\:ex:focus-within,
+	.sm\:focus-within\:bdrtr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-bottom-left\:ex:focus-within,
+	.sm\:focus-within\:bdrbl\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-bottom-right\:ex:focus-within,
+	.sm\:focus-within\:bdrbr\:ex:focus-within {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-top\:ex:focus-within,
+	.sm\:focus-within\:bdrt\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-right\:ex:focus-within,
+	.sm\:focus-within\:bdrr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-bottom\:ex:focus-within,
+	.sm\:focus-within\:bdrb\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:border-radius-left\:ex:focus-within,
+	.sm\:focus-within\:bdrl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -9238,6 +10526,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:border-width\:ex:active,
+	.sm\:active\:bdw\:ex:active {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:active\:border-width-top\:ex:active,
+	.sm\:active\:bdwt\:ex:active {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:active\:border-width-right\:ex:active,
+	.sm\:active\:bdwr\:ex:active {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:active\:border-width-bottom\:ex:active,
+	.sm\:active\:bdwb\:ex:active {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:active\:border-width-left\:ex:active,
+	.sm\:active\:bdwl\:ex:active {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:active\:border-width-x\:ex:active,
+	.sm\:active\:bdwx\:ex:active {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:active\:border-width-y\:ex:active,
+	.sm\:active\:bdwy\:ex:active {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:active\:border-style\:ex:active,
+	.sm\:active\:bds\:ex:active {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:active\:border-radius\:ex:active,
+	.sm\:active\:bdr\:ex:active {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:active\:border-radius-top-left\:ex:active,
+	.sm\:active\:bdrtl\:ex:active {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:active\:border-radius-top-right\:ex:active,
+	.sm\:active\:bdrtr\:ex:active {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:active\:border-radius-bottom-left\:ex:active,
+	.sm\:active\:bdrbl\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:active\:border-radius-bottom-right\:ex:active,
+	.sm\:active\:bdrbr\:ex:active {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:active\:border-radius-top\:ex:active,
+	.sm\:active\:bdrt\:ex:active {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:active\:border-radius-right\:ex:active,
+	.sm\:active\:bdrr\:ex:active {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:active\:border-radius-bottom\:ex:active,
+	.sm\:active\:bdrb\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:active\:border-radius-left\:ex:active,
+	.sm\:active\:bdrl\:ex:active {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -9855,6 +11235,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:border-width\:ex:disabled,
+	.sm\:disabled\:bdw\:ex:disabled {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-top\:ex:disabled,
+	.sm\:disabled\:bdwt\:ex:disabled {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-right\:ex:disabled,
+	.sm\:disabled\:bdwr\:ex:disabled {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-bottom\:ex:disabled,
+	.sm\:disabled\:bdwb\:ex:disabled {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-left\:ex:disabled,
+	.sm\:disabled\:bdwl\:ex:disabled {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-x\:ex:disabled,
+	.sm\:disabled\:bdwx\:ex:disabled {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:disabled\:border-width-y\:ex:disabled,
+	.sm\:disabled\:bdwy\:ex:disabled {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:disabled\:border-style\:ex:disabled,
+	.sm\:disabled\:bds\:ex:disabled {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius\:ex:disabled,
+	.sm\:disabled\:bdr\:ex:disabled {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-top-left\:ex:disabled,
+	.sm\:disabled\:bdrtl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-top-right\:ex:disabled,
+	.sm\:disabled\:bdrtr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-bottom-left\:ex:disabled,
+	.sm\:disabled\:bdrbl\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-bottom-right\:ex:disabled,
+	.sm\:disabled\:bdrbr\:ex:disabled {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-top\:ex:disabled,
+	.sm\:disabled\:bdrt\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-right\:ex:disabled,
+	.sm\:disabled\:bdrr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-bottom\:ex:disabled,
+	.sm\:disabled\:bdrb\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:border-radius-left\:ex:disabled,
+	.sm\:disabled\:bdrl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -10471,6 +11943,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:border-width\:ex:checked,
+	.sm\:checked\:bdw\:ex:checked {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:checked\:border-width-top\:ex:checked,
+	.sm\:checked\:bdwt\:ex:checked {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:checked\:border-width-right\:ex:checked,
+	.sm\:checked\:bdwr\:ex:checked {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:checked\:border-width-bottom\:ex:checked,
+	.sm\:checked\:bdwb\:ex:checked {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:checked\:border-width-left\:ex:checked,
+	.sm\:checked\:bdwl\:ex:checked {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:checked\:border-width-x\:ex:checked,
+	.sm\:checked\:bdwx\:ex:checked {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:checked\:border-width-y\:ex:checked,
+	.sm\:checked\:bdwy\:ex:checked {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:checked\:border-style\:ex:checked,
+	.sm\:checked\:bds\:ex:checked {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:checked\:border-radius\:ex:checked,
+	.sm\:checked\:bdr\:ex:checked {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-top-left\:ex:checked,
+	.sm\:checked\:bdrtl\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-top-right\:ex:checked,
+	.sm\:checked\:bdrtr\:ex:checked {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-bottom-left\:ex:checked,
+	.sm\:checked\:bdrbl\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-bottom-right\:ex:checked,
+	.sm\:checked\:bdrbr\:ex:checked {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-top\:ex:checked,
+	.sm\:checked\:bdrt\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-right\:ex:checked,
+	.sm\:checked\:bdrr\:ex:checked {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-bottom\:ex:checked,
+	.sm\:checked\:bdrb\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:checked\:border-radius-left\:ex:checked,
+	.sm\:checked\:bdrl\:ex:checked {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -11086,6 +12650,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:border-width\:ex:visited,
+	.sm\:visited\:bdw\:ex:visited {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.sm\:visited\:border-width-top\:ex:visited,
+	.sm\:visited\:bdwt\:ex:visited {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.sm\:visited\:border-width-right\:ex:visited,
+	.sm\:visited\:bdwr\:ex:visited {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.sm\:visited\:border-width-bottom\:ex:visited,
+	.sm\:visited\:bdwb\:ex:visited {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.sm\:visited\:border-width-left\:ex:visited,
+	.sm\:visited\:bdwl\:ex:visited {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.sm\:visited\:border-width-x\:ex:visited,
+	.sm\:visited\:bdwx\:ex:visited {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.sm\:visited\:border-width-y\:ex:visited,
+	.sm\:visited\:bdwy\:ex:visited {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.sm\:visited\:border-style\:ex:visited,
+	.sm\:visited\:bds\:ex:visited {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.sm\:visited\:border-radius\:ex:visited,
+	.sm\:visited\:bdr\:ex:visited {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-top-left\:ex:visited,
+	.sm\:visited\:bdrtl\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-top-right\:ex:visited,
+	.sm\:visited\:bdrtr\:ex:visited {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-bottom-left\:ex:visited,
+	.sm\:visited\:bdrbl\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-bottom-right\:ex:visited,
+	.sm\:visited\:bdrbr\:ex:visited {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-top\:ex:visited,
+	.sm\:visited\:bdrt\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-right\:ex:visited,
+	.sm\:visited\:bdrr\:ex:visited {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-bottom\:ex:visited,
+	.sm\:visited\:bdrb\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.sm\:visited\:border-radius-left\:ex:visited,
+	.sm\:visited\:bdrl\:ex:visited {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -11705,6 +13361,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:border-width\:ex,
+	.md\:bdw\:ex {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:border-width-top\:ex,
+	.md\:bdwt\:ex {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:border-width-right\:ex,
+	.md\:bdwr\:ex {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:border-width-bottom\:ex,
+	.md\:bdwb\:ex {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:border-width-left\:ex,
+	.md\:bdwl\:ex {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:border-width-x\:ex,
+	.md\:bdwx\:ex {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:border-width-y\:ex,
+	.md\:bdwy\:ex {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:border-style\:ex,
+	.md\:bds\:ex {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:border-radius\:ex,
+	.md\:bdr\:ex {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:border-radius-top-left\:ex,
+	.md\:bdrtl\:ex {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:border-radius-top-right\:ex,
+	.md\:bdrtr\:ex {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:border-radius-bottom-left\:ex,
+	.md\:bdrbl\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:border-radius-bottom-right\:ex,
+	.md\:bdrbr\:ex {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:border-radius-top\:ex,
+	.md\:bdrt\:ex {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:border-radius-right\:ex,
+	.md\:bdrr\:ex {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:border-radius-bottom\:ex,
+	.md\:bdrb\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:border-radius-left\:ex,
+	.md\:bdrl\:ex {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -12320,6 +14068,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:border-width\:ex:hover,
+	.md\:hover\:bdw\:ex:hover {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:hover\:border-width-top\:ex:hover,
+	.md\:hover\:bdwt\:ex:hover {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:hover\:border-width-right\:ex:hover,
+	.md\:hover\:bdwr\:ex:hover {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:hover\:border-width-bottom\:ex:hover,
+	.md\:hover\:bdwb\:ex:hover {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:hover\:border-width-left\:ex:hover,
+	.md\:hover\:bdwl\:ex:hover {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:hover\:border-width-x\:ex:hover,
+	.md\:hover\:bdwx\:ex:hover {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:hover\:border-width-y\:ex:hover,
+	.md\:hover\:bdwy\:ex:hover {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:hover\:border-style\:ex:hover,
+	.md\:hover\:bds\:ex:hover {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:hover\:border-radius\:ex:hover,
+	.md\:hover\:bdr\:ex:hover {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:hover\:border-radius-top-left\:ex:hover,
+	.md\:hover\:bdrtl\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:hover\:border-radius-top-right\:ex:hover,
+	.md\:hover\:bdrtr\:ex:hover {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:hover\:border-radius-bottom-left\:ex:hover,
+	.md\:hover\:bdrbl\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:hover\:border-radius-bottom-right\:ex:hover,
+	.md\:hover\:bdrbr\:ex:hover {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:hover\:border-radius-top\:ex:hover,
+	.md\:hover\:bdrt\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:hover\:border-radius-right\:ex:hover,
+	.md\:hover\:bdrr\:ex:hover {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:hover\:border-radius-bottom\:ex:hover,
+	.md\:hover\:bdrb\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:hover\:border-radius-left\:ex:hover,
+	.md\:hover\:bdrl\:ex:hover {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -12937,6 +14777,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:border-width\:ex:focus,
+	.md\:focus\:bdw\:ex:focus {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:focus\:border-width-top\:ex:focus,
+	.md\:focus\:bdwt\:ex:focus {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:focus\:border-width-right\:ex:focus,
+	.md\:focus\:bdwr\:ex:focus {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:focus\:border-width-bottom\:ex:focus,
+	.md\:focus\:bdwb\:ex:focus {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:focus\:border-width-left\:ex:focus,
+	.md\:focus\:bdwl\:ex:focus {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:focus\:border-width-x\:ex:focus,
+	.md\:focus\:bdwx\:ex:focus {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:focus\:border-width-y\:ex:focus,
+	.md\:focus\:bdwy\:ex:focus {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:focus\:border-style\:ex:focus,
+	.md\:focus\:bds\:ex:focus {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:focus\:border-radius\:ex:focus,
+	.md\:focus\:bdr\:ex:focus {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:focus\:border-radius-top-left\:ex:focus,
+	.md\:focus\:bdrtl\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:focus\:border-radius-top-right\:ex:focus,
+	.md\:focus\:bdrtr\:ex:focus {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:focus\:border-radius-bottom-left\:ex:focus,
+	.md\:focus\:bdrbl\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:focus\:border-radius-bottom-right\:ex:focus,
+	.md\:focus\:bdrbr\:ex:focus {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:focus\:border-radius-top\:ex:focus,
+	.md\:focus\:bdrt\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:focus\:border-radius-right\:ex:focus,
+	.md\:focus\:bdrr\:ex:focus {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:focus\:border-radius-bottom\:ex:focus,
+	.md\:focus\:bdrb\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:focus\:border-radius-left\:ex:focus,
+	.md\:focus\:bdrl\:ex:focus {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -13552,6 +15484,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:border-width\:ex:focus-visible,
+	.md\:focus-visible\:bdw\:ex:focus-visible {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-top\:ex:focus-visible,
+	.md\:focus-visible\:bdwt\:ex:focus-visible {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-right\:ex:focus-visible,
+	.md\:focus-visible\:bdwr\:ex:focus-visible {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-bottom\:ex:focus-visible,
+	.md\:focus-visible\:bdwb\:ex:focus-visible {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-left\:ex:focus-visible,
+	.md\:focus-visible\:bdwl\:ex:focus-visible {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-x\:ex:focus-visible,
+	.md\:focus-visible\:bdwx\:ex:focus-visible {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:focus-visible\:border-width-y\:ex:focus-visible,
+	.md\:focus-visible\:bdwy\:ex:focus-visible {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:focus-visible\:border-style\:ex:focus-visible,
+	.md\:focus-visible\:bds\:ex:focus-visible {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius\:ex:focus-visible,
+	.md\:focus-visible\:bdr\:ex:focus-visible {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-top-left\:ex:focus-visible,
+	.md\:focus-visible\:bdrtl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-top-right\:ex:focus-visible,
+	.md\:focus-visible\:bdrtr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-bottom-left\:ex:focus-visible,
+	.md\:focus-visible\:bdrbl\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-bottom-right\:ex:focus-visible,
+	.md\:focus-visible\:bdrbr\:ex:focus-visible {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-top\:ex:focus-visible,
+	.md\:focus-visible\:bdrt\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-right\:ex:focus-visible,
+	.md\:focus-visible\:bdrr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-bottom\:ex:focus-visible,
+	.md\:focus-visible\:bdrb\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:border-radius-left\:ex:focus-visible,
+	.md\:focus-visible\:bdrl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -14169,6 +16193,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:border-width\:ex:focus-within,
+	.md\:focus-within\:bdw\:ex:focus-within {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-top\:ex:focus-within,
+	.md\:focus-within\:bdwt\:ex:focus-within {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-right\:ex:focus-within,
+	.md\:focus-within\:bdwr\:ex:focus-within {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-bottom\:ex:focus-within,
+	.md\:focus-within\:bdwb\:ex:focus-within {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-left\:ex:focus-within,
+	.md\:focus-within\:bdwl\:ex:focus-within {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-x\:ex:focus-within,
+	.md\:focus-within\:bdwx\:ex:focus-within {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:focus-within\:border-width-y\:ex:focus-within,
+	.md\:focus-within\:bdwy\:ex:focus-within {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:focus-within\:border-style\:ex:focus-within,
+	.md\:focus-within\:bds\:ex:focus-within {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius\:ex:focus-within,
+	.md\:focus-within\:bdr\:ex:focus-within {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-top-left\:ex:focus-within,
+	.md\:focus-within\:bdrtl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-top-right\:ex:focus-within,
+	.md\:focus-within\:bdrtr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-bottom-left\:ex:focus-within,
+	.md\:focus-within\:bdrbl\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-bottom-right\:ex:focus-within,
+	.md\:focus-within\:bdrbr\:ex:focus-within {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-top\:ex:focus-within,
+	.md\:focus-within\:bdrt\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-right\:ex:focus-within,
+	.md\:focus-within\:bdrr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-bottom\:ex:focus-within,
+	.md\:focus-within\:bdrb\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:border-radius-left\:ex:focus-within,
+	.md\:focus-within\:bdrl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -14784,6 +16900,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:border-width\:ex:active,
+	.md\:active\:bdw\:ex:active {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:active\:border-width-top\:ex:active,
+	.md\:active\:bdwt\:ex:active {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:active\:border-width-right\:ex:active,
+	.md\:active\:bdwr\:ex:active {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:active\:border-width-bottom\:ex:active,
+	.md\:active\:bdwb\:ex:active {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:active\:border-width-left\:ex:active,
+	.md\:active\:bdwl\:ex:active {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:active\:border-width-x\:ex:active,
+	.md\:active\:bdwx\:ex:active {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:active\:border-width-y\:ex:active,
+	.md\:active\:bdwy\:ex:active {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:active\:border-style\:ex:active,
+	.md\:active\:bds\:ex:active {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:active\:border-radius\:ex:active,
+	.md\:active\:bdr\:ex:active {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:active\:border-radius-top-left\:ex:active,
+	.md\:active\:bdrtl\:ex:active {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:active\:border-radius-top-right\:ex:active,
+	.md\:active\:bdrtr\:ex:active {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:active\:border-radius-bottom-left\:ex:active,
+	.md\:active\:bdrbl\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:active\:border-radius-bottom-right\:ex:active,
+	.md\:active\:bdrbr\:ex:active {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:active\:border-radius-top\:ex:active,
+	.md\:active\:bdrt\:ex:active {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:active\:border-radius-right\:ex:active,
+	.md\:active\:bdrr\:ex:active {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:active\:border-radius-bottom\:ex:active,
+	.md\:active\:bdrb\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:active\:border-radius-left\:ex:active,
+	.md\:active\:bdrl\:ex:active {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -15401,6 +17609,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:border-width\:ex:disabled,
+	.md\:disabled\:bdw\:ex:disabled {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:disabled\:border-width-top\:ex:disabled,
+	.md\:disabled\:bdwt\:ex:disabled {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:disabled\:border-width-right\:ex:disabled,
+	.md\:disabled\:bdwr\:ex:disabled {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:disabled\:border-width-bottom\:ex:disabled,
+	.md\:disabled\:bdwb\:ex:disabled {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:disabled\:border-width-left\:ex:disabled,
+	.md\:disabled\:bdwl\:ex:disabled {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:disabled\:border-width-x\:ex:disabled,
+	.md\:disabled\:bdwx\:ex:disabled {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:disabled\:border-width-y\:ex:disabled,
+	.md\:disabled\:bdwy\:ex:disabled {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:disabled\:border-style\:ex:disabled,
+	.md\:disabled\:bds\:ex:disabled {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:disabled\:border-radius\:ex:disabled,
+	.md\:disabled\:bdr\:ex:disabled {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-top-left\:ex:disabled,
+	.md\:disabled\:bdrtl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-top-right\:ex:disabled,
+	.md\:disabled\:bdrtr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-bottom-left\:ex:disabled,
+	.md\:disabled\:bdrbl\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-bottom-right\:ex:disabled,
+	.md\:disabled\:bdrbr\:ex:disabled {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-top\:ex:disabled,
+	.md\:disabled\:bdrt\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-right\:ex:disabled,
+	.md\:disabled\:bdrr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-bottom\:ex:disabled,
+	.md\:disabled\:bdrb\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:disabled\:border-radius-left\:ex:disabled,
+	.md\:disabled\:bdrl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -16017,6 +18317,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:border-width\:ex:checked,
+	.md\:checked\:bdw\:ex:checked {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:checked\:border-width-top\:ex:checked,
+	.md\:checked\:bdwt\:ex:checked {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:checked\:border-width-right\:ex:checked,
+	.md\:checked\:bdwr\:ex:checked {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:checked\:border-width-bottom\:ex:checked,
+	.md\:checked\:bdwb\:ex:checked {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:checked\:border-width-left\:ex:checked,
+	.md\:checked\:bdwl\:ex:checked {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:checked\:border-width-x\:ex:checked,
+	.md\:checked\:bdwx\:ex:checked {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:checked\:border-width-y\:ex:checked,
+	.md\:checked\:bdwy\:ex:checked {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:checked\:border-style\:ex:checked,
+	.md\:checked\:bds\:ex:checked {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:checked\:border-radius\:ex:checked,
+	.md\:checked\:bdr\:ex:checked {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:checked\:border-radius-top-left\:ex:checked,
+	.md\:checked\:bdrtl\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:checked\:border-radius-top-right\:ex:checked,
+	.md\:checked\:bdrtr\:ex:checked {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:checked\:border-radius-bottom-left\:ex:checked,
+	.md\:checked\:bdrbl\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:checked\:border-radius-bottom-right\:ex:checked,
+	.md\:checked\:bdrbr\:ex:checked {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:checked\:border-radius-top\:ex:checked,
+	.md\:checked\:bdrt\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:checked\:border-radius-right\:ex:checked,
+	.md\:checked\:bdrr\:ex:checked {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:checked\:border-radius-bottom\:ex:checked,
+	.md\:checked\:bdrb\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:checked\:border-radius-left\:ex:checked,
+	.md\:checked\:bdrl\:ex:checked {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -16632,6 +19024,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:border-width\:ex:visited,
+	.md\:visited\:bdw\:ex:visited {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.md\:visited\:border-width-top\:ex:visited,
+	.md\:visited\:bdwt\:ex:visited {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.md\:visited\:border-width-right\:ex:visited,
+	.md\:visited\:bdwr\:ex:visited {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.md\:visited\:border-width-bottom\:ex:visited,
+	.md\:visited\:bdwb\:ex:visited {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.md\:visited\:border-width-left\:ex:visited,
+	.md\:visited\:bdwl\:ex:visited {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.md\:visited\:border-width-x\:ex:visited,
+	.md\:visited\:bdwx\:ex:visited {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.md\:visited\:border-width-y\:ex:visited,
+	.md\:visited\:bdwy\:ex:visited {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.md\:visited\:border-style\:ex:visited,
+	.md\:visited\:bds\:ex:visited {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.md\:visited\:border-radius\:ex:visited,
+	.md\:visited\:bdr\:ex:visited {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.md\:visited\:border-radius-top-left\:ex:visited,
+	.md\:visited\:bdrtl\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.md\:visited\:border-radius-top-right\:ex:visited,
+	.md\:visited\:bdrtr\:ex:visited {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.md\:visited\:border-radius-bottom-left\:ex:visited,
+	.md\:visited\:bdrbl\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.md\:visited\:border-radius-bottom-right\:ex:visited,
+	.md\:visited\:bdrbr\:ex:visited {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.md\:visited\:border-radius-top\:ex:visited,
+	.md\:visited\:bdrt\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.md\:visited\:border-radius-right\:ex:visited,
+	.md\:visited\:bdrr\:ex:visited {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.md\:visited\:border-radius-bottom\:ex:visited,
+	.md\:visited\:bdrb\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.md\:visited\:border-radius-left\:ex:visited,
+	.md\:visited\:bdrl\:ex:visited {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -17251,6 +19735,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:border-width\:ex,
+	.lg\:bdw\:ex {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:border-width-top\:ex,
+	.lg\:bdwt\:ex {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:border-width-right\:ex,
+	.lg\:bdwr\:ex {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:border-width-bottom\:ex,
+	.lg\:bdwb\:ex {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:border-width-left\:ex,
+	.lg\:bdwl\:ex {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:border-width-x\:ex,
+	.lg\:bdwx\:ex {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:border-width-y\:ex,
+	.lg\:bdwy\:ex {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:border-style\:ex,
+	.lg\:bds\:ex {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:border-radius\:ex,
+	.lg\:bdr\:ex {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:border-radius-top-left\:ex,
+	.lg\:bdrtl\:ex {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:border-radius-top-right\:ex,
+	.lg\:bdrtr\:ex {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:border-radius-bottom-left\:ex,
+	.lg\:bdrbl\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:border-radius-bottom-right\:ex,
+	.lg\:bdrbr\:ex {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:border-radius-top\:ex,
+	.lg\:bdrt\:ex {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:border-radius-right\:ex,
+	.lg\:bdrr\:ex {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:border-radius-bottom\:ex,
+	.lg\:bdrb\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:border-radius-left\:ex,
+	.lg\:bdrl\:ex {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -17866,6 +20442,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:border-width\:ex:hover,
+	.lg\:hover\:bdw\:ex:hover {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:hover\:border-width-top\:ex:hover,
+	.lg\:hover\:bdwt\:ex:hover {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:hover\:border-width-right\:ex:hover,
+	.lg\:hover\:bdwr\:ex:hover {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:hover\:border-width-bottom\:ex:hover,
+	.lg\:hover\:bdwb\:ex:hover {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:hover\:border-width-left\:ex:hover,
+	.lg\:hover\:bdwl\:ex:hover {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:hover\:border-width-x\:ex:hover,
+	.lg\:hover\:bdwx\:ex:hover {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:hover\:border-width-y\:ex:hover,
+	.lg\:hover\:bdwy\:ex:hover {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:hover\:border-style\:ex:hover,
+	.lg\:hover\:bds\:ex:hover {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:hover\:border-radius\:ex:hover,
+	.lg\:hover\:bdr\:ex:hover {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-top-left\:ex:hover,
+	.lg\:hover\:bdrtl\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-top-right\:ex:hover,
+	.lg\:hover\:bdrtr\:ex:hover {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-bottom-left\:ex:hover,
+	.lg\:hover\:bdrbl\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-bottom-right\:ex:hover,
+	.lg\:hover\:bdrbr\:ex:hover {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-top\:ex:hover,
+	.lg\:hover\:bdrt\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-right\:ex:hover,
+	.lg\:hover\:bdrr\:ex:hover {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-bottom\:ex:hover,
+	.lg\:hover\:bdrb\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:hover\:border-radius-left\:ex:hover,
+	.lg\:hover\:bdrl\:ex:hover {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -18483,6 +21151,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:border-width\:ex:focus,
+	.lg\:focus\:bdw\:ex:focus {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:focus\:border-width-top\:ex:focus,
+	.lg\:focus\:bdwt\:ex:focus {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:focus\:border-width-right\:ex:focus,
+	.lg\:focus\:bdwr\:ex:focus {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:focus\:border-width-bottom\:ex:focus,
+	.lg\:focus\:bdwb\:ex:focus {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:focus\:border-width-left\:ex:focus,
+	.lg\:focus\:bdwl\:ex:focus {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:focus\:border-width-x\:ex:focus,
+	.lg\:focus\:bdwx\:ex:focus {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:focus\:border-width-y\:ex:focus,
+	.lg\:focus\:bdwy\:ex:focus {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:focus\:border-style\:ex:focus,
+	.lg\:focus\:bds\:ex:focus {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:focus\:border-radius\:ex:focus,
+	.lg\:focus\:bdr\:ex:focus {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-top-left\:ex:focus,
+	.lg\:focus\:bdrtl\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-top-right\:ex:focus,
+	.lg\:focus\:bdrtr\:ex:focus {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-bottom-left\:ex:focus,
+	.lg\:focus\:bdrbl\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-bottom-right\:ex:focus,
+	.lg\:focus\:bdrbr\:ex:focus {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-top\:ex:focus,
+	.lg\:focus\:bdrt\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-right\:ex:focus,
+	.lg\:focus\:bdrr\:ex:focus {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-bottom\:ex:focus,
+	.lg\:focus\:bdrb\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:focus\:border-radius-left\:ex:focus,
+	.lg\:focus\:bdrl\:ex:focus {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -19098,6 +21858,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:border-width\:ex:focus-visible,
+	.lg\:focus-visible\:bdw\:ex:focus-visible {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-top\:ex:focus-visible,
+	.lg\:focus-visible\:bdwt\:ex:focus-visible {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-right\:ex:focus-visible,
+	.lg\:focus-visible\:bdwr\:ex:focus-visible {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:bdwb\:ex:focus-visible {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-left\:ex:focus-visible,
+	.lg\:focus-visible\:bdwl\:ex:focus-visible {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-x\:ex:focus-visible,
+	.lg\:focus-visible\:bdwx\:ex:focus-visible {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-width-y\:ex:focus-visible,
+	.lg\:focus-visible\:bdwy\:ex:focus-visible {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-style\:ex:focus-visible,
+	.lg\:focus-visible\:bds\:ex:focus-visible {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius\:ex:focus-visible,
+	.lg\:focus-visible\:bdr\:ex:focus-visible {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-top-left\:ex:focus-visible,
+	.lg\:focus-visible\:bdrtl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-top-right\:ex:focus-visible,
+	.lg\:focus-visible\:bdrtr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-bottom-left\:ex:focus-visible,
+	.lg\:focus-visible\:bdrbl\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-bottom-right\:ex:focus-visible,
+	.lg\:focus-visible\:bdrbr\:ex:focus-visible {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-top\:ex:focus-visible,
+	.lg\:focus-visible\:bdrt\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-right\:ex:focus-visible,
+	.lg\:focus-visible\:bdrr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:bdrb\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-radius-left\:ex:focus-visible,
+	.lg\:focus-visible\:bdrl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -19715,6 +22567,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:border-width\:ex:focus-within,
+	.lg\:focus-within\:bdw\:ex:focus-within {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-top\:ex:focus-within,
+	.lg\:focus-within\:bdwt\:ex:focus-within {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-right\:ex:focus-within,
+	.lg\:focus-within\:bdwr\:ex:focus-within {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-bottom\:ex:focus-within,
+	.lg\:focus-within\:bdwb\:ex:focus-within {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-left\:ex:focus-within,
+	.lg\:focus-within\:bdwl\:ex:focus-within {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-x\:ex:focus-within,
+	.lg\:focus-within\:bdwx\:ex:focus-within {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:focus-within\:border-width-y\:ex:focus-within,
+	.lg\:focus-within\:bdwy\:ex:focus-within {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:focus-within\:border-style\:ex:focus-within,
+	.lg\:focus-within\:bds\:ex:focus-within {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius\:ex:focus-within,
+	.lg\:focus-within\:bdr\:ex:focus-within {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-top-left\:ex:focus-within,
+	.lg\:focus-within\:bdrtl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-top-right\:ex:focus-within,
+	.lg\:focus-within\:bdrtr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-bottom-left\:ex:focus-within,
+	.lg\:focus-within\:bdrbl\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-bottom-right\:ex:focus-within,
+	.lg\:focus-within\:bdrbr\:ex:focus-within {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-top\:ex:focus-within,
+	.lg\:focus-within\:bdrt\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-right\:ex:focus-within,
+	.lg\:focus-within\:bdrr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-bottom\:ex:focus-within,
+	.lg\:focus-within\:bdrb\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:border-radius-left\:ex:focus-within,
+	.lg\:focus-within\:bdrl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -20330,6 +23274,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:border-width\:ex:active,
+	.lg\:active\:bdw\:ex:active {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:active\:border-width-top\:ex:active,
+	.lg\:active\:bdwt\:ex:active {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:active\:border-width-right\:ex:active,
+	.lg\:active\:bdwr\:ex:active {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:active\:border-width-bottom\:ex:active,
+	.lg\:active\:bdwb\:ex:active {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:active\:border-width-left\:ex:active,
+	.lg\:active\:bdwl\:ex:active {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:active\:border-width-x\:ex:active,
+	.lg\:active\:bdwx\:ex:active {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:active\:border-width-y\:ex:active,
+	.lg\:active\:bdwy\:ex:active {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:active\:border-style\:ex:active,
+	.lg\:active\:bds\:ex:active {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:active\:border-radius\:ex:active,
+	.lg\:active\:bdr\:ex:active {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:active\:border-radius-top-left\:ex:active,
+	.lg\:active\:bdrtl\:ex:active {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:active\:border-radius-top-right\:ex:active,
+	.lg\:active\:bdrtr\:ex:active {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:active\:border-radius-bottom-left\:ex:active,
+	.lg\:active\:bdrbl\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:active\:border-radius-bottom-right\:ex:active,
+	.lg\:active\:bdrbr\:ex:active {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:active\:border-radius-top\:ex:active,
+	.lg\:active\:bdrt\:ex:active {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:active\:border-radius-right\:ex:active,
+	.lg\:active\:bdrr\:ex:active {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:active\:border-radius-bottom\:ex:active,
+	.lg\:active\:bdrb\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:active\:border-radius-left\:ex:active,
+	.lg\:active\:bdrl\:ex:active {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -20947,6 +23983,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:border-width\:ex:disabled,
+	.lg\:disabled\:bdw\:ex:disabled {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-top\:ex:disabled,
+	.lg\:disabled\:bdwt\:ex:disabled {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-right\:ex:disabled,
+	.lg\:disabled\:bdwr\:ex:disabled {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-bottom\:ex:disabled,
+	.lg\:disabled\:bdwb\:ex:disabled {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-left\:ex:disabled,
+	.lg\:disabled\:bdwl\:ex:disabled {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-x\:ex:disabled,
+	.lg\:disabled\:bdwx\:ex:disabled {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:disabled\:border-width-y\:ex:disabled,
+	.lg\:disabled\:bdwy\:ex:disabled {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:disabled\:border-style\:ex:disabled,
+	.lg\:disabled\:bds\:ex:disabled {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius\:ex:disabled,
+	.lg\:disabled\:bdr\:ex:disabled {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-top-left\:ex:disabled,
+	.lg\:disabled\:bdrtl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-top-right\:ex:disabled,
+	.lg\:disabled\:bdrtr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-bottom-left\:ex:disabled,
+	.lg\:disabled\:bdrbl\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-bottom-right\:ex:disabled,
+	.lg\:disabled\:bdrbr\:ex:disabled {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-top\:ex:disabled,
+	.lg\:disabled\:bdrt\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-right\:ex:disabled,
+	.lg\:disabled\:bdrr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-bottom\:ex:disabled,
+	.lg\:disabled\:bdrb\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:border-radius-left\:ex:disabled,
+	.lg\:disabled\:bdrl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -21563,6 +24691,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:border-width\:ex:checked,
+	.lg\:checked\:bdw\:ex:checked {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:checked\:border-width-top\:ex:checked,
+	.lg\:checked\:bdwt\:ex:checked {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:checked\:border-width-right\:ex:checked,
+	.lg\:checked\:bdwr\:ex:checked {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:checked\:border-width-bottom\:ex:checked,
+	.lg\:checked\:bdwb\:ex:checked {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:checked\:border-width-left\:ex:checked,
+	.lg\:checked\:bdwl\:ex:checked {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:checked\:border-width-x\:ex:checked,
+	.lg\:checked\:bdwx\:ex:checked {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:checked\:border-width-y\:ex:checked,
+	.lg\:checked\:bdwy\:ex:checked {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:checked\:border-style\:ex:checked,
+	.lg\:checked\:bds\:ex:checked {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:checked\:border-radius\:ex:checked,
+	.lg\:checked\:bdr\:ex:checked {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-top-left\:ex:checked,
+	.lg\:checked\:bdrtl\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-top-right\:ex:checked,
+	.lg\:checked\:bdrtr\:ex:checked {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-bottom-left\:ex:checked,
+	.lg\:checked\:bdrbl\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-bottom-right\:ex:checked,
+	.lg\:checked\:bdrbr\:ex:checked {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-top\:ex:checked,
+	.lg\:checked\:bdrt\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-right\:ex:checked,
+	.lg\:checked\:bdrr\:ex:checked {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-bottom\:ex:checked,
+	.lg\:checked\:bdrb\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:checked\:border-radius-left\:ex:checked,
+	.lg\:checked\:bdrl\:ex:checked {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -22178,6 +25398,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:border-width\:ex:visited,
+	.lg\:visited\:bdw\:ex:visited {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.lg\:visited\:border-width-top\:ex:visited,
+	.lg\:visited\:bdwt\:ex:visited {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.lg\:visited\:border-width-right\:ex:visited,
+	.lg\:visited\:bdwr\:ex:visited {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.lg\:visited\:border-width-bottom\:ex:visited,
+	.lg\:visited\:bdwb\:ex:visited {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.lg\:visited\:border-width-left\:ex:visited,
+	.lg\:visited\:bdwl\:ex:visited {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.lg\:visited\:border-width-x\:ex:visited,
+	.lg\:visited\:bdwx\:ex:visited {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.lg\:visited\:border-width-y\:ex:visited,
+	.lg\:visited\:bdwy\:ex:visited {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.lg\:visited\:border-style\:ex:visited,
+	.lg\:visited\:bds\:ex:visited {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.lg\:visited\:border-radius\:ex:visited,
+	.lg\:visited\:bdr\:ex:visited {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-top-left\:ex:visited,
+	.lg\:visited\:bdrtl\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-top-right\:ex:visited,
+	.lg\:visited\:bdrtr\:ex:visited {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-bottom-left\:ex:visited,
+	.lg\:visited\:bdrbl\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-bottom-right\:ex:visited,
+	.lg\:visited\:bdrbr\:ex:visited {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-top\:ex:visited,
+	.lg\:visited\:bdrt\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-right\:ex:visited,
+	.lg\:visited\:bdrr\:ex:visited {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-bottom\:ex:visited,
+	.lg\:visited\:bdrb\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.lg\:visited\:border-radius-left\:ex:visited,
+	.lg\:visited\:bdrl\:ex:visited {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -22797,6 +26109,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:border-width\:ex,
+	.xl\:bdw\:ex {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:border-width-top\:ex,
+	.xl\:bdwt\:ex {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:border-width-right\:ex,
+	.xl\:bdwr\:ex {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:border-width-bottom\:ex,
+	.xl\:bdwb\:ex {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:border-width-left\:ex,
+	.xl\:bdwl\:ex {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:border-width-x\:ex,
+	.xl\:bdwx\:ex {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:border-width-y\:ex,
+	.xl\:bdwy\:ex {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:border-style\:ex,
+	.xl\:bds\:ex {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:border-radius\:ex,
+	.xl\:bdr\:ex {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:border-radius-top-left\:ex,
+	.xl\:bdrtl\:ex {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:border-radius-top-right\:ex,
+	.xl\:bdrtr\:ex {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:border-radius-bottom-left\:ex,
+	.xl\:bdrbl\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:border-radius-bottom-right\:ex,
+	.xl\:bdrbr\:ex {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:border-radius-top\:ex,
+	.xl\:bdrt\:ex {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:border-radius-right\:ex,
+	.xl\:bdrr\:ex {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:border-radius-bottom\:ex,
+	.xl\:bdrb\:ex {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:border-radius-left\:ex,
+	.xl\:bdrl\:ex {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -23412,6 +26816,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:border-width\:ex:hover,
+	.xl\:hover\:bdw\:ex:hover {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:hover\:border-width-top\:ex:hover,
+	.xl\:hover\:bdwt\:ex:hover {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:hover\:border-width-right\:ex:hover,
+	.xl\:hover\:bdwr\:ex:hover {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:hover\:border-width-bottom\:ex:hover,
+	.xl\:hover\:bdwb\:ex:hover {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:hover\:border-width-left\:ex:hover,
+	.xl\:hover\:bdwl\:ex:hover {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:hover\:border-width-x\:ex:hover,
+	.xl\:hover\:bdwx\:ex:hover {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:hover\:border-width-y\:ex:hover,
+	.xl\:hover\:bdwy\:ex:hover {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:hover\:border-style\:ex:hover,
+	.xl\:hover\:bds\:ex:hover {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:hover\:border-radius\:ex:hover,
+	.xl\:hover\:bdr\:ex:hover {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-top-left\:ex:hover,
+	.xl\:hover\:bdrtl\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-top-right\:ex:hover,
+	.xl\:hover\:bdrtr\:ex:hover {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-bottom-left\:ex:hover,
+	.xl\:hover\:bdrbl\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-bottom-right\:ex:hover,
+	.xl\:hover\:bdrbr\:ex:hover {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-top\:ex:hover,
+	.xl\:hover\:bdrt\:ex:hover {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-right\:ex:hover,
+	.xl\:hover\:bdrr\:ex:hover {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-bottom\:ex:hover,
+	.xl\:hover\:bdrb\:ex:hover {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:hover\:border-radius-left\:ex:hover,
+	.xl\:hover\:bdrl\:ex:hover {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -24029,6 +27525,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:border-width\:ex:focus,
+	.xl\:focus\:bdw\:ex:focus {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:focus\:border-width-top\:ex:focus,
+	.xl\:focus\:bdwt\:ex:focus {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:focus\:border-width-right\:ex:focus,
+	.xl\:focus\:bdwr\:ex:focus {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:focus\:border-width-bottom\:ex:focus,
+	.xl\:focus\:bdwb\:ex:focus {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:focus\:border-width-left\:ex:focus,
+	.xl\:focus\:bdwl\:ex:focus {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:focus\:border-width-x\:ex:focus,
+	.xl\:focus\:bdwx\:ex:focus {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:focus\:border-width-y\:ex:focus,
+	.xl\:focus\:bdwy\:ex:focus {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:focus\:border-style\:ex:focus,
+	.xl\:focus\:bds\:ex:focus {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:focus\:border-radius\:ex:focus,
+	.xl\:focus\:bdr\:ex:focus {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-top-left\:ex:focus,
+	.xl\:focus\:bdrtl\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-top-right\:ex:focus,
+	.xl\:focus\:bdrtr\:ex:focus {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-bottom-left\:ex:focus,
+	.xl\:focus\:bdrbl\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-bottom-right\:ex:focus,
+	.xl\:focus\:bdrbr\:ex:focus {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-top\:ex:focus,
+	.xl\:focus\:bdrt\:ex:focus {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-right\:ex:focus,
+	.xl\:focus\:bdrr\:ex:focus {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-bottom\:ex:focus,
+	.xl\:focus\:bdrb\:ex:focus {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:focus\:border-radius-left\:ex:focus,
+	.xl\:focus\:bdrl\:ex:focus {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -24644,6 +28232,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:border-width\:ex:focus-visible,
+	.xl\:focus-visible\:bdw\:ex:focus-visible {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-top\:ex:focus-visible,
+	.xl\:focus-visible\:bdwt\:ex:focus-visible {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-right\:ex:focus-visible,
+	.xl\:focus-visible\:bdwr\:ex:focus-visible {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:bdwb\:ex:focus-visible {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-left\:ex:focus-visible,
+	.xl\:focus-visible\:bdwl\:ex:focus-visible {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-x\:ex:focus-visible,
+	.xl\:focus-visible\:bdwx\:ex:focus-visible {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-width-y\:ex:focus-visible,
+	.xl\:focus-visible\:bdwy\:ex:focus-visible {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-style\:ex:focus-visible,
+	.xl\:focus-visible\:bds\:ex:focus-visible {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius\:ex:focus-visible,
+	.xl\:focus-visible\:bdr\:ex:focus-visible {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-top-left\:ex:focus-visible,
+	.xl\:focus-visible\:bdrtl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-top-right\:ex:focus-visible,
+	.xl\:focus-visible\:bdrtr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-bottom-left\:ex:focus-visible,
+	.xl\:focus-visible\:bdrbl\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-bottom-right\:ex:focus-visible,
+	.xl\:focus-visible\:bdrbr\:ex:focus-visible {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-top\:ex:focus-visible,
+	.xl\:focus-visible\:bdrt\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-right\:ex:focus-visible,
+	.xl\:focus-visible\:bdrr\:ex:focus-visible {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:bdrb\:ex:focus-visible {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-radius-left\:ex:focus-visible,
+	.xl\:focus-visible\:bdrl\:ex:focus-visible {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -25261,6 +28941,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:border-width\:ex:focus-within,
+	.xl\:focus-within\:bdw\:ex:focus-within {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-top\:ex:focus-within,
+	.xl\:focus-within\:bdwt\:ex:focus-within {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-right\:ex:focus-within,
+	.xl\:focus-within\:bdwr\:ex:focus-within {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-bottom\:ex:focus-within,
+	.xl\:focus-within\:bdwb\:ex:focus-within {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-left\:ex:focus-within,
+	.xl\:focus-within\:bdwl\:ex:focus-within {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-x\:ex:focus-within,
+	.xl\:focus-within\:bdwx\:ex:focus-within {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:focus-within\:border-width-y\:ex:focus-within,
+	.xl\:focus-within\:bdwy\:ex:focus-within {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:focus-within\:border-style\:ex:focus-within,
+	.xl\:focus-within\:bds\:ex:focus-within {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius\:ex:focus-within,
+	.xl\:focus-within\:bdr\:ex:focus-within {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-top-left\:ex:focus-within,
+	.xl\:focus-within\:bdrtl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-top-right\:ex:focus-within,
+	.xl\:focus-within\:bdrtr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-bottom-left\:ex:focus-within,
+	.xl\:focus-within\:bdrbl\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-bottom-right\:ex:focus-within,
+	.xl\:focus-within\:bdrbr\:ex:focus-within {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-top\:ex:focus-within,
+	.xl\:focus-within\:bdrt\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-right\:ex:focus-within,
+	.xl\:focus-within\:bdrr\:ex:focus-within {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-bottom\:ex:focus-within,
+	.xl\:focus-within\:bdrb\:ex:focus-within {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:border-radius-left\:ex:focus-within,
+	.xl\:focus-within\:bdrl\:ex:focus-within {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -25876,6 +29648,98 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:border-width\:ex:active,
+	.xl\:active\:bdw\:ex:active {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:active\:border-width-top\:ex:active,
+	.xl\:active\:bdwt\:ex:active {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:active\:border-width-right\:ex:active,
+	.xl\:active\:bdwr\:ex:active {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:active\:border-width-bottom\:ex:active,
+	.xl\:active\:bdwb\:ex:active {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:active\:border-width-left\:ex:active,
+	.xl\:active\:bdwl\:ex:active {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:active\:border-width-x\:ex:active,
+	.xl\:active\:bdwx\:ex:active {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:active\:border-width-y\:ex:active,
+	.xl\:active\:bdwy\:ex:active {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:active\:border-style\:ex:active,
+	.xl\:active\:bds\:ex:active {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:active\:border-radius\:ex:active,
+	.xl\:active\:bdr\:ex:active {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:active\:border-radius-top-left\:ex:active,
+	.xl\:active\:bdrtl\:ex:active {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:active\:border-radius-top-right\:ex:active,
+	.xl\:active\:bdrtr\:ex:active {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:active\:border-radius-bottom-left\:ex:active,
+	.xl\:active\:bdrbl\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:active\:border-radius-bottom-right\:ex:active,
+	.xl\:active\:bdrbr\:ex:active {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:active\:border-radius-top\:ex:active,
+	.xl\:active\:bdrt\:ex:active {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:active\:border-radius-right\:ex:active,
+	.xl\:active\:bdrr\:ex:active {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:active\:border-radius-bottom\:ex:active,
+	.xl\:active\:bdrb\:ex:active {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:active\:border-radius-left\:ex:active,
+	.xl\:active\:bdrl\:ex:active {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
@@ -26493,6 +30357,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:border-width\:ex:disabled,
+	.xl\:disabled\:bdw\:ex:disabled {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-top\:ex:disabled,
+	.xl\:disabled\:bdwt\:ex:disabled {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-right\:ex:disabled,
+	.xl\:disabled\:bdwr\:ex:disabled {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-bottom\:ex:disabled,
+	.xl\:disabled\:bdwb\:ex:disabled {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-left\:ex:disabled,
+	.xl\:disabled\:bdwl\:ex:disabled {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-x\:ex:disabled,
+	.xl\:disabled\:bdwx\:ex:disabled {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:disabled\:border-width-y\:ex:disabled,
+	.xl\:disabled\:bdwy\:ex:disabled {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:disabled\:border-style\:ex:disabled,
+	.xl\:disabled\:bds\:ex:disabled {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius\:ex:disabled,
+	.xl\:disabled\:bdr\:ex:disabled {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-top-left\:ex:disabled,
+	.xl\:disabled\:bdrtl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-top-right\:ex:disabled,
+	.xl\:disabled\:bdrtr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-bottom-left\:ex:disabled,
+	.xl\:disabled\:bdrbl\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-bottom-right\:ex:disabled,
+	.xl\:disabled\:bdrbr\:ex:disabled {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-top\:ex:disabled,
+	.xl\:disabled\:bdrt\:ex:disabled {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-right\:ex:disabled,
+	.xl\:disabled\:bdrr\:ex:disabled {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-bottom\:ex:disabled,
+	.xl\:disabled\:bdrb\:ex:disabled {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:border-radius-left\:ex:disabled,
+	.xl\:disabled\:bdrl\:ex:disabled {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -27109,6 +31065,98 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:border-width\:ex:checked,
+	.xl\:checked\:bdw\:ex:checked {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:checked\:border-width-top\:ex:checked,
+	.xl\:checked\:bdwt\:ex:checked {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:checked\:border-width-right\:ex:checked,
+	.xl\:checked\:bdwr\:ex:checked {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:checked\:border-width-bottom\:ex:checked,
+	.xl\:checked\:bdwb\:ex:checked {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:checked\:border-width-left\:ex:checked,
+	.xl\:checked\:bdwl\:ex:checked {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:checked\:border-width-x\:ex:checked,
+	.xl\:checked\:bdwx\:ex:checked {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:checked\:border-width-y\:ex:checked,
+	.xl\:checked\:bdwy\:ex:checked {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:checked\:border-style\:ex:checked,
+	.xl\:checked\:bds\:ex:checked {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:checked\:border-radius\:ex:checked,
+	.xl\:checked\:bdr\:ex:checked {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-top-left\:ex:checked,
+	.xl\:checked\:bdrtl\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-top-right\:ex:checked,
+	.xl\:checked\:bdrtr\:ex:checked {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-bottom-left\:ex:checked,
+	.xl\:checked\:bdrbl\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-bottom-right\:ex:checked,
+	.xl\:checked\:bdrbr\:ex:checked {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-top\:ex:checked,
+	.xl\:checked\:bdrt\:ex:checked {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-right\:ex:checked,
+	.xl\:checked\:bdrr\:ex:checked {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-bottom\:ex:checked,
+	.xl\:checked\:bdrb\:ex:checked {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:checked\:border-radius-left\:ex:checked,
+	.xl\:checked\:bdrl\:ex:checked {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
+
 	/* ===== BORDER UTILITIES — width, style, radius ===== */
 
 	/* BORDER-WIDTH (per-side + axis shortcuts) */
@@ -27724,4 +31772,96 @@
 		border-bottom-left-radius: var(--radius-full) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:border-width\:ex:visited,
+	.xl\:visited\:bdw\:ex:visited {
+		border-width: var(--border-width-ex) !important;
+	}
+
+	.xl\:visited\:border-width-top\:ex:visited,
+	.xl\:visited\:bdwt\:ex:visited {
+		border-top-width: var(--border-width-top-ex) !important;
+	}
+
+	.xl\:visited\:border-width-right\:ex:visited,
+	.xl\:visited\:bdwr\:ex:visited {
+		border-right-width: var(--border-width-right-ex) !important;
+	}
+
+	.xl\:visited\:border-width-bottom\:ex:visited,
+	.xl\:visited\:bdwb\:ex:visited {
+		border-bottom-width: var(--border-width-bottom-ex) !important;
+	}
+
+	.xl\:visited\:border-width-left\:ex:visited,
+	.xl\:visited\:bdwl\:ex:visited {
+		border-left-width: var(--border-width-left-ex) !important;
+	}
+
+	.xl\:visited\:border-width-x\:ex:visited,
+	.xl\:visited\:bdwx\:ex:visited {
+		border-left-width: var(--border-width-x-ex) !important;
+		border-right-width: var(--border-width-x-ex) !important;
+	}
+
+	.xl\:visited\:border-width-y\:ex:visited,
+	.xl\:visited\:bdwy\:ex:visited {
+		border-top-width: var(--border-width-y-ex) !important;
+		border-bottom-width: var(--border-width-y-ex) !important;
+	}
+
+	.xl\:visited\:border-style\:ex:visited,
+	.xl\:visited\:bds\:ex:visited {
+		border-style: var(--border-style-ex) !important;
+	}
+
+	.xl\:visited\:border-radius\:ex:visited,
+	.xl\:visited\:bdr\:ex:visited {
+		border-radius: var(--border-radius-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-top-left\:ex:visited,
+	.xl\:visited\:bdrtl\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-left-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-top-right\:ex:visited,
+	.xl\:visited\:bdrtr\:ex:visited {
+		border-top-right-radius: var(--border-radius-top-right-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-bottom-left\:ex:visited,
+	.xl\:visited\:bdrbl\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-left-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-bottom-right\:ex:visited,
+	.xl\:visited\:bdrbr\:ex:visited {
+		border-bottom-right-radius: var(--border-radius-bottom-right-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-top\:ex:visited,
+	.xl\:visited\:bdrt\:ex:visited {
+		border-top-left-radius: var(--border-radius-top-ex) !important;
+		border-top-right-radius: var(--border-radius-top-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-right\:ex:visited,
+	.xl\:visited\:bdrr\:ex:visited {
+		border-top-right-radius: var(--border-radius-right-ex) !important;
+		border-bottom-right-radius: var(--border-radius-right-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-bottom\:ex:visited,
+	.xl\:visited\:bdrb\:ex:visited {
+		border-bottom-left-radius: var(--border-radius-bottom-ex) !important;
+		border-bottom-right-radius: var(--border-radius-bottom-ex) !important;
+	}
+
+	.xl\:visited\:border-radius-left\:ex:visited,
+	.xl\:visited\:bdrl\:ex:visited {
+		border-top-left-radius: var(--border-radius-left-ex) !important;
+		border-bottom-left-radius: var(--border-radius-left-ex) !important;
+	}
 }

@@ -25,6 +25,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.box-sizing\:ex,
+.bs\:ex {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.box-decoration-break\:ex,
+.bdb\:ex {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
+
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 /* BOX-SIZING */
@@ -51,6 +62,17 @@
 	box-decoration-break: clone !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:box-sizing\:ex:hover,
+.hover\:bs\:ex:hover {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.hover\:box-decoration-break\:ex:hover,
+.hover\:bdb\:ex:hover {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
 
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -79,6 +101,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:box-sizing\:ex:focus,
+.focus\:bs\:ex:focus {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.focus\:box-decoration-break\:ex:focus,
+.focus\:bdb\:ex:focus {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
+
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 /* BOX-SIZING */
@@ -105,6 +138,17 @@
 	box-decoration-break: clone !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:box-sizing\:ex:focus-visible,
+.focus-visible\:bs\:ex:focus-visible {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.focus-visible\:box-decoration-break\:ex:focus-visible,
+.focus-visible\:bdb\:ex:focus-visible {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
 
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -133,6 +177,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:box-sizing\:ex:focus-within,
+.focus-within\:bs\:ex:focus-within {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.focus-within\:box-decoration-break\:ex:focus-within,
+.focus-within\:bdb\:ex:focus-within {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
+
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 /* BOX-SIZING */
@@ -159,6 +214,17 @@
 	box-decoration-break: clone !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:box-sizing\:ex:active,
+.active\:bs\:ex:active {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.active\:box-decoration-break\:ex:active,
+.active\:bdb\:ex:active {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
 
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -187,6 +253,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:box-sizing\:ex:disabled,
+.disabled\:bs\:ex:disabled {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.disabled\:box-decoration-break\:ex:disabled,
+.disabled\:bdb\:ex:disabled {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
+
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 /* BOX-SIZING */
@@ -214,6 +291,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:box-sizing\:ex:checked,
+.checked\:bs\:ex:checked {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.checked\:box-decoration-break\:ex:checked,
+.checked\:bdb\:ex:checked {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
+
 /* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 /* BOX-SIZING */
@@ -240,6 +328,17 @@
 	box-decoration-break: clone !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:box-sizing\:ex:visited,
+.visited\:bs\:ex:visited {
+	box-sizing: var(--box-sizing-ex) !important;
+}
+
+.visited\:box-decoration-break\:ex:visited,
+.visited\:bdb\:ex:visited {
+	box-decoration-break: var(--box-decoration-break-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
@@ -269,6 +368,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:box-sizing\:ex,
+	.sm\:bs\:ex {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:box-decoration-break\:ex,
+	.sm\:bdb\:ex {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -295,6 +405,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:box-sizing\:ex:hover,
+	.sm\:hover\:bs\:ex:hover {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:hover\:box-decoration-break\:ex:hover,
+	.sm\:hover\:bdb\:ex:hover {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -323,6 +444,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:box-sizing\:ex:focus,
+	.sm\:focus\:bs\:ex:focus {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:focus\:box-decoration-break\:ex:focus,
+	.sm\:focus\:bdb\:ex:focus {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -349,6 +481,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:box-sizing\:ex:focus-visible,
+	.sm\:focus-visible\:bs\:ex:focus-visible {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:focus-visible\:box-decoration-break\:ex:focus-visible,
+	.sm\:focus-visible\:bdb\:ex:focus-visible {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -377,6 +520,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:box-sizing\:ex:focus-within,
+	.sm\:focus-within\:bs\:ex:focus-within {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:focus-within\:box-decoration-break\:ex:focus-within,
+	.sm\:focus-within\:bdb\:ex:focus-within {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -403,6 +557,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:box-sizing\:ex:active,
+	.sm\:active\:bs\:ex:active {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:active\:box-decoration-break\:ex:active,
+	.sm\:active\:bdb\:ex:active {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -431,6 +596,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:box-sizing\:ex:disabled,
+	.sm\:disabled\:bs\:ex:disabled {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:disabled\:box-decoration-break\:ex:disabled,
+	.sm\:disabled\:bdb\:ex:disabled {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -458,6 +634,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:box-sizing\:ex:checked,
+	.sm\:checked\:bs\:ex:checked {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:checked\:box-decoration-break\:ex:checked,
+	.sm\:checked\:bdb\:ex:checked {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -484,6 +671,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:box-sizing\:ex:visited,
+	.sm\:visited\:bs\:ex:visited {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.sm\:visited\:box-decoration-break\:ex:visited,
+	.sm\:visited\:bdb\:ex:visited {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -514,6 +712,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:box-sizing\:ex,
+	.md\:bs\:ex {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:box-decoration-break\:ex,
+	.md\:bdb\:ex {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -540,6 +749,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:box-sizing\:ex:hover,
+	.md\:hover\:bs\:ex:hover {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:hover\:box-decoration-break\:ex:hover,
+	.md\:hover\:bdb\:ex:hover {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -568,6 +788,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:box-sizing\:ex:focus,
+	.md\:focus\:bs\:ex:focus {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:focus\:box-decoration-break\:ex:focus,
+	.md\:focus\:bdb\:ex:focus {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -594,6 +825,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:box-sizing\:ex:focus-visible,
+	.md\:focus-visible\:bs\:ex:focus-visible {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:focus-visible\:box-decoration-break\:ex:focus-visible,
+	.md\:focus-visible\:bdb\:ex:focus-visible {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -622,6 +864,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:box-sizing\:ex:focus-within,
+	.md\:focus-within\:bs\:ex:focus-within {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:focus-within\:box-decoration-break\:ex:focus-within,
+	.md\:focus-within\:bdb\:ex:focus-within {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -648,6 +901,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:box-sizing\:ex:active,
+	.md\:active\:bs\:ex:active {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:active\:box-decoration-break\:ex:active,
+	.md\:active\:bdb\:ex:active {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -676,6 +940,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:box-sizing\:ex:disabled,
+	.md\:disabled\:bs\:ex:disabled {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:disabled\:box-decoration-break\:ex:disabled,
+	.md\:disabled\:bdb\:ex:disabled {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -703,6 +978,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:box-sizing\:ex:checked,
+	.md\:checked\:bs\:ex:checked {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:checked\:box-decoration-break\:ex:checked,
+	.md\:checked\:bdb\:ex:checked {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -729,6 +1015,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:box-sizing\:ex:visited,
+	.md\:visited\:bs\:ex:visited {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.md\:visited\:box-decoration-break\:ex:visited,
+	.md\:visited\:bdb\:ex:visited {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -759,6 +1056,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:box-sizing\:ex,
+	.lg\:bs\:ex {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:box-decoration-break\:ex,
+	.lg\:bdb\:ex {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -785,6 +1093,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:box-sizing\:ex:hover,
+	.lg\:hover\:bs\:ex:hover {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:hover\:box-decoration-break\:ex:hover,
+	.lg\:hover\:bdb\:ex:hover {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -813,6 +1132,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:box-sizing\:ex:focus,
+	.lg\:focus\:bs\:ex:focus {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:focus\:box-decoration-break\:ex:focus,
+	.lg\:focus\:bdb\:ex:focus {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -839,6 +1169,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:box-sizing\:ex:focus-visible,
+	.lg\:focus-visible\:bs\:ex:focus-visible {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:focus-visible\:box-decoration-break\:ex:focus-visible,
+	.lg\:focus-visible\:bdb\:ex:focus-visible {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -867,6 +1208,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:box-sizing\:ex:focus-within,
+	.lg\:focus-within\:bs\:ex:focus-within {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:focus-within\:box-decoration-break\:ex:focus-within,
+	.lg\:focus-within\:bdb\:ex:focus-within {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -893,6 +1245,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:box-sizing\:ex:active,
+	.lg\:active\:bs\:ex:active {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:active\:box-decoration-break\:ex:active,
+	.lg\:active\:bdb\:ex:active {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -921,6 +1284,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:box-sizing\:ex:disabled,
+	.lg\:disabled\:bs\:ex:disabled {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:disabled\:box-decoration-break\:ex:disabled,
+	.lg\:disabled\:bdb\:ex:disabled {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -948,6 +1322,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:box-sizing\:ex:checked,
+	.lg\:checked\:bs\:ex:checked {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:checked\:box-decoration-break\:ex:checked,
+	.lg\:checked\:bdb\:ex:checked {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -974,6 +1359,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:box-sizing\:ex:visited,
+	.lg\:visited\:bs\:ex:visited {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.lg\:visited\:box-decoration-break\:ex:visited,
+	.lg\:visited\:bdb\:ex:visited {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -1004,6 +1400,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:box-sizing\:ex,
+	.xl\:bs\:ex {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:box-decoration-break\:ex,
+	.xl\:bdb\:ex {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -1030,6 +1437,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:box-sizing\:ex:hover,
+	.xl\:hover\:bs\:ex:hover {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:hover\:box-decoration-break\:ex:hover,
+	.xl\:hover\:bdb\:ex:hover {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -1058,6 +1476,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:box-sizing\:ex:focus,
+	.xl\:focus\:bs\:ex:focus {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:focus\:box-decoration-break\:ex:focus,
+	.xl\:focus\:bdb\:ex:focus {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -1084,6 +1513,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:box-sizing\:ex:focus-visible,
+	.xl\:focus-visible\:bs\:ex:focus-visible {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:focus-visible\:box-decoration-break\:ex:focus-visible,
+	.xl\:focus-visible\:bdb\:ex:focus-visible {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -1112,6 +1552,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:box-sizing\:ex:focus-within,
+	.xl\:focus-within\:bs\:ex:focus-within {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:focus-within\:box-decoration-break\:ex:focus-within,
+	.xl\:focus-within\:bdb\:ex:focus-within {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -1138,6 +1589,17 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:box-sizing\:ex:active,
+	.xl\:active\:bs\:ex:active {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:active\:box-decoration-break\:ex:active,
+	.xl\:active\:bdb\:ex:active {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
@@ -1166,6 +1628,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:box-sizing\:ex:disabled,
+	.xl\:disabled\:bs\:ex:disabled {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:disabled\:box-decoration-break\:ex:disabled,
+	.xl\:disabled\:bdb\:ex:disabled {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -1193,6 +1666,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:box-sizing\:ex:checked,
+	.xl\:checked\:bs\:ex:checked {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:checked\:box-decoration-break\:ex:checked,
+	.xl\:checked\:bdb\:ex:checked {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
+
 	/* ===== BOX UTILITIES — box-sizing, box-decoration-break ===== */
 
 	/* BOX-SIZING */
@@ -1219,4 +1703,15 @@
 		box-decoration-break: clone !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:box-sizing\:ex:visited,
+	.xl\:visited\:bs\:ex:visited {
+		box-sizing: var(--box-sizing-ex) !important;
+	}
+
+	.xl\:visited\:box-decoration-break\:ex:visited,
+	.xl\:visited\:bdb\:ex:visited {
+		box-decoration-break: var(--box-decoration-break-ex) !important;
+	}
 }

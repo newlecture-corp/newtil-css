@@ -60,6 +60,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.float\:ex,
+.fl\:ex {
+	float: var(--float-ex) !important;
+}
+
+.clear\:ex,
+.cl\:ex {
+	clear: var(--clear-ex) !important;
+}
+
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
 /* FLOAT */
@@ -121,6 +132,17 @@
 	clear: inline-end !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:float\:ex:hover,
+.hover\:fl\:ex:hover {
+	float: var(--float-ex) !important;
+}
+
+.hover\:clear\:ex:hover,
+.hover\:cl\:ex:hover {
+	clear: var(--clear-ex) !important;
+}
 
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -184,6 +206,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:float\:ex:focus,
+.focus\:fl\:ex:focus {
+	float: var(--float-ex) !important;
+}
+
+.focus\:clear\:ex:focus,
+.focus\:cl\:ex:focus {
+	clear: var(--clear-ex) !important;
+}
+
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
 /* FLOAT */
@@ -245,6 +278,17 @@
 	clear: inline-end !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:float\:ex:focus-visible,
+.focus-visible\:fl\:ex:focus-visible {
+	float: var(--float-ex) !important;
+}
+
+.focus-visible\:clear\:ex:focus-visible,
+.focus-visible\:cl\:ex:focus-visible {
+	clear: var(--clear-ex) !important;
+}
 
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -308,6 +352,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:float\:ex:focus-within,
+.focus-within\:fl\:ex:focus-within {
+	float: var(--float-ex) !important;
+}
+
+.focus-within\:clear\:ex:focus-within,
+.focus-within\:cl\:ex:focus-within {
+	clear: var(--clear-ex) !important;
+}
+
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
 /* FLOAT */
@@ -369,6 +424,17 @@
 	clear: inline-end !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:float\:ex:active,
+.active\:fl\:ex:active {
+	float: var(--float-ex) !important;
+}
+
+.active\:clear\:ex:active,
+.active\:cl\:ex:active {
+	clear: var(--clear-ex) !important;
+}
 
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -432,6 +498,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:float\:ex:disabled,
+.disabled\:fl\:ex:disabled {
+	float: var(--float-ex) !important;
+}
+
+.disabled\:clear\:ex:disabled,
+.disabled\:cl\:ex:disabled {
+	clear: var(--clear-ex) !important;
+}
+
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
 /* FLOAT */
@@ -494,6 +571,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:float\:ex:checked,
+.checked\:fl\:ex:checked {
+	float: var(--float-ex) !important;
+}
+
+.checked\:clear\:ex:checked,
+.checked\:cl\:ex:checked {
+	clear: var(--clear-ex) !important;
+}
+
 /* ===== LEGACY LAYOUT — float, clear ===== */
 
 /* FLOAT */
@@ -555,6 +643,17 @@
 	clear: inline-end !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:float\:ex:visited,
+.visited\:fl\:ex:visited {
+	float: var(--float-ex) !important;
+}
+
+.visited\:clear\:ex:visited,
+.visited\:cl\:ex:visited {
+	clear: var(--clear-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== LEGACY LAYOUT — float, clear ===== */
@@ -619,6 +718,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:float\:ex,
+	.sm\:fl\:ex {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:clear\:ex,
+	.sm\:cl\:ex {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -680,6 +790,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:float\:ex:hover,
+	.sm\:hover\:fl\:ex:hover {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:hover\:clear\:ex:hover,
+	.sm\:hover\:cl\:ex:hover {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -743,6 +864,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:float\:ex:focus,
+	.sm\:focus\:fl\:ex:focus {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:focus\:clear\:ex:focus,
+	.sm\:focus\:cl\:ex:focus {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -804,6 +936,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:float\:ex:focus-visible,
+	.sm\:focus-visible\:fl\:ex:focus-visible {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:focus-visible\:clear\:ex:focus-visible,
+	.sm\:focus-visible\:cl\:ex:focus-visible {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -867,6 +1010,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:float\:ex:focus-within,
+	.sm\:focus-within\:fl\:ex:focus-within {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:focus-within\:clear\:ex:focus-within,
+	.sm\:focus-within\:cl\:ex:focus-within {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -928,6 +1082,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:float\:ex:active,
+	.sm\:active\:fl\:ex:active {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:active\:clear\:ex:active,
+	.sm\:active\:cl\:ex:active {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -991,6 +1156,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:float\:ex:disabled,
+	.sm\:disabled\:fl\:ex:disabled {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:disabled\:clear\:ex:disabled,
+	.sm\:disabled\:cl\:ex:disabled {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1053,6 +1229,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:float\:ex:checked,
+	.sm\:checked\:fl\:ex:checked {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:checked\:clear\:ex:checked,
+	.sm\:checked\:cl\:ex:checked {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1114,6 +1301,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:float\:ex:visited,
+	.sm\:visited\:fl\:ex:visited {
+		float: var(--float-ex) !important;
+	}
+
+	.sm\:visited\:clear\:ex:visited,
+	.sm\:visited\:cl\:ex:visited {
+		clear: var(--clear-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -1179,6 +1377,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:float\:ex,
+	.md\:fl\:ex {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:clear\:ex,
+	.md\:cl\:ex {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1240,6 +1449,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:float\:ex:hover,
+	.md\:hover\:fl\:ex:hover {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:hover\:clear\:ex:hover,
+	.md\:hover\:cl\:ex:hover {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -1303,6 +1523,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:float\:ex:focus,
+	.md\:focus\:fl\:ex:focus {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:focus\:clear\:ex:focus,
+	.md\:focus\:cl\:ex:focus {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1364,6 +1595,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:float\:ex:focus-visible,
+	.md\:focus-visible\:fl\:ex:focus-visible {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:focus-visible\:clear\:ex:focus-visible,
+	.md\:focus-visible\:cl\:ex:focus-visible {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -1427,6 +1669,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:float\:ex:focus-within,
+	.md\:focus-within\:fl\:ex:focus-within {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:focus-within\:clear\:ex:focus-within,
+	.md\:focus-within\:cl\:ex:focus-within {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1488,6 +1741,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:float\:ex:active,
+	.md\:active\:fl\:ex:active {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:active\:clear\:ex:active,
+	.md\:active\:cl\:ex:active {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -1551,6 +1815,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:float\:ex:disabled,
+	.md\:disabled\:fl\:ex:disabled {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:disabled\:clear\:ex:disabled,
+	.md\:disabled\:cl\:ex:disabled {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1613,6 +1888,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:float\:ex:checked,
+	.md\:checked\:fl\:ex:checked {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:checked\:clear\:ex:checked,
+	.md\:checked\:cl\:ex:checked {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1674,6 +1960,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:float\:ex:visited,
+	.md\:visited\:fl\:ex:visited {
+		float: var(--float-ex) !important;
+	}
+
+	.md\:visited\:clear\:ex:visited,
+	.md\:visited\:cl\:ex:visited {
+		clear: var(--clear-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -1739,6 +2036,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:float\:ex,
+	.lg\:fl\:ex {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:clear\:ex,
+	.lg\:cl\:ex {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1800,6 +2108,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:float\:ex:hover,
+	.lg\:hover\:fl\:ex:hover {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:hover\:clear\:ex:hover,
+	.lg\:hover\:cl\:ex:hover {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -1863,6 +2182,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:float\:ex:focus,
+	.lg\:focus\:fl\:ex:focus {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:focus\:clear\:ex:focus,
+	.lg\:focus\:cl\:ex:focus {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -1924,6 +2254,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:float\:ex:focus-visible,
+	.lg\:focus-visible\:fl\:ex:focus-visible {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:focus-visible\:clear\:ex:focus-visible,
+	.lg\:focus-visible\:cl\:ex:focus-visible {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -1987,6 +2328,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:float\:ex:focus-within,
+	.lg\:focus-within\:fl\:ex:focus-within {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:focus-within\:clear\:ex:focus-within,
+	.lg\:focus-within\:cl\:ex:focus-within {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2048,6 +2400,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:float\:ex:active,
+	.lg\:active\:fl\:ex:active {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:active\:clear\:ex:active,
+	.lg\:active\:cl\:ex:active {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -2111,6 +2474,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:float\:ex:disabled,
+	.lg\:disabled\:fl\:ex:disabled {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:disabled\:clear\:ex:disabled,
+	.lg\:disabled\:cl\:ex:disabled {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2173,6 +2547,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:float\:ex:checked,
+	.lg\:checked\:fl\:ex:checked {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:checked\:clear\:ex:checked,
+	.lg\:checked\:cl\:ex:checked {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2234,6 +2619,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:float\:ex:visited,
+	.lg\:visited\:fl\:ex:visited {
+		float: var(--float-ex) !important;
+	}
+
+	.lg\:visited\:clear\:ex:visited,
+	.lg\:visited\:cl\:ex:visited {
+		clear: var(--clear-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -2299,6 +2695,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:float\:ex,
+	.xl\:fl\:ex {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:clear\:ex,
+	.xl\:cl\:ex {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2360,6 +2767,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:float\:ex:hover,
+	.xl\:hover\:fl\:ex:hover {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:hover\:clear\:ex:hover,
+	.xl\:hover\:cl\:ex:hover {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -2423,6 +2841,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:float\:ex:focus,
+	.xl\:focus\:fl\:ex:focus {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:focus\:clear\:ex:focus,
+	.xl\:focus\:cl\:ex:focus {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2484,6 +2913,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:float\:ex:focus-visible,
+	.xl\:focus-visible\:fl\:ex:focus-visible {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:focus-visible\:clear\:ex:focus-visible,
+	.xl\:focus-visible\:cl\:ex:focus-visible {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -2547,6 +2987,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:float\:ex:focus-within,
+	.xl\:focus-within\:fl\:ex:focus-within {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:focus-within\:clear\:ex:focus-within,
+	.xl\:focus-within\:cl\:ex:focus-within {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2608,6 +3059,17 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:float\:ex:active,
+	.xl\:active\:fl\:ex:active {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:active\:clear\:ex:active,
+	.xl\:active\:cl\:ex:active {
+		clear: var(--clear-ex) !important;
+	}
 
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
@@ -2671,6 +3133,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:float\:ex:disabled,
+	.xl\:disabled\:fl\:ex:disabled {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:disabled\:clear\:ex:disabled,
+	.xl\:disabled\:cl\:ex:disabled {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2733,6 +3206,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:float\:ex:checked,
+	.xl\:checked\:fl\:ex:checked {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:checked\:clear\:ex:checked,
+	.xl\:checked\:cl\:ex:checked {
+		clear: var(--clear-ex) !important;
+	}
+
 	/* ===== LEGACY LAYOUT — float, clear ===== */
 
 	/* FLOAT */
@@ -2794,4 +3278,15 @@
 		clear: inline-end !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:float\:ex:visited,
+	.xl\:visited\:fl\:ex:visited {
+		float: var(--float-ex) !important;
+	}
+
+	.xl\:visited\:clear\:ex:visited,
+	.xl\:visited\:cl\:ex:visited {
+		clear: var(--clear-ex) !important;
+	}
 }

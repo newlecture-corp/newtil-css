@@ -109,6 +109,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.resize\:ex,
+.rs\:ex {
+	resize: var(--resize-ex) !important;
+}
+
+.user-select\:ex,
+.us\:ex {
+	user-select: var(--user-select-ex) !important;
+}
+
+.pointer-events\:ex,
+.pe\:ex {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.touch-action\:ex,
+.ta\:ex {
+	touch-action: var(--touch-action-ex) !important;
+}
+
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 /* RESIZE */
@@ -219,6 +240,27 @@
 	touch-action: manipulation !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:resize\:ex:hover,
+.hover\:rs\:ex:hover {
+	resize: var(--resize-ex) !important;
+}
+
+.hover\:user-select\:ex:hover,
+.hover\:us\:ex:hover {
+	user-select: var(--user-select-ex) !important;
+}
+
+.hover\:pointer-events\:ex:hover,
+.hover\:pe\:ex:hover {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.hover\:touch-action\:ex:hover,
+.hover\:ta\:ex:hover {
+	touch-action: var(--touch-action-ex) !important;
+}
 
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -331,6 +373,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:resize\:ex:focus,
+.focus\:rs\:ex:focus {
+	resize: var(--resize-ex) !important;
+}
+
+.focus\:user-select\:ex:focus,
+.focus\:us\:ex:focus {
+	user-select: var(--user-select-ex) !important;
+}
+
+.focus\:pointer-events\:ex:focus,
+.focus\:pe\:ex:focus {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.focus\:touch-action\:ex:focus,
+.focus\:ta\:ex:focus {
+	touch-action: var(--touch-action-ex) !important;
+}
+
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 /* RESIZE */
@@ -441,6 +504,27 @@
 	touch-action: manipulation !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:resize\:ex:focus-visible,
+.focus-visible\:rs\:ex:focus-visible {
+	resize: var(--resize-ex) !important;
+}
+
+.focus-visible\:user-select\:ex:focus-visible,
+.focus-visible\:us\:ex:focus-visible {
+	user-select: var(--user-select-ex) !important;
+}
+
+.focus-visible\:pointer-events\:ex:focus-visible,
+.focus-visible\:pe\:ex:focus-visible {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.focus-visible\:touch-action\:ex:focus-visible,
+.focus-visible\:ta\:ex:focus-visible {
+	touch-action: var(--touch-action-ex) !important;
+}
 
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -553,6 +637,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:resize\:ex:focus-within,
+.focus-within\:rs\:ex:focus-within {
+	resize: var(--resize-ex) !important;
+}
+
+.focus-within\:user-select\:ex:focus-within,
+.focus-within\:us\:ex:focus-within {
+	user-select: var(--user-select-ex) !important;
+}
+
+.focus-within\:pointer-events\:ex:focus-within,
+.focus-within\:pe\:ex:focus-within {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.focus-within\:touch-action\:ex:focus-within,
+.focus-within\:ta\:ex:focus-within {
+	touch-action: var(--touch-action-ex) !important;
+}
+
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 /* RESIZE */
@@ -663,6 +768,27 @@
 	touch-action: manipulation !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:resize\:ex:active,
+.active\:rs\:ex:active {
+	resize: var(--resize-ex) !important;
+}
+
+.active\:user-select\:ex:active,
+.active\:us\:ex:active {
+	user-select: var(--user-select-ex) !important;
+}
+
+.active\:pointer-events\:ex:active,
+.active\:pe\:ex:active {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.active\:touch-action\:ex:active,
+.active\:ta\:ex:active {
+	touch-action: var(--touch-action-ex) !important;
+}
 
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -775,6 +901,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:resize\:ex:disabled,
+.disabled\:rs\:ex:disabled {
+	resize: var(--resize-ex) !important;
+}
+
+.disabled\:user-select\:ex:disabled,
+.disabled\:us\:ex:disabled {
+	user-select: var(--user-select-ex) !important;
+}
+
+.disabled\:pointer-events\:ex:disabled,
+.disabled\:pe\:ex:disabled {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.disabled\:touch-action\:ex:disabled,
+.disabled\:ta\:ex:disabled {
+	touch-action: var(--touch-action-ex) !important;
+}
+
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 /* RESIZE */
@@ -886,6 +1033,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:resize\:ex:checked,
+.checked\:rs\:ex:checked {
+	resize: var(--resize-ex) !important;
+}
+
+.checked\:user-select\:ex:checked,
+.checked\:us\:ex:checked {
+	user-select: var(--user-select-ex) !important;
+}
+
+.checked\:pointer-events\:ex:checked,
+.checked\:pe\:ex:checked {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.checked\:touch-action\:ex:checked,
+.checked\:ta\:ex:checked {
+	touch-action: var(--touch-action-ex) !important;
+}
+
 /* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 /* RESIZE */
@@ -996,6 +1164,27 @@
 	touch-action: manipulation !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:resize\:ex:visited,
+.visited\:rs\:ex:visited {
+	resize: var(--resize-ex) !important;
+}
+
+.visited\:user-select\:ex:visited,
+.visited\:us\:ex:visited {
+	user-select: var(--user-select-ex) !important;
+}
+
+.visited\:pointer-events\:ex:visited,
+.visited\:pe\:ex:visited {
+	pointer-events: var(--pointer-events-ex) !important;
+}
+
+.visited\:touch-action\:ex:visited,
+.visited\:ta\:ex:visited {
+	touch-action: var(--touch-action-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
@@ -1109,6 +1298,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:resize\:ex,
+	.sm\:rs\:ex {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:user-select\:ex,
+	.sm\:us\:ex {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:pointer-events\:ex,
+	.sm\:pe\:ex {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:touch-action\:ex,
+	.sm\:ta\:ex {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -1219,6 +1429,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:resize\:ex:hover,
+	.sm\:hover\:rs\:ex:hover {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:hover\:user-select\:ex:hover,
+	.sm\:hover\:us\:ex:hover {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:hover\:pointer-events\:ex:hover,
+	.sm\:hover\:pe\:ex:hover {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:hover\:touch-action\:ex:hover,
+	.sm\:hover\:ta\:ex:hover {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -1331,6 +1562,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:resize\:ex:focus,
+	.sm\:focus\:rs\:ex:focus {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:focus\:user-select\:ex:focus,
+	.sm\:focus\:us\:ex:focus {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:focus\:pointer-events\:ex:focus,
+	.sm\:focus\:pe\:ex:focus {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:focus\:touch-action\:ex:focus,
+	.sm\:focus\:ta\:ex:focus {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -1441,6 +1693,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:resize\:ex:focus-visible,
+	.sm\:focus-visible\:rs\:ex:focus-visible {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:focus-visible\:user-select\:ex:focus-visible,
+	.sm\:focus-visible\:us\:ex:focus-visible {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:focus-visible\:pointer-events\:ex:focus-visible,
+	.sm\:focus-visible\:pe\:ex:focus-visible {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:focus-visible\:touch-action\:ex:focus-visible,
+	.sm\:focus-visible\:ta\:ex:focus-visible {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -1553,6 +1826,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:resize\:ex:focus-within,
+	.sm\:focus-within\:rs\:ex:focus-within {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:focus-within\:user-select\:ex:focus-within,
+	.sm\:focus-within\:us\:ex:focus-within {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:focus-within\:pointer-events\:ex:focus-within,
+	.sm\:focus-within\:pe\:ex:focus-within {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:focus-within\:touch-action\:ex:focus-within,
+	.sm\:focus-within\:ta\:ex:focus-within {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -1663,6 +1957,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:resize\:ex:active,
+	.sm\:active\:rs\:ex:active {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:active\:user-select\:ex:active,
+	.sm\:active\:us\:ex:active {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:active\:pointer-events\:ex:active,
+	.sm\:active\:pe\:ex:active {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:active\:touch-action\:ex:active,
+	.sm\:active\:ta\:ex:active {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -1775,6 +2090,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:resize\:ex:disabled,
+	.sm\:disabled\:rs\:ex:disabled {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:disabled\:user-select\:ex:disabled,
+	.sm\:disabled\:us\:ex:disabled {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:disabled\:pointer-events\:ex:disabled,
+	.sm\:disabled\:pe\:ex:disabled {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:disabled\:touch-action\:ex:disabled,
+	.sm\:disabled\:ta\:ex:disabled {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -1886,6 +2222,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:resize\:ex:checked,
+	.sm\:checked\:rs\:ex:checked {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:checked\:user-select\:ex:checked,
+	.sm\:checked\:us\:ex:checked {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:checked\:pointer-events\:ex:checked,
+	.sm\:checked\:pe\:ex:checked {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:checked\:touch-action\:ex:checked,
+	.sm\:checked\:ta\:ex:checked {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -1996,6 +2353,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:resize\:ex:visited,
+	.sm\:visited\:rs\:ex:visited {
+		resize: var(--resize-ex) !important;
+	}
+
+	.sm\:visited\:user-select\:ex:visited,
+	.sm\:visited\:us\:ex:visited {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.sm\:visited\:pointer-events\:ex:visited,
+	.sm\:visited\:pe\:ex:visited {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.sm\:visited\:touch-action\:ex:visited,
+	.sm\:visited\:ta\:ex:visited {
+		touch-action: var(--touch-action-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -2110,6 +2488,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:resize\:ex,
+	.md\:rs\:ex {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:user-select\:ex,
+	.md\:us\:ex {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:pointer-events\:ex,
+	.md\:pe\:ex {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:touch-action\:ex,
+	.md\:ta\:ex {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -2220,6 +2619,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:resize\:ex:hover,
+	.md\:hover\:rs\:ex:hover {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:hover\:user-select\:ex:hover,
+	.md\:hover\:us\:ex:hover {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:hover\:pointer-events\:ex:hover,
+	.md\:hover\:pe\:ex:hover {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:hover\:touch-action\:ex:hover,
+	.md\:hover\:ta\:ex:hover {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -2332,6 +2752,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:resize\:ex:focus,
+	.md\:focus\:rs\:ex:focus {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:focus\:user-select\:ex:focus,
+	.md\:focus\:us\:ex:focus {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:focus\:pointer-events\:ex:focus,
+	.md\:focus\:pe\:ex:focus {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:focus\:touch-action\:ex:focus,
+	.md\:focus\:ta\:ex:focus {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -2442,6 +2883,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:resize\:ex:focus-visible,
+	.md\:focus-visible\:rs\:ex:focus-visible {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:focus-visible\:user-select\:ex:focus-visible,
+	.md\:focus-visible\:us\:ex:focus-visible {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:focus-visible\:pointer-events\:ex:focus-visible,
+	.md\:focus-visible\:pe\:ex:focus-visible {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:focus-visible\:touch-action\:ex:focus-visible,
+	.md\:focus-visible\:ta\:ex:focus-visible {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -2554,6 +3016,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:resize\:ex:focus-within,
+	.md\:focus-within\:rs\:ex:focus-within {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:focus-within\:user-select\:ex:focus-within,
+	.md\:focus-within\:us\:ex:focus-within {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:focus-within\:pointer-events\:ex:focus-within,
+	.md\:focus-within\:pe\:ex:focus-within {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:focus-within\:touch-action\:ex:focus-within,
+	.md\:focus-within\:ta\:ex:focus-within {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -2664,6 +3147,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:resize\:ex:active,
+	.md\:active\:rs\:ex:active {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:active\:user-select\:ex:active,
+	.md\:active\:us\:ex:active {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:active\:pointer-events\:ex:active,
+	.md\:active\:pe\:ex:active {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:active\:touch-action\:ex:active,
+	.md\:active\:ta\:ex:active {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -2776,6 +3280,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:resize\:ex:disabled,
+	.md\:disabled\:rs\:ex:disabled {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:disabled\:user-select\:ex:disabled,
+	.md\:disabled\:us\:ex:disabled {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:disabled\:pointer-events\:ex:disabled,
+	.md\:disabled\:pe\:ex:disabled {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:disabled\:touch-action\:ex:disabled,
+	.md\:disabled\:ta\:ex:disabled {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -2887,6 +3412,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:resize\:ex:checked,
+	.md\:checked\:rs\:ex:checked {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:checked\:user-select\:ex:checked,
+	.md\:checked\:us\:ex:checked {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:checked\:pointer-events\:ex:checked,
+	.md\:checked\:pe\:ex:checked {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:checked\:touch-action\:ex:checked,
+	.md\:checked\:ta\:ex:checked {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -2997,6 +3543,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:resize\:ex:visited,
+	.md\:visited\:rs\:ex:visited {
+		resize: var(--resize-ex) !important;
+	}
+
+	.md\:visited\:user-select\:ex:visited,
+	.md\:visited\:us\:ex:visited {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.md\:visited\:pointer-events\:ex:visited,
+	.md\:visited\:pe\:ex:visited {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.md\:visited\:touch-action\:ex:visited,
+	.md\:visited\:ta\:ex:visited {
+		touch-action: var(--touch-action-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -3111,6 +3678,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:resize\:ex,
+	.lg\:rs\:ex {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:user-select\:ex,
+	.lg\:us\:ex {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:pointer-events\:ex,
+	.lg\:pe\:ex {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:touch-action\:ex,
+	.lg\:ta\:ex {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -3221,6 +3809,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:resize\:ex:hover,
+	.lg\:hover\:rs\:ex:hover {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:hover\:user-select\:ex:hover,
+	.lg\:hover\:us\:ex:hover {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:hover\:pointer-events\:ex:hover,
+	.lg\:hover\:pe\:ex:hover {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:hover\:touch-action\:ex:hover,
+	.lg\:hover\:ta\:ex:hover {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -3333,6 +3942,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:resize\:ex:focus,
+	.lg\:focus\:rs\:ex:focus {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:focus\:user-select\:ex:focus,
+	.lg\:focus\:us\:ex:focus {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:focus\:pointer-events\:ex:focus,
+	.lg\:focus\:pe\:ex:focus {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:focus\:touch-action\:ex:focus,
+	.lg\:focus\:ta\:ex:focus {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -3443,6 +4073,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:resize\:ex:focus-visible,
+	.lg\:focus-visible\:rs\:ex:focus-visible {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:focus-visible\:user-select\:ex:focus-visible,
+	.lg\:focus-visible\:us\:ex:focus-visible {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:focus-visible\:pointer-events\:ex:focus-visible,
+	.lg\:focus-visible\:pe\:ex:focus-visible {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:focus-visible\:touch-action\:ex:focus-visible,
+	.lg\:focus-visible\:ta\:ex:focus-visible {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -3555,6 +4206,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:resize\:ex:focus-within,
+	.lg\:focus-within\:rs\:ex:focus-within {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:focus-within\:user-select\:ex:focus-within,
+	.lg\:focus-within\:us\:ex:focus-within {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:focus-within\:pointer-events\:ex:focus-within,
+	.lg\:focus-within\:pe\:ex:focus-within {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:focus-within\:touch-action\:ex:focus-within,
+	.lg\:focus-within\:ta\:ex:focus-within {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -3665,6 +4337,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:resize\:ex:active,
+	.lg\:active\:rs\:ex:active {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:active\:user-select\:ex:active,
+	.lg\:active\:us\:ex:active {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:active\:pointer-events\:ex:active,
+	.lg\:active\:pe\:ex:active {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:active\:touch-action\:ex:active,
+	.lg\:active\:ta\:ex:active {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -3777,6 +4470,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:resize\:ex:disabled,
+	.lg\:disabled\:rs\:ex:disabled {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:disabled\:user-select\:ex:disabled,
+	.lg\:disabled\:us\:ex:disabled {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:disabled\:pointer-events\:ex:disabled,
+	.lg\:disabled\:pe\:ex:disabled {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:disabled\:touch-action\:ex:disabled,
+	.lg\:disabled\:ta\:ex:disabled {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -3888,6 +4602,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:resize\:ex:checked,
+	.lg\:checked\:rs\:ex:checked {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:checked\:user-select\:ex:checked,
+	.lg\:checked\:us\:ex:checked {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:checked\:pointer-events\:ex:checked,
+	.lg\:checked\:pe\:ex:checked {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:checked\:touch-action\:ex:checked,
+	.lg\:checked\:ta\:ex:checked {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -3998,6 +4733,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:resize\:ex:visited,
+	.lg\:visited\:rs\:ex:visited {
+		resize: var(--resize-ex) !important;
+	}
+
+	.lg\:visited\:user-select\:ex:visited,
+	.lg\:visited\:us\:ex:visited {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.lg\:visited\:pointer-events\:ex:visited,
+	.lg\:visited\:pe\:ex:visited {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.lg\:visited\:touch-action\:ex:visited,
+	.lg\:visited\:ta\:ex:visited {
+		touch-action: var(--touch-action-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -4112,6 +4868,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:resize\:ex,
+	.xl\:rs\:ex {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:user-select\:ex,
+	.xl\:us\:ex {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:pointer-events\:ex,
+	.xl\:pe\:ex {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:touch-action\:ex,
+	.xl\:ta\:ex {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -4222,6 +4999,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:resize\:ex:hover,
+	.xl\:hover\:rs\:ex:hover {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:hover\:user-select\:ex:hover,
+	.xl\:hover\:us\:ex:hover {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:hover\:pointer-events\:ex:hover,
+	.xl\:hover\:pe\:ex:hover {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:hover\:touch-action\:ex:hover,
+	.xl\:hover\:ta\:ex:hover {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -4334,6 +5132,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:resize\:ex:focus,
+	.xl\:focus\:rs\:ex:focus {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:focus\:user-select\:ex:focus,
+	.xl\:focus\:us\:ex:focus {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:focus\:pointer-events\:ex:focus,
+	.xl\:focus\:pe\:ex:focus {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:focus\:touch-action\:ex:focus,
+	.xl\:focus\:ta\:ex:focus {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -4444,6 +5263,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:resize\:ex:focus-visible,
+	.xl\:focus-visible\:rs\:ex:focus-visible {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:focus-visible\:user-select\:ex:focus-visible,
+	.xl\:focus-visible\:us\:ex:focus-visible {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:focus-visible\:pointer-events\:ex:focus-visible,
+	.xl\:focus-visible\:pe\:ex:focus-visible {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:focus-visible\:touch-action\:ex:focus-visible,
+	.xl\:focus-visible\:ta\:ex:focus-visible {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -4556,6 +5396,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:resize\:ex:focus-within,
+	.xl\:focus-within\:rs\:ex:focus-within {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:focus-within\:user-select\:ex:focus-within,
+	.xl\:focus-within\:us\:ex:focus-within {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:focus-within\:pointer-events\:ex:focus-within,
+	.xl\:focus-within\:pe\:ex:focus-within {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:focus-within\:touch-action\:ex:focus-within,
+	.xl\:focus-within\:ta\:ex:focus-within {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -4666,6 +5527,27 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:resize\:ex:active,
+	.xl\:active\:rs\:ex:active {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:active\:user-select\:ex:active,
+	.xl\:active\:us\:ex:active {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:active\:pointer-events\:ex:active,
+	.xl\:active\:pe\:ex:active {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:active\:touch-action\:ex:active,
+	.xl\:active\:ta\:ex:active {
+		touch-action: var(--touch-action-ex) !important;
+	}
 
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
@@ -4778,6 +5660,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:resize\:ex:disabled,
+	.xl\:disabled\:rs\:ex:disabled {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:disabled\:user-select\:ex:disabled,
+	.xl\:disabled\:us\:ex:disabled {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:disabled\:pointer-events\:ex:disabled,
+	.xl\:disabled\:pe\:ex:disabled {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:disabled\:touch-action\:ex:disabled,
+	.xl\:disabled\:ta\:ex:disabled {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -4889,6 +5792,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:resize\:ex:checked,
+	.xl\:checked\:rs\:ex:checked {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:checked\:user-select\:ex:checked,
+	.xl\:checked\:us\:ex:checked {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:checked\:pointer-events\:ex:checked,
+	.xl\:checked\:pe\:ex:checked {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:checked\:touch-action\:ex:checked,
+	.xl\:checked\:ta\:ex:checked {
+		touch-action: var(--touch-action-ex) !important;
+	}
+
 	/* ===== INTERACTION UTILITIES — resize, user-select, pointer-events, touch-action ===== */
 
 	/* RESIZE */
@@ -4999,4 +5923,25 @@
 		touch-action: manipulation !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:resize\:ex:visited,
+	.xl\:visited\:rs\:ex:visited {
+		resize: var(--resize-ex) !important;
+	}
+
+	.xl\:visited\:user-select\:ex:visited,
+	.xl\:visited\:us\:ex:visited {
+		user-select: var(--user-select-ex) !important;
+	}
+
+	.xl\:visited\:pointer-events\:ex:visited,
+	.xl\:visited\:pe\:ex:visited {
+		pointer-events: var(--pointer-events-ex) !important;
+	}
+
+	.xl\:visited\:touch-action\:ex:visited,
+	.xl\:visited\:ta\:ex:visited {
+		touch-action: var(--touch-action-ex) !important;
+	}
 }

@@ -137,6 +137,22 @@ Tailwind는 `p-4`, `bg-blue-500` 같은 자체 명칭을 사용합니다. newtil
 | `.stack:3` | flex column + gap:3 |
 | `.hstack:3` | flex row + align-center + gap:3 |
 
+## 단계 밖의 값: `속성:ex`
+
+토큰 단계(`width:1…`, `padding:4`)에 없는 값이 필요하면 `속성:ex` 클래스를 붙이고 값은 같은 요소의 `--속성-ex` 변수로 줍니다. 모든 `속성:값` 클래스에 `ex` 가 하나씩 있습니다(413개).
+
+```html
+<div class="width:ex" style="--width-ex: 20px">…</div>
+<div class="padding-x:ex" style="--padding-x-ex: 1.25rem">…</div>   <!-- 합성 속성은 변수 하나로 좌우 -->
+<img class="blur:ex" style="--blur-ex: 4px">                        <!-- filter: blur(var(--blur-ex)) -->
+<p class="line-clamp:ex" style="--line-clamp-ex: 3">…</p>            <!-- 고정 선언(display 등)은 그대로, 줄 수만 변수 -->
+```
+
+- 축약(`w:ex`, `px:ex`)과 반응형·상태 접두(`sm:w:ex`, `hover:color:ex`)가 모두 됩니다. 변수 이름은 축약이 아니라 **전체 속성명** 기준입니다(`w:ex` 도 `--width-ex`).
+- 규칙이 고정이므로 JIT 없이 CDN `<link>` 만으로 동작합니다. JIT 는 쓰인 `ex` 클래스만 골라 냅니다.
+- Tailwind 의 `w-[20px]` 와 달리 값이 클래스 이름이 아니라 `style` 에 있어, DOM 을 직접 다루는 도구가 값을 바꿀 때 CSS 를 다시 만들 필요가 없습니다.
+- 사용 원칙: 토큰 단계 → 컴포넌트 옵션 → `ex`. 페이지의 `ex` 개수가 아직 부품이 못 담은 값의 수이고, 다음 토큰·컴포넌트 후보를 고르는 척도입니다.
+
 ## 값 체계
 
 ### Spacing / Sizing (rem 기반, 4px 그리드)

@@ -197,6 +197,22 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.mix-blend-mode\:ex,
+.mbm\:ex {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.background-blend-mode\:ex,
+.bbm\:ex {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.isolation\:ex,
+.iso\:ex {
+	isolation: var(--isolation-ex) !important;
+}
+
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 /* MIX-BLEND-MODE */
@@ -395,6 +411,22 @@
 	isolation: isolate !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:mix-blend-mode\:ex:hover,
+.hover\:mbm\:ex:hover {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.hover\:background-blend-mode\:ex:hover,
+.hover\:bbm\:ex:hover {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.hover\:isolation\:ex:hover,
+.hover\:iso\:ex:hover {
+	isolation: var(--isolation-ex) !important;
+}
 
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -595,6 +627,22 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:mix-blend-mode\:ex:focus,
+.focus\:mbm\:ex:focus {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.focus\:background-blend-mode\:ex:focus,
+.focus\:bbm\:ex:focus {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.focus\:isolation\:ex:focus,
+.focus\:iso\:ex:focus {
+	isolation: var(--isolation-ex) !important;
+}
+
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 /* MIX-BLEND-MODE */
@@ -793,6 +841,22 @@
 	isolation: isolate !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:mix-blend-mode\:ex:focus-visible,
+.focus-visible\:mbm\:ex:focus-visible {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.focus-visible\:background-blend-mode\:ex:focus-visible,
+.focus-visible\:bbm\:ex:focus-visible {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.focus-visible\:isolation\:ex:focus-visible,
+.focus-visible\:iso\:ex:focus-visible {
+	isolation: var(--isolation-ex) !important;
+}
 
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -993,6 +1057,22 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:mix-blend-mode\:ex:focus-within,
+.focus-within\:mbm\:ex:focus-within {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.focus-within\:background-blend-mode\:ex:focus-within,
+.focus-within\:bbm\:ex:focus-within {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.focus-within\:isolation\:ex:focus-within,
+.focus-within\:iso\:ex:focus-within {
+	isolation: var(--isolation-ex) !important;
+}
+
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 /* MIX-BLEND-MODE */
@@ -1191,6 +1271,22 @@
 	isolation: isolate !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:mix-blend-mode\:ex:active,
+.active\:mbm\:ex:active {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.active\:background-blend-mode\:ex:active,
+.active\:bbm\:ex:active {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.active\:isolation\:ex:active,
+.active\:iso\:ex:active {
+	isolation: var(--isolation-ex) !important;
+}
 
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -1391,6 +1487,22 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:mix-blend-mode\:ex:disabled,
+.disabled\:mbm\:ex:disabled {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.disabled\:background-blend-mode\:ex:disabled,
+.disabled\:bbm\:ex:disabled {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.disabled\:isolation\:ex:disabled,
+.disabled\:iso\:ex:disabled {
+	isolation: var(--isolation-ex) !important;
+}
+
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 /* MIX-BLEND-MODE */
@@ -1590,6 +1702,22 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:mix-blend-mode\:ex:checked,
+.checked\:mbm\:ex:checked {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.checked\:background-blend-mode\:ex:checked,
+.checked\:bbm\:ex:checked {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.checked\:isolation\:ex:checked,
+.checked\:iso\:ex:checked {
+	isolation: var(--isolation-ex) !important;
+}
+
 /* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 /* MIX-BLEND-MODE */
@@ -1788,6 +1916,22 @@
 	isolation: isolate !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:mix-blend-mode\:ex:visited,
+.visited\:mbm\:ex:visited {
+	mix-blend-mode: var(--mix-blend-mode-ex) !important;
+}
+
+.visited\:background-blend-mode\:ex:visited,
+.visited\:bbm\:ex:visited {
+	background-blend-mode: var(--background-blend-mode-ex) !important;
+}
+
+.visited\:isolation\:ex:visited,
+.visited\:iso\:ex:visited {
+	isolation: var(--isolation-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
@@ -1989,6 +2133,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:mix-blend-mode\:ex,
+	.sm\:mbm\:ex {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:background-blend-mode\:ex,
+	.sm\:bbm\:ex {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:isolation\:ex,
+	.sm\:iso\:ex {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -2187,6 +2347,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:mix-blend-mode\:ex:hover,
+	.sm\:hover\:mbm\:ex:hover {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:hover\:background-blend-mode\:ex:hover,
+	.sm\:hover\:bbm\:ex:hover {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:hover\:isolation\:ex:hover,
+	.sm\:hover\:iso\:ex:hover {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -2387,6 +2563,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:mix-blend-mode\:ex:focus,
+	.sm\:focus\:mbm\:ex:focus {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:focus\:background-blend-mode\:ex:focus,
+	.sm\:focus\:bbm\:ex:focus {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:focus\:isolation\:ex:focus,
+	.sm\:focus\:iso\:ex:focus {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -2585,6 +2777,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:mix-blend-mode\:ex:focus-visible,
+	.sm\:focus-visible\:mbm\:ex:focus-visible {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:focus-visible\:background-blend-mode\:ex:focus-visible,
+	.sm\:focus-visible\:bbm\:ex:focus-visible {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:focus-visible\:isolation\:ex:focus-visible,
+	.sm\:focus-visible\:iso\:ex:focus-visible {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -2785,6 +2993,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:mix-blend-mode\:ex:focus-within,
+	.sm\:focus-within\:mbm\:ex:focus-within {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:focus-within\:background-blend-mode\:ex:focus-within,
+	.sm\:focus-within\:bbm\:ex:focus-within {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:focus-within\:isolation\:ex:focus-within,
+	.sm\:focus-within\:iso\:ex:focus-within {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -2983,6 +3207,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:mix-blend-mode\:ex:active,
+	.sm\:active\:mbm\:ex:active {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:active\:background-blend-mode\:ex:active,
+	.sm\:active\:bbm\:ex:active {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:active\:isolation\:ex:active,
+	.sm\:active\:iso\:ex:active {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -3183,6 +3423,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:mix-blend-mode\:ex:disabled,
+	.sm\:disabled\:mbm\:ex:disabled {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:disabled\:background-blend-mode\:ex:disabled,
+	.sm\:disabled\:bbm\:ex:disabled {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:disabled\:isolation\:ex:disabled,
+	.sm\:disabled\:iso\:ex:disabled {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -3382,6 +3638,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:mix-blend-mode\:ex:checked,
+	.sm\:checked\:mbm\:ex:checked {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:checked\:background-blend-mode\:ex:checked,
+	.sm\:checked\:bbm\:ex:checked {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:checked\:isolation\:ex:checked,
+	.sm\:checked\:iso\:ex:checked {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -3580,6 +3852,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:mix-blend-mode\:ex:visited,
+	.sm\:visited\:mbm\:ex:visited {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.sm\:visited\:background-blend-mode\:ex:visited,
+	.sm\:visited\:bbm\:ex:visited {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.sm\:visited\:isolation\:ex:visited,
+	.sm\:visited\:iso\:ex:visited {
+		isolation: var(--isolation-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -3782,6 +4070,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:mix-blend-mode\:ex,
+	.md\:mbm\:ex {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:background-blend-mode\:ex,
+	.md\:bbm\:ex {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:isolation\:ex,
+	.md\:iso\:ex {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -3980,6 +4284,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:mix-blend-mode\:ex:hover,
+	.md\:hover\:mbm\:ex:hover {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:hover\:background-blend-mode\:ex:hover,
+	.md\:hover\:bbm\:ex:hover {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:hover\:isolation\:ex:hover,
+	.md\:hover\:iso\:ex:hover {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -4180,6 +4500,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:mix-blend-mode\:ex:focus,
+	.md\:focus\:mbm\:ex:focus {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:focus\:background-blend-mode\:ex:focus,
+	.md\:focus\:bbm\:ex:focus {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:focus\:isolation\:ex:focus,
+	.md\:focus\:iso\:ex:focus {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -4378,6 +4714,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:mix-blend-mode\:ex:focus-visible,
+	.md\:focus-visible\:mbm\:ex:focus-visible {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:focus-visible\:background-blend-mode\:ex:focus-visible,
+	.md\:focus-visible\:bbm\:ex:focus-visible {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:focus-visible\:isolation\:ex:focus-visible,
+	.md\:focus-visible\:iso\:ex:focus-visible {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -4578,6 +4930,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:mix-blend-mode\:ex:focus-within,
+	.md\:focus-within\:mbm\:ex:focus-within {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:focus-within\:background-blend-mode\:ex:focus-within,
+	.md\:focus-within\:bbm\:ex:focus-within {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:focus-within\:isolation\:ex:focus-within,
+	.md\:focus-within\:iso\:ex:focus-within {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -4776,6 +5144,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:mix-blend-mode\:ex:active,
+	.md\:active\:mbm\:ex:active {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:active\:background-blend-mode\:ex:active,
+	.md\:active\:bbm\:ex:active {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:active\:isolation\:ex:active,
+	.md\:active\:iso\:ex:active {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -4976,6 +5360,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:mix-blend-mode\:ex:disabled,
+	.md\:disabled\:mbm\:ex:disabled {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:disabled\:background-blend-mode\:ex:disabled,
+	.md\:disabled\:bbm\:ex:disabled {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:disabled\:isolation\:ex:disabled,
+	.md\:disabled\:iso\:ex:disabled {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -5175,6 +5575,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:mix-blend-mode\:ex:checked,
+	.md\:checked\:mbm\:ex:checked {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:checked\:background-blend-mode\:ex:checked,
+	.md\:checked\:bbm\:ex:checked {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:checked\:isolation\:ex:checked,
+	.md\:checked\:iso\:ex:checked {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -5373,6 +5789,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:mix-blend-mode\:ex:visited,
+	.md\:visited\:mbm\:ex:visited {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.md\:visited\:background-blend-mode\:ex:visited,
+	.md\:visited\:bbm\:ex:visited {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.md\:visited\:isolation\:ex:visited,
+	.md\:visited\:iso\:ex:visited {
+		isolation: var(--isolation-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -5575,6 +6007,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:mix-blend-mode\:ex,
+	.lg\:mbm\:ex {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:background-blend-mode\:ex,
+	.lg\:bbm\:ex {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:isolation\:ex,
+	.lg\:iso\:ex {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -5773,6 +6221,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:mix-blend-mode\:ex:hover,
+	.lg\:hover\:mbm\:ex:hover {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:hover\:background-blend-mode\:ex:hover,
+	.lg\:hover\:bbm\:ex:hover {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:hover\:isolation\:ex:hover,
+	.lg\:hover\:iso\:ex:hover {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -5973,6 +6437,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:mix-blend-mode\:ex:focus,
+	.lg\:focus\:mbm\:ex:focus {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:focus\:background-blend-mode\:ex:focus,
+	.lg\:focus\:bbm\:ex:focus {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:focus\:isolation\:ex:focus,
+	.lg\:focus\:iso\:ex:focus {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -6171,6 +6651,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:mix-blend-mode\:ex:focus-visible,
+	.lg\:focus-visible\:mbm\:ex:focus-visible {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:focus-visible\:background-blend-mode\:ex:focus-visible,
+	.lg\:focus-visible\:bbm\:ex:focus-visible {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:focus-visible\:isolation\:ex:focus-visible,
+	.lg\:focus-visible\:iso\:ex:focus-visible {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -6371,6 +6867,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:mix-blend-mode\:ex:focus-within,
+	.lg\:focus-within\:mbm\:ex:focus-within {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:focus-within\:background-blend-mode\:ex:focus-within,
+	.lg\:focus-within\:bbm\:ex:focus-within {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:focus-within\:isolation\:ex:focus-within,
+	.lg\:focus-within\:iso\:ex:focus-within {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -6569,6 +7081,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:mix-blend-mode\:ex:active,
+	.lg\:active\:mbm\:ex:active {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:active\:background-blend-mode\:ex:active,
+	.lg\:active\:bbm\:ex:active {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:active\:isolation\:ex:active,
+	.lg\:active\:iso\:ex:active {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -6769,6 +7297,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:mix-blend-mode\:ex:disabled,
+	.lg\:disabled\:mbm\:ex:disabled {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:disabled\:background-blend-mode\:ex:disabled,
+	.lg\:disabled\:bbm\:ex:disabled {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:disabled\:isolation\:ex:disabled,
+	.lg\:disabled\:iso\:ex:disabled {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -6968,6 +7512,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:mix-blend-mode\:ex:checked,
+	.lg\:checked\:mbm\:ex:checked {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:checked\:background-blend-mode\:ex:checked,
+	.lg\:checked\:bbm\:ex:checked {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:checked\:isolation\:ex:checked,
+	.lg\:checked\:iso\:ex:checked {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -7166,6 +7726,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:mix-blend-mode\:ex:visited,
+	.lg\:visited\:mbm\:ex:visited {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.lg\:visited\:background-blend-mode\:ex:visited,
+	.lg\:visited\:bbm\:ex:visited {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.lg\:visited\:isolation\:ex:visited,
+	.lg\:visited\:iso\:ex:visited {
+		isolation: var(--isolation-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -7368,6 +7944,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:mix-blend-mode\:ex,
+	.xl\:mbm\:ex {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:background-blend-mode\:ex,
+	.xl\:bbm\:ex {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:isolation\:ex,
+	.xl\:iso\:ex {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -7566,6 +8158,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:mix-blend-mode\:ex:hover,
+	.xl\:hover\:mbm\:ex:hover {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:hover\:background-blend-mode\:ex:hover,
+	.xl\:hover\:bbm\:ex:hover {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:hover\:isolation\:ex:hover,
+	.xl\:hover\:iso\:ex:hover {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -7766,6 +8374,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:mix-blend-mode\:ex:focus,
+	.xl\:focus\:mbm\:ex:focus {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:focus\:background-blend-mode\:ex:focus,
+	.xl\:focus\:bbm\:ex:focus {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:focus\:isolation\:ex:focus,
+	.xl\:focus\:iso\:ex:focus {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -7964,6 +8588,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:mix-blend-mode\:ex:focus-visible,
+	.xl\:focus-visible\:mbm\:ex:focus-visible {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:focus-visible\:background-blend-mode\:ex:focus-visible,
+	.xl\:focus-visible\:bbm\:ex:focus-visible {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:focus-visible\:isolation\:ex:focus-visible,
+	.xl\:focus-visible\:iso\:ex:focus-visible {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -8164,6 +8804,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:mix-blend-mode\:ex:focus-within,
+	.xl\:focus-within\:mbm\:ex:focus-within {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:focus-within\:background-blend-mode\:ex:focus-within,
+	.xl\:focus-within\:bbm\:ex:focus-within {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:focus-within\:isolation\:ex:focus-within,
+	.xl\:focus-within\:iso\:ex:focus-within {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -8362,6 +9018,22 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:mix-blend-mode\:ex:active,
+	.xl\:active\:mbm\:ex:active {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:active\:background-blend-mode\:ex:active,
+	.xl\:active\:bbm\:ex:active {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:active\:isolation\:ex:active,
+	.xl\:active\:iso\:ex:active {
+		isolation: var(--isolation-ex) !important;
+	}
 
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
@@ -8562,6 +9234,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:mix-blend-mode\:ex:disabled,
+	.xl\:disabled\:mbm\:ex:disabled {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:disabled\:background-blend-mode\:ex:disabled,
+	.xl\:disabled\:bbm\:ex:disabled {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:disabled\:isolation\:ex:disabled,
+	.xl\:disabled\:iso\:ex:disabled {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -8761,6 +9449,22 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:mix-blend-mode\:ex:checked,
+	.xl\:checked\:mbm\:ex:checked {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:checked\:background-blend-mode\:ex:checked,
+	.xl\:checked\:bbm\:ex:checked {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:checked\:isolation\:ex:checked,
+	.xl\:checked\:iso\:ex:checked {
+		isolation: var(--isolation-ex) !important;
+	}
+
 	/* ===== BLEND UTILITIES — mix-blend-mode, background-blend-mode, isolation ===== */
 
 	/* MIX-BLEND-MODE */
@@ -8959,4 +9663,20 @@
 		isolation: isolate !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:mix-blend-mode\:ex:visited,
+	.xl\:visited\:mbm\:ex:visited {
+		mix-blend-mode: var(--mix-blend-mode-ex) !important;
+	}
+
+	.xl\:visited\:background-blend-mode\:ex:visited,
+	.xl\:visited\:bbm\:ex:visited {
+		background-blend-mode: var(--background-blend-mode-ex) !important;
+	}
+
+	.xl\:visited\:isolation\:ex:visited,
+	.xl\:visited\:iso\:ex:visited {
+		isolation: var(--isolation-ex) !important;
+	}
 }

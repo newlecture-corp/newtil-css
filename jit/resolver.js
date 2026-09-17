@@ -6,6 +6,9 @@
 //
 // Uses a lookup table built from the generator's rule modules.
 
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { buildCatalog, getToken } from "../generator/catalog.js";
 
 // Build a reverse lookup: Map<"property:value", { declarations, selectorNames }>
@@ -194,8 +197,23 @@ export function resolveAbbrev(name) {
 //
 // This is a simplified resolver that maps directly from property+value
 // to CSS output. It mirrors the generator rules but in reverse.
+// `속성:ex` — 값은 요소의 --속성-ex 변수. 표는 generator/generate.js 가 만든다(jit/ex-table.json).
+let _exTable = null;
+function getExTable() {
+	if (!_exTable) {
+		const p = path.join(path.dirname(fileURLToPath(import.meta.url)), "ex-table.json");
+		_exTable = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf8")) : {};
+	}
+	return _exTable;
+}
+
 export function resolve(property, value) {
 	const catalog = getCatalog();
+
+	if (value === "ex") {
+		const ex = getExTable()[property] || getExTable()[resolveAbbrev(property)];
+		return ex ? { declarations: ex.declarations } : null;
+	}
 
 	// Resolve abbreviation.
 	const prop = resolveAbbrev(property);

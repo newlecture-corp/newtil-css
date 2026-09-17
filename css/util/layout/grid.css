@@ -257,6 +257,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.grid-template-columns\:ex,
+.gtc\:ex {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.grid-template-rows\:ex,
+.gtr\:ex {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.grid-column\:ex,
+.gcs\:ex {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.grid-row\:ex,
+.grs\:ex {
+	grid-row: var(--grid-row-ex) !important;
+}
+
 /* ===== GRID UTILITIES ===== */
 
 /* GRID-TEMPLATE-COLUMNS */
@@ -515,6 +536,27 @@
 	grid-row: span 12 / span 12 !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:grid-template-columns\:ex:hover,
+.hover\:gtc\:ex:hover {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.hover\:grid-template-rows\:ex:hover,
+.hover\:gtr\:ex:hover {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.hover\:grid-column\:ex:hover,
+.hover\:gcs\:ex:hover {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.hover\:grid-row\:ex:hover,
+.hover\:grs\:ex:hover {
+	grid-row: var(--grid-row-ex) !important;
+}
 
 /* ===== GRID UTILITIES ===== */
 
@@ -775,6 +817,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:grid-template-columns\:ex:focus,
+.focus\:gtc\:ex:focus {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.focus\:grid-template-rows\:ex:focus,
+.focus\:gtr\:ex:focus {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.focus\:grid-column\:ex:focus,
+.focus\:gcs\:ex:focus {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.focus\:grid-row\:ex:focus,
+.focus\:grs\:ex:focus {
+	grid-row: var(--grid-row-ex) !important;
+}
+
 /* ===== GRID UTILITIES ===== */
 
 /* GRID-TEMPLATE-COLUMNS */
@@ -1033,6 +1096,27 @@
 	grid-row: span 12 / span 12 !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:grid-template-columns\:ex:focus-visible,
+.focus-visible\:gtc\:ex:focus-visible {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.focus-visible\:grid-template-rows\:ex:focus-visible,
+.focus-visible\:gtr\:ex:focus-visible {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.focus-visible\:grid-column\:ex:focus-visible,
+.focus-visible\:gcs\:ex:focus-visible {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.focus-visible\:grid-row\:ex:focus-visible,
+.focus-visible\:grs\:ex:focus-visible {
+	grid-row: var(--grid-row-ex) !important;
+}
 
 /* ===== GRID UTILITIES ===== */
 
@@ -1293,6 +1377,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:grid-template-columns\:ex:focus-within,
+.focus-within\:gtc\:ex:focus-within {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.focus-within\:grid-template-rows\:ex:focus-within,
+.focus-within\:gtr\:ex:focus-within {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.focus-within\:grid-column\:ex:focus-within,
+.focus-within\:gcs\:ex:focus-within {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.focus-within\:grid-row\:ex:focus-within,
+.focus-within\:grs\:ex:focus-within {
+	grid-row: var(--grid-row-ex) !important;
+}
+
 /* ===== GRID UTILITIES ===== */
 
 /* GRID-TEMPLATE-COLUMNS */
@@ -1551,6 +1656,27 @@
 	grid-row: span 12 / span 12 !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:grid-template-columns\:ex:active,
+.active\:gtc\:ex:active {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.active\:grid-template-rows\:ex:active,
+.active\:gtr\:ex:active {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.active\:grid-column\:ex:active,
+.active\:gcs\:ex:active {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.active\:grid-row\:ex:active,
+.active\:grs\:ex:active {
+	grid-row: var(--grid-row-ex) !important;
+}
 
 /* ===== GRID UTILITIES ===== */
 
@@ -1811,6 +1937,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:grid-template-columns\:ex:disabled,
+.disabled\:gtc\:ex:disabled {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.disabled\:grid-template-rows\:ex:disabled,
+.disabled\:gtr\:ex:disabled {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.disabled\:grid-column\:ex:disabled,
+.disabled\:gcs\:ex:disabled {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.disabled\:grid-row\:ex:disabled,
+.disabled\:grs\:ex:disabled {
+	grid-row: var(--grid-row-ex) !important;
+}
+
 /* ===== GRID UTILITIES ===== */
 
 /* GRID-TEMPLATE-COLUMNS */
@@ -2070,6 +2217,27 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:grid-template-columns\:ex:checked,
+.checked\:gtc\:ex:checked {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.checked\:grid-template-rows\:ex:checked,
+.checked\:gtr\:ex:checked {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.checked\:grid-column\:ex:checked,
+.checked\:gcs\:ex:checked {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.checked\:grid-row\:ex:checked,
+.checked\:grs\:ex:checked {
+	grid-row: var(--grid-row-ex) !important;
+}
+
 /* ===== GRID UTILITIES ===== */
 
 /* GRID-TEMPLATE-COLUMNS */
@@ -2328,6 +2496,27 @@
 	grid-row: span 12 / span 12 !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:grid-template-columns\:ex:visited,
+.visited\:gtc\:ex:visited {
+	grid-template-columns: var(--grid-template-columns-ex) !important;
+}
+
+.visited\:grid-template-rows\:ex:visited,
+.visited\:gtr\:ex:visited {
+	grid-template-rows: var(--grid-template-rows-ex) !important;
+}
+
+.visited\:grid-column\:ex:visited,
+.visited\:gcs\:ex:visited {
+	grid-column: var(--grid-column-ex) !important;
+}
+
+.visited\:grid-row\:ex:visited,
+.visited\:grs\:ex:visited {
+	grid-row: var(--grid-row-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== GRID UTILITIES ===== */
@@ -2589,6 +2778,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:grid-template-columns\:ex,
+	.sm\:gtc\:ex {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:grid-template-rows\:ex,
+	.sm\:gtr\:ex {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:grid-column\:ex,
+	.sm\:gcs\:ex {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:grid-row\:ex,
+	.sm\:grs\:ex {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -2847,6 +3057,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:grid-template-columns\:ex:hover,
+	.sm\:hover\:gtc\:ex:hover {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:hover\:grid-template-rows\:ex:hover,
+	.sm\:hover\:gtr\:ex:hover {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:hover\:grid-column\:ex:hover,
+	.sm\:hover\:gcs\:ex:hover {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:hover\:grid-row\:ex:hover,
+	.sm\:hover\:grs\:ex:hover {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -3107,6 +3338,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:grid-template-columns\:ex:focus,
+	.sm\:focus\:gtc\:ex:focus {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:focus\:grid-template-rows\:ex:focus,
+	.sm\:focus\:gtr\:ex:focus {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:focus\:grid-column\:ex:focus,
+	.sm\:focus\:gcs\:ex:focus {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:focus\:grid-row\:ex:focus,
+	.sm\:focus\:grs\:ex:focus {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -3365,6 +3617,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:grid-template-columns\:ex:focus-visible,
+	.sm\:focus-visible\:gtc\:ex:focus-visible {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:focus-visible\:grid-template-rows\:ex:focus-visible,
+	.sm\:focus-visible\:gtr\:ex:focus-visible {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:focus-visible\:grid-column\:ex:focus-visible,
+	.sm\:focus-visible\:gcs\:ex:focus-visible {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:focus-visible\:grid-row\:ex:focus-visible,
+	.sm\:focus-visible\:grs\:ex:focus-visible {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -3625,6 +3898,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:grid-template-columns\:ex:focus-within,
+	.sm\:focus-within\:gtc\:ex:focus-within {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:focus-within\:grid-template-rows\:ex:focus-within,
+	.sm\:focus-within\:gtr\:ex:focus-within {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:focus-within\:grid-column\:ex:focus-within,
+	.sm\:focus-within\:gcs\:ex:focus-within {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:focus-within\:grid-row\:ex:focus-within,
+	.sm\:focus-within\:grs\:ex:focus-within {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -3883,6 +4177,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:grid-template-columns\:ex:active,
+	.sm\:active\:gtc\:ex:active {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:active\:grid-template-rows\:ex:active,
+	.sm\:active\:gtr\:ex:active {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:active\:grid-column\:ex:active,
+	.sm\:active\:gcs\:ex:active {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:active\:grid-row\:ex:active,
+	.sm\:active\:grs\:ex:active {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -4143,6 +4458,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:grid-template-columns\:ex:disabled,
+	.sm\:disabled\:gtc\:ex:disabled {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:disabled\:grid-template-rows\:ex:disabled,
+	.sm\:disabled\:gtr\:ex:disabled {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:disabled\:grid-column\:ex:disabled,
+	.sm\:disabled\:gcs\:ex:disabled {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:disabled\:grid-row\:ex:disabled,
+	.sm\:disabled\:grs\:ex:disabled {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -4402,6 +4738,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:grid-template-columns\:ex:checked,
+	.sm\:checked\:gtc\:ex:checked {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:checked\:grid-template-rows\:ex:checked,
+	.sm\:checked\:gtr\:ex:checked {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:checked\:grid-column\:ex:checked,
+	.sm\:checked\:gcs\:ex:checked {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:checked\:grid-row\:ex:checked,
+	.sm\:checked\:grs\:ex:checked {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -4660,6 +5017,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:grid-template-columns\:ex:visited,
+	.sm\:visited\:gtc\:ex:visited {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.sm\:visited\:grid-template-rows\:ex:visited,
+	.sm\:visited\:gtr\:ex:visited {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.sm\:visited\:grid-column\:ex:visited,
+	.sm\:visited\:gcs\:ex:visited {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.sm\:visited\:grid-row\:ex:visited,
+	.sm\:visited\:grs\:ex:visited {
+		grid-row: var(--grid-row-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -4922,6 +5300,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:grid-template-columns\:ex,
+	.md\:gtc\:ex {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:grid-template-rows\:ex,
+	.md\:gtr\:ex {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:grid-column\:ex,
+	.md\:gcs\:ex {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:grid-row\:ex,
+	.md\:grs\:ex {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -5180,6 +5579,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:grid-template-columns\:ex:hover,
+	.md\:hover\:gtc\:ex:hover {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:hover\:grid-template-rows\:ex:hover,
+	.md\:hover\:gtr\:ex:hover {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:hover\:grid-column\:ex:hover,
+	.md\:hover\:gcs\:ex:hover {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:hover\:grid-row\:ex:hover,
+	.md\:hover\:grs\:ex:hover {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -5440,6 +5860,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:grid-template-columns\:ex:focus,
+	.md\:focus\:gtc\:ex:focus {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:focus\:grid-template-rows\:ex:focus,
+	.md\:focus\:gtr\:ex:focus {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:focus\:grid-column\:ex:focus,
+	.md\:focus\:gcs\:ex:focus {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:focus\:grid-row\:ex:focus,
+	.md\:focus\:grs\:ex:focus {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -5698,6 +6139,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:grid-template-columns\:ex:focus-visible,
+	.md\:focus-visible\:gtc\:ex:focus-visible {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:focus-visible\:grid-template-rows\:ex:focus-visible,
+	.md\:focus-visible\:gtr\:ex:focus-visible {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:focus-visible\:grid-column\:ex:focus-visible,
+	.md\:focus-visible\:gcs\:ex:focus-visible {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:focus-visible\:grid-row\:ex:focus-visible,
+	.md\:focus-visible\:grs\:ex:focus-visible {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -5958,6 +6420,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:grid-template-columns\:ex:focus-within,
+	.md\:focus-within\:gtc\:ex:focus-within {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:focus-within\:grid-template-rows\:ex:focus-within,
+	.md\:focus-within\:gtr\:ex:focus-within {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:focus-within\:grid-column\:ex:focus-within,
+	.md\:focus-within\:gcs\:ex:focus-within {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:focus-within\:grid-row\:ex:focus-within,
+	.md\:focus-within\:grs\:ex:focus-within {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -6216,6 +6699,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:grid-template-columns\:ex:active,
+	.md\:active\:gtc\:ex:active {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:active\:grid-template-rows\:ex:active,
+	.md\:active\:gtr\:ex:active {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:active\:grid-column\:ex:active,
+	.md\:active\:gcs\:ex:active {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:active\:grid-row\:ex:active,
+	.md\:active\:grs\:ex:active {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -6476,6 +6980,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:grid-template-columns\:ex:disabled,
+	.md\:disabled\:gtc\:ex:disabled {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:disabled\:grid-template-rows\:ex:disabled,
+	.md\:disabled\:gtr\:ex:disabled {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:disabled\:grid-column\:ex:disabled,
+	.md\:disabled\:gcs\:ex:disabled {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:disabled\:grid-row\:ex:disabled,
+	.md\:disabled\:grs\:ex:disabled {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -6735,6 +7260,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:grid-template-columns\:ex:checked,
+	.md\:checked\:gtc\:ex:checked {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:checked\:grid-template-rows\:ex:checked,
+	.md\:checked\:gtr\:ex:checked {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:checked\:grid-column\:ex:checked,
+	.md\:checked\:gcs\:ex:checked {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:checked\:grid-row\:ex:checked,
+	.md\:checked\:grs\:ex:checked {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -6993,6 +7539,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:grid-template-columns\:ex:visited,
+	.md\:visited\:gtc\:ex:visited {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.md\:visited\:grid-template-rows\:ex:visited,
+	.md\:visited\:gtr\:ex:visited {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.md\:visited\:grid-column\:ex:visited,
+	.md\:visited\:gcs\:ex:visited {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.md\:visited\:grid-row\:ex:visited,
+	.md\:visited\:grs\:ex:visited {
+		grid-row: var(--grid-row-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -7255,6 +7822,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:grid-template-columns\:ex,
+	.lg\:gtc\:ex {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:grid-template-rows\:ex,
+	.lg\:gtr\:ex {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:grid-column\:ex,
+	.lg\:gcs\:ex {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:grid-row\:ex,
+	.lg\:grs\:ex {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -7513,6 +8101,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:grid-template-columns\:ex:hover,
+	.lg\:hover\:gtc\:ex:hover {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:hover\:grid-template-rows\:ex:hover,
+	.lg\:hover\:gtr\:ex:hover {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:hover\:grid-column\:ex:hover,
+	.lg\:hover\:gcs\:ex:hover {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:hover\:grid-row\:ex:hover,
+	.lg\:hover\:grs\:ex:hover {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -7773,6 +8382,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:grid-template-columns\:ex:focus,
+	.lg\:focus\:gtc\:ex:focus {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:focus\:grid-template-rows\:ex:focus,
+	.lg\:focus\:gtr\:ex:focus {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:focus\:grid-column\:ex:focus,
+	.lg\:focus\:gcs\:ex:focus {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:focus\:grid-row\:ex:focus,
+	.lg\:focus\:grs\:ex:focus {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -8031,6 +8661,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:grid-template-columns\:ex:focus-visible,
+	.lg\:focus-visible\:gtc\:ex:focus-visible {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:focus-visible\:grid-template-rows\:ex:focus-visible,
+	.lg\:focus-visible\:gtr\:ex:focus-visible {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:focus-visible\:grid-column\:ex:focus-visible,
+	.lg\:focus-visible\:gcs\:ex:focus-visible {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:focus-visible\:grid-row\:ex:focus-visible,
+	.lg\:focus-visible\:grs\:ex:focus-visible {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -8291,6 +8942,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:grid-template-columns\:ex:focus-within,
+	.lg\:focus-within\:gtc\:ex:focus-within {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:focus-within\:grid-template-rows\:ex:focus-within,
+	.lg\:focus-within\:gtr\:ex:focus-within {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:focus-within\:grid-column\:ex:focus-within,
+	.lg\:focus-within\:gcs\:ex:focus-within {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:focus-within\:grid-row\:ex:focus-within,
+	.lg\:focus-within\:grs\:ex:focus-within {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -8549,6 +9221,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:grid-template-columns\:ex:active,
+	.lg\:active\:gtc\:ex:active {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:active\:grid-template-rows\:ex:active,
+	.lg\:active\:gtr\:ex:active {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:active\:grid-column\:ex:active,
+	.lg\:active\:gcs\:ex:active {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:active\:grid-row\:ex:active,
+	.lg\:active\:grs\:ex:active {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -8809,6 +9502,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:grid-template-columns\:ex:disabled,
+	.lg\:disabled\:gtc\:ex:disabled {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:disabled\:grid-template-rows\:ex:disabled,
+	.lg\:disabled\:gtr\:ex:disabled {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:disabled\:grid-column\:ex:disabled,
+	.lg\:disabled\:gcs\:ex:disabled {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:disabled\:grid-row\:ex:disabled,
+	.lg\:disabled\:grs\:ex:disabled {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -9068,6 +9782,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:grid-template-columns\:ex:checked,
+	.lg\:checked\:gtc\:ex:checked {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:checked\:grid-template-rows\:ex:checked,
+	.lg\:checked\:gtr\:ex:checked {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:checked\:grid-column\:ex:checked,
+	.lg\:checked\:gcs\:ex:checked {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:checked\:grid-row\:ex:checked,
+	.lg\:checked\:grs\:ex:checked {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -9326,6 +10061,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:grid-template-columns\:ex:visited,
+	.lg\:visited\:gtc\:ex:visited {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.lg\:visited\:grid-template-rows\:ex:visited,
+	.lg\:visited\:gtr\:ex:visited {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.lg\:visited\:grid-column\:ex:visited,
+	.lg\:visited\:gcs\:ex:visited {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.lg\:visited\:grid-row\:ex:visited,
+	.lg\:visited\:grs\:ex:visited {
+		grid-row: var(--grid-row-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -9588,6 +10344,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:grid-template-columns\:ex,
+	.xl\:gtc\:ex {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:grid-template-rows\:ex,
+	.xl\:gtr\:ex {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:grid-column\:ex,
+	.xl\:gcs\:ex {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:grid-row\:ex,
+	.xl\:grs\:ex {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -9846,6 +10623,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:grid-template-columns\:ex:hover,
+	.xl\:hover\:gtc\:ex:hover {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:hover\:grid-template-rows\:ex:hover,
+	.xl\:hover\:gtr\:ex:hover {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:hover\:grid-column\:ex:hover,
+	.xl\:hover\:gcs\:ex:hover {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:hover\:grid-row\:ex:hover,
+	.xl\:hover\:grs\:ex:hover {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -10106,6 +10904,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:grid-template-columns\:ex:focus,
+	.xl\:focus\:gtc\:ex:focus {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:focus\:grid-template-rows\:ex:focus,
+	.xl\:focus\:gtr\:ex:focus {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:focus\:grid-column\:ex:focus,
+	.xl\:focus\:gcs\:ex:focus {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:focus\:grid-row\:ex:focus,
+	.xl\:focus\:grs\:ex:focus {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -10364,6 +11183,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:grid-template-columns\:ex:focus-visible,
+	.xl\:focus-visible\:gtc\:ex:focus-visible {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:focus-visible\:grid-template-rows\:ex:focus-visible,
+	.xl\:focus-visible\:gtr\:ex:focus-visible {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:focus-visible\:grid-column\:ex:focus-visible,
+	.xl\:focus-visible\:gcs\:ex:focus-visible {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:focus-visible\:grid-row\:ex:focus-visible,
+	.xl\:focus-visible\:grs\:ex:focus-visible {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -10624,6 +11464,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:grid-template-columns\:ex:focus-within,
+	.xl\:focus-within\:gtc\:ex:focus-within {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:focus-within\:grid-template-rows\:ex:focus-within,
+	.xl\:focus-within\:gtr\:ex:focus-within {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:focus-within\:grid-column\:ex:focus-within,
+	.xl\:focus-within\:gcs\:ex:focus-within {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:focus-within\:grid-row\:ex:focus-within,
+	.xl\:focus-within\:grs\:ex:focus-within {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -10882,6 +11743,27 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:grid-template-columns\:ex:active,
+	.xl\:active\:gtc\:ex:active {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:active\:grid-template-rows\:ex:active,
+	.xl\:active\:gtr\:ex:active {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:active\:grid-column\:ex:active,
+	.xl\:active\:gcs\:ex:active {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:active\:grid-row\:ex:active,
+	.xl\:active\:grs\:ex:active {
+		grid-row: var(--grid-row-ex) !important;
+	}
 
 	/* ===== GRID UTILITIES ===== */
 
@@ -11142,6 +12024,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:grid-template-columns\:ex:disabled,
+	.xl\:disabled\:gtc\:ex:disabled {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:disabled\:grid-template-rows\:ex:disabled,
+	.xl\:disabled\:gtr\:ex:disabled {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:disabled\:grid-column\:ex:disabled,
+	.xl\:disabled\:gcs\:ex:disabled {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:disabled\:grid-row\:ex:disabled,
+	.xl\:disabled\:grs\:ex:disabled {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -11401,6 +12304,27 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:grid-template-columns\:ex:checked,
+	.xl\:checked\:gtc\:ex:checked {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:checked\:grid-template-rows\:ex:checked,
+	.xl\:checked\:gtr\:ex:checked {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:checked\:grid-column\:ex:checked,
+	.xl\:checked\:gcs\:ex:checked {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:checked\:grid-row\:ex:checked,
+	.xl\:checked\:grs\:ex:checked {
+		grid-row: var(--grid-row-ex) !important;
+	}
+
 	/* ===== GRID UTILITIES ===== */
 
 	/* GRID-TEMPLATE-COLUMNS */
@@ -11659,4 +12583,25 @@
 		grid-row: span 12 / span 12 !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:grid-template-columns\:ex:visited,
+	.xl\:visited\:gtc\:ex:visited {
+		grid-template-columns: var(--grid-template-columns-ex) !important;
+	}
+
+	.xl\:visited\:grid-template-rows\:ex:visited,
+	.xl\:visited\:gtr\:ex:visited {
+		grid-template-rows: var(--grid-template-rows-ex) !important;
+	}
+
+	.xl\:visited\:grid-column\:ex:visited,
+	.xl\:visited\:gcs\:ex:visited {
+		grid-column: var(--grid-column-ex) !important;
+	}
+
+	.xl\:visited\:grid-row\:ex:visited,
+	.xl\:visited\:grs\:ex:visited {
+		grid-row: var(--grid-row-ex) !important;
+	}
 }

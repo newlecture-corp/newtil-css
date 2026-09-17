@@ -256,6 +256,42 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.opacity\:ex,
+.op\:ex {
+	opacity: var(--opacity-ex) !important;
+}
+
+.box-shadow\:ex,
+.bsh\:ex {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.cursor\:ex,
+.cur\:ex {
+	cursor: var(--cursor-ex) !important;
+}
+
+.visibility\:ex,
+.vis\:ex {
+	visibility: var(--visibility-ex) !important;
+}
+
+.overflow\:ex,
+.of\:ex {
+	overflow: var(--overflow-ex) !important;
+}
+
+.overflow-x\:ex,
+.ofx\:ex {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.overflow-y\:ex,
+.ofy\:ex {
+	overflow-y: var(--overflow-y-ex) !important;
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 
 /* OPACITY */
@@ -513,6 +549,42 @@
 	overflow-y: clip !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:opacity\:ex:hover,
+.hover\:op\:ex:hover {
+	opacity: var(--opacity-ex) !important;
+}
+
+.hover\:box-shadow\:ex:hover,
+.hover\:bsh\:ex:hover {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.hover\:cursor\:ex:hover,
+.hover\:cur\:ex:hover {
+	cursor: var(--cursor-ex) !important;
+}
+
+.hover\:visibility\:ex:hover,
+.hover\:vis\:ex:hover {
+	visibility: var(--visibility-ex) !important;
+}
+
+.hover\:overflow\:ex:hover,
+.hover\:of\:ex:hover {
+	overflow: var(--overflow-ex) !important;
+}
+
+.hover\:overflow-x\:ex:hover,
+.hover\:ofx\:ex:hover {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.hover\:overflow-y\:ex:hover,
+.hover\:ofy\:ex:hover {
+	overflow-y: var(--overflow-y-ex) !important;
+}
 
 /* ===== EFFECTS UTILITIES ===== */
 
@@ -772,6 +844,42 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:opacity\:ex:focus,
+.focus\:op\:ex:focus {
+	opacity: var(--opacity-ex) !important;
+}
+
+.focus\:box-shadow\:ex:focus,
+.focus\:bsh\:ex:focus {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.focus\:cursor\:ex:focus,
+.focus\:cur\:ex:focus {
+	cursor: var(--cursor-ex) !important;
+}
+
+.focus\:visibility\:ex:focus,
+.focus\:vis\:ex:focus {
+	visibility: var(--visibility-ex) !important;
+}
+
+.focus\:overflow\:ex:focus,
+.focus\:of\:ex:focus {
+	overflow: var(--overflow-ex) !important;
+}
+
+.focus\:overflow-x\:ex:focus,
+.focus\:ofx\:ex:focus {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.focus\:overflow-y\:ex:focus,
+.focus\:ofy\:ex:focus {
+	overflow-y: var(--overflow-y-ex) !important;
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 
 /* OPACITY */
@@ -1029,6 +1137,42 @@
 	overflow-y: clip !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:opacity\:ex:focus-visible,
+.focus-visible\:op\:ex:focus-visible {
+	opacity: var(--opacity-ex) !important;
+}
+
+.focus-visible\:box-shadow\:ex:focus-visible,
+.focus-visible\:bsh\:ex:focus-visible {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.focus-visible\:cursor\:ex:focus-visible,
+.focus-visible\:cur\:ex:focus-visible {
+	cursor: var(--cursor-ex) !important;
+}
+
+.focus-visible\:visibility\:ex:focus-visible,
+.focus-visible\:vis\:ex:focus-visible {
+	visibility: var(--visibility-ex) !important;
+}
+
+.focus-visible\:overflow\:ex:focus-visible,
+.focus-visible\:of\:ex:focus-visible {
+	overflow: var(--overflow-ex) !important;
+}
+
+.focus-visible\:overflow-x\:ex:focus-visible,
+.focus-visible\:ofx\:ex:focus-visible {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.focus-visible\:overflow-y\:ex:focus-visible,
+.focus-visible\:ofy\:ex:focus-visible {
+	overflow-y: var(--overflow-y-ex) !important;
+}
 
 /* ===== EFFECTS UTILITIES ===== */
 
@@ -1288,6 +1432,42 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:opacity\:ex:focus-within,
+.focus-within\:op\:ex:focus-within {
+	opacity: var(--opacity-ex) !important;
+}
+
+.focus-within\:box-shadow\:ex:focus-within,
+.focus-within\:bsh\:ex:focus-within {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.focus-within\:cursor\:ex:focus-within,
+.focus-within\:cur\:ex:focus-within {
+	cursor: var(--cursor-ex) !important;
+}
+
+.focus-within\:visibility\:ex:focus-within,
+.focus-within\:vis\:ex:focus-within {
+	visibility: var(--visibility-ex) !important;
+}
+
+.focus-within\:overflow\:ex:focus-within,
+.focus-within\:of\:ex:focus-within {
+	overflow: var(--overflow-ex) !important;
+}
+
+.focus-within\:overflow-x\:ex:focus-within,
+.focus-within\:ofx\:ex:focus-within {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.focus-within\:overflow-y\:ex:focus-within,
+.focus-within\:ofy\:ex:focus-within {
+	overflow-y: var(--overflow-y-ex) !important;
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 
 /* OPACITY */
@@ -1545,6 +1725,42 @@
 	overflow-y: clip !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:opacity\:ex:active,
+.active\:op\:ex:active {
+	opacity: var(--opacity-ex) !important;
+}
+
+.active\:box-shadow\:ex:active,
+.active\:bsh\:ex:active {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.active\:cursor\:ex:active,
+.active\:cur\:ex:active {
+	cursor: var(--cursor-ex) !important;
+}
+
+.active\:visibility\:ex:active,
+.active\:vis\:ex:active {
+	visibility: var(--visibility-ex) !important;
+}
+
+.active\:overflow\:ex:active,
+.active\:of\:ex:active {
+	overflow: var(--overflow-ex) !important;
+}
+
+.active\:overflow-x\:ex:active,
+.active\:ofx\:ex:active {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.active\:overflow-y\:ex:active,
+.active\:ofy\:ex:active {
+	overflow-y: var(--overflow-y-ex) !important;
+}
 
 /* ===== EFFECTS UTILITIES ===== */
 
@@ -1804,6 +2020,42 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:opacity\:ex:disabled,
+.disabled\:op\:ex:disabled {
+	opacity: var(--opacity-ex) !important;
+}
+
+.disabled\:box-shadow\:ex:disabled,
+.disabled\:bsh\:ex:disabled {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.disabled\:cursor\:ex:disabled,
+.disabled\:cur\:ex:disabled {
+	cursor: var(--cursor-ex) !important;
+}
+
+.disabled\:visibility\:ex:disabled,
+.disabled\:vis\:ex:disabled {
+	visibility: var(--visibility-ex) !important;
+}
+
+.disabled\:overflow\:ex:disabled,
+.disabled\:of\:ex:disabled {
+	overflow: var(--overflow-ex) !important;
+}
+
+.disabled\:overflow-x\:ex:disabled,
+.disabled\:ofx\:ex:disabled {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.disabled\:overflow-y\:ex:disabled,
+.disabled\:ofy\:ex:disabled {
+	overflow-y: var(--overflow-y-ex) !important;
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 
 /* OPACITY */
@@ -2062,6 +2314,42 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:opacity\:ex:checked,
+.checked\:op\:ex:checked {
+	opacity: var(--opacity-ex) !important;
+}
+
+.checked\:box-shadow\:ex:checked,
+.checked\:bsh\:ex:checked {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.checked\:cursor\:ex:checked,
+.checked\:cur\:ex:checked {
+	cursor: var(--cursor-ex) !important;
+}
+
+.checked\:visibility\:ex:checked,
+.checked\:vis\:ex:checked {
+	visibility: var(--visibility-ex) !important;
+}
+
+.checked\:overflow\:ex:checked,
+.checked\:of\:ex:checked {
+	overflow: var(--overflow-ex) !important;
+}
+
+.checked\:overflow-x\:ex:checked,
+.checked\:ofx\:ex:checked {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.checked\:overflow-y\:ex:checked,
+.checked\:ofy\:ex:checked {
+	overflow-y: var(--overflow-y-ex) !important;
+}
+
 /* ===== EFFECTS UTILITIES ===== */
 
 /* OPACITY */
@@ -2319,6 +2607,42 @@
 	overflow-y: clip !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:opacity\:ex:visited,
+.visited\:op\:ex:visited {
+	opacity: var(--opacity-ex) !important;
+}
+
+.visited\:box-shadow\:ex:visited,
+.visited\:bsh\:ex:visited {
+	box-shadow: var(--box-shadow-ex) !important;
+}
+
+.visited\:cursor\:ex:visited,
+.visited\:cur\:ex:visited {
+	cursor: var(--cursor-ex) !important;
+}
+
+.visited\:visibility\:ex:visited,
+.visited\:vis\:ex:visited {
+	visibility: var(--visibility-ex) !important;
+}
+
+.visited\:overflow\:ex:visited,
+.visited\:of\:ex:visited {
+	overflow: var(--overflow-ex) !important;
+}
+
+.visited\:overflow-x\:ex:visited,
+.visited\:ofx\:ex:visited {
+	overflow-x: var(--overflow-x-ex) !important;
+}
+
+.visited\:overflow-y\:ex:visited,
+.visited\:ofy\:ex:visited {
+	overflow-y: var(--overflow-y-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== EFFECTS UTILITIES ===== */
@@ -2579,6 +2903,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:opacity\:ex,
+	.sm\:op\:ex {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:box-shadow\:ex,
+	.sm\:bsh\:ex {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:cursor\:ex,
+	.sm\:cur\:ex {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:visibility\:ex,
+	.sm\:vis\:ex {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:overflow\:ex,
+	.sm\:of\:ex {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:overflow-x\:ex,
+	.sm\:ofx\:ex {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:overflow-y\:ex,
+	.sm\:ofy\:ex {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -2836,6 +3196,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:opacity\:ex:hover,
+	.sm\:hover\:op\:ex:hover {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:hover\:box-shadow\:ex:hover,
+	.sm\:hover\:bsh\:ex:hover {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:hover\:cursor\:ex:hover,
+	.sm\:hover\:cur\:ex:hover {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:hover\:visibility\:ex:hover,
+	.sm\:hover\:vis\:ex:hover {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:hover\:overflow\:ex:hover,
+	.sm\:hover\:of\:ex:hover {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:hover\:overflow-x\:ex:hover,
+	.sm\:hover\:ofx\:ex:hover {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:hover\:overflow-y\:ex:hover,
+	.sm\:hover\:ofy\:ex:hover {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -3095,6 +3491,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:opacity\:ex:focus,
+	.sm\:focus\:op\:ex:focus {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:focus\:box-shadow\:ex:focus,
+	.sm\:focus\:bsh\:ex:focus {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:focus\:cursor\:ex:focus,
+	.sm\:focus\:cur\:ex:focus {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:focus\:visibility\:ex:focus,
+	.sm\:focus\:vis\:ex:focus {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:focus\:overflow\:ex:focus,
+	.sm\:focus\:of\:ex:focus {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:focus\:overflow-x\:ex:focus,
+	.sm\:focus\:ofx\:ex:focus {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:focus\:overflow-y\:ex:focus,
+	.sm\:focus\:ofy\:ex:focus {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -3352,6 +3784,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:opacity\:ex:focus-visible,
+	.sm\:focus-visible\:op\:ex:focus-visible {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:focus-visible\:box-shadow\:ex:focus-visible,
+	.sm\:focus-visible\:bsh\:ex:focus-visible {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:focus-visible\:cursor\:ex:focus-visible,
+	.sm\:focus-visible\:cur\:ex:focus-visible {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:focus-visible\:visibility\:ex:focus-visible,
+	.sm\:focus-visible\:vis\:ex:focus-visible {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:focus-visible\:overflow\:ex:focus-visible,
+	.sm\:focus-visible\:of\:ex:focus-visible {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:focus-visible\:overflow-x\:ex:focus-visible,
+	.sm\:focus-visible\:ofx\:ex:focus-visible {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:overflow-y\:ex:focus-visible,
+	.sm\:focus-visible\:ofy\:ex:focus-visible {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -3611,6 +4079,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:opacity\:ex:focus-within,
+	.sm\:focus-within\:op\:ex:focus-within {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:focus-within\:box-shadow\:ex:focus-within,
+	.sm\:focus-within\:bsh\:ex:focus-within {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:focus-within\:cursor\:ex:focus-within,
+	.sm\:focus-within\:cur\:ex:focus-within {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:focus-within\:visibility\:ex:focus-within,
+	.sm\:focus-within\:vis\:ex:focus-within {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:focus-within\:overflow\:ex:focus-within,
+	.sm\:focus-within\:of\:ex:focus-within {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:focus-within\:overflow-x\:ex:focus-within,
+	.sm\:focus-within\:ofx\:ex:focus-within {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:focus-within\:overflow-y\:ex:focus-within,
+	.sm\:focus-within\:ofy\:ex:focus-within {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -3868,6 +4372,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:opacity\:ex:active,
+	.sm\:active\:op\:ex:active {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:active\:box-shadow\:ex:active,
+	.sm\:active\:bsh\:ex:active {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:active\:cursor\:ex:active,
+	.sm\:active\:cur\:ex:active {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:active\:visibility\:ex:active,
+	.sm\:active\:vis\:ex:active {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:active\:overflow\:ex:active,
+	.sm\:active\:of\:ex:active {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:active\:overflow-x\:ex:active,
+	.sm\:active\:ofx\:ex:active {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:active\:overflow-y\:ex:active,
+	.sm\:active\:ofy\:ex:active {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -4127,6 +4667,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:opacity\:ex:disabled,
+	.sm\:disabled\:op\:ex:disabled {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:disabled\:box-shadow\:ex:disabled,
+	.sm\:disabled\:bsh\:ex:disabled {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:disabled\:cursor\:ex:disabled,
+	.sm\:disabled\:cur\:ex:disabled {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:disabled\:visibility\:ex:disabled,
+	.sm\:disabled\:vis\:ex:disabled {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:disabled\:overflow\:ex:disabled,
+	.sm\:disabled\:of\:ex:disabled {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:disabled\:overflow-x\:ex:disabled,
+	.sm\:disabled\:ofx\:ex:disabled {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:disabled\:overflow-y\:ex:disabled,
+	.sm\:disabled\:ofy\:ex:disabled {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -4385,6 +4961,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:opacity\:ex:checked,
+	.sm\:checked\:op\:ex:checked {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:checked\:box-shadow\:ex:checked,
+	.sm\:checked\:bsh\:ex:checked {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:checked\:cursor\:ex:checked,
+	.sm\:checked\:cur\:ex:checked {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:checked\:visibility\:ex:checked,
+	.sm\:checked\:vis\:ex:checked {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:checked\:overflow\:ex:checked,
+	.sm\:checked\:of\:ex:checked {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:checked\:overflow-x\:ex:checked,
+	.sm\:checked\:ofx\:ex:checked {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:checked\:overflow-y\:ex:checked,
+	.sm\:checked\:ofy\:ex:checked {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -4642,6 +5254,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:opacity\:ex:visited,
+	.sm\:visited\:op\:ex:visited {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.sm\:visited\:box-shadow\:ex:visited,
+	.sm\:visited\:bsh\:ex:visited {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.sm\:visited\:cursor\:ex:visited,
+	.sm\:visited\:cur\:ex:visited {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.sm\:visited\:visibility\:ex:visited,
+	.sm\:visited\:vis\:ex:visited {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.sm\:visited\:overflow\:ex:visited,
+	.sm\:visited\:of\:ex:visited {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.sm\:visited\:overflow-x\:ex:visited,
+	.sm\:visited\:ofx\:ex:visited {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.sm\:visited\:overflow-y\:ex:visited,
+	.sm\:visited\:ofy\:ex:visited {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -4903,6 +5551,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:opacity\:ex,
+	.md\:op\:ex {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:box-shadow\:ex,
+	.md\:bsh\:ex {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:cursor\:ex,
+	.md\:cur\:ex {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:visibility\:ex,
+	.md\:vis\:ex {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:overflow\:ex,
+	.md\:of\:ex {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:overflow-x\:ex,
+	.md\:ofx\:ex {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:overflow-y\:ex,
+	.md\:ofy\:ex {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -5160,6 +5844,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:opacity\:ex:hover,
+	.md\:hover\:op\:ex:hover {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:hover\:box-shadow\:ex:hover,
+	.md\:hover\:bsh\:ex:hover {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:hover\:cursor\:ex:hover,
+	.md\:hover\:cur\:ex:hover {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:hover\:visibility\:ex:hover,
+	.md\:hover\:vis\:ex:hover {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:hover\:overflow\:ex:hover,
+	.md\:hover\:of\:ex:hover {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:hover\:overflow-x\:ex:hover,
+	.md\:hover\:ofx\:ex:hover {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:hover\:overflow-y\:ex:hover,
+	.md\:hover\:ofy\:ex:hover {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -5419,6 +6139,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:opacity\:ex:focus,
+	.md\:focus\:op\:ex:focus {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:focus\:box-shadow\:ex:focus,
+	.md\:focus\:bsh\:ex:focus {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:focus\:cursor\:ex:focus,
+	.md\:focus\:cur\:ex:focus {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:focus\:visibility\:ex:focus,
+	.md\:focus\:vis\:ex:focus {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:focus\:overflow\:ex:focus,
+	.md\:focus\:of\:ex:focus {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:focus\:overflow-x\:ex:focus,
+	.md\:focus\:ofx\:ex:focus {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:focus\:overflow-y\:ex:focus,
+	.md\:focus\:ofy\:ex:focus {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -5676,6 +6432,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:opacity\:ex:focus-visible,
+	.md\:focus-visible\:op\:ex:focus-visible {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:focus-visible\:box-shadow\:ex:focus-visible,
+	.md\:focus-visible\:bsh\:ex:focus-visible {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:focus-visible\:cursor\:ex:focus-visible,
+	.md\:focus-visible\:cur\:ex:focus-visible {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:focus-visible\:visibility\:ex:focus-visible,
+	.md\:focus-visible\:vis\:ex:focus-visible {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:focus-visible\:overflow\:ex:focus-visible,
+	.md\:focus-visible\:of\:ex:focus-visible {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:focus-visible\:overflow-x\:ex:focus-visible,
+	.md\:focus-visible\:ofx\:ex:focus-visible {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:focus-visible\:overflow-y\:ex:focus-visible,
+	.md\:focus-visible\:ofy\:ex:focus-visible {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -5935,6 +6727,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:opacity\:ex:focus-within,
+	.md\:focus-within\:op\:ex:focus-within {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:focus-within\:box-shadow\:ex:focus-within,
+	.md\:focus-within\:bsh\:ex:focus-within {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:focus-within\:cursor\:ex:focus-within,
+	.md\:focus-within\:cur\:ex:focus-within {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:focus-within\:visibility\:ex:focus-within,
+	.md\:focus-within\:vis\:ex:focus-within {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:focus-within\:overflow\:ex:focus-within,
+	.md\:focus-within\:of\:ex:focus-within {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:focus-within\:overflow-x\:ex:focus-within,
+	.md\:focus-within\:ofx\:ex:focus-within {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:focus-within\:overflow-y\:ex:focus-within,
+	.md\:focus-within\:ofy\:ex:focus-within {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -6192,6 +7020,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:opacity\:ex:active,
+	.md\:active\:op\:ex:active {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:active\:box-shadow\:ex:active,
+	.md\:active\:bsh\:ex:active {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:active\:cursor\:ex:active,
+	.md\:active\:cur\:ex:active {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:active\:visibility\:ex:active,
+	.md\:active\:vis\:ex:active {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:active\:overflow\:ex:active,
+	.md\:active\:of\:ex:active {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:active\:overflow-x\:ex:active,
+	.md\:active\:ofx\:ex:active {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:active\:overflow-y\:ex:active,
+	.md\:active\:ofy\:ex:active {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -6451,6 +7315,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:opacity\:ex:disabled,
+	.md\:disabled\:op\:ex:disabled {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:disabled\:box-shadow\:ex:disabled,
+	.md\:disabled\:bsh\:ex:disabled {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:disabled\:cursor\:ex:disabled,
+	.md\:disabled\:cur\:ex:disabled {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:disabled\:visibility\:ex:disabled,
+	.md\:disabled\:vis\:ex:disabled {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:disabled\:overflow\:ex:disabled,
+	.md\:disabled\:of\:ex:disabled {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:disabled\:overflow-x\:ex:disabled,
+	.md\:disabled\:ofx\:ex:disabled {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:disabled\:overflow-y\:ex:disabled,
+	.md\:disabled\:ofy\:ex:disabled {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -6709,6 +7609,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:opacity\:ex:checked,
+	.md\:checked\:op\:ex:checked {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:checked\:box-shadow\:ex:checked,
+	.md\:checked\:bsh\:ex:checked {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:checked\:cursor\:ex:checked,
+	.md\:checked\:cur\:ex:checked {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:checked\:visibility\:ex:checked,
+	.md\:checked\:vis\:ex:checked {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:checked\:overflow\:ex:checked,
+	.md\:checked\:of\:ex:checked {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:checked\:overflow-x\:ex:checked,
+	.md\:checked\:ofx\:ex:checked {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:checked\:overflow-y\:ex:checked,
+	.md\:checked\:ofy\:ex:checked {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -6966,6 +7902,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:opacity\:ex:visited,
+	.md\:visited\:op\:ex:visited {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.md\:visited\:box-shadow\:ex:visited,
+	.md\:visited\:bsh\:ex:visited {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.md\:visited\:cursor\:ex:visited,
+	.md\:visited\:cur\:ex:visited {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.md\:visited\:visibility\:ex:visited,
+	.md\:visited\:vis\:ex:visited {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.md\:visited\:overflow\:ex:visited,
+	.md\:visited\:of\:ex:visited {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.md\:visited\:overflow-x\:ex:visited,
+	.md\:visited\:ofx\:ex:visited {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.md\:visited\:overflow-y\:ex:visited,
+	.md\:visited\:ofy\:ex:visited {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -7227,6 +8199,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:opacity\:ex,
+	.lg\:op\:ex {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:box-shadow\:ex,
+	.lg\:bsh\:ex {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:cursor\:ex,
+	.lg\:cur\:ex {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:visibility\:ex,
+	.lg\:vis\:ex {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:overflow\:ex,
+	.lg\:of\:ex {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:overflow-x\:ex,
+	.lg\:ofx\:ex {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:overflow-y\:ex,
+	.lg\:ofy\:ex {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -7484,6 +8492,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:opacity\:ex:hover,
+	.lg\:hover\:op\:ex:hover {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:hover\:box-shadow\:ex:hover,
+	.lg\:hover\:bsh\:ex:hover {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:hover\:cursor\:ex:hover,
+	.lg\:hover\:cur\:ex:hover {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:hover\:visibility\:ex:hover,
+	.lg\:hover\:vis\:ex:hover {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:hover\:overflow\:ex:hover,
+	.lg\:hover\:of\:ex:hover {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:hover\:overflow-x\:ex:hover,
+	.lg\:hover\:ofx\:ex:hover {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:hover\:overflow-y\:ex:hover,
+	.lg\:hover\:ofy\:ex:hover {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -7743,6 +8787,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:opacity\:ex:focus,
+	.lg\:focus\:op\:ex:focus {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:focus\:box-shadow\:ex:focus,
+	.lg\:focus\:bsh\:ex:focus {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:focus\:cursor\:ex:focus,
+	.lg\:focus\:cur\:ex:focus {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:focus\:visibility\:ex:focus,
+	.lg\:focus\:vis\:ex:focus {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:focus\:overflow\:ex:focus,
+	.lg\:focus\:of\:ex:focus {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:focus\:overflow-x\:ex:focus,
+	.lg\:focus\:ofx\:ex:focus {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:focus\:overflow-y\:ex:focus,
+	.lg\:focus\:ofy\:ex:focus {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -8000,6 +9080,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:opacity\:ex:focus-visible,
+	.lg\:focus-visible\:op\:ex:focus-visible {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:focus-visible\:box-shadow\:ex:focus-visible,
+	.lg\:focus-visible\:bsh\:ex:focus-visible {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:focus-visible\:cursor\:ex:focus-visible,
+	.lg\:focus-visible\:cur\:ex:focus-visible {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:focus-visible\:visibility\:ex:focus-visible,
+	.lg\:focus-visible\:vis\:ex:focus-visible {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:focus-visible\:overflow\:ex:focus-visible,
+	.lg\:focus-visible\:of\:ex:focus-visible {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:focus-visible\:overflow-x\:ex:focus-visible,
+	.lg\:focus-visible\:ofx\:ex:focus-visible {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:overflow-y\:ex:focus-visible,
+	.lg\:focus-visible\:ofy\:ex:focus-visible {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -8259,6 +9375,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:opacity\:ex:focus-within,
+	.lg\:focus-within\:op\:ex:focus-within {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:focus-within\:box-shadow\:ex:focus-within,
+	.lg\:focus-within\:bsh\:ex:focus-within {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:focus-within\:cursor\:ex:focus-within,
+	.lg\:focus-within\:cur\:ex:focus-within {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:focus-within\:visibility\:ex:focus-within,
+	.lg\:focus-within\:vis\:ex:focus-within {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:focus-within\:overflow\:ex:focus-within,
+	.lg\:focus-within\:of\:ex:focus-within {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:focus-within\:overflow-x\:ex:focus-within,
+	.lg\:focus-within\:ofx\:ex:focus-within {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:focus-within\:overflow-y\:ex:focus-within,
+	.lg\:focus-within\:ofy\:ex:focus-within {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -8516,6 +9668,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:opacity\:ex:active,
+	.lg\:active\:op\:ex:active {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:active\:box-shadow\:ex:active,
+	.lg\:active\:bsh\:ex:active {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:active\:cursor\:ex:active,
+	.lg\:active\:cur\:ex:active {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:active\:visibility\:ex:active,
+	.lg\:active\:vis\:ex:active {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:active\:overflow\:ex:active,
+	.lg\:active\:of\:ex:active {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:active\:overflow-x\:ex:active,
+	.lg\:active\:ofx\:ex:active {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:active\:overflow-y\:ex:active,
+	.lg\:active\:ofy\:ex:active {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -8775,6 +9963,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:opacity\:ex:disabled,
+	.lg\:disabled\:op\:ex:disabled {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:disabled\:box-shadow\:ex:disabled,
+	.lg\:disabled\:bsh\:ex:disabled {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:disabled\:cursor\:ex:disabled,
+	.lg\:disabled\:cur\:ex:disabled {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:disabled\:visibility\:ex:disabled,
+	.lg\:disabled\:vis\:ex:disabled {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:disabled\:overflow\:ex:disabled,
+	.lg\:disabled\:of\:ex:disabled {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:disabled\:overflow-x\:ex:disabled,
+	.lg\:disabled\:ofx\:ex:disabled {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:disabled\:overflow-y\:ex:disabled,
+	.lg\:disabled\:ofy\:ex:disabled {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -9033,6 +10257,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:opacity\:ex:checked,
+	.lg\:checked\:op\:ex:checked {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:checked\:box-shadow\:ex:checked,
+	.lg\:checked\:bsh\:ex:checked {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:checked\:cursor\:ex:checked,
+	.lg\:checked\:cur\:ex:checked {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:checked\:visibility\:ex:checked,
+	.lg\:checked\:vis\:ex:checked {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:checked\:overflow\:ex:checked,
+	.lg\:checked\:of\:ex:checked {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:checked\:overflow-x\:ex:checked,
+	.lg\:checked\:ofx\:ex:checked {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:checked\:overflow-y\:ex:checked,
+	.lg\:checked\:ofy\:ex:checked {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -9290,6 +10550,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:opacity\:ex:visited,
+	.lg\:visited\:op\:ex:visited {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.lg\:visited\:box-shadow\:ex:visited,
+	.lg\:visited\:bsh\:ex:visited {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.lg\:visited\:cursor\:ex:visited,
+	.lg\:visited\:cur\:ex:visited {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.lg\:visited\:visibility\:ex:visited,
+	.lg\:visited\:vis\:ex:visited {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.lg\:visited\:overflow\:ex:visited,
+	.lg\:visited\:of\:ex:visited {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.lg\:visited\:overflow-x\:ex:visited,
+	.lg\:visited\:ofx\:ex:visited {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.lg\:visited\:overflow-y\:ex:visited,
+	.lg\:visited\:ofy\:ex:visited {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -9551,6 +10847,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:opacity\:ex,
+	.xl\:op\:ex {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:box-shadow\:ex,
+	.xl\:bsh\:ex {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:cursor\:ex,
+	.xl\:cur\:ex {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:visibility\:ex,
+	.xl\:vis\:ex {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:overflow\:ex,
+	.xl\:of\:ex {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:overflow-x\:ex,
+	.xl\:ofx\:ex {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:overflow-y\:ex,
+	.xl\:ofy\:ex {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -9808,6 +11140,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:opacity\:ex:hover,
+	.xl\:hover\:op\:ex:hover {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:hover\:box-shadow\:ex:hover,
+	.xl\:hover\:bsh\:ex:hover {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:hover\:cursor\:ex:hover,
+	.xl\:hover\:cur\:ex:hover {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:hover\:visibility\:ex:hover,
+	.xl\:hover\:vis\:ex:hover {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:hover\:overflow\:ex:hover,
+	.xl\:hover\:of\:ex:hover {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:hover\:overflow-x\:ex:hover,
+	.xl\:hover\:ofx\:ex:hover {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:hover\:overflow-y\:ex:hover,
+	.xl\:hover\:ofy\:ex:hover {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -10067,6 +11435,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:opacity\:ex:focus,
+	.xl\:focus\:op\:ex:focus {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:focus\:box-shadow\:ex:focus,
+	.xl\:focus\:bsh\:ex:focus {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:focus\:cursor\:ex:focus,
+	.xl\:focus\:cur\:ex:focus {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:focus\:visibility\:ex:focus,
+	.xl\:focus\:vis\:ex:focus {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:focus\:overflow\:ex:focus,
+	.xl\:focus\:of\:ex:focus {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:focus\:overflow-x\:ex:focus,
+	.xl\:focus\:ofx\:ex:focus {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:focus\:overflow-y\:ex:focus,
+	.xl\:focus\:ofy\:ex:focus {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -10324,6 +11728,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:opacity\:ex:focus-visible,
+	.xl\:focus-visible\:op\:ex:focus-visible {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:focus-visible\:box-shadow\:ex:focus-visible,
+	.xl\:focus-visible\:bsh\:ex:focus-visible {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:focus-visible\:cursor\:ex:focus-visible,
+	.xl\:focus-visible\:cur\:ex:focus-visible {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:focus-visible\:visibility\:ex:focus-visible,
+	.xl\:focus-visible\:vis\:ex:focus-visible {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:focus-visible\:overflow\:ex:focus-visible,
+	.xl\:focus-visible\:of\:ex:focus-visible {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:focus-visible\:overflow-x\:ex:focus-visible,
+	.xl\:focus-visible\:ofx\:ex:focus-visible {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:overflow-y\:ex:focus-visible,
+	.xl\:focus-visible\:ofy\:ex:focus-visible {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -10583,6 +12023,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:opacity\:ex:focus-within,
+	.xl\:focus-within\:op\:ex:focus-within {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:focus-within\:box-shadow\:ex:focus-within,
+	.xl\:focus-within\:bsh\:ex:focus-within {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:focus-within\:cursor\:ex:focus-within,
+	.xl\:focus-within\:cur\:ex:focus-within {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:focus-within\:visibility\:ex:focus-within,
+	.xl\:focus-within\:vis\:ex:focus-within {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:focus-within\:overflow\:ex:focus-within,
+	.xl\:focus-within\:of\:ex:focus-within {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:focus-within\:overflow-x\:ex:focus-within,
+	.xl\:focus-within\:ofx\:ex:focus-within {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:focus-within\:overflow-y\:ex:focus-within,
+	.xl\:focus-within\:ofy\:ex:focus-within {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -10840,6 +12316,42 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:opacity\:ex:active,
+	.xl\:active\:op\:ex:active {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:active\:box-shadow\:ex:active,
+	.xl\:active\:bsh\:ex:active {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:active\:cursor\:ex:active,
+	.xl\:active\:cur\:ex:active {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:active\:visibility\:ex:active,
+	.xl\:active\:vis\:ex:active {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:active\:overflow\:ex:active,
+	.xl\:active\:of\:ex:active {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:active\:overflow-x\:ex:active,
+	.xl\:active\:ofx\:ex:active {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:active\:overflow-y\:ex:active,
+	.xl\:active\:ofy\:ex:active {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 
 	/* ===== EFFECTS UTILITIES ===== */
 
@@ -11099,6 +12611,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:opacity\:ex:disabled,
+	.xl\:disabled\:op\:ex:disabled {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:disabled\:box-shadow\:ex:disabled,
+	.xl\:disabled\:bsh\:ex:disabled {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:disabled\:cursor\:ex:disabled,
+	.xl\:disabled\:cur\:ex:disabled {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:disabled\:visibility\:ex:disabled,
+	.xl\:disabled\:vis\:ex:disabled {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:disabled\:overflow\:ex:disabled,
+	.xl\:disabled\:of\:ex:disabled {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:disabled\:overflow-x\:ex:disabled,
+	.xl\:disabled\:ofx\:ex:disabled {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:disabled\:overflow-y\:ex:disabled,
+	.xl\:disabled\:ofy\:ex:disabled {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -11357,6 +12905,42 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:opacity\:ex:checked,
+	.xl\:checked\:op\:ex:checked {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:checked\:box-shadow\:ex:checked,
+	.xl\:checked\:bsh\:ex:checked {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:checked\:cursor\:ex:checked,
+	.xl\:checked\:cur\:ex:checked {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:checked\:visibility\:ex:checked,
+	.xl\:checked\:vis\:ex:checked {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:checked\:overflow\:ex:checked,
+	.xl\:checked\:of\:ex:checked {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:checked\:overflow-x\:ex:checked,
+	.xl\:checked\:ofx\:ex:checked {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:checked\:overflow-y\:ex:checked,
+	.xl\:checked\:ofy\:ex:checked {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
+
 	/* ===== EFFECTS UTILITIES ===== */
 
 	/* OPACITY */
@@ -11614,4 +13198,40 @@
 		overflow-y: clip !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:opacity\:ex:visited,
+	.xl\:visited\:op\:ex:visited {
+		opacity: var(--opacity-ex) !important;
+	}
+
+	.xl\:visited\:box-shadow\:ex:visited,
+	.xl\:visited\:bsh\:ex:visited {
+		box-shadow: var(--box-shadow-ex) !important;
+	}
+
+	.xl\:visited\:cursor\:ex:visited,
+	.xl\:visited\:cur\:ex:visited {
+		cursor: var(--cursor-ex) !important;
+	}
+
+	.xl\:visited\:visibility\:ex:visited,
+	.xl\:visited\:vis\:ex:visited {
+		visibility: var(--visibility-ex) !important;
+	}
+
+	.xl\:visited\:overflow\:ex:visited,
+	.xl\:visited\:of\:ex:visited {
+		overflow: var(--overflow-ex) !important;
+	}
+
+	.xl\:visited\:overflow-x\:ex:visited,
+	.xl\:visited\:ofx\:ex:visited {
+		overflow-x: var(--overflow-x-ex) !important;
+	}
+
+	.xl\:visited\:overflow-y\:ex:visited,
+	.xl\:visited\:ofy\:ex:visited {
+		overflow-y: var(--overflow-y-ex) !important;
+	}
 }

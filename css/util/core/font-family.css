@@ -26,6 +26,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.font-family\:ex,
+.ff\:ex {
+	font-family: var(--font-family-ex) !important;
+}
+
 /* ===== FONT-FAMILY UTILITIES ===== */
 
 .hover\:font-family\:sans:hover,
@@ -53,6 +59,12 @@
 	font-family: inherit !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:font-family\:ex:hover,
+.hover\:ff\:ex:hover {
+	font-family: var(--font-family-ex) !important;
+}
 
 /* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -82,6 +94,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:font-family\:ex:focus,
+.focus\:ff\:ex:focus {
+	font-family: var(--font-family-ex) !important;
+}
+
 /* ===== FONT-FAMILY UTILITIES ===== */
 
 .focus-visible\:font-family\:sans:focus-visible,
@@ -109,6 +127,12 @@
 	font-family: inherit !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:font-family\:ex:focus-visible,
+.focus-visible\:ff\:ex:focus-visible {
+	font-family: var(--font-family-ex) !important;
+}
 
 /* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -138,6 +162,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:font-family\:ex:focus-within,
+.focus-within\:ff\:ex:focus-within {
+	font-family: var(--font-family-ex) !important;
+}
+
 /* ===== FONT-FAMILY UTILITIES ===== */
 
 .active\:font-family\:sans:active,
@@ -165,6 +195,12 @@
 	font-family: inherit !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:font-family\:ex:active,
+.active\:ff\:ex:active {
+	font-family: var(--font-family-ex) !important;
+}
 
 /* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -194,6 +230,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:font-family\:ex:disabled,
+.disabled\:ff\:ex:disabled {
+	font-family: var(--font-family-ex) !important;
+}
+
 /* ===== FONT-FAMILY UTILITIES ===== */
 
 .checked\:font-family\:sans:checked,
@@ -222,6 +264,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:font-family\:ex:checked,
+.checked\:ff\:ex:checked {
+	font-family: var(--font-family-ex) !important;
+}
+
 /* ===== FONT-FAMILY UTILITIES ===== */
 
 .visited\:font-family\:sans:visited,
@@ -249,6 +297,12 @@
 	font-family: inherit !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:font-family\:ex:visited,
+.visited\:ff\:ex:visited {
+	font-family: var(--font-family-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== FONT-FAMILY UTILITIES ===== */
@@ -279,6 +333,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:font-family\:ex,
+	.sm\:ff\:ex {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.sm\:hover\:font-family\:sans:hover,
@@ -306,6 +366,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:font-family\:ex:hover,
+	.sm\:hover\:ff\:ex:hover {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -335,6 +401,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:font-family\:ex:focus,
+	.sm\:focus\:ff\:ex:focus {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.sm\:focus-visible\:font-family\:sans:focus-visible,
@@ -362,6 +434,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:font-family\:ex:focus-visible,
+	.sm\:focus-visible\:ff\:ex:focus-visible {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -391,6 +469,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:font-family\:ex:focus-within,
+	.sm\:focus-within\:ff\:ex:focus-within {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.sm\:active\:font-family\:sans:active,
@@ -418,6 +502,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:font-family\:ex:active,
+	.sm\:active\:ff\:ex:active {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -447,6 +537,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:font-family\:ex:disabled,
+	.sm\:disabled\:ff\:ex:disabled {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.sm\:checked\:font-family\:sans:checked,
@@ -475,6 +571,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:font-family\:ex:checked,
+	.sm\:checked\:ff\:ex:checked {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.sm\:visited\:font-family\:sans:visited,
@@ -502,6 +604,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:font-family\:ex:visited,
+	.sm\:visited\:ff\:ex:visited {
+		font-family: var(--font-family-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -533,6 +641,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:font-family\:ex,
+	.md\:ff\:ex {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.md\:hover\:font-family\:sans:hover,
@@ -560,6 +674,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:font-family\:ex:hover,
+	.md\:hover\:ff\:ex:hover {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -589,6 +709,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:font-family\:ex:focus,
+	.md\:focus\:ff\:ex:focus {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.md\:focus-visible\:font-family\:sans:focus-visible,
@@ -616,6 +742,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:font-family\:ex:focus-visible,
+	.md\:focus-visible\:ff\:ex:focus-visible {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -645,6 +777,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:font-family\:ex:focus-within,
+	.md\:focus-within\:ff\:ex:focus-within {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.md\:active\:font-family\:sans:active,
@@ -672,6 +810,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:font-family\:ex:active,
+	.md\:active\:ff\:ex:active {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -701,6 +845,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:font-family\:ex:disabled,
+	.md\:disabled\:ff\:ex:disabled {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.md\:checked\:font-family\:sans:checked,
@@ -729,6 +879,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:font-family\:ex:checked,
+	.md\:checked\:ff\:ex:checked {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.md\:visited\:font-family\:sans:visited,
@@ -756,6 +912,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:font-family\:ex:visited,
+	.md\:visited\:ff\:ex:visited {
+		font-family: var(--font-family-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -787,6 +949,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:font-family\:ex,
+	.lg\:ff\:ex {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.lg\:hover\:font-family\:sans:hover,
@@ -814,6 +982,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:font-family\:ex:hover,
+	.lg\:hover\:ff\:ex:hover {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -843,6 +1017,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:font-family\:ex:focus,
+	.lg\:focus\:ff\:ex:focus {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.lg\:focus-visible\:font-family\:sans:focus-visible,
@@ -870,6 +1050,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:font-family\:ex:focus-visible,
+	.lg\:focus-visible\:ff\:ex:focus-visible {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -899,6 +1085,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:font-family\:ex:focus-within,
+	.lg\:focus-within\:ff\:ex:focus-within {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.lg\:active\:font-family\:sans:active,
@@ -926,6 +1118,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:font-family\:ex:active,
+	.lg\:active\:ff\:ex:active {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -955,6 +1153,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:font-family\:ex:disabled,
+	.lg\:disabled\:ff\:ex:disabled {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.lg\:checked\:font-family\:sans:checked,
@@ -983,6 +1187,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:font-family\:ex:checked,
+	.lg\:checked\:ff\:ex:checked {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.lg\:visited\:font-family\:sans:visited,
@@ -1010,6 +1220,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:font-family\:ex:visited,
+	.lg\:visited\:ff\:ex:visited {
+		font-family: var(--font-family-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -1041,6 +1257,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:font-family\:ex,
+	.xl\:ff\:ex {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.xl\:hover\:font-family\:sans:hover,
@@ -1068,6 +1290,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:font-family\:ex:hover,
+	.xl\:hover\:ff\:ex:hover {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -1097,6 +1325,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:font-family\:ex:focus,
+	.xl\:focus\:ff\:ex:focus {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.xl\:focus-visible\:font-family\:sans:focus-visible,
@@ -1124,6 +1358,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:font-family\:ex:focus-visible,
+	.xl\:focus-visible\:ff\:ex:focus-visible {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -1153,6 +1393,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:font-family\:ex:focus-within,
+	.xl\:focus-within\:ff\:ex:focus-within {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.xl\:active\:font-family\:sans:active,
@@ -1180,6 +1426,12 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:font-family\:ex:active,
+	.xl\:active\:ff\:ex:active {
+		font-family: var(--font-family-ex) !important;
+	}
 
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
@@ -1209,6 +1461,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:font-family\:ex:disabled,
+	.xl\:disabled\:ff\:ex:disabled {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.xl\:checked\:font-family\:sans:checked,
@@ -1237,6 +1495,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:font-family\:ex:checked,
+	.xl\:checked\:ff\:ex:checked {
+		font-family: var(--font-family-ex) !important;
+	}
+
 	/* ===== FONT-FAMILY UTILITIES ===== */
 
 	.xl\:visited\:font-family\:sans:visited,
@@ -1264,4 +1528,10 @@
 		font-family: inherit !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:font-family\:ex:visited,
+	.xl\:visited\:ff\:ex:visited {
+		font-family: var(--font-family-ex) !important;
+	}
 }

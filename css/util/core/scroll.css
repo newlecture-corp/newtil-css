@@ -1198,6 +1198,101 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.scroll-snap-type\:ex,
+.sst\:ex {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.scroll-snap-align\:ex,
+.ssa\:ex {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.scroll-snap-stop\:ex,
+.sss\:ex {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.scroll-behavior\:ex,
+.sb\:ex {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.scroll-margin\:ex,
+.sm\:ex {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.scroll-margin-top\:ex,
+.smt\:ex {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.scroll-margin-right\:ex,
+.smr\:ex {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.scroll-margin-bottom\:ex,
+.smb\:ex {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.scroll-margin-left\:ex,
+.sml\:ex {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.scroll-margin-x\:ex,
+.smx\:ex {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.scroll-margin-y\:ex,
+.smy\:ex {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.scroll-padding\:ex,
+.sp\:ex {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.scroll-padding-top\:ex,
+.spt\:ex {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.scroll-padding-right\:ex,
+.spr\:ex {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.scroll-padding-bottom\:ex,
+.spb\:ex {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.scroll-padding-left\:ex,
+.spl\:ex {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.scroll-padding-x\:ex,
+.spx\:ex {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.scroll-padding-y\:ex,
+.spy\:ex {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
+
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 /* SCROLL-SNAP-TYPE */
@@ -2397,6 +2492,101 @@
 	scroll-padding-bottom: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:scroll-snap-type\:ex:hover,
+.hover\:sst\:ex:hover {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.hover\:scroll-snap-align\:ex:hover,
+.hover\:ssa\:ex:hover {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.hover\:scroll-snap-stop\:ex:hover,
+.hover\:sss\:ex:hover {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.hover\:scroll-behavior\:ex:hover,
+.hover\:sb\:ex:hover {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.hover\:scroll-margin\:ex:hover,
+.hover\:sm\:ex:hover {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.hover\:scroll-margin-top\:ex:hover,
+.hover\:smt\:ex:hover {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.hover\:scroll-margin-right\:ex:hover,
+.hover\:smr\:ex:hover {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.hover\:scroll-margin-bottom\:ex:hover,
+.hover\:smb\:ex:hover {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.hover\:scroll-margin-left\:ex:hover,
+.hover\:sml\:ex:hover {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.hover\:scroll-margin-x\:ex:hover,
+.hover\:smx\:ex:hover {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.hover\:scroll-margin-y\:ex:hover,
+.hover\:smy\:ex:hover {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.hover\:scroll-padding\:ex:hover,
+.hover\:sp\:ex:hover {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.hover\:scroll-padding-top\:ex:hover,
+.hover\:spt\:ex:hover {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.hover\:scroll-padding-right\:ex:hover,
+.hover\:spr\:ex:hover {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.hover\:scroll-padding-bottom\:ex:hover,
+.hover\:spb\:ex:hover {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.hover\:scroll-padding-left\:ex:hover,
+.hover\:spl\:ex:hover {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.hover\:scroll-padding-x\:ex:hover,
+.hover\:spx\:ex:hover {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.hover\:scroll-padding-y\:ex:hover,
+.hover\:spy\:ex:hover {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
 
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -3598,6 +3788,101 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:scroll-snap-type\:ex:focus,
+.focus\:sst\:ex:focus {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.focus\:scroll-snap-align\:ex:focus,
+.focus\:ssa\:ex:focus {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.focus\:scroll-snap-stop\:ex:focus,
+.focus\:sss\:ex:focus {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.focus\:scroll-behavior\:ex:focus,
+.focus\:sb\:ex:focus {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.focus\:scroll-margin\:ex:focus,
+.focus\:sm\:ex:focus {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.focus\:scroll-margin-top\:ex:focus,
+.focus\:smt\:ex:focus {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.focus\:scroll-margin-right\:ex:focus,
+.focus\:smr\:ex:focus {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.focus\:scroll-margin-bottom\:ex:focus,
+.focus\:smb\:ex:focus {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.focus\:scroll-margin-left\:ex:focus,
+.focus\:sml\:ex:focus {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.focus\:scroll-margin-x\:ex:focus,
+.focus\:smx\:ex:focus {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.focus\:scroll-margin-y\:ex:focus,
+.focus\:smy\:ex:focus {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.focus\:scroll-padding\:ex:focus,
+.focus\:sp\:ex:focus {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.focus\:scroll-padding-top\:ex:focus,
+.focus\:spt\:ex:focus {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.focus\:scroll-padding-right\:ex:focus,
+.focus\:spr\:ex:focus {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.focus\:scroll-padding-bottom\:ex:focus,
+.focus\:spb\:ex:focus {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.focus\:scroll-padding-left\:ex:focus,
+.focus\:spl\:ex:focus {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.focus\:scroll-padding-x\:ex:focus,
+.focus\:spx\:ex:focus {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.focus\:scroll-padding-y\:ex:focus,
+.focus\:spy\:ex:focus {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
+
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 /* SCROLL-SNAP-TYPE */
@@ -4797,6 +5082,101 @@
 	scroll-padding-bottom: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:scroll-snap-type\:ex:focus-visible,
+.focus-visible\:sst\:ex:focus-visible {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.focus-visible\:scroll-snap-align\:ex:focus-visible,
+.focus-visible\:ssa\:ex:focus-visible {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.focus-visible\:scroll-snap-stop\:ex:focus-visible,
+.focus-visible\:sss\:ex:focus-visible {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.focus-visible\:scroll-behavior\:ex:focus-visible,
+.focus-visible\:sb\:ex:focus-visible {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.focus-visible\:scroll-margin\:ex:focus-visible,
+.focus-visible\:sm\:ex:focus-visible {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.focus-visible\:scroll-margin-top\:ex:focus-visible,
+.focus-visible\:smt\:ex:focus-visible {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.focus-visible\:scroll-margin-right\:ex:focus-visible,
+.focus-visible\:smr\:ex:focus-visible {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.focus-visible\:scroll-margin-bottom\:ex:focus-visible,
+.focus-visible\:smb\:ex:focus-visible {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.focus-visible\:scroll-margin-left\:ex:focus-visible,
+.focus-visible\:sml\:ex:focus-visible {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.focus-visible\:scroll-margin-x\:ex:focus-visible,
+.focus-visible\:smx\:ex:focus-visible {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.focus-visible\:scroll-margin-y\:ex:focus-visible,
+.focus-visible\:smy\:ex:focus-visible {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.focus-visible\:scroll-padding\:ex:focus-visible,
+.focus-visible\:sp\:ex:focus-visible {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.focus-visible\:scroll-padding-top\:ex:focus-visible,
+.focus-visible\:spt\:ex:focus-visible {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.focus-visible\:scroll-padding-right\:ex:focus-visible,
+.focus-visible\:spr\:ex:focus-visible {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.focus-visible\:scroll-padding-bottom\:ex:focus-visible,
+.focus-visible\:spb\:ex:focus-visible {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.focus-visible\:scroll-padding-left\:ex:focus-visible,
+.focus-visible\:spl\:ex:focus-visible {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.focus-visible\:scroll-padding-x\:ex:focus-visible,
+.focus-visible\:spx\:ex:focus-visible {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.focus-visible\:scroll-padding-y\:ex:focus-visible,
+.focus-visible\:spy\:ex:focus-visible {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
 
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -5998,6 +6378,101 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:scroll-snap-type\:ex:focus-within,
+.focus-within\:sst\:ex:focus-within {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.focus-within\:scroll-snap-align\:ex:focus-within,
+.focus-within\:ssa\:ex:focus-within {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.focus-within\:scroll-snap-stop\:ex:focus-within,
+.focus-within\:sss\:ex:focus-within {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.focus-within\:scroll-behavior\:ex:focus-within,
+.focus-within\:sb\:ex:focus-within {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.focus-within\:scroll-margin\:ex:focus-within,
+.focus-within\:sm\:ex:focus-within {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.focus-within\:scroll-margin-top\:ex:focus-within,
+.focus-within\:smt\:ex:focus-within {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.focus-within\:scroll-margin-right\:ex:focus-within,
+.focus-within\:smr\:ex:focus-within {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.focus-within\:scroll-margin-bottom\:ex:focus-within,
+.focus-within\:smb\:ex:focus-within {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.focus-within\:scroll-margin-left\:ex:focus-within,
+.focus-within\:sml\:ex:focus-within {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.focus-within\:scroll-margin-x\:ex:focus-within,
+.focus-within\:smx\:ex:focus-within {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.focus-within\:scroll-margin-y\:ex:focus-within,
+.focus-within\:smy\:ex:focus-within {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.focus-within\:scroll-padding\:ex:focus-within,
+.focus-within\:sp\:ex:focus-within {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.focus-within\:scroll-padding-top\:ex:focus-within,
+.focus-within\:spt\:ex:focus-within {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.focus-within\:scroll-padding-right\:ex:focus-within,
+.focus-within\:spr\:ex:focus-within {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.focus-within\:scroll-padding-bottom\:ex:focus-within,
+.focus-within\:spb\:ex:focus-within {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.focus-within\:scroll-padding-left\:ex:focus-within,
+.focus-within\:spl\:ex:focus-within {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.focus-within\:scroll-padding-x\:ex:focus-within,
+.focus-within\:spx\:ex:focus-within {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.focus-within\:scroll-padding-y\:ex:focus-within,
+.focus-within\:spy\:ex:focus-within {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
+
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 /* SCROLL-SNAP-TYPE */
@@ -7197,6 +7672,101 @@
 	scroll-padding-bottom: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:scroll-snap-type\:ex:active,
+.active\:sst\:ex:active {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.active\:scroll-snap-align\:ex:active,
+.active\:ssa\:ex:active {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.active\:scroll-snap-stop\:ex:active,
+.active\:sss\:ex:active {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.active\:scroll-behavior\:ex:active,
+.active\:sb\:ex:active {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.active\:scroll-margin\:ex:active,
+.active\:sm\:ex:active {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.active\:scroll-margin-top\:ex:active,
+.active\:smt\:ex:active {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.active\:scroll-margin-right\:ex:active,
+.active\:smr\:ex:active {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.active\:scroll-margin-bottom\:ex:active,
+.active\:smb\:ex:active {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.active\:scroll-margin-left\:ex:active,
+.active\:sml\:ex:active {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.active\:scroll-margin-x\:ex:active,
+.active\:smx\:ex:active {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.active\:scroll-margin-y\:ex:active,
+.active\:smy\:ex:active {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.active\:scroll-padding\:ex:active,
+.active\:sp\:ex:active {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.active\:scroll-padding-top\:ex:active,
+.active\:spt\:ex:active {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.active\:scroll-padding-right\:ex:active,
+.active\:spr\:ex:active {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.active\:scroll-padding-bottom\:ex:active,
+.active\:spb\:ex:active {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.active\:scroll-padding-left\:ex:active,
+.active\:spl\:ex:active {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.active\:scroll-padding-x\:ex:active,
+.active\:spx\:ex:active {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.active\:scroll-padding-y\:ex:active,
+.active\:spy\:ex:active {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
 
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -8398,6 +8968,101 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:scroll-snap-type\:ex:disabled,
+.disabled\:sst\:ex:disabled {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.disabled\:scroll-snap-align\:ex:disabled,
+.disabled\:ssa\:ex:disabled {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.disabled\:scroll-snap-stop\:ex:disabled,
+.disabled\:sss\:ex:disabled {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.disabled\:scroll-behavior\:ex:disabled,
+.disabled\:sb\:ex:disabled {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.disabled\:scroll-margin\:ex:disabled,
+.disabled\:sm\:ex:disabled {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.disabled\:scroll-margin-top\:ex:disabled,
+.disabled\:smt\:ex:disabled {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.disabled\:scroll-margin-right\:ex:disabled,
+.disabled\:smr\:ex:disabled {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.disabled\:scroll-margin-bottom\:ex:disabled,
+.disabled\:smb\:ex:disabled {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.disabled\:scroll-margin-left\:ex:disabled,
+.disabled\:sml\:ex:disabled {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.disabled\:scroll-margin-x\:ex:disabled,
+.disabled\:smx\:ex:disabled {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.disabled\:scroll-margin-y\:ex:disabled,
+.disabled\:smy\:ex:disabled {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.disabled\:scroll-padding\:ex:disabled,
+.disabled\:sp\:ex:disabled {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.disabled\:scroll-padding-top\:ex:disabled,
+.disabled\:spt\:ex:disabled {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.disabled\:scroll-padding-right\:ex:disabled,
+.disabled\:spr\:ex:disabled {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.disabled\:scroll-padding-bottom\:ex:disabled,
+.disabled\:spb\:ex:disabled {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.disabled\:scroll-padding-left\:ex:disabled,
+.disabled\:spl\:ex:disabled {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.disabled\:scroll-padding-x\:ex:disabled,
+.disabled\:spx\:ex:disabled {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.disabled\:scroll-padding-y\:ex:disabled,
+.disabled\:spy\:ex:disabled {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
+
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 /* SCROLL-SNAP-TYPE */
@@ -9598,6 +10263,101 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:scroll-snap-type\:ex:checked,
+.checked\:sst\:ex:checked {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.checked\:scroll-snap-align\:ex:checked,
+.checked\:ssa\:ex:checked {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.checked\:scroll-snap-stop\:ex:checked,
+.checked\:sss\:ex:checked {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.checked\:scroll-behavior\:ex:checked,
+.checked\:sb\:ex:checked {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.checked\:scroll-margin\:ex:checked,
+.checked\:sm\:ex:checked {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.checked\:scroll-margin-top\:ex:checked,
+.checked\:smt\:ex:checked {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.checked\:scroll-margin-right\:ex:checked,
+.checked\:smr\:ex:checked {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.checked\:scroll-margin-bottom\:ex:checked,
+.checked\:smb\:ex:checked {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.checked\:scroll-margin-left\:ex:checked,
+.checked\:sml\:ex:checked {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.checked\:scroll-margin-x\:ex:checked,
+.checked\:smx\:ex:checked {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.checked\:scroll-margin-y\:ex:checked,
+.checked\:smy\:ex:checked {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.checked\:scroll-padding\:ex:checked,
+.checked\:sp\:ex:checked {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.checked\:scroll-padding-top\:ex:checked,
+.checked\:spt\:ex:checked {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.checked\:scroll-padding-right\:ex:checked,
+.checked\:spr\:ex:checked {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.checked\:scroll-padding-bottom\:ex:checked,
+.checked\:spb\:ex:checked {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.checked\:scroll-padding-left\:ex:checked,
+.checked\:spl\:ex:checked {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.checked\:scroll-padding-x\:ex:checked,
+.checked\:spx\:ex:checked {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.checked\:scroll-padding-y\:ex:checked,
+.checked\:spy\:ex:checked {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
+
 /* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 /* SCROLL-SNAP-TYPE */
@@ -10797,6 +11557,101 @@
 	scroll-padding-bottom: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:scroll-snap-type\:ex:visited,
+.visited\:sst\:ex:visited {
+	scroll-snap-type: var(--scroll-snap-type-ex) !important;
+}
+
+.visited\:scroll-snap-align\:ex:visited,
+.visited\:ssa\:ex:visited {
+	scroll-snap-align: var(--scroll-snap-align-ex) !important;
+}
+
+.visited\:scroll-snap-stop\:ex:visited,
+.visited\:sss\:ex:visited {
+	scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+}
+
+.visited\:scroll-behavior\:ex:visited,
+.visited\:sb\:ex:visited {
+	scroll-behavior: var(--scroll-behavior-ex) !important;
+}
+
+.visited\:scroll-margin\:ex:visited,
+.visited\:sm\:ex:visited {
+	scroll-margin: var(--scroll-margin-ex) !important;
+}
+
+.visited\:scroll-margin-top\:ex:visited,
+.visited\:smt\:ex:visited {
+	scroll-margin-top: var(--scroll-margin-top-ex) !important;
+}
+
+.visited\:scroll-margin-right\:ex:visited,
+.visited\:smr\:ex:visited {
+	scroll-margin-right: var(--scroll-margin-right-ex) !important;
+}
+
+.visited\:scroll-margin-bottom\:ex:visited,
+.visited\:smb\:ex:visited {
+	scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+}
+
+.visited\:scroll-margin-left\:ex:visited,
+.visited\:sml\:ex:visited {
+	scroll-margin-left: var(--scroll-margin-left-ex) !important;
+}
+
+.visited\:scroll-margin-x\:ex:visited,
+.visited\:smx\:ex:visited {
+	scroll-margin-left: var(--scroll-margin-x-ex) !important;
+	scroll-margin-right: var(--scroll-margin-x-ex) !important;
+}
+
+.visited\:scroll-margin-y\:ex:visited,
+.visited\:smy\:ex:visited {
+	scroll-margin-top: var(--scroll-margin-y-ex) !important;
+	scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+}
+
+.visited\:scroll-padding\:ex:visited,
+.visited\:sp\:ex:visited {
+	scroll-padding: var(--scroll-padding-ex) !important;
+}
+
+.visited\:scroll-padding-top\:ex:visited,
+.visited\:spt\:ex:visited {
+	scroll-padding-top: var(--scroll-padding-top-ex) !important;
+}
+
+.visited\:scroll-padding-right\:ex:visited,
+.visited\:spr\:ex:visited {
+	scroll-padding-right: var(--scroll-padding-right-ex) !important;
+}
+
+.visited\:scroll-padding-bottom\:ex:visited,
+.visited\:spb\:ex:visited {
+	scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+}
+
+.visited\:scroll-padding-left\:ex:visited,
+.visited\:spl\:ex:visited {
+	scroll-padding-left: var(--scroll-padding-left-ex) !important;
+}
+
+.visited\:scroll-padding-x\:ex:visited,
+.visited\:spx\:ex:visited {
+	scroll-padding-left: var(--scroll-padding-x-ex) !important;
+	scroll-padding-right: var(--scroll-padding-x-ex) !important;
+}
+
+.visited\:scroll-padding-y\:ex:visited,
+.visited\:spy\:ex:visited {
+	scroll-padding-top: var(--scroll-padding-y-ex) !important;
+	scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
@@ -11999,6 +12854,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:scroll-snap-type\:ex,
+	.sm\:sst\:ex {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:scroll-snap-align\:ex,
+	.sm\:ssa\:ex {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:scroll-snap-stop\:ex,
+	.sm\:sss\:ex {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:scroll-behavior\:ex,
+	.sm\:sb\:ex {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:scroll-margin\:ex,
+	.sm\:sm\:ex {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:scroll-margin-top\:ex,
+	.sm\:smt\:ex {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:scroll-margin-right\:ex,
+	.sm\:smr\:ex {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:scroll-margin-bottom\:ex,
+	.sm\:smb\:ex {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:scroll-margin-left\:ex,
+	.sm\:sml\:ex {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:scroll-margin-x\:ex,
+	.sm\:smx\:ex {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:scroll-margin-y\:ex,
+	.sm\:smy\:ex {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:scroll-padding\:ex,
+	.sm\:sp\:ex {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:scroll-padding-top\:ex,
+	.sm\:spt\:ex {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:scroll-padding-right\:ex,
+	.sm\:spr\:ex {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:scroll-padding-bottom\:ex,
+	.sm\:spb\:ex {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:scroll-padding-left\:ex,
+	.sm\:spl\:ex {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:scroll-padding-x\:ex,
+	.sm\:spx\:ex {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:scroll-padding-y\:ex,
+	.sm\:spy\:ex {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -13198,6 +14148,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:scroll-snap-type\:ex:hover,
+	.sm\:hover\:sst\:ex:hover {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:hover\:scroll-snap-align\:ex:hover,
+	.sm\:hover\:ssa\:ex:hover {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:hover\:scroll-snap-stop\:ex:hover,
+	.sm\:hover\:sss\:ex:hover {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:hover\:scroll-behavior\:ex:hover,
+	.sm\:hover\:sb\:ex:hover {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin\:ex:hover,
+	.sm\:hover\:sm\:ex:hover {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-top\:ex:hover,
+	.sm\:hover\:smt\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-right\:ex:hover,
+	.sm\:hover\:smr\:ex:hover {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-bottom\:ex:hover,
+	.sm\:hover\:smb\:ex:hover {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-left\:ex:hover,
+	.sm\:hover\:sml\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-x\:ex:hover,
+	.sm\:hover\:smx\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:hover\:scroll-margin-y\:ex:hover,
+	.sm\:hover\:smy\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding\:ex:hover,
+	.sm\:hover\:sp\:ex:hover {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-top\:ex:hover,
+	.sm\:hover\:spt\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-right\:ex:hover,
+	.sm\:hover\:spr\:ex:hover {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-bottom\:ex:hover,
+	.sm\:hover\:spb\:ex:hover {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-left\:ex:hover,
+	.sm\:hover\:spl\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-x\:ex:hover,
+	.sm\:hover\:spx\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:hover\:scroll-padding-y\:ex:hover,
+	.sm\:hover\:spy\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -14399,6 +15444,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:scroll-snap-type\:ex:focus,
+	.sm\:focus\:sst\:ex:focus {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:focus\:scroll-snap-align\:ex:focus,
+	.sm\:focus\:ssa\:ex:focus {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:focus\:scroll-snap-stop\:ex:focus,
+	.sm\:focus\:sss\:ex:focus {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:focus\:scroll-behavior\:ex:focus,
+	.sm\:focus\:sb\:ex:focus {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin\:ex:focus,
+	.sm\:focus\:sm\:ex:focus {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-top\:ex:focus,
+	.sm\:focus\:smt\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-right\:ex:focus,
+	.sm\:focus\:smr\:ex:focus {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-bottom\:ex:focus,
+	.sm\:focus\:smb\:ex:focus {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-left\:ex:focus,
+	.sm\:focus\:sml\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-x\:ex:focus,
+	.sm\:focus\:smx\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:focus\:scroll-margin-y\:ex:focus,
+	.sm\:focus\:smy\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding\:ex:focus,
+	.sm\:focus\:sp\:ex:focus {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-top\:ex:focus,
+	.sm\:focus\:spt\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-right\:ex:focus,
+	.sm\:focus\:spr\:ex:focus {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-bottom\:ex:focus,
+	.sm\:focus\:spb\:ex:focus {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-left\:ex:focus,
+	.sm\:focus\:spl\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-x\:ex:focus,
+	.sm\:focus\:spx\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:focus\:scroll-padding-y\:ex:focus,
+	.sm\:focus\:spy\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -15598,6 +16738,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:scroll-snap-type\:ex:focus-visible,
+	.sm\:focus-visible\:sst\:ex:focus-visible {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-snap-align\:ex:focus-visible,
+	.sm\:focus-visible\:ssa\:ex:focus-visible {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-snap-stop\:ex:focus-visible,
+	.sm\:focus-visible\:sss\:ex:focus-visible {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-behavior\:ex:focus-visible,
+	.sm\:focus-visible\:sb\:ex:focus-visible {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin\:ex:focus-visible,
+	.sm\:focus-visible\:sm\:ex:focus-visible {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-top\:ex:focus-visible,
+	.sm\:focus-visible\:smt\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-right\:ex:focus-visible,
+	.sm\:focus-visible\:smr\:ex:focus-visible {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:smb\:ex:focus-visible {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-left\:ex:focus-visible,
+	.sm\:focus-visible\:sml\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-x\:ex:focus-visible,
+	.sm\:focus-visible\:smx\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-margin-y\:ex:focus-visible,
+	.sm\:focus-visible\:smy\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding\:ex:focus-visible,
+	.sm\:focus-visible\:sp\:ex:focus-visible {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-top\:ex:focus-visible,
+	.sm\:focus-visible\:spt\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-right\:ex:focus-visible,
+	.sm\:focus-visible\:spr\:ex:focus-visible {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:spb\:ex:focus-visible {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-left\:ex:focus-visible,
+	.sm\:focus-visible\:spl\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-x\:ex:focus-visible,
+	.sm\:focus-visible\:spx\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:scroll-padding-y\:ex:focus-visible,
+	.sm\:focus-visible\:spy\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -16799,6 +18034,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:scroll-snap-type\:ex:focus-within,
+	.sm\:focus-within\:sst\:ex:focus-within {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-snap-align\:ex:focus-within,
+	.sm\:focus-within\:ssa\:ex:focus-within {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-snap-stop\:ex:focus-within,
+	.sm\:focus-within\:sss\:ex:focus-within {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-behavior\:ex:focus-within,
+	.sm\:focus-within\:sb\:ex:focus-within {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin\:ex:focus-within,
+	.sm\:focus-within\:sm\:ex:focus-within {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-top\:ex:focus-within,
+	.sm\:focus-within\:smt\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-right\:ex:focus-within,
+	.sm\:focus-within\:smr\:ex:focus-within {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-bottom\:ex:focus-within,
+	.sm\:focus-within\:smb\:ex:focus-within {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-left\:ex:focus-within,
+	.sm\:focus-within\:sml\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-x\:ex:focus-within,
+	.sm\:focus-within\:smx\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-margin-y\:ex:focus-within,
+	.sm\:focus-within\:smy\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding\:ex:focus-within,
+	.sm\:focus-within\:sp\:ex:focus-within {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-top\:ex:focus-within,
+	.sm\:focus-within\:spt\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-right\:ex:focus-within,
+	.sm\:focus-within\:spr\:ex:focus-within {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-bottom\:ex:focus-within,
+	.sm\:focus-within\:spb\:ex:focus-within {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-left\:ex:focus-within,
+	.sm\:focus-within\:spl\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-x\:ex:focus-within,
+	.sm\:focus-within\:spx\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:focus-within\:scroll-padding-y\:ex:focus-within,
+	.sm\:focus-within\:spy\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -17998,6 +19328,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:scroll-snap-type\:ex:active,
+	.sm\:active\:sst\:ex:active {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:active\:scroll-snap-align\:ex:active,
+	.sm\:active\:ssa\:ex:active {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:active\:scroll-snap-stop\:ex:active,
+	.sm\:active\:sss\:ex:active {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:active\:scroll-behavior\:ex:active,
+	.sm\:active\:sb\:ex:active {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin\:ex:active,
+	.sm\:active\:sm\:ex:active {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-top\:ex:active,
+	.sm\:active\:smt\:ex:active {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-right\:ex:active,
+	.sm\:active\:smr\:ex:active {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-bottom\:ex:active,
+	.sm\:active\:smb\:ex:active {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-left\:ex:active,
+	.sm\:active\:sml\:ex:active {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-x\:ex:active,
+	.sm\:active\:smx\:ex:active {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:active\:scroll-margin-y\:ex:active,
+	.sm\:active\:smy\:ex:active {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding\:ex:active,
+	.sm\:active\:sp\:ex:active {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-top\:ex:active,
+	.sm\:active\:spt\:ex:active {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-right\:ex:active,
+	.sm\:active\:spr\:ex:active {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-bottom\:ex:active,
+	.sm\:active\:spb\:ex:active {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-left\:ex:active,
+	.sm\:active\:spl\:ex:active {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-x\:ex:active,
+	.sm\:active\:spx\:ex:active {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:active\:scroll-padding-y\:ex:active,
+	.sm\:active\:spy\:ex:active {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -19199,6 +20624,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:scroll-snap-type\:ex:disabled,
+	.sm\:disabled\:sst\:ex:disabled {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-snap-align\:ex:disabled,
+	.sm\:disabled\:ssa\:ex:disabled {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-snap-stop\:ex:disabled,
+	.sm\:disabled\:sss\:ex:disabled {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-behavior\:ex:disabled,
+	.sm\:disabled\:sb\:ex:disabled {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin\:ex:disabled,
+	.sm\:disabled\:sm\:ex:disabled {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-top\:ex:disabled,
+	.sm\:disabled\:smt\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-right\:ex:disabled,
+	.sm\:disabled\:smr\:ex:disabled {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-bottom\:ex:disabled,
+	.sm\:disabled\:smb\:ex:disabled {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-left\:ex:disabled,
+	.sm\:disabled\:sml\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-x\:ex:disabled,
+	.sm\:disabled\:smx\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-margin-y\:ex:disabled,
+	.sm\:disabled\:smy\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding\:ex:disabled,
+	.sm\:disabled\:sp\:ex:disabled {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-top\:ex:disabled,
+	.sm\:disabled\:spt\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-right\:ex:disabled,
+	.sm\:disabled\:spr\:ex:disabled {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-bottom\:ex:disabled,
+	.sm\:disabled\:spb\:ex:disabled {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-left\:ex:disabled,
+	.sm\:disabled\:spl\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-x\:ex:disabled,
+	.sm\:disabled\:spx\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:disabled\:scroll-padding-y\:ex:disabled,
+	.sm\:disabled\:spy\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -20399,6 +21919,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:scroll-snap-type\:ex:checked,
+	.sm\:checked\:sst\:ex:checked {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:checked\:scroll-snap-align\:ex:checked,
+	.sm\:checked\:ssa\:ex:checked {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:checked\:scroll-snap-stop\:ex:checked,
+	.sm\:checked\:sss\:ex:checked {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:checked\:scroll-behavior\:ex:checked,
+	.sm\:checked\:sb\:ex:checked {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin\:ex:checked,
+	.sm\:checked\:sm\:ex:checked {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-top\:ex:checked,
+	.sm\:checked\:smt\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-right\:ex:checked,
+	.sm\:checked\:smr\:ex:checked {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-bottom\:ex:checked,
+	.sm\:checked\:smb\:ex:checked {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-left\:ex:checked,
+	.sm\:checked\:sml\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-x\:ex:checked,
+	.sm\:checked\:smx\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:checked\:scroll-margin-y\:ex:checked,
+	.sm\:checked\:smy\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding\:ex:checked,
+	.sm\:checked\:sp\:ex:checked {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-top\:ex:checked,
+	.sm\:checked\:spt\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-right\:ex:checked,
+	.sm\:checked\:spr\:ex:checked {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-bottom\:ex:checked,
+	.sm\:checked\:spb\:ex:checked {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-left\:ex:checked,
+	.sm\:checked\:spl\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-x\:ex:checked,
+	.sm\:checked\:spx\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:checked\:scroll-padding-y\:ex:checked,
+	.sm\:checked\:spy\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -21598,6 +23213,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:scroll-snap-type\:ex:visited,
+	.sm\:visited\:sst\:ex:visited {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.sm\:visited\:scroll-snap-align\:ex:visited,
+	.sm\:visited\:ssa\:ex:visited {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.sm\:visited\:scroll-snap-stop\:ex:visited,
+	.sm\:visited\:sss\:ex:visited {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.sm\:visited\:scroll-behavior\:ex:visited,
+	.sm\:visited\:sb\:ex:visited {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin\:ex:visited,
+	.sm\:visited\:sm\:ex:visited {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-top\:ex:visited,
+	.sm\:visited\:smt\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-right\:ex:visited,
+	.sm\:visited\:smr\:ex:visited {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-bottom\:ex:visited,
+	.sm\:visited\:smb\:ex:visited {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-left\:ex:visited,
+	.sm\:visited\:sml\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-x\:ex:visited,
+	.sm\:visited\:smx\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.sm\:visited\:scroll-margin-y\:ex:visited,
+	.sm\:visited\:smy\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding\:ex:visited,
+	.sm\:visited\:sp\:ex:visited {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-top\:ex:visited,
+	.sm\:visited\:spt\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-right\:ex:visited,
+	.sm\:visited\:spr\:ex:visited {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-bottom\:ex:visited,
+	.sm\:visited\:spb\:ex:visited {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-left\:ex:visited,
+	.sm\:visited\:spl\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-x\:ex:visited,
+	.sm\:visited\:spx\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.sm\:visited\:scroll-padding-y\:ex:visited,
+	.sm\:visited\:spy\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -22801,6 +24511,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:scroll-snap-type\:ex,
+	.md\:sst\:ex {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:scroll-snap-align\:ex,
+	.md\:ssa\:ex {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:scroll-snap-stop\:ex,
+	.md\:sss\:ex {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:scroll-behavior\:ex,
+	.md\:sb\:ex {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:scroll-margin\:ex,
+	.md\:sm\:ex {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:scroll-margin-top\:ex,
+	.md\:smt\:ex {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:scroll-margin-right\:ex,
+	.md\:smr\:ex {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:scroll-margin-bottom\:ex,
+	.md\:smb\:ex {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:scroll-margin-left\:ex,
+	.md\:sml\:ex {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:scroll-margin-x\:ex,
+	.md\:smx\:ex {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:scroll-margin-y\:ex,
+	.md\:smy\:ex {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:scroll-padding\:ex,
+	.md\:sp\:ex {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:scroll-padding-top\:ex,
+	.md\:spt\:ex {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:scroll-padding-right\:ex,
+	.md\:spr\:ex {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:scroll-padding-bottom\:ex,
+	.md\:spb\:ex {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:scroll-padding-left\:ex,
+	.md\:spl\:ex {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:scroll-padding-x\:ex,
+	.md\:spx\:ex {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:scroll-padding-y\:ex,
+	.md\:spy\:ex {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -24000,6 +25805,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:scroll-snap-type\:ex:hover,
+	.md\:hover\:sst\:ex:hover {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:hover\:scroll-snap-align\:ex:hover,
+	.md\:hover\:ssa\:ex:hover {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:hover\:scroll-snap-stop\:ex:hover,
+	.md\:hover\:sss\:ex:hover {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:hover\:scroll-behavior\:ex:hover,
+	.md\:hover\:sb\:ex:hover {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin\:ex:hover,
+	.md\:hover\:sm\:ex:hover {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-top\:ex:hover,
+	.md\:hover\:smt\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-right\:ex:hover,
+	.md\:hover\:smr\:ex:hover {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-bottom\:ex:hover,
+	.md\:hover\:smb\:ex:hover {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-left\:ex:hover,
+	.md\:hover\:sml\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-x\:ex:hover,
+	.md\:hover\:smx\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:hover\:scroll-margin-y\:ex:hover,
+	.md\:hover\:smy\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding\:ex:hover,
+	.md\:hover\:sp\:ex:hover {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-top\:ex:hover,
+	.md\:hover\:spt\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-right\:ex:hover,
+	.md\:hover\:spr\:ex:hover {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-bottom\:ex:hover,
+	.md\:hover\:spb\:ex:hover {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-left\:ex:hover,
+	.md\:hover\:spl\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-x\:ex:hover,
+	.md\:hover\:spx\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:hover\:scroll-padding-y\:ex:hover,
+	.md\:hover\:spy\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -25201,6 +27101,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:scroll-snap-type\:ex:focus,
+	.md\:focus\:sst\:ex:focus {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:focus\:scroll-snap-align\:ex:focus,
+	.md\:focus\:ssa\:ex:focus {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:focus\:scroll-snap-stop\:ex:focus,
+	.md\:focus\:sss\:ex:focus {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:focus\:scroll-behavior\:ex:focus,
+	.md\:focus\:sb\:ex:focus {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin\:ex:focus,
+	.md\:focus\:sm\:ex:focus {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-top\:ex:focus,
+	.md\:focus\:smt\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-right\:ex:focus,
+	.md\:focus\:smr\:ex:focus {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-bottom\:ex:focus,
+	.md\:focus\:smb\:ex:focus {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-left\:ex:focus,
+	.md\:focus\:sml\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-x\:ex:focus,
+	.md\:focus\:smx\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:focus\:scroll-margin-y\:ex:focus,
+	.md\:focus\:smy\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding\:ex:focus,
+	.md\:focus\:sp\:ex:focus {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-top\:ex:focus,
+	.md\:focus\:spt\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-right\:ex:focus,
+	.md\:focus\:spr\:ex:focus {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-bottom\:ex:focus,
+	.md\:focus\:spb\:ex:focus {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-left\:ex:focus,
+	.md\:focus\:spl\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-x\:ex:focus,
+	.md\:focus\:spx\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:focus\:scroll-padding-y\:ex:focus,
+	.md\:focus\:spy\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -26400,6 +28395,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:scroll-snap-type\:ex:focus-visible,
+	.md\:focus-visible\:sst\:ex:focus-visible {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-snap-align\:ex:focus-visible,
+	.md\:focus-visible\:ssa\:ex:focus-visible {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-snap-stop\:ex:focus-visible,
+	.md\:focus-visible\:sss\:ex:focus-visible {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-behavior\:ex:focus-visible,
+	.md\:focus-visible\:sb\:ex:focus-visible {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin\:ex:focus-visible,
+	.md\:focus-visible\:sm\:ex:focus-visible {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-top\:ex:focus-visible,
+	.md\:focus-visible\:smt\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-right\:ex:focus-visible,
+	.md\:focus-visible\:smr\:ex:focus-visible {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-bottom\:ex:focus-visible,
+	.md\:focus-visible\:smb\:ex:focus-visible {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-left\:ex:focus-visible,
+	.md\:focus-visible\:sml\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-x\:ex:focus-visible,
+	.md\:focus-visible\:smx\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-margin-y\:ex:focus-visible,
+	.md\:focus-visible\:smy\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding\:ex:focus-visible,
+	.md\:focus-visible\:sp\:ex:focus-visible {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-top\:ex:focus-visible,
+	.md\:focus-visible\:spt\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-right\:ex:focus-visible,
+	.md\:focus-visible\:spr\:ex:focus-visible {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-bottom\:ex:focus-visible,
+	.md\:focus-visible\:spb\:ex:focus-visible {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-left\:ex:focus-visible,
+	.md\:focus-visible\:spl\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-x\:ex:focus-visible,
+	.md\:focus-visible\:spx\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:focus-visible\:scroll-padding-y\:ex:focus-visible,
+	.md\:focus-visible\:spy\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -27601,6 +29691,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:scroll-snap-type\:ex:focus-within,
+	.md\:focus-within\:sst\:ex:focus-within {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-snap-align\:ex:focus-within,
+	.md\:focus-within\:ssa\:ex:focus-within {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-snap-stop\:ex:focus-within,
+	.md\:focus-within\:sss\:ex:focus-within {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-behavior\:ex:focus-within,
+	.md\:focus-within\:sb\:ex:focus-within {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin\:ex:focus-within,
+	.md\:focus-within\:sm\:ex:focus-within {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-top\:ex:focus-within,
+	.md\:focus-within\:smt\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-right\:ex:focus-within,
+	.md\:focus-within\:smr\:ex:focus-within {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-bottom\:ex:focus-within,
+	.md\:focus-within\:smb\:ex:focus-within {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-left\:ex:focus-within,
+	.md\:focus-within\:sml\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-x\:ex:focus-within,
+	.md\:focus-within\:smx\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-margin-y\:ex:focus-within,
+	.md\:focus-within\:smy\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding\:ex:focus-within,
+	.md\:focus-within\:sp\:ex:focus-within {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-top\:ex:focus-within,
+	.md\:focus-within\:spt\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-right\:ex:focus-within,
+	.md\:focus-within\:spr\:ex:focus-within {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-bottom\:ex:focus-within,
+	.md\:focus-within\:spb\:ex:focus-within {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-left\:ex:focus-within,
+	.md\:focus-within\:spl\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-x\:ex:focus-within,
+	.md\:focus-within\:spx\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:focus-within\:scroll-padding-y\:ex:focus-within,
+	.md\:focus-within\:spy\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -28800,6 +30985,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:scroll-snap-type\:ex:active,
+	.md\:active\:sst\:ex:active {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:active\:scroll-snap-align\:ex:active,
+	.md\:active\:ssa\:ex:active {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:active\:scroll-snap-stop\:ex:active,
+	.md\:active\:sss\:ex:active {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:active\:scroll-behavior\:ex:active,
+	.md\:active\:sb\:ex:active {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:active\:scroll-margin\:ex:active,
+	.md\:active\:sm\:ex:active {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-top\:ex:active,
+	.md\:active\:smt\:ex:active {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-right\:ex:active,
+	.md\:active\:smr\:ex:active {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-bottom\:ex:active,
+	.md\:active\:smb\:ex:active {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-left\:ex:active,
+	.md\:active\:sml\:ex:active {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-x\:ex:active,
+	.md\:active\:smx\:ex:active {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:active\:scroll-margin-y\:ex:active,
+	.md\:active\:smy\:ex:active {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:active\:scroll-padding\:ex:active,
+	.md\:active\:sp\:ex:active {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-top\:ex:active,
+	.md\:active\:spt\:ex:active {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-right\:ex:active,
+	.md\:active\:spr\:ex:active {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-bottom\:ex:active,
+	.md\:active\:spb\:ex:active {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-left\:ex:active,
+	.md\:active\:spl\:ex:active {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-x\:ex:active,
+	.md\:active\:spx\:ex:active {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:active\:scroll-padding-y\:ex:active,
+	.md\:active\:spy\:ex:active {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -30001,6 +32281,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:scroll-snap-type\:ex:disabled,
+	.md\:disabled\:sst\:ex:disabled {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:disabled\:scroll-snap-align\:ex:disabled,
+	.md\:disabled\:ssa\:ex:disabled {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:disabled\:scroll-snap-stop\:ex:disabled,
+	.md\:disabled\:sss\:ex:disabled {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:disabled\:scroll-behavior\:ex:disabled,
+	.md\:disabled\:sb\:ex:disabled {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin\:ex:disabled,
+	.md\:disabled\:sm\:ex:disabled {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-top\:ex:disabled,
+	.md\:disabled\:smt\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-right\:ex:disabled,
+	.md\:disabled\:smr\:ex:disabled {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-bottom\:ex:disabled,
+	.md\:disabled\:smb\:ex:disabled {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-left\:ex:disabled,
+	.md\:disabled\:sml\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-x\:ex:disabled,
+	.md\:disabled\:smx\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:disabled\:scroll-margin-y\:ex:disabled,
+	.md\:disabled\:smy\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding\:ex:disabled,
+	.md\:disabled\:sp\:ex:disabled {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-top\:ex:disabled,
+	.md\:disabled\:spt\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-right\:ex:disabled,
+	.md\:disabled\:spr\:ex:disabled {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-bottom\:ex:disabled,
+	.md\:disabled\:spb\:ex:disabled {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-left\:ex:disabled,
+	.md\:disabled\:spl\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-x\:ex:disabled,
+	.md\:disabled\:spx\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:disabled\:scroll-padding-y\:ex:disabled,
+	.md\:disabled\:spy\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -31201,6 +33576,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:scroll-snap-type\:ex:checked,
+	.md\:checked\:sst\:ex:checked {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:checked\:scroll-snap-align\:ex:checked,
+	.md\:checked\:ssa\:ex:checked {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:checked\:scroll-snap-stop\:ex:checked,
+	.md\:checked\:sss\:ex:checked {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:checked\:scroll-behavior\:ex:checked,
+	.md\:checked\:sb\:ex:checked {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin\:ex:checked,
+	.md\:checked\:sm\:ex:checked {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-top\:ex:checked,
+	.md\:checked\:smt\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-right\:ex:checked,
+	.md\:checked\:smr\:ex:checked {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-bottom\:ex:checked,
+	.md\:checked\:smb\:ex:checked {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-left\:ex:checked,
+	.md\:checked\:sml\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-x\:ex:checked,
+	.md\:checked\:smx\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:checked\:scroll-margin-y\:ex:checked,
+	.md\:checked\:smy\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding\:ex:checked,
+	.md\:checked\:sp\:ex:checked {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-top\:ex:checked,
+	.md\:checked\:spt\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-right\:ex:checked,
+	.md\:checked\:spr\:ex:checked {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-bottom\:ex:checked,
+	.md\:checked\:spb\:ex:checked {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-left\:ex:checked,
+	.md\:checked\:spl\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-x\:ex:checked,
+	.md\:checked\:spx\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:checked\:scroll-padding-y\:ex:checked,
+	.md\:checked\:spy\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -32400,6 +34870,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:scroll-snap-type\:ex:visited,
+	.md\:visited\:sst\:ex:visited {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.md\:visited\:scroll-snap-align\:ex:visited,
+	.md\:visited\:ssa\:ex:visited {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.md\:visited\:scroll-snap-stop\:ex:visited,
+	.md\:visited\:sss\:ex:visited {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.md\:visited\:scroll-behavior\:ex:visited,
+	.md\:visited\:sb\:ex:visited {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin\:ex:visited,
+	.md\:visited\:sm\:ex:visited {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-top\:ex:visited,
+	.md\:visited\:smt\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-right\:ex:visited,
+	.md\:visited\:smr\:ex:visited {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-bottom\:ex:visited,
+	.md\:visited\:smb\:ex:visited {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-left\:ex:visited,
+	.md\:visited\:sml\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-x\:ex:visited,
+	.md\:visited\:smx\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.md\:visited\:scroll-margin-y\:ex:visited,
+	.md\:visited\:smy\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding\:ex:visited,
+	.md\:visited\:sp\:ex:visited {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-top\:ex:visited,
+	.md\:visited\:spt\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-right\:ex:visited,
+	.md\:visited\:spr\:ex:visited {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-bottom\:ex:visited,
+	.md\:visited\:spb\:ex:visited {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-left\:ex:visited,
+	.md\:visited\:spl\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-x\:ex:visited,
+	.md\:visited\:spx\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.md\:visited\:scroll-padding-y\:ex:visited,
+	.md\:visited\:spy\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -33603,6 +36168,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:scroll-snap-type\:ex,
+	.lg\:sst\:ex {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:scroll-snap-align\:ex,
+	.lg\:ssa\:ex {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:scroll-snap-stop\:ex,
+	.lg\:sss\:ex {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:scroll-behavior\:ex,
+	.lg\:sb\:ex {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:scroll-margin\:ex,
+	.lg\:sm\:ex {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:scroll-margin-top\:ex,
+	.lg\:smt\:ex {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:scroll-margin-right\:ex,
+	.lg\:smr\:ex {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:scroll-margin-bottom\:ex,
+	.lg\:smb\:ex {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:scroll-margin-left\:ex,
+	.lg\:sml\:ex {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:scroll-margin-x\:ex,
+	.lg\:smx\:ex {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:scroll-margin-y\:ex,
+	.lg\:smy\:ex {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:scroll-padding\:ex,
+	.lg\:sp\:ex {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:scroll-padding-top\:ex,
+	.lg\:spt\:ex {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:scroll-padding-right\:ex,
+	.lg\:spr\:ex {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:scroll-padding-bottom\:ex,
+	.lg\:spb\:ex {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:scroll-padding-left\:ex,
+	.lg\:spl\:ex {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:scroll-padding-x\:ex,
+	.lg\:spx\:ex {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:scroll-padding-y\:ex,
+	.lg\:spy\:ex {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -34802,6 +37462,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:scroll-snap-type\:ex:hover,
+	.lg\:hover\:sst\:ex:hover {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:hover\:scroll-snap-align\:ex:hover,
+	.lg\:hover\:ssa\:ex:hover {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:hover\:scroll-snap-stop\:ex:hover,
+	.lg\:hover\:sss\:ex:hover {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:hover\:scroll-behavior\:ex:hover,
+	.lg\:hover\:sb\:ex:hover {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin\:ex:hover,
+	.lg\:hover\:sm\:ex:hover {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-top\:ex:hover,
+	.lg\:hover\:smt\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-right\:ex:hover,
+	.lg\:hover\:smr\:ex:hover {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-bottom\:ex:hover,
+	.lg\:hover\:smb\:ex:hover {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-left\:ex:hover,
+	.lg\:hover\:sml\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-x\:ex:hover,
+	.lg\:hover\:smx\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:hover\:scroll-margin-y\:ex:hover,
+	.lg\:hover\:smy\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding\:ex:hover,
+	.lg\:hover\:sp\:ex:hover {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-top\:ex:hover,
+	.lg\:hover\:spt\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-right\:ex:hover,
+	.lg\:hover\:spr\:ex:hover {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-bottom\:ex:hover,
+	.lg\:hover\:spb\:ex:hover {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-left\:ex:hover,
+	.lg\:hover\:spl\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-x\:ex:hover,
+	.lg\:hover\:spx\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:hover\:scroll-padding-y\:ex:hover,
+	.lg\:hover\:spy\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -36003,6 +38758,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:scroll-snap-type\:ex:focus,
+	.lg\:focus\:sst\:ex:focus {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:focus\:scroll-snap-align\:ex:focus,
+	.lg\:focus\:ssa\:ex:focus {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:focus\:scroll-snap-stop\:ex:focus,
+	.lg\:focus\:sss\:ex:focus {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:focus\:scroll-behavior\:ex:focus,
+	.lg\:focus\:sb\:ex:focus {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin\:ex:focus,
+	.lg\:focus\:sm\:ex:focus {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-top\:ex:focus,
+	.lg\:focus\:smt\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-right\:ex:focus,
+	.lg\:focus\:smr\:ex:focus {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-bottom\:ex:focus,
+	.lg\:focus\:smb\:ex:focus {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-left\:ex:focus,
+	.lg\:focus\:sml\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-x\:ex:focus,
+	.lg\:focus\:smx\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:focus\:scroll-margin-y\:ex:focus,
+	.lg\:focus\:smy\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding\:ex:focus,
+	.lg\:focus\:sp\:ex:focus {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-top\:ex:focus,
+	.lg\:focus\:spt\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-right\:ex:focus,
+	.lg\:focus\:spr\:ex:focus {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-bottom\:ex:focus,
+	.lg\:focus\:spb\:ex:focus {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-left\:ex:focus,
+	.lg\:focus\:spl\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-x\:ex:focus,
+	.lg\:focus\:spx\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:focus\:scroll-padding-y\:ex:focus,
+	.lg\:focus\:spy\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -37202,6 +40052,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:scroll-snap-type\:ex:focus-visible,
+	.lg\:focus-visible\:sst\:ex:focus-visible {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-snap-align\:ex:focus-visible,
+	.lg\:focus-visible\:ssa\:ex:focus-visible {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-snap-stop\:ex:focus-visible,
+	.lg\:focus-visible\:sss\:ex:focus-visible {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-behavior\:ex:focus-visible,
+	.lg\:focus-visible\:sb\:ex:focus-visible {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin\:ex:focus-visible,
+	.lg\:focus-visible\:sm\:ex:focus-visible {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-top\:ex:focus-visible,
+	.lg\:focus-visible\:smt\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-right\:ex:focus-visible,
+	.lg\:focus-visible\:smr\:ex:focus-visible {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:smb\:ex:focus-visible {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-left\:ex:focus-visible,
+	.lg\:focus-visible\:sml\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-x\:ex:focus-visible,
+	.lg\:focus-visible\:smx\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-margin-y\:ex:focus-visible,
+	.lg\:focus-visible\:smy\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding\:ex:focus-visible,
+	.lg\:focus-visible\:sp\:ex:focus-visible {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-top\:ex:focus-visible,
+	.lg\:focus-visible\:spt\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-right\:ex:focus-visible,
+	.lg\:focus-visible\:spr\:ex:focus-visible {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:spb\:ex:focus-visible {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-left\:ex:focus-visible,
+	.lg\:focus-visible\:spl\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-x\:ex:focus-visible,
+	.lg\:focus-visible\:spx\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:scroll-padding-y\:ex:focus-visible,
+	.lg\:focus-visible\:spy\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -38403,6 +41348,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:scroll-snap-type\:ex:focus-within,
+	.lg\:focus-within\:sst\:ex:focus-within {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-snap-align\:ex:focus-within,
+	.lg\:focus-within\:ssa\:ex:focus-within {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-snap-stop\:ex:focus-within,
+	.lg\:focus-within\:sss\:ex:focus-within {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-behavior\:ex:focus-within,
+	.lg\:focus-within\:sb\:ex:focus-within {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin\:ex:focus-within,
+	.lg\:focus-within\:sm\:ex:focus-within {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-top\:ex:focus-within,
+	.lg\:focus-within\:smt\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-right\:ex:focus-within,
+	.lg\:focus-within\:smr\:ex:focus-within {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-bottom\:ex:focus-within,
+	.lg\:focus-within\:smb\:ex:focus-within {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-left\:ex:focus-within,
+	.lg\:focus-within\:sml\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-x\:ex:focus-within,
+	.lg\:focus-within\:smx\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-margin-y\:ex:focus-within,
+	.lg\:focus-within\:smy\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding\:ex:focus-within,
+	.lg\:focus-within\:sp\:ex:focus-within {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-top\:ex:focus-within,
+	.lg\:focus-within\:spt\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-right\:ex:focus-within,
+	.lg\:focus-within\:spr\:ex:focus-within {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-bottom\:ex:focus-within,
+	.lg\:focus-within\:spb\:ex:focus-within {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-left\:ex:focus-within,
+	.lg\:focus-within\:spl\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-x\:ex:focus-within,
+	.lg\:focus-within\:spx\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:focus-within\:scroll-padding-y\:ex:focus-within,
+	.lg\:focus-within\:spy\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -39602,6 +42642,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:scroll-snap-type\:ex:active,
+	.lg\:active\:sst\:ex:active {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:active\:scroll-snap-align\:ex:active,
+	.lg\:active\:ssa\:ex:active {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:active\:scroll-snap-stop\:ex:active,
+	.lg\:active\:sss\:ex:active {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:active\:scroll-behavior\:ex:active,
+	.lg\:active\:sb\:ex:active {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin\:ex:active,
+	.lg\:active\:sm\:ex:active {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-top\:ex:active,
+	.lg\:active\:smt\:ex:active {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-right\:ex:active,
+	.lg\:active\:smr\:ex:active {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-bottom\:ex:active,
+	.lg\:active\:smb\:ex:active {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-left\:ex:active,
+	.lg\:active\:sml\:ex:active {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-x\:ex:active,
+	.lg\:active\:smx\:ex:active {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:active\:scroll-margin-y\:ex:active,
+	.lg\:active\:smy\:ex:active {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding\:ex:active,
+	.lg\:active\:sp\:ex:active {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-top\:ex:active,
+	.lg\:active\:spt\:ex:active {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-right\:ex:active,
+	.lg\:active\:spr\:ex:active {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-bottom\:ex:active,
+	.lg\:active\:spb\:ex:active {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-left\:ex:active,
+	.lg\:active\:spl\:ex:active {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-x\:ex:active,
+	.lg\:active\:spx\:ex:active {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:active\:scroll-padding-y\:ex:active,
+	.lg\:active\:spy\:ex:active {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -40803,6 +43938,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:scroll-snap-type\:ex:disabled,
+	.lg\:disabled\:sst\:ex:disabled {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-snap-align\:ex:disabled,
+	.lg\:disabled\:ssa\:ex:disabled {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-snap-stop\:ex:disabled,
+	.lg\:disabled\:sss\:ex:disabled {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-behavior\:ex:disabled,
+	.lg\:disabled\:sb\:ex:disabled {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin\:ex:disabled,
+	.lg\:disabled\:sm\:ex:disabled {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-top\:ex:disabled,
+	.lg\:disabled\:smt\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-right\:ex:disabled,
+	.lg\:disabled\:smr\:ex:disabled {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-bottom\:ex:disabled,
+	.lg\:disabled\:smb\:ex:disabled {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-left\:ex:disabled,
+	.lg\:disabled\:sml\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-x\:ex:disabled,
+	.lg\:disabled\:smx\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-margin-y\:ex:disabled,
+	.lg\:disabled\:smy\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding\:ex:disabled,
+	.lg\:disabled\:sp\:ex:disabled {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-top\:ex:disabled,
+	.lg\:disabled\:spt\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-right\:ex:disabled,
+	.lg\:disabled\:spr\:ex:disabled {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-bottom\:ex:disabled,
+	.lg\:disabled\:spb\:ex:disabled {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-left\:ex:disabled,
+	.lg\:disabled\:spl\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-x\:ex:disabled,
+	.lg\:disabled\:spx\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:disabled\:scroll-padding-y\:ex:disabled,
+	.lg\:disabled\:spy\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -42003,6 +45233,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:scroll-snap-type\:ex:checked,
+	.lg\:checked\:sst\:ex:checked {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:checked\:scroll-snap-align\:ex:checked,
+	.lg\:checked\:ssa\:ex:checked {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:checked\:scroll-snap-stop\:ex:checked,
+	.lg\:checked\:sss\:ex:checked {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:checked\:scroll-behavior\:ex:checked,
+	.lg\:checked\:sb\:ex:checked {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin\:ex:checked,
+	.lg\:checked\:sm\:ex:checked {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-top\:ex:checked,
+	.lg\:checked\:smt\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-right\:ex:checked,
+	.lg\:checked\:smr\:ex:checked {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-bottom\:ex:checked,
+	.lg\:checked\:smb\:ex:checked {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-left\:ex:checked,
+	.lg\:checked\:sml\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-x\:ex:checked,
+	.lg\:checked\:smx\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:checked\:scroll-margin-y\:ex:checked,
+	.lg\:checked\:smy\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding\:ex:checked,
+	.lg\:checked\:sp\:ex:checked {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-top\:ex:checked,
+	.lg\:checked\:spt\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-right\:ex:checked,
+	.lg\:checked\:spr\:ex:checked {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-bottom\:ex:checked,
+	.lg\:checked\:spb\:ex:checked {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-left\:ex:checked,
+	.lg\:checked\:spl\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-x\:ex:checked,
+	.lg\:checked\:spx\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:checked\:scroll-padding-y\:ex:checked,
+	.lg\:checked\:spy\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -43202,6 +46527,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:scroll-snap-type\:ex:visited,
+	.lg\:visited\:sst\:ex:visited {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.lg\:visited\:scroll-snap-align\:ex:visited,
+	.lg\:visited\:ssa\:ex:visited {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.lg\:visited\:scroll-snap-stop\:ex:visited,
+	.lg\:visited\:sss\:ex:visited {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.lg\:visited\:scroll-behavior\:ex:visited,
+	.lg\:visited\:sb\:ex:visited {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin\:ex:visited,
+	.lg\:visited\:sm\:ex:visited {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-top\:ex:visited,
+	.lg\:visited\:smt\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-right\:ex:visited,
+	.lg\:visited\:smr\:ex:visited {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-bottom\:ex:visited,
+	.lg\:visited\:smb\:ex:visited {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-left\:ex:visited,
+	.lg\:visited\:sml\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-x\:ex:visited,
+	.lg\:visited\:smx\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.lg\:visited\:scroll-margin-y\:ex:visited,
+	.lg\:visited\:smy\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding\:ex:visited,
+	.lg\:visited\:sp\:ex:visited {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-top\:ex:visited,
+	.lg\:visited\:spt\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-right\:ex:visited,
+	.lg\:visited\:spr\:ex:visited {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-bottom\:ex:visited,
+	.lg\:visited\:spb\:ex:visited {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-left\:ex:visited,
+	.lg\:visited\:spl\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-x\:ex:visited,
+	.lg\:visited\:spx\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.lg\:visited\:scroll-padding-y\:ex:visited,
+	.lg\:visited\:spy\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -44405,6 +47825,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:scroll-snap-type\:ex,
+	.xl\:sst\:ex {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:scroll-snap-align\:ex,
+	.xl\:ssa\:ex {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:scroll-snap-stop\:ex,
+	.xl\:sss\:ex {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:scroll-behavior\:ex,
+	.xl\:sb\:ex {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:scroll-margin\:ex,
+	.xl\:sm\:ex {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:scroll-margin-top\:ex,
+	.xl\:smt\:ex {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:scroll-margin-right\:ex,
+	.xl\:smr\:ex {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:scroll-margin-bottom\:ex,
+	.xl\:smb\:ex {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:scroll-margin-left\:ex,
+	.xl\:sml\:ex {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:scroll-margin-x\:ex,
+	.xl\:smx\:ex {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:scroll-margin-y\:ex,
+	.xl\:smy\:ex {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:scroll-padding\:ex,
+	.xl\:sp\:ex {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:scroll-padding-top\:ex,
+	.xl\:spt\:ex {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:scroll-padding-right\:ex,
+	.xl\:spr\:ex {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:scroll-padding-bottom\:ex,
+	.xl\:spb\:ex {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:scroll-padding-left\:ex,
+	.xl\:spl\:ex {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:scroll-padding-x\:ex,
+	.xl\:spx\:ex {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:scroll-padding-y\:ex,
+	.xl\:spy\:ex {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -45604,6 +49119,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:scroll-snap-type\:ex:hover,
+	.xl\:hover\:sst\:ex:hover {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:hover\:scroll-snap-align\:ex:hover,
+	.xl\:hover\:ssa\:ex:hover {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:hover\:scroll-snap-stop\:ex:hover,
+	.xl\:hover\:sss\:ex:hover {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:hover\:scroll-behavior\:ex:hover,
+	.xl\:hover\:sb\:ex:hover {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin\:ex:hover,
+	.xl\:hover\:sm\:ex:hover {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-top\:ex:hover,
+	.xl\:hover\:smt\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-right\:ex:hover,
+	.xl\:hover\:smr\:ex:hover {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-bottom\:ex:hover,
+	.xl\:hover\:smb\:ex:hover {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-left\:ex:hover,
+	.xl\:hover\:sml\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-x\:ex:hover,
+	.xl\:hover\:smx\:ex:hover {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:hover\:scroll-margin-y\:ex:hover,
+	.xl\:hover\:smy\:ex:hover {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding\:ex:hover,
+	.xl\:hover\:sp\:ex:hover {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-top\:ex:hover,
+	.xl\:hover\:spt\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-right\:ex:hover,
+	.xl\:hover\:spr\:ex:hover {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-bottom\:ex:hover,
+	.xl\:hover\:spb\:ex:hover {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-left\:ex:hover,
+	.xl\:hover\:spl\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-x\:ex:hover,
+	.xl\:hover\:spx\:ex:hover {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:hover\:scroll-padding-y\:ex:hover,
+	.xl\:hover\:spy\:ex:hover {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -46805,6 +50415,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:scroll-snap-type\:ex:focus,
+	.xl\:focus\:sst\:ex:focus {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:focus\:scroll-snap-align\:ex:focus,
+	.xl\:focus\:ssa\:ex:focus {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:focus\:scroll-snap-stop\:ex:focus,
+	.xl\:focus\:sss\:ex:focus {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:focus\:scroll-behavior\:ex:focus,
+	.xl\:focus\:sb\:ex:focus {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin\:ex:focus,
+	.xl\:focus\:sm\:ex:focus {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-top\:ex:focus,
+	.xl\:focus\:smt\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-right\:ex:focus,
+	.xl\:focus\:smr\:ex:focus {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-bottom\:ex:focus,
+	.xl\:focus\:smb\:ex:focus {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-left\:ex:focus,
+	.xl\:focus\:sml\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-x\:ex:focus,
+	.xl\:focus\:smx\:ex:focus {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:focus\:scroll-margin-y\:ex:focus,
+	.xl\:focus\:smy\:ex:focus {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding\:ex:focus,
+	.xl\:focus\:sp\:ex:focus {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-top\:ex:focus,
+	.xl\:focus\:spt\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-right\:ex:focus,
+	.xl\:focus\:spr\:ex:focus {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-bottom\:ex:focus,
+	.xl\:focus\:spb\:ex:focus {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-left\:ex:focus,
+	.xl\:focus\:spl\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-x\:ex:focus,
+	.xl\:focus\:spx\:ex:focus {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:focus\:scroll-padding-y\:ex:focus,
+	.xl\:focus\:spy\:ex:focus {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -48004,6 +51709,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:scroll-snap-type\:ex:focus-visible,
+	.xl\:focus-visible\:sst\:ex:focus-visible {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-snap-align\:ex:focus-visible,
+	.xl\:focus-visible\:ssa\:ex:focus-visible {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-snap-stop\:ex:focus-visible,
+	.xl\:focus-visible\:sss\:ex:focus-visible {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-behavior\:ex:focus-visible,
+	.xl\:focus-visible\:sb\:ex:focus-visible {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin\:ex:focus-visible,
+	.xl\:focus-visible\:sm\:ex:focus-visible {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-top\:ex:focus-visible,
+	.xl\:focus-visible\:smt\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-right\:ex:focus-visible,
+	.xl\:focus-visible\:smr\:ex:focus-visible {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:smb\:ex:focus-visible {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-left\:ex:focus-visible,
+	.xl\:focus-visible\:sml\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-x\:ex:focus-visible,
+	.xl\:focus-visible\:smx\:ex:focus-visible {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-margin-y\:ex:focus-visible,
+	.xl\:focus-visible\:smy\:ex:focus-visible {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding\:ex:focus-visible,
+	.xl\:focus-visible\:sp\:ex:focus-visible {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-top\:ex:focus-visible,
+	.xl\:focus-visible\:spt\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-right\:ex:focus-visible,
+	.xl\:focus-visible\:spr\:ex:focus-visible {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:spb\:ex:focus-visible {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-left\:ex:focus-visible,
+	.xl\:focus-visible\:spl\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-x\:ex:focus-visible,
+	.xl\:focus-visible\:spx\:ex:focus-visible {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:scroll-padding-y\:ex:focus-visible,
+	.xl\:focus-visible\:spy\:ex:focus-visible {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -49205,6 +53005,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:scroll-snap-type\:ex:focus-within,
+	.xl\:focus-within\:sst\:ex:focus-within {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-snap-align\:ex:focus-within,
+	.xl\:focus-within\:ssa\:ex:focus-within {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-snap-stop\:ex:focus-within,
+	.xl\:focus-within\:sss\:ex:focus-within {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-behavior\:ex:focus-within,
+	.xl\:focus-within\:sb\:ex:focus-within {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin\:ex:focus-within,
+	.xl\:focus-within\:sm\:ex:focus-within {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-top\:ex:focus-within,
+	.xl\:focus-within\:smt\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-right\:ex:focus-within,
+	.xl\:focus-within\:smr\:ex:focus-within {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-bottom\:ex:focus-within,
+	.xl\:focus-within\:smb\:ex:focus-within {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-left\:ex:focus-within,
+	.xl\:focus-within\:sml\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-x\:ex:focus-within,
+	.xl\:focus-within\:smx\:ex:focus-within {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-margin-y\:ex:focus-within,
+	.xl\:focus-within\:smy\:ex:focus-within {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding\:ex:focus-within,
+	.xl\:focus-within\:sp\:ex:focus-within {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-top\:ex:focus-within,
+	.xl\:focus-within\:spt\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-right\:ex:focus-within,
+	.xl\:focus-within\:spr\:ex:focus-within {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-bottom\:ex:focus-within,
+	.xl\:focus-within\:spb\:ex:focus-within {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-left\:ex:focus-within,
+	.xl\:focus-within\:spl\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-x\:ex:focus-within,
+	.xl\:focus-within\:spx\:ex:focus-within {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:focus-within\:scroll-padding-y\:ex:focus-within,
+	.xl\:focus-within\:spy\:ex:focus-within {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -50404,6 +54299,101 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:scroll-snap-type\:ex:active,
+	.xl\:active\:sst\:ex:active {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:active\:scroll-snap-align\:ex:active,
+	.xl\:active\:ssa\:ex:active {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:active\:scroll-snap-stop\:ex:active,
+	.xl\:active\:sss\:ex:active {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:active\:scroll-behavior\:ex:active,
+	.xl\:active\:sb\:ex:active {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin\:ex:active,
+	.xl\:active\:sm\:ex:active {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-top\:ex:active,
+	.xl\:active\:smt\:ex:active {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-right\:ex:active,
+	.xl\:active\:smr\:ex:active {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-bottom\:ex:active,
+	.xl\:active\:smb\:ex:active {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-left\:ex:active,
+	.xl\:active\:sml\:ex:active {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-x\:ex:active,
+	.xl\:active\:smx\:ex:active {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:active\:scroll-margin-y\:ex:active,
+	.xl\:active\:smy\:ex:active {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding\:ex:active,
+	.xl\:active\:sp\:ex:active {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-top\:ex:active,
+	.xl\:active\:spt\:ex:active {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-right\:ex:active,
+	.xl\:active\:spr\:ex:active {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-bottom\:ex:active,
+	.xl\:active\:spb\:ex:active {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-left\:ex:active,
+	.xl\:active\:spl\:ex:active {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-x\:ex:active,
+	.xl\:active\:spx\:ex:active {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:active\:scroll-padding-y\:ex:active,
+	.xl\:active\:spy\:ex:active {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
@@ -51605,6 +55595,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:scroll-snap-type\:ex:disabled,
+	.xl\:disabled\:sst\:ex:disabled {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-snap-align\:ex:disabled,
+	.xl\:disabled\:ssa\:ex:disabled {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-snap-stop\:ex:disabled,
+	.xl\:disabled\:sss\:ex:disabled {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-behavior\:ex:disabled,
+	.xl\:disabled\:sb\:ex:disabled {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin\:ex:disabled,
+	.xl\:disabled\:sm\:ex:disabled {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-top\:ex:disabled,
+	.xl\:disabled\:smt\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-right\:ex:disabled,
+	.xl\:disabled\:smr\:ex:disabled {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-bottom\:ex:disabled,
+	.xl\:disabled\:smb\:ex:disabled {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-left\:ex:disabled,
+	.xl\:disabled\:sml\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-x\:ex:disabled,
+	.xl\:disabled\:smx\:ex:disabled {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-margin-y\:ex:disabled,
+	.xl\:disabled\:smy\:ex:disabled {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding\:ex:disabled,
+	.xl\:disabled\:sp\:ex:disabled {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-top\:ex:disabled,
+	.xl\:disabled\:spt\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-right\:ex:disabled,
+	.xl\:disabled\:spr\:ex:disabled {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-bottom\:ex:disabled,
+	.xl\:disabled\:spb\:ex:disabled {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-left\:ex:disabled,
+	.xl\:disabled\:spl\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-x\:ex:disabled,
+	.xl\:disabled\:spx\:ex:disabled {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:disabled\:scroll-padding-y\:ex:disabled,
+	.xl\:disabled\:spy\:ex:disabled {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -52805,6 +56890,101 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:scroll-snap-type\:ex:checked,
+	.xl\:checked\:sst\:ex:checked {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:checked\:scroll-snap-align\:ex:checked,
+	.xl\:checked\:ssa\:ex:checked {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:checked\:scroll-snap-stop\:ex:checked,
+	.xl\:checked\:sss\:ex:checked {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:checked\:scroll-behavior\:ex:checked,
+	.xl\:checked\:sb\:ex:checked {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin\:ex:checked,
+	.xl\:checked\:sm\:ex:checked {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-top\:ex:checked,
+	.xl\:checked\:smt\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-right\:ex:checked,
+	.xl\:checked\:smr\:ex:checked {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-bottom\:ex:checked,
+	.xl\:checked\:smb\:ex:checked {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-left\:ex:checked,
+	.xl\:checked\:sml\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-x\:ex:checked,
+	.xl\:checked\:smx\:ex:checked {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:checked\:scroll-margin-y\:ex:checked,
+	.xl\:checked\:smy\:ex:checked {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding\:ex:checked,
+	.xl\:checked\:sp\:ex:checked {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-top\:ex:checked,
+	.xl\:checked\:spt\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-right\:ex:checked,
+	.xl\:checked\:spr\:ex:checked {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-bottom\:ex:checked,
+	.xl\:checked\:spb\:ex:checked {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-left\:ex:checked,
+	.xl\:checked\:spl\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-x\:ex:checked,
+	.xl\:checked\:spx\:ex:checked {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:checked\:scroll-padding-y\:ex:checked,
+	.xl\:checked\:spy\:ex:checked {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
+
 	/* ===== SCROLL UTILITIES — snap, behavior, margin, padding ===== */
 
 	/* SCROLL-SNAP-TYPE */
@@ -54004,4 +58184,99 @@
 		scroll-padding-bottom: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:scroll-snap-type\:ex:visited,
+	.xl\:visited\:sst\:ex:visited {
+		scroll-snap-type: var(--scroll-snap-type-ex) !important;
+	}
+
+	.xl\:visited\:scroll-snap-align\:ex:visited,
+	.xl\:visited\:ssa\:ex:visited {
+		scroll-snap-align: var(--scroll-snap-align-ex) !important;
+	}
+
+	.xl\:visited\:scroll-snap-stop\:ex:visited,
+	.xl\:visited\:sss\:ex:visited {
+		scroll-snap-stop: var(--scroll-snap-stop-ex) !important;
+	}
+
+	.xl\:visited\:scroll-behavior\:ex:visited,
+	.xl\:visited\:sb\:ex:visited {
+		scroll-behavior: var(--scroll-behavior-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin\:ex:visited,
+	.xl\:visited\:sm\:ex:visited {
+		scroll-margin: var(--scroll-margin-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-top\:ex:visited,
+	.xl\:visited\:smt\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-top-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-right\:ex:visited,
+	.xl\:visited\:smr\:ex:visited {
+		scroll-margin-right: var(--scroll-margin-right-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-bottom\:ex:visited,
+	.xl\:visited\:smb\:ex:visited {
+		scroll-margin-bottom: var(--scroll-margin-bottom-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-left\:ex:visited,
+	.xl\:visited\:sml\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-left-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-x\:ex:visited,
+	.xl\:visited\:smx\:ex:visited {
+		scroll-margin-left: var(--scroll-margin-x-ex) !important;
+		scroll-margin-right: var(--scroll-margin-x-ex) !important;
+	}
+
+	.xl\:visited\:scroll-margin-y\:ex:visited,
+	.xl\:visited\:smy\:ex:visited {
+		scroll-margin-top: var(--scroll-margin-y-ex) !important;
+		scroll-margin-bottom: var(--scroll-margin-y-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding\:ex:visited,
+	.xl\:visited\:sp\:ex:visited {
+		scroll-padding: var(--scroll-padding-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-top\:ex:visited,
+	.xl\:visited\:spt\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-top-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-right\:ex:visited,
+	.xl\:visited\:spr\:ex:visited {
+		scroll-padding-right: var(--scroll-padding-right-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-bottom\:ex:visited,
+	.xl\:visited\:spb\:ex:visited {
+		scroll-padding-bottom: var(--scroll-padding-bottom-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-left\:ex:visited,
+	.xl\:visited\:spl\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-left-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-x\:ex:visited,
+	.xl\:visited\:spx\:ex:visited {
+		scroll-padding-left: var(--scroll-padding-x-ex) !important;
+		scroll-padding-right: var(--scroll-padding-x-ex) !important;
+	}
+
+	.xl\:visited\:scroll-padding-y\:ex:visited,
+	.xl\:visited\:spy\:ex:visited {
+		scroll-padding-top: var(--scroll-padding-y-ex) !important;
+		scroll-padding-bottom: var(--scroll-padding-y-ex) !important;
+	}
 }

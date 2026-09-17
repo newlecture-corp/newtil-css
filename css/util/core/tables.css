@@ -126,6 +126,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.table-layout\:ex,
+.tl\:ex {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.border-collapse\:ex,
+.bdc\:ex {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.border-spacing\:ex,
+.bdsp\:ex {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.caption-side\:ex,
+.cs\:ex {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.empty-cells\:ex,
+.ec\:ex {
+	empty-cells: var(--empty-cells-ex) !important;
+}
+
 /* ===== TABLE UTILITIES ===== */
 
 /* TABLE-LAYOUT */
@@ -253,6 +279,32 @@
 	empty-cells: hide !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:table-layout\:ex:hover,
+.hover\:tl\:ex:hover {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.hover\:border-collapse\:ex:hover,
+.hover\:bdc\:ex:hover {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.hover\:border-spacing\:ex:hover,
+.hover\:bdsp\:ex:hover {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.hover\:caption-side\:ex:hover,
+.hover\:cs\:ex:hover {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.hover\:empty-cells\:ex:hover,
+.hover\:ec\:ex:hover {
+	empty-cells: var(--empty-cells-ex) !important;
+}
 
 /* ===== TABLE UTILITIES ===== */
 
@@ -382,6 +434,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:table-layout\:ex:focus,
+.focus\:tl\:ex:focus {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.focus\:border-collapse\:ex:focus,
+.focus\:bdc\:ex:focus {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.focus\:border-spacing\:ex:focus,
+.focus\:bdsp\:ex:focus {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.focus\:caption-side\:ex:focus,
+.focus\:cs\:ex:focus {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.focus\:empty-cells\:ex:focus,
+.focus\:ec\:ex:focus {
+	empty-cells: var(--empty-cells-ex) !important;
+}
+
 /* ===== TABLE UTILITIES ===== */
 
 /* TABLE-LAYOUT */
@@ -509,6 +587,32 @@
 	empty-cells: hide !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:table-layout\:ex:focus-visible,
+.focus-visible\:tl\:ex:focus-visible {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.focus-visible\:border-collapse\:ex:focus-visible,
+.focus-visible\:bdc\:ex:focus-visible {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.focus-visible\:border-spacing\:ex:focus-visible,
+.focus-visible\:bdsp\:ex:focus-visible {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.focus-visible\:caption-side\:ex:focus-visible,
+.focus-visible\:cs\:ex:focus-visible {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.focus-visible\:empty-cells\:ex:focus-visible,
+.focus-visible\:ec\:ex:focus-visible {
+	empty-cells: var(--empty-cells-ex) !important;
+}
 
 /* ===== TABLE UTILITIES ===== */
 
@@ -638,6 +742,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:table-layout\:ex:focus-within,
+.focus-within\:tl\:ex:focus-within {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.focus-within\:border-collapse\:ex:focus-within,
+.focus-within\:bdc\:ex:focus-within {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.focus-within\:border-spacing\:ex:focus-within,
+.focus-within\:bdsp\:ex:focus-within {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.focus-within\:caption-side\:ex:focus-within,
+.focus-within\:cs\:ex:focus-within {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.focus-within\:empty-cells\:ex:focus-within,
+.focus-within\:ec\:ex:focus-within {
+	empty-cells: var(--empty-cells-ex) !important;
+}
+
 /* ===== TABLE UTILITIES ===== */
 
 /* TABLE-LAYOUT */
@@ -765,6 +895,32 @@
 	empty-cells: hide !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:table-layout\:ex:active,
+.active\:tl\:ex:active {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.active\:border-collapse\:ex:active,
+.active\:bdc\:ex:active {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.active\:border-spacing\:ex:active,
+.active\:bdsp\:ex:active {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.active\:caption-side\:ex:active,
+.active\:cs\:ex:active {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.active\:empty-cells\:ex:active,
+.active\:ec\:ex:active {
+	empty-cells: var(--empty-cells-ex) !important;
+}
 
 /* ===== TABLE UTILITIES ===== */
 
@@ -894,6 +1050,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:table-layout\:ex:disabled,
+.disabled\:tl\:ex:disabled {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.disabled\:border-collapse\:ex:disabled,
+.disabled\:bdc\:ex:disabled {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.disabled\:border-spacing\:ex:disabled,
+.disabled\:bdsp\:ex:disabled {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.disabled\:caption-side\:ex:disabled,
+.disabled\:cs\:ex:disabled {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.disabled\:empty-cells\:ex:disabled,
+.disabled\:ec\:ex:disabled {
+	empty-cells: var(--empty-cells-ex) !important;
+}
+
 /* ===== TABLE UTILITIES ===== */
 
 /* TABLE-LAYOUT */
@@ -1022,6 +1204,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:table-layout\:ex:checked,
+.checked\:tl\:ex:checked {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.checked\:border-collapse\:ex:checked,
+.checked\:bdc\:ex:checked {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.checked\:border-spacing\:ex:checked,
+.checked\:bdsp\:ex:checked {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.checked\:caption-side\:ex:checked,
+.checked\:cs\:ex:checked {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.checked\:empty-cells\:ex:checked,
+.checked\:ec\:ex:checked {
+	empty-cells: var(--empty-cells-ex) !important;
+}
+
 /* ===== TABLE UTILITIES ===== */
 
 /* TABLE-LAYOUT */
@@ -1149,6 +1357,32 @@
 	empty-cells: hide !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:table-layout\:ex:visited,
+.visited\:tl\:ex:visited {
+	table-layout: var(--table-layout-ex) !important;
+}
+
+.visited\:border-collapse\:ex:visited,
+.visited\:bdc\:ex:visited {
+	border-collapse: var(--border-collapse-ex) !important;
+}
+
+.visited\:border-spacing\:ex:visited,
+.visited\:bdsp\:ex:visited {
+	border-spacing: var(--border-spacing-ex) !important;
+}
+
+.visited\:caption-side\:ex:visited,
+.visited\:cs\:ex:visited {
+	caption-side: var(--caption-side-ex) !important;
+}
+
+.visited\:empty-cells\:ex:visited,
+.visited\:ec\:ex:visited {
+	empty-cells: var(--empty-cells-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== TABLE UTILITIES ===== */
@@ -1279,6 +1513,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:table-layout\:ex,
+	.sm\:tl\:ex {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:border-collapse\:ex,
+	.sm\:bdc\:ex {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:border-spacing\:ex,
+	.sm\:bdsp\:ex {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:caption-side\:ex,
+	.sm\:cs\:ex {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:empty-cells\:ex,
+	.sm\:ec\:ex {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -1406,6 +1666,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:table-layout\:ex:hover,
+	.sm\:hover\:tl\:ex:hover {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:hover\:border-collapse\:ex:hover,
+	.sm\:hover\:bdc\:ex:hover {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:hover\:border-spacing\:ex:hover,
+	.sm\:hover\:bdsp\:ex:hover {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:hover\:caption-side\:ex:hover,
+	.sm\:hover\:cs\:ex:hover {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:hover\:empty-cells\:ex:hover,
+	.sm\:hover\:ec\:ex:hover {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -1535,6 +1821,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:table-layout\:ex:focus,
+	.sm\:focus\:tl\:ex:focus {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:focus\:border-collapse\:ex:focus,
+	.sm\:focus\:bdc\:ex:focus {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:focus\:border-spacing\:ex:focus,
+	.sm\:focus\:bdsp\:ex:focus {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:focus\:caption-side\:ex:focus,
+	.sm\:focus\:cs\:ex:focus {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:focus\:empty-cells\:ex:focus,
+	.sm\:focus\:ec\:ex:focus {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -1662,6 +1974,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:table-layout\:ex:focus-visible,
+	.sm\:focus-visible\:tl\:ex:focus-visible {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-collapse\:ex:focus-visible,
+	.sm\:focus-visible\:bdc\:ex:focus-visible {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:focus-visible\:border-spacing\:ex:focus-visible,
+	.sm\:focus-visible\:bdsp\:ex:focus-visible {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:focus-visible\:caption-side\:ex:focus-visible,
+	.sm\:focus-visible\:cs\:ex:focus-visible {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:focus-visible\:empty-cells\:ex:focus-visible,
+	.sm\:focus-visible\:ec\:ex:focus-visible {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -1791,6 +2129,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:table-layout\:ex:focus-within,
+	.sm\:focus-within\:tl\:ex:focus-within {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:focus-within\:border-collapse\:ex:focus-within,
+	.sm\:focus-within\:bdc\:ex:focus-within {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:focus-within\:border-spacing\:ex:focus-within,
+	.sm\:focus-within\:bdsp\:ex:focus-within {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:focus-within\:caption-side\:ex:focus-within,
+	.sm\:focus-within\:cs\:ex:focus-within {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:focus-within\:empty-cells\:ex:focus-within,
+	.sm\:focus-within\:ec\:ex:focus-within {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -1918,6 +2282,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:table-layout\:ex:active,
+	.sm\:active\:tl\:ex:active {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:active\:border-collapse\:ex:active,
+	.sm\:active\:bdc\:ex:active {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:active\:border-spacing\:ex:active,
+	.sm\:active\:bdsp\:ex:active {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:active\:caption-side\:ex:active,
+	.sm\:active\:cs\:ex:active {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:active\:empty-cells\:ex:active,
+	.sm\:active\:ec\:ex:active {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -2047,6 +2437,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:table-layout\:ex:disabled,
+	.sm\:disabled\:tl\:ex:disabled {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:disabled\:border-collapse\:ex:disabled,
+	.sm\:disabled\:bdc\:ex:disabled {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:disabled\:border-spacing\:ex:disabled,
+	.sm\:disabled\:bdsp\:ex:disabled {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:disabled\:caption-side\:ex:disabled,
+	.sm\:disabled\:cs\:ex:disabled {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:disabled\:empty-cells\:ex:disabled,
+	.sm\:disabled\:ec\:ex:disabled {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -2175,6 +2591,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:table-layout\:ex:checked,
+	.sm\:checked\:tl\:ex:checked {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:checked\:border-collapse\:ex:checked,
+	.sm\:checked\:bdc\:ex:checked {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:checked\:border-spacing\:ex:checked,
+	.sm\:checked\:bdsp\:ex:checked {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:checked\:caption-side\:ex:checked,
+	.sm\:checked\:cs\:ex:checked {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:checked\:empty-cells\:ex:checked,
+	.sm\:checked\:ec\:ex:checked {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -2302,6 +2744,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:table-layout\:ex:visited,
+	.sm\:visited\:tl\:ex:visited {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.sm\:visited\:border-collapse\:ex:visited,
+	.sm\:visited\:bdc\:ex:visited {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.sm\:visited\:border-spacing\:ex:visited,
+	.sm\:visited\:bdsp\:ex:visited {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.sm\:visited\:caption-side\:ex:visited,
+	.sm\:visited\:cs\:ex:visited {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.sm\:visited\:empty-cells\:ex:visited,
+	.sm\:visited\:ec\:ex:visited {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -2433,6 +2901,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:table-layout\:ex,
+	.md\:tl\:ex {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:border-collapse\:ex,
+	.md\:bdc\:ex {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:border-spacing\:ex,
+	.md\:bdsp\:ex {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:caption-side\:ex,
+	.md\:cs\:ex {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:empty-cells\:ex,
+	.md\:ec\:ex {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -2560,6 +3054,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:table-layout\:ex:hover,
+	.md\:hover\:tl\:ex:hover {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:hover\:border-collapse\:ex:hover,
+	.md\:hover\:bdc\:ex:hover {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:hover\:border-spacing\:ex:hover,
+	.md\:hover\:bdsp\:ex:hover {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:hover\:caption-side\:ex:hover,
+	.md\:hover\:cs\:ex:hover {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:hover\:empty-cells\:ex:hover,
+	.md\:hover\:ec\:ex:hover {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -2689,6 +3209,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:table-layout\:ex:focus,
+	.md\:focus\:tl\:ex:focus {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:focus\:border-collapse\:ex:focus,
+	.md\:focus\:bdc\:ex:focus {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:focus\:border-spacing\:ex:focus,
+	.md\:focus\:bdsp\:ex:focus {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:focus\:caption-side\:ex:focus,
+	.md\:focus\:cs\:ex:focus {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:focus\:empty-cells\:ex:focus,
+	.md\:focus\:ec\:ex:focus {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -2816,6 +3362,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:table-layout\:ex:focus-visible,
+	.md\:focus-visible\:tl\:ex:focus-visible {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:focus-visible\:border-collapse\:ex:focus-visible,
+	.md\:focus-visible\:bdc\:ex:focus-visible {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:focus-visible\:border-spacing\:ex:focus-visible,
+	.md\:focus-visible\:bdsp\:ex:focus-visible {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:focus-visible\:caption-side\:ex:focus-visible,
+	.md\:focus-visible\:cs\:ex:focus-visible {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:focus-visible\:empty-cells\:ex:focus-visible,
+	.md\:focus-visible\:ec\:ex:focus-visible {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -2945,6 +3517,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:table-layout\:ex:focus-within,
+	.md\:focus-within\:tl\:ex:focus-within {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:focus-within\:border-collapse\:ex:focus-within,
+	.md\:focus-within\:bdc\:ex:focus-within {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:focus-within\:border-spacing\:ex:focus-within,
+	.md\:focus-within\:bdsp\:ex:focus-within {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:focus-within\:caption-side\:ex:focus-within,
+	.md\:focus-within\:cs\:ex:focus-within {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:focus-within\:empty-cells\:ex:focus-within,
+	.md\:focus-within\:ec\:ex:focus-within {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -3072,6 +3670,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:table-layout\:ex:active,
+	.md\:active\:tl\:ex:active {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:active\:border-collapse\:ex:active,
+	.md\:active\:bdc\:ex:active {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:active\:border-spacing\:ex:active,
+	.md\:active\:bdsp\:ex:active {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:active\:caption-side\:ex:active,
+	.md\:active\:cs\:ex:active {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:active\:empty-cells\:ex:active,
+	.md\:active\:ec\:ex:active {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -3201,6 +3825,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:table-layout\:ex:disabled,
+	.md\:disabled\:tl\:ex:disabled {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:disabled\:border-collapse\:ex:disabled,
+	.md\:disabled\:bdc\:ex:disabled {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:disabled\:border-spacing\:ex:disabled,
+	.md\:disabled\:bdsp\:ex:disabled {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:disabled\:caption-side\:ex:disabled,
+	.md\:disabled\:cs\:ex:disabled {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:disabled\:empty-cells\:ex:disabled,
+	.md\:disabled\:ec\:ex:disabled {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -3329,6 +3979,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:table-layout\:ex:checked,
+	.md\:checked\:tl\:ex:checked {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:checked\:border-collapse\:ex:checked,
+	.md\:checked\:bdc\:ex:checked {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:checked\:border-spacing\:ex:checked,
+	.md\:checked\:bdsp\:ex:checked {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:checked\:caption-side\:ex:checked,
+	.md\:checked\:cs\:ex:checked {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:checked\:empty-cells\:ex:checked,
+	.md\:checked\:ec\:ex:checked {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -3456,6 +4132,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:table-layout\:ex:visited,
+	.md\:visited\:tl\:ex:visited {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.md\:visited\:border-collapse\:ex:visited,
+	.md\:visited\:bdc\:ex:visited {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.md\:visited\:border-spacing\:ex:visited,
+	.md\:visited\:bdsp\:ex:visited {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.md\:visited\:caption-side\:ex:visited,
+	.md\:visited\:cs\:ex:visited {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.md\:visited\:empty-cells\:ex:visited,
+	.md\:visited\:ec\:ex:visited {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -3587,6 +4289,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:table-layout\:ex,
+	.lg\:tl\:ex {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:border-collapse\:ex,
+	.lg\:bdc\:ex {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:border-spacing\:ex,
+	.lg\:bdsp\:ex {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:caption-side\:ex,
+	.lg\:cs\:ex {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:empty-cells\:ex,
+	.lg\:ec\:ex {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -3714,6 +4442,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:table-layout\:ex:hover,
+	.lg\:hover\:tl\:ex:hover {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:hover\:border-collapse\:ex:hover,
+	.lg\:hover\:bdc\:ex:hover {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:hover\:border-spacing\:ex:hover,
+	.lg\:hover\:bdsp\:ex:hover {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:hover\:caption-side\:ex:hover,
+	.lg\:hover\:cs\:ex:hover {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:hover\:empty-cells\:ex:hover,
+	.lg\:hover\:ec\:ex:hover {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -3843,6 +4597,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:table-layout\:ex:focus,
+	.lg\:focus\:tl\:ex:focus {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:focus\:border-collapse\:ex:focus,
+	.lg\:focus\:bdc\:ex:focus {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:focus\:border-spacing\:ex:focus,
+	.lg\:focus\:bdsp\:ex:focus {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:focus\:caption-side\:ex:focus,
+	.lg\:focus\:cs\:ex:focus {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:focus\:empty-cells\:ex:focus,
+	.lg\:focus\:ec\:ex:focus {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -3970,6 +4750,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:table-layout\:ex:focus-visible,
+	.lg\:focus-visible\:tl\:ex:focus-visible {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-collapse\:ex:focus-visible,
+	.lg\:focus-visible\:bdc\:ex:focus-visible {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:focus-visible\:border-spacing\:ex:focus-visible,
+	.lg\:focus-visible\:bdsp\:ex:focus-visible {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:focus-visible\:caption-side\:ex:focus-visible,
+	.lg\:focus-visible\:cs\:ex:focus-visible {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:focus-visible\:empty-cells\:ex:focus-visible,
+	.lg\:focus-visible\:ec\:ex:focus-visible {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -4099,6 +4905,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:table-layout\:ex:focus-within,
+	.lg\:focus-within\:tl\:ex:focus-within {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:focus-within\:border-collapse\:ex:focus-within,
+	.lg\:focus-within\:bdc\:ex:focus-within {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:focus-within\:border-spacing\:ex:focus-within,
+	.lg\:focus-within\:bdsp\:ex:focus-within {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:focus-within\:caption-side\:ex:focus-within,
+	.lg\:focus-within\:cs\:ex:focus-within {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:focus-within\:empty-cells\:ex:focus-within,
+	.lg\:focus-within\:ec\:ex:focus-within {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -4226,6 +5058,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:table-layout\:ex:active,
+	.lg\:active\:tl\:ex:active {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:active\:border-collapse\:ex:active,
+	.lg\:active\:bdc\:ex:active {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:active\:border-spacing\:ex:active,
+	.lg\:active\:bdsp\:ex:active {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:active\:caption-side\:ex:active,
+	.lg\:active\:cs\:ex:active {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:active\:empty-cells\:ex:active,
+	.lg\:active\:ec\:ex:active {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -4355,6 +5213,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:table-layout\:ex:disabled,
+	.lg\:disabled\:tl\:ex:disabled {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:disabled\:border-collapse\:ex:disabled,
+	.lg\:disabled\:bdc\:ex:disabled {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:disabled\:border-spacing\:ex:disabled,
+	.lg\:disabled\:bdsp\:ex:disabled {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:disabled\:caption-side\:ex:disabled,
+	.lg\:disabled\:cs\:ex:disabled {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:disabled\:empty-cells\:ex:disabled,
+	.lg\:disabled\:ec\:ex:disabled {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -4483,6 +5367,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:table-layout\:ex:checked,
+	.lg\:checked\:tl\:ex:checked {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:checked\:border-collapse\:ex:checked,
+	.lg\:checked\:bdc\:ex:checked {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:checked\:border-spacing\:ex:checked,
+	.lg\:checked\:bdsp\:ex:checked {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:checked\:caption-side\:ex:checked,
+	.lg\:checked\:cs\:ex:checked {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:checked\:empty-cells\:ex:checked,
+	.lg\:checked\:ec\:ex:checked {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -4610,6 +5520,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:table-layout\:ex:visited,
+	.lg\:visited\:tl\:ex:visited {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.lg\:visited\:border-collapse\:ex:visited,
+	.lg\:visited\:bdc\:ex:visited {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.lg\:visited\:border-spacing\:ex:visited,
+	.lg\:visited\:bdsp\:ex:visited {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.lg\:visited\:caption-side\:ex:visited,
+	.lg\:visited\:cs\:ex:visited {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.lg\:visited\:empty-cells\:ex:visited,
+	.lg\:visited\:ec\:ex:visited {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -4741,6 +5677,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:table-layout\:ex,
+	.xl\:tl\:ex {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:border-collapse\:ex,
+	.xl\:bdc\:ex {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:border-spacing\:ex,
+	.xl\:bdsp\:ex {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:caption-side\:ex,
+	.xl\:cs\:ex {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:empty-cells\:ex,
+	.xl\:ec\:ex {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -4868,6 +5830,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:table-layout\:ex:hover,
+	.xl\:hover\:tl\:ex:hover {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:hover\:border-collapse\:ex:hover,
+	.xl\:hover\:bdc\:ex:hover {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:hover\:border-spacing\:ex:hover,
+	.xl\:hover\:bdsp\:ex:hover {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:hover\:caption-side\:ex:hover,
+	.xl\:hover\:cs\:ex:hover {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:hover\:empty-cells\:ex:hover,
+	.xl\:hover\:ec\:ex:hover {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -4997,6 +5985,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:table-layout\:ex:focus,
+	.xl\:focus\:tl\:ex:focus {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:focus\:border-collapse\:ex:focus,
+	.xl\:focus\:bdc\:ex:focus {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:focus\:border-spacing\:ex:focus,
+	.xl\:focus\:bdsp\:ex:focus {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:focus\:caption-side\:ex:focus,
+	.xl\:focus\:cs\:ex:focus {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:focus\:empty-cells\:ex:focus,
+	.xl\:focus\:ec\:ex:focus {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -5124,6 +6138,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:table-layout\:ex:focus-visible,
+	.xl\:focus-visible\:tl\:ex:focus-visible {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-collapse\:ex:focus-visible,
+	.xl\:focus-visible\:bdc\:ex:focus-visible {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:focus-visible\:border-spacing\:ex:focus-visible,
+	.xl\:focus-visible\:bdsp\:ex:focus-visible {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:focus-visible\:caption-side\:ex:focus-visible,
+	.xl\:focus-visible\:cs\:ex:focus-visible {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:focus-visible\:empty-cells\:ex:focus-visible,
+	.xl\:focus-visible\:ec\:ex:focus-visible {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -5253,6 +6293,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:table-layout\:ex:focus-within,
+	.xl\:focus-within\:tl\:ex:focus-within {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:focus-within\:border-collapse\:ex:focus-within,
+	.xl\:focus-within\:bdc\:ex:focus-within {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:focus-within\:border-spacing\:ex:focus-within,
+	.xl\:focus-within\:bdsp\:ex:focus-within {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:focus-within\:caption-side\:ex:focus-within,
+	.xl\:focus-within\:cs\:ex:focus-within {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:focus-within\:empty-cells\:ex:focus-within,
+	.xl\:focus-within\:ec\:ex:focus-within {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -5380,6 +6446,32 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:table-layout\:ex:active,
+	.xl\:active\:tl\:ex:active {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:active\:border-collapse\:ex:active,
+	.xl\:active\:bdc\:ex:active {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:active\:border-spacing\:ex:active,
+	.xl\:active\:bdsp\:ex:active {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:active\:caption-side\:ex:active,
+	.xl\:active\:cs\:ex:active {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:active\:empty-cells\:ex:active,
+	.xl\:active\:ec\:ex:active {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 
 	/* ===== TABLE UTILITIES ===== */
 
@@ -5509,6 +6601,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:table-layout\:ex:disabled,
+	.xl\:disabled\:tl\:ex:disabled {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:disabled\:border-collapse\:ex:disabled,
+	.xl\:disabled\:bdc\:ex:disabled {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:disabled\:border-spacing\:ex:disabled,
+	.xl\:disabled\:bdsp\:ex:disabled {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:disabled\:caption-side\:ex:disabled,
+	.xl\:disabled\:cs\:ex:disabled {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:disabled\:empty-cells\:ex:disabled,
+	.xl\:disabled\:ec\:ex:disabled {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -5637,6 +6755,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:table-layout\:ex:checked,
+	.xl\:checked\:tl\:ex:checked {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:checked\:border-collapse\:ex:checked,
+	.xl\:checked\:bdc\:ex:checked {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:checked\:border-spacing\:ex:checked,
+	.xl\:checked\:bdsp\:ex:checked {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:checked\:caption-side\:ex:checked,
+	.xl\:checked\:cs\:ex:checked {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:checked\:empty-cells\:ex:checked,
+	.xl\:checked\:ec\:ex:checked {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
+
 	/* ===== TABLE UTILITIES ===== */
 
 	/* TABLE-LAYOUT */
@@ -5764,4 +6908,30 @@
 		empty-cells: hide !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:table-layout\:ex:visited,
+	.xl\:visited\:tl\:ex:visited {
+		table-layout: var(--table-layout-ex) !important;
+	}
+
+	.xl\:visited\:border-collapse\:ex:visited,
+	.xl\:visited\:bdc\:ex:visited {
+		border-collapse: var(--border-collapse-ex) !important;
+	}
+
+	.xl\:visited\:border-spacing\:ex:visited,
+	.xl\:visited\:bdsp\:ex:visited {
+		border-spacing: var(--border-spacing-ex) !important;
+	}
+
+	.xl\:visited\:caption-side\:ex:visited,
+	.xl\:visited\:cs\:ex:visited {
+		caption-side: var(--caption-side-ex) !important;
+	}
+
+	.xl\:visited\:empty-cells\:ex:visited,
+	.xl\:visited\:ec\:ex:visited {
+		empty-cells: var(--empty-cells-ex) !important;
+	}
 }

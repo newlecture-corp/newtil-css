@@ -544,6 +544,20 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.fill\:ex {
+	fill: var(--fill-ex) !important;
+}
+
+.stroke\:ex {
+	stroke: var(--stroke-ex) !important;
+}
+
+.stroke-width\:ex,
+.sw\:ex {
+	stroke-width: var(--stroke-width-ex) !important;
+}
+
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 /* FILL */
@@ -1089,6 +1103,20 @@
 	stroke-width: var(--border-width-4) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:fill\:ex:hover {
+	fill: var(--fill-ex) !important;
+}
+
+.hover\:stroke\:ex:hover {
+	stroke: var(--stroke-ex) !important;
+}
+
+.hover\:stroke-width\:ex:hover,
+.hover\:sw\:ex:hover {
+	stroke-width: var(--stroke-width-ex) !important;
+}
 
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -1636,6 +1664,20 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:fill\:ex:focus {
+	fill: var(--fill-ex) !important;
+}
+
+.focus\:stroke\:ex:focus {
+	stroke: var(--stroke-ex) !important;
+}
+
+.focus\:stroke-width\:ex:focus,
+.focus\:sw\:ex:focus {
+	stroke-width: var(--stroke-width-ex) !important;
+}
+
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 /* FILL */
@@ -2181,6 +2223,20 @@
 	stroke-width: var(--border-width-4) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:fill\:ex:focus-visible {
+	fill: var(--fill-ex) !important;
+}
+
+.focus-visible\:stroke\:ex:focus-visible {
+	stroke: var(--stroke-ex) !important;
+}
+
+.focus-visible\:stroke-width\:ex:focus-visible,
+.focus-visible\:sw\:ex:focus-visible {
+	stroke-width: var(--stroke-width-ex) !important;
+}
 
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -2728,6 +2784,20 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:fill\:ex:focus-within {
+	fill: var(--fill-ex) !important;
+}
+
+.focus-within\:stroke\:ex:focus-within {
+	stroke: var(--stroke-ex) !important;
+}
+
+.focus-within\:stroke-width\:ex:focus-within,
+.focus-within\:sw\:ex:focus-within {
+	stroke-width: var(--stroke-width-ex) !important;
+}
+
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 /* FILL */
@@ -3273,6 +3343,20 @@
 	stroke-width: var(--border-width-4) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:fill\:ex:active {
+	fill: var(--fill-ex) !important;
+}
+
+.active\:stroke\:ex:active {
+	stroke: var(--stroke-ex) !important;
+}
+
+.active\:stroke-width\:ex:active,
+.active\:sw\:ex:active {
+	stroke-width: var(--stroke-width-ex) !important;
+}
 
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -3820,6 +3904,20 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:fill\:ex:disabled {
+	fill: var(--fill-ex) !important;
+}
+
+.disabled\:stroke\:ex:disabled {
+	stroke: var(--stroke-ex) !important;
+}
+
+.disabled\:stroke-width\:ex:disabled,
+.disabled\:sw\:ex:disabled {
+	stroke-width: var(--stroke-width-ex) !important;
+}
+
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 /* FILL */
@@ -4366,6 +4464,20 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:fill\:ex:checked {
+	fill: var(--fill-ex) !important;
+}
+
+.checked\:stroke\:ex:checked {
+	stroke: var(--stroke-ex) !important;
+}
+
+.checked\:stroke-width\:ex:checked,
+.checked\:sw\:ex:checked {
+	stroke-width: var(--stroke-width-ex) !important;
+}
+
 /* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 /* FILL */
@@ -4911,6 +5023,20 @@
 	stroke-width: var(--border-width-4) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:fill\:ex:visited {
+	fill: var(--fill-ex) !important;
+}
+
+.visited\:stroke\:ex:visited {
+	stroke: var(--stroke-ex) !important;
+}
+
+.visited\:stroke-width\:ex:visited,
+.visited\:sw\:ex:visited {
+	stroke-width: var(--stroke-width-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
@@ -5459,6 +5585,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:fill\:ex {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:stroke\:ex {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:stroke-width\:ex,
+	.sm\:sw\:ex {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -6004,6 +6144,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:fill\:ex:hover {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:hover\:stroke\:ex:hover {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:hover\:stroke-width\:ex:hover,
+	.sm\:hover\:sw\:ex:hover {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -6551,6 +6705,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:fill\:ex:focus {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:focus\:stroke\:ex:focus {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:focus\:stroke-width\:ex:focus,
+	.sm\:focus\:sw\:ex:focus {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -7096,6 +7264,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:fill\:ex:focus-visible {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:focus-visible\:stroke\:ex:focus-visible {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:focus-visible\:stroke-width\:ex:focus-visible,
+	.sm\:focus-visible\:sw\:ex:focus-visible {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -7643,6 +7825,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:fill\:ex:focus-within {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:focus-within\:stroke\:ex:focus-within {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:focus-within\:stroke-width\:ex:focus-within,
+	.sm\:focus-within\:sw\:ex:focus-within {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -8188,6 +8384,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:fill\:ex:active {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:active\:stroke\:ex:active {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:active\:stroke-width\:ex:active,
+	.sm\:active\:sw\:ex:active {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -8735,6 +8945,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:fill\:ex:disabled {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:disabled\:stroke\:ex:disabled {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:disabled\:stroke-width\:ex:disabled,
+	.sm\:disabled\:sw\:ex:disabled {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -9281,6 +9505,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:fill\:ex:checked {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:checked\:stroke\:ex:checked {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:checked\:stroke-width\:ex:checked,
+	.sm\:checked\:sw\:ex:checked {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -9826,6 +10064,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:fill\:ex:visited {
+		fill: var(--fill-ex) !important;
+	}
+
+	.sm\:visited\:stroke\:ex:visited {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.sm\:visited\:stroke-width\:ex:visited,
+	.sm\:visited\:sw\:ex:visited {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -10375,6 +10627,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:fill\:ex {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:stroke\:ex {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:stroke-width\:ex,
+	.md\:sw\:ex {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -10920,6 +11186,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:fill\:ex:hover {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:hover\:stroke\:ex:hover {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:hover\:stroke-width\:ex:hover,
+	.md\:hover\:sw\:ex:hover {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -11467,6 +11747,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:fill\:ex:focus {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:focus\:stroke\:ex:focus {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:focus\:stroke-width\:ex:focus,
+	.md\:focus\:sw\:ex:focus {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -12012,6 +12306,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:fill\:ex:focus-visible {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:focus-visible\:stroke\:ex:focus-visible {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:focus-visible\:stroke-width\:ex:focus-visible,
+	.md\:focus-visible\:sw\:ex:focus-visible {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -12559,6 +12867,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:fill\:ex:focus-within {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:focus-within\:stroke\:ex:focus-within {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:focus-within\:stroke-width\:ex:focus-within,
+	.md\:focus-within\:sw\:ex:focus-within {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -13104,6 +13426,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:fill\:ex:active {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:active\:stroke\:ex:active {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:active\:stroke-width\:ex:active,
+	.md\:active\:sw\:ex:active {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -13651,6 +13987,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:fill\:ex:disabled {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:disabled\:stroke\:ex:disabled {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:disabled\:stroke-width\:ex:disabled,
+	.md\:disabled\:sw\:ex:disabled {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -14197,6 +14547,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:fill\:ex:checked {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:checked\:stroke\:ex:checked {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:checked\:stroke-width\:ex:checked,
+	.md\:checked\:sw\:ex:checked {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -14742,6 +15106,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:fill\:ex:visited {
+		fill: var(--fill-ex) !important;
+	}
+
+	.md\:visited\:stroke\:ex:visited {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.md\:visited\:stroke-width\:ex:visited,
+	.md\:visited\:sw\:ex:visited {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -15291,6 +15669,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:fill\:ex {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:stroke\:ex {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:stroke-width\:ex,
+	.lg\:sw\:ex {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -15836,6 +16228,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:fill\:ex:hover {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:hover\:stroke\:ex:hover {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:hover\:stroke-width\:ex:hover,
+	.lg\:hover\:sw\:ex:hover {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -16383,6 +16789,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:fill\:ex:focus {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:focus\:stroke\:ex:focus {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:focus\:stroke-width\:ex:focus,
+	.lg\:focus\:sw\:ex:focus {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -16928,6 +17348,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:fill\:ex:focus-visible {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:focus-visible\:stroke\:ex:focus-visible {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:focus-visible\:stroke-width\:ex:focus-visible,
+	.lg\:focus-visible\:sw\:ex:focus-visible {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -17475,6 +17909,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:fill\:ex:focus-within {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:focus-within\:stroke\:ex:focus-within {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:focus-within\:stroke-width\:ex:focus-within,
+	.lg\:focus-within\:sw\:ex:focus-within {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -18020,6 +18468,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:fill\:ex:active {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:active\:stroke\:ex:active {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:active\:stroke-width\:ex:active,
+	.lg\:active\:sw\:ex:active {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -18567,6 +19029,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:fill\:ex:disabled {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:disabled\:stroke\:ex:disabled {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:disabled\:stroke-width\:ex:disabled,
+	.lg\:disabled\:sw\:ex:disabled {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -19113,6 +19589,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:fill\:ex:checked {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:checked\:stroke\:ex:checked {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:checked\:stroke-width\:ex:checked,
+	.lg\:checked\:sw\:ex:checked {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -19658,6 +20148,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:fill\:ex:visited {
+		fill: var(--fill-ex) !important;
+	}
+
+	.lg\:visited\:stroke\:ex:visited {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.lg\:visited\:stroke-width\:ex:visited,
+	.lg\:visited\:sw\:ex:visited {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -20207,6 +20711,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:fill\:ex {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:stroke\:ex {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:stroke-width\:ex,
+	.xl\:sw\:ex {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -20752,6 +21270,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:fill\:ex:hover {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:hover\:stroke\:ex:hover {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:hover\:stroke-width\:ex:hover,
+	.xl\:hover\:sw\:ex:hover {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -21299,6 +21831,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:fill\:ex:focus {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:focus\:stroke\:ex:focus {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:focus\:stroke-width\:ex:focus,
+	.xl\:focus\:sw\:ex:focus {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -21844,6 +22390,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:fill\:ex:focus-visible {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:focus-visible\:stroke\:ex:focus-visible {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:focus-visible\:stroke-width\:ex:focus-visible,
+	.xl\:focus-visible\:sw\:ex:focus-visible {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -22391,6 +22951,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:fill\:ex:focus-within {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:focus-within\:stroke\:ex:focus-within {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:focus-within\:stroke-width\:ex:focus-within,
+	.xl\:focus-within\:sw\:ex:focus-within {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -22936,6 +23510,20 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:fill\:ex:active {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:active\:stroke\:ex:active {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:active\:stroke-width\:ex:active,
+	.xl\:active\:sw\:ex:active {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
@@ -23483,6 +24071,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:fill\:ex:disabled {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:disabled\:stroke\:ex:disabled {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:disabled\:stroke-width\:ex:disabled,
+	.xl\:disabled\:sw\:ex:disabled {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -24029,6 +24631,20 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:fill\:ex:checked {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:checked\:stroke\:ex:checked {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:checked\:stroke-width\:ex:checked,
+	.xl\:checked\:sw\:ex:checked {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
+
 	/* ===== SVG UTILITIES — fill, stroke, stroke-width ===== */
 
 	/* FILL */
@@ -24574,4 +25190,18 @@
 		stroke-width: var(--border-width-4) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:fill\:ex:visited {
+		fill: var(--fill-ex) !important;
+	}
+
+	.xl\:visited\:stroke\:ex:visited {
+		stroke: var(--stroke-ex) !important;
+	}
+
+	.xl\:visited\:stroke-width\:ex:visited,
+	.xl\:visited\:sw\:ex:visited {
+		stroke-width: var(--stroke-width-ex) !important;
+	}
 }

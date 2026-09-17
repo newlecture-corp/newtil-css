@@ -221,6 +221,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.column-count\:ex,
+.cc\:ex {
+	column-count: var(--column-count-ex) !important;
+}
+
+.column-gap-len\:ex,
+.cgl\:ex {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.break-inside\:ex,
+.bri\:ex {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.break-before\:ex,
+.brb\:ex {
+	break-before: var(--break-before-ex) !important;
+}
+
+.break-after\:ex,
+.bra\:ex {
+	break-after: var(--break-after-ex) !important;
+}
+
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 /* COLUMN-COUNT */
@@ -443,6 +469,32 @@
 	break-after: column !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:column-count\:ex:hover,
+.hover\:cc\:ex:hover {
+	column-count: var(--column-count-ex) !important;
+}
+
+.hover\:column-gap-len\:ex:hover,
+.hover\:cgl\:ex:hover {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.hover\:break-inside\:ex:hover,
+.hover\:bri\:ex:hover {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.hover\:break-before\:ex:hover,
+.hover\:brb\:ex:hover {
+	break-before: var(--break-before-ex) !important;
+}
+
+.hover\:break-after\:ex:hover,
+.hover\:bra\:ex:hover {
+	break-after: var(--break-after-ex) !important;
+}
 
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -667,6 +719,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:column-count\:ex:focus,
+.focus\:cc\:ex:focus {
+	column-count: var(--column-count-ex) !important;
+}
+
+.focus\:column-gap-len\:ex:focus,
+.focus\:cgl\:ex:focus {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.focus\:break-inside\:ex:focus,
+.focus\:bri\:ex:focus {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.focus\:break-before\:ex:focus,
+.focus\:brb\:ex:focus {
+	break-before: var(--break-before-ex) !important;
+}
+
+.focus\:break-after\:ex:focus,
+.focus\:bra\:ex:focus {
+	break-after: var(--break-after-ex) !important;
+}
+
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 /* COLUMN-COUNT */
@@ -889,6 +967,32 @@
 	break-after: column !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:column-count\:ex:focus-visible,
+.focus-visible\:cc\:ex:focus-visible {
+	column-count: var(--column-count-ex) !important;
+}
+
+.focus-visible\:column-gap-len\:ex:focus-visible,
+.focus-visible\:cgl\:ex:focus-visible {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.focus-visible\:break-inside\:ex:focus-visible,
+.focus-visible\:bri\:ex:focus-visible {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.focus-visible\:break-before\:ex:focus-visible,
+.focus-visible\:brb\:ex:focus-visible {
+	break-before: var(--break-before-ex) !important;
+}
+
+.focus-visible\:break-after\:ex:focus-visible,
+.focus-visible\:bra\:ex:focus-visible {
+	break-after: var(--break-after-ex) !important;
+}
 
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -1113,6 +1217,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:column-count\:ex:focus-within,
+.focus-within\:cc\:ex:focus-within {
+	column-count: var(--column-count-ex) !important;
+}
+
+.focus-within\:column-gap-len\:ex:focus-within,
+.focus-within\:cgl\:ex:focus-within {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.focus-within\:break-inside\:ex:focus-within,
+.focus-within\:bri\:ex:focus-within {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.focus-within\:break-before\:ex:focus-within,
+.focus-within\:brb\:ex:focus-within {
+	break-before: var(--break-before-ex) !important;
+}
+
+.focus-within\:break-after\:ex:focus-within,
+.focus-within\:bra\:ex:focus-within {
+	break-after: var(--break-after-ex) !important;
+}
+
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 /* COLUMN-COUNT */
@@ -1335,6 +1465,32 @@
 	break-after: column !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:column-count\:ex:active,
+.active\:cc\:ex:active {
+	column-count: var(--column-count-ex) !important;
+}
+
+.active\:column-gap-len\:ex:active,
+.active\:cgl\:ex:active {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.active\:break-inside\:ex:active,
+.active\:bri\:ex:active {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.active\:break-before\:ex:active,
+.active\:brb\:ex:active {
+	break-before: var(--break-before-ex) !important;
+}
+
+.active\:break-after\:ex:active,
+.active\:bra\:ex:active {
+	break-after: var(--break-after-ex) !important;
+}
 
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -1559,6 +1715,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:column-count\:ex:disabled,
+.disabled\:cc\:ex:disabled {
+	column-count: var(--column-count-ex) !important;
+}
+
+.disabled\:column-gap-len\:ex:disabled,
+.disabled\:cgl\:ex:disabled {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.disabled\:break-inside\:ex:disabled,
+.disabled\:bri\:ex:disabled {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.disabled\:break-before\:ex:disabled,
+.disabled\:brb\:ex:disabled {
+	break-before: var(--break-before-ex) !important;
+}
+
+.disabled\:break-after\:ex:disabled,
+.disabled\:bra\:ex:disabled {
+	break-after: var(--break-after-ex) !important;
+}
+
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 /* COLUMN-COUNT */
@@ -1782,6 +1964,32 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:column-count\:ex:checked,
+.checked\:cc\:ex:checked {
+	column-count: var(--column-count-ex) !important;
+}
+
+.checked\:column-gap-len\:ex:checked,
+.checked\:cgl\:ex:checked {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.checked\:break-inside\:ex:checked,
+.checked\:bri\:ex:checked {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.checked\:break-before\:ex:checked,
+.checked\:brb\:ex:checked {
+	break-before: var(--break-before-ex) !important;
+}
+
+.checked\:break-after\:ex:checked,
+.checked\:bra\:ex:checked {
+	break-after: var(--break-after-ex) !important;
+}
+
 /* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 /* COLUMN-COUNT */
@@ -2004,6 +2212,32 @@
 	break-after: column !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:column-count\:ex:visited,
+.visited\:cc\:ex:visited {
+	column-count: var(--column-count-ex) !important;
+}
+
+.visited\:column-gap-len\:ex:visited,
+.visited\:cgl\:ex:visited {
+	column-gap: var(--column-gap-len-ex) !important;
+}
+
+.visited\:break-inside\:ex:visited,
+.visited\:bri\:ex:visited {
+	break-inside: var(--break-inside-ex) !important;
+}
+
+.visited\:break-before\:ex:visited,
+.visited\:brb\:ex:visited {
+	break-before: var(--break-before-ex) !important;
+}
+
+.visited\:break-after\:ex:visited,
+.visited\:bra\:ex:visited {
+	break-after: var(--break-after-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
@@ -2229,6 +2463,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:column-count\:ex,
+	.sm\:cc\:ex {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:column-gap-len\:ex,
+	.sm\:cgl\:ex {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:break-inside\:ex,
+	.sm\:bri\:ex {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:break-before\:ex,
+	.sm\:brb\:ex {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:break-after\:ex,
+	.sm\:bra\:ex {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -2451,6 +2711,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:column-count\:ex:hover,
+	.sm\:hover\:cc\:ex:hover {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:hover\:column-gap-len\:ex:hover,
+	.sm\:hover\:cgl\:ex:hover {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:hover\:break-inside\:ex:hover,
+	.sm\:hover\:bri\:ex:hover {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:hover\:break-before\:ex:hover,
+	.sm\:hover\:brb\:ex:hover {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:hover\:break-after\:ex:hover,
+	.sm\:hover\:bra\:ex:hover {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -2675,6 +2961,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:column-count\:ex:focus,
+	.sm\:focus\:cc\:ex:focus {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:focus\:column-gap-len\:ex:focus,
+	.sm\:focus\:cgl\:ex:focus {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:focus\:break-inside\:ex:focus,
+	.sm\:focus\:bri\:ex:focus {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:focus\:break-before\:ex:focus,
+	.sm\:focus\:brb\:ex:focus {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:focus\:break-after\:ex:focus,
+	.sm\:focus\:bra\:ex:focus {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -2897,6 +3209,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:column-count\:ex:focus-visible,
+	.sm\:focus-visible\:cc\:ex:focus-visible {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:focus-visible\:column-gap-len\:ex:focus-visible,
+	.sm\:focus-visible\:cgl\:ex:focus-visible {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:focus-visible\:break-inside\:ex:focus-visible,
+	.sm\:focus-visible\:bri\:ex:focus-visible {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:focus-visible\:break-before\:ex:focus-visible,
+	.sm\:focus-visible\:brb\:ex:focus-visible {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:focus-visible\:break-after\:ex:focus-visible,
+	.sm\:focus-visible\:bra\:ex:focus-visible {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -3121,6 +3459,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:column-count\:ex:focus-within,
+	.sm\:focus-within\:cc\:ex:focus-within {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:focus-within\:column-gap-len\:ex:focus-within,
+	.sm\:focus-within\:cgl\:ex:focus-within {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:focus-within\:break-inside\:ex:focus-within,
+	.sm\:focus-within\:bri\:ex:focus-within {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:focus-within\:break-before\:ex:focus-within,
+	.sm\:focus-within\:brb\:ex:focus-within {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:focus-within\:break-after\:ex:focus-within,
+	.sm\:focus-within\:bra\:ex:focus-within {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -3343,6 +3707,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:column-count\:ex:active,
+	.sm\:active\:cc\:ex:active {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:active\:column-gap-len\:ex:active,
+	.sm\:active\:cgl\:ex:active {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:active\:break-inside\:ex:active,
+	.sm\:active\:bri\:ex:active {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:active\:break-before\:ex:active,
+	.sm\:active\:brb\:ex:active {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:active\:break-after\:ex:active,
+	.sm\:active\:bra\:ex:active {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -3567,6 +3957,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:column-count\:ex:disabled,
+	.sm\:disabled\:cc\:ex:disabled {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:disabled\:column-gap-len\:ex:disabled,
+	.sm\:disabled\:cgl\:ex:disabled {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:disabled\:break-inside\:ex:disabled,
+	.sm\:disabled\:bri\:ex:disabled {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:disabled\:break-before\:ex:disabled,
+	.sm\:disabled\:brb\:ex:disabled {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:disabled\:break-after\:ex:disabled,
+	.sm\:disabled\:bra\:ex:disabled {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -3790,6 +4206,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:column-count\:ex:checked,
+	.sm\:checked\:cc\:ex:checked {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:checked\:column-gap-len\:ex:checked,
+	.sm\:checked\:cgl\:ex:checked {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:checked\:break-inside\:ex:checked,
+	.sm\:checked\:bri\:ex:checked {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:checked\:break-before\:ex:checked,
+	.sm\:checked\:brb\:ex:checked {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:checked\:break-after\:ex:checked,
+	.sm\:checked\:bra\:ex:checked {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -4012,6 +4454,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:column-count\:ex:visited,
+	.sm\:visited\:cc\:ex:visited {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.sm\:visited\:column-gap-len\:ex:visited,
+	.sm\:visited\:cgl\:ex:visited {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.sm\:visited\:break-inside\:ex:visited,
+	.sm\:visited\:bri\:ex:visited {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.sm\:visited\:break-before\:ex:visited,
+	.sm\:visited\:brb\:ex:visited {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.sm\:visited\:break-after\:ex:visited,
+	.sm\:visited\:bra\:ex:visited {
+		break-after: var(--break-after-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -4238,6 +4706,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:column-count\:ex,
+	.md\:cc\:ex {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:column-gap-len\:ex,
+	.md\:cgl\:ex {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:break-inside\:ex,
+	.md\:bri\:ex {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:break-before\:ex,
+	.md\:brb\:ex {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:break-after\:ex,
+	.md\:bra\:ex {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -4460,6 +4954,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:column-count\:ex:hover,
+	.md\:hover\:cc\:ex:hover {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:hover\:column-gap-len\:ex:hover,
+	.md\:hover\:cgl\:ex:hover {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:hover\:break-inside\:ex:hover,
+	.md\:hover\:bri\:ex:hover {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:hover\:break-before\:ex:hover,
+	.md\:hover\:brb\:ex:hover {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:hover\:break-after\:ex:hover,
+	.md\:hover\:bra\:ex:hover {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -4684,6 +5204,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:column-count\:ex:focus,
+	.md\:focus\:cc\:ex:focus {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:focus\:column-gap-len\:ex:focus,
+	.md\:focus\:cgl\:ex:focus {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:focus\:break-inside\:ex:focus,
+	.md\:focus\:bri\:ex:focus {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:focus\:break-before\:ex:focus,
+	.md\:focus\:brb\:ex:focus {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:focus\:break-after\:ex:focus,
+	.md\:focus\:bra\:ex:focus {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -4906,6 +5452,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:column-count\:ex:focus-visible,
+	.md\:focus-visible\:cc\:ex:focus-visible {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:focus-visible\:column-gap-len\:ex:focus-visible,
+	.md\:focus-visible\:cgl\:ex:focus-visible {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:focus-visible\:break-inside\:ex:focus-visible,
+	.md\:focus-visible\:bri\:ex:focus-visible {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:focus-visible\:break-before\:ex:focus-visible,
+	.md\:focus-visible\:brb\:ex:focus-visible {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:focus-visible\:break-after\:ex:focus-visible,
+	.md\:focus-visible\:bra\:ex:focus-visible {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -5130,6 +5702,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:column-count\:ex:focus-within,
+	.md\:focus-within\:cc\:ex:focus-within {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:focus-within\:column-gap-len\:ex:focus-within,
+	.md\:focus-within\:cgl\:ex:focus-within {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:focus-within\:break-inside\:ex:focus-within,
+	.md\:focus-within\:bri\:ex:focus-within {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:focus-within\:break-before\:ex:focus-within,
+	.md\:focus-within\:brb\:ex:focus-within {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:focus-within\:break-after\:ex:focus-within,
+	.md\:focus-within\:bra\:ex:focus-within {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -5352,6 +5950,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:column-count\:ex:active,
+	.md\:active\:cc\:ex:active {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:active\:column-gap-len\:ex:active,
+	.md\:active\:cgl\:ex:active {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:active\:break-inside\:ex:active,
+	.md\:active\:bri\:ex:active {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:active\:break-before\:ex:active,
+	.md\:active\:brb\:ex:active {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:active\:break-after\:ex:active,
+	.md\:active\:bra\:ex:active {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -5576,6 +6200,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:column-count\:ex:disabled,
+	.md\:disabled\:cc\:ex:disabled {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:disabled\:column-gap-len\:ex:disabled,
+	.md\:disabled\:cgl\:ex:disabled {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:disabled\:break-inside\:ex:disabled,
+	.md\:disabled\:bri\:ex:disabled {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:disabled\:break-before\:ex:disabled,
+	.md\:disabled\:brb\:ex:disabled {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:disabled\:break-after\:ex:disabled,
+	.md\:disabled\:bra\:ex:disabled {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -5799,6 +6449,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:column-count\:ex:checked,
+	.md\:checked\:cc\:ex:checked {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:checked\:column-gap-len\:ex:checked,
+	.md\:checked\:cgl\:ex:checked {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:checked\:break-inside\:ex:checked,
+	.md\:checked\:bri\:ex:checked {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:checked\:break-before\:ex:checked,
+	.md\:checked\:brb\:ex:checked {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:checked\:break-after\:ex:checked,
+	.md\:checked\:bra\:ex:checked {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -6021,6 +6697,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:column-count\:ex:visited,
+	.md\:visited\:cc\:ex:visited {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.md\:visited\:column-gap-len\:ex:visited,
+	.md\:visited\:cgl\:ex:visited {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.md\:visited\:break-inside\:ex:visited,
+	.md\:visited\:bri\:ex:visited {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.md\:visited\:break-before\:ex:visited,
+	.md\:visited\:brb\:ex:visited {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.md\:visited\:break-after\:ex:visited,
+	.md\:visited\:bra\:ex:visited {
+		break-after: var(--break-after-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -6247,6 +6949,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:column-count\:ex,
+	.lg\:cc\:ex {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:column-gap-len\:ex,
+	.lg\:cgl\:ex {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:break-inside\:ex,
+	.lg\:bri\:ex {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:break-before\:ex,
+	.lg\:brb\:ex {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:break-after\:ex,
+	.lg\:bra\:ex {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -6469,6 +7197,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:column-count\:ex:hover,
+	.lg\:hover\:cc\:ex:hover {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:hover\:column-gap-len\:ex:hover,
+	.lg\:hover\:cgl\:ex:hover {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:hover\:break-inside\:ex:hover,
+	.lg\:hover\:bri\:ex:hover {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:hover\:break-before\:ex:hover,
+	.lg\:hover\:brb\:ex:hover {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:hover\:break-after\:ex:hover,
+	.lg\:hover\:bra\:ex:hover {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -6693,6 +7447,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:column-count\:ex:focus,
+	.lg\:focus\:cc\:ex:focus {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:focus\:column-gap-len\:ex:focus,
+	.lg\:focus\:cgl\:ex:focus {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:focus\:break-inside\:ex:focus,
+	.lg\:focus\:bri\:ex:focus {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:focus\:break-before\:ex:focus,
+	.lg\:focus\:brb\:ex:focus {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:focus\:break-after\:ex:focus,
+	.lg\:focus\:bra\:ex:focus {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -6915,6 +7695,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:column-count\:ex:focus-visible,
+	.lg\:focus-visible\:cc\:ex:focus-visible {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:focus-visible\:column-gap-len\:ex:focus-visible,
+	.lg\:focus-visible\:cgl\:ex:focus-visible {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:focus-visible\:break-inside\:ex:focus-visible,
+	.lg\:focus-visible\:bri\:ex:focus-visible {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:focus-visible\:break-before\:ex:focus-visible,
+	.lg\:focus-visible\:brb\:ex:focus-visible {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:focus-visible\:break-after\:ex:focus-visible,
+	.lg\:focus-visible\:bra\:ex:focus-visible {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -7139,6 +7945,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:column-count\:ex:focus-within,
+	.lg\:focus-within\:cc\:ex:focus-within {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:focus-within\:column-gap-len\:ex:focus-within,
+	.lg\:focus-within\:cgl\:ex:focus-within {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:focus-within\:break-inside\:ex:focus-within,
+	.lg\:focus-within\:bri\:ex:focus-within {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:focus-within\:break-before\:ex:focus-within,
+	.lg\:focus-within\:brb\:ex:focus-within {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:focus-within\:break-after\:ex:focus-within,
+	.lg\:focus-within\:bra\:ex:focus-within {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -7361,6 +8193,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:column-count\:ex:active,
+	.lg\:active\:cc\:ex:active {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:active\:column-gap-len\:ex:active,
+	.lg\:active\:cgl\:ex:active {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:active\:break-inside\:ex:active,
+	.lg\:active\:bri\:ex:active {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:active\:break-before\:ex:active,
+	.lg\:active\:brb\:ex:active {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:active\:break-after\:ex:active,
+	.lg\:active\:bra\:ex:active {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -7585,6 +8443,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:column-count\:ex:disabled,
+	.lg\:disabled\:cc\:ex:disabled {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:disabled\:column-gap-len\:ex:disabled,
+	.lg\:disabled\:cgl\:ex:disabled {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:disabled\:break-inside\:ex:disabled,
+	.lg\:disabled\:bri\:ex:disabled {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:disabled\:break-before\:ex:disabled,
+	.lg\:disabled\:brb\:ex:disabled {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:disabled\:break-after\:ex:disabled,
+	.lg\:disabled\:bra\:ex:disabled {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -7808,6 +8692,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:column-count\:ex:checked,
+	.lg\:checked\:cc\:ex:checked {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:checked\:column-gap-len\:ex:checked,
+	.lg\:checked\:cgl\:ex:checked {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:checked\:break-inside\:ex:checked,
+	.lg\:checked\:bri\:ex:checked {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:checked\:break-before\:ex:checked,
+	.lg\:checked\:brb\:ex:checked {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:checked\:break-after\:ex:checked,
+	.lg\:checked\:bra\:ex:checked {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -8030,6 +8940,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:column-count\:ex:visited,
+	.lg\:visited\:cc\:ex:visited {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.lg\:visited\:column-gap-len\:ex:visited,
+	.lg\:visited\:cgl\:ex:visited {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.lg\:visited\:break-inside\:ex:visited,
+	.lg\:visited\:bri\:ex:visited {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.lg\:visited\:break-before\:ex:visited,
+	.lg\:visited\:brb\:ex:visited {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.lg\:visited\:break-after\:ex:visited,
+	.lg\:visited\:bra\:ex:visited {
+		break-after: var(--break-after-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -8256,6 +9192,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:column-count\:ex,
+	.xl\:cc\:ex {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:column-gap-len\:ex,
+	.xl\:cgl\:ex {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:break-inside\:ex,
+	.xl\:bri\:ex {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:break-before\:ex,
+	.xl\:brb\:ex {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:break-after\:ex,
+	.xl\:bra\:ex {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -8478,6 +9440,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:column-count\:ex:hover,
+	.xl\:hover\:cc\:ex:hover {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:hover\:column-gap-len\:ex:hover,
+	.xl\:hover\:cgl\:ex:hover {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:hover\:break-inside\:ex:hover,
+	.xl\:hover\:bri\:ex:hover {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:hover\:break-before\:ex:hover,
+	.xl\:hover\:brb\:ex:hover {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:hover\:break-after\:ex:hover,
+	.xl\:hover\:bra\:ex:hover {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -8702,6 +9690,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:column-count\:ex:focus,
+	.xl\:focus\:cc\:ex:focus {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:focus\:column-gap-len\:ex:focus,
+	.xl\:focus\:cgl\:ex:focus {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:focus\:break-inside\:ex:focus,
+	.xl\:focus\:bri\:ex:focus {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:focus\:break-before\:ex:focus,
+	.xl\:focus\:brb\:ex:focus {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:focus\:break-after\:ex:focus,
+	.xl\:focus\:bra\:ex:focus {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -8924,6 +9938,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:column-count\:ex:focus-visible,
+	.xl\:focus-visible\:cc\:ex:focus-visible {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:focus-visible\:column-gap-len\:ex:focus-visible,
+	.xl\:focus-visible\:cgl\:ex:focus-visible {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:focus-visible\:break-inside\:ex:focus-visible,
+	.xl\:focus-visible\:bri\:ex:focus-visible {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:focus-visible\:break-before\:ex:focus-visible,
+	.xl\:focus-visible\:brb\:ex:focus-visible {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:focus-visible\:break-after\:ex:focus-visible,
+	.xl\:focus-visible\:bra\:ex:focus-visible {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -9148,6 +10188,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:column-count\:ex:focus-within,
+	.xl\:focus-within\:cc\:ex:focus-within {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:focus-within\:column-gap-len\:ex:focus-within,
+	.xl\:focus-within\:cgl\:ex:focus-within {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:focus-within\:break-inside\:ex:focus-within,
+	.xl\:focus-within\:bri\:ex:focus-within {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:focus-within\:break-before\:ex:focus-within,
+	.xl\:focus-within\:brb\:ex:focus-within {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:focus-within\:break-after\:ex:focus-within,
+	.xl\:focus-within\:bra\:ex:focus-within {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -9370,6 +10436,32 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:column-count\:ex:active,
+	.xl\:active\:cc\:ex:active {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:active\:column-gap-len\:ex:active,
+	.xl\:active\:cgl\:ex:active {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:active\:break-inside\:ex:active,
+	.xl\:active\:bri\:ex:active {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:active\:break-before\:ex:active,
+	.xl\:active\:brb\:ex:active {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:active\:break-after\:ex:active,
+	.xl\:active\:bra\:ex:active {
+		break-after: var(--break-after-ex) !important;
+	}
 
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
@@ -9594,6 +10686,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:column-count\:ex:disabled,
+	.xl\:disabled\:cc\:ex:disabled {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:disabled\:column-gap-len\:ex:disabled,
+	.xl\:disabled\:cgl\:ex:disabled {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:disabled\:break-inside\:ex:disabled,
+	.xl\:disabled\:bri\:ex:disabled {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:disabled\:break-before\:ex:disabled,
+	.xl\:disabled\:brb\:ex:disabled {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:disabled\:break-after\:ex:disabled,
+	.xl\:disabled\:bra\:ex:disabled {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -9817,6 +10935,32 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:column-count\:ex:checked,
+	.xl\:checked\:cc\:ex:checked {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:checked\:column-gap-len\:ex:checked,
+	.xl\:checked\:cgl\:ex:checked {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:checked\:break-inside\:ex:checked,
+	.xl\:checked\:bri\:ex:checked {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:checked\:break-before\:ex:checked,
+	.xl\:checked\:brb\:ex:checked {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:checked\:break-after\:ex:checked,
+	.xl\:checked\:bra\:ex:checked {
+		break-after: var(--break-after-ex) !important;
+	}
+
 	/* ===== COLUMNS UTILITIES — multi-column + break ===== */
 
 	/* COLUMN-COUNT */
@@ -10039,4 +11183,30 @@
 		break-after: column !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:column-count\:ex:visited,
+	.xl\:visited\:cc\:ex:visited {
+		column-count: var(--column-count-ex) !important;
+	}
+
+	.xl\:visited\:column-gap-len\:ex:visited,
+	.xl\:visited\:cgl\:ex:visited {
+		column-gap: var(--column-gap-len-ex) !important;
+	}
+
+	.xl\:visited\:break-inside\:ex:visited,
+	.xl\:visited\:bri\:ex:visited {
+		break-inside: var(--break-inside-ex) !important;
+	}
+
+	.xl\:visited\:break-before\:ex:visited,
+	.xl\:visited\:brb\:ex:visited {
+		break-before: var(--break-before-ex) !important;
+	}
+
+	.xl\:visited\:break-after\:ex:visited,
+	.xl\:visited\:bra\:ex:visited {
+		break-after: var(--break-after-ex) !important;
+	}
 }

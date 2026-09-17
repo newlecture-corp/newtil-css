@@ -263,6 +263,62 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.font-size\:ex,
+.fs\:ex {
+	font-size: var(--font-size-ex) !important;
+}
+
+.font-weight\:ex,
+.fw\:ex {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.line-height\:ex,
+.lh\:ex {
+	line-height: var(--line-height-ex) !important;
+}
+
+.letter-spacing\:ex,
+.ls\:ex {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.text-align\:ex,
+.ta\:ex {
+	text-align: var(--text-align-ex) !important;
+}
+
+.text-decoration\:ex,
+.td\:ex {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.text-transform\:ex,
+.tt\:ex {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.font-style\:ex,
+.fst\:ex {
+	font-style: var(--font-style-ex) !important;
+}
+
+.white-space\:ex,
+.ws\:ex {
+	white-space: var(--white-space-ex) !important;
+}
+
+.word-break\:ex,
+.wb\:ex {
+	word-break: var(--word-break-ex) !important;
+}
+
+.overflow-wrap\:ex,
+.ow\:ex {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
+
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
 /* FONT-SIZE */
@@ -527,6 +583,62 @@
 	overflow-wrap: anywhere !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:font-size\:ex:hover,
+.hover\:fs\:ex:hover {
+	font-size: var(--font-size-ex) !important;
+}
+
+.hover\:font-weight\:ex:hover,
+.hover\:fw\:ex:hover {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.hover\:line-height\:ex:hover,
+.hover\:lh\:ex:hover {
+	line-height: var(--line-height-ex) !important;
+}
+
+.hover\:letter-spacing\:ex:hover,
+.hover\:ls\:ex:hover {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.hover\:text-align\:ex:hover,
+.hover\:ta\:ex:hover {
+	text-align: var(--text-align-ex) !important;
+}
+
+.hover\:text-decoration\:ex:hover,
+.hover\:td\:ex:hover {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.hover\:text-transform\:ex:hover,
+.hover\:tt\:ex:hover {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.hover\:font-style\:ex:hover,
+.hover\:fst\:ex:hover {
+	font-style: var(--font-style-ex) !important;
+}
+
+.hover\:white-space\:ex:hover,
+.hover\:ws\:ex:hover {
+	white-space: var(--white-space-ex) !important;
+}
+
+.hover\:word-break\:ex:hover,
+.hover\:wb\:ex:hover {
+	word-break: var(--word-break-ex) !important;
+}
+
+.hover\:overflow-wrap\:ex:hover,
+.hover\:ow\:ex:hover {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
 
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -793,6 +905,62 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:font-size\:ex:focus,
+.focus\:fs\:ex:focus {
+	font-size: var(--font-size-ex) !important;
+}
+
+.focus\:font-weight\:ex:focus,
+.focus\:fw\:ex:focus {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.focus\:line-height\:ex:focus,
+.focus\:lh\:ex:focus {
+	line-height: var(--line-height-ex) !important;
+}
+
+.focus\:letter-spacing\:ex:focus,
+.focus\:ls\:ex:focus {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.focus\:text-align\:ex:focus,
+.focus\:ta\:ex:focus {
+	text-align: var(--text-align-ex) !important;
+}
+
+.focus\:text-decoration\:ex:focus,
+.focus\:td\:ex:focus {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.focus\:text-transform\:ex:focus,
+.focus\:tt\:ex:focus {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.focus\:font-style\:ex:focus,
+.focus\:fst\:ex:focus {
+	font-style: var(--font-style-ex) !important;
+}
+
+.focus\:white-space\:ex:focus,
+.focus\:ws\:ex:focus {
+	white-space: var(--white-space-ex) !important;
+}
+
+.focus\:word-break\:ex:focus,
+.focus\:wb\:ex:focus {
+	word-break: var(--word-break-ex) !important;
+}
+
+.focus\:overflow-wrap\:ex:focus,
+.focus\:ow\:ex:focus {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
+
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
 /* FONT-SIZE */
@@ -1057,6 +1225,62 @@
 	overflow-wrap: anywhere !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:font-size\:ex:focus-visible,
+.focus-visible\:fs\:ex:focus-visible {
+	font-size: var(--font-size-ex) !important;
+}
+
+.focus-visible\:font-weight\:ex:focus-visible,
+.focus-visible\:fw\:ex:focus-visible {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.focus-visible\:line-height\:ex:focus-visible,
+.focus-visible\:lh\:ex:focus-visible {
+	line-height: var(--line-height-ex) !important;
+}
+
+.focus-visible\:letter-spacing\:ex:focus-visible,
+.focus-visible\:ls\:ex:focus-visible {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.focus-visible\:text-align\:ex:focus-visible,
+.focus-visible\:ta\:ex:focus-visible {
+	text-align: var(--text-align-ex) !important;
+}
+
+.focus-visible\:text-decoration\:ex:focus-visible,
+.focus-visible\:td\:ex:focus-visible {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.focus-visible\:text-transform\:ex:focus-visible,
+.focus-visible\:tt\:ex:focus-visible {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.focus-visible\:font-style\:ex:focus-visible,
+.focus-visible\:fst\:ex:focus-visible {
+	font-style: var(--font-style-ex) !important;
+}
+
+.focus-visible\:white-space\:ex:focus-visible,
+.focus-visible\:ws\:ex:focus-visible {
+	white-space: var(--white-space-ex) !important;
+}
+
+.focus-visible\:word-break\:ex:focus-visible,
+.focus-visible\:wb\:ex:focus-visible {
+	word-break: var(--word-break-ex) !important;
+}
+
+.focus-visible\:overflow-wrap\:ex:focus-visible,
+.focus-visible\:ow\:ex:focus-visible {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
 
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -1323,6 +1547,62 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:font-size\:ex:focus-within,
+.focus-within\:fs\:ex:focus-within {
+	font-size: var(--font-size-ex) !important;
+}
+
+.focus-within\:font-weight\:ex:focus-within,
+.focus-within\:fw\:ex:focus-within {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.focus-within\:line-height\:ex:focus-within,
+.focus-within\:lh\:ex:focus-within {
+	line-height: var(--line-height-ex) !important;
+}
+
+.focus-within\:letter-spacing\:ex:focus-within,
+.focus-within\:ls\:ex:focus-within {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.focus-within\:text-align\:ex:focus-within,
+.focus-within\:ta\:ex:focus-within {
+	text-align: var(--text-align-ex) !important;
+}
+
+.focus-within\:text-decoration\:ex:focus-within,
+.focus-within\:td\:ex:focus-within {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.focus-within\:text-transform\:ex:focus-within,
+.focus-within\:tt\:ex:focus-within {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.focus-within\:font-style\:ex:focus-within,
+.focus-within\:fst\:ex:focus-within {
+	font-style: var(--font-style-ex) !important;
+}
+
+.focus-within\:white-space\:ex:focus-within,
+.focus-within\:ws\:ex:focus-within {
+	white-space: var(--white-space-ex) !important;
+}
+
+.focus-within\:word-break\:ex:focus-within,
+.focus-within\:wb\:ex:focus-within {
+	word-break: var(--word-break-ex) !important;
+}
+
+.focus-within\:overflow-wrap\:ex:focus-within,
+.focus-within\:ow\:ex:focus-within {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
+
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
 /* FONT-SIZE */
@@ -1587,6 +1867,62 @@
 	overflow-wrap: anywhere !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:font-size\:ex:active,
+.active\:fs\:ex:active {
+	font-size: var(--font-size-ex) !important;
+}
+
+.active\:font-weight\:ex:active,
+.active\:fw\:ex:active {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.active\:line-height\:ex:active,
+.active\:lh\:ex:active {
+	line-height: var(--line-height-ex) !important;
+}
+
+.active\:letter-spacing\:ex:active,
+.active\:ls\:ex:active {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.active\:text-align\:ex:active,
+.active\:ta\:ex:active {
+	text-align: var(--text-align-ex) !important;
+}
+
+.active\:text-decoration\:ex:active,
+.active\:td\:ex:active {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.active\:text-transform\:ex:active,
+.active\:tt\:ex:active {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.active\:font-style\:ex:active,
+.active\:fst\:ex:active {
+	font-style: var(--font-style-ex) !important;
+}
+
+.active\:white-space\:ex:active,
+.active\:ws\:ex:active {
+	white-space: var(--white-space-ex) !important;
+}
+
+.active\:word-break\:ex:active,
+.active\:wb\:ex:active {
+	word-break: var(--word-break-ex) !important;
+}
+
+.active\:overflow-wrap\:ex:active,
+.active\:ow\:ex:active {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
 
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -1853,6 +2189,62 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:font-size\:ex:disabled,
+.disabled\:fs\:ex:disabled {
+	font-size: var(--font-size-ex) !important;
+}
+
+.disabled\:font-weight\:ex:disabled,
+.disabled\:fw\:ex:disabled {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.disabled\:line-height\:ex:disabled,
+.disabled\:lh\:ex:disabled {
+	line-height: var(--line-height-ex) !important;
+}
+
+.disabled\:letter-spacing\:ex:disabled,
+.disabled\:ls\:ex:disabled {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.disabled\:text-align\:ex:disabled,
+.disabled\:ta\:ex:disabled {
+	text-align: var(--text-align-ex) !important;
+}
+
+.disabled\:text-decoration\:ex:disabled,
+.disabled\:td\:ex:disabled {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.disabled\:text-transform\:ex:disabled,
+.disabled\:tt\:ex:disabled {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.disabled\:font-style\:ex:disabled,
+.disabled\:fst\:ex:disabled {
+	font-style: var(--font-style-ex) !important;
+}
+
+.disabled\:white-space\:ex:disabled,
+.disabled\:ws\:ex:disabled {
+	white-space: var(--white-space-ex) !important;
+}
+
+.disabled\:word-break\:ex:disabled,
+.disabled\:wb\:ex:disabled {
+	word-break: var(--word-break-ex) !important;
+}
+
+.disabled\:overflow-wrap\:ex:disabled,
+.disabled\:ow\:ex:disabled {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
+
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
 /* FONT-SIZE */
@@ -2118,6 +2510,62 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:font-size\:ex:checked,
+.checked\:fs\:ex:checked {
+	font-size: var(--font-size-ex) !important;
+}
+
+.checked\:font-weight\:ex:checked,
+.checked\:fw\:ex:checked {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.checked\:line-height\:ex:checked,
+.checked\:lh\:ex:checked {
+	line-height: var(--line-height-ex) !important;
+}
+
+.checked\:letter-spacing\:ex:checked,
+.checked\:ls\:ex:checked {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.checked\:text-align\:ex:checked,
+.checked\:ta\:ex:checked {
+	text-align: var(--text-align-ex) !important;
+}
+
+.checked\:text-decoration\:ex:checked,
+.checked\:td\:ex:checked {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.checked\:text-transform\:ex:checked,
+.checked\:tt\:ex:checked {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.checked\:font-style\:ex:checked,
+.checked\:fst\:ex:checked {
+	font-style: var(--font-style-ex) !important;
+}
+
+.checked\:white-space\:ex:checked,
+.checked\:ws\:ex:checked {
+	white-space: var(--white-space-ex) !important;
+}
+
+.checked\:word-break\:ex:checked,
+.checked\:wb\:ex:checked {
+	word-break: var(--word-break-ex) !important;
+}
+
+.checked\:overflow-wrap\:ex:checked,
+.checked\:ow\:ex:checked {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
+
 /* ===== TYPOGRAPHY UTILITIES ===== */
 
 /* FONT-SIZE */
@@ -2382,6 +2830,62 @@
 	overflow-wrap: anywhere !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:font-size\:ex:visited,
+.visited\:fs\:ex:visited {
+	font-size: var(--font-size-ex) !important;
+}
+
+.visited\:font-weight\:ex:visited,
+.visited\:fw\:ex:visited {
+	font-weight: var(--font-weight-ex) !important;
+}
+
+.visited\:line-height\:ex:visited,
+.visited\:lh\:ex:visited {
+	line-height: var(--line-height-ex) !important;
+}
+
+.visited\:letter-spacing\:ex:visited,
+.visited\:ls\:ex:visited {
+	letter-spacing: var(--letter-spacing-ex) !important;
+}
+
+.visited\:text-align\:ex:visited,
+.visited\:ta\:ex:visited {
+	text-align: var(--text-align-ex) !important;
+}
+
+.visited\:text-decoration\:ex:visited,
+.visited\:td\:ex:visited {
+	text-decoration: var(--text-decoration-ex) !important;
+}
+
+.visited\:text-transform\:ex:visited,
+.visited\:tt\:ex:visited {
+	text-transform: var(--text-transform-ex) !important;
+}
+
+.visited\:font-style\:ex:visited,
+.visited\:fst\:ex:visited {
+	font-style: var(--font-style-ex) !important;
+}
+
+.visited\:white-space\:ex:visited,
+.visited\:ws\:ex:visited {
+	white-space: var(--white-space-ex) !important;
+}
+
+.visited\:word-break\:ex:visited,
+.visited\:wb\:ex:visited {
+	word-break: var(--word-break-ex) !important;
+}
+
+.visited\:overflow-wrap\:ex:visited,
+.visited\:ow\:ex:visited {
+	overflow-wrap: var(--overflow-wrap-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== TYPOGRAPHY UTILITIES ===== */
@@ -2649,6 +3153,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:font-size\:ex,
+	.sm\:fs\:ex {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:font-weight\:ex,
+	.sm\:fw\:ex {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:line-height\:ex,
+	.sm\:lh\:ex {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:letter-spacing\:ex,
+	.sm\:ls\:ex {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:text-align\:ex,
+	.sm\:ta\:ex {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:text-decoration\:ex,
+	.sm\:td\:ex {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:text-transform\:ex,
+	.sm\:tt\:ex {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:font-style\:ex,
+	.sm\:fst\:ex {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:white-space\:ex,
+	.sm\:ws\:ex {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:word-break\:ex,
+	.sm\:wb\:ex {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:overflow-wrap\:ex,
+	.sm\:ow\:ex {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -2913,6 +3473,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:font-size\:ex:hover,
+	.sm\:hover\:fs\:ex:hover {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:hover\:font-weight\:ex:hover,
+	.sm\:hover\:fw\:ex:hover {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:hover\:line-height\:ex:hover,
+	.sm\:hover\:lh\:ex:hover {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:hover\:letter-spacing\:ex:hover,
+	.sm\:hover\:ls\:ex:hover {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:hover\:text-align\:ex:hover,
+	.sm\:hover\:ta\:ex:hover {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:hover\:text-decoration\:ex:hover,
+	.sm\:hover\:td\:ex:hover {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:hover\:text-transform\:ex:hover,
+	.sm\:hover\:tt\:ex:hover {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:hover\:font-style\:ex:hover,
+	.sm\:hover\:fst\:ex:hover {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:hover\:white-space\:ex:hover,
+	.sm\:hover\:ws\:ex:hover {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:hover\:word-break\:ex:hover,
+	.sm\:hover\:wb\:ex:hover {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:hover\:overflow-wrap\:ex:hover,
+	.sm\:hover\:ow\:ex:hover {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -3179,6 +3795,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:font-size\:ex:focus,
+	.sm\:focus\:fs\:ex:focus {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:focus\:font-weight\:ex:focus,
+	.sm\:focus\:fw\:ex:focus {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:focus\:line-height\:ex:focus,
+	.sm\:focus\:lh\:ex:focus {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:focus\:letter-spacing\:ex:focus,
+	.sm\:focus\:ls\:ex:focus {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:focus\:text-align\:ex:focus,
+	.sm\:focus\:ta\:ex:focus {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:focus\:text-decoration\:ex:focus,
+	.sm\:focus\:td\:ex:focus {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:focus\:text-transform\:ex:focus,
+	.sm\:focus\:tt\:ex:focus {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:focus\:font-style\:ex:focus,
+	.sm\:focus\:fst\:ex:focus {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:focus\:white-space\:ex:focus,
+	.sm\:focus\:ws\:ex:focus {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:focus\:word-break\:ex:focus,
+	.sm\:focus\:wb\:ex:focus {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:focus\:overflow-wrap\:ex:focus,
+	.sm\:focus\:ow\:ex:focus {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -3443,6 +4115,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:font-size\:ex:focus-visible,
+	.sm\:focus-visible\:fs\:ex:focus-visible {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:focus-visible\:font-weight\:ex:focus-visible,
+	.sm\:focus-visible\:fw\:ex:focus-visible {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:focus-visible\:line-height\:ex:focus-visible,
+	.sm\:focus-visible\:lh\:ex:focus-visible {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:focus-visible\:letter-spacing\:ex:focus-visible,
+	.sm\:focus-visible\:ls\:ex:focus-visible {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-align\:ex:focus-visible,
+	.sm\:focus-visible\:ta\:ex:focus-visible {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-decoration\:ex:focus-visible,
+	.sm\:focus-visible\:td\:ex:focus-visible {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-transform\:ex:focus-visible,
+	.sm\:focus-visible\:tt\:ex:focus-visible {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:focus-visible\:font-style\:ex:focus-visible,
+	.sm\:focus-visible\:fst\:ex:focus-visible {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:focus-visible\:white-space\:ex:focus-visible,
+	.sm\:focus-visible\:ws\:ex:focus-visible {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:focus-visible\:word-break\:ex:focus-visible,
+	.sm\:focus-visible\:wb\:ex:focus-visible {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:focus-visible\:overflow-wrap\:ex:focus-visible,
+	.sm\:focus-visible\:ow\:ex:focus-visible {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -3709,6 +4437,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:font-size\:ex:focus-within,
+	.sm\:focus-within\:fs\:ex:focus-within {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:focus-within\:font-weight\:ex:focus-within,
+	.sm\:focus-within\:fw\:ex:focus-within {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:focus-within\:line-height\:ex:focus-within,
+	.sm\:focus-within\:lh\:ex:focus-within {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:focus-within\:letter-spacing\:ex:focus-within,
+	.sm\:focus-within\:ls\:ex:focus-within {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:focus-within\:text-align\:ex:focus-within,
+	.sm\:focus-within\:ta\:ex:focus-within {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:focus-within\:text-decoration\:ex:focus-within,
+	.sm\:focus-within\:td\:ex:focus-within {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:focus-within\:text-transform\:ex:focus-within,
+	.sm\:focus-within\:tt\:ex:focus-within {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:focus-within\:font-style\:ex:focus-within,
+	.sm\:focus-within\:fst\:ex:focus-within {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:focus-within\:white-space\:ex:focus-within,
+	.sm\:focus-within\:ws\:ex:focus-within {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:focus-within\:word-break\:ex:focus-within,
+	.sm\:focus-within\:wb\:ex:focus-within {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:focus-within\:overflow-wrap\:ex:focus-within,
+	.sm\:focus-within\:ow\:ex:focus-within {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -3973,6 +4757,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:font-size\:ex:active,
+	.sm\:active\:fs\:ex:active {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:active\:font-weight\:ex:active,
+	.sm\:active\:fw\:ex:active {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:active\:line-height\:ex:active,
+	.sm\:active\:lh\:ex:active {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:active\:letter-spacing\:ex:active,
+	.sm\:active\:ls\:ex:active {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:active\:text-align\:ex:active,
+	.sm\:active\:ta\:ex:active {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:active\:text-decoration\:ex:active,
+	.sm\:active\:td\:ex:active {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:active\:text-transform\:ex:active,
+	.sm\:active\:tt\:ex:active {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:active\:font-style\:ex:active,
+	.sm\:active\:fst\:ex:active {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:active\:white-space\:ex:active,
+	.sm\:active\:ws\:ex:active {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:active\:word-break\:ex:active,
+	.sm\:active\:wb\:ex:active {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:active\:overflow-wrap\:ex:active,
+	.sm\:active\:ow\:ex:active {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -4239,6 +5079,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:font-size\:ex:disabled,
+	.sm\:disabled\:fs\:ex:disabled {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:disabled\:font-weight\:ex:disabled,
+	.sm\:disabled\:fw\:ex:disabled {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:disabled\:line-height\:ex:disabled,
+	.sm\:disabled\:lh\:ex:disabled {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:disabled\:letter-spacing\:ex:disabled,
+	.sm\:disabled\:ls\:ex:disabled {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:disabled\:text-align\:ex:disabled,
+	.sm\:disabled\:ta\:ex:disabled {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:disabled\:text-decoration\:ex:disabled,
+	.sm\:disabled\:td\:ex:disabled {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:disabled\:text-transform\:ex:disabled,
+	.sm\:disabled\:tt\:ex:disabled {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:disabled\:font-style\:ex:disabled,
+	.sm\:disabled\:fst\:ex:disabled {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:disabled\:white-space\:ex:disabled,
+	.sm\:disabled\:ws\:ex:disabled {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:disabled\:word-break\:ex:disabled,
+	.sm\:disabled\:wb\:ex:disabled {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:disabled\:overflow-wrap\:ex:disabled,
+	.sm\:disabled\:ow\:ex:disabled {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -4504,6 +5400,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:font-size\:ex:checked,
+	.sm\:checked\:fs\:ex:checked {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:checked\:font-weight\:ex:checked,
+	.sm\:checked\:fw\:ex:checked {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:checked\:line-height\:ex:checked,
+	.sm\:checked\:lh\:ex:checked {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:checked\:letter-spacing\:ex:checked,
+	.sm\:checked\:ls\:ex:checked {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:checked\:text-align\:ex:checked,
+	.sm\:checked\:ta\:ex:checked {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:checked\:text-decoration\:ex:checked,
+	.sm\:checked\:td\:ex:checked {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:checked\:text-transform\:ex:checked,
+	.sm\:checked\:tt\:ex:checked {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:checked\:font-style\:ex:checked,
+	.sm\:checked\:fst\:ex:checked {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:checked\:white-space\:ex:checked,
+	.sm\:checked\:ws\:ex:checked {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:checked\:word-break\:ex:checked,
+	.sm\:checked\:wb\:ex:checked {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:checked\:overflow-wrap\:ex:checked,
+	.sm\:checked\:ow\:ex:checked {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -4768,6 +5720,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:font-size\:ex:visited,
+	.sm\:visited\:fs\:ex:visited {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.sm\:visited\:font-weight\:ex:visited,
+	.sm\:visited\:fw\:ex:visited {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.sm\:visited\:line-height\:ex:visited,
+	.sm\:visited\:lh\:ex:visited {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.sm\:visited\:letter-spacing\:ex:visited,
+	.sm\:visited\:ls\:ex:visited {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.sm\:visited\:text-align\:ex:visited,
+	.sm\:visited\:ta\:ex:visited {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.sm\:visited\:text-decoration\:ex:visited,
+	.sm\:visited\:td\:ex:visited {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.sm\:visited\:text-transform\:ex:visited,
+	.sm\:visited\:tt\:ex:visited {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.sm\:visited\:font-style\:ex:visited,
+	.sm\:visited\:fst\:ex:visited {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.sm\:visited\:white-space\:ex:visited,
+	.sm\:visited\:ws\:ex:visited {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.sm\:visited\:word-break\:ex:visited,
+	.sm\:visited\:wb\:ex:visited {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.sm\:visited\:overflow-wrap\:ex:visited,
+	.sm\:visited\:ow\:ex:visited {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -5036,6 +6044,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:font-size\:ex,
+	.md\:fs\:ex {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:font-weight\:ex,
+	.md\:fw\:ex {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:line-height\:ex,
+	.md\:lh\:ex {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:letter-spacing\:ex,
+	.md\:ls\:ex {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:text-align\:ex,
+	.md\:ta\:ex {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:text-decoration\:ex,
+	.md\:td\:ex {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:text-transform\:ex,
+	.md\:tt\:ex {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:font-style\:ex,
+	.md\:fst\:ex {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:white-space\:ex,
+	.md\:ws\:ex {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:word-break\:ex,
+	.md\:wb\:ex {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:overflow-wrap\:ex,
+	.md\:ow\:ex {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -5300,6 +6364,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:font-size\:ex:hover,
+	.md\:hover\:fs\:ex:hover {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:hover\:font-weight\:ex:hover,
+	.md\:hover\:fw\:ex:hover {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:hover\:line-height\:ex:hover,
+	.md\:hover\:lh\:ex:hover {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:hover\:letter-spacing\:ex:hover,
+	.md\:hover\:ls\:ex:hover {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:hover\:text-align\:ex:hover,
+	.md\:hover\:ta\:ex:hover {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:hover\:text-decoration\:ex:hover,
+	.md\:hover\:td\:ex:hover {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:hover\:text-transform\:ex:hover,
+	.md\:hover\:tt\:ex:hover {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:hover\:font-style\:ex:hover,
+	.md\:hover\:fst\:ex:hover {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:hover\:white-space\:ex:hover,
+	.md\:hover\:ws\:ex:hover {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:hover\:word-break\:ex:hover,
+	.md\:hover\:wb\:ex:hover {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:hover\:overflow-wrap\:ex:hover,
+	.md\:hover\:ow\:ex:hover {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -5566,6 +6686,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:font-size\:ex:focus,
+	.md\:focus\:fs\:ex:focus {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:focus\:font-weight\:ex:focus,
+	.md\:focus\:fw\:ex:focus {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:focus\:line-height\:ex:focus,
+	.md\:focus\:lh\:ex:focus {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:focus\:letter-spacing\:ex:focus,
+	.md\:focus\:ls\:ex:focus {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:focus\:text-align\:ex:focus,
+	.md\:focus\:ta\:ex:focus {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:focus\:text-decoration\:ex:focus,
+	.md\:focus\:td\:ex:focus {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:focus\:text-transform\:ex:focus,
+	.md\:focus\:tt\:ex:focus {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:focus\:font-style\:ex:focus,
+	.md\:focus\:fst\:ex:focus {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:focus\:white-space\:ex:focus,
+	.md\:focus\:ws\:ex:focus {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:focus\:word-break\:ex:focus,
+	.md\:focus\:wb\:ex:focus {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:focus\:overflow-wrap\:ex:focus,
+	.md\:focus\:ow\:ex:focus {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -5830,6 +7006,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:font-size\:ex:focus-visible,
+	.md\:focus-visible\:fs\:ex:focus-visible {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:focus-visible\:font-weight\:ex:focus-visible,
+	.md\:focus-visible\:fw\:ex:focus-visible {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:focus-visible\:line-height\:ex:focus-visible,
+	.md\:focus-visible\:lh\:ex:focus-visible {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:focus-visible\:letter-spacing\:ex:focus-visible,
+	.md\:focus-visible\:ls\:ex:focus-visible {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:focus-visible\:text-align\:ex:focus-visible,
+	.md\:focus-visible\:ta\:ex:focus-visible {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:focus-visible\:text-decoration\:ex:focus-visible,
+	.md\:focus-visible\:td\:ex:focus-visible {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:focus-visible\:text-transform\:ex:focus-visible,
+	.md\:focus-visible\:tt\:ex:focus-visible {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:focus-visible\:font-style\:ex:focus-visible,
+	.md\:focus-visible\:fst\:ex:focus-visible {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:focus-visible\:white-space\:ex:focus-visible,
+	.md\:focus-visible\:ws\:ex:focus-visible {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:focus-visible\:word-break\:ex:focus-visible,
+	.md\:focus-visible\:wb\:ex:focus-visible {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:focus-visible\:overflow-wrap\:ex:focus-visible,
+	.md\:focus-visible\:ow\:ex:focus-visible {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -6096,6 +7328,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:font-size\:ex:focus-within,
+	.md\:focus-within\:fs\:ex:focus-within {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:focus-within\:font-weight\:ex:focus-within,
+	.md\:focus-within\:fw\:ex:focus-within {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:focus-within\:line-height\:ex:focus-within,
+	.md\:focus-within\:lh\:ex:focus-within {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:focus-within\:letter-spacing\:ex:focus-within,
+	.md\:focus-within\:ls\:ex:focus-within {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:focus-within\:text-align\:ex:focus-within,
+	.md\:focus-within\:ta\:ex:focus-within {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:focus-within\:text-decoration\:ex:focus-within,
+	.md\:focus-within\:td\:ex:focus-within {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:focus-within\:text-transform\:ex:focus-within,
+	.md\:focus-within\:tt\:ex:focus-within {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:focus-within\:font-style\:ex:focus-within,
+	.md\:focus-within\:fst\:ex:focus-within {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:focus-within\:white-space\:ex:focus-within,
+	.md\:focus-within\:ws\:ex:focus-within {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:focus-within\:word-break\:ex:focus-within,
+	.md\:focus-within\:wb\:ex:focus-within {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:focus-within\:overflow-wrap\:ex:focus-within,
+	.md\:focus-within\:ow\:ex:focus-within {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -6360,6 +7648,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:font-size\:ex:active,
+	.md\:active\:fs\:ex:active {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:active\:font-weight\:ex:active,
+	.md\:active\:fw\:ex:active {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:active\:line-height\:ex:active,
+	.md\:active\:lh\:ex:active {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:active\:letter-spacing\:ex:active,
+	.md\:active\:ls\:ex:active {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:active\:text-align\:ex:active,
+	.md\:active\:ta\:ex:active {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:active\:text-decoration\:ex:active,
+	.md\:active\:td\:ex:active {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:active\:text-transform\:ex:active,
+	.md\:active\:tt\:ex:active {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:active\:font-style\:ex:active,
+	.md\:active\:fst\:ex:active {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:active\:white-space\:ex:active,
+	.md\:active\:ws\:ex:active {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:active\:word-break\:ex:active,
+	.md\:active\:wb\:ex:active {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:active\:overflow-wrap\:ex:active,
+	.md\:active\:ow\:ex:active {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -6626,6 +7970,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:font-size\:ex:disabled,
+	.md\:disabled\:fs\:ex:disabled {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:disabled\:font-weight\:ex:disabled,
+	.md\:disabled\:fw\:ex:disabled {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:disabled\:line-height\:ex:disabled,
+	.md\:disabled\:lh\:ex:disabled {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:disabled\:letter-spacing\:ex:disabled,
+	.md\:disabled\:ls\:ex:disabled {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:disabled\:text-align\:ex:disabled,
+	.md\:disabled\:ta\:ex:disabled {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:disabled\:text-decoration\:ex:disabled,
+	.md\:disabled\:td\:ex:disabled {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:disabled\:text-transform\:ex:disabled,
+	.md\:disabled\:tt\:ex:disabled {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:disabled\:font-style\:ex:disabled,
+	.md\:disabled\:fst\:ex:disabled {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:disabled\:white-space\:ex:disabled,
+	.md\:disabled\:ws\:ex:disabled {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:disabled\:word-break\:ex:disabled,
+	.md\:disabled\:wb\:ex:disabled {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:disabled\:overflow-wrap\:ex:disabled,
+	.md\:disabled\:ow\:ex:disabled {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -6891,6 +8291,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:font-size\:ex:checked,
+	.md\:checked\:fs\:ex:checked {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:checked\:font-weight\:ex:checked,
+	.md\:checked\:fw\:ex:checked {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:checked\:line-height\:ex:checked,
+	.md\:checked\:lh\:ex:checked {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:checked\:letter-spacing\:ex:checked,
+	.md\:checked\:ls\:ex:checked {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:checked\:text-align\:ex:checked,
+	.md\:checked\:ta\:ex:checked {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:checked\:text-decoration\:ex:checked,
+	.md\:checked\:td\:ex:checked {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:checked\:text-transform\:ex:checked,
+	.md\:checked\:tt\:ex:checked {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:checked\:font-style\:ex:checked,
+	.md\:checked\:fst\:ex:checked {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:checked\:white-space\:ex:checked,
+	.md\:checked\:ws\:ex:checked {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:checked\:word-break\:ex:checked,
+	.md\:checked\:wb\:ex:checked {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:checked\:overflow-wrap\:ex:checked,
+	.md\:checked\:ow\:ex:checked {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -7155,6 +8611,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:font-size\:ex:visited,
+	.md\:visited\:fs\:ex:visited {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.md\:visited\:font-weight\:ex:visited,
+	.md\:visited\:fw\:ex:visited {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.md\:visited\:line-height\:ex:visited,
+	.md\:visited\:lh\:ex:visited {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.md\:visited\:letter-spacing\:ex:visited,
+	.md\:visited\:ls\:ex:visited {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.md\:visited\:text-align\:ex:visited,
+	.md\:visited\:ta\:ex:visited {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.md\:visited\:text-decoration\:ex:visited,
+	.md\:visited\:td\:ex:visited {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.md\:visited\:text-transform\:ex:visited,
+	.md\:visited\:tt\:ex:visited {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.md\:visited\:font-style\:ex:visited,
+	.md\:visited\:fst\:ex:visited {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.md\:visited\:white-space\:ex:visited,
+	.md\:visited\:ws\:ex:visited {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.md\:visited\:word-break\:ex:visited,
+	.md\:visited\:wb\:ex:visited {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.md\:visited\:overflow-wrap\:ex:visited,
+	.md\:visited\:ow\:ex:visited {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -7423,6 +8935,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:font-size\:ex,
+	.lg\:fs\:ex {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:font-weight\:ex,
+	.lg\:fw\:ex {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:line-height\:ex,
+	.lg\:lh\:ex {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:letter-spacing\:ex,
+	.lg\:ls\:ex {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:text-align\:ex,
+	.lg\:ta\:ex {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:text-decoration\:ex,
+	.lg\:td\:ex {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:text-transform\:ex,
+	.lg\:tt\:ex {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:font-style\:ex,
+	.lg\:fst\:ex {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:white-space\:ex,
+	.lg\:ws\:ex {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:word-break\:ex,
+	.lg\:wb\:ex {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:overflow-wrap\:ex,
+	.lg\:ow\:ex {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -7687,6 +9255,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:font-size\:ex:hover,
+	.lg\:hover\:fs\:ex:hover {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:hover\:font-weight\:ex:hover,
+	.lg\:hover\:fw\:ex:hover {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:hover\:line-height\:ex:hover,
+	.lg\:hover\:lh\:ex:hover {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:hover\:letter-spacing\:ex:hover,
+	.lg\:hover\:ls\:ex:hover {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:hover\:text-align\:ex:hover,
+	.lg\:hover\:ta\:ex:hover {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:hover\:text-decoration\:ex:hover,
+	.lg\:hover\:td\:ex:hover {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:hover\:text-transform\:ex:hover,
+	.lg\:hover\:tt\:ex:hover {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:hover\:font-style\:ex:hover,
+	.lg\:hover\:fst\:ex:hover {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:hover\:white-space\:ex:hover,
+	.lg\:hover\:ws\:ex:hover {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:hover\:word-break\:ex:hover,
+	.lg\:hover\:wb\:ex:hover {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:hover\:overflow-wrap\:ex:hover,
+	.lg\:hover\:ow\:ex:hover {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -7953,6 +9577,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:font-size\:ex:focus,
+	.lg\:focus\:fs\:ex:focus {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:focus\:font-weight\:ex:focus,
+	.lg\:focus\:fw\:ex:focus {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:focus\:line-height\:ex:focus,
+	.lg\:focus\:lh\:ex:focus {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:focus\:letter-spacing\:ex:focus,
+	.lg\:focus\:ls\:ex:focus {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:focus\:text-align\:ex:focus,
+	.lg\:focus\:ta\:ex:focus {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:focus\:text-decoration\:ex:focus,
+	.lg\:focus\:td\:ex:focus {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:focus\:text-transform\:ex:focus,
+	.lg\:focus\:tt\:ex:focus {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:focus\:font-style\:ex:focus,
+	.lg\:focus\:fst\:ex:focus {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:focus\:white-space\:ex:focus,
+	.lg\:focus\:ws\:ex:focus {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:focus\:word-break\:ex:focus,
+	.lg\:focus\:wb\:ex:focus {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:focus\:overflow-wrap\:ex:focus,
+	.lg\:focus\:ow\:ex:focus {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -8217,6 +9897,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:font-size\:ex:focus-visible,
+	.lg\:focus-visible\:fs\:ex:focus-visible {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:focus-visible\:font-weight\:ex:focus-visible,
+	.lg\:focus-visible\:fw\:ex:focus-visible {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:focus-visible\:line-height\:ex:focus-visible,
+	.lg\:focus-visible\:lh\:ex:focus-visible {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:focus-visible\:letter-spacing\:ex:focus-visible,
+	.lg\:focus-visible\:ls\:ex:focus-visible {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-align\:ex:focus-visible,
+	.lg\:focus-visible\:ta\:ex:focus-visible {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-decoration\:ex:focus-visible,
+	.lg\:focus-visible\:td\:ex:focus-visible {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-transform\:ex:focus-visible,
+	.lg\:focus-visible\:tt\:ex:focus-visible {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:focus-visible\:font-style\:ex:focus-visible,
+	.lg\:focus-visible\:fst\:ex:focus-visible {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:focus-visible\:white-space\:ex:focus-visible,
+	.lg\:focus-visible\:ws\:ex:focus-visible {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:focus-visible\:word-break\:ex:focus-visible,
+	.lg\:focus-visible\:wb\:ex:focus-visible {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:focus-visible\:overflow-wrap\:ex:focus-visible,
+	.lg\:focus-visible\:ow\:ex:focus-visible {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -8483,6 +10219,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:font-size\:ex:focus-within,
+	.lg\:focus-within\:fs\:ex:focus-within {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:focus-within\:font-weight\:ex:focus-within,
+	.lg\:focus-within\:fw\:ex:focus-within {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:focus-within\:line-height\:ex:focus-within,
+	.lg\:focus-within\:lh\:ex:focus-within {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:focus-within\:letter-spacing\:ex:focus-within,
+	.lg\:focus-within\:ls\:ex:focus-within {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:focus-within\:text-align\:ex:focus-within,
+	.lg\:focus-within\:ta\:ex:focus-within {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:focus-within\:text-decoration\:ex:focus-within,
+	.lg\:focus-within\:td\:ex:focus-within {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:focus-within\:text-transform\:ex:focus-within,
+	.lg\:focus-within\:tt\:ex:focus-within {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:focus-within\:font-style\:ex:focus-within,
+	.lg\:focus-within\:fst\:ex:focus-within {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:focus-within\:white-space\:ex:focus-within,
+	.lg\:focus-within\:ws\:ex:focus-within {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:focus-within\:word-break\:ex:focus-within,
+	.lg\:focus-within\:wb\:ex:focus-within {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:focus-within\:overflow-wrap\:ex:focus-within,
+	.lg\:focus-within\:ow\:ex:focus-within {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -8747,6 +10539,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:font-size\:ex:active,
+	.lg\:active\:fs\:ex:active {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:active\:font-weight\:ex:active,
+	.lg\:active\:fw\:ex:active {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:active\:line-height\:ex:active,
+	.lg\:active\:lh\:ex:active {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:active\:letter-spacing\:ex:active,
+	.lg\:active\:ls\:ex:active {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:active\:text-align\:ex:active,
+	.lg\:active\:ta\:ex:active {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:active\:text-decoration\:ex:active,
+	.lg\:active\:td\:ex:active {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:active\:text-transform\:ex:active,
+	.lg\:active\:tt\:ex:active {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:active\:font-style\:ex:active,
+	.lg\:active\:fst\:ex:active {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:active\:white-space\:ex:active,
+	.lg\:active\:ws\:ex:active {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:active\:word-break\:ex:active,
+	.lg\:active\:wb\:ex:active {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:active\:overflow-wrap\:ex:active,
+	.lg\:active\:ow\:ex:active {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -9013,6 +10861,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:font-size\:ex:disabled,
+	.lg\:disabled\:fs\:ex:disabled {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:disabled\:font-weight\:ex:disabled,
+	.lg\:disabled\:fw\:ex:disabled {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:disabled\:line-height\:ex:disabled,
+	.lg\:disabled\:lh\:ex:disabled {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:disabled\:letter-spacing\:ex:disabled,
+	.lg\:disabled\:ls\:ex:disabled {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:disabled\:text-align\:ex:disabled,
+	.lg\:disabled\:ta\:ex:disabled {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:disabled\:text-decoration\:ex:disabled,
+	.lg\:disabled\:td\:ex:disabled {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:disabled\:text-transform\:ex:disabled,
+	.lg\:disabled\:tt\:ex:disabled {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:disabled\:font-style\:ex:disabled,
+	.lg\:disabled\:fst\:ex:disabled {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:disabled\:white-space\:ex:disabled,
+	.lg\:disabled\:ws\:ex:disabled {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:disabled\:word-break\:ex:disabled,
+	.lg\:disabled\:wb\:ex:disabled {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:disabled\:overflow-wrap\:ex:disabled,
+	.lg\:disabled\:ow\:ex:disabled {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -9278,6 +11182,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:font-size\:ex:checked,
+	.lg\:checked\:fs\:ex:checked {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:checked\:font-weight\:ex:checked,
+	.lg\:checked\:fw\:ex:checked {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:checked\:line-height\:ex:checked,
+	.lg\:checked\:lh\:ex:checked {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:checked\:letter-spacing\:ex:checked,
+	.lg\:checked\:ls\:ex:checked {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:checked\:text-align\:ex:checked,
+	.lg\:checked\:ta\:ex:checked {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:checked\:text-decoration\:ex:checked,
+	.lg\:checked\:td\:ex:checked {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:checked\:text-transform\:ex:checked,
+	.lg\:checked\:tt\:ex:checked {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:checked\:font-style\:ex:checked,
+	.lg\:checked\:fst\:ex:checked {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:checked\:white-space\:ex:checked,
+	.lg\:checked\:ws\:ex:checked {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:checked\:word-break\:ex:checked,
+	.lg\:checked\:wb\:ex:checked {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:checked\:overflow-wrap\:ex:checked,
+	.lg\:checked\:ow\:ex:checked {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -9542,6 +11502,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:font-size\:ex:visited,
+	.lg\:visited\:fs\:ex:visited {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.lg\:visited\:font-weight\:ex:visited,
+	.lg\:visited\:fw\:ex:visited {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.lg\:visited\:line-height\:ex:visited,
+	.lg\:visited\:lh\:ex:visited {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.lg\:visited\:letter-spacing\:ex:visited,
+	.lg\:visited\:ls\:ex:visited {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.lg\:visited\:text-align\:ex:visited,
+	.lg\:visited\:ta\:ex:visited {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.lg\:visited\:text-decoration\:ex:visited,
+	.lg\:visited\:td\:ex:visited {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.lg\:visited\:text-transform\:ex:visited,
+	.lg\:visited\:tt\:ex:visited {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.lg\:visited\:font-style\:ex:visited,
+	.lg\:visited\:fst\:ex:visited {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.lg\:visited\:white-space\:ex:visited,
+	.lg\:visited\:ws\:ex:visited {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.lg\:visited\:word-break\:ex:visited,
+	.lg\:visited\:wb\:ex:visited {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.lg\:visited\:overflow-wrap\:ex:visited,
+	.lg\:visited\:ow\:ex:visited {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -9810,6 +11826,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:font-size\:ex,
+	.xl\:fs\:ex {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:font-weight\:ex,
+	.xl\:fw\:ex {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:line-height\:ex,
+	.xl\:lh\:ex {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:letter-spacing\:ex,
+	.xl\:ls\:ex {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:text-align\:ex,
+	.xl\:ta\:ex {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:text-decoration\:ex,
+	.xl\:td\:ex {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:text-transform\:ex,
+	.xl\:tt\:ex {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:font-style\:ex,
+	.xl\:fst\:ex {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:white-space\:ex,
+	.xl\:ws\:ex {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:word-break\:ex,
+	.xl\:wb\:ex {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:overflow-wrap\:ex,
+	.xl\:ow\:ex {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -10074,6 +12146,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:font-size\:ex:hover,
+	.xl\:hover\:fs\:ex:hover {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:hover\:font-weight\:ex:hover,
+	.xl\:hover\:fw\:ex:hover {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:hover\:line-height\:ex:hover,
+	.xl\:hover\:lh\:ex:hover {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:hover\:letter-spacing\:ex:hover,
+	.xl\:hover\:ls\:ex:hover {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:hover\:text-align\:ex:hover,
+	.xl\:hover\:ta\:ex:hover {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:hover\:text-decoration\:ex:hover,
+	.xl\:hover\:td\:ex:hover {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:hover\:text-transform\:ex:hover,
+	.xl\:hover\:tt\:ex:hover {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:hover\:font-style\:ex:hover,
+	.xl\:hover\:fst\:ex:hover {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:hover\:white-space\:ex:hover,
+	.xl\:hover\:ws\:ex:hover {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:hover\:word-break\:ex:hover,
+	.xl\:hover\:wb\:ex:hover {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:hover\:overflow-wrap\:ex:hover,
+	.xl\:hover\:ow\:ex:hover {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -10340,6 +12468,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:font-size\:ex:focus,
+	.xl\:focus\:fs\:ex:focus {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:focus\:font-weight\:ex:focus,
+	.xl\:focus\:fw\:ex:focus {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:focus\:line-height\:ex:focus,
+	.xl\:focus\:lh\:ex:focus {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:focus\:letter-spacing\:ex:focus,
+	.xl\:focus\:ls\:ex:focus {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:focus\:text-align\:ex:focus,
+	.xl\:focus\:ta\:ex:focus {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:focus\:text-decoration\:ex:focus,
+	.xl\:focus\:td\:ex:focus {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:focus\:text-transform\:ex:focus,
+	.xl\:focus\:tt\:ex:focus {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:focus\:font-style\:ex:focus,
+	.xl\:focus\:fst\:ex:focus {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:focus\:white-space\:ex:focus,
+	.xl\:focus\:ws\:ex:focus {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:focus\:word-break\:ex:focus,
+	.xl\:focus\:wb\:ex:focus {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:focus\:overflow-wrap\:ex:focus,
+	.xl\:focus\:ow\:ex:focus {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -10604,6 +12788,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:font-size\:ex:focus-visible,
+	.xl\:focus-visible\:fs\:ex:focus-visible {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:focus-visible\:font-weight\:ex:focus-visible,
+	.xl\:focus-visible\:fw\:ex:focus-visible {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:focus-visible\:line-height\:ex:focus-visible,
+	.xl\:focus-visible\:lh\:ex:focus-visible {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:focus-visible\:letter-spacing\:ex:focus-visible,
+	.xl\:focus-visible\:ls\:ex:focus-visible {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-align\:ex:focus-visible,
+	.xl\:focus-visible\:ta\:ex:focus-visible {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-decoration\:ex:focus-visible,
+	.xl\:focus-visible\:td\:ex:focus-visible {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-transform\:ex:focus-visible,
+	.xl\:focus-visible\:tt\:ex:focus-visible {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:focus-visible\:font-style\:ex:focus-visible,
+	.xl\:focus-visible\:fst\:ex:focus-visible {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:focus-visible\:white-space\:ex:focus-visible,
+	.xl\:focus-visible\:ws\:ex:focus-visible {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:focus-visible\:word-break\:ex:focus-visible,
+	.xl\:focus-visible\:wb\:ex:focus-visible {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:focus-visible\:overflow-wrap\:ex:focus-visible,
+	.xl\:focus-visible\:ow\:ex:focus-visible {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -10870,6 +13110,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:font-size\:ex:focus-within,
+	.xl\:focus-within\:fs\:ex:focus-within {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:focus-within\:font-weight\:ex:focus-within,
+	.xl\:focus-within\:fw\:ex:focus-within {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:focus-within\:line-height\:ex:focus-within,
+	.xl\:focus-within\:lh\:ex:focus-within {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:focus-within\:letter-spacing\:ex:focus-within,
+	.xl\:focus-within\:ls\:ex:focus-within {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:focus-within\:text-align\:ex:focus-within,
+	.xl\:focus-within\:ta\:ex:focus-within {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:focus-within\:text-decoration\:ex:focus-within,
+	.xl\:focus-within\:td\:ex:focus-within {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:focus-within\:text-transform\:ex:focus-within,
+	.xl\:focus-within\:tt\:ex:focus-within {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:focus-within\:font-style\:ex:focus-within,
+	.xl\:focus-within\:fst\:ex:focus-within {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:focus-within\:white-space\:ex:focus-within,
+	.xl\:focus-within\:ws\:ex:focus-within {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:focus-within\:word-break\:ex:focus-within,
+	.xl\:focus-within\:wb\:ex:focus-within {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:focus-within\:overflow-wrap\:ex:focus-within,
+	.xl\:focus-within\:ow\:ex:focus-within {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -11134,6 +13430,62 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:font-size\:ex:active,
+	.xl\:active\:fs\:ex:active {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:active\:font-weight\:ex:active,
+	.xl\:active\:fw\:ex:active {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:active\:line-height\:ex:active,
+	.xl\:active\:lh\:ex:active {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:active\:letter-spacing\:ex:active,
+	.xl\:active\:ls\:ex:active {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:active\:text-align\:ex:active,
+	.xl\:active\:ta\:ex:active {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:active\:text-decoration\:ex:active,
+	.xl\:active\:td\:ex:active {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:active\:text-transform\:ex:active,
+	.xl\:active\:tt\:ex:active {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:active\:font-style\:ex:active,
+	.xl\:active\:fst\:ex:active {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:active\:white-space\:ex:active,
+	.xl\:active\:ws\:ex:active {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:active\:word-break\:ex:active,
+	.xl\:active\:wb\:ex:active {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:active\:overflow-wrap\:ex:active,
+	.xl\:active\:ow\:ex:active {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
@@ -11400,6 +13752,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:font-size\:ex:disabled,
+	.xl\:disabled\:fs\:ex:disabled {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:disabled\:font-weight\:ex:disabled,
+	.xl\:disabled\:fw\:ex:disabled {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:disabled\:line-height\:ex:disabled,
+	.xl\:disabled\:lh\:ex:disabled {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:disabled\:letter-spacing\:ex:disabled,
+	.xl\:disabled\:ls\:ex:disabled {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:disabled\:text-align\:ex:disabled,
+	.xl\:disabled\:ta\:ex:disabled {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:disabled\:text-decoration\:ex:disabled,
+	.xl\:disabled\:td\:ex:disabled {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:disabled\:text-transform\:ex:disabled,
+	.xl\:disabled\:tt\:ex:disabled {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:disabled\:font-style\:ex:disabled,
+	.xl\:disabled\:fst\:ex:disabled {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:disabled\:white-space\:ex:disabled,
+	.xl\:disabled\:ws\:ex:disabled {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:disabled\:word-break\:ex:disabled,
+	.xl\:disabled\:wb\:ex:disabled {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:disabled\:overflow-wrap\:ex:disabled,
+	.xl\:disabled\:ow\:ex:disabled {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -11665,6 +14073,62 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:font-size\:ex:checked,
+	.xl\:checked\:fs\:ex:checked {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:checked\:font-weight\:ex:checked,
+	.xl\:checked\:fw\:ex:checked {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:checked\:line-height\:ex:checked,
+	.xl\:checked\:lh\:ex:checked {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:checked\:letter-spacing\:ex:checked,
+	.xl\:checked\:ls\:ex:checked {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:checked\:text-align\:ex:checked,
+	.xl\:checked\:ta\:ex:checked {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:checked\:text-decoration\:ex:checked,
+	.xl\:checked\:td\:ex:checked {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:checked\:text-transform\:ex:checked,
+	.xl\:checked\:tt\:ex:checked {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:checked\:font-style\:ex:checked,
+	.xl\:checked\:fst\:ex:checked {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:checked\:white-space\:ex:checked,
+	.xl\:checked\:ws\:ex:checked {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:checked\:word-break\:ex:checked,
+	.xl\:checked\:wb\:ex:checked {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:checked\:overflow-wrap\:ex:checked,
+	.xl\:checked\:ow\:ex:checked {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
+
 	/* ===== TYPOGRAPHY UTILITIES ===== */
 
 	/* FONT-SIZE */
@@ -11929,4 +14393,60 @@
 		overflow-wrap: anywhere !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:font-size\:ex:visited,
+	.xl\:visited\:fs\:ex:visited {
+		font-size: var(--font-size-ex) !important;
+	}
+
+	.xl\:visited\:font-weight\:ex:visited,
+	.xl\:visited\:fw\:ex:visited {
+		font-weight: var(--font-weight-ex) !important;
+	}
+
+	.xl\:visited\:line-height\:ex:visited,
+	.xl\:visited\:lh\:ex:visited {
+		line-height: var(--line-height-ex) !important;
+	}
+
+	.xl\:visited\:letter-spacing\:ex:visited,
+	.xl\:visited\:ls\:ex:visited {
+		letter-spacing: var(--letter-spacing-ex) !important;
+	}
+
+	.xl\:visited\:text-align\:ex:visited,
+	.xl\:visited\:ta\:ex:visited {
+		text-align: var(--text-align-ex) !important;
+	}
+
+	.xl\:visited\:text-decoration\:ex:visited,
+	.xl\:visited\:td\:ex:visited {
+		text-decoration: var(--text-decoration-ex) !important;
+	}
+
+	.xl\:visited\:text-transform\:ex:visited,
+	.xl\:visited\:tt\:ex:visited {
+		text-transform: var(--text-transform-ex) !important;
+	}
+
+	.xl\:visited\:font-style\:ex:visited,
+	.xl\:visited\:fst\:ex:visited {
+		font-style: var(--font-style-ex) !important;
+	}
+
+	.xl\:visited\:white-space\:ex:visited,
+	.xl\:visited\:ws\:ex:visited {
+		white-space: var(--white-space-ex) !important;
+	}
+
+	.xl\:visited\:word-break\:ex:visited,
+	.xl\:visited\:wb\:ex:visited {
+		word-break: var(--word-break-ex) !important;
+	}
+
+	.xl\:visited\:overflow-wrap\:ex:visited,
+	.xl\:visited\:ow\:ex:visited {
+		overflow-wrap: var(--overflow-wrap-ex) !important;
+	}
 }

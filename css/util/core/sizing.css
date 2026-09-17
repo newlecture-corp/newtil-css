@@ -1363,6 +1363,37 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.width\:ex,
+.w\:ex {
+	width: var(--width-ex) !important;
+}
+
+.height\:ex,
+.h\:ex {
+	height: var(--height-ex) !important;
+}
+
+.min-width\:ex,
+.min-w\:ex {
+	min-width: var(--min-width-ex) !important;
+}
+
+.min-height\:ex,
+.min-h\:ex {
+	min-height: var(--min-height-ex) !important;
+}
+
+.max-width\:ex,
+.max-w\:ex {
+	max-width: var(--max-width-ex) !important;
+}
+
+.max-height\:ex,
+.max-h\:ex {
+	max-height: var(--max-height-ex) !important;
+}
+
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 /* WIDTH */
@@ -2727,6 +2758,37 @@
 	max-height: fit-content !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:width\:ex:hover,
+.hover\:w\:ex:hover {
+	width: var(--width-ex) !important;
+}
+
+.hover\:height\:ex:hover,
+.hover\:h\:ex:hover {
+	height: var(--height-ex) !important;
+}
+
+.hover\:min-width\:ex:hover,
+.hover\:min-w\:ex:hover {
+	min-width: var(--min-width-ex) !important;
+}
+
+.hover\:min-height\:ex:hover,
+.hover\:min-h\:ex:hover {
+	min-height: var(--min-height-ex) !important;
+}
+
+.hover\:max-width\:ex:hover,
+.hover\:max-w\:ex:hover {
+	max-width: var(--max-width-ex) !important;
+}
+
+.hover\:max-height\:ex:hover,
+.hover\:max-h\:ex:hover {
+	max-height: var(--max-height-ex) !important;
+}
 
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -4093,6 +4155,37 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:width\:ex:focus,
+.focus\:w\:ex:focus {
+	width: var(--width-ex) !important;
+}
+
+.focus\:height\:ex:focus,
+.focus\:h\:ex:focus {
+	height: var(--height-ex) !important;
+}
+
+.focus\:min-width\:ex:focus,
+.focus\:min-w\:ex:focus {
+	min-width: var(--min-width-ex) !important;
+}
+
+.focus\:min-height\:ex:focus,
+.focus\:min-h\:ex:focus {
+	min-height: var(--min-height-ex) !important;
+}
+
+.focus\:max-width\:ex:focus,
+.focus\:max-w\:ex:focus {
+	max-width: var(--max-width-ex) !important;
+}
+
+.focus\:max-height\:ex:focus,
+.focus\:max-h\:ex:focus {
+	max-height: var(--max-height-ex) !important;
+}
+
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 /* WIDTH */
@@ -5457,6 +5550,37 @@
 	max-height: fit-content !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:width\:ex:focus-visible,
+.focus-visible\:w\:ex:focus-visible {
+	width: var(--width-ex) !important;
+}
+
+.focus-visible\:height\:ex:focus-visible,
+.focus-visible\:h\:ex:focus-visible {
+	height: var(--height-ex) !important;
+}
+
+.focus-visible\:min-width\:ex:focus-visible,
+.focus-visible\:min-w\:ex:focus-visible {
+	min-width: var(--min-width-ex) !important;
+}
+
+.focus-visible\:min-height\:ex:focus-visible,
+.focus-visible\:min-h\:ex:focus-visible {
+	min-height: var(--min-height-ex) !important;
+}
+
+.focus-visible\:max-width\:ex:focus-visible,
+.focus-visible\:max-w\:ex:focus-visible {
+	max-width: var(--max-width-ex) !important;
+}
+
+.focus-visible\:max-height\:ex:focus-visible,
+.focus-visible\:max-h\:ex:focus-visible {
+	max-height: var(--max-height-ex) !important;
+}
 
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -6823,6 +6947,37 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:width\:ex:focus-within,
+.focus-within\:w\:ex:focus-within {
+	width: var(--width-ex) !important;
+}
+
+.focus-within\:height\:ex:focus-within,
+.focus-within\:h\:ex:focus-within {
+	height: var(--height-ex) !important;
+}
+
+.focus-within\:min-width\:ex:focus-within,
+.focus-within\:min-w\:ex:focus-within {
+	min-width: var(--min-width-ex) !important;
+}
+
+.focus-within\:min-height\:ex:focus-within,
+.focus-within\:min-h\:ex:focus-within {
+	min-height: var(--min-height-ex) !important;
+}
+
+.focus-within\:max-width\:ex:focus-within,
+.focus-within\:max-w\:ex:focus-within {
+	max-width: var(--max-width-ex) !important;
+}
+
+.focus-within\:max-height\:ex:focus-within,
+.focus-within\:max-h\:ex:focus-within {
+	max-height: var(--max-height-ex) !important;
+}
+
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 /* WIDTH */
@@ -8187,6 +8342,37 @@
 	max-height: fit-content !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:width\:ex:active,
+.active\:w\:ex:active {
+	width: var(--width-ex) !important;
+}
+
+.active\:height\:ex:active,
+.active\:h\:ex:active {
+	height: var(--height-ex) !important;
+}
+
+.active\:min-width\:ex:active,
+.active\:min-w\:ex:active {
+	min-width: var(--min-width-ex) !important;
+}
+
+.active\:min-height\:ex:active,
+.active\:min-h\:ex:active {
+	min-height: var(--min-height-ex) !important;
+}
+
+.active\:max-width\:ex:active,
+.active\:max-w\:ex:active {
+	max-width: var(--max-width-ex) !important;
+}
+
+.active\:max-height\:ex:active,
+.active\:max-h\:ex:active {
+	max-height: var(--max-height-ex) !important;
+}
 
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -9553,6 +9739,37 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:width\:ex:disabled,
+.disabled\:w\:ex:disabled {
+	width: var(--width-ex) !important;
+}
+
+.disabled\:height\:ex:disabled,
+.disabled\:h\:ex:disabled {
+	height: var(--height-ex) !important;
+}
+
+.disabled\:min-width\:ex:disabled,
+.disabled\:min-w\:ex:disabled {
+	min-width: var(--min-width-ex) !important;
+}
+
+.disabled\:min-height\:ex:disabled,
+.disabled\:min-h\:ex:disabled {
+	min-height: var(--min-height-ex) !important;
+}
+
+.disabled\:max-width\:ex:disabled,
+.disabled\:max-w\:ex:disabled {
+	max-width: var(--max-width-ex) !important;
+}
+
+.disabled\:max-height\:ex:disabled,
+.disabled\:max-h\:ex:disabled {
+	max-height: var(--max-height-ex) !important;
+}
+
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 /* WIDTH */
@@ -10918,6 +11135,37 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:width\:ex:checked,
+.checked\:w\:ex:checked {
+	width: var(--width-ex) !important;
+}
+
+.checked\:height\:ex:checked,
+.checked\:h\:ex:checked {
+	height: var(--height-ex) !important;
+}
+
+.checked\:min-width\:ex:checked,
+.checked\:min-w\:ex:checked {
+	min-width: var(--min-width-ex) !important;
+}
+
+.checked\:min-height\:ex:checked,
+.checked\:min-h\:ex:checked {
+	min-height: var(--min-height-ex) !important;
+}
+
+.checked\:max-width\:ex:checked,
+.checked\:max-w\:ex:checked {
+	max-width: var(--max-width-ex) !important;
+}
+
+.checked\:max-height\:ex:checked,
+.checked\:max-h\:ex:checked {
+	max-height: var(--max-height-ex) !important;
+}
+
 /* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 /* WIDTH */
@@ -12282,6 +12530,37 @@
 	max-height: fit-content !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:width\:ex:visited,
+.visited\:w\:ex:visited {
+	width: var(--width-ex) !important;
+}
+
+.visited\:height\:ex:visited,
+.visited\:h\:ex:visited {
+	height: var(--height-ex) !important;
+}
+
+.visited\:min-width\:ex:visited,
+.visited\:min-w\:ex:visited {
+	min-width: var(--min-width-ex) !important;
+}
+
+.visited\:min-height\:ex:visited,
+.visited\:min-h\:ex:visited {
+	min-height: var(--min-height-ex) !important;
+}
+
+.visited\:max-width\:ex:visited,
+.visited\:max-w\:ex:visited {
+	max-width: var(--max-width-ex) !important;
+}
+
+.visited\:max-height\:ex:visited,
+.visited\:max-h\:ex:visited {
+	max-height: var(--max-height-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
@@ -13649,6 +13928,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:width\:ex,
+	.sm\:w\:ex {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:height\:ex,
+	.sm\:h\:ex {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:min-width\:ex,
+	.sm\:min-w\:ex {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:min-height\:ex,
+	.sm\:min-h\:ex {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:max-width\:ex,
+	.sm\:max-w\:ex {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:max-height\:ex,
+	.sm\:max-h\:ex {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -15013,6 +15323,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:width\:ex:hover,
+	.sm\:hover\:w\:ex:hover {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:hover\:height\:ex:hover,
+	.sm\:hover\:h\:ex:hover {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:hover\:min-width\:ex:hover,
+	.sm\:hover\:min-w\:ex:hover {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:hover\:min-height\:ex:hover,
+	.sm\:hover\:min-h\:ex:hover {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:hover\:max-width\:ex:hover,
+	.sm\:hover\:max-w\:ex:hover {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:hover\:max-height\:ex:hover,
+	.sm\:hover\:max-h\:ex:hover {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -16379,6 +16720,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:width\:ex:focus,
+	.sm\:focus\:w\:ex:focus {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:focus\:height\:ex:focus,
+	.sm\:focus\:h\:ex:focus {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:focus\:min-width\:ex:focus,
+	.sm\:focus\:min-w\:ex:focus {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:focus\:min-height\:ex:focus,
+	.sm\:focus\:min-h\:ex:focus {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:focus\:max-width\:ex:focus,
+	.sm\:focus\:max-w\:ex:focus {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:focus\:max-height\:ex:focus,
+	.sm\:focus\:max-h\:ex:focus {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -17743,6 +18115,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:width\:ex:focus-visible,
+	.sm\:focus-visible\:w\:ex:focus-visible {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:focus-visible\:height\:ex:focus-visible,
+	.sm\:focus-visible\:h\:ex:focus-visible {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:focus-visible\:min-width\:ex:focus-visible,
+	.sm\:focus-visible\:min-w\:ex:focus-visible {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:focus-visible\:min-height\:ex:focus-visible,
+	.sm\:focus-visible\:min-h\:ex:focus-visible {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:focus-visible\:max-width\:ex:focus-visible,
+	.sm\:focus-visible\:max-w\:ex:focus-visible {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:focus-visible\:max-height\:ex:focus-visible,
+	.sm\:focus-visible\:max-h\:ex:focus-visible {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -19109,6 +19512,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:width\:ex:focus-within,
+	.sm\:focus-within\:w\:ex:focus-within {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:focus-within\:height\:ex:focus-within,
+	.sm\:focus-within\:h\:ex:focus-within {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:focus-within\:min-width\:ex:focus-within,
+	.sm\:focus-within\:min-w\:ex:focus-within {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:focus-within\:min-height\:ex:focus-within,
+	.sm\:focus-within\:min-h\:ex:focus-within {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:focus-within\:max-width\:ex:focus-within,
+	.sm\:focus-within\:max-w\:ex:focus-within {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:focus-within\:max-height\:ex:focus-within,
+	.sm\:focus-within\:max-h\:ex:focus-within {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -20473,6 +20907,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:width\:ex:active,
+	.sm\:active\:w\:ex:active {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:active\:height\:ex:active,
+	.sm\:active\:h\:ex:active {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:active\:min-width\:ex:active,
+	.sm\:active\:min-w\:ex:active {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:active\:min-height\:ex:active,
+	.sm\:active\:min-h\:ex:active {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:active\:max-width\:ex:active,
+	.sm\:active\:max-w\:ex:active {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:active\:max-height\:ex:active,
+	.sm\:active\:max-h\:ex:active {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -21839,6 +22304,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:width\:ex:disabled,
+	.sm\:disabled\:w\:ex:disabled {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:disabled\:height\:ex:disabled,
+	.sm\:disabled\:h\:ex:disabled {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:disabled\:min-width\:ex:disabled,
+	.sm\:disabled\:min-w\:ex:disabled {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:disabled\:min-height\:ex:disabled,
+	.sm\:disabled\:min-h\:ex:disabled {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:disabled\:max-width\:ex:disabled,
+	.sm\:disabled\:max-w\:ex:disabled {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:disabled\:max-height\:ex:disabled,
+	.sm\:disabled\:max-h\:ex:disabled {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -23204,6 +23700,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:width\:ex:checked,
+	.sm\:checked\:w\:ex:checked {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:checked\:height\:ex:checked,
+	.sm\:checked\:h\:ex:checked {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:checked\:min-width\:ex:checked,
+	.sm\:checked\:min-w\:ex:checked {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:checked\:min-height\:ex:checked,
+	.sm\:checked\:min-h\:ex:checked {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:checked\:max-width\:ex:checked,
+	.sm\:checked\:max-w\:ex:checked {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:checked\:max-height\:ex:checked,
+	.sm\:checked\:max-h\:ex:checked {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -24568,6 +25095,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:width\:ex:visited,
+	.sm\:visited\:w\:ex:visited {
+		width: var(--width-ex) !important;
+	}
+
+	.sm\:visited\:height\:ex:visited,
+	.sm\:visited\:h\:ex:visited {
+		height: var(--height-ex) !important;
+	}
+
+	.sm\:visited\:min-width\:ex:visited,
+	.sm\:visited\:min-w\:ex:visited {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.sm\:visited\:min-height\:ex:visited,
+	.sm\:visited\:min-h\:ex:visited {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.sm\:visited\:max-width\:ex:visited,
+	.sm\:visited\:max-w\:ex:visited {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.sm\:visited\:max-height\:ex:visited,
+	.sm\:visited\:max-h\:ex:visited {
+		max-height: var(--max-height-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -25936,6 +26494,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:width\:ex,
+	.md\:w\:ex {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:height\:ex,
+	.md\:h\:ex {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:min-width\:ex,
+	.md\:min-w\:ex {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:min-height\:ex,
+	.md\:min-h\:ex {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:max-width\:ex,
+	.md\:max-w\:ex {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:max-height\:ex,
+	.md\:max-h\:ex {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -27300,6 +27889,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:width\:ex:hover,
+	.md\:hover\:w\:ex:hover {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:hover\:height\:ex:hover,
+	.md\:hover\:h\:ex:hover {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:hover\:min-width\:ex:hover,
+	.md\:hover\:min-w\:ex:hover {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:hover\:min-height\:ex:hover,
+	.md\:hover\:min-h\:ex:hover {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:hover\:max-width\:ex:hover,
+	.md\:hover\:max-w\:ex:hover {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:hover\:max-height\:ex:hover,
+	.md\:hover\:max-h\:ex:hover {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -28666,6 +29286,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:width\:ex:focus,
+	.md\:focus\:w\:ex:focus {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:focus\:height\:ex:focus,
+	.md\:focus\:h\:ex:focus {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:focus\:min-width\:ex:focus,
+	.md\:focus\:min-w\:ex:focus {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:focus\:min-height\:ex:focus,
+	.md\:focus\:min-h\:ex:focus {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:focus\:max-width\:ex:focus,
+	.md\:focus\:max-w\:ex:focus {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:focus\:max-height\:ex:focus,
+	.md\:focus\:max-h\:ex:focus {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -30030,6 +30681,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:width\:ex:focus-visible,
+	.md\:focus-visible\:w\:ex:focus-visible {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:focus-visible\:height\:ex:focus-visible,
+	.md\:focus-visible\:h\:ex:focus-visible {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:focus-visible\:min-width\:ex:focus-visible,
+	.md\:focus-visible\:min-w\:ex:focus-visible {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:focus-visible\:min-height\:ex:focus-visible,
+	.md\:focus-visible\:min-h\:ex:focus-visible {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:focus-visible\:max-width\:ex:focus-visible,
+	.md\:focus-visible\:max-w\:ex:focus-visible {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:focus-visible\:max-height\:ex:focus-visible,
+	.md\:focus-visible\:max-h\:ex:focus-visible {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -31396,6 +32078,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:width\:ex:focus-within,
+	.md\:focus-within\:w\:ex:focus-within {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:focus-within\:height\:ex:focus-within,
+	.md\:focus-within\:h\:ex:focus-within {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:focus-within\:min-width\:ex:focus-within,
+	.md\:focus-within\:min-w\:ex:focus-within {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:focus-within\:min-height\:ex:focus-within,
+	.md\:focus-within\:min-h\:ex:focus-within {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:focus-within\:max-width\:ex:focus-within,
+	.md\:focus-within\:max-w\:ex:focus-within {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:focus-within\:max-height\:ex:focus-within,
+	.md\:focus-within\:max-h\:ex:focus-within {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -32760,6 +33473,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:width\:ex:active,
+	.md\:active\:w\:ex:active {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:active\:height\:ex:active,
+	.md\:active\:h\:ex:active {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:active\:min-width\:ex:active,
+	.md\:active\:min-w\:ex:active {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:active\:min-height\:ex:active,
+	.md\:active\:min-h\:ex:active {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:active\:max-width\:ex:active,
+	.md\:active\:max-w\:ex:active {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:active\:max-height\:ex:active,
+	.md\:active\:max-h\:ex:active {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -34126,6 +34870,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:width\:ex:disabled,
+	.md\:disabled\:w\:ex:disabled {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:disabled\:height\:ex:disabled,
+	.md\:disabled\:h\:ex:disabled {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:disabled\:min-width\:ex:disabled,
+	.md\:disabled\:min-w\:ex:disabled {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:disabled\:min-height\:ex:disabled,
+	.md\:disabled\:min-h\:ex:disabled {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:disabled\:max-width\:ex:disabled,
+	.md\:disabled\:max-w\:ex:disabled {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:disabled\:max-height\:ex:disabled,
+	.md\:disabled\:max-h\:ex:disabled {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -35491,6 +36266,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:width\:ex:checked,
+	.md\:checked\:w\:ex:checked {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:checked\:height\:ex:checked,
+	.md\:checked\:h\:ex:checked {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:checked\:min-width\:ex:checked,
+	.md\:checked\:min-w\:ex:checked {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:checked\:min-height\:ex:checked,
+	.md\:checked\:min-h\:ex:checked {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:checked\:max-width\:ex:checked,
+	.md\:checked\:max-w\:ex:checked {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:checked\:max-height\:ex:checked,
+	.md\:checked\:max-h\:ex:checked {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -36855,6 +37661,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:width\:ex:visited,
+	.md\:visited\:w\:ex:visited {
+		width: var(--width-ex) !important;
+	}
+
+	.md\:visited\:height\:ex:visited,
+	.md\:visited\:h\:ex:visited {
+		height: var(--height-ex) !important;
+	}
+
+	.md\:visited\:min-width\:ex:visited,
+	.md\:visited\:min-w\:ex:visited {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.md\:visited\:min-height\:ex:visited,
+	.md\:visited\:min-h\:ex:visited {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.md\:visited\:max-width\:ex:visited,
+	.md\:visited\:max-w\:ex:visited {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.md\:visited\:max-height\:ex:visited,
+	.md\:visited\:max-h\:ex:visited {
+		max-height: var(--max-height-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -38223,6 +39060,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:width\:ex,
+	.lg\:w\:ex {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:height\:ex,
+	.lg\:h\:ex {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:min-width\:ex,
+	.lg\:min-w\:ex {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:min-height\:ex,
+	.lg\:min-h\:ex {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:max-width\:ex,
+	.lg\:max-w\:ex {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:max-height\:ex,
+	.lg\:max-h\:ex {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -39587,6 +40455,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:width\:ex:hover,
+	.lg\:hover\:w\:ex:hover {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:hover\:height\:ex:hover,
+	.lg\:hover\:h\:ex:hover {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:hover\:min-width\:ex:hover,
+	.lg\:hover\:min-w\:ex:hover {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:hover\:min-height\:ex:hover,
+	.lg\:hover\:min-h\:ex:hover {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:hover\:max-width\:ex:hover,
+	.lg\:hover\:max-w\:ex:hover {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:hover\:max-height\:ex:hover,
+	.lg\:hover\:max-h\:ex:hover {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -40953,6 +41852,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:width\:ex:focus,
+	.lg\:focus\:w\:ex:focus {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:focus\:height\:ex:focus,
+	.lg\:focus\:h\:ex:focus {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:focus\:min-width\:ex:focus,
+	.lg\:focus\:min-w\:ex:focus {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:focus\:min-height\:ex:focus,
+	.lg\:focus\:min-h\:ex:focus {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:focus\:max-width\:ex:focus,
+	.lg\:focus\:max-w\:ex:focus {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:focus\:max-height\:ex:focus,
+	.lg\:focus\:max-h\:ex:focus {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -42317,6 +43247,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:width\:ex:focus-visible,
+	.lg\:focus-visible\:w\:ex:focus-visible {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:focus-visible\:height\:ex:focus-visible,
+	.lg\:focus-visible\:h\:ex:focus-visible {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:focus-visible\:min-width\:ex:focus-visible,
+	.lg\:focus-visible\:min-w\:ex:focus-visible {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:focus-visible\:min-height\:ex:focus-visible,
+	.lg\:focus-visible\:min-h\:ex:focus-visible {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:focus-visible\:max-width\:ex:focus-visible,
+	.lg\:focus-visible\:max-w\:ex:focus-visible {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:focus-visible\:max-height\:ex:focus-visible,
+	.lg\:focus-visible\:max-h\:ex:focus-visible {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -43683,6 +44644,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:width\:ex:focus-within,
+	.lg\:focus-within\:w\:ex:focus-within {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:focus-within\:height\:ex:focus-within,
+	.lg\:focus-within\:h\:ex:focus-within {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:focus-within\:min-width\:ex:focus-within,
+	.lg\:focus-within\:min-w\:ex:focus-within {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:focus-within\:min-height\:ex:focus-within,
+	.lg\:focus-within\:min-h\:ex:focus-within {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:focus-within\:max-width\:ex:focus-within,
+	.lg\:focus-within\:max-w\:ex:focus-within {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:focus-within\:max-height\:ex:focus-within,
+	.lg\:focus-within\:max-h\:ex:focus-within {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -45047,6 +46039,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:width\:ex:active,
+	.lg\:active\:w\:ex:active {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:active\:height\:ex:active,
+	.lg\:active\:h\:ex:active {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:active\:min-width\:ex:active,
+	.lg\:active\:min-w\:ex:active {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:active\:min-height\:ex:active,
+	.lg\:active\:min-h\:ex:active {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:active\:max-width\:ex:active,
+	.lg\:active\:max-w\:ex:active {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:active\:max-height\:ex:active,
+	.lg\:active\:max-h\:ex:active {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -46413,6 +47436,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:width\:ex:disabled,
+	.lg\:disabled\:w\:ex:disabled {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:disabled\:height\:ex:disabled,
+	.lg\:disabled\:h\:ex:disabled {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:disabled\:min-width\:ex:disabled,
+	.lg\:disabled\:min-w\:ex:disabled {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:disabled\:min-height\:ex:disabled,
+	.lg\:disabled\:min-h\:ex:disabled {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:disabled\:max-width\:ex:disabled,
+	.lg\:disabled\:max-w\:ex:disabled {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:disabled\:max-height\:ex:disabled,
+	.lg\:disabled\:max-h\:ex:disabled {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -47778,6 +48832,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:width\:ex:checked,
+	.lg\:checked\:w\:ex:checked {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:checked\:height\:ex:checked,
+	.lg\:checked\:h\:ex:checked {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:checked\:min-width\:ex:checked,
+	.lg\:checked\:min-w\:ex:checked {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:checked\:min-height\:ex:checked,
+	.lg\:checked\:min-h\:ex:checked {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:checked\:max-width\:ex:checked,
+	.lg\:checked\:max-w\:ex:checked {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:checked\:max-height\:ex:checked,
+	.lg\:checked\:max-h\:ex:checked {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -49142,6 +50227,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:width\:ex:visited,
+	.lg\:visited\:w\:ex:visited {
+		width: var(--width-ex) !important;
+	}
+
+	.lg\:visited\:height\:ex:visited,
+	.lg\:visited\:h\:ex:visited {
+		height: var(--height-ex) !important;
+	}
+
+	.lg\:visited\:min-width\:ex:visited,
+	.lg\:visited\:min-w\:ex:visited {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.lg\:visited\:min-height\:ex:visited,
+	.lg\:visited\:min-h\:ex:visited {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.lg\:visited\:max-width\:ex:visited,
+	.lg\:visited\:max-w\:ex:visited {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.lg\:visited\:max-height\:ex:visited,
+	.lg\:visited\:max-h\:ex:visited {
+		max-height: var(--max-height-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -50510,6 +51626,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:width\:ex,
+	.xl\:w\:ex {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:height\:ex,
+	.xl\:h\:ex {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:min-width\:ex,
+	.xl\:min-w\:ex {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:min-height\:ex,
+	.xl\:min-h\:ex {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:max-width\:ex,
+	.xl\:max-w\:ex {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:max-height\:ex,
+	.xl\:max-h\:ex {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -51874,6 +53021,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:width\:ex:hover,
+	.xl\:hover\:w\:ex:hover {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:hover\:height\:ex:hover,
+	.xl\:hover\:h\:ex:hover {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:hover\:min-width\:ex:hover,
+	.xl\:hover\:min-w\:ex:hover {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:hover\:min-height\:ex:hover,
+	.xl\:hover\:min-h\:ex:hover {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:hover\:max-width\:ex:hover,
+	.xl\:hover\:max-w\:ex:hover {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:hover\:max-height\:ex:hover,
+	.xl\:hover\:max-h\:ex:hover {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -53240,6 +54418,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:width\:ex:focus,
+	.xl\:focus\:w\:ex:focus {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:focus\:height\:ex:focus,
+	.xl\:focus\:h\:ex:focus {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:focus\:min-width\:ex:focus,
+	.xl\:focus\:min-w\:ex:focus {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:focus\:min-height\:ex:focus,
+	.xl\:focus\:min-h\:ex:focus {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:focus\:max-width\:ex:focus,
+	.xl\:focus\:max-w\:ex:focus {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:focus\:max-height\:ex:focus,
+	.xl\:focus\:max-h\:ex:focus {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -54604,6 +55813,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:width\:ex:focus-visible,
+	.xl\:focus-visible\:w\:ex:focus-visible {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:focus-visible\:height\:ex:focus-visible,
+	.xl\:focus-visible\:h\:ex:focus-visible {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:focus-visible\:min-width\:ex:focus-visible,
+	.xl\:focus-visible\:min-w\:ex:focus-visible {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:focus-visible\:min-height\:ex:focus-visible,
+	.xl\:focus-visible\:min-h\:ex:focus-visible {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:focus-visible\:max-width\:ex:focus-visible,
+	.xl\:focus-visible\:max-w\:ex:focus-visible {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:focus-visible\:max-height\:ex:focus-visible,
+	.xl\:focus-visible\:max-h\:ex:focus-visible {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -55970,6 +57210,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:width\:ex:focus-within,
+	.xl\:focus-within\:w\:ex:focus-within {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:focus-within\:height\:ex:focus-within,
+	.xl\:focus-within\:h\:ex:focus-within {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:focus-within\:min-width\:ex:focus-within,
+	.xl\:focus-within\:min-w\:ex:focus-within {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:focus-within\:min-height\:ex:focus-within,
+	.xl\:focus-within\:min-h\:ex:focus-within {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:focus-within\:max-width\:ex:focus-within,
+	.xl\:focus-within\:max-w\:ex:focus-within {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:focus-within\:max-height\:ex:focus-within,
+	.xl\:focus-within\:max-h\:ex:focus-within {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -57334,6 +58605,37 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:width\:ex:active,
+	.xl\:active\:w\:ex:active {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:active\:height\:ex:active,
+	.xl\:active\:h\:ex:active {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:active\:min-width\:ex:active,
+	.xl\:active\:min-w\:ex:active {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:active\:min-height\:ex:active,
+	.xl\:active\:min-h\:ex:active {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:active\:max-width\:ex:active,
+	.xl\:active\:max-w\:ex:active {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:active\:max-height\:ex:active,
+	.xl\:active\:max-h\:ex:active {
+		max-height: var(--max-height-ex) !important;
+	}
 
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
@@ -58700,6 +60002,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:width\:ex:disabled,
+	.xl\:disabled\:w\:ex:disabled {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:disabled\:height\:ex:disabled,
+	.xl\:disabled\:h\:ex:disabled {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:disabled\:min-width\:ex:disabled,
+	.xl\:disabled\:min-w\:ex:disabled {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:disabled\:min-height\:ex:disabled,
+	.xl\:disabled\:min-h\:ex:disabled {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:disabled\:max-width\:ex:disabled,
+	.xl\:disabled\:max-w\:ex:disabled {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:disabled\:max-height\:ex:disabled,
+	.xl\:disabled\:max-h\:ex:disabled {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -60065,6 +61398,37 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:width\:ex:checked,
+	.xl\:checked\:w\:ex:checked {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:checked\:height\:ex:checked,
+	.xl\:checked\:h\:ex:checked {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:checked\:min-width\:ex:checked,
+	.xl\:checked\:min-w\:ex:checked {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:checked\:min-height\:ex:checked,
+	.xl\:checked\:min-h\:ex:checked {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:checked\:max-width\:ex:checked,
+	.xl\:checked\:max-w\:ex:checked {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:checked\:max-height\:ex:checked,
+	.xl\:checked\:max-h\:ex:checked {
+		max-height: var(--max-height-ex) !important;
+	}
+
 	/* ===== SIZING UTILITIES — width, height, min/max ===== */
 
 	/* WIDTH */
@@ -61429,4 +62793,35 @@
 		max-height: fit-content !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:width\:ex:visited,
+	.xl\:visited\:w\:ex:visited {
+		width: var(--width-ex) !important;
+	}
+
+	.xl\:visited\:height\:ex:visited,
+	.xl\:visited\:h\:ex:visited {
+		height: var(--height-ex) !important;
+	}
+
+	.xl\:visited\:min-width\:ex:visited,
+	.xl\:visited\:min-w\:ex:visited {
+		min-width: var(--min-width-ex) !important;
+	}
+
+	.xl\:visited\:min-height\:ex:visited,
+	.xl\:visited\:min-h\:ex:visited {
+		min-height: var(--min-height-ex) !important;
+	}
+
+	.xl\:visited\:max-width\:ex:visited,
+	.xl\:visited\:max-w\:ex:visited {
+		max-width: var(--max-width-ex) !important;
+	}
+
+	.xl\:visited\:max-height\:ex:visited,
+	.xl\:visited\:max-h\:ex:visited {
+		max-height: var(--max-height-ex) !important;
+	}
 }

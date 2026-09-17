@@ -18,6 +18,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.container-type\:ex,
+.ct\:ex {
+	container-type: var(--container-type-ex) !important;
+}
+
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 /* CONTAINER-TYPE */
@@ -37,6 +43,12 @@
 	container-type: inline-size !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:container-type\:ex:hover,
+.hover\:ct\:ex:hover {
+	container-type: var(--container-type-ex) !important;
+}
 
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -58,6 +70,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:container-type\:ex:focus,
+.focus\:ct\:ex:focus {
+	container-type: var(--container-type-ex) !important;
+}
+
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 /* CONTAINER-TYPE */
@@ -77,6 +95,12 @@
 	container-type: inline-size !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:container-type\:ex:focus-visible,
+.focus-visible\:ct\:ex:focus-visible {
+	container-type: var(--container-type-ex) !important;
+}
 
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -98,6 +122,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:container-type\:ex:focus-within,
+.focus-within\:ct\:ex:focus-within {
+	container-type: var(--container-type-ex) !important;
+}
+
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 /* CONTAINER-TYPE */
@@ -117,6 +147,12 @@
 	container-type: inline-size !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:container-type\:ex:active,
+.active\:ct\:ex:active {
+	container-type: var(--container-type-ex) !important;
+}
 
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -138,6 +174,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:container-type\:ex:disabled,
+.disabled\:ct\:ex:disabled {
+	container-type: var(--container-type-ex) !important;
+}
+
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 /* CONTAINER-TYPE */
@@ -158,6 +200,12 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:container-type\:ex:checked,
+.checked\:ct\:ex:checked {
+	container-type: var(--container-type-ex) !important;
+}
+
 /* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 /* CONTAINER-TYPE */
@@ -177,6 +225,12 @@
 	container-type: inline-size !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:container-type\:ex:visited,
+.visited\:ct\:ex:visited {
+	container-type: var(--container-type-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
@@ -199,6 +253,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:container-type\:ex,
+	.sm\:ct\:ex {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -218,6 +278,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:container-type\:ex:hover,
+	.sm\:hover\:ct\:ex:hover {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -239,6 +305,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:container-type\:ex:focus,
+	.sm\:focus\:ct\:ex:focus {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -258,6 +330,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:container-type\:ex:focus-visible,
+	.sm\:focus-visible\:ct\:ex:focus-visible {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -279,6 +357,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:container-type\:ex:focus-within,
+	.sm\:focus-within\:ct\:ex:focus-within {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -298,6 +382,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:container-type\:ex:active,
+	.sm\:active\:ct\:ex:active {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -319,6 +409,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:container-type\:ex:disabled,
+	.sm\:disabled\:ct\:ex:disabled {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -339,6 +435,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:container-type\:ex:checked,
+	.sm\:checked\:ct\:ex:checked {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -358,6 +460,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:container-type\:ex:visited,
+	.sm\:visited\:ct\:ex:visited {
+		container-type: var(--container-type-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -381,6 +489,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:container-type\:ex,
+	.md\:ct\:ex {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -400,6 +514,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:container-type\:ex:hover,
+	.md\:hover\:ct\:ex:hover {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -421,6 +541,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:container-type\:ex:focus,
+	.md\:focus\:ct\:ex:focus {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -440,6 +566,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:container-type\:ex:focus-visible,
+	.md\:focus-visible\:ct\:ex:focus-visible {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -461,6 +593,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:container-type\:ex:focus-within,
+	.md\:focus-within\:ct\:ex:focus-within {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -480,6 +618,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:container-type\:ex:active,
+	.md\:active\:ct\:ex:active {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -501,6 +645,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:container-type\:ex:disabled,
+	.md\:disabled\:ct\:ex:disabled {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -521,6 +671,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:container-type\:ex:checked,
+	.md\:checked\:ct\:ex:checked {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -540,6 +696,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:container-type\:ex:visited,
+	.md\:visited\:ct\:ex:visited {
+		container-type: var(--container-type-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -563,6 +725,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:container-type\:ex,
+	.lg\:ct\:ex {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -582,6 +750,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:container-type\:ex:hover,
+	.lg\:hover\:ct\:ex:hover {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -603,6 +777,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:container-type\:ex:focus,
+	.lg\:focus\:ct\:ex:focus {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -622,6 +802,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:container-type\:ex:focus-visible,
+	.lg\:focus-visible\:ct\:ex:focus-visible {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -643,6 +829,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:container-type\:ex:focus-within,
+	.lg\:focus-within\:ct\:ex:focus-within {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -662,6 +854,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:container-type\:ex:active,
+	.lg\:active\:ct\:ex:active {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -683,6 +881,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:container-type\:ex:disabled,
+	.lg\:disabled\:ct\:ex:disabled {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -703,6 +907,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:container-type\:ex:checked,
+	.lg\:checked\:ct\:ex:checked {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -722,6 +932,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:container-type\:ex:visited,
+	.lg\:visited\:ct\:ex:visited {
+		container-type: var(--container-type-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -745,6 +961,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:container-type\:ex,
+	.xl\:ct\:ex {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -764,6 +986,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:container-type\:ex:hover,
+	.xl\:hover\:ct\:ex:hover {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -785,6 +1013,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:container-type\:ex:focus,
+	.xl\:focus\:ct\:ex:focus {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -804,6 +1038,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:container-type\:ex:focus-visible,
+	.xl\:focus-visible\:ct\:ex:focus-visible {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -825,6 +1065,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:container-type\:ex:focus-within,
+	.xl\:focus-within\:ct\:ex:focus-within {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -844,6 +1090,12 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:container-type\:ex:active,
+	.xl\:active\:ct\:ex:active {
+		container-type: var(--container-type-ex) !important;
+	}
 
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
@@ -865,6 +1117,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:container-type\:ex:disabled,
+	.xl\:disabled\:ct\:ex:disabled {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -885,6 +1143,12 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:container-type\:ex:checked,
+	.xl\:checked\:ct\:ex:checked {
+		container-type: var(--container-type-ex) !important;
+	}
+
 	/* ===== CONTAINER-QUERIES UTILITIES — container-type ===== */
 
 	/* CONTAINER-TYPE */
@@ -904,4 +1168,10 @@
 		container-type: inline-size !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:container-type\:ex:visited,
+	.xl\:visited\:ct\:ex:visited {
+		container-type: var(--container-type-ex) !important;
+	}
 }

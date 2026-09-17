@@ -249,6 +249,46 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.backdrop-filter\:ex {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.backdrop-blur\:ex,
+.bdblr\:ex {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.backdrop-brightness\:ex,
+.bdbrt\:ex {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.backdrop-contrast\:ex,
+.bdcnt\:ex {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.backdrop-saturate\:ex,
+.bdsat\:ex {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.backdrop-grayscale\:ex,
+.bdgray\:ex {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.backdrop-invert\:ex,
+.bdinv\:ex {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.backdrop-hue-rotate\:ex,
+.bdhue\:ex {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
+
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
 .hover\:backdrop-filter\:none:hover {
@@ -499,6 +539,46 @@
 	backdrop-filter: hue-rotate(180deg) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:backdrop-filter\:ex:hover {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.hover\:backdrop-blur\:ex:hover,
+.hover\:bdblr\:ex:hover {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.hover\:backdrop-brightness\:ex:hover,
+.hover\:bdbrt\:ex:hover {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.hover\:backdrop-contrast\:ex:hover,
+.hover\:bdcnt\:ex:hover {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.hover\:backdrop-saturate\:ex:hover,
+.hover\:bdsat\:ex:hover {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.hover\:backdrop-grayscale\:ex:hover,
+.hover\:bdgray\:ex:hover {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.hover\:backdrop-invert\:ex:hover,
+.hover\:bdinv\:ex:hover {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.hover\:backdrop-hue-rotate\:ex:hover,
+.hover\:bdhue\:ex:hover {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
 
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -751,6 +831,46 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:backdrop-filter\:ex:focus {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.focus\:backdrop-blur\:ex:focus,
+.focus\:bdblr\:ex:focus {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.focus\:backdrop-brightness\:ex:focus,
+.focus\:bdbrt\:ex:focus {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.focus\:backdrop-contrast\:ex:focus,
+.focus\:bdcnt\:ex:focus {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.focus\:backdrop-saturate\:ex:focus,
+.focus\:bdsat\:ex:focus {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.focus\:backdrop-grayscale\:ex:focus,
+.focus\:bdgray\:ex:focus {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.focus\:backdrop-invert\:ex:focus,
+.focus\:bdinv\:ex:focus {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.focus\:backdrop-hue-rotate\:ex:focus,
+.focus\:bdhue\:ex:focus {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
+
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
 .focus-visible\:backdrop-filter\:none:focus-visible {
@@ -1001,6 +1121,46 @@
 	backdrop-filter: hue-rotate(180deg) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:backdrop-filter\:ex:focus-visible {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.focus-visible\:backdrop-blur\:ex:focus-visible,
+.focus-visible\:bdblr\:ex:focus-visible {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.focus-visible\:backdrop-brightness\:ex:focus-visible,
+.focus-visible\:bdbrt\:ex:focus-visible {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.focus-visible\:backdrop-contrast\:ex:focus-visible,
+.focus-visible\:bdcnt\:ex:focus-visible {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.focus-visible\:backdrop-saturate\:ex:focus-visible,
+.focus-visible\:bdsat\:ex:focus-visible {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.focus-visible\:backdrop-grayscale\:ex:focus-visible,
+.focus-visible\:bdgray\:ex:focus-visible {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.focus-visible\:backdrop-invert\:ex:focus-visible,
+.focus-visible\:bdinv\:ex:focus-visible {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.focus-visible\:backdrop-hue-rotate\:ex:focus-visible,
+.focus-visible\:bdhue\:ex:focus-visible {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
 
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -1253,6 +1413,46 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:backdrop-filter\:ex:focus-within {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.focus-within\:backdrop-blur\:ex:focus-within,
+.focus-within\:bdblr\:ex:focus-within {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.focus-within\:backdrop-brightness\:ex:focus-within,
+.focus-within\:bdbrt\:ex:focus-within {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.focus-within\:backdrop-contrast\:ex:focus-within,
+.focus-within\:bdcnt\:ex:focus-within {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.focus-within\:backdrop-saturate\:ex:focus-within,
+.focus-within\:bdsat\:ex:focus-within {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.focus-within\:backdrop-grayscale\:ex:focus-within,
+.focus-within\:bdgray\:ex:focus-within {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.focus-within\:backdrop-invert\:ex:focus-within,
+.focus-within\:bdinv\:ex:focus-within {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.focus-within\:backdrop-hue-rotate\:ex:focus-within,
+.focus-within\:bdhue\:ex:focus-within {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
+
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
 .active\:backdrop-filter\:none:active {
@@ -1503,6 +1703,46 @@
 	backdrop-filter: hue-rotate(180deg) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:backdrop-filter\:ex:active {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.active\:backdrop-blur\:ex:active,
+.active\:bdblr\:ex:active {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.active\:backdrop-brightness\:ex:active,
+.active\:bdbrt\:ex:active {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.active\:backdrop-contrast\:ex:active,
+.active\:bdcnt\:ex:active {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.active\:backdrop-saturate\:ex:active,
+.active\:bdsat\:ex:active {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.active\:backdrop-grayscale\:ex:active,
+.active\:bdgray\:ex:active {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.active\:backdrop-invert\:ex:active,
+.active\:bdinv\:ex:active {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.active\:backdrop-hue-rotate\:ex:active,
+.active\:bdhue\:ex:active {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
 
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -1755,6 +1995,46 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:backdrop-filter\:ex:disabled {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.disabled\:backdrop-blur\:ex:disabled,
+.disabled\:bdblr\:ex:disabled {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.disabled\:backdrop-brightness\:ex:disabled,
+.disabled\:bdbrt\:ex:disabled {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.disabled\:backdrop-contrast\:ex:disabled,
+.disabled\:bdcnt\:ex:disabled {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.disabled\:backdrop-saturate\:ex:disabled,
+.disabled\:bdsat\:ex:disabled {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.disabled\:backdrop-grayscale\:ex:disabled,
+.disabled\:bdgray\:ex:disabled {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.disabled\:backdrop-invert\:ex:disabled,
+.disabled\:bdinv\:ex:disabled {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.disabled\:backdrop-hue-rotate\:ex:disabled,
+.disabled\:bdhue\:ex:disabled {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
+
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
 .checked\:backdrop-filter\:none:checked {
@@ -2006,6 +2286,46 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:backdrop-filter\:ex:checked {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.checked\:backdrop-blur\:ex:checked,
+.checked\:bdblr\:ex:checked {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.checked\:backdrop-brightness\:ex:checked,
+.checked\:bdbrt\:ex:checked {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.checked\:backdrop-contrast\:ex:checked,
+.checked\:bdcnt\:ex:checked {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.checked\:backdrop-saturate\:ex:checked,
+.checked\:bdsat\:ex:checked {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.checked\:backdrop-grayscale\:ex:checked,
+.checked\:bdgray\:ex:checked {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.checked\:backdrop-invert\:ex:checked,
+.checked\:bdinv\:ex:checked {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.checked\:backdrop-hue-rotate\:ex:checked,
+.checked\:bdhue\:ex:checked {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
+
 /* ===== BACKDROP-FILTER UTILITIES ===== */
 
 .visited\:backdrop-filter\:none:visited {
@@ -2256,6 +2576,46 @@
 	backdrop-filter: hue-rotate(180deg) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:backdrop-filter\:ex:visited {
+	backdrop-filter: var(--backdrop-filter-ex) !important;
+}
+
+.visited\:backdrop-blur\:ex:visited,
+.visited\:bdblr\:ex:visited {
+	backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+}
+
+.visited\:backdrop-brightness\:ex:visited,
+.visited\:bdbrt\:ex:visited {
+	backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+}
+
+.visited\:backdrop-contrast\:ex:visited,
+.visited\:bdcnt\:ex:visited {
+	backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+}
+
+.visited\:backdrop-saturate\:ex:visited,
+.visited\:bdsat\:ex:visited {
+	backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+}
+
+.visited\:backdrop-grayscale\:ex:visited,
+.visited\:bdgray\:ex:visited {
+	backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+}
+
+.visited\:backdrop-invert\:ex:visited,
+.visited\:bdinv\:ex:visited {
+	backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+}
+
+.visited\:backdrop-hue-rotate\:ex:visited,
+.visited\:bdhue\:ex:visited {
+	backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
@@ -2509,6 +2869,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:backdrop-filter\:ex {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:backdrop-blur\:ex,
+	.sm\:bdblr\:ex {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:backdrop-brightness\:ex,
+	.sm\:bdbrt\:ex {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:backdrop-contrast\:ex,
+	.sm\:bdcnt\:ex {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:backdrop-saturate\:ex,
+	.sm\:bdsat\:ex {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:backdrop-grayscale\:ex,
+	.sm\:bdgray\:ex {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:backdrop-invert\:ex,
+	.sm\:bdinv\:ex {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:backdrop-hue-rotate\:ex,
+	.sm\:bdhue\:ex {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.sm\:hover\:backdrop-filter\:none:hover {
@@ -2759,6 +3159,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:backdrop-filter\:ex:hover {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:hover\:backdrop-blur\:ex:hover,
+	.sm\:hover\:bdblr\:ex:hover {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-brightness\:ex:hover,
+	.sm\:hover\:bdbrt\:ex:hover {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-contrast\:ex:hover,
+	.sm\:hover\:bdcnt\:ex:hover {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-saturate\:ex:hover,
+	.sm\:hover\:bdsat\:ex:hover {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-grayscale\:ex:hover,
+	.sm\:hover\:bdgray\:ex:hover {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-invert\:ex:hover,
+	.sm\:hover\:bdinv\:ex:hover {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:hover\:backdrop-hue-rotate\:ex:hover,
+	.sm\:hover\:bdhue\:ex:hover {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -3011,6 +3451,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:backdrop-filter\:ex:focus {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:focus\:backdrop-blur\:ex:focus,
+	.sm\:focus\:bdblr\:ex:focus {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-brightness\:ex:focus,
+	.sm\:focus\:bdbrt\:ex:focus {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-contrast\:ex:focus,
+	.sm\:focus\:bdcnt\:ex:focus {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-saturate\:ex:focus,
+	.sm\:focus\:bdsat\:ex:focus {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-grayscale\:ex:focus,
+	.sm\:focus\:bdgray\:ex:focus {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-invert\:ex:focus,
+	.sm\:focus\:bdinv\:ex:focus {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:focus\:backdrop-hue-rotate\:ex:focus,
+	.sm\:focus\:bdhue\:ex:focus {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.sm\:focus-visible\:backdrop-filter\:none:focus-visible {
@@ -3261,6 +3741,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:backdrop-filter\:ex:focus-visible {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-blur\:ex:focus-visible,
+	.sm\:focus-visible\:bdblr\:ex:focus-visible {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-brightness\:ex:focus-visible,
+	.sm\:focus-visible\:bdbrt\:ex:focus-visible {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-contrast\:ex:focus-visible,
+	.sm\:focus-visible\:bdcnt\:ex:focus-visible {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-saturate\:ex:focus-visible,
+	.sm\:focus-visible\:bdsat\:ex:focus-visible {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-grayscale\:ex:focus-visible,
+	.sm\:focus-visible\:bdgray\:ex:focus-visible {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-invert\:ex:focus-visible,
+	.sm\:focus-visible\:bdinv\:ex:focus-visible {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:focus-visible\:backdrop-hue-rotate\:ex:focus-visible,
+	.sm\:focus-visible\:bdhue\:ex:focus-visible {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -3513,6 +4033,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:backdrop-filter\:ex:focus-within {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:focus-within\:backdrop-blur\:ex:focus-within,
+	.sm\:focus-within\:bdblr\:ex:focus-within {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-brightness\:ex:focus-within,
+	.sm\:focus-within\:bdbrt\:ex:focus-within {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-contrast\:ex:focus-within,
+	.sm\:focus-within\:bdcnt\:ex:focus-within {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-saturate\:ex:focus-within,
+	.sm\:focus-within\:bdsat\:ex:focus-within {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-grayscale\:ex:focus-within,
+	.sm\:focus-within\:bdgray\:ex:focus-within {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-invert\:ex:focus-within,
+	.sm\:focus-within\:bdinv\:ex:focus-within {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:focus-within\:backdrop-hue-rotate\:ex:focus-within,
+	.sm\:focus-within\:bdhue\:ex:focus-within {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.sm\:active\:backdrop-filter\:none:active {
@@ -3763,6 +4323,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:backdrop-filter\:ex:active {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:active\:backdrop-blur\:ex:active,
+	.sm\:active\:bdblr\:ex:active {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-brightness\:ex:active,
+	.sm\:active\:bdbrt\:ex:active {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-contrast\:ex:active,
+	.sm\:active\:bdcnt\:ex:active {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-saturate\:ex:active,
+	.sm\:active\:bdsat\:ex:active {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-grayscale\:ex:active,
+	.sm\:active\:bdgray\:ex:active {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-invert\:ex:active,
+	.sm\:active\:bdinv\:ex:active {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:active\:backdrop-hue-rotate\:ex:active,
+	.sm\:active\:bdhue\:ex:active {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -4015,6 +4615,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:backdrop-filter\:ex:disabled {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:disabled\:backdrop-blur\:ex:disabled,
+	.sm\:disabled\:bdblr\:ex:disabled {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-brightness\:ex:disabled,
+	.sm\:disabled\:bdbrt\:ex:disabled {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-contrast\:ex:disabled,
+	.sm\:disabled\:bdcnt\:ex:disabled {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-saturate\:ex:disabled,
+	.sm\:disabled\:bdsat\:ex:disabled {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-grayscale\:ex:disabled,
+	.sm\:disabled\:bdgray\:ex:disabled {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-invert\:ex:disabled,
+	.sm\:disabled\:bdinv\:ex:disabled {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:disabled\:backdrop-hue-rotate\:ex:disabled,
+	.sm\:disabled\:bdhue\:ex:disabled {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.sm\:checked\:backdrop-filter\:none:checked {
@@ -4266,6 +4906,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:backdrop-filter\:ex:checked {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:checked\:backdrop-blur\:ex:checked,
+	.sm\:checked\:bdblr\:ex:checked {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-brightness\:ex:checked,
+	.sm\:checked\:bdbrt\:ex:checked {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-contrast\:ex:checked,
+	.sm\:checked\:bdcnt\:ex:checked {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-saturate\:ex:checked,
+	.sm\:checked\:bdsat\:ex:checked {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-grayscale\:ex:checked,
+	.sm\:checked\:bdgray\:ex:checked {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-invert\:ex:checked,
+	.sm\:checked\:bdinv\:ex:checked {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:checked\:backdrop-hue-rotate\:ex:checked,
+	.sm\:checked\:bdhue\:ex:checked {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.sm\:visited\:backdrop-filter\:none:visited {
@@ -4516,6 +5196,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:backdrop-filter\:ex:visited {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.sm\:visited\:backdrop-blur\:ex:visited,
+	.sm\:visited\:bdblr\:ex:visited {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-brightness\:ex:visited,
+	.sm\:visited\:bdbrt\:ex:visited {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-contrast\:ex:visited,
+	.sm\:visited\:bdcnt\:ex:visited {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-saturate\:ex:visited,
+	.sm\:visited\:bdsat\:ex:visited {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-grayscale\:ex:visited,
+	.sm\:visited\:bdgray\:ex:visited {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-invert\:ex:visited,
+	.sm\:visited\:bdinv\:ex:visited {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.sm\:visited\:backdrop-hue-rotate\:ex:visited,
+	.sm\:visited\:bdhue\:ex:visited {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -4770,6 +5490,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:backdrop-filter\:ex {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:backdrop-blur\:ex,
+	.md\:bdblr\:ex {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:backdrop-brightness\:ex,
+	.md\:bdbrt\:ex {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:backdrop-contrast\:ex,
+	.md\:bdcnt\:ex {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:backdrop-saturate\:ex,
+	.md\:bdsat\:ex {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:backdrop-grayscale\:ex,
+	.md\:bdgray\:ex {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:backdrop-invert\:ex,
+	.md\:bdinv\:ex {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:backdrop-hue-rotate\:ex,
+	.md\:bdhue\:ex {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.md\:hover\:backdrop-filter\:none:hover {
@@ -5020,6 +5780,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:backdrop-filter\:ex:hover {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:hover\:backdrop-blur\:ex:hover,
+	.md\:hover\:bdblr\:ex:hover {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-brightness\:ex:hover,
+	.md\:hover\:bdbrt\:ex:hover {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-contrast\:ex:hover,
+	.md\:hover\:bdcnt\:ex:hover {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-saturate\:ex:hover,
+	.md\:hover\:bdsat\:ex:hover {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-grayscale\:ex:hover,
+	.md\:hover\:bdgray\:ex:hover {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-invert\:ex:hover,
+	.md\:hover\:bdinv\:ex:hover {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:hover\:backdrop-hue-rotate\:ex:hover,
+	.md\:hover\:bdhue\:ex:hover {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -5272,6 +6072,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:backdrop-filter\:ex:focus {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:focus\:backdrop-blur\:ex:focus,
+	.md\:focus\:bdblr\:ex:focus {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-brightness\:ex:focus,
+	.md\:focus\:bdbrt\:ex:focus {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-contrast\:ex:focus,
+	.md\:focus\:bdcnt\:ex:focus {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-saturate\:ex:focus,
+	.md\:focus\:bdsat\:ex:focus {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-grayscale\:ex:focus,
+	.md\:focus\:bdgray\:ex:focus {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-invert\:ex:focus,
+	.md\:focus\:bdinv\:ex:focus {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:focus\:backdrop-hue-rotate\:ex:focus,
+	.md\:focus\:bdhue\:ex:focus {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.md\:focus-visible\:backdrop-filter\:none:focus-visible {
@@ -5522,6 +6362,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:backdrop-filter\:ex:focus-visible {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:focus-visible\:backdrop-blur\:ex:focus-visible,
+	.md\:focus-visible\:bdblr\:ex:focus-visible {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-brightness\:ex:focus-visible,
+	.md\:focus-visible\:bdbrt\:ex:focus-visible {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-contrast\:ex:focus-visible,
+	.md\:focus-visible\:bdcnt\:ex:focus-visible {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-saturate\:ex:focus-visible,
+	.md\:focus-visible\:bdsat\:ex:focus-visible {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-grayscale\:ex:focus-visible,
+	.md\:focus-visible\:bdgray\:ex:focus-visible {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-invert\:ex:focus-visible,
+	.md\:focus-visible\:bdinv\:ex:focus-visible {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:focus-visible\:backdrop-hue-rotate\:ex:focus-visible,
+	.md\:focus-visible\:bdhue\:ex:focus-visible {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -5774,6 +6654,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:backdrop-filter\:ex:focus-within {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:focus-within\:backdrop-blur\:ex:focus-within,
+	.md\:focus-within\:bdblr\:ex:focus-within {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-brightness\:ex:focus-within,
+	.md\:focus-within\:bdbrt\:ex:focus-within {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-contrast\:ex:focus-within,
+	.md\:focus-within\:bdcnt\:ex:focus-within {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-saturate\:ex:focus-within,
+	.md\:focus-within\:bdsat\:ex:focus-within {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-grayscale\:ex:focus-within,
+	.md\:focus-within\:bdgray\:ex:focus-within {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-invert\:ex:focus-within,
+	.md\:focus-within\:bdinv\:ex:focus-within {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:focus-within\:backdrop-hue-rotate\:ex:focus-within,
+	.md\:focus-within\:bdhue\:ex:focus-within {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.md\:active\:backdrop-filter\:none:active {
@@ -6024,6 +6944,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:backdrop-filter\:ex:active {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:active\:backdrop-blur\:ex:active,
+	.md\:active\:bdblr\:ex:active {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:active\:backdrop-brightness\:ex:active,
+	.md\:active\:bdbrt\:ex:active {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:active\:backdrop-contrast\:ex:active,
+	.md\:active\:bdcnt\:ex:active {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:active\:backdrop-saturate\:ex:active,
+	.md\:active\:bdsat\:ex:active {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:active\:backdrop-grayscale\:ex:active,
+	.md\:active\:bdgray\:ex:active {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:active\:backdrop-invert\:ex:active,
+	.md\:active\:bdinv\:ex:active {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:active\:backdrop-hue-rotate\:ex:active,
+	.md\:active\:bdhue\:ex:active {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -6276,6 +7236,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:backdrop-filter\:ex:disabled {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:disabled\:backdrop-blur\:ex:disabled,
+	.md\:disabled\:bdblr\:ex:disabled {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-brightness\:ex:disabled,
+	.md\:disabled\:bdbrt\:ex:disabled {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-contrast\:ex:disabled,
+	.md\:disabled\:bdcnt\:ex:disabled {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-saturate\:ex:disabled,
+	.md\:disabled\:bdsat\:ex:disabled {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-grayscale\:ex:disabled,
+	.md\:disabled\:bdgray\:ex:disabled {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-invert\:ex:disabled,
+	.md\:disabled\:bdinv\:ex:disabled {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:disabled\:backdrop-hue-rotate\:ex:disabled,
+	.md\:disabled\:bdhue\:ex:disabled {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.md\:checked\:backdrop-filter\:none:checked {
@@ -6527,6 +7527,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:backdrop-filter\:ex:checked {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:checked\:backdrop-blur\:ex:checked,
+	.md\:checked\:bdblr\:ex:checked {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-brightness\:ex:checked,
+	.md\:checked\:bdbrt\:ex:checked {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-contrast\:ex:checked,
+	.md\:checked\:bdcnt\:ex:checked {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-saturate\:ex:checked,
+	.md\:checked\:bdsat\:ex:checked {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-grayscale\:ex:checked,
+	.md\:checked\:bdgray\:ex:checked {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-invert\:ex:checked,
+	.md\:checked\:bdinv\:ex:checked {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:checked\:backdrop-hue-rotate\:ex:checked,
+	.md\:checked\:bdhue\:ex:checked {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.md\:visited\:backdrop-filter\:none:visited {
@@ -6777,6 +7817,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:backdrop-filter\:ex:visited {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.md\:visited\:backdrop-blur\:ex:visited,
+	.md\:visited\:bdblr\:ex:visited {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-brightness\:ex:visited,
+	.md\:visited\:bdbrt\:ex:visited {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-contrast\:ex:visited,
+	.md\:visited\:bdcnt\:ex:visited {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-saturate\:ex:visited,
+	.md\:visited\:bdsat\:ex:visited {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-grayscale\:ex:visited,
+	.md\:visited\:bdgray\:ex:visited {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-invert\:ex:visited,
+	.md\:visited\:bdinv\:ex:visited {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.md\:visited\:backdrop-hue-rotate\:ex:visited,
+	.md\:visited\:bdhue\:ex:visited {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -7031,6 +8111,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:backdrop-filter\:ex {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:backdrop-blur\:ex,
+	.lg\:bdblr\:ex {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:backdrop-brightness\:ex,
+	.lg\:bdbrt\:ex {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:backdrop-contrast\:ex,
+	.lg\:bdcnt\:ex {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:backdrop-saturate\:ex,
+	.lg\:bdsat\:ex {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:backdrop-grayscale\:ex,
+	.lg\:bdgray\:ex {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:backdrop-invert\:ex,
+	.lg\:bdinv\:ex {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:backdrop-hue-rotate\:ex,
+	.lg\:bdhue\:ex {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.lg\:hover\:backdrop-filter\:none:hover {
@@ -7281,6 +8401,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:backdrop-filter\:ex:hover {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:hover\:backdrop-blur\:ex:hover,
+	.lg\:hover\:bdblr\:ex:hover {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-brightness\:ex:hover,
+	.lg\:hover\:bdbrt\:ex:hover {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-contrast\:ex:hover,
+	.lg\:hover\:bdcnt\:ex:hover {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-saturate\:ex:hover,
+	.lg\:hover\:bdsat\:ex:hover {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-grayscale\:ex:hover,
+	.lg\:hover\:bdgray\:ex:hover {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-invert\:ex:hover,
+	.lg\:hover\:bdinv\:ex:hover {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:hover\:backdrop-hue-rotate\:ex:hover,
+	.lg\:hover\:bdhue\:ex:hover {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -7533,6 +8693,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:backdrop-filter\:ex:focus {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:focus\:backdrop-blur\:ex:focus,
+	.lg\:focus\:bdblr\:ex:focus {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-brightness\:ex:focus,
+	.lg\:focus\:bdbrt\:ex:focus {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-contrast\:ex:focus,
+	.lg\:focus\:bdcnt\:ex:focus {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-saturate\:ex:focus,
+	.lg\:focus\:bdsat\:ex:focus {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-grayscale\:ex:focus,
+	.lg\:focus\:bdgray\:ex:focus {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-invert\:ex:focus,
+	.lg\:focus\:bdinv\:ex:focus {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:focus\:backdrop-hue-rotate\:ex:focus,
+	.lg\:focus\:bdhue\:ex:focus {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.lg\:focus-visible\:backdrop-filter\:none:focus-visible {
@@ -7783,6 +8983,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:backdrop-filter\:ex:focus-visible {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-blur\:ex:focus-visible,
+	.lg\:focus-visible\:bdblr\:ex:focus-visible {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-brightness\:ex:focus-visible,
+	.lg\:focus-visible\:bdbrt\:ex:focus-visible {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-contrast\:ex:focus-visible,
+	.lg\:focus-visible\:bdcnt\:ex:focus-visible {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-saturate\:ex:focus-visible,
+	.lg\:focus-visible\:bdsat\:ex:focus-visible {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-grayscale\:ex:focus-visible,
+	.lg\:focus-visible\:bdgray\:ex:focus-visible {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-invert\:ex:focus-visible,
+	.lg\:focus-visible\:bdinv\:ex:focus-visible {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:focus-visible\:backdrop-hue-rotate\:ex:focus-visible,
+	.lg\:focus-visible\:bdhue\:ex:focus-visible {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -8035,6 +9275,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:backdrop-filter\:ex:focus-within {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:focus-within\:backdrop-blur\:ex:focus-within,
+	.lg\:focus-within\:bdblr\:ex:focus-within {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-brightness\:ex:focus-within,
+	.lg\:focus-within\:bdbrt\:ex:focus-within {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-contrast\:ex:focus-within,
+	.lg\:focus-within\:bdcnt\:ex:focus-within {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-saturate\:ex:focus-within,
+	.lg\:focus-within\:bdsat\:ex:focus-within {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-grayscale\:ex:focus-within,
+	.lg\:focus-within\:bdgray\:ex:focus-within {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-invert\:ex:focus-within,
+	.lg\:focus-within\:bdinv\:ex:focus-within {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:focus-within\:backdrop-hue-rotate\:ex:focus-within,
+	.lg\:focus-within\:bdhue\:ex:focus-within {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.lg\:active\:backdrop-filter\:none:active {
@@ -8285,6 +9565,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:backdrop-filter\:ex:active {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:active\:backdrop-blur\:ex:active,
+	.lg\:active\:bdblr\:ex:active {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-brightness\:ex:active,
+	.lg\:active\:bdbrt\:ex:active {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-contrast\:ex:active,
+	.lg\:active\:bdcnt\:ex:active {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-saturate\:ex:active,
+	.lg\:active\:bdsat\:ex:active {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-grayscale\:ex:active,
+	.lg\:active\:bdgray\:ex:active {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-invert\:ex:active,
+	.lg\:active\:bdinv\:ex:active {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:active\:backdrop-hue-rotate\:ex:active,
+	.lg\:active\:bdhue\:ex:active {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -8537,6 +9857,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:backdrop-filter\:ex:disabled {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:disabled\:backdrop-blur\:ex:disabled,
+	.lg\:disabled\:bdblr\:ex:disabled {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-brightness\:ex:disabled,
+	.lg\:disabled\:bdbrt\:ex:disabled {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-contrast\:ex:disabled,
+	.lg\:disabled\:bdcnt\:ex:disabled {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-saturate\:ex:disabled,
+	.lg\:disabled\:bdsat\:ex:disabled {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-grayscale\:ex:disabled,
+	.lg\:disabled\:bdgray\:ex:disabled {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-invert\:ex:disabled,
+	.lg\:disabled\:bdinv\:ex:disabled {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:disabled\:backdrop-hue-rotate\:ex:disabled,
+	.lg\:disabled\:bdhue\:ex:disabled {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.lg\:checked\:backdrop-filter\:none:checked {
@@ -8788,6 +10148,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:backdrop-filter\:ex:checked {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:checked\:backdrop-blur\:ex:checked,
+	.lg\:checked\:bdblr\:ex:checked {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-brightness\:ex:checked,
+	.lg\:checked\:bdbrt\:ex:checked {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-contrast\:ex:checked,
+	.lg\:checked\:bdcnt\:ex:checked {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-saturate\:ex:checked,
+	.lg\:checked\:bdsat\:ex:checked {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-grayscale\:ex:checked,
+	.lg\:checked\:bdgray\:ex:checked {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-invert\:ex:checked,
+	.lg\:checked\:bdinv\:ex:checked {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:checked\:backdrop-hue-rotate\:ex:checked,
+	.lg\:checked\:bdhue\:ex:checked {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.lg\:visited\:backdrop-filter\:none:visited {
@@ -9038,6 +10438,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:backdrop-filter\:ex:visited {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.lg\:visited\:backdrop-blur\:ex:visited,
+	.lg\:visited\:bdblr\:ex:visited {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-brightness\:ex:visited,
+	.lg\:visited\:bdbrt\:ex:visited {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-contrast\:ex:visited,
+	.lg\:visited\:bdcnt\:ex:visited {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-saturate\:ex:visited,
+	.lg\:visited\:bdsat\:ex:visited {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-grayscale\:ex:visited,
+	.lg\:visited\:bdgray\:ex:visited {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-invert\:ex:visited,
+	.lg\:visited\:bdinv\:ex:visited {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.lg\:visited\:backdrop-hue-rotate\:ex:visited,
+	.lg\:visited\:bdhue\:ex:visited {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -9292,6 +10732,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:backdrop-filter\:ex {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:backdrop-blur\:ex,
+	.xl\:bdblr\:ex {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:backdrop-brightness\:ex,
+	.xl\:bdbrt\:ex {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:backdrop-contrast\:ex,
+	.xl\:bdcnt\:ex {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:backdrop-saturate\:ex,
+	.xl\:bdsat\:ex {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:backdrop-grayscale\:ex,
+	.xl\:bdgray\:ex {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:backdrop-invert\:ex,
+	.xl\:bdinv\:ex {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:backdrop-hue-rotate\:ex,
+	.xl\:bdhue\:ex {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.xl\:hover\:backdrop-filter\:none:hover {
@@ -9542,6 +11022,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:backdrop-filter\:ex:hover {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:hover\:backdrop-blur\:ex:hover,
+	.xl\:hover\:bdblr\:ex:hover {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-brightness\:ex:hover,
+	.xl\:hover\:bdbrt\:ex:hover {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-contrast\:ex:hover,
+	.xl\:hover\:bdcnt\:ex:hover {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-saturate\:ex:hover,
+	.xl\:hover\:bdsat\:ex:hover {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-grayscale\:ex:hover,
+	.xl\:hover\:bdgray\:ex:hover {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-invert\:ex:hover,
+	.xl\:hover\:bdinv\:ex:hover {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:hover\:backdrop-hue-rotate\:ex:hover,
+	.xl\:hover\:bdhue\:ex:hover {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -9794,6 +11314,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:backdrop-filter\:ex:focus {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:focus\:backdrop-blur\:ex:focus,
+	.xl\:focus\:bdblr\:ex:focus {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-brightness\:ex:focus,
+	.xl\:focus\:bdbrt\:ex:focus {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-contrast\:ex:focus,
+	.xl\:focus\:bdcnt\:ex:focus {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-saturate\:ex:focus,
+	.xl\:focus\:bdsat\:ex:focus {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-grayscale\:ex:focus,
+	.xl\:focus\:bdgray\:ex:focus {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-invert\:ex:focus,
+	.xl\:focus\:bdinv\:ex:focus {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:focus\:backdrop-hue-rotate\:ex:focus,
+	.xl\:focus\:bdhue\:ex:focus {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.xl\:focus-visible\:backdrop-filter\:none:focus-visible {
@@ -10044,6 +11604,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:backdrop-filter\:ex:focus-visible {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-blur\:ex:focus-visible,
+	.xl\:focus-visible\:bdblr\:ex:focus-visible {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-brightness\:ex:focus-visible,
+	.xl\:focus-visible\:bdbrt\:ex:focus-visible {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-contrast\:ex:focus-visible,
+	.xl\:focus-visible\:bdcnt\:ex:focus-visible {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-saturate\:ex:focus-visible,
+	.xl\:focus-visible\:bdsat\:ex:focus-visible {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-grayscale\:ex:focus-visible,
+	.xl\:focus-visible\:bdgray\:ex:focus-visible {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-invert\:ex:focus-visible,
+	.xl\:focus-visible\:bdinv\:ex:focus-visible {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:focus-visible\:backdrop-hue-rotate\:ex:focus-visible,
+	.xl\:focus-visible\:bdhue\:ex:focus-visible {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -10296,6 +11896,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:backdrop-filter\:ex:focus-within {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:focus-within\:backdrop-blur\:ex:focus-within,
+	.xl\:focus-within\:bdblr\:ex:focus-within {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-brightness\:ex:focus-within,
+	.xl\:focus-within\:bdbrt\:ex:focus-within {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-contrast\:ex:focus-within,
+	.xl\:focus-within\:bdcnt\:ex:focus-within {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-saturate\:ex:focus-within,
+	.xl\:focus-within\:bdsat\:ex:focus-within {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-grayscale\:ex:focus-within,
+	.xl\:focus-within\:bdgray\:ex:focus-within {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-invert\:ex:focus-within,
+	.xl\:focus-within\:bdinv\:ex:focus-within {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:focus-within\:backdrop-hue-rotate\:ex:focus-within,
+	.xl\:focus-within\:bdhue\:ex:focus-within {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.xl\:active\:backdrop-filter\:none:active {
@@ -10546,6 +12186,46 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:backdrop-filter\:ex:active {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:active\:backdrop-blur\:ex:active,
+	.xl\:active\:bdblr\:ex:active {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-brightness\:ex:active,
+	.xl\:active\:bdbrt\:ex:active {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-contrast\:ex:active,
+	.xl\:active\:bdcnt\:ex:active {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-saturate\:ex:active,
+	.xl\:active\:bdsat\:ex:active {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-grayscale\:ex:active,
+	.xl\:active\:bdgray\:ex:active {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-invert\:ex:active,
+	.xl\:active\:bdinv\:ex:active {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:active\:backdrop-hue-rotate\:ex:active,
+	.xl\:active\:bdhue\:ex:active {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
@@ -10798,6 +12478,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:backdrop-filter\:ex:disabled {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:disabled\:backdrop-blur\:ex:disabled,
+	.xl\:disabled\:bdblr\:ex:disabled {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-brightness\:ex:disabled,
+	.xl\:disabled\:bdbrt\:ex:disabled {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-contrast\:ex:disabled,
+	.xl\:disabled\:bdcnt\:ex:disabled {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-saturate\:ex:disabled,
+	.xl\:disabled\:bdsat\:ex:disabled {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-grayscale\:ex:disabled,
+	.xl\:disabled\:bdgray\:ex:disabled {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-invert\:ex:disabled,
+	.xl\:disabled\:bdinv\:ex:disabled {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:disabled\:backdrop-hue-rotate\:ex:disabled,
+	.xl\:disabled\:bdhue\:ex:disabled {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.xl\:checked\:backdrop-filter\:none:checked {
@@ -11049,6 +12769,46 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:backdrop-filter\:ex:checked {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:checked\:backdrop-blur\:ex:checked,
+	.xl\:checked\:bdblr\:ex:checked {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-brightness\:ex:checked,
+	.xl\:checked\:bdbrt\:ex:checked {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-contrast\:ex:checked,
+	.xl\:checked\:bdcnt\:ex:checked {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-saturate\:ex:checked,
+	.xl\:checked\:bdsat\:ex:checked {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-grayscale\:ex:checked,
+	.xl\:checked\:bdgray\:ex:checked {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-invert\:ex:checked,
+	.xl\:checked\:bdinv\:ex:checked {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:checked\:backdrop-hue-rotate\:ex:checked,
+	.xl\:checked\:bdhue\:ex:checked {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
+
 	/* ===== BACKDROP-FILTER UTILITIES ===== */
 
 	.xl\:visited\:backdrop-filter\:none:visited {
@@ -11299,4 +13059,44 @@
 		backdrop-filter: hue-rotate(180deg) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:backdrop-filter\:ex:visited {
+		backdrop-filter: var(--backdrop-filter-ex) !important;
+	}
+
+	.xl\:visited\:backdrop-blur\:ex:visited,
+	.xl\:visited\:bdblr\:ex:visited {
+		backdrop-filter: blur(var(--backdrop-blur-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-brightness\:ex:visited,
+	.xl\:visited\:bdbrt\:ex:visited {
+		backdrop-filter: brightness(var(--backdrop-brightness-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-contrast\:ex:visited,
+	.xl\:visited\:bdcnt\:ex:visited {
+		backdrop-filter: contrast(var(--backdrop-contrast-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-saturate\:ex:visited,
+	.xl\:visited\:bdsat\:ex:visited {
+		backdrop-filter: saturate(var(--backdrop-saturate-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-grayscale\:ex:visited,
+	.xl\:visited\:bdgray\:ex:visited {
+		backdrop-filter: grayscale(var(--backdrop-grayscale-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-invert\:ex:visited,
+	.xl\:visited\:bdinv\:ex:visited {
+		backdrop-filter: invert(var(--backdrop-invert-ex)) !important;
+	}
+
+	.xl\:visited\:backdrop-hue-rotate\:ex:visited,
+	.xl\:visited\:bdhue\:ex:visited {
+		backdrop-filter: hue-rotate(var(--backdrop-hue-rotate-ex)) !important;
+	}
 }

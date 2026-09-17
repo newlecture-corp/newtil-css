@@ -245,6 +245,28 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.line-clamp\:ex,
+.lc\:ex {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.stack\:ex {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.hstack\:ex {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
+
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 /* TRUNCATE */
@@ -491,6 +513,28 @@
 	gap: var(--space-8) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:line-clamp\:ex:hover,
+.hover\:lc\:ex:hover {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.hover\:stack\:ex:hover {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.hover\:hstack\:ex:hover {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
 
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -739,6 +783,28 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:line-clamp\:ex:focus,
+.focus\:lc\:ex:focus {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.focus\:stack\:ex:focus {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.focus\:hstack\:ex:focus {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
+
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 /* TRUNCATE */
@@ -985,6 +1051,28 @@
 	gap: var(--space-8) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:line-clamp\:ex:focus-visible,
+.focus-visible\:lc\:ex:focus-visible {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.focus-visible\:stack\:ex:focus-visible {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.focus-visible\:hstack\:ex:focus-visible {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
 
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -1233,6 +1321,28 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:line-clamp\:ex:focus-within,
+.focus-within\:lc\:ex:focus-within {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.focus-within\:stack\:ex:focus-within {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.focus-within\:hstack\:ex:focus-within {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
+
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 /* TRUNCATE */
@@ -1479,6 +1589,28 @@
 	gap: var(--space-8) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:line-clamp\:ex:active,
+.active\:lc\:ex:active {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.active\:stack\:ex:active {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.active\:hstack\:ex:active {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
 
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -1727,6 +1859,28 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:line-clamp\:ex:disabled,
+.disabled\:lc\:ex:disabled {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.disabled\:stack\:ex:disabled {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.disabled\:hstack\:ex:disabled {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
+
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 /* TRUNCATE */
@@ -1974,6 +2128,28 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:line-clamp\:ex:checked,
+.checked\:lc\:ex:checked {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.checked\:stack\:ex:checked {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.checked\:hstack\:ex:checked {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
+
 /* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 /* TRUNCATE */
@@ -2220,6 +2396,28 @@
 	gap: var(--space-8) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:line-clamp\:ex:visited,
+.visited\:lc\:ex:visited {
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-line-clamp: var(--line-clamp-ex) !important;
+	overflow: hidden !important;
+}
+
+.visited\:stack\:ex:visited {
+	display: flex !important;
+	flex-direction: column !important;
+	gap: var(--stack-ex) !important;
+}
+
+.visited\:hstack\:ex:visited {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	gap: var(--hstack-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
@@ -2469,6 +2667,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:line-clamp\:ex,
+	.sm\:lc\:ex {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:stack\:ex {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:hstack\:ex {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -2715,6 +2935,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:line-clamp\:ex:hover,
+	.sm\:hover\:lc\:ex:hover {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:hover\:stack\:ex:hover {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:hover\:hstack\:ex:hover {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -2963,6 +3205,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:line-clamp\:ex:focus,
+	.sm\:focus\:lc\:ex:focus {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:focus\:stack\:ex:focus {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:focus\:hstack\:ex:focus {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -3209,6 +3473,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:line-clamp\:ex:focus-visible,
+	.sm\:focus-visible\:lc\:ex:focus-visible {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:focus-visible\:stack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:focus-visible\:hstack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -3457,6 +3743,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:line-clamp\:ex:focus-within,
+	.sm\:focus-within\:lc\:ex:focus-within {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:focus-within\:stack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:focus-within\:hstack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -3703,6 +4011,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:line-clamp\:ex:active,
+	.sm\:active\:lc\:ex:active {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:active\:stack\:ex:active {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:active\:hstack\:ex:active {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -3951,6 +4281,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:line-clamp\:ex:disabled,
+	.sm\:disabled\:lc\:ex:disabled {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:disabled\:stack\:ex:disabled {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:disabled\:hstack\:ex:disabled {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -4198,6 +4550,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:line-clamp\:ex:checked,
+	.sm\:checked\:lc\:ex:checked {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:checked\:stack\:ex:checked {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:checked\:hstack\:ex:checked {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -4444,6 +4818,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:line-clamp\:ex:visited,
+	.sm\:visited\:lc\:ex:visited {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.sm\:visited\:stack\:ex:visited {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.sm\:visited\:hstack\:ex:visited {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -4694,6 +5090,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:line-clamp\:ex,
+	.md\:lc\:ex {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:stack\:ex {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:hstack\:ex {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -4940,6 +5358,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:line-clamp\:ex:hover,
+	.md\:hover\:lc\:ex:hover {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:hover\:stack\:ex:hover {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:hover\:hstack\:ex:hover {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -5188,6 +5628,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:line-clamp\:ex:focus,
+	.md\:focus\:lc\:ex:focus {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:focus\:stack\:ex:focus {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:focus\:hstack\:ex:focus {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -5434,6 +5896,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:line-clamp\:ex:focus-visible,
+	.md\:focus-visible\:lc\:ex:focus-visible {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:focus-visible\:stack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:focus-visible\:hstack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -5682,6 +6166,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:line-clamp\:ex:focus-within,
+	.md\:focus-within\:lc\:ex:focus-within {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:focus-within\:stack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:focus-within\:hstack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -5928,6 +6434,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:line-clamp\:ex:active,
+	.md\:active\:lc\:ex:active {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:active\:stack\:ex:active {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:active\:hstack\:ex:active {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -6176,6 +6704,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:line-clamp\:ex:disabled,
+	.md\:disabled\:lc\:ex:disabled {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:disabled\:stack\:ex:disabled {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:disabled\:hstack\:ex:disabled {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -6423,6 +6973,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:line-clamp\:ex:checked,
+	.md\:checked\:lc\:ex:checked {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:checked\:stack\:ex:checked {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:checked\:hstack\:ex:checked {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -6669,6 +7241,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:line-clamp\:ex:visited,
+	.md\:visited\:lc\:ex:visited {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.md\:visited\:stack\:ex:visited {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.md\:visited\:hstack\:ex:visited {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -6919,6 +7513,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:line-clamp\:ex,
+	.lg\:lc\:ex {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:stack\:ex {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:hstack\:ex {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -7165,6 +7781,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:line-clamp\:ex:hover,
+	.lg\:hover\:lc\:ex:hover {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:hover\:stack\:ex:hover {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:hover\:hstack\:ex:hover {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -7413,6 +8051,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:line-clamp\:ex:focus,
+	.lg\:focus\:lc\:ex:focus {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:focus\:stack\:ex:focus {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:focus\:hstack\:ex:focus {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -7659,6 +8319,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:line-clamp\:ex:focus-visible,
+	.lg\:focus-visible\:lc\:ex:focus-visible {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:focus-visible\:stack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:focus-visible\:hstack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -7907,6 +8589,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:line-clamp\:ex:focus-within,
+	.lg\:focus-within\:lc\:ex:focus-within {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:focus-within\:stack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:focus-within\:hstack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -8153,6 +8857,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:line-clamp\:ex:active,
+	.lg\:active\:lc\:ex:active {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:active\:stack\:ex:active {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:active\:hstack\:ex:active {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -8401,6 +9127,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:line-clamp\:ex:disabled,
+	.lg\:disabled\:lc\:ex:disabled {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:disabled\:stack\:ex:disabled {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:disabled\:hstack\:ex:disabled {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -8648,6 +9396,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:line-clamp\:ex:checked,
+	.lg\:checked\:lc\:ex:checked {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:checked\:stack\:ex:checked {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:checked\:hstack\:ex:checked {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -8894,6 +9664,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:line-clamp\:ex:visited,
+	.lg\:visited\:lc\:ex:visited {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.lg\:visited\:stack\:ex:visited {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.lg\:visited\:hstack\:ex:visited {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -9144,6 +9936,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:line-clamp\:ex,
+	.xl\:lc\:ex {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:stack\:ex {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:hstack\:ex {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -9390,6 +10204,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:line-clamp\:ex:hover,
+	.xl\:hover\:lc\:ex:hover {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:hover\:stack\:ex:hover {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:hover\:hstack\:ex:hover {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -9638,6 +10474,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:line-clamp\:ex:focus,
+	.xl\:focus\:lc\:ex:focus {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:focus\:stack\:ex:focus {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:focus\:hstack\:ex:focus {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -9884,6 +10742,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:line-clamp\:ex:focus-visible,
+	.xl\:focus-visible\:lc\:ex:focus-visible {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:focus-visible\:stack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:focus-visible\:hstack\:ex:focus-visible {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -10132,6 +11012,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:line-clamp\:ex:focus-within,
+	.xl\:focus-within\:lc\:ex:focus-within {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:focus-within\:stack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:focus-within\:hstack\:ex:focus-within {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -10378,6 +11280,28 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:line-clamp\:ex:active,
+	.xl\:active\:lc\:ex:active {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:active\:stack\:ex:active {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:active\:hstack\:ex:active {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
@@ -10626,6 +11550,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:line-clamp\:ex:disabled,
+	.xl\:disabled\:lc\:ex:disabled {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:disabled\:stack\:ex:disabled {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:disabled\:hstack\:ex:disabled {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -10873,6 +11819,28 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:line-clamp\:ex:checked,
+	.xl\:checked\:lc\:ex:checked {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:checked\:stack\:ex:checked {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:checked\:hstack\:ex:checked {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
+
 	/* ===== COMPOSITE UTILITIES — property combinations ===== */
 
 	/* TRUNCATE */
@@ -11119,4 +12087,26 @@
 		gap: var(--space-8) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:line-clamp\:ex:visited,
+	.xl\:visited\:lc\:ex:visited {
+		display: -webkit-box !important;
+		-webkit-box-orient: vertical !important;
+		-webkit-line-clamp: var(--line-clamp-ex) !important;
+		overflow: hidden !important;
+	}
+
+	.xl\:visited\:stack\:ex:visited {
+		display: flex !important;
+		flex-direction: column !important;
+		gap: var(--stack-ex) !important;
+	}
+
+	.xl\:visited\:hstack\:ex:visited {
+		display: flex !important;
+		flex-direction: row !important;
+		align-items: center !important;
+		gap: var(--hstack-ex) !important;
+	}
 }

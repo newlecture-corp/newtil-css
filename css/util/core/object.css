@@ -75,6 +75,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.object-fit\:ex,
+.ofit\:ex {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.object-position\:ex,
+.opos\:ex {
+	object-position: var(--object-position-ex) !important;
+}
+
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 /* OBJECT-FIT */
@@ -151,6 +162,17 @@
 	object-position: top left !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:object-fit\:ex:hover,
+.hover\:ofit\:ex:hover {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.hover\:object-position\:ex:hover,
+.hover\:opos\:ex:hover {
+	object-position: var(--object-position-ex) !important;
+}
 
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -229,6 +251,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:object-fit\:ex:focus,
+.focus\:ofit\:ex:focus {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.focus\:object-position\:ex:focus,
+.focus\:opos\:ex:focus {
+	object-position: var(--object-position-ex) !important;
+}
+
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 /* OBJECT-FIT */
@@ -305,6 +338,17 @@
 	object-position: top left !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:object-fit\:ex:focus-visible,
+.focus-visible\:ofit\:ex:focus-visible {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.focus-visible\:object-position\:ex:focus-visible,
+.focus-visible\:opos\:ex:focus-visible {
+	object-position: var(--object-position-ex) !important;
+}
 
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -383,6 +427,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:object-fit\:ex:focus-within,
+.focus-within\:ofit\:ex:focus-within {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.focus-within\:object-position\:ex:focus-within,
+.focus-within\:opos\:ex:focus-within {
+	object-position: var(--object-position-ex) !important;
+}
+
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 /* OBJECT-FIT */
@@ -459,6 +514,17 @@
 	object-position: top left !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:object-fit\:ex:active,
+.active\:ofit\:ex:active {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.active\:object-position\:ex:active,
+.active\:opos\:ex:active {
+	object-position: var(--object-position-ex) !important;
+}
 
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -537,6 +603,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:object-fit\:ex:disabled,
+.disabled\:ofit\:ex:disabled {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.disabled\:object-position\:ex:disabled,
+.disabled\:opos\:ex:disabled {
+	object-position: var(--object-position-ex) !important;
+}
+
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 /* OBJECT-FIT */
@@ -614,6 +691,17 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:object-fit\:ex:checked,
+.checked\:ofit\:ex:checked {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.checked\:object-position\:ex:checked,
+.checked\:opos\:ex:checked {
+	object-position: var(--object-position-ex) !important;
+}
+
 /* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 /* OBJECT-FIT */
@@ -690,6 +778,17 @@
 	object-position: top left !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:object-fit\:ex:visited,
+.visited\:ofit\:ex:visited {
+	object-fit: var(--object-fit-ex) !important;
+}
+
+.visited\:object-position\:ex:visited,
+.visited\:opos\:ex:visited {
+	object-position: var(--object-position-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
@@ -769,6 +868,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:object-fit\:ex,
+	.sm\:ofit\:ex {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:object-position\:ex,
+	.sm\:opos\:ex {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -845,6 +955,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:object-fit\:ex:hover,
+	.sm\:hover\:ofit\:ex:hover {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:hover\:object-position\:ex:hover,
+	.sm\:hover\:opos\:ex:hover {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -923,6 +1044,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:object-fit\:ex:focus,
+	.sm\:focus\:ofit\:ex:focus {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:focus\:object-position\:ex:focus,
+	.sm\:focus\:opos\:ex:focus {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -999,6 +1131,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:object-fit\:ex:focus-visible,
+	.sm\:focus-visible\:ofit\:ex:focus-visible {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:focus-visible\:object-position\:ex:focus-visible,
+	.sm\:focus-visible\:opos\:ex:focus-visible {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -1077,6 +1220,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:object-fit\:ex:focus-within,
+	.sm\:focus-within\:ofit\:ex:focus-within {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:focus-within\:object-position\:ex:focus-within,
+	.sm\:focus-within\:opos\:ex:focus-within {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1153,6 +1307,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:object-fit\:ex:active,
+	.sm\:active\:ofit\:ex:active {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:active\:object-position\:ex:active,
+	.sm\:active\:opos\:ex:active {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -1231,6 +1396,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:object-fit\:ex:disabled,
+	.sm\:disabled\:ofit\:ex:disabled {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:disabled\:object-position\:ex:disabled,
+	.sm\:disabled\:opos\:ex:disabled {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1308,6 +1484,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:object-fit\:ex:checked,
+	.sm\:checked\:ofit\:ex:checked {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:checked\:object-position\:ex:checked,
+	.sm\:checked\:opos\:ex:checked {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1384,6 +1571,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:object-fit\:ex:visited,
+	.sm\:visited\:ofit\:ex:visited {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.sm\:visited\:object-position\:ex:visited,
+	.sm\:visited\:opos\:ex:visited {
+		object-position: var(--object-position-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -1464,6 +1662,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:object-fit\:ex,
+	.md\:ofit\:ex {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:object-position\:ex,
+	.md\:opos\:ex {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1540,6 +1749,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:object-fit\:ex:hover,
+	.md\:hover\:ofit\:ex:hover {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:hover\:object-position\:ex:hover,
+	.md\:hover\:opos\:ex:hover {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -1618,6 +1838,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:object-fit\:ex:focus,
+	.md\:focus\:ofit\:ex:focus {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:focus\:object-position\:ex:focus,
+	.md\:focus\:opos\:ex:focus {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1694,6 +1925,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:object-fit\:ex:focus-visible,
+	.md\:focus-visible\:ofit\:ex:focus-visible {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:focus-visible\:object-position\:ex:focus-visible,
+	.md\:focus-visible\:opos\:ex:focus-visible {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -1772,6 +2014,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:object-fit\:ex:focus-within,
+	.md\:focus-within\:ofit\:ex:focus-within {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:focus-within\:object-position\:ex:focus-within,
+	.md\:focus-within\:opos\:ex:focus-within {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -1848,6 +2101,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:object-fit\:ex:active,
+	.md\:active\:ofit\:ex:active {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:active\:object-position\:ex:active,
+	.md\:active\:opos\:ex:active {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -1926,6 +2190,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:object-fit\:ex:disabled,
+	.md\:disabled\:ofit\:ex:disabled {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:disabled\:object-position\:ex:disabled,
+	.md\:disabled\:opos\:ex:disabled {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2003,6 +2278,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:object-fit\:ex:checked,
+	.md\:checked\:ofit\:ex:checked {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:checked\:object-position\:ex:checked,
+	.md\:checked\:opos\:ex:checked {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2079,6 +2365,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:object-fit\:ex:visited,
+	.md\:visited\:ofit\:ex:visited {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.md\:visited\:object-position\:ex:visited,
+	.md\:visited\:opos\:ex:visited {
+		object-position: var(--object-position-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -2159,6 +2456,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:object-fit\:ex,
+	.lg\:ofit\:ex {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:object-position\:ex,
+	.lg\:opos\:ex {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2235,6 +2543,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:object-fit\:ex:hover,
+	.lg\:hover\:ofit\:ex:hover {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:hover\:object-position\:ex:hover,
+	.lg\:hover\:opos\:ex:hover {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -2313,6 +2632,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:object-fit\:ex:focus,
+	.lg\:focus\:ofit\:ex:focus {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:focus\:object-position\:ex:focus,
+	.lg\:focus\:opos\:ex:focus {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2389,6 +2719,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:object-fit\:ex:focus-visible,
+	.lg\:focus-visible\:ofit\:ex:focus-visible {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:focus-visible\:object-position\:ex:focus-visible,
+	.lg\:focus-visible\:opos\:ex:focus-visible {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -2467,6 +2808,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:object-fit\:ex:focus-within,
+	.lg\:focus-within\:ofit\:ex:focus-within {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:focus-within\:object-position\:ex:focus-within,
+	.lg\:focus-within\:opos\:ex:focus-within {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2543,6 +2895,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:object-fit\:ex:active,
+	.lg\:active\:ofit\:ex:active {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:active\:object-position\:ex:active,
+	.lg\:active\:opos\:ex:active {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -2621,6 +2984,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:object-fit\:ex:disabled,
+	.lg\:disabled\:ofit\:ex:disabled {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:disabled\:object-position\:ex:disabled,
+	.lg\:disabled\:opos\:ex:disabled {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2698,6 +3072,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:object-fit\:ex:checked,
+	.lg\:checked\:ofit\:ex:checked {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:checked\:object-position\:ex:checked,
+	.lg\:checked\:opos\:ex:checked {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2774,6 +3159,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:object-fit\:ex:visited,
+	.lg\:visited\:ofit\:ex:visited {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.lg\:visited\:object-position\:ex:visited,
+	.lg\:visited\:opos\:ex:visited {
+		object-position: var(--object-position-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -2854,6 +3250,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:object-fit\:ex,
+	.xl\:ofit\:ex {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:object-position\:ex,
+	.xl\:opos\:ex {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -2930,6 +3337,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:object-fit\:ex:hover,
+	.xl\:hover\:ofit\:ex:hover {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:hover\:object-position\:ex:hover,
+	.xl\:hover\:opos\:ex:hover {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -3008,6 +3426,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:object-fit\:ex:focus,
+	.xl\:focus\:ofit\:ex:focus {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:focus\:object-position\:ex:focus,
+	.xl\:focus\:opos\:ex:focus {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -3084,6 +3513,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:object-fit\:ex:focus-visible,
+	.xl\:focus-visible\:ofit\:ex:focus-visible {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:focus-visible\:object-position\:ex:focus-visible,
+	.xl\:focus-visible\:opos\:ex:focus-visible {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -3162,6 +3602,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:object-fit\:ex:focus-within,
+	.xl\:focus-within\:ofit\:ex:focus-within {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:focus-within\:object-position\:ex:focus-within,
+	.xl\:focus-within\:opos\:ex:focus-within {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -3238,6 +3689,17 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:object-fit\:ex:active,
+	.xl\:active\:ofit\:ex:active {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:active\:object-position\:ex:active,
+	.xl\:active\:opos\:ex:active {
+		object-position: var(--object-position-ex) !important;
+	}
 
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
@@ -3316,6 +3778,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:object-fit\:ex:disabled,
+	.xl\:disabled\:ofit\:ex:disabled {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:disabled\:object-position\:ex:disabled,
+	.xl\:disabled\:opos\:ex:disabled {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -3393,6 +3866,17 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:object-fit\:ex:checked,
+	.xl\:checked\:ofit\:ex:checked {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:checked\:object-position\:ex:checked,
+	.xl\:checked\:opos\:ex:checked {
+		object-position: var(--object-position-ex) !important;
+	}
+
 	/* ===== OBJECT UTILITIES — object-fit + object-position ===== */
 
 	/* OBJECT-FIT */
@@ -3469,4 +3953,15 @@
 		object-position: top left !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:object-fit\:ex:visited,
+	.xl\:visited\:ofit\:ex:visited {
+		object-fit: var(--object-fit-ex) !important;
+	}
+
+	.xl\:visited\:object-position\:ex:visited,
+	.xl\:visited\:opos\:ex:visited {
+		object-position: var(--object-position-ex) !important;
+	}
 }

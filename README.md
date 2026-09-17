@@ -55,6 +55,14 @@ export default defineConfig({ plugins: [newtilCss()] });
 
 반응형은 `sm: md: lg: xl:`, 상태는 `hover: focus: active: disabled:` 등을 앞에 붙입니다 (`md:hover:background-color:primary`).
 
+토큰 단계에 없는 값은 `속성:ex` 와 `--속성-ex` 변수로 줍니다. 규칙은 고정이라 CDN 으로 링크해도 되고, 값은 요소의 `style` 에 있어 도구가 바꾸기 쉽습니다.
+
+```html
+<div class="width:ex padding-x:ex" style="--width-ex: 20px; --padding-x-ex: 1.25rem">…</div>
+```
+
+축약·반응형·상태 접두는 그대로 됩니다(`sm:w:ex`, `hover:color:ex`). `blur:ex` 처럼 함수 값은 인자 자리에 변수가 들어갑니다(`filter: blur(var(--blur-ex))`). 페이지에 `ex` 가 몇 개인지가 곧 아직 부품(토큰·컴포넌트)이 못 담은 값의 수입니다.
+
 임포트 가능한 경로는 `@newtil/css`(전개본), `@newtil/css/utils.css`(유틸리티만), `@newtil/css/reset.css`(리셋만), `@newtil/css/jit/postcss-plugin`, `@newtil/css/jit/vite-plugin.js`, `@newtil/css/jit/jit.js`(CLI) 입니다.
 
 ## 문서

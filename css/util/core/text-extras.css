@@ -287,6 +287,47 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.text-shadow\:ex,
+.tsh\:ex {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.text-indent\:ex,
+.ti\:ex {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.text-overflow\:ex,
+.to\:ex {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.vertical-align\:ex,
+.va\:ex {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.word-spacing\:ex,
+.wsp\:ex {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.text-wrap\:ex,
+.tw\:ex {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.hyphens\:ex,
+.hy\:ex {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.direction\:ex,
+.dir\:ex {
+	direction: var(--direction-ex) !important;
+}
+
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 /* TEXT-SHADOW */
@@ -575,6 +616,47 @@
 	direction: rtl !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:text-shadow\:ex:hover,
+.hover\:tsh\:ex:hover {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.hover\:text-indent\:ex:hover,
+.hover\:ti\:ex:hover {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.hover\:text-overflow\:ex:hover,
+.hover\:to\:ex:hover {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.hover\:vertical-align\:ex:hover,
+.hover\:va\:ex:hover {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.hover\:word-spacing\:ex:hover,
+.hover\:wsp\:ex:hover {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.hover\:text-wrap\:ex:hover,
+.hover\:tw\:ex:hover {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.hover\:hyphens\:ex:hover,
+.hover\:hy\:ex:hover {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.hover\:direction\:ex:hover,
+.hover\:dir\:ex:hover {
+	direction: var(--direction-ex) !important;
+}
 
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -865,6 +947,47 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:text-shadow\:ex:focus,
+.focus\:tsh\:ex:focus {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.focus\:text-indent\:ex:focus,
+.focus\:ti\:ex:focus {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.focus\:text-overflow\:ex:focus,
+.focus\:to\:ex:focus {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.focus\:vertical-align\:ex:focus,
+.focus\:va\:ex:focus {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.focus\:word-spacing\:ex:focus,
+.focus\:wsp\:ex:focus {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.focus\:text-wrap\:ex:focus,
+.focus\:tw\:ex:focus {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.focus\:hyphens\:ex:focus,
+.focus\:hy\:ex:focus {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.focus\:direction\:ex:focus,
+.focus\:dir\:ex:focus {
+	direction: var(--direction-ex) !important;
+}
+
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 /* TEXT-SHADOW */
@@ -1153,6 +1276,47 @@
 	direction: rtl !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:text-shadow\:ex:focus-visible,
+.focus-visible\:tsh\:ex:focus-visible {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.focus-visible\:text-indent\:ex:focus-visible,
+.focus-visible\:ti\:ex:focus-visible {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.focus-visible\:text-overflow\:ex:focus-visible,
+.focus-visible\:to\:ex:focus-visible {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.focus-visible\:vertical-align\:ex:focus-visible,
+.focus-visible\:va\:ex:focus-visible {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.focus-visible\:word-spacing\:ex:focus-visible,
+.focus-visible\:wsp\:ex:focus-visible {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.focus-visible\:text-wrap\:ex:focus-visible,
+.focus-visible\:tw\:ex:focus-visible {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.focus-visible\:hyphens\:ex:focus-visible,
+.focus-visible\:hy\:ex:focus-visible {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.focus-visible\:direction\:ex:focus-visible,
+.focus-visible\:dir\:ex:focus-visible {
+	direction: var(--direction-ex) !important;
+}
 
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -1443,6 +1607,47 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:text-shadow\:ex:focus-within,
+.focus-within\:tsh\:ex:focus-within {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.focus-within\:text-indent\:ex:focus-within,
+.focus-within\:ti\:ex:focus-within {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.focus-within\:text-overflow\:ex:focus-within,
+.focus-within\:to\:ex:focus-within {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.focus-within\:vertical-align\:ex:focus-within,
+.focus-within\:va\:ex:focus-within {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.focus-within\:word-spacing\:ex:focus-within,
+.focus-within\:wsp\:ex:focus-within {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.focus-within\:text-wrap\:ex:focus-within,
+.focus-within\:tw\:ex:focus-within {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.focus-within\:hyphens\:ex:focus-within,
+.focus-within\:hy\:ex:focus-within {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.focus-within\:direction\:ex:focus-within,
+.focus-within\:dir\:ex:focus-within {
+	direction: var(--direction-ex) !important;
+}
+
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 /* TEXT-SHADOW */
@@ -1731,6 +1936,47 @@
 	direction: rtl !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:text-shadow\:ex:active,
+.active\:tsh\:ex:active {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.active\:text-indent\:ex:active,
+.active\:ti\:ex:active {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.active\:text-overflow\:ex:active,
+.active\:to\:ex:active {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.active\:vertical-align\:ex:active,
+.active\:va\:ex:active {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.active\:word-spacing\:ex:active,
+.active\:wsp\:ex:active {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.active\:text-wrap\:ex:active,
+.active\:tw\:ex:active {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.active\:hyphens\:ex:active,
+.active\:hy\:ex:active {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.active\:direction\:ex:active,
+.active\:dir\:ex:active {
+	direction: var(--direction-ex) !important;
+}
 
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -2021,6 +2267,47 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:text-shadow\:ex:disabled,
+.disabled\:tsh\:ex:disabled {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.disabled\:text-indent\:ex:disabled,
+.disabled\:ti\:ex:disabled {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.disabled\:text-overflow\:ex:disabled,
+.disabled\:to\:ex:disabled {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.disabled\:vertical-align\:ex:disabled,
+.disabled\:va\:ex:disabled {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.disabled\:word-spacing\:ex:disabled,
+.disabled\:wsp\:ex:disabled {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.disabled\:text-wrap\:ex:disabled,
+.disabled\:tw\:ex:disabled {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.disabled\:hyphens\:ex:disabled,
+.disabled\:hy\:ex:disabled {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.disabled\:direction\:ex:disabled,
+.disabled\:dir\:ex:disabled {
+	direction: var(--direction-ex) !important;
+}
+
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 /* TEXT-SHADOW */
@@ -2310,6 +2597,47 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:text-shadow\:ex:checked,
+.checked\:tsh\:ex:checked {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.checked\:text-indent\:ex:checked,
+.checked\:ti\:ex:checked {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.checked\:text-overflow\:ex:checked,
+.checked\:to\:ex:checked {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.checked\:vertical-align\:ex:checked,
+.checked\:va\:ex:checked {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.checked\:word-spacing\:ex:checked,
+.checked\:wsp\:ex:checked {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.checked\:text-wrap\:ex:checked,
+.checked\:tw\:ex:checked {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.checked\:hyphens\:ex:checked,
+.checked\:hy\:ex:checked {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.checked\:direction\:ex:checked,
+.checked\:dir\:ex:checked {
+	direction: var(--direction-ex) !important;
+}
+
 /* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 /* TEXT-SHADOW */
@@ -2598,6 +2926,47 @@
 	direction: rtl !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:text-shadow\:ex:visited,
+.visited\:tsh\:ex:visited {
+	text-shadow: var(--text-shadow-ex) !important;
+}
+
+.visited\:text-indent\:ex:visited,
+.visited\:ti\:ex:visited {
+	text-indent: var(--text-indent-ex) !important;
+}
+
+.visited\:text-overflow\:ex:visited,
+.visited\:to\:ex:visited {
+	text-overflow: var(--text-overflow-ex) !important;
+}
+
+.visited\:vertical-align\:ex:visited,
+.visited\:va\:ex:visited {
+	vertical-align: var(--vertical-align-ex) !important;
+}
+
+.visited\:word-spacing\:ex:visited,
+.visited\:wsp\:ex:visited {
+	word-spacing: var(--word-spacing-ex) !important;
+}
+
+.visited\:text-wrap\:ex:visited,
+.visited\:tw\:ex:visited {
+	text-wrap: var(--text-wrap-ex) !important;
+}
+
+.visited\:hyphens\:ex:visited,
+.visited\:hy\:ex:visited {
+	hyphens: var(--hyphens-ex) !important;
+}
+
+.visited\:direction\:ex:visited,
+.visited\:dir\:ex:visited {
+	direction: var(--direction-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
@@ -2889,6 +3258,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:text-shadow\:ex,
+	.sm\:tsh\:ex {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:text-indent\:ex,
+	.sm\:ti\:ex {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:text-overflow\:ex,
+	.sm\:to\:ex {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:vertical-align\:ex,
+	.sm\:va\:ex {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:word-spacing\:ex,
+	.sm\:wsp\:ex {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:text-wrap\:ex,
+	.sm\:tw\:ex {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:hyphens\:ex,
+	.sm\:hy\:ex {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:direction\:ex,
+	.sm\:dir\:ex {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -3177,6 +3587,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:text-shadow\:ex:hover,
+	.sm\:hover\:tsh\:ex:hover {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:hover\:text-indent\:ex:hover,
+	.sm\:hover\:ti\:ex:hover {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:hover\:text-overflow\:ex:hover,
+	.sm\:hover\:to\:ex:hover {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:hover\:vertical-align\:ex:hover,
+	.sm\:hover\:va\:ex:hover {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:hover\:word-spacing\:ex:hover,
+	.sm\:hover\:wsp\:ex:hover {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:hover\:text-wrap\:ex:hover,
+	.sm\:hover\:tw\:ex:hover {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:hover\:hyphens\:ex:hover,
+	.sm\:hover\:hy\:ex:hover {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:hover\:direction\:ex:hover,
+	.sm\:hover\:dir\:ex:hover {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -3467,6 +3918,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:text-shadow\:ex:focus,
+	.sm\:focus\:tsh\:ex:focus {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:focus\:text-indent\:ex:focus,
+	.sm\:focus\:ti\:ex:focus {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:focus\:text-overflow\:ex:focus,
+	.sm\:focus\:to\:ex:focus {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:focus\:vertical-align\:ex:focus,
+	.sm\:focus\:va\:ex:focus {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:focus\:word-spacing\:ex:focus,
+	.sm\:focus\:wsp\:ex:focus {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:focus\:text-wrap\:ex:focus,
+	.sm\:focus\:tw\:ex:focus {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:focus\:hyphens\:ex:focus,
+	.sm\:focus\:hy\:ex:focus {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:focus\:direction\:ex:focus,
+	.sm\:focus\:dir\:ex:focus {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -3755,6 +4247,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:text-shadow\:ex:focus-visible,
+	.sm\:focus-visible\:tsh\:ex:focus-visible {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-indent\:ex:focus-visible,
+	.sm\:focus-visible\:ti\:ex:focus-visible {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-overflow\:ex:focus-visible,
+	.sm\:focus-visible\:to\:ex:focus-visible {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:focus-visible\:vertical-align\:ex:focus-visible,
+	.sm\:focus-visible\:va\:ex:focus-visible {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:focus-visible\:word-spacing\:ex:focus-visible,
+	.sm\:focus-visible\:wsp\:ex:focus-visible {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:focus-visible\:text-wrap\:ex:focus-visible,
+	.sm\:focus-visible\:tw\:ex:focus-visible {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:focus-visible\:hyphens\:ex:focus-visible,
+	.sm\:focus-visible\:hy\:ex:focus-visible {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:focus-visible\:direction\:ex:focus-visible,
+	.sm\:focus-visible\:dir\:ex:focus-visible {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -4045,6 +4578,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:text-shadow\:ex:focus-within,
+	.sm\:focus-within\:tsh\:ex:focus-within {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:focus-within\:text-indent\:ex:focus-within,
+	.sm\:focus-within\:ti\:ex:focus-within {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:focus-within\:text-overflow\:ex:focus-within,
+	.sm\:focus-within\:to\:ex:focus-within {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:focus-within\:vertical-align\:ex:focus-within,
+	.sm\:focus-within\:va\:ex:focus-within {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:focus-within\:word-spacing\:ex:focus-within,
+	.sm\:focus-within\:wsp\:ex:focus-within {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:focus-within\:text-wrap\:ex:focus-within,
+	.sm\:focus-within\:tw\:ex:focus-within {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:focus-within\:hyphens\:ex:focus-within,
+	.sm\:focus-within\:hy\:ex:focus-within {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:focus-within\:direction\:ex:focus-within,
+	.sm\:focus-within\:dir\:ex:focus-within {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -4333,6 +4907,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:text-shadow\:ex:active,
+	.sm\:active\:tsh\:ex:active {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:active\:text-indent\:ex:active,
+	.sm\:active\:ti\:ex:active {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:active\:text-overflow\:ex:active,
+	.sm\:active\:to\:ex:active {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:active\:vertical-align\:ex:active,
+	.sm\:active\:va\:ex:active {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:active\:word-spacing\:ex:active,
+	.sm\:active\:wsp\:ex:active {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:active\:text-wrap\:ex:active,
+	.sm\:active\:tw\:ex:active {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:active\:hyphens\:ex:active,
+	.sm\:active\:hy\:ex:active {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:active\:direction\:ex:active,
+	.sm\:active\:dir\:ex:active {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -4623,6 +5238,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:text-shadow\:ex:disabled,
+	.sm\:disabled\:tsh\:ex:disabled {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:disabled\:text-indent\:ex:disabled,
+	.sm\:disabled\:ti\:ex:disabled {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:disabled\:text-overflow\:ex:disabled,
+	.sm\:disabled\:to\:ex:disabled {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:disabled\:vertical-align\:ex:disabled,
+	.sm\:disabled\:va\:ex:disabled {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:disabled\:word-spacing\:ex:disabled,
+	.sm\:disabled\:wsp\:ex:disabled {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:disabled\:text-wrap\:ex:disabled,
+	.sm\:disabled\:tw\:ex:disabled {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:disabled\:hyphens\:ex:disabled,
+	.sm\:disabled\:hy\:ex:disabled {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:disabled\:direction\:ex:disabled,
+	.sm\:disabled\:dir\:ex:disabled {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -4912,6 +5568,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:text-shadow\:ex:checked,
+	.sm\:checked\:tsh\:ex:checked {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:checked\:text-indent\:ex:checked,
+	.sm\:checked\:ti\:ex:checked {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:checked\:text-overflow\:ex:checked,
+	.sm\:checked\:to\:ex:checked {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:checked\:vertical-align\:ex:checked,
+	.sm\:checked\:va\:ex:checked {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:checked\:word-spacing\:ex:checked,
+	.sm\:checked\:wsp\:ex:checked {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:checked\:text-wrap\:ex:checked,
+	.sm\:checked\:tw\:ex:checked {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:checked\:hyphens\:ex:checked,
+	.sm\:checked\:hy\:ex:checked {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:checked\:direction\:ex:checked,
+	.sm\:checked\:dir\:ex:checked {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -5200,6 +5897,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:text-shadow\:ex:visited,
+	.sm\:visited\:tsh\:ex:visited {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.sm\:visited\:text-indent\:ex:visited,
+	.sm\:visited\:ti\:ex:visited {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.sm\:visited\:text-overflow\:ex:visited,
+	.sm\:visited\:to\:ex:visited {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.sm\:visited\:vertical-align\:ex:visited,
+	.sm\:visited\:va\:ex:visited {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.sm\:visited\:word-spacing\:ex:visited,
+	.sm\:visited\:wsp\:ex:visited {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.sm\:visited\:text-wrap\:ex:visited,
+	.sm\:visited\:tw\:ex:visited {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.sm\:visited\:hyphens\:ex:visited,
+	.sm\:visited\:hy\:ex:visited {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.sm\:visited\:direction\:ex:visited,
+	.sm\:visited\:dir\:ex:visited {
+		direction: var(--direction-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -5492,6 +6230,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:text-shadow\:ex,
+	.md\:tsh\:ex {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:text-indent\:ex,
+	.md\:ti\:ex {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:text-overflow\:ex,
+	.md\:to\:ex {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:vertical-align\:ex,
+	.md\:va\:ex {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:word-spacing\:ex,
+	.md\:wsp\:ex {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:text-wrap\:ex,
+	.md\:tw\:ex {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:hyphens\:ex,
+	.md\:hy\:ex {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:direction\:ex,
+	.md\:dir\:ex {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -5780,6 +6559,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:text-shadow\:ex:hover,
+	.md\:hover\:tsh\:ex:hover {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:hover\:text-indent\:ex:hover,
+	.md\:hover\:ti\:ex:hover {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:hover\:text-overflow\:ex:hover,
+	.md\:hover\:to\:ex:hover {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:hover\:vertical-align\:ex:hover,
+	.md\:hover\:va\:ex:hover {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:hover\:word-spacing\:ex:hover,
+	.md\:hover\:wsp\:ex:hover {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:hover\:text-wrap\:ex:hover,
+	.md\:hover\:tw\:ex:hover {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:hover\:hyphens\:ex:hover,
+	.md\:hover\:hy\:ex:hover {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:hover\:direction\:ex:hover,
+	.md\:hover\:dir\:ex:hover {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -6070,6 +6890,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:text-shadow\:ex:focus,
+	.md\:focus\:tsh\:ex:focus {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:focus\:text-indent\:ex:focus,
+	.md\:focus\:ti\:ex:focus {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:focus\:text-overflow\:ex:focus,
+	.md\:focus\:to\:ex:focus {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:focus\:vertical-align\:ex:focus,
+	.md\:focus\:va\:ex:focus {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:focus\:word-spacing\:ex:focus,
+	.md\:focus\:wsp\:ex:focus {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:focus\:text-wrap\:ex:focus,
+	.md\:focus\:tw\:ex:focus {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:focus\:hyphens\:ex:focus,
+	.md\:focus\:hy\:ex:focus {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:focus\:direction\:ex:focus,
+	.md\:focus\:dir\:ex:focus {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -6358,6 +7219,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:text-shadow\:ex:focus-visible,
+	.md\:focus-visible\:tsh\:ex:focus-visible {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:focus-visible\:text-indent\:ex:focus-visible,
+	.md\:focus-visible\:ti\:ex:focus-visible {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:focus-visible\:text-overflow\:ex:focus-visible,
+	.md\:focus-visible\:to\:ex:focus-visible {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:focus-visible\:vertical-align\:ex:focus-visible,
+	.md\:focus-visible\:va\:ex:focus-visible {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:focus-visible\:word-spacing\:ex:focus-visible,
+	.md\:focus-visible\:wsp\:ex:focus-visible {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:focus-visible\:text-wrap\:ex:focus-visible,
+	.md\:focus-visible\:tw\:ex:focus-visible {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:focus-visible\:hyphens\:ex:focus-visible,
+	.md\:focus-visible\:hy\:ex:focus-visible {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:focus-visible\:direction\:ex:focus-visible,
+	.md\:focus-visible\:dir\:ex:focus-visible {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -6648,6 +7550,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:text-shadow\:ex:focus-within,
+	.md\:focus-within\:tsh\:ex:focus-within {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:focus-within\:text-indent\:ex:focus-within,
+	.md\:focus-within\:ti\:ex:focus-within {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:focus-within\:text-overflow\:ex:focus-within,
+	.md\:focus-within\:to\:ex:focus-within {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:focus-within\:vertical-align\:ex:focus-within,
+	.md\:focus-within\:va\:ex:focus-within {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:focus-within\:word-spacing\:ex:focus-within,
+	.md\:focus-within\:wsp\:ex:focus-within {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:focus-within\:text-wrap\:ex:focus-within,
+	.md\:focus-within\:tw\:ex:focus-within {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:focus-within\:hyphens\:ex:focus-within,
+	.md\:focus-within\:hy\:ex:focus-within {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:focus-within\:direction\:ex:focus-within,
+	.md\:focus-within\:dir\:ex:focus-within {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -6936,6 +7879,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:text-shadow\:ex:active,
+	.md\:active\:tsh\:ex:active {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:active\:text-indent\:ex:active,
+	.md\:active\:ti\:ex:active {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:active\:text-overflow\:ex:active,
+	.md\:active\:to\:ex:active {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:active\:vertical-align\:ex:active,
+	.md\:active\:va\:ex:active {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:active\:word-spacing\:ex:active,
+	.md\:active\:wsp\:ex:active {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:active\:text-wrap\:ex:active,
+	.md\:active\:tw\:ex:active {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:active\:hyphens\:ex:active,
+	.md\:active\:hy\:ex:active {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:active\:direction\:ex:active,
+	.md\:active\:dir\:ex:active {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -7226,6 +8210,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:text-shadow\:ex:disabled,
+	.md\:disabled\:tsh\:ex:disabled {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:disabled\:text-indent\:ex:disabled,
+	.md\:disabled\:ti\:ex:disabled {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:disabled\:text-overflow\:ex:disabled,
+	.md\:disabled\:to\:ex:disabled {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:disabled\:vertical-align\:ex:disabled,
+	.md\:disabled\:va\:ex:disabled {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:disabled\:word-spacing\:ex:disabled,
+	.md\:disabled\:wsp\:ex:disabled {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:disabled\:text-wrap\:ex:disabled,
+	.md\:disabled\:tw\:ex:disabled {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:disabled\:hyphens\:ex:disabled,
+	.md\:disabled\:hy\:ex:disabled {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:disabled\:direction\:ex:disabled,
+	.md\:disabled\:dir\:ex:disabled {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -7515,6 +8540,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:text-shadow\:ex:checked,
+	.md\:checked\:tsh\:ex:checked {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:checked\:text-indent\:ex:checked,
+	.md\:checked\:ti\:ex:checked {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:checked\:text-overflow\:ex:checked,
+	.md\:checked\:to\:ex:checked {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:checked\:vertical-align\:ex:checked,
+	.md\:checked\:va\:ex:checked {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:checked\:word-spacing\:ex:checked,
+	.md\:checked\:wsp\:ex:checked {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:checked\:text-wrap\:ex:checked,
+	.md\:checked\:tw\:ex:checked {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:checked\:hyphens\:ex:checked,
+	.md\:checked\:hy\:ex:checked {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:checked\:direction\:ex:checked,
+	.md\:checked\:dir\:ex:checked {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -7803,6 +8869,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:text-shadow\:ex:visited,
+	.md\:visited\:tsh\:ex:visited {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.md\:visited\:text-indent\:ex:visited,
+	.md\:visited\:ti\:ex:visited {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.md\:visited\:text-overflow\:ex:visited,
+	.md\:visited\:to\:ex:visited {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.md\:visited\:vertical-align\:ex:visited,
+	.md\:visited\:va\:ex:visited {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.md\:visited\:word-spacing\:ex:visited,
+	.md\:visited\:wsp\:ex:visited {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.md\:visited\:text-wrap\:ex:visited,
+	.md\:visited\:tw\:ex:visited {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.md\:visited\:hyphens\:ex:visited,
+	.md\:visited\:hy\:ex:visited {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.md\:visited\:direction\:ex:visited,
+	.md\:visited\:dir\:ex:visited {
+		direction: var(--direction-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -8095,6 +9202,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:text-shadow\:ex,
+	.lg\:tsh\:ex {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:text-indent\:ex,
+	.lg\:ti\:ex {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:text-overflow\:ex,
+	.lg\:to\:ex {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:vertical-align\:ex,
+	.lg\:va\:ex {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:word-spacing\:ex,
+	.lg\:wsp\:ex {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:text-wrap\:ex,
+	.lg\:tw\:ex {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:hyphens\:ex,
+	.lg\:hy\:ex {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:direction\:ex,
+	.lg\:dir\:ex {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -8383,6 +9531,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:text-shadow\:ex:hover,
+	.lg\:hover\:tsh\:ex:hover {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:hover\:text-indent\:ex:hover,
+	.lg\:hover\:ti\:ex:hover {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:hover\:text-overflow\:ex:hover,
+	.lg\:hover\:to\:ex:hover {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:hover\:vertical-align\:ex:hover,
+	.lg\:hover\:va\:ex:hover {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:hover\:word-spacing\:ex:hover,
+	.lg\:hover\:wsp\:ex:hover {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:hover\:text-wrap\:ex:hover,
+	.lg\:hover\:tw\:ex:hover {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:hover\:hyphens\:ex:hover,
+	.lg\:hover\:hy\:ex:hover {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:hover\:direction\:ex:hover,
+	.lg\:hover\:dir\:ex:hover {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -8673,6 +9862,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:text-shadow\:ex:focus,
+	.lg\:focus\:tsh\:ex:focus {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:focus\:text-indent\:ex:focus,
+	.lg\:focus\:ti\:ex:focus {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:focus\:text-overflow\:ex:focus,
+	.lg\:focus\:to\:ex:focus {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:focus\:vertical-align\:ex:focus,
+	.lg\:focus\:va\:ex:focus {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:focus\:word-spacing\:ex:focus,
+	.lg\:focus\:wsp\:ex:focus {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:focus\:text-wrap\:ex:focus,
+	.lg\:focus\:tw\:ex:focus {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:focus\:hyphens\:ex:focus,
+	.lg\:focus\:hy\:ex:focus {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:focus\:direction\:ex:focus,
+	.lg\:focus\:dir\:ex:focus {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -8961,6 +10191,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:text-shadow\:ex:focus-visible,
+	.lg\:focus-visible\:tsh\:ex:focus-visible {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-indent\:ex:focus-visible,
+	.lg\:focus-visible\:ti\:ex:focus-visible {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-overflow\:ex:focus-visible,
+	.lg\:focus-visible\:to\:ex:focus-visible {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:focus-visible\:vertical-align\:ex:focus-visible,
+	.lg\:focus-visible\:va\:ex:focus-visible {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:focus-visible\:word-spacing\:ex:focus-visible,
+	.lg\:focus-visible\:wsp\:ex:focus-visible {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:focus-visible\:text-wrap\:ex:focus-visible,
+	.lg\:focus-visible\:tw\:ex:focus-visible {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:focus-visible\:hyphens\:ex:focus-visible,
+	.lg\:focus-visible\:hy\:ex:focus-visible {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:focus-visible\:direction\:ex:focus-visible,
+	.lg\:focus-visible\:dir\:ex:focus-visible {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -9251,6 +10522,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:text-shadow\:ex:focus-within,
+	.lg\:focus-within\:tsh\:ex:focus-within {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:focus-within\:text-indent\:ex:focus-within,
+	.lg\:focus-within\:ti\:ex:focus-within {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:focus-within\:text-overflow\:ex:focus-within,
+	.lg\:focus-within\:to\:ex:focus-within {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:focus-within\:vertical-align\:ex:focus-within,
+	.lg\:focus-within\:va\:ex:focus-within {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:focus-within\:word-spacing\:ex:focus-within,
+	.lg\:focus-within\:wsp\:ex:focus-within {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:focus-within\:text-wrap\:ex:focus-within,
+	.lg\:focus-within\:tw\:ex:focus-within {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:focus-within\:hyphens\:ex:focus-within,
+	.lg\:focus-within\:hy\:ex:focus-within {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:focus-within\:direction\:ex:focus-within,
+	.lg\:focus-within\:dir\:ex:focus-within {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -9539,6 +10851,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:text-shadow\:ex:active,
+	.lg\:active\:tsh\:ex:active {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:active\:text-indent\:ex:active,
+	.lg\:active\:ti\:ex:active {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:active\:text-overflow\:ex:active,
+	.lg\:active\:to\:ex:active {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:active\:vertical-align\:ex:active,
+	.lg\:active\:va\:ex:active {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:active\:word-spacing\:ex:active,
+	.lg\:active\:wsp\:ex:active {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:active\:text-wrap\:ex:active,
+	.lg\:active\:tw\:ex:active {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:active\:hyphens\:ex:active,
+	.lg\:active\:hy\:ex:active {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:active\:direction\:ex:active,
+	.lg\:active\:dir\:ex:active {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -9829,6 +11182,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:text-shadow\:ex:disabled,
+	.lg\:disabled\:tsh\:ex:disabled {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:disabled\:text-indent\:ex:disabled,
+	.lg\:disabled\:ti\:ex:disabled {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:disabled\:text-overflow\:ex:disabled,
+	.lg\:disabled\:to\:ex:disabled {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:disabled\:vertical-align\:ex:disabled,
+	.lg\:disabled\:va\:ex:disabled {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:disabled\:word-spacing\:ex:disabled,
+	.lg\:disabled\:wsp\:ex:disabled {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:disabled\:text-wrap\:ex:disabled,
+	.lg\:disabled\:tw\:ex:disabled {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:disabled\:hyphens\:ex:disabled,
+	.lg\:disabled\:hy\:ex:disabled {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:disabled\:direction\:ex:disabled,
+	.lg\:disabled\:dir\:ex:disabled {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -10118,6 +11512,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:text-shadow\:ex:checked,
+	.lg\:checked\:tsh\:ex:checked {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:checked\:text-indent\:ex:checked,
+	.lg\:checked\:ti\:ex:checked {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:checked\:text-overflow\:ex:checked,
+	.lg\:checked\:to\:ex:checked {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:checked\:vertical-align\:ex:checked,
+	.lg\:checked\:va\:ex:checked {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:checked\:word-spacing\:ex:checked,
+	.lg\:checked\:wsp\:ex:checked {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:checked\:text-wrap\:ex:checked,
+	.lg\:checked\:tw\:ex:checked {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:checked\:hyphens\:ex:checked,
+	.lg\:checked\:hy\:ex:checked {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:checked\:direction\:ex:checked,
+	.lg\:checked\:dir\:ex:checked {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -10406,6 +11841,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:text-shadow\:ex:visited,
+	.lg\:visited\:tsh\:ex:visited {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.lg\:visited\:text-indent\:ex:visited,
+	.lg\:visited\:ti\:ex:visited {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.lg\:visited\:text-overflow\:ex:visited,
+	.lg\:visited\:to\:ex:visited {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.lg\:visited\:vertical-align\:ex:visited,
+	.lg\:visited\:va\:ex:visited {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.lg\:visited\:word-spacing\:ex:visited,
+	.lg\:visited\:wsp\:ex:visited {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.lg\:visited\:text-wrap\:ex:visited,
+	.lg\:visited\:tw\:ex:visited {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.lg\:visited\:hyphens\:ex:visited,
+	.lg\:visited\:hy\:ex:visited {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.lg\:visited\:direction\:ex:visited,
+	.lg\:visited\:dir\:ex:visited {
+		direction: var(--direction-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -10698,6 +12174,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:text-shadow\:ex,
+	.xl\:tsh\:ex {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:text-indent\:ex,
+	.xl\:ti\:ex {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:text-overflow\:ex,
+	.xl\:to\:ex {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:vertical-align\:ex,
+	.xl\:va\:ex {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:word-spacing\:ex,
+	.xl\:wsp\:ex {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:text-wrap\:ex,
+	.xl\:tw\:ex {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:hyphens\:ex,
+	.xl\:hy\:ex {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:direction\:ex,
+	.xl\:dir\:ex {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -10986,6 +12503,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:text-shadow\:ex:hover,
+	.xl\:hover\:tsh\:ex:hover {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:hover\:text-indent\:ex:hover,
+	.xl\:hover\:ti\:ex:hover {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:hover\:text-overflow\:ex:hover,
+	.xl\:hover\:to\:ex:hover {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:hover\:vertical-align\:ex:hover,
+	.xl\:hover\:va\:ex:hover {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:hover\:word-spacing\:ex:hover,
+	.xl\:hover\:wsp\:ex:hover {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:hover\:text-wrap\:ex:hover,
+	.xl\:hover\:tw\:ex:hover {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:hover\:hyphens\:ex:hover,
+	.xl\:hover\:hy\:ex:hover {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:hover\:direction\:ex:hover,
+	.xl\:hover\:dir\:ex:hover {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -11276,6 +12834,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:text-shadow\:ex:focus,
+	.xl\:focus\:tsh\:ex:focus {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:focus\:text-indent\:ex:focus,
+	.xl\:focus\:ti\:ex:focus {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:focus\:text-overflow\:ex:focus,
+	.xl\:focus\:to\:ex:focus {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:focus\:vertical-align\:ex:focus,
+	.xl\:focus\:va\:ex:focus {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:focus\:word-spacing\:ex:focus,
+	.xl\:focus\:wsp\:ex:focus {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:focus\:text-wrap\:ex:focus,
+	.xl\:focus\:tw\:ex:focus {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:focus\:hyphens\:ex:focus,
+	.xl\:focus\:hy\:ex:focus {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:focus\:direction\:ex:focus,
+	.xl\:focus\:dir\:ex:focus {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -11564,6 +13163,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:text-shadow\:ex:focus-visible,
+	.xl\:focus-visible\:tsh\:ex:focus-visible {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-indent\:ex:focus-visible,
+	.xl\:focus-visible\:ti\:ex:focus-visible {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-overflow\:ex:focus-visible,
+	.xl\:focus-visible\:to\:ex:focus-visible {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:focus-visible\:vertical-align\:ex:focus-visible,
+	.xl\:focus-visible\:va\:ex:focus-visible {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:focus-visible\:word-spacing\:ex:focus-visible,
+	.xl\:focus-visible\:wsp\:ex:focus-visible {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:focus-visible\:text-wrap\:ex:focus-visible,
+	.xl\:focus-visible\:tw\:ex:focus-visible {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:focus-visible\:hyphens\:ex:focus-visible,
+	.xl\:focus-visible\:hy\:ex:focus-visible {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:focus-visible\:direction\:ex:focus-visible,
+	.xl\:focus-visible\:dir\:ex:focus-visible {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -11854,6 +13494,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:text-shadow\:ex:focus-within,
+	.xl\:focus-within\:tsh\:ex:focus-within {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:focus-within\:text-indent\:ex:focus-within,
+	.xl\:focus-within\:ti\:ex:focus-within {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:focus-within\:text-overflow\:ex:focus-within,
+	.xl\:focus-within\:to\:ex:focus-within {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:focus-within\:vertical-align\:ex:focus-within,
+	.xl\:focus-within\:va\:ex:focus-within {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:focus-within\:word-spacing\:ex:focus-within,
+	.xl\:focus-within\:wsp\:ex:focus-within {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:focus-within\:text-wrap\:ex:focus-within,
+	.xl\:focus-within\:tw\:ex:focus-within {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:focus-within\:hyphens\:ex:focus-within,
+	.xl\:focus-within\:hy\:ex:focus-within {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:focus-within\:direction\:ex:focus-within,
+	.xl\:focus-within\:dir\:ex:focus-within {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -12142,6 +13823,47 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:text-shadow\:ex:active,
+	.xl\:active\:tsh\:ex:active {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:active\:text-indent\:ex:active,
+	.xl\:active\:ti\:ex:active {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:active\:text-overflow\:ex:active,
+	.xl\:active\:to\:ex:active {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:active\:vertical-align\:ex:active,
+	.xl\:active\:va\:ex:active {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:active\:word-spacing\:ex:active,
+	.xl\:active\:wsp\:ex:active {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:active\:text-wrap\:ex:active,
+	.xl\:active\:tw\:ex:active {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:active\:hyphens\:ex:active,
+	.xl\:active\:hy\:ex:active {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:active\:direction\:ex:active,
+	.xl\:active\:dir\:ex:active {
+		direction: var(--direction-ex) !important;
+	}
 
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
@@ -12432,6 +14154,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:text-shadow\:ex:disabled,
+	.xl\:disabled\:tsh\:ex:disabled {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:disabled\:text-indent\:ex:disabled,
+	.xl\:disabled\:ti\:ex:disabled {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:disabled\:text-overflow\:ex:disabled,
+	.xl\:disabled\:to\:ex:disabled {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:disabled\:vertical-align\:ex:disabled,
+	.xl\:disabled\:va\:ex:disabled {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:disabled\:word-spacing\:ex:disabled,
+	.xl\:disabled\:wsp\:ex:disabled {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:disabled\:text-wrap\:ex:disabled,
+	.xl\:disabled\:tw\:ex:disabled {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:disabled\:hyphens\:ex:disabled,
+	.xl\:disabled\:hy\:ex:disabled {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:disabled\:direction\:ex:disabled,
+	.xl\:disabled\:dir\:ex:disabled {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -12721,6 +14484,47 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:text-shadow\:ex:checked,
+	.xl\:checked\:tsh\:ex:checked {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:checked\:text-indent\:ex:checked,
+	.xl\:checked\:ti\:ex:checked {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:checked\:text-overflow\:ex:checked,
+	.xl\:checked\:to\:ex:checked {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:checked\:vertical-align\:ex:checked,
+	.xl\:checked\:va\:ex:checked {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:checked\:word-spacing\:ex:checked,
+	.xl\:checked\:wsp\:ex:checked {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:checked\:text-wrap\:ex:checked,
+	.xl\:checked\:tw\:ex:checked {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:checked\:hyphens\:ex:checked,
+	.xl\:checked\:hy\:ex:checked {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:checked\:direction\:ex:checked,
+	.xl\:checked\:dir\:ex:checked {
+		direction: var(--direction-ex) !important;
+	}
+
 	/* ===== TEXT EXTRAS — shadow, indent, overflow, vertical-align, word-spacing, wrap, hyphens, direction ===== */
 
 	/* TEXT-SHADOW */
@@ -13009,4 +14813,45 @@
 		direction: rtl !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:text-shadow\:ex:visited,
+	.xl\:visited\:tsh\:ex:visited {
+		text-shadow: var(--text-shadow-ex) !important;
+	}
+
+	.xl\:visited\:text-indent\:ex:visited,
+	.xl\:visited\:ti\:ex:visited {
+		text-indent: var(--text-indent-ex) !important;
+	}
+
+	.xl\:visited\:text-overflow\:ex:visited,
+	.xl\:visited\:to\:ex:visited {
+		text-overflow: var(--text-overflow-ex) !important;
+	}
+
+	.xl\:visited\:vertical-align\:ex:visited,
+	.xl\:visited\:va\:ex:visited {
+		vertical-align: var(--vertical-align-ex) !important;
+	}
+
+	.xl\:visited\:word-spacing\:ex:visited,
+	.xl\:visited\:wsp\:ex:visited {
+		word-spacing: var(--word-spacing-ex) !important;
+	}
+
+	.xl\:visited\:text-wrap\:ex:visited,
+	.xl\:visited\:tw\:ex:visited {
+		text-wrap: var(--text-wrap-ex) !important;
+	}
+
+	.xl\:visited\:hyphens\:ex:visited,
+	.xl\:visited\:hy\:ex:visited {
+		hyphens: var(--hyphens-ex) !important;
+	}
+
+	.xl\:visited\:direction\:ex:visited,
+	.xl\:visited\:dir\:ex:visited {
+		direction: var(--direction-ex) !important;
+	}
 }

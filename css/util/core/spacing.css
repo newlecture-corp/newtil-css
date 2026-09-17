@@ -1379,6 +1379,96 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.margin\:ex,
+.m\:ex {
+	margin: var(--margin-ex) !important;
+}
+
+.margin-top\:ex,
+.mt\:ex {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.margin-right\:ex,
+.mr\:ex {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.margin-bottom\:ex,
+.mb\:ex {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.margin-left\:ex,
+.ml\:ex {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.margin-x\:ex,
+.mx\:ex {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.margin-y\:ex,
+.my\:ex {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.padding\:ex,
+.p\:ex {
+	padding: var(--padding-ex) !important;
+}
+
+.padding-top\:ex,
+.pt\:ex {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.padding-right\:ex,
+.pr\:ex {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.padding-bottom\:ex,
+.pb\:ex {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.padding-left\:ex,
+.pl\:ex {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.padding-x\:ex,
+.px\:ex {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.padding-y\:ex,
+.py\:ex {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.gap\:ex,
+.g\:ex {
+	gap: var(--gap-ex) !important;
+}
+
+.gap-row\:ex,
+.gr\:ex {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.gap-column\:ex,
+.gc\:ex {
+	column-gap: var(--gap-column-ex) !important;
+}
+
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 /* MARGIN */
@@ -2759,6 +2849,96 @@
 	column-gap: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.hover\:margin\:ex:hover,
+.hover\:m\:ex:hover {
+	margin: var(--margin-ex) !important;
+}
+
+.hover\:margin-top\:ex:hover,
+.hover\:mt\:ex:hover {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.hover\:margin-right\:ex:hover,
+.hover\:mr\:ex:hover {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.hover\:margin-bottom\:ex:hover,
+.hover\:mb\:ex:hover {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.hover\:margin-left\:ex:hover,
+.hover\:ml\:ex:hover {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.hover\:margin-x\:ex:hover,
+.hover\:mx\:ex:hover {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.hover\:margin-y\:ex:hover,
+.hover\:my\:ex:hover {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.hover\:padding\:ex:hover,
+.hover\:p\:ex:hover {
+	padding: var(--padding-ex) !important;
+}
+
+.hover\:padding-top\:ex:hover,
+.hover\:pt\:ex:hover {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.hover\:padding-right\:ex:hover,
+.hover\:pr\:ex:hover {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.hover\:padding-bottom\:ex:hover,
+.hover\:pb\:ex:hover {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.hover\:padding-left\:ex:hover,
+.hover\:pl\:ex:hover {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.hover\:padding-x\:ex:hover,
+.hover\:px\:ex:hover {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.hover\:padding-y\:ex:hover,
+.hover\:py\:ex:hover {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.hover\:gap\:ex:hover,
+.hover\:g\:ex:hover {
+	gap: var(--gap-ex) !important;
+}
+
+.hover\:gap-row\:ex:hover,
+.hover\:gr\:ex:hover {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.hover\:gap-column\:ex:hover,
+.hover\:gc\:ex:hover {
+	column-gap: var(--gap-column-ex) !important;
+}
 
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -4141,6 +4321,96 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus\:margin\:ex:focus,
+.focus\:m\:ex:focus {
+	margin: var(--margin-ex) !important;
+}
+
+.focus\:margin-top\:ex:focus,
+.focus\:mt\:ex:focus {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.focus\:margin-right\:ex:focus,
+.focus\:mr\:ex:focus {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.focus\:margin-bottom\:ex:focus,
+.focus\:mb\:ex:focus {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.focus\:margin-left\:ex:focus,
+.focus\:ml\:ex:focus {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.focus\:margin-x\:ex:focus,
+.focus\:mx\:ex:focus {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.focus\:margin-y\:ex:focus,
+.focus\:my\:ex:focus {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.focus\:padding\:ex:focus,
+.focus\:p\:ex:focus {
+	padding: var(--padding-ex) !important;
+}
+
+.focus\:padding-top\:ex:focus,
+.focus\:pt\:ex:focus {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.focus\:padding-right\:ex:focus,
+.focus\:pr\:ex:focus {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.focus\:padding-bottom\:ex:focus,
+.focus\:pb\:ex:focus {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.focus\:padding-left\:ex:focus,
+.focus\:pl\:ex:focus {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.focus\:padding-x\:ex:focus,
+.focus\:px\:ex:focus {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.focus\:padding-y\:ex:focus,
+.focus\:py\:ex:focus {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.focus\:gap\:ex:focus,
+.focus\:g\:ex:focus {
+	gap: var(--gap-ex) !important;
+}
+
+.focus\:gap-row\:ex:focus,
+.focus\:gr\:ex:focus {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.focus\:gap-column\:ex:focus,
+.focus\:gc\:ex:focus {
+	column-gap: var(--gap-column-ex) !important;
+}
+
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 /* MARGIN */
@@ -5521,6 +5791,96 @@
 	column-gap: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-visible\:margin\:ex:focus-visible,
+.focus-visible\:m\:ex:focus-visible {
+	margin: var(--margin-ex) !important;
+}
+
+.focus-visible\:margin-top\:ex:focus-visible,
+.focus-visible\:mt\:ex:focus-visible {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.focus-visible\:margin-right\:ex:focus-visible,
+.focus-visible\:mr\:ex:focus-visible {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.focus-visible\:margin-bottom\:ex:focus-visible,
+.focus-visible\:mb\:ex:focus-visible {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.focus-visible\:margin-left\:ex:focus-visible,
+.focus-visible\:ml\:ex:focus-visible {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.focus-visible\:margin-x\:ex:focus-visible,
+.focus-visible\:mx\:ex:focus-visible {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.focus-visible\:margin-y\:ex:focus-visible,
+.focus-visible\:my\:ex:focus-visible {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.focus-visible\:padding\:ex:focus-visible,
+.focus-visible\:p\:ex:focus-visible {
+	padding: var(--padding-ex) !important;
+}
+
+.focus-visible\:padding-top\:ex:focus-visible,
+.focus-visible\:pt\:ex:focus-visible {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.focus-visible\:padding-right\:ex:focus-visible,
+.focus-visible\:pr\:ex:focus-visible {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.focus-visible\:padding-bottom\:ex:focus-visible,
+.focus-visible\:pb\:ex:focus-visible {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.focus-visible\:padding-left\:ex:focus-visible,
+.focus-visible\:pl\:ex:focus-visible {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.focus-visible\:padding-x\:ex:focus-visible,
+.focus-visible\:px\:ex:focus-visible {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.focus-visible\:padding-y\:ex:focus-visible,
+.focus-visible\:py\:ex:focus-visible {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.focus-visible\:gap\:ex:focus-visible,
+.focus-visible\:g\:ex:focus-visible {
+	gap: var(--gap-ex) !important;
+}
+
+.focus-visible\:gap-row\:ex:focus-visible,
+.focus-visible\:gr\:ex:focus-visible {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.focus-visible\:gap-column\:ex:focus-visible,
+.focus-visible\:gc\:ex:focus-visible {
+	column-gap: var(--gap-column-ex) !important;
+}
 
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -6903,6 +7263,96 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.focus-within\:margin\:ex:focus-within,
+.focus-within\:m\:ex:focus-within {
+	margin: var(--margin-ex) !important;
+}
+
+.focus-within\:margin-top\:ex:focus-within,
+.focus-within\:mt\:ex:focus-within {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.focus-within\:margin-right\:ex:focus-within,
+.focus-within\:mr\:ex:focus-within {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.focus-within\:margin-bottom\:ex:focus-within,
+.focus-within\:mb\:ex:focus-within {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.focus-within\:margin-left\:ex:focus-within,
+.focus-within\:ml\:ex:focus-within {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.focus-within\:margin-x\:ex:focus-within,
+.focus-within\:mx\:ex:focus-within {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.focus-within\:margin-y\:ex:focus-within,
+.focus-within\:my\:ex:focus-within {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.focus-within\:padding\:ex:focus-within,
+.focus-within\:p\:ex:focus-within {
+	padding: var(--padding-ex) !important;
+}
+
+.focus-within\:padding-top\:ex:focus-within,
+.focus-within\:pt\:ex:focus-within {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.focus-within\:padding-right\:ex:focus-within,
+.focus-within\:pr\:ex:focus-within {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.focus-within\:padding-bottom\:ex:focus-within,
+.focus-within\:pb\:ex:focus-within {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.focus-within\:padding-left\:ex:focus-within,
+.focus-within\:pl\:ex:focus-within {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.focus-within\:padding-x\:ex:focus-within,
+.focus-within\:px\:ex:focus-within {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.focus-within\:padding-y\:ex:focus-within,
+.focus-within\:py\:ex:focus-within {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.focus-within\:gap\:ex:focus-within,
+.focus-within\:g\:ex:focus-within {
+	gap: var(--gap-ex) !important;
+}
+
+.focus-within\:gap-row\:ex:focus-within,
+.focus-within\:gr\:ex:focus-within {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.focus-within\:gap-column\:ex:focus-within,
+.focus-within\:gc\:ex:focus-within {
+	column-gap: var(--gap-column-ex) !important;
+}
+
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 /* MARGIN */
@@ -8283,6 +8733,96 @@
 	column-gap: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.active\:margin\:ex:active,
+.active\:m\:ex:active {
+	margin: var(--margin-ex) !important;
+}
+
+.active\:margin-top\:ex:active,
+.active\:mt\:ex:active {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.active\:margin-right\:ex:active,
+.active\:mr\:ex:active {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.active\:margin-bottom\:ex:active,
+.active\:mb\:ex:active {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.active\:margin-left\:ex:active,
+.active\:ml\:ex:active {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.active\:margin-x\:ex:active,
+.active\:mx\:ex:active {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.active\:margin-y\:ex:active,
+.active\:my\:ex:active {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.active\:padding\:ex:active,
+.active\:p\:ex:active {
+	padding: var(--padding-ex) !important;
+}
+
+.active\:padding-top\:ex:active,
+.active\:pt\:ex:active {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.active\:padding-right\:ex:active,
+.active\:pr\:ex:active {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.active\:padding-bottom\:ex:active,
+.active\:pb\:ex:active {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.active\:padding-left\:ex:active,
+.active\:pl\:ex:active {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.active\:padding-x\:ex:active,
+.active\:px\:ex:active {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.active\:padding-y\:ex:active,
+.active\:py\:ex:active {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.active\:gap\:ex:active,
+.active\:g\:ex:active {
+	gap: var(--gap-ex) !important;
+}
+
+.active\:gap-row\:ex:active,
+.active\:gr\:ex:active {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.active\:gap-column\:ex:active,
+.active\:gc\:ex:active {
+	column-gap: var(--gap-column-ex) !important;
+}
 
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -9665,6 +10205,96 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.disabled\:margin\:ex:disabled,
+.disabled\:m\:ex:disabled {
+	margin: var(--margin-ex) !important;
+}
+
+.disabled\:margin-top\:ex:disabled,
+.disabled\:mt\:ex:disabled {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.disabled\:margin-right\:ex:disabled,
+.disabled\:mr\:ex:disabled {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.disabled\:margin-bottom\:ex:disabled,
+.disabled\:mb\:ex:disabled {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.disabled\:margin-left\:ex:disabled,
+.disabled\:ml\:ex:disabled {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.disabled\:margin-x\:ex:disabled,
+.disabled\:mx\:ex:disabled {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.disabled\:margin-y\:ex:disabled,
+.disabled\:my\:ex:disabled {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.disabled\:padding\:ex:disabled,
+.disabled\:p\:ex:disabled {
+	padding: var(--padding-ex) !important;
+}
+
+.disabled\:padding-top\:ex:disabled,
+.disabled\:pt\:ex:disabled {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.disabled\:padding-right\:ex:disabled,
+.disabled\:pr\:ex:disabled {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.disabled\:padding-bottom\:ex:disabled,
+.disabled\:pb\:ex:disabled {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.disabled\:padding-left\:ex:disabled,
+.disabled\:pl\:ex:disabled {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.disabled\:padding-x\:ex:disabled,
+.disabled\:px\:ex:disabled {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.disabled\:padding-y\:ex:disabled,
+.disabled\:py\:ex:disabled {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.disabled\:gap\:ex:disabled,
+.disabled\:g\:ex:disabled {
+	gap: var(--gap-ex) !important;
+}
+
+.disabled\:gap-row\:ex:disabled,
+.disabled\:gr\:ex:disabled {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.disabled\:gap-column\:ex:disabled,
+.disabled\:gc\:ex:disabled {
+	column-gap: var(--gap-column-ex) !important;
+}
+
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 /* MARGIN */
@@ -11046,6 +11676,96 @@
 }
 
 
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.checked\:margin\:ex:checked,
+.checked\:m\:ex:checked {
+	margin: var(--margin-ex) !important;
+}
+
+.checked\:margin-top\:ex:checked,
+.checked\:mt\:ex:checked {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.checked\:margin-right\:ex:checked,
+.checked\:mr\:ex:checked {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.checked\:margin-bottom\:ex:checked,
+.checked\:mb\:ex:checked {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.checked\:margin-left\:ex:checked,
+.checked\:ml\:ex:checked {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.checked\:margin-x\:ex:checked,
+.checked\:mx\:ex:checked {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.checked\:margin-y\:ex:checked,
+.checked\:my\:ex:checked {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.checked\:padding\:ex:checked,
+.checked\:p\:ex:checked {
+	padding: var(--padding-ex) !important;
+}
+
+.checked\:padding-top\:ex:checked,
+.checked\:pt\:ex:checked {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.checked\:padding-right\:ex:checked,
+.checked\:pr\:ex:checked {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.checked\:padding-bottom\:ex:checked,
+.checked\:pb\:ex:checked {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.checked\:padding-left\:ex:checked,
+.checked\:pl\:ex:checked {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.checked\:padding-x\:ex:checked,
+.checked\:px\:ex:checked {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.checked\:padding-y\:ex:checked,
+.checked\:py\:ex:checked {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.checked\:gap\:ex:checked,
+.checked\:g\:ex:checked {
+	gap: var(--gap-ex) !important;
+}
+
+.checked\:gap-row\:ex:checked,
+.checked\:gr\:ex:checked {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.checked\:gap-column\:ex:checked,
+.checked\:gc\:ex:checked {
+	column-gap: var(--gap-column-ex) !important;
+}
+
 /* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 /* MARGIN */
@@ -12426,6 +13146,96 @@
 	column-gap: var(--space-14) !important;
 }
 
+
+/* ===== ex — 값은 --속성-ex 변수 ===== */
+.visited\:margin\:ex:visited,
+.visited\:m\:ex:visited {
+	margin: var(--margin-ex) !important;
+}
+
+.visited\:margin-top\:ex:visited,
+.visited\:mt\:ex:visited {
+	margin-top: var(--margin-top-ex) !important;
+}
+
+.visited\:margin-right\:ex:visited,
+.visited\:mr\:ex:visited {
+	margin-right: var(--margin-right-ex) !important;
+}
+
+.visited\:margin-bottom\:ex:visited,
+.visited\:mb\:ex:visited {
+	margin-bottom: var(--margin-bottom-ex) !important;
+}
+
+.visited\:margin-left\:ex:visited,
+.visited\:ml\:ex:visited {
+	margin-left: var(--margin-left-ex) !important;
+}
+
+.visited\:margin-x\:ex:visited,
+.visited\:mx\:ex:visited {
+	margin-left: var(--margin-x-ex) !important;
+	margin-right: var(--margin-x-ex) !important;
+}
+
+.visited\:margin-y\:ex:visited,
+.visited\:my\:ex:visited {
+	margin-top: var(--margin-y-ex) !important;
+	margin-bottom: var(--margin-y-ex) !important;
+}
+
+.visited\:padding\:ex:visited,
+.visited\:p\:ex:visited {
+	padding: var(--padding-ex) !important;
+}
+
+.visited\:padding-top\:ex:visited,
+.visited\:pt\:ex:visited {
+	padding-top: var(--padding-top-ex) !important;
+}
+
+.visited\:padding-right\:ex:visited,
+.visited\:pr\:ex:visited {
+	padding-right: var(--padding-right-ex) !important;
+}
+
+.visited\:padding-bottom\:ex:visited,
+.visited\:pb\:ex:visited {
+	padding-bottom: var(--padding-bottom-ex) !important;
+}
+
+.visited\:padding-left\:ex:visited,
+.visited\:pl\:ex:visited {
+	padding-left: var(--padding-left-ex) !important;
+}
+
+.visited\:padding-x\:ex:visited,
+.visited\:px\:ex:visited {
+	padding-left: var(--padding-x-ex) !important;
+	padding-right: var(--padding-x-ex) !important;
+}
+
+.visited\:padding-y\:ex:visited,
+.visited\:py\:ex:visited {
+	padding-top: var(--padding-y-ex) !important;
+	padding-bottom: var(--padding-y-ex) !important;
+}
+
+.visited\:gap\:ex:visited,
+.visited\:g\:ex:visited {
+	gap: var(--gap-ex) !important;
+}
+
+.visited\:gap-row\:ex:visited,
+.visited\:gr\:ex:visited {
+	row-gap: var(--gap-row-ex) !important;
+}
+
+.visited\:gap-column\:ex:visited,
+.visited\:gc\:ex:visited {
+	column-gap: var(--gap-column-ex) !important;
+}
 
 @media (min-width: 640px) {
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
@@ -13809,6 +14619,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:margin\:ex,
+	.sm\:m\:ex {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:margin-top\:ex,
+	.sm\:mt\:ex {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:margin-right\:ex,
+	.sm\:mr\:ex {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:margin-bottom\:ex,
+	.sm\:mb\:ex {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:margin-left\:ex,
+	.sm\:ml\:ex {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:margin-x\:ex,
+	.sm\:mx\:ex {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:margin-y\:ex,
+	.sm\:my\:ex {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:padding\:ex,
+	.sm\:p\:ex {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:padding-top\:ex,
+	.sm\:pt\:ex {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:padding-right\:ex,
+	.sm\:pr\:ex {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:padding-bottom\:ex,
+	.sm\:pb\:ex {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:padding-left\:ex,
+	.sm\:pl\:ex {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:padding-x\:ex,
+	.sm\:px\:ex {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:padding-y\:ex,
+	.sm\:py\:ex {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:gap\:ex,
+	.sm\:g\:ex {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:gap-row\:ex,
+	.sm\:gr\:ex {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:gap-column\:ex,
+	.sm\:gc\:ex {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -15189,6 +16089,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:hover\:margin\:ex:hover,
+	.sm\:hover\:m\:ex:hover {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:hover\:margin-top\:ex:hover,
+	.sm\:hover\:mt\:ex:hover {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:hover\:margin-right\:ex:hover,
+	.sm\:hover\:mr\:ex:hover {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:hover\:margin-bottom\:ex:hover,
+	.sm\:hover\:mb\:ex:hover {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:hover\:margin-left\:ex:hover,
+	.sm\:hover\:ml\:ex:hover {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:hover\:margin-x\:ex:hover,
+	.sm\:hover\:mx\:ex:hover {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:hover\:margin-y\:ex:hover,
+	.sm\:hover\:my\:ex:hover {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:hover\:padding\:ex:hover,
+	.sm\:hover\:p\:ex:hover {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:hover\:padding-top\:ex:hover,
+	.sm\:hover\:pt\:ex:hover {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:hover\:padding-right\:ex:hover,
+	.sm\:hover\:pr\:ex:hover {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:hover\:padding-bottom\:ex:hover,
+	.sm\:hover\:pb\:ex:hover {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:hover\:padding-left\:ex:hover,
+	.sm\:hover\:pl\:ex:hover {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:hover\:padding-x\:ex:hover,
+	.sm\:hover\:px\:ex:hover {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:hover\:padding-y\:ex:hover,
+	.sm\:hover\:py\:ex:hover {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:hover\:gap\:ex:hover,
+	.sm\:hover\:g\:ex:hover {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:hover\:gap-row\:ex:hover,
+	.sm\:hover\:gr\:ex:hover {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:hover\:gap-column\:ex:hover,
+	.sm\:hover\:gc\:ex:hover {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -16571,6 +17561,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus\:margin\:ex:focus,
+	.sm\:focus\:m\:ex:focus {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:focus\:margin-top\:ex:focus,
+	.sm\:focus\:mt\:ex:focus {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:focus\:margin-right\:ex:focus,
+	.sm\:focus\:mr\:ex:focus {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:focus\:margin-bottom\:ex:focus,
+	.sm\:focus\:mb\:ex:focus {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:focus\:margin-left\:ex:focus,
+	.sm\:focus\:ml\:ex:focus {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:focus\:margin-x\:ex:focus,
+	.sm\:focus\:mx\:ex:focus {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:focus\:margin-y\:ex:focus,
+	.sm\:focus\:my\:ex:focus {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:focus\:padding\:ex:focus,
+	.sm\:focus\:p\:ex:focus {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:focus\:padding-top\:ex:focus,
+	.sm\:focus\:pt\:ex:focus {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:focus\:padding-right\:ex:focus,
+	.sm\:focus\:pr\:ex:focus {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:focus\:padding-bottom\:ex:focus,
+	.sm\:focus\:pb\:ex:focus {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:focus\:padding-left\:ex:focus,
+	.sm\:focus\:pl\:ex:focus {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:focus\:padding-x\:ex:focus,
+	.sm\:focus\:px\:ex:focus {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:focus\:padding-y\:ex:focus,
+	.sm\:focus\:py\:ex:focus {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:focus\:gap\:ex:focus,
+	.sm\:focus\:g\:ex:focus {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:focus\:gap-row\:ex:focus,
+	.sm\:focus\:gr\:ex:focus {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:focus\:gap-column\:ex:focus,
+	.sm\:focus\:gc\:ex:focus {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -17951,6 +19031,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-visible\:margin\:ex:focus-visible,
+	.sm\:focus-visible\:m\:ex:focus-visible {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-top\:ex:focus-visible,
+	.sm\:focus-visible\:mt\:ex:focus-visible {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-right\:ex:focus-visible,
+	.sm\:focus-visible\:mr\:ex:focus-visible {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:mb\:ex:focus-visible {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-left\:ex:focus-visible,
+	.sm\:focus-visible\:ml\:ex:focus-visible {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-x\:ex:focus-visible,
+	.sm\:focus-visible\:mx\:ex:focus-visible {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:margin-y\:ex:focus-visible,
+	.sm\:focus-visible\:my\:ex:focus-visible {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding\:ex:focus-visible,
+	.sm\:focus-visible\:p\:ex:focus-visible {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-top\:ex:focus-visible,
+	.sm\:focus-visible\:pt\:ex:focus-visible {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-right\:ex:focus-visible,
+	.sm\:focus-visible\:pr\:ex:focus-visible {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-bottom\:ex:focus-visible,
+	.sm\:focus-visible\:pb\:ex:focus-visible {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-left\:ex:focus-visible,
+	.sm\:focus-visible\:pl\:ex:focus-visible {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-x\:ex:focus-visible,
+	.sm\:focus-visible\:px\:ex:focus-visible {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:focus-visible\:padding-y\:ex:focus-visible,
+	.sm\:focus-visible\:py\:ex:focus-visible {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:focus-visible\:gap\:ex:focus-visible,
+	.sm\:focus-visible\:g\:ex:focus-visible {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:focus-visible\:gap-row\:ex:focus-visible,
+	.sm\:focus-visible\:gr\:ex:focus-visible {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:focus-visible\:gap-column\:ex:focus-visible,
+	.sm\:focus-visible\:gc\:ex:focus-visible {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -19333,6 +20503,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:focus-within\:margin\:ex:focus-within,
+	.sm\:focus-within\:m\:ex:focus-within {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-top\:ex:focus-within,
+	.sm\:focus-within\:mt\:ex:focus-within {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-right\:ex:focus-within,
+	.sm\:focus-within\:mr\:ex:focus-within {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-bottom\:ex:focus-within,
+	.sm\:focus-within\:mb\:ex:focus-within {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-left\:ex:focus-within,
+	.sm\:focus-within\:ml\:ex:focus-within {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-x\:ex:focus-within,
+	.sm\:focus-within\:mx\:ex:focus-within {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:focus-within\:margin-y\:ex:focus-within,
+	.sm\:focus-within\:my\:ex:focus-within {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:focus-within\:padding\:ex:focus-within,
+	.sm\:focus-within\:p\:ex:focus-within {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-top\:ex:focus-within,
+	.sm\:focus-within\:pt\:ex:focus-within {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-right\:ex:focus-within,
+	.sm\:focus-within\:pr\:ex:focus-within {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-bottom\:ex:focus-within,
+	.sm\:focus-within\:pb\:ex:focus-within {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-left\:ex:focus-within,
+	.sm\:focus-within\:pl\:ex:focus-within {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-x\:ex:focus-within,
+	.sm\:focus-within\:px\:ex:focus-within {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:focus-within\:padding-y\:ex:focus-within,
+	.sm\:focus-within\:py\:ex:focus-within {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:focus-within\:gap\:ex:focus-within,
+	.sm\:focus-within\:g\:ex:focus-within {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:focus-within\:gap-row\:ex:focus-within,
+	.sm\:focus-within\:gr\:ex:focus-within {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:focus-within\:gap-column\:ex:focus-within,
+	.sm\:focus-within\:gc\:ex:focus-within {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -20713,6 +21973,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:active\:margin\:ex:active,
+	.sm\:active\:m\:ex:active {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:active\:margin-top\:ex:active,
+	.sm\:active\:mt\:ex:active {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:active\:margin-right\:ex:active,
+	.sm\:active\:mr\:ex:active {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:active\:margin-bottom\:ex:active,
+	.sm\:active\:mb\:ex:active {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:active\:margin-left\:ex:active,
+	.sm\:active\:ml\:ex:active {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:active\:margin-x\:ex:active,
+	.sm\:active\:mx\:ex:active {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:active\:margin-y\:ex:active,
+	.sm\:active\:my\:ex:active {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:active\:padding\:ex:active,
+	.sm\:active\:p\:ex:active {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:active\:padding-top\:ex:active,
+	.sm\:active\:pt\:ex:active {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:active\:padding-right\:ex:active,
+	.sm\:active\:pr\:ex:active {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:active\:padding-bottom\:ex:active,
+	.sm\:active\:pb\:ex:active {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:active\:padding-left\:ex:active,
+	.sm\:active\:pl\:ex:active {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:active\:padding-x\:ex:active,
+	.sm\:active\:px\:ex:active {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:active\:padding-y\:ex:active,
+	.sm\:active\:py\:ex:active {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:active\:gap\:ex:active,
+	.sm\:active\:g\:ex:active {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:active\:gap-row\:ex:active,
+	.sm\:active\:gr\:ex:active {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:active\:gap-column\:ex:active,
+	.sm\:active\:gc\:ex:active {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -22095,6 +23445,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:disabled\:margin\:ex:disabled,
+	.sm\:disabled\:m\:ex:disabled {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:disabled\:margin-top\:ex:disabled,
+	.sm\:disabled\:mt\:ex:disabled {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:disabled\:margin-right\:ex:disabled,
+	.sm\:disabled\:mr\:ex:disabled {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:disabled\:margin-bottom\:ex:disabled,
+	.sm\:disabled\:mb\:ex:disabled {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:margin-left\:ex:disabled,
+	.sm\:disabled\:ml\:ex:disabled {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:disabled\:margin-x\:ex:disabled,
+	.sm\:disabled\:mx\:ex:disabled {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:disabled\:margin-y\:ex:disabled,
+	.sm\:disabled\:my\:ex:disabled {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:disabled\:padding\:ex:disabled,
+	.sm\:disabled\:p\:ex:disabled {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:disabled\:padding-top\:ex:disabled,
+	.sm\:disabled\:pt\:ex:disabled {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:disabled\:padding-right\:ex:disabled,
+	.sm\:disabled\:pr\:ex:disabled {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:disabled\:padding-bottom\:ex:disabled,
+	.sm\:disabled\:pb\:ex:disabled {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:disabled\:padding-left\:ex:disabled,
+	.sm\:disabled\:pl\:ex:disabled {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:disabled\:padding-x\:ex:disabled,
+	.sm\:disabled\:px\:ex:disabled {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:disabled\:padding-y\:ex:disabled,
+	.sm\:disabled\:py\:ex:disabled {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:disabled\:gap\:ex:disabled,
+	.sm\:disabled\:g\:ex:disabled {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:disabled\:gap-row\:ex:disabled,
+	.sm\:disabled\:gr\:ex:disabled {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:disabled\:gap-column\:ex:disabled,
+	.sm\:disabled\:gc\:ex:disabled {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -23476,6 +24916,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:checked\:margin\:ex:checked,
+	.sm\:checked\:m\:ex:checked {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:checked\:margin-top\:ex:checked,
+	.sm\:checked\:mt\:ex:checked {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:checked\:margin-right\:ex:checked,
+	.sm\:checked\:mr\:ex:checked {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:checked\:margin-bottom\:ex:checked,
+	.sm\:checked\:mb\:ex:checked {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:checked\:margin-left\:ex:checked,
+	.sm\:checked\:ml\:ex:checked {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:checked\:margin-x\:ex:checked,
+	.sm\:checked\:mx\:ex:checked {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:checked\:margin-y\:ex:checked,
+	.sm\:checked\:my\:ex:checked {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:checked\:padding\:ex:checked,
+	.sm\:checked\:p\:ex:checked {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:checked\:padding-top\:ex:checked,
+	.sm\:checked\:pt\:ex:checked {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:checked\:padding-right\:ex:checked,
+	.sm\:checked\:pr\:ex:checked {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:checked\:padding-bottom\:ex:checked,
+	.sm\:checked\:pb\:ex:checked {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:checked\:padding-left\:ex:checked,
+	.sm\:checked\:pl\:ex:checked {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:checked\:padding-x\:ex:checked,
+	.sm\:checked\:px\:ex:checked {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:checked\:padding-y\:ex:checked,
+	.sm\:checked\:py\:ex:checked {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:checked\:gap\:ex:checked,
+	.sm\:checked\:g\:ex:checked {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:checked\:gap-row\:ex:checked,
+	.sm\:checked\:gr\:ex:checked {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:checked\:gap-column\:ex:checked,
+	.sm\:checked\:gc\:ex:checked {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -24856,6 +26386,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.sm\:visited\:margin\:ex:visited,
+	.sm\:visited\:m\:ex:visited {
+		margin: var(--margin-ex) !important;
+	}
+
+	.sm\:visited\:margin-top\:ex:visited,
+	.sm\:visited\:mt\:ex:visited {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.sm\:visited\:margin-right\:ex:visited,
+	.sm\:visited\:mr\:ex:visited {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.sm\:visited\:margin-bottom\:ex:visited,
+	.sm\:visited\:mb\:ex:visited {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.sm\:visited\:margin-left\:ex:visited,
+	.sm\:visited\:ml\:ex:visited {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.sm\:visited\:margin-x\:ex:visited,
+	.sm\:visited\:mx\:ex:visited {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.sm\:visited\:margin-y\:ex:visited,
+	.sm\:visited\:my\:ex:visited {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.sm\:visited\:padding\:ex:visited,
+	.sm\:visited\:p\:ex:visited {
+		padding: var(--padding-ex) !important;
+	}
+
+	.sm\:visited\:padding-top\:ex:visited,
+	.sm\:visited\:pt\:ex:visited {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.sm\:visited\:padding-right\:ex:visited,
+	.sm\:visited\:pr\:ex:visited {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.sm\:visited\:padding-bottom\:ex:visited,
+	.sm\:visited\:pb\:ex:visited {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.sm\:visited\:padding-left\:ex:visited,
+	.sm\:visited\:pl\:ex:visited {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.sm\:visited\:padding-x\:ex:visited,
+	.sm\:visited\:px\:ex:visited {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.sm\:visited\:padding-y\:ex:visited,
+	.sm\:visited\:py\:ex:visited {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.sm\:visited\:gap\:ex:visited,
+	.sm\:visited\:g\:ex:visited {
+		gap: var(--gap-ex) !important;
+	}
+
+	.sm\:visited\:gap-row\:ex:visited,
+	.sm\:visited\:gr\:ex:visited {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.sm\:visited\:gap-column\:ex:visited,
+	.sm\:visited\:gc\:ex:visited {
+		column-gap: var(--gap-column-ex) !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -26240,6 +27860,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:margin\:ex,
+	.md\:m\:ex {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:margin-top\:ex,
+	.md\:mt\:ex {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:margin-right\:ex,
+	.md\:mr\:ex {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:margin-bottom\:ex,
+	.md\:mb\:ex {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:margin-left\:ex,
+	.md\:ml\:ex {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:margin-x\:ex,
+	.md\:mx\:ex {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:margin-y\:ex,
+	.md\:my\:ex {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:padding\:ex,
+	.md\:p\:ex {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:padding-top\:ex,
+	.md\:pt\:ex {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:padding-right\:ex,
+	.md\:pr\:ex {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:padding-bottom\:ex,
+	.md\:pb\:ex {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:padding-left\:ex,
+	.md\:pl\:ex {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:padding-x\:ex,
+	.md\:px\:ex {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:padding-y\:ex,
+	.md\:py\:ex {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:gap\:ex,
+	.md\:g\:ex {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:gap-row\:ex,
+	.md\:gr\:ex {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:gap-column\:ex,
+	.md\:gc\:ex {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -27620,6 +29330,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:hover\:margin\:ex:hover,
+	.md\:hover\:m\:ex:hover {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:hover\:margin-top\:ex:hover,
+	.md\:hover\:mt\:ex:hover {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:hover\:margin-right\:ex:hover,
+	.md\:hover\:mr\:ex:hover {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:hover\:margin-bottom\:ex:hover,
+	.md\:hover\:mb\:ex:hover {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:hover\:margin-left\:ex:hover,
+	.md\:hover\:ml\:ex:hover {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:hover\:margin-x\:ex:hover,
+	.md\:hover\:mx\:ex:hover {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:hover\:margin-y\:ex:hover,
+	.md\:hover\:my\:ex:hover {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:hover\:padding\:ex:hover,
+	.md\:hover\:p\:ex:hover {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:hover\:padding-top\:ex:hover,
+	.md\:hover\:pt\:ex:hover {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:hover\:padding-right\:ex:hover,
+	.md\:hover\:pr\:ex:hover {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:hover\:padding-bottom\:ex:hover,
+	.md\:hover\:pb\:ex:hover {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:hover\:padding-left\:ex:hover,
+	.md\:hover\:pl\:ex:hover {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:hover\:padding-x\:ex:hover,
+	.md\:hover\:px\:ex:hover {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:hover\:padding-y\:ex:hover,
+	.md\:hover\:py\:ex:hover {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:hover\:gap\:ex:hover,
+	.md\:hover\:g\:ex:hover {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:hover\:gap-row\:ex:hover,
+	.md\:hover\:gr\:ex:hover {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:hover\:gap-column\:ex:hover,
+	.md\:hover\:gc\:ex:hover {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -29002,6 +30802,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus\:margin\:ex:focus,
+	.md\:focus\:m\:ex:focus {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:focus\:margin-top\:ex:focus,
+	.md\:focus\:mt\:ex:focus {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:focus\:margin-right\:ex:focus,
+	.md\:focus\:mr\:ex:focus {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:focus\:margin-bottom\:ex:focus,
+	.md\:focus\:mb\:ex:focus {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:focus\:margin-left\:ex:focus,
+	.md\:focus\:ml\:ex:focus {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:focus\:margin-x\:ex:focus,
+	.md\:focus\:mx\:ex:focus {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:focus\:margin-y\:ex:focus,
+	.md\:focus\:my\:ex:focus {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:focus\:padding\:ex:focus,
+	.md\:focus\:p\:ex:focus {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:focus\:padding-top\:ex:focus,
+	.md\:focus\:pt\:ex:focus {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:focus\:padding-right\:ex:focus,
+	.md\:focus\:pr\:ex:focus {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:focus\:padding-bottom\:ex:focus,
+	.md\:focus\:pb\:ex:focus {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:focus\:padding-left\:ex:focus,
+	.md\:focus\:pl\:ex:focus {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:focus\:padding-x\:ex:focus,
+	.md\:focus\:px\:ex:focus {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:focus\:padding-y\:ex:focus,
+	.md\:focus\:py\:ex:focus {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:focus\:gap\:ex:focus,
+	.md\:focus\:g\:ex:focus {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:focus\:gap-row\:ex:focus,
+	.md\:focus\:gr\:ex:focus {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:focus\:gap-column\:ex:focus,
+	.md\:focus\:gc\:ex:focus {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -30382,6 +32272,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-visible\:margin\:ex:focus-visible,
+	.md\:focus-visible\:m\:ex:focus-visible {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-top\:ex:focus-visible,
+	.md\:focus-visible\:mt\:ex:focus-visible {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-right\:ex:focus-visible,
+	.md\:focus-visible\:mr\:ex:focus-visible {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-bottom\:ex:focus-visible,
+	.md\:focus-visible\:mb\:ex:focus-visible {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-left\:ex:focus-visible,
+	.md\:focus-visible\:ml\:ex:focus-visible {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-x\:ex:focus-visible,
+	.md\:focus-visible\:mx\:ex:focus-visible {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:focus-visible\:margin-y\:ex:focus-visible,
+	.md\:focus-visible\:my\:ex:focus-visible {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:focus-visible\:padding\:ex:focus-visible,
+	.md\:focus-visible\:p\:ex:focus-visible {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-top\:ex:focus-visible,
+	.md\:focus-visible\:pt\:ex:focus-visible {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-right\:ex:focus-visible,
+	.md\:focus-visible\:pr\:ex:focus-visible {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-bottom\:ex:focus-visible,
+	.md\:focus-visible\:pb\:ex:focus-visible {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-left\:ex:focus-visible,
+	.md\:focus-visible\:pl\:ex:focus-visible {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-x\:ex:focus-visible,
+	.md\:focus-visible\:px\:ex:focus-visible {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:focus-visible\:padding-y\:ex:focus-visible,
+	.md\:focus-visible\:py\:ex:focus-visible {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:focus-visible\:gap\:ex:focus-visible,
+	.md\:focus-visible\:g\:ex:focus-visible {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:focus-visible\:gap-row\:ex:focus-visible,
+	.md\:focus-visible\:gr\:ex:focus-visible {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:focus-visible\:gap-column\:ex:focus-visible,
+	.md\:focus-visible\:gc\:ex:focus-visible {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -31764,6 +33744,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:focus-within\:margin\:ex:focus-within,
+	.md\:focus-within\:m\:ex:focus-within {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:focus-within\:margin-top\:ex:focus-within,
+	.md\:focus-within\:mt\:ex:focus-within {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:focus-within\:margin-right\:ex:focus-within,
+	.md\:focus-within\:mr\:ex:focus-within {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:focus-within\:margin-bottom\:ex:focus-within,
+	.md\:focus-within\:mb\:ex:focus-within {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:margin-left\:ex:focus-within,
+	.md\:focus-within\:ml\:ex:focus-within {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:focus-within\:margin-x\:ex:focus-within,
+	.md\:focus-within\:mx\:ex:focus-within {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:focus-within\:margin-y\:ex:focus-within,
+	.md\:focus-within\:my\:ex:focus-within {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:focus-within\:padding\:ex:focus-within,
+	.md\:focus-within\:p\:ex:focus-within {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:focus-within\:padding-top\:ex:focus-within,
+	.md\:focus-within\:pt\:ex:focus-within {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:focus-within\:padding-right\:ex:focus-within,
+	.md\:focus-within\:pr\:ex:focus-within {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:focus-within\:padding-bottom\:ex:focus-within,
+	.md\:focus-within\:pb\:ex:focus-within {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:focus-within\:padding-left\:ex:focus-within,
+	.md\:focus-within\:pl\:ex:focus-within {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:focus-within\:padding-x\:ex:focus-within,
+	.md\:focus-within\:px\:ex:focus-within {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:focus-within\:padding-y\:ex:focus-within,
+	.md\:focus-within\:py\:ex:focus-within {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:focus-within\:gap\:ex:focus-within,
+	.md\:focus-within\:g\:ex:focus-within {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:focus-within\:gap-row\:ex:focus-within,
+	.md\:focus-within\:gr\:ex:focus-within {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:focus-within\:gap-column\:ex:focus-within,
+	.md\:focus-within\:gc\:ex:focus-within {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -33144,6 +35214,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:active\:margin\:ex:active,
+	.md\:active\:m\:ex:active {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:active\:margin-top\:ex:active,
+	.md\:active\:mt\:ex:active {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:active\:margin-right\:ex:active,
+	.md\:active\:mr\:ex:active {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:active\:margin-bottom\:ex:active,
+	.md\:active\:mb\:ex:active {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:active\:margin-left\:ex:active,
+	.md\:active\:ml\:ex:active {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:active\:margin-x\:ex:active,
+	.md\:active\:mx\:ex:active {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:active\:margin-y\:ex:active,
+	.md\:active\:my\:ex:active {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:active\:padding\:ex:active,
+	.md\:active\:p\:ex:active {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:active\:padding-top\:ex:active,
+	.md\:active\:pt\:ex:active {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:active\:padding-right\:ex:active,
+	.md\:active\:pr\:ex:active {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:active\:padding-bottom\:ex:active,
+	.md\:active\:pb\:ex:active {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:active\:padding-left\:ex:active,
+	.md\:active\:pl\:ex:active {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:active\:padding-x\:ex:active,
+	.md\:active\:px\:ex:active {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:active\:padding-y\:ex:active,
+	.md\:active\:py\:ex:active {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:active\:gap\:ex:active,
+	.md\:active\:g\:ex:active {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:active\:gap-row\:ex:active,
+	.md\:active\:gr\:ex:active {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:active\:gap-column\:ex:active,
+	.md\:active\:gc\:ex:active {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -34526,6 +36686,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:disabled\:margin\:ex:disabled,
+	.md\:disabled\:m\:ex:disabled {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:disabled\:margin-top\:ex:disabled,
+	.md\:disabled\:mt\:ex:disabled {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:disabled\:margin-right\:ex:disabled,
+	.md\:disabled\:mr\:ex:disabled {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:disabled\:margin-bottom\:ex:disabled,
+	.md\:disabled\:mb\:ex:disabled {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:disabled\:margin-left\:ex:disabled,
+	.md\:disabled\:ml\:ex:disabled {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:disabled\:margin-x\:ex:disabled,
+	.md\:disabled\:mx\:ex:disabled {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:disabled\:margin-y\:ex:disabled,
+	.md\:disabled\:my\:ex:disabled {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:disabled\:padding\:ex:disabled,
+	.md\:disabled\:p\:ex:disabled {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:disabled\:padding-top\:ex:disabled,
+	.md\:disabled\:pt\:ex:disabled {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:disabled\:padding-right\:ex:disabled,
+	.md\:disabled\:pr\:ex:disabled {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:disabled\:padding-bottom\:ex:disabled,
+	.md\:disabled\:pb\:ex:disabled {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:disabled\:padding-left\:ex:disabled,
+	.md\:disabled\:pl\:ex:disabled {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:disabled\:padding-x\:ex:disabled,
+	.md\:disabled\:px\:ex:disabled {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:disabled\:padding-y\:ex:disabled,
+	.md\:disabled\:py\:ex:disabled {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:disabled\:gap\:ex:disabled,
+	.md\:disabled\:g\:ex:disabled {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:disabled\:gap-row\:ex:disabled,
+	.md\:disabled\:gr\:ex:disabled {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:disabled\:gap-column\:ex:disabled,
+	.md\:disabled\:gc\:ex:disabled {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -35907,6 +38157,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:checked\:margin\:ex:checked,
+	.md\:checked\:m\:ex:checked {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:checked\:margin-top\:ex:checked,
+	.md\:checked\:mt\:ex:checked {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:checked\:margin-right\:ex:checked,
+	.md\:checked\:mr\:ex:checked {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:checked\:margin-bottom\:ex:checked,
+	.md\:checked\:mb\:ex:checked {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:checked\:margin-left\:ex:checked,
+	.md\:checked\:ml\:ex:checked {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:checked\:margin-x\:ex:checked,
+	.md\:checked\:mx\:ex:checked {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:checked\:margin-y\:ex:checked,
+	.md\:checked\:my\:ex:checked {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:checked\:padding\:ex:checked,
+	.md\:checked\:p\:ex:checked {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:checked\:padding-top\:ex:checked,
+	.md\:checked\:pt\:ex:checked {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:checked\:padding-right\:ex:checked,
+	.md\:checked\:pr\:ex:checked {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:checked\:padding-bottom\:ex:checked,
+	.md\:checked\:pb\:ex:checked {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:checked\:padding-left\:ex:checked,
+	.md\:checked\:pl\:ex:checked {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:checked\:padding-x\:ex:checked,
+	.md\:checked\:px\:ex:checked {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:checked\:padding-y\:ex:checked,
+	.md\:checked\:py\:ex:checked {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:checked\:gap\:ex:checked,
+	.md\:checked\:g\:ex:checked {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:checked\:gap-row\:ex:checked,
+	.md\:checked\:gr\:ex:checked {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:checked\:gap-column\:ex:checked,
+	.md\:checked\:gc\:ex:checked {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -37287,6 +39627,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.md\:visited\:margin\:ex:visited,
+	.md\:visited\:m\:ex:visited {
+		margin: var(--margin-ex) !important;
+	}
+
+	.md\:visited\:margin-top\:ex:visited,
+	.md\:visited\:mt\:ex:visited {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.md\:visited\:margin-right\:ex:visited,
+	.md\:visited\:mr\:ex:visited {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.md\:visited\:margin-bottom\:ex:visited,
+	.md\:visited\:mb\:ex:visited {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.md\:visited\:margin-left\:ex:visited,
+	.md\:visited\:ml\:ex:visited {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.md\:visited\:margin-x\:ex:visited,
+	.md\:visited\:mx\:ex:visited {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.md\:visited\:margin-y\:ex:visited,
+	.md\:visited\:my\:ex:visited {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.md\:visited\:padding\:ex:visited,
+	.md\:visited\:p\:ex:visited {
+		padding: var(--padding-ex) !important;
+	}
+
+	.md\:visited\:padding-top\:ex:visited,
+	.md\:visited\:pt\:ex:visited {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.md\:visited\:padding-right\:ex:visited,
+	.md\:visited\:pr\:ex:visited {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.md\:visited\:padding-bottom\:ex:visited,
+	.md\:visited\:pb\:ex:visited {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.md\:visited\:padding-left\:ex:visited,
+	.md\:visited\:pl\:ex:visited {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.md\:visited\:padding-x\:ex:visited,
+	.md\:visited\:px\:ex:visited {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.md\:visited\:padding-y\:ex:visited,
+	.md\:visited\:py\:ex:visited {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.md\:visited\:gap\:ex:visited,
+	.md\:visited\:g\:ex:visited {
+		gap: var(--gap-ex) !important;
+	}
+
+	.md\:visited\:gap-row\:ex:visited,
+	.md\:visited\:gr\:ex:visited {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.md\:visited\:gap-column\:ex:visited,
+	.md\:visited\:gc\:ex:visited {
+		column-gap: var(--gap-column-ex) !important;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -38671,6 +41101,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:margin\:ex,
+	.lg\:m\:ex {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:margin-top\:ex,
+	.lg\:mt\:ex {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:margin-right\:ex,
+	.lg\:mr\:ex {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:margin-bottom\:ex,
+	.lg\:mb\:ex {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:margin-left\:ex,
+	.lg\:ml\:ex {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:margin-x\:ex,
+	.lg\:mx\:ex {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:margin-y\:ex,
+	.lg\:my\:ex {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:padding\:ex,
+	.lg\:p\:ex {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:padding-top\:ex,
+	.lg\:pt\:ex {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:padding-right\:ex,
+	.lg\:pr\:ex {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:padding-bottom\:ex,
+	.lg\:pb\:ex {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:padding-left\:ex,
+	.lg\:pl\:ex {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:padding-x\:ex,
+	.lg\:px\:ex {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:padding-y\:ex,
+	.lg\:py\:ex {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:gap\:ex,
+	.lg\:g\:ex {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:gap-row\:ex,
+	.lg\:gr\:ex {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:gap-column\:ex,
+	.lg\:gc\:ex {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -40051,6 +42571,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:hover\:margin\:ex:hover,
+	.lg\:hover\:m\:ex:hover {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:hover\:margin-top\:ex:hover,
+	.lg\:hover\:mt\:ex:hover {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:hover\:margin-right\:ex:hover,
+	.lg\:hover\:mr\:ex:hover {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:hover\:margin-bottom\:ex:hover,
+	.lg\:hover\:mb\:ex:hover {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:hover\:margin-left\:ex:hover,
+	.lg\:hover\:ml\:ex:hover {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:hover\:margin-x\:ex:hover,
+	.lg\:hover\:mx\:ex:hover {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:hover\:margin-y\:ex:hover,
+	.lg\:hover\:my\:ex:hover {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:hover\:padding\:ex:hover,
+	.lg\:hover\:p\:ex:hover {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:hover\:padding-top\:ex:hover,
+	.lg\:hover\:pt\:ex:hover {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:hover\:padding-right\:ex:hover,
+	.lg\:hover\:pr\:ex:hover {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:hover\:padding-bottom\:ex:hover,
+	.lg\:hover\:pb\:ex:hover {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:hover\:padding-left\:ex:hover,
+	.lg\:hover\:pl\:ex:hover {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:hover\:padding-x\:ex:hover,
+	.lg\:hover\:px\:ex:hover {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:hover\:padding-y\:ex:hover,
+	.lg\:hover\:py\:ex:hover {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:hover\:gap\:ex:hover,
+	.lg\:hover\:g\:ex:hover {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:hover\:gap-row\:ex:hover,
+	.lg\:hover\:gr\:ex:hover {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:hover\:gap-column\:ex:hover,
+	.lg\:hover\:gc\:ex:hover {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -41433,6 +44043,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus\:margin\:ex:focus,
+	.lg\:focus\:m\:ex:focus {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:focus\:margin-top\:ex:focus,
+	.lg\:focus\:mt\:ex:focus {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:focus\:margin-right\:ex:focus,
+	.lg\:focus\:mr\:ex:focus {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:focus\:margin-bottom\:ex:focus,
+	.lg\:focus\:mb\:ex:focus {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:focus\:margin-left\:ex:focus,
+	.lg\:focus\:ml\:ex:focus {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:focus\:margin-x\:ex:focus,
+	.lg\:focus\:mx\:ex:focus {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:focus\:margin-y\:ex:focus,
+	.lg\:focus\:my\:ex:focus {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:focus\:padding\:ex:focus,
+	.lg\:focus\:p\:ex:focus {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:focus\:padding-top\:ex:focus,
+	.lg\:focus\:pt\:ex:focus {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:focus\:padding-right\:ex:focus,
+	.lg\:focus\:pr\:ex:focus {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:focus\:padding-bottom\:ex:focus,
+	.lg\:focus\:pb\:ex:focus {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:focus\:padding-left\:ex:focus,
+	.lg\:focus\:pl\:ex:focus {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:focus\:padding-x\:ex:focus,
+	.lg\:focus\:px\:ex:focus {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:focus\:padding-y\:ex:focus,
+	.lg\:focus\:py\:ex:focus {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:focus\:gap\:ex:focus,
+	.lg\:focus\:g\:ex:focus {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:focus\:gap-row\:ex:focus,
+	.lg\:focus\:gr\:ex:focus {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:focus\:gap-column\:ex:focus,
+	.lg\:focus\:gc\:ex:focus {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -42813,6 +45513,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-visible\:margin\:ex:focus-visible,
+	.lg\:focus-visible\:m\:ex:focus-visible {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-top\:ex:focus-visible,
+	.lg\:focus-visible\:mt\:ex:focus-visible {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-right\:ex:focus-visible,
+	.lg\:focus-visible\:mr\:ex:focus-visible {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:mb\:ex:focus-visible {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-left\:ex:focus-visible,
+	.lg\:focus-visible\:ml\:ex:focus-visible {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-x\:ex:focus-visible,
+	.lg\:focus-visible\:mx\:ex:focus-visible {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:margin-y\:ex:focus-visible,
+	.lg\:focus-visible\:my\:ex:focus-visible {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding\:ex:focus-visible,
+	.lg\:focus-visible\:p\:ex:focus-visible {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-top\:ex:focus-visible,
+	.lg\:focus-visible\:pt\:ex:focus-visible {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-right\:ex:focus-visible,
+	.lg\:focus-visible\:pr\:ex:focus-visible {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-bottom\:ex:focus-visible,
+	.lg\:focus-visible\:pb\:ex:focus-visible {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-left\:ex:focus-visible,
+	.lg\:focus-visible\:pl\:ex:focus-visible {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-x\:ex:focus-visible,
+	.lg\:focus-visible\:px\:ex:focus-visible {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:focus-visible\:padding-y\:ex:focus-visible,
+	.lg\:focus-visible\:py\:ex:focus-visible {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:focus-visible\:gap\:ex:focus-visible,
+	.lg\:focus-visible\:g\:ex:focus-visible {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:focus-visible\:gap-row\:ex:focus-visible,
+	.lg\:focus-visible\:gr\:ex:focus-visible {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:focus-visible\:gap-column\:ex:focus-visible,
+	.lg\:focus-visible\:gc\:ex:focus-visible {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -44195,6 +46985,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:focus-within\:margin\:ex:focus-within,
+	.lg\:focus-within\:m\:ex:focus-within {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-top\:ex:focus-within,
+	.lg\:focus-within\:mt\:ex:focus-within {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-right\:ex:focus-within,
+	.lg\:focus-within\:mr\:ex:focus-within {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-bottom\:ex:focus-within,
+	.lg\:focus-within\:mb\:ex:focus-within {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-left\:ex:focus-within,
+	.lg\:focus-within\:ml\:ex:focus-within {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-x\:ex:focus-within,
+	.lg\:focus-within\:mx\:ex:focus-within {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:focus-within\:margin-y\:ex:focus-within,
+	.lg\:focus-within\:my\:ex:focus-within {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:focus-within\:padding\:ex:focus-within,
+	.lg\:focus-within\:p\:ex:focus-within {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-top\:ex:focus-within,
+	.lg\:focus-within\:pt\:ex:focus-within {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-right\:ex:focus-within,
+	.lg\:focus-within\:pr\:ex:focus-within {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-bottom\:ex:focus-within,
+	.lg\:focus-within\:pb\:ex:focus-within {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-left\:ex:focus-within,
+	.lg\:focus-within\:pl\:ex:focus-within {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-x\:ex:focus-within,
+	.lg\:focus-within\:px\:ex:focus-within {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:focus-within\:padding-y\:ex:focus-within,
+	.lg\:focus-within\:py\:ex:focus-within {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:focus-within\:gap\:ex:focus-within,
+	.lg\:focus-within\:g\:ex:focus-within {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:focus-within\:gap-row\:ex:focus-within,
+	.lg\:focus-within\:gr\:ex:focus-within {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:focus-within\:gap-column\:ex:focus-within,
+	.lg\:focus-within\:gc\:ex:focus-within {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -45575,6 +48455,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:active\:margin\:ex:active,
+	.lg\:active\:m\:ex:active {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:active\:margin-top\:ex:active,
+	.lg\:active\:mt\:ex:active {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:active\:margin-right\:ex:active,
+	.lg\:active\:mr\:ex:active {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:active\:margin-bottom\:ex:active,
+	.lg\:active\:mb\:ex:active {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:active\:margin-left\:ex:active,
+	.lg\:active\:ml\:ex:active {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:active\:margin-x\:ex:active,
+	.lg\:active\:mx\:ex:active {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:active\:margin-y\:ex:active,
+	.lg\:active\:my\:ex:active {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:active\:padding\:ex:active,
+	.lg\:active\:p\:ex:active {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:active\:padding-top\:ex:active,
+	.lg\:active\:pt\:ex:active {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:active\:padding-right\:ex:active,
+	.lg\:active\:pr\:ex:active {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:active\:padding-bottom\:ex:active,
+	.lg\:active\:pb\:ex:active {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:active\:padding-left\:ex:active,
+	.lg\:active\:pl\:ex:active {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:active\:padding-x\:ex:active,
+	.lg\:active\:px\:ex:active {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:active\:padding-y\:ex:active,
+	.lg\:active\:py\:ex:active {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:active\:gap\:ex:active,
+	.lg\:active\:g\:ex:active {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:active\:gap-row\:ex:active,
+	.lg\:active\:gr\:ex:active {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:active\:gap-column\:ex:active,
+	.lg\:active\:gc\:ex:active {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -46957,6 +49927,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:disabled\:margin\:ex:disabled,
+	.lg\:disabled\:m\:ex:disabled {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:disabled\:margin-top\:ex:disabled,
+	.lg\:disabled\:mt\:ex:disabled {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:disabled\:margin-right\:ex:disabled,
+	.lg\:disabled\:mr\:ex:disabled {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:disabled\:margin-bottom\:ex:disabled,
+	.lg\:disabled\:mb\:ex:disabled {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:margin-left\:ex:disabled,
+	.lg\:disabled\:ml\:ex:disabled {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:disabled\:margin-x\:ex:disabled,
+	.lg\:disabled\:mx\:ex:disabled {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:disabled\:margin-y\:ex:disabled,
+	.lg\:disabled\:my\:ex:disabled {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:disabled\:padding\:ex:disabled,
+	.lg\:disabled\:p\:ex:disabled {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:disabled\:padding-top\:ex:disabled,
+	.lg\:disabled\:pt\:ex:disabled {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:disabled\:padding-right\:ex:disabled,
+	.lg\:disabled\:pr\:ex:disabled {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:disabled\:padding-bottom\:ex:disabled,
+	.lg\:disabled\:pb\:ex:disabled {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:disabled\:padding-left\:ex:disabled,
+	.lg\:disabled\:pl\:ex:disabled {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:disabled\:padding-x\:ex:disabled,
+	.lg\:disabled\:px\:ex:disabled {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:disabled\:padding-y\:ex:disabled,
+	.lg\:disabled\:py\:ex:disabled {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:disabled\:gap\:ex:disabled,
+	.lg\:disabled\:g\:ex:disabled {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:disabled\:gap-row\:ex:disabled,
+	.lg\:disabled\:gr\:ex:disabled {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:disabled\:gap-column\:ex:disabled,
+	.lg\:disabled\:gc\:ex:disabled {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -48338,6 +51398,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:checked\:margin\:ex:checked,
+	.lg\:checked\:m\:ex:checked {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:checked\:margin-top\:ex:checked,
+	.lg\:checked\:mt\:ex:checked {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:checked\:margin-right\:ex:checked,
+	.lg\:checked\:mr\:ex:checked {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:checked\:margin-bottom\:ex:checked,
+	.lg\:checked\:mb\:ex:checked {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:checked\:margin-left\:ex:checked,
+	.lg\:checked\:ml\:ex:checked {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:checked\:margin-x\:ex:checked,
+	.lg\:checked\:mx\:ex:checked {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:checked\:margin-y\:ex:checked,
+	.lg\:checked\:my\:ex:checked {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:checked\:padding\:ex:checked,
+	.lg\:checked\:p\:ex:checked {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:checked\:padding-top\:ex:checked,
+	.lg\:checked\:pt\:ex:checked {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:checked\:padding-right\:ex:checked,
+	.lg\:checked\:pr\:ex:checked {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:checked\:padding-bottom\:ex:checked,
+	.lg\:checked\:pb\:ex:checked {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:checked\:padding-left\:ex:checked,
+	.lg\:checked\:pl\:ex:checked {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:checked\:padding-x\:ex:checked,
+	.lg\:checked\:px\:ex:checked {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:checked\:padding-y\:ex:checked,
+	.lg\:checked\:py\:ex:checked {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:checked\:gap\:ex:checked,
+	.lg\:checked\:g\:ex:checked {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:checked\:gap-row\:ex:checked,
+	.lg\:checked\:gr\:ex:checked {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:checked\:gap-column\:ex:checked,
+	.lg\:checked\:gc\:ex:checked {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -49718,6 +52868,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.lg\:visited\:margin\:ex:visited,
+	.lg\:visited\:m\:ex:visited {
+		margin: var(--margin-ex) !important;
+	}
+
+	.lg\:visited\:margin-top\:ex:visited,
+	.lg\:visited\:mt\:ex:visited {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.lg\:visited\:margin-right\:ex:visited,
+	.lg\:visited\:mr\:ex:visited {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.lg\:visited\:margin-bottom\:ex:visited,
+	.lg\:visited\:mb\:ex:visited {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.lg\:visited\:margin-left\:ex:visited,
+	.lg\:visited\:ml\:ex:visited {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.lg\:visited\:margin-x\:ex:visited,
+	.lg\:visited\:mx\:ex:visited {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.lg\:visited\:margin-y\:ex:visited,
+	.lg\:visited\:my\:ex:visited {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.lg\:visited\:padding\:ex:visited,
+	.lg\:visited\:p\:ex:visited {
+		padding: var(--padding-ex) !important;
+	}
+
+	.lg\:visited\:padding-top\:ex:visited,
+	.lg\:visited\:pt\:ex:visited {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.lg\:visited\:padding-right\:ex:visited,
+	.lg\:visited\:pr\:ex:visited {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.lg\:visited\:padding-bottom\:ex:visited,
+	.lg\:visited\:pb\:ex:visited {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.lg\:visited\:padding-left\:ex:visited,
+	.lg\:visited\:pl\:ex:visited {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.lg\:visited\:padding-x\:ex:visited,
+	.lg\:visited\:px\:ex:visited {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.lg\:visited\:padding-y\:ex:visited,
+	.lg\:visited\:py\:ex:visited {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.lg\:visited\:gap\:ex:visited,
+	.lg\:visited\:g\:ex:visited {
+		gap: var(--gap-ex) !important;
+	}
+
+	.lg\:visited\:gap-row\:ex:visited,
+	.lg\:visited\:gr\:ex:visited {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.lg\:visited\:gap-column\:ex:visited,
+	.lg\:visited\:gc\:ex:visited {
+		column-gap: var(--gap-column-ex) !important;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -51102,6 +54342,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:margin\:ex,
+	.xl\:m\:ex {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:margin-top\:ex,
+	.xl\:mt\:ex {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:margin-right\:ex,
+	.xl\:mr\:ex {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:margin-bottom\:ex,
+	.xl\:mb\:ex {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:margin-left\:ex,
+	.xl\:ml\:ex {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:margin-x\:ex,
+	.xl\:mx\:ex {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:margin-y\:ex,
+	.xl\:my\:ex {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:padding\:ex,
+	.xl\:p\:ex {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:padding-top\:ex,
+	.xl\:pt\:ex {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:padding-right\:ex,
+	.xl\:pr\:ex {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:padding-bottom\:ex,
+	.xl\:pb\:ex {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:padding-left\:ex,
+	.xl\:pl\:ex {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:padding-x\:ex,
+	.xl\:px\:ex {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:padding-y\:ex,
+	.xl\:py\:ex {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:gap\:ex,
+	.xl\:g\:ex {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:gap-row\:ex,
+	.xl\:gr\:ex {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:gap-column\:ex,
+	.xl\:gc\:ex {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -52482,6 +55812,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:hover\:margin\:ex:hover,
+	.xl\:hover\:m\:ex:hover {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:hover\:margin-top\:ex:hover,
+	.xl\:hover\:mt\:ex:hover {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:hover\:margin-right\:ex:hover,
+	.xl\:hover\:mr\:ex:hover {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:hover\:margin-bottom\:ex:hover,
+	.xl\:hover\:mb\:ex:hover {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:hover\:margin-left\:ex:hover,
+	.xl\:hover\:ml\:ex:hover {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:hover\:margin-x\:ex:hover,
+	.xl\:hover\:mx\:ex:hover {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:hover\:margin-y\:ex:hover,
+	.xl\:hover\:my\:ex:hover {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:hover\:padding\:ex:hover,
+	.xl\:hover\:p\:ex:hover {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:hover\:padding-top\:ex:hover,
+	.xl\:hover\:pt\:ex:hover {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:hover\:padding-right\:ex:hover,
+	.xl\:hover\:pr\:ex:hover {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:hover\:padding-bottom\:ex:hover,
+	.xl\:hover\:pb\:ex:hover {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:hover\:padding-left\:ex:hover,
+	.xl\:hover\:pl\:ex:hover {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:hover\:padding-x\:ex:hover,
+	.xl\:hover\:px\:ex:hover {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:hover\:padding-y\:ex:hover,
+	.xl\:hover\:py\:ex:hover {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:hover\:gap\:ex:hover,
+	.xl\:hover\:g\:ex:hover {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:hover\:gap-row\:ex:hover,
+	.xl\:hover\:gr\:ex:hover {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:hover\:gap-column\:ex:hover,
+	.xl\:hover\:gc\:ex:hover {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -53864,6 +57284,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus\:margin\:ex:focus,
+	.xl\:focus\:m\:ex:focus {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:focus\:margin-top\:ex:focus,
+	.xl\:focus\:mt\:ex:focus {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:focus\:margin-right\:ex:focus,
+	.xl\:focus\:mr\:ex:focus {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:focus\:margin-bottom\:ex:focus,
+	.xl\:focus\:mb\:ex:focus {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:focus\:margin-left\:ex:focus,
+	.xl\:focus\:ml\:ex:focus {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:focus\:margin-x\:ex:focus,
+	.xl\:focus\:mx\:ex:focus {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:focus\:margin-y\:ex:focus,
+	.xl\:focus\:my\:ex:focus {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:focus\:padding\:ex:focus,
+	.xl\:focus\:p\:ex:focus {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:focus\:padding-top\:ex:focus,
+	.xl\:focus\:pt\:ex:focus {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:focus\:padding-right\:ex:focus,
+	.xl\:focus\:pr\:ex:focus {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:focus\:padding-bottom\:ex:focus,
+	.xl\:focus\:pb\:ex:focus {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:focus\:padding-left\:ex:focus,
+	.xl\:focus\:pl\:ex:focus {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:focus\:padding-x\:ex:focus,
+	.xl\:focus\:px\:ex:focus {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:focus\:padding-y\:ex:focus,
+	.xl\:focus\:py\:ex:focus {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:focus\:gap\:ex:focus,
+	.xl\:focus\:g\:ex:focus {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:focus\:gap-row\:ex:focus,
+	.xl\:focus\:gr\:ex:focus {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:focus\:gap-column\:ex:focus,
+	.xl\:focus\:gc\:ex:focus {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -55244,6 +58754,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-visible\:margin\:ex:focus-visible,
+	.xl\:focus-visible\:m\:ex:focus-visible {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-top\:ex:focus-visible,
+	.xl\:focus-visible\:mt\:ex:focus-visible {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-right\:ex:focus-visible,
+	.xl\:focus-visible\:mr\:ex:focus-visible {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:mb\:ex:focus-visible {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-left\:ex:focus-visible,
+	.xl\:focus-visible\:ml\:ex:focus-visible {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-x\:ex:focus-visible,
+	.xl\:focus-visible\:mx\:ex:focus-visible {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:margin-y\:ex:focus-visible,
+	.xl\:focus-visible\:my\:ex:focus-visible {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding\:ex:focus-visible,
+	.xl\:focus-visible\:p\:ex:focus-visible {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-top\:ex:focus-visible,
+	.xl\:focus-visible\:pt\:ex:focus-visible {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-right\:ex:focus-visible,
+	.xl\:focus-visible\:pr\:ex:focus-visible {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-bottom\:ex:focus-visible,
+	.xl\:focus-visible\:pb\:ex:focus-visible {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-left\:ex:focus-visible,
+	.xl\:focus-visible\:pl\:ex:focus-visible {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-x\:ex:focus-visible,
+	.xl\:focus-visible\:px\:ex:focus-visible {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:focus-visible\:padding-y\:ex:focus-visible,
+	.xl\:focus-visible\:py\:ex:focus-visible {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:focus-visible\:gap\:ex:focus-visible,
+	.xl\:focus-visible\:g\:ex:focus-visible {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:focus-visible\:gap-row\:ex:focus-visible,
+	.xl\:focus-visible\:gr\:ex:focus-visible {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:focus-visible\:gap-column\:ex:focus-visible,
+	.xl\:focus-visible\:gc\:ex:focus-visible {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -56626,6 +60226,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:focus-within\:margin\:ex:focus-within,
+	.xl\:focus-within\:m\:ex:focus-within {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-top\:ex:focus-within,
+	.xl\:focus-within\:mt\:ex:focus-within {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-right\:ex:focus-within,
+	.xl\:focus-within\:mr\:ex:focus-within {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-bottom\:ex:focus-within,
+	.xl\:focus-within\:mb\:ex:focus-within {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-left\:ex:focus-within,
+	.xl\:focus-within\:ml\:ex:focus-within {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-x\:ex:focus-within,
+	.xl\:focus-within\:mx\:ex:focus-within {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:focus-within\:margin-y\:ex:focus-within,
+	.xl\:focus-within\:my\:ex:focus-within {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:focus-within\:padding\:ex:focus-within,
+	.xl\:focus-within\:p\:ex:focus-within {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-top\:ex:focus-within,
+	.xl\:focus-within\:pt\:ex:focus-within {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-right\:ex:focus-within,
+	.xl\:focus-within\:pr\:ex:focus-within {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-bottom\:ex:focus-within,
+	.xl\:focus-within\:pb\:ex:focus-within {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-left\:ex:focus-within,
+	.xl\:focus-within\:pl\:ex:focus-within {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-x\:ex:focus-within,
+	.xl\:focus-within\:px\:ex:focus-within {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:focus-within\:padding-y\:ex:focus-within,
+	.xl\:focus-within\:py\:ex:focus-within {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:focus-within\:gap\:ex:focus-within,
+	.xl\:focus-within\:g\:ex:focus-within {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:focus-within\:gap-row\:ex:focus-within,
+	.xl\:focus-within\:gr\:ex:focus-within {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:focus-within\:gap-column\:ex:focus-within,
+	.xl\:focus-within\:gc\:ex:focus-within {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -58006,6 +61696,96 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:active\:margin\:ex:active,
+	.xl\:active\:m\:ex:active {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:active\:margin-top\:ex:active,
+	.xl\:active\:mt\:ex:active {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:active\:margin-right\:ex:active,
+	.xl\:active\:mr\:ex:active {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:active\:margin-bottom\:ex:active,
+	.xl\:active\:mb\:ex:active {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:active\:margin-left\:ex:active,
+	.xl\:active\:ml\:ex:active {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:active\:margin-x\:ex:active,
+	.xl\:active\:mx\:ex:active {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:active\:margin-y\:ex:active,
+	.xl\:active\:my\:ex:active {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:active\:padding\:ex:active,
+	.xl\:active\:p\:ex:active {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:active\:padding-top\:ex:active,
+	.xl\:active\:pt\:ex:active {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:active\:padding-right\:ex:active,
+	.xl\:active\:pr\:ex:active {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:active\:padding-bottom\:ex:active,
+	.xl\:active\:pb\:ex:active {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:active\:padding-left\:ex:active,
+	.xl\:active\:pl\:ex:active {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:active\:padding-x\:ex:active,
+	.xl\:active\:px\:ex:active {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:active\:padding-y\:ex:active,
+	.xl\:active\:py\:ex:active {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:active\:gap\:ex:active,
+	.xl\:active\:g\:ex:active {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:active\:gap-row\:ex:active,
+	.xl\:active\:gr\:ex:active {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:active\:gap-column\:ex:active,
+	.xl\:active\:gc\:ex:active {
+		column-gap: var(--gap-column-ex) !important;
+	}
 
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
@@ -59388,6 +63168,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:disabled\:margin\:ex:disabled,
+	.xl\:disabled\:m\:ex:disabled {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:disabled\:margin-top\:ex:disabled,
+	.xl\:disabled\:mt\:ex:disabled {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:disabled\:margin-right\:ex:disabled,
+	.xl\:disabled\:mr\:ex:disabled {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:disabled\:margin-bottom\:ex:disabled,
+	.xl\:disabled\:mb\:ex:disabled {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:margin-left\:ex:disabled,
+	.xl\:disabled\:ml\:ex:disabled {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:disabled\:margin-x\:ex:disabled,
+	.xl\:disabled\:mx\:ex:disabled {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:disabled\:margin-y\:ex:disabled,
+	.xl\:disabled\:my\:ex:disabled {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:disabled\:padding\:ex:disabled,
+	.xl\:disabled\:p\:ex:disabled {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:disabled\:padding-top\:ex:disabled,
+	.xl\:disabled\:pt\:ex:disabled {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:disabled\:padding-right\:ex:disabled,
+	.xl\:disabled\:pr\:ex:disabled {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:disabled\:padding-bottom\:ex:disabled,
+	.xl\:disabled\:pb\:ex:disabled {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:disabled\:padding-left\:ex:disabled,
+	.xl\:disabled\:pl\:ex:disabled {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:disabled\:padding-x\:ex:disabled,
+	.xl\:disabled\:px\:ex:disabled {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:disabled\:padding-y\:ex:disabled,
+	.xl\:disabled\:py\:ex:disabled {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:disabled\:gap\:ex:disabled,
+	.xl\:disabled\:g\:ex:disabled {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:disabled\:gap-row\:ex:disabled,
+	.xl\:disabled\:gr\:ex:disabled {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:disabled\:gap-column\:ex:disabled,
+	.xl\:disabled\:gc\:ex:disabled {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -60769,6 +64639,96 @@
 	}
 
 
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:checked\:margin\:ex:checked,
+	.xl\:checked\:m\:ex:checked {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:checked\:margin-top\:ex:checked,
+	.xl\:checked\:mt\:ex:checked {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:checked\:margin-right\:ex:checked,
+	.xl\:checked\:mr\:ex:checked {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:checked\:margin-bottom\:ex:checked,
+	.xl\:checked\:mb\:ex:checked {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:checked\:margin-left\:ex:checked,
+	.xl\:checked\:ml\:ex:checked {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:checked\:margin-x\:ex:checked,
+	.xl\:checked\:mx\:ex:checked {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:checked\:margin-y\:ex:checked,
+	.xl\:checked\:my\:ex:checked {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:checked\:padding\:ex:checked,
+	.xl\:checked\:p\:ex:checked {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:checked\:padding-top\:ex:checked,
+	.xl\:checked\:pt\:ex:checked {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:checked\:padding-right\:ex:checked,
+	.xl\:checked\:pr\:ex:checked {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:checked\:padding-bottom\:ex:checked,
+	.xl\:checked\:pb\:ex:checked {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:checked\:padding-left\:ex:checked,
+	.xl\:checked\:pl\:ex:checked {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:checked\:padding-x\:ex:checked,
+	.xl\:checked\:px\:ex:checked {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:checked\:padding-y\:ex:checked,
+	.xl\:checked\:py\:ex:checked {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:checked\:gap\:ex:checked,
+	.xl\:checked\:g\:ex:checked {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:checked\:gap-row\:ex:checked,
+	.xl\:checked\:gr\:ex:checked {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:checked\:gap-column\:ex:checked,
+	.xl\:checked\:gc\:ex:checked {
+		column-gap: var(--gap-column-ex) !important;
+	}
+
 	/* ===== SPACING UTILITIES — margin, padding, gap ===== */
 
 	/* MARGIN */
@@ -62149,4 +66109,94 @@
 		column-gap: var(--space-14) !important;
 	}
 
+
+	/* ===== ex — 값은 --속성-ex 변수 ===== */
+	.xl\:visited\:margin\:ex:visited,
+	.xl\:visited\:m\:ex:visited {
+		margin: var(--margin-ex) !important;
+	}
+
+	.xl\:visited\:margin-top\:ex:visited,
+	.xl\:visited\:mt\:ex:visited {
+		margin-top: var(--margin-top-ex) !important;
+	}
+
+	.xl\:visited\:margin-right\:ex:visited,
+	.xl\:visited\:mr\:ex:visited {
+		margin-right: var(--margin-right-ex) !important;
+	}
+
+	.xl\:visited\:margin-bottom\:ex:visited,
+	.xl\:visited\:mb\:ex:visited {
+		margin-bottom: var(--margin-bottom-ex) !important;
+	}
+
+	.xl\:visited\:margin-left\:ex:visited,
+	.xl\:visited\:ml\:ex:visited {
+		margin-left: var(--margin-left-ex) !important;
+	}
+
+	.xl\:visited\:margin-x\:ex:visited,
+	.xl\:visited\:mx\:ex:visited {
+		margin-left: var(--margin-x-ex) !important;
+		margin-right: var(--margin-x-ex) !important;
+	}
+
+	.xl\:visited\:margin-y\:ex:visited,
+	.xl\:visited\:my\:ex:visited {
+		margin-top: var(--margin-y-ex) !important;
+		margin-bottom: var(--margin-y-ex) !important;
+	}
+
+	.xl\:visited\:padding\:ex:visited,
+	.xl\:visited\:p\:ex:visited {
+		padding: var(--padding-ex) !important;
+	}
+
+	.xl\:visited\:padding-top\:ex:visited,
+	.xl\:visited\:pt\:ex:visited {
+		padding-top: var(--padding-top-ex) !important;
+	}
+
+	.xl\:visited\:padding-right\:ex:visited,
+	.xl\:visited\:pr\:ex:visited {
+		padding-right: var(--padding-right-ex) !important;
+	}
+
+	.xl\:visited\:padding-bottom\:ex:visited,
+	.xl\:visited\:pb\:ex:visited {
+		padding-bottom: var(--padding-bottom-ex) !important;
+	}
+
+	.xl\:visited\:padding-left\:ex:visited,
+	.xl\:visited\:pl\:ex:visited {
+		padding-left: var(--padding-left-ex) !important;
+	}
+
+	.xl\:visited\:padding-x\:ex:visited,
+	.xl\:visited\:px\:ex:visited {
+		padding-left: var(--padding-x-ex) !important;
+		padding-right: var(--padding-x-ex) !important;
+	}
+
+	.xl\:visited\:padding-y\:ex:visited,
+	.xl\:visited\:py\:ex:visited {
+		padding-top: var(--padding-y-ex) !important;
+		padding-bottom: var(--padding-y-ex) !important;
+	}
+
+	.xl\:visited\:gap\:ex:visited,
+	.xl\:visited\:g\:ex:visited {
+		gap: var(--gap-ex) !important;
+	}
+
+	.xl\:visited\:gap-row\:ex:visited,
+	.xl\:visited\:gr\:ex:visited {
+		row-gap: var(--gap-row-ex) !important;
+	}
+
+	.xl\:visited\:gap-column\:ex:visited,
+	.xl\:visited\:gc\:ex:visited {
+		column-gap: var(--gap-column-ex) !important;
+	}
 }
