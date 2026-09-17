@@ -22,7 +22,8 @@ function walkDir(dir, pattern, results = []) {
 }
 
 // Regex to match file extensions we care about.
-const FILE_EXT_RE = /\.(html|htm|tsx|jsx|vue|svelte|astro|php|erb|md|mdx|pug|hbs|ejs|njk)$/i;
+// .js/.ts 도 훑는다 — Next.js app 디렉터리의 page.js 처럼 확장자 없이 JSX 를 쓰는 파일이 많다 (0.6.3)
+const FILE_EXT_RE = /\.(html|htm|js|jsx|ts|tsx|mjs|cjs|vue|svelte|astro|php|erb|md|mdx|pug|hbs|ejs|njk)$/i;
 
 // Extract class-name-like tokens from file content.
 // Looks for patterns inside class="...", className="...", :class="...", class:list={[...]},
