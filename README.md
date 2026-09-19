@@ -2,7 +2,7 @@
 
 실제 CSS 속성명 그대로 쓰는 유틸리티 CSS. Tailwind 대체재.
 
-Tailwind 의 자체 명칭(`p-4`, `tracking-wide`) 대신 **실제 CSS 속성명**(`padding:4`, `letter-spacing:wide`) 또는 **유추 가능한 축약**(`p:4`, `ls:wide`)을 클래스 이름으로 씁니다. 모든 값은 `@newtil/design-tokens` 의 토큰을 참조하므로 토큰 하나를 바꾸면 전체 UI 가 함께 바뀝니다. 운영 빌드는 JIT 가 소스에서 실제로 쓴 클래스만 골라 출력하고, 모든 조합을 전개한 `dist/style.css`(약 12MB)는 개발·문서용입니다.
+Tailwind 의 자체 명칭(`p-4`, `tracking-wide`) 대신 **실제 CSS 속성명**(`padding:4`, `letter-spacing:wide`) 또는 **유추 가능한 축약**(`p:4`, `ls:wide`)을 클래스 이름으로 씁니다. 모든 값은 `@newtil/design-tokens` 의 토큰을 참조하므로 토큰 하나를 바꾸면 전체 UI 가 함께 바뀝니다. 운영 빌드는 JIT 가 소스에서 실제로 쓴 클래스만 골라 출력하고, 모든 조합을 전개한 `dist/utils.css`(약 13MB)는 개발·문서용입니다(`dist/style.css` 는 리셋·토큰·유틸리티를 `@import` 로 묶는 조합 파일).
 
 ## 설치
 
@@ -86,7 +86,7 @@ export default defineConfig({ plugins: [newtilCss()] });
 
 ```bash
 npm run generate     # generator/ 규칙 + design-tokens 로 css/util/ 생성
-npm run build        # generate 후 rollup 으로 dist/ 산출 (style.css, utils.css, reset.css)
+npm run build        # generate 후 rollup 으로 dist/ 산출 (utils.css, reset.css, tokens.css) + style.css 조합
 npm run docs:dev     # VitePress 문서 개발 서버
 npm run docs:build   # 문서 정적 빌드 (docs/.vitepress/dist)
 ```

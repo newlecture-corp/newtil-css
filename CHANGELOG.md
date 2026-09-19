@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.4 (2026-09-19) — 패키지 절반
+
+- `dist/style.css` 가 `utils.css`(13MB)를 통째로 한 번 더 품어 게시본이 26.6MB 였다. 이제 `style.css` 는 `reset.css` · `tokens.css` · `utils.css` 를 `@import` 로 묶는 조합 파일(수십 바이트)이고 유틸리티 전개본은 `utils.css` 한 벌만 있다. 결과 CSS 는 같다. `dist/tokens.css` 는 예전에 `style.css` 안에 인라인돼 있던 design-tokens 사본을 파일로 뺀 것.
+- CDN 에서 `dist/style.css` 를 `<link>` 하면 브라우저가 `@import` 세 개를 이어서 받는다(요청 1 → 3). 그게 싫으면 지금까지처럼 `dist/utils.css` 를 직접 링크한다.
+- 의존: `@newtil/design-tokens ^0.2.6`.
+
 ## 0.6.3 (2026-09-17) — `속성:ex`
 
 - 모든 `속성:값` 클래스에 `속성:ex` 를 추가한다(413개, 축약·반응형·상태 접두 포함). 값은 같은 요소의 `--속성-ex` 변수: `<div class="width:ex" style="--width-ex: 20px">`. 합성 속성(`padding-x:ex`)은 변수 하나로 양쪽, 함수 값(`blur:ex`)은 인자 자리에 변수, 고정 선언이 섞인 합성 유틸(`line-clamp:ex`)은 바뀌는 선언만 변수.

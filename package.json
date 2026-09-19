@@ -1,6 +1,6 @@
 {
 	"name": "@newtil/css",
-	"version": "0.6.3",
+	"version": "0.6.4",
 	"description": "Tailwind 대체재 — 실제 CSS 속성명/축약 기반 utility class. @newtil/design-tokens 위에 동작",
 	"publishConfig": {
 		"access": "public"
@@ -36,7 +36,7 @@
 	"license": "MIT",
 	"scripts": {
 		"generate": "node generator/generate.js",
-		"build": "npm run generate && rm -rf ./dist && rollup -c",
+		"build": "npm run generate && rm -rf ./dist && rollup -c && node generator/compose.js",
 		"deploy": "npm run build && npm publish",
 		"prepublishOnly": "npm run build",
 		"docs:dev": "vitepress dev docs --host",
@@ -71,6 +71,6 @@
 		"MIGRATION.md"
 	],
 	"dependencies": {
-		"@newtil/design-tokens": "^0.2.1"
+		"@newtil/design-tokens": "^0.2.6"
 	}
 }
